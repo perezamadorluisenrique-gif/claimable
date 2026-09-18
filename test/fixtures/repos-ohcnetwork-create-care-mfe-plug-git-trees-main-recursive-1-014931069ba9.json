@@ -1,0 +1,428 @@
+{
+  "path": "/repos/ohcnetwork/create-care-mfe-plug/git/trees/main?recursive=1",
+  "recordedFor": "/repos/ohcnetwork/create-care-mfe-plug/git/trees/main?recursive=1",
+  "status": 200,
+  "body": {
+    "sha": "d643659c1716f8b8c7808a03adc8caeb050db254",
+    "url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/git/trees/d643659c1716f8b8c7808a03adc8caeb050db254",
+    "tree": [
+      {
+        "path": ".github",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "455c707175c2802f4b089ec490c013346c2b325e",
+        "url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/git/trees/455c707175c2802f4b089ec490c013346c2b325e"
+      },
+      {
+        "path": ".github/workflows",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "78c1475410255961829ffcae916d07098b5c34e2",
+        "url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/git/trees/78c1475410255961829ffcae916d07098b5c34e2"
+      },
+      {
+        "path": ".github/workflows/publish.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3b9ab7a3d2a9c4fc058f54885e173956cb1f748d",
+        "size": 508,
+        "url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/git/blobs/3b9ab7a3d2a9c4fc058f54885e173956cb1f748d"
+      },
+      {
+        "path": ".gitignore",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "50ae36d320f5b2500cfe892465dbc58c83e7c2c8",
+        "size": 53,
+        "url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/git/blobs/50ae36d320f5b2500cfe892465dbc58c83e7c2c8"
+      },
+      {
+        "path": ".npmignore",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9dbb391a905e1075f2899ba217fc83330b2fbf1e",
+        "size": 164,
+        "url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/git/blobs/9dbb391a905e1075f2899ba217fc83330b2fbf1e"
+      },
+      {
+        "path": "README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c23bf9f043c1410090d402212d78867ea3b4c2e4",
+        "size": 2018,
+        "url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/git/blobs/c23bf9f043c1410090d402212d78867ea3b4c2e4"
+      },
+      {
+        "path": "bin",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "a412697aa2bbf226d48395cacfd3e89e59110694",
+        "url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/git/trees/a412697aa2bbf226d48395cacfd3e89e59110694"
+      },
+      {
+        "path": "bin/cli.js",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "fd331febfd93c9718df865010a25583926c815b6",
+        "size": 2003,
+        "url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/git/blobs/fd331febfd93c9718df865010a25583926c815b6"
+      },
+      {
+        "path": "package-lock.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3f8faa04937c443960249a199ea2e3b4523ce40e",
+        "size": 3477,
+        "url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/git/blobs/3f8faa04937c443960249a199ea2e3b4523ce40e"
+      },
+      {
+        "path": "package.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3395471af43874d17c3f74664a874ff7af08dbac",
+        "size": 728,
+        "url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/git/blobs/3395471af43874d17c3f74664a874ff7af08dbac"
+      },
+      {
+        "path": "src",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "500ba2b6511df9d72fc85ce331b5225f383efd34",
+        "url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/git/trees/500ba2b6511df9d72fc85ce331b5225f383efd34"
+      },
+      {
+        "path": "src/init.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9cde41bb2aa03307094fdc6c6c584497c1ffaf04",
+        "size": 3802,
+        "url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/git/blobs/9cde41bb2aa03307094fdc6c6c584497c1ffaf04"
+      },
+      {
+        "path": "src/utils.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "919c8574910be99e8b3ddbc61c53ec30f1654dd7",
+        "size": 1845,
+        "url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/git/blobs/919c8574910be99e8b3ddbc61c53ec30f1654dd7"
+      },
+      {
+        "path": "template",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "55f604c1c1623e8d33eb3d7edc6849b0479250ba",
+        "url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/git/trees/55f604c1c1623e8d33eb3d7edc6849b0479250ba"
+      },
+      {
+        "path": "template/.cursorrules",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b653a4c67fd5d00b116168719a474c1d2b83635e",
+        "size": 1241,
+        "url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/git/blobs/b653a4c67fd5d00b116168719a474c1d2b83635e"
+      },
+      {
+        "path": "template/.gitignore",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "708e1dd90a22e48bf50330e0301c0b697b18c0b5",
+        "size": 502,
+        "url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/git/blobs/708e1dd90a22e48bf50330e0301c0b697b18c0b5"
+      },
+      {
+        "path": "template/.husky",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "833ebd14c2f2ddef73596d50a65e551d5b3d05e2",
+        "url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/git/trees/833ebd14c2f2ddef73596d50a65e551d5b3d05e2"
+      },
+      {
+        "path": "template/.husky/pre-commit",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d0a778429a369218df7f719986395c730290d97c",
+        "size": 15,
+        "url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/git/blobs/d0a778429a369218df7f719986395c730290d97c"
+      },
+      {
+        "path": "template/.prettierrc.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a2fa9241b5109387f957a1700e7f5eeea670c65b",
+        "size": 676,
+        "url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/git/blobs/a2fa9241b5109387f957a1700e7f5eeea670c65b"
+      },
+      {
+        "path": "template/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4771c97ce5bb569e67f0304cce16b8fa4b9da22d",
+        "size": 34,
+        "url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/git/blobs/4771c97ce5bb569e67f0304cce16b8fa4b9da22d"
+      },
+      {
+        "path": "template/care-package.lock",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b31fa5ce1ed4abb0037b42ff5582360c55061065",
+        "size": 75,
+        "url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/git/blobs/b31fa5ce1ed4abb0037b42ff5582360c55061065"
+      },
+      {
+        "path": "template/components.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "723ae00ba0f8ec61b7a36008916ed76ce994b91b",
+        "size": 441,
+        "url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/git/blobs/723ae00ba0f8ec61b7a36008916ed76ce994b91b"
+      },
+      {
+        "path": "template/eslint.config.mjs",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2a6d84600eb47a0f5870eeaabbeb287054507919",
+        "size": 3312,
+        "url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/git/blobs/2a6d84600eb47a0f5870eeaabbeb287054507919"
+      },
+      {
+        "path": "template/index.html",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "46845ccbbe9d4b257eb96565c75ffe022870d8d2",
+        "size": 2014,
+        "url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/git/blobs/46845ccbbe9d4b257eb96565c75ffe022870d8d2"
+      },
+      {
+        "path": "template/nodemon.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4c72c5e6b5e36bab0649de6c15fc90910d04af4b",
+        "size": 168,
+        "url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/git/blobs/4c72c5e6b5e36bab0649de6c15fc90910d04af4b"
+      },
+      {
+        "path": "template/package.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "98f220b7837041f0b9d030fcaeff6b3aa1db4bc0",
+        "size": 2885,
+        "url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/git/blobs/98f220b7837041f0b9d030fcaeff6b3aa1db4bc0"
+      },
+      {
+        "path": "template/public",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "b79d025e4bb0a69e8e68ba3165779e92cc9f3f7b",
+        "url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/git/trees/b79d025e4bb0a69e8e68ba3165779e92cc9f3f7b"
+      },
+      {
+        "path": "template/public/locale",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "2411a191ce36b84eb6aa5142f8628afc255d7187",
+        "url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/git/trees/2411a191ce36b84eb6aa5142f8628afc255d7187"
+      },
+      {
+        "path": "template/public/locale/en.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9e26dfeeb6e641a33dae4961196235bdb965b21b",
+        "size": 2,
+        "url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/git/blobs/9e26dfeeb6e641a33dae4961196235bdb965b21b"
+      },
+      {
+        "path": "template/scripts",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ff3ed3b1d34fd8cfaac09250edf4a02548c6cd1a",
+        "url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/git/trees/ff3ed3b1d34fd8cfaac09250edf4a02548c6cd1a"
+      },
+      {
+        "path": "template/scripts/sort-locales.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0709e0abf17ac51ce5c29ab9ab3863268e1b57b0",
+        "size": 415,
+        "url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/git/blobs/0709e0abf17ac51ce5c29ab9ab3863268e1b57b0"
+      },
+      {
+        "path": "template/src",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "c79630c3d30fe0ba9148e18c4b24f8467a51fe51",
+        "url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/git/trees/c79630c3d30fe0ba9148e18c4b24f8467a51fe51"
+      },
+      {
+        "path": "template/src/components",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "07fd1b996e34dcff2bf16d69fa46c1f0f8fb27b9",
+        "url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/git/trees/07fd1b996e34dcff2bf16d69fa46c1f0f8fb27b9"
+      },
+      {
+        "path": "template/src/components/ui",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "998e1d386946e00f7baedf7d30564c417e7529fa",
+        "url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/git/trees/998e1d386946e00f7baedf7d30564c417e7529fa"
+      },
+      {
+        "path": "template/src/components/ui/button.tsx",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1f19458ddc2ba0ddd9489ffc4cb08189ff1fb915",
+        "size": 3437,
+        "url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/git/blobs/1f19458ddc2ba0ddd9489ffc4cb08189ff1fb915"
+      },
+      {
+        "path": "template/src/css.d.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b54233a8ee4fba8b702e8f72b098743dc6312e76",
+        "size": 103,
+        "url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/git/blobs/b54233a8ee4fba8b702e8f72b098743dc6312e76"
+      },
+      {
+        "path": "template/src/hooks",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "399d4400ccb400e6068bc111e2a29599f3d2dffe",
+        "url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/git/trees/399d4400ccb400e6068bc111e2a29599f3d2dffe"
+      },
+      {
+        "path": "template/src/hooks/useTranslation.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e2690820bf7c62d6577622e540167c3eaa1f0a97",
+        "size": 170,
+        "url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/git/blobs/e2690820bf7c62d6577622e540167c3eaa1f0a97"
+      },
+      {
+        "path": "template/src/index.css",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d5c4b22fc0052bda521de4178f6c675b8f8d5cf6",
+        "size": 588,
+        "url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/git/blobs/d5c4b22fc0052bda521de4178f6c675b8f8d5cf6"
+      },
+      {
+        "path": "template/src/index.tsx",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a672e952a2ad3cb41537745b00a6471fdc3d6866",
+        "size": 240,
+        "url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/git/blobs/a672e952a2ad3cb41537745b00a6471fdc3d6866"
+      },
+      {
+        "path": "template/src/lib",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "45fc77cb431de9c192de1da0c34e2ea05321313e",
+        "url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/git/trees/45fc77cb431de9c192de1da0c34e2ea05321313e"
+      },
+      {
+        "path": "template/src/lib/request.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e1bbdc9779e5fb9042100ee608da6d1e9c36b484",
+        "size": 5131,
+        "url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/git/blobs/e1bbdc9779e5fb9042100ee608da6d1e9c36b484"
+      },
+      {
+        "path": "template/src/lib/types",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "85b91abd60dac1f6bb9806b2dbd5e862a35718a8",
+        "url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/git/trees/85b91abd60dac1f6bb9806b2dbd5e862a35718a8"
+      },
+      {
+        "path": "template/src/lib/types/common.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0e3fc745428855228894ad0c2e9d798ea92dfef9",
+        "size": 223,
+        "url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/git/blobs/0e3fc745428855228894ad0c2e9d798ea92dfef9"
+      },
+      {
+        "path": "template/src/lib/utils.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2aeb781d47673ff91f0e6dda944ca6640d554874",
+        "size": 246,
+        "url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/git/blobs/2aeb781d47673ff91f0e6dda944ca6640d554874"
+      },
+      {
+        "path": "template/src/manifest.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "76cb56cda4cc3f03a6cd794c9d0e592df3e968f7",
+        "size": 183,
+        "url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/git/blobs/76cb56cda4cc3f03a6cd794c9d0e592df3e968f7"
+      },
+      {
+        "path": "template/src/routes.tsx",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e37648677245b3388f0aa2fda33477a537b390b7",
+        "size": 43,
+        "url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/git/blobs/e37648677245b3388f0aa2fda33477a537b390b7"
+      },
+      {
+        "path": "template/src/state",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "a3b7b5bd2a9453c213229c7389d2d14697b47cd0",
+        "url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/git/trees/a3b7b5bd2a9453c213229c7389d2d14697b47cd0"
+      },
+      {
+        "path": "template/src/state/user-atom.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "59ab3be7c086aa553d2738c29b8409bdfa83afa5",
+        "size": 261,
+        "url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/git/blobs/59ab3be7c086aa553d2738c29b8409bdfa83afa5"
+      },
+      {
+        "path": "template/tailwind.config.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ed42413097ebca8b8cf82237aee001f238296776",
+        "size": 1676,
+        "url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/git/blobs/ed42413097ebca8b8cf82237aee001f238296776"
+      },
+      {
+        "path": "template/tsconfig.app.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5d3186223829a0bbb71a984845f16ff5fa6e25bc",
+        "size": 744,
+        "url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/git/blobs/5d3186223829a0bbb71a984845f16ff5fa6e25bc"
+      },
+      {
+        "path": "template/tsconfig.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fec8c8e5c2180153eb5f3cab9eb70001cd99964b",
+        "size": 213,
+        "url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/git/blobs/fec8c8e5c2180153eb5f3cab9eb70001cd99964b"
+      },
+      {
+        "path": "template/tsconfig.node.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dc608fc043b740a8cb38c4e7283c8a974444eb12",
+        "size": 594,
+        "url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/git/blobs/dc608fc043b740a8cb38c4e7283c8a974444eb12"
+      },
+      {
+        "path": "template/vite.config.mts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "78a7b64ee45bbe81bb1157798ba83c270710f59b",
+        "size": 1166,
+        "url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/git/blobs/78a7b64ee45bbe81bb1157798ba83c270710f59b"
+      }
+    ],
+    "truncated": false
+  }
+}

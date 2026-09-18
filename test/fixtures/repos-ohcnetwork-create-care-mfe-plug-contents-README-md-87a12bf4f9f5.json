@@ -1,0 +1,23 @@
+{
+  "path": "/repos/ohcnetwork/create-care-mfe-plug/contents/README.md",
+  "recordedFor": "/repos/ohcnetwork/create-care-mfe-plug/contents/README.md",
+  "status": 200,
+  "body": {
+    "name": "README.md",
+    "path": "README.md",
+    "sha": "c23bf9f043c1410090d402212d78867ea3b4c2e4",
+    "size": 2018,
+    "url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/contents/README.md?ref=main",
+    "html_url": "https://github.com/ohcnetwork/create-care-mfe-plug/blob/main/README.md",
+    "git_url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/git/blobs/c23bf9f043c1410090d402212d78867ea3b4c2e4",
+    "download_url": "https://raw.githubusercontent.com/ohcnetwork/create-care-mfe-plug/main/README.md",
+    "type": "file",
+    "content": "IyBjcmVhdGUtY2FyZS1tZmUtcGx1ZwoKQ0xJIHRvb2wgdG8gc2NhZmZvbGQg\nQ2FyZSBGRSBwbHVnaW5zIHF1aWNrbHkgYW5kIGVhc2lseS4KCiMjIFVzYWdl\nCgojIyMgVXNpbmcgbnB4IChSZWNvbW1lbmRlZCkKCmBgYGJhc2gKbnB4IGNy\nZWF0ZS1jYXJlLW1mZS1wbHVnIG15LXBsdWdpbi1uYW1lCmBgYAoKIyMjIFVz\naW5nIG5wbQoKYGBgYmFzaApucG0gaW5zdGFsbCAtZyBjcmVhdGUtY2FyZS1t\nZmUtcGx1ZwpjcmVhdGUtY2FyZS1tZmUtcGx1ZyBteS1wbHVnaW4tbmFtZQpg\nYGAKCiMjIyBJbnRlcmFjdGl2ZSBNb2RlCgpJZiB5b3UgZG9uJ3QgcHJvdmlk\nZSBhIHByb2plY3QgbmFtZSwgdGhlIENMSSB3aWxsIHByb21wdCB5b3UgZm9y\nIG9uZToKCmBgYGJhc2gKbnB4IGNyZWF0ZS1jYXJlLW1mZS1wbHVnCmBgYAoK\nIyMgV2hhdCBpdCBkb2VzCgpUaGUgQ0xJIHdpbGw6CgoxLiAqKlByb21wdCBm\nb3IgcHJvamVjdCBuYW1lKiogLSBJZiBub3QgcHJvdmlkZWQgYXMgYW4gYXJn\ndW1lbnQKMi4gKipQcm9tcHQgZm9yIHBvcnQgbnVtYmVyKiogLSBEZWZhdWx0\nIGlzIDEwMTIwCjMuICoqQ3JlYXRlIGEgbmV3IGRpcmVjdG9yeSoqIHdpdGgg\neW91ciBwcm9qZWN0IG5hbWUKNC4gKipDb3B5IHRoZSB0ZW1wbGF0ZSoqIGZp\nbGVzCjUuICoqQ29uZmlndXJlIHRoZSBwcm9qZWN0Kiogd2l0aCBwcm9wZXIg\nbmFtZSB0cmFuc2Zvcm1hdGlvbnM6CiAgIC0gKipQYWNrYWdlIG5hbWUqKjog\nVXNlcyB5b3VyIGlucHV0IGFzLWlzIChlLmcuLCAiTXlQbHVnaW4iKQogICAt\nICoqVml0ZSBmZWRlcmF0aW9uIG5hbWUqKjogQ29udmVydHMgdG8gc25ha2Vf\nY2FzZSAoZS5nLiwgIm15X3BsdWdpbiIpCiAgIC0gKipQbHVnaW4gbWFuaWZl\nc3QqKjogQ29udmVydHMgdG8ga2ViYWItY2FzZSAoZS5nLiwgIm15LXBsdWdp\nbiIpCjYuICoqU2V0IHRoZSBwb3J0IG51bWJlcioqIGluIHRoZSBWaXRlIGNv\nbmZpZwoKIyMgRXhhbXBsZQoKYGBgYmFzaAokIG5weCBjcmVhdGUtY2FyZS1t\nZmUtcGx1ZyBjYXJlLXBhdGllbnQtdml0YWxzCgrwn4+lIENyZWF0ZSBDYXJl\nIEZFIFBsdWdpbgoK4pyUIFdoYXQgcG9ydCBzaG91bGQgdGhlIGRldiBzZXJ2\nZXIgcnVuIG9uPyDigKYgMTAxMjAKCvCfmoAgQ3JlYXRpbmcgbmV3IENhcmUg\nRkUgcGx1Z2luLi4uCgrwn5OBIENvcHlpbmcgdGVtcGxhdGUgZmlsZXMuLi4K\n8J+UpyBDb25maWd1cmluZyBwcm9qZWN0Li4uCgrinIUgUHJvamVjdCBjcmVh\ndGVkIHN1Y2Nlc3NmdWxseSEKCk5leHQgc3RlcHM6CgogIGNkIGNhcmUtcGF0\naWVudC12aXRhbHMKICBucG0gaW5zdGFsbAogIG5wbSBzdGFydAoKICBZb3Vy\nIHBsdWdpbiB3aWxsIGJlIGF2YWlsYWJsZSBhdCBodHRwOi8vbG9jYWxob3N0\nOjEwMTIwCmBgYAoKIyMgUHJvamVjdCBTdHJ1Y3R1cmUKClRoZSBnZW5lcmF0\nZWQgcHJvamVjdCBpbmNsdWRlczoKCi0gKipSZWFjdCAxOSoqIHdpdGggVHlw\nZVNjcmlwdAotICoqVml0ZSoqIGZvciBidWlsZCB0b29saW5nCi0gKipNb2R1\nbGUgRmVkZXJhdGlvbioqIGZvciBwbHVnaW4gYXJjaGl0ZWN0dXJlCi0gKipU\nYWlsd2luZENTUyoqIGZvciBzdHlsaW5nCi0gKipSYWRpeCBVSSoqIGNvbXBv\nbmVudHMKLSAqKlJlYWN0IFF1ZXJ5KiogZm9yIGRhdGEgZmV0Y2hpbmcKLSAq\nKmkxOG5leHQqKiBmb3IgaW50ZXJuYXRpb25hbGl6YXRpb24KLSAqKkVTTGlu\ndCAmIFByZXR0aWVyKiogZm9yIGNvZGUgcXVhbGl0eQotICoqSHVza3kqKiBm\nb3IgZ2l0IGhvb2tzCgojIyBSZXF1aXJlbWVudHMKCi0gTm9kZS5qcyA+PSAx\nOC4wLjAKLSBucG0gb3IgeWFybgoKIyMgRGV2ZWxvcG1lbnQKCkFmdGVyIGNy\nZWF0aW5nIHlvdXIgcGx1Z2luOgoKYGBgYmFzaApjZCB5b3VyLXBsdWdpbi1u\nYW1lCm5wbSBpbnN0YWxsCm5wbSBzdGFydApgYGAKCllvdXIgcGx1Z2luIHdp\nbGwgYmUgYXZhaWxhYmxlIGF0IHRoZSBwb3J0IHlvdSBzcGVjaWZpZWQgZHVy\naW5nIHNldHVwLgoKIyMgQnVpbGRpbmcgZm9yIFByb2R1Y3Rpb24KCmBgYGJh\nc2gKbnBtIHJ1biBidWlsZApgYGAKCiMjIExpY2Vuc2UKCk1JVAo=\n",
+    "encoding": "base64",
+    "_links": {
+      "self": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/contents/README.md?ref=main",
+      "git": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/git/blobs/c23bf9f043c1410090d402212d78867ea3b4c2e4",
+      "html": "https://github.com/ohcnetwork/create-care-mfe-plug/blob/main/README.md"
+    }
+  }
+}

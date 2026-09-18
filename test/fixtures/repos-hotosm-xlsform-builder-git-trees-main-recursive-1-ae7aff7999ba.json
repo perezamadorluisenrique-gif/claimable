@@ -1,0 +1,791 @@
+{
+  "path": "/repos/hotosm/xlsform-builder/git/trees/main?recursive=1",
+  "recordedFor": "/repos/hotosm/xlsform-builder/git/trees/main?recursive=1",
+  "status": 200,
+  "body": {
+    "sha": "122f6888da1271b5c806d30d373e2fbc1b3835ac",
+    "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/trees/122f6888da1271b5c806d30d373e2fbc1b3835ac",
+    "tree": [
+      {
+        "path": ".env.example",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d5fd7512fbc2bd194a592c0bd88e40891b6455bc",
+        "size": 253,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/d5fd7512fbc2bd194a592c0bd88e40891b6455bc"
+      },
+      {
+        "path": ".github",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "aab5c41e5b0d37bf1e0a751f4b91cab43307f904",
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/trees/aab5c41e5b0d37bf1e0a751f4b91cab43307f904"
+      },
+      {
+        "path": ".github/workflows",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "504e8f6491ddadcb99e417ab86c2ac01f4d0ca82",
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/trees/504e8f6491ddadcb99e417ab86c2ac01f4d0ca82"
+      },
+      {
+        "path": ".github/workflows/pages_deploy.yaml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3a0b9cfbd7c20cd634b5719b1c652ada89156697",
+        "size": 1572,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/3a0b9cfbd7c20cd634b5719b1c652ada89156697"
+      },
+      {
+        "path": ".github/workflows/release_binary.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ad143e6651fafc4eee08cdaa7f0238845617c18f",
+        "size": 641,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/ad143e6651fafc4eee08cdaa7f0238845617c18f"
+      },
+      {
+        "path": ".github/workflows/release_chart.yaml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "de8e50f0b6c88f619b80aa7c34bc8d18c5ffc5c7",
+        "size": 440,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/de8e50f0b6c88f619b80aa7c34bc8d18c5ffc5c7"
+      },
+      {
+        "path": ".github/workflows/release_image.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "59025761ba498a2296ae23a205ca806fd3864a42",
+        "size": 732,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/59025761ba498a2296ae23a205ca806fd3864a42"
+      },
+      {
+        "path": ".gitignore",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9f51f98cdc971440cedac1d1b2a169813e4854fb",
+        "size": 416,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/9f51f98cdc971440cedac1d1b2a169813e4854fb"
+      },
+      {
+        "path": ".goreleaser.yaml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5599d7d4bd3dbe1e1903b75d991b80b1baa7233c",
+        "size": 790,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/5599d7d4bd3dbe1e1903b75d991b80b1baa7233c"
+      },
+      {
+        "path": ".npmrc",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "62e6dcf6efcd5b9968755f5774b28eff5a918f0e",
+        "size": 95,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/62e6dcf6efcd5b9968755f5774b28eff5a918f0e"
+      },
+      {
+        "path": ".prettierignore",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bb6545c04993e4b01bb8c30121b1b0f9b5a1cacf",
+        "size": 94,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/bb6545c04993e4b01bb8c30121b1b0f9b5a1cacf"
+      },
+      {
+        "path": ".prettierrc",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "29e33d548eb2f2050a7675dbed86f69b3ec12c57",
+        "size": 533,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/29e33d548eb2f2050a7675dbed86f69b3ec12c57"
+      },
+      {
+        "path": ".vscode",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "0c065b924bb5fa4111890dc78b76d68cc1d6d403",
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/trees/0c065b924bb5fa4111890dc78b76d68cc1d6d403"
+      },
+      {
+        "path": ".vscode/extensions.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a7cea0b0678120a1b590d1b6592c7318039b9179",
+        "size": 39,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/a7cea0b0678120a1b590d1b6592c7318039b9179"
+      },
+      {
+        "path": "CNAME",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "58013e050fe8f68c0d86431d42209c6b7605dd8c",
+        "size": 26,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/58013e050fe8f68c0d86431d42209c6b7605dd8c"
+      },
+      {
+        "path": "Dockerfile",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "aefe7a3e1c480f6ba9fb1ce0a7f043a75222c630",
+        "size": 655,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/aefe7a3e1c480f6ba9fb1ce0a7f043a75222c630"
+      },
+      {
+        "path": "Justfile",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "10c2fdd1dcd2cb9efff9cc707c7756ca614a23a0",
+        "size": 1088,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/10c2fdd1dcd2cb9efff9cc707c7756ca614a23a0"
+      },
+      {
+        "path": "LICENSE.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3c805b55db48ebd6afb925b90b744d3f232082db",
+        "size": 34102,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/3c805b55db48ebd6afb925b90b744d3f232082db"
+      },
+      {
+        "path": "README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "76669b7094bcfe3a4ef4ea6051b4b0f81227f03c",
+        "size": 506,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/76669b7094bcfe3a4ef4ea6051b4b0f81227f03c"
+      },
+      {
+        "path": "backend",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "466049307e6e94f1c0d98cf6c7908fc186c081b4",
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/trees/466049307e6e94f1c0d98cf6c7908fc186c081b4"
+      },
+      {
+        "path": "backend/.dockerignore",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2caca8d22c56d0bffdac943b7626f28de1a6b3c2",
+        "size": 108,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/2caca8d22c56d0bffdac943b7626f28de1a6b3c2"
+      },
+      {
+        "path": "backend/.env.example",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "50d367563a89d6784c2c6ffc8b3ea4ee16b3c91a",
+        "size": 320,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/50d367563a89d6784c2c6ffc8b3ea4ee16b3c91a"
+      },
+      {
+        "path": "backend/Dockerfile",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bda97cc55d7186484fab7907fe3c835eda42d173",
+        "size": 306,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/bda97cc55d7186484fab7907fe3c835eda42d173"
+      },
+      {
+        "path": "backend/go.mod",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6413c645d17140a1226943a120952e1f9aab3220",
+        "size": 1269,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/6413c645d17140a1226943a120952e1f9aab3220"
+      },
+      {
+        "path": "backend/go.sum",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a9a39099fdbcf225bd83bebbebb2f459b9df54a3",
+        "size": 3949,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/a9a39099fdbcf225bd83bebbebb2f459b9df54a3"
+      },
+      {
+        "path": "backend/main.go",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "59d322c4b4c5b8081dc35633cb68388a2e039049",
+        "size": 21209,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/59d322c4b4c5b8081dc35633cb68388a2e039049"
+      },
+      {
+        "path": "backend/prompt.go",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5077c3d4300191471848bdf9bca1440fe91f5d4c",
+        "size": 6458,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/5077c3d4300191471848bdf9bca1440fe91f5d4c"
+      },
+      {
+        "path": "chart",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "bb0fe5a44b453cafcc866cc42082b8539df5ee7e",
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/trees/bb0fe5a44b453cafcc866cc42082b8539df5ee7e"
+      },
+      {
+        "path": "chart/Chart.yaml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8b454449c118cb8bf0a20eee1e47f98dfa123479",
+        "size": 128,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/8b454449c118cb8bf0a20eee1e47f98dfa123479"
+      },
+      {
+        "path": "chart/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "101e97dbe37cacfe60da55c0441b8c16de37df79",
+        "size": 3901,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/101e97dbe37cacfe60da55c0441b8c16de37df79"
+      },
+      {
+        "path": "chart/templates",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ffd1c8d9eddb6a52100b91152fdd9b19c1ad7252",
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/trees/ffd1c8d9eddb6a52100b91152fdd9b19c1ad7252"
+      },
+      {
+        "path": "chart/templates/_helpers.tpl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "eaf60070c32178dacc363c45acd65a1b06be6f90",
+        "size": 1516,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/eaf60070c32178dacc363c45acd65a1b06be6f90"
+      },
+      {
+        "path": "chart/templates/backend-deployment.yaml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "31148acb8f4f64f9d2d115b2defea52a380c721e",
+        "size": 3984,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/31148acb8f4f64f9d2d115b2defea52a380c721e"
+      },
+      {
+        "path": "chart/templates/backend-service.yaml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a64c06bde244b352ba27c2a0f08777de6b5df3b5",
+        "size": 470,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/a64c06bde244b352ba27c2a0f08777de6b5df3b5"
+      },
+      {
+        "path": "chart/templates/frontend-deployment.yaml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cf9dff096c33da375188c762f9119cfff2b5315f",
+        "size": 1405,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/cf9dff096c33da375188c762f9119cfff2b5315f"
+      },
+      {
+        "path": "chart/templates/frontend-service.yaml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8be72f71e1795495208ea113ae8532c76733a103",
+        "size": 475,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/8be72f71e1795495208ea113ae8532c76733a103"
+      },
+      {
+        "path": "chart/templates/ingress.yaml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "08c32da9e09e2136fd9997e9dced6e3609b99579",
+        "size": 2136,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/08c32da9e09e2136fd9997e9dced6e3609b99579"
+      },
+      {
+        "path": "chart/templates/llama-deployment.yaml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ae7a050e5ec2c25840141f1e5d3a8bfce089ed59",
+        "size": 1821,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/ae7a050e5ec2c25840141f1e5d3a8bfce089ed59"
+      },
+      {
+        "path": "chart/templates/llama-service.yaml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f0be5d1e981830aca0946022ee81660eeb2101f3",
+        "size": 503,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/f0be5d1e981830aca0946022ee81660eeb2101f3"
+      },
+      {
+        "path": "chart/templates/pyxform-deployment.yaml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1908d5878d3cebd95ae31903800b64d8ebfa8e66",
+        "size": 1300,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/1908d5878d3cebd95ae31903800b64d8ebfa8e66"
+      },
+      {
+        "path": "chart/templates/pyxform-service.yaml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9dc64fbcd1cd78a2613c0952c69c5f50de1fd0f1",
+        "size": 470,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/9dc64fbcd1cd78a2613c0952c69c5f50de1fd0f1"
+      },
+      {
+        "path": "chart/values.yaml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f6dab4912e5b3c86a9a255fe4d4015b24e4a1ebd",
+        "size": 2059,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/f6dab4912e5b3c86a9a255fe4d4015b24e4a1ebd"
+      },
+      {
+        "path": "compose.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bd8b3c1a298cc15c3fb76f04c3723ea72c48ad2b",
+        "size": 3458,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/bd8b3c1a298cc15c3fb76f04c3723ea72c48ad2b"
+      },
+      {
+        "path": "docker-entrypoint.sh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "56103c37078063e4f801d1303c45825fb8621285",
+        "size": 365,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/56103c37078063e4f801d1303c45825fb8621285"
+      },
+      {
+        "path": "eslint.config.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5cd3d898eb0bf1a132be97caf83721eb1fa9a9f8",
+        "size": 4621,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/5cd3d898eb0bf1a132be97caf83721eb1fa9a9f8"
+      },
+      {
+        "path": "index.html",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f2e071c6fa428edc599abd6b33b9a5756e899d90",
+        "size": 602,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/f2e071c6fa428edc599abd6b33b9a5756e899d90"
+      },
+      {
+        "path": "infra",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "dc57f1b9d7cefbc3d5d4a65fcc298d03979cd361",
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/trees/dc57f1b9d7cefbc3d5d4a65fcc298d03979cd361"
+      },
+      {
+        "path": "infra/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9ff968f4941fa51f09aaf49afcb8bd84b1a87522",
+        "size": 105,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/9ff968f4941fa51f09aaf49afcb8bd84b1a87522"
+      },
+      {
+        "path": "infra/apply-lifecycle.sh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c854dd32e3da252c6532e8365d1462b8c0ee83c9",
+        "size": 135,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/c854dd32e3da252c6532e8365d1462b8c0ee83c9"
+      },
+      {
+        "path": "infra/lifecycle.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e844cb18f1e8d221a13bcfe563b090f0c8843ed9",
+        "size": 296,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/e844cb18f1e8d221a13bcfe563b090f0c8843ed9"
+      },
+      {
+        "path": "llm_server",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "c964c7cf1902f9ceefb9807b33bcfba1266bdb36",
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/trees/c964c7cf1902f9ceefb9807b33bcfba1266bdb36"
+      },
+      {
+        "path": "llm_server/Dockerfile",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c0c17c3d77a9f818f457dd2b1d60b4a919919b11",
+        "size": 3310,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/c0c17c3d77a9f818f457dd2b1d60b4a919919b11"
+      },
+      {
+        "path": "nginx.conf",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a62d98e7cb0c98808d52ad9ea8bccbcc012e37a2",
+        "size": 380,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/a62d98e7cb0c98808d52ad9ea8bccbcc012e37a2"
+      },
+      {
+        "path": "package.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b08b4906f1f0508711950fd34d7f5ef342729d84",
+        "size": 1165,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/b08b4906f1f0508711950fd34d7f5ef342729d84"
+      },
+      {
+        "path": "pnpm-lock.yaml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "81fd425105df8cc905f435ea413787ec8e8cbfcf",
+        "size": 108474,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/81fd425105df8cc905f435ea413787ec8e8cbfcf"
+      },
+      {
+        "path": "public",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "fbd9e09b1599641ceafd714a890fa02368ca38d6",
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/trees/fbd9e09b1599641ceafd714a890fa02368ca38d6"
+      },
+      {
+        "path": "public/CNAME",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "196f944f3c2ad52bf0f8942369072814f7b194a3",
+        "size": 32,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/196f944f3c2ad52bf0f8942369072814f7b194a3"
+      },
+      {
+        "path": "public/favicon.svg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "548554865d128e0d77670608eff2af0c3af4349e",
+        "size": 2463,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/548554865d128e0d77670608eff2af0c3af4349e"
+      },
+      {
+        "path": "scripts",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "26d5b92531ece139d9ce6bdc4c090c945d222f89",
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/trees/26d5b92531ece139d9ce6bdc4c090c945d222f89"
+      },
+      {
+        "path": "scripts/fixtures",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "8b14a00292454a49e7bcdf2ba7daa0790a1cae7c",
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/trees/8b14a00292454a49e7bcdf2ba7daa0790a1cae7c"
+      },
+      {
+        "path": "scripts/fixtures/field-survey.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3b01b79ada1e92277ef41455dd0652769c1952e8",
+        "size": 2613,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/3b01b79ada1e92277ef41455dd0652769c1952e8"
+      },
+      {
+        "path": "scripts/verify-e2e.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ed8b34828a5d2f2bc3560c107ffdeb12f9b21f46",
+        "size": 3240,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/ed8b34828a5d2f2bc3560c107ffdeb12f9b21f46"
+      },
+      {
+        "path": "src",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "737edae73c74715b84389ca45d7982c47fbaec50",
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/trees/737edae73c74715b84389ca45d7982c47fbaec50"
+      },
+      {
+        "path": "src/App.vue",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8f0a0b709a152b66bb40105a44d76f08182e92ac",
+        "size": 2009,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/8f0a0b709a152b66bb40105a44d76f08182e92ac"
+      },
+      {
+        "path": "src/components",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "71a26bd572c781d14604197300a3d1ef5a1a943b",
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/trees/71a26bd572c781d14604197300a3d1ef5a1a943b"
+      },
+      {
+        "path": "src/components/FormPreview.vue",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c9188767ff558e542ee6ec24e74b5023e344a28c",
+        "size": 5579,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/c9188767ff558e542ee6ec24e74b5023e344a28c"
+      },
+      {
+        "path": "src/components/FormRecord.vue",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8b82c57402b582ba39ddbca85316affe22772803",
+        "size": 5832,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/8b82c57402b582ba39ddbca85316affe22772803"
+      },
+      {
+        "path": "src/main.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "df2abed220026ea96f72c9727eabd955ae4b681d",
+        "size": 474,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/df2abed220026ea96f72c9727eabd955ae4b681d"
+      },
+      {
+        "path": "src/pages",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "a37d88e0d5eb0a92806a68aba37c0eb131bef8c6",
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/trees/a37d88e0d5eb0a92806a68aba37c0eb131bef8c6"
+      },
+      {
+        "path": "src/pages/FormBuilder.vue",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3912e4ede4a84dd7f8064e613e3a04d71095434b",
+        "size": 4135,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/3912e4ede4a84dd7f8064e613e3a04d71095434b"
+      },
+      {
+        "path": "src/pages/FormExamples.vue",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "95e79603d8815cc57439a12bb6831dafc5573f6c",
+        "size": 2484,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/95e79603d8815cc57439a12bb6831dafc5573f6c"
+      },
+      {
+        "path": "src/pages/FormUpload.vue",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "db738e54eb16844fa62f095d0fa17724a66aaa41",
+        "size": 5636,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/db738e54eb16844fa62f095d0fa17724a66aaa41"
+      },
+      {
+        "path": "src/pages/NotFound.vue",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "74bc98f6e6193e084fccbaaf77c1ddd61a97004d",
+        "size": 37,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/74bc98f6e6193e084fccbaaf77c1ddd61a97004d"
+      },
+      {
+        "path": "src/services",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "6ef13585212fd384d4d2ef4a56764079d1703bc4",
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/trees/6ef13585212fd384d4d2ef4a56764079d1703bc4"
+      },
+      {
+        "path": "src/services/llmService.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "69c220215bd251c66131e8341d45adc30ce0a07b",
+        "size": 1455,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/69c220215bd251c66131e8341d45adc30ce0a07b"
+      },
+      {
+        "path": "src/services/s3Upload.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7cb45073667ac32fcb0424ba9e23d39ecb6e75f8",
+        "size": 3287,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/7cb45073667ac32fcb0424ba9e23d39ecb6e75f8"
+      },
+      {
+        "path": "src/styles",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "5977f35373caa34c0ec77704486e487f6e32a607",
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/trees/5977f35373caa34c0ec77704486e487f6e32a607"
+      },
+      {
+        "path": "src/styles/_design-tokens.scss",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c1bedcbbb4241ee43eabff45ec28e24e111761e8",
+        "size": 5088,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/c1bedcbbb4241ee43eabff45ec28e24e111761e8"
+      },
+      {
+        "path": "src/styles/main.scss",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4aaddf0a32462f3af964c52317f1a3eaec0b0d8f",
+        "size": 603,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/4aaddf0a32462f3af964c52317f1a3eaec0b0d8f"
+      },
+      {
+        "path": "src/types",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "11fa4313be950dd5728620c495c9e8e7fd5604b3",
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/trees/11fa4313be950dd5728620c495c9e8e7fd5604b3"
+      },
+      {
+        "path": "src/types/JSONAPI.d.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "41dba9547886c9a279ce757c72b3148121f7afbb",
+        "size": 389,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/41dba9547886c9a279ce757c72b3148121f7afbb"
+      },
+      {
+        "path": "src/types/xlsform.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1dcf2912a49827f4072c9870c17eb36b8eb3946e",
+        "size": 1552,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/1dcf2912a49827f4072c9870c17eb36b8eb3946e"
+      },
+      {
+        "path": "src/utils",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "063928d56a3396ff63a83bb316e89b7ebfa187c4",
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/trees/063928d56a3396ff63a83bb316e89b7ebfa187c4"
+      },
+      {
+        "path": "src/utils/deviceDetection.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "33a80d6ee3aa54ea7aa01d8f879b27160887e69e",
+        "size": 492,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/33a80d6ee3aa54ea7aa01d8f879b27160887e69e"
+      },
+      {
+        "path": "src/utils/export.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fccccfd83e8ed0f3abdf8d9823c08ac63856681a",
+        "size": 2208,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/fccccfd83e8ed0f3abdf8d9823c08ac63856681a"
+      },
+      {
+        "path": "src/utils/fileUtils.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3361662e3d31dbf1b6372b24e9ba9b663bc18729",
+        "size": 579,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/3361662e3d31dbf1b6372b24e9ba9b663bc18729"
+      },
+      {
+        "path": "src/utils/runtimeConfig.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d0381eec221ae31ddc380e5e459237df8f0fe6d4",
+        "size": 817,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/d0381eec221ae31ddc380e5e459237df8f0fe6d4"
+      },
+      {
+        "path": "src/utils/tree.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4a116b28ae96e5301903d3fef6e4321e1513931e",
+        "size": 4932,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/4a116b28ae96e5301903d3fef6e4321e1513931e"
+      },
+      {
+        "path": "src/vite-env.d.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "11f02fe2a0061d6e6e1f271b21da95423b448b32",
+        "size": 38,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/11f02fe2a0061d6e6e1f271b21da95423b448b32"
+      },
+      {
+        "path": "tasks",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "050752471856ee04a65181fcd62eb7959f892f6f",
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/trees/050752471856ee04a65181fcd62eb7959f892f6f"
+      },
+      {
+        "path": "tasks/.gitignore",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ca89447c60f5f21bd9366298c52e4cd6c1916abf",
+        "size": 69,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/ca89447c60f5f21bd9366298c52e4cd6c1916abf"
+      },
+      {
+        "path": "tests",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "429f5d9afaa954474236cc6636a6a5860c5b2dde",
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/trees/429f5d9afaa954474236cc6636a6a5860c5b2dde"
+      },
+      {
+        "path": "tests/utils",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "35b6e98c6461b10e4364289230c4948ef4603bc0",
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/trees/35b6e98c6461b10e4364289230c4948ef4603bc0"
+      },
+      {
+        "path": "tests/utils/export.test.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "290e78b09cf1a2e1d5614072c2be559388f757eb",
+        "size": 8968,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/290e78b09cf1a2e1d5614072c2be559388f757eb"
+      },
+      {
+        "path": "tests/utils/tree.test.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3c08eec0ff52d7725ac3259709c4cf315c5507e9",
+        "size": 12380,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/3c08eec0ff52d7725ac3259709c4cf315c5507e9"
+      },
+      {
+        "path": "tsconfig.app.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9c886874cce108584f67775df6e6af7379893173",
+        "size": 575,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/9c886874cce108584f67775df6e6af7379893173"
+      },
+      {
+        "path": "tsconfig.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d32ff682003e0ff5d8a6e6bb3663d4c35a45b116",
+        "size": 107,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/d32ff682003e0ff5d8a6e6bb3663d4c35a45b116"
+      },
+      {
+        "path": "tsconfig.node.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f85a39906e5571aa351e61e43fff98bc0bedaa27",
+        "size": 630,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/f85a39906e5571aa351e61e43fff98bc0bedaa27"
+      },
+      {
+        "path": "vite.config.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fc1f475dc9f1c9db6c30f7449206347e58d65e19",
+        "size": 989,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/fc1f475dc9f1c9db6c30f7449206347e58d65e19"
+      },
+      {
+        "path": "vitest.config.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9ae799437182299bf955c1bf9e16e1cfab0fab00",
+        "size": 279,
+        "url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/9ae799437182299bf955c1bf9e16e1cfab0fab00"
+      }
+    ],
+    "truncated": false
+  }
+}

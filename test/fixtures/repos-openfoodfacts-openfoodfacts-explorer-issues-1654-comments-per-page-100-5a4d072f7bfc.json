@@ -1,0 +1,54 @@
+{
+  "path": "/repos/openfoodfacts/openfoodfacts-explorer/issues/1654/comments?per_page=100",
+  "recordedFor": "/repos/openfoodfacts/openfoodfacts-explorer/issues/1654/comments?per_page=100",
+  "status": 200,
+  "body": [
+    {
+      "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/issues/comments/5105454791",
+      "html_url": "https://github.com/openfoodfacts/openfoodfacts-explorer/issues/1654#issuecomment-5105454791",
+      "issue_url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/issues/1654",
+      "id": 5105454791,
+      "node_id": "IC_kwDOJn_g5c8AAAABME8Oxw",
+      "user": {
+        "login": "oxidn",
+        "id": 223085529,
+        "node_id": "U_kgDODUwD2Q",
+        "avatar_url": "https://avatars.githubusercontent.com/u/223085529?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/oxidn",
+        "html_url": "https://github.com/oxidn",
+        "followers_url": "https://api.github.com/users/oxidn/followers",
+        "following_url": "https://api.github.com/users/oxidn/following{/other_user}",
+        "gists_url": "https://api.github.com/users/oxidn/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/oxidn/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/oxidn/subscriptions",
+        "organizations_url": "https://api.github.com/users/oxidn/orgs",
+        "repos_url": "https://api.github.com/users/oxidn/repos",
+        "events_url": "https://api.github.com/users/oxidn/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/oxidn/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "created_at": "2026-07-28T14:28:36Z",
+      "updated_at": "2026-07-28T14:28:36Z",
+      "body": "I'd like to work on this issue.",
+      "author_association": "CONTRIBUTOR",
+      "pin": null,
+      "reactions": {
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/issues/comments/5105454791/reactions",
+        "total_count": 0,
+        "+1": 0,
+        "-1": 0,
+        "laugh": 0,
+        "hooray": 0,
+        "confused": 0,
+        "heart": 0,
+        "rocket": 0,
+        "eyes": 0
+      },
+      "performed_via_github_app": null,
+      "minimized": null
+    }
+  ]
+}

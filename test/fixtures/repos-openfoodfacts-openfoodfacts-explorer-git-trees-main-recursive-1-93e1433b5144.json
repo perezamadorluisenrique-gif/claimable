@@ -1,0 +1,3728 @@
+{
+  "path": "/repos/openfoodfacts/openfoodfacts-explorer/git/trees/main?recursive=1",
+  "recordedFor": "/repos/openfoodfacts/openfoodfacts-explorer/git/trees/main?recursive=1",
+  "status": 200,
+  "body": {
+    "sha": "9b1cdbce1c465c74e4c4af1b780e0aebd6c8185a",
+    "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/trees/9b1cdbce1c465c74e4c4af1b780e0aebd6c8185a",
+    "tree": [
+      {
+        "path": ".devcontainer",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "5903153409543bf7a8519b779253871450e98b1d",
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/trees/5903153409543bf7a8519b779253871450e98b1d"
+      },
+      {
+        "path": ".devcontainer/devcontainer.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f0282767a2ef4bd69703ee080678b8450e0a852e",
+        "size": 244,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/f0282767a2ef4bd69703ee080678b8450e0a852e"
+      },
+      {
+        "path": ".dockerignore",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ee4dabeab6468382110a7d2f093d871d1f4a93aa",
+        "size": 188,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/ee4dabeab6468382110a7d2f093d871d1f4a93aa"
+      },
+      {
+        "path": ".env.example",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fe4378e7c7ba910e63f9a9bf49df228b880a25fa",
+        "size": 1089,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/fe4378e7c7ba910e63f9a9bf49df228b880a25fa"
+      },
+      {
+        "path": ".gitattributes",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c1965c2162ac1bd298260f1379c76c7f0bf97eff",
+        "size": 63,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/c1965c2162ac1bd298260f1379c76c7f0bf97eff"
+      },
+      {
+        "path": ".github",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "883602921dfa5c0762df52c49600562c83f43dfb",
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/trees/883602921dfa5c0762df52c49600562c83f43dfb"
+      },
+      {
+        "path": ".github/ISSUE_TEMPLATE",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "119e662287bc096ee6e7ceb180124a4fe507540e",
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/trees/119e662287bc096ee6e7ceb180124a4fe507540e"
+      },
+      {
+        "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "74bb2b64484ccb27ea6bc0755e177d04e49ee05f",
+        "size": 1769,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/74bb2b64484ccb27ea6bc0755e177d04e49ee05f"
+      },
+      {
+        "path": ".github/ISSUE_TEMPLATE/config.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "52aa1f32c72144cdd145cd672866eec3225c80a1",
+        "size": 390,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/52aa1f32c72144cdd145cd672866eec3225c80a1"
+      },
+      {
+        "path": ".github/ISSUE_TEMPLATE/feature_request.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7c068e037f0fe52500860c8db1fb7acedae2c106",
+        "size": 1654,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/7c068e037f0fe52500860c8db1fb7acedae2c106"
+      },
+      {
+        "path": ".github/agents",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "9a4887c46259f18ba5db43a7ca0f02cc308370a4",
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/trees/9a4887c46259f18ba5db43a7ca0f02cc308370a4"
+      },
+      {
+        "path": ".github/agents/agentic-workflows.agent.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b22f72ba04027143dbc59e6f2b29043dda2a0a6f",
+        "size": 8456,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/b22f72ba04027143dbc59e6f2b29043dda2a0a6f"
+      },
+      {
+        "path": ".github/copilot-instructions.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4972eb38fc0504a081ea2bb1e2a3bbf0b8a06979",
+        "size": 804,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/4972eb38fc0504a081ea2bb1e2a3bbf0b8a06979"
+      },
+      {
+        "path": ".github/dependabot.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a22d646e42d66f5b364ff264fa64fe574f725d17",
+        "size": 2606,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/a22d646e42d66f5b364ff264fa64fe574f725d17"
+      },
+      {
+        "path": ".github/labeler.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4857f7ee72369860732369cc510d09ae1f91cd03",
+        "size": 3701,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/4857f7ee72369860732369cc510d09ae1f91cd03"
+      },
+      {
+        "path": ".github/pull_request_template.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "89390a915936b28cf5d151da8f64a6b38103a60b",
+        "size": 1708,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/89390a915936b28cf5d151da8f64a6b38103a60b"
+      },
+      {
+        "path": ".github/workflows-prompts",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "c142dbe92f9994d581b53a9a34dcfb015036b34e",
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/trees/c142dbe92f9994d581b53a9a34dcfb015036b34e"
+      },
+      {
+        "path": ".github/workflows-prompts/issue-summary.prompt.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b4dd6281a8079e9e81216c33b6c92ba92e22c510",
+        "size": 455,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/b4dd6281a8079e9e81216c33b6c92ba92e22c510"
+      },
+      {
+        "path": ".github/workflows",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "4208932c9d5f01ce4131a7d09fc707afc9395286",
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/trees/4208932c9d5f01ce4131a7d09fc707afc9395286"
+      },
+      {
+        "path": ".github/workflows/auto-assign-pr.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "90e9139fb1af2f68c50054f78e306140d2673569",
+        "size": 507,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/90e9139fb1af2f68c50054f78e306140d2673569"
+      },
+      {
+        "path": ".github/workflows/ci.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8ca03cebe38ed3d926ee05be49365352b56d5411",
+        "size": 1199,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/8ca03cebe38ed3d926ee05be49365352b56d5411"
+      },
+      {
+        "path": ".github/workflows/container-build.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "030ea7f2722846773adf39844d2df275f09217ba",
+        "size": 1912,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/030ea7f2722846773adf39844d2df275f09217ba"
+      },
+      {
+        "path": ".github/workflows/container-deploy.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "44e3597a7894ec12ce49af28e129f5f4ee3a63c3",
+        "size": 8320,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/44e3597a7894ec12ce49af28e129f5f4ee3a63c3"
+      },
+      {
+        "path": ".github/workflows/copilot-setup-steps.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "83cfb70be298d10275e328994f7c6979e8291a70",
+        "size": 844,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/83cfb70be298d10275e328994f7c6979e8291a70"
+      },
+      {
+        "path": ".github/workflows/github-projects.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b11db0d6340925fc3b3114a0561c3b49a9012f11",
+        "size": 7958,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/b11db0d6340925fc3b3114a0561c3b49a9012f11"
+      },
+      {
+        "path": ".github/workflows/label.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "736cb8d0983dc39ae8f8b80f4033a4b5ce224de9",
+        "size": 549,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/736cb8d0983dc39ae8f8b80f4033a4b5ce224de9"
+      },
+      {
+        "path": ".github/workflows/merge-conflict-autolabel.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2721d6ad99302c553eb50c5375a55218e03a8516",
+        "size": 839,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/2721d6ad99302c553eb50c5375a55218e03a8516"
+      },
+      {
+        "path": ".github/workflows/plan.lock.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "02dcf67fc149ea1de765e97540a522fa25d43bda",
+        "size": 67253,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/02dcf67fc149ea1de765e97540a522fa25d43bda"
+      },
+      {
+        "path": ".github/workflows/plan.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b134d4f9d8c72e3a46ffa8bbbe7d2cd2fce755ab",
+        "size": 6146,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/b134d4f9d8c72e3a46ffa8bbbe7d2cd2fce755ab"
+      },
+      {
+        "path": ".github/workflows/release-please.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ef7413993a3b861eadf1c8e4502ffb3ab8d15075",
+        "size": 425,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/ef7413993a3b861eadf1c8e4502ffb3ab8d15075"
+      },
+      {
+        "path": ".github/workflows/semantic-pr.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5555a0eb7cf8e5137c0500a70dbf04d5d86b6e84",
+        "size": 1012,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/5555a0eb7cf8e5137c0500a70dbf04d5d86b6e84"
+      },
+      {
+        "path": ".github/workflows/shared",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "eedf6a945e58844ea5cd9c36f8352deed10b4558",
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/trees/eedf6a945e58844ea5cd9c36f8352deed10b4558"
+      },
+      {
+        "path": ".github/workflows/shared/mood.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9c558e357c41674e39880abb6c3209e539de42e2",
+        "size": 2,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/9c558e357c41674e39880abb6c3209e539de42e2"
+      },
+      {
+        "path": ".github/workflows/weekly-issue-summary.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "41fb81d3203d6f34cd7a9e9726df4a73dce62e9b",
+        "size": 1647,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/41fb81d3203d6f34cd7a9e9726df4a73dce62e9b"
+      },
+      {
+        "path": ".gitignore",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f3be162de4416a132c69d0723fc1fa075711b2ba",
+        "size": 190,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/f3be162de4416a132c69d0723fc1fa075711b2ba"
+      },
+      {
+        "path": ".husky",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "45bc8faa3acbc18b77dc998da2796613a6488e0b",
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/trees/45bc8faa3acbc18b77dc998da2796613a6488e0b"
+      },
+      {
+        "path": ".husky/pre-commit",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "77d5aed63fbddfb99b4b35311079d30b169be4f5",
+        "size": 66,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/77d5aed63fbddfb99b4b35311079d30b169be4f5"
+      },
+      {
+        "path": ".npmrc",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0c05da457e450c0a6fafe36006e17fa39abc899b",
+        "size": 43,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/0c05da457e450c0a6fafe36006e17fa39abc899b"
+      },
+      {
+        "path": ".prettierignore",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4f3a82d0f6a299c3ef9250f85ea5eee422ebe304",
+        "size": 261,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/4f3a82d0f6a299c3ef9250f85ea5eee422ebe304"
+      },
+      {
+        "path": ".vscode",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "9e446112fce868bfb4ffda043e20ea7473601e15",
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/trees/9e446112fce868bfb4ffda043e20ea7473601e15"
+      },
+      {
+        "path": ".vscode/mcp.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "10d7ca640db8f81309acf6a2b37ea36eb13b8503",
+        "size": 141,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/10d7ca640db8f81309acf6a2b37ea36eb13b8503"
+      },
+      {
+        "path": ".vscode/settings.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f5fe0ef6d0d531a76c58218a4bf0eafa8d36878a",
+        "size": 54,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/f5fe0ef6d0d531a76c58218a4bf0eafa8d36878a"
+      },
+      {
+        "path": "AGENTS.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "276118b506e55530edcf84632ce14e20f2a06023",
+        "size": 7252,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/276118b506e55530edcf84632ce14e20f2a06023"
+      },
+      {
+        "path": "Dockerfile",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "44433f8b89183c6f83abce5f5fda20189f9c134c",
+        "size": 1352,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/44433f8b89183c6f83abce5f5fda20189f9c134c"
+      },
+      {
+        "path": "LICENSE.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bc16720e0e76f56540f062329b650fd3ad3c281f",
+        "size": 34120,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/bc16720e0e76f56540f062329b650fd3ad3c281f"
+      },
+      {
+        "path": "README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b1fcc502ff05d9488d29a8a69c86c0b8f1745b32",
+        "size": 4571,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/b1fcc502ff05d9488d29a8a69c86c0b8f1745b32"
+      },
+      {
+        "path": "compose.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b37f954317f4c05f2c286cea8dff2e796da177aa",
+        "size": 168,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/b37f954317f4c05f2c286cea8dff2e796da177aa"
+      },
+      {
+        "path": "crowdin.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "49c44c2995d2f51a18d170343b27ae948db485ed",
+        "size": 915,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/49c44c2995d2f51a18d170343b27ae948db485ed"
+      },
+      {
+        "path": "docker-compose.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "92ec2db5648e2e327463a6d691e256b07aaf2007",
+        "size": 350,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/92ec2db5648e2e327463a6d691e256b07aaf2007"
+      },
+      {
+        "path": "docker",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "09c6ca5d427caf9cec5387ca6c96a509750dad3d",
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/trees/09c6ca5d427caf9cec5387ca6c96a509750dad3d"
+      },
+      {
+        "path": "docker/dev.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0336c8dfb984dbd6b1a954e02acd49d5df643133",
+        "size": 285,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/0336c8dfb984dbd6b1a954e02acd49d5df643133"
+      },
+      {
+        "path": "docs",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "6bc80a2bcd44a42d8271cfcc361693f8b23bea33",
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/trees/6bc80a2bcd44a42d8271cfcc361693f8b23bea33"
+      },
+      {
+        "path": "docs/CONTRIBUTING.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2a4f311cde126a2203e74e5b654a3c1e714c5b51",
+        "size": 3306,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/2a4f311cde126a2203e74e5b654a3c1e714c5b51"
+      },
+      {
+        "path": "docs/DESIGN.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "18e2195b8e543afea9bebc33d3edf7ee77b023e8",
+        "size": 11169,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/18e2195b8e543afea9bebc33d3edf7ee77b023e8"
+      },
+      {
+        "path": "docs/webcomponents.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9863aa1104e6924887a936a5a10837cc429b92c5",
+        "size": 2697,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/9863aa1104e6924887a936a5a10837cc429b92c5"
+      },
+      {
+        "path": "eslint.config.mjs",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ad2582f597f92d498d12431d0cd982068a69be24",
+        "size": 1790,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/ad2582f597f92d498d12431d0cd982068a69be24"
+      },
+      {
+        "path": "package.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2a6fcafb0efbaf3c7f3a41ea24a7d1403d93b99c",
+        "size": 3848,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/2a6fcafb0efbaf3c7f3a41ea24a7d1403d93b99c"
+      },
+      {
+        "path": "pnpm-lock.yaml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fd82c39482455a71f2e143a8444f6a6cfbeaa380",
+        "size": 222532,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/fd82c39482455a71f2e143a8444f6a6cfbeaa380"
+      },
+      {
+        "path": "pnpm-workspace.yaml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c5d71bd33cb5064bfbfd85061c5563f9df944811",
+        "size": 1251,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/c5d71bd33cb5064bfbfd85061c5563f9df944811"
+      },
+      {
+        "path": "postcss.config.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a2616eac0e38154e2d7abdf633f6d1b8682c45a6",
+        "size": 33,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/a2616eac0e38154e2d7abdf633f6d1b8682c45a6"
+      },
+      {
+        "path": "prettier.config.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1b2768fd619dc8eda8cd103ec6f948031bb2fa19",
+        "size": 400,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/1b2768fd619dc8eda8cd103ec6f948031bb2fa19"
+      },
+      {
+        "path": "src",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "af47c79b4f4ea4fed16ab3e1157cddbb70f73a23",
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/trees/af47c79b4f4ea4fed16ab3e1157cddbb70f73a23"
+      },
+      {
+        "path": "src/app.css",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3824ac2242b054a7633b19123f773c242c7a9763",
+        "size": 895,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/3824ac2242b054a7633b19123f773c242c7a9763"
+      },
+      {
+        "path": "src/app.d.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "29ec1ab953470074da4968454809428b1676e6c5",
+        "size": 515,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/29ec1ab953470074da4968454809428b1676e6c5"
+      },
+      {
+        "path": "src/app.html",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5c799c5762c2861401392c661b3cc50a0ec4b75a",
+        "size": 643,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/5c799c5762c2861401392c661b3cc50a0ec4b75a"
+      },
+      {
+        "path": "src/global.d.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e2af0fcb8ff74c8e48f890cd61f1a3e380b2476c",
+        "size": 135,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/e2af0fcb8ff74c8e48f890cd61f1a3e380b2476c"
+      },
+      {
+        "path": "src/hooks.client.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a395074f03a2bbb9062c8a2420650e87be5471c1",
+        "size": 369,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/a395074f03a2bbb9062c8a2420650e87be5471c1"
+      },
+      {
+        "path": "src/hooks.server.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ff04e51555009685d107f993a19244954f8d5594",
+        "size": 1061,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/ff04e51555009685d107f993a19244954f8d5594"
+      },
+      {
+        "path": "src/instrumentation.server.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "331ed1650a904ab0779efe1383e3935f2cd87ed8",
+        "size": 295,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/331ed1650a904ab0779efe1383e3935f2cd87ed8"
+      },
+      {
+        "path": "src/lib",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "8589d706ce8841c6b1b9fe0a311e23f3860e4812",
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/trees/8589d706ce8841c6b1b9fe0a311e23f3860e4812"
+      },
+      {
+        "path": "src/lib/Metadata.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "77fd5d878033eb82f01e83282a6879cc652000d5",
+        "size": 1161,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/77fd5d878033eb82f01e83282a6879cc652000d5"
+      },
+      {
+        "path": "src/lib/Pagination.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8279d5ae5ce191ce91184199afcbe0b08433bc22",
+        "size": 1495,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/8279d5ae5ce191ce91184199afcbe0b08433bc22"
+      },
+      {
+        "path": "src/lib/analytics.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5064049192e55e2aabd59570fb75f17d4dbc2bc2",
+        "size": 1979,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/5064049192e55e2aabd59570fb75f17d4dbc2bc2"
+      },
+      {
+        "path": "src/lib/api.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "47f017727a6551552ac8726130598b432fdc14ba",
+        "size": 1142,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/47f017727a6551552ac8726130598b432fdc14ba"
+      },
+      {
+        "path": "src/lib/api",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "5bc685ecb3ddb4901f4c356d30e001705e2a74f6",
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/trees/5bc685ecb3ddb4901f4c356d30e001705e2a74f6"
+      },
+      {
+        "path": "src/lib/api/errorUtils.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "96c7cbca531da9550b5349e6dae29b9815d160fa",
+        "size": 311,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/96c7cbca531da9550b5349e6dae29b9815d160fa"
+      },
+      {
+        "path": "src/lib/api/externalSources.test.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f68379696de9fc7eb08f4b91a476cc39b7bcbee5",
+        "size": 2474,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/f68379696de9fc7eb08f4b91a476cc39b7bcbee5"
+      },
+      {
+        "path": "src/lib/api/externalSources.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a83f6d2f486c6f185422078b7f8baaac89ffcc4f",
+        "size": 8102,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/a83f6d2f486c6f185422078b7f8baaac89ffcc4f"
+      },
+      {
+        "path": "src/lib/api/facets.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8154672e27cc47b5720f0258672dfe0e5b74e5b0",
+        "size": 1605,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/8154672e27cc47b5720f0258672dfe0e5b74e5b0"
+      },
+      {
+        "path": "src/lib/api/folksonomy.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5df36c2dc714e9c89b8d785990ac767b5af12766",
+        "size": 757,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/5df36c2dc714e9c89b8d785990ac767b5af12766"
+      },
+      {
+        "path": "src/lib/api/keycloak.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "116914fdacf0fb14f2c4978bc04cd9d8f1dfd354",
+        "size": 3506,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/116914fdacf0fb14f2c4978bc04cd9d8f1dfd354"
+      },
+      {
+        "path": "src/lib/api/knowledgepanels.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d417a4985d84692dab5d3f82640a12a6c48787f0",
+        "size": 831,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/d417a4985d84692dab5d3f82640a12a6c48787f0"
+      },
+      {
+        "path": "src/lib/api/nutriments.test.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "571528f00c8046a1a46a5d638f9d5a7a5245c39d",
+        "size": 2171,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/571528f00c8046a1a46a5d638f9d5a7a5245c39d"
+      },
+      {
+        "path": "src/lib/api/nutriments.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "507a7deaf35914bd141ef3634c337aeb4da4fd46",
+        "size": 4718,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/507a7deaf35914bd141ef3634c337aeb4da4fd46"
+      },
+      {
+        "path": "src/lib/api/permissions.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "122dd4942a7a752c49bfc314b781e29c2ba249cd",
+        "size": 656,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/122dd4942a7a752c49bfc314b781e29c2ba249cd"
+      },
+      {
+        "path": "src/lib/api/prices.d.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a5f02eb7a05ab5a8a23ae15216e085627c31cd34",
+        "size": 101442,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/a5f02eb7a05ab5a8a23ae15216e085627c31cd34"
+      },
+      {
+        "path": "src/lib/api/prices.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4e6a706e21819ebe15221cc4bc43acb365f121ee",
+        "size": 858,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/4e6a706e21819ebe15221cc4bc43acb365f121ee"
+      },
+      {
+        "path": "src/lib/api/product.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "57c13d88bb4fa89d061924aceccf5f232bcf3635",
+        "size": 21557,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/57c13d88bb4fa89d061924aceccf5f232bcf3635"
+      },
+      {
+        "path": "src/lib/api/search.test.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f52482884f09cf4c5912699e3e3d9c88bc5f4d1a",
+        "size": 934,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/f52482884f09cf4c5912699e3e3d9c88bc5f4d1a"
+      },
+      {
+        "path": "src/lib/api/search.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1f81277c1396572b56669d3d3f7f599b85b546c3",
+        "size": 1573,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/1f81277c1396572b56669d3d3f7f599b85b546c3"
+      },
+      {
+        "path": "src/lib/api/taxonomy",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "4b3ef68a0e491918f6216083dca1087c90a3a398",
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/trees/4b3ef68a0e491918f6216083dca1087c90a3a398"
+      },
+      {
+        "path": "src/lib/api/taxonomy/api.test.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "17568a621b32b3cc9f05c89dcb16b933d399b7fc",
+        "size": 570,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/17568a621b32b3cc9f05c89dcb16b933d399b7fc"
+      },
+      {
+        "path": "src/lib/api/taxonomy/api.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ea5caa46b6f66ed6335aa5f7bbbc09096b058fcd",
+        "size": 1012,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/ea5caa46b6f66ed6335aa5f7bbbc09096b058fcd"
+      },
+      {
+        "path": "src/lib/api/taxonomy/types.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "43c914573083a5e74ba07d7a113debfb219bd455",
+        "size": 1035,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/43c914573083a5e74ba07d7a113debfb219bd455"
+      },
+      {
+        "path": "src/lib/api/utils.test.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e68648cf25ca956cee05d1ed4247bd725910cfe6",
+        "size": 717,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/e68648cf25ca956cee05d1ed4247bd725910cfe6"
+      },
+      {
+        "path": "src/lib/api/utils.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dc2d17c957ae9371fafbafb5f0393bea5551ced4",
+        "size": 1133,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/dc2d17c957ae9371fafbafb5f0393bea5551ced4"
+      },
+      {
+        "path": "src/lib/assets",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "9ee613ad48be63df0c1a17c6a77fb695eabaaeb4",
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/trees/9ee613ad48be63df0c1a17c6a77fb695eabaaeb4"
+      },
+      {
+        "path": "src/lib/assets/add_beauty.svg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "942f88065a67f1e3cec159ec9708e4a0f531869d",
+        "size": 748,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/942f88065a67f1e3cec159ec9708e4a0f531869d"
+      },
+      {
+        "path": "src/lib/assets/add_food.svg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c652e32dff461c8d99da840aaadfcb6c790a76f4",
+        "size": 1627,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/c652e32dff461c8d99da840aaadfcb6c790a76f4"
+      },
+      {
+        "path": "src/lib/assets/add_pet_food.svg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "233c5fee0c34aa1bfcda5d6d47f180db89a58ec8",
+        "size": 3887,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/233c5fee0c34aa1bfcda5d6d47f180db89a58ec8"
+      },
+      {
+        "path": "src/lib/assets/add_products.svg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f9714be2fed5775e404181d27b72067b0ea22251",
+        "size": 2402,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/f9714be2fed5775e404181d27b72067b0ea22251"
+      },
+      {
+        "path": "src/lib/assets/butter.svg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f7f2fca54cbe971c1d6024ed13d7e13453df4d5a",
+        "size": 1573,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/f7f2fca54cbe971c1d6024ed13d7e13453df4d5a"
+      },
+      {
+        "path": "src/lib/assets/cheese.svg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e6f3c320861d9ed2f9bbd879be5fdca79c133d51",
+        "size": 2459,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/e6f3c320861d9ed2f9bbd879be5fdca79c133d51"
+      },
+      {
+        "path": "src/lib/assets/chocolate-bar.svg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5e6a9bd74d76781ca63b48a9bb17a3d50cd078b6",
+        "size": 2565,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/5e6a9bd74d76781ca63b48a9bb17a3d50cd078b6"
+      },
+      {
+        "path": "src/lib/assets/egg-01.svg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5bfd0b2b1d68c7f751de6bfb53c63ef2ba1b17ed",
+        "size": 415,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/5bfd0b2b1d68c7f751de6bfb53c63ef2ba1b17ed"
+      },
+      {
+        "path": "src/lib/assets/footer-bottom-right.svg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c8c032007cd1be243f8037de091798eb94b7d4b4",
+        "size": 1511,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/c8c032007cd1be243f8037de091798eb94b7d4b4"
+      },
+      {
+        "path": "src/lib/assets/footer-top-left.svg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "974aef8c1ec368ede825c124969209a04827afaf",
+        "size": 2927,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/974aef8c1ec368ede825c124969209a04827afaf"
+      },
+      {
+        "path": "src/lib/assets/pasta.svg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7c17288c6b3c3856ce84dbbea666656632d7c113",
+        "size": 1206,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/7c17288c6b3c3856ce84dbbea666656632d7c113"
+      },
+      {
+        "path": "src/lib/barcodes",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "054951d2801e44d9283055a3041b1016a57c5959",
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/trees/054951d2801e44d9283055a3041b1016a57c5959"
+      },
+      {
+        "path": "src/lib/barcodes/gs1-prefixes.test.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9300d2d6848f15dab5cdac033f2d3e4102a833fb",
+        "size": 912,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/9300d2d6848f15dab5cdac033f2d3e4102a833fb"
+      },
+      {
+        "path": "src/lib/barcodes/gs1-prefixes.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "18e10f4025e6dcc297396c3054760a47851b7ed4",
+        "size": 7185,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/18e10f4025e6dcc297396c3054760a47851b7ed4"
+      },
+      {
+        "path": "src/lib/barcodes/gs1.test.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2a841e6de5d741dbcd55b2017c5020efa3384c4d",
+        "size": 3849,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/2a841e6de5d741dbcd55b2017c5020efa3384c4d"
+      },
+      {
+        "path": "src/lib/barcodes/gs1.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "149bd0492bb9d8f8f18f51ae653e71a3a3c900d5",
+        "size": 2332,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/149bd0492bb9d8f8f18f51ae653e71a3a3c900d5"
+      },
+      {
+        "path": "src/lib/compat.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "64b092e952b938f90f51fa176551dd3e52db9dd3",
+        "size": 859,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/64b092e952b938f90f51fa176551dd3e52db9dd3"
+      },
+      {
+        "path": "src/lib/const.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dfefba64e99cac9d2eb6b1f3e96017d386913523",
+        "size": 4186,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/dfefba64e99cac9d2eb6b1f3e96017d386913523"
+      },
+      {
+        "path": "src/lib/errors.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0e0e95f035277c8972c0773409c8265b2a2e1a46",
+        "size": 860,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/0e0e95f035277c8972c0773409c8265b2a2e1a46"
+      },
+      {
+        "path": "src/lib/facets.test.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "86a6a016a648851b10ae166e9f649228e732a600",
+        "size": 10831,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/86a6a016a648851b10ae166e9f649228e732a600"
+      },
+      {
+        "path": "src/lib/facets.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9603fd045fc43073eca8e6067fdfae89ae016fcb",
+        "size": 24990,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/9603fd045fc43073eca8e6067fdfae89ae016fcb"
+      },
+      {
+        "path": "src/lib/flavor.test.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5792b30a72ca5abfa10d870c8f8d7f45a0e1f448",
+        "size": 1170,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/5792b30a72ca5abfa10d870c8f8d7f45a0e1f448"
+      },
+      {
+        "path": "src/lib/flavor.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0c1407053af7e595c1d44587a1062dbcb50d8213",
+        "size": 1477,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/0c1407053af7e595c1d44587a1062dbcb50d8213"
+      },
+      {
+        "path": "src/lib/i18n",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "2467a935d04e6af7e55199af6147319d70822562",
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/trees/2467a935d04e6af7e55199af6147319d70822562"
+      },
+      {
+        "path": "src/lib/i18n/index.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "09ac678971f06eb6d8a6f9665854a95ddee3ee08",
+        "size": 1935,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/09ac678971f06eb6d8a6f9665854a95ddee3ee08"
+      },
+      {
+        "path": "src/lib/i18n/messages",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "9301f1f90193b8d8bac64a89f7097e0818f5cb89",
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/trees/9301f1f90193b8d8bac64a89f7097e0818f5cb89"
+      },
+      {
+        "path": "src/lib/i18n/messages/aa.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d7c26d4b2c4180e145e73f460ade4031bffb5315",
+        "size": 42217,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/d7c26d4b2c4180e145e73f460ade4031bffb5315"
+      },
+      {
+        "path": "src/lib/i18n/messages/ab.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "60dfa67d4f7c196e458356bbb8ef3d9c13330603",
+        "size": 38275,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/60dfa67d4f7c196e458356bbb8ef3d9c13330603"
+      },
+      {
+        "path": "src/lib/i18n/messages/ak.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1925511e88c802d76ae733ea70111d70221751b3",
+        "size": 42217,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/1925511e88c802d76ae733ea70111d70221751b3"
+      },
+      {
+        "path": "src/lib/i18n/messages/am.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fdf5b81e26277e8c24bffc0f8f505f5d7ce183a6",
+        "size": 47803,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/fdf5b81e26277e8c24bffc0f8f505f5d7ce183a6"
+      },
+      {
+        "path": "src/lib/i18n/messages/ar.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6d8c84a2f90cd5e6ebaa75f9a855f1c2a5654056",
+        "size": 49333,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/6d8c84a2f90cd5e6ebaa75f9a855f1c2a5654056"
+      },
+      {
+        "path": "src/lib/i18n/messages/as.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a9beb835f6151e0f73b1a77ed85e903aaeee55e0",
+        "size": 52193,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/a9beb835f6151e0f73b1a77ed85e903aaeee55e0"
+      },
+      {
+        "path": "src/lib/i18n/messages/az.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "03ecfb6878a1d51ff6d5cc90a836f657c34fd52a",
+        "size": 44684,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/03ecfb6878a1d51ff6d5cc90a836f657c34fd52a"
+      },
+      {
+        "path": "src/lib/i18n/messages/be.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5e973002c14369af32da99076dfc077a7d013bd4",
+        "size": 50027,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/5e973002c14369af32da99076dfc077a7d013bd4"
+      },
+      {
+        "path": "src/lib/i18n/messages/bg.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2c5d023634f8e0e61b28d087b66430b80408ed5f",
+        "size": 52386,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/2c5d023634f8e0e61b28d087b66430b80408ed5f"
+      },
+      {
+        "path": "src/lib/i18n/messages/bm.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ca36ce3f89f4c5dc228a5d97db0ea0186f9efd0a",
+        "size": 44164,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/ca36ce3f89f4c5dc228a5d97db0ea0186f9efd0a"
+      },
+      {
+        "path": "src/lib/i18n/messages/bn.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4698867eba86968283fce891bd31862a0648d932",
+        "size": 55418,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/4698867eba86968283fce891bd31862a0648d932"
+      },
+      {
+        "path": "src/lib/i18n/messages/bo.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1925511e88c802d76ae733ea70111d70221751b3",
+        "size": 42217,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/1925511e88c802d76ae733ea70111d70221751b3"
+      },
+      {
+        "path": "src/lib/i18n/messages/br.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7d823d6b2521e2154a1f3d084cfbc3f56d1e680c",
+        "size": 43295,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/7d823d6b2521e2154a1f3d084cfbc3f56d1e680c"
+      },
+      {
+        "path": "src/lib/i18n/messages/bs.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "38f40249298aa7af8c263ff42b1186432a50c4bd",
+        "size": 43272,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/38f40249298aa7af8c263ff42b1186432a50c4bd"
+      },
+      {
+        "path": "src/lib/i18n/messages/ca.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6c2fe70b7eeffd37dd53e69a4516a120c793795b",
+        "size": 43958,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/6c2fe70b7eeffd37dd53e69a4516a120c793795b"
+      },
+      {
+        "path": "src/lib/i18n/messages/ce.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1925511e88c802d76ae733ea70111d70221751b3",
+        "size": 42217,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/1925511e88c802d76ae733ea70111d70221751b3"
+      },
+      {
+        "path": "src/lib/i18n/messages/co.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f763478186049e092d5ef5fc3cba36d596150e13",
+        "size": 43486,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/f763478186049e092d5ef5fc3cba36d596150e13"
+      },
+      {
+        "path": "src/lib/i18n/messages/cs.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6b29f72f0675300567bf6a7516f8782833faf2b0",
+        "size": 45958,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/6b29f72f0675300567bf6a7516f8782833faf2b0"
+      },
+      {
+        "path": "src/lib/i18n/messages/cv.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e79b84fdb503beb8d220f3ae6b1a15cb94fe0354",
+        "size": 47910,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/e79b84fdb503beb8d220f3ae6b1a15cb94fe0354"
+      },
+      {
+        "path": "src/lib/i18n/messages/cy.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b773854c913242a68ceba506313fcbce43713aa3",
+        "size": 43157,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/b773854c913242a68ceba506313fcbce43713aa3"
+      },
+      {
+        "path": "src/lib/i18n/messages/da.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4ca5d764136318746958d839bcf5b902872d8392",
+        "size": 42950,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/4ca5d764136318746958d839bcf5b902872d8392"
+      },
+      {
+        "path": "src/lib/i18n/messages/de.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "aeffb20fc5ae72e6ae689e904b933c9a9e752ec9",
+        "size": 47736,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/aeffb20fc5ae72e6ae689e904b933c9a9e752ec9"
+      },
+      {
+        "path": "src/lib/i18n/messages/el.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "728cfbde2c5f9ce677f87a0d603832871f0698c1",
+        "size": 55858,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/728cfbde2c5f9ce677f87a0d603832871f0698c1"
+      },
+      {
+        "path": "src/lib/i18n/messages/en-AU.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "be3a98ae86a0856337504e6017fa14cc872ac8f5",
+        "size": 42213,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/be3a98ae86a0856337504e6017fa14cc872ac8f5"
+      },
+      {
+        "path": "src/lib/i18n/messages/en-GB.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "11bb9535427e8e5e32b47dd23a6bc426243eacb5",
+        "size": 42223,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/11bb9535427e8e5e32b47dd23a6bc426243eacb5"
+      },
+      {
+        "path": "src/lib/i18n/messages/en-US.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8b8eb08444d7771ec8acde904e94555109393418",
+        "size": 46814,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/8b8eb08444d7771ec8acde904e94555109393418"
+      },
+      {
+        "path": "src/lib/i18n/messages/en.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b0c6f5955030b89258f60694bf1d8a5adba20ba7",
+        "size": 49020,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/b0c6f5955030b89258f60694bf1d8a5adba20ba7"
+      },
+      {
+        "path": "src/lib/i18n/messages/eo.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a3598c72df387a16db753caad4cae170e02f2877",
+        "size": 42974,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/a3598c72df387a16db753caad4cae170e02f2877"
+      },
+      {
+        "path": "src/lib/i18n/messages/es.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d6fba1dc0bb0175f2edc7ef5f64a0e32a75dc181",
+        "size": 47199,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/d6fba1dc0bb0175f2edc7ef5f64a0e32a75dc181"
+      },
+      {
+        "path": "src/lib/i18n/messages/et.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b85bcd5755e2881bc96f93124ff2a282de7f5d23",
+        "size": 42533,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/b85bcd5755e2881bc96f93124ff2a282de7f5d23"
+      },
+      {
+        "path": "src/lib/i18n/messages/eu.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fd7e7ab040a4e7a562c1ad4ab6b6dfdd3a96da5d",
+        "size": 43113,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/fd7e7ab040a4e7a562c1ad4ab6b6dfdd3a96da5d"
+      },
+      {
+        "path": "src/lib/i18n/messages/fa.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4f67ab3dfd8f96222b23cd0e0c997c0324d8f137",
+        "size": 49164,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/4f67ab3dfd8f96222b23cd0e0c997c0324d8f137"
+      },
+      {
+        "path": "src/lib/i18n/messages/fi.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "271ebd9d7c5a78cc3cb4393274f8471554f5e2d0",
+        "size": 43001,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/271ebd9d7c5a78cc3cb4393274f8471554f5e2d0"
+      },
+      {
+        "path": "src/lib/i18n/messages/fo.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1925511e88c802d76ae733ea70111d70221751b3",
+        "size": 42217,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/1925511e88c802d76ae733ea70111d70221751b3"
+      },
+      {
+        "path": "src/lib/i18n/messages/fr.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e33f4cfd1ea838042859cb9bcf6210212fe2a71c",
+        "size": 48522,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/e33f4cfd1ea838042859cb9bcf6210212fe2a71c"
+      },
+      {
+        "path": "src/lib/i18n/messages/ga.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "09576e26249b24c7762adf631a80c8f8d5755274",
+        "size": 44171,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/09576e26249b24c7762adf631a80c8f8d5755274"
+      },
+      {
+        "path": "src/lib/i18n/messages/gd.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8f2b86e05e0d6351e84442d9c9edfbfb9c6b50cd",
+        "size": 44290,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/8f2b86e05e0d6351e84442d9c9edfbfb9c6b50cd"
+      },
+      {
+        "path": "src/lib/i18n/messages/gl.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "febbf52ce6ec24a829ac7e97ce59b3826d9598ad",
+        "size": 43398,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/febbf52ce6ec24a829ac7e97ce59b3826d9598ad"
+      },
+      {
+        "path": "src/lib/i18n/messages/gu.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d97d1a4e3dc1ccc9ea429862ceb3a9caa2e5cf02",
+        "size": 53991,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/d97d1a4e3dc1ccc9ea429862ceb3a9caa2e5cf02"
+      },
+      {
+        "path": "src/lib/i18n/messages/ha.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a2e262dc5a2e3854bb1430b54b8a3b31789f1ec3",
+        "size": 42598,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/a2e262dc5a2e3854bb1430b54b8a3b31789f1ec3"
+      },
+      {
+        "path": "src/lib/i18n/messages/he.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "acd07542561e85d0366b9e3e6a5f202b2a68f810",
+        "size": 48081,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/acd07542561e85d0366b9e3e6a5f202b2a68f810"
+      },
+      {
+        "path": "src/lib/i18n/messages/hi.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f66c528359137c7fd691e1a8fb6450af2da59f8f",
+        "size": 56100,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/f66c528359137c7fd691e1a8fb6450af2da59f8f"
+      },
+      {
+        "path": "src/lib/i18n/messages/hr.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "166428caaf59c1ef362501b33815f963935cad3b",
+        "size": 43468,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/166428caaf59c1ef362501b33815f963935cad3b"
+      },
+      {
+        "path": "src/lib/i18n/messages/ht.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c60a1006fb222159b26f4b441062ae4a37544371",
+        "size": 42514,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/c60a1006fb222159b26f4b441062ae4a37544371"
+      },
+      {
+        "path": "src/lib/i18n/messages/hu.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cbd0c39d67fbe0e2df6c274324794dd924fa54a6",
+        "size": 45178,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/cbd0c39d67fbe0e2df6c274324794dd924fa54a6"
+      },
+      {
+        "path": "src/lib/i18n/messages/hy.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "538436b3c7ed7afb5c23e98636f1f4779d9561e6",
+        "size": 49221,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/538436b3c7ed7afb5c23e98636f1f4779d9561e6"
+      },
+      {
+        "path": "src/lib/i18n/messages/id.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c4ddcc3fbd121f08365b71290cc1b6e0fbf38bc0",
+        "size": 43178,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/c4ddcc3fbd121f08365b71290cc1b6e0fbf38bc0"
+      },
+      {
+        "path": "src/lib/i18n/messages/ii.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1925511e88c802d76ae733ea70111d70221751b3",
+        "size": 42217,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/1925511e88c802d76ae733ea70111d70221751b3"
+      },
+      {
+        "path": "src/lib/i18n/messages/is.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8c858691c35b6029cb08e54ec8e6919f5d11e0a4",
+        "size": 43338,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/8c858691c35b6029cb08e54ec8e6919f5d11e0a4"
+      },
+      {
+        "path": "src/lib/i18n/messages/it.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "db40d8caf1b4ad2908e1e2dbbf9159b44c87393d",
+        "size": 46589,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/db40d8caf1b4ad2908e1e2dbbf9159b44c87393d"
+      },
+      {
+        "path": "src/lib/i18n/messages/iu.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1925511e88c802d76ae733ea70111d70221751b3",
+        "size": 42217,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/1925511e88c802d76ae733ea70111d70221751b3"
+      },
+      {
+        "path": "src/lib/i18n/messages/ja.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5f920b87053e677d8dd3bb516b99b80371fe414f",
+        "size": 45913,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/5f920b87053e677d8dd3bb516b99b80371fe414f"
+      },
+      {
+        "path": "src/lib/i18n/messages/jv.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fa123fc2b4f88596f969536e1e089daa27b09e30",
+        "size": 42543,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/fa123fc2b4f88596f969536e1e089daa27b09e30"
+      },
+      {
+        "path": "src/lib/i18n/messages/ka.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7cbc5b7171ecb998ad37cfe4a2080cb7ca154cad",
+        "size": 61472,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/7cbc5b7171ecb998ad37cfe4a2080cb7ca154cad"
+      },
+      {
+        "path": "src/lib/i18n/messages/kk.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "25588179abf8a06643fd126035041018d1ea3919",
+        "size": 47749,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/25588179abf8a06643fd126035041018d1ea3919"
+      },
+      {
+        "path": "src/lib/i18n/messages/km.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2818b1eeab009400264a3363f133c387724b84b0",
+        "size": 54048,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/2818b1eeab009400264a3363f133c387724b84b0"
+      },
+      {
+        "path": "src/lib/i18n/messages/kmr-TR.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5ee154c69584af135df732ce4e9695a4915f62cd",
+        "size": 43703,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/5ee154c69584af135df732ce4e9695a4915f62cd"
+      },
+      {
+        "path": "src/lib/i18n/messages/kn.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "43c462e692a3334e4014c573afa7745ea417e4c1",
+        "size": 57975,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/43c462e692a3334e4014c573afa7745ea417e4c1"
+      },
+      {
+        "path": "src/lib/i18n/messages/ko.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7799d9b4f25db5406f1e73dd0ca0b6cdc254aeb7",
+        "size": 44444,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/7799d9b4f25db5406f1e73dd0ca0b6cdc254aeb7"
+      },
+      {
+        "path": "src/lib/i18n/messages/kw.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1925511e88c802d76ae733ea70111d70221751b3",
+        "size": 42217,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/1925511e88c802d76ae733ea70111d70221751b3"
+      },
+      {
+        "path": "src/lib/i18n/messages/ky.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8eaa3490514b31fd25ba208d8121b6200f10c960",
+        "size": 48194,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/8eaa3490514b31fd25ba208d8121b6200f10c960"
+      },
+      {
+        "path": "src/lib/i18n/messages/la.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1fbcd5daad291535c8d82140a4d7cc3b14d6cdbf",
+        "size": 42892,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/1fbcd5daad291535c8d82140a4d7cc3b14d6cdbf"
+      },
+      {
+        "path": "src/lib/i18n/messages/lb.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f80722b7aacd8131113966e4810ab233a9d85578",
+        "size": 43555,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/f80722b7aacd8131113966e4810ab233a9d85578"
+      },
+      {
+        "path": "src/lib/i18n/messages/lo.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "008d6ad28bb4f0dcc49d92b2a5b8188a6c3c57d1",
+        "size": 51080,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/008d6ad28bb4f0dcc49d92b2a5b8188a6c3c57d1"
+      },
+      {
+        "path": "src/lib/i18n/messages/lt.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "db511564a6aad01bee1e8832a13ac1d72a54fef8",
+        "size": 44374,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/db511564a6aad01bee1e8832a13ac1d72a54fef8"
+      },
+      {
+        "path": "src/lib/i18n/messages/lv.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fe6d313659cce511ea33f8ecd13ccb53ae7b9ab8",
+        "size": 44388,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/fe6d313659cce511ea33f8ecd13ccb53ae7b9ab8"
+      },
+      {
+        "path": "src/lib/i18n/messages/mg.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1be8c44956893e062c793029153a4e8e548ffd93",
+        "size": 43309,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/1be8c44956893e062c793029153a4e8e548ffd93"
+      },
+      {
+        "path": "src/lib/i18n/messages/mi.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ab5999ab5c6649561a545fa0a7cb7d8077f78b9a",
+        "size": 42803,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/ab5999ab5c6649561a545fa0a7cb7d8077f78b9a"
+      },
+      {
+        "path": "src/lib/i18n/messages/ml.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "81dffc4269c16ae06700b19149e0df9424e095e7",
+        "size": 56222,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/81dffc4269c16ae06700b19149e0df9424e095e7"
+      },
+      {
+        "path": "src/lib/i18n/messages/mn.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1abe85247375e9e48c6928acabba4a29ebe3c232",
+        "size": 48811,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/1abe85247375e9e48c6928acabba4a29ebe3c232"
+      },
+      {
+        "path": "src/lib/i18n/messages/mr.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bdd516ecd0d47a0cd8c56c87714bfed92ff79a1e",
+        "size": 52669,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/bdd516ecd0d47a0cd8c56c87714bfed92ff79a1e"
+      },
+      {
+        "path": "src/lib/i18n/messages/ms.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fee205c06d66d2af437227b7697d2de00b5fcd94",
+        "size": 42918,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/fee205c06d66d2af437227b7697d2de00b5fcd94"
+      },
+      {
+        "path": "src/lib/i18n/messages/mt.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7ee5d9404d8e884ff18365d0dff5bdfe7b809063",
+        "size": 43443,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/7ee5d9404d8e884ff18365d0dff5bdfe7b809063"
+      },
+      {
+        "path": "src/lib/i18n/messages/my.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "51350d8af1b2f212e47aaeea12da59b1998fb930",
+        "size": 55922,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/51350d8af1b2f212e47aaeea12da59b1998fb930"
+      },
+      {
+        "path": "src/lib/i18n/messages/nb.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "98565c54023f449fe58773595522e0a9c2bedb8c",
+        "size": 42886,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/98565c54023f449fe58773595522e0a9c2bedb8c"
+      },
+      {
+        "path": "src/lib/i18n/messages/ne.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "db6a51a6aa48ef0488e6bccd3f5c520ecc1cb8b8",
+        "size": 54485,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/db6a51a6aa48ef0488e6bccd3f5c520ecc1cb8b8"
+      },
+      {
+        "path": "src/lib/i18n/messages/nl-BE.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "deddbfb8389e90f208c9ad148a8d0bfcdf22a239",
+        "size": 45055,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/deddbfb8389e90f208c9ad148a8d0bfcdf22a239"
+      },
+      {
+        "path": "src/lib/i18n/messages/nl-NL.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ecb108e5d83543bb1d8e7d88ccde392eb46715b4",
+        "size": 45066,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/ecb108e5d83543bb1d8e7d88ccde392eb46715b4"
+      },
+      {
+        "path": "src/lib/i18n/messages/nn.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "170726acccdf647c04dfec9895669813f2e1ae3b",
+        "size": 42833,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/170726acccdf647c04dfec9895669813f2e1ae3b"
+      },
+      {
+        "path": "src/lib/i18n/messages/no.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e235b152ade069c47191e78ac0a5cc202ef6cedb",
+        "size": 42851,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/e235b152ade069c47191e78ac0a5cc202ef6cedb"
+      },
+      {
+        "path": "src/lib/i18n/messages/oc.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "45ccff37ec10a949260db34c269bd52540e4adde",
+        "size": 43692,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/45ccff37ec10a949260db34c269bd52540e4adde"
+      },
+      {
+        "path": "src/lib/i18n/messages/or.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7298350b4e5a9fa0f42a2871c8e671a5a224f5af",
+        "size": 54510,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/7298350b4e5a9fa0f42a2871c8e671a5a224f5af"
+      },
+      {
+        "path": "src/lib/i18n/messages/pa.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "56f503e3fa0e3bd04fb64170725b07f3a7ba5f77",
+        "size": 53787,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/56f503e3fa0e3bd04fb64170725b07f3a7ba5f77"
+      },
+      {
+        "path": "src/lib/i18n/messages/pl.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "33cc6629607b18235df6413fdf245e4c2340e1e8",
+        "size": 44125,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/33cc6629607b18235df6413fdf245e4c2340e1e8"
+      },
+      {
+        "path": "src/lib/i18n/messages/pt-BR.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f8d2cb2f4d51e034bb3ad12b371f57b64e190aa9",
+        "size": 43962,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/f8d2cb2f4d51e034bb3ad12b371f57b64e190aa9"
+      },
+      {
+        "path": "src/lib/i18n/messages/pt-PT.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "60314d304418fd0b1802802cba19f984808b1ad0",
+        "size": 44009,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/60314d304418fd0b1802802cba19f984808b1ad0"
+      },
+      {
+        "path": "src/lib/i18n/messages/qu.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "58693eff9dc97285800aec5a00921ab3bb317489",
+        "size": 43576,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/58693eff9dc97285800aec5a00921ab3bb317489"
+      },
+      {
+        "path": "src/lib/i18n/messages/rm.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1925511e88c802d76ae733ea70111d70221751b3",
+        "size": 42217,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/1925511e88c802d76ae733ea70111d70221751b3"
+      },
+      {
+        "path": "src/lib/i18n/messages/ro.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9276128ba972b22e19cc7353a144b2a7fb7b02a7",
+        "size": 44613,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/9276128ba972b22e19cc7353a144b2a7fb7b02a7"
+      },
+      {
+        "path": "src/lib/i18n/messages/ru.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4891e43edfc1278be215d9e68e9f42d42c0e00d4",
+        "size": 52957,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/4891e43edfc1278be215d9e68e9f42d42c0e00d4"
+      },
+      {
+        "path": "src/lib/i18n/messages/sa.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "76396219f19ac8a6ffc31fda03c149a8f4dfca8c",
+        "size": 53269,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/76396219f19ac8a6ffc31fda03c149a8f4dfca8c"
+      },
+      {
+        "path": "src/lib/i18n/messages/sd.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "36c54579bf1a27b0aa8a43499d9dfca03f950546",
+        "size": 46580,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/36c54579bf1a27b0aa8a43499d9dfca03f950546"
+      },
+      {
+        "path": "src/lib/i18n/messages/si.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b047bd2b25ee1bb359dcc7583cfdf63e96a875e7",
+        "size": 52387,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/b047bd2b25ee1bb359dcc7583cfdf63e96a875e7"
+      },
+      {
+        "path": "src/lib/i18n/messages/sk.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "95472e70e5d47697119268474a87d1c048eff6ad",
+        "size": 43690,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/95472e70e5d47697119268474a87d1c048eff6ad"
+      },
+      {
+        "path": "src/lib/i18n/messages/sl.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "246e6f6536dd9dceedb0b7e00788e049c9ded193",
+        "size": 43117,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/246e6f6536dd9dceedb0b7e00788e049c9ded193"
+      },
+      {
+        "path": "src/lib/i18n/messages/sn.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "42a84837e95e09c4ad302c480da039d5c6dd80c8",
+        "size": 42897,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/42a84837e95e09c4ad302c480da039d5c6dd80c8"
+      },
+      {
+        "path": "src/lib/i18n/messages/so.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "039cee8e9dc2774377db1c6e2d30d775a1d9ac21",
+        "size": 43070,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/039cee8e9dc2774377db1c6e2d30d775a1d9ac21"
+      },
+      {
+        "path": "src/lib/i18n/messages/sq.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fedbb43a41b3aba04d9a17a5120c729b5a1392e2",
+        "size": 43806,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/fedbb43a41b3aba04d9a17a5120c729b5a1392e2"
+      },
+      {
+        "path": "src/lib/i18n/messages/sr-CS.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c18a885f9ba217988728c38b951c32d3f7f8a7f5",
+        "size": 49342,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/c18a885f9ba217988728c38b951c32d3f7f8a7f5"
+      },
+      {
+        "path": "src/lib/i18n/messages/sr-RS.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4aafb93f72ab1e45dc95cb53760f6759b63e570a",
+        "size": 49433,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/4aafb93f72ab1e45dc95cb53760f6759b63e570a"
+      },
+      {
+        "path": "src/lib/i18n/messages/sr.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b5fb051ec11511609f9984749e705ff5ae8d6003",
+        "size": 42502,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/b5fb051ec11511609f9984749e705ff5ae8d6003"
+      },
+      {
+        "path": "src/lib/i18n/messages/ss.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f04f2c18486aa1fbe31a7b14b4093f744b1ab7e1",
+        "size": 43300,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/f04f2c18486aa1fbe31a7b14b4093f744b1ab7e1"
+      },
+      {
+        "path": "src/lib/i18n/messages/st.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "35d5962671334b89fd2189de9a737f258d68934f",
+        "size": 43395,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/35d5962671334b89fd2189de9a737f258d68934f"
+      },
+      {
+        "path": "src/lib/i18n/messages/sv.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "553424c4c5fd320bac99c2493941593b316d6a18",
+        "size": 43515,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/553424c4c5fd320bac99c2493941593b316d6a18"
+      },
+      {
+        "path": "src/lib/i18n/messages/sw.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6c6263ba31f6da03f6e8eb99d4b73fac768d15c0",
+        "size": 42773,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/6c6263ba31f6da03f6e8eb99d4b73fac768d15c0"
+      },
+      {
+        "path": "src/lib/i18n/messages/ta.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "94ca1de3452f63609f7590d9d4ead1f0cf82c20a",
+        "size": 59707,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/94ca1de3452f63609f7590d9d4ead1f0cf82c20a"
+      },
+      {
+        "path": "src/lib/i18n/messages/te.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "98bdb331ae3670da51191ac40d6a5dda679fc6b5",
+        "size": 57007,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/98bdb331ae3670da51191ac40d6a5dda679fc6b5"
+      },
+      {
+        "path": "src/lib/i18n/messages/tg.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c18d7e12cc7200da1b6ec4e402270f3981912cc6",
+        "size": 48220,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/c18d7e12cc7200da1b6ec4e402270f3981912cc6"
+      },
+      {
+        "path": "src/lib/i18n/messages/th.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3be5a648729db64c3216c120b51988d63735e7ec",
+        "size": 57694,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/3be5a648729db64c3216c120b51988d63735e7ec"
+      },
+      {
+        "path": "src/lib/i18n/messages/ti.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d3c5a17f646877ffc89c32a20fa9997aa3080a30",
+        "size": 46715,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/d3c5a17f646877ffc89c32a20fa9997aa3080a30"
+      },
+      {
+        "path": "src/lib/i18n/messages/tl.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "be2254cc8f6838522f1e68df083b1ec1f16dabbe",
+        "size": 43919,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/be2254cc8f6838522f1e68df083b1ec1f16dabbe"
+      },
+      {
+        "path": "src/lib/i18n/messages/tn.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d57665f93b6a7537bf229818eb3cf6b789831bbe",
+        "size": 44150,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/d57665f93b6a7537bf229818eb3cf6b789831bbe"
+      },
+      {
+        "path": "src/lib/i18n/messages/tr.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "335923991525df3d9419f57206da0acb45f4e70d",
+        "size": 43716,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/335923991525df3d9419f57206da0acb45f4e70d"
+      },
+      {
+        "path": "src/lib/i18n/messages/ts.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fe4c4848933092d8340858ecb3f9d7c92a974a7f",
+        "size": 44250,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/fe4c4848933092d8340858ecb3f9d7c92a974a7f"
+      },
+      {
+        "path": "src/lib/i18n/messages/tt.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8a1f4f23670800a887884afde4bae9814ddd78a2",
+        "size": 46971,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/8a1f4f23670800a887884afde4bae9814ddd78a2"
+      },
+      {
+        "path": "src/lib/i18n/messages/tw.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "da2197d71cc935045993d2c22c6ef30a1efe1068",
+        "size": 43494,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/da2197d71cc935045993d2c22c6ef30a1efe1068"
+      },
+      {
+        "path": "src/lib/i18n/messages/ty.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1925511e88c802d76ae733ea70111d70221751b3",
+        "size": 42217,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/1925511e88c802d76ae733ea70111d70221751b3"
+      },
+      {
+        "path": "src/lib/i18n/messages/ug.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "23aacb2d0d621b9b23448b0fd2c593a175d00368",
+        "size": 47353,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/23aacb2d0d621b9b23448b0fd2c593a175d00368"
+      },
+      {
+        "path": "src/lib/i18n/messages/uk.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1c9cc33d740e24571ce3b7312a068a1bb1b14125",
+        "size": 53036,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/1c9cc33d740e24571ce3b7312a068a1bb1b14125"
+      },
+      {
+        "path": "src/lib/i18n/messages/ur.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6e6834eb4b4b29ba3ccef444b99a0894a63835c8",
+        "size": 42345,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/6e6834eb4b4b29ba3ccef444b99a0894a63835c8"
+      },
+      {
+        "path": "src/lib/i18n/messages/uz.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "384ea2ce78b8be6a218a794e74ef1cb8d3beeb6c",
+        "size": 43883,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/384ea2ce78b8be6a218a794e74ef1cb8d3beeb6c"
+      },
+      {
+        "path": "src/lib/i18n/messages/ve.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a167dfc1dc2a606ecefca4b94ce961b852b8d0cf",
+        "size": 42220,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/a167dfc1dc2a606ecefca4b94ce961b852b8d0cf"
+      },
+      {
+        "path": "src/lib/i18n/messages/vi.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7a3f84d73ca97c100f26ac1911692b923a11c298",
+        "size": 46615,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/7a3f84d73ca97c100f26ac1911692b923a11c298"
+      },
+      {
+        "path": "src/lib/i18n/messages/wa.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1925511e88c802d76ae733ea70111d70221751b3",
+        "size": 42217,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/1925511e88c802d76ae733ea70111d70221751b3"
+      },
+      {
+        "path": "src/lib/i18n/messages/wo.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a167dfc1dc2a606ecefca4b94ce961b852b8d0cf",
+        "size": 42220,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/a167dfc1dc2a606ecefca4b94ce961b852b8d0cf"
+      },
+      {
+        "path": "src/lib/i18n/messages/xh.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c1bab72a1dab85bfb12139c5be26eff38b0413d5",
+        "size": 43139,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/c1bab72a1dab85bfb12139c5be26eff38b0413d5"
+      },
+      {
+        "path": "src/lib/i18n/messages/yi.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0a141776ee9c4d3e1950155b2e58fd146be16821",
+        "size": 48642,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/0a141776ee9c4d3e1950155b2e58fd146be16821"
+      },
+      {
+        "path": "src/lib/i18n/messages/yo.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4fe98ae76db5b6d1399b07555dba012fad91c822",
+        "size": 43936,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/4fe98ae76db5b6d1399b07555dba012fad91c822"
+      },
+      {
+        "path": "src/lib/i18n/messages/zh-CN.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "196b42b4ec5579c171f64f33a2b12847623ecdfa",
+        "size": 40352,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/196b42b4ec5579c171f64f33a2b12847623ecdfa"
+      },
+      {
+        "path": "src/lib/i18n/messages/zh-HK.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "29e3250f93bf530bd1a6b53fe50c01a862e42441",
+        "size": 41922,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/29e3250f93bf530bd1a6b53fe50c01a862e42441"
+      },
+      {
+        "path": "src/lib/i18n/messages/zh-TW.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "666472369411ce539abbe4bfced8cfb800ca9ac5",
+        "size": 41558,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/666472369411ce539abbe4bfced8cfb800ca9ac5"
+      },
+      {
+        "path": "src/lib/i18n/messages/zu.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fc152eff6a38e67d178c47420108f2024830dd18",
+        "size": 43133,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/fc152eff6a38e67d178c47420108f2024830dd18"
+      },
+      {
+        "path": "src/lib/knowledgepanels",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "a7ef27e331eb76f9f002ef11d04b1273c9932152",
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/trees/a7ef27e331eb76f9f002ef11d04b1273c9932152"
+      },
+      {
+        "path": "src/lib/knowledgepanels/Action.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "aa143061fddcad7438392e388358cba9c46ebb15",
+        "size": 3142,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/aa143061fddcad7438392e388358cba9c46ebb15"
+      },
+      {
+        "path": "src/lib/knowledgepanels/Element.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3881cb6d494cebad13810c00a47eb265f3b2349b",
+        "size": 1776,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/3881cb6d494cebad13810c00a47eb265f3b2349b"
+      },
+      {
+        "path": "src/lib/knowledgepanels/ExternalPanels.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "80388559ac1717b268bca59bd92366fcc3233b36",
+        "size": 7199,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/80388559ac1717b268bca59bd92366fcc3233b36"
+      },
+      {
+        "path": "src/lib/knowledgepanels/Map.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2b7d3de7b7818c5d2fb79cadf3c0c54184b6ecce",
+        "size": 2914,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/2b7d3de7b7818c5d2fb79cadf3c0c54184b6ecce"
+      },
+      {
+        "path": "src/lib/knowledgepanels/Panel.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "88a385559359b03d847cc8a04e3aae7c07ee64d6",
+        "size": 4092,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/88a385559359b03d847cc8a04e3aae7c07ee64d6"
+      },
+      {
+        "path": "src/lib/knowledgepanels/PanelGroup.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ea2424c5b3f45c5d898869454e43d7093ceea4a7",
+        "size": 1315,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/ea2424c5b3f45c5d898869454e43d7093ceea4a7"
+      },
+      {
+        "path": "src/lib/knowledgepanels/Panels.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5a8a9b0889a2125c3ca7868136731d370df41752",
+        "size": 2361,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/5a8a9b0889a2125c3ca7868136731d370df41752"
+      },
+      {
+        "path": "src/lib/knowledgepanels/Table.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "15f34e8352c36cd86a5b12a99f6ed32da608ab3a",
+        "size": 1105,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/15f34e8352c36cd86a5b12a99f6ed32da608ab3a"
+      },
+      {
+        "path": "src/lib/knowledgepanels/TextElement.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3720f7ad18f8568432f67480bb10deb7e00e54f9",
+        "size": 2016,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/3720f7ad18f8568432f67480bb10deb7e00e54f9"
+      },
+      {
+        "path": "src/lib/languages.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "355b864f0d3baa86903df5f091f82ed8c351cd3a",
+        "size": 508,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/355b864f0d3baa86903df5f091f82ed8c351cd3a"
+      },
+      {
+        "path": "src/lib/layout.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3ebd82e6176d905dccb35435bd6394277f12881e",
+        "size": 184,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/3ebd82e6176d905dccb35435bd6394277f12881e"
+      },
+      {
+        "path": "src/lib/location.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "797ede5a4838bf2c2d4566749985704be79d518b",
+        "size": 2235,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/797ede5a4838bf2c2d4566749985704be79d518b"
+      },
+      {
+        "path": "src/lib/matomo",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "81b0312efcffacd8913ca58154bf7f910e87b9c5",
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/trees/81b0312efcffacd8913ca58154bf7f910e87b9c5"
+      },
+      {
+        "path": "src/lib/matomo/Matomo.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9ee1cf806de82148625614f7503ef1c3563ccc49",
+        "size": 4212,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/9ee1cf806de82148625614f7503ef1c3563ccc49"
+      },
+      {
+        "path": "src/lib/matomo/index.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fbbdc9567e6dbb0944298cfb5317fe3c2852a519",
+        "size": 408,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/fbbdc9567e6dbb0944298cfb5317fe3c2852a519"
+      },
+      {
+        "path": "src/lib/matomo/tracker.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a9eebc44bcbd98310c2791776156f2be41a756a4",
+        "size": 7718,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/a9eebc44bcbd98310c2791776156f2be41a756a4"
+      },
+      {
+        "path": "src/lib/productScoring.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e5d57ca182dac9cf556e55df1898ed5d167f1cea",
+        "size": 2620,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/e5d57ca182dac9cf556e55df1898ed5d167f1cea"
+      },
+      {
+        "path": "src/lib/promises.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0f7266013edd42c5bf9c73cfb854179887d956e1",
+        "size": 579,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/0f7266013edd42c5bf9c73cfb854179887d956e1"
+      },
+      {
+        "path": "src/lib/scoring.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "520507890b4d9cd30dfd2ee5576c5edada742140",
+        "size": 2724,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/520507890b4d9cd30dfd2ee5576c5edada742140"
+      },
+      {
+        "path": "src/lib/settings.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b2d99fed09f3b6d33206f0058face13002b2eda3",
+        "size": 3369,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/b2d99fed09f3b6d33206f0058face13002b2eda3"
+      },
+      {
+        "path": "src/lib/stores",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "e43eaa4ea9a1635123a359f381fcc3e4bd6fb475",
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/trees/e43eaa4ea9a1635123a359f381fcc3e4bd6fb475"
+      },
+      {
+        "path": "src/lib/stores/auth.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4f3ebc57940351fa93626d41ed843b84127fbc1f",
+        "size": 5452,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/4f3ebc57940351fa93626d41ed843b84127fbc1f"
+      },
+      {
+        "path": "src/lib/stores/calculatorStore.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "486105fe102e372d8dcf3491dbfd967f7a0247e5",
+        "size": 2861,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/486105fe102e372d8dcf3491dbfd967f7a0247e5"
+      },
+      {
+        "path": "src/lib/stores/compareStore.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "18ef86da4446d9c00dc9ea6fea230152b0a964ce",
+        "size": 1084,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/18ef86da4446d9c00dc9ea6fea230152b0a964ce"
+      },
+      {
+        "path": "src/lib/stores/preferencesStore.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1ba8bf7f54422fad1d1e69292e301c6860997710",
+        "size": 2433,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/1ba8bf7f54422fad1d1e69292e301c6860997710"
+      },
+      {
+        "path": "src/lib/stores/shortcuts.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "22b5a89fb925ea2744598ff16b3e9a090ba5589d",
+        "size": 476,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/22b5a89fb925ea2744598ff16b3e9a090ba5589d"
+      },
+      {
+        "path": "src/lib/stores/toasts.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8fcd8f14217983de56c7f1fcdee1a62fa24670e4",
+        "size": 781,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/8fcd8f14217983de56c7f1fcdee1a62fa24670e4"
+      },
+      {
+        "path": "src/lib/stores/user.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "84d02f6f03799a1af2e2f5e1f240f093a2d7d567",
+        "size": 1708,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/84d02f6f03799a1af2e2f5e1f240f093a2d7d567"
+      },
+      {
+        "path": "src/lib/stores/website.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "608a22a602e9d0cf83244a7c395e1c3e0d96c0d2",
+        "size": 589,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/608a22a602e9d0cf83244a7c395e1c3e0d96c0d2"
+      },
+      {
+        "path": "src/lib/translations",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "252d6b7dc03f9e95b54c2cad9b6dd0aaf88a789f",
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/trees/252d6b7dc03f9e95b54c2cad9b6dd0aaf88a789f"
+      },
+      {
+        "path": "src/lib/translations/en",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "6b8e47e6aca0cfda21d98ffaba4300711a59f43c",
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/trees/6b8e47e6aca0cfda21d98ffaba4300711a59f43c"
+      },
+      {
+        "path": "src/lib/translations/en/common.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b29aa816318b408461d008662a70f6c748ef9bd4",
+        "size": 227,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/b29aa816318b408461d008662a70f6c748ef9bd4"
+      },
+      {
+        "path": "src/lib/types",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "b7482790c33fdf0c635031e4ded522b8a9af7b7b",
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/trees/b7482790c33fdf0c635031e4ded522b8a9af7b7b"
+      },
+      {
+        "path": "src/lib/types/sdk-overrides.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7ba362d96f7b153a37501eaf922c2755e2ac8e93",
+        "size": 724,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/7ba362d96f7b153a37501eaf922c2755e2ac8e93"
+      },
+      {
+        "path": "src/lib/ui",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "e9bf08842d0cee95748fb375404c6d6836a7d4da",
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/trees/e9bf08842d0cee95748fb375404c6d6836a7d4da"
+      },
+      {
+        "path": "src/lib/ui/AddProductForm.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3a18d0e40e805fc2659f4be594b3ad6f516fb209",
+        "size": 7942,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/3a18d0e40e805fc2659f4be594b3ad6f516fb209"
+      },
+      {
+        "path": "src/lib/ui/BarcodeCorrectionCard.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "97ebf371536e013ac5de09f61ad78d61d043da39",
+        "size": 1620,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/97ebf371536e013ac5de09f61ad78d61d043da39"
+      },
+      {
+        "path": "src/lib/ui/BarcodeInfo.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "afb93b8e8242d0dfe00da398d73f4ff82be6b48a",
+        "size": 10507,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/afb93b8e8242d0dfe00da398d73f4ff82be6b48a"
+      },
+      {
+        "path": "src/lib/ui/BlurredImageDisplay.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ddf38f444e936644c5551491b5f4b91b3640911a",
+        "size": 471,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/ddf38f444e936644c5551491b5f4b91b3640911a"
+      },
+      {
+        "path": "src/lib/ui/Card.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "58204f35ce3605f918409650f1c50d8d751d2d08",
+        "size": 255,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/58204f35ce3605f918409650f1c50d8d751d2d08"
+      },
+      {
+        "path": "src/lib/ui/CompareFloatingButton.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4cae672f88e870e638773851cc9ec5eafda6a79e",
+        "size": 737,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/4cae672f88e870e638773851cc9ec5eafda6a79e"
+      },
+      {
+        "path": "src/lib/ui/ComparisonDisplay.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1313b809b2a50d442d2171b3aa087d3568c29004",
+        "size": 21186,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/1313b809b2a50d442d2171b3aa087d3568c29004"
+      },
+      {
+        "path": "src/lib/ui/CountUp.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c806dc4059185b3a6859cf93a73cf16a62e0fcbf",
+        "size": 1020,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/c806dc4059185b3a6859cf93a73cf16a62e0fcbf"
+      },
+      {
+        "path": "src/lib/ui/Debug.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c26c97cda8ffde63e6265ee7d17b618db41d9025",
+        "size": 378,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/c26c97cda8ffde63e6265ee7d17b618db41d9025"
+      },
+      {
+        "path": "src/lib/ui/DeleteProductCard.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "21486da555aa7928418a7f5848d3028bf43aed54",
+        "size": 7007,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/21486da555aa7928418a7f5848d3028bf43aed54"
+      },
+      {
+        "path": "src/lib/ui/EditProductForm.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9ee08aa9b2ac3488074fdabf91faf38d4fab9c4e",
+        "size": 14651,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/9ee08aa9b2ac3488074fdabf91faf38d4fab9c4e"
+      },
+      {
+        "path": "src/lib/ui/EnvironmentNotice.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "72987d7475ae66f2f7aa0b0a53c341ae6533fb32",
+        "size": 738,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/72987d7475ae66f2f7aa0b0a53c341ae6533fb32"
+      },
+      {
+        "path": "src/lib/ui/Footer.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f477f7f82ccc8e26b7b7bc1643ac6902aa2a73b0",
+        "size": 6880,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/f477f7f82ccc8e26b7b7bc1643ac6902aa2a73b0"
+      },
+      {
+        "path": "src/lib/ui/HtmlPurify.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ea0666c74551db502a6ccdd20089b6e1ab551912",
+        "size": 403,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/ea0666c74551db502a6ccdd20089b6e1ab551912"
+      },
+      {
+        "path": "src/lib/ui/ImageButton.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1bcec7e2dff16a4d7a50cf4c6f9ae44a37d86c51",
+        "size": 2033,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/1bcec7e2dff16a4d7a50cf4c6f9ae44a37d86c51"
+      },
+      {
+        "path": "src/lib/ui/ImageManagerCard.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "97e69e69b9ff640be1fff143efecc6a3c0576293",
+        "size": 16060,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/97e69e69b9ff640be1fff143efecc6a3c0576293"
+      },
+      {
+        "path": "src/lib/ui/ImageModal.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6eaacc8f769f27d9862bc49b400d00884bbbaa27",
+        "size": 6454,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/6eaacc8f769f27d9862bc49b400d00884bbbaa27"
+      },
+      {
+        "path": "src/lib/ui/InfoTooltip.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e75ddc9ac5cca3a4b5500cf5c39134fab519aa43",
+        "size": 895,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/e75ddc9ac5cca3a4b5500cf5c39134fab519aa43"
+      },
+      {
+        "path": "src/lib/ui/InputAutocomplete.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ec9262d0df22325222f3c65eddbd6fb71e7b03df",
+        "size": 5799,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/ec9262d0df22325222f3c65eddbd6fb71e7b03df"
+      },
+      {
+        "path": "src/lib/ui/LoadingSpinner.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bf378e330e0e49e0231401aeb6208fb1c6b6e059",
+        "size": 2775,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/bf378e330e0e49e0231401aeb6208fb1c6b6e059"
+      },
+      {
+        "path": "src/lib/ui/Logo.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e0e26d7951652e4f97997372bb556ecdaa538f02",
+        "size": 958,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/e0e26d7951652e4f97997372bb556ecdaa538f02"
+      },
+      {
+        "path": "src/lib/ui/Navbar.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "580c1d0a48dd22c0e0b6c12f590de23f27950de9",
+        "size": 942,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/580c1d0a48dd22c0e0b6c12f590de23f27950de9"
+      },
+      {
+        "path": "src/lib/ui/NetworkError.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "72fdeb4f7cc7054879f1e58a3944573fb056fe9c",
+        "size": 463,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/72fdeb4f7cc7054879f1e58a3944573fb056fe9c"
+      },
+      {
+        "path": "src/lib/ui/NutritionCalculator.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5a026cb6b8c673afbf8d417055571e44b6214f89",
+        "size": 3417,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/5a026cb6b8c673afbf8d417055571e44b6214f89"
+      },
+      {
+        "path": "src/lib/ui/ObsoleteProductCard.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b36c6e77d21e7f3bbd682e81ca642b675d0fff07",
+        "size": 2026,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/b36c6e77d21e7f3bbd682e81ca642b675d0fff07"
+      },
+      {
+        "path": "src/lib/ui/PersonalizedSearchToggle.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e5a16ab52d73ea5016a195057a5b062b915498ba",
+        "size": 980,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/e5a16ab52d73ea5016a195057a5b062b915498ba"
+      },
+      {
+        "path": "src/lib/ui/ProductCard.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "07784667ff3e47a47d0614230e3fe4f766bee262",
+        "size": 519,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/07784667ff3e47a47d0614230e3fe4f766bee262"
+      },
+      {
+        "path": "src/lib/ui/ProductGrid.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1cc15fbfa54278548a4c6067dfe4543e2c65b3c0",
+        "size": 1788,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/1cc15fbfa54278548a4c6067dfe4543e2c65b3c0"
+      },
+      {
+        "path": "src/lib/ui/ResizableImage.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "655f19d9897a620c200acba7fc3b54e6f79ae260",
+        "size": 3261,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/655f19d9897a620c200acba7fc3b54e6f79ae260"
+      },
+      {
+        "path": "src/lib/ui/ScrollToTop.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b62853c18a5ea4235828b1fbb15d3ccfc13c6e51",
+        "size": 829,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/b62853c18a5ea4235828b1fbb15d3ccfc13c6e51"
+      },
+      {
+        "path": "src/lib/ui/SearchBar.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2e105d26666940b470ab14b422f2d615ec8105d3",
+        "size": 5880,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/2e105d26666940b470ab14b422f2d615ec8105d3"
+      },
+      {
+        "path": "src/lib/ui/SearchOptionsFooter.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e1555b187a137cb06a1ce42695481fe2237e20c0",
+        "size": 5164,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/e1555b187a137cb06a1ce42695481fe2237e20c0"
+      },
+      {
+        "path": "src/lib/ui/Sidebar.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b9aa2c617becd96467c989447d065a584031cc80",
+        "size": 9242,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/b9aa2c617becd96467c989447d065a584031cc80"
+      },
+      {
+        "path": "src/lib/ui/SlowServerDialog.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "59af7710d010c633d7a18a44f3c7ebfdccdc899b",
+        "size": 1634,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/59af7710d010c633d7a18a44f3c7ebfdccdc899b"
+      },
+      {
+        "path": "src/lib/ui/StandardError.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bc4c9eb5edb74a5ad44a06a2d886152e767ead9c",
+        "size": 4488,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/bc4c9eb5edb74a5ad44a06a2d886152e767ead9c"
+      },
+      {
+        "path": "src/lib/ui/StaticPageIframe.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d0ccebac02cd4a48bc57bea4dba0dc670890a072",
+        "size": 2013,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/d0ccebac02cd4a48bc57bea4dba0dc670890a072"
+      },
+      {
+        "path": "src/lib/ui/Tabs.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a289ddcc035706ef72d806b3883b168f004c852c",
+        "size": 2073,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/a289ddcc035706ef72d806b3883b168f004c852c"
+      },
+      {
+        "path": "src/lib/ui/TagChips.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4e629658a43d7dcbb2416e9e71a6d52ccbdb1eb4",
+        "size": 535,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/4e629658a43d7dcbb2416e9e71a6d52ccbdb1eb4"
+      },
+      {
+        "path": "src/lib/ui/TaxonomyDAG.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8e493b9d041c1d1f43bbac61ce635f2eb0ae351e",
+        "size": 5314,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/8e493b9d041c1d1f43bbac61ce635f2eb0ae351e"
+      },
+      {
+        "path": "src/lib/ui/Toast.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "84e019d1a46289a4af6b31a16a0012c4bc2190a8",
+        "size": 1677,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/84e019d1a46289a4af6b31a16a0012c4bc2190a8"
+      },
+      {
+        "path": "src/lib/ui/VegaChart.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fd1a9b9c9dba0ca5cdd0d1f437b2a80cd53ccbe5",
+        "size": 4468,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/fd1a9b9c9dba0ca5cdd0d1f437b2a80cd53ccbe5"
+      },
+      {
+        "path": "src/lib/ui/WcProductCard.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3aa4ebc0ebdb08971a01557d94cc6e1f35a7fc35",
+        "size": 6018,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/3aa4ebc0ebdb08971a01557d94cc6e1f35a7fc35"
+      },
+      {
+        "path": "src/lib/ui/edit-product-steps",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "3e3e1644d89ee586ca00cdf36dd3605d98584567",
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/trees/3e3e1644d89ee586ca00cdf36dd3605d98584567"
+      },
+      {
+        "path": "src/lib/ui/edit-product-steps/BasicInfoStep.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ac81764e18ca2a7bcfa12de24cdb96f7bb3288de",
+        "size": 26860,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/ac81764e18ca2a7bcfa12de24cdb96f7bb3288de"
+      },
+      {
+        "path": "src/lib/ui/edit-product-steps/CommentStep.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1f4744defc325c8916395b568b548a92e12da435",
+        "size": 2150,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/1f4744defc325c8916395b568b548a92e12da435"
+      },
+      {
+        "path": "src/lib/ui/edit-product-steps/ImagesStep.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b352b9739ebaac7554bc0b05e25c2e9ce0f67cf5",
+        "size": 2226,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/b352b9739ebaac7554bc0b05e25c2e9ce0f67cf5"
+      },
+      {
+        "path": "src/lib/ui/edit-product-steps/IngredientsStep.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "54070f7458560f4a57b4f86e87d2826ceca87395",
+        "size": 7903,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/54070f7458560f4a57b4f86e87d2826ceca87395"
+      },
+      {
+        "path": "src/lib/ui/edit-product-steps/LanguagesStep.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8550610baf59efa63f7f31a4298bfb8d32f18fe8",
+        "size": 7048,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/8550610baf59efa63f7f31a4298bfb8d32f18fe8"
+      },
+      {
+        "path": "src/lib/ui/edit-product-steps/NutritionStep.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "51e9df2a4e43e682db2983cb3dd39d1a2e92f8d0",
+        "size": 19972,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/51e9df2a4e43e682db2983cb3dd39d1a2e92f8d0"
+      },
+      {
+        "path": "src/lib/ui/edit-product-steps/OriginTraceabilityStep.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3f93fd561a50cea1e6e2e2a46fc057cec0178b83",
+        "size": 4643,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/3f93fd561a50cea1e6e2e2a46fc057cec0178b83"
+      },
+      {
+        "path": "src/lib/ui/edit-product-steps/PackagingComponentsEditor.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "442a6782e2f32dc41eb216a4db82671952fc1cad",
+        "size": 15930,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/442a6782e2f32dc41eb216a4db82671952fc1cad"
+      },
+      {
+        "path": "src/lib/ui/edit-product-steps/PackagingImage.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c2e4e26264b9ba2b89500ce4d58e7aa5aed1e9e1",
+        "size": 584,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/c2e4e26264b9ba2b89500ce4d58e7aa5aed1e9e1"
+      },
+      {
+        "path": "src/lib/ui/edit-product-steps/PackagingImageUpload.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "781ae465d3a99eb26218f86fc24522c708fae24b",
+        "size": 855,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/781ae465d3a99eb26218f86fc24522c708fae24b"
+      },
+      {
+        "path": "src/lib/ui/edit-product-steps/PackagingRecyclingInstructions.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2ffb06d1bd83395bf1b00c0f84e3800ef5f5e4d9",
+        "size": 2808,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/2ffb06d1bd83395bf1b00c0f84e3800ef5f5e4d9"
+      },
+      {
+        "path": "src/lib/ui/edit-product-steps/PackagingStep.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bd8373d7cd68fa2c4ed31372996a5dbd5ceb38f5",
+        "size": 2274,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/bd8373d7cd68fa2c4ed31372996a5dbd5ceb38f5"
+      },
+      {
+        "path": "src/lib/ui/edit-product-steps/ProductTypeStep.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0c2c602856ad50da3431ccb774a7cbc6dc253733",
+        "size": 2721,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/0c2c602856ad50da3431ccb774a7cbc6dc253733"
+      },
+      {
+        "path": "src/lib/ui/edit-product-steps/ScoreCalculationStep.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3a3077dab818363b15ac190c865b0a762f616beb",
+        "size": 2904,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/3a3077dab818363b15ac190c865b0a762f616beb"
+      },
+      {
+        "path": "src/lib/ui/edit-product-steps/nutrition.test.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b45a01cd15f3b41018c15e459f94039afb4725d0",
+        "size": 2056,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/b45a01cd15f3b41018c15e459f94039afb4725d0"
+      },
+      {
+        "path": "src/lib/ui/edit-product-steps/nutrition.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e2723a06b61e23825e46ddbcbbf1a372e9466b19",
+        "size": 6578,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/e2723a06b61e23825e46ddbcbbf1a372e9466b19"
+      },
+      {
+        "path": "src/lib/ui/facets",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "b0a6389c4ecafcea6a38c352a4d2e84c67bfec4b",
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/trees/b0a6389c4ecafcea6a38c352a4d2e84c67bfec4b"
+      },
+      {
+        "path": "src/lib/ui/facets/BackLink.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "745ff8086291116652934d25beecfe185df1fb3d",
+        "size": 306,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/745ff8086291116652934d25beecfe185df1fb3d"
+      },
+      {
+        "path": "src/lib/ui/images",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "421a548c3cab33e5474f06b9ca961b0b66fb202e",
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/trees/421a548c3cab33e5474f06b9ca961b0b66fb202e"
+      },
+      {
+        "path": "src/lib/ui/images/PhotoEditDialog.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8ebac9d5dd82ca3153fd77790b85af220e5462d8",
+        "size": 20908,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/8ebac9d5dd82ca3153fd77790b85af220e5462d8"
+      },
+      {
+        "path": "src/lib/ui/images/PhotoManager.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c1f44b557b158c6d1a13aac3bca4a7b2b3dac15e",
+        "size": 14332,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/c1f44b557b158c6d1a13aac3bca4a7b2b3dac15e"
+      },
+      {
+        "path": "src/lib/ui/images/PhotoSelectDialog.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a33c0df72e13b8bbf0c2bda5c5f385a25bb6da00",
+        "size": 2062,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/a33c0df72e13b8bbf0c2bda5c5f385a25bb6da00"
+      },
+      {
+        "path": "src/lib/ui/images/PhotoTypeSection.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "63ccb0f70de71fc96fcfa15c0a6d43cdc4a98556",
+        "size": 13029,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/63ccb0f70de71fc96fcfa15c0a6d43cdc4a98556"
+      },
+      {
+        "path": "src/lib/ui/preferences",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "8ff42933cd92b5724f17343c5f396283329a854b",
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/trees/8ff42933cd92b5724f17343c5f396283329a854b"
+      },
+      {
+        "path": "src/lib/ui/preferences/PreferenceSection.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "db3e7dcb39a78dbdfe979c78f6edab6afedbd3ae",
+        "size": 4016,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/db3e7dcb39a78dbdfe979c78f6edab6afedbd3ae"
+      },
+      {
+        "path": "src/lib/ui/preferences/PreferencesForm.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fdd86d5893fb728d1943c962941ca436bdfea3eb",
+        "size": 1815,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/fdd86d5893fb728d1943c962941ca436bdfea3eb"
+      },
+      {
+        "path": "src/lib/utils.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "18b04b7d6717faa62b5175a8f976c2da6ea3997b",
+        "size": 2698,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/18b04b7d6717faa62b5175a8f976c2da6ea3997b"
+      },
+      {
+        "path": "src/lib/utils",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "d712f6da0a4c14bd95758e8027ae8a2fef1bd90b",
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/trees/d712f6da0a4c14bd95758e8027ae8a2fef1bd90b"
+      },
+      {
+        "path": "src/lib/utils/csv.test.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b47461fdb7f3557d00724308328a0496e5e9691e",
+        "size": 2177,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/b47461fdb7f3557d00724308328a0496e5e9691e"
+      },
+      {
+        "path": "src/lib/utils/csv.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "14fb2cebc73de39af702be6f457e21f3b34b2f8f",
+        "size": 1164,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/14fb2cebc73de39af702be6f457e21f3b34b2f8f"
+      },
+      {
+        "path": "src/lib/utils/fieldFocus.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "521992a62133dc2560de6ae4b2ef0deb7cdf5bcb",
+        "size": 4187,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/521992a62133dc2560de6ae4b2ef0deb7cdf5bcb"
+      },
+      {
+        "path": "src/lib/utils/imageEdit.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1131622d107894b151bc3f8724be49a79245874a",
+        "size": 215,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/1131622d107894b151bc3f8724be49a79245874a"
+      },
+      {
+        "path": "src/lib/utils/searchCsvExport.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c75dc70059a91e12cf05a38cfbe9a924b1a3848e",
+        "size": 2513,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/c75dc70059a91e12cf05a38cfbe9a924b1a3848e"
+      },
+      {
+        "path": "src/lib/utils/webShare.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "eb9cb5aeec55843a2947022f1415cd67eddf3b58",
+        "size": 2023,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/eb9cb5aeec55843a2947022f1415cd67eddf3b58"
+      },
+      {
+        "path": "src/params",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "1803c36ee98f14183be4ad52d4eb61bb27782481",
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/trees/1803c36ee98f14183be4ad52d4eb61bb27782481"
+      },
+      {
+        "path": "src/params/barcode.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "272398b79ec613823f228486c1ce198a3602490d",
+        "size": 146,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/272398b79ec613823f228486c1ce198a3602490d"
+      },
+      {
+        "path": "src/routes",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "1ba63b8ac082510694018c42c7f06cea679bbc86",
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/trees/1ba63b8ac082510694018c42c7f06cea679bbc86"
+      },
+      {
+        "path": "src/routes/+error.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0c878c00c4fbea6e79b52d1d57bb38a82f777a5b",
+        "size": 1740,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/0c878c00c4fbea6e79b52d1d57bb38a82f777a5b"
+      },
+      {
+        "path": "src/routes/+layout.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d988d382e083d0fdc0642c9375dd526100723968",
+        "size": 14937,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/d988d382e083d0fdc0642c9375dd526100723968"
+      },
+      {
+        "path": "src/routes/+layout.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fa487617a2947bc56d7326502b7547d5b690721d",
+        "size": 371,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/fa487617a2947bc56d7326502b7547d5b690721d"
+      },
+      {
+        "path": "src/routes/+page.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cbce1da4edbef3d03be6e6829530ad1b85b6cd99",
+        "size": 8579,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/cbce1da4edbef3d03be6e6829530ad1b85b6cd99"
+      },
+      {
+        "path": "src/routes/+page.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2d7589706ec43b09b7525ac76ddae545ff7bd509",
+        "size": 1163,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/2d7589706ec43b09b7525ac76ddae545ff7bd509"
+      },
+      {
+        "path": "src/routes/Shortcuts.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e423272da1214589499ac810c6daffae086e45c6",
+        "size": 2607,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/e423272da1214589499ac810c6daffae086e45c6"
+      },
+      {
+        "path": "src/routes/compare",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "9c9d5216f62961b93c1ba622f67c73d40dba722c",
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/trees/9c9d5216f62961b93c1ba622f67c73d40dba722c"
+      },
+      {
+        "path": "src/routes/compare/+page.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3be9e56667d52ef33a305361043ad1515d52905a",
+        "size": 5387,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/3be9e56667d52ef33a305361043ad1515d52905a"
+      },
+      {
+        "path": "src/routes/compare/shared",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "1433391ed994375c121206a46553f2ea3884a14f",
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/trees/1433391ed994375c121206a46553f2ea3884a14f"
+      },
+      {
+        "path": "src/routes/compare/shared/+page.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a5de778b1ad9fabcadbb440a86895f072425ab1c",
+        "size": 4250,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/a5de778b1ad9fabcadbb440a86895f072425ab1c"
+      },
+      {
+        "path": "src/routes/compare/shared/+page.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e576f355f6feaa40a1dea2af175d3cbf8df56574",
+        "size": 1645,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/e576f355f6feaa40a1dea2af175d3cbf8df56574"
+      },
+      {
+        "path": "src/routes/explore",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "0551e18de0d399fa4c2613a0fe555f5b7c5c76fd",
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/trees/0551e18de0d399fa4c2613a0fe555f5b7c5c76fd"
+      },
+      {
+        "path": "src/routes/explore/+page.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b17d6a691e8aa38ef1005a08c1289cb7e3afff43",
+        "size": 2050,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/b17d6a691e8aa38ef1005a08c1289cb7e3afff43"
+      },
+      {
+        "path": "src/routes/explore/+page.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "90601bd101fb037bce6ff683c870d8e5214422ff",
+        "size": 1954,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/90601bd101fb037bce6ff683c870d8e5214422ff"
+      },
+      {
+        "path": "src/routes/facets",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "aaf3dae35f8350f0ac2c12d6b7a40965c91ab575",
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/trees/aaf3dae35f8350f0ac2c12d6b7a40965c91ab575"
+      },
+      {
+        "path": "src/routes/facets/+page.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d1a6ef0bc21ad8bfcb3f057fbb587a3d78f39039",
+        "size": 693,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/d1a6ef0bc21ad8bfcb3f057fbb587a3d78f39039"
+      },
+      {
+        "path": "src/routes/facets/+page.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d1454cac857810f8fb180570ea1d3e154bb3c118",
+        "size": 4097,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/d1454cac857810f8fb180570ea1d3e154bb3c118"
+      },
+      {
+        "path": "src/routes/facets/[facet]",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "4dbd17a78c14ad7e7a3fb5d1018fc09695c84e3d",
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/trees/4dbd17a78c14ad7e7a3fb5d1018fc09695c84e3d"
+      },
+      {
+        "path": "src/routes/facets/[facet]/+page.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "919e2caa0afd5b6c9b1369cff6336ffd0bcc197c",
+        "size": 2749,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/919e2caa0afd5b6c9b1369cff6336ffd0bcc197c"
+      },
+      {
+        "path": "src/routes/facets/[facet]/+page.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e5934abdee0dfd6cbb071e5980b2a6cbb819d204",
+        "size": 1043,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/e5934abdee0dfd6cbb071e5980b2a6cbb819d204"
+      },
+      {
+        "path": "src/routes/facets/[facet]/CountriesMap.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b25e35f457b4b8c25e4818e61467a2e86e56348d",
+        "size": 12045,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/b25e35f457b4b8c25e4818e61467a2e86e56348d"
+      },
+      {
+        "path": "src/routes/facets/[facet]/[value]",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "27940d36b025cef30abead902a41ea220029d2e9",
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/trees/27940d36b025cef30abead902a41ea220029d2e9"
+      },
+      {
+        "path": "src/routes/facets/[facet]/[value]/+page.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ac9d0a5bd64c89e5153aa62faeb75268c513bae9",
+        "size": 5181,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/ac9d0a5bd64c89e5153aa62faeb75268c513bae9"
+      },
+      {
+        "path": "src/routes/facets/[facet]/[value]/+page.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2136bc90954dd715dc35281e60681f2eed24323f",
+        "size": 2578,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/2136bc90954dd715dc35281e60681f2eed24323f"
+      },
+      {
+        "path": "src/routes/facets/[facet]/country-data.test.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "eb65b1b145b59fa4672a043b7ea619f208e5ccd2",
+        "size": 3503,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/eb65b1b145b59fa4672a043b7ea619f208e5ccd2"
+      },
+      {
+        "path": "src/routes/facets/[facet]/country-data.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c0631e9a4d971231285cec42d4e93fae87a24ef5",
+        "size": 1509,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/c0631e9a4d971231285cec42d4e93fae87a24ef5"
+      },
+      {
+        "path": "src/routes/folksonomy",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "8a6b1654c2ec2804498fbae5d5664c0701f5effa",
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/trees/8a6b1654c2ec2804498fbae5d5664c0701f5effa"
+      },
+      {
+        "path": "src/routes/folksonomy/+page.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "47565478acb91930e577947153a5289bf629a416",
+        "size": 8996,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/47565478acb91930e577947153a5289bf629a416"
+      },
+      {
+        "path": "src/routes/folksonomy/+page.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f5cbaf12d62ad8e5a476d1af91d2ef63e22aad48",
+        "size": 464,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/f5cbaf12d62ad8e5a476d1af91d2ef63e22aad48"
+      },
+      {
+        "path": "src/routes/folksonomy/[key]",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "6f3294ee53f40054636d8f6be511277a31971d85",
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/trees/6f3294ee53f40054636d8f6be511277a31971d85"
+      },
+      {
+        "path": "src/routes/folksonomy/[key]/+page.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "be4d10a2d69da8c9a8e0072e843a1c83d614a7d4",
+        "size": 1060,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/be4d10a2d69da8c9a8e0072e843a1c83d614a7d4"
+      },
+      {
+        "path": "src/routes/folksonomy/[key]/+page.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5de80e189398fca8a4f23c9cc5c95d6d457bda6a",
+        "size": 845,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/5de80e189398fca8a4f23c9cc5c95d6d457bda6a"
+      },
+      {
+        "path": "src/routes/health",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "2b2f7383b4f016e66b0612dd3ebcd42aaabd148d",
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/trees/2b2f7383b4f016e66b0612dd3ebcd42aaabd148d"
+      },
+      {
+        "path": "src/routes/health/+server.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3237e3211ef7ea08d0cdb896ab90411a581c7c30",
+        "size": 239,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/3237e3211ef7ea08d0cdb896ab90411a581c7c30"
+      },
+      {
+        "path": "src/routes/loginrequired",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "1617589d6c5d2ab4327eb028f64ec9b8ce26a7de",
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/trees/1617589d6c5d2ab4327eb028f64ec9b8ce26a7de"
+      },
+      {
+        "path": "src/routes/loginrequired/+page.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "437c6bdd6a3734626c3f05e21a0dbb271f442ea8",
+        "size": 1385,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/437c6bdd6a3734626c3f05e21a0dbb271f442ea8"
+      },
+      {
+        "path": "src/routes/oauth",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "8ae646a99d15634c17491b7ca862e24e33b03958",
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/trees/8ae646a99d15634c17491b7ca862e24e33b03958"
+      },
+      {
+        "path": "src/routes/oauth/login",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "1ae329d63e9171a344ca9283d3c8aa2673d3931d",
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/trees/1ae329d63e9171a344ca9283d3c8aa2673d3931d"
+      },
+      {
+        "path": "src/routes/oauth/login/+page.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8983cf2b9bad01d7e2e698ea3750dc13ff6c7280",
+        "size": 1932,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/8983cf2b9bad01d7e2e698ea3750dc13ff6c7280"
+      },
+      {
+        "path": "src/routes/oauth/login/callback",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "bca7c5174cb4a85329d4c6b9b015eec4d9a8d134",
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/trees/bca7c5174cb4a85329d4c6b9b015eec4d9a8d134"
+      },
+      {
+        "path": "src/routes/oauth/login/callback/+page.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b128936c7acf53eb80ec3863eeac657725fd1052",
+        "size": 2675,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/b128936c7acf53eb80ec3863eeac657725fd1052"
+      },
+      {
+        "path": "src/routes/oauth/login/callback/+page.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b55521cd212cf13c56f86dd9aabe6adb40e324cc",
+        "size": 61,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/b55521cd212cf13c56f86dd9aabe6adb40e324cc"
+      },
+      {
+        "path": "src/routes/oauth/logout",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "9006e30d6c2863c686041892b439a8ec225dc303",
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/trees/9006e30d6c2863c686041892b439a8ec225dc303"
+      },
+      {
+        "path": "src/routes/oauth/logout/+page.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7a893224379d3100957444727f5ecf198a7fc81a",
+        "size": 690,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/7a893224379d3100957444727f5ecf198a7fc81a"
+      },
+      {
+        "path": "src/routes/oauth/logout/callback",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "87523f4909bba201b5a0f6bd7ec74cdc3a889f71",
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/trees/87523f4909bba201b5a0f6bd7ec74cdc3a889f71"
+      },
+      {
+        "path": "src/routes/oauth/logout/callback/+page.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "19e58a6d0dcecbe2972abd7cb3a9e5e6661d7561",
+        "size": 606,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/19e58a6d0dcecbe2972abd7cb3a9e5e6661d7561"
+      },
+      {
+        "path": "src/routes/oauth/logout/callback/+page.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b55521cd212cf13c56f86dd9aabe6adb40e324cc",
+        "size": 61,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/b55521cd212cf13c56f86dd9aabe6adb40e324cc"
+      },
+      {
+        "path": "src/routes/products",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "c69b7bb61e3ca2af7cd07e0297e0f7545eed57b7",
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/trees/c69b7bb61e3ca2af7cd07e0297e0f7545eed57b7"
+      },
+      {
+        "path": "src/routes/products/[barcode]",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "d1f93436e69085d49cbd3f6a38854f4fcdef841f",
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/trees/d1f93436e69085d49cbd3f6a38854f4fcdef841f"
+      },
+      {
+        "path": "src/routes/products/[barcode]/+page.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c6ecd3cd7d89461c23a829cbcfb51a42e3bf093d",
+        "size": 15597,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/c6ecd3cd7d89461c23a829cbcfb51a42e3bf093d"
+      },
+      {
+        "path": "src/routes/products/[barcode]/+page.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ab25f6c6195166a81bfa0472f82ab8bf917ca484",
+        "size": 3888,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/ab25f6c6195166a81bfa0472f82ab8bf917ca484"
+      },
+      {
+        "path": "src/routes/products/[barcode]/DataSources.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d65092c6fe567e8c927f87d2d4b7b81d4e5c5cde",
+        "size": 8108,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/d65092c6fe567e8c927f87d2d4b7b81d4e5c5cde"
+      },
+      {
+        "path": "src/routes/products/[barcode]/Folksonomy.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "23981dfca53bf7914fcada212390034e2ce2e1ed",
+        "size": 7842,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/23981dfca53bf7914fcada212390034e2ce2e1ed"
+      },
+      {
+        "path": "src/routes/products/[barcode]/Prices.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cff88226a8f477491df5cbd82f3c37dfc297d1ea",
+        "size": 2930,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/cff88226a8f477491df5cbd82f3c37dfc297d1ea"
+      },
+      {
+        "path": "src/routes/products/[barcode]/PricesMap.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2ad747eb663d30e6f97eaace4f4c5bdaabd0b6b1",
+        "size": 3893,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/2ad747eb663d30e6f97eaace4f4c5bdaabd0b6b1"
+      },
+      {
+        "path": "src/routes/products/[barcode]/ProductAttributes.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5f167ff0934b51c53ec32db07ffa6c2d1cb38f31",
+        "size": 2769,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/5f167ff0934b51c53ec32db07ffa6c2d1cb38f31"
+      },
+      {
+        "path": "src/routes/products/[barcode]/ProductHeader.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "79404eb6ac54d95e335724ade5984ef43d253403",
+        "size": 9956,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/79404eb6ac54d95e335724ade5984ef43d253403"
+      },
+      {
+        "path": "src/routes/products/[barcode]/edit",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "cb6004a1d4f54d71c055c2f8747606c35ffe32ab",
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/trees/cb6004a1d4f54d71c055c2f8747606c35ffe32ab"
+      },
+      {
+        "path": "src/routes/products/[barcode]/edit/+page.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e2f2516c2e9675ef70e901445d4b3367b0b33060",
+        "size": 16119,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/e2f2516c2e9675ef70e901445d4b3367b0b33060"
+      },
+      {
+        "path": "src/routes/products/[barcode]/edit/+page.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3141373e2e18ac5321d8429540c8e8359eeff313",
+        "size": 3151,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/3141373e2e18ac5321d8429540c8e8359eeff313"
+      },
+      {
+        "path": "src/routes/products/[barcode]/edit/Tags.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ca5a2cb46c1fb0403de33a7e88f07dd0e078ab9f",
+        "size": 6725,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/ca5a2cb46c1fb0403de33a7e88f07dd0e078ab9f"
+      },
+      {
+        "path": "src/routes/products/[barcode]/edit/TagsString.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fc56a3cfaafc32e86f89dec808fd47f2ca88c6f0",
+        "size": 494,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/fc56a3cfaafc32e86f89dec808fd47f2ca88c6f0"
+      },
+      {
+        "path": "src/routes/products/[barcode]/types.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "51dd525c50d50b4802f24b4de6130b37e32a8286",
+        "size": 192,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/51dd525c50d50b4802f24b4de6130b37e32a8286"
+      },
+      {
+        "path": "src/routes/qr",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "c02fc39400586f832feba26c5a8d4fd7e8c44bbb",
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/trees/c02fc39400586f832feba26c5a8d4fd7e8c44bbb"
+      },
+      {
+        "path": "src/routes/qr/+page.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1d54869f89c3058dc89720c08603b8ab46e687b0",
+        "size": 7660,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/1d54869f89c3058dc89720c08603b8ab46e687b0"
+      },
+      {
+        "path": "src/routes/search",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "743a2358011b725c85d2398cf5fb643ea9ad2e5b",
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/trees/743a2358011b725c85d2398cf5fb643ea9ad2e5b"
+      },
+      {
+        "path": "src/routes/search/+page.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "02632b80810e0bc843f5cb1996668af9a9615164",
+        "size": 24724,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/02632b80810e0bc843f5cb1996668af9a9615164"
+      },
+      {
+        "path": "src/routes/search/+page.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "57b5862b52684bde135c3dd852c075994f7c21cf",
+        "size": 5286,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/57b5862b52684bde135c3dd852c075994f7c21cf"
+      },
+      {
+        "path": "src/routes/search/ActiveFiltersBar.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e4e8952a9795959d21fa4bfeda74b8bf48eb0086",
+        "size": 7160,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/e4e8952a9795959d21fa4bfeda74b8bf48eb0086"
+      },
+      {
+        "path": "src/routes/search/FacetBar.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1851bca4e0768678dc196fb81621467bc2b54749",
+        "size": 11242,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/1851bca4e0768678dc196fb81621467bc2b54749"
+      },
+      {
+        "path": "src/routes/search/FacetCard.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f215cce2423a29610a22cb72318ab6543499fa0e",
+        "size": 14818,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/f215cce2423a29610a22cb72318ab6543499fa0e"
+      },
+      {
+        "path": "src/routes/search/SearchFilters.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "96c830a38f925ff2c704211acf4c95e617558546",
+        "size": 28406,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/96c830a38f925ff2c704211acf4c95e617558546"
+      },
+      {
+        "path": "src/routes/search/SearchSidebar.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a67873567ef1a838e908bad42cedac78bbe911dd",
+        "size": 3292,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/a67873567ef1a838e908bad42cedac78bbe911dd"
+      },
+      {
+        "path": "src/routes/settings",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "d55ae2a966018c9d33e2e0a69a2b7d71e9cd725e",
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/trees/d55ae2a966018c9d33e2e0a69a2b7d71e9cd725e"
+      },
+      {
+        "path": "src/routes/settings/+page.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4fdb0d3f3e15be123f890e1b12c97f01c82651b9",
+        "size": 13405,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/4fdb0d3f3e15be123f890e1b12c97f01c82651b9"
+      },
+      {
+        "path": "src/routes/settings/+page.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f4c3c2ed844ca9c3fbb5dc3a6d4211e4ff41133a",
+        "size": 1254,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/f4c3c2ed844ca9c3fbb5dc3a6d4211e4ff41133a"
+      },
+      {
+        "path": "src/routes/site.webmanifest",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "71d57114fc83cf9938c7013f840589f7d719db2b",
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/trees/71d57114fc83cf9938c7013f840589f7d719db2b"
+      },
+      {
+        "path": "src/routes/site.webmanifest/+server.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1b8560cb3990d7ec360555523437a82289e96bba",
+        "size": 1109,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/1b8560cb3990d7ec360555523437a82289e96bba"
+      },
+      {
+        "path": "src/routes/site.webmanifest/android-chrome-192x192.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9f7a3f1a4d361ba39cec6d156c51050bb96c9a98",
+        "size": 6153,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/9f7a3f1a4d361ba39cec6d156c51050bb96c9a98"
+      },
+      {
+        "path": "src/routes/site.webmanifest/android-chrome-512x512.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2e865aab43121cfc990b3f9e7550cb6200b25869",
+        "size": 17883,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/2e865aab43121cfc990b3f9e7550cb6200b25869"
+      },
+      {
+        "path": "src/routes/static",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "b8efc57072bf923c7751b286fdee636b1bbaaa0f",
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/trees/b8efc57072bf923c7751b286fdee636b1bbaaa0f"
+      },
+      {
+        "path": "src/routes/static/[id]",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "c4f646f539498c9e596336ed9b89a6a559704d2d",
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/trees/c4f646f539498c9e596336ed9b89a6a559704d2d"
+      },
+      {
+        "path": "src/routes/static/[id]/+page.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "950632e199fb728b54db1cb1efa68af5ac11b63c",
+        "size": 289,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/950632e199fb728b54db1cb1efa68af5ac11b63c"
+      },
+      {
+        "path": "src/routes/static/[id]/+page.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "src/routes/users",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "d2c72ced82bd2b003874e70a5e64faf551307014",
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/trees/d2c72ced82bd2b003874e70a5e64faf551307014"
+      },
+      {
+        "path": "src/routes/users/[user]",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "82ea077eda28647f99b451f5ee633e2ae52165e8",
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/trees/82ea077eda28647f99b451f5ee633e2ae52165e8"
+      },
+      {
+        "path": "src/routes/users/[user]/+page.svelte",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "00633f276d05429e076d4c07d3f421fa2a436ef1",
+        "size": 3842,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/00633f276d05429e076d4c07d3f421fa2a436ef1"
+      },
+      {
+        "path": "src/routes/users/[user]/+page.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "86d7b8b2a487bfe644b53240e1c10115afdeb050",
+        "size": 1036,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/86d7b8b2a487bfe644b53240e1c10115afdeb050"
+      },
+      {
+        "path": "src/routes/users/[user]/camera.svg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2f5dcef65bd86e5ccf00f98632c99b6b018eb2a3",
+        "size": 385,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/2f5dcef65bd86e5ccf00f98632c99b6b018eb2a3"
+      },
+      {
+        "path": "src/routes/users/[user]/scale.svg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e3f39cec550b569d606a7d0ff08335f7e2712d5b",
+        "size": 2782,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/e3f39cec550b569d606a7d0ff08335f7e2712d5b"
+      },
+      {
+        "path": "src/routes/users/[user]/shopping-cart.svg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "da8162e8d7f885dc6dccbd6580e66701356cb310",
+        "size": 3564,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/da8162e8d7f885dc6dccbd6580e66701356cb310"
+      },
+      {
+        "path": "src/service-worker.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a343a41cd159e880a2ce948a313f8fd481c15a24",
+        "size": 2979,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/a343a41cd159e880a2ce948a313f8fd481c15a24"
+      },
+      {
+        "path": "static",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "72b0c795fd8e3042dc6dd54e9436a96dba2d8635",
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/trees/72b0c795fd8e3042dc6dd54e9436a96dba2d8635"
+      },
+      {
+        "path": "static/Placeholder.svg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bd42dbf9fda8a1d367a3c81970b41582b1a14d05",
+        "size": 276,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/bd42dbf9fda8a1d367a3c81970b41582b1a14d05"
+      },
+      {
+        "path": "static/favicon.ico",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6f2cabb4865d0c849a67a7fd30e519ba9ed69f6b",
+        "size": 15086,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/6f2cabb4865d0c849a67a7fd30e519ba9ed69f6b"
+      },
+      {
+        "path": "static/login.svg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4d552973438a3f3d1023ead069cc767850388ead",
+        "size": 2526,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/4d552973438a3f3d1023ead069cc767850388ead"
+      },
+      {
+        "path": "svelte.config.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "689b794514909c54c9b7e8700ab089997dbb40e6",
+        "size": 1556,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/689b794514909c54c9b7e8700ab089997dbb40e6"
+      },
+      {
+        "path": "tsconfig.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "50c320c7d695d25539837e89d67cb4cf713bb967",
+        "size": 567,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/50c320c7d695d25539837e89d67cb4cf713bb967"
+      },
+      {
+        "path": "tsconfig.test.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6d399dd542df4a9d3e8618f05d8d15055e93b220",
+        "size": 125,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/6d399dd542df4a9d3e8618f05d8d15055e93b220"
+      },
+      {
+        "path": "vite-env.d.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9c24d95b130e2987a29ed5217bc250c17151f5ec",
+        "size": 90,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/9c24d95b130e2987a29ed5217bc250c17151f5ec"
+      },
+      {
+        "path": "vite.config.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "137b85ec0cc6f4a7e040ac131a0d9b45475262da",
+        "size": 1272,
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/git/blobs/137b85ec0cc6f4a7e040ac131a0d9b45475262da"
+      }
+    ],
+    "truncated": false
+  }
+}

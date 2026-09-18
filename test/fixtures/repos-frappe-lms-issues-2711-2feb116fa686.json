@@ -1,0 +1,93 @@
+{
+  "path": "/repos/frappe/lms/issues/2711",
+  "recordedFor": "/repos/frappe/lms/issues/2711",
+  "status": 200,
+  "body": {
+    "url": "https://api.github.com/repos/frappe/lms/issues/2711",
+    "repository_url": "https://api.github.com/repos/frappe/lms",
+    "labels_url": "https://api.github.com/repos/frappe/lms/issues/2711/labels{/name}",
+    "comments_url": "https://api.github.com/repos/frappe/lms/issues/2711/comments",
+    "events_url": "https://api.github.com/repos/frappe/lms/issues/2711/events",
+    "html_url": "https://github.com/frappe/lms/issues/2711",
+    "id": 5390967957,
+    "node_id": "I_kwDOFDR80s8AAAABQVOklQ",
+    "number": 2711,
+    "title": "Change `all` tab in batches to `active`",
+    "user": {
+      "login": "raizasafeel",
+      "id": 89463672,
+      "node_id": "MDQ6VXNlcjg5NDYzNjcy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/89463672?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/raizasafeel",
+      "html_url": "https://github.com/raizasafeel",
+      "followers_url": "https://api.github.com/users/raizasafeel/followers",
+      "following_url": "https://api.github.com/users/raizasafeel/following{/other_user}",
+      "gists_url": "https://api.github.com/users/raizasafeel/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/raizasafeel/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/raizasafeel/subscriptions",
+      "organizations_url": "https://api.github.com/users/raizasafeel/orgs",
+      "repos_url": "https://api.github.com/users/raizasafeel/repos",
+      "events_url": "https://api.github.com/users/raizasafeel/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/raizasafeel/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 2742482844,
+        "node_id": "MDU6TGFiZWwyNzQyNDgyODQ0",
+        "url": "https://api.github.com/repos/frappe/lms/labels/good%20first%20issue",
+        "name": "good first issue",
+        "color": "7057ff",
+        "default": true,
+        "description": "Good for newcomers",
+        "archived_at": null,
+        "archived_by": null
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignees": [],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2026-09-08T19:23:22Z",
+    "updated_at": "2026-09-08T19:23:22Z",
+    "closed_at": null,
+    "assignee": null,
+    "author_association": "CONTRIBUTOR",
+    "issue_field_values": [],
+    "type": null,
+    "active_lock_reason": null,
+    "sub_issues_summary": {
+      "total": 0,
+      "completed": 0,
+      "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
+    "body": "- Change all batches to active batches\n- This does not change student view as they only see active batches, but instead helps admin roles, right now looks very cluttered.\n- This should have `upcoming + current` batches",
+    "closed_by": null,
+    "reactions": {
+      "url": "https://api.github.com/repos/frappe/lms/issues/2711/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "timeline_url": "https://api.github.com/repos/frappe/lms/issues/2711/timeline",
+    "performed_via_github_app": null,
+    "state_reason": null,
+    "pinned_comment": null
+  }
+}

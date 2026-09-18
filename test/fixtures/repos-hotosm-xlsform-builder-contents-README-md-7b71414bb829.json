@@ -1,0 +1,23 @@
+{
+  "path": "/repos/hotosm/xlsform-builder/contents/README.md",
+  "recordedFor": "/repos/hotosm/xlsform-builder/contents/README.md",
+  "status": 200,
+  "body": {
+    "name": "README.md",
+    "path": "README.md",
+    "sha": "76669b7094bcfe3a4ef4ea6051b4b0f81227f03c",
+    "size": 506,
+    "url": "https://api.github.com/repos/hotosm/xlsform-builder/contents/README.md?ref=main",
+    "html_url": "https://github.com/hotosm/xlsform-builder/blob/main/README.md",
+    "git_url": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/76669b7094bcfe3a4ef4ea6051b4b0f81227f03c",
+    "download_url": "https://raw.githubusercontent.com/hotosm/xlsform-builder/main/README.md",
+    "type": "file",
+    "content": "IyBYTFNGb3JtIEJ1aWxkZXIKCkEgcmVwbyB0byBob3VzZToKCi0gWExTRm9y\nbSBidWlsZGVyIHdlYiBjb21wb25lbnQuCi0gWExTRm9ybSBleGFtcGxlcyBz\naG93Y2FzZS4KLSBYTFNGb3JtIGV4YW1wbGVzIHVwbG9hZGVyLgoKTmV4dCBz\ndGVwczoKCi0gW3hdIEltcHJvdmUgc3R5bGluZyAvIHVzZSB3ZWItYXdlc29t\nZSBjb21wb25lbnRzLgotIFt4XSBHZW5lcmF0ZSBJQU0gY3JlZHMgZm9yIGJ1\nY2tldCBgeGxzZm9ybXNgIGFuZCBzZXQgcmVsZXZhbnQgdXBsb2FkIHBvbGlj\neS4KLSBbeF0gQXR0YWNoIHNtYWxsIGJhY2tlbmQgZm9yIGNyZWF0aW5nIHBy\nZS1zaWduZWQgdXBsb2FkIFVSTHMgKGNyb3NzLXByb2plY3QpLgotIFt4XSBB\nbGxvdyB1c2VycyB0byB1cGxvYWQgdGhlaXIgWExTRm9ybSBleGFtcGxlcywg\nd2l0aCBhdHRhY2hlZCBtZXRhZGF0YS4KLSBbIF0gU3RhcnQgdGhlIFhMU0Zv\ncm0gZWRpdG9yIHdlYiBjb21wb25lbnQgKGJ1aWxkIGFyb3VuZCBnZXRvZGsv\nd2ViZm9ybXMpLgo=\n",
+    "encoding": "base64",
+    "_links": {
+      "self": "https://api.github.com/repos/hotosm/xlsform-builder/contents/README.md?ref=main",
+      "git": "https://api.github.com/repos/hotosm/xlsform-builder/git/blobs/76669b7094bcfe3a4ef4ea6051b4b0f81227f03c",
+      "html": "https://github.com/hotosm/xlsform-builder/blob/main/README.md"
+    }
+  }
+}

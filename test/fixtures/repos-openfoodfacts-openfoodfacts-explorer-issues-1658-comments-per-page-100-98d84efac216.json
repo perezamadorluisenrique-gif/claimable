@@ -1,0 +1,54 @@
+{
+  "path": "/repos/openfoodfacts/openfoodfacts-explorer/issues/1658/comments?per_page=100",
+  "recordedFor": "/repos/openfoodfacts/openfoodfacts-explorer/issues/1658/comments?per_page=100",
+  "status": 200,
+  "body": [
+    {
+      "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/issues/comments/5411269843",
+      "html_url": "https://github.com/openfoodfacts/openfoodfacts-explorer/issues/1658#issuecomment-5411269843",
+      "issue_url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/issues/1658",
+      "id": 5411269843,
+      "node_id": "IC_kwDOJn_g5c8AAAABQols0w",
+      "user": {
+        "login": "AchrafReyani",
+        "id": 43996450,
+        "node_id": "MDQ6VXNlcjQzOTk2NDUw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/43996450?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/AchrafReyani",
+        "html_url": "https://github.com/AchrafReyani",
+        "followers_url": "https://api.github.com/users/AchrafReyani/followers",
+        "following_url": "https://api.github.com/users/AchrafReyani/following{/other_user}",
+        "gists_url": "https://api.github.com/users/AchrafReyani/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/AchrafReyani/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/AchrafReyani/subscriptions",
+        "organizations_url": "https://api.github.com/users/AchrafReyani/orgs",
+        "repos_url": "https://api.github.com/users/AchrafReyani/repos",
+        "events_url": "https://api.github.com/users/AchrafReyani/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/AchrafReyani/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "created_at": "2026-08-25T13:42:19Z",
+      "updated_at": "2026-08-25T13:42:19Z",
+      "body": "Hi! I'd like to take this one — could you assign it to me? Plan: add an `InfoTooltip` next to the \"Ultra-processing level\" label in Compare mode with a one-sentence explanation of the NOVA groups (1 = unprocessed/minimally processed … 4 = ultra-processed), plus a small \"Learn more\" link to https://world.openfoodfacts.org/nova. Strings go through svelte-i18n.\n\nDisclosure: this contribution is being prepared with an AI agent (Claude Code, Claude Fable 5, agentic) operating under my GitHub account; I review and take responsibility for the code.",
+      "author_association": "NONE",
+      "pin": null,
+      "reactions": {
+        "url": "https://api.github.com/repos/openfoodfacts/openfoodfacts-explorer/issues/comments/5411269843/reactions",
+        "total_count": 0,
+        "+1": 0,
+        "-1": 0,
+        "laugh": 0,
+        "hooray": 0,
+        "confused": 0,
+        "heart": 0,
+        "rocket": 0,
+        "eyes": 0
+      },
+      "performed_via_github_app": null,
+      "minimized": null
+    }
+  ]
+}

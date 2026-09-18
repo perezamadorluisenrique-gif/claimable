@@ -1,0 +1,93 @@
+{
+  "path": "/repos/ohcnetwork/create-care-mfe-plug/issues/4",
+  "recordedFor": "/repos/ohcnetwork/create-care-mfe-plug/issues/4",
+  "status": 200,
+  "body": {
+    "url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/issues/4",
+    "repository_url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug",
+    "labels_url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/issues/4/labels{/name}",
+    "comments_url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/issues/4/comments",
+    "events_url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/issues/4/events",
+    "html_url": "https://github.com/ohcnetwork/create-care-mfe-plug/issues/4",
+    "id": 3926466316,
+    "node_id": "I_kwDOQaDBic7qCR8M",
+    "number": 4,
+    "title": ".gitignore is not created when a new plug is created using npx command",
+    "user": {
+      "login": "yash-learner",
+      "id": 53794102,
+      "node_id": "MDQ6VXNlcjUzNzk0MTAy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53794102?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/yash-learner",
+      "html_url": "https://github.com/yash-learner",
+      "followers_url": "https://api.github.com/users/yash-learner/followers",
+      "following_url": "https://api.github.com/users/yash-learner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yash-learner/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/yash-learner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yash-learner/subscriptions",
+      "organizations_url": "https://api.github.com/users/yash-learner/orgs",
+      "repos_url": "https://api.github.com/users/yash-learner/repos",
+      "events_url": "https://api.github.com/users/yash-learner/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/yash-learner/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 9688402235,
+        "node_id": "LA_kwDOQaDBic8AAAACQXlJOw",
+        "url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/labels/good%20first%20issue",
+        "name": "good first issue",
+        "color": "7057ff",
+        "default": true,
+        "description": "Good for newcomers",
+        "archived_at": null,
+        "archived_by": null
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignees": [],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2026-02-11T13:05:42Z",
+    "updated_at": "2026-07-07T12:46:23Z",
+    "closed_at": null,
+    "assignee": null,
+    "author_association": "MEMBER",
+    "issue_field_values": [],
+    "type": null,
+    "active_lock_reason": null,
+    "sub_issues_summary": {
+      "total": 0,
+      "completed": 0,
+      "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
+    "body": "npx create-care-mfe-plug care_test_plug\n\n🏥 Create Care FE Plugin\n\n✔ What port should the dev server run on? … 11110\n\n🚀 Creating new Care FE plugin...\n\n📁 Copying template files...\n🔧 Configuring project...\n\n✅ Project created successfully!\n\nNext steps:\n\n  cd care_test_plug\n  npm install\n  npm start\n\n  Your plugin will be available at http://localhost:11110\n\n\n<img width=\"1041\" height=\"1600\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/e2f63bfd-0eba-4a0d-8050-ad3e3128fe56\" />",
+    "closed_by": null,
+    "reactions": {
+      "url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/issues/4/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "timeline_url": "https://api.github.com/repos/ohcnetwork/create-care-mfe-plug/issues/4/timeline",
+    "performed_via_github_app": null,
+    "state_reason": null,
+    "pinned_comment": null
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "path": "/repos/oppia/oppia/contents/.github/CONTRIBUTING.md",
+  "recordedFor": "/repos/oppia/oppia/contents/.github/CONTRIBUTING.md",
+  "status": 200,
+  "body": {
+    "name": "CONTRIBUTING.md",
+    "path": ".github/CONTRIBUTING.md",
+    "sha": "46ca0adbcd3f761632803d463669b9986fc33d11",
+    "size": 2194,
+    "url": "https://api.github.com/repos/oppia/oppia/contents/.github/CONTRIBUTING.md?ref=develop",
+    "html_url": "https://github.com/oppia/oppia/blob/develop/.github/CONTRIBUTING.md",
+    "git_url": "https://api.github.com/repos/oppia/oppia/git/blobs/46ca0adbcd3f761632803d463669b9986fc33d11",
+    "download_url": "https://raw.githubusercontent.com/oppia/oppia/develop/.github/CONTRIBUTING.md",
+    "type": "file",
+    "content": "VGhhbmtzIGZvciB5b3VyIGludGVyZXN0IGluIGNvbnRyaWJ1dGluZyB0byB0\naGUgT3BwaWEgcHJvamVjdCwgYW5kIG1ha2luZyBpdCBlYXNpZXIgZm9yIHN0\ndWRlbnRzIHRvIGxlYXJuIG9ubGluZSBpbiBhbiBlZmZlY3RpdmUgYW5kIGVu\nam95YWJsZSB3YXkhCgpUaGVyZSBhcmUgbG90cyBvZiB3YXlzIHRvIGhlbHAg\nb3V0IGFuZCBiZWNvbWUgYW4gT3BwaWEgY29udHJpYnV0b3IsIGZyb20gam9p\nbmluZyBvdXIgdGVhbSBvZiBsZXNzb24gY3JlYXRvcnMgdG8gZml4aW5nIGEg\nYnVnIGluIHRoZSBbY29kZWJhc2VdKGh0dHBzOi8vZ2l0aHViLmNvbS9vcHBp\nYS9vcHBpYS8pLiBEb24ndCB3b3JyeSBpZiB5b3UncmUgbmV3IHRvICJvcGVu\nIHNvdXJjZSIsIG9yIGlmIHlvdSdyZSBzdGlsbCBhIHN0dWRlbnQgLS0gbWFu\neSBvZiBvdXIgY29udHJpYnV0b3JzIGFyZSwgdG9vLCBhbmQgd2UnZCBiZSBo\nYXBweSB0byBwcm92aWRlIG1lbnRvcnNoaXAgYW5kIHN1cHBvcnQgaWYgdGhp\ncyBpcyB5b3VyIGZpcnN0IHRpbWUgY29udHJpYnV0aW5nIHRvIGFuIG9wZW4g\nc291cmNlIHByb2plY3QuIFRoZSBtYWluIHRoaW5nIGlzIHRoYXQgeW91IGNh\ncmUgZGVlcGx5IGFib3V0IGhlbHBpbmcgcGVvcGxlIGFyb3VuZCB0aGUgd29y\nbGQgdG8gbGVhcm4gdGhpbmdzIGJldHRlciwgYW5kIHRoYXQgeW91J3JlIHJl\nc3BvbnNpYmxlIGFuZCByZWxpYWJsZS4KClRvIG1ha2UgaXQgZWFzaWVyIHRv\nIGdldCBzdGFydGVkLCB3ZSd2ZSBjYXRhbG9ndWVkIHNvbWUgb2YgdGhlIGRp\nZmZlcmVudCB3YXlzIHRvIGhlbHAgb3V0LiBQbGVhc2UgZmVlbCBmcmVlIHRv\nIHRha2UgYSBsb29rIHRocm91Z2ggdGhlbSwgYW5kIHNlZSBpZiBhbnkgaW50\nZXJlc3QgeW91OgoKLSBbQ29kZXJzXShodHRwczovL2dpdGh1Yi5jb20vb3Bw\naWEvb3BwaWEvd2lraS9Db250cmlidXRpbmctY29kZS10by1PcHBpYSkKLSBb\nSW5zdHJ1Y3Rpb25hbCBkZXNpZ25lcnMgYW5kIHN0b3J5dGVsbGVyc10oaHR0\ncHM6Ly9naXRodWIuY29tL29wcGlhL29wcGlhL3dpa2kvVGVhY2hpbmctd2l0\naC1PcHBpYSkKLSBbVVggcmVzZWFyY2hlcnNdKGh0dHBzOi8vZ2l0aHViLmNv\nbS9vcHBpYS9vcHBpYS93aWtpL0NvbmR1Y3RpbmctcmVzZWFyY2gtd2l0aC1z\ndHVkZW50cykKLSBbVm9pY2UgYXJ0aXN0c10oaHR0cHM6Ly9naXRodWIuY29t\nL29wcGlhL29wcGlhL3dpa2kvSW5zdHJ1Y3Rpb25zLWZvci12b2ljZS1hcnRp\nc3RzKQotIFtEZXNpZ25lcnMgYW5kIGFydGlzdHNdKGh0dHBzOi8vZ2l0aHVi\nLmNvbS9vcHBpYS9vcHBpYS93aWtpL0NvbnRyaWJ1dGluZy10by1PcHBpYSUy\nN3MtZGVzaWduKQoKSWYgeW91IGFyZSBpbnRlcmVzdGVkIGluIHdvcmtpbmcg\nb24gT3BwaWEncyBBbmRyb2lkIGFwcCwgeW91IHNob3VsZCBhbHNvIHRha2Ug\nYSBsb29rIGF0IHRoZSBbb3BwaWEvb3BwaWEtYW5kcm9pZCByZXBvc2l0b3J5\nXShodHRwczovL2dpdGh1Yi5jb20vb3BwaWEvb3BwaWEtYW5kcm9pZCkuCgpJ\nZiB5b3UgcnVuIGludG8gYW55IHByb2JsZW1zLCB5b3UgY2FuIGNoZWNrIG91\ndCB0aGUgW3VzZXIgZG9jdW1lbnRhdGlvbl0oaHR0cDovL29wcGlhLmdpdGh1\nYi5pby8pLiBGZWVsIGZyZWUgdG8gc2F5IGhlbGxvIG9uIFtHaXRIdWIgRGlz\nY3Vzc2lvbnNdKGh0dHBzOi8vZ2l0aHViLmNvbS9vcHBpYS9vcHBpYS9kaXNj\ndXNzaW9ucyksIHRvbyEgOikKCkZpbmFsbHksIGlmLCBhZnRlciByZWFkaW5n\nIHRoZSBhYm92ZSBsaW5rcywgeW91J2QgbGlrZSB0byBoZWxwLCBidXQgYXJl\nbid0IHN1cmUgaG93IC0tIGRvbid0IHdvcnJ5ISBUaGUgT3BwaWEgcHJvamVj\ndCBpcyB2ZXJ5IG11bHRpLWZhY2V0ZWQsIGFuZCB3ZSdkIGJlIGdsYWQgdG8g\naGVscCB5b3UgZmluZCBzb21ldGhpbmcgdG8gZG8gdGhhdCBtYXRjaGVzIHlv\ndXIgaW50ZXJlc3RzIGFuZCBza2lsbHMuIEp1c3QgZmlsbCBvdXQgW3RoaXMg\nZm9ybV0oaHR0cHM6Ly9mb3Jtcy5nbGUvakV5dG5kdGdkc3g3QnJuVjYpIHRv\nIGxldCB1cyBrbm93IHdoYXQgeW91J2QgbGlrZSB0byBoZWxwIHdpdGgsIG9y\nIHdyaXRlIHRvIHVzIGF0IFt2b2x1bnRlZXJAb3BwaWEub3JnXShtYWlsdG86\ndm9sdW50ZWVyQG9wcGlhLm9yZykgYW5kIHRlbGwgdXMgYSBiaXQgYWJvdXQg\neW91cnNlbGYgYW5kIHdoYXQgeW91J2QgbGlrZSB0byBkby4gV2UnbGwgZG8g\nb3VyIGJlc3QgdG8gaGVscCB5b3UgZ2V0IHN0YXJ0ZWQhCg==\n",
+    "encoding": "base64",
+    "_links": {
+      "self": "https://api.github.com/repos/oppia/oppia/contents/.github/CONTRIBUTING.md?ref=develop",
+      "git": "https://api.github.com/repos/oppia/oppia/git/blobs/46ca0adbcd3f761632803d463669b9986fc33d11",
+      "html": "https://github.com/oppia/oppia/blob/develop/.github/CONTRIBUTING.md"
+    }
+  }
+}
