@@ -115,6 +115,20 @@ export function hasToken(): boolean {
   return resolveToken() !== null;
 }
 
+/**
+ * Responses that must never be written to a fixture file.
+ *
+ * `/user` is the authenticated caller's own profile. Fixtures get committed and
+ * the repository is public, so recording it would publish whatever GitHub
+ * happens to return about whoever ran the recorder — and it is not needed
+ * anyway, since replayed runs pin the viewer explicitly.
+ */
+const NEVER_RECORD = [/^\/user(\?|$)/];
+
+function isRecordable(path: string): boolean {
+  return !NEVER_RECORD.some((p) => p.test(path));
+}
+
 function cassettePath(path: string): string {
   const hash = createHash("sha256").update(path).digest("hex").slice(0, 12);
   const slug = path
@@ -220,7 +234,7 @@ export async function api<T>(path: string): Promise<T> {
 
   try {
     const { body } = await requestRaw(path);
-    if (state.cassetteMode === "record") {
+    if (state.cassetteMode === "record" && isRecordable(path)) {
       mkdirSync(state.cassetteDir, { recursive: true });
       writeFileSync(
         cassettePath(path),
