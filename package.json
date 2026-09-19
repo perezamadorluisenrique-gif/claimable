@@ -4,7 +4,7 @@
   "description": "Tells you whether a GitHub issue is actually claimable — not just whether it says \"unassigned\".",
   "type": "module",
   "bin": {
-    "claimable": "./src/cli.ts"
+    "claimable": "src/cli.ts"
   },
   "exports": {
     ".": "./src/index.ts"
