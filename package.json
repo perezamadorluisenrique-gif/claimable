@@ -1,15 +1,16 @@
 {
   "name": "claimable",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Tells you whether a GitHub issue is actually claimable — not just whether it says \"unassigned\".",
   "type": "module",
   "bin": {
-    "claimable": "src/cli.ts"
+    "claimable": "dist/cli.js"
   },
   "exports": {
-    ".": "./src/index.ts"
+    ".": "./dist/index.js"
   },
   "files": [
+    "dist",
     "src",
     "README.md"
   ],
@@ -17,7 +18,9 @@
     "test": "node --test \"test/**/*.test.ts\"",
     "compare": "node test/compare.ts",
     "record": "node test/record.ts",
-    "check": "node --experimental-strip-types --check src/cli.ts"
+    "check": "node --experimental-strip-types --check src/cli.ts",
+    "build": "node scripts/build.js",
+    "prepublishOnly": "npm run build && npm run check && npm test && npm run compare"
   },
   "engines": {
     "node": ">=22.18.0"

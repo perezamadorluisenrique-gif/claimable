@@ -23,7 +23,7 @@ DISCARD  ohcnetwork/create-care-mfe-plug#4  .gitignore is not created when a new
     ! no closed pull requests found — no evidence that PRs get reviewed here
 ```
 
-No dependencies. No install. No build step.
+No dependencies. No install.
 
 ```bash
 npx claimable oppia/oppia#26840
@@ -168,14 +168,21 @@ Stated plainly, because a triage tool that hides its blind spots is worse than n
 
 ## Development
 
-Requires Node 22.18+ (TypeScript runs natively; there is no build step and no dependency
-tree).
+Requires Node 22.18+ (TypeScript runs natively; no dependency tree). Development runs the
+`src/*.ts` files directly — no build step.
 
 ```bash
 npm test          # 54 tests, offline, deterministic
 npm run compare   # tool verdicts next to the hand verdicts, side by side
 npm run record    # re-record API fixtures (talks to the live API)
 ```
+
+The published package is different: Node refuses to type-strip `.ts` files that live under
+`node_modules`, so a package whose `bin`/`exports` point at raw TypeScript cannot run once
+installed. `npm run build` uses Node's own stripper (`node:module`'s `stripTypeScriptTypes`,
+the same one `--experimental-strip-types` calls internally) to generate a plain-JS `dist/`
+at publish time — `prepublishOnly` runs it automatically, so `npm publish` always ships
+working JS. `dist/` is generated, not committed.
 
 Fixtures are recorded snapshots of the GitHub API. The suite pins both the clock
 (`CLAIMABLE_NOW`) and the authenticated user, so it does not change its mind when somebody

@@ -17,3 +17,10 @@ jobs:
       - run: npm run check
       - run: npm test
       - run: npm run compare
+      - run: npm run build
+      - name: Smoke-test the packed tarball from inside node_modules
+        run: |
+          npm pack --pack-destination /tmp
+          mkdir -p /tmp/install-test/node_modules/claimable
+          tar -xzf /tmp/claimable-*.tgz -C /tmp/install-test/node_modules/claimable --strip-components=1
+          node /tmp/install-test/node_modules/claimable/dist/cli.js --help
