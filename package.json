@@ -29,5 +29,14 @@
     "triage",
     "contributing"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "author": "Luis Enrique Perez Amador",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/perezamadorluisenrique-gif/claimable.git"
+  },
+  "bugs": {
+    "url": "https://github.com/perezamadorluisenrique-gif/claimable/issues"
+  },
+  "homepage": "https://github.com/perezamadorluisenrique-gif/claimable#readme"
 }
