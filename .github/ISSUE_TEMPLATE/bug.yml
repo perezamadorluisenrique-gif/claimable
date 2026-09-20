@@ -1,0 +1,50 @@
+name: Bug
+description: It crashed, hung, printed something broken, or would not run.
+title: "Bug: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        For a verdict you disagree with, use **Wrong verdict** instead — that one is
+        triaged differently.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: The command you ran and what came back.
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected instead
+    validations:
+      required: true
+  - type: input
+    id: node
+    attributes:
+      label: Node version
+      description: "`node --version` — the tool needs 22.18 or newer."
+      placeholder: v22.18.0
+    validations:
+      required: true
+  - type: dropdown
+    id: auth
+    attributes:
+      label: How it was authenticating
+      options:
+        - GITHUB_TOKEN / GH_TOKEN
+        - gh auth token
+        - anonymous (no token)
+        - not sure
+    validations:
+      required: false
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      placeholder: 0.1.2
+    validations:
+      required: false

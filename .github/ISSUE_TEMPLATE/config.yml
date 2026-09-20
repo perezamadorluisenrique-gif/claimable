@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Question, or feedback that is not a bug
+    url: https://github.com/perezamadorluisenrique-gif/claimable/discussions
+    about: Discussions is the place for "is this the right tool for X" and for arguing with a verdict in general terms.

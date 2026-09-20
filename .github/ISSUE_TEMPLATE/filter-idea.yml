@@ -1,0 +1,39 @@
+name: A check it should be making
+description: A way an issue turns out not to be workable that none of the seven filters catch.
+title: "Check: "
+labels: ["filter"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The seven filters are: repo alive, existing PR, blocked/umbrella, claimants,
+        prerequisites, environment, claim protocol.
+  - type: textarea
+    id: mistake
+    attributes:
+      label: The mistake it would prevent
+      description: >
+        Ideally the time it cost you. A check is worth adding when starting work without
+        it wastes real effort, not when it is merely interesting.
+      placeholder: >
+        I spent an afternoon on an issue whose repository had archived the package I was
+        meant to patch.
+    validations:
+      required: true
+  - type: input
+    id: example
+    attributes:
+      label: A real issue it would have caught
+      description: >
+        Needed to add the case to the evaluation set. A check with no example cannot be
+        tested, and an untested filter is how the tool starts guessing.
+      placeholder: owner/repo#123
+    validations:
+      required: true
+  - type: textarea
+    id: signal
+    attributes:
+      label: What the tool would look at
+      description: Which part of the API or the repository shows it, if you know.
+    validations:
+      required: false
