@@ -1,0 +1,59 @@
+name: Wrong verdict
+description: The tool cleared an issue that was taken, or ruled out one that was fine.
+title: "Wrong verdict: "
+labels: ["verdict"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This is the most useful report there is — the verdicts are the product.
+
+        A cleared issue that turned out to be taken is the failure this tool exists to
+        prevent, and it is treated as the highest-priority kind of bug.
+  - type: input
+    id: reference
+    attributes:
+      label: The issue
+      description: As you passed it to the tool.
+      placeholder: owner/repo#123
+    validations:
+      required: true
+  - type: dropdown
+    id: verdict
+    attributes:
+      label: What the tool said
+      options:
+        - VIABLE
+        - CAUTION
+        - DISCARD
+    validations:
+      required: true
+  - type: textarea
+    id: truth
+    attributes:
+      label: What was actually true
+      description: >
+        What did you find out, and how? A link to the pull request, the claim comment, or
+        whatever settled it is worth more than a description of it.
+      placeholder: |
+        PR #2727 had been open for five days against it. The issue still read unassigned.
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: The full output
+      description: >
+        Paste the whole run, not just the verdict line — the findings under it say which
+        filter decided. `--thorough` runs every filter even after one rules the issue out.
+      render: text
+    validations:
+      required: false
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: "`npx claimable --version`, or the commit you ran."
+      placeholder: 0.1.2
+    validations:
+      required: false
