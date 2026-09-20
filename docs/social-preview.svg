@@ -1,0 +1,39 @@
+<!--
+  The repository's social preview card (GitHub: Settings -> General -> Social preview).
+  1280x640 is GitHub's stated size. The PNG beside this file is what gets uploaded;
+  regenerate it from here if you change anything.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img"
+     aria-label="claimable — &quot;Unassigned&quot; is not the same as &quot;free&quot;. A CLI that checks whether a GitHub issue is actually workable.">
+  <title>claimable</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#151920"/>
+      <stop offset="1" stop-color="#0e1116"/>
+    </linearGradient>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .wordmark { font-size: 82px; font-weight: 700; fill: #ffffff; letter-spacing: -1px; }
+    .tagline  { font-size: 33px; fill: #b6bdc8; }
+    .term     { font-size: 25px; fill: #d7dce4; }
+    .dim      { fill: #79818f; }
+    .red      { fill: #f07178; font-weight: 700; }
+    .blue     { fill: #5f8fd6; }
+    .foot     { font-size: 23px; fill: #79818f; }
+  </style>
+
+  <rect width="1280" height="640" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1280" height="6" fill="#f07178"/>
+
+  <text class="wordmark" x="96" y="166">claimable</text>
+  <text class="tagline"  x="96" y="228">&#8220;Unassigned&#8221; is not the same as &#8220;free&#8221;.</text>
+
+  <rect x="96" y="286" width="1088" height="196" rx="12" fill="#0b0e12" stroke="#2b313c"/>
+  <text class="term" x="128" y="342" xml:space="preserve"><tspan class="blue">$ </tspan>npx claimable openfoodfacts/openfoodfacts-explorer#1660</text>
+  <text class="term" x="128" y="392" xml:space="preserve"><tspan class="red">DISCARD</tspan>  @pinankshah8-Aa claimed it 9 days ago</text>
+  <text class="term dim" x="128" y="438" xml:space="preserve">        the issue still read open, unassigned, good first issue</text>
+
+  <text class="foot" x="96" y="552">7 checks before you start &#183; no install &#183; no dependencies &#183; MIT</text>
+  <text class="foot dim" x="96" y="588">github.com/perezamadorluisenrique-gif/claimable</text>
+</svg>

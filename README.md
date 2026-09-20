@@ -2,13 +2,27 @@
 
 **"Unassigned" is not the same as "free".**
 
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/perezamadorluisenrique-gif/claimable/main/docs/demo.svg"
+    alt="claimable ruling out a GitHub issue that two contributors had already claimed in the comment thread, with a permalink to each claim"
+    width="900">
+</p>
+
+No dependencies. No install.
+
+```bash
+npx claimable oppia/oppia#26840
+```
+
 GitHub's `no:assignee` filter is how most people look for something to work on, and it is
 wrong often enough to waste real weekends. An issue can read *open, unassigned, good first
 issue* while a finished pull request has been sitting on it for three weeks — because
 GitHub does not assign an issue to whoever opens a PR against it.
 
 `claimable` runs the checks a careful contributor runs by hand before starting, and tells
-you what it found and where to verify it.
+you what it found and where to verify it. The issue above was claimed twice in the thread;
+this one is in a repository that stopped merging outside work ten months ago:
 
 ```
 $ claimable ohcnetwork/create-care-mfe-plug#4
@@ -21,12 +35,6 @@ DISCARD  ohcnetwork/create-care-mfe-plug#4  .gitignore is not created when a new
     × no push in 301 days (last: 2025-11-21)
       https://github.com/ohcnetwork/create-care-mfe-plug — pushed_at 2025-11-21T07:58:23Z
     ! no closed pull requests found — no evidence that PRs get reviewed here
-```
-
-No dependencies. No install.
-
-```bash
-npx claimable oppia/oppia#26840
 ```
 
 ---
@@ -157,6 +165,10 @@ wants a token; checking one does not.
 Authenticating has a second benefit: the tool then knows who you are, and stops reporting
 your own comments as somebody else having claimed the issue.
 
+Colour follows the terminal, and both standard overrides are honoured: `NO_COLOR` turns it
+off anywhere, `FORCE_COLOR=1` (or `CLICOLOR_FORCE=1`) keeps it through a pipe, for
+`less -R` and for CI logs.
+
 ---
 
 ## What it does not do
@@ -182,10 +194,16 @@ Requires Node 22.18+ (TypeScript runs natively; no dependency tree). Development
 `src/*.ts` files directly — no build step.
 
 ```bash
-npm test          # 54 tests, offline, deterministic
+npm test          # 61 tests, offline, deterministic
 npm run compare   # tool verdicts next to the hand verdicts, side by side
+npm run demo      # regenerate the README demo from a real run
 npm run record    # re-record API fixtures (talks to the live API)
 ```
+
+`npm run demo` spawns the CLI against the committed fixtures, captures what it actually
+writes to a terminal, and draws that into `docs/demo.svg`. The demo is therefore a
+recording rather than a mock-up, and a demo that has drifted from the real output is a
+one-command fix.
 
 The published package is different: Node refuses to type-strip `.ts` files that live under
 `node_modules`, so a package whose `bin`/`exports` point at raw TypeScript cannot run once
@@ -197,6 +215,16 @@ working JS. `dist/` is generated, not committed.
 Fixtures are recorded snapshots of the GitHub API. The suite pins both the clock
 (`CLAIMABLE_NOW`) and the authenticated user, so it does not change its mind when somebody
 on the other side of the world opens a pull request.
+
+## Feedback
+
+The verdicts are the product, so a verdict you disagree with is the most useful thing you
+can send. [Open a discussion](https://github.com/perezamadorluisenrique-gif/claimable/discussions)
+with the issue reference and what the tool got wrong, or
+[file an issue](https://github.com/perezamadorluisenrique-gif/claimable/issues/new/choose)
+— the templates ask for the reference and the verdict, which is all a reproduction needs.
+[CONTRIBUTING.md](CONTRIBUTING.md) covers adding a filter and adding a case to the
+evaluation set.
 
 ## Licence
 

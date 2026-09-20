@@ -17,6 +17,10 @@ jobs:
       - run: npm run check
       - run: npm test
       - run: npm run compare
+      - name: The README demo is a recording, so it must still match the real output
+        run: |
+          npm run demo
+          git diff --exit-code docs/demo.svg
       - run: npm run build
       - name: Smoke-test the packed tarball from inside node_modules
         run: |
