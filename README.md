@@ -75,6 +75,16 @@ $ npm run compare
 16/20 agree with the verified verdict · 4 signals the hand pass missed · 1 excluded as drift
 ```
 
+Do not take that number on trust. The fixtures are committed, so the whole evaluation
+replays from a clean clone in one command — offline, no token, no `npm install`, nothing
+to install:
+
+```bash
+git clone https://github.com/perezamadorluisenrique-gif/claimable && cd claimable && npm run compare
+```
+
+It prints a line per issue: the hand verdict, the tool's verdict, and which filter decided.
+
 Broken down:
 
 | | |
