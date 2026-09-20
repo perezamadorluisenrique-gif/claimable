@@ -13,6 +13,8 @@ import { isClaim } from "../src/checks/claimants.ts";
 import { extractPaths } from "../src/checks/prerequisites.ts";
 import { matchWindow, normalise } from "../src/checks/claim-protocol.ts";
 import { parseRef, parseRefs, parseRepo } from "../src/refs.ts";
+import { shouldUseColour } from "../src/report.ts";
+import { parseArgs } from "../src/cli.ts";
 import type { Finding } from "../src/types.ts";
 
 describe("parseRef", () => {
@@ -196,5 +198,44 @@ describe("decide", () => {
   it("clears an issue only when everything ran and nothing objected", () => {
     const { verdict } = decide([finding("ok", "fine"), finding("info", "median merge 2 days")], []);
     assert.equal(verdict, "viable");
+  });
+});
+
+describe("shouldUseColour", () => {
+  it("follows the terminal when nothing overrides it", () => {
+    assert.equal(shouldUseColour({}, true), true);
+    assert.equal(shouldUseColour({}, false), false);
+  });
+
+  it("lets FORCE_COLOR turn colour on through a pipe", () => {
+    assert.equal(shouldUseColour({ FORCE_COLOR: "1" }, false), true);
+    assert.equal(shouldUseColour({ CLICOLOR_FORCE: "1" }, false), true);
+  });
+
+  it("treats an explicit zero as off, not as \"set\"", () => {
+    assert.equal(shouldUseColour({ FORCE_COLOR: "0" }, true), false);
+    assert.equal(shouldUseColour({ CLICOLOR_FORCE: "0" }, true), false);
+  });
+
+  it("gives NO_COLOR the last word", () => {
+    assert.equal(shouldUseColour({ NO_COLOR: "", FORCE_COLOR: "1" }, true), false);
+    assert.equal(shouldUseColour({ TERM: "dumb", FORCE_COLOR: "1" }, true), false);
+  });
+});
+
+describe("parseArgs", () => {
+  it("recognises the version flag in both spellings", () => {
+    assert.equal(parseArgs(["--version"]).version, true);
+    assert.equal(parseArgs(["-V"]).version, true);
+    assert.equal(parseArgs(["oppia/oppia#26840"]).version, false);
+  });
+
+  it("does not mistake -V for -h", () => {
+    assert.equal(parseArgs(["-V"]).help, false);
+    assert.equal(parseArgs(["-h"]).version, false);
+  });
+
+  it("still rejects an option it does not know", () => {
+    assert.throws(() => parseArgs(["--v"]), /unknown option/);
   });
 });

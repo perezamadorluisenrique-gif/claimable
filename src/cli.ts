@@ -5,6 +5,9 @@
  * Run before you start work, not after.
  */
 
+import { readFileSync } from "node:fs";
+import { fileURLToPath } from "node:url";
+
 import { analyze } from "./analyze.ts";
 import { api, hasToken, requestCount } from "./github.ts";
 import { parseRefs, parseRepo } from "./refs.ts";
@@ -40,6 +43,7 @@ OPTIONS
   --quiet               One line per issue, no detail
   --viable-only         Print only issues that survive every filter
   -h, --help            This text
+  -V, --version         Print the version and exit
 
 EXIT CODES
   0  at least one issue is viable (or, with a single issue, it is viable)
@@ -58,6 +62,7 @@ type Options = {
   quiet: boolean;
   viableOnly: boolean;
   help: boolean;
+  version: boolean;
 };
 
 export function parseArgs(argv: string[]): Options {
@@ -72,6 +77,7 @@ export function parseArgs(argv: string[]): Options {
     quiet: false,
     viableOnly: false,
     help: false,
+    version: false,
   };
 
   for (let i = 0; i < argv.length; i++) {
@@ -86,6 +92,10 @@ export function parseArgs(argv: string[]): Options {
       case "-h":
       case "--help":
         opts.help = true;
+        break;
+      case "-V":
+      case "--version":
+        opts.version = true;
         break;
       case "--repo":
         opts.repo = next();
@@ -128,6 +138,29 @@ export function parseArgs(argv: string[]): Options {
   return opts;
 }
 
+/**
+ * The published version, read from the manifest rather than duplicated here —
+ * a hard-coded string is one `npm version` away from lying, and a bug report
+ * that names the wrong version wastes the reporter's time and mine.
+ *
+ * `../package.json` resolves from both layouts: `src/cli.ts` in the repository
+ * and `dist/cli.js` in the installed package.
+ */
+function version(): string {
+  try {
+    const manifest = fileURLToPath(new URL("../package.json", import.meta.url));
+    const parsed: unknown = JSON.parse(readFileSync(manifest, "utf8"));
+    if (typeof parsed === "object" && parsed !== null && "version" in parsed) {
+      const value = (parsed as { version: unknown }).version;
+      if (typeof value === "string") return value;
+    }
+  } catch {
+    // Fall through: a missing or unreadable manifest is not worth a crash in a
+    // flag whose whole job is to help somebody file a report.
+  }
+  return "unknown";
+}
+
 async function listRepoIssues(repo: string, labels: string[], limit: number): Promise<IssueRef[]> {
   const parsed = parseRepo(repo);
   if (!parsed) throw new Error(`--repo expects owner/repo, got "${repo}"`);
@@ -149,6 +182,11 @@ async function main(argv: string[]): Promise<number> {
   } catch (err) {
     process.stderr.write(`${err instanceof Error ? err.message : String(err)}\n\nRun claimable --help\n`);
     return 2;
+  }
+
+  if (opts.version) {
+    process.stdout.write(`${version()}\n`);
+    return 0;
   }
 
   if (opts.help || (opts.refs.length === 0 && opts.repo === null)) {
