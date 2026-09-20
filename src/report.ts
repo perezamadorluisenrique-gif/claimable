@@ -9,8 +9,26 @@
 import type { CheckId, Finding, IssueReport, Severity } from "./types.ts";
 import { refToString } from "./types.ts";
 
-const useColour =
-  process.stdout.isTTY === true && process.env.NO_COLOR === undefined && process.env.TERM !== "dumb";
+/**
+ * Colour is for terminals, not for files — but "is this a terminal?" is the
+ * wrong question when the output is being piped somewhere that renders it
+ * anyway (`less -R`, a CI log, a recorded demo). So the two standard overrides
+ * win over the TTY check in both directions, `NO_COLOR` first.
+ *
+ * Exported pure so the precedence is testable without a pseudo-terminal.
+ */
+export function shouldUseColour(
+  env: Record<string, string | undefined>,
+  isTTY: boolean,
+): boolean {
+  if (env.NO_COLOR !== undefined) return false;
+  if (env.TERM === "dumb") return false;
+  if (env.FORCE_COLOR !== undefined) return env.FORCE_COLOR !== "0";
+  if (env.CLICOLOR_FORCE !== undefined) return env.CLICOLOR_FORCE !== "0";
+  return isTTY;
+}
+
+const useColour = shouldUseColour(process.env, process.stdout.isTTY === true);
 
 const ESC = String.fromCharCode(27);
 const paint = (code: string, text: string) => (useColour ? `${ESC}[${code}m${text}${ESC}[0m` : text);
