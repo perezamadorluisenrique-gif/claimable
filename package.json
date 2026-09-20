@@ -1,6 +1,6 @@
 {
   "name": "claimable",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Tells you whether a GitHub issue is actually claimable — not just whether it says \"unassigned\".",
   "type": "module",
   "bin": {
