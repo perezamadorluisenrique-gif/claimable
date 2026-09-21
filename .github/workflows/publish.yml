@@ -1,0 +1,92 @@
+# Publishing, as a button rather than a terminal.
+#
+# npm has no publish-from-the-web, so this workflow is the closest thing: run
+# it from the Actions tab and it publishes whatever version package.json is
+# currently on. It does not bump the version — that stays a commit, so the
+# thing that gets published is always a thing that was reviewed.
+#
+# Authentication, one of two, set up once:
+#
+#   1. Trusted publishing (preferred, no secret to store). On npmjs.com, under
+#      the package's Settings -> Trusted publisher, add GitHub Actions with
+#      this repository and the workflow filename `publish.yml`. npm then
+#      accepts a short-lived OIDC token from this workflow, and the release
+#      gets a provenance attestation for free.
+#
+#   2. An automation token. Create one on npmjs.com and add it to this
+#      repository as the secret NPM_TOKEN. Works without any npmjs.com
+#      configuration, but it is a long-lived credential in a settings page.
+#
+# Either way `prepublishOnly` runs the build, the typecheck, the tests and the
+# ground-truth comparison first, so a broken package cannot be published by
+# clicking the wrong button.
+
+name: Publish to npm
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "The version you expect to publish, e.g. 0.1.2 — checked against package.json, not written to it"
+        required: true
+
+permissions:
+  contents: read
+  id-token: write # required for trusted publishing and provenance
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22.18"
+          registry-url: "https://registry.npmjs.org"
+
+      # Trusted publishing needs a newer npm than the one bundled with Node 22.
+      - name: Use an npm that supports trusted publishing
+        run: npm install -g npm@^11.5.1
+
+      # A typo in the box should stop the run, not publish the wrong version.
+      - name: Confirm package.json is the version you asked for
+        env:
+          EXPECTED: ${{ inputs.version }}
+        run: |
+          actual=$(node -p "require('./package.json').version")
+          if [ "$actual" != "$EXPECTED" ]; then
+            echo "package.json is $actual but you asked to publish $EXPECTED." >&2
+            echo "Bump the version in a commit first, or re-run with $actual." >&2
+            exit 1
+          fi
+          echo "publishing claimable@$actual"
+
+      # Publishing the same version twice is not an error worth a red run.
+      - name: Stop if this version is already on npm
+        env:
+          EXPECTED: ${{ inputs.version }}
+        run: |
+          if npm view "claimable@$EXPECTED" version >/dev/null 2>&1; then
+            echo "claimable@$EXPECTED is already published; nothing to do." >&2
+            exit 1
+          fi
+
+      # prepublishOnly runs build, check, test and compare before this ships.
+      - name: Publish
+        run: npm publish --provenance --access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: Verify the published package actually runs
+        run: |
+          cd "$(mktemp -d)"
+          npm pack "claimable@${{ inputs.version }}" >/dev/null
+          mkdir -p node_modules/claimable node_modules/.bin
+          tar -xzf claimable-*.tgz -C node_modules/claimable --strip-components=1
+          chmod +x node_modules/claimable/dist/cli.js
+          ln -s ../claimable/dist/cli.js node_modules/.bin/claimable
+          # The path npx takes, which is the one that broke once by printing
+          # nothing and exiting 0.
+          ./node_modules/.bin/claimable --help | grep -q 'USAGE'
+          test "$(./node_modules/.bin/claimable --version)" = "${{ inputs.version }}"
+          echo "claimable@${{ inputs.version }} runs through a bin symlink"
