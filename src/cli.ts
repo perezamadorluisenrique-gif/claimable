@@ -5,7 +5,7 @@
  * Run before you start work, not after.
  */
 
-import { readFileSync } from "node:fs";
+import { readFileSync, realpathSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 
 import { analyze } from "./analyze.ts";
@@ -243,8 +243,32 @@ async function main(argv: string[]): Promise<number> {
   return reports.some((r) => r.verdict === "viable") ? 0 : 1;
 }
 
-const invokedDirectly = process.argv[1] && import.meta.filename === process.argv[1];
-if (invokedDirectly) {
+/**
+ * Is this file being run, or imported?
+ *
+ * The obvious comparison — `import.meta.filename === process.argv[1]` — is
+ * wrong for an installed package, and wrong in the worst possible way. npm
+ * puts a symlink in `node_modules/.bin`, so `npx claimable` runs with
+ * `argv[1]` pointing at the link while `import.meta.filename` is already
+ * resolved to its target. They never match, `main` never runs, and the
+ * command exits 0 having printed nothing: a silent success that looks like
+ * the tool considered your issue and had no opinion.
+ *
+ * So both sides are resolved before they are compared. `realpath` can throw
+ * (a deleted or unreadable argv[1]); running is the safer answer there, since
+ * the failure mode of a false negative is the silent no-op above.
+ */
+function invokedDirectly(): boolean {
+  const entry = process.argv[1];
+  if (!entry) return false;
+  try {
+    return realpathSync(entry) === realpathSync(fileURLToPath(import.meta.url));
+  } catch {
+    return entry === import.meta.filename;
+  }
+}
+
+if (invokedDirectly()) {
   main(process.argv.slice(2))
     .then((code) => {
       process.exitCode = code;
