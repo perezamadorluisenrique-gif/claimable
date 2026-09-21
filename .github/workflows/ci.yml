@@ -22,9 +22,16 @@ jobs:
           npm run demo
           git diff --exit-code docs/demo.svg
       - run: npm run build
-      - name: Smoke-test the packed tarball from inside node_modules
+      - name: Smoke-test the packed tarball the way npx runs it
         run: |
           npm pack --pack-destination /tmp
-          mkdir -p /tmp/install-test/node_modules/claimable
+          mkdir -p /tmp/install-test/node_modules/claimable /tmp/install-test/node_modules/.bin
           tar -xzf /tmp/claimable-*.tgz -C /tmp/install-test/node_modules/claimable --strip-components=1
           node /tmp/install-test/node_modules/claimable/dist/cli.js --help
+          # npx does not run the file, it runs npm's symlink to it. That is the
+          # path that broke once by printing nothing and exiting 0, so assert on
+          # the output rather than on the exit code.
+          chmod +x /tmp/install-test/node_modules/claimable/dist/cli.js
+          ln -s ../claimable/dist/cli.js /tmp/install-test/node_modules/.bin/claimable
+          /tmp/install-test/node_modules/.bin/claimable --help | grep -q 'USAGE'
+          test "$(/tmp/install-test/node_modules/.bin/claimable --version)" = "$(node -p 'require("./package.json").version')"
