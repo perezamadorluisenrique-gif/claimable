@@ -23,16 +23,12 @@
 
 name: Publish to npm
 
-on:
-  workflow_dispatch:
-    inputs:
-      version:
-        # Optional on purpose. The common case is "publish what is on main",
-        # and a required box invites a wrong answer — the first run of this
-        # workflow failed because the box got the workflow's own filename.
-        description: "Leave blank to publish whatever version package.json is on. Fill it in only to double-check: the run then fails if package.json disagrees."
-        required: false
-        default: ""
+# No inputs. There is nothing to fill in, mistype, or leave a stray value in
+# from a previous run — GitHub's "Run workflow" form re-shows whatever was
+# typed last time, and that repeated a bad entry through three straight
+# failed runs. package.json is the only source of truth for what ships, so
+# there is nothing left for a box to get wrong.
+on: workflow_dispatch
 
 permissions:
   contents: read
@@ -52,19 +48,9 @@ jobs:
       - name: Use an npm that supports trusted publishing
         run: npm install -g npm@^11.5.1
 
-      # package.json decides what ships. A filled-in box is only a second
-      # opinion, and disagreeing with it stops the run rather than publishing
-      # something nobody asked for.
       - name: Work out what is being published
-        env:
-          EXPECTED: ${{ inputs.version }}
         run: |
           actual=$(node -p "require('./package.json').version")
-          if [ -n "$EXPECTED" ] && [ "$EXPECTED" != "$actual" ]; then
-            echo "You asked for $EXPECTED but package.json is on $actual." >&2
-            echo "Leave the box blank to publish $actual, or bump the version in a commit first." >&2
-            exit 1
-          fi
           echo "VERSION=$actual" >> "$GITHUB_ENV"
           echo "publishing claimable@$actual"
 
