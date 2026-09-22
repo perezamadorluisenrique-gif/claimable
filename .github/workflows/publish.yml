@@ -27,8 +27,12 @@ on:
   workflow_dispatch:
     inputs:
       version:
-        description: "The version you expect to publish, e.g. 0.1.2 — checked against package.json, not written to it"
-        required: true
+        # Optional on purpose. The common case is "publish what is on main",
+        # and a required box invites a wrong answer — the first run of this
+        # workflow failed because the box got the workflow's own filename.
+        description: "Leave blank to publish whatever version package.json is on. Fill it in only to double-check: the run then fails if package.json disagrees."
+        required: false
+        default: ""
 
 permissions:
   contents: read
@@ -38,8 +42,8 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
         with:
           node-version: "22.18"
           registry-url: "https://registry.npmjs.org"
@@ -48,26 +52,28 @@ jobs:
       - name: Use an npm that supports trusted publishing
         run: npm install -g npm@^11.5.1
 
-      # A typo in the box should stop the run, not publish the wrong version.
-      - name: Confirm package.json is the version you asked for
+      # package.json decides what ships. A filled-in box is only a second
+      # opinion, and disagreeing with it stops the run rather than publishing
+      # something nobody asked for.
+      - name: Work out what is being published
         env:
           EXPECTED: ${{ inputs.version }}
         run: |
           actual=$(node -p "require('./package.json').version")
-          if [ "$actual" != "$EXPECTED" ]; then
-            echo "package.json is $actual but you asked to publish $EXPECTED." >&2
-            echo "Bump the version in a commit first, or re-run with $actual." >&2
+          if [ -n "$EXPECTED" ] && [ "$EXPECTED" != "$actual" ]; then
+            echo "You asked for $EXPECTED but package.json is on $actual." >&2
+            echo "Leave the box blank to publish $actual, or bump the version in a commit first." >&2
             exit 1
           fi
+          echo "VERSION=$actual" >> "$GITHUB_ENV"
           echo "publishing claimable@$actual"
 
-      # Publishing the same version twice is not an error worth a red run.
+      # npm rejects a republish anyway; failing here says why, before the
+      # build and the test suite have burned two minutes.
       - name: Stop if this version is already on npm
-        env:
-          EXPECTED: ${{ inputs.version }}
         run: |
-          if npm view "claimable@$EXPECTED" version >/dev/null 2>&1; then
-            echo "claimable@$EXPECTED is already published; nothing to do." >&2
+          if npm view "claimable@$VERSION" version >/dev/null 2>&1; then
+            echo "claimable@$VERSION is already on npm. Bump the version in a commit first." >&2
             exit 1
           fi
 
@@ -80,7 +86,7 @@ jobs:
       - name: Verify the published package actually runs
         run: |
           cd "$(mktemp -d)"
-          npm pack "claimable@${{ inputs.version }}" >/dev/null
+          npm pack "claimable@$VERSION" >/dev/null
           mkdir -p node_modules/claimable node_modules/.bin
           tar -xzf claimable-*.tgz -C node_modules/claimable --strip-components=1
           chmod +x node_modules/claimable/dist/cli.js
@@ -88,5 +94,5 @@ jobs:
           # The path npx takes, which is the one that broke once by printing
           # nothing and exiting 0.
           ./node_modules/.bin/claimable --help | grep -q 'USAGE'
-          test "$(./node_modules/.bin/claimable --version)" = "${{ inputs.version }}"
-          echo "claimable@${{ inputs.version }} runs through a bin symlink"
+          test "$(./node_modules/.bin/claimable --version)" = "$VERSION"
+          echo "claimable@$VERSION runs through a bin symlink"
