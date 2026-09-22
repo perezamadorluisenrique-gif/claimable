@@ -145,7 +145,12 @@ claimable --find "<GitHub issue search>" [--limit <n>]
 ```
 
 Issues can be written as `owner/repo#123` or as any GitHub issue URL, including one copied
-from a comment permalink.
+from a comment permalink. A lone `-` reads them from a pipe, one per line, so anything that
+lists issues can feed it:
+
+```bash
+gh issue list -R oppia/oppia -l "good first issue" --json url -q '.[].url' | claimable - --quiet
+```
 
 | Option | Effect |
 |---|---|

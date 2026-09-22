@@ -10,7 +10,7 @@ import { fileURLToPath } from "node:url";
 
 import { analyze } from "./analyze.ts";
 import { api, hasToken, requestCount } from "./github.ts";
-import { parseRefs, parseRepo } from "./refs.ts";
+import { parseRef, parseRefs, parseRepo } from "./refs.ts";
 import { formatDetail, formatLine, formatSummary } from "./report.ts";
 import { CHECK_ORDER } from "./types.ts";
 import type { CheckId, GhIssue, IssueRef, IssueReport } from "./types.ts";
@@ -26,12 +26,15 @@ claimable — tells you whether a GitHub issue is actually claimable.
 
 USAGE
   claimable <issue> [<issue> ...]
+  <command that prints issues> | claimable -
   claimable --repo <owner/repo> [--label <label>] [--limit <n>]
   claimable --find "<GitHub issue search>" [--limit <n>]
 
 ISSUE FORMS
   owner/repo#123
   https://github.com/owner/repo/issues/123
+  -   read them from standard input, one per line, e.g.
+      gh issue list -R owner/repo -l "good first issue" --json url -q '.[].url' | claimable -
 
 OPTIONS
   --repo <owner/repo>   Scan open issues in a repository instead of named ones
@@ -58,6 +61,7 @@ EXIT CODES
 
 type Options = {
   refs: string[];
+  stdin: boolean;
   repo: string | null;
   find: string | null;
   labels: string[];
@@ -75,6 +79,7 @@ type Options = {
 export function parseArgs(argv: string[]): Options {
   const opts: Options = {
     refs: [],
+    stdin: false,
     repo: null,
     find: null,
     labels: [],
@@ -143,6 +148,9 @@ export function parseArgs(argv: string[]): Options {
         break;
       case "--viable-only":
         opts.viableOnly = true;
+        break;
+      case "-":
+        opts.stdin = true;
         break;
       default:
         if (arg.startsWith("-")) throw new Error(`unknown option "${arg}"`);
@@ -237,6 +245,30 @@ async function findIssues(query: string, limit: number): Promise<IssueRef[]> {
   return refs.slice(0, limit);
 }
 
+/**
+ * Issue references from piped text: the first thing on each line that reads as
+ * one. Lines are what `gh`, `grep` and `jq` produce, and taking the first
+ * reference per line means a line with a title after the URL still works.
+ */
+export function refsFromText(text: string): { found: string[]; unreadable: string[] } {
+  const found: string[] = [];
+  const unreadable: string[] = [];
+  for (const line of text.split(/\r?\n/)) {
+    const trimmed = line.trim();
+    if (!trimmed) continue;
+    const token = trimmed.split(/\s+/).find((t) => parseRef(t) !== null);
+    if (token) found.push(token);
+    else unreadable.push(trimmed);
+  }
+  return { found, unreadable };
+}
+
+async function readStdin(): Promise<string> {
+  const chunks: Buffer[] = [];
+  for await (const chunk of process.stdin) chunks.push(chunk as Buffer);
+  return Buffer.concat(chunks).toString("utf8");
+}
+
 async function main(argv: string[]): Promise<number> {
   let opts: Options;
   try {
@@ -249,6 +281,22 @@ async function main(argv: string[]): Promise<number> {
   if (opts.version) {
     process.stdout.write(`${version()}\n`);
     return 0;
+  }
+
+  if (opts.stdin) {
+    if (process.stdin.isTTY) {
+      process.stderr.write("claimable - reads issue references from a pipe, and nothing is piped in.\n\nRun claimable --help\n");
+      return 2;
+    }
+    const { found, unreadable } = refsFromText(await readStdin());
+    if (unreadable.length > 0) {
+      process.stderr.write(`Skipped ${unreadable.length} line${unreadable.length === 1 ? "" : "s"} with no issue reference, starting with: ${unreadable[0]}\n`);
+    }
+    if (found.length === 0) {
+      process.stderr.write("No issue references came in on standard input.\n");
+      return 2;
+    }
+    opts.refs.push(...found);
   }
 
   if (opts.help || (opts.refs.length === 0 && opts.repo === null && opts.find === null)) {
