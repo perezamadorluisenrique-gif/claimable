@@ -9,7 +9,7 @@
 import { strict as assert } from "node:assert";
 import { describe, it } from "node:test";
 import { decide } from "../src/analyze.ts";
-import { isClaim } from "../src/checks/claimants.ts";
+import { isClaim, isRetraction, standingClaims } from "../src/checks/claimants.ts";
 import { extractPaths } from "../src/checks/prerequisites.ts";
 import { matchWindow, normalise } from "../src/checks/claim-protocol.ts";
 import { parseRef, parseRefs, parseRepo } from "../src/refs.ts";
@@ -82,11 +82,25 @@ describe("isClaim", () => {
     "Thanks for reporting, we'll take a look",
     "I can reproduce this on Firefox",
     "Does anyone know why the test fails here?",
+    // Each of these was read as a claim by the first version of the patterns,
+    // which matched "on it" anywhere and "I'll take" before anything.
+    "Is anyone working on it?",
+    "Is someone still working on this?",
+    "I'll take a look at the logs tomorrow",
+    "I'll try to reproduce this on Linux",
+    "Could you comment on it with the stack trace?",
+    "This depends on it being merged first",
+    "If anyone would like to work on this, a PR is welcome",
+    "I'm not working on this, just reporting it",
   ];
 
   for (const text of notClaims) {
     it(`does not read "${text}" as a claim`, () => assert.equal(isClaim(text), false));
   }
+
+  it("ignores a claim inside a code block", () => {
+    assert.equal(isClaim("Repro:\n```\n// I'll work on this later\nfoo()\n```"), false);
+  });
 
   it("ignores a claim quoted from someone else", () => {
     assert.equal(isClaim("> I'll work on this\n\nDid you ever open a PR for it?"), false);
@@ -95,6 +109,68 @@ describe("isClaim", () => {
   it("treats an empty body as no claim", () => {
     assert.equal(isClaim(null), false);
     assert.equal(isClaim(""), false);
+  });
+});
+
+describe("claim withdrawals", () => {
+  const comment = (id: number, login: string, body: string, day: number) => ({
+    id,
+    user: { login },
+    body,
+    created_at: `2026-09-${String(day).padStart(2, "0")}T12:00:00Z`,
+    html_url: `https://github.com/o/r/issues/1#issuecomment-${id}`,
+  });
+
+  const retractions = [
+    "Sorry, I'm no longer working on this",
+    "please unassign me, I got busy",
+    "I won't be able to finish this, feel free to take it",
+    "Dropping this one, someone else can pick it up",
+  ];
+  for (const text of retractions) {
+    it(`reads "${text}" as a withdrawal`, () => assert.equal(isRetraction(text), true));
+  }
+
+  it("does not read a hedged claim as a withdrawal", () => {
+    // Verbatim in substance from openfoodfacts-explorer#1416.
+    const text = "if you are still working on it I am glad to step aside, otherwise I will pick it up";
+    assert.equal(isClaim(text), true);
+    assert.equal(isRetraction(text), false);
+  });
+
+  it("drops a claim its author later withdrew", () => {
+    const { claims, withdrawn } = standingClaims([
+      comment(1, "alice", "Can I work on this?", 1),
+      comment(2, "bob", "I'd like to take this one", 2),
+      comment(3, "alice", "Sorry, I'm no longer working on this", 5),
+    ]);
+    assert.deepEqual(claims.map((c) => c.user.login), ["bob"]);
+    assert.deepEqual(withdrawn.map((w) => w.claim.user.login), ["alice"]);
+  });
+
+  it("does not let somebody else withdraw a claim", () => {
+    const { claims } = standingClaims([
+      comment(1, "alice", "Can I work on this?", 1),
+      comment(2, "bob", "feel free to take it, I'm not working on this", 2),
+    ]);
+    assert.deepEqual(claims.map((c) => c.user.login), ["alice"]);
+  });
+
+  it("counts a re-claim after a withdrawal", () => {
+    const { claims } = standingClaims([
+      comment(1, "alice", "Can I work on this?", 1),
+      comment(2, "alice", "please unassign me", 3),
+      comment(3, "alice", "Back again, I'll take this", 9),
+    ]);
+    assert.deepEqual(claims.map((c) => c.id), [3]);
+  });
+
+  it("counts one claim per person, the latest", () => {
+    const { claims } = standingClaims([
+      comment(1, "alice", "Can I work on this?", 1),
+      comment(2, "alice", "I'm working on it, PR soon", 8),
+    ]);
+    assert.deepEqual(claims.map((c) => c.id), [2]);
   });
 });
 
