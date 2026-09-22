@@ -270,6 +270,14 @@ async function readStdin(): Promise<string> {
 }
 
 async function main(argv: string[]): Promise<number> {
+  // The published JavaScript runs on Node 18 and later; CI runs it on each
+  // even-numbered release from there. Older than that, the first sign would
+  // be "fetch is not defined" from deep inside a filter, so say it plainly.
+  if (typeof fetch !== "function") {
+    process.stderr.write(`claimable needs Node 18 or newer, and this is Node ${process.versions.node}.\n`);
+    return 2;
+  }
+
   let opts: Options;
   try {
     opts = parseArgs(argv);

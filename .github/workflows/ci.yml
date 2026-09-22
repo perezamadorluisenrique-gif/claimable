@@ -37,3 +37,40 @@ jobs:
           ln -s ../claimable/dist/cli.js /tmp/install-test/node_modules/.bin/claimable
           /tmp/install-test/node_modules/.bin/claimable --help | grep -q 'USAGE'
           test "$(/tmp/install-test/node_modules/.bin/claimable --version)" = "$(node -p 'require("./package.json").version')"
+
+  # The published package is plain JavaScript and runs on older Node than the
+  # TypeScript sources need. package.json promises Node 18, so every even
+  # release from there runs the packed tarball, through the bin symlink npx
+  # uses, against a recorded issue.
+  package-runs-on:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        node: ["18", "20", "22", "24"]
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: "22.18"
+      - run: npm run build && npm pack --pack-destination /tmp
+      - uses: actions/setup-node@v5
+        with:
+          node-version: ${{ matrix.node }}
+      - name: Run the packed tarball on Node ${{ matrix.node }}
+        env:
+          CLAIMABLE_CASSETTE: replay
+          CLAIMABLE_NOW: "2026-09-15T12:00:00Z"
+          NO_COLOR: "1"
+          GITHUB_TOKEN: ""
+        run: |
+          node --version
+          mkdir -p /tmp/compat/node_modules/claimable /tmp/compat/node_modules/.bin
+          tar -xzf /tmp/claimable-*.tgz -C /tmp/compat/node_modules/claimable --strip-components=1
+          chmod +x /tmp/compat/node_modules/claimable/dist/cli.js
+          ln -s ../claimable/dist/cli.js /tmp/compat/node_modules/.bin/claimable
+          /tmp/compat/node_modules/.bin/claimable --help | grep -q 'USAGE'
+          # Exit 1 is "nothing viable", which is the right answer for this issue.
+          out=$(/tmp/compat/node_modules/.bin/claimable frappe/lms#2711 --thorough --hacktoberfest || true)
+          echo "$out"
+          echo "$out" | grep -q 'PR #2727 by @ajzal-byte is already open'

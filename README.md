@@ -9,7 +9,7 @@
     width="900">
 </p>
 
-No dependencies. No install.
+No dependencies. No install. Node 18 or later.
 
 ```bash
 npx claimable oppia/oppia#26840
@@ -222,7 +222,10 @@ Stated plainly, because a triage tool that hides its blind spots is worse than n
 
 ## Development
 
-Requires Node 22.18+ (TypeScript runs natively; no dependency tree). Development runs the
+Development requires Node 22.18+ (TypeScript runs natively; no dependency tree). The
+published package is plain JavaScript and runs on Node 18 and later — CI runs the packed
+tarball on 18, 20, 22 and 24, so `npx claimable` works on the Node an `apt install` gives
+you. Development runs the
 `src/*.ts` files directly — no build step.
 
 ```bash
