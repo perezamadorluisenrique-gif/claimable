@@ -137,6 +137,7 @@ The two possible errors are not equally bad, so they are not treated equally:
 ```bash
 claimable <issue> [<issue> ...]
 claimable --repo <owner/repo> [--label <label>] [--limit <n>]
+claimable --find "<GitHub issue search>" [--limit <n>]
 ```
 
 Issues can be written as `owner/repo#123` or as any GitHub issue URL, including one copied
@@ -146,7 +147,8 @@ from a comment permalink.
 |---|---|
 | `--repo owner/repo` | Scan a repository's open issues instead of named ones |
 | `--label <label>` | With `--repo`: only issues with this label (repeatable) |
-| `--limit <n>` | With `--repo`: how many to scan (default 20) |
+| `--find <query>` | Search all of GitHub, then run every result through the filters |
+| `--limit <n>` | With `--repo` or `--find`: how many to scan (default 20) |
 | `--thorough` | Run every filter even after one rules an issue out |
 | `--skip <check>` | Skip a filter (repeatable) |
 | `--json` | Machine-readable output |
@@ -155,6 +157,24 @@ from a comment permalink.
 
 Exit code is `0` when at least one issue is viable, `1` when nothing is, `2` on a usage or
 network error — so it composes into a script.
+
+### Finding issues, not just checking them
+
+Every "good first issue" finder answers *where are the issues?* None of them answers
+*which of these is still free?* — so `--find` takes a GitHub search, and hands every
+result to the seven filters:
+
+```bash
+claimable --find 'label:hacktoberfest language:typescript' --limit 30
+claimable --find 'label:"good first issue" org:openfoodfacts'
+```
+
+The query is ordinary [GitHub issue search](https://docs.github.com/en/search-github/searching-on-github/searching-issues-and-pull-requests)
+syntax. `is:issue is:open no:assignee archived:false` are added unless the query already
+says otherwise, because each of those would be ruled out anyway, after costing a full
+set of requests. It prints one line per result as it goes, then the full detail of
+whatever cleared every filter. Search has GitHub's tightest rate limit, so this is the
+mode that most wants a token.
 
 ### Authentication
 

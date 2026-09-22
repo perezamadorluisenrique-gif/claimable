@@ -120,6 +120,14 @@ const SUSPICIOUS_SILENCE_DAYS = 180;
 
 const BOT = /\[bot\]$|^(github-actions|dependabot|renovate|codecov|oppiabot|welcome)/i;
 
+/** "3 days ago", but "today" rather than "0 days ago". */
+function ago(iso: string): string {
+  const days = Math.round(daysSince(iso));
+  if (days <= 0) return "today";
+  if (days === 1) return "yesterday";
+  return `${days} days ago`;
+}
+
 function humanComments(comments: GhComment[]): GhComment[] {
   return comments.filter((c) => c.user && !BOT.test(c.user.login));
 }
@@ -188,7 +196,7 @@ export async function checkClaimants(ref: IssueRef): Promise<Finding[]> {
     findings.push({
       check: "claimants",
       severity: "info",
-      message: `@${claim.user!.login} claimed it and then withdrew ${Math.round(daysSince(retraction.created_at))} days ago`,
+      message: `@${claim.user!.login} claimed it and then withdrew ${ago(retraction.created_at)}`,
       evidence: [retraction.html_url],
     });
   }
@@ -202,8 +210,8 @@ export async function checkClaimants(ref: IssueRef): Promise<Finding[]> {
       check: "claimants",
       severity: isMe(login) ? "ok" : "blocker",
       message: isMe(login)
-        ? `you claimed this yourself ${Math.round(daysSince(claim.created_at))} days ago`
-        : `@${login} claimed it ${Math.round(daysSince(claim.created_at))} days ago`,
+        ? `you claimed this yourself ${ago(claim.created_at)}`
+        : `@${login} claimed it ${ago(claim.created_at)}`,
       evidence: [claim.html_url],
     });
   }

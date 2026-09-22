@@ -129,7 +129,7 @@ function isRecordable(path: string): boolean {
   return !NEVER_RECORD.some((p) => p.test(path));
 }
 
-function cassettePath(path: string): string {
+export function cassettePath(path: string): string {
   const hash = createHash("sha256").update(path).digest("hex").slice(0, 12);
   const slug = path
     .replace(/^\//, "")
