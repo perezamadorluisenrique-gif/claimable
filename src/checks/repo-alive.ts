@@ -110,7 +110,7 @@ export async function checkRepoAlive(ref: IssueRef): Promise<Finding[]> {
       findings.push({
         check: "repo-alive",
         severity: typical > 60 ? "warning" : "info",
-        message: `median time from PR opened to merged: ${typical.toFixed(0)} days (${merged.length}/${recent.length} of recent PRs merged)`,
+        message: `median time from PR opened to merged: ${typical.toFixed(0)} day${typical.toFixed(0) === "1" ? "" : "s"} (${merged.length}/${recent.length} of recent PRs merged)`,
         evidence: [`${repoUrl}/pulls?q=is%3Apr+is%3Amerged`],
       });
     }

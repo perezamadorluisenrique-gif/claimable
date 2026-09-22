@@ -21,7 +21,8 @@
     "record": "node test/record.ts",
     "check": "node --experimental-strip-types --check src/cli.ts",
     "build": "node scripts/build.js",
-    "prepublishOnly": "npm run build && npm run check && npm test && npm run compare"
+    "prepublishOnly": "npm run build && npm run check && npm test && npm run compare",
+    "build:web": "npm run build && node scripts/build-web.js"
   },
   "engines": {
     "node": ">=22.18.0"

@@ -15,6 +15,10 @@ No dependencies. No install.
 npx claimable oppia/oppia#26840
 ```
 
+Or without a terminal: **[paste an issue into the browser version](https://perezamadorluisenrique-gif.github.io/claimable/)**,
+which runs the same seven filters — the same code, not a port — straight against GitHub's
+API from your browser.
+
 GitHub's `no:assignee` filter is how most people look for something to work on, and it is
 wrong often enough to waste real weekends. An issue can read *open, unassigned, good first
 issue* while a finished pull request has been sitting on it for three weeks — because
@@ -218,6 +222,7 @@ npm test          # 61 tests, offline, deterministic
 npm run compare   # tool verdicts next to the hand verdicts, side by side
 npm run demo      # regenerate the README demo from a real run
 npm run record    # re-record API fixtures (talks to the live API)
+npm run build:web # assemble the browser version into site/
 ```
 
 `npm run demo` spawns the CLI against the committed fixtures, captures what it actually
@@ -231,6 +236,12 @@ installed. `npm run build` uses Node's own stripper (`node:module`'s `stripTypeS
 the same one `--experimental-strip-types` calls internally) to generate a plain-JS `dist/`
 at publish time — `prepublishOnly` runs it automatically, so `npm publish` always ships
 working JS. `dist/` is generated, not committed.
+
+The browser version is `web/` plus that same `dist/`: an import map points the four Node
+built-ins the filters import at small stand-ins in `web/shims/`, so the page runs the
+filters themselves rather than a copy that could drift. `test/web.test.ts` walks the import
+graph and fails if a new built-in is not covered. To look at it locally, run
+`npm run build:web` and serve `site/` with any static server.
 
 Fixtures are recorded snapshots of the GitHub API. The suite pins both the clock
 (`CLAIMABLE_NOW`) and the authenticated user, so it does not change its mind when somebody

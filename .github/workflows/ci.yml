@@ -22,6 +22,8 @@ jobs:
           npm run demo
           git diff --exit-code docs/demo.svg
       - run: npm run build
+      - name: The browser version assembles from the same build
+        run: node scripts/build-web.js
       - name: Smoke-test the packed tarball the way npx runs it
         run: |
           npm pack --pack-destination /tmp
