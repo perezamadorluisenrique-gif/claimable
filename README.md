@@ -28,17 +28,22 @@ GitHub does not assign an issue to whoever opens a PR against it.
 you what it found and where to verify it. The issue above was claimed twice in the thread;
 this one is in a repository that stopped merging outside work ten months ago:
 
+<!-- example: ohcnetwork/create-care-mfe-plug#4 2026-09-18 -->
 ```
 $ claimable ohcnetwork/create-care-mfe-plug#4
 
-DISCARD  ohcnetwork/create-care-mfe-plug#4  .gitignore is not created when a new plug is created
+DISCARD  ohcnetwork/create-care-mfe-plug#4  .gitignore is not created when a new plug is created using npx command
+         https://github.com/ohcnetwork/create-care-mfe-plug/issues/4
 
   Why: no push in 301 days (last: 2025-11-21) — a PR here is unlikely to ever be reviewed
 
   repo alive
-    × no push in 301 days (last: 2025-11-21)
+    × no push in 301 days (last: 2025-11-21) — a PR here is unlikely to ever be reviewed
       https://github.com/ohcnetwork/create-care-mfe-plug — pushed_at 2025-11-21T07:58:23Z
     ! no closed pull requests found — no evidence that PRs get reviewed here
+      https://github.com/ohcnetwork/create-care-mfe-plug/pulls?q=is%3Apr+is%3Aclosed
+
+  Not run (already ruled out): existing PR, blocked / umbrella, claimants, prerequisites, environment, claim protocol — use --thorough to run them anyway
 ```
 
 ---
@@ -229,9 +234,10 @@ you. Development runs the
 `src/*.ts` files directly — no build step.
 
 ```bash
-npm test          # 61 tests, offline, deterministic
+npm test          # 139 tests, offline, deterministic
 npm run compare   # tool verdicts next to the hand verdicts, side by side
 npm run demo      # regenerate the README demo from a real run
+npm run check:docs # fail if a number in these docs no longer matches the code
 npm run record    # re-record API fixtures (talks to the live API)
 npm run build:web # assemble the browser version into site/
 ```

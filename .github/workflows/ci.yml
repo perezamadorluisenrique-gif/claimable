@@ -17,6 +17,8 @@ jobs:
       - run: npm run check
       - run: npm test
       - run: npm run compare
+      - name: Every number the README states still matches the code
+        run: npm run check:docs
       - name: The README demo is a recording, so it must still match the real output
         run: |
           npm run demo

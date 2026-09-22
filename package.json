@@ -18,6 +18,7 @@
     "test": "node --test \"test/**/*.test.ts\"",
     "compare": "node test/compare.ts",
     "demo": "node scripts/demo.js",
+    "check:docs": "node scripts/check-docs.js",
     "record": "node test/record.ts",
     "check": "node --experimental-strip-types --check src/cli.ts",
     "build": "node scripts/build.js",
