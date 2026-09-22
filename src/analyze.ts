@@ -15,6 +15,7 @@ import { checkRepoAlive } from "./checks/repo-alive.ts";
 import { checkPrerequisites } from "./checks/prerequisites.ts";
 import { checkEnvironment } from "./checks/environment.ts";
 import { checkClaimProtocol } from "./checks/claim-protocol.ts";
+import { checkHacktoberfest } from "./checks/hacktoberfest.ts";
 import { getIssue } from "./fetchers.ts";
 import { HttpError } from "./github.ts";
 import { CHECK_ORDER, refToString } from "./types.ts";
@@ -22,7 +23,7 @@ import type { CheckId, Finding, IssueRef, IssueReport, Verdict } from "./types.t
 
 type CheckFn = (ref: IssueRef) => Promise<Finding[]>;
 
-const CHECKS: Record<CheckId, CheckFn> = {
+const CHECKS: Record<Exclude<CheckId, "hacktoberfest">, CheckFn> = {
   "repo-alive": checkRepoAlive,
   "existing-pr": checkExistingPr,
   "blocked-label": checkBlockedLabel,
@@ -37,6 +38,8 @@ export type AnalyzeOptions = {
   thorough?: boolean;
   /** Filters to skip entirely. */
   skip?: CheckId[];
+  /** Also ask whether a PR here would count for Hacktoberfest. */
+  hacktoberfest?: boolean;
 };
 
 export async function analyze(ref: IssueRef, opts: AnalyzeOptions = {}): Promise<IssueReport> {
@@ -98,6 +101,17 @@ export async function analyze(ref: IssueRef, opts: AnalyzeOptions = {}): Promise
         check: id,
         why: err instanceof Error ? err.message : String(err),
       });
+    }
+  }
+
+  // Run whatever the seven decided: whether a PR would count is worth knowing
+  // even about an issue that is ruled out, if only to pick the next one from
+  // the same repository.
+  if (opts.hacktoberfest) {
+    try {
+      findings.push(...(await checkHacktoberfest(ref)));
+    } catch (err) {
+      skipped.push({ check: "hacktoberfest", why: err instanceof Error ? err.message : String(err) });
     }
   }
 

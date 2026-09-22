@@ -154,6 +154,7 @@ from a comment permalink.
 | `--find <query>` | Search all of GitHub, then run every result through the filters |
 | `--limit <n>` | With `--repo` or `--find`: how many to scan (default 20) |
 | `--thorough` | Run every filter even after one rules an issue out |
+| `--hacktoberfest` | Also check whether a PR here would count for [Hacktoberfest](https://hacktoberfest.com/participation/) |
 | `--skip <check>` | Skip a filter (repeatable) |
 | `--json` | Machine-readable output |
 | `--quiet` | One line per issue |
@@ -176,7 +177,9 @@ claimable --find 'label:"good first issue" org:openfoodfacts'
 The query is ordinary [GitHub issue search](https://docs.github.com/en/search-github/searching-on-github/searching-issues-and-pull-requests)
 syntax. `is:issue is:open no:assignee archived:false` are added unless the query already
 says otherwise, because each of those would be ruled out anyway, after costing a full
-set of requests. It prints one line per result as it goes, then the full detail of
+set of requests. Add `--hacktoberfest` to be warned about repositories where a merged PR
+would not count for the event unless a maintainer labels it `hacktoberfest-accepted`.
+It prints one line per result as it goes, then the full detail of
 whatever cleared every filter. Search has GitHub's tightest rate limit, so this is the
 mode that most wants a token.
 

@@ -15,6 +15,7 @@ import { matchWindow, normalise } from "../src/checks/claim-protocol.ts";
 import { parseRef, parseRefs, parseRepo } from "../src/refs.ts";
 import { shouldUseColour } from "../src/report.ts";
 import { parseArgs } from "../src/cli.ts";
+import { duringHacktoberfest } from "../src/checks/hacktoberfest.ts";
 import type { Finding } from "../src/types.ts";
 
 describe("parseRef", () => {
@@ -144,8 +145,8 @@ describe("claim withdrawals", () => {
       comment(2, "bob", "I'd like to take this one", 2),
       comment(3, "alice", "Sorry, I'm no longer working on this", 5),
     ]);
-    assert.deepEqual(claims.map((c) => c.user.login), ["bob"]);
-    assert.deepEqual(withdrawn.map((w) => w.claim.user.login), ["alice"]);
+    assert.deepEqual(claims.map((c) => c.user!.login), ["bob"]);
+    assert.deepEqual(withdrawn.map((w) => w.claim.user!.login), ["alice"]);
   });
 
   it("does not let somebody else withdraw a claim", () => {
@@ -153,7 +154,7 @@ describe("claim withdrawals", () => {
       comment(1, "alice", "Can I work on this?", 1),
       comment(2, "bob", "feel free to take it, I'm not working on this", 2),
     ]);
-    assert.deepEqual(claims.map((c) => c.user.login), ["alice"]);
+    assert.deepEqual(claims.map((c) => c.user!.login), ["alice"]);
   });
 
   it("counts a re-claim after a withdrawal", () => {
@@ -313,5 +314,17 @@ describe("parseArgs", () => {
 
   it("still rejects an option it does not know", () => {
     assert.throws(() => parseArgs(["--v"]), /unknown option/);
+  });
+});
+
+describe("duringHacktoberfest", () => {
+  it("covers October in every time zone, and nothing either side", () => {
+    assert.equal(duringHacktoberfest(Date.parse("2026-10-15T12:00:00Z")), true);
+    // Already October 1 in Kiribati (UTC+14).
+    assert.equal(duringHacktoberfest(Date.parse("2026-09-30T10:00:00Z")), true);
+    // Still October 31 on Baker Island (UTC-12).
+    assert.equal(duringHacktoberfest(Date.parse("2026-11-01T11:00:00Z")), true);
+    assert.equal(duringHacktoberfest(Date.parse("2026-09-29T12:00:00Z")), false);
+    assert.equal(duringHacktoberfest(Date.parse("2026-11-02T00:00:00Z")), false);
   });
 });

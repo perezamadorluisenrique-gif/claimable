@@ -41,6 +41,7 @@ OPTIONS
                         --find 'label:hacktoberfest language:rust'
   --limit <n>           With --repo or --find: how many issues to scan (default 20)
   --thorough            Run every filter even after one rules an issue out
+  --hacktoberfest       Also check whether a PR here would count for Hacktoberfest
   --skip <check>        Skip a filter (repeatable). One of:
                         ${CHECK_ORDER.join(", ")}
   --json                Machine-readable output
@@ -62,6 +63,7 @@ type Options = {
   labels: string[];
   limit: number;
   thorough: boolean;
+  hacktoberfest: boolean;
   skip: CheckId[];
   json: boolean;
   quiet: boolean;
@@ -78,6 +80,7 @@ export function parseArgs(argv: string[]): Options {
     labels: [],
     limit: 20,
     thorough: false,
+    hacktoberfest: false,
     skip: [],
     json: false,
     quiet: false,
@@ -121,8 +124,11 @@ export function parseArgs(argv: string[]): Options {
       case "--thorough":
         opts.thorough = true;
         break;
+      case "--hacktoberfest":
+        opts.hacktoberfest = true;
+        break;
       case "--skip": {
-        const value = next() as CheckId;
+        const value = next() as (typeof CHECK_ORDER)[number];
         if (!CHECK_ORDER.includes(value)) {
           throw new Error(`unknown check "${value}" — expected one of ${CHECK_ORDER.join(", ")}`);
         }
@@ -291,7 +297,7 @@ async function main(argv: string[]): Promise<number> {
     // Sequential on purpose. Parallel requests trip GitHub's secondary rate
     // limit, and scanning forty issues slightly slower beats being blocked for
     // an hour halfway through.
-    const report = await analyze(ref, { thorough: opts.thorough, skip: opts.skip });
+    const report = await analyze(ref, { thorough: opts.thorough, skip: opts.skip, hacktoberfest: opts.hacktoberfest });
     reports.push(report);
 
     if (opts.json) continue;

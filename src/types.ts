@@ -31,7 +31,7 @@ export function repoToString(ref: IssueRef): string {
 export type Severity = "blocker" | "warning" | "info" | "ok";
 
 export type Finding = {
-  /** Which of the six filters produced this. */
+  /** Which filter produced this. */
   check: CheckId;
   severity: Severity;
   /** One line, written to be read by a human deciding what to do next. */
@@ -47,10 +47,12 @@ export type CheckId =
   | "claimants"
   | "prerequisites"
   | "environment"
-  | "claim-protocol";
+  | "claim-protocol"
+  /** Opt-in, not one of the seven: see `checks/hacktoberfest.ts`. */
+  | "hacktoberfest";
 
 /** Ordered as in the hand-run method: cheapest and most decisive first. */
-export const CHECK_ORDER: CheckId[] = [
+export const CHECK_ORDER: Exclude<CheckId, "hacktoberfest">[] = [
   "repo-alive",
   "existing-pr",
   "blocked-label",
@@ -111,6 +113,7 @@ export type GhRepo = {
   disabled: boolean;
   open_issues_count: number;
   default_branch: string;
+  topics?: string[];
 };
 
 export type GhPull = {

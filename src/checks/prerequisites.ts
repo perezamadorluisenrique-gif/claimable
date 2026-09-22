@@ -15,8 +15,8 @@
  */
 
 import { getIssue, getTree } from "../fetchers.ts";
-import type { Finding, IssueRef, TreeEntry } from "../types.ts";
-import type { RepoTree } from "../fetchers.ts";
+import type { Finding, IssueRef } from "../types.ts";
+import type { RepoTree, TreeEntry } from "../fetchers.ts";
 
 /** Total bytes of referenced existing code above which this stops being small. */
 const BIG_PORT_BYTES = 40_000;
