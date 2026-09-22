@@ -26,7 +26,7 @@ GitHub does not assign an issue to whoever opens a PR against it.
 
 `claimable` runs the checks a careful contributor runs by hand before starting, and tells
 you what it found and where to verify it. The issue above was claimed twice in the thread;
-this one is in a repository that stopped merging outside work ten months ago:
+this one is in a repository nobody has pushed to in ten months:
 
 <!-- example: ohcnetwork/create-care-mfe-plug#4 2026-09-18 -->
 ```
@@ -74,7 +74,7 @@ backwards:
   reason. Maintainer difficulty labels are unreliable; the market of other contributors is
   not.
 - **`pushed_at` measures the maintainers, not you.** A repo can be pushed to this week and
-  still not have merged an outside contribution in five months. Filter 1 checks both.
+  still not have merged a pull request in five months. Filter 1 checks both.
 
 ---
 
