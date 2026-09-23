@@ -10,7 +10,7 @@ import { fileURLToPath } from "node:url";
 
 import { analyze } from "./analyze.ts";
 import { api, hasToken, requestCount } from "./github.ts";
-import { parseRefs, parseRepo } from "./refs.ts";
+import { parseRef, parseRefs, parseRepo } from "./refs.ts";
 import { formatDetail, formatLine, formatSummary } from "./report.ts";
 import { CHECK_ORDER } from "./types.ts";
 import type { CheckId, GhIssue, IssueRef, IssueReport } from "./types.ts";
@@ -26,17 +26,25 @@ claimable — tells you whether a GitHub issue is actually claimable.
 
 USAGE
   claimable <issue> [<issue> ...]
+  <command that prints issues> | claimable -
   claimable --repo <owner/repo> [--label <label>] [--limit <n>]
+  claimable --find "<GitHub issue search>" [--limit <n>]
 
 ISSUE FORMS
   owner/repo#123
   https://github.com/owner/repo/issues/123
+  -   read them from standard input, one per line, e.g.
+      gh issue list -R owner/repo -l "good first issue" --json url -q '.[].url' | claimable -
 
 OPTIONS
   --repo <owner/repo>   Scan open issues in a repository instead of named ones
   --label <label>       With --repo: only issues carrying this label (repeatable)
-  --limit <n>           With --repo: how many issues to scan (default 20)
+  --find <query>        Search GitHub for open, unassigned issues and run every
+                        result through the filters, e.g.
+                        --find 'label:hacktoberfest language:rust'
+  --limit <n>           With --repo or --find: how many issues to scan (default 20)
   --thorough            Run every filter even after one rules an issue out
+  --hacktoberfest       Also check whether a PR here would count for Hacktoberfest
   --skip <check>        Skip a filter (repeatable). One of:
                         ${CHECK_ORDER.join(", ")}
   --json                Machine-readable output
@@ -53,10 +61,13 @@ EXIT CODES
 
 type Options = {
   refs: string[];
+  stdin: boolean;
   repo: string | null;
+  find: string | null;
   labels: string[];
   limit: number;
   thorough: boolean;
+  hacktoberfest: boolean;
   skip: CheckId[];
   json: boolean;
   quiet: boolean;
@@ -68,10 +79,13 @@ type Options = {
 export function parseArgs(argv: string[]): Options {
   const opts: Options = {
     refs: [],
+    stdin: false,
     repo: null,
+    find: null,
     labels: [],
     limit: 20,
     thorough: false,
+    hacktoberfest: false,
     skip: [],
     json: false,
     quiet: false,
@@ -100,6 +114,9 @@ export function parseArgs(argv: string[]): Options {
       case "--repo":
         opts.repo = next();
         break;
+      case "--find":
+        opts.find = next();
+        break;
       case "--label":
         opts.labels.push(next());
         break;
@@ -112,8 +129,11 @@ export function parseArgs(argv: string[]): Options {
       case "--thorough":
         opts.thorough = true;
         break;
+      case "--hacktoberfest":
+        opts.hacktoberfest = true;
+        break;
       case "--skip": {
-        const value = next() as CheckId;
+        const value = next() as (typeof CHECK_ORDER)[number];
         if (!CHECK_ORDER.includes(value)) {
           throw new Error(`unknown check "${value}" — expected one of ${CHECK_ORDER.join(", ")}`);
         }
@@ -128,6 +148,9 @@ export function parseArgs(argv: string[]): Options {
         break;
       case "--viable-only":
         opts.viableOnly = true;
+        break;
+      case "-":
+        opts.stdin = true;
         break;
       default:
         if (arg.startsWith("-")) throw new Error(`unknown option "${arg}"`);
@@ -175,7 +198,86 @@ async function listRepoIssues(repo: string, labels: string[], limit: number): Pr
     .map((issue) => ({ owner: parsed.owner, repo: parsed.repo, number: issue.number }));
 }
 
+/**
+ * The search a `--find` runs, made explicit.
+ *
+ * GitHub's issue search returns pull requests, closed issues and assigned
+ * issues unless told otherwise, and every one of those would cost a full set
+ * of filter requests only to be discarded. So the cheap exclusions go into the
+ * query — unless the caller already said something about them, in which case
+ * their words win.
+ */
+export function buildFindQuery(query: string): string {
+  const parts = [query.trim()];
+  const has = (pattern: RegExp) => pattern.test(query);
+  if (!has(/\bis:(issue|pr|pull-request)\b|\btype:(issue|pr)\b/i)) parts.push("is:issue");
+  if (!has(/\b(is|state):(open|closed)\b/i)) parts.push("is:open");
+  if (!has(/\b(no:assignee|assignee:)/i)) parts.push("no:assignee");
+  if (!has(/\barchived:/i)) parts.push("archived:false");
+  return parts.filter(Boolean).join(" ");
+}
+
+/** Search hits carry the repository only as an API URL. */
+export function refFromSearchHit(hit: { number: number; repository_url: string }): IssueRef | null {
+  const match = hit.repository_url.match(/\/repos\/([^/]+)\/([^/]+)$/);
+  return match ? { owner: match[1], repo: match[2], number: hit.number } : null;
+}
+
+async function findIssues(query: string, limit: number): Promise<IssueRef[]> {
+  const q = buildFindQuery(query);
+  const perPage = Math.min(limit, 100);
+  const refs: IssueRef[] = [];
+
+  // Search pages are 100 at most and stop at 1000 results. Pages are fetched
+  // only while more are needed, since search has the strictest rate limit
+  // GitHub has.
+  for (let page = 1; refs.length < limit && page <= 10; page++) {
+    const result = await api<{ total_count: number; items: { number: number; repository_url: string; pull_request?: unknown }[] }>(
+      `/search/issues?q=${encodeURIComponent(q)}&per_page=${perPage}&page=${page}`,
+    );
+    for (const hit of result.items) {
+      if (hit.pull_request) continue;
+      const ref = refFromSearchHit(hit);
+      if (ref) refs.push(ref);
+    }
+    if (result.items.length < perPage) break;
+  }
+  return refs.slice(0, limit);
+}
+
+/**
+ * Issue references from piped text: the first thing on each line that reads as
+ * one. Lines are what `gh`, `grep` and `jq` produce, and taking the first
+ * reference per line means a line with a title after the URL still works.
+ */
+export function refsFromText(text: string): { found: string[]; unreadable: string[] } {
+  const found: string[] = [];
+  const unreadable: string[] = [];
+  for (const line of text.split(/\r?\n/)) {
+    const trimmed = line.trim();
+    if (!trimmed) continue;
+    const token = trimmed.split(/\s+/).find((t) => parseRef(t) !== null);
+    if (token) found.push(token);
+    else unreadable.push(trimmed);
+  }
+  return { found, unreadable };
+}
+
+async function readStdin(): Promise<string> {
+  const chunks: Buffer[] = [];
+  for await (const chunk of process.stdin) chunks.push(chunk as Buffer);
+  return Buffer.concat(chunks).toString("utf8");
+}
+
 async function main(argv: string[]): Promise<number> {
+  // The published JavaScript runs on Node 18 and later; CI runs it on each
+  // even-numbered release from there. Older than that, the first sign would
+  // be "fetch is not defined" from deep inside a filter, so say it plainly.
+  if (typeof fetch !== "function") {
+    process.stderr.write(`claimable needs Node 18 or newer, and this is Node ${process.versions.node}.\n`);
+    return 2;
+  }
+
   let opts: Options;
   try {
     opts = parseArgs(argv);
@@ -189,14 +291,42 @@ async function main(argv: string[]): Promise<number> {
     return 0;
   }
 
-  if (opts.help || (opts.refs.length === 0 && opts.repo === null)) {
+  if (opts.stdin) {
+    if (process.stdin.isTTY) {
+      process.stderr.write("claimable - reads issue references from a pipe, and nothing is piped in.\n\nRun claimable --help\n");
+      return 2;
+    }
+    const { found, unreadable } = refsFromText(await readStdin());
+    if (unreadable.length > 0) {
+      process.stderr.write(`Skipped ${unreadable.length} line${unreadable.length === 1 ? "" : "s"} with no issue reference, starting with: ${unreadable[0]}\n`);
+    }
+    if (found.length === 0) {
+      process.stderr.write("No issue references came in on standard input.\n");
+      return 2;
+    }
+    opts.refs.push(...found);
+  }
+
+  if (opts.help || (opts.refs.length === 0 && opts.repo === null && opts.find === null)) {
     process.stdout.write(USAGE);
     return opts.help ? 0 : 2;
   }
 
   let targets: IssueRef[] = [];
 
-  if (opts.repo) {
+  if (opts.find !== null) {
+    if (opts.repo || opts.refs.length > 0) {
+      process.stderr.write("--find searches for issues itself; pass it without --repo or issue references\n\nRun claimable --help\n");
+      return 2;
+    }
+    if (!opts.json) process.stderr.write(`Searching: ${buildFindQuery(opts.find)}\n`);
+    targets = await findIssues(opts.find, opts.limit);
+    if (targets.length === 0) {
+      process.stderr.write("No open, unassigned issues matched that search.\n");
+      return 1;
+    }
+    if (!opts.json) process.stderr.write(`Checking ${targets.length} issue${targets.length === 1 ? "" : "s"}…\n\n`);
+  } else if (opts.repo) {
     targets = await listRepoIssues(opts.repo, opts.labels, opts.limit);
     if (targets.length === 0) {
       process.stderr.write(`No open issues found in ${opts.repo}${opts.labels.length ? ` with label(s) ${opts.labels.join(", ")}` : ""}.\n`);
@@ -223,12 +353,23 @@ async function main(argv: string[]): Promise<number> {
     // Sequential on purpose. Parallel requests trip GitHub's secondary rate
     // limit, and scanning forty issues slightly slower beats being blocked for
     // an hour halfway through.
-    const report = await analyze(ref, { thorough: opts.thorough, skip: opts.skip });
+    const report = await analyze(ref, { thorough: opts.thorough, skip: opts.skip, hacktoberfest: opts.hacktoberfest });
     reports.push(report);
 
     if (opts.json) continue;
     if (opts.viableOnly && report.verdict !== "viable") continue;
-    process.stdout.write(opts.quiet ? `${formatLine(report)}\n` : formatDetail(report));
+    // A search is a scan: one line per result as it comes in, and the full
+    // detail only for the ones worth reading, once the scan is over.
+    const scanView = opts.quiet || opts.find !== null;
+    process.stdout.write(scanView ? `${formatLine(report)}\n` : formatDetail(report));
+  }
+
+  if (opts.find !== null && !opts.json && !opts.quiet) {
+    const viable = reports.filter((r) => r.verdict === "viable");
+    for (const report of viable) process.stdout.write(formatDetail(report));
+    if (viable.length === 0 && reports.some((r) => r.verdict === "reservations")) {
+      process.stdout.write("\nNothing cleared every filter. Run claimable <issue> on a CAUTION line for the full detail.\n");
+    }
   }
 
   if (opts.json) {

@@ -1,7 +1,7 @@
 {
   "name": "claimable",
   "version": "0.1.2",
-  "description": "Tells you whether a GitHub issue is actually claimable — not just whether it says \"unassigned\".",
+  "description": "Tells you whether a GitHub issue is actually claimable \u2014 not just whether it says \"unassigned\".",
   "type": "module",
   "bin": {
     "claimable": "dist/cli.js"
@@ -18,13 +18,15 @@
     "test": "node --test \"test/**/*.test.ts\"",
     "compare": "node test/compare.ts",
     "demo": "node scripts/demo.js",
+    "check:docs": "node scripts/check-docs.js",
     "record": "node test/record.ts",
     "check": "node --experimental-strip-types --check src/cli.ts",
     "build": "node scripts/build.js",
-    "prepublishOnly": "npm run build && npm run check && npm test && npm run compare"
+    "prepublishOnly": "npm run build && npm run check && npm test && npm run compare",
+    "build:web": "npm run build && node scripts/build-web.js"
   },
   "engines": {
-    "node": ">=22.18.0"
+    "node": ">=18"
   },
   "keywords": [
     "github",

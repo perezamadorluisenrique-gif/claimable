@@ -9,11 +9,15 @@
     width="900">
 </p>
 
-No dependencies. No install.
+No dependencies. No install. Node 18 or later.
 
 ```bash
 npx claimable oppia/oppia#26840
 ```
+
+Or without a terminal: **[paste an issue into the browser version](https://perezamadorluisenrique-gif.github.io/claimable/)**,
+which runs the same seven filters — the same code, not a port — straight against GitHub's
+API from your browser.
 
 GitHub's `no:assignee` filter is how most people look for something to work on, and it is
 wrong often enough to waste real weekends. An issue can read *open, unassigned, good first
@@ -22,19 +26,24 @@ GitHub does not assign an issue to whoever opens a PR against it.
 
 `claimable` runs the checks a careful contributor runs by hand before starting, and tells
 you what it found and where to verify it. The issue above was claimed twice in the thread;
-this one is in a repository that stopped merging outside work ten months ago:
+this one is in a repository nobody has pushed to in ten months:
 
+<!-- example: ohcnetwork/create-care-mfe-plug#4 2026-09-18 -->
 ```
 $ claimable ohcnetwork/create-care-mfe-plug#4
 
-DISCARD  ohcnetwork/create-care-mfe-plug#4  .gitignore is not created when a new plug is created
+DISCARD  ohcnetwork/create-care-mfe-plug#4  .gitignore is not created when a new plug is created using npx command
+         https://github.com/ohcnetwork/create-care-mfe-plug/issues/4
 
   Why: no push in 301 days (last: 2025-11-21) — a PR here is unlikely to ever be reviewed
 
   repo alive
-    × no push in 301 days (last: 2025-11-21)
+    × no push in 301 days (last: 2025-11-21) — a PR here is unlikely to ever be reviewed
       https://github.com/ohcnetwork/create-care-mfe-plug — pushed_at 2025-11-21T07:58:23Z
     ! no closed pull requests found — no evidence that PRs get reviewed here
+      https://github.com/ohcnetwork/create-care-mfe-plug/pulls?q=is%3Apr+is%3Aclosed
+
+  Not run (already ruled out): existing PR, blocked / umbrella, claimants, prerequisites, environment, claim protocol — use --thorough to run them anyway
 ```
 
 ---
@@ -65,7 +74,7 @@ backwards:
   reason. Maintainer difficulty labels are unreliable; the market of other contributors is
   not.
 - **`pushed_at` measures the maintainers, not you.** A repo can be pushed to this week and
-  still not have merged an outside contribution in five months. Filter 1 checks both.
+  still not have merged a pull request in five months. Filter 1 checks both.
 
 ---
 
@@ -137,17 +146,25 @@ The two possible errors are not equally bad, so they are not treated equally:
 ```bash
 claimable <issue> [<issue> ...]
 claimable --repo <owner/repo> [--label <label>] [--limit <n>]
+claimable --find "<GitHub issue search>" [--limit <n>]
 ```
 
 Issues can be written as `owner/repo#123` or as any GitHub issue URL, including one copied
-from a comment permalink.
+from a comment permalink. A lone `-` reads them from a pipe, one per line, so anything that
+lists issues can feed it:
+
+```bash
+gh issue list -R oppia/oppia -l "good first issue" --json url -q '.[].url' | claimable - --quiet
+```
 
 | Option | Effect |
 |---|---|
 | `--repo owner/repo` | Scan a repository's open issues instead of named ones |
 | `--label <label>` | With `--repo`: only issues with this label (repeatable) |
-| `--limit <n>` | With `--repo`: how many to scan (default 20) |
+| `--find <query>` | Search all of GitHub, then run every result through the filters |
+| `--limit <n>` | With `--repo` or `--find`: how many to scan (default 20) |
 | `--thorough` | Run every filter even after one rules an issue out |
+| `--hacktoberfest` | Also check whether a PR here would count for [Hacktoberfest](https://hacktoberfest.com/participation/) |
 | `--skip <check>` | Skip a filter (repeatable) |
 | `--json` | Machine-readable output |
 | `--quiet` | One line per issue |
@@ -155,6 +172,26 @@ from a comment permalink.
 
 Exit code is `0` when at least one issue is viable, `1` when nothing is, `2` on a usage or
 network error — so it composes into a script.
+
+### Finding issues, not just checking them
+
+Every "good first issue" finder answers *where are the issues?* None of them answers
+*which of these is still free?* — so `--find` takes a GitHub search, and hands every
+result to the seven filters:
+
+```bash
+claimable --find 'label:hacktoberfest language:typescript' --limit 30
+claimable --find 'label:"good first issue" org:openfoodfacts'
+```
+
+The query is ordinary [GitHub issue search](https://docs.github.com/en/search-github/searching-on-github/searching-issues-and-pull-requests)
+syntax. `is:issue is:open no:assignee archived:false` are added unless the query already
+says otherwise, because each of those would be ruled out anyway, after costing a full
+set of requests. Add `--hacktoberfest` to be warned about repositories where a merged PR
+would not count for the event unless a maintainer labels it `hacktoberfest-accepted`.
+It prints one line per result as it goes, then the full detail of
+whatever cleared every filter. Search has GitHub's tightest rate limit, so this is the
+mode that most wants a token.
 
 ### Authentication
 
@@ -190,14 +227,19 @@ Stated plainly, because a triage tool that hides its blind spots is worse than n
 
 ## Development
 
-Requires Node 22.18+ (TypeScript runs natively; no dependency tree). Development runs the
+Development requires Node 22.18+ (TypeScript runs natively; no dependency tree). The
+published package is plain JavaScript and runs on Node 18 and later — CI runs the packed
+tarball on 18, 20, 22 and 24, so `npx claimable` works on the Node an `apt install` gives
+you. Development runs the
 `src/*.ts` files directly — no build step.
 
 ```bash
-npm test          # 61 tests, offline, deterministic
+npm test          # 139 tests, offline, deterministic
 npm run compare   # tool verdicts next to the hand verdicts, side by side
 npm run demo      # regenerate the README demo from a real run
+npm run check:docs # fail if a number in these docs no longer matches the code
 npm run record    # re-record API fixtures (talks to the live API)
+npm run build:web # assemble the browser version into site/
 ```
 
 `npm run demo` spawns the CLI against the committed fixtures, captures what it actually
@@ -211,6 +253,12 @@ installed. `npm run build` uses Node's own stripper (`node:module`'s `stripTypeS
 the same one `--experimental-strip-types` calls internally) to generate a plain-JS `dist/`
 at publish time — `prepublishOnly` runs it automatically, so `npm publish` always ships
 working JS. `dist/` is generated, not committed.
+
+The browser version is `web/` plus that same `dist/`: an import map points the four Node
+built-ins the filters import at small stand-ins in `web/shims/`, so the page runs the
+filters themselves rather than a copy that could drift. `test/web.test.ts` walks the import
+graph and fails if a new built-in is not covered. To look at it locally, run
+`npm run build:web` and serve `site/` with any static server.
 
 Fixtures are recorded snapshots of the GitHub API. The suite pins both the clock
 (`CLAIMABLE_NOW`) and the authenticated user, so it does not change its mind when somebody

@@ -21,7 +21,7 @@ project has no dependencies.
 ```bash
 git clone https://github.com/perezamadorluisenrique-gif/claimable
 cd claimable
-npm test          # 61 tests, offline, deterministic
+npm test          # 139 tests, offline, deterministic
 npm run compare   # the tool's verdicts next to the hand-triaged ones
 ```
 
@@ -91,7 +91,7 @@ A filter must:
 - `npm test` and `npm run compare` must pass; CI runs both, plus a smoke test of the
   packed tarball.
 - If you changed the output, run `npm run demo` so `docs/demo.svg` still shows the real
-  thing.
+  thing, and `npm run check:docs -- --fix` so the numbers and example in the README do.
 - Describe what a user would now see that they did not see before. If a verdict changed,
   name the issue it changed on.
 

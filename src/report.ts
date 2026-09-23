@@ -54,6 +54,7 @@ const CHECK_LABEL: Record<CheckId, string> = {
   prerequisites: "prerequisites",
   environment: "environment",
   "claim-protocol": "claim protocol",
+  hacktoberfest: "hacktoberfest",
 };
 
 function verdictLabel(report: IssueReport): string {
