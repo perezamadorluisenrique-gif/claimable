@@ -146,6 +146,10 @@ function main() {
   );
 
   // Then the output, one line at a time.
+  // Each line gets its own keyframes: hidden until it lands, then shown for the
+  // rest of the loop. (A shared keyframe with a negative delay shows every line
+  // from the first frame, before the command has even been typed.)
+  const appearRules = [];
   output.forEach((line, i) => {
     const runs = parse(line);
     const appears = typing + THINK + i * PER_LINE;
@@ -153,9 +157,12 @@ function main() {
     const spans = runs
       .map((r) => (r.cls ? `<tspan class="${r.cls}">${esc(r.text)}</tspan>` : esc(r.text)))
       .join("");
+    appearRules.push(
+      `.o${i} { animation-name: o${i} } ` +
+        `@keyframes o${i} { 0% { opacity: 0 } ${pct(appears)} { opacity: 1 } 100% { opacity: 1 } }`,
+    );
     body.push(
-      `<text class="l o" x="${PAD_X}" y="${baseline(i + 1)}" xml:space="preserve" ` +
-        `style="animation-delay:-${(total - appears).toFixed(3)}s">${spans}</text>`,
+      `<text class="l o o${i}" x="${PAD_X}" y="${baseline(i + 1)}" xml:space="preserve">${spans}</text>`,
     );
   });
 
@@ -171,14 +178,14 @@ function main() {
   .y { fill: ${THEME.yellow}; }
   .g { fill: ${THEME.green}; }
   .p { fill: ${THEME.prompt}; }
-  .o { opacity: 0; animation: appear ${total.toFixed(3)}s steps(1, end) infinite; }
+  .o { opacity: 0; animation: none ${total.toFixed(3)}s steps(1, end) infinite; }
+  ${appearRules.join("\n  ")}
   .mask { animation: type ${total.toFixed(3)}s steps(${COMMAND.length}, end) infinite; }
   .cursor { animation: caret ${total.toFixed(3)}s linear infinite; }
-  @keyframes appear { 0% { opacity: 0 } 0.001% { opacity: 1 } 100% { opacity: 1 } }
   @keyframes type {
-    0% { width: ${(COMMAND.length * CHAR + 2).toFixed(2)}px }
-    ${pct(typing)} { width: 0 }
-    100% { width: 0 }
+    0% { x: ${(PAD_X + PROMPT.length * CHAR).toFixed(2)}px; width: ${(COMMAND.length * CHAR + 2).toFixed(2)}px }
+    ${pct(typing)} { x: ${(PAD_X + (PROMPT.length + COMMAND.length) * CHAR).toFixed(2)}px; width: 2px }
+    100% { x: ${(PAD_X + (PROMPT.length + COMMAND.length) * CHAR).toFixed(2)}px; width: 2px }
   }
   @keyframes caret {
     0% { x: ${(PAD_X + PROMPT.length * CHAR).toFixed(2)}px; opacity: 1 }
