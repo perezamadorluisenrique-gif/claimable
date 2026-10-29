@@ -5,17 +5,15 @@
 # currently on. It does not bump the version — that stays a commit, so the
 # thing that gets published is always a thing that was reviewed.
 #
-# Authentication, one of two, set up once:
+# Authentication is trusted publishing, with no secret to store. On npmjs.com,
+# under the package's Settings -> Trusted publisher, add GitHub Actions with
+# this repository and the workflow filename `publish.yml`. npm then accepts a
+# short-lived OIDC token from this workflow, and the release gets a provenance
+# attestation for free.
 #
-#   1. Trusted publishing (preferred, no secret to store). On npmjs.com, under
-#      the package's Settings -> Trusted publisher, add GitHub Actions with
-#      this repository and the workflow filename `publish.yml`. npm then
-#      accepts a short-lived OIDC token from this workflow, and the release
-#      gets a provenance attestation for free.
-#
-#   2. An automation token. Create one on npmjs.com and add it to this
-#      repository as the secret NPM_TOKEN. Works without any npmjs.com
-#      configuration, but it is a long-lived credential in a settings page.
+# No token is passed to `npm publish` on purpose: npm uses a token when it is
+# given one and does not fall back to OIDC, so a stale NPM_TOKEN secret would
+# break publishing even with trusted publishing configured.
 #
 # Either way `prepublishOnly` runs the build, the typecheck, the tests and the
 # ground-truth comparison first, so a broken package cannot be published by
@@ -66,8 +64,6 @@ jobs:
       # prepublishOnly runs build, check, test and compare before this ships.
       - name: Publish
         run: npm publish --provenance --access public
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Verify the published package actually runs
         run: |
