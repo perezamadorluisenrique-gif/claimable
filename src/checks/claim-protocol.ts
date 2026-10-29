@@ -19,6 +19,7 @@
  * like it works.
  */
 
+import { webBase } from "../github.ts";
 import { getDocs, getIssue } from "../fetchers.ts";
 import type { Finding, IssueRef } from "../types.ts";
 
@@ -155,7 +156,7 @@ export async function checkClaimProtocol(ref: IssueRef): Promise<Finding[]> {
   const sources: [string, string][] = [
     [issue.html_url, normalise(issue.body ?? "")],
     ...[...docs].map(([path, content]): [string, string] => [
-      `https://github.com/${ref.owner}/${ref.repo}/blob/HEAD/${path}`,
+      `${webBase()}/${ref.owner}/${ref.repo}/blob/HEAD/${path}`,
       normalise(content),
     ]),
   ];
