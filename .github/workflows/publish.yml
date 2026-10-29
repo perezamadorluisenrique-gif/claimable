@@ -40,7 +40,10 @@ jobs:
       - uses: actions/setup-node@v5
         with:
           node-version: "22.18"
-          registry-url: "https://registry.npmjs.org"
+          # No registry-url: it makes setup-node write an .npmrc with a
+          # placeholder NODE_AUTH_TOKEN, and npm then sends that bogus token
+          # instead of exchanging the OIDC one, which surfaces as a 404 on PUT.
+          # npm already defaults to registry.npmjs.org.
 
       # Trusted publishing needs a newer npm than the one bundled with Node 22.
       - name: Use an npm that supports trusted publishing
