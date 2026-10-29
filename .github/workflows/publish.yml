@@ -66,7 +66,9 @@ jobs:
 
       # prepublishOnly runs build, check, test and compare before this ships.
       - name: Publish
-        run: npm publish --provenance --access public
+        run: |
+          npm -v
+          npm publish --provenance --access public --loglevel verbose 2>&1 | grep -iE "oidc|token|auth|exchange|E[0-9]{3}|ENEED|error|trusted|provenance" | head -60; exit ${PIPESTATUS[0]}
 
       - name: Verify the published package actually runs
         run: |
