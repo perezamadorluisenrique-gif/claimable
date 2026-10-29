@@ -10,6 +10,7 @@
  * long does it take.
  */
 
+import { webBase } from "../github.ts";
 import { daysSince, getRecentPulls, getRepo, median } from "../fetchers.ts";
 import type { Finding, IssueRef } from "../types.ts";
 
@@ -19,7 +20,7 @@ const SLUGGISH_DAYS = 30;
 export async function checkRepoAlive(ref: IssueRef): Promise<Finding[]> {
   const repo = await getRepo(ref);
   const findings: Finding[] = [];
-  const repoUrl = `https://github.com/${ref.owner}/${ref.repo}`;
+  const repoUrl = `${webBase()}/${ref.owner}/${ref.repo}`;
 
   if (repo.archived) {
     return [

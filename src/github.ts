@@ -17,12 +17,14 @@ import { createHash } from "node:crypto";
 import { mkdirSync, readFileSync, writeFileSync, existsSync } from "node:fs";
 import { join } from "node:path";
 
-const API = "https://api.github.com";
+const DEFAULT_API = "https://api.github.com";
 const UA = "claimable (+https://github.com/perezamadorluisenrique-gif/claimable)";
 
 export type CassetteMode = "off" | "record" | "replay";
 
 type ClientState = {
+  /** Explicit API base (flag or test override); wins over GITHUB_API_URL. */
+  apiUrl: string | null;
   token: string | null;
   tokenResolved: boolean;
   /** Overrides the /user lookup; lets replayed fixtures name their viewer. */
@@ -35,6 +37,7 @@ type ClientState = {
 };
 
 const state: ClientState = {
+  apiUrl: null,
   token: null,
   tokenResolved: false,
   viewer: undefined,
@@ -45,8 +48,9 @@ const state: ClientState = {
 };
 
 export function configure(
-  opts: Partial<Pick<ClientState, "cassetteMode" | "cassetteDir" | "token" | "viewer">>,
+  opts: Partial<Pick<ClientState, "cassetteMode" | "cassetteDir" | "token" | "viewer" | "apiUrl">>,
 ): void {
+  if (opts.apiUrl !== undefined) state.apiUrl = opts.apiUrl ? opts.apiUrl.trim().replace(/\/+$/, "") : null;
   if (opts.cassetteMode !== undefined) state.cassetteMode = opts.cassetteMode;
   if (opts.cassetteDir !== undefined) state.cassetteDir = opts.cassetteDir;
   if (opts.viewer !== undefined) state.viewer = opts.viewer;
@@ -55,6 +59,35 @@ export function configure(
     state.tokenResolved = true;
   }
   state.memo.clear();
+}
+
+/**
+ * The REST base URL, resolved in order: `--api-url` / `configure()`, then
+ * `GITHUB_API_URL` (which GitHub Actions sets, on Enterprise too), then
+ * github.com. Trailing slashes are dropped so joining a path never yields `//`.
+ */
+export function apiBase(): string {
+  const raw = state.apiUrl ?? process.env.GITHUB_API_URL?.trim();
+  return raw ? raw.replace(/\/+$/, "") : DEFAULT_API;
+}
+
+/**
+ * The browser-facing origin that matches `apiBase()`, for evidence links.
+ *   https://api.github.com          → https://github.com
+ *   https://ghe.example.com/api/v3  → https://ghe.example.com
+ *   https://api.acme.ghe.com        → https://acme.ghe.com
+ */
+export function webBase(): string {
+  const base = apiBase();
+  if (base === DEFAULT_API) return "https://github.com";
+  try {
+    const url = new URL(base);
+    const host = url.host.replace(/^api\./i, "");
+    const path = url.pathname.replace(/\/api\/v3\/?$/i, "").replace(/\/+$/, "");
+    return `${url.protocol}//${host}${path}`;
+  } catch {
+    return "https://github.com";
+  }
 }
 
 export function requestCount(): number {
@@ -168,7 +201,7 @@ async function requestRaw(path: string, attempt = 0): Promise<{ body: unknown; h
   if (token) headers.authorization = `Bearer ${token}`;
 
   state.requests += 1;
-  const res = await fetch(`${API}${path}`, { headers });
+  const res = await fetch(`${apiBase()}${path}`, { headers });
 
   if (res.status === 403 || res.status === 429) {
     const retryAfter = Number(res.headers.get("retry-after") || 0);

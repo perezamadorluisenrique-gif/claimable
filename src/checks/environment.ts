@@ -11,6 +11,7 @@
  * one OS.
  */
 
+import { webBase } from "../github.ts";
 import { getDocs, getIssue } from "../fetchers.ts";
 import type { Finding, IssueRef } from "../types.ts";
 
@@ -110,7 +111,7 @@ export async function checkEnvironment(ref: IssueRef): Promise<Finding[]> {
         evidence: [
           path.startsWith("issue #")
             ? issue.html_url
-            : `https://github.com/${ref.owner}/${ref.repo}/blob/HEAD/${path}`,
+            : `${webBase()}/${ref.owner}/${ref.repo}/blob/HEAD/${path}`,
         ],
       });
     }

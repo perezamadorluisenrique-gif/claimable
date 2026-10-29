@@ -14,6 +14,7 @@
  * "port this file" reads very differently at 2 KB and at 65 KB.
  */
 
+import { webBase } from "../github.ts";
 import { getIssue, getTree } from "../fetchers.ts";
 import type { Finding, IssueRef } from "../types.ts";
 import type { RepoTree, TreeEntry } from "../fetchers.ts";
@@ -150,7 +151,7 @@ export async function checkPrerequisites(ref: IssueRef): Promise<Finding[]> {
       check: "prerequisites",
       severity: "warning",
       message: `the files this issue points at total ${Math.round(totalBytes / 1024)} KB (largest: ${biggest.map((e) => `${e.path.split("/").pop()} ${Math.round((e.size ?? 0) / 1024)} KB`).join(", ")}) — whatever the difficulty label says, this is not a small change`,
-      evidence: biggest.map((e) => `https://github.com/${ref.owner}/${ref.repo}/blob/HEAD/${e.path}`),
+      evidence: biggest.map((e) => `${webBase()}/${ref.owner}/${ref.repo}/blob/HEAD/${e.path}`),
     });
   }
 

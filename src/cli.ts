@@ -9,10 +9,10 @@ import { readFileSync, realpathSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 
 import { analyze } from "./analyze.ts";
-import { api, hasToken, requestCount } from "./github.ts";
+import { api, configure, hasToken, requestCount } from "./github.ts";
 import { parseRef, parseRefs, parseRepo } from "./refs.ts";
 import { formatDetail, formatLine, formatSummary } from "./report.ts";
-import { CHECK_ORDER } from "./types.ts";
+import { CHECK_ORDER, refToString } from "./types.ts";
 import type { CheckId, GhIssue, IssueRef, IssueReport } from "./types.ts";
 
 const USAGE = `
@@ -43,6 +43,9 @@ OPTIONS
                         result through the filters, e.g.
                         --find 'label:hacktoberfest language:rust'
   --limit <n>           With --repo or --find: how many issues to scan (default 20)
+  --api-url <url>       GitHub API base URL, for GitHub Enterprise Server, e.g.
+                        https://ghe.example.com/api/v3 (default: $GITHUB_API_URL,
+                        then https://api.github.com)
   --thorough            Run every filter even after one rules an issue out
   --hacktoberfest       Also check whether a PR here would count for Hacktoberfest
   --skip <check>        Skip a filter (repeatable). One of:
@@ -66,6 +69,7 @@ type Options = {
   find: string | null;
   labels: string[];
   limit: number;
+  apiUrl: string | null;
   thorough: boolean;
   hacktoberfest: boolean;
   skip: CheckId[];
@@ -84,6 +88,7 @@ export function parseArgs(argv: string[]): Options {
     find: null,
     labels: [],
     limit: 20,
+    apiUrl: null,
     thorough: false,
     hacktoberfest: false,
     skip: [],
@@ -126,6 +131,9 @@ export function parseArgs(argv: string[]): Options {
         opts.limit = value;
         break;
       }
+      case "--api-url":
+        opts.apiUrl = next();
+        break;
       case "--thorough":
         opts.thorough = true;
         break;
@@ -184,18 +192,29 @@ function version(): string {
   return "unknown";
 }
 
-async function listRepoIssues(repo: string, labels: string[], limit: number): Promise<IssueRef[]> {
+export async function listRepoIssues(repo: string, labels: string[], limit: number): Promise<IssueRef[]> {
   const parsed = parseRepo(repo);
   if (!parsed) throw new Error(`--repo expects owner/repo, got "${repo}"`);
 
-  const params = new URLSearchParams({ state: "open", per_page: String(Math.min(limit, 100)) });
-  if (labels.length > 0) params.set("labels", labels.join(","));
+  // /issues returns pull requests too, so a page holds fewer issues than its
+  // size. Page until `limit` issues are collected or the repository runs out,
+  // sequentially (parallel requests trip the secondary rate limit) and stopping
+  // as soon as there are enough: anonymous runs only get 60 requests an hour.
+  const perPage = Math.min(Math.max(limit, 30), 100);
+  const refs: IssueRef[] = [];
+  for (let page = 1; refs.length < limit; page++) {
+    const params = new URLSearchParams({ state: "open", per_page: String(perPage), page: String(page) });
+    if (labels.length > 0) params.set("labels", labels.join(","));
 
-  const issues = await api<GhIssue[]>(`/repos/${parsed.owner}/${parsed.repo}/issues?${params}`);
-  return issues
-    .filter((issue) => !issue.pull_request) // this endpoint returns PRs too
-    .slice(0, limit)
-    .map((issue) => ({ owner: parsed.owner, repo: parsed.repo, number: issue.number }));
+    const items = await api<GhIssue[]>(`/repos/${parsed.owner}/${parsed.repo}/issues?${params}`);
+    for (const issue of items) {
+      if (issue.pull_request) continue;
+      refs.push({ owner: parsed.owner, repo: parsed.repo, number: issue.number });
+      if (refs.length === limit) break;
+    }
+    if (items.length < perPage) break; // last page
+  }
+  return refs;
 }
 
 /**
@@ -269,6 +288,20 @@ async function readStdin(): Promise<string> {
   return Buffer.concat(chunks).toString("utf8");
 }
 
+/**
+ * A progress line goes to stderr, only for a person watching a terminal: not in
+ * a pipe or CI log, not with --json, and not on a dumb terminal that cannot
+ * rewrite a line. NO_COLOR is deliberately not a reason: it asks for no
+ * colour, and this line has none.
+ */
+export function shouldShowProgress(
+  env: Record<string, string | undefined>,
+  stderrIsTTY: boolean,
+  json: boolean,
+): boolean {
+  return stderrIsTTY && !json && env.TERM !== "dumb";
+}
+
 async function main(argv: string[]): Promise<number> {
   // The published JavaScript runs on Node 18 and later; CI runs it on each
   // even-numbered release from there. Older than that, the first sign would
@@ -290,6 +323,8 @@ async function main(argv: string[]): Promise<number> {
     process.stdout.write(`${version()}\n`);
     return 0;
   }
+
+  if (opts.apiUrl !== null) configure({ apiUrl: opts.apiUrl });
 
   if (opts.stdin) {
     if (process.stdin.isTTY) {
@@ -348,13 +383,20 @@ async function main(argv: string[]): Promise<number> {
     );
   }
 
+  const progress = targets.length > 1 && shouldShowProgress(process.env, process.stderr.isTTY === true, opts.json);
+  const clearProgress = () => {
+    if (progress) process.stderr.write("\r\x1b[K");
+  };
+
   const reports: IssueReport[] = [];
-  for (const ref of targets) {
+  for (const [index, ref] of targets.entries()) {
+    if (progress) process.stderr.write(`\r\x1b[Kscanning ${index + 1}/${targets.length}  ${refToString(ref)}`);
     // Sequential on purpose. Parallel requests trip GitHub's secondary rate
     // limit, and scanning forty issues slightly slower beats being blocked for
     // an hour halfway through.
     const report = await analyze(ref, { thorough: opts.thorough, skip: opts.skip, hacktoberfest: opts.hacktoberfest });
     reports.push(report);
+    clearProgress();
 
     if (opts.json) continue;
     if (opts.viableOnly && report.verdict !== "viable") continue;

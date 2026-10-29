@@ -14,6 +14,7 @@
  * after the merge.
  */
 
+import { webBase } from "../github.ts";
 import { getIssue, getRepo, now } from "../fetchers.ts";
 import { labelNames } from "./blocked-label.ts";
 import type { Finding, IssueRef } from "../types.ts";
@@ -32,7 +33,7 @@ export async function checkHacktoberfest(ref: IssueRef): Promise<Finding[]> {
   const repo = await getRepo(ref);
   const issue = await getIssue(ref);
   const findings: Finding[] = [];
-  const repoUrl = `https://github.com/${ref.owner}/${ref.repo}`;
+  const repoUrl = `${webBase()}/${ref.owner}/${ref.repo}`;
 
   if ((repo.topics ?? []).some((t) => t.toLowerCase() === "hacktoberfest")) {
     findings.push({

@@ -17,7 +17,7 @@ import { checkEnvironment } from "./checks/environment.ts";
 import { checkClaimProtocol } from "./checks/claim-protocol.ts";
 import { checkHacktoberfest } from "./checks/hacktoberfest.ts";
 import { getIssue } from "./fetchers.ts";
-import { HttpError } from "./github.ts";
+import { HttpError, webBase } from "./github.ts";
 import { CHECK_ORDER, refToString } from "./types.ts";
 import type { CheckId, Finding, IssueRef, IssueReport, Verdict } from "./types.ts";
 
@@ -48,7 +48,7 @@ export async function analyze(ref: IssueRef, opts: AnalyzeOptions = {}): Promise
   const skipSet = new Set(opts.skip ?? []);
 
   let title = refToString(ref);
-  let url = `https://github.com/${ref.owner}/${ref.repo}/issues/${ref.number}`;
+  let url = `${webBase()}/${ref.owner}/${ref.repo}/issues/${ref.number}`;
 
   try {
     const issue = await getIssue(ref);

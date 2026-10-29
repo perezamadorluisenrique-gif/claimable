@@ -163,6 +163,7 @@ gh issue list -R oppia/oppia -l "good first issue" --json url -q '.[].url' | cla
 | `--label <label>` | With `--repo`: only issues with this label (repeatable) |
 | `--find <query>` | Search all of GitHub, then run every result through the filters |
 | `--limit <n>` | With `--repo` or `--find`: how many to scan (default 20) |
+| `--api-url <url>` | GitHub Enterprise: the API base, e.g. `https://ghe.example.com/api/v3`. Defaults to `$GITHUB_API_URL` (set by GitHub Actions), then `https://api.github.com`. Evidence links follow the matching web host |
 | `--thorough` | Run every filter even after one rules an issue out |
 | `--hacktoberfest` | Also check whether a PR here would count for [Hacktoberfest](https://hacktoberfest.com/participation/) |
 | `--skip <check>` | Skip a filter (repeatable) |
@@ -234,7 +235,7 @@ you. Development runs the
 `src/*.ts` files directly — no build step.
 
 ```bash
-npm test          # 139 tests, offline, deterministic
+npm test          # 149 tests, offline, deterministic
 npm run compare   # tool verdicts next to the hand verdicts, side by side
 npm run demo      # regenerate the README demo from a real run
 npm run check:docs # fail if a number in these docs no longer matches the code
