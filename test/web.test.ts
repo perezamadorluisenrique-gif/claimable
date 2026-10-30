@@ -62,3 +62,16 @@ describe("browser version", () => {
     });
   }
 });
+
+describe("landing page", () => {
+  it("puts external text in with textContent, never innerHTML", () => {
+    const app = readFileSync(join(ROOT, "web/app.js"), "utf8");
+    assert.ok(!/innerHTML|insertAdjacentHTML/.test(app));
+  });
+
+  it("carries a canonical URL and social tags for link previews", () => {
+    for (const tag of ['rel="canonical"', 'property="og:title"', 'property="og:image"', 'name="twitter:card"']) {
+      assert.ok(html.includes(tag), `web/index.html lacks ${tag}`);
+    }
+  });
+});
