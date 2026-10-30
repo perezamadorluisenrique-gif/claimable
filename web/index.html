@@ -3,12 +3,17 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>claimable</title>
-<meta name="description" content="Paste a GitHub issue and find out whether it is actually free to work on: seven checks, run in your browser, each with a link to verify it.">
+<title>claimable: is this GitHub issue actually free to work on?</title>
+<link rel="canonical" href="https://perezamadorluisenrique-gif.github.io/claimable/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://perezamadorluisenrique-gif.github.io/claimable/">
+<meta name="description" content="Before you start on a good first issue, check it is really free: open PRs, claims buried in the thread, dead repos. Seven checks, each with a link to verify it. npx claimable owner/repo#123.">
 <meta property="og:title" content="claimable">
 <meta property="og:description" content="&quot;Unassigned&quot; is not the same as &quot;free&quot;. Seven checks before you start on a GitHub issue.">
-<meta property="og:image" content="https://raw.githubusercontent.com/perezamadorluisenrique-gif/claimable/main/docs/social-preview.png">
+<meta property="og:image" content="https://perezamadorluisenrique-gif.github.io/claimable/social-preview.png">
+<meta property="og:image:alt" content="claimable ruling out a GitHub issue that was already claimed">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image:alt" content="claimable ruling out a GitHub issue that was already claimed">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;700;800&display=swap">
@@ -182,6 +187,24 @@
   .evidence { grid-column: 2; font: 0.8rem/1.5 var(--mono); color: var(--dim); overflow-wrap: anywhere; }
   .not-run { color: var(--dim); font-style: italic; }
 
+  .install { display: grid; gap: 8px; }
+  .install-row { display: flex; align-items: center; gap: 8px; background: var(--well); border: 1px solid var(--line); border-radius: 10px; padding: 6px 6px 6px 16px; font-family: var(--mono); }
+  .install-row code { flex: 1; min-width: 0; background: none; border: 0; padding: 8px 0; font-size: 15px; overflow-wrap: anywhere; }
+  .install-row .sigil { color: var(--blue); user-select: none; }
+  .install-note { margin: 0; font-size: 0.88rem; color: var(--dim); }
+  .examples { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+  .examples .eyebrow { margin-right: 4px; }
+  .examples button { background: var(--surface); color: var(--ink); border: 1px solid var(--line); padding: 10px 14px; min-height: 40px; }
+  .examples button[aria-pressed="true"] { border-color: currentColor; box-shadow: inset 0 0 0 1px currentColor; }
+  .examples .v-discard, .examples .v-reservations, .examples .v-viable { }
+  .cta { font: 700 0.9rem/1.3 var(--mono); }
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)); gap: 12px; margin: 0; padding: 0; list-style: none; }
+  .stats li { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; display: grid; gap: 2px; }
+  .stats b { font: 800 1.8rem/1.1 var(--mono); }
+  .stats span { font-size: 0.88rem; color: var(--dim); }
+  .proof { display: grid; gap: 12px; }
+  .proof h2 { margin: 0; font-size: 1.15rem; }
+  .proof p { margin: 0; color: var(--dim); max-width: 65ch; }
   .meta { display: flex; flex-wrap: wrap; gap: 8px 18px; font-size: 0.88rem; color: var(--dim); }
   .meta button { background: transparent; color: var(--blue); padding: 0; font: inherit; text-decoration: underline; text-underline-offset: 2px; }
 
@@ -246,6 +269,17 @@
     <p class="tagline"><q>Unassigned</q> is not the same as <q>free</q>. Paste an issue and see whether anyone has beaten you to it, before you spend a weekend on it.</p>
   </header>
 
+  <section class="install" aria-label="Install">
+    <div class="install-row">
+      <span class="sigil" aria-hidden="true">$</span>
+      <code id="install-cmd">npx claimable owner/repo#123</code>
+      <button id="copy-cmd" type="button">Copy</button>
+    </div>
+    <p class="install-note" id="copy-status" aria-live="polite">Node 18+, no dependencies, nothing to install. Add <code>--repo owner/repo</code> to scan a whole repository.</p>
+  </section>
+
+  <div class="examples" id="examples" role="group" aria-label="Recorded examples"></div>
+
   <form id="check-form" autocomplete="off">
     <div class="prompt">
       <label class="sigil" for="issue-input">$ claimable</label>
@@ -259,6 +293,12 @@
   </form>
 
   <section class="result" id="result" aria-live="polite"></section>
+
+  <section class="proof" aria-labelledby="proof-h">
+    <h2 id="proof-h">Does it actually work?</h2>
+    <ul class="stats" id="stats" hidden></ul>
+    <p>Checked against issues triaged by hand, each with the evidence. It never cleared an issue that was really taken. Reproduce it offline, with no token: <code>git clone https://github.com/perezamadorluisenrique-gif/claimable &amp;&amp; cd claimable &amp;&amp; npm run compare</code></p>
+  </section>
 
   <details id="token-details">
     <summary>Checking more than a few issues an hour?</summary>

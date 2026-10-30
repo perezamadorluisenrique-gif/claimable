@@ -198,6 +198,8 @@ async function check(raw) {
     const report = await analyze(ref, { thorough: thorough.checked });
     result.removeAttribute("aria-busy");
     render(report, `Checked just now`);
+    setCommand(refToString(ref));
+    for (const b of examplesBox.querySelectorAll("button")) b.setAttribute("aria-pressed", "false");
     renderMeta(report, requestCount() - before);
     document.title = `${VERDICT[report.verdict]} ${refToString(ref)} · claimable`;
   } catch (err) {
@@ -222,21 +224,90 @@ form.addEventListener("submit", (event) => {
   else input.focus();
 });
 
+/* ── install block ────────────────────────────────────────────────────────── */
+
+const installCmd = document.getElementById("install-cmd");
+const copyStatus = document.getElementById("copy-status");
+const defaultNote = copyStatus.textContent;
+
+function setCommand(ref) {
+  installCmd.textContent = `npx claimable ${ref}`;
+}
+
+document.getElementById("copy-cmd").addEventListener("click", async () => {
+  try {
+    await navigator.clipboard.writeText(installCmd.textContent);
+    copyStatus.textContent = "Copied. Paste it in a terminal.";
+  } catch {
+    const range = document.createRange();
+    range.selectNodeContents(installCmd);
+    getSelection().removeAllRanges();
+    getSelection().addRange(range);
+    copyStatus.textContent = "Selected. Press Ctrl+C to copy.";
+  }
+  setTimeout(() => {
+    copyStatus.textContent = defaultNote;
+  }, 4000);
+});
+
+/* ── recorded examples: replayed from a file, no API call ──────────────── */
+
+const examplesBox = document.getElementById("examples");
+
+function showExample(data, example) {
+  const ref = refToString(example.report.ref);
+  input.value = ref;
+  setCommand(ref);
+  render(example.report, `Recorded ${data.recorded} · replayed, no API call · the issue may have changed since`);
+  document.title = `${VERDICT[example.report.verdict]} ${ref} · claimable`;
+  for (const b of examplesBox.querySelectorAll("button")) b.setAttribute("aria-pressed", String(b.dataset.slug === example.slug));
+  const url = new URL(location.href);
+  url.searchParams.delete("issue");
+  url.searchParams.set("example", example.slug);
+  history.replaceState(null, "", url);
+}
+
+function setUpExamples(data) {
+  examplesBox.append(el("span", { class: "eyebrow" }, "Try a recorded one"));
+  for (const example of data.examples ?? []) {
+    const button = el("button", { type: "button", "data-slug": example.slug, "aria-pressed": "false", class: `v-${example.verdict}` }, `${VERDICT[example.verdict]} · ${refToString(example.report.ref)}`);
+    button.addEventListener("click", () => showExample(data, example));
+    examplesBox.append(button);
+  }
+  const stats = document.getElementById("stats");
+  const s = data.stats;
+  if (s) {
+    for (const [value, label] of [
+      [`${s.agree}/${s.of}`, "agree with the hand-verified verdict"],
+      [`${s.rejections}/${s.rejectionsOf}`, "hand rejections reproduced"],
+      [String(s.wronglyRuledOut), "issues wrongly ruled out"],
+      [String(s.caught), "claims the hand pass missed"],
+    ]) stats.append(el("li", {}, el("b", {}, value), el("span", {}, label)));
+    stats.hidden = false;
+  }
+}
+
 /* ── first paint: a shared link runs its check; otherwise a recorded example ─ */
 
 const params = new URLSearchParams(location.search);
 const shared = params.get("issue");
+const fromPath = document.body.dataset.example;
+const wanted = params.get("example") ?? fromPath;
+
+fetch("example.json")
+  .then((res) => (res.ok ? res.json() : null))
+  .then((data) => {
+    if (!data) return;
+    setUpExamples(data);
+    if (shared || result.firstChild) return;
+    const example = (data.examples ?? []).find((e) => e.slug === wanted) ?? (data.examples ?? [])[0];
+    if (example) showExample(data, example);
+  })
+  .catch(() => {});
+
 if (shared) {
   input.value = shared;
+  setCommand(shared);
   thorough.checked = params.get("thorough") === "1";
   check(shared);
-} else {
-  fetch("example.json")
-    .then((res) => (res.ok ? res.json() : null))
-    .then((example) => {
-      if (!example || result.firstChild) return;
-      input.placeholder = refToString(example.report.ref);
-      render(example.report, `Example · recorded ${example.recorded} · paste your own issue above`);
-    })
-    .catch(() => {});
 }

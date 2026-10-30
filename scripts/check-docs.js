@@ -13,6 +13,7 @@
 
 import { spawnSync } from "node:child_process";
 import { readFileSync, writeFileSync } from "node:fs";
+import { evalFigures } from "./eval-figures.js";
 
 const fix = process.argv.includes("--fix");
 const ENV = { ...process.env, NO_COLOR: "1", GITHUB_TOKEN: "", GH_TOKEN: "" };
@@ -33,20 +34,7 @@ if (!tests || failed) {
   process.exit(1);
 }
 
-const compare = run(["test/compare.ts"]);
-const rows = compare.split("\n").filter((line) => /hand=/.test(line));
-const summary = compare.trim().split("\n").at(-1).replace(/\s+·\s+/g, " · ");
-const scored = rows.filter((l) => !l.startsWith(" drift"));
-const handDiscards = scored.filter((l) => /hand=discard/.test(l));
-const figures = {
-  issues: rows.length,
-  rejections: handDiscards.filter((l) => /tool=discard/.test(l)).length,
-  rejectionsOf: handDiscards.length,
-  caught: rows.filter((l) => l.startsWith(" CAUGHT")).length,
-  soft: scored.filter((l) => l.startsWith(" DIFFER") && /tool=reservations/.test(l)).length,
-  drift: rows.filter((l) => l.startsWith(" drift")).length,
-  wronglyRuledOut: scored.filter((l) => /hand=viable/.test(l) && !l.startsWith(" CAUGHT") && /tool=discard/.test(l)).length,
-};
+const { figures, summary } = evalFigures();
 
 /** The README's example, replayed on the date its day counts were taken. */
 function example(ref, date) {
