@@ -1,5 +1,5 @@
 {
-  "name": "unclaim-by-holder",
+  "name": "unclaim-by-someone-who-does-not-hold-it",
   "source": "synthetic",
   "now": "2026-09-15T12:00:00Z",
   "issue": {
@@ -53,9 +53,9 @@
       "created_at": "2026-09-10T09:00:30Z"
     },
     {
-      "id": 9000034,
+      "id": 9000037,
       "user": {
-        "login": "alice",
+        "login": "bob",
         "type": "User"
       },
       "author_association": "NONE",
@@ -67,31 +67,23 @@
   "config": {},
   "expected": [
     {
-      "type": "unassign",
-      "login": "alice"
-    },
-    {
-      "type": "unlabel",
-      "name": "claimed"
-    },
-    {
       "type": "comment",
       "mode": "edit",
       "commentId": 2,
       "reply": {
-        "kind": "released",
-        "by": "alice",
-        "former": "alice"
+        "kind": "not-holder",
+        "requester": "bob",
+        "holder": "alice"
       },
       "marker": {
-        "claimant": null,
-        "since": null,
+        "claimant": "alice",
+        "since": "2026-09-10T09:00:00Z",
         "nudgedAt": null
       }
     }
   ],
   "event": {
     "kind": "comment",
-    "commentId": 9000034
+    "commentId": 9000037
   }
 }

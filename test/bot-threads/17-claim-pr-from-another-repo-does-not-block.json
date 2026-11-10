@@ -1,5 +1,5 @@
 {
-  "name": "claim-under-quota",
+  "name": "claim-pr-from-another-repo-does-not-block",
   "source": "synthetic",
   "now": "2026-09-15T12:00:00Z",
   "issue": {
@@ -14,12 +14,33 @@
     "assignees": [],
     "updated_at": "2026-09-10T08:00:00Z"
   },
-  "timeline": [],
+  "timeline": [
+    {
+      "event": "cross-referenced",
+      "created_at": "2026-09-12T10:00:00Z",
+      "source": {
+        "issue": {
+          "number": 1,
+          "html_url": "https://github.com/mallory/junk/pull/1",
+          "state": "open",
+          "title": "Fix 1",
+          "pull_request": {
+            "merged_at": null,
+            "html_url": "https://github.com/mallory/junk/pull/1"
+          },
+          "user": {
+            "login": "mallory"
+          },
+          "draft": false
+        }
+      }
+    }
+  ],
   "comments": [
     {
-      "id": 9000018,
+      "id": 9000017,
       "user": {
-        "login": "alice",
+        "login": "bob",
         "type": "User"
       },
       "author_association": "NONE",
@@ -27,14 +48,12 @@
       "created_at": "2026-09-15T11:59:00Z"
     }
   ],
-  "requesterClaims": [
-    3
-  ],
+  "requesterClaims": [],
   "config": {},
   "expected": [
     {
       "type": "assign",
-      "login": "alice"
+      "login": "bob"
     },
     {
       "type": "label",
@@ -45,13 +64,13 @@
       "mode": "create",
       "reply": {
         "kind": "claimed",
-        "claimant": "alice",
+        "claimant": "bob",
         "since": "2026-09-15",
         "nudgeOn": "2026-09-22",
         "releaseOn": "2026-09-29"
       },
       "marker": {
-        "claimant": "alice",
+        "claimant": "bob",
         "since": "2026-09-15T12:00:00Z",
         "nudgedAt": null
       }
@@ -59,6 +78,6 @@
   ],
   "event": {
     "kind": "comment",
-    "commentId": 9000018
+    "commentId": 9000017
   }
 }

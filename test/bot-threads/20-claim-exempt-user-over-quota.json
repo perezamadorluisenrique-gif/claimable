@@ -17,7 +17,7 @@
   "timeline": [],
   "comments": [
     {
-      "id": 9000019,
+      "id": 9000020,
       "user": {
         "login": "alice",
         "type": "User"
@@ -65,6 +65,6 @@
   ],
   "event": {
     "kind": "comment",
-    "commentId": 9000019
+    "commentId": 9000020
   }
 }

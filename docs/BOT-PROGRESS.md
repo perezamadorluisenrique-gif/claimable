@@ -29,3 +29,11 @@ Plan: `docs/BOT-PLAN.md`. One line per work order, newest last.
 - Safety properties pinned by `test/bot-action.test.ts`: no `${{ }}` inside any `run:` script (action, workflow and every YAML block in the docs); only `issues: write`; no `pull_request_target`; no checkout of an event-derived ref; the bot's own code never spawns, evaluates or calls `fetch`; `dry-run` is on unless it is exactly `false`; `send()` refuses while cassettes replay; a failed write is an outcome, never an exception; a claim that GitHub did not accept as an assignment stops before the label and the "reserved" comment.
 - Threads of more than 1,000 comments or events (10 pages) are not read in full, and the bot does nothing on them. The same when the author holds more issues than 300.
 - Private repositories run report-only (the paid part, ahead of B2.3's `license`).
+
+### B1.3 security review (Opus, high) and what changed
+
+One blocker, fixed in the same PR: a pull request from another repository (or any open one that only mentions the issue elsewhere) counted as competition, so a stranger could block every claim and the bot's reply linked to the wrong `#N`. Only pull requests of the same repository count now (thread `claim-pr-from-another-repo-does-not-block`; the bank has 50 threads).
+
+Also fixed: the marker is honoured only on the first line of a bot comment (a bot echoing a user's quote could forge it); label text in the comment goes through `mdText` (Markdown syntax and invisible or bidi characters inert); `oneLine` escapes `\r`; the bot re-reads the trigger comment from the API (edited or deleted comments are not acted on); `dry-run` writes only on exactly `false`; "maintainer" for `/unclaim` is checked against the repository permission (triage or more), not the association; `persist-credentials: false` on the checkout.
+
+Documented, not changed: GitHub keeps only the newest waiting run per `concurrency` group, so the middle of three comments in seconds may go unanswered (nobody is wrongly assigned); a hand assignment in the same second as a `/claim` can leave two assignees; `actions/setup-node@v5` is a moving tag as in the audit Action and changes the job's Node when it runs; a same-repo pull request that only mentions the issue counts as competition (the audit does the same).

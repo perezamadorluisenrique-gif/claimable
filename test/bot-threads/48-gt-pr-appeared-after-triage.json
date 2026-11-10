@@ -59,7 +59,7 @@
   ],
   "comments": [
     {
-      "id": 9000045,
+      "id": 9000046,
       "user": {
         "login": "newcomer",
         "type": "User"
@@ -71,7 +71,7 @@
   ],
   "event": {
     "kind": "comment",
-    "commentId": 9000045
+    "commentId": 9000046
   },
   "requesterClaims": [],
   "config": {},

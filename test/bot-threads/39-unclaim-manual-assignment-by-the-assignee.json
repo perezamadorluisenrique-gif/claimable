@@ -1,5 +1,5 @@
 {
-  "name": "status-manual-assignment-has-no-deadlines",
+  "name": "unclaim-manual-assignment-by-the-assignee",
   "source": "synthetic",
   "now": "2026-09-15T12:00:00Z",
   "issue": {
@@ -32,13 +32,13 @@
   ],
   "comments": [
     {
-      "id": 9000041,
+      "id": 9000039,
       "user": {
-        "login": "bob",
+        "login": "dana",
         "type": "User"
       },
       "author_association": "NONE",
-      "body": "/claim status",
+      "body": "/unclaim",
       "created_at": "2026-09-15T11:59:00Z"
     }
   ],
@@ -46,14 +46,16 @@
   "config": {},
   "expected": [
     {
+      "type": "unassign",
+      "login": "dana"
+    },
+    {
       "type": "comment",
       "mode": "create",
       "reply": {
-        "kind": "status",
-        "holder": "dana",
-        "since": "2026-08-20",
-        "nudgeOn": null,
-        "releaseOn": null
+        "kind": "released",
+        "by": "dana",
+        "former": "dana"
       },
       "marker": {
         "claimant": null,
@@ -64,6 +66,6 @@
   ],
   "event": {
     "kind": "comment",
-    "commentId": 9000041
+    "commentId": 9000039
   }
 }

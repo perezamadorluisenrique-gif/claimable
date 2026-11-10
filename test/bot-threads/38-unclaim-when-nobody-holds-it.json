@@ -1,5 +1,5 @@
 {
-  "name": "claim-blocked-by-label",
+  "name": "unclaim-when-nobody-holds-it",
   "source": "synthetic",
   "now": "2026-09-15T12:00:00Z",
   "issue": {
@@ -9,8 +9,7 @@
     "html_url": "https://github.com/acme/widgets/issues/7",
     "title": "Fix typo in README",
     "labels": [
-      "good first issue",
-      "on hold"
+      "good first issue"
     ],
     "assignees": [],
     "updated_at": "2026-09-10T08:00:00Z"
@@ -18,13 +17,13 @@
   "timeline": [],
   "comments": [
     {
-      "id": 9000021,
+      "id": 9000038,
       "user": {
         "login": "alice",
         "type": "User"
       },
       "author_association": "NONE",
-      "body": "/claim",
+      "body": "/unclaim",
       "created_at": "2026-09-15T11:59:00Z"
     }
   ],
@@ -32,22 +31,12 @@
   "config": {},
   "expected": [
     {
-      "type": "comment",
-      "mode": "create",
-      "reply": {
-        "kind": "blocked",
-        "requester": "alice",
-        "label": "on hold"
-      },
-      "marker": {
-        "claimant": null,
-        "since": null,
-        "nudgedAt": null
-      }
+      "type": "none",
+      "reason": "nobody holds this issue"
     }
   ],
   "event": {
     "kind": "comment",
-    "commentId": 9000021
+    "commentId": 9000038
   }
 }

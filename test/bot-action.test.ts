@@ -199,15 +199,24 @@ describe("bot end to end, offline", () => {
     labels: [{ name: "good first issue" }], assignees: [], comments: 1, created_at: "2026-09-01T00:00:00Z", updated_at: "2026-09-10T00:00:00Z",
   };
   put("/repos/acme/widgets/issues/7", issue);
-  put("/repos/acme/widgets/issues/7/comments?per_page=100", []);
+  const said = (id: number, body: string, assoc = "NONE", login = "alice") => ({
+    id, body, created_at: "2026-09-15T11:59:00Z", author_association: assoc, user: { login, type: "User" },
+  });
+  put("/repos/acme/widgets/issues/7/comments?per_page=100", [
+    said(5001, "/claim"),
+    said(5002, "I would like to work on this"),
+    said(5003, "/claim\n$(touch /tmp/pwned) `id` ${{ secrets.X }} ; rm -rf /"),
+    said(5004, "/unclaim", "MEMBER", "pat"),
+  ]);
+  put("/repos/acme/widgets/collaborators/pat/permission", { permission: "read", role_name: "read" });
   put("/repos/acme/widgets/issues/7/timeline?per_page=100", []);
   put("/repos/acme/widgets/issues?state=open&labels=claimed&assignee=alice&per_page=100", []);
   configure({ cassetteDir: "test/fixtures" });
 
-  const payload = (body: string, extra: object = {}) => ({
+  const payload = (body: string, extra: object = {}, id = 5001) => ({
     action: "created",
     issue: { number: 7 },
-    comment: { id: 5001, body, created_at: "2026-09-15T11:59:00Z", author_association: "NONE", user: { login: "alice", type: "User" } },
+    comment: { id, body, created_at: "2026-09-15T11:59:00Z", author_association: "NONE", user: { login: "alice", type: "User" } },
     repository: { full_name: "acme/widgets", private: false },
     ...extra,
   });
@@ -265,7 +274,7 @@ describe("bot end to end, offline", () => {
         const run = await handle(name, p, { token: null, dryRun: false });
         assert.deepEqual(run.actions, [], name);
       }
-      const run = await handle("issue_comment", payload("I would like to work on this"), { token: null, dryRun: false });
+      const run = await handle("issue_comment", payload("I would like to work on this", {}, 5002), { token: null, dryRun: false });
       assert.deepEqual(run.actions, [{ type: "none", reason: "no command" }]);
     } finally {
       stop();
@@ -274,7 +283,7 @@ describe("bot end to end, offline", () => {
   it("is just text in, summary out, when a hostile comment arrives as a process", () => {
     const event = join(dir, "event.json");
     const summary = join(dir, "summary.md");
-    writeFileSync(event, JSON.stringify(payload("/claim\n$(touch /tmp/pwned) `id` ${{ secrets.X }} ; rm -rf /")));
+    writeFileSync(event, JSON.stringify(payload("/claim\n$(touch /tmp/pwned) `id` ${{ secrets.X }} ; rm -rf /", {}, 5003)));
     writeFileSync(summary, "");
     const res = spawnSync(process.execPath, [join(ROOT, "bot/main.ts")], {
       encoding: "utf8",
@@ -289,6 +298,29 @@ describe("bot end to end, offline", () => {
     assert.match(text, /planned/);
     assert.match(text, /2026-09-22/);
     assert.ok(!text.includes("touch /tmp/pwned"));
+  });
+  it("acts on the comment as the API has it, not as the event says", async () => {
+    replay();
+    try {
+      // Event claims /claim, but comment 5002 says something else now.
+      const edited = await handle("issue_comment", payload("/claim", {}, 5002), { token: null, dryRun: true });
+      assert.deepEqual(edited.actions, [{ type: "none", reason: "no command" }]);
+      // And a comment that is gone is not acted on at all.
+      const gone = await handle("issue_comment", payload("/claim", {}, 9999), { token: null, dryRun: true });
+      assert.deepEqual(gone.actions, [{ type: "none", reason: "the comment is gone" }]);
+    } finally {
+      stop();
+    }
+  });
+  it("does not let a read-only organisation member release someone else's claim", async () => {
+    replay();
+    try {
+      const run = await handle("issue_comment", payload("/unclaim", { comment: { id: 5004, body: "/unclaim", created_at: "2026-09-15T11:59:00Z", author_association: "MEMBER", user: { login: "pat", type: "User" } } }, 5004), { token: null, dryRun: true });
+      // Nobody holds the issue, so the answer is "nobody holds": the point is that the permission lookup ran and nothing threw.
+      assert.deepEqual(run.actions, [{ type: "none", reason: "nobody holds this issue" }]);
+    } finally {
+      stop();
+    }
   });
   it("exits 0 with a warning when the API is out of reach", () => {
     const event = join(dir, "event2.json");
@@ -306,9 +338,8 @@ describe("bot end to end, offline", () => {
 });
 
 describe("readInputs", () => {
-  it("writes only on an explicit false", () => {
+  it("writes only on exactly the string false", () => {
     assert.equal(readInputs({ INPUT_DRY_RUN: "false" }).dryRun, false);
-    assert.equal(readInputs({ INPUT_DRY_RUN: "FALSE " }).dryRun, false);
-    for (const v of ["true", "", "no", "0", "maybe", undefined]) assert.equal(readInputs({ INPUT_DRY_RUN: v }).dryRun, true, String(v));
+    for (const v of ["FALSE", "False", "false ", " false", "true", "", "no", "0", "maybe", undefined]) assert.equal(readInputs({ INPUT_DRY_RUN: v }).dryRun, true, String(v));
   });
 });

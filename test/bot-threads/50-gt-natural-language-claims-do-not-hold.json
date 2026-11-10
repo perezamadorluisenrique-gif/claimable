@@ -164,7 +164,7 @@
       "created_at": "2026-08-17T18:00:37Z"
     },
     {
-      "id": 9000047,
+      "id": 9000048,
       "user": {
         "login": "newcomer",
         "type": "User"
@@ -176,7 +176,7 @@
   ],
   "event": {
     "kind": "comment",
-    "commentId": 9000047
+    "commentId": 9000048
   },
   "requesterClaims": [],
   "config": {},

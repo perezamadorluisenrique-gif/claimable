@@ -57,7 +57,10 @@ Private repositories run in report-only mode for now: the bot says what it would
 ## Notes
 
 - Comments are read from the event file and the API; the text of a comment never reaches a shell, a path or a command.
-- The `concurrency` block makes two simultaneous `/claim` comments on one issue run one after the other.
+- The `concurrency` block makes simultaneous comments on one issue run one after the other. GitHub keeps only the newest waiting run, so of three comments posted within seconds the middle one may go unanswered; nobody is wrongly assigned, the person just comments again. If a maintainer assigns the issue by hand in the same second as a `/claim`, the issue can end up with two assignees.
+- Only people with triage access or more count as maintainers for `/unclaim`: the bot checks the repository permission, not the organisation membership.
+- If the runner's Node is older than 22.18 the Action runs `actions/setup-node`, which changes Node for the later steps of that job.
+- Only pull requests of the same repository count as competition for an issue.
 - If GitHub refuses a write (no permission, the person cannot be assigned here) the run ends green with a line in the job summary. The bot never fails your workflow.
 - Threads of more than 1,000 comments or events are not read in full, so the bot does nothing on them.
 - It remembers nothing outside the issue: the assignee, the timeline and a hidden marker in its own comment (honoured only when a bot wrote it).

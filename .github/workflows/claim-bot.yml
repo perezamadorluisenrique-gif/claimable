@@ -27,4 +27,6 @@ jobs:
       # The default branch, never the commenter's code: an issue_comment run
       # has write access, so it must not execute anything a stranger wrote.
       - uses: actions/checkout@v5
+        with:
+          persist-credentials: false
       - uses: ./bot

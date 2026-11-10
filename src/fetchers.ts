@@ -62,6 +62,18 @@ export async function getHeldIssues(ref: IssueRef, login: string, label: string)
   return { numbers: items.filter((i) => !i.pull_request && i.number !== ref.number).map((i) => i.number), truncated };
 }
 
+/** A person's role on the repository (admin, maintain, write, triage, read, none), or null when it cannot be read. */
+export async function getPermission(ref: IssueRef, login: string): Promise<string | null> {
+  try {
+    const res = await apiOptional<{ role_name?: string; permission?: string }>(
+      `/repos/${ref.owner}/${ref.repo}/collaborators/${encodeURIComponent(login)}/permission`,
+    );
+    return res?.role_name ?? res?.permission ?? null;
+  } catch {
+    return null;
+  }
+}
+
 /** Recently-closed PRs, used to measure whether review actually happens here. */
 export function getRecentPulls(ref: IssueRef): Promise<GhPull[]> {
   return api<GhPull[]>(

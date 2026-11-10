@@ -1,5 +1,5 @@
 {
-  "name": "claim-custom-quota",
+  "name": "ignore-quoted-command",
   "source": "synthetic",
   "now": "2026-09-15T12:00:00Z",
   "issue": {
@@ -17,43 +17,26 @@
   "timeline": [],
   "comments": [
     {
-      "id": 9000020,
+      "id": 9000033,
       "user": {
         "login": "alice",
         "type": "User"
       },
       "author_association": "NONE",
-      "body": "/claim",
+      "body": "> /claim\n\nBob, are you still on it?",
       "created_at": "2026-09-15T11:59:00Z"
     }
   ],
-  "requesterClaims": [
-    3
-  ],
-  "config": {
-    "maxClaims": 1
-  },
+  "requesterClaims": [],
+  "config": {},
   "expected": [
     {
-      "type": "comment",
-      "mode": "create",
-      "reply": {
-        "kind": "quota",
-        "requester": "alice",
-        "limit": 1,
-        "claims": [
-          3
-        ]
-      },
-      "marker": {
-        "claimant": null,
-        "since": null,
-        "nudgedAt": null
-      }
+      "type": "none",
+      "reason": "no command"
     }
   ],
   "event": {
     "kind": "comment",
-    "commentId": 9000020
+    "commentId": 9000033
   }
 }

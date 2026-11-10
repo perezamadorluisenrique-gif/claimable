@@ -1,5 +1,5 @@
 {
-  "name": "ignore-deleted-account",
+  "name": "ignore-natural-language",
   "source": "synthetic",
   "now": "2026-09-15T12:00:00Z",
   "issue": {
@@ -17,10 +17,13 @@
   "timeline": [],
   "comments": [
     {
-      "id": 9000028,
-      "user": null,
+      "id": 9000032,
+      "user": {
+        "login": "alice",
+        "type": "User"
+      },
       "author_association": "NONE",
-      "body": "/claim",
+      "body": "Can I work on this? I'd love to take it.",
       "created_at": "2026-09-15T11:59:00Z"
     }
   ],
@@ -29,11 +32,11 @@
   "expected": [
     {
       "type": "none",
-      "reason": "the author is a deleted account"
+      "reason": "no command"
     }
   ],
   "event": {
     "kind": "comment",
-    "commentId": 9000028
+    "commentId": 9000032
   }
 }

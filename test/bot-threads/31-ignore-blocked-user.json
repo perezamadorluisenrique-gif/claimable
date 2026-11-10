@@ -1,5 +1,5 @@
 {
-  "name": "unclaim-when-nobody-holds-it",
+  "name": "ignore-blocked-user",
   "source": "synthetic",
   "now": "2026-09-15T12:00:00Z",
   "issue": {
@@ -17,26 +17,30 @@
   "timeline": [],
   "comments": [
     {
-      "id": 9000037,
+      "id": 9000031,
       "user": {
-        "login": "alice",
+        "login": "mallory",
         "type": "User"
       },
       "author_association": "NONE",
-      "body": "/unclaim",
+      "body": "/claim",
       "created_at": "2026-09-15T11:59:00Z"
     }
   ],
   "requesterClaims": [],
-  "config": {},
+  "config": {
+    "blockedUsers": [
+      "Mallory"
+    ]
+  },
   "expected": [
     {
       "type": "none",
-      "reason": "nobody holds this issue"
+      "reason": "the author is on the blocked list"
     }
   ],
   "event": {
     "kind": "comment",
-    "commentId": 9000037
+    "commentId": 9000031
   }
 }

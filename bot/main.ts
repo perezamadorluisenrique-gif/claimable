@@ -21,7 +21,7 @@ import { renderComment } from "../src/bot/messages.ts";
 import { readState } from "../src/bot/state.ts";
 import { DEFAULT_CONFIG } from "../src/bot/types.ts";
 import type { Action, BotComment, BotConfig, BotIssue } from "../src/bot/types.ts";
-import { getAllComments, getAllTimeline, getHeldIssues, getIssue, now } from "../src/fetchers.ts";
+import { getAllComments, getAllTimeline, getHeldIssues, getIssue, getPermission, now } from "../src/fetchers.ts";
 import { configure } from "../src/github.ts";
 import { parseRepo } from "../src/refs.ts";
 import { mdInline } from "../src/report.ts";
@@ -36,8 +36,8 @@ export type BotInputs = {
 };
 
 export function readInputs(env: Env): BotInputs {
-  const raw = (env.INPUT_DRY_RUN ?? "true").trim().toLowerCase();
-  return { token: (env.INPUT_TOKEN ?? "").trim() || null, dryRun: raw !== "false" };
+  // Exactly "false" writes; anything else, a missing value included, only describes.
+  return { token: (env.INPUT_TOKEN ?? "").trim() || null, dryRun: (env.INPUT_DRY_RUN ?? "true") !== "false" };
 }
 
 /** The slice of a GitHub `issue_comment` event the bot reads. */
@@ -107,15 +107,17 @@ export async function handle(eventName: string, payload: Payload, inputs: BotInp
     warnings.push("Private repository: the bot only reports what it would do here.");
   }
 
-  const trigger = toBotComment(payload.comment);
-
   const [issue, comments, timeline] = await Promise.all([getIssue(ref), getAllComments(ref), getAllTimeline(ref)]);
   const all: BotComment[] = (comments.items as RawComment[]).map(toBotComment);
-  if (!all.some((c) => c.id === trigger.id)) all.push(trigger);
 
   let actions: Action[];
+  // The comment is read again from the API, never taken from the event: if it
+  // was edited or deleted before this run started, the bot acts on what is there now.
+  const trigger = all.find((c) => c.id === payload.comment?.id);
   if (comments.truncated || timeline.truncated) {
     actions = [{ type: "none", reason: "the thread is too long to read in full, so the bot does not act" }];
+  } else if (!trigger) {
+    actions = [{ type: "none", reason: "the comment is gone" }];
   } else {
     const botIssue: BotIssue = {
       number: issue.number,
@@ -128,6 +130,12 @@ export async function handle(eventName: string, payload: Payload, inputs: BotInp
       updated_at: issue.updated_at,
       ...(issue.pull_request === undefined ? {} : { pull_request: issue.pull_request }),
     };
+    // "Maintainer" means able to triage this repository: a member of the
+    // organisation, or a read-only collaborator, does not qualify.
+    if (trigger.user && (trigger.author_association === "MEMBER" || trigger.author_association === "COLLABORATOR")) {
+      const role = await getPermission(ref, trigger.user.login);
+      if (!role || !["admin", "maintain", "write", "triage"].includes(role)) trigger.author_association = "NONE";
+    }
     // What the author already holds matters only when they are about to claim.
     const held = trigger.user && /\/claim|\.take|\/assign/i.test(trigger.body ?? "")
       ? await getHeldIssues(ref, trigger.user.login, config.claimedLabel)
@@ -183,7 +191,7 @@ export async function run(env: Env): Promise<number> {
 }
 
 function oneLine(err: unknown): string {
-  return (err instanceof Error ? err.message : String(err)).replace(/\r?\n/g, " ").replace(/%/g, "%25");
+  return (err instanceof Error ? err.message : String(err)).replace(/%/g, "%25").replace(/\r/g, "%0D").replace(/\n/g, "%0A");
 }
 
 function invokedDirectly(): boolean {

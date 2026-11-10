@@ -1,5 +1,5 @@
 {
-  "name": "unclaim-by-someone-who-does-not-hold-it",
+  "name": "status-held-issue",
   "source": "synthetic",
   "now": "2026-09-15T12:00:00Z",
   "issue": {
@@ -53,13 +53,13 @@
       "created_at": "2026-09-10T09:00:30Z"
     },
     {
-      "id": 9000036,
+      "id": 9000041,
       "user": {
         "login": "bob",
         "type": "User"
       },
       "author_association": "NONE",
-      "body": "/unclaim",
+      "body": "/claim status",
       "created_at": "2026-09-15T11:59:00Z"
     }
   ],
@@ -71,9 +71,11 @@
       "mode": "edit",
       "commentId": 2,
       "reply": {
-        "kind": "not-holder",
-        "requester": "bob",
-        "holder": "alice"
+        "kind": "status",
+        "holder": "alice",
+        "since": "2026-09-10",
+        "nudgeOn": "2026-09-17",
+        "releaseOn": "2026-09-24"
       },
       "marker": {
         "claimant": "alice",
@@ -84,6 +86,6 @@
   ],
   "event": {
     "kind": "comment",
-    "commentId": 9000036
+    "commentId": 9000041
   }
 }

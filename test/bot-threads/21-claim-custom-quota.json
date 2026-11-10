@@ -1,11 +1,11 @@
 {
-  "name": "ignore-locked-issue",
+  "name": "claim-custom-quota",
   "source": "synthetic",
   "now": "2026-09-15T12:00:00Z",
   "issue": {
     "number": 7,
     "state": "open",
-    "locked": true,
+    "locked": false,
     "html_url": "https://github.com/acme/widgets/issues/7",
     "title": "Fix typo in README",
     "labels": [
@@ -17,7 +17,7 @@
   "timeline": [],
   "comments": [
     {
-      "id": 9000026,
+      "id": 9000021,
       "user": {
         "login": "alice",
         "type": "User"
@@ -27,16 +27,33 @@
       "created_at": "2026-09-15T11:59:00Z"
     }
   ],
-  "requesterClaims": [],
-  "config": {},
+  "requesterClaims": [
+    3
+  ],
+  "config": {
+    "maxClaims": 1
+  },
   "expected": [
     {
-      "type": "none",
-      "reason": "the issue is locked"
+      "type": "comment",
+      "mode": "create",
+      "reply": {
+        "kind": "quota",
+        "requester": "alice",
+        "limit": 1,
+        "claims": [
+          3
+        ]
+      },
+      "marker": {
+        "claimant": null,
+        "since": null,
+        "nudgedAt": null
+      }
     }
   ],
   "event": {
     "kind": "comment",
-    "commentId": 9000026
+    "commentId": 9000021
   }
 }

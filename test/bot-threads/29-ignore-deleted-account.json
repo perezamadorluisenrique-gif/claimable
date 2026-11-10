@@ -1,5 +1,5 @@
 {
-  "name": "status-free-issue",
+  "name": "ignore-deleted-account",
   "source": "synthetic",
   "now": "2026-09-15T12:00:00Z",
   "issue": {
@@ -17,13 +17,10 @@
   "timeline": [],
   "comments": [
     {
-      "id": 9000039,
-      "user": {
-        "login": "bob",
-        "type": "User"
-      },
+      "id": 9000029,
+      "user": null,
       "author_association": "NONE",
-      "body": "/claim status",
+      "body": "/claim",
       "created_at": "2026-09-15T11:59:00Z"
     }
   ],
@@ -31,24 +28,12 @@
   "config": {},
   "expected": [
     {
-      "type": "comment",
-      "mode": "create",
-      "reply": {
-        "kind": "status",
-        "holder": null,
-        "since": null,
-        "nudgeOn": null,
-        "releaseOn": null
-      },
-      "marker": {
-        "claimant": null,
-        "since": null,
-        "nudgedAt": null
-      }
+      "type": "none",
+      "reason": "the author is a deleted account"
     }
   ],
   "event": {
     "kind": "comment",
-    "commentId": 9000039
+    "commentId": 9000029
   }
 }
