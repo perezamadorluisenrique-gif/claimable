@@ -1,0 +1,208 @@
+{
+ "owner": "jquery",
+ "repo": "jquery",
+ "language": "JavaScript",
+ "stars": 59858,
+ "description": "jQuery JavaScript Library",
+ "visitedAt": "2026-11-10T17:47:07.019Z",
+ "issues": [
+  {
+   "number": 2078,
+   "title": "Setup integration testing infrastructure",
+   "url": "https://github.com/jquery/jquery/issues/2078",
+   "labels": [
+    "Build",
+    "help wanted"
+   ],
+   "updatedAt": "2019-08-21T05:58:48Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "already assigned to @markelog",
+   "evidence": [
+    "https://github.com/jquery/jquery/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/jquery/jquery/issues/2078",
+    "https://github.com/jquery/jquery/issues/2078#issuecomment-437332968"
+   ]
+  },
+  {
+   "number": 2152,
+   "title": "Run the Promises/A+ test suite in real browsers",
+   "url": "https://github.com/jquery/jquery/issues/2152",
+   "labels": [
+    "Deferred",
+    "help wanted"
+   ],
+   "updatedAt": "2019-03-04T19:52:58Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "already assigned to @mgol",
+   "evidence": [
+    "https://github.com/jquery/jquery/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/jquery/jquery/issues/2152"
+   ]
+  },
+  {
+   "number": 2255,
+   "title": "Rearrange animation options logic",
+   "url": "https://github.com/jquery/jquery/issues/2255",
+   "labels": [
+    "Effects",
+    "help wanted"
+   ],
+   "updatedAt": "2016-01-15T19:05:44Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/jquery/jquery/wiki/API-design-guidelines) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/jquery/jquery/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/jquery/jquery/issues/2255",
+    "https://github.com/jquery/jquery/wiki/API-design-guidelines",
+    "https://github.com/jquery/jquery/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2636,
+   "title": "Add tests for contextmenu event",
+   "url": "https://github.com/jquery/jquery/issues/2636",
+   "labels": [
+    "Event",
+    "help wanted"
+   ],
+   "updatedAt": "2016-05-11T22:40:14Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/jquery/jquery/wiki/API-design-guidelines) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/jquery/jquery/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/jquery/jquery/issues/2636",
+    "https://github.com/jquery/jquery/wiki/API-design-guidelines",
+    "https://github.com/jquery/jquery/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2700,
+   "title": "Add CSS tests for setting negative padding and borderWidth",
+   "url": "https://github.com/jquery/jquery/issues/2700",
+   "labels": [
+    "CSS",
+    "Tests",
+    "help wanted"
+   ],
+   "updatedAt": "2016-01-20T15:00:32Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/jquery/jquery/wiki/API-design-guidelines) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/jquery/jquery/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/jquery/jquery/issues/2700",
+    "https://github.com/jquery/jquery/wiki/API-design-guidelines",
+    "https://github.com/jquery/jquery/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 3488,
+   "title": "Improve .offset(...) setter testing",
+   "url": "https://github.com/jquery/jquery/issues/3488",
+   "labels": [
+    "Offset",
+    "help wanted"
+   ],
+   "updatedAt": "2017-12-12T08:19:43Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #5911 by @mdalikadar is already open against this issue",
+   "evidence": [
+    "https://github.com/jquery/jquery/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/jquery/jquery/pull/5911",
+    "https://github.com/jquery/jquery/pull/3487"
+   ]
+  },
+  {
+   "number": 3607,
+   "title": "Standardize DOM node type checking",
+   "url": "https://github.com/jquery/jquery/issues/3607",
+   "labels": [
+    "Core",
+    "help wanted"
+   ],
+   "updatedAt": "2017-12-12T08:16:46Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #137 by @snyk-bot is already open against this issue",
+   "evidence": [
+    "https://github.com/jquery/jquery/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/turkdevops/jquery/pull/137"
+   ]
+  },
+  {
+   "number": 3822,
+   "title": "offset() can be inaccurate when pinch-zoomed",
+   "url": "https://github.com/jquery/jquery/issues/3822",
+   "labels": [
+    "Offset",
+    "help wanted"
+   ],
+   "updatedAt": "2018-09-24T16:32:23Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #5561 by @mgol is already open against this issue",
+   "evidence": [
+    "https://github.com/jquery/jquery/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/jquery/jquery/issues/5561"
+   ]
+  },
+  {
+   "number": 3877,
+   "title": "delegated Mouse Event targeted on SVG `<use>` element are not caught",
+   "url": "https://github.com/jquery/jquery/issues/3877",
+   "labels": [
+    "Event",
+    "help wanted"
+   ],
+   "updatedAt": "2018-10-11T03:24:43Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "already assigned to @dmethvin",
+   "evidence": [
+    "https://github.com/jquery/jquery/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/jquery/jquery/issues/3877"
+   ]
+  },
+  {
+   "number": 4317,
+   "title": "Is not possible to listen events on ShadowRoot",
+   "url": "https://github.com/jquery/jquery/issues/4317",
+   "labels": [
+    "Event",
+    "help wanted"
+   ],
+   "updatedAt": "2026-07-21T05:51:52Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "already assigned to @dmethvin",
+   "evidence": [
+    "https://github.com/jquery/jquery/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/geonetwork/core-geonetwork/pull/6516",
+    "https://github.com/jquery/jquery/issues/4317"
+   ]
+  },
+  {
+   "number": 4968,
+   "title": "animate() in Chrome triggers hundreds of HTTP requests",
+   "url": "https://github.com/jquery/jquery/issues/4968",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-10-12T03:20:07Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/jquery/jquery/wiki/API-design-guidelines) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/jquery/jquery/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/jquery/jquery/issues/4968",
+    "https://github.com/jquery/jquery/wiki/API-design-guidelines",
+    "https://github.com/jquery/jquery/blob/HEAD/CONTRIBUTING.md"
+   ]
+  }
+ ]
+}

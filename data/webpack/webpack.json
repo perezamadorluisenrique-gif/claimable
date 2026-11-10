@@ -1,0 +1,201 @@
+{
+ "owner": "webpack",
+ "repo": "webpack",
+ "language": "JavaScript",
+ "stars": 65998,
+ "description": "A bundler for javascript and friends. Packs many modules into a few bundled assets. Code Splitting allows for loading parts of the application on demand. Through \"loaders\", modules can be CommonJs, AM",
+ "visitedAt": "2026-11-10T17:47:07.019Z",
+ "issues": [
+  {
+   "number": 7753,
+   "title": "Allow for multiple Performance Budgets",
+   "url": "https://github.com/webpack/webpack/issues/7753",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-10-22T18:11:08Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #7769 by @Zeracy is already open against this issue",
+   "evidence": [
+    "https://github.com/webpack/webpack/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/webpack/webpack/pull/7769"
+   ]
+  },
+  {
+   "number": 8429,
+   "title": "[wasm] emit producer section",
+   "url": "https://github.com/webpack/webpack/issues/8429",
+   "labels": [
+    "help wanted",
+    "area: wasm"
+   ],
+   "updatedAt": "2026-09-02T01:08:07Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "reservations",
+   "reason": "PR #94 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+3 more)",
+   "evidence": [
+    "https://github.com/webpack/webpack/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/WebAssembly/tool-conventions/pull/94",
+    "https://github.com/webpack/webpack/issues/8429#issuecomment-5502801905",
+    "https://github.com/webpack/webpack/issues/8429",
+    "https://docs.github.com/en/code-security/dependabot/dependabot-security-updates/about-dependabot-security-updates#about-compatibility-scores",
+    "https://github.com/webpack/webpack/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/webpack/webpack/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 14058,
+   "title": "Circular hash dependency for hashed folder names",
+   "url": "https://github.com/webpack/webpack/issues/14058",
+   "labels": [
+    "status: stale",
+    "webpack-5",
+    "help wanted"
+   ],
+   "updatedAt": "2026-09-18T22:16:59Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #19110 by @ahabhgk is already open against this issue",
+   "evidence": [
+    "https://github.com/webpack/webpack/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/webpack/webpack/pull/19110",
+    "https://github.com/cardano-foundation/cardano-org/pull/854"
+   ]
+  },
+  {
+   "number": 14386,
+   "title": "Webpack-native parallelism to obviate the need for the (unmaintained?) parallel-webpack package",
+   "url": "https://github.com/webpack/webpack/issues/14386",
+   "labels": [
+    "help wanted",
+    "webpack-6"
+   ],
+   "updatedAt": "2026-09-06T11:42:36Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "reservations",
+   "reason": "PR #5529 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+4 more)",
+   "evidence": [
+    "https://github.com/webpack/webpack/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/webpack/webpack.js.org/pull/5529",
+    "https://github.com/WikiEducationFoundation/WikiEduDashboard/pull/4982",
+    "https://github.com/webpack/webpack/issues/14386#issuecomment-5502791858",
+    "https://github.com/webpack/webpack/issues/14386",
+    "https://docs.github.com/en/code-security/dependabot/dependabot-security-updates/about-dependabot-security-updates#about-compatibility-scores",
+    "https://github.com/webpack/webpack/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/webpack/webpack/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 14722,
+   "title": "HMR is not working for web workers",
+   "url": "https://github.com/webpack/webpack/issues/14722",
+   "labels": [
+    "status: stale",
+    "webpack-5",
+    "help wanted"
+   ],
+   "updatedAt": "2026-09-02T01:07:09Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #21276 by @bjohansebas is already open against this issue",
+   "evidence": [
+    "https://github.com/webpack/webpack/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/webpack/webpack/pull/21276",
+    "https://github.com/webpack/webpack/pull/15859"
+   ]
+  },
+  {
+   "number": 17512,
+   "title": "Unable to set target for Web Workers",
+   "url": "https://github.com/webpack/webpack/issues/17512",
+   "labels": [
+    "status: stale",
+    "help wanted"
+   ],
+   "updatedAt": "2026-08-09T16:24:14Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #19891 by @alexander-akait is already open against this issue",
+   "evidence": [
+    "https://github.com/webpack/webpack/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/webpack/webpack/pull/19891"
+   ]
+  },
+  {
+   "number": 18809,
+   "title": "Backmerging Module Federation v2",
+   "url": "https://github.com/webpack/webpack/issues/18809",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-09-02T01:07:27Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @LeonxLJX 70 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/webpack/webpack/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/webpack/webpack/issues/18809",
+    "https://github.com/webpack/webpack/issues/18809#issuecomment-5502796694",
+    "https://docs.github.com/en/code-security/dependabot/dependabot-security-updates/about-dependabot-security-updates#about-compatibility-scores",
+    "https://github.com/webpack/webpack/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/webpack/webpack/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 18812,
+   "title": "Remove Need for Async Import in Module Federation ",
+   "url": "https://github.com/webpack/webpack/issues/18812",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-09-02T01:07:39Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #18942 by @Neerajpathak07 is already open against this issue",
+   "evidence": [
+    "https://github.com/webpack/webpack/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/webpack/webpack/pull/18942",
+    "https://github.com/webpack/webpack/pull/19018",
+    "https://github.com/webpack/webpack/pull/18859"
+   ]
+  },
+  {
+   "number": 18988,
+   "title": "Module Federation Share should support layers/issuerLayer ",
+   "url": "https://github.com/webpack/webpack/issues/18988",
+   "labels": [
+    "status: stale",
+    "help wanted"
+   ],
+   "updatedAt": "2026-09-02T01:06:29Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "reservations",
+   "reason": "labelled `status: stale` — scope may not be settled yet (+3 more)",
+   "evidence": [
+    "https://github.com/webpack/webpack/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/webpack/webpack/issues/18988",
+    "https://github.com/webpack/webpack/issues/18988#issuecomment-5502789099",
+    "https://docs.github.com/en/code-security/dependabot/dependabot-security-updates/about-dependabot-security-updates#about-compatibility-scores",
+    "https://github.com/webpack/webpack/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/webpack/webpack/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 19359,
+   "title": "Asset module binary files are stored in webpack cache",
+   "url": "https://github.com/webpack/webpack/issues/19359",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-09-02T02:19:14Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #21237 by @hai-x is already open against this issue",
+   "evidence": [
+    "https://github.com/webpack/webpack/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/webpack/webpack/pull/21237"
+   ]
+  }
+ ]
+}

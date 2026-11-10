@@ -1,0 +1,102 @@
+{
+ "react/react": {
+  "nextCheck": "2026-11-17T17:47:07.019Z",
+  "lastNewIssue": "2019-11-13T16:35:19Z"
+ },
+ "vercel/next.js": {
+  "nextCheck": "2026-11-17T17:47:07.019Z",
+  "lastNewIssue": "2023-08-02T08:37:06Z"
+ },
+ "nodejs/node": {
+  "nextCheck": "2026-11-17T17:47:07.019Z",
+  "lastNewIssue": "2026-09-27T11:17:23Z"
+ },
+ "addyosmani/agent-skills": {
+  "nextCheck": "2026-11-17T17:47:07.019Z",
+  "lastNewIssue": "2026-08-28T23:03:12Z"
+ },
+ "louislam/uptime-kuma": {
+  "nextCheck": "2026-11-17T17:47:07.019Z",
+  "lastNewIssue": "2026-04-04T08:40:26Z"
+ },
+ "anuraghazra/github-readme-stats": {
+  "nextCheck": "2026-11-17T17:47:07.019Z",
+  "lastNewIssue": "2022-09-25T10:07:03Z"
+ },
+ "juliangarnier/anime": {
+  "nextCheck": "2026-11-17T17:47:07.019Z",
+  "lastNewIssue": "2025-07-17T02:23:43Z"
+ },
+ "expressjs/express": {
+  "nextCheck": "2026-11-17T17:47:07.019Z",
+  "lastNewIssue": "2014-10-26T22:13:29Z"
+ },
+ "chartjs/chart.js": {
+  "nextCheck": "2026-11-17T17:47:07.019Z",
+  "lastNewIssue": "2017-11-30T01:56:27Z"
+ },
+ "webpack/webpack": {
+  "nextCheck": "2026-11-17T17:47:07.019Z",
+  "lastNewIssue": "2025-03-25T09:06:26Z"
+ },
+ "bilawalsidhu/gods-eye-view": {
+  "nextCheck": "2026-11-17T17:47:07.019Z",
+  "lastNewIssue": "2026-09-24T02:43:47Z"
+ },
+ "jquery/jquery": {
+  "nextCheck": "2026-11-17T17:47:07.019Z",
+  "lastNewIssue": "2021-11-09T18:19:46Z"
+ },
+ "gatsbyjs/gatsby": {
+  "nextCheck": "2026-11-17T17:47:07.019Z",
+  "lastNewIssue": "2023-03-02T09:13:50Z"
+ },
+ "poteto/hiring-without-whiteboards": {
+  "nextCheck": "2026-11-17T17:47:07.019Z",
+  "lastNewIssue": null
+ },
+ "prettier/prettier": {
+  "nextCheck": "2026-11-13T17:47:07.019Z",
+  "lastNewIssue": "2026-11-03T06:40:13Z"
+ },
+ "openclaw/openclaw": {
+  "nextCheck": "2026-11-17T17:47:07.019Z",
+  "lastNewIssue": "2026-09-24T03:42:57Z"
+ },
+ "firecrawl/firecrawl": {
+  "nextCheck": "2026-11-17T17:47:07.019Z",
+  "lastNewIssue": "2024-10-28T21:01:44Z"
+ },
+ "microsoft/vscode": {
+  "nextCheck": "2026-11-17T17:47:07.019Z",
+  "lastNewIssue": "2026-02-03T14:34:42Z"
+ },
+ "excalidraw/excalidraw": {
+  "nextCheck": "2026-11-17T17:47:07.019Z",
+  "lastNewIssue": "2025-08-18T17:40:17Z"
+ },
+ "stablyai/orca": {
+  "nextCheck": "2026-11-17T17:47:07.019Z",
+  "lastNewIssue": "2026-09-27T06:15:04Z"
+ },
+ "immich-app/immich": {
+  "nextCheck": "2026-11-17T17:47:07.019Z",
+  "lastNewIssue": "2026-06-04T13:42:10Z"
+ },
+ "supabase/supabase": {
+  "nextCheck": "2026-11-17T17:47:07.019Z",
+  "lastNewIssue": "2024-12-09T03:56:37Z"
+ },
+ "google-gemini/gemini-cli": {
+  "nextCheck": "2026-11-13T17:47:07.019Z",
+  "lastNewIssue": "2026-10-25T23:31:22Z"
+ },
+ "nexu-io/open-design": {
+  "nextCheck": "2026-11-10T18:47:07.019Z",
+  "lastNewIssue": "2026-11-09T02:47:21Z"
+ },
+ "ant-design/ant-design": {
+  "nextCheck": "2026-11-10T18:47:07.019Z",
+  "lastNewIssue": "2026-08-12T16:38:43Z"
+ }
+}

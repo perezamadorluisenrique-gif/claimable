@@ -1,0 +1,854 @@
+{
+ "owner": "prettier",
+ "repo": "prettier",
+ "language": "JavaScript",
+ "stars": 52411,
+ "description": "Prettier is an opinionated code formatter.",
+ "visitedAt": "2026-11-10T17:47:07.019Z",
+ "issues": [
+  {
+   "number": 265,
+   "title": "Wrap comments",
+   "url": "https://github.com/prettier/prettier/issues/265",
+   "labels": [
+    "help wanted",
+    "area:comments"
+   ],
+   "updatedAt": "2025-03-23T05:10:02Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "reservations",
+   "reason": "PR #99 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+5 more)",
+   "evidence": [
+    "https://github.com/prettier/prettier/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/amilajack/freesound-client/pull/99",
+    "https://github.com/latticexyz/mud/pull/1734",
+    "https://github.com/RaspberryPiFoundation/blockly/pull/7639",
+    "https://github.com/scaffold-eth/scaffold-eth-2/pull/668",
+    "https://github.com/prettier/prettier/issues/265#issuecomment-279360106",
+    "https://github.com/prettier/prettier/issues/265",
+    "https://github.com/prettier/prettier/wiki/Issue-Labels",
+    "https://github.com/prettier/prettier/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 1872,
+   "title": "Styled-components template strings formatting",
+   "url": "https://github.com/prettier/prettier/issues/1872",
+   "labels": [
+    "help wanted",
+    "lang:css/scss/less",
+    "area:multiparser",
+    "area:binary expressions"
+   ],
+   "updatedAt": "2022-09-07T10:29:58Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/prettier/prettier/wiki/Issue-Labels) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/prettier/prettier/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prettier/prettier/issues/1872",
+    "https://github.com/prettier/prettier/wiki/Issue-Labels",
+    "https://github.com/prettier/prettier/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2548,
+   "title": "Long chaining property?",
+   "url": "https://github.com/prettier/prettier/issues/2548",
+   "labels": [
+    "help wanted",
+    "lang:javascript",
+    "area:member chains"
+   ],
+   "updatedAt": "2025-03-03T17:18:56Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #8063 by @thorn0 is already open against this issue",
+   "evidence": [
+    "https://github.com/prettier/prettier/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prettier/prettier/pull/8063"
+   ]
+  },
+  {
+   "number": 2803,
+   "title": "Idempotency / Unstable method chain",
+   "url": "https://github.com/prettier/prettier/issues/2803",
+   "labels": [
+    "help wanted",
+    "lang:javascript",
+    "area:idempotency",
+    "area:object literals",
+    "area:member chains"
+   ],
+   "updatedAt": "2025-03-03T17:20:19Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "reservations",
+   "reason": "PR #15522 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/prettier/prettier/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prettier/prettier/pull/15522",
+    "https://github.com/prettier/prettier/issues/2803",
+    "https://github.com/prettier/prettier/wiki/Issue-Labels",
+    "https://github.com/prettier/prettier/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2918,
+   "title": "Find an open-source \"real world\" React app and add it to our snapshots",
+   "url": "https://github.com/prettier/prettier/issues/2918",
+   "labels": [
+    "help wanted",
+    "type:tests"
+   ],
+   "updatedAt": "2017-10-01T20:01:54Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "reservations",
+   "reason": "PR #2958 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/prettier/prettier/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prettier/prettier/pull/2958",
+    "https://github.com/prettier/prettier/issues/2918",
+    "https://github.com/prettier/prettier/wiki/Issue-Labels",
+    "https://github.com/prettier/prettier/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 4100,
+   "title": "Create a plugin-example project that people could fork in order to add more plugins",
+   "url": "https://github.com/prettier/prettier/issues/4100",
+   "labels": [
+    "help wanted",
+    "type:meta"
+   ],
+   "updatedAt": "2020-12-12T21:09:22Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/prettier/prettier/wiki/Issue-Labels) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/prettier/prettier/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prettier/prettier/issues/4100",
+    "https://github.com/prettier/prettier/wiki/Issue-Labels",
+    "https://github.com/prettier/prettier/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 4737,
+   "title": "Better CSS-in-JS nesting formatting?",
+   "url": "https://github.com/prettier/prettier/issues/4737",
+   "labels": [
+    "help wanted",
+    "lang:css/scss/less",
+    "area:multiparser"
+   ],
+   "updatedAt": "2019-08-07T21:40:38Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #8156 by @norayr93 is already open against this issue",
+   "evidence": [
+    "https://github.com/prettier/prettier/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prettier/prettier/issues/8156"
+   ]
+  },
+  {
+   "number": 4776,
+   "title": "Performance on big files",
+   "url": "https://github.com/prettier/prettier/issues/4776",
+   "labels": [
+    "help wanted",
+    "type:perf"
+   ],
+   "updatedAt": "2024-08-24T17:22:34Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "reservations",
+   "reason": "PR #4789 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+7 more)",
+   "evidence": [
+    "https://github.com/prettier/prettier/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prettier/prettier/pull/4789",
+    "https://github.com/prettier/prettier/pull/4790",
+    "https://github.com/prettier/prettier/pull/4772",
+    "https://github.com/aws-samples/aws-secure-environment-accelerator/pull/475",
+    "https://github.com/prettier/prettier/pull/11108",
+    "https://github.com/prettier/prettier/pull/11696",
+    "https://github.com/prettier/prettier/issues/4776#issuecomment-401899981",
+    "https://github.com/prettier/prettier/issues/4776",
+    "https://github.com/prettier/prettier/wiki/Issue-Labels"
+   ]
+  },
+  {
+   "number": 4796,
+   "title": "iOS Compatibility - Disable CodeMirror for Playground",
+   "url": "https://github.com/prettier/prettier/issues/4796",
+   "labels": [
+    "help wanted",
+    "area:playground"
+   ],
+   "updatedAt": "2025-03-03T19:53:10Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/prettier/prettier/wiki/Issue-Labels) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/prettier/prettier/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prettier/prettier/issues/4796",
+    "https://github.com/prettier/prettier/wiki/Issue-Labels",
+    "https://github.com/prettier/prettier/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 4851,
+   "title": "Save options for Prettier Playground?",
+   "url": "https://github.com/prettier/prettier/issues/4851",
+   "labels": [
+    "help wanted",
+    "area:playground"
+   ],
+   "updatedAt": "2025-03-03T19:53:10Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/prettier/prettier/wiki/Issue-Labels) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/prettier/prettier/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prettier/prettier/issues/4851",
+    "https://github.com/prettier/prettier/wiki/Issue-Labels",
+    "https://github.com/prettier/prettier/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 5249,
+   "title": "Compact arguments with object literal",
+   "url": "https://github.com/prettier/prettier/issues/5249",
+   "labels": [
+    "help wanted",
+    "lang:javascript",
+    "area:function calls"
+   ],
+   "updatedAt": "2025-03-03T17:19:47Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "reservations",
+   "reason": "PR #16163 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/prettier/prettier/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prettier/prettier/pull/16163",
+    "https://github.com/prettier/prettier/issues/5249",
+    "https://github.com/prettier/prettier/wiki/Issue-Labels",
+    "https://github.com/prettier/prettier/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 5287,
+   "title": "Support prettier-ignore-start/end for other languages (not only Markdown)",
+   "url": "https://github.com/prettier/prettier/issues/5287",
+   "labels": [
+    "help wanted",
+    "area:ignore"
+   ],
+   "updatedAt": "2026-09-19T18:45:32Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #8926 by @chaitan94 is already open against this issue",
+   "evidence": [
+    "https://github.com/prettier/prettier/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prettier/prettier/pull/8926"
+   ]
+  },
+  {
+   "number": 5299,
+   "title": "Indentation level affects Pure Unordered list mark `-` with 3 extra space after `-`",
+   "url": "https://github.com/prettier/prettier/issues/5299",
+   "labels": [
+    "help wanted",
+    "lang:markdown"
+   ],
+   "updatedAt": "2025-03-03T17:20:21Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #5306 by @tbatsenko is already open against this issue",
+   "evidence": [
+    "https://github.com/prettier/prettier/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prettier/prettier/pull/5306"
+   ]
+  },
+  {
+   "number": 5399,
+   "title": "Suboptimal line break with function chaining in typescript when using generics",
+   "url": "https://github.com/prettier/prettier/issues/5399",
+   "labels": [
+    "help wanted",
+    "lang:typescript",
+    "area:member chains"
+   ],
+   "updatedAt": "2025-03-03T17:21:38Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #19642 by @iamdhrv is already open against this issue",
+   "evidence": [
+    "https://github.com/prettier/prettier/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prettier/prettier/pull/19642"
+   ]
+  },
+  {
+   "number": 5508,
+   "title": "Range Ignore Support in HTML",
+   "url": "https://github.com/prettier/prettier/issues/5508",
+   "labels": [
+    "help wanted",
+    "lang:html",
+    "area:ranges",
+    "area:ignore"
+   ],
+   "updatedAt": "2025-03-03T20:01:08Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #6693 by @voithos is already open against this issue",
+   "evidence": [
+    "https://github.com/prettier/prettier/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prettier/prettier/pull/6693"
+   ]
+  },
+  {
+   "number": 5682,
+   "title": "Improve formatting of ternaries in binary expressions",
+   "url": "https://github.com/prettier/prettier/issues/5682",
+   "labels": [
+    "help wanted",
+    "lang:javascript"
+   ],
+   "updatedAt": "2025-03-03T17:18:59Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #20376 by @johnhldiver-beep is already open against this issue",
+   "evidence": [
+    "https://github.com/prettier/prettier/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prettier/prettier/pull/20376",
+    "https://github.com/prettier/prettier/pull/5902"
+   ]
+  },
+  {
+   "number": 5807,
+   "title": "Allow jest inline snapshots to update without affecting the whole file",
+   "url": "https://github.com/prettier/prettier/issues/5807",
+   "labels": [
+    "help wanted",
+    "area:ranges"
+   ],
+   "updatedAt": "2022-03-31T20:45:07Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "reservations",
+   "reason": "PR #7792 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/prettier/prettier/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/jestjs/jest/pull/7792",
+    "https://github.com/GoogleChrome/lighthouse/pull/11174",
+    "https://github.com/prettier/prettier/issues/5807",
+    "https://github.com/prettier/prettier/wiki/Issue-Labels",
+    "https://github.com/prettier/prettier/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 6003,
+   "title": "Prettier should support formatting multiple ranges in a single file",
+   "url": "https://github.com/prettier/prettier/issues/6003",
+   "labels": [
+    "help wanted",
+    "area:cli",
+    "area:api",
+    "area:ranges"
+   ],
+   "updatedAt": "2025-03-03T19:53:48Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/prettier/prettier/wiki/Issue-Labels) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/prettier/prettier/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prettier/prettier/issues/6003",
+    "https://github.com/prettier/prettier/wiki/Issue-Labels",
+    "https://github.com/prettier/prettier/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 6047,
+   "title": "Leading newlines over line comments in JSX props are removed",
+   "url": "https://github.com/prettier/prettier/issues/6047",
+   "labels": [
+    "help wanted",
+    "lang:jsx"
+   ],
+   "updatedAt": "2025-03-03T19:57:48Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #6643 by @ericsakmar is already open against this issue",
+   "evidence": [
+    "https://github.com/prettier/prettier/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prettier/prettier/pull/6643"
+   ]
+  },
+  {
+   "number": 6142,
+   "title": "Paste config into playground",
+   "url": "https://github.com/prettier/prettier/issues/6142",
+   "labels": [
+    "help wanted",
+    "area:playground"
+   ],
+   "updatedAt": "2025-03-03T19:53:49Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @ad1992 2730 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/prettier/prettier/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prettier/prettier/issues/6142#issuecomment-494657427",
+    "https://github.com/prettier/prettier/issues/6142",
+    "https://github.com/prettier/prettier/wiki/Issue-Labels",
+    "https://github.com/prettier/prettier/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 6745,
+   "title": "Markdown support in GraphQL Block Strings",
+   "url": "https://github.com/prettier/prettier/issues/6745",
+   "labels": [
+    "help wanted",
+    "lang:graphql"
+   ],
+   "updatedAt": "2019-10-29T18:25:00Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #20369 by @dagemawinegash is already open against this issue",
+   "evidence": [
+    "https://github.com/prettier/prettier/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prettier/prettier/pull/20369",
+    "https://github.com/prettier/prettier/pull/12608"
+   ]
+  },
+  {
+   "number": 8640,
+   "title": "Support markdown callouts/admonitions",
+   "url": "https://github.com/prettier/prettier/issues/8640",
+   "labels": [
+    "help wanted",
+    "lang:markdown"
+   ],
+   "updatedAt": "2026-07-17T02:05:04Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "reservations",
+   "reason": "PR #11597 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+4 more)",
+   "evidence": [
+    "https://github.com/prettier/prettier/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prettier/prettier/pull/11597",
+    "https://github.com/babel/website/pull/2731",
+    "https://github.com/go-task/task/pull/2359",
+    "https://github.com/prettier/prettier/issues/8640#issuecomment-4998251017",
+    "https://github.com/prettier/prettier/issues/8640",
+    "https://github.com/prettier/prettier/wiki/Issue-Labels",
+    "https://github.com/prettier/prettier/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 8763,
+   "title": "Offline support for Playground",
+   "url": "https://github.com/prettier/prettier/issues/8763",
+   "labels": [
+    "help wanted",
+    "area:playground"
+   ],
+   "updatedAt": "2025-03-03T19:54:27Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "already assigned to @DanBeckDev",
+   "evidence": [
+    "https://github.com/prettier/prettier/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prettier/prettier/pull/13851",
+    "https://github.com/prettier/prettier/issues/8763",
+    "https://github.com/prettier/prettier/issues/8763#issuecomment-660335830"
+   ]
+  },
+  {
+   "number": 9112,
+   "title": "Unstable formatting of GraphQL comments at end of argument list",
+   "url": "https://github.com/prettier/prettier/issues/9112",
+   "labels": [
+    "help wanted",
+    "area:comments",
+    "lang:graphql",
+    "area:idempotency"
+   ],
+   "updatedAt": "2025-03-03T17:21:40Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #14838 by @nishtahir is already open against this issue",
+   "evidence": [
+    "https://github.com/prettier/prettier/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prettier/prettier/pull/14838"
+   ]
+  },
+  {
+   "number": 10518,
+   "title": "YAML: a comment after an anchor doesn't stay on a separate line",
+   "url": "https://github.com/prettier/prettier/issues/10518",
+   "labels": [
+    "help wanted",
+    "lang:yaml"
+   ],
+   "updatedAt": "2026-06-20T20:44:44Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #11395 by @wafuwafu13 is already open against this issue",
+   "evidence": [
+    "https://github.com/prettier/prettier/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prettier/prettier/pull/11395",
+    "https://github.com/prettier/prettier/pull/19608"
+   ]
+  },
+  {
+   "number": 12174,
+   "title": "Move CLI related logic from `normalizeOptions` into `src/cli`",
+   "url": "https://github.com/prettier/prettier/issues/12174",
+   "labels": [
+    "help wanted",
+    "type:refactor"
+   ],
+   "updatedAt": "2026-10-07T17:11:28Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #20123 by @saitakarcesme is already open against this issue",
+   "evidence": [
+    "https://github.com/prettier/prettier/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prettier/prettier/pull/20123",
+    "https://github.com/prettier/prettier/pull/13547"
+   ]
+  },
+  {
+   "number": 13271,
+   "title": "stdin without pipe",
+   "url": "https://github.com/prettier/prettier/issues/13271",
+   "labels": [
+    "help wanted",
+    "area:cli"
+   ],
+   "updatedAt": "2025-03-03T19:56:23Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #13428 by @kkyusufk is already open against this issue",
+   "evidence": [
+    "https://github.com/prettier/prettier/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prettier/prettier/pull/13428",
+    "https://github.com/visitscotland/vs-component-library/pull/912",
+    "https://github.com/KooshaPari/zz-aa-dep-AirLock/pull/2"
+   ]
+  },
+  {
+   "number": 13354,
+   "title": "--range-{start,end} is ignored for --config-precedence=prefer-file",
+   "url": "https://github.com/prettier/prettier/issues/13354",
+   "labels": [
+    "help wanted",
+    "type:editor support",
+    "area:cli",
+    "area:ranges"
+   ],
+   "updatedAt": "2025-03-03T19:56:24Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #19241 by @xfocus3 is already open against this issue",
+   "evidence": [
+    "https://github.com/prettier/prettier/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prettier/prettier/pull/19241",
+    "https://github.com/MunifTanjim/prettier.nvim/pull/14"
+   ]
+  },
+  {
+   "number": 15255,
+   "title": "Correct documentation on the `editorconfig` option.",
+   "url": "https://github.com/prettier/prettier/issues/15255",
+   "labels": [
+    "help wanted",
+    "type:docs"
+   ],
+   "updatedAt": "2025-08-22T16:15:29Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #19866 by @MHJahanbakhsh is already open against this issue",
+   "evidence": [
+    "https://github.com/prettier/prettier/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prettier/prettier/pull/19866",
+    "https://github.com/prettier/prettier/pull/16335",
+    "https://github.com/biomejs/biome/pull/3246"
+   ]
+  },
+  {
+   "number": 15700,
+   "title": "Passing in an ignored file should emit a warning",
+   "url": "https://github.com/prettier/prettier/issues/15700",
+   "labels": [
+    "help wanted",
+    "area:cli"
+   ],
+   "updatedAt": "2023-12-27T06:39:02Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #19305 by @pentaoa is already open against this issue",
+   "evidence": [
+    "https://github.com/prettier/prettier/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prettier/prettier/pull/19305",
+    "https://github.com/prettier/prettier/pull/19566",
+    "https://github.com/BetterDB-inc/monitor/pull/454"
+   ]
+  },
+  {
+   "number": 16080,
+   "title": "Typescript regression in handling functions with generic types and method chaingin in 3.2.0 compared to 3.1.0",
+   "url": "https://github.com/prettier/prettier/issues/16080",
+   "labels": [
+    "help wanted",
+    "status:needs investigation"
+   ],
+   "updatedAt": "2026-10-10T09:31:32Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/prettier/prettier/wiki/Issue-Labels) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/prettier/prettier/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prettier/prettier/issues/16080",
+    "https://github.com/prettier/prettier/wiki/Issue-Labels",
+    "https://github.com/prettier/prettier/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 16115,
+   "title": "ENAMETOOLONG error when running prettier ",
+   "url": "https://github.com/prettier/prettier/issues/16115",
+   "labels": [
+    "help wanted",
+    "area:cli"
+   ],
+   "updatedAt": "2026-03-19T00:02:28Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #16233 by @jsoref is already open against this issue",
+   "evidence": [
+    "https://github.com/prettier/prettier/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prettier/prettier/pull/16233"
+   ]
+  },
+  {
+   "number": 16531,
+   "title": " Format: Maximum call stack size exceeded",
+   "url": "https://github.com/prettier/prettier/issues/16531",
+   "labels": [
+    "help wanted",
+    "type:perf"
+   ],
+   "updatedAt": "2025-03-03T17:29:18Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/prettier/prettier/wiki/Issue-Labels) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/prettier/prettier/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prettier/prettier/issues/16531",
+    "https://github.com/prettier/prettier/wiki/Issue-Labels",
+    "https://github.com/prettier/prettier/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 16577,
+   "title": "Angular control flow should respect `--html-whitespace-sensitivity strict`",
+   "url": "https://github.com/prettier/prettier/issues/16577",
+   "labels": [
+    "help wanted",
+    "lang:angular"
+   ],
+   "updatedAt": "2025-10-18T21:24:48Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #16591 by @sosukesuzuki is already open against this issue",
+   "evidence": [
+    "https://github.com/prettier/prettier/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prettier/prettier/pull/16591",
+    "https://github.com/prettier/prettier/pull/19020"
+   ]
+  },
+  {
+   "number": 17260,
+   "title": "Cache invalidation on plugin upgrade with optional metadata",
+   "url": "https://github.com/prettier/prettier/issues/17260",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2025-08-23T12:44:35Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #17808 by @nvrakesh06 is already open against this issue",
+   "evidence": [
+    "https://github.com/prettier/prettier/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prettier/prettier/pull/17808",
+    "https://github.com/PrairieLearn/PrairieLearn/pull/11544"
+   ]
+  },
+  {
+   "number": 18066,
+   "title": "HTML comments in markdown get endlessly indented",
+   "url": "https://github.com/prettier/prettier/issues/18066",
+   "labels": [
+    "help wanted",
+    "lang:markdown"
+   ],
+   "updatedAt": "2025-12-26T00:43:08Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #18420 by @Adarsh-code169 is already open against this issue",
+   "evidence": [
+    "https://github.com/prettier/prettier/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prettier/prettier/pull/18420",
+    "https://github.com/prettier/prettier/pull/18883"
+   ]
+  },
+  {
+   "number": 19427,
+   "title": "SCSS: inline comment before nested function adds extra indent",
+   "url": "https://github.com/prettier/prettier/issues/19427",
+   "labels": [
+    "help wanted",
+    "lang:css/scss/less"
+   ],
+   "updatedAt": "2026-09-01T13:41:05Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #19439 by @vasu-sachdeva is already open against this issue",
+   "evidence": [
+    "https://github.com/prettier/prettier/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prettier/prettier/pull/19439"
+   ]
+  },
+  {
+   "number": 19530,
+   "title": "[md] incorrect normalisation of incorrect setex",
+   "url": "https://github.com/prettier/prettier/issues/19530",
+   "labels": [
+    "help wanted",
+    "lang:markdown"
+   ],
+   "updatedAt": "2026-09-01T13:41:05Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "reservations",
+   "reason": "PR #25429 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/prettier/prettier/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ultralytics/ultralytics/pull/25429",
+    "https://github.com/prettier/prettier/issues/19530#issuecomment-5493923554",
+    "https://github.com/prettier/prettier/issues/19530",
+    "https://github.com/prettier/prettier/wiki/Issue-Labels",
+    "https://github.com/prettier/prettier/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 19533,
+   "title": "Extra parentheses added for nullish coalescing operator in ternary expression",
+   "url": "https://github.com/prettier/prettier/issues/19533",
+   "labels": [
+    "help wanted",
+    "lang:javascript"
+   ],
+   "updatedAt": "2026-07-21T09:20:12Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #19857 by @juapperez is already open against this issue",
+   "evidence": [
+    "https://github.com/prettier/prettier/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prettier/prettier/pull/19857",
+    "https://github.com/prettier/prettier/pull/20413"
+   ]
+  },
+  {
+   "number": 19847,
+   "title": "markdown: row indented GFM table rendering idempotency",
+   "url": "https://github.com/prettier/prettier/issues/19847",
+   "labels": [
+    "help wanted",
+    "lang:markdown"
+   ],
+   "updatedAt": "2026-09-01T13:41:05Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #20233 by @Detoy is already open against this issue",
+   "evidence": [
+    "https://github.com/prettier/prettier/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prettier/prettier/pull/20233",
+    "https://github.com/prettier/prettier/pull/20456",
+    "https://github.com/prettier/prettier/pull/19878"
+   ]
+  },
+  {
+   "number": 19955,
+   "title": "Unstable comment print in parenthesized arrow function body",
+   "url": "https://github.com/prettier/prettier/issues/19955",
+   "labels": [
+    "help wanted",
+    "area:comments",
+    "area:idempotency"
+   ],
+   "updatedAt": "2026-09-15T23:23:30Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #19956 by @lazerg is already open against this issue",
+   "evidence": [
+    "https://github.com/prettier/prettier/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prettier/prettier/pull/19956",
+    "https://github.com/prettier/prettier/pull/20008"
+   ]
+  },
+  {
+   "number": 20306,
+   "title": "Non-idempotent: `delete` of a JSDoc-cast member needs two passes",
+   "url": "https://github.com/prettier/prettier/issues/20306",
+   "labels": [
+    "help wanted",
+    "lang:javascript",
+    "area:idempotency"
+   ],
+   "updatedAt": "2026-10-19T11:14:51Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #20344 by @Fire162 is already open against this issue",
+   "evidence": [
+    "https://github.com/prettier/prettier/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prettier/prettier/pull/20344",
+    "https://github.com/prettier/prettier/pull/20410"
+   ]
+  },
+  {
+   "number": 20307,
+   "title": "Non-idempotent: member chain with an object argument depends on the input line breaks (printWidth 100)",
+   "url": "https://github.com/prettier/prettier/issues/20307",
+   "labels": [
+    "help wanted",
+    "lang:javascript",
+    "area:idempotency"
+   ],
+   "updatedAt": "2026-10-18T01:19:46Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #20320 by @smg99 is already open against this issue",
+   "evidence": [
+    "https://github.com/prettier/prettier/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prettier/prettier/pull/20320"
+   ]
+  },
+  {
+   "number": 20433,
+   "title": "Unstable comments in `for..of` head",
+   "url": "https://github.com/prettier/prettier/issues/20433",
+   "labels": [
+    "help wanted",
+    "lang:javascript",
+    "area:idempotency"
+   ],
+   "updatedAt": "2026-11-03T10:00:12Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #20434 by @lazerg is already open against this issue",
+   "evidence": [
+    "https://github.com/prettier/prettier/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prettier/prettier/pull/20434"
+   ]
+  }
+ ]
+}

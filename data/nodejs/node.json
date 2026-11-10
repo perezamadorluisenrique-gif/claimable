@@ -1,0 +1,284 @@
+{
+ "owner": "nodejs",
+ "repo": "node",
+ "language": "JavaScript",
+ "stars": 123459,
+ "description": "Node.js JavaScript runtime ✨🐢🚀✨",
+ "visitedAt": "2026-11-10T17:47:07.019Z",
+ "issues": [
+  {
+   "number": 12606,
+   "title": "readline: prompt opt-out behavior",
+   "url": "https://github.com/nodejs/node/issues/12606",
+   "labels": [
+    "confirmed-bug",
+    "help wanted",
+    "readline"
+   ],
+   "updatedAt": "2023-08-09T11:36:37Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #67158 by @junaidkhan80121 is already open against this issue",
+   "evidence": [
+    "https://github.com/nodejs/node/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nodejs/node/pull/67158"
+   ]
+  },
+  {
+   "number": 26578,
+   "title": "setTimeout Calling Callback Too Early",
+   "url": "https://github.com/nodejs/node/issues/26578",
+   "labels": [
+    "help wanted",
+    "timers"
+   ],
+   "updatedAt": "2026-09-30T01:35:53Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "reservations",
+   "reason": "PR #4061 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+6 more)",
+   "evidence": [
+    "https://github.com/nodejs/node/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/zulip/zulip-mobile/pull/4061",
+    "https://github.com/elastic/kibana/pull/128531",
+    "https://github.com/elastic/apm-agent-nodejs/pull/2657",
+    "https://github.com/keymanapp/keyman/pull/9267",
+    "https://github.com/Sofie-Automation/sofie-atem-connection/pull/154",
+    "https://github.com/aws/aws-advanced-nodejs-wrapper/pull/24",
+    "https://github.com/burkeholland/markdoc/pull/539",
+    "https://github.com/nodejs/node/issues/26578"
+   ]
+  },
+  {
+   "number": 27880,
+   "title": "No content length on DELETE and OPTIONS",
+   "url": "https://github.com/nodejs/node/issues/27880",
+   "labels": [
+    "confirmed-bug",
+    "help wanted",
+    "http"
+   ],
+   "updatedAt": "2023-11-01T00:39:55Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #65512 by @zeexzeex is already open against this issue",
+   "evidence": [
+    "https://github.com/nodejs/node/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nodejs/node/pull/65512",
+    "https://github.com/nodejs/node/pull/34066",
+    "https://github.com/vercel/next.js/pull/51874"
+   ]
+  },
+  {
+   "number": 37648,
+   "title": "Roadmap for stabilization of vm modules",
+   "url": "https://github.com/nodejs/node/issues/37648",
+   "labels": [
+    "help wanted",
+    "vm",
+    "experimental",
+    "esm",
+    "loaders",
+    "never-stale"
+   ],
+   "updatedAt": "2026-10-18T01:27:06Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #11437 by @nicolo-ribaudo is already open against this issue",
+   "evidence": [
+    "https://github.com/nodejs/node/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/jestjs/jest/pull/11437",
+    "https://github.com/jestjs/jest/pull/10976",
+    "https://github.com/kogosoftwarellc/open-api/pull/908",
+    "https://github.com/eslint/eslintrc/pull/57",
+    "https://github.com/prettier/prettier/pull/11903",
+    "https://github.com/jestjs/jest/pull/12726",
+    "https://github.com/alphagov/govuk-frontend/pull/2984",
+    "https://github.com/vitest-dev/vitest/pull/3203",
+    "https://github.com/MetaMask/create-release-branch/pull/121"
+   ]
+  },
+  {
+   "number": 39137,
+   "title": "No keepAliveTimeout for HTTP server after answering a POST request synchronously",
+   "url": "https://github.com/nodejs/node/issues/39137",
+   "labels": [
+    "help wanted",
+    "http"
+   ],
+   "updatedAt": "2026-09-27T01:09:40Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #1 by @Tungdota53 is already open against this issue",
+   "evidence": [
+    "https://github.com/nodejs/node/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/Tungdota53/QLTT-RAG/pull/1",
+    "https://github.com/jadwalit-jpg/Jadwal/pull/201",
+    "https://github.com/chhoumann/quickadd/pull/1617"
+   ]
+  },
+  {
+   "number": 43899,
+   "title": "Simplify vm.Module",
+   "url": "https://github.com/nodejs/node/issues/43899",
+   "labels": [
+    "help wanted",
+    "vm",
+    "experimental",
+    "esm",
+    "loaders",
+    "never-stale"
+   ],
+   "updatedAt": "2026-09-01T11:13:54Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "reservations",
+   "reason": "labelled `never-stale` — scope may not be settled yet (+1 more)",
+   "evidence": [
+    "https://github.com/nodejs/node/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nodejs/node/issues/43899",
+    "https://github.com/nodejs/node/issues/43899#issuecomment-5492470702"
+   ]
+  },
+  {
+   "number": 45099,
+   "title": "FormData, Response, Request, and Headers have incorrect property descriptors",
+   "url": "https://github.com/nodejs/node/issues/45099",
+   "labels": [
+    "confirmed-bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-10-31T23:50:41Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #67168 by @thanmai670 is already open against this issue",
+   "evidence": [
+    "https://github.com/nodejs/node/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nodejs/node/pull/67168"
+   ]
+  },
+  {
+   "number": 51236,
+   "title": "Migration of the GitHub bot from our infra to GitHub actions",
+   "url": "https://github.com/nodejs/node/issues/51236",
+   "labels": [
+    "help wanted",
+    "build",
+    "meta",
+    "never-stale"
+   ],
+   "updatedAt": "2026-09-01T11:13:53Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #63310 by @mahmutovicr is already open against this issue",
+   "evidence": [
+    "https://github.com/nodejs/node/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nodejs/node/pull/63310",
+    "https://github.com/nodejs/build/pull/4336",
+    "https://github.com/nodejs/build/pull/4337"
+   ]
+  },
+  {
+   "number": 53509,
+   "title": "Option to have a shared V8 library?",
+   "url": "https://github.com/nodejs/node/issues/53509",
+   "labels": [
+    "help wanted",
+    "v8 engine",
+    "feature request"
+   ],
+   "updatedAt": "2026-09-01T11:13:53Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @LeonxLJX 70 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting",
+   "evidence": [
+    "https://github.com/nodejs/node/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nodejs/node/issues/53509#issuecomment-5492468969",
+    "https://github.com/nodejs/node/issues/53509"
+   ]
+  },
+  {
+   "number": 54918,
+   "title": "Deadlock at process shutdown",
+   "url": "https://github.com/nodejs/node/issues/54918",
+   "labels": [
+    "confirmed-bug",
+    "help wanted",
+    "v8 engine"
+   ],
+   "updatedAt": "2026-09-01T11:13:53Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "reservations",
+   "reason": "PR #5384 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+8 more)",
+   "evidence": [
+    "https://github.com/nodejs/node/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dubzzz/fast-check/pull/5384",
+    "https://github.com/NixOS/nixpkgs/pull/358227",
+    "https://github.com/nodejs/node/pull/56048",
+    "https://github.com/nodejs/node/pull/56051",
+    "https://github.com/nodejs/node/pull/56052",
+    "https://github.com/nodejs/node/pull/56053",
+    "https://github.com/nodejs/node/pull/56365",
+    "https://github.com/nodejs/node/issues/54918#issuecomment-5492468389",
+    "https://github.com/nodejs/node/blob/HEAD/tools/test.py"
+   ]
+  },
+  {
+   "number": 55422,
+   "title": "`Buffer.concat` and `Buffer.copy` silently produce invalid results when the operation involves indices equal or greater than 2^32",
+   "url": "https://github.com/nodejs/node/issues/55422",
+   "labels": [
+    "confirmed-bug",
+    "help wanted",
+    "buffer",
+    "regression"
+   ],
+   "updatedAt": "2026-10-14T03:01:24Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "reservations",
+   "reason": "PR #164 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/nodejs/node/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/websockets/bufferutil/pull/164",
+    "https://github.com/nodejs/node/issues/55422#issuecomment-5492467816",
+    "https://github.com/nodejs/node/issues/55422"
+   ]
+  },
+  {
+   "number": 60213,
+   "title": "Update Logo Assets",
+   "url": "https://github.com/nodejs/node/issues/60213",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-09-01T11:13:52Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #65253 by @zeexzeex is already open against this issue",
+   "evidence": [
+    "https://github.com/nodejs/node/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nodejs/node/pull/65253"
+   ]
+  },
+  {
+   "number": 66346,
+   "title": "Immutable ArrayBuffer's are almost here. Are we ready?",
+   "url": "https://github.com/nodejs/node/issues/66346",
+   "labels": [
+    "help wanted",
+    "v8 engine",
+    "never-stale"
+   ],
+   "updatedAt": "2026-10-30T10:58:11Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #66379 by @avivkeller is already open against this issue",
+   "evidence": [
+    "https://github.com/nodejs/node/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nodejs/node/pull/66379",
+    "https://github.com/nodejs/node/pull/66936",
+    "https://github.com/nodejs/node/pull/67017",
+    "https://github.com/nodejs/node/pull/67388",
+    "https://github.com/nodejs/node/pull/66944"
+   ]
+  }
+ ]
+}

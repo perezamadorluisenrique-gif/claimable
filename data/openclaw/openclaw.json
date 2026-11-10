@@ -1,0 +1,39 @@
+{
+ "owner": "openclaw",
+ "repo": "openclaw",
+ "language": "TypeScript",
+ "stars": 394301,
+ "description": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 ",
+ "visitedAt": "2026-11-10T17:47:07.019Z",
+ "issues": [
+  {
+   "number": 156985,
+   "title": "Kubernetes: /tmp emptyDir lacks sticky protection required by fs-safe, disabling session observer",
+   "url": "https://github.com/openclaw/openclaw/issues/156985",
+   "labels": [
+    "good first issue",
+    "P1",
+    "clawsweeper:no-new-fix-pr",
+    "clawsweeper:source-repro",
+    "clawsweeper:linked-pr-open",
+    "impact:session-state",
+    "issue-rating: 🦞 diamond lobster",
+    "impact:other"
+   ],
+   "updatedAt": "2026-10-14T17:17:04Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "reservations",
+   "reason": "PR #191294 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+5 more)",
+   "evidence": [
+    "https://github.com/openclaw/openclaw/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/openclaw/openclaw/pull/191294",
+    "https://github.com/openclaw/openclaw/pull/194307",
+    "https://github.com/openclaw/openclaw/issues/156985#issuecomment-5807588081",
+    "https://github.com/openclaw/openclaw/issues/156985",
+    "https://github.com/openclaw/openclaw/blob/HEAD/README.md",
+    "https://docs.openclaw.ai/reference/test/local#openclaw-bun-fork",
+    "https://github.com/openclaw/openclaw/blob/HEAD/CONTRIBUTING.md"
+   ]
+  }
+ ]
+}

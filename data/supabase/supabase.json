@@ -1,0 +1,51 @@
+{
+ "owner": "supabase",
+ "repo": "supabase",
+ "language": "TypeScript",
+ "stars": 114746,
+ "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
+ "visitedAt": "2026-11-10T17:47:07.019Z",
+ "issues": [
+  {
+   "number": 6435,
+   "title": "Allow newlines in SMS OTP template",
+   "url": "https://github.com/supabase/supabase/issues/6435",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "frontend",
+    "auth"
+   ],
+   "updatedAt": "2026-11-10T17:51:25Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #1 by @23f2004847 is already open against this issue",
+   "evidence": [
+    "https://github.com/supabase/supabase/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/23f2004847/supabase/pull/1",
+    "https://github.com/supabase/supabase/pull/41956",
+    "https://github.com/supabase/supabase/pull/43467",
+    "https://github.com/supabase/supabase/pull/16077"
+   ]
+  },
+  {
+   "number": 31014,
+   "title": "Add server-side rendering example with SolidStart",
+   "url": "https://github.com/supabase/supabase/issues/31014",
+   "labels": [
+    "documentation",
+    "help wanted",
+    "external-issue"
+   ],
+   "updatedAt": "2026-11-06T22:12:30Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #35160 by @demoncoder-crypto is already open against this issue",
+   "evidence": [
+    "https://github.com/supabase/supabase/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/supabase/supabase/pull/35160",
+    "https://github.com/supabase/supabase/pull/43943"
+   ]
+  }
+ ]
+}

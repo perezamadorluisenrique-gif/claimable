@@ -1,0 +1,254 @@
+{
+ "owner": "google-gemini",
+ "repo": "gemini-cli",
+ "language": "TypeScript",
+ "stars": 108760,
+ "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+ "visitedAt": "2026-11-10T17:47:07.019Z",
+ "issues": [
+  {
+   "number": 3375,
+   "title": "Provide a method to set the timeout duration for any tool calling.",
+   "url": "https://github.com/google-gemini/gemini-cli/issues/3375",
+   "labels": [
+    "priority/p3",
+    "area/agent",
+    "status/bot-triaged",
+    "kind/enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-09T20:31:05Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #27423 by @officialasishkumar is already open against this issue",
+   "evidence": [
+    "https://github.com/google-gemini/gemini-cli/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/google-gemini/gemini-cli/pull/27423",
+    "https://github.com/google-gemini/gemini-cli/pull/30212"
+   ]
+  },
+  {
+   "number": 15404,
+   "title": "stuff is getting detected as stealers",
+   "url": "https://github.com/google-gemini/gemini-cli/issues/15404",
+   "labels": [
+    "priority/p2",
+    "area/security",
+    "status/bot-triaged",
+    "kind/bug",
+    "help wanted",
+    "type/bug"
+   ],
+   "updatedAt": "2026-11-05T07:27:34Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #30088 by @Neal006 is already open against this issue",
+   "evidence": [
+    "https://github.com/google-gemini/gemini-cli/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/google-gemini/gemini-cli/pull/30088"
+   ]
+  },
+  {
+   "number": 17448,
+   "title": "Agent repeatedly runs broad searches causing massive context overflow",
+   "url": "https://github.com/google-gemini/gemini-cli/issues/17448",
+   "labels": [
+    "priority/p2",
+    "area/agent",
+    "status/bot-triaged",
+    "kind/bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-04T01:38:16Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #19638 by @Atharva-Kanherkar is already open against this issue",
+   "evidence": [
+    "https://github.com/google-gemini/gemini-cli/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/google-gemini/gemini-cli/pull/19638",
+    "https://github.com/google-gemini/gemini-cli/pull/24155",
+    "https://github.com/google-gemini/gemini-cli/pull/29822",
+    "https://github.com/google-gemini/gemini-cli/pull/30109"
+   ]
+  },
+  {
+   "number": 21165,
+   "title": "Allow skills to be activated manually like /commands",
+   "url": "https://github.com/google-gemini/gemini-cli/issues/21165",
+   "labels": [
+    "priority/p2",
+    "area/agent",
+    "status/bot-triaged",
+    "kind/enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-10T09:02:55Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #29546 by @Hariharanpugazh is already open against this issue",
+   "evidence": [
+    "https://github.com/google-gemini/gemini-cli/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/google-gemini/gemini-cli/pull/29546",
+    "https://github.com/google-gemini/gemini-cli/pull/29818",
+    "https://github.com/google-gemini/gemini-cli/pull/29952",
+    "https://github.com/google-gemini/gemini-cli/pull/30104",
+    "https://github.com/google-gemini/gemini-cli/pull/30133",
+    "https://github.com/jpbaking/portable-agent-authoring/pull/1"
+   ]
+  },
+  {
+   "number": 21805,
+   "title": "More configurable numeric routing",
+   "url": "https://github.com/google-gemini/gemini-cli/issues/21805",
+   "labels": [
+    "priority/p2",
+    "area/agent",
+    "aiq/routing",
+    "status/bot-triaged",
+    "kind/enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-03T09:02:57Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #27406 by @ujjwalv01 is already open against this issue",
+   "evidence": [
+    "https://github.com/google-gemini/gemini-cli/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/google-gemini/gemini-cli/pull/27406",
+    "https://github.com/google-gemini/gemini-cli/pull/29824",
+    "https://github.com/google-gemini/gemini-cli/pull/29959",
+    "https://github.com/CodeBoarding/gemini-cli/pull/1"
+   ]
+  },
+  {
+   "number": 22092,
+   "title": "Allow agents to call agents",
+   "url": "https://github.com/google-gemini/gemini-cli/issues/22092",
+   "labels": [
+    "priority/p2",
+    "area/agent",
+    "status/bot-triaged",
+    "kind/enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-09T09:20:12Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #28738 by @akash-manna-sky is already open against this issue",
+   "evidence": [
+    "https://github.com/google-gemini/gemini-cli/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/google-gemini/gemini-cli/pull/28738"
+   ]
+  },
+  {
+   "number": 22274,
+   "title": "Bug: image paste fails in WSL2 when clipboard exposes image/bmp and XDG_SESSION_TYPE is unset",
+   "url": "https://github.com/google-gemini/gemini-cli/issues/22274",
+   "labels": [
+    "priority/p2",
+    "area/agent",
+    "status/bot-triaged",
+    "kind/bug",
+    "help wanted",
+    "type/bug",
+    "effort/medium"
+   ],
+   "updatedAt": "2026-11-10T11:40:42Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #1 by @HaleTom is already open against this issue",
+   "evidence": [
+    "https://github.com/google-gemini/gemini-cli/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/HaleTom/gemini-cli/pull/1",
+    "https://github.com/google-gemini/gemini-cli/pull/27588",
+    "https://github.com/google-gemini/gemini-cli/pull/29956",
+    "https://github.com/google-gemini/gemini-cli/pull/30097"
+   ]
+  },
+  {
+   "number": 27393,
+   "title": "Command substitution block should be user-configurable, not a hardcoded wall",
+   "url": "https://github.com/google-gemini/gemini-cli/issues/27393",
+   "labels": [
+    "priority/p3",
+    "area/agent",
+    "status/possible-duplicate",
+    "status/bot-triaged",
+    "kind/enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-06T09:02:58Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #27400 by @manohar-munna is already open against this issue",
+   "evidence": [
+    "https://github.com/google-gemini/gemini-cli/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/google-gemini/gemini-cli/pull/27400",
+    "https://github.com/google-gemini/gemini-cli/pull/30029"
+   ]
+  },
+  {
+   "number": 28445,
+   "title": "can i add image generation model configs for nano banana ?",
+   "url": "https://github.com/google-gemini/gemini-cli/issues/28445",
+   "labels": [
+    "priority/p2",
+    "area/extensions",
+    "status/bot-triaged",
+    "kind/enhancement",
+    "good first issue",
+    "effort/small"
+   ],
+   "updatedAt": "2026-11-06T01:36:50Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #30159 by @xh123637 is already open against this issue",
+   "evidence": [
+    "https://github.com/google-gemini/gemini-cli/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/google-gemini/gemini-cli/pull/30159"
+   ]
+  },
+  {
+   "number": 29944,
+   "title": "bug(tools): oversized single-line background logs return no output",
+   "url": "https://github.com/google-gemini/gemini-cli/issues/29944",
+   "labels": [
+    "priority/p2",
+    "area/agent",
+    "status/bot-triaged",
+    "kind/bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-03T09:31:45Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #29947 by @Web4everyone32 is already open against this issue",
+   "evidence": [
+    "https://github.com/google-gemini/gemini-cli/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/google-gemini/gemini-cli/pull/29947",
+    "https://github.com/google-gemini/gemini-cli/pull/29978"
+   ]
+  },
+  {
+   "number": 29945,
+   "title": "bug(tools): delayed background output reads ignore cancellation",
+   "url": "https://github.com/google-gemini/gemini-cli/issues/29945",
+   "labels": [
+    "priority/p2",
+    "area/agent",
+    "status/bot-triaged",
+    "kind/bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-10T09:11:27Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #29948 by @Web4everyone32 is already open against this issue",
+   "evidence": [
+    "https://github.com/google-gemini/gemini-cli/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/google-gemini/gemini-cli/pull/29948",
+    "https://github.com/google-gemini/gemini-cli/pull/29977"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,164 @@
+{
+ "owner": "stablyai",
+ "repo": "orca",
+ "language": "TypeScript",
+ "stars": 121250,
+ "description": "Orca lets you run a fleet of coding agents (e.g. Claude Code, Codex) with your own subscription. Available on desktop, mobile and remote runtime.",
+ "visitedAt": "2026-11-10T17:47:07.019Z",
+ "issues": [
+  {
+   "number": 8476,
+   "title": "Feature Request: Add GLM (Zhipu AI) model support, including OAuth login",
+   "url": "https://github.com/stablyai/orca/issues/8476",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-06T16:20:57Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #30117 by @DanielMcSheehy is already open against this issue",
+   "evidence": [
+    "https://github.com/stablyai/orca/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/stablyai/orca/pull/30117",
+    "https://github.com/stablyai/orca/pull/24618",
+    "https://github.com/stablyai/orca/pull/24674",
+    "https://github.com/stablyai/orca/pull/27321"
+   ]
+  },
+  {
+   "number": 9125,
+   "title": "[Feature]: Add first-class OpenInterpreter agent support",
+   "url": "https://github.com/stablyai/orca/issues/9125",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "help wanted"
+   ],
+   "updatedAt": "2026-07-24T07:44:49Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #36188 by @adisusilayasa is already open against this issue",
+   "evidence": [
+    "https://github.com/stablyai/orca/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/stablyai/orca/pull/36188"
+   ]
+  },
+  {
+   "number": 9299,
+   "title": "Windows: tmux-style terminal multiplexers fail on some Windows versions",
+   "url": "https://github.com/stablyai/orca/issues/9299",
+   "labels": [
+    "good first issue",
+    "help wanted",
+    "os:Windows"
+   ],
+   "updatedAt": "2026-08-08T00:31:17Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #9336 by @harshjainnn is already open against this issue",
+   "evidence": [
+    "https://github.com/stablyai/orca/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/stablyai/orca/pull/9336"
+   ]
+  },
+  {
+   "number": 9300,
+   "title": "Windows & WSL: performance audit and improvement pass",
+   "url": "https://github.com/stablyai/orca/issues/9300",
+   "labels": [
+    "good first issue",
+    "help wanted",
+    "os:Windows"
+   ],
+   "updatedAt": "2026-10-23T14:22:37Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #13167 by @OrcaWin is already open against this issue",
+   "evidence": [
+    "https://github.com/stablyai/orca/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/stablyai/orca/pull/13167",
+    "https://github.com/stablyai/orca/pull/27750",
+    "https://github.com/stablyai/orca/pull/13207",
+    "https://github.com/stablyai/orca/pull/13474",
+    "https://github.com/stablyai/orca/pull/27690"
+   ]
+  },
+  {
+   "number": 9840,
+   "title": "[Feature] Feature request: PTY health monitoring in Resource Manager",
+   "url": "https://github.com/stablyai/orca/issues/9840",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-07T10:52:20Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #24 by @LesleyMurfin is already open against this issue",
+   "evidence": [
+    "https://github.com/stablyai/orca/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/LesleyMurfin/orca/pull/24",
+    "https://github.com/stablyai/orca/pull/10612"
+   ]
+  },
+  {
+   "number": 10133,
+   "title": "[Bug]: for some windows users, garbled agent TUI can be seen",
+   "url": "https://github.com/stablyai/orca/issues/10133",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-09-15T08:08:07Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #24262 by @william0553135 is already open against this issue",
+   "evidence": [
+    "https://github.com/stablyai/orca/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/stablyai/orca/issues/24262"
+   ]
+  },
+  {
+   "number": 10250,
+   "title": "[Bug]: Agent session list names don't match custom names set by the user",
+   "url": "https://github.com/stablyai/orca/issues/10250",
+   "labels": [
+    "bug",
+    "help wanted",
+    "agent-workflow",
+    "collecting upvote",
+    "agent-management"
+   ],
+   "updatedAt": "2026-10-01T22:54:18Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #10393 by @Fazalkadivar21 is already open against this issue",
+   "evidence": [
+    "https://github.com/stablyai/orca/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/stablyai/orca/pull/10393",
+    "https://github.com/stablyai/orca/pull/19614",
+    "https://github.com/stablyai/orca/pull/22129"
+   ]
+  },
+  {
+   "number": 23360,
+   "title": "[Bug]:  Chinese (Microsoft Pinyin) candidate window never appears in the file editor, while the terminal pane is fine",
+   "url": "https://github.com/stablyai/orca/issues/23360",
+   "labels": [
+    "bug",
+    "help wanted",
+    "os:Windows"
+   ],
+   "updatedAt": "2026-09-28T09:18:01Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #23603 by @toratsugumi37 is already open against this issue",
+   "evidence": [
+    "https://github.com/stablyai/orca/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/stablyai/orca/pull/23603"
+   ]
+  }
+ ]
+}

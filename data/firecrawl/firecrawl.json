@@ -1,0 +1,27 @@
+{
+ "owner": "firecrawl",
+ "repo": "firecrawl",
+ "language": "TypeScript",
+ "stars": 200426,
+ "description": "Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥",
+ "visitedAt": "2026-11-10T17:47:07.019Z",
+ "issues": [
+  {
+   "number": 839,
+   "title": "[Feat] Ability to scrape embedded pdfs",
+   "url": "https://github.com/firecrawl/firecrawl/issues/839",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2026-10-28T02:23:20Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #4397 by @mukktinaadh is already open against this issue",
+   "evidence": [
+    "https://github.com/firecrawl/firecrawl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/firecrawl/firecrawl/pull/4397",
+    "https://github.com/firecrawl/firecrawl/pull/5434"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,68 @@
+{
+ "owner": "immich-app",
+ "repo": "immich",
+ "language": "TypeScript",
+ "stars": 118704,
+ "description": "High performance self-hosted photo and video management solution.",
+ "visitedAt": "2026-11-10T17:47:07.019Z",
+ "issues": [
+  {
+   "number": 21855,
+   "title": "Ability to search similar images \"from\" partner assets",
+   "url": "https://github.com/immich-app/immich/issues/21855",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2026-11-07T12:23:14Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.immich.app/developer/setup) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/immich-app/immich/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/immich-app/immich/issues/21855#issuecomment-3568663795",
+    "https://github.com/immich-app/immich/issues/21855",
+    "https://docs.immich.app/developer/setup",
+    "https://github.com/immich-app/immich/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 28709,
+   "title": "\"already in...\" toast makes it seem like none of the images of selection got added",
+   "url": "https://github.com/immich-app/immich/issues/28709",
+   "labels": [
+    "good first issue",
+    "📱mobile"
+   ],
+   "updatedAt": "2026-08-03T23:45:16Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #28925 by @timonrieger is already open against this issue",
+   "evidence": [
+    "https://github.com/immich-app/immich/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/immich-app/immich/pull/28925"
+   ]
+  },
+  {
+   "number": 28832,
+   "title": "Prefer null values over empty strings",
+   "url": "https://github.com/immich-app/immich/issues/28832",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2026-09-23T15:06:56Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #30276 by @deveshkolte is already open against this issue",
+   "evidence": [
+    "https://github.com/immich-app/immich/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/immich-app/immich/pull/30276",
+    "https://github.com/immich-app/immich/pull/30321",
+    "https://github.com/immich-app/immich/pull/30371",
+    "https://github.com/immich-app/immich/pull/32039",
+    "https://github.com/immich-app/immich/pull/28817",
+    "https://github.com/immich-app/immich/pull/30123",
+    "https://github.com/immich-app/immich/pull/30223"
+   ]
+  }
+ ]
+}

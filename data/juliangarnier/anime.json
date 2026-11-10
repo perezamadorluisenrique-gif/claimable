@@ -1,0 +1,43 @@
+{
+ "owner": "juliangarnier",
+ "repo": "anime",
+ "language": "JavaScript",
+ "stars": 74495,
+ "description": "JavaScript animation engine",
+ "visitedAt": "2026-11-10T17:47:07.019Z",
+ "issues": [
+  {
+   "number": 1017,
+   "title": "[FEATURE] Support for react-native",
+   "url": "https://github.com/juliangarnier/anime/issues/1017",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "feature proposal"
+   ],
+   "updatedAt": "2026-03-08T08:45:44Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "nothing has been merged in 401 days",
+   "evidence": [
+    "https://github.com/juliangarnier/anime/pulls?q=is%3Apr+is%3Amerged"
+   ]
+  },
+  {
+   "number": 1047,
+   "title": "[FEATURE] Add MCP",
+   "url": "https://github.com/juliangarnier/anime/issues/1047",
+   "labels": [
+    "help wanted",
+    "feature proposal"
+   ],
+   "updatedAt": "2026-04-12T07:04:32Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "nothing has been merged in 401 days",
+   "evidence": [
+    "https://github.com/juliangarnier/anime/pulls?q=is%3Apr+is%3Amerged"
+   ]
+  }
+ ]
+}

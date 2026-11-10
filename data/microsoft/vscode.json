@@ -1,0 +1,2173 @@
+{
+ "owner": "microsoft",
+ "repo": "vscode",
+ "language": "TypeScript",
+ "stars": 195263,
+ "description": "Visual Studio Code",
+ "visitedAt": "2026-11-10T17:47:07.019Z",
+ "issues": [
+  {
+   "number": 164,
+   "title": "Better drag and drop / clipboard integration of files across applications",
+   "url": "https://github.com/microsoft/vscode/issues/164",
+   "labels": [
+    "help wanted",
+    "feature-request",
+    "upstream",
+    "workbench-os-integration",
+    "workbench-dnd",
+    "upstream-issue-linked"
+   ],
+   "updatedAt": "2026-09-23T01:53:14Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "already assigned to @lramos15",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/97347",
+    "https://github.com/microsoft/vscode/issues/164"
+   ]
+  },
+  {
+   "number": 20330,
+   "title": "Git - Support GitHub 2FA",
+   "url": "https://github.com/microsoft/vscode/issues/20330",
+   "labels": [
+    "help wanted",
+    "feature-request",
+    "git"
+   ],
+   "updatedAt": "2026-07-17T17:48:16Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "already assigned to @lszomoru",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/issues/20330"
+   ]
+  },
+  {
+   "number": 24783,
+   "title": "vscode reads AltGr key as cursor-left move through X11 connections",
+   "url": "https://github.com/microsoft/vscode/issues/24783",
+   "labels": [
+    "bug",
+    "help wanted",
+    "keybindings",
+    "linux"
+   ],
+   "updatedAt": "2026-07-08T12:03:04Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "already assigned to @alexdima",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/Pyth3rEx/AnNIXion/pull/177",
+    "https://github.com/microsoft/vscode/issues/24783"
+   ]
+  },
+  {
+   "number": 31153,
+   "title": "Git - Support interactive rebase",
+   "url": "https://github.com/microsoft/vscode/issues/31153",
+   "labels": [
+    "help wanted",
+    "feature-request",
+    "git"
+   ],
+   "updatedAt": "2026-06-26T16:20:24Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #334400 by @PatrickHaecker is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/issues/334400",
+    "https://github.com/microsoft/vscode/issues/61877"
+   ]
+  },
+  {
+   "number": 38113,
+   "title": "SCM - Support keyboard shortcuts for inline change review commands",
+   "url": "https://github.com/microsoft/vscode/issues/38113",
+   "labels": [
+    "help wanted",
+    "feature-request",
+    "scm"
+   ],
+   "updatedAt": "2026-07-17T18:01:26Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "already assigned to @lszomoru",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/issues/38113"
+   ]
+  },
+  {
+   "number": 41246,
+   "title": "Git - add of file with unicode name fails in Git panel",
+   "url": "https://github.com/microsoft/vscode/issues/41246",
+   "labels": [
+    "bug",
+    "help wanted",
+    "git"
+   ],
+   "updatedAt": "2026-07-17T17:38:59Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #320985 by @vs-code-engineering[bot] is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/issues/320985"
+   ]
+  },
+  {
+   "number": 41565,
+   "title": "Git - Detect git repositories under ignored paths",
+   "url": "https://github.com/microsoft/vscode/issues/41565",
+   "labels": [
+    "bug",
+    "help wanted",
+    "git"
+   ],
+   "updatedAt": "2026-07-17T22:09:39Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #341361 by @Aric5301 is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/issues/341361"
+   ]
+  },
+  {
+   "number": 43111,
+   "title": "[css] Lab colors and other CSS Color Module Level 4 features",
+   "url": "https://github.com/microsoft/vscode/issues/43111",
+   "labels": [
+    "help wanted",
+    "feature-request",
+    "verified",
+    "css-less-scss"
+   ],
+   "updatedAt": "2026-07-13T17:23:21Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "already assigned to @aeschli",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/issues/43111"
+   ]
+  },
+  {
+   "number": 43671,
+   "title": "\"Download Now\" button should respect the used installation method on Linux",
+   "url": "https://github.com/microsoft/vscode/issues/43671",
+   "labels": [
+    "help wanted",
+    "feature-request",
+    "install-update",
+    "linux"
+   ],
+   "updatedAt": "2026-09-29T19:26:22Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "already assigned to @dmitrivMS",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/issues/43671",
+    "https://github.com/microsoft/vscode/issues/43671#issuecomment-412338086"
+   ]
+  },
+  {
+   "number": 52210,
+   "title": "Add prompt to \"test on insiders\" to issue reporter",
+   "url": "https://github.com/microsoft/vscode/issues/52210",
+   "labels": [
+    "feature-request",
+    "good first issue",
+    "issue-reporter"
+   ],
+   "updatedAt": "2026-10-31T00:28:16Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #138881 by @DavidJRWang is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/138881",
+    "https://github.com/microsoft/vscode/pull/305452",
+    "https://github.com/microsoft/vscode/pull/310760"
+   ]
+  },
+  {
+   "number": 58515,
+   "title": "Use the modifier properties on mouse event instead of tracking keydown/keyup",
+   "url": "https://github.com/microsoft/vscode/issues/58515",
+   "labels": [
+    "help wanted",
+    "debt",
+    "editor-drag-and-drop"
+   ],
+   "updatedAt": "2026-09-10T09:14:38Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #324285 by @arham766 is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/324285",
+    "https://github.com/microsoft/vscode/pull/335428"
+   ]
+  },
+  {
+   "number": 58987,
+   "title": "moving TypeScript files in explorer fails to update/prompt imports when containing folder is moved",
+   "url": "https://github.com/microsoft/vscode/issues/58987",
+   "labels": [
+    "bug",
+    "help wanted",
+    "typescript"
+   ],
+   "updatedAt": "2026-06-17T16:42:59Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #338197 by @maximilliangrand is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/338197"
+   ]
+  },
+  {
+   "number": 62910,
+   "title": "emmet.includeLanguages for one to many mapping",
+   "url": "https://github.com/microsoft/vscode/issues/62910",
+   "labels": [
+    "help wanted",
+    "feature-request",
+    "emmet"
+   ],
+   "updatedAt": "2026-07-17T22:14:38Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #331033 by @Genius740Code is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/331033"
+   ]
+  },
+  {
+   "number": 64530,
+   "title": "Highlight file containing definition",
+   "url": "https://github.com/microsoft/vscode/issues/64530",
+   "labels": [
+    "help wanted",
+    "feature-request",
+    "references-viewlet"
+   ],
+   "updatedAt": "2026-10-31T11:01:30Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #338453 by @le700 is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/338453",
+    "https://github.com/microsoft/vscode/pull/345349"
+   ]
+  },
+  {
+   "number": 70963,
+   "title": "Git - .gitignore'd files sometimes not greyed-out",
+   "url": "https://github.com/microsoft/vscode/issues/70963",
+   "labels": [
+    "bug",
+    "help wanted",
+    "git"
+   ],
+   "updatedAt": "2026-06-22T01:53:35Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "already assigned to @lszomoru",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/issues/70963"
+   ]
+  },
+  {
+   "number": 71800,
+   "title": "Mac shortcut not working (in vscode) [cmd+h or cmd+m]",
+   "url": "https://github.com/microsoft/vscode/issues/71800",
+   "labels": [
+    "bug",
+    "help wanted",
+    "webview"
+   ],
+   "updatedAt": "2026-09-30T20:17:20Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "already assigned to @mjbvz",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/issues/71800"
+   ]
+  },
+  {
+   "number": 81231,
+   "title": "Remote terminals don't resolve variables when restored on startup",
+   "url": "https://github.com/microsoft/vscode/issues/81231",
+   "labels": [
+    "bug",
+    "help wanted",
+    "remote",
+    "terminal-process"
+   ],
+   "updatedAt": "2026-07-17T14:04:36Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #318008 by @vs-code-engineering[bot] is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/issues/318008"
+   ]
+  },
+  {
+   "number": 96041,
+   "title": "unable to input chinese character",
+   "url": "https://github.com/microsoft/vscode/issues/96041",
+   "labels": [
+    "bug",
+    "help wanted",
+    "linux",
+    "editor-input-IME",
+    "snap",
+    "confirmed"
+   ],
+   "updatedAt": "2026-11-03T04:01:51Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "already assigned to @deepak1556, @rzhao271, @aiday-mar",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/100480",
+    "https://github.com/microsoft/vscode/issues/96041"
+   ]
+  },
+  {
+   "number": 96104,
+   "title": "Git - \"Stage selected ranges\" clobbers line endings for the entire file without any warning (Windows)",
+   "url": "https://github.com/microsoft/vscode/issues/96104",
+   "labels": [
+    "bug",
+    "help wanted",
+    "git"
+   ],
+   "updatedAt": "2026-06-03T15:23:17Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #328187 by @vivekjm is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/328187",
+    "https://github.com/nvaccess/nvda/pull/12510",
+    "https://github.com/soasis/text/pull/35"
+   ]
+  },
+  {
+   "number": 100225,
+   "title": "Data corruptted when pasting large JSON in the terminal (or via sendText)",
+   "url": "https://github.com/microsoft/vscode/issues/100225",
+   "labels": [
+    "bug",
+    "help wanted",
+    "macos",
+    "confirmed",
+    "terminal-input"
+   ],
+   "updatedAt": "2026-07-17T14:04:37Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #328183 by @vivekjm is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/328183"
+   ]
+  },
+  {
+   "number": 100274,
+   "title": "Git - Support `subst` drives",
+   "url": "https://github.com/microsoft/vscode/issues/100274",
+   "labels": [
+    "bug",
+    "help wanted",
+    "git",
+    "windows"
+   ],
+   "updatedAt": "2026-09-10T14:13:57Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "already assigned to @lszomoru",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/Sumit1993/mage-memory/pull/182",
+    "https://github.com/microsoft/vscode/issues/100274"
+   ]
+  },
+  {
+   "number": 107090,
+   "title": "Add selection to next Find match does not work with Regex Find Mode",
+   "url": "https://github.com/microsoft/vscode/issues/107090",
+   "labels": [
+    "bug",
+    "help wanted",
+    "good first issue",
+    "editor-find",
+    "editor-multicursor"
+   ],
+   "updatedAt": "2026-04-16T15:13:15Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #211550 by @BrunoSoaresEngineering is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/211550",
+    "https://github.com/microsoft/vscode/pull/281827",
+    "https://github.com/microsoft/vscode/pull/302943",
+    "https://github.com/microsoft/vscode/pull/305605",
+    "https://github.com/microsoft/vscode/pull/310759",
+    "https://github.com/microsoft/vscode/pull/319245",
+    "https://github.com/microsoft/vscode/pull/322873",
+    "https://github.com/microsoft/vscode/pull/326936",
+    "https://github.com/microsoft/vscode/pull/336963"
+   ]
+  },
+  {
+   "number": 108757,
+   "title": "Git - Removing a folder from multi-root workspace does not remove repo",
+   "url": "https://github.com/microsoft/vscode/issues/108757",
+   "labels": [
+    "bug",
+    "help wanted",
+    "git",
+    "good first issue",
+    "team-low-hanging"
+   ],
+   "updatedAt": "2026-07-03T14:46:50Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #284139 by @Rushali-Sarkar is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/284139",
+    "https://github.com/microsoft/vscode/pull/327124"
+   ]
+  },
+  {
+   "number": 110281,
+   "title": "Ubuntu `lxc profile show default > default.yml'` on zsh fails to redirect",
+   "url": "https://github.com/microsoft/vscode/issues/110281",
+   "labels": [
+    "bug",
+    "help wanted",
+    "linux",
+    "snap"
+   ],
+   "updatedAt": "2026-06-25T08:31:54Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "already assigned to @deepak1556",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/issues/110281"
+   ]
+  },
+  {
+   "number": 113609,
+   "title": "Git - quick diff indicator does not work with global textconv",
+   "url": "https://github.com/microsoft/vscode/issues/113609",
+   "labels": [
+    "bug",
+    "help wanted",
+    "git"
+   ],
+   "updatedAt": "2026-07-23T01:38:37Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #327079 by @MohammedAlmajhali is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/327079"
+   ]
+  },
+  {
+   "number": 116755,
+   "title": "SCM - improve focus movement",
+   "url": "https://github.com/microsoft/vscode/issues/116755",
+   "labels": [
+    "bug",
+    "help wanted",
+    "accessibility",
+    "scm",
+    "team-low-hanging"
+   ],
+   "updatedAt": "2026-10-26T13:44:31Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "already assigned to @lszomoru",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/issues/116755",
+    "https://github.com/microsoft/vscode/issues/116755#issuecomment-6417531552"
+   ]
+  },
+  {
+   "number": 117180,
+   "title": "The initial position of the VSCode is shifted down when the native titlebar is on",
+   "url": "https://github.com/microsoft/vscode/issues/117180",
+   "labels": [
+    "bug",
+    "linux",
+    "good first issue",
+    "electron",
+    "titlebar",
+    "confirmed",
+    "upstream-issue-pending"
+   ],
+   "updatedAt": "2026-02-22T09:17:47Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #315493 by @harshagarwalnyu is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/315493"
+   ]
+  },
+  {
+   "number": 120989,
+   "title": "[folding] Decorate fold indicators with error color/iconography",
+   "url": "https://github.com/microsoft/vscode/issues/120989",
+   "labels": [
+    "help wanted",
+    "feature-request",
+    "editor-folding"
+   ],
+   "updatedAt": "2026-08-27T02:20:19Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #190682 by @gjsjohnmurray is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/190682"
+   ]
+  },
+  {
+   "number": 122719,
+   "title": "Git - Cannot push branch after branch is deleted from the remote",
+   "url": "https://github.com/microsoft/vscode/issues/122719",
+   "labels": [
+    "bug",
+    "help wanted",
+    "git"
+   ],
+   "updatedAt": "2026-10-08T14:28:49Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "already assigned to @lszomoru",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/issues/122719"
+   ]
+  },
+  {
+   "number": 125582,
+   "title": "Restored custom editors never load if the extension is uninstalled",
+   "url": "https://github.com/microsoft/vscode/issues/125582",
+   "labels": [
+    "bug",
+    "help wanted",
+    "custom-editors"
+   ],
+   "updatedAt": "2026-06-03T15:24:27Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #328185 by @vivekjm is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/328185"
+   ]
+  },
+  {
+   "number": 129178,
+   "title": "Unable to use shortcuts like Cmd+A, Cmd+C, Cmd+V inside an iframe inside a webview on macOS",
+   "url": "https://github.com/microsoft/vscode/issues/129178",
+   "labels": [
+    "bug",
+    "help wanted",
+    "webview"
+   ],
+   "updatedAt": "2026-09-12T18:51:03Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #3 by @felipegenef is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/bmpenuelas/opencode-web-sidebar/pull/3",
+    "https://github.com/uimix-editor/uimix/pull/197",
+    "https://github.com/winglang/wing/pull/3927",
+    "https://github.com/TabbyML/tabby/pull/2252",
+    "https://github.com/microsoft/vscode/pull/246106",
+    "https://github.com/flutter/devtools/pull/9472",
+    "https://github.com/IceRhymers/omnigent-ide-extensions/pull/2"
+   ]
+  },
+  {
+   "number": 132085,
+   "title": "Editor hint in new file can't be reached by tabbing",
+   "url": "https://github.com/microsoft/vscode/issues/132085",
+   "labels": [
+    "bug",
+    "accessibility",
+    "good first issue",
+    "workbench-untitled-editors"
+   ],
+   "updatedAt": "2026-01-12T16:08:10Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #139581 by @Nopec is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/139581",
+    "https://github.com/microsoft/vscode/pull/219274",
+    "https://github.com/microsoft/vscode/pull/308138"
+   ]
+  },
+  {
+   "number": 133566,
+   "title": "Git - Source Control Tab \"Discard Changes\" on a file called '*' discards all untracked changes",
+   "url": "https://github.com/microsoft/vscode/issues/133566",
+   "labels": [
+    "bug",
+    "help wanted",
+    "git"
+   ],
+   "updatedAt": "2026-10-24T09:09:19Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #324378 by @laxmanacharya8 is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/324378",
+    "https://github.com/microsoft/vscode/pull/346865",
+    "https://github.com/microsoft/vscode/pull/236849"
+   ]
+  },
+  {
+   "number": 135792,
+   "title": "Deleted files from explorer should match styling from deletions on disk",
+   "url": "https://github.com/microsoft/vscode/issues/135792",
+   "labels": [
+    "help wanted",
+    "polish",
+    "scm"
+   ],
+   "updatedAt": "2026-10-15T14:46:26Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "already assigned to @lszomoru",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/issues/135792"
+   ]
+  },
+  {
+   "number": 139634,
+   "title": "`code` CLI still opens duplicate VSCode instance in the macOS dock",
+   "url": "https://github.com/microsoft/vscode/issues/139634",
+   "labels": [
+    "bug",
+    "help wanted",
+    "macos",
+    "workbench-os-integration"
+   ],
+   "updatedAt": "2026-10-30T13:56:51Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "already assigned to @rzhao271",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/issues/139634"
+   ]
+  },
+  {
+   "number": 141031,
+   "title": "Windows: Error auto-updating x64 version on ARM64",
+   "url": "https://github.com/microsoft/vscode/issues/141031",
+   "labels": [
+    "bug",
+    "help wanted",
+    "install-update",
+    "good first issue",
+    "windows"
+   ],
+   "updatedAt": "2026-03-12T17:04:24Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #298234 by @dmitrivMS is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/298234",
+    "https://github.com/microsoft/vscode/pull/300902",
+    "https://github.com/microsoft/vscode/pull/303686",
+    "https://github.com/microsoft/vscode/pull/320545",
+    "https://github.com/wecode-ai/Wegent/pull/3997"
+   ]
+  },
+  {
+   "number": 141754,
+   "title": "Clone from Github doesn't rank org repos highly",
+   "url": "https://github.com/microsoft/vscode/issues/141754",
+   "labels": [
+    "bug",
+    "help wanted",
+    "good first issue",
+    "github"
+   ],
+   "updatedAt": "2026-06-25T10:11:02Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #310787 by @Nedunchezhiyan-M is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/310787",
+    "https://github.com/microsoft/vscode/pull/313840",
+    "https://github.com/microsoft/vscode/pull/320528",
+    "https://github.com/microsoft/vscode/pull/327659",
+    "https://github.com/microsoft/vscode/pull/334607",
+    "https://github.com/microsoft/vscode/pull/341840"
+   ]
+  },
+  {
+   "number": 141801,
+   "title": "Untitled custom editor in web version",
+   "url": "https://github.com/microsoft/vscode/issues/141801",
+   "labels": [
+    "bug",
+    "help wanted",
+    "custom-editors"
+   ],
+   "updatedAt": "2026-10-21T19:35:46Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #343326 by @Arham-Begani is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/343326"
+   ]
+  },
+  {
+   "number": 143423,
+   "title": "Both custom editors are reloaded when clicking on a diff tab if it's already opened",
+   "url": "https://github.com/microsoft/vscode/issues/143423",
+   "labels": [
+    "bug",
+    "help wanted",
+    "workbench-tabs",
+    "custom-editors"
+   ],
+   "updatedAt": "2026-08-24T14:00:54Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "already assigned to @mjbvz",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/issues/143423"
+   ]
+  },
+  {
+   "number": 143956,
+   "title": "Better path presentation in quick open window",
+   "url": "https://github.com/microsoft/vscode/issues/143956",
+   "labels": [
+    "feature-request",
+    "good first issue",
+    "quick-open"
+   ],
+   "updatedAt": "2026-11-07T11:41:49Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #269773 by @zyrocossol11 is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/269773",
+    "https://github.com/microsoft/vscode/pull/308145",
+    "https://github.com/microsoft/vscode/pull/310761"
+   ]
+  },
+  {
+   "number": 145890,
+   "title": "Resize editor pane left/right/up/down keybindings",
+   "url": "https://github.com/microsoft/vscode/issues/145890",
+   "labels": [
+    "help wanted",
+    "feature-request",
+    "workbench-editor-grid"
+   ],
+   "updatedAt": "2026-09-03T12:12:03Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #296358 by @murataslan1 is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/296358",
+    "https://github.com/microsoft/vscode/pull/337462"
+   ]
+  },
+  {
+   "number": 147688,
+   "title": "Adopt `LSItemContentTypes` over `CFBundleTypeOSTypes`",
+   "url": "https://github.com/microsoft/vscode/issues/147688",
+   "labels": [
+    "help wanted",
+    "debt",
+    "macos",
+    "good first issue",
+    "engineering",
+    "workbench-os-integration"
+   ],
+   "updatedAt": "2023-12-12T17:31:01Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #222916 by @BABA983 is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/222916",
+    "https://github.com/microsoft/vscode/pull/331966"
+   ]
+  },
+  {
+   "number": 147718,
+   "title": "Markdown preview resets when switching tabs",
+   "url": "https://github.com/microsoft/vscode/issues/147718",
+   "labels": [
+    "bug",
+    "help wanted",
+    "markdown-ext"
+   ],
+   "updatedAt": "2026-10-26T17:39:03Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #307245 by @yogeshwaran-c is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/307245",
+    "https://github.com/microsoft/vscode/pull/166932",
+    "https://github.com/microsoft/vscode/pull/345112",
+    "https://github.com/samrobn/markdown-preview-styles/pull/9",
+    "https://github.com/microsoft/vscode/pull/334681"
+   ]
+  },
+  {
+   "number": 149193,
+   "title": "[less] The each function has incorrect linting inside a keyframes at-rule",
+   "url": "https://github.com/microsoft/vscode/issues/149193",
+   "labels": [
+    "bug",
+    "help wanted",
+    "css-less-scss"
+   ],
+   "updatedAt": "2026-10-20T15:26:29Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #538 by @mdoin is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode-css-languageservice/pull/538"
+   ]
+  },
+  {
+   "number": 151151,
+   "title": "Image stays broken when re-executing Markdown cell",
+   "url": "https://github.com/microsoft/vscode/issues/151151",
+   "labels": [
+    "bug",
+    "help wanted",
+    "good first issue",
+    "notebook"
+   ],
+   "updatedAt": "2026-08-21T14:47:01Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #303184 by @Redslayer112 is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/303184",
+    "https://github.com/microsoft/vscode/pull/305606",
+    "https://github.com/microsoft/vscode/pull/319247"
+   ]
+  },
+  {
+   "number": 160987,
+   "title": "[scss] Wrongly shown selector in SCSS",
+   "url": "https://github.com/microsoft/vscode/issues/160987",
+   "labels": [
+    "bug",
+    "help wanted",
+    "css-less-scss"
+   ],
+   "updatedAt": "2026-11-09T04:34:33Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #545 by @xnervwang is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode-css-languageservice/pull/545"
+   ]
+  },
+  {
+   "number": 162770,
+   "title": "errors thrown by openerService.resolveExternalUri not surfaced to MainThreadWindow.$asExternalUri in VS Code Web",
+   "url": "https://github.com/microsoft/vscode/issues/162770",
+   "labels": [
+    "bug",
+    "help wanted",
+    "opener"
+   ],
+   "updatedAt": "2026-06-25T07:19:03Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #325925 by @NgoQuocViet2001 is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/325925",
+    "https://github.com/rocketride-org/rocketride-server/pull/1993"
+   ]
+  },
+  {
+   "number": 167335,
+   "title": "Support Nushell when resolving the shell environment",
+   "url": "https://github.com/microsoft/vscode/issues/167335",
+   "labels": [
+    "help wanted",
+    "feature-request",
+    "workbench-os-integration"
+   ],
+   "updatedAt": "2026-08-13T11:12:34Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "already assigned to @deepak1556",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/169861",
+    "https://github.com/microsoft/vscode/issues/167335"
+   ]
+  },
+  {
+   "number": 170868,
+   "title": "Adapt the bash of busybox.",
+   "url": "https://github.com/microsoft/vscode/issues/170868",
+   "labels": [
+    "bug",
+    "help wanted",
+    "linux",
+    "good first issue",
+    "terminal-shell-bash"
+   ],
+   "updatedAt": "2026-03-12T17:04:25Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #295061 by @shtse8 is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/295061",
+    "https://github.com/microsoft/vscode/pull/300900",
+    "https://github.com/microsoft/vscode/pull/320540",
+    "https://github.com/microsoft/vscode/pull/170870"
+   ]
+  },
+  {
+   "number": 172127,
+   "title": "Make \"Go to match\" more discoverable",
+   "url": "https://github.com/microsoft/vscode/issues/172127",
+   "labels": [
+    "help wanted",
+    "polish",
+    "editor-find"
+   ],
+   "updatedAt": "2026-07-18T10:38:50Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #305716 by @yogeshwaran-c is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/305716"
+   ]
+  },
+  {
+   "number": 172722,
+   "title": "Git - provide action `push --set-upstream` when remote ref is delete",
+   "url": "https://github.com/microsoft/vscode/issues/172722",
+   "labels": [
+    "help wanted",
+    "feature-request",
+    "git"
+   ],
+   "updatedAt": "2026-10-12T15:58:37Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #340984 by @yuki-nakano-520 is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/340984"
+   ]
+  },
+  {
+   "number": 174486,
+   "title": "VS Code reports incorrect size of the terminal until the terminal is manually resized",
+   "url": "https://github.com/microsoft/vscode/issues/174486",
+   "labels": [
+    "bug",
+    "help wanted",
+    "terminal-layout"
+   ],
+   "updatedAt": "2026-10-03T22:19:32Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #339514 by @nkramber is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/339514"
+   ]
+  },
+  {
+   "number": 174537,
+   "title": "Support HISTTIMEFORMAT in bash shell integration ",
+   "url": "https://github.com/microsoft/vscode/issues/174537",
+   "labels": [
+    "help wanted",
+    "feature-request",
+    "terminal-shell-bash"
+   ],
+   "updatedAt": "2026-10-04T20:23:01Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #307795 by @yogeshwaran-c is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/307795"
+   ]
+  },
+  {
+   "number": 175062,
+   "title": "Git - Clone of ssh-style URL fails b/c path does not strip username/hostname components",
+   "url": "https://github.com/microsoft/vscode/issues/175062",
+   "labels": [
+    "bug",
+    "help wanted",
+    "git",
+    "team-low-hanging"
+   ],
+   "updatedAt": "2026-10-24T09:09:20Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #297582 by @yogeshwaran-c is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/297582",
+    "https://github.com/microsoft/vscode/pull/318518"
+   ]
+  },
+  {
+   "number": 182679,
+   "title": "GitHub - improving git error message for fatal error in commit_refs",
+   "url": "https://github.com/microsoft/vscode/issues/182679",
+   "labels": [
+    "bug",
+    "help wanted",
+    "git",
+    "papercut :drop_of_blood:"
+   ],
+   "updatedAt": "2026-10-04T06:27:29Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #301115 by @murataslan1 is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/301115",
+    "https://github.com/microsoft/vscode/pull/339358",
+    "https://github.com/microsoft/vscode/pull/339577"
+   ]
+  },
+  {
+   "number": 182795,
+   "title": "Simple browser will be opened multiple times with race",
+   "url": "https://github.com/microsoft/vscode/issues/182795",
+   "labels": [
+    "bug",
+    "help wanted",
+    "good first issue",
+    "webview"
+   ],
+   "updatedAt": "2026-08-21T20:41:03Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #197188 by @robincaloudis is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/197188",
+    "https://github.com/microsoft/vscode/pull/285633",
+    "https://github.com/microsoft/vscode/pull/298545",
+    "https://github.com/microsoft/vscode/pull/324379",
+    "https://github.com/microsoft/vscode/pull/341836"
+   ]
+  },
+  {
+   "number": 182979,
+   "title": "Terminal panel overwrites `terminalEditorActive` context key when a terminal editor is present",
+   "url": "https://github.com/microsoft/vscode/issues/182979",
+   "labels": [
+    "bug",
+    "help wanted",
+    "confirmed",
+    "terminal-editors"
+   ],
+   "updatedAt": "2026-11-06T21:38:49Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #308430 by @yogeshwaran-c is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/308430",
+    "https://github.com/microsoft/vscode/pull/304802"
+   ]
+  },
+  {
+   "number": 183972,
+   "title": "Nonce does not appear to work on fish shell",
+   "url": "https://github.com/microsoft/vscode/issues/183972",
+   "labels": [
+    "bug",
+    "help wanted",
+    "confirmed",
+    "terminal-shell-fish"
+   ],
+   "updatedAt": "2026-10-09T17:53:36Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #313195 by @yogeshwaran-c is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/313195"
+   ]
+  },
+  {
+   "number": 184142,
+   "title": "Custom editors should not allow to make edits after extension host restart",
+   "url": "https://github.com/microsoft/vscode/issues/184142",
+   "labels": [
+    "bug",
+    "help wanted",
+    "custom-editors"
+   ],
+   "updatedAt": "2026-09-12T09:46:56Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #338098 by @ahcrm-core is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/338098",
+    "https://github.com/microsoft/vscode/pull/345363",
+    "https://github.com/zknpr/SQLite-Explorer/pull/551"
+   ]
+  },
+  {
+   "number": 189951,
+   "title": "explorer.excludeGitIgnore stops at the first .gitgnore file it finds instead of walking up the tree to the git repo root",
+   "url": "https://github.com/microsoft/vscode/issues/189951",
+   "labels": [
+    "bug",
+    "help wanted",
+    "file-explorer"
+   ],
+   "updatedAt": "2026-08-16T05:25:23Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #331059 by @martincheck is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/331059",
+    "https://github.com/microsoft/vscode/pull/344347"
+   ]
+  },
+  {
+   "number": 194322,
+   "title": "Process Explorer memory usage doesn't add up to Activity Monitor",
+   "url": "https://github.com/microsoft/vscode/issues/194322",
+   "labels": [
+    "bug",
+    "help wanted",
+    "workbench-diagnostics"
+   ],
+   "updatedAt": "2026-08-17T03:13:44Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #331139 by @aidaodedjl is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/331139",
+    "https://github.com/microsoft/vscode/pull/331297"
+   ]
+  },
+  {
+   "number": 194412,
+   "title": "Settings editor width overflows space in 2x2 grid",
+   "url": "https://github.com/microsoft/vscode/issues/194412",
+   "labels": [
+    "bug",
+    "help wanted",
+    "splitview-widget",
+    "grid-widget"
+   ],
+   "updatedAt": "2026-06-25T07:21:17Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #307246 by @yogeshwaran-c is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/307246"
+   ]
+  },
+  {
+   "number": 194816,
+   "title": "Command to open view container doesn't toggle properly",
+   "url": "https://github.com/microsoft/vscode/issues/194816",
+   "labels": [
+    "bug",
+    "help wanted",
+    "webview"
+   ],
+   "updatedAt": "2026-10-13T15:27:52Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #341316 by @yuki-nakano-520 is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/341316"
+   ]
+  },
+  {
+   "number": 195960,
+   "title": "Add \"resourceWebviewId\" context key for webviews in `editor/title/context` contribution point",
+   "url": "https://github.com/microsoft/vscode/issues/195960",
+   "labels": [
+    "help wanted",
+    "feature-request",
+    "api"
+   ],
+   "updatedAt": "2026-10-23T03:14:38Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #343585 by @XY-code1 is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/343585"
+   ]
+  },
+  {
+   "number": 199953,
+   "title": "Aux window: should change the cursor style within the dropping area",
+   "url": "https://github.com/microsoft/vscode/issues/199953",
+   "labels": [
+    "help wanted",
+    "feature-request",
+    "workbench-dnd",
+    "workbench-auxwindow"
+   ],
+   "updatedAt": "2026-09-03T12:12:03Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #296448 by @murataslan1 is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/296448"
+   ]
+  },
+  {
+   "number": 206225,
+   "title": "SCM - Tree view versioned directories decorations ignored",
+   "url": "https://github.com/microsoft/vscode/issues/206225",
+   "labels": [
+    "bug",
+    "help wanted",
+    "scm"
+   ],
+   "updatedAt": "2026-11-08T20:01:46Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #346860 by @sameerihs is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/346860"
+   ]
+  },
+  {
+   "number": 209601,
+   "title": "code serve web --server-base-path PWA app does not include base path",
+   "url": "https://github.com/microsoft/vscode/issues/209601",
+   "labels": [
+    "bug",
+    "help wanted",
+    "remote"
+   ],
+   "updatedAt": "2026-08-11T22:35:30Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #330360 by @Boulea7 is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/330360"
+   ]
+  },
+  {
+   "number": 214625,
+   "title": "SCM Working Set - persist pinned tabs when switching branches",
+   "url": "https://github.com/microsoft/vscode/issues/214625",
+   "labels": [
+    "help wanted",
+    "feature-request",
+    "scm"
+   ],
+   "updatedAt": "2026-06-10T17:11:55Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #337622 by @SrikarshVardhanreddyKolanu is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/337622"
+   ]
+  },
+  {
+   "number": 223591,
+   "title": "Warning when running in vscode terminal 'xdg-open \"https://...\"'",
+   "url": "https://github.com/microsoft/vscode/issues/223591",
+   "labels": [
+    "bug",
+    "linux",
+    "good first issue",
+    "terminal",
+    "snap",
+    "wayland"
+   ],
+   "updatedAt": "2026-10-28T11:51:14Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #269449 by @magliocchetti is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/269449",
+    "https://github.com/microsoft/vscode/pull/339405"
+   ]
+  },
+  {
+   "number": 225807,
+   "title": "cursor placement of TSX tags does not work with some tailwind properties ",
+   "url": "https://github.com/microsoft/vscode/issues/225807",
+   "labels": [
+    "bug",
+    "help wanted",
+    "javascript"
+   ],
+   "updatedAt": "2026-11-09T23:21:25Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #347209 by @GouthamMahesh is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/347209"
+   ]
+  },
+  {
+   "number": 227849,
+   "title": "ctrl+z / ctrl+shift+z (undo/redo) not working for input elements when a custom editor is open",
+   "url": "https://github.com/microsoft/vscode/issues/227849",
+   "labels": [
+    "bug",
+    "help wanted",
+    "custom-editors"
+   ],
+   "updatedAt": "2026-10-30T19:17:23Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #345362 by @rufatazizzade is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/345362"
+   ]
+  },
+  {
+   "number": 231076,
+   "title": "VS Code is ignoring the environment setting for node js --max-old-space-size",
+   "url": "https://github.com/microsoft/vscode/issues/231076",
+   "labels": [
+    "bug",
+    "help wanted",
+    "good first issue",
+    "windows",
+    "terminal-process"
+   ],
+   "updatedAt": "2026-09-01T07:09:44Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #267680 by @Prhmma is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/267680",
+    "https://github.com/microsoft/vscode/pull/305262",
+    "https://github.com/microsoft/vscode/pull/320511",
+    "https://github.com/microsoft/vscode/pull/333390",
+    "https://github.com/microsoft/vscode/pull/343742"
+   ]
+  },
+  {
+   "number": 232159,
+   "title": "Devcontainer setup ad-hoc parsing fails on Rocky 8.5",
+   "url": "https://github.com/microsoft/vscode/issues/232159",
+   "labels": [
+    "bug",
+    "linux",
+    "good first issue",
+    "remote"
+   ],
+   "updatedAt": "2026-10-15T13:29:43Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #236759 by @aslezar is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/236759",
+    "https://github.com/microsoft/vscode/pull/286456",
+    "https://github.com/microsoft/vscode/pull/303338",
+    "https://github.com/microsoft/vscode/pull/306993",
+    "https://github.com/microsoft/vscode/pull/308001",
+    "https://github.com/microsoft/vscode/pull/318787",
+    "https://github.com/microsoft/vscode/pull/319026",
+    "https://github.com/microsoft/vscode/pull/326927",
+    "https://github.com/microsoft/vscode/pull/328629"
+   ]
+  },
+  {
+   "number": 232381,
+   "title": "Go to symbol in workspace shortcut in Codespaces (browser) is CTRL-T.",
+   "url": "https://github.com/microsoft/vscode/issues/232381",
+   "labels": [
+    "help wanted",
+    "feature-request",
+    "good first issue",
+    "quick-open"
+   ],
+   "updatedAt": "2026-09-01T07:09:36Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #292259 by @murataslan1 is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/292259",
+    "https://github.com/microsoft/vscode/pull/316725",
+    "https://github.com/microsoft/vscode/pull/339603",
+    "https://github.com/nanoframework/nf-VSCodeExtension/pull/444"
+   ]
+  },
+  {
+   "number": 237074,
+   "title": "Support Notebook Cell Level metadata such as Freeze/protect cell / skip execution/collapsed",
+   "url": "https://github.com/microsoft/vscode/issues/237074",
+   "labels": [
+    "help wanted",
+    "feature-request",
+    "notebook-serialization",
+    "notebook-execution"
+   ],
+   "updatedAt": "2026-08-04T17:28:05Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "already assigned to @DonJayamanne",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/issues/237074",
+    "https://github.com/microsoft/vscode/issues/237074#issuecomment-5182452273"
+   ]
+  },
+  {
+   "number": 238088,
+   "title": "Terminal GPU acceletion causing GPU page faults on AMD (hangs, soft-timeouts and resets)",
+   "url": "https://github.com/microsoft/vscode/issues/238088",
+   "labels": [
+    "bug",
+    "help wanted",
+    "upstream"
+   ],
+   "updatedAt": "2026-10-10T13:17:20Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "already assigned to @deepak1556",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/issues/238088"
+   ]
+  },
+  {
+   "number": 239851,
+   "title": "Force Update Git internals when Refreshing Explorer",
+   "url": "https://github.com/microsoft/vscode/issues/239851",
+   "labels": [
+    "bug",
+    "help wanted",
+    "git"
+   ],
+   "updatedAt": "2026-10-30T19:42:57Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "already assigned to @lszomoru",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/issues/239851"
+   ]
+  },
+  {
+   "number": 240436,
+   "title": "DocumentDropEditProvider does not work with notebooks",
+   "url": "https://github.com/microsoft/vscode/issues/240436",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-10-21T09:20:23Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "already assigned to @amunger",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/issues/240436",
+    "https://github.com/microsoft/vscode/issues/240436#issuecomment-6312507869"
+   ]
+  },
+  {
+   "number": 241405,
+   "title": "Window title bar remains in -inFocus color even when multiple windows open at the same time.",
+   "url": "https://github.com/microsoft/vscode/issues/241405",
+   "labels": [
+    "bug",
+    "help wanted",
+    "titlebar"
+   ],
+   "updatedAt": "2026-09-23T22:39:18Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "already assigned to @benibenj",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/issues/241405"
+   ]
+  },
+  {
+   "number": 242399,
+   "title": "VSCode maximized window shifted right and bottom - on WSL2 Linux",
+   "url": "https://github.com/microsoft/vscode/issues/242399",
+   "labels": [
+    "bug",
+    "help wanted",
+    "linux",
+    "WSL",
+    "confirmation-pending"
+   ],
+   "updatedAt": "2026-08-28T09:04:23Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "already assigned to @deepak1556",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/issues/242399"
+   ]
+  },
+  {
+   "number": 244138,
+   "title": "Disabled and enabled (workspace) extension Disable button dropdown contains both \"Disable\" and \"Disable (Workspace)\" items",
+   "url": "https://github.com/microsoft/vscode/issues/244138",
+   "labels": [
+    "bug",
+    "help wanted",
+    "good first issue",
+    "extensions"
+   ],
+   "updatedAt": "2026-10-18T18:20:23Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #255375 by @masa-kjm is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/255375",
+    "https://github.com/microsoft/vscode/pull/285636",
+    "https://github.com/microsoft/vscode/pull/289324",
+    "https://github.com/microsoft/vscode/pull/295692",
+    "https://github.com/microsoft/vscode/pull/298546",
+    "https://github.com/microsoft/vscode/pull/299216",
+    "https://github.com/microsoft/vscode/pull/300218",
+    "https://github.com/microsoft/vscode/pull/305097",
+    "https://github.com/microsoft/vscode/pull/305248"
+   ]
+  },
+  {
+   "number": 247522,
+   "title": "[Accessibility] Mouse echo don't work with NVDA and  JAWS",
+   "url": "https://github.com/microsoft/vscode/issues/247522",
+   "labels": [
+    "bug",
+    "help wanted",
+    "accessibility",
+    "regression"
+   ],
+   "updatedAt": "2026-09-07T21:28:26Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "already assigned to @meganrogge, @aiday-mar",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/issues/247522"
+   ]
+  },
+  {
+   "number": 248328,
+   "title": "Git extension API branch `upstream` is undefined when repo was cloned shallow",
+   "url": "https://github.com/microsoft/vscode/issues/248328",
+   "labels": [
+    "bug",
+    "help wanted",
+    "git"
+   ],
+   "updatedAt": "2026-11-06T15:52:38Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #304980 by @yogeshwaran-c is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/304980"
+   ]
+  },
+  {
+   "number": 249624,
+   "title": "[json] JSON Schema anyOf error reporting is misleading",
+   "url": "https://github.com/microsoft/vscode/issues/249624",
+   "labels": [
+    "help wanted",
+    "feature-request",
+    "json"
+   ],
+   "updatedAt": "2026-08-22T23:43:56Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "already assigned to @aeschli",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/issues/249624",
+    "https://github.com/microsoft/vscode/issues/249624#issuecomment-5302663100"
+   ]
+  },
+  {
+   "number": 250938,
+   "title": "SCM Graph - add Open File action",
+   "url": "https://github.com/microsoft/vscode/issues/250938",
+   "labels": [
+    "help wanted",
+    "feature-request",
+    "scm"
+   ],
+   "updatedAt": "2026-09-29T19:54:30Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #307882 by @yogeshwaran-c is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/307882"
+   ]
+  },
+  {
+   "number": 251233,
+   "title": "[engineering] sourcemap issues",
+   "url": "https://github.com/microsoft/vscode/issues/251233",
+   "labels": [
+    "help wanted",
+    "debt",
+    "vscode-build",
+    "engineering"
+   ],
+   "updatedAt": "2026-09-15T22:14:25Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "already assigned to @dmitrivMS",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/336126",
+    "https://github.com/microsoft/vscode/issues/251233"
+   ]
+  },
+  {
+   "number": 252076,
+   "title": "Feature Request: Auto-Trigger Parameter Hints When Cursor Enters Parentheses",
+   "url": "https://github.com/microsoft/vscode/issues/252076",
+   "labels": [
+    "help wanted",
+    "feature-request",
+    "editor-parameter-hints"
+   ],
+   "updatedAt": "2026-10-05T18:45:25Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "already assigned to @mjbvz",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/issues/252076",
+    "https://github.com/microsoft/vscode/issues/252076#issuecomment-3218501003"
+   ]
+  },
+  {
+   "number": 252667,
+   "title": "Update GitHub Issue Notebooks due to GitHub issue query breaking change",
+   "url": "https://github.com/microsoft/vscode/issues/252667",
+   "labels": [
+    "help wanted",
+    "engineering"
+   ],
+   "updatedAt": "2026-06-25T10:29:01Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #317552 by @haneel-kumar is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/317552"
+   ]
+  },
+  {
+   "number": 253704,
+   "title": "Git - All lines in files with 400 lines and more are shown as modified in gutter while they are not",
+   "url": "https://github.com/microsoft/vscode/issues/253704",
+   "labels": [
+    "bug",
+    "help wanted",
+    "git"
+   ],
+   "updatedAt": "2026-07-12T12:23:38Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #303517 by @H1net is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/303517",
+    "https://github.com/microsoft/vscode/pull/314348",
+    "https://github.com/microsoft/vscode/pull/332872"
+   ]
+  },
+  {
+   "number": 255503,
+   "title": "Unable to abandon task with ${input} variable type command",
+   "url": "https://github.com/microsoft/vscode/issues/255503",
+   "labels": [
+    "bug",
+    "help wanted",
+    "tasks"
+   ],
+   "updatedAt": "2026-08-06T21:09:35Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #307980 by @maruthang is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/307980"
+   ]
+  },
+  {
+   "number": 256444,
+   "title": "Drag&Drop within extension from one webview to the other not working with vscode > 1.90.0",
+   "url": "https://github.com/microsoft/vscode/issues/256444",
+   "labels": [
+    "bug",
+    "help wanted",
+    "webview"
+   ],
+   "updatedAt": "2026-06-13T15:20:56Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #321275 by @vaclavHala is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/321275"
+   ]
+  },
+  {
+   "number": 256854,
+   "title": "Review AsyncIterableObject usage: potential memory leaks and migration to AsyncIterableProducer",
+   "url": "https://github.com/microsoft/vscode/issues/256854",
+   "labels": [
+    "help wanted",
+    "freeze-slow-crash-leak",
+    "debt",
+    "good first issue",
+    "perf"
+   ],
+   "updatedAt": "2026-11-10T08:52:10Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "already assigned to @DonJayamanne, @sandy081",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/256868",
+    "https://github.com/microsoft/vscode/pull/257043",
+    "https://github.com/microsoft/vscode/pull/257175",
+    "https://github.com/microsoft/vscode/pull/270230",
+    "https://github.com/microsoft/vscode-copilot-chat/pull/1336",
+    "https://github.com/microsoft/vscode-copilot-chat/pull/1267",
+    "https://github.com/microsoft/vscode/pull/276068",
+    "https://github.com/microsoft/vscode/issues/256854",
+    "https://github.com/microsoft/vscode/issues/256854#issuecomment-6235553560"
+   ]
+  },
+  {
+   "number": 257960,
+   "title": "Git stash created by lint-staged not visible in VS Code's \"View Stash\" panel",
+   "url": "https://github.com/microsoft/vscode/issues/257960",
+   "labels": [
+    "bug",
+    "help wanted",
+    "git"
+   ],
+   "updatedAt": "2026-10-03T08:55:33Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #301113 by @murataslan1 is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/301113",
+    "https://github.com/microsoft/vscode/pull/342132"
+   ]
+  },
+  {
+   "number": 262880,
+   "title": "SCM Graph - follow Git Worktree selection",
+   "url": "https://github.com/microsoft/vscode/issues/262880",
+   "labels": [
+    "bug",
+    "help wanted",
+    "scm"
+   ],
+   "updatedAt": "2026-09-27T04:46:48Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "already assigned to @lszomoru",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/pony-factor/sweetiebot-SCM/pull/679",
+    "https://github.com/microsoft/vscode/issues/262880",
+    "https://github.com/microsoft/vscode/issues/262880#issuecomment-5852518505"
+   ]
+  },
+  {
+   "number": 265613,
+   "title": "Better integration of pre-commit hooks with Python virtual environments.",
+   "url": "https://github.com/microsoft/vscode/issues/265613",
+   "labels": [
+    "help wanted",
+    "feature-request",
+    "git"
+   ],
+   "updatedAt": "2026-10-28T17:07:46Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "already assigned to @lszomoru",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/issues/265613"
+   ]
+  },
+  {
+   "number": 265661,
+   "title": "Support for FoldingRangeProviders that don't disable indentation based folding",
+   "url": "https://github.com/microsoft/vscode/issues/265661",
+   "labels": [
+    "help wanted",
+    "feature-request",
+    "editor-folding"
+   ],
+   "updatedAt": "2026-10-13T16:26:44Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #344055 by @kinqsradio is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/344055"
+   ]
+  },
+  {
+   "number": 268378,
+   "title": "ParseError: KaTeX parse error: Expected 'EOF', got '#'",
+   "url": "https://github.com/microsoft/vscode/issues/268378",
+   "labels": [
+    "bug",
+    "help wanted",
+    "verification-found",
+    "ai-translated"
+   ],
+   "updatedAt": "2026-09-04T14:09:53Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #39 by @maruthang is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode-markdown-it-katex/pull/39",
+    "https://github.com/microsoft/vscode/pull/269635"
+   ]
+  },
+  {
+   "number": 269812,
+   "title": "Git - Respect submodule names defined in superrepo's `.gitmodules` file",
+   "url": "https://github.com/microsoft/vscode/issues/269812",
+   "labels": [
+    "help wanted",
+    "feature-request",
+    "git"
+   ],
+   "updatedAt": "2026-07-14T18:51:37Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #269902 by @Gravifer is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/269902"
+   ]
+  },
+  {
+   "number": 271120,
+   "title": "Missing Image Zoom Status Bar When Viewing Images Locally",
+   "url": "https://github.com/microsoft/vscode/issues/271120",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-10-01T10:31:20Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "already assigned to @mjbvz",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/issues/271120"
+   ]
+  },
+  {
+   "number": 273757,
+   "title": "Git - Use `git mv` when moving and renaming files",
+   "url": "https://github.com/microsoft/vscode/issues/273757",
+   "labels": [
+    "help wanted",
+    "feature-request",
+    "git"
+   ],
+   "updatedAt": "2026-08-25T19:38:09Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #279722 by @reena96 is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/279722",
+    "https://github.com/reena96/vscode/pull/1"
+   ]
+  },
+  {
+   "number": 273934,
+   "title": "[css] support comma less color notations ",
+   "url": "https://github.com/microsoft/vscode/issues/273934",
+   "labels": [
+    "help wanted",
+    "feature-request",
+    "css-less-scss"
+   ],
+   "updatedAt": "2026-10-15T08:30:51Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "already assigned to @aeschli",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/issues/273934",
+    "https://github.com/microsoft/vscode/issues/273934#issuecomment-5919343085"
+   ]
+  },
+  {
+   "number": 274545,
+   "title": "[npm] package.json dependency autocomplete: autocomplete all versions",
+   "url": "https://github.com/microsoft/vscode/issues/274545",
+   "labels": [
+    "help wanted",
+    "feature-request",
+    "json"
+   ],
+   "updatedAt": "2026-10-08T06:04:10Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #301018 by @murataslan1 is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/301018"
+   ]
+  },
+  {
+   "number": 278083,
+   "title": "scm.diffDecorationsGutterWidth allow higher values in settings editor",
+   "url": "https://github.com/microsoft/vscode/issues/278083",
+   "labels": [
+    "help wanted",
+    "feature-request",
+    "scm"
+   ],
+   "updatedAt": "2026-10-02T13:29:53Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #297032 by @skdas20 is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/297032",
+    "https://github.com/microsoft/vscode/pull/316395",
+    "https://github.com/microsoft/vscode/pull/339300"
+   ]
+  },
+  {
+   "number": 280264,
+   "title": "SCM - include stashes in the graph",
+   "url": "https://github.com/microsoft/vscode/issues/280264",
+   "labels": [
+    "help wanted",
+    "feature-request",
+    "scm"
+   ],
+   "updatedAt": "2026-09-28T20:43:59Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #302315 by @iumehara is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/302315"
+   ]
+  },
+  {
+   "number": 280834,
+   "title": "Git Warning Message Incorrectly Styled as Error",
+   "url": "https://github.com/microsoft/vscode/issues/280834",
+   "labels": [
+    "bug",
+    "help wanted",
+    "git"
+   ],
+   "updatedAt": "2026-07-28T20:49:35Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #282274 by @AlexCSalinas is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/282274",
+    "https://github.com/microsoft/vscode/pull/296036",
+    "https://github.com/microsoft/vscode/pull/301090",
+    "https://github.com/microsoft/vscode/pull/305229",
+    "https://github.com/microsoft/vscode/pull/309186",
+    "https://github.com/microsoft/vscode/pull/327894"
+   ]
+  },
+  {
+   "number": 282077,
+   "title": "NES + neovim interaction",
+   "url": "https://github.com/microsoft/vscode/issues/282077",
+   "labels": [
+    "help wanted",
+    "feature-request",
+    "NES"
+   ],
+   "updatedAt": "2026-09-01T07:10:14Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #320546 by @arnavnagzirkar is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/320546"
+   ]
+  },
+  {
+   "number": 283151,
+   "title": "Terminal Shell Integration requires update for newer PowerShell 7.4+ ConstrainedLanguage AUDIT mode",
+   "url": "https://github.com/microsoft/vscode/issues/283151",
+   "labels": [
+    "bug",
+    "help wanted",
+    "confirmation-pending",
+    "terminal-shell-integration",
+    "terminal-shell-pwsh"
+   ],
+   "updatedAt": "2026-09-02T11:20:11Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #283178 by @skbtwiz is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/283178",
+    "https://github.com/microsoft/vscode/pull/319252",
+    "https://github.com/microsoft/vscode/pull/328570"
+   ]
+  },
+  {
+   "number": 283975,
+   "title": "Git fetch from other branches",
+   "url": "https://github.com/microsoft/vscode/issues/283975",
+   "labels": [
+    "help wanted",
+    "feature-request",
+    "git"
+   ],
+   "updatedAt": "2026-09-01T07:10:06Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #293041 by @sam-shubham is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/293041",
+    "https://github.com/microsoft/vscode/pull/338131"
+   ]
+  },
+  {
+   "number": 286146,
+   "title": "bug: Native support for fish shell in Copilot Chat: Multiline command handling and terminal stability",
+   "url": "https://github.com/microsoft/vscode/issues/286146",
+   "labels": [
+    "help wanted",
+    "feature-request",
+    "terminal-shell-fish"
+   ],
+   "updatedAt": "2026-09-01T07:10:01Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #286954 by @Anselmoo is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/286954"
+   ]
+  },
+  {
+   "number": 292567,
+   "title": "Can't copy webview image to clipboard",
+   "url": "https://github.com/microsoft/vscode/issues/292567",
+   "labels": [
+    "bug",
+    "help wanted",
+    "webview"
+   ],
+   "updatedAt": "2026-09-01T07:09:57Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #320234 by @Parasaran-Python is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/320234",
+    "https://github.com/microsoft/vscode/pull/334512",
+    "https://github.com/microsoft/vscode/pull/338129"
+   ]
+  }
+ ]
+}

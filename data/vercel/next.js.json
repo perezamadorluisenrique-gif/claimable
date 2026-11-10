@@ -1,0 +1,244 @@
+{
+ "owner": "vercel",
+ "repo": "next.js",
+ "language": "JavaScript",
+ "stars": 143452,
+ "description": "The React Framework",
+ "visitedAt": "2026-11-10T17:47:07.019Z",
+ "issues": [
+  {
+   "number": 10465,
+   "title": "Swipe back on mobile browser with getInitialProps flickers the previous page",
+   "url": "https://github.com/vercel/next.js/issues/10465",
+   "labels": [
+    "good first issue",
+    "Linking and Navigating"
+   ],
+   "updatedAt": "2026-03-03T17:38:10Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #94117 by @deeepanshu12 is already open against this issue",
+   "evidence": [
+    "https://github.com/vercel/next.js/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/vercel/next.js/pull/94117",
+    "https://github.com/vercel/next.js/pull/94260"
+   ]
+  },
+  {
+   "number": 10900,
+   "title": "getInitialProps is not running when Router.replace's \"href\" and \"as\" contains hash and query params inside \"href\" change.",
+   "url": "https://github.com/vercel/next.js/issues/10900",
+   "labels": [
+    "good first issue",
+    "Linking and Navigating"
+   ],
+   "updatedAt": "2026-09-01T11:05:05Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #85036 by @jaydoshi2 is already open against this issue",
+   "evidence": [
+    "https://github.com/vercel/next.js/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/vercel/next.js/pull/85036",
+    "https://github.com/vercel/next.js/pull/94259"
+   ]
+  },
+  {
+   "number": 13653,
+   "title": "Scrolling happens when user returns to a page with hash using browser back button",
+   "url": "https://github.com/vercel/next.js/issues/13653",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2026-09-01T11:05:01Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #65581 by @nidhipawar5 is already open against this issue",
+   "evidence": [
+    "https://github.com/vercel/next.js/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/vercel/next.js/pull/65581",
+    "https://github.com/vercel/next.js/pull/94258",
+    "https://github.com/vercel/next.js/pull/98118",
+    "https://github.com/vercel/next.js/pull/99280",
+    "https://github.com/mui/material-ui/pull/24418"
+   ]
+  },
+  {
+   "number": 14244,
+   "title": "ISG with GIP in _app overrides cache-control of ISG page",
+   "url": "https://github.com/vercel/next.js/issues/14244",
+   "labels": [
+    "good first issue",
+    "type: next",
+    "Pages Router"
+   ],
+   "updatedAt": "2026-10-03T03:05:17Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #89518 by @SaaiAravindhRaja is already open against this issue",
+   "evidence": [
+    "https://github.com/vercel/next.js/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/vercel/next.js/pull/89518",
+    "https://github.com/vercel/next.js/pull/94257",
+    "https://github.com/vercel/next.js/pull/95155"
+   ]
+  },
+  {
+   "number": 15971,
+   "title": "Redux-observable server side fetching",
+   "url": "https://github.com/vercel/next.js/issues/15971",
+   "labels": [
+    "good first issue",
+    "examples"
+   ],
+   "updatedAt": "2026-09-03T10:20:44Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #94233 by @duongynhi000005-oss is already open against this issue",
+   "evidence": [
+    "https://github.com/vercel/next.js/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/vercel/next.js/pull/94233",
+    "https://github.com/vercel/next.js/pull/13615"
+   ]
+  },
+  {
+   "number": 16660,
+   "title": "Dynamic Routes in Symlinks is not working",
+   "url": "https://github.com/vercel/next.js/issues/16660",
+   "labels": [
+    "good first issue",
+    "Linking and Navigating"
+   ],
+   "updatedAt": "2026-09-01T11:04:55Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #93252 by @1Jul1an is already open against this issue",
+   "evidence": [
+    "https://github.com/vercel/next.js/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/vercel/next.js/pull/93252"
+   ]
+  },
+  {
+   "number": 20924,
+   "title": "Misleading \"next-head-count is missing\" error for invalid head tags",
+   "url": "https://github.com/vercel/next.js/issues/20924",
+   "labels": [
+    "good first issue",
+    "Linting",
+    "Metadata"
+   ],
+   "updatedAt": "2026-09-01T10:29:31Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #80530 by @xabierlameiro is already open against this issue",
+   "evidence": [
+    "https://github.com/vercel/next.js/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/vercel/next.js/pull/80530",
+    "https://github.com/vercel/next.js/pull/87233",
+    "https://github.com/vercel/next.js/pull/89902",
+    "https://github.com/vercel/next.js/pull/91794",
+    "https://github.com/vercel/next.js/pull/92440",
+    "https://github.com/vercel/next.js/pull/92766",
+    "https://github.com/vercel/next.js/pull/93793",
+    "https://github.com/vercel/next.js/pull/93841",
+    "https://github.com/vercel/next.js/pull/94085"
+   ]
+  },
+  {
+   "number": 38863,
+   "title": "POST request succeeds for pages with next dev",
+   "url": "https://github.com/vercel/next.js/issues/38863",
+   "labels": [
+    "good first issue",
+    "bug",
+    "linear: next"
+   ],
+   "updatedAt": "2026-09-01T10:29:28Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #84315 by @OwenS3881 is already open against this issue",
+   "evidence": [
+    "https://github.com/vercel/next.js/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/vercel/next.js/pull/84315",
+    "https://github.com/vercel/next.js/pull/89568",
+    "https://github.com/vercel/next.js/pull/92707",
+    "https://github.com/vercel/next.js/pull/92783",
+    "https://github.com/vercel/next.js/pull/92989",
+    "https://github.com/vercel/next.js/pull/93250",
+    "https://github.com/vercel/next.js/pull/94084",
+    "https://github.com/vercel/next.js/pull/94242",
+    "https://github.com/vercel/next.js/pull/94248"
+   ]
+  },
+  {
+   "number": 41281,
+   "title": "Inconsistent Error Messaging / Handling in getStaticPaths",
+   "url": "https://github.com/vercel/next.js/issues/41281",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2026-11-08T05:10:35Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #53307 by @smcg468 is already open against this issue",
+   "evidence": [
+    "https://github.com/vercel/next.js/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/vercel/next.js/pull/53307",
+    "https://github.com/vercel/next.js/pull/87234",
+    "https://github.com/vercel/next.js/pull/89389",
+    "https://github.com/vercel/next.js/pull/91976",
+    "https://github.com/vercel/next.js/pull/91994",
+    "https://github.com/vercel/next.js/pull/92764",
+    "https://github.com/vercel/next.js/pull/92991",
+    "https://github.com/vercel/next.js/pull/93045",
+    "https://github.com/vercel/next.js/pull/94247"
+   ]
+  },
+  {
+   "number": 42846,
+   "title": "Parameter on `AppType` is used incorrectly",
+   "url": "https://github.com/vercel/next.js/issues/42846",
+   "labels": [
+    "good first issue",
+    "TypeScript"
+   ],
+   "updatedAt": "2026-09-14T13:46:25Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #85293 by @Golenspade is already open against this issue",
+   "evidence": [
+    "https://github.com/vercel/next.js/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/vercel/next.js/pull/85293",
+    "https://github.com/vercel/next.js/pull/86935",
+    "https://github.com/vercel/next.js/pull/90697",
+    "https://github.com/JGJP/next.js/pull/1",
+    "https://github.com/vercel/next.js/pull/91714",
+    "https://github.com/vercel/next.js/pull/92763"
+   ]
+  },
+  {
+   "number": 53473,
+   "title": "`@next/next/no-html-link-for-pages` rule does not work with `pageExtensions`",
+   "url": "https://github.com/vercel/next.js/issues/53473",
+   "labels": [
+    "good first issue",
+    "Linting"
+   ],
+   "updatedAt": "2026-11-04T08:05:02Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #54474 by @nnmax is already open against this issue",
+   "evidence": [
+    "https://github.com/vercel/next.js/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/vercel/next.js/pull/54474",
+    "https://github.com/vercel/next.js/pull/68099",
+    "https://github.com/vercel/next.js/pull/78546",
+    "https://github.com/vercel/next.js/pull/80035",
+    "https://github.com/vercel/next.js/pull/83493",
+    "https://github.com/vercel/next.js/pull/85102",
+    "https://github.com/vercel/next.js/pull/85967",
+    "https://github.com/vercel/next.js/pull/85996",
+    "https://github.com/vercel/next.js/pull/86915"
+   ]
+  }
+ ]
+}

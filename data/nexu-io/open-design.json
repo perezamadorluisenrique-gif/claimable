@@ -1,0 +1,1072 @@
+{
+ "owner": "nexu-io",
+ "repo": "open-design",
+ "language": "TypeScript",
+ "stars": 106999,
+ "description": "The 1st Collaborative AI Design Agent Workspace. Local-first and open source. Create motion, prototypes, websites, apps, dashboards, presentations, images, and videos with your team and AI agents. Sha",
+ "visitedAt": "2026-11-10T17:47:07.019Z",
+ "issues": [
+  {
+   "number": 473,
+   "title": "RFC: add file management actions to Design Files",
+   "url": "https://github.com/nexu-io/open-design/issues/473",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "feature"
+   ],
+   "updatedAt": "2026-11-10T10:41:28Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "@helloigig claimed it today",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/issues/473#issuecomment-6765220010",
+    "https://github.com/nexu-io/open-design/issues/473#issuecomment-4648051305"
+   ]
+  },
+  {
+   "number": 1021,
+   "title": "docs: comprehensive cloud deployment documentation",
+   "url": "https://github.com/nexu-io/open-design/issues/1021",
+   "labels": [
+    "documentation",
+    "good first issue"
+   ],
+   "updatedAt": "2026-05-30T03:06:42Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "reservations",
+   "reason": "PR #1851 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+17 more)",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/1851",
+    "https://github.com/nexu-io/open-design/pull/1996",
+    "https://github.com/nexu-io/open-design/pull/324",
+    "https://github.com/nexu-io/open-design/pull/1874",
+    "https://github.com/nexu-io/open-design/pull/1919",
+    "https://github.com/nexu-io/open-design/pull/2928",
+    "https://github.com/nexu-io/open-design/pull/3183",
+    "https://github.com/nexu-io/open-design/pull/3131",
+    "https://github.com/nexu-io/open-design/pull/3105"
+   ]
+  },
+  {
+   "number": 1026,
+   "title": "enhancement: 腾讯云部署支持 (Tencent Cloud CVM/TKE)",
+   "url": "https://github.com/nexu-io/open-design/issues/1026",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2026-10-14T04:37:57Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "reservations",
+   "reason": "PR #3275 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+4 more)",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/3275",
+    "https://github.com/nexu-io/open-design/pull/3417",
+    "https://github.com/nexu-io/open-design/issues/1026#issuecomment-4666620361",
+    "https://github.com/nexu-io/open-design/issues/1026",
+    "https://github.com/nexu-io/open-design/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/nexu-io/open-design/blob/HEAD/.github/AGENTS.md",
+    "https://docs.anthropic.com/en/docs/claude-code/skills"
+   ]
+  },
+  {
+   "number": 1236,
+   "title": "Exports and downloads complete without any success feedback",
+   "url": "https://github.com/nexu-io/open-design/issues/1236",
+   "labels": [
+    "bug",
+    "good first issue",
+    "priority:p1"
+   ],
+   "updatedAt": "2026-05-19T20:27:09Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @lefarcen 178 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/issues/1236#issuecomment-4469493336",
+    "https://github.com/nexu-io/open-design/issues/1236",
+    "https://github.com/nexu-io/open-design/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/nexu-io/open-design/blob/HEAD/.github/AGENTS.md",
+    "https://docs.anthropic.com/en/docs/claude-code/skills"
+   ]
+  },
+  {
+   "number": 1358,
+   "title": "Routine empty state CTA wraps awkwardly and inline New routine hint is not clickable",
+   "url": "https://github.com/nexu-io/open-design/issues/1358",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted",
+    "priority:p2"
+   ],
+   "updatedAt": "2026-05-22T08:19:06Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "already assigned to @xxiaoxiong",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/2114",
+    "https://github.com/nexu-io/open-design/issues/1358"
+   ]
+  },
+  {
+   "number": 1417,
+   "title": "[FEATURE] Add Humanizer Skill?",
+   "url": "https://github.com/nexu-io/open-design/issues/1417",
+   "labels": [
+    "help wanted",
+    "feature"
+   ],
+   "updatedAt": "2026-10-30T18:24:02Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #9104 by @PratikRai0101 is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/9104"
+   ]
+  },
+  {
+   "number": 1646,
+   "title": "A2E Media provider",
+   "url": "https://github.com/nexu-io/open-design/issues/1646",
+   "labels": [
+    "good first issue",
+    "help wanted",
+    "feature"
+   ],
+   "updatedAt": "2026-06-11T20:11:35Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #3351 by @aneennn is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/3351",
+    "https://github.com/nexu-io/open-design/pull/1989",
+    "https://github.com/nexu-io/open-design/pull/1927",
+    "https://github.com/nexu-io/open-design/pull/1332",
+    "https://github.com/nexu-io/open-design/pull/1734",
+    "https://github.com/nexu-io/open-design/pull/2761",
+    "https://github.com/nexu-io/open-design/pull/3163"
+   ]
+  },
+  {
+   "number": 1770,
+   "title": "Plugin detail modal layout feels visually unbalanced in 0.8.0-preview",
+   "url": "https://github.com/nexu-io/open-design/issues/1770",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted",
+    "priority:p2",
+    "preview/v0.8.0"
+   ],
+   "updatedAt": "2026-05-20T11:58:07Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "already assigned to @xxiaoxiong",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/1831",
+    "https://github.com/nexu-io/open-design/issues/1770"
+   ]
+  },
+  {
+   "number": 1838,
+   "title": "Sync and display CLI-installed MCP and Skill for unified management",
+   "url": "https://github.com/nexu-io/open-design/issues/1838",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "help wanted"
+   ],
+   "updatedAt": "2026-06-21T14:18:22Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "reservations",
+   "reason": "PR #2757 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+12 more)",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/2757",
+    "https://github.com/nexu-io/open-design/pull/2809",
+    "https://github.com/nexu-io/open-design/pull/2636",
+    "https://github.com/nexu-io/open-design/pull/2761",
+    "https://github.com/nexu-io/open-design/pull/2802",
+    "https://github.com/nexu-io/open-design/pull/2796",
+    "https://github.com/nexu-io/open-design/pull/3525",
+    "https://github.com/nexu-io/open-design/pull/3460",
+    "https://github.com/nexu-io/open-design/pull/3548"
+   ]
+  },
+  {
+   "number": 2047,
+   "title": "\"Add to My plugins\" can be clicked repeatedly after install is triggered",
+   "url": "https://github.com/nexu-io/open-design/issues/2047",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted",
+    "priority:p2",
+    "preview/v0.8.0"
+   ],
+   "updatedAt": "2026-05-19T10:30:49Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "already assigned to @Jaykay73",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/1667",
+    "https://github.com/nexu-io/open-design/pull/1815",
+    "https://github.com/nexu-io/open-design/issues/2047"
+   ]
+  },
+  {
+   "number": 2048,
+   "title": "Plugin authoring actions are not localized in Chinese",
+   "url": "https://github.com/nexu-io/open-design/issues/2048",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted",
+    "priority:p2",
+    "preview/v0.8.0"
+   ],
+   "updatedAt": "2026-05-18T11:56:56Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "already assigned to @xxiaoxiong",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/1947",
+    "https://github.com/nexu-io/open-design/pull/1706",
+    "https://github.com/nexu-io/open-design/pull/1734",
+    "https://github.com/nexu-io/open-design/issues/2048"
+   ]
+  },
+  {
+   "number": 2076,
+   "title": "Homepage is not properly localized in Chinese in 0.8.0",
+   "url": "https://github.com/nexu-io/open-design/issues/2076",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted",
+    "priority:p2",
+    "preview/v0.8.0"
+   ],
+   "updatedAt": "2026-05-19T14:04:12Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "already assigned to @SunayKulkarni",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/1927",
+    "https://github.com/nexu-io/open-design/pull/1332",
+    "https://github.com/nexu-io/open-design/pull/2461",
+    "https://github.com/nexu-io/open-design/issues/2076"
+   ]
+  },
+  {
+   "number": 2084,
+   "title": "Auto-filled Image prompt cannot be fully scrolled in the input box",
+   "url": "https://github.com/nexu-io/open-design/issues/2084",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted",
+    "priority:p1",
+    "preview/v0.8.0"
+   ],
+   "updatedAt": "2026-05-18T10:25:52Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "already assigned to @xxiaoxiong",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/issues/2084"
+   ]
+  },
+  {
+   "number": 2085,
+   "title": "Slide deck page-count control is too wide in the prefilled prompt",
+   "url": "https://github.com/nexu-io/open-design/issues/2085",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted",
+    "priority:p2",
+    "preview/v0.8.0"
+   ],
+   "updatedAt": "2026-05-21T10:25:15Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "already assigned to @xxiaoxiong",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/1989",
+    "https://github.com/nexu-io/open-design/pull/1958",
+    "https://github.com/nexu-io/open-design/pull/1306",
+    "https://github.com/nexu-io/open-design/issues/2085"
+   ]
+  },
+  {
+   "number": 2086,
+   "title": "Homepage prefilled prompt tokens need UI polish",
+   "url": "https://github.com/nexu-io/open-design/issues/2086",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted",
+    "priority:p2",
+    "preview/v0.8.0"
+   ],
+   "updatedAt": "2026-05-21T12:43:34Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "already assigned to @xxiaoxiong",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/1516",
+    "https://github.com/nexu-io/open-design/pull/1706",
+    "https://github.com/nexu-io/open-design/pull/1734",
+    "https://github.com/nexu-io/open-design/issues/2086"
+   ]
+  },
+  {
+   "number": 2095,
+   "title": "Prompt replacement confirmation modal is not localized in Chinese",
+   "url": "https://github.com/nexu-io/open-design/issues/2095",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted",
+    "priority:p1",
+    "preview/v0.8.0"
+   ],
+   "updatedAt": "2026-05-20T03:19:39Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "already assigned to @xxiaoxiong",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/issues/2095",
+    "https://github.com/nexu-io/open-design/issues/2095#issuecomment-4477392498"
+   ]
+  },
+  {
+   "number": 2143,
+   "title": "When I try Tweaks / Draw / comment / Edit... the open preview reset to the home page",
+   "url": "https://github.com/nexu-io/open-design/issues/2143",
+   "labels": [
+    "bug",
+    "help wanted",
+    "priority:p1"
+   ],
+   "updatedAt": "2026-08-31T01:55:20Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #2344 by @bulai0408 is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/2344",
+    "https://github.com/nexu-io/open-design/pull/3263",
+    "https://github.com/nexu-io/open-design/pull/3313"
+   ]
+  },
+  {
+   "number": 2180,
+   "title": "\"Conversation \" button in the chat panel header is too close to the edge",
+   "url": "https://github.com/nexu-io/open-design/issues/2180",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted",
+    "priority:p2",
+    "preview/v0.8.0"
+   ],
+   "updatedAt": "2026-05-21T04:15:22Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "already assigned to @xxiaoxiong",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/1662",
+    "https://github.com/nexu-io/open-design/pull/1959",
+    "https://github.com/nexu-io/open-design/pull/1633",
+    "https://github.com/nexu-io/open-design/issues/2180"
+   ]
+  },
+  {
+   "number": 2211,
+   "title": "Source section text is misaligned in plugin details",
+   "url": "https://github.com/nexu-io/open-design/issues/2211",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted",
+    "priority:p2",
+    "preview/v0.8.0"
+   ],
+   "updatedAt": "2026-10-01T17:54:09Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #1 by @crazy0codes is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/crazy0codes/open-design/pull/1",
+    "https://github.com/nexu-io/open-design/pull/1930"
+   ]
+  },
+  {
+   "number": 2249,
+   "title": "Deleting an extraction history item does not require confirmation",
+   "url": "https://github.com/nexu-io/open-design/issues/2249",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted",
+    "priority:p1",
+    "preview/v0.8.0"
+   ],
+   "updatedAt": "2026-05-19T11:39:29Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "already assigned to @itsbryanman",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/issues/2249"
+   ]
+  },
+  {
+   "number": 2323,
+   "title": "Design Systems filter chip row needs UI polish",
+   "url": "https://github.com/nexu-io/open-design/issues/2323",
+   "labels": [
+    "good first issue",
+    "help wanted",
+    "type/enhancement",
+    "priority:p2",
+    "preview/v0.8.0"
+   ],
+   "updatedAt": "2026-05-20T09:59:06Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "already assigned to @xxiaoxiong",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/2227",
+    "https://github.com/nexu-io/open-design/pull/1924",
+    "https://github.com/nexu-io/open-design/pull/1730",
+    "https://github.com/nexu-io/open-design/issues/2323"
+   ]
+  },
+  {
+   "number": 2625,
+   "title": "Design systems tab styling is inconsistent with expected tab appearance",
+   "url": "https://github.com/nexu-io/open-design/issues/2625",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted",
+    "priority:p2",
+    "ux"
+   ],
+   "updatedAt": "2026-07-27T08:42:46Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #5994 by @pcherkashin is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/5994"
+   ]
+  },
+  {
+   "number": 2634,
+   "title": "Missing global loading state during upload",
+   "url": "https://github.com/nexu-io/open-design/issues/2634",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "help wanted"
+   ],
+   "updatedAt": "2026-05-22T02:35:37Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #9245 by @yusufc-spektra is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/issues/9245",
+    "https://github.com/nexu-io/open-design/issues/8097"
+   ]
+  },
+  {
+   "number": 2637,
+   "title": "Deleting a skill breaks the dialog layout",
+   "url": "https://github.com/nexu-io/open-design/issues/2637",
+   "labels": [
+    "bug",
+    "help wanted",
+    "priority:p1"
+   ],
+   "updatedAt": "2026-09-21T15:04:45Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #8335 by @EarthxxRhythm is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/8335"
+   ]
+  },
+  {
+   "number": 2646,
+   "title": "Switching tabs in Onboarding reloads the Local Coding Agent section",
+   "url": "https://github.com/nexu-io/open-design/issues/2646",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted",
+    "priority:p2"
+   ],
+   "updatedAt": "2026-07-26T08:49:08Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #6014 by @pcherkashin is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/6014"
+   ]
+  },
+  {
+   "number": 2647,
+   "title": "Onboarding top tabs should support direct switching",
+   "url": "https://github.com/nexu-io/open-design/issues/2647",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2026-08-30T22:32:05Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @lefarcen 72 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/issues/2647#issuecomment-5471665361",
+    "https://github.com/nexu-io/open-design/issues/2647",
+    "https://github.com/nexu-io/open-design/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/nexu-io/open-design/blob/HEAD/.github/AGENTS.md",
+    "https://docs.anthropic.com/en/docs/claude-code/skills"
+   ]
+  },
+  {
+   "number": 2652,
+   "title": "After manually deleting an @skill reference, selecting a new skill does not insert it into the input",
+   "url": "https://github.com/nexu-io/open-design/issues/2652",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted",
+    "priority:p1"
+   ],
+   "updatedAt": "2026-07-30T03:04:26Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #6069 by @kforris is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/6069"
+   ]
+  },
+  {
+   "number": 2660,
+   "title": "Default file preview window clips the top-right action buttons",
+   "url": "https://github.com/nexu-io/open-design/issues/2660",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted",
+    "priority:p2"
+   ],
+   "updatedAt": "2026-11-06T14:06:38Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #9342 by @mafujahmedridoy22-commits is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/9342"
+   ]
+  },
+  {
+   "number": 2681,
+   "title": "Hide the unavailable Ingest source section from the Automations page for now",
+   "url": "https://github.com/nexu-io/open-design/issues/2681",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted"
+   ],
+   "updatedAt": "2026-05-22T09:34:24Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.anthropic.com/en/docs/claude-code/skills) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/issues/2681",
+    "https://github.com/nexu-io/open-design/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/nexu-io/open-design/blob/HEAD/.github/AGENTS.md",
+    "https://docs.anthropic.com/en/docs/claude-code/skills"
+   ]
+  },
+  {
+   "number": 2685,
+   "title": "Selected button text has low contrast and is hard to read",
+   "url": "https://github.com/nexu-io/open-design/issues/2685",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-03T02:31:39Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #9266 by @loshoc is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/9266"
+   ]
+  },
+  {
+   "number": 2686,
+   "title": "Chinese UI still shows English error messages in the design system import flow",
+   "url": "https://github.com/nexu-io/open-design/issues/2686",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted"
+   ],
+   "updatedAt": "2026-09-07T18:14:38Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #6963 by @zhongrenfei1-hub is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/6963"
+   ]
+  },
+  {
+   "number": 2689,
+   "title": "Chinese UI still shows English helper copy in the feedback panel",
+   "url": "https://github.com/nexu-io/open-design/issues/2689",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted"
+   ],
+   "updatedAt": "2026-07-16T11:32:49Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @lefarcen 117 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/issues/2689#issuecomment-4990638009",
+    "https://github.com/nexu-io/open-design/issues/2689",
+    "https://github.com/nexu-io/open-design/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/nexu-io/open-design/blob/HEAD/.github/AGENTS.md",
+    "https://docs.anthropic.com/en/docs/claude-code/skills"
+   ]
+  },
+  {
+   "number": 2691,
+   "title": "Remove the unnecessary type-sort interaction from the file list",
+   "url": "https://github.com/nexu-io/open-design/issues/2691",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted"
+   ],
+   "updatedAt": "2026-08-23T11:20:42Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "already assigned to @crazy0codes",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/issues/2691"
+   ]
+  },
+  {
+   "number": 2878,
+   "title": "Prevent new sessions from inheriting prompt content from the previous session",
+   "url": "https://github.com/nexu-io/open-design/issues/2878",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted",
+    "priority:p2"
+   ],
+   "updatedAt": "2026-07-27T06:26:01Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #6081 by @maxmilian is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/6081"
+   ]
+  },
+  {
+   "number": 2917,
+   "title": "Localize the Automation page when the system language is Chinese",
+   "url": "https://github.com/nexu-io/open-design/issues/2917",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted",
+    "priority:p3"
+   ],
+   "updatedAt": "2026-07-08T09:15:35Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #9282 by @helloigig is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/9282",
+    "https://github.com/nexu-io/open-design/pull/3350",
+    "https://github.com/nexu-io/open-design/pull/2041",
+    "https://github.com/nexu-io/open-design/pull/3395",
+    "https://github.com/nexu-io/open-design/pull/3591"
+   ]
+  },
+  {
+   "number": 2981,
+   "title": "Improve design-system selector dropdown layout and visual clarity on Home",
+   "url": "https://github.com/nexu-io/open-design/issues/2981",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2026-10-25T12:50:32Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #9008 by @BharanitharanKR is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/9008"
+   ]
+  },
+  {
+   "number": 2986,
+   "title": "Allow BYOK for internal llm Proxies / ollama  (do not block private IPs)",
+   "url": "https://github.com/nexu-io/open-design/issues/2986",
+   "labels": [
+    "bug",
+    "help wanted",
+    "priority:p1"
+   ],
+   "updatedAt": "2026-10-05T10:09:58Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "already assigned to @wyf027",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/issues/2986"
+   ]
+  },
+  {
+   "number": 3174,
+   "title": "Make @ mention results consistent between typing @ and clicking the @ button",
+   "url": "https://github.com/nexu-io/open-design/issues/3174",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted",
+    "priority:p3"
+   ],
+   "updatedAt": "2026-06-09T07:56:31Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "reservations",
+   "reason": "PR #3263 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+9 more)",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/3263",
+    "https://github.com/nexu-io/open-design/pull/3228",
+    "https://github.com/nexu-io/open-design/pull/3529",
+    "https://github.com/nexu-io/open-design/pull/3628",
+    "https://github.com/nexu-io/open-design/pull/2804",
+    "https://github.com/nexu-io/open-design/pull/3346",
+    "https://github.com/nexu-io/open-design/pull/3459",
+    "https://github.com/nexu-io/open-design/issues/3174#issuecomment-4562223294",
+    "https://github.com/nexu-io/open-design/issues/3174"
+   ]
+  },
+  {
+   "number": 3265,
+   "title": "BYOK mode can still display the previously selected CLI icon",
+   "url": "https://github.com/nexu-io/open-design/issues/3265",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted",
+    "priority:p3"
+   ],
+   "updatedAt": "2026-08-23T11:55:05Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "already assigned to @hesam-oxe",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/issues/3265",
+    "https://github.com/nexu-io/open-design/issues/3265#issuecomment-4571904461"
+   ]
+  },
+  {
+   "number": 3497,
+   "title": "Queued task cards can lose their real description and open with an empty editor",
+   "url": "https://github.com/nexu-io/open-design/issues/3497",
+   "labels": [
+    "bug",
+    "help wanted",
+    "priority:p2"
+   ],
+   "updatedAt": "2026-10-22T13:07:32Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #9011 by @BharanitharanKR is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/9011"
+   ]
+  },
+  {
+   "number": 3849,
+   "title": "Keep the @ mention picker anchored after switching tabs",
+   "url": "https://github.com/nexu-io/open-design/issues/3849",
+   "labels": [
+    "bug",
+    "good first issue",
+    "priority:p2"
+   ],
+   "updatedAt": "2026-09-15T01:19:28Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #8138 by @xiaodu55 is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/8138"
+   ]
+  },
+  {
+   "number": 3894,
+   "title": "Plugin detail previews can show broken images in the Plugins tab",
+   "url": "https://github.com/nexu-io/open-design/issues/3894",
+   "labels": [
+    "bug",
+    "help wanted",
+    "priority:p2"
+   ],
+   "updatedAt": "2026-09-15T16:47:34Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #9232 by @linfeng961 is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/issues/9232"
+   ]
+  },
+  {
+   "number": 3906,
+   "title": "Quick Brief does not inherit the Pages selection made on Home",
+   "url": "https://github.com/nexu-io/open-design/issues/3906",
+   "labels": [
+    "bug",
+    "good first issue",
+    "priority:p2"
+   ],
+   "updatedAt": "2026-06-18T16:56:17Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #4017 by @TheAngryPit is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/4017"
+   ]
+  },
+  {
+   "number": 3910,
+   "title": "Home can show an unnecessary horizontal scrollbar at the bottom",
+   "url": "https://github.com/nexu-io/open-design/issues/3910",
+   "labels": [
+    "bug",
+    "good first issue",
+    "priority:p3"
+   ],
+   "updatedAt": "2026-09-14T17:58:53Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #3944 by @Kushaal-k is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/3944",
+    "https://github.com/xxiaoxiong/open-design/pull/10"
+   ]
+  },
+  {
+   "number": 4056,
+   "title": "Align action and status placement across Create Plugin and Live Artifact outputs",
+   "url": "https://github.com/nexu-io/open-design/issues/4056",
+   "labels": [
+    "help wanted",
+    "type/enhancement",
+    "priority:p2"
+   ],
+   "updatedAt": "2026-11-10T10:40:27Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "already assigned to @helloigig",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/issues/4056",
+    "https://github.com/nexu-io/open-design/issues/4056#issuecomment-6765195586"
+   ]
+  },
+  {
+   "number": 4407,
+   "title": "[Bug]: Hermes agent fails with 'json-rpc id 2: Internal error' when HERMES_HOME uses non-standard path",
+   "url": "https://github.com/nexu-io/open-design/issues/4407",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted"
+   ],
+   "updatedAt": "2026-08-09T06:58:43Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #4572 by @h2m6jcm94s-eng is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/4572",
+    "https://github.com/nexu-io/open-design/pull/6653"
+   ]
+  },
+  {
+   "number": 4447,
+   "title": "Ensure Settings opens above active edit popovers",
+   "url": "https://github.com/nexu-io/open-design/issues/4447",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-06T14:38:23Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #9345 by @mafujahmedridoy22-commits is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/9345"
+   ]
+  },
+  {
+   "number": 4539,
+   "title": "Warp host tool shows \"not detected on $PATH\" on Windows/Linux — catalogue entry is macOS-only but not platform-gated",
+   "url": "https://github.com/nexu-io/open-design/issues/4539",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted"
+   ],
+   "updatedAt": "2026-06-22T01:16:59Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #4542 by @cbeaulieu-gt is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/4542",
+    "https://github.com/nexu-io/open-design/pull/4546"
+   ]
+  },
+  {
+   "number": 4782,
+   "title": "prompt_too_large error card offers only Retry — no affordance toward the fix",
+   "url": "https://github.com/nexu-io/open-design/issues/4782",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted"
+   ],
+   "updatedAt": "2026-07-23T08:22:59Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #4791 by @maoxin1234 is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/4791",
+    "https://github.com/nexu-io/open-design/pull/6012",
+    "https://github.com/nexu-io/open-design/pull/5308"
+   ]
+  },
+  {
+   "number": 4955,
+   "title": "内存占用问题",
+   "url": "https://github.com/nexu-io/open-design/issues/4955",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-09-02T03:35:01Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.anthropic.com/en/docs/claude-code/skills) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/issues/4955",
+    "https://github.com/nexu-io/open-design/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/nexu-io/open-design/blob/HEAD/.github/AGENTS.md",
+    "https://docs.anthropic.com/en/docs/claude-code/skills"
+   ]
+  },
+  {
+   "number": 5244,
+   "title": "Show Open Design login entry in project details agent menu",
+   "url": "https://github.com/nexu-io/open-design/issues/5244",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted",
+    "ux"
+   ],
+   "updatedAt": "2026-08-05T01:57:32Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.anthropic.com/en/docs/claude-code/skills) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/issues/5244",
+    "https://github.com/nexu-io/open-design/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/nexu-io/open-design/blob/HEAD/.github/AGENTS.md",
+    "https://docs.anthropic.com/en/docs/claude-code/skills"
+   ]
+  },
+  {
+   "number": 5368,
+   "title": "Stabilize export toast position and avoid premature success copy",
+   "url": "https://github.com/nexu-io/open-design/issues/5368",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted",
+    "ux"
+   ],
+   "updatedAt": "2026-08-25T22:51:06Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #7415 by @huytdps13400 is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/7415"
+   ]
+  }
+ ]
+}

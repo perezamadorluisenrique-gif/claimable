@@ -1,0 +1,30 @@
+{
+ "owner": "react",
+ "repo": "react",
+ "language": "JavaScript",
+ "stars": 252479,
+ "description": "The library for web and native user interfaces.",
+ "visitedAt": "2026-11-10T17:47:07.019Z",
+ "issues": [
+  {
+   "number": 17355,
+   "title": "\"Should not already be working\" in Firefox after a breakpoint/alert",
+   "url": "https://github.com/react/react/issues/17355",
+   "labels": [
+    "Type: Bug",
+    "Difficulty: medium",
+    "Type: Needs Investigation",
+    "good first issue"
+   ],
+   "updatedAt": "2026-09-02T02:11:30Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #37323 by @antur84 is already open against this issue",
+   "evidence": [
+    "https://github.com/react/react/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/react/react/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/react/react/issues/37323"
+   ]
+  }
+ ]
+}

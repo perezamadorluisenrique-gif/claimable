@@ -1,0 +1,30 @@
+{
+ "owner": "expressjs",
+ "repo": "express",
+ "language": "JavaScript",
+ "stars": 69575,
+ "description": "Fast, unopinionated, minimalist web framework for node.",
+ "visitedAt": "2026-11-10T17:47:07.019Z",
+ "issues": [
+  {
+   "number": 2414,
+   "title": "route() should handle 405 Method not allowed",
+   "url": "https://github.com/expressjs/express/issues/2414",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "5.x",
+    "module:router"
+   ],
+   "updatedAt": "2026-09-01T12:24:44Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #191 by @EduardoAC is already open against this issue",
+   "evidence": [
+    "https://github.com/expressjs/express/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/pillarjs/router/pull/191",
+    "https://github.com/stacklok/toolhive-core/pull/89"
+   ]
+  }
+ ]
+}

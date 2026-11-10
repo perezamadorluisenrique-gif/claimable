@@ -1,0 +1,107 @@
+{
+ "owner": "anuraghazra",
+ "repo": "github-readme-stats",
+ "language": "JavaScript",
+ "stars": 79841,
+ "description": ":zap: Dynamically generated stats for your github readmes",
+ "visitedAt": "2026-11-10T17:47:07.019Z",
+ "issues": [
+  {
+   "number": 1708,
+   "title": "Top Languages Card API option for not display numbers",
+   "url": "https://github.com/anuraghazra/github-readme-stats/issues/1708",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "good first issue",
+    "hacktoberfest"
+   ],
+   "updatedAt": "2023-10-16T08:10:57Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "nothing has been merged in 133 days",
+   "evidence": [
+    "https://github.com/anuraghazra/github-readme-stats — pushed_at 2026-10-01T01:02:55Z",
+    "https://github.com/anuraghazra/github-readme-stats/pulls?q=is%3Apr+is%3Amerged"
+   ]
+  },
+  {
+   "number": 1761,
+   "title": "Add card generation website",
+   "url": "https://github.com/anuraghazra/github-readme-stats/issues/1761",
+   "labels": [
+    "documentation",
+    "enhancement",
+    "help wanted",
+    "hacktoberfest",
+    ":star: top feature",
+    "core-team"
+   ],
+   "updatedAt": "2026-02-07T00:43:07Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "nothing has been merged in 133 days",
+   "evidence": [
+    "https://github.com/anuraghazra/github-readme-stats — pushed_at 2026-10-01T01:02:55Z",
+    "https://github.com/anuraghazra/github-readme-stats/pulls?q=is%3Apr+is%3Amerged"
+   ]
+  },
+  {
+   "number": 1852,
+   "title": "Stats and languages results incorrect due to graphql 100 records limit",
+   "url": "https://github.com/anuraghazra/github-readme-stats/issues/1852",
+   "labels": [
+    "bug",
+    "help wanted",
+    "stats-card",
+    "lang-card",
+    "hacktoberfest-accepted",
+    "hacktoberfest",
+    ":star: top bug"
+   ],
+   "updatedAt": "2025-12-27T12:06:20Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "nothing has been merged in 133 days",
+   "evidence": [
+    "https://github.com/anuraghazra/github-readme-stats — pushed_at 2026-10-01T01:02:55Z",
+    "https://github.com/anuraghazra/github-readme-stats/pulls?q=is%3Apr+is%3Amerged"
+   ]
+  },
+  {
+   "number": 2052,
+   "title": "Migrate codebase to Typescript",
+   "url": "https://github.com/anuraghazra/github-readme-stats/issues/2052",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "hacktoberfest"
+   ],
+   "updatedAt": "2024-05-27T11:01:34Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "nothing has been merged in 133 days",
+   "evidence": [
+    "https://github.com/anuraghazra/github-readme-stats — pushed_at 2026-10-01T01:02:55Z",
+    "https://github.com/anuraghazra/github-readme-stats/pulls?q=is%3Apr+is%3Amerged"
+   ]
+  },
+  {
+   "number": 2053,
+   "title": "Migrate to automatic README translation",
+   "url": "https://github.com/anuraghazra/github-readme-stats/issues/2053",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2023-10-15T08:32:38Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "nothing has been merged in 133 days",
+   "evidence": [
+    "https://github.com/anuraghazra/github-readme-stats — pushed_at 2026-10-01T01:02:55Z",
+    "https://github.com/anuraghazra/github-readme-stats/pulls?q=is%3Apr+is%3Amerged"
+   ]
+  }
+ ]
+}

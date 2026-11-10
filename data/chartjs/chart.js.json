@@ -1,0 +1,147 @@
+{
+ "owner": "chartjs",
+ "repo": "Chart.js",
+ "language": "JavaScript",
+ "stars": 67789,
+ "description": "Simple HTML5 Charts using the <canvas> tag",
+ "visitedAt": "2026-11-10T17:47:07.019Z",
+ "issues": [
+  {
+   "number": 3214,
+   "title": "Customizeable Axis Title Rendering",
+   "url": "https://github.com/chartjs/Chart.js/issues/3214",
+   "labels": [
+    "type: enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2026-09-11T19:53:19Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #12327 by @aron-intframe is already open against this issue",
+   "evidence": [
+    "https://github.com/chartjs/Chart.js/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/chartjs/Chart.js/pull/12327"
+   ]
+  },
+  {
+   "number": 3787,
+   "title": "[Feature Request] Floating Legend In Chart Area",
+   "url": "https://github.com/chartjs/Chart.js/issues/3787",
+   "labels": [
+    "type: enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2023-01-26T10:23:59Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/chartjs/Chart.js/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/chartjs/Chart.js/issues/3787"
+   ]
+  },
+  {
+   "number": 3900,
+   "title": "[FEATURE] Histograms",
+   "url": "https://github.com/chartjs/Chart.js/issues/3900",
+   "labels": [
+    "type: enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2024-09-26T18:27:35Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/chartjs/Chart.js/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/chartjs/Chart.js/issues/3900"
+   ]
+  },
+  {
+   "number": 4048,
+   "title": "Specifiying a fixedStepSize for ticks should set autoSkip to false",
+   "url": "https://github.com/chartjs/Chart.js/issues/4048",
+   "labels": [
+    "type: enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2018-01-25T21:34:27Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #12237 by @Sonali-Sharma-tech is already open against this issue",
+   "evidence": [
+    "https://github.com/chartjs/Chart.js/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/chartjs/Chart.js/pull/12237"
+   ]
+  },
+  {
+   "number": 4472,
+   "title": "[FEATURE] Add the ability to stack data for polar area chart",
+   "url": "https://github.com/chartjs/Chart.js/issues/4472",
+   "labels": [
+    "type: enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2025-11-09T08:22:55Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/chartjs/Chart.js/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/chartjs/Chart.js/issues/4472"
+   ]
+  },
+  {
+   "number": 4909,
+   "title": "Non-Rendering Chart with Extended Width & Pixelated Chart Lines",
+   "url": "https://github.com/chartjs/Chart.js/issues/4909",
+   "labels": [
+    "type: bug",
+    "help wanted"
+   ],
+   "updatedAt": "2021-07-10T20:11:31Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/chartjs/Chart.js/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/chartjs/Chart.js/issues/4909"
+   ]
+  },
+  {
+   "number": 4997,
+   "title": "Better Support for Removing Margins/Padding",
+   "url": "https://github.com/chartjs/Chart.js/issues/4997",
+   "labels": [
+    "type: enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2020-01-14T07:11:36Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #11982 by @ngohuytrieu is already open against this issue",
+   "evidence": [
+    "https://github.com/chartjs/Chart.js/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/chartjs/Chart.js/issues/11982"
+   ]
+  },
+  {
+   "number": 5011,
+   "title": "[FEATURE] Datasets as a map/object instead of (just) arrays",
+   "url": "https://github.com/chartjs/Chart.js/issues/5011",
+   "labels": [
+    "type: enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2019-10-28T17:10:25Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "reservations",
+   "reason": "PR #6576 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder",
+   "evidence": [
+    "https://github.com/chartjs/Chart.js/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/chartjs/Chart.js/pull/6576",
+    "https://github.com/chartjs/Chart.js/issues/5011"
+   ]
+  }
+ ]
+}

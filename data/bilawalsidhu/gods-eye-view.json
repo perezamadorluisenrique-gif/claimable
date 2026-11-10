@@ -1,0 +1,71 @@
+{
+ "owner": "bilawalsidhu",
+ "repo": "gods-eye-view",
+ "language": "JavaScript",
+ "stars": 64092,
+ "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+ "visitedAt": "2026-11-10T17:47:07.019Z",
+ "issues": [
+  {
+   "number": 714,
+   "title": "Radio & RF: map it, listen to it, bring your own receiver",
+   "url": "https://github.com/bilawalsidhu/gods-eye-view/issues/714",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-10-30T14:38:55Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #15 by @Tom-Neverwinter is already open against this issue",
+   "evidence": [
+    "https://github.com/bilawalsidhu/gods-eye-view/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/bilawalsidhu/gods-eye-view/pull/15",
+    "https://github.com/bilawalsidhu/gods-eye-view/pull/493",
+    "https://github.com/bilawalsidhu/gods-eye-view/pull/801",
+    "https://github.com/bilawalsidhu/gods-eye-view/pull/802",
+    "https://github.com/bilawalsidhu/gods-eye-view/pull/803",
+    "https://github.com/bilawalsidhu/gods-eye-view/pull/1053",
+    "https://github.com/bilawalsidhu/gods-eye-view/pull/732"
+   ]
+  },
+  {
+   "number": 715,
+   "title": "ATC: hear the tower for the plane you're tracking",
+   "url": "https://github.com/bilawalsidhu/gods-eye-view/issues/715",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2026-10-11T01:27:24Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #255 by @penguinatnight is already open against this issue",
+   "evidence": [
+    "https://github.com/bilawalsidhu/gods-eye-view/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/bilawalsidhu/gods-eye-view/pull/255",
+    "https://github.com/bilawalsidhu/gods-eye-view/pull/719",
+    "https://github.com/bilawalsidhu/gods-eye-view/pull/721",
+    "https://github.com/bilawalsidhu/gods-eye-view/pull/723",
+    "https://github.com/bilawalsidhu/gods-eye-view/pull/718"
+   ]
+  },
+  {
+   "number": 738,
+   "title": "Other worlds: Moon and Mars as alternate globes",
+   "url": "https://github.com/bilawalsidhu/gods-eye-view/issues/738",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-07T05:17:22Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "@KnottyDyes claimed it 17 days ago",
+   "evidence": [
+    "https://github.com/bilawalsidhu/gods-eye-view/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/bilawalsidhu/gods-eye-view/issues/738#issuecomment-6392688246",
+    "https://github.com/bilawalsidhu/gods-eye-view/issues/738#issuecomment-5807202035"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,595 @@
+{
+ "owner": "excalidraw",
+ "repo": "excalidraw",
+ "language": "TypeScript",
+ "stars": 135445,
+ "description": "Virtual whiteboard for sketching hand-drawn like diagrams",
+ "visitedAt": "2026-11-10T17:47:07.019Z",
+ "issues": [
+  {
+   "number": 345,
+   "title": "Suggestion - create a GatsbyJS transformer",
+   "url": "https://github.com/excalidraw/excalidraw/issues/345",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2020-05-15T09:04:28Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #4057 by @pvaliyaveedan is already open against this issue",
+   "evidence": [
+    "https://github.com/excalidraw/excalidraw/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/excalidraw/excalidraw/issues/4057"
+   ]
+  },
+  {
+   "number": 1007,
+   "title": "We should have a different hint when drawing multisegments lines on mobile",
+   "url": "https://github.com/excalidraw/excalidraw/issues/1007",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2026-11-10T13:39:21Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #8652 by @malytskyy is already open against this issue",
+   "evidence": [
+    "https://github.com/excalidraw/excalidraw/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/excalidraw/excalidraw/pull/8652",
+    "https://github.com/Lyo1ya/2026-fwdays-agentic-large-day03-hw/pull/1",
+    "https://github.com/excalidraw/excalidraw/pull/12588"
+   ]
+  },
+  {
+   "number": 1126,
+   "title": "Support colors for ranges in text",
+   "url": "https://github.com/excalidraw/excalidraw/issues/1126",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "Candidate P1"
+   ],
+   "updatedAt": "2026-10-02T19:48:32Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #3534 by @xixixao is already open against this issue",
+   "evidence": [
+    "https://github.com/excalidraw/excalidraw/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/excalidraw/excalidraw/pull/3534",
+    "https://github.com/excalidraw/excalidraw/pull/5150",
+    "https://github.com/excalidraw/excalidraw/pull/1356"
+   ]
+  },
+  {
+   "number": 1423,
+   "title": "Cache fonts for offline usage",
+   "url": "https://github.com/excalidraw/excalidraw/issues/1423",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "font"
+   ],
+   "updatedAt": "2026-04-25T11:24:37Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #11675 by @AnkitNITA23 is already open against this issue",
+   "evidence": [
+    "https://github.com/excalidraw/excalidraw/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/excalidraw/excalidraw/pull/11675",
+    "https://github.com/LennyMalcolm0/excalidraw/pull/302"
+   ]
+  },
+  {
+   "number": 2236,
+   "title": "export dialog: show relative size increase when embedding scene",
+   "url": "https://github.com/excalidraw/excalidraw/issues/2236",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2023-04-09T03:32:41Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #2607 by @Kartik1397 is already open against this issue",
+   "evidence": [
+    "https://github.com/excalidraw/excalidraw/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/excalidraw/excalidraw/pull/2607",
+    "https://github.com/excalidraw/excalidraw/pull/12283",
+    "https://github.com/excalidraw/excalidraw/pull/2219"
+   ]
+  },
+  {
+   "number": 2910,
+   "title": "Redirect non existing URL to the root",
+   "url": "https://github.com/excalidraw/excalidraw/issues/2910",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2026-11-01T20:05:01Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #3045 by @kbariotis is already open against this issue",
+   "evidence": [
+    "https://github.com/excalidraw/excalidraw/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/excalidraw/excalidraw/pull/3045"
+   ]
+  },
+  {
+   "number": 3762,
+   "title": "Adding option to paste tabular data as a rough table",
+   "url": "https://github.com/excalidraw/excalidraw/issues/3762",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2025-09-12T14:15:11Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #6133 by @nicodeheza is already open against this issue",
+   "evidence": [
+    "https://github.com/excalidraw/excalidraw/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/excalidraw/excalidraw/pull/6133",
+    "https://github.com/koldovsky/2026-fwdays-agentic-large-day03-hw/pull/33",
+    "https://github.com/koldovsky/2026-fwdays-agentic-large-day03-hw/pull/53"
+   ]
+  },
+  {
+   "number": 3957,
+   "title": "Provide option to hide activity of other users when in a collaboration session",
+   "url": "https://github.com/excalidraw/excalidraw/issues/3957",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2026-10-22T14:11:17Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #11083 by @DSep is already open against this issue",
+   "evidence": [
+    "https://github.com/excalidraw/excalidraw/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/excalidraw/excalidraw/pull/11083"
+   ]
+  },
+  {
+   "number": 4057,
+   "title": "Cant rotate to 90 degrees while in grid mode ",
+   "url": "https://github.com/excalidraw/excalidraw/issues/4057",
+   "labels": [
+    "bug",
+    "good first issue"
+   ],
+   "updatedAt": "2024-10-06T11:58:29Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #11051 by @Vi-Ku is already open against this issue",
+   "evidence": [
+    "https://github.com/excalidraw/excalidraw/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/excalidraw/excalidraw/pull/11051",
+    "https://github.com/excalidraw/excalidraw/pull/11506",
+    "https://github.com/excalidraw/excalidraw/pull/11526",
+    "https://github.com/LennyMalcolm0/excalidraw/pull/368",
+    "https://github.com/LennyMalcolm0/excalidraw/pull/376",
+    "https://github.com/LennyMalcolm0/excalidraw/pull/522",
+    "https://github.com/excalidraw/excalidraw/pull/11938",
+    "https://github.com/excalidraw/excalidraw/pull/12275"
+   ]
+  },
+  {
+   "number": 4344,
+   "title": "Multiple opened  PWA windows all named Excalidraw",
+   "url": "https://github.com/excalidraw/excalidraw/issues/4344",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2022-03-03T20:47:21Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #11391 by @xonaib is already open against this issue",
+   "evidence": [
+    "https://github.com/excalidraw/excalidraw/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/excalidraw/excalidraw/pull/11391",
+    "https://github.com/LennyMalcolm0/excalidraw/pull/424",
+    "https://github.com/excalidraw/excalidraw/pull/12281"
+   ]
+  },
+  {
+   "number": 4833,
+   "title": "Export (save) dialog doesn't respect iOS safe area",
+   "url": "https://github.com/excalidraw/excalidraw/issues/4833",
+   "labels": [
+    "good first issue",
+    "UX/UI"
+   ],
+   "updatedAt": "2026-10-30T19:30:41Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #405 by @LennyMalcolm0 is already open against this issue",
+   "evidence": [
+    "https://github.com/excalidraw/excalidraw/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/LennyMalcolm0/excalidraw/pull/405",
+    "https://github.com/excalidraw/excalidraw/pull/12267"
+   ]
+  },
+  {
+   "number": 5951,
+   "title": "Show a message about potential reason for filesystem permission error",
+   "url": "https://github.com/excalidraw/excalidraw/issues/5951",
+   "labels": [
+    "good first issue",
+    "UX/UI"
+   ],
+   "updatedAt": "2026-10-25T19:00:24Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #6411 by @0916dhkim is already open against this issue",
+   "evidence": [
+    "https://github.com/excalidraw/excalidraw/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/excalidraw/excalidraw/pull/6411",
+    "https://github.com/excalidraw/excalidraw/pull/11635",
+    "https://github.com/LennyMalcolm0/excalidraw/pull/323",
+    "https://github.com/excalidraw/excalidraw/pull/12277",
+    "https://github.com/aD3nnis/excalidraw/pull/1"
+   ]
+  },
+  {
+   "number": 6221,
+   "title": "During the collab, an error message pops up",
+   "url": "https://github.com/excalidraw/excalidraw/issues/6221",
+   "labels": [
+    "good first issue",
+    "UX/UI"
+   ],
+   "updatedAt": "2026-08-23T15:08:49Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #11979 by @alexsaf1987-ui is already open against this issue",
+   "evidence": [
+    "https://github.com/excalidraw/excalidraw/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/excalidraw/excalidraw/pull/11979"
+   ]
+  },
+  {
+   "number": 6294,
+   "title": "typecheck fail",
+   "url": "https://github.com/excalidraw/excalidraw/issues/6294",
+   "labels": [
+    "good first issue",
+    "meta"
+   ],
+   "updatedAt": "2026-10-21T13:41:10Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "reservations",
+   "reason": "2 stale claims, the most recent by @mknasiruddin 114 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/excalidraw/excalidraw/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/excalidraw/excalidraw/issues/6294#issuecomment-5015986289",
+    "https://github.com/excalidraw/excalidraw/issues/6294",
+    "https://docs.excalidraw.com/docs/introduction/contributing",
+    "https://github.com/excalidraw/excalidraw/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 6340,
+   "title": "Add a shortcut for wrapping text in a container",
+   "url": "https://github.com/excalidraw/excalidraw/issues/6340",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "Text containers"
+   ],
+   "updatedAt": "2025-04-03T10:35:40Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #6432 by @ishaan1091 is already open against this issue",
+   "evidence": [
+    "https://github.com/excalidraw/excalidraw/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/excalidraw/excalidraw/pull/6432"
+   ]
+  },
+  {
+   "number": 6688,
+   "title": "pan canvas using keyboard in view mode",
+   "url": "https://github.com/excalidraw/excalidraw/issues/6688",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2026-10-31T13:37:46Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #7089 by @lakshz is already open against this issue",
+   "evidence": [
+    "https://github.com/excalidraw/excalidraw/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/excalidraw/excalidraw/pull/7089",
+    "https://github.com/excalidraw/excalidraw/pull/7760",
+    "https://github.com/excalidraw/excalidraw/pull/10023"
+   ]
+  },
+  {
+   "number": 7177,
+   "title": "not visible grouping line on a dark background in a light theme",
+   "url": "https://github.com/excalidraw/excalidraw/issues/7177",
+   "labels": [
+    "good first issue",
+    "UX/UI"
+   ],
+   "updatedAt": "2026-10-31T13:06:55Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #7555 by @aashirisrar is already open against this issue",
+   "evidence": [
+    "https://github.com/excalidraw/excalidraw/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/excalidraw/excalidraw/pull/7555",
+    "https://github.com/excalidraw/excalidraw/pull/11072",
+    "https://github.com/LennyMalcolm0/excalidraw/pull/503",
+    "https://github.com/excalidraw/excalidraw/pull/12009",
+    "https://github.com/excalidraw/excalidraw/pull/12012",
+    "https://github.com/excalidraw/excalidraw/pull/12265",
+    "https://github.com/excalidraw/excalidraw/pull/12339",
+    "https://github.com/excalidraw/excalidraw/pull/12342",
+    "https://github.com/excalidraw/excalidraw/pull/12508"
+   ]
+  },
+  {
+   "number": 8301,
+   "title": "Option to add title to svg to make key words searchable in GitHub",
+   "url": "https://github.com/excalidraw/excalidraw/issues/8301",
+   "labels": [
+    "good first issue",
+    "export"
+   ],
+   "updatedAt": "2026-11-09T09:27:39Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #8566 by @Sallytion is already open against this issue",
+   "evidence": [
+    "https://github.com/excalidraw/excalidraw/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/excalidraw/excalidraw/pull/8566",
+    "https://github.com/excalidraw/excalidraw/pull/11003",
+    "https://github.com/excalidraw/excalidraw/pull/11247",
+    "https://github.com/LennyMalcolm0/excalidraw/pull/481",
+    "https://github.com/LennyMalcolm0/excalidraw/pull/541",
+    "https://github.com/excalidraw/excalidraw/pull/11919",
+    "https://github.com/excalidraw/excalidraw/pull/12420"
+   ]
+  },
+  {
+   "number": 8435,
+   "title": "BUG: Elbow Arrow ALT+drag duplication results in fuzzy/confusing UX",
+   "url": "https://github.com/excalidraw/excalidraw/issues/8435",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2026-10-25T19:00:29Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #10590 by @Vrund4591 is already open against this issue",
+   "evidence": [
+    "https://github.com/excalidraw/excalidraw/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/excalidraw/excalidraw/pull/10590",
+    "https://github.com/excalidraw/excalidraw/pull/12558"
+   ]
+  },
+  {
+   "number": 8508,
+   "title": "Duplication of element while dragging with switching other software on Windows (because Alt + Tab)",
+   "url": "https://github.com/excalidraw/excalidraw/issues/8508",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2024-10-05T12:15:34Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #8567 by @ankammaraosandu is already open against this issue",
+   "evidence": [
+    "https://github.com/excalidraw/excalidraw/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/excalidraw/excalidraw/pull/8567",
+    "https://github.com/excalidraw/excalidraw/pull/8592",
+    "https://github.com/LennyMalcolm0/excalidraw/pull/538",
+    "https://github.com/excalidraw/excalidraw/pull/11976"
+   ]
+  },
+  {
+   "number": 8511,
+   "title": "support `enter` to edit group",
+   "url": "https://github.com/excalidraw/excalidraw/issues/8511",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "grouping"
+   ],
+   "updatedAt": "2026-08-25T00:11:42Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #8528 by @aqandrew is already open against this issue",
+   "evidence": [
+    "https://github.com/excalidraw/excalidraw/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/excalidraw/excalidraw/pull/8528",
+    "https://github.com/excalidraw/excalidraw/pull/10129",
+    "https://github.com/excalidraw/excalidraw/pull/10168",
+    "https://github.com/excalidraw/excalidraw/pull/12071",
+    "https://github.com/excalidraw/excalidraw/pull/12282"
+   ]
+  },
+  {
+   "number": 8586,
+   "title": "Support angle constrained freedraw (Shift + draw straight line in discrete angles) just like with the line tool",
+   "url": "https://github.com/excalidraw/excalidraw/issues/8586",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2024-10-04T11:52:14Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #8591 by @vidipsingh is already open against this issue",
+   "evidence": [
+    "https://github.com/excalidraw/excalidraw/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/excalidraw/excalidraw/pull/8591",
+    "https://github.com/excalidraw/excalidraw/pull/8594",
+    "https://github.com/excalidraw/excalidraw/pull/12250"
+   ]
+  },
+  {
+   "number": 9269,
+   "title": "move to `iTXt` png chunks",
+   "url": "https://github.com/excalidraw/excalidraw/issues/9269",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2026-07-24T08:34:03Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #553 by @LennyMalcolm0 is already open against this issue",
+   "evidence": [
+    "https://github.com/excalidraw/excalidraw/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/LennyMalcolm0/excalidraw/pull/553",
+    "https://github.com/excalidraw/excalidraw/pull/12057"
+   ]
+  },
+  {
+   "number": 9276,
+   "title": "Ctrl + F does not work in help menu",
+   "url": "https://github.com/excalidraw/excalidraw/issues/9276",
+   "labels": [
+    "good first issue",
+    "UX/UI"
+   ],
+   "updatedAt": "2026-08-28T11:23:48Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #9739 by @utsav132 is already open against this issue",
+   "evidence": [
+    "https://github.com/excalidraw/excalidraw/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/excalidraw/excalidraw/pull/9739",
+    "https://github.com/excalidraw/excalidraw/pull/10911",
+    "https://github.com/excalidraw/excalidraw/pull/11193",
+    "https://github.com/excalidraw/excalidraw/pull/11353",
+    "https://github.com/excalidraw/excalidraw/pull/11484",
+    "https://github.com/excalidraw/excalidraw/pull/11525",
+    "https://github.com/LennyMalcolm0/excalidraw/pull/369",
+    "https://github.com/LennyMalcolm0/excalidraw/pull/385",
+    "https://github.com/LennyMalcolm0/excalidraw/pull/444"
+   ]
+  },
+  {
+   "number": 9297,
+   "title": "Refactor point types ` { x, y }` to the proper unified point type in `@excalidraw/math`",
+   "url": "https://github.com/excalidraw/excalidraw/issues/9297",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2026-10-25T07:12:48Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #10556 by @gusa4grr is already open against this issue",
+   "evidence": [
+    "https://github.com/excalidraw/excalidraw/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/excalidraw/excalidraw/pull/10556",
+    "https://github.com/excalidraw/excalidraw/pull/12094"
+   ]
+  },
+  {
+   "number": 9503,
+   "title": "canvas search results unstable",
+   "url": "https://github.com/excalidraw/excalidraw/issues/9503",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2026-09-16T14:23:17Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #9543 by @shobhitsrivastava2023 is already open against this issue",
+   "evidence": [
+    "https://github.com/excalidraw/excalidraw/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/excalidraw/excalidraw/pull/9543",
+    "https://github.com/excalidraw/excalidraw/pull/10383",
+    "https://github.com/excalidraw/excalidraw/pull/10654",
+    "https://github.com/excalidraw/excalidraw/pull/10997",
+    "https://github.com/excalidraw/excalidraw/pull/11382",
+    "https://github.com/excalidraw/excalidraw/pull/11390",
+    "https://github.com/excalidraw/excalidraw/pull/11465",
+    "https://github.com/LennyMalcolm0/excalidraw/pull/393",
+    "https://github.com/LennyMalcolm0/excalidraw/pull/425"
+   ]
+  },
+  {
+   "number": 9656,
+   "title": "Allow to switch into different arrow types when using \"Tab\" switcher when bound to element/s or text",
+   "url": "https://github.com/excalidraw/excalidraw/issues/9656",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2026-08-02T14:04:07Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #9685 by @diljitsgit is already open against this issue",
+   "evidence": [
+    "https://github.com/excalidraw/excalidraw/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/excalidraw/excalidraw/pull/9685",
+    "https://github.com/excalidraw/excalidraw/pull/10371",
+    "https://github.com/excalidraw/excalidraw/pull/11656",
+    "https://github.com/LennyMalcolm0/excalidraw/pull/314",
+    "https://github.com/excalidraw/excalidraw/pull/11964",
+    "https://github.com/excalidraw/excalidraw/pull/12345",
+    "https://github.com/excalidraw/excalidraw/pull/12346",
+    "https://github.com/excalidraw/excalidraw/pull/12503"
+   ]
+  },
+  {
+   "number": 9880,
+   "title": "Translation for Mongolian",
+   "url": "https://github.com/excalidraw/excalidraw/issues/9880",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "good first issue",
+    "i18n"
+   ],
+   "updatedAt": "2026-05-06T12:45:31Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #9915 by @DHANUSHRAJA22 is already open against this issue",
+   "evidence": [
+    "https://github.com/excalidraw/excalidraw/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/excalidraw/excalidraw/pull/9915",
+    "https://github.com/excalidraw/excalidraw/pull/9920",
+    "https://github.com/excalidraw/excalidraw/pull/10046",
+    "https://github.com/excalidraw/excalidraw/pull/10987",
+    "https://github.com/excalidraw/excalidraw/pull/11365",
+    "https://github.com/LennyMalcolm0/excalidraw/pull/437",
+    "https://github.com/LennyMalcolm0/excalidraw/pull/550",
+    "https://github.com/excalidraw/excalidraw/pull/11937"
+   ]
+  },
+  {
+   "number": 9884,
+   "title": "Feature Request: Option to make laser drawings persistent (like iPad laser)",
+   "url": "https://github.com/excalidraw/excalidraw/issues/9884",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2026-10-05T02:21:38Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #9895 by @ItsImran10140 is already open against this issue",
+   "evidence": [
+    "https://github.com/excalidraw/excalidraw/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/excalidraw/excalidraw/pull/9895",
+    "https://github.com/excalidraw/excalidraw/pull/10990",
+    "https://github.com/excalidraw/excalidraw/pull/11002",
+    "https://github.com/koldovsky/2026-fwdays-agentic-large-day03-hw/pull/9",
+    "https://github.com/koldovsky/2026-fwdays-agentic-large-day03-hw/pull/19",
+    "https://github.com/LennyMalcolm0/excalidraw/pull/454",
+    "https://github.com/LennyMalcolm0/excalidraw/pull/489",
+    "https://github.com/LennyMalcolm0/excalidraw/pull/542",
+    "https://github.com/LennyMalcolm0/excalidraw/pull/548"
+   ]
+  }
+ ]
+}

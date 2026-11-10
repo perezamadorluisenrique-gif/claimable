@@ -1,0 +1,209 @@
+{
+ "owner": "gatsbyjs",
+ "repo": "gatsby",
+ "language": "JavaScript",
+ "stars": 55918,
+ "description": "React-based framework with performance, scalability, and security built in.",
+ "visitedAt": "2026-11-10T17:47:07.019Z",
+ "issues": [
+  {
+   "number": 16076,
+   "title": "SecurityError: The operation is insecure in Firefox Developer edition",
+   "url": "https://github.com/gatsbyjs/gatsby/issues/16076",
+   "labels": [
+    "type: bug",
+    "help wanted",
+    "status: confirmed"
+   ],
+   "updatedAt": "2025-03-09T21:22:56Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "reservations",
+   "reason": "PR #5 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/gatsbyjs/gatsby/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/w3f-webops/gatsby-theme-w3f/pull/5",
+    "https://github.com/gatsbyjs/gatsby/issues/16076#issuecomment-559520402"
+   ]
+  },
+  {
+   "number": 24212,
+   "title": "Incorrect aspect ratios when using gatsby-remark-image",
+   "url": "https://github.com/gatsbyjs/gatsby/issues/24212",
+   "labels": [
+    "type: bug",
+    "help wanted",
+    "status: confirmed",
+    "topic: core",
+    "topic: remark/mdx"
+   ],
+   "updatedAt": "2022-07-15T04:53:36Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #39008 by @gera2ld is already open against this issue",
+   "evidence": [
+    "https://github.com/gatsbyjs/gatsby/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/gatsbyjs/gatsby/pull/39008"
+   ]
+  },
+  {
+   "number": 25207,
+   "title": "gatsby-plugin-manifest omits asset prefix in manifest.webmanifest icon URLs",
+   "url": "https://github.com/gatsbyjs/gatsby/issues/25207",
+   "labels": [
+    "type: bug",
+    "help wanted",
+    "good first issue",
+    "status: confirmed",
+    "topic: plugins-PWA"
+   ],
+   "updatedAt": "2026-09-01T12:11:09Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #39539 by @Mathieu-bot is already open against this issue",
+   "evidence": [
+    "https://github.com/gatsbyjs/gatsby/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/gatsbyjs/gatsby/pull/39539",
+    "https://github.com/gatsbyjs/gatsby/pull/39576",
+    "https://github.com/gatsbyjs/gatsby/pull/39598",
+    "https://github.com/gatsbyjs/gatsby/pull/39655",
+    "https://github.com/gatsbyjs/gatsby/pull/39703"
+   ]
+  },
+  {
+   "number": 32142,
+   "title": "Page 404 not rendering react when using pathPrefix and redirect",
+   "url": "https://github.com/gatsbyjs/gatsby/issues/32142",
+   "labels": [
+    "type: bug",
+    "good first issue",
+    "status: confirmed",
+    "topic: frontend"
+   ],
+   "updatedAt": "2026-09-01T12:11:06Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #34237 by @iChenLei is already open against this issue",
+   "evidence": [
+    "https://github.com/gatsbyjs/gatsby/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/gatsbyjs/gatsby/pull/34237",
+    "https://github.com/gatsbyjs/gatsby/pull/39367",
+    "https://github.com/gatsbyjs/gatsby/pull/39381"
+   ]
+  },
+  {
+   "number": 33647,
+   "title": "Responsive images generated with contain fit and an aspect ratio that causes pillarboxing are missing high resolution images",
+   "url": "https://github.com/gatsbyjs/gatsby/issues/33647",
+   "labels": [
+    "type: bug",
+    "help wanted",
+    "status: confirmed",
+    "topic: media"
+   ],
+   "updatedAt": "2026-09-01T12:11:24Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @LeonxLJX 70 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting",
+   "evidence": [
+    "https://github.com/gatsbyjs/gatsby/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/gatsbyjs/gatsby/issues/33647#issuecomment-5493732997",
+    "https://github.com/gatsbyjs/gatsby/issues/33647"
+   ]
+  },
+  {
+   "number": 33844,
+   "title": "Catch and handle ChunkLoadError",
+   "url": "https://github.com/gatsbyjs/gatsby/issues/33844",
+   "labels": [
+    "type: bug",
+    "help wanted",
+    "status: confirmed",
+    "topic: webpack/babel"
+   ],
+   "updatedAt": "2026-09-01T12:11:21Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @LeonxLJX 70 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting",
+   "evidence": [
+    "https://github.com/gatsbyjs/gatsby/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/gatsbyjs/gatsby/issues/33844#issuecomment-5493732236",
+    "https://github.com/gatsbyjs/gatsby/issues/33844"
+   ]
+  },
+  {
+   "number": 34088,
+   "title": "New gatsby-cli installation on ubuntu (wsl2) shows errors when running the command `gatsby` in terminal",
+   "url": "https://github.com/gatsbyjs/gatsby/issues/34088",
+   "labels": [
+    "type: bug",
+    "good first issue",
+    "status: confirmed",
+    "topic: cli"
+   ],
+   "updatedAt": "2026-09-06T03:14:54Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #39675 by @emmron is already open against this issue",
+   "evidence": [
+    "https://github.com/gatsbyjs/gatsby/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/gatsbyjs/gatsby/pull/39675"
+   ]
+  },
+  {
+   "number": 35756,
+   "title": "[gatsby-transformer-javascript-frontmatter] Frontmatter export breaks HMR",
+   "url": "https://github.com/gatsbyjs/gatsby/issues/35756",
+   "labels": [
+    "help wanted",
+    "good first issue",
+    "status: confirmed",
+    "topic: plugins"
+   ],
+   "updatedAt": "2026-09-01T12:11:03Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #39428 by @sudip-kumar-prasad is already open against this issue",
+   "evidence": [
+    "https://github.com/gatsbyjs/gatsby/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/gatsbyjs/gatsby/pull/39428"
+   ]
+  },
+  {
+   "number": 36427,
+   "title": "SSR: Restricting Access to Specific Pages Based on Authenticated User",
+   "url": "https://github.com/gatsbyjs/gatsby/issues/36427",
+   "labels": [
+    "help wanted",
+    "type: documentation",
+    "not stale"
+   ],
+   "updatedAt": "2026-09-01T12:11:17Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "reservations",
+   "reason": "labelled `not stale` — scope may not be settled yet (+1 more)",
+   "evidence": [
+    "https://github.com/gatsbyjs/gatsby/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/gatsbyjs/gatsby/issues/36427",
+    "https://github.com/gatsbyjs/gatsby/issues/36427#issuecomment-5493731479"
+   ]
+  },
+  {
+   "number": 37717,
+   "title": "Page-data not escaping brackets for splat routes",
+   "url": "https://github.com/gatsbyjs/gatsby/issues/37717",
+   "labels": [
+    "type: bug",
+    "help wanted",
+    "status: confirmed"
+   ],
+   "updatedAt": "2026-09-01T12:11:13Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #39671 by @aron-intframe is already open against this issue",
+   "evidence": [
+    "https://github.com/gatsbyjs/gatsby/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/gatsbyjs/gatsby/pull/39671"
+   ]
+  }
+ ]
+}

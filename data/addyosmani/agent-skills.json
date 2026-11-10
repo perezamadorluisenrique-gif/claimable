@@ -1,0 +1,27 @@
+{
+ "owner": "addyosmani",
+ "repo": "agent-skills",
+ "language": "JavaScript",
+ "stars": 114962,
+ "description": "Production-grade engineering skills for AI coding agents.",
+ "visitedAt": "2026-11-10T17:47:07.019Z",
+ "issues": [
+  {
+   "number": 527,
+   "title": "Community videos: Agent Skills in real use",
+   "url": "https://github.com/addyosmani/agent-skills/issues/527",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-06T12:03:29Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #555 by @kaluli123123 is already open against this issue",
+   "evidence": [
+    "https://github.com/addyosmani/agent-skills/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/addyosmani/agent-skills/pull/555",
+    "https://github.com/addyosmani/agent-skills/pull/556"
+   ]
+  }
+ ]
+}

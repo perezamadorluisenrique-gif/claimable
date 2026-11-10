@@ -1,0 +1,616 @@
+{
+ "owner": "louislam",
+ "repo": "uptime-kuma",
+ "language": "JavaScript",
+ "stars": 93456,
+ "description": "A fancy self-hosted monitoring tool",
+ "visitedAt": "2026-11-10T17:47:07.019Z",
+ "issues": [
+  {
+   "number": 177,
+   "title": "Duration of downtime in notifications",
+   "url": "https://github.com/louislam/uptime-kuma/issues/177",
+   "labels": [
+    "feature-request",
+    "help wanted",
+    "A:notifications"
+   ],
+   "updatedAt": "2026-01-19T09:46:33Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/louislam/uptime-kuma/wiki/%F0%9F%94%A7-How-to-Install>) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/louislam/uptime-kuma/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/louislam/uptime-kuma/issues/177",
+    "https://github.com/louislam/uptime-kuma/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/louislam/uptime-kuma/wiki/%F0%9F%94%A7-How-to-Install>"
+   ]
+  },
+  {
+   "number": 443,
+   "title": "Show favicon of service",
+   "url": "https://github.com/louislam/uptime-kuma/issues/443",
+   "labels": [
+    "feature-request",
+    "help wanted",
+    "A:status-page",
+    "A:dashboard"
+   ],
+   "updatedAt": "2026-08-24T14:09:14Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #7761 by @WoutNerd is already open against this issue",
+   "evidence": [
+    "https://github.com/louislam/uptime-kuma/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/louislam/uptime-kuma/pull/7761",
+    "https://github.com/louislam/uptime-kuma/pull/1435"
+   ]
+  },
+  {
+   "number": 637,
+   "title": "Add ping graph on the status page",
+   "url": "https://github.com/louislam/uptime-kuma/issues/637",
+   "labels": [
+    "feature-request",
+    "help wanted",
+    "A:status-page"
+   ],
+   "updatedAt": "2026-05-27T23:37:31Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #7901 by @joao-petry is already open against this issue",
+   "evidence": [
+    "https://github.com/louislam/uptime-kuma/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/louislam/uptime-kuma/issues/7901",
+    "https://github.com/louislam/uptime-kuma/issues/1724",
+    "https://github.com/louislam/uptime-kuma/issues/7337",
+    "https://github.com/louislam/uptime-kuma/issues/2917"
+   ]
+  },
+  {
+   "number": 646,
+   "title": "Adding templating to more notification providers",
+   "url": "https://github.com/louislam/uptime-kuma/issues/646",
+   "labels": [
+    "feature-request",
+    "good first issue",
+    "A:notifications",
+    "type:enhance-existing"
+   ],
+   "updatedAt": "2026-11-02T11:33:52Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #11 by @codered is already open against this issue",
+   "evidence": [
+    "https://github.com/louislam/uptime-kuma/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/codered/uptime-kuma/pull/11",
+    "https://github.com/rx007/uptime-kuma/pull/9",
+    "https://github.com/omarx3/uptime-kuma/pull/18",
+    "https://github.com/heltondoria/uptime-kuma/pull/35",
+    "https://github.com/omarx3/uptime-kuma/pull/30",
+    "https://github.com/louislam/uptime-kuma/pull/5637"
+   ]
+  },
+  {
+   "number": 2195,
+   "title": "Matrix notifications end-to-end encryption implementation ",
+   "url": "https://github.com/louislam/uptime-kuma/issues/2195",
+   "labels": [
+    "feature-request",
+    "good first issue",
+    "A:notifications",
+    "type:new"
+   ],
+   "updatedAt": "2023-12-14T23:44:55Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #1 by @hsiang051 is already open against this issue",
+   "evidence": [
+    "https://github.com/louislam/uptime-kuma/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ComputerElite/uptime-kuma/pull/1"
+   ]
+  },
+  {
+   "number": 2436,
+   "title": "Typescript functionality?",
+   "url": "https://github.com/louislam/uptime-kuma/issues/2436",
+   "labels": [
+    "feature-request",
+    "help wanted",
+    "A:core"
+   ],
+   "updatedAt": "2024-05-22T23:57:47Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/louislam/uptime-kuma/wiki/%F0%9F%94%A7-How-to-Install>) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/louislam/uptime-kuma/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/louislam/uptime-kuma/issues/2436",
+    "https://github.com/louislam/uptime-kuma/wiki/%F0%9F%94%A7-How-to-Install>",
+    "https://github.com/louislam/uptime-kuma/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 3295,
+   "title": "SMS Text to Speech/ Calling notification service",
+   "url": "https://github.com/louislam/uptime-kuma/issues/3295",
+   "labels": [
+    "feature-request",
+    "help wanted",
+    "A:notifications",
+    "type:new"
+   ],
+   "updatedAt": "2026-07-12T02:55:16Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #5375 by @Hoto-Cocoa is already open against this issue",
+   "evidence": [
+    "https://github.com/louislam/uptime-kuma/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/louislam/uptime-kuma/issues/5375"
+   ]
+  },
+  {
+   "number": 3672,
+   "title": "Support URL parameters so we can link directly to filtered dashboard view",
+   "url": "https://github.com/louislam/uptime-kuma/issues/3672",
+   "labels": [
+    "feature-request",
+    "good first issue",
+    "A:dashboard"
+   ],
+   "updatedAt": "2026-10-07T06:38:18Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #2 by @MadhavBhanot is already open against this issue",
+   "evidence": [
+    "https://github.com/louislam/uptime-kuma/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/MadhavBhanot/uptime-kuma/pull/2"
+   ]
+  },
+  {
+   "number": 3778,
+   "title": "Using webhook notification provider with multiline messages results in broken payloads",
+   "url": "https://github.com/louislam/uptime-kuma/issues/3778",
+   "labels": [
+    "bug",
+    "good first issue",
+    "A:notifications",
+    "type:enhance-existing"
+   ],
+   "updatedAt": "2024-10-07T18:55:36Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #7561 by @Julian-Enable is already open against this issue",
+   "evidence": [
+    "https://github.com/louislam/uptime-kuma/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/louislam/uptime-kuma/pull/7561"
+   ]
+  },
+  {
+   "number": 4223,
+   "title": "[WeCom] Using multiple notifications will cause omissions",
+   "url": "https://github.com/louislam/uptime-kuma/issues/4223",
+   "labels": [
+    "bug",
+    "help wanted",
+    "A:notifications",
+    "type:enhance-existing"
+   ],
+   "updatedAt": "2024-02-17T14:43:35Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #7991 by @MuzahidGithub is already open against this issue",
+   "evidence": [
+    "https://github.com/louislam/uptime-kuma/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/louislam/uptime-kuma/issues/7991"
+   ]
+  },
+  {
+   "number": 4304,
+   "title": "GameDig Discord Server Monitoring",
+   "url": "https://github.com/louislam/uptime-kuma/issues/4304",
+   "labels": [
+    "feature-request",
+    "good first issue",
+    "A:monitor",
+    "type:enhance-existing"
+   ],
+   "updatedAt": "2026-04-21T06:19:29Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @kaminimangal 204 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/louislam/uptime-kuma/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/louislam/uptime-kuma/issues/4304#issuecomment-4286050032",
+    "https://github.com/louislam/uptime-kuma/issues/4304",
+    "https://github.com/louislam/uptime-kuma/wiki/%F0%9F%94%A7-How-to-Install>",
+    "https://github.com/louislam/uptime-kuma/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 4337,
+   "title": "[GDPR] Add cookies consent when Google Analytics is Enabled",
+   "url": "https://github.com/louislam/uptime-kuma/issues/4337",
+   "labels": [
+    "feature-request",
+    "help wanted",
+    "good first issue",
+    "A:status-page"
+   ],
+   "updatedAt": "2026-11-02T13:09:28Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #7980 by @zachpickell is already open against this issue",
+   "evidence": [
+    "https://github.com/louislam/uptime-kuma/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/louislam/uptime-kuma/pull/7980",
+    "https://github.com/louislam/uptime-kuma/pull/8109"
+   ]
+  },
+  {
+   "number": 4523,
+   "title": "if you don't create a status page, then nothing works..",
+   "url": "https://github.com/louislam/uptime-kuma/issues/4523",
+   "labels": [
+    "bug",
+    "A:documentation",
+    "good first issue"
+   ],
+   "updatedAt": "2025-10-08T16:23:37Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #1 by @Yahiro025 is already open against this issue",
+   "evidence": [
+    "https://github.com/louislam/uptime-kuma/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/Yahiro025/uptime-kuma/pull/1"
+   ]
+  },
+  {
+   "number": 4584,
+   "title": "Localisation of dates/times in the frontend via `vue-i18n` instead of `dayjs.format`",
+   "url": "https://github.com/louislam/uptime-kuma/issues/4584",
+   "labels": [
+    "feature-request",
+    "help wanted",
+    "good first issue",
+    "A:core"
+   ],
+   "updatedAt": "2025-10-08T16:18:59Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #8095 by @1lyan is already open against this issue",
+   "evidence": [
+    "https://github.com/louislam/uptime-kuma/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/louislam/uptime-kuma/pull/8095"
+   ]
+  },
+  {
+   "number": 4642,
+   "title": "Theme status pages (and dashboard?) by defining \"base colors\" in Appearance setting",
+   "url": "https://github.com/louislam/uptime-kuma/issues/4642",
+   "labels": [
+    "feature-request",
+    "help wanted",
+    "A:status-page",
+    "A:dashboard",
+    "A:settings",
+    "A:core",
+    "A:ui/ux"
+   ],
+   "updatedAt": "2026-03-26T18:09:43Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/louislam/uptime-kuma/wiki/%F0%9F%94%A7-How-to-Install>) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/louislam/uptime-kuma/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/louislam/uptime-kuma/issues/4642",
+    "https://github.com/louislam/uptime-kuma/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/louislam/uptime-kuma/wiki/%F0%9F%94%A7-How-to-Install>"
+   ]
+  },
+  {
+   "number": 4713,
+   "title": "`oauth2-cc` should use the proxy configuration for `getOidcTokenClientCredentials`",
+   "url": "https://github.com/louislam/uptime-kuma/issues/4713",
+   "labels": [
+    "feature-request",
+    "help wanted",
+    "A:monitor",
+    "type:enhance-existing"
+   ],
+   "updatedAt": "2024-04-27T20:59:55Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #1 by @hippi345 is already open against this issue",
+   "evidence": [
+    "https://github.com/louislam/uptime-kuma/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/hippi345/uptime-kuma/pull/1",
+    "https://github.com/louislam/uptime-kuma/pull/8063"
+   ]
+  },
+  {
+   "number": 5313,
+   "title": "Status page show https certificate expiration remaining days for self-signed certificates",
+   "url": "https://github.com/louislam/uptime-kuma/issues/5313",
+   "labels": [
+    "feature-request",
+    "help wanted",
+    "A:status-page"
+   ],
+   "updatedAt": "2026-09-27T08:49:11Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #7907 by @Rohitkhapre is already open against this issue",
+   "evidence": [
+    "https://github.com/louislam/uptime-kuma/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/louislam/uptime-kuma/pull/7907"
+   ]
+  },
+  {
+   "number": 5357,
+   "title": "Receiving a trace error: `insert into 'stat_hourly' - Duplicate entry '43-1731949200' for key 'stat_hourly_monitor_id_timestamp_unique'`",
+   "url": "https://github.com/louislam/uptime-kuma/issues/5357",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-10-17T12:32:48Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #7554 by @jmerhar is already open against this issue",
+   "evidence": [
+    "https://github.com/louislam/uptime-kuma/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/louislam/uptime-kuma/pull/7554"
+   ]
+  },
+  {
+   "number": 5524,
+   "title": "Graphing latency-results could be clearer",
+   "url": "https://github.com/louislam/uptime-kuma/issues/5524",
+   "labels": [
+    "feature-request",
+    "help wanted",
+    "A:monitor",
+    "A:dashboard"
+   ],
+   "updatedAt": "2026-01-05T16:58:47Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/louislam/uptime-kuma/wiki/%F0%9F%94%A7-How-to-Install>) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/louislam/uptime-kuma/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/louislam/uptime-kuma/issues/5524",
+    "https://github.com/louislam/uptime-kuma/wiki/%F0%9F%94%A7-How-to-Install>",
+    "https://github.com/louislam/uptime-kuma/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 5911,
+   "title": " broken upside down mode with (Push) monitors' notifcation detection of important heatbeats",
+   "url": "https://github.com/louislam/uptime-kuma/issues/5911",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-04T20:55:24Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "@StahlOtto claimed it 9 days ago",
+   "evidence": [
+    "https://github.com/louislam/uptime-kuma/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/louislam/uptime-kuma/issues/5911#issuecomment-6564625386"
+   ]
+  },
+  {
+   "number": 5949,
+   "title": "Show detailed history of all received Push status=up events",
+   "url": "https://github.com/louislam/uptime-kuma/issues/5949",
+   "labels": [
+    "feature-request",
+    "help wanted"
+   ],
+   "updatedAt": "2026-10-20T19:23:18Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/louislam/uptime-kuma/wiki/%F0%9F%94%A7-How-to-Install>) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/louislam/uptime-kuma/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/louislam/uptime-kuma/issues/5949",
+    "https://github.com/louislam/uptime-kuma/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/louislam/uptime-kuma/wiki/%F0%9F%94%A7-How-to-Install>"
+   ]
+  },
+  {
+   "number": 6029,
+   "title": "Show maintenance title in service tree on mouse over",
+   "url": "https://github.com/louislam/uptime-kuma/issues/6029",
+   "labels": [
+    "feature-request",
+    "help wanted",
+    "A:dashboard"
+   ],
+   "updatedAt": "2025-09-06T11:28:00Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #8097 by @bonderaustria is already open against this issue",
+   "evidence": [
+    "https://github.com/louislam/uptime-kuma/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/louislam/uptime-kuma/pull/8097"
+   ]
+  },
+  {
+   "number": 6041,
+   "title": "Add unique IDs to stack field notifications to prevent dropping \"duplicate\" messages ",
+   "url": "https://github.com/louislam/uptime-kuma/issues/6041",
+   "labels": [
+    "feature-request",
+    "help wanted",
+    "A:notifications"
+   ],
+   "updatedAt": "2026-01-14T13:37:01Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @DeborahOlaboye 300 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/louislam/uptime-kuma/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/louislam/uptime-kuma/issues/6041#issuecomment-3749298760",
+    "https://github.com/louislam/uptime-kuma/issues/6041",
+    "https://github.com/louislam/uptime-kuma/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/louislam/uptime-kuma/wiki/%F0%9F%94%A7-How-to-Install>"
+   ]
+  },
+  {
+   "number": 6046,
+   "title": "Notification lost if service is temporarily unavailable",
+   "url": "https://github.com/louislam/uptime-kuma/issues/6046",
+   "labels": [
+    "feature-request",
+    "help wanted",
+    "A:notifications"
+   ],
+   "updatedAt": "2026-03-20T14:54:08Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #8021 by @kaiffeetasse is already open against this issue",
+   "evidence": [
+    "https://github.com/louislam/uptime-kuma/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/louislam/uptime-kuma/pull/8021",
+    "https://github.com/bagus01darmawan-wq/lazisnu/pull/46"
+   ]
+  },
+  {
+   "number": 6050,
+   "title": "[BETA] ntfy: test button does not verify if message is sent",
+   "url": "https://github.com/louislam/uptime-kuma/issues/6050",
+   "labels": [
+    "bug",
+    "help wanted",
+    "A:notifications"
+   ],
+   "updatedAt": "2025-11-25T21:13:39Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #7650 by @dharunashokkumar is already open against this issue",
+   "evidence": [
+    "https://github.com/louislam/uptime-kuma/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/louislam/uptime-kuma/pull/7650"
+   ]
+  },
+  {
+   "number": 6200,
+   "title": "BetterAuth to implement multi-user support, roles, external auth providers",
+   "url": "https://github.com/louislam/uptime-kuma/issues/6200",
+   "labels": [
+    "feature-request",
+    "help wanted",
+    "A:user-management"
+   ],
+   "updatedAt": "2026-10-05T05:45:46Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #6260 by @CommanderStorm is already open against this issue",
+   "evidence": [
+    "https://github.com/louislam/uptime-kuma/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/louislam/uptime-kuma/issues/6260",
+    "https://github.com/louislam/uptime-kuma/issues/128",
+    "https://github.com/louislam/uptime-kuma/issues/4277"
+   ]
+  },
+  {
+   "number": 6260,
+   "title": "Please help with pull request reviews!",
+   "url": "https://github.com/louislam/uptime-kuma/issues/6260",
+   "labels": [
+    "help wanted",
+    "discussion"
+   ],
+   "updatedAt": "2026-08-19T09:13:32Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #6930 by @cyril59310 is already open against this issue",
+   "evidence": [
+    "https://github.com/louislam/uptime-kuma/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/louislam/uptime-kuma/pull/6930",
+    "https://github.com/louislam/uptime-kuma/pull/8013",
+    "https://github.com/louislam/uptime-kuma/pull/6595",
+    "https://github.com/louislam/uptime-kuma/pull/6751"
+   ]
+  },
+  {
+   "number": 6888,
+   "title": "2.1.0 talking more CPU resources than 2.0",
+   "url": "https://github.com/louislam/uptime-kuma/issues/6888",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-02-18T08:12:32Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/louislam/uptime-kuma/wiki/%F0%9F%94%A7-How-to-Install>) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/louislam/uptime-kuma/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/louislam/uptime-kuma/issues/6888",
+    "https://github.com/louislam/uptime-kuma/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/louislam/uptime-kuma/wiki/%F0%9F%94%A7-How-to-Install>"
+   ]
+  },
+  {
+   "number": 7044,
+   "title": "On the maintenance creation form, link start and end times together",
+   "url": "https://github.com/louislam/uptime-kuma/issues/7044",
+   "labels": [
+    "feature-request",
+    "good first issue",
+    "A:maintenance"
+   ],
+   "updatedAt": "2026-07-02T18:34:52Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #7065 by @prakash-218 is already open against this issue",
+   "evidence": [
+    "https://github.com/louislam/uptime-kuma/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/louislam/uptime-kuma/pull/7065"
+   ]
+  },
+  {
+   "number": 7062,
+   "title": "Allow a monitor to be dragged on top of the hierarchy",
+   "url": "https://github.com/louislam/uptime-kuma/issues/7062",
+   "labels": [
+    "feature-request",
+    "help wanted",
+    "A:dashboard"
+   ],
+   "updatedAt": "2026-09-17T19:46:02Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #7882 by @malaika-azhar is already open against this issue",
+   "evidence": [
+    "https://github.com/louislam/uptime-kuma/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/louislam/uptime-kuma/pull/7882"
+   ]
+  },
+  {
+   "number": 7242,
+   "title": "Pausing a group does not pause the individual monitors of that group",
+   "url": "https://github.com/louislam/uptime-kuma/issues/7242",
+   "labels": [
+    "feature-request",
+    "help wanted",
+    "good first issue",
+    "A:dashboard"
+   ],
+   "updatedAt": "2026-10-22T10:25:59Z",
+   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "verdict": "discard",
+   "reason": "PR #7249 by @Malusnow is already open against this issue",
+   "evidence": [
+    "https://github.com/louislam/uptime-kuma/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/louislam/uptime-kuma/pull/7249",
+    "https://github.com/louislam/uptime-kuma/pull/7813",
+    "https://github.com/frankgraave/subglance/pull/241"
+   ]
+  }
+ ]
+}
