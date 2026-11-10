@@ -1,0 +1,32 @@
+{
+ "owner": "odysseus-dev",
+ "repo": "odysseus",
+ "language": "Python",
+ "stars": 95548,
+ "description": "Self-hosted AI workspace. ",
+ "visitedAt": "2026-11-10T23:25:58.547Z",
+ "issues": [
+  {
+   "number": 2917,
+   "title": "refactor(tools): split execute_tool_block's inline per-tool logic into a handler registry",
+   "url": "https://github.com/odysseus-dev/odysseus/issues/2917",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "ready for review",
+    "p3"
+   ],
+   "updatedAt": "2026-10-09T22:06:59Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "already assigned to @xplictly",
+   "evidence": [
+    "https://github.com/odysseus-dev/odysseus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/odysseus-dev/odysseus/pull/638",
+    "https://github.com/odysseus-dev/odysseus/pull/3435",
+    "https://github.com/odysseus-dev/odysseus/issues/2917",
+    "https://github.com/odysseus-dev/odysseus/issues/2917#issuecomment-6062028686"
+   ]
+  }
+ ]
+}

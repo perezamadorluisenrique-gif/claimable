@@ -1,0 +1,130 @@
+{
+ "owner": "Significant-Gravitas",
+ "repo": "AutoGPT",
+ "language": "Python",
+ "stars": 187983,
+ "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+ "visitedAt": "2026-11-10T23:25:58.547Z",
+ "issues": [
+  {
+   "number": 5191,
+   "title": "Auto-GPT developer documentation 📔",
+   "url": "https://github.com/Significant-Gravitas/AutoGPT/issues/5191",
+   "labels": [
+    "help wanted",
+    "project management",
+    "Classic AutoGPT Agent"
+   ],
+   "updatedAt": "2026-11-03T03:19:39Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/Significant-Gravitas/AutoGPT/wiki/Contributing) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/Significant-Gravitas/AutoGPT/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/Significant-Gravitas/AutoGPT/issues/5191",
+    "https://github.com/Significant-Gravitas/AutoGPT/blob/HEAD/README.md",
+    "https://github.com/Significant-Gravitas/AutoGPT/wiki/Contributing",
+    "https://github.com/Significant-Gravitas/AutoGPT/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/Significant-Gravitas/AutoGPT/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 6885,
+   "title": "support to gemini",
+   "url": "https://github.com/Significant-Gravitas/AutoGPT/issues/6885",
+   "labels": [
+    "documentation",
+    "help wanted",
+    "good first issue",
+    "function: multi-agent",
+    "fridge",
+    "Forge"
+   ],
+   "updatedAt": "2026-06-10T20:02:42Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "reservations",
+   "reason": "2 stale claims, the most recent by @holts-shoe 523 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/Significant-Gravitas/AutoGPT/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/Significant-Gravitas/AutoGPT/issues/6885#issuecomment-2947982240",
+    "https://github.com/Significant-Gravitas/AutoGPT/issues/6885",
+    "https://github.com/Significant-Gravitas/AutoGPT/blob/HEAD/README.md",
+    "https://github.com/Significant-Gravitas/AutoGPT/wiki/Contributing",
+    "https://github.com/Significant-Gravitas/AutoGPT/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/Significant-Gravitas/AutoGPT/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 7206,
+   "title": "Add Support for Internationalization to AutoGPT",
+   "url": "https://github.com/Significant-Gravitas/AutoGPT/issues/7206",
+   "labels": [
+    "help wanted",
+    "good first issue",
+    "internationalization",
+    "fridge"
+   ],
+   "updatedAt": "2026-11-10T17:59:00Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "@raunaque21278 claimed it 3 days ago",
+   "evidence": [
+    "https://github.com/Significant-Gravitas/AutoGPT/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/Significant-Gravitas/AutoGPT/issues/7206#issuecomment-6710526767"
+   ]
+  },
+  {
+   "number": 8889,
+   "title": "Show disabled blocks as disabled (greyed out and un-selectable) in the block list with a reason on hover (or similar) and add a separate block bool to hide blocks from the list",
+   "url": "https://github.com/Significant-Gravitas/AutoGPT/issues/8889",
+   "labels": [
+    "good first issue",
+    "fridge"
+   ],
+   "updatedAt": "2026-09-15T12:43:37Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #15000 by @xjsns346 is already open against this issue",
+   "evidence": [
+    "https://github.com/Significant-Gravitas/AutoGPT/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/Significant-Gravitas/AutoGPT/pull/15000"
+   ]
+  },
+  {
+   "number": 9193,
+   "title": "Add HeyGen Integration",
+   "url": "https://github.com/Significant-Gravitas/AutoGPT/issues/9193",
+   "labels": [
+    "good first issue",
+    "platform/blocks"
+   ],
+   "updatedAt": "2026-06-08T16:39:27Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #12586 by @knQzx is already open against this issue",
+   "evidence": [
+    "https://github.com/Significant-Gravitas/AutoGPT/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/Significant-Gravitas/AutoGPT/pull/12586",
+    "https://github.com/Significant-Gravitas/AutoGPT/pull/13522"
+   ]
+  },
+  {
+   "number": 11044,
+   "title": "Collapse unconnected object sub-outputs on blocks",
+   "url": "https://github.com/Significant-Gravitas/AutoGPT/issues/11044",
+   "labels": [
+    "good first issue",
+    "platform/frontend"
+   ],
+   "updatedAt": "2026-11-05T08:40:54Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #1 by @ZYZ666-RGB is already open against this issue",
+   "evidence": [
+    "https://github.com/Significant-Gravitas/AutoGPT/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ZYZ666-RGB/AutoGPT/pull/1",
+    "https://github.com/Significant-Gravitas/AutoGPT/pull/16647"
+   ]
+  }
+ ]
+}

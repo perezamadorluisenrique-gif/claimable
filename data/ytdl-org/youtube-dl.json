@@ -1,0 +1,257 @@
+{
+ "owner": "ytdl-org",
+ "repo": "youtube-dl",
+ "language": "Python",
+ "stars": 141526,
+ "description": "Command-line program to download videos from YouTube.com and other video sites",
+ "visitedAt": "2026-11-10T23:25:58.547Z",
+ "issues": [
+  {
+   "number": 7403,
+   "title": "Site support request: memritv.org",
+   "url": "https://github.com/ytdl-org/youtube-dl/issues/7403",
+   "labels": [
+    "site-support-request",
+    "Good first issue"
+   ],
+   "updatedAt": "2025-03-06T21:04:00Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "reservations",
+   "reason": "only 18% of recently closed PRs were merged — most contributions get rejected or abandoned here (+1 more)",
+   "evidence": [
+    "https://github.com/ytdl-org/youtube-dl/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/ytdl-org/youtube-dl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ytdl-org/youtube-dl/issues/7403",
+    "https://docs.python.org/2/library/stdtypes.html#string-formatting",
+    "https://github.com/ytdl-org/youtube-dl/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 21430,
+   "title": "Support for online channel M3 on MTVA Archívum (HU)",
+   "url": "https://github.com/ytdl-org/youtube-dl/issues/21430",
+   "labels": [
+    "site-support-request",
+    "Good first issue"
+   ],
+   "updatedAt": "2023-04-13T09:21:34Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #32589 by @aaron-tan is already open against this issue",
+   "evidence": [
+    "https://github.com/ytdl-org/youtube-dl/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/ytdl-org/youtube-dl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ytdl-org/youtube-dl/pull/32589"
+   ]
+  },
+  {
+   "number": 30458,
+   "title": "[AlphaPorno] ERROR: Unable to extract video url",
+   "url": "https://github.com/ytdl-org/youtube-dl/issues/30458",
+   "labels": [
+    "Good first issue"
+   ],
+   "updatedAt": "2022-03-25T17:29:19Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #11533 by @jshumphrey is already open against this issue",
+   "evidence": [
+    "https://github.com/ytdl-org/youtube-dl/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/ytdl-org/youtube-dl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/yt-dlp/yt-dlp/pull/11533"
+   ]
+  },
+  {
+   "number": 30575,
+   "title": "newgrounds video error",
+   "url": "https://github.com/ytdl-org/youtube-dl/issues/30575",
+   "labels": [
+    "broken-IE",
+    "Good first issue"
+   ],
+   "updatedAt": "2022-01-30T17:44:56Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #1 by @marianalml is already open against this issue",
+   "evidence": [
+    "https://github.com/ytdl-org/youtube-dl/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/ytdl-org/youtube-dl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/marianalml/youtube-dl/pull/1"
+   ]
+  },
+  {
+   "number": 30576,
+   "title": "Download videos from google search",
+   "url": "https://github.com/ytdl-org/youtube-dl/issues/30576",
+   "labels": [
+    "broken-IE",
+    "Good first issue"
+   ],
+   "updatedAt": "2025-06-29T23:08:52Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "reservations",
+   "reason": "only 18% of recently closed PRs were merged — most contributions get rejected or abandoned here (+2 more)",
+   "evidence": [
+    "https://github.com/ytdl-org/youtube-dl/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/ytdl-org/youtube-dl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ytdl-org/youtube-dl/issues/30576#issuecomment-3016337629",
+    "https://github.com/ytdl-org/youtube-dl/issues/30576",
+    "https://docs.python.org/2/library/stdtypes.html#string-formatting",
+    "https://github.com/ytdl-org/youtube-dl/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 31013,
+   "title": "Unsupported URL (https://www.pornlib.com/)",
+   "url": "https://github.com/ytdl-org/youtube-dl/issues/31013",
+   "labels": [
+    "site-support-request",
+    "Good first issue"
+   ],
+   "updatedAt": "2022-06-17T17:49:51Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "reservations",
+   "reason": "only 18% of recently closed PRs were merged — most contributions get rejected or abandoned here (+1 more)",
+   "evidence": [
+    "https://github.com/ytdl-org/youtube-dl/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/ytdl-org/youtube-dl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ytdl-org/youtube-dl/issues/31013",
+    "https://docs.python.org/2/library/stdtypes.html#string-formatting",
+    "https://github.com/ytdl-org/youtube-dl/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 31045,
+   "title": "[Smotrim.ru] Source removed from supported?",
+   "url": "https://github.com/ytdl-org/youtube-dl/issues/31045",
+   "labels": [
+    "site-support-request",
+    "Good first issue"
+   ],
+   "updatedAt": "2022-07-03T04:08:07Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "reservations",
+   "reason": "only 18% of recently closed PRs were merged — most contributions get rejected or abandoned here (+1 more)",
+   "evidence": [
+    "https://github.com/ytdl-org/youtube-dl/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/ytdl-org/youtube-dl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ytdl-org/youtube-dl/issues/31045",
+    "https://docs.python.org/2/library/stdtypes.html#string-formatting",
+    "https://github.com/ytdl-org/youtube-dl/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 31163,
+   "title": "Add support for clips from Nest Cam site video.nest.com",
+   "url": "https://github.com/ytdl-org/youtube-dl/issues/31163",
+   "labels": [
+    "site-support-request",
+    "Good first issue"
+   ],
+   "updatedAt": "2022-10-08T18:36:12Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "reservations",
+   "reason": "only 18% of recently closed PRs were merged — most contributions get rejected or abandoned here (+1 more)",
+   "evidence": [
+    "https://github.com/ytdl-org/youtube-dl/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/ytdl-org/youtube-dl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ytdl-org/youtube-dl/issues/31163",
+    "https://docs.python.org/2/library/stdtypes.html#string-formatting",
+    "https://github.com/ytdl-org/youtube-dl/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 31184,
+   "title": "BandLab",
+   "url": "https://github.com/ytdl-org/youtube-dl/issues/31184",
+   "labels": [
+    "site-support-request",
+    "Good first issue"
+   ],
+   "updatedAt": "2024-07-28T14:41:34Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #31206 by @dt-rush is already open against this issue",
+   "evidence": [
+    "https://github.com/ytdl-org/youtube-dl/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/ytdl-org/youtube-dl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ytdl-org/youtube-dl/pull/31206",
+    "https://github.com/ytdl-org/youtube-dl/pull/32881"
+   ]
+  },
+  {
+   "number": 31203,
+   "title": "Erocast",
+   "url": "https://github.com/ytdl-org/youtube-dl/issues/31203",
+   "labels": [
+    "site-support-request",
+    "Good first issue"
+   ],
+   "updatedAt": "2023-02-20T19:58:58Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #31631 by @RonniCGN is already open against this issue",
+   "evidence": [
+    "https://github.com/ytdl-org/youtube-dl/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/ytdl-org/youtube-dl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ytdl-org/youtube-dl/pull/31631",
+    "https://github.com/ytdl-org/youtube-dl/pull/32509"
+   ]
+  },
+  {
+   "number": 31412,
+   "title": "Chelsea FC",
+   "url": "https://github.com/ytdl-org/youtube-dl/issues/31412",
+   "labels": [
+    "site-support-request",
+    "Good first issue"
+   ],
+   "updatedAt": "2023-03-06T09:17:41Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #31918 by @01001110 is already open against this issue",
+   "evidence": [
+    "https://github.com/ytdl-org/youtube-dl/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/ytdl-org/youtube-dl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ytdl-org/youtube-dl/pull/31918"
+   ]
+  },
+  {
+   "number": 31430,
+   "title": "Kick support",
+   "url": "https://github.com/ytdl-org/youtube-dl/issues/31430",
+   "labels": [
+    "site-support-request",
+    "Good first issue"
+   ],
+   "updatedAt": "2025-09-23T18:20:53Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #31576 by @jamilkarami is already open against this issue",
+   "evidence": [
+    "https://github.com/ytdl-org/youtube-dl/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/ytdl-org/youtube-dl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ytdl-org/youtube-dl/pull/31576"
+   ]
+  },
+  {
+   "number": 32654,
+   "title": "Please support dzen.ru quickly",
+   "url": "https://github.com/ytdl-org/youtube-dl/issues/32654",
+   "labels": [
+    "site-support-request",
+    "Good first issue"
+   ],
+   "updatedAt": "2025-04-07T10:40:40Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "already assigned to @Revisto",
+   "evidence": [
+    "https://github.com/ytdl-org/youtube-dl/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/ytdl-org/youtube-dl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ytdl-org/youtube-dl/issues/32654",
+    "https://github.com/ytdl-org/youtube-dl/issues/32654#issuecomment-1913865011"
+   ]
+  }
+ ]
+}

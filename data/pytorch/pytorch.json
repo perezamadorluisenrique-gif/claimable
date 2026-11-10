@@ -1,0 +1,766 @@
+{
+ "owner": "pytorch",
+ "repo": "pytorch",
+ "language": "Python",
+ "stars": 105318,
+ "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+ "visitedAt": "2026-11-10T23:25:58.547Z",
+ "issues": [
+  {
+   "number": 6662,
+   "title": "Autogenerate code example / tutorial outputs in documentation",
+   "url": "https://github.com/pytorch/pytorch/issues/6662",
+   "labels": [
+    "todo",
+    "module: docs",
+    "good first issue",
+    "triaged",
+    "module: doc infra"
+   ],
+   "updatedAt": "2025-10-27T15:13:59Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/pytorch/pytorch/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 9886,
+   "title": "[doc] functionalities not documented",
+   "url": "https://github.com/pytorch/pytorch/issues/9886",
+   "labels": [
+    "module: docs",
+    "good first issue",
+    "triaged"
+   ],
+   "updatedAt": "2026-06-30T08:53:16Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/pytorch/pytorch/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 10756,
+   "title": "Unexpected Behavior when Pointwise Operations Write to Expanded Tensors",
+   "url": "https://github.com/pytorch/pytorch/issues/10756",
+   "labels": [
+    "module: internals",
+    "good first issue",
+    "triaged",
+    "module: partial aliasing"
+   ],
+   "updatedAt": "2023-06-07T22:36:05Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/pytorch/pytorch/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 20704,
+   "title": "Remove unpack() in torch/csrc/nn/type_checks.h and its caller functions in the codebase",
+   "url": "https://github.com/pytorch/pytorch/issues/20704",
+   "labels": [
+    "module: internals",
+    "module: nn",
+    "good first issue",
+    "triaged"
+   ],
+   "updatedAt": "2026-10-08T10:16:59Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/pytorch/pytorch/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 25883,
+   "title": "Python/C++ API Parity: torch.nn modules and functional",
+   "url": "https://github.com/pytorch/pytorch/issues/25883",
+   "labels": [
+    "module: cpp",
+    "module: nn",
+    "good first issue",
+    "triaged"
+   ],
+   "updatedAt": "2025-04-11T20:00:45Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/pytorch/pytorch/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 40316,
+   "title": "Refactor the adaptive avg pool code",
+   "url": "https://github.com/pytorch/pytorch/issues/40316",
+   "labels": [
+    "oncall: quantization",
+    "good first issue",
+    "low priority",
+    "triaged",
+    "module: pooling"
+   ],
+   "updatedAt": "2023-11-17T22:22:33Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/pytorch/pytorch/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 48251,
+   "title": "torch.eye(d) is slow and hogs cpu for d >= 182",
+   "url": "https://github.com/pytorch/pytorch/issues/48251",
+   "labels": [
+    "module: performance",
+    "good first issue",
+    "module: cpu",
+    "triaged",
+    "module: multithreading"
+   ],
+   "updatedAt": "2026-04-15T01:15:15Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/pytorch/pytorch/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 58122,
+   "title": "Generate special clear error messages for known common misuses in TorchScript",
+   "url": "https://github.com/pytorch/pytorch/issues/58122",
+   "labels": [
+    "module: bootcamp",
+    "good first issue",
+    "triaged",
+    "OSS contribution wanted"
+   ],
+   "updatedAt": "2024-04-21T17:55:38Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/pytorch/pytorch/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 61654,
+   "title": "Allow creation of pseudo devices for testing purposes",
+   "url": "https://github.com/pytorch/pytorch/issues/61654",
+   "labels": [
+    "module: internals",
+    "good first issue",
+    "triaged"
+   ],
+   "updatedAt": "2025-07-09T13:55:56Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/pytorch/pytorch/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 63265,
+   "title": "torch.scatter_: support index.size(d) > src.size(d)",
+   "url": "https://github.com/pytorch/pytorch/issues/63265",
+   "labels": [
+    "good first issue",
+    "triaged",
+    "enhancement",
+    "module: scatter & gather ops"
+   ],
+   "updatedAt": "2024-04-03T02:24:43Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/pytorch/pytorch/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 64067,
+   "title": "Execute C++ based GTest unit tests from a python wrapper",
+   "url": "https://github.com/pytorch/pytorch/issues/64067",
+   "labels": [
+    "good first issue",
+    "module: ci",
+    "triaged",
+    "enhancement"
+   ],
+   "updatedAt": "2022-09-28T18:58:34Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/pytorch/pytorch/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 66813,
+   "title": "Use `__slots__` for the `nn.Module` class",
+   "url": "https://github.com/pytorch/pytorch/issues/66813",
+   "labels": [
+    "module: performance",
+    "module: nn",
+    "good first issue",
+    "triaged",
+    "better-engineering",
+    "actionable"
+   ],
+   "updatedAt": "2026-09-18T05:36:49Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/pytorch/pytorch/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 67321,
+   "title": "alias to generate tensor with random uniform distribution.",
+   "url": "https://github.com/pytorch/pytorch/issues/67321",
+   "labels": [
+    "feature",
+    "good first issue",
+    "triaged",
+    "module: random"
+   ],
+   "updatedAt": "2026-09-16T06:20:47Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/pytorch/pytorch/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 74602,
+   "title": "My_rank in the implementation of torch.distributed.scatter_object_list should be global",
+   "url": "https://github.com/pytorch/pytorch/issues/74602",
+   "labels": [
+    "oncall: distributed",
+    "good first issue",
+    "triaged",
+    "module: c10d",
+    "bot-triaged",
+    "oncall: distributed infra",
+    "ptd-bot-triaged"
+   ],
+   "updatedAt": "2026-07-16T17:22:42Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/pytorch/pytorch/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 74809,
+   "title": "Incorrect results for `torch.distributed.gather` for tensor created from permuted NumPy array",
+   "url": "https://github.com/pytorch/pytorch/issues/74809",
+   "labels": [
+    "triage review",
+    "oncall: distributed",
+    "good first issue",
+    "triaged",
+    "module: c10d",
+    "bot-triaged",
+    "oncall: distributed infra",
+    "ptd-bot-triaged"
+   ],
+   "updatedAt": "2026-10-04T01:48:03Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/pytorch/pytorch/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 79452,
+   "title": "Use c10d broadcast_object in Zero",
+   "url": "https://github.com/pytorch/pytorch/issues/79452",
+   "labels": [
+    "oncall: distributed",
+    "module: bootcamp",
+    "good first issue",
+    "triaged",
+    "better-engineering",
+    "pt_distributed_rampup"
+   ],
+   "updatedAt": "2022-07-28T22:35:47Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/pytorch/pytorch/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 84593,
+   "title": "Uneven and/or Dynamically sized collectives",
+   "url": "https://github.com/pytorch/pytorch/issues/84593",
+   "labels": [
+    "good first issue",
+    "triaged",
+    "module: c10d"
+   ],
+   "updatedAt": "2022-12-14T23:50:15Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/pytorch/pytorch/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 85234,
+   "title": "c10d all_gather aborts with Signal 8 (SIGFPE) when tensor.numel() == 0",
+   "url": "https://github.com/pytorch/pytorch/issues/85234",
+   "labels": [
+    "oncall: distributed",
+    "good first issue",
+    "module: c10d",
+    "bot-triaged",
+    "oncall: distributed infra",
+    "ptd-bot-triaged"
+   ],
+   "updatedAt": "2026-07-16T17:09:46Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/pytorch/pytorch/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 89197,
+   "title": "Collective operations do not work with `torch.BoolTensor`s on `gloo` and raise `Invalid scalar type`",
+   "url": "https://github.com/pytorch/pytorch/issues/89197",
+   "labels": [
+    "oncall: distributed",
+    "good first issue",
+    "triaged",
+    "bot-triaged",
+    "oncall: distributed infra",
+    "ptd-bot-triaged"
+   ],
+   "updatedAt": "2026-10-04T01:48:03Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/pytorch/pytorch/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 91692,
+   "title": "[discussion] Analyzing a list of tensors stored as intermediate values / saved_for_backward in autograd graph",
+   "url": "https://github.com/pytorch/pytorch/issues/91692",
+   "labels": [
+    "module: autograd",
+    "good first issue",
+    "triaged",
+    "actionable"
+   ],
+   "updatedAt": "2026-10-17T05:13:18Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/pytorch/pytorch/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 92141,
+   "title": "Improve the error message in `linalg.eigh` when using large matrices",
+   "url": "https://github.com/pytorch/pytorch/issues/92141",
+   "labels": [
+    "good first issue",
+    "triaged",
+    "module: 64-bit",
+    "module: mkl",
+    "module: linear algebra"
+   ],
+   "updatedAt": "2026-10-21T17:00:43Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/pytorch/pytorch/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 93684,
+   "title": "Can we rewrite numpy operators to pytorch operators?",
+   "url": "https://github.com/pytorch/pytorch/issues/93684",
+   "labels": [
+    "good first issue",
+    "triaged",
+    "module: numpy"
+   ],
+   "updatedAt": "2026-11-03T11:38:15Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/pytorch/pytorch/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 99278,
+   "title": "Build error on libstc++ header stl_alogbase.h on riscv",
+   "url": "https://github.com/pytorch/pytorch/issues/99278",
+   "labels": [
+    "module: build",
+    "good first issue",
+    "triaged"
+   ],
+   "updatedAt": "2024-01-21T11:52:05Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/pytorch/pytorch/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 102207,
+   "title": "skipIfTorchInductor Tracking Issue ",
+   "url": "https://github.com/pytorch/pytorch/issues/102207",
+   "labels": [
+    "good first issue",
+    "triaged",
+    "oncall: pt2",
+    "module: inductor"
+   ],
+   "updatedAt": "2026-10-03T06:27:05Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/pytorch/pytorch/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 106571,
+   "title": "Enable more flake8-bugbear lints",
+   "url": "https://github.com/pytorch/pytorch/issues/106571",
+   "labels": [
+    "good first issue",
+    "module: lint",
+    "triaged",
+    "enhancement",
+    "better-engineering"
+   ],
+   "updatedAt": "2026-11-03T21:50:54Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/pytorch/pytorch/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 108744,
+   "title": "switch more test cases to use MultithreadTestCase",
+   "url": "https://github.com/pytorch/pytorch/issues/108744",
+   "labels": [
+    "good first issue",
+    "triaged",
+    "module: dtensor"
+   ],
+   "updatedAt": "2026-07-02T18:54:27Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/pytorch/pytorch/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 113040,
+   "title": "[PT2] [Hardening] Track recompiles alongside graph breaks in our actual/expected comparison CI runs",
+   "url": "https://github.com/pytorch/pytorch/issues/113040",
+   "labels": [
+    "feature",
+    "good first issue",
+    "triaged",
+    "oncall: pt2",
+    "module: dynamo"
+   ],
+   "updatedAt": "2026-10-20T03:18:17Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/pytorch/pytorch/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 114403,
+   "title": "refactor TracingContext to take a more limited subset of ViewAndMutationMeta",
+   "url": "https://github.com/pytorch/pytorch/issues/114403",
+   "labels": [
+    "good first issue",
+    "triaged",
+    "better-engineering",
+    "actionable",
+    "oncall: pt2",
+    "module: aotdispatch",
+    "module: pt2-dispatcher"
+   ],
+   "updatedAt": "2026-11-10T05:37:03Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/pytorch/pytorch/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 115016,
+   "title": "Enable ruff rule PLW1510 codebase wide",
+   "url": "https://github.com/pytorch/pytorch/issues/115016",
+   "labels": [
+    "good first issue",
+    "module: lint",
+    "triaged"
+   ],
+   "updatedAt": "2026-06-27T21:33:27Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/pytorch/pytorch/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 117806,
+   "title": "Supporting custom attributes with `__torch_function__` tensor subclasses",
+   "url": "https://github.com/pytorch/pytorch/issues/117806",
+   "labels": [
+    "good first issue",
+    "triaged",
+    "enhancement",
+    "module: __torch_function__",
+    "module: dynamo"
+   ],
+   "updatedAt": "2025-04-11T21:54:41Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/pytorch/pytorch/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 119191,
+   "title": "AOTAutograd: functionalization should emit foreach_copy_() instead of copy_() when possible",
+   "url": "https://github.com/pytorch/pytorch/issues/119191",
+   "labels": [
+    "good first issue",
+    "triaged",
+    "actionable",
+    "module: mta",
+    "module: functionalization",
+    "oncall: pt2",
+    "module: aotdispatch",
+    "module: pt2-dispatcher",
+    "internal ramp-up task"
+   ],
+   "updatedAt": "2026-11-10T16:11:17Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/pytorch/pytorch/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 119856,
+   "title": "Timeout for process termination upon receiving sigterm should be a user configurable parameter",
+   "url": "https://github.com/pytorch/pytorch/issues/119856",
+   "labels": [
+    "oncall: distributed",
+    "good first issue",
+    "triaged",
+    "bot-triaged",
+    "oncall: distributed infra",
+    "ptd-bot-triaged"
+   ],
+   "updatedAt": "2026-10-31T14:14:19Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/pytorch/pytorch/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 121587,
+   "title": "Add clearer docs for `torch.distributed.<OP>` vs. `torch.distributed.nn.<OP>",
+   "url": "https://github.com/pytorch/pytorch/issues/121587",
+   "labels": [
+    "oncall: distributed",
+    "module: docs",
+    "good first issue",
+    "triaged",
+    "enhancement",
+    "bot-triaged",
+    "oncall: distributed infra",
+    "ptd-bot-triaged"
+   ],
+   "updatedAt": "2026-07-24T15:10:32Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/pytorch/pytorch/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 131941,
+   "title": "[export] Schematize nn_module_stack serialization",
+   "url": "https://github.com/pytorch/pytorch/issues/131941",
+   "labels": [
+    "good first issue",
+    "export-triaged",
+    "oncall: export"
+   ],
+   "updatedAt": "2026-07-28T05:08:17Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/pytorch/pytorch/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 135011,
+   "title": "dynamo (re)compilation issues: shape (1,1), nn.Parameter, mark_dynamic",
+   "url": "https://github.com/pytorch/pytorch/issues/135011",
+   "labels": [
+    "good first issue",
+    "triaged",
+    "oncall: pt2",
+    "module: dynamo",
+    "recompilations"
+   ],
+   "updatedAt": "2026-11-10T13:28:20Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/pytorch/pytorch/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 135859,
+   "title": "bmm, topk, cholesky, linalg.norm, max with out variants set causing recompilations in torch.compile",
+   "url": "https://github.com/pytorch/pytorch/issues/135859",
+   "labels": [
+    "good first issue",
+    "triaged",
+    "oncall: pt2",
+    "module: dynamic shapes",
+    "PT2-Bug-Bash"
+   ],
+   "updatedAt": "2026-09-01T10:15:46Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/pytorch/pytorch/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 153410,
+   "title": "[Feature request] `torch.export` .save/.load could support `safetensors` and/or `weights_only=True`",
+   "url": "https://github.com/pytorch/pytorch/issues/153410",
+   "labels": [
+    "good first issue",
+    "oncall: pt2",
+    "export-triaged",
+    "oncall: export"
+   ],
+   "updatedAt": "2026-10-11T23:35:30Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/pytorch/pytorch/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 153669,
+   "title": "Make tlparse able to show a summary of distinct graph breaks",
+   "url": "https://github.com/pytorch/pytorch/issues/153669",
+   "labels": [
+    "good first issue",
+    "triaged",
+    "oncall: pt2",
+    "module: dynamo",
+    "dynamo-triage-jan2025",
+    "module: compile ux"
+   ],
+   "updatedAt": "2026-11-04T08:28:31Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/pytorch/pytorch/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 158968,
+   "title": "foreach_map enhancements",
+   "url": "https://github.com/pytorch/pytorch/issues/158968",
+   "labels": [
+    "feature",
+    "good first issue",
+    "triaged",
+    "oncall: pt2",
+    "module: inductor",
+    "module: dynamo",
+    "internal ramp-up task"
+   ],
+   "updatedAt": "2026-10-25T13:54:00Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/pytorch/pytorch/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 188317,
+   "title": "[RFC] Add process group revoke in torch.distributed",
+   "url": "https://github.com/pytorch/pytorch/issues/188317",
+   "labels": [
+    "oncall: distributed",
+    "good first issue",
+    "triaged",
+    "bot-triaged",
+    "oncall: distributed infra"
+   ],
+   "updatedAt": "2026-10-21T16:56:46Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/pytorch/pytorch/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  }
+ ]
+}

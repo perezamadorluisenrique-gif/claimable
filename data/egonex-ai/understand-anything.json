@@ -1,0 +1,32 @@
+{
+ "owner": "Egonex-AI",
+ "repo": "Understand-Anything",
+ "language": "TypeScript",
+ "stars": 91857,
+ "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI,",
+ "visitedAt": "2026-11-10T23:25:58.547Z",
+ "issues": [
+  {
+   "number": 76,
+   "title": "How to make /understand run faster ?",
+   "url": "https://github.com/Egonex-AI/Understand-Anything/issues/76",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2026-09-28T13:38:17Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #321 by @KennyUMN is already open against this issue",
+   "evidence": [
+    "https://github.com/Egonex-AI/Understand-Anything/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/Egonex-AI/Understand-Anything/pull/321",
+    "https://github.com/Egonex-AI/Understand-Anything/pull/353",
+    "https://github.com/Egonex-AI/Understand-Anything/pull/81",
+    "https://github.com/Egonex-AI/Understand-Anything/pull/346",
+    "https://github.com/Egonex-AI/Understand-Anything/pull/373",
+    "https://github.com/Egonex-AI/Understand-Anything/pull/466",
+    "https://github.com/Egonex-AI/Understand-Anything/pull/587"
+   ]
+  }
+ ]
+}

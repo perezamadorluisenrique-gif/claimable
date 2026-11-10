@@ -1,0 +1,27 @@
+{
+ "owner": "OpenCut-app",
+ "repo": "OpenCut",
+ "language": "TypeScript",
+ "stars": 98025,
+ "description": "The open-source CapCut alternative",
+ "visitedAt": "2026-11-10T23:25:58.547Z",
+ "issues": [
+  {
+   "number": 17,
+   "title": "Let's have a banner/OG image",
+   "url": "https://github.com/OpenCut-app/OpenCut/issues/17",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2025-11-02T09:16:01Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "nothing has been merged in 178 days",
+   "evidence": [
+    "https://github.com/OpenCut-app/OpenCut — pushed_at 2026-09-24T09:24:44Z",
+    "https://github.com/OpenCut-app/OpenCut/pulls?q=is%3Apr+is%3Amerged"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "owner": "Comfy-Org",
+ "repo": "ComfyUI",
+ "language": "Python",
+ "stars": 146145,
+ "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
+ "visitedAt": "2026-11-10T23:25:58.547Z",
+ "issues": [
+  {
+   "number": 8367,
+   "title": "Create caching option that organizes cache based on loading times of cached values",
+   "url": "https://github.com/Comfy-Org/ComfyUI/issues/8367",
+   "labels": [
+    "Feature",
+    "help wanted"
+   ],
+   "updatedAt": "2026-09-02T02:12:13Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #15396 by @iamhaseebn is already open against this issue",
+   "evidence": [
+    "https://github.com/Comfy-Org/ComfyUI/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/Comfy-Org/ComfyUI/pull/15396"
+   ]
+  }
+ ]
+}

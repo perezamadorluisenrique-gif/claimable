@@ -1,0 +1,225 @@
+{
+ "owner": "langchain-ai",
+ "repo": "langchain",
+ "language": "Python",
+ "stars": 149312,
+ "description": "The agent engineering platform.",
+ "visitedAt": "2026-11-10T23:25:58.547Z",
+ "issues": [
+  {
+   "number": 28508,
+   "title": "The batch method from ChatModels and all the Runnables does not really support the OpenAI batch API.",
+   "url": "https://github.com/langchain-ai/langchain/issues/28508",
+   "labels": [
+    "help wanted",
+    "openai",
+    "external"
+   ],
+   "updatedAt": "2026-08-24T19:51:49Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "already assigned to @EliezerIsrael",
+   "evidence": [
+    "https://github.com/langchain-ai/langchain/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/langchain-ai/langchain/issues/28508",
+    "https://github.com/langchain-ai/langchain/issues/28508#issuecomment-4243362332"
+   ]
+  },
+  {
+   "number": 28848,
+   "title": "openai: `bind_tools` not callable after `with_structured_output`",
+   "url": "https://github.com/langchain-ai/langchain/issues/28848",
+   "labels": [
+    "help wanted",
+    "investigate",
+    "openai",
+    "external"
+   ],
+   "updatedAt": "2026-09-18T20:54:57Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #35491 by @senguttuvan is already open against this issue",
+   "evidence": [
+    "https://github.com/langchain-ai/langchain/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/langchain-ai/langchain/pull/35491",
+    "https://github.com/LennyMalcolm0/langchain/pull/336",
+    "https://github.com/priyanshu-liveflow/completion_rca/pull/7"
+   ]
+  },
+  {
+   "number": 30667,
+   "title": "core: leak when using object member in a `RunnableSequence`",
+   "url": "https://github.com/langchain-ai/langchain/issues/30667",
+   "labels": [
+    "help wanted",
+    "bug",
+    "investigate",
+    "core",
+    "external"
+   ],
+   "updatedAt": "2026-10-19T06:26:35Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #35296 by @yaowubarbara is already open against this issue",
+   "evidence": [
+    "https://github.com/langchain-ai/langchain/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/langchain-ai/langchain/pull/35296",
+    "https://github.com/wuisabel-gif/langchain/pull/1",
+    "https://github.com/LennyMalcolm0/langchain/pull/349"
+   ]
+  },
+  {
+   "number": 31647,
+   "title": "Add Perplexity cost tracking",
+   "url": "https://github.com/langchain-ai/langchain/issues/31647",
+   "labels": [
+    "help wanted",
+    "investigate",
+    "integration",
+    "perplexity",
+    "external"
+   ],
+   "updatedAt": "2026-09-08T14:09:45Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "already assigned to @sydney-runkle",
+   "evidence": [
+    "https://github.com/langchain-ai/langchain/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/langchain-ai/langchain/pull/33480",
+    "https://github.com/langchain-ai/langchain/issues/31647",
+    "https://github.com/langchain-ai/langchain/issues/31647#issuecomment-5586472582"
+   ]
+  },
+  {
+   "number": 31802,
+   "title": "`EvaluationResult.feedback_config` silently drops unknown or partial dict fields without error",
+   "url": "https://github.com/langchain-ai/langchain/issues/31802",
+   "labels": [
+    "documentation",
+    "help wanted",
+    "bug",
+    "core",
+    "external"
+   ],
+   "updatedAt": "2026-11-08T07:59:47Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #2056 by @kanishk2106 is already open against this issue",
+   "evidence": [
+    "https://github.com/langchain-ai/langchain/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/langchain-ai/langsmith-sdk/pull/2056",
+    "https://github.com/langchain-ai/langsmith-sdk/pull/2718",
+    "https://github.com/langchain-ai/langsmith-sdk/pull/3252",
+    "https://github.com/langchain-ai/langsmith-sdk/pull/3439",
+    "https://github.com/langchain-ai/langsmith-sdk/pull/3460",
+    "https://github.com/langchain-ai/langchain/pull/41764"
+   ]
+  },
+  {
+   "number": 31870,
+   "title": "String Evaluation with labelled criteria Scoring is wrong",
+   "url": "https://github.com/langchain-ai/langchain/issues/31870",
+   "labels": [
+    "help wanted",
+    "investigate",
+    "langchain-classic",
+    "external"
+   ],
+   "updatedAt": "2026-06-18T16:35:41Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "already assigned to @imrrohitt",
+   "evidence": [
+    "https://github.com/langchain-ai/langchain/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/langchain-ai/langchain/issues/31870",
+    "https://github.com/langchain-ai/langchain/issues/31870#issuecomment-4744112134"
+   ]
+  },
+  {
+   "number": 32066,
+   "title": "core: docstrings shouldn't inherit from parents",
+   "url": "https://github.com/langchain-ai/langchain/issues/32066",
+   "labels": [
+    "help wanted",
+    "core",
+    "v1",
+    "internal"
+   ],
+   "updatedAt": "2026-09-21T16:49:54Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "already assigned to @eyurtsev",
+   "evidence": [
+    "https://github.com/langchain-ai/langchain/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/langchain-ai/langchain/issues/32066",
+    "https://github.com/langchain-ai/langchain/issues/32066#issuecomment-5709902169"
+   ]
+  },
+  {
+   "number": 32120,
+   "title": "Reasoning model with structured output",
+   "url": "https://github.com/langchain-ai/langchain/issues/32120",
+   "labels": [
+    "help wanted",
+    "bug",
+    "investigate",
+    "integration",
+    "openai",
+    "external"
+   ],
+   "updatedAt": "2026-08-23T08:01:41Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #40147 by @visnu64 is already open against this issue",
+   "evidence": [
+    "https://github.com/langchain-ai/langchain/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/langchain-ai/langchain/pull/40147",
+    "https://github.com/langchain-ai/langchain/pull/35191"
+   ]
+  },
+  {
+   "number": 32197,
+   "title": "Support structured output with Pydantic models in `langchain-huggingface`",
+   "url": "https://github.com/langchain-ai/langchain/issues/32197",
+   "labels": [
+    "help wanted",
+    "investigate",
+    "integration",
+    "huggingface",
+    "external"
+   ],
+   "updatedAt": "2026-11-09T07:50:19Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "@hakarrr claimed it 18 days ago",
+   "evidence": [
+    "https://github.com/langchain-ai/langchain/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/langchain-ai/langchain/issues/32197#issuecomment-6366378282",
+    "https://github.com/langchain-ai/langchain/issues/32197#issuecomment-6563500789",
+    "https://github.com/langchain-ai/langchain/issues/32197#issuecomment-6663533545",
+    "https://github.com/langchain-ai/langchain/issues/32197#issuecomment-6719012779",
+    "https://github.com/langchain-ai/langchain/issues/32197#issuecomment-6734978078",
+    "https://github.com/langchain-ai/langchain/issues/32197#issuecomment-5726582504"
+   ]
+  },
+  {
+   "number": 32283,
+   "title": "`aadd_texts() got multiple values for keyword argument 'ids'`",
+   "url": "https://github.com/langchain-ai/langchain/issues/32283",
+   "labels": [
+    "help wanted",
+    "bug",
+    "qdrant",
+    "external"
+   ],
+   "updatedAt": "2026-10-21T19:46:08Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #1 by @ndvHareesh is already open against this issue",
+   "evidence": [
+    "https://github.com/langchain-ai/langchain/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ndvHareesh/langchain/pull/1"
+   ]
+  }
+ ]
+}

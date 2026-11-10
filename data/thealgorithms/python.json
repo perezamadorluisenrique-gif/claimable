@@ -1,0 +1,36 @@
+{
+ "owner": "TheAlgorithms",
+ "repo": "Python",
+ "language": "Python",
+ "stars": 225990,
+ "description": "All Algorithms implemented in Python",
+ "visitedAt": "2026-11-10T23:25:58.547Z",
+ "issues": [
+  {
+   "number": 15187,
+   "title": "Tracking: complete the `ty` gradual-typing baseline (un-ignore rules; PEP 723 blocker astral-sh/ty#691)",
+   "url": "https://github.com/TheAlgorithms/Python/issues/15187",
+   "labels": [
+    "help wanted",
+    "hacktoberfest",
+    "tracking issue"
+   ],
+   "updatedAt": "2026-11-07T17:21:22Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #15511 by @gcomneno is already open against this issue",
+   "evidence": [
+    "https://github.com/TheAlgorithms/Python/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/TheAlgorithms/Python/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TheAlgorithms/Python/pull/15511",
+    "https://github.com/TheAlgorithms/Python/pull/15561",
+    "https://github.com/TheAlgorithms/Python/pull/15575",
+    "https://github.com/TheAlgorithms/Python/pull/15603",
+    "https://github.com/TheAlgorithms/Python/pull/15180",
+    "https://github.com/TheAlgorithms/Python/pull/15227",
+    "https://github.com/TheAlgorithms/Python/pull/15221",
+    "https://github.com/TheAlgorithms/Python/pull/15297"
+   ]
+  }
+ ]
+}

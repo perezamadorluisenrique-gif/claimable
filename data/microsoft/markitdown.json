@@ -1,0 +1,94 @@
+{
+ "owner": "microsoft",
+ "repo": "markitdown",
+ "language": "Python",
+ "stars": 194766,
+ "description": "Python tool for converting files and office documents to Markdown.",
+ "visitedAt": "2026-11-10T23:25:58.547Z",
+ "issues": [
+  {
+   "number": 12,
+   "title": "LLM Integration",
+   "url": "https://github.com/microsoft/markitdown/issues/12",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2026-06-08T11:02:25Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "reservations",
+   "reason": "only 18% of recently closed PRs were merged — most contributions get rejected or abandoned here (+2 more)",
+   "evidence": [
+    "https://github.com/microsoft/markitdown/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/microsoft/markitdown/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/wagi-trial/markitdown/pull/2",
+    "https://github.com/wagi-trial/markitdown/pull/3",
+    "https://github.com/microsoft/markitdown/issues/12",
+    "https://github.com/microsoft/markitdown/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 14,
+   "title": "File support: chm support",
+   "url": "https://github.com/microsoft/markitdown/issues/14",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2026-06-10T20:09:22Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #1367 by @DSCmatter is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/markitdown/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/microsoft/markitdown/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/markitdown/pull/1367",
+    "https://github.com/microsoft/markitdown/pull/2270"
+   ]
+  },
+  {
+   "number": 23,
+   "title": "Support for .doc extensions",
+   "url": "https://github.com/microsoft/markitdown/issues/23",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "open for contribution"
+   ],
+   "updatedAt": "2026-10-16T10:14:36Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #1316 by @ashmod is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/markitdown/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/microsoft/markitdown/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/markitdown/pull/1316",
+    "https://github.com/microsoft/markitdown/pull/1598",
+    "https://github.com/microsoft/markitdown/pull/1616",
+    "https://github.com/microsoft/markitdown/pull/1624",
+    "https://github.com/microsoft/markitdown/pull/1710",
+    "https://github.com/microsoft/markitdown/pull/1869",
+    "https://github.com/microsoft/markitdown/pull/2013",
+    "https://github.com/microsoft/markitdown/pull/2058"
+   ]
+  },
+  {
+   "number": 2386,
+   "title": "Autonomous Agents, Unite!",
+   "url": "https://github.com/microsoft/markitdown/issues/2386",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2026-09-05T07:39:58Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "reservations",
+   "reason": "only 18% of recently closed PRs were merged — most contributions get rejected or abandoned here",
+   "evidence": [
+    "https://github.com/microsoft/markitdown/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/microsoft/markitdown/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/markitdown/issues/2386",
+    "https://github.com/microsoft/markitdown/blob/HEAD/README.md"
+   ]
+  }
+ ]
+}

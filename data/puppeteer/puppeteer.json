@@ -1,0 +1,72 @@
+{
+ "owner": "puppeteer",
+ "repo": "puppeteer",
+ "language": "TypeScript",
+ "stars": 95817,
+ "description": "JavaScript API for Chrome and Firefox",
+ "visitedAt": "2026-11-10T23:25:58.547Z",
+ "issues": [
+  {
+   "number": 2427,
+   "title": "Serialize Uint8Arrays better",
+   "url": "https://github.com/puppeteer/puppeteer/issues/2427",
+   "labels": [
+    "good first issue",
+    "chromium",
+    "confirmed",
+    "P3",
+    "feature"
+   ],
+   "updatedAt": "2026-10-27T02:34:55Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #15682 by @Develop-KIM is already open against this issue",
+   "evidence": [
+    "https://github.com/puppeteer/puppeteer/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/puppeteer/puppeteer/pull/15682"
+   ]
+  },
+  {
+   "number": 5096,
+   "title": "page.emulateMediaFeatures([{ name: 'hover', value: 'hover' }]) throws error",
+   "url": "https://github.com/puppeteer/puppeteer/issues/5096",
+   "labels": [
+    "upstream",
+    "good first issue",
+    "confirmed",
+    "P3",
+    "feature"
+   ],
+   "updatedAt": "2026-09-26T14:34:11Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "reservations",
+   "reason": "PR #183 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/puppeteer/puppeteer/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dsbowersock/massagelab/pull/183",
+    "https://github.com/puppeteer/puppeteer/pull/15495",
+    "https://github.com/puppeteer/puppeteer/issues/5096#issuecomment-5830618503",
+    "https://github.com/puppeteer/puppeteer/issues/5096"
+   ]
+  },
+  {
+   "number": 8261,
+   "title": "Ability to exit a script while keeping browser running",
+   "url": "https://github.com/puppeteer/puppeteer/issues/8261",
+   "labels": [
+    "good first issue",
+    "confirmed",
+    "P3",
+    "feature"
+   ],
+   "updatedAt": "2026-09-16T02:28:23Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #15734 by @jenam977-dot is already open against this issue",
+   "evidence": [
+    "https://github.com/puppeteer/puppeteer/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/puppeteer/puppeteer/pull/15734"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,182 @@
+{
+ "owner": "bytedance",
+ "repo": "deer-flow",
+ "language": "Python",
+ "stars": 85219,
+ "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of ta",
+ "visitedAt": "2026-11-10T23:25:58.547Z",
+ "issues": [
+  {
+   "number": 1180,
+   "title": "基于gemini模型的 OpenAI 兼容网关无法调用tools工具，报错Unable to submit request because function call `default_api:web_fetch` in the 5. content block is missing a `thought_signature`",
+   "url": "https://github.com/bytedance/deer-flow/issues/1180",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-10-12T07:00:15Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #1743 by @JasonOA888 is already open against this issue",
+   "evidence": [
+    "https://github.com/bytedance/deer-flow/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/bytedance/deer-flow/pull/1743",
+    "https://github.com/bytedance/deer-flow/pull/4793",
+    "https://github.com/bytedance/deer-flow/pull/6631",
+    "https://github.com/volcengine/OpenViking/pull/5880",
+    "https://github.com/bytedance/deer-flow/pull/1205"
+   ]
+  },
+  {
+   "number": 1199,
+   "title": "关于飞书通道的问题",
+   "url": "https://github.com/bytedance/deer-flow/issues/1199",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-10-07T08:33:22Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "reservations",
+   "reason": "PR #1608 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+5 more)",
+   "evidence": [
+    "https://github.com/bytedance/deer-flow/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/bytedance/deer-flow/pull/1608",
+    "https://github.com/bytedance/deer-flow/pull/5168",
+    "https://github.com/bytedance/deer-flow/pull/7357",
+    "https://github.com/bytedance/deer-flow/issues/1199#issuecomment-5478829013",
+    "https://github.com/bytedance/deer-flow/issues/1199",
+    "https://github.com/bytedance/deer-flow/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/bytedance/deer-flow/blob/HEAD/README.md",
+    "https://docs.byteplus.com/en/docs/InfoQuest/What_is_Info_Quest"
+   ]
+  },
+  {
+   "number": 1979,
+   "title": "unprocessable_entity_error",
+   "url": "https://github.com/bytedance/deer-flow/issues/1979",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-04-09T10:08:26Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "already assigned to @foreleven, @hetaoBackend",
+   "evidence": [
+    "https://github.com/bytedance/deer-flow/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/bytedance/deer-flow/issues/1979"
+   ]
+  },
+  {
+   "number": 2117,
+   "title": "Feature: Unified Workspace File Explorer and Linear File History",
+   "url": "https://github.com/bytedance/deer-flow/issues/2117",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-04-11T09:21:09Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #2213 by @yeyitech is already open against this issue",
+   "evidence": [
+    "https://github.com/bytedance/deer-flow/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/bytedance/deer-flow/pull/2213"
+   ]
+  },
+  {
+   "number": 2318,
+   "title": "release/2.0-rc当前分支多租户分级权限管理",
+   "url": "https://github.com/bytedance/deer-flow/issues/2318",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2026-04-30T06:33:13Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "already assigned to @foreleven, @hetaoBackend",
+   "evidence": [
+    "https://github.com/bytedance/deer-flow/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/bytedance/deer-flow/issues/2318"
+   ]
+  },
+  {
+   "number": 2634,
+   "title": "[RFC] DeerFlow SkillScan: Phased Safety Scanning for Skills",
+   "url": "https://github.com/bytedance/deer-flow/issues/2634",
+   "labels": [
+    "help wanted",
+    "RFC"
+   ],
+   "updatedAt": "2026-09-23T02:47:38Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "already assigned to @ShenAC-SAC",
+   "evidence": [
+    "https://github.com/bytedance/deer-flow/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/bytedance/deer-flow/pull/3033",
+    "https://github.com/bytedance/deer-flow/pull/3924",
+    "https://github.com/bytedance/deer-flow/pull/4265",
+    "https://github.com/bytedance/deer-flow/pull/4644",
+    "https://github.com/bytedance/deer-flow/pull/7081",
+    "https://github.com/bytedance/deer-flow/pull/7128",
+    "https://github.com/bytedance/deer-flow/issues/2634"
+   ]
+  },
+  {
+   "number": 2820,
+   "title": "[RFC] SWE-bench Recursion Limits and Long-Horizon Benchmark Suggestions",
+   "url": "https://github.com/bytedance/deer-flow/issues/2820",
+   "labels": [
+    "help wanted",
+    "RFC"
+   ],
+   "updatedAt": "2026-09-28T05:39:46Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #2848 by @MazBenOscar is already open against this issue",
+   "evidence": [
+    "https://github.com/bytedance/deer-flow/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/bytedance/deer-flow/pull/2848",
+    "https://github.com/bytedance/deer-flow/pull/2997",
+    "https://github.com/guybass/agent-eval-flow/pull/3"
+   ]
+  },
+  {
+   "number": 3213,
+   "title": "发现每个沙箱要占用将近1个g内存啊，这咋做高并发，有没有好主意~",
+   "url": "https://github.com/bytedance/deer-flow/issues/3213",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-09-22T14:52:51Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "already assigned to @LittleChenLiya",
+   "evidence": [
+    "https://github.com/bytedance/deer-flow/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/bytedance/deer-flow/pull/3249",
+    "https://github.com/bytedance/deer-flow/pull/3940",
+    "https://github.com/bytedance/deer-flow/issues/3213"
+   ]
+  },
+  {
+   "number": 4849,
+   "title": "Feature request: Personal Access Tokens (PAT) for programmatic API access",
+   "url": "https://github.com/bytedance/deer-flow/issues/4849",
+   "labels": [
+    "help wanted",
+    "needs-triage"
+   ],
+   "updatedAt": "2026-08-30T03:11:29Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "already assigned to @sunshine-lang",
+   "evidence": [
+    "https://github.com/bytedance/deer-flow/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/bytedance/deer-flow/pull/5041",
+    "https://github.com/bytedance/deer-flow/issues/4849",
+    "https://github.com/bytedance/deer-flow/issues/4849#issuecomment-5411007911"
+   ]
+  }
+ ]
+}

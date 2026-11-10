@@ -1,0 +1,49 @@
+{
+ "owner": "home-assistant",
+ "repo": "core",
+ "language": "Python",
+ "stars": 92125,
+ "description": ":house_with_garden: Open source home automation that puts local control and privacy first.",
+ "visitedAt": "2026-11-10T23:25:58.547Z",
+ "issues": [
+  {
+   "number": 153638,
+   "title": "Missing RoborockMopIntensitySaros10R code: 245 - defaulting to 200",
+   "url": "https://github.com/home-assistant/core/issues/153638",
+   "labels": [
+    "problem in dependency",
+    "integration: roborock",
+    "good first issue"
+   ],
+   "updatedAt": "2026-09-07T23:06:57Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "already assigned to @allenporter",
+   "evidence": [
+    "https://github.com/home-assistant/core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/Python-roborock/python-roborock/pull/975",
+    "https://github.com/home-assistant/core/issues/153638",
+    "https://github.com/home-assistant/core/issues/153638#issuecomment-4955146898"
+   ]
+  },
+  {
+   "number": 185133,
+   "title": "Roborock map shows \"NO MAP\" until already-selected map is manually reselected",
+   "url": "https://github.com/home-assistant/core/issues/185133",
+   "labels": [
+    "help-wanted",
+    "integration: roborock",
+    "good first issue"
+   ],
+   "updatedAt": "2026-11-09T09:29:16Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #186678 by @JimmyLiuJia is already open against this issue",
+   "evidence": [
+    "https://github.com/home-assistant/core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/home-assistant/core/pull/186678",
+    "https://github.com/Python-roborock/python-roborock/pull/995"
+   ]
+  }
+ ]
+}

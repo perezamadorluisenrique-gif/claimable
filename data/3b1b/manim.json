@@ -1,0 +1,31 @@
+{
+ "owner": "3b1b",
+ "repo": "manim",
+ "language": "Python",
+ "stars": 96323,
+ "description": "Animation engine for explanatory math videos",
+ "visitedAt": "2026-11-10T23:25:58.547Z",
+ "issues": [
+  {
+   "number": 1243,
+   "title": "Manim current status and contribution guidelines",
+   "url": "https://github.com/3b1b/manim/issues/1243",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2026-06-18T06:08:42Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "reservations",
+   "reason": "no push in 62 days (last: 2026-09-09) (+4 more)",
+   "evidence": [
+    "https://github.com/3b1b/manim — pushed_at 2026-09-09T16:23:48Z",
+    "https://github.com/3b1b/manim/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/3b1b/manim/pull/1357",
+    "https://github.com/NixOS/nixpkgs/pull/120479",
+    "https://github.com/3b1b/manim/pull/2475",
+    "https://github.com/3b1b/manim/issues/1243",
+    "https://docs.manim.community/en/stable/faq/installation.html#different-versions"
+   ]
+  }
+ ]
+}

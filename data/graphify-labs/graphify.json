@@ -1,0 +1,41 @@
+{
+ "owner": "Graphify-Labs",
+ "repo": "graphify",
+ "language": "Python",
+ "stars": 145496,
+ "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, e",
+ "visitedAt": "2026-11-10T23:25:58.547Z",
+ "issues": [
+  {
+   "number": 3600,
+   "title": "Windows skill reference docs assume mktemp/POSIX paths despite shell = powershell",
+   "url": "https://github.com/Graphify-Labs/graphify/issues/3600",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-04T13:04:46Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/Graphify-Labs/graphify/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 3666,
+   "title": "extractors/markdown.py imports graphify.extract, violating MIGRATION.md invariant #4 — and the facade re-exports 166 private symbols, so the split is not yet a boundary",
+   "url": "https://github.com/Graphify-Labs/graphify/issues/3666",
+   "labels": [
+    "help wanted",
+    "good first issue"
+   ],
+   "updatedAt": "2026-10-04T21:54:12Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/Graphify-Labs/graphify/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  }
+ ]
+}

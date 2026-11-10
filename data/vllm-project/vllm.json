@@ -1,0 +1,580 @@
+{
+ "owner": "vllm-project",
+ "repo": "vllm",
+ "language": "Python",
+ "stars": 96681,
+ "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+ "visitedAt": "2026-11-10T23:25:58.547Z",
+ "issues": [
+  {
+   "number": 16353,
+   "title": "[Feature]: Run performance benchmarks for multi-modal models in CI",
+   "url": "https://github.com/vllm-project/vllm/issues/16353",
+   "labels": [
+    "help wanted",
+    "feature request",
+    "keep-open",
+    "multi-modality"
+   ],
+   "updatedAt": "2026-04-10T17:49:00Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "reservations",
+   "reason": "PR #39268 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+4 more)",
+   "evidence": [
+    "https://github.com/vllm-project/vllm/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/vllm-project/vllm/pull/39268",
+    "https://github.com/vllm-project/vllm/pull/49611",
+    "https://github.com/vllm-project/vllm/issues/16353#issuecomment-4194802968",
+    "https://github.com/vllm-project/vllm/issues/16353",
+    "https://docs.vllm.ai/en/latest/",
+    "https://github.com/vllm-project/vllm/blob/HEAD/README.md",
+    "https://github.com/vllm-project/vllm/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 19817,
+   "title": "[Feature]: `CustomOp` cleanup",
+   "url": "https://github.com/vllm-project/vllm/issues/19817",
+   "labels": [
+    "help wanted",
+    "good first issue",
+    "feature request",
+    "keep-open",
+    "startup-ux"
+   ],
+   "updatedAt": "2026-09-11T15:29:36Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #64454 by @Loken-Lau is already open against this issue",
+   "evidence": [
+    "https://github.com/vllm-project/vllm/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/vllm-project/vllm/pull/64454",
+    "https://github.com/vllm-project/vllm/pull/23908"
+   ]
+  },
+  {
+   "number": 21948,
+   "title": "[Bug]: Add tests for all parallel sampling parameter combinations",
+   "url": "https://github.com/vllm-project/vllm/issues/21948",
+   "labels": [
+    "bug",
+    "good first issue",
+    "keep-open",
+    "stale"
+   ],
+   "updatedAt": "2026-09-22T20:30:20Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #43764 by @CarrotSwordsman is already open against this issue",
+   "evidence": [
+    "https://github.com/vllm-project/vllm/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/vllm-project/vllm/pull/43764",
+    "https://github.com/vllm-project/vllm/pull/48062",
+    "https://github.com/vllm-project/vllm/pull/58206",
+    "https://github.com/vllm-project/vllm/pull/59075",
+    "https://github.com/vllm-project/vllm/pull/24222"
+   ]
+  },
+  {
+   "number": 23957,
+   "title": "[Feature]: Support `Phi4Flash` model in V1",
+   "url": "https://github.com/vllm-project/vllm/issues/23957",
+   "labels": [
+    "help wanted",
+    "good first issue",
+    "feature request",
+    "unstale"
+   ],
+   "updatedAt": "2026-11-10T18:10:18Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #44963 by @arnavnagzirkar is already open against this issue",
+   "evidence": [
+    "https://github.com/vllm-project/vllm/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/vllm-project/vllm/pull/44963",
+    "https://github.com/vllm-project/vllm/pull/25832"
+   ]
+  },
+  {
+   "number": 25094,
+   "title": "[Performance]: Compiled `QuantFP8.forward_native` group quantization (1, 128) slower than CUDA on H100/RTX5090",
+   "url": "https://github.com/vllm-project/vllm/issues/25094",
+   "labels": [
+    "help wanted",
+    "performance",
+    "torch.compile",
+    "keep-open"
+   ],
+   "updatedAt": "2026-09-30T16:09:56Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #59564 by @porridgewithraisins is already open against this issue",
+   "evidence": [
+    "https://github.com/vllm-project/vllm/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/vllm-project/vllm/pull/59564",
+    "https://github.com/vllm-project/vllm/pull/61073",
+    "https://github.com/vllm-project/vllm/pull/24666"
+   ]
+  },
+  {
+   "number": 25700,
+   "title": "[RFC]: Limit the use of envvars in vLLM",
+   "url": "https://github.com/vllm-project/vllm/issues/25700",
+   "labels": [
+    "good first issue",
+    "RFC"
+   ],
+   "updatedAt": "2026-11-07T22:15:49Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #28582 by @NargiT is already open against this issue",
+   "evidence": [
+    "https://github.com/vllm-project/vllm/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/vllm-project/vllm/pull/28582",
+    "https://github.com/vllm-project/vllm/pull/32761",
+    "https://github.com/vllm-project/vllm/pull/43880",
+    "https://github.com/vllm-project/vllm/pull/44114",
+    "https://github.com/vllm-project/vllm/pull/46337",
+    "https://github.com/vllm-project/vllm/pull/50346",
+    "https://github.com/vllm-project/vllm/pull/57060",
+    "https://github.com/vllm-project/vllm/pull/60459",
+    "https://github.com/vllm-project/vllm/pull/28671"
+   ]
+  },
+  {
+   "number": 25750,
+   "title": "[Feature]: Tracking Whisper feature requests",
+   "url": "https://github.com/vllm-project/vllm/issues/25750",
+   "labels": [
+    "help wanted",
+    "good first issue",
+    "feature request",
+    "keep-open",
+    "multi-modality"
+   ],
+   "updatedAt": "2026-10-28T16:40:45Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #46126 by @ekagra-ranjan is already open against this issue",
+   "evidence": [
+    "https://github.com/vllm-project/vllm/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/vllm-project/vllm/pull/46126",
+    "https://github.com/vllm-project/vllm/pull/47664",
+    "https://github.com/vllm-project/vllm/pull/31059",
+    "https://github.com/vllm-project/vllm/pull/34342",
+    "https://github.com/vllm-project/vllm/pull/34628"
+   ]
+  },
+  {
+   "number": 27433,
+   "title": "[Feature]: Batch Invariant Feature and Performance Optimization",
+   "url": "https://github.com/vllm-project/vllm/issues/27433",
+   "labels": [
+    "good first issue",
+    "feature request",
+    "batch-invariance"
+   ],
+   "updatedAt": "2026-11-04T03:52:29Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #3 by @Copilot is already open against this issue",
+   "evidence": [
+    "https://github.com/vllm-project/vllm/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/efsotr/vllm/pull/3",
+    "https://github.com/vllm-project/vllm/pull/27839",
+    "https://github.com/vllm-project/vllm/pull/27842",
+    "https://github.com/vllm-project/flash-attention/pull/110",
+    "https://github.com/vllm-project/vllm/pull/29345",
+    "https://github.com/vllm-project/vllm/pull/30018",
+    "https://github.com/vllm-project/vllm/pull/33016",
+    "https://github.com/vllm-project/vllm/pull/33688",
+    "https://github.com/vllm-project/vllm/pull/34584"
+   ]
+  },
+  {
+   "number": 27893,
+   "title": "[Bug]: AsyncTP pass has poor perf on B200",
+   "url": "https://github.com/vllm-project/vllm/issues/27893",
+   "labels": [
+    "bug",
+    "help wanted",
+    "torch.compile",
+    "keep-open"
+   ],
+   "updatedAt": "2026-03-05T03:27:05Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "already assigned to @baonudesifeizhai, @AjAnubolu",
+   "evidence": [
+    "https://github.com/vllm-project/vllm/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/vllm-project/vllm/pull/39505",
+    "https://github.com/vllm-project/vllm/pull/41882",
+    "https://github.com/vllm-project/vllm/issues/27893"
+   ]
+  },
+  {
+   "number": 28498,
+   "title": "[Bug][RL]: Port Conflict",
+   "url": "https://github.com/vllm-project/vllm/issues/28498",
+   "labels": [
+    "bug",
+    "help wanted",
+    "good first issue",
+    "stale"
+   ],
+   "updatedAt": "2026-11-10T15:25:07Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #44813 by @rguiu is already open against this issue",
+   "evidence": [
+    "https://github.com/vllm-project/vllm/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/vllm-project/vllm/pull/44813",
+    "https://github.com/vllm-project/vllm/pull/57559",
+    "https://github.com/NVIDIA/cloudai/pull/771",
+    "https://github.com/vllm-project/vllm/pull/45960",
+    "https://github.com/vllm-project/vllm/pull/50960",
+    "https://github.com/vllm-project/vllm/pull/51018"
+   ]
+  },
+  {
+   "number": 29139,
+   "title": "[Feature]: Optimize collectives in TP MoE case using torch.compile pass",
+   "url": "https://github.com/vllm-project/vllm/issues/29139",
+   "labels": [
+    "help wanted",
+    "good first issue",
+    "performance",
+    "feature request",
+    "torch.compile",
+    "unstale"
+   ],
+   "updatedAt": "2026-09-15T01:45:54Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "already assigned to @SouthWest7, @anant37289",
+   "evidence": [
+    "https://github.com/vllm-project/vllm/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/vllm-project/vllm/issues/29139",
+    "https://github.com/vllm-project/vllm/issues/29139#issuecomment-3897313948"
+   ]
+  },
+  {
+   "number": 29920,
+   "title": "[Feature]: Add support for fused fp8 output to FlashAttention 3",
+   "url": "https://github.com/vllm-project/vllm/issues/29920",
+   "labels": [
+    "help wanted",
+    "performance",
+    "feature request",
+    "torch.compile",
+    "keep-open"
+   ],
+   "updatedAt": "2026-04-16T15:37:14Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #113 by @sachinkumarsingh092 is already open against this issue",
+   "evidence": [
+    "https://github.com/vllm-project/vllm/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/vllm-project/flash-attention/pull/113"
+   ]
+  },
+  {
+   "number": 31249,
+   "title": "[RFC]: Improve environment variable declaration and handling",
+   "url": "https://github.com/vllm-project/vllm/issues/31249",
+   "labels": [
+    "help wanted",
+    "good first issue",
+    "RFC",
+    "keep-open"
+   ],
+   "updatedAt": "2026-11-04T17:52:24Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "already assigned to @rafvasq",
+   "evidence": [
+    "https://github.com/vllm-project/vllm/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/vllm-project/vllm/issues/31249",
+    "https://github.com/vllm-project/vllm/issues/31249#issuecomment-5475903949"
+   ]
+  },
+  {
+   "number": 32268,
+   "title": "[Feature]: Refactor Int8ScaledMMLinearLayerConfig to use QuantKey",
+   "url": "https://github.com/vllm-project/vllm/issues/32268",
+   "labels": [
+    "help wanted",
+    "good first issue",
+    "feature request"
+   ],
+   "updatedAt": "2026-11-10T02:10:32Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #45821 by @WangX0111 is already open against this issue",
+   "evidence": [
+    "https://github.com/vllm-project/vllm/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/vllm-project/vllm/pull/45821",
+    "https://github.com/vllm-project/vllm/pull/54291",
+    "https://github.com/vllm-project/vllm/pull/63504",
+    "https://github.com/vllm-project/vllm/pull/66554",
+    "https://github.com/vllm-project/vllm/pull/27814"
+   ]
+  },
+  {
+   "number": 32335,
+   "title": "[Feature]: Extract KV-Cache update from all attention backends",
+   "url": "https://github.com/vllm-project/vllm/issues/32335",
+   "labels": [
+    "help wanted",
+    "good first issue",
+    "feature request"
+   ],
+   "updatedAt": "2026-10-21T18:06:01Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "already assigned to @VedantMadane, @pragun-ananda, @Mohit-Gaur, @Prathmesh234, @adityakamat24, @Etelis, @dorhuri123, @dw2761, @Kare0638",
+   "evidence": [
+    "https://github.com/vllm-project/vllm/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/vllm-project/vllm/pull/25954",
+    "https://github.com/vllm-project/vllm/pull/33106",
+    "https://github.com/vllm-project/vllm/issues/32335",
+    "https://github.com/vllm-project/vllm/issues/32335#issuecomment-6321001636",
+    "https://github.com/vllm-project/vllm/issues/32335#issuecomment-5016940966"
+   ]
+  },
+  {
+   "number": 33267,
+   "title": "[Feature]: Remove attention layer name from `unified_kv_cache_update`",
+   "url": "https://github.com/vllm-project/vllm/issues/33267",
+   "labels": [
+    "help wanted",
+    "good first issue",
+    "feature request",
+    "torch.compile",
+    "unstale",
+    "startup-ux"
+   ],
+   "updatedAt": "2026-08-16T23:49:35Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #50758 by @anujbolewar is already open against this issue",
+   "evidence": [
+    "https://github.com/vllm-project/vllm/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/vllm-project/vllm/pull/50758",
+    "https://github.com/vllm-project/vllm/pull/60326",
+    "https://github.com/jiaqiang-dot-liu/vllm/pull/20",
+    "https://github.com/vllm-project/vllm/pull/57900",
+    "https://github.com/vllm-project/vllm/pull/33441",
+    "https://github.com/vllm-project/vllm/pull/35180",
+    "https://github.com/vllm-project/vllm/pull/36716"
+   ]
+  },
+  {
+   "number": 33702,
+   "title": "[Roadmap]: PD Disaggregation with `NixlConnector` Roadmap",
+   "url": "https://github.com/vllm-project/vllm/issues/33702",
+   "labels": [
+    "help wanted",
+    "feature request"
+   ],
+   "updatedAt": "2026-10-20T02:15:09Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #33745 by @rajachan is already open against this issue",
+   "evidence": [
+    "https://github.com/vllm-project/vllm/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/vllm-project/vllm/pull/33745",
+    "https://github.com/Jackie2049/vllm/pull/6",
+    "https://github.com/vllm-project/vllm/pull/48323",
+    "https://github.com/vllm-project/vllm/pull/43733",
+    "https://github.com/vllm-project/vllm/pull/54483"
+   ]
+  },
+  {
+   "number": 37753,
+   "title": "[Feature]: Unify MoE \"Oracles\" with Class Structure",
+   "url": "https://github.com/vllm-project/vllm/issues/37753",
+   "labels": [
+    "help wanted",
+    "good first issue",
+    "feature request"
+   ],
+   "updatedAt": "2026-11-09T06:40:21Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #1 by @chf003 is already open against this issue",
+   "evidence": [
+    "https://github.com/vllm-project/vllm/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/chf003/vllm/pull/1",
+    "https://github.com/vllm-project/vllm/pull/65394",
+    "https://github.com/vllm-project/vllm/pull/57538",
+    "https://github.com/vllm-project/vllm/pull/66270",
+    "https://github.com/vllm-project/vllm/pull/43461",
+    "https://github.com/vllm-project/vllm/pull/55522",
+    "https://github.com/vllm-project/vllm/pull/63349"
+   ]
+  },
+  {
+   "number": 38175,
+   "title": "[RFC]: Support ViT Full CUDA Graph (Tracker)",
+   "url": "https://github.com/vllm-project/vllm/issues/38175",
+   "labels": [
+    "help wanted",
+    "RFC",
+    "multi-modality",
+    "kimi"
+   ],
+   "updatedAt": "2026-11-08T02:33:28Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #44394 by @harsha20032020 is already open against this issue",
+   "evidence": [
+    "https://github.com/vllm-project/vllm/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/vllm-project/vllm/pull/44394",
+    "https://github.com/vllm-project/vllm/pull/40576",
+    "https://github.com/vllm-project/vllm/pull/40660",
+    "https://github.com/vllm-project/vllm/pull/41759",
+    "https://github.com/vllm-project/vllm/pull/41992",
+    "https://github.com/vllm-project/vllm/pull/42288",
+    "https://github.com/vllm-project/vllm/pull/42785",
+    "https://github.com/vllm-project/vllm/pull/43591"
+   ]
+  },
+  {
+   "number": 38246,
+   "title": "[Feature]: Better Flashinfer compilation logging",
+   "url": "https://github.com/vllm-project/vllm/issues/38246",
+   "labels": [
+    "help wanted",
+    "feature request"
+   ],
+   "updatedAt": "2026-09-01T10:12:05Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #50762 by @anujbolewar is already open against this issue",
+   "evidence": [
+    "https://github.com/vllm-project/vllm/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/vllm-project/vllm/pull/50762"
+   ]
+  },
+  {
+   "number": 38379,
+   "title": "Restore test coverage on Transformers v5",
+   "url": "https://github.com/vllm-project/vllm/issues/38379",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-04T13:00:12Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #57315 by @LinzeShi is already open against this issue",
+   "evidence": [
+    "https://github.com/vllm-project/vllm/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/vllm-project/vllm/pull/57315",
+    "https://github.com/huggingface/transformers/pull/45326",
+    "https://github.com/vllm-project/vllm/pull/39330",
+    "https://github.com/vllm-project/vllm/pull/44239",
+    "https://github.com/vllm-project/vllm/pull/44349",
+    "https://github.com/vllm-project/vllm/pull/45042",
+    "https://github.com/vllm-project/vllm/pull/55588",
+    "https://github.com/vllm-project/vllm/pull/55728",
+    "https://github.com/vllm-project/vllm/pull/55767"
+   ]
+  },
+  {
+   "number": 38425,
+   "title": "[Transformers v5] InternVL2",
+   "url": "https://github.com/vllm-project/vllm/issues/38425",
+   "labels": [
+    "help wanted",
+    "good first issue"
+   ],
+   "updatedAt": "2026-09-08T09:13:10Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #47047 by @malakazlan is already open against this issue",
+   "evidence": [
+    "https://github.com/vllm-project/vllm/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/huggingface/transformers/pull/47047"
+   ]
+  },
+  {
+   "number": 39030,
+   "title": "[Bug]: Certain Ranks Take a Look Time to Load Weights",
+   "url": "https://github.com/vllm-project/vllm/issues/39030",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-09-01T10:18:31Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #40068 by @ianliuy is already open against this issue",
+   "evidence": [
+    "https://github.com/vllm-project/vllm/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/vllm-project/vllm/pull/40068",
+    "https://github.com/vllm-project/vllm/pull/50762",
+    "https://github.com/Fangzhou-Ai/vllm/pull/40"
+   ]
+  },
+  {
+   "number": 39428,
+   "title": "[torch.compile] E2E correctness testing for fusions",
+   "url": "https://github.com/vllm-project/vllm/issues/39428",
+   "labels": [
+    "help wanted",
+    "torch.compile"
+   ],
+   "updatedAt": "2026-09-01T10:18:29Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #39480 by @xikronz is already open against this issue",
+   "evidence": [
+    "https://github.com/vllm-project/vllm/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/vllm-project/vllm/pull/39480",
+    "https://github.com/vllm-project/vllm/pull/43610",
+    "https://github.com/vllm-project/vllm/pull/51934",
+    "https://github.com/vllm-project/vllm/pull/54531"
+   ]
+  },
+  {
+   "number": 40004,
+   "title": "[Feature]: Priority scheduling supports preemption of requests in the running queue by requests in the waiting queue",
+   "url": "https://github.com/vllm-project/vllm/issues/40004",
+   "labels": [
+    "help wanted",
+    "feature request"
+   ],
+   "updatedAt": "2026-11-03T22:22:33Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #40087 by @injaeryou is already open against this issue",
+   "evidence": [
+    "https://github.com/vllm-project/vllm/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/vllm-project/vllm/pull/40087",
+    "https://github.com/vllm-project/vllm/pull/45558",
+    "https://github.com/vllm-project/vllm/pull/45561",
+    "https://github.com/vllm-project/vllm/pull/54530",
+    "https://github.com/vllm-project/vllm/pull/65282"
+   ]
+  },
+  {
+   "number": 40544,
+   "title": "[Feature]: Integrate fused `kMoEFinalizeARResidualRMSNorm` from FlashInfer",
+   "url": "https://github.com/vllm-project/vllm/issues/40544",
+   "labels": [
+    "help wanted",
+    "feature request"
+   ],
+   "updatedAt": "2026-09-01T10:11:52Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #3931 by @saidrhs is already open against this issue",
+   "evidence": [
+    "https://github.com/vllm-project/vllm/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/flashinfer-ai/flashinfer/pull/3931",
+    "https://github.com/vllm-project/vllm/pull/64957"
+   ]
+  }
+ ]
+}

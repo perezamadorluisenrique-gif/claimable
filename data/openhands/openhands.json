@@ -1,0 +1,420 @@
+{
+ "owner": "OpenHands",
+ "repo": "OpenHands",
+ "language": "TypeScript",
+ "stars": 93136,
+ "description": "🙌 OpenHands: AI-Driven Development",
+ "visitedAt": "2026-11-10T23:25:58.547Z",
+ "issues": [
+  {
+   "number": 15532,
+   "title": "Consolidate the duplicate src/context/ and src/contexts/ directories",
+   "url": "https://github.com/OpenHands/OpenHands/issues/15532",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2026-10-05T00:12:44Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #16328 by @shotsan is already open against this issue",
+   "evidence": [
+    "https://github.com/OpenHands/OpenHands/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/OpenHands/OpenHands/pull/16328",
+    "https://github.com/OpenHands/OpenHands/pull/17170",
+    "https://github.com/OpenHands/OpenHands/pull/17392",
+    "https://github.com/OpenHands/OpenHands/pull/17561",
+    "https://github.com/OpenHands/OpenHands/pull/17607"
+   ]
+  },
+  {
+   "number": 15567,
+   "title": "Workspace file preview returns 401 Unauthorized on non-HTTPS non-loopback hosts",
+   "url": "https://github.com/OpenHands/OpenHands/issues/15567",
+   "labels": [
+    "bug",
+    "good first issue",
+    "feature-map:mapped"
+   ],
+   "updatedAt": "2026-11-08T02:06:14Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #16364 by @hudsonwa is already open against this issue",
+   "evidence": [
+    "https://github.com/OpenHands/OpenHands/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/OpenHands/OpenHands/pull/16364"
+   ]
+  },
+  {
+   "number": 15583,
+   "title": "Slash commands: parity with OpenHands CLI and a built-in /help",
+   "url": "https://github.com/OpenHands/OpenHands/issues/15583",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2026-09-15T04:04:03Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #16422 by @Coooder-Crypto is already open against this issue",
+   "evidence": [
+    "https://github.com/OpenHands/OpenHands/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/OpenHands/OpenHands/pull/16422",
+    "https://github.com/OpenHands/OpenHands/pull/16423",
+    "https://github.com/OpenHands/OpenHands/pull/16424",
+    "https://github.com/OpenHands/OpenHands/pull/16425"
+   ]
+  },
+  {
+   "number": 15607,
+   "title": "Feature Request: Group Conversations by Backend, Container, and Workspace",
+   "url": "https://github.com/OpenHands/OpenHands/issues/15607",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2026-09-02T01:08:52Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #17091 by @idhanth is already open against this issue",
+   "evidence": [
+    "https://github.com/OpenHands/OpenHands/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/OpenHands/OpenHands/pull/17091"
+   ]
+  },
+  {
+   "number": 15609,
+   "title": "Clarify home-page error when active LLM profile is missing API key",
+   "url": "https://github.com/OpenHands/OpenHands/issues/15609",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "ready-for-dev"
+   ],
+   "updatedAt": "2026-09-05T22:38:07Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #16126 by @syf2211 is already open against this issue",
+   "evidence": [
+    "https://github.com/OpenHands/OpenHands/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/OpenHands/OpenHands/pull/16126",
+    "https://github.com/OpenHands/OpenHands/pull/16361",
+    "https://github.com/OpenHands/OpenHands/pull/17172",
+    "https://github.com/OpenHands/OpenHands/pull/17509",
+    "https://github.com/OpenHands/OpenHands/pull/19521"
+   ]
+  },
+  {
+   "number": 15623,
+   "title": "Automation tab unavailable: stale SQLite DB migration crashes automation service on startup",
+   "url": "https://github.com/OpenHands/OpenHands/issues/15623",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2026-11-04T04:16:57Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #16393 by @hudsonwa is already open against this issue",
+   "evidence": [
+    "https://github.com/OpenHands/OpenHands/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/OpenHands/OpenHands/pull/16393",
+    "https://github.com/OpenHands/OpenHands/pull/16625",
+    "https://github.com/OpenHands/OpenHands/pull/19312"
+   ]
+  },
+  {
+   "number": 15677,
+   "title": "Group conversations by workspace by default",
+   "url": "https://github.com/OpenHands/OpenHands/issues/15677",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2026-11-03T15:01:24Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #16390 by @iroiro147 is already open against this issue",
+   "evidence": [
+    "https://github.com/OpenHands/OpenHands/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/OpenHands/OpenHands/pull/16390"
+   ]
+  },
+  {
+   "number": 15692,
+   "title": "[Bug]: Diff still shows after agent has committed and pushed",
+   "url": "https://github.com/OpenHands/OpenHands/issues/15692",
+   "labels": [
+    "bug",
+    "good first issue",
+    "feature-map:mapped"
+   ],
+   "updatedAt": "2026-10-12T10:54:07Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #16397 by @hudsonwa is already open against this issue",
+   "evidence": [
+    "https://github.com/OpenHands/OpenHands/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/OpenHands/OpenHands/pull/16397",
+    "https://github.com/OpenHands/OpenHands/pull/17596"
+   ]
+  },
+  {
+   "number": 15694,
+   "title": "Bug: Enable/disable skills toggle resets to enabled state unexpectedly",
+   "url": "https://github.com/OpenHands/OpenHands/issues/15694",
+   "labels": [
+    "bug",
+    "good first issue",
+    "feature-map:not-reproduced"
+   ],
+   "updatedAt": "2026-10-16T04:40:19Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #16112 by @KXHXK is already open against this issue",
+   "evidence": [
+    "https://github.com/OpenHands/OpenHands/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/OpenHands/OpenHands/pull/16112",
+    "https://github.com/OpenHands/OpenHands/pull/17189"
+   ]
+  },
+  {
+   "number": 15701,
+   "title": "[Bug]: Creating Conversation toast stuck visible",
+   "url": "https://github.com/OpenHands/OpenHands/issues/15701",
+   "labels": [
+    "bug",
+    "good first issue",
+    "feature-map:mapped"
+   ],
+   "updatedAt": "2026-10-12T10:54:13Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #16318 by @rishavnaskar is already open against this issue",
+   "evidence": [
+    "https://github.com/OpenHands/OpenHands/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/OpenHands/OpenHands/pull/16318",
+    "https://github.com/OpenHands/OpenHands/pull/16329"
+   ]
+  },
+  {
+   "number": 15704,
+   "title": "Auto-add project subdirectories as workspaces when running through Docker",
+   "url": "https://github.com/OpenHands/OpenHands/issues/15704",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2026-10-01T07:25:27Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #16153 by @harukz is already open against this issue",
+   "evidence": [
+    "https://github.com/OpenHands/OpenHands/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/OpenHands/OpenHands/pull/16153"
+   ]
+  },
+  {
+   "number": 15706,
+   "title": "API key field displays longer than actual key after saving, making it hard to edit",
+   "url": "https://github.com/OpenHands/OpenHands/issues/15706",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2026-11-10T06:06:28Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #16240 by @hsms4710-pixel is already open against this issue",
+   "evidence": [
+    "https://github.com/OpenHands/OpenHands/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/OpenHands/OpenHands/pull/16240"
+   ]
+  },
+  {
+   "number": 15758,
+   "title": "[Enhancement] Add \"Open a Repository\" option for Local backend mode",
+   "url": "https://github.com/OpenHands/OpenHands/issues/15758",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2026-09-25T07:43:02Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @Shraddha2685 47 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/OpenHands/OpenHands/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/OpenHands/OpenHands/issues/15758#issuecomment-5828795665",
+    "https://github.com/OpenHands/OpenHands/issues/15758",
+    "https://github.com/OpenHands/OpenHands/blob/HEAD/README.md",
+    "https://docs.openhands.dev/openhands/usage/agent-canvas/backends\"><img",
+    "https://github.com/OpenHands/OpenHands/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 15769,
+   "title": "feat: Add Azure DevOps MCP integration to the Agent Canvas marketplace",
+   "url": "https://github.com/OpenHands/OpenHands/issues/15769",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "mcp"
+   ],
+   "updatedAt": "2026-11-06T15:01:20Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #384 by @jpelletier1 is already open against this issue",
+   "evidence": [
+    "https://github.com/OpenHands/OpenHands/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/OpenHands/extensions/pull/384",
+    "https://github.com/OpenHands/extensions/pull/716"
+   ]
+  },
+  {
+   "number": 15778,
+   "title": "LLM config accepts invalid data.",
+   "url": "https://github.com/OpenHands/OpenHands/issues/15778",
+   "labels": [
+    "bug",
+    "enhancement",
+    "good first issue",
+    "feature-map:mapped"
+   ],
+   "updatedAt": "2026-10-25T08:48:49Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #16192 by @sainikhiljuluri is already open against this issue",
+   "evidence": [
+    "https://github.com/OpenHands/OpenHands/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/OpenHands/OpenHands/pull/16192",
+    "https://github.com/OpenHands/OpenHands/pull/16624",
+    "https://github.com/OpenHands/OpenHands/pull/17649",
+    "https://github.com/OpenHands/OpenHands/pull/19180",
+    "https://github.com/OpenHands/OpenHands/pull/16417"
+   ]
+  },
+  {
+   "number": 15782,
+   "title": "[Bug]: Prompt disappears when a conversation is stopped",
+   "url": "https://github.com/OpenHands/OpenHands/issues/15782",
+   "labels": [
+    "bug",
+    "good first issue",
+    "feature-map:mapped"
+   ],
+   "updatedAt": "2026-10-12T10:54:18Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #16177 by @d3f4w2 is already open against this issue",
+   "evidence": [
+    "https://github.com/OpenHands/OpenHands/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/OpenHands/OpenHands/pull/16177"
+   ]
+  },
+  {
+   "number": 15797,
+   "title": "Quick start doesn't clearly indicate what URL to visit and next steps after installation",
+   "url": "https://github.com/OpenHands/OpenHands/issues/15797",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2026-09-26T01:48:55Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #16227 by @ShiHuiwen-creat is already open against this issue",
+   "evidence": [
+    "https://github.com/OpenHands/OpenHands/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/OpenHands/OpenHands/pull/16227",
+    "https://github.com/OpenHands/OpenHands/pull/19181"
+   ]
+  },
+  {
+   "number": 15813,
+   "title": "[Bug]: Condenser Max Number of Events indicator can go under 0",
+   "url": "https://github.com/OpenHands/OpenHands/issues/15813",
+   "labels": [
+    "bug",
+    "good first issue",
+    "feature-map:mapped"
+   ],
+   "updatedAt": "2026-10-25T08:48:50Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #16319 by @Linxiushen is already open against this issue",
+   "evidence": [
+    "https://github.com/OpenHands/OpenHands/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/OpenHands/OpenHands/pull/16319",
+    "https://github.com/OpenHands/OpenHands/pull/17579",
+    "https://github.com/OpenHands/OpenHands/pull/17652",
+    "https://github.com/OpenHands/OpenHands/pull/19179",
+    "https://github.com/OpenHands/OpenHands/pull/18811"
+   ]
+  },
+  {
+   "number": 15822,
+   "title": "Bug: Cloud-proxy calls continue after switching to local backend",
+   "url": "https://github.com/OpenHands/OpenHands/issues/15822",
+   "labels": [
+    "bug",
+    "good first issue",
+    "feature-map:mapped"
+   ],
+   "updatedAt": "2026-10-12T10:54:25Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #16149 by @d3f4w2 is already open against this issue",
+   "evidence": [
+    "https://github.com/OpenHands/OpenHands/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/OpenHands/OpenHands/pull/16149",
+    "https://github.com/aleesikander/OpenHands/pull/1",
+    "https://github.com/OpenHands/OpenHands/pull/17171"
+   ]
+  },
+  {
+   "number": 15947,
+   "title": "[feat] update readme with how to connect to openhands cloud",
+   "url": "https://github.com/OpenHands/OpenHands/issues/15947",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2026-10-07T07:16:02Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #16421 by @ehtishammubarik is already open against this issue",
+   "evidence": [
+    "https://github.com/OpenHands/OpenHands/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/OpenHands/OpenHands/pull/16421",
+    "https://github.com/OpenHands/OpenHands/pull/17196",
+    "https://github.com/OpenHands/OpenHands/pull/17434",
+    "https://github.com/OpenHands/OpenHands/pull/17438",
+    "https://github.com/OpenHands/OpenHands/pull/18116",
+    "https://github.com/OpenHands/OpenHands/pull/19617"
+   ]
+  },
+  {
+   "number": 16430,
+   "title": "[Bug]: File upload does not have an indication of progress",
+   "url": "https://github.com/OpenHands/OpenHands/issues/16430",
+   "labels": [
+    "bug",
+    "good first issue",
+    "frontend",
+    "agent-canvas",
+    "priority:medium",
+    "release-note-required",
+    "feature-map:mapped"
+   ],
+   "updatedAt": "2026-10-16T15:27:44Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #16431 by @mmustafasenoglu is already open against this issue",
+   "evidence": [
+    "https://github.com/OpenHands/OpenHands/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/OpenHands/OpenHands/pull/16431",
+    "https://github.com/OpenHands/OpenHands/pull/16487",
+    "https://github.com/OpenHands/OpenHands/pull/17230",
+    "https://github.com/OpenHands/OpenHands/pull/17483"
+   ]
+  }
+ ]
+}

@@ -98,5 +98,89 @@
  "ant-design/ant-design": {
   "nextCheck": "2026-11-10T18:47:07.019Z",
   "lastNewIssue": "2026-08-12T16:38:43Z"
+ },
+ "opencut-app/opencut": {
+  "nextCheck": "2026-11-17T23:25:58.547Z",
+  "lastNewIssue": "2025-06-23T14:47:55Z"
+ },
+ "stirling-tools/stirling-pdf": {
+  "nextCheck": "2026-11-17T23:25:58.547Z",
+  "lastNewIssue": "2026-09-09T02:20:40Z"
+ },
+ "puppeteer/puppeteer": {
+  "nextCheck": "2026-11-17T23:25:58.547Z",
+  "lastNewIssue": "2022-04-21T13:03:06Z"
+ },
+ "openhands/openhands": {
+  "nextCheck": "2026-11-17T23:25:58.547Z",
+  "lastNewIssue": "2026-08-08T11:40:21Z"
+ },
+ "egonex-ai/understand-anything": {
+  "nextCheck": "2026-11-17T23:25:58.547Z",
+  "lastNewIssue": "2026-04-09T06:29:45Z"
+ },
+ "thealgorithms/python": {
+  "nextCheck": "2026-11-17T23:25:58.547Z",
+  "lastNewIssue": "2026-09-04T19:13:21Z"
+ },
+ "microsoft/markitdown": {
+  "nextCheck": "2026-11-17T23:25:58.547Z",
+  "lastNewIssue": "2026-09-04T19:08:05Z"
+ },
+ "significant-gravitas/autogpt": {
+  "nextCheck": "2026-11-17T23:25:58.547Z",
+  "lastNewIssue": "2025-10-02T14:17:27Z"
+ },
+ "langgenius/dify": {
+  "nextCheck": "2026-11-11T23:25:58.547Z",
+  "lastNewIssue": "2026-11-05T05:53:44Z"
+ },
+ "langchain-ai/langchain": {
+  "nextCheck": "2026-11-17T23:25:58.547Z",
+  "lastNewIssue": "2025-07-28T16:34:18Z"
+ },
+ "comfy-org/comfyui": {
+  "nextCheck": "2026-11-17T23:25:58.547Z",
+  "lastNewIssue": "2025-06-01T04:30:53Z"
+ },
+ "graphify-labs/graphify": {
+  "nextCheck": "2026-11-17T23:25:58.547Z",
+  "lastNewIssue": "2026-09-18T21:26:32Z"
+ },
+ "ytdl-org/youtube-dl": {
+  "nextCheck": "2026-11-17T23:25:58.547Z",
+  "lastNewIssue": "2023-12-02T21:39:17Z"
+ },
+ "sherlock-project/sherlock": {
+  "nextCheck": "2026-11-17T23:25:58.547Z",
+  "lastNewIssue": "2025-09-19T23:57:43Z"
+ },
+ "pytorch/pytorch": {
+  "nextCheck": "2026-11-17T23:25:58.547Z",
+  "lastNewIssue": "2026-06-27T00:22:46Z"
+ },
+ "vllm-project/vllm": {
+  "nextCheck": "2026-11-17T23:25:58.547Z",
+  "lastNewIssue": "2026-04-21T19:22:16Z"
+ },
+ "3b1b/manim": {
+  "nextCheck": "2026-11-17T23:25:58.547Z",
+  "lastNewIssue": "2020-10-01T02:06:04Z"
+ },
+ "odysseus-dev/odysseus": {
+  "nextCheck": "2026-11-17T23:25:58.547Z",
+  "lastNewIssue": "2026-06-05T14:34:25Z"
+ },
+ "home-assistant/core": {
+  "nextCheck": "2026-11-17T23:25:58.547Z",
+  "lastNewIssue": "2026-10-08T21:46:16Z"
+ },
+ "bytedance/deer-flow": {
+  "nextCheck": "2026-11-17T23:25:58.547Z",
+  "lastNewIssue": "2026-08-17T04:51:33Z"
+ },
+ "elastic/elasticsearch": {
+  "nextCheck": "2026-11-11T00:25:58.547Z",
+  "lastNewIssue": "2026-11-05T10:53:29Z"
  }
 }

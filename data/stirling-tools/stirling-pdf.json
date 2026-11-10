@@ -1,0 +1,147 @@
+{
+ "owner": "Stirling-Tools",
+ "repo": "Stirling-PDF",
+ "language": "TypeScript",
+ "stars": 96212,
+ "description": "#1 PDF Application on GitHub that lets you edit PDFs on any device anywhere",
+ "visitedAt": "2026-11-10T23:25:58.547Z",
+ "issues": [
+  {
+   "number": 149,
+   "title": "[Feature-Request] add progressbar to all external calls",
+   "url": "https://github.com/Stirling-Tools/Stirling-PDF/issues/149",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "Long-term Enhancement",
+    "Front End"
+   ],
+   "updatedAt": "2026-10-06T12:34:41Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @MuhammadFaisal1521 414 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/Stirling-Tools/Stirling-PDF/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/Stirling-Tools/Stirling-PDF/issues/149#issuecomment-3323155012",
+    "https://github.com/Stirling-Tools/Stirling-PDF/issues/149",
+    "https://github.com/Stirling-Tools/Stirling-PDF/blob/HEAD/README.md",
+    "https://docs.stirlingpdf.com/](https://docs.stirlingpdf.com/",
+    "https://github.com/Stirling-Tools/Stirling-PDF/blob/HEAD/.github/CONTRIBUTING.md",
+    "https://github.com/Stirling-Tools/Stirling-PDF/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 330,
+   "title": "[enhance] Auto rename to have other rename fucntionality like pdfgrep",
+   "url": "https://github.com/Stirling-Tools/Stirling-PDF/issues/330",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "Long-term Enhancement",
+    "hacktoberfest"
+   ],
+   "updatedAt": "2026-10-06T12:39:50Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @tanseer123 838 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/Stirling-Tools/Stirling-PDF/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/Stirling-Tools/Stirling-PDF/issues/330#issuecomment-2251150850",
+    "https://github.com/Stirling-Tools/Stirling-PDF/issues/330",
+    "https://github.com/Stirling-Tools/Stirling-PDF/blob/HEAD/README.md",
+    "https://docs.stirlingpdf.com/](https://docs.stirlingpdf.com/",
+    "https://github.com/Stirling-Tools/Stirling-PDF/blob/HEAD/.github/CONTRIBUTING.md",
+    "https://github.com/Stirling-Tools/Stirling-PDF/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 414,
+   "title": "altering multiple pdf merge",
+   "url": "https://github.com/Stirling-Tools/Stirling-PDF/issues/414",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "hacktoberfest"
+   ],
+   "updatedAt": "2026-11-10T17:04:24Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #8659 by @anishgowda21 is already open against this issue",
+   "evidence": [
+    "https://github.com/Stirling-Tools/Stirling-PDF/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/Stirling-Tools/Stirling-PDF/issues/8659"
+   ]
+  },
+  {
+   "number": 1458,
+   "title": "[enhancement ]: Stamp feature to support custom fonts",
+   "url": "https://github.com/Stirling-Tools/Stirling-PDF/issues/1458",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "hacktoberfest"
+   ],
+   "updatedAt": "2026-11-06T14:11:34Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #8803 by @yuvrajtiwary-bitmesraece is already open against this issue",
+   "evidence": [
+    "https://github.com/Stirling-Tools/Stirling-PDF/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/Stirling-Tools/Stirling-PDF/pull/8803"
+   ]
+  },
+  {
+   "number": 2959,
+   "title": "[Feature Request]: Blending all pages in PDF over before selecting crop area",
+   "url": "https://github.com/Stirling-Tools/Stirling-PDF/issues/2959",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "Front End",
+    "hacktoberfest"
+   ],
+   "updatedAt": "2026-10-28T09:35:45Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "@Shriraj1901 claimed it 14 days ago",
+   "evidence": [
+    "https://github.com/Stirling-Tools/Stirling-PDF/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/Stirling-Tools/Stirling-PDF/issues/2959#issuecomment-6465539274"
+   ]
+  },
+  {
+   "number": 6873,
+   "title": "Tessdata prefix is hardcoded in the app (Linux)",
+   "url": "https://github.com/Stirling-Tools/Stirling-PDF/issues/6873",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2026-10-27T12:03:03Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "already assigned to @Nameless-Monster-Nerd",
+   "evidence": [
+    "https://github.com/Stirling-Tools/Stirling-PDF/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/Stirling-Tools/Stirling-PDF/issues/6873",
+    "https://github.com/Stirling-Tools/Stirling-PDF/issues/6873#issuecomment-5119760677"
+   ]
+  },
+  {
+   "number": 7919,
+   "title": "[Feature Request]: `Timestamp PDF` when `Sign with Certificate`",
+   "url": "https://github.com/Stirling-Tools/Stirling-PDF/issues/7919",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2026-10-26T09:33:08Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #7925 by @Fayupable is already open against this issue",
+   "evidence": [
+    "https://github.com/Stirling-Tools/Stirling-PDF/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/Stirling-Tools/Stirling-PDF/pull/7925"
+   ]
+  }
+ ]
+}

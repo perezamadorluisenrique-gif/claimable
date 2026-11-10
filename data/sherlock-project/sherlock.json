@@ -1,0 +1,29 @@
+{
+ "owner": "sherlock-project",
+ "repo": "sherlock",
+ "language": "Python",
+ "stars": 108643,
+ "description": "Hunt down social media accounts by username across social networks",
+ "visitedAt": "2026-11-10T23:25:58.547Z",
+ "issues": [
+  {
+   "number": 2547,
+   "title": "False Positive Remediation",
+   "url": "https://github.com/sherlock-project/sherlock/issues/2547",
+   "labels": [
+    "help wanted",
+    "good first issue",
+    "false positive"
+   ],
+   "updatedAt": "2025-10-02T23:40:27Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "reservations",
+   "reason": "only 18% of recently closed PRs were merged — most contributions get rejected or abandoned here (+1 more)",
+   "evidence": [
+    "https://github.com/sherlock-project/sherlock/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/sherlock-project/sherlock/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/sherlock-project/sherlock/issues/2547"
+   ]
+  }
+ ]
+}

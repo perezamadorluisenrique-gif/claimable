@@ -1,0 +1,899 @@
+{
+ "owner": "elastic",
+ "repo": "elasticsearch",
+ "language": "Java",
+ "stars": 78551,
+ "description": "Free and Open Source, Distributed, RESTful Search Engine",
+ "visitedAt": "2026-11-10T23:25:58.547Z",
+ "issues": [
+  {
+   "number": 4227,
+   "title": "Consistency between `_search` and `_msearch`",
+   "url": "https://github.com/elastic/elasticsearch/issues/4227",
+   "labels": [
+    ">bug",
+    "good first issue",
+    "help wanted",
+    "priority:normal",
+    "Team:Search Foundations",
+    ":Search Foundations/Search"
+   ],
+   "updatedAt": "2026-11-08T16:11:57Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "@Rahul3178 claimed it 2 days ago",
+   "evidence": [
+    "https://github.com/elastic/elasticsearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/elastic/kibana/pull/25461",
+    "https://github.com/elastic/elasticsearch/issues/4227#issuecomment-6723838532",
+    "https://github.com/elastic/elasticsearch/issues/4227#issuecomment-3384881744"
+   ]
+  },
+  {
+   "number": 7416,
+   "title": "Highlighting array field - Also return non-matching entries",
+   "url": "https://github.com/elastic/elasticsearch/issues/7416",
+   "labels": [
+    ">enhancement",
+    "good first issue",
+    "help wanted",
+    ":Search Relevance/Highlighting",
+    "Team:Search Relevance"
+   ],
+   "updatedAt": "2024-07-12T09:33:02Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #151824 by @gerasidev is already open against this issue",
+   "evidence": [
+    "https://github.com/elastic/elasticsearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/elastic/elasticsearch/pull/151824",
+    "https://github.com/cofacts/rumors-api/pull/213"
+   ]
+  },
+  {
+   "number": 7472,
+   "title": "Phrase suggester with suggest_mode: \"missing\" across multiple indexes yields suggestions when results exist in one index",
+   "url": "https://github.com/elastic/elasticsearch/issues/7472",
+   "labels": [
+    ">enhancement",
+    "good first issue",
+    "help wanted",
+    ":Search Relevance/Suggesters",
+    "Team:Search Relevance"
+   ],
+   "updatedAt": "2025-04-19T23:32:17Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.docker.com/install/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/elastic/elasticsearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/elastic/elasticsearch/issues/7472",
+    "https://github.com/elastic/elasticsearch/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.docker.com/install/"
+   ]
+  },
+  {
+   "number": 8481,
+   "title": "Add CBOR-friendly bulk format",
+   "url": "https://github.com/elastic/elasticsearch/issues/8481",
+   "labels": [
+    ">enhancement",
+    "help wanted",
+    ":Distributed/CRUD",
+    "Team:Distributed"
+   ],
+   "updatedAt": "2022-06-29T13:50:28Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #73501 by @dakrone is already open against this issue",
+   "evidence": [
+    "https://github.com/elastic/elasticsearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/elastic/elasticsearch/issues/73501",
+    "https://github.com/elastic/elasticsearch/issues/94319"
+   ]
+  },
+  {
+   "number": 8690,
+   "title": "Remove the `snowball` analyzer",
+   "url": "https://github.com/elastic/elasticsearch/issues/8690",
+   "labels": [
+    ">breaking",
+    "help wanted",
+    ":Search Relevance/Analysis",
+    "Team:Search Relevance"
+   ],
+   "updatedAt": "2024-07-12T10:26:25Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "reservations",
+   "reason": "PR #18269 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+3 more)",
+   "evidence": [
+    "https://github.com/elastic/elasticsearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/elastic/elasticsearch/pull/18269",
+    "https://github.com/ApprenticeshipStandardsDotOrg/ApprenticeshipStandardsDotOrg/pull/342",
+    "https://github.com/elastic/elasticsearch/issues/8690#issuecomment-604948886",
+    "https://github.com/elastic/elasticsearch/issues/8690",
+    "https://github.com/elastic/elasticsearch/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.docker.com/install/"
+   ]
+  },
+  {
+   "number": 9379,
+   "title": "Inconsistent behavior and error messaging between bulk update and bulk index requests",
+   "url": "https://github.com/elastic/elasticsearch/issues/9379",
+   "labels": [
+    ">bug",
+    "good first issue",
+    ":Distributed/CRUD",
+    "Team:Distributed"
+   ],
+   "updatedAt": "2024-05-22T21:04:17Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "reservations",
+   "reason": "2 stale claims, the most recent by @vishv843 902 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/elastic/elasticsearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/elastic/elasticsearch/issues/9379#issuecomment-2125740419",
+    "https://github.com/elastic/elasticsearch/issues/9379",
+    "https://github.com/elastic/elasticsearch/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.docker.com/install/"
+   ]
+  },
+  {
+   "number": 10043,
+   "title": "Support min_children & max_children for nested docs",
+   "url": "https://github.com/elastic/elasticsearch/issues/10043",
+   "labels": [
+    ">enhancement",
+    "help wanted",
+    "stalled",
+    "Team:Search Relevance",
+    ":Search Relevance/Search"
+   ],
+   "updatedAt": "2025-12-24T02:06:47Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #65982 by @palesz is already open against this issue",
+   "evidence": [
+    "https://github.com/elastic/elasticsearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/elastic/elasticsearch/issues/65982"
+   ]
+  },
+  {
+   "number": 10428,
+   "title": "Missing ID for an update/delete operation causes the entire bulk to fail",
+   "url": "https://github.com/elastic/elasticsearch/issues/10428",
+   "labels": [
+    ">bug",
+    "help wanted",
+    ":Distributed/CRUD",
+    "Team:Distributed"
+   ],
+   "updatedAt": "2020-05-04T22:56:26Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.docker.com/install/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/elastic/elasticsearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/elastic/elasticsearch/issues/10428",
+    "https://github.com/elastic/elasticsearch/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.docker.com/install/"
+   ]
+  },
+  {
+   "number": 10626,
+   "title": "Remove XMoreLikeThis",
+   "url": "https://github.com/elastic/elasticsearch/issues/10626",
+   "labels": [
+    ">non-issue",
+    "high hanging fruit",
+    "help wanted",
+    "Team:Search Relevance",
+    ":Search Relevance/Search",
+    ">tech-debt"
+   ],
+   "updatedAt": "2026-02-12T20:49:53Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @Kiriakos1998 1232 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/elastic/elasticsearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/elastic/elasticsearch/issues/10626#issuecomment-1611073057",
+    "https://github.com/elastic/elasticsearch/issues/10626",
+    "https://github.com/elastic/elasticsearch/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.docker.com/install/"
+   ]
+  },
+  {
+   "number": 12366,
+   "title": "ignore_malformed to support ignoring JSON objects ingested into fields of the wrong type",
+   "url": "https://github.com/elastic/elasticsearch/issues/12366",
+   "labels": [
+    ">enhancement",
+    "help wanted",
+    "Team:StorageEngine",
+    ":StorageEngine/Mapping"
+   ],
+   "updatedAt": "2024-06-28T06:57:16Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "reservations",
+   "reason": "PR #1185 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/elastic/elasticsearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/govuk-paas/paas-cf/pull/1185",
+    "https://github.com/elastic/elasticsearch/issues/12366",
+    "https://github.com/elastic/elasticsearch/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.docker.com/install/"
+   ]
+  },
+  {
+   "number": 13719,
+   "title": "During shard relocation some requests might fail to be sent to a shard",
+   "url": "https://github.com/elastic/elasticsearch/issues/13719",
+   "labels": [
+    ">bug",
+    "help wanted",
+    "resiliency",
+    ":Distributed/Distributed",
+    "Team:Distributed"
+   ],
+   "updatedAt": "2022-05-10T05:42:42Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #82143 by @henningandersen is already open against this issue",
+   "evidence": [
+    "https://github.com/elastic/elasticsearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/elastic/elasticsearch/pull/82143"
+   ]
+  },
+  {
+   "number": 15377,
+   "title": "Dynamic mappings fail when a single document generates inconsistent mapping updates",
+   "url": "https://github.com/elastic/elasticsearch/issues/15377",
+   "labels": [
+    ">docs",
+    "help wanted",
+    ":Search Foundations/Mapping",
+    "Team:Docs",
+    "Team:Search Foundations"
+   ],
+   "updatedAt": "2024-07-16T09:29:35Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.docker.com/install/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/elastic/elasticsearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/elastic/elasticsearch/issues/15377",
+    "https://github.com/elastic/elasticsearch/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.docker.com/install/"
+   ]
+  },
+  {
+   "number": 15975,
+   "title": "Show force merge/optimize progress",
+   "url": "https://github.com/elastic/elasticsearch/issues/15975",
+   "labels": [
+    ">enhancement",
+    "help wanted",
+    ":Distributed/Engine",
+    "Team:Distributed"
+   ],
+   "updatedAt": "2025-03-07T14:23:44Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "reservations",
+   "reason": "PR #41365 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/elastic/elasticsearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/elastic/elasticsearch/pull/41365",
+    "https://github.com/elastic/elasticsearch/pull/45191",
+    "https://github.com/elastic/elasticsearch/issues/15975",
+    "https://github.com/elastic/elasticsearch/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.docker.com/install/"
+   ]
+  },
+  {
+   "number": 17320,
+   "title": "Two ways to define root logger level - should we choose one?",
+   "url": "https://github.com/elastic/elasticsearch/issues/17320",
+   "labels": [
+    ">enhancement",
+    "help wanted",
+    ":Core/Infra/Logging",
+    "Team:Core/Infra",
+    "triaged"
+   ],
+   "updatedAt": "2024-10-25T13:39:57Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #84514 by @n0othing is already open against this issue",
+   "evidence": [
+    "https://github.com/elastic/elasticsearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/elastic/elasticsearch/issues/84514"
+   ]
+  },
+  {
+   "number": 19395,
+   "title": "Reindex from remote support multiple nodes and failover",
+   "url": "https://github.com/elastic/elasticsearch/issues/19395",
+   "labels": [
+    ">enhancement",
+    "good first issue",
+    "help wanted",
+    ":Distributed/Reindex",
+    "Team:Distributed"
+   ],
+   "updatedAt": "2024-02-25T04:17:59Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.docker.com/install/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/elastic/elasticsearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/elastic/elasticsearch/issues/19395",
+    "https://github.com/elastic/elasticsearch/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.docker.com/install/"
+   ]
+  },
+  {
+   "number": 21704,
+   "title": "Fail sorting when the field is under a nested object but no `nested_path` is specified",
+   "url": "https://github.com/elastic/elasticsearch/issues/21704",
+   "labels": [
+    ">enhancement",
+    "help wanted",
+    "Team:Search Relevance",
+    ":Search Relevance/Search"
+   ],
+   "updatedAt": "2024-07-17T19:15:16Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.docker.com/install/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/elastic/elasticsearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/elastic/elasticsearch/issues/21704",
+    "https://github.com/elastic/elasticsearch/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.docker.com/install/"
+   ]
+  },
+  {
+   "number": 22573,
+   "title": "Add took to update's response",
+   "url": "https://github.com/elastic/elasticsearch/issues/22573",
+   "labels": [
+    ">enhancement",
+    "help wanted",
+    ":Distributed/CRUD",
+    "Team:Distributed"
+   ],
+   "updatedAt": "2020-05-04T22:54:51Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "reservations",
+   "reason": "3 stale claims, the most recent by @zeeshan58 2825 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/elastic/elasticsearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/elastic/elasticsearch/issues/22573#issuecomment-290982939",
+    "https://github.com/elastic/elasticsearch/issues/22573#issuecomment-407968901",
+    "https://github.com/elastic/elasticsearch/issues/22573#issuecomment-464561776",
+    "https://github.com/elastic/elasticsearch/issues/22573#issuecomment-464334922",
+    "https://github.com/elastic/elasticsearch/issues/22573",
+    "https://github.com/elastic/elasticsearch/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.docker.com/install/"
+   ]
+  },
+  {
+   "number": 22769,
+   "title": "Use charset from Content-Type header",
+   "url": "https://github.com/elastic/elasticsearch/issues/22769",
+   "labels": [
+    ">enhancement",
+    "help wanted",
+    ":Core/Infra/REST API",
+    "team-discuss",
+    "Team:Core/Infra",
+    "triaged"
+   ],
+   "updatedAt": "2026-08-03T00:43:00Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #155701 by @lh0156 is already open against this issue",
+   "evidence": [
+    "https://github.com/elastic/elasticsearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/elastic/elasticsearch/pull/155701",
+    "https://github.com/elastic/elasticsearch/pull/22691",
+    "https://github.com/elastic/elasticsearch/pull/26457",
+    "https://github.com/elastic/elasticsearch/pull/61427"
+   ]
+  },
+  {
+   "number": 22864,
+   "title": "Should reindex serialize partial index and search requests",
+   "url": "https://github.com/elastic/elasticsearch/issues/22864",
+   "labels": [
+    ">bug",
+    "help wanted",
+    ":Distributed/Reindex",
+    "Team:Distributed"
+   ],
+   "updatedAt": "2020-05-04T22:54:46Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "reservations",
+   "reason": "PR #22691 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/elastic/elasticsearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/elastic/elasticsearch/pull/22691",
+    "https://github.com/elastic/elasticsearch/issues/22864",
+    "https://github.com/elastic/elasticsearch/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.docker.com/install/"
+   ]
+  },
+  {
+   "number": 22914,
+   "title": "Deprecate and remove distance_type parameter from geo_distance query DSL",
+   "url": "https://github.com/elastic/elasticsearch/issues/22914",
+   "labels": [
+    ">breaking",
+    "help wanted",
+    "stalled",
+    ":Analytics/Geo",
+    ">deprecation",
+    "Team:Analytics"
+   ],
+   "updatedAt": "2024-07-02T19:31:35Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #39425 by @nknize is already open against this issue",
+   "evidence": [
+    "https://github.com/elastic/elasticsearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/elastic/elasticsearch/pull/39425",
+    "https://github.com/elastic/elasticsearch/pull/19846"
+   ]
+  },
+  {
+   "number": 23269,
+   "title": "Automatically release resources when scrolls are entirely consumed",
+   "url": "https://github.com/elastic/elasticsearch/issues/23269",
+   "labels": [
+    ">enhancement",
+    "help wanted",
+    "Team:Search Foundations",
+    ":Search Foundations/Search"
+   ],
+   "updatedAt": "2024-07-17T18:54:01Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.docker.com/install/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/elastic/elasticsearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/elastic/elasticsearch/issues/23269",
+    "https://github.com/elastic/elasticsearch/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.docker.com/install/"
+   ]
+  },
+  {
+   "number": 23658,
+   "title": "Move analysis components to a module",
+   "url": "https://github.com/elastic/elasticsearch/issues/23658",
+   "labels": [
+    "help wanted",
+    ":Search Relevance/Analysis",
+    "Meta",
+    ">refactoring",
+    "Team:Search Relevance"
+   ],
+   "updatedAt": "2024-07-12T10:26:26Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "reservations",
+   "reason": "PR #24223 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+17 more)",
+   "evidence": [
+    "https://github.com/elastic/elasticsearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/elastic/elasticsearch/pull/24223",
+    "https://github.com/elastic/elasticsearch/pull/24261",
+    "https://github.com/elastic/elasticsearch/pull/24572",
+    "https://github.com/elastic/elasticsearch/pull/24863",
+    "https://github.com/elastic/elasticsearch/pull/24948",
+    "https://github.com/elastic/elasticsearch/pull/25000",
+    "https://github.com/elastic/elasticsearch/pull/25214",
+    "https://github.com/elastic/elasticsearch/pull/25384",
+    "https://github.com/elastic/elasticsearch/pull/25580"
+   ]
+  },
+  {
+   "number": 24396,
+   "title": "Fail index analyzer that contains a graph token filter",
+   "url": "https://github.com/elastic/elasticsearch/issues/24396",
+   "labels": [
+    ">enhancement",
+    "help wanted",
+    ":Search Relevance/Analysis",
+    "Team:Search Relevance"
+   ],
+   "updatedAt": "2024-07-12T10:26:25Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.docker.com/install/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/elastic/elasticsearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/elastic/elasticsearch/issues/24396",
+    "https://github.com/elastic/elasticsearch/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.docker.com/install/"
+   ]
+  },
+  {
+   "number": 25896,
+   "title": "Feature Request: Profile API should show node details as well as shard details",
+   "url": "https://github.com/elastic/elasticsearch/issues/25896",
+   "labels": [
+    ">enhancement",
+    "good first issue",
+    "Team:Search Foundations",
+    ":Search Foundations/Search"
+   ],
+   "updatedAt": "2024-07-17T18:53:54Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "already assigned to @quux00",
+   "evidence": [
+    "https://github.com/elastic/elasticsearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/elastic/elasticsearch/pull/96396",
+    "https://github.com/elastic/elasticsearch/issues/25896"
+   ]
+  },
+  {
+   "number": 26583,
+   "title": "Add qa test for unsupported index",
+   "url": "https://github.com/elastic/elasticsearch/issues/26583",
+   "labels": [
+    ">test",
+    "help wanted",
+    ":Distributed/Store",
+    "Team:Distributed"
+   ],
+   "updatedAt": "2024-11-01T16:28:22Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "reservations",
+   "reason": "PR #26584 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/elastic/elasticsearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/elastic/elasticsearch/pull/26584",
+    "https://github.com/elastic/elasticsearch/issues/26583",
+    "https://github.com/elastic/elasticsearch/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.docker.com/install/"
+   ]
+  },
+  {
+   "number": 26998,
+   "title": "Opening indices with broken index settings",
+   "url": "https://github.com/elastic/elasticsearch/issues/26998",
+   "labels": [
+    ">enhancement",
+    "help wanted",
+    ":Core/Infra/Core",
+    "Team:Core/Infra",
+    "triaged"
+   ],
+   "updatedAt": "2025-04-28T15:00:42Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "already assigned to @thecoop",
+   "evidence": [
+    "https://github.com/elastic/elasticsearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/elastic/elasticsearch/pull/41209",
+    "https://github.com/elastic/elasticsearch/pull/52527",
+    "https://github.com/elastic/elasticsearch/issues/26998"
+   ]
+  },
+  {
+   "number": 27765,
+   "title": "Repository settings are not validated",
+   "url": "https://github.com/elastic/elasticsearch/issues/27765",
+   "labels": [
+    ">bug",
+    "help wanted",
+    ":Distributed/Snapshot/Restore",
+    "Team:Distributed",
+    ">tech-debt"
+   ],
+   "updatedAt": "2026-02-12T20:49:30Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.docker.com/install/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/elastic/elasticsearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/elastic/elasticsearch/issues/27765",
+    "https://github.com/elastic/elasticsearch/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.docker.com/install/"
+   ]
+  },
+  {
+   "number": 27767,
+   "title": "Bulk requests to an alias based on an old cluster state can cause strange rejection message",
+   "url": "https://github.com/elastic/elasticsearch/issues/27767",
+   "labels": [
+    ">bug",
+    "high hanging fruit",
+    "help wanted",
+    ":Distributed/CRUD",
+    "Team:Distributed"
+   ],
+   "updatedAt": "2020-05-04T22:53:25Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #39960 by @mcpate is already open against this issue",
+   "evidence": [
+    "https://github.com/elastic/elasticsearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/elastic/elasticsearch/issues/39960"
+   ]
+  },
+  {
+   "number": 28479,
+   "title": "Add from(inclusive) and to(exclusive) endpoints to histogram bucket results",
+   "url": "https://github.com/elastic/elasticsearch/issues/28479",
+   "labels": [
+    ">feature",
+    "help wanted",
+    ":Analytics/Aggregations",
+    "Team:Analytics"
+   ],
+   "updatedAt": "2022-09-19T21:30:41Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.docker.com/install/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/elastic/elasticsearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/elastic/elasticsearch/issues/28479",
+    "https://github.com/elastic/elasticsearch/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.docker.com/install/"
+   ]
+  },
+  {
+   "number": 28669,
+   "title": "geo type context suggester doesn't allow path to refer to stored field",
+   "url": "https://github.com/elastic/elasticsearch/issues/28669",
+   "labels": [
+    ">bug",
+    "help wanted",
+    ":Search Relevance/Suggesters",
+    "priority:normal",
+    "Team:Search Relevance"
+   ],
+   "updatedAt": "2026-07-26T09:18:17Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #155034 by @lh0156 is already open against this issue",
+   "evidence": [
+    "https://github.com/elastic/elasticsearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/elastic/elasticsearch/pull/155034"
+   ]
+  },
+  {
+   "number": 29053,
+   "title": "Add ingest processor to percolator that rewrites queries",
+   "url": "https://github.com/elastic/elasticsearch/issues/29053",
+   "labels": [
+    ">bug",
+    "help wanted",
+    ":Search Relevance/Percolator",
+    "priority:normal",
+    "Team:Search Relevance"
+   ],
+   "updatedAt": "2024-07-18T10:19:40Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.docker.com/install/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/elastic/elasticsearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/elastic/elasticsearch/issues/29053",
+    "https://github.com/elastic/elasticsearch/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.docker.com/install/"
+   ]
+  },
+  {
+   "number": 29704,
+   "title": "We should have some service disruption tests with security enabled",
+   "url": "https://github.com/elastic/elasticsearch/issues/29704",
+   "labels": [
+    ">test",
+    "help wanted",
+    ":Security/Security",
+    "Team:Security"
+   ],
+   "updatedAt": "2020-05-04T22:52:37Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.docker.com/install/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/elastic/elasticsearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/elastic/elasticsearch/issues/29704",
+    "https://github.com/elastic/elasticsearch/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.docker.com/install/"
+   ]
+  },
+  {
+   "number": 29739,
+   "title": "Audit Log: Index request_body, and store as text",
+   "url": "https://github.com/elastic/elasticsearch/issues/29739",
+   "labels": [
+    ">enhancement",
+    "help wanted",
+    ":Security/Audit",
+    "Team:Security"
+   ],
+   "updatedAt": "2020-05-04T22:52:20Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.docker.com/install/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/elastic/elasticsearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/elastic/elasticsearch/issues/29739",
+    "https://github.com/elastic/elasticsearch/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.docker.com/install/"
+   ]
+  },
+  {
+   "number": 29751,
+   "title": "Do not allow setting xpack.security.user when running as a node",
+   "url": "https://github.com/elastic/elasticsearch/issues/29751",
+   "labels": [
+    ">enhancement",
+    "help wanted",
+    ":Security/Security",
+    "Team:Security"
+   ],
+   "updatedAt": "2020-05-04T22:52:15Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.docker.com/install/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/elastic/elasticsearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/elastic/elasticsearch/issues/29751",
+    "https://github.com/elastic/elasticsearch/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.docker.com/install/"
+   ]
+  },
+  {
+   "number": 29837,
+   "title": "migrate tool throws a NPE when user exists without role",
+   "url": "https://github.com/elastic/elasticsearch/issues/29837",
+   "labels": [
+    ">bug",
+    "help wanted",
+    ":Security/Authentication",
+    "Team:Security"
+   ],
+   "updatedAt": "2020-05-04T22:51:47Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "reservations",
+   "reason": "open 109 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/elastic/elasticsearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/elastic/elasticsearch/issues/29837",
+    "https://github.com/elastic/elasticsearch/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.docker.com/install/"
+   ]
+  },
+  {
+   "number": 29849,
+   "title": "Authentication stream version check exists in 5.x only  ",
+   "url": "https://github.com/elastic/elasticsearch/issues/29849",
+   "labels": [
+    ">enhancement",
+    "help wanted",
+    ":Security/Authentication",
+    "Team:Security"
+   ],
+   "updatedAt": "2020-05-04T22:51:44Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.docker.com/install/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/elastic/elasticsearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/elastic/elasticsearch/issues/29849",
+    "https://github.com/elastic/elasticsearch/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.docker.com/install/"
+   ]
+  },
+  {
+   "number": 30103,
+   "title": "setup-passwords exit code always 0",
+   "url": "https://github.com/elastic/elasticsearch/issues/30103",
+   "labels": [
+    ">bug",
+    "help wanted",
+    ":Security/Authentication",
+    "Team:Security"
+   ],
+   "updatedAt": "2020-05-04T22:50:38Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.docker.com/install/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/elastic/elasticsearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/elastic/elasticsearch/issues/30103",
+    "https://github.com/elastic/elasticsearch/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.docker.com/install/"
+   ]
+  },
+  {
+   "number": 30104,
+   "title": "Remove support for 2x role formats",
+   "url": "https://github.com/elastic/elasticsearch/issues/30104",
+   "labels": [
+    ">non-issue",
+    "good first issue",
+    ":Security/Authentication",
+    "Team:Security"
+   ],
+   "updatedAt": "2025-08-20T04:49:30Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #65842 by @MatheusRPaixao is already open against this issue",
+   "evidence": [
+    "https://github.com/elastic/elasticsearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/elastic/elasticsearch/pull/65842",
+    "https://github.com/elastic/elasticsearch/pull/90614"
+   ]
+  },
+  {
+   "number": 30109,
+   "title": "Security BWC tests with more complex cluster topologies",
+   "url": "https://github.com/elastic/elasticsearch/issues/30109",
+   "labels": [
+    ">test",
+    "help wanted",
+    ":Security/Security",
+    "Team:Security"
+   ],
+   "updatedAt": "2020-05-04T22:50:35Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.docker.com/install/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/elastic/elasticsearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/elastic/elasticsearch/issues/30109",
+    "https://github.com/elastic/elasticsearch/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.docker.com/install/"
+   ]
+  },
+  {
+   "number": 31096,
+   "title": "Add mixed-cluster tests for X-Pack",
+   "url": "https://github.com/elastic/elasticsearch/issues/31096",
+   "labels": [
+    ":Delivery/Build",
+    "help wanted",
+    "Team:Core/Infra",
+    "Team:Delivery (obsolete)"
+   ],
+   "updatedAt": "2026-08-05T12:18:15Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "already assigned to @mark-vieira",
+   "evidence": [
+    "https://github.com/elastic/elasticsearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/elastic/elasticsearch/pull/80608",
+    "https://github.com/elastic/elasticsearch/pull/88445",
+    "https://github.com/elastic/elasticsearch/issues/31096"
+   ]
+  },
+  {
+   "number": 31738,
+   "title": "Completion Suggester for doc with multiple matching inputs only returns one suggestion",
+   "url": "https://github.com/elastic/elasticsearch/issues/31738",
+   "labels": [
+    ">enhancement",
+    "help wanted",
+    ":Search Relevance/Suggesters",
+    "Team:Search Relevance"
+   ],
+   "updatedAt": "2024-07-12T08:45:59Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "reservations",
+   "reason": "PR #191 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/elastic/elasticsearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/verbumby/verbum/pull/191",
+    "https://github.com/elastic/elasticsearch/issues/31738",
+    "https://github.com/elastic/elasticsearch/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.docker.com/install/"
+   ]
+  }
+ ]
+}

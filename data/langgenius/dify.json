@@ -1,0 +1,222 @@
+{
+ "owner": "langgenius",
+ "repo": "dify",
+ "language": "Python",
+ "stars": 160864,
+ "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without reb",
+ "visitedAt": "2026-11-10T23:25:58.547Z",
+ "issues": [
+  {
+   "number": 18752,
+   "title": "The http proxy environment variable of Dify plugin_daemon only supports uppercase letters.",
+   "url": "https://github.com/langgenius/dify/issues/18752",
+   "labels": [
+    "🐞 bug",
+    "good first issue"
+   ],
+   "updatedAt": "2026-08-16T13:57:38Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #851 by @Cmz9111 is already open against this issue",
+   "evidence": [
+    "https://github.com/langgenius/dify/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/langgenius/dify-plugin-daemon/pull/851"
+   ]
+  },
+  {
+   "number": 24645,
+   "title": "[Chore/Refactor] remove redundant-cast",
+   "url": "https://github.com/langgenius/dify/issues/24645",
+   "labels": [
+    "good first issue",
+    "🙏 help wanted"
+   ],
+   "updatedAt": "2026-11-03T03:10:54Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "already assigned to @majiayu000",
+   "evidence": [
+    "https://github.com/langgenius/dify/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/langgenius/dify/pull/24646",
+    "https://github.com/langgenius/dify/pull/24807",
+    "https://github.com/langgenius/dify/pull/34461",
+    "https://github.com/langgenius/dify/pull/37124",
+    "https://github.com/langgenius/dify/pull/43270",
+    "https://github.com/langgenius/dify/pull/43342",
+    "https://github.com/langgenius/dify/pull/43347",
+    "https://github.com/langgenius/dify/pull/43485",
+    "https://github.com/langgenius/dify/pull/43501"
+   ]
+  },
+  {
+   "number": 26643,
+   "title": "Search by conversation id",
+   "url": "https://github.com/langgenius/dify/issues/26643",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2026-06-21T07:50:15Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #30809 by @jubinsoni is already open against this issue",
+   "evidence": [
+    "https://github.com/langgenius/dify/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/langgenius/dify/pull/30809"
+   ]
+  },
+  {
+   "number": 33092,
+   "title": "[Refactor/Chore] replace json.load by pydantic",
+   "url": "https://github.com/langgenius/dify/issues/33092",
+   "labels": [
+    "good first issue",
+    "🙏 help wanted"
+   ],
+   "updatedAt": "2026-11-04T03:10:00Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #43068 by @errmakov is already open against this issue",
+   "evidence": [
+    "https://github.com/langgenius/dify/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/langgenius/dify/pull/43068",
+    "https://github.com/langgenius/dify/pull/33704",
+    "https://github.com/langgenius/dify/pull/34277",
+    "https://github.com/langgenius/dify/pull/34380",
+    "https://github.com/langgenius/dify/pull/35047"
+   ]
+  },
+  {
+   "number": 43768,
+   "title": "bump to python 3.14",
+   "url": "https://github.com/langgenius/dify/issues/43768",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2026-11-06T12:03:22Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #43903 by @aminehd is already open against this issue",
+   "evidence": [
+    "https://github.com/langgenius/dify/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/langgenius/dify/pull/43903"
+   ]
+  },
+  {
+   "number": 43787,
+   "title": "bump chromadb to 1.x",
+   "url": "https://github.com/langgenius/dify/issues/43787",
+   "labels": [
+    "good first issue",
+    "review: high"
+   ],
+   "updatedAt": "2026-10-12T03:45:26Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #43903 by @aminehd is already open against this issue",
+   "evidence": [
+    "https://github.com/langgenius/dify/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/langgenius/dify/pull/43903"
+   ]
+  },
+  {
+   "number": 45166,
+   "title": "rewrite property to accept session: Session as parameter",
+   "url": "https://github.com/langgenius/dify/issues/45166",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2026-11-10T04:52:49Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "@GYJ99 claimed it 11 days ago",
+   "evidence": [
+    "https://github.com/langgenius/dify/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/langgenius/dify/pull/45168",
+    "https://github.com/langgenius/dify/issues/45166#issuecomment-6525709475"
+   ]
+  },
+  {
+   "number": 45583,
+   "title": "dep inject in current flask",
+   "url": "https://github.com/langgenius/dify/issues/45583",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2026-11-05T07:14:16Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #45613 by @xiaoyuCR7 is already open against this issue",
+   "evidence": [
+    "https://github.com/langgenius/dify/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/langgenius/dify/pull/45613",
+    "https://github.com/langgenius/dify/pull/45631",
+    "https://github.com/langgenius/dify/pull/45605"
+   ]
+  },
+  {
+   "number": 45584,
+   "title": "[Chore/Refactor] use sqlalchemy engine",
+   "url": "https://github.com/langgenius/dify/issues/45584",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2026-11-10T09:47:56Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #45587 by @matheussilvano is already open against this issue",
+   "evidence": [
+    "https://github.com/langgenius/dify/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/langgenius/dify/pull/45587",
+    "https://github.com/langgenius/dify/pull/45775",
+    "https://github.com/langgenius/dify/pull/45778",
+    "https://github.com/langgenius/dify/pull/45806",
+    "https://github.com/langgenius/dify/pull/45838",
+    "https://github.com/langgenius/dify/pull/45841",
+    "https://github.com/langgenius/dify/pull/45889",
+    "https://github.com/langgenius/dify/pull/45896",
+    "https://github.com/langgenius/dify/pull/46009"
+   ]
+  },
+  {
+   "number": 45585,
+   "title": "too much Mock(spec=",
+   "url": "https://github.com/langgenius/dify/issues/45585",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2026-11-06T10:31:46Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "already assigned to @GYJ99",
+   "evidence": [
+    "https://github.com/langgenius/dify/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/langgenius/dify/pull/45693",
+    "https://github.com/langgenius/dify/pull/45730",
+    "https://github.com/langgenius/dify/pull/45859",
+    "https://github.com/langgenius/dify/issues/45585",
+    "https://github.com/langgenius/dify/issues/45585#issuecomment-6639289036",
+    "https://github.com/langgenius/dify/issues/45585#issuecomment-6682775716"
+   ]
+  },
+  {
+   "number": 45616,
+   "title": "fix some errors in new checker",
+   "url": "https://github.com/langgenius/dify/issues/45616",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2026-11-05T06:03:19Z",
+   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "verdict": "discard",
+   "reason": "PR #45648 by @Goldloli is already open against this issue",
+   "evidence": [
+    "https://github.com/langgenius/dify/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/langgenius/dify/pull/45648",
+    "https://github.com/langgenius/dify/pull/45757",
+    "https://github.com/lipeh1/dify/pull/1",
+    "https://github.com/langgenius/dify/pull/45971",
+    "https://github.com/langgenius/dify/pull/45619"
+   ]
+  }
+ ]
+}
