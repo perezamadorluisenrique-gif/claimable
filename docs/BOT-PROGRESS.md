@@ -21,3 +21,11 @@ Plan: `docs/BOT-PLAN.md`. One line per work order, newest last.
 - The marker is trusted only in a comment written by a bot (`type: Bot` and a `[bot]` login), so pasting a marker into an ordinary comment changes nothing (thread `claim-forged-marker-is-ignored`).
 - Refusals are checked in this order: closed, who holds it, blocked label, required label, pull request of someone else, quota. A refusal never changes the marker; a comment from the holder after a reminder clears `nudgedAt`.
 - Not decided here: the reminder and release on `tick` (B2.1). A `tick` currently answers `none`.
+
+## B1.3 The Action (2026-11-10)
+
+- `bot/action.yml` + `bot/main.ts` (the Action), `src/bot/apply.ts` (the only code that writes, through `send()` in `src/github.ts`), `docs/bot.md` (15-line install, `dry-run` first), and `.github/workflows/claim-bot.yml` (this repository runs its own bot, for now only on issues labelled `bot-sandbox`).
+- Deviation from the plan, on purpose: the `config` input is not in this release. It arrives with B2.2, when there is a parser behind it; an input that does nothing misleads.
+- Safety properties pinned by `test/bot-action.test.ts`: no `${{ }}` inside any `run:` script (action, workflow and every YAML block in the docs); only `issues: write`; no `pull_request_target`; no checkout of an event-derived ref; the bot's own code never spawns, evaluates or calls `fetch`; `dry-run` is on unless it is exactly `false`; `send()` refuses while cassettes replay; a failed write is an outcome, never an exception; a claim that GitHub did not accept as an assignment stops before the label and the "reserved" comment.
+- Threads of more than 1,000 comments or events (10 pages) are not read in full, and the bot does nothing on them. The same when the author holds more issues than 300.
+- Private repositories run report-only (the paid part, ahead of B2.3's `license`).
