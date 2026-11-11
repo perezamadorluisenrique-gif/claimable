@@ -1,0 +1,207 @@
+{
+ "owner": "termux",
+ "repo": "termux-app",
+ "language": "Java",
+ "stars": 64562,
+ "description": "Termux - a terminal emulator application for Android OS extendible by variety of packages.",
+ "visitedAt": "2026-11-11T06:29:52.958Z",
+ "issues": [
+  {
+   "number": 245,
+   "title": "Add Talkback support",
+   "url": "https://github.com/termux/termux-app/issues/245",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2023-03-14T03:22:49Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "only 8% of recently closed PRs were merged — most contributions get rejected or abandoned here (+2 more)",
+   "evidence": [
+    "https://github.com/termux/termux-app/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/termux/termux-app/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/termux/termux-app/issues/245",
+    "https://github.com/termux/termux-packages/wiki/Package-Management",
+    "https://github.com/termux/termux-app/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 250,
+   "title": "ChromeOS set to Dvorak, Termux uses Qwerty",
+   "url": "https://github.com/termux/termux-app/issues/250",
+   "labels": [
+    "bug report",
+    "help wanted",
+    "chrome-os"
+   ],
+   "updatedAt": "2020-05-28T17:13:43Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "only 8% of recently closed PRs were merged — most contributions get rejected or abandoned here (+3 more)",
+   "evidence": [
+    "https://github.com/termux/termux-app/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/termux/termux-app/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/termux/termux-app/pull/2237",
+    "https://github.com/termux/termux-app/issues/250",
+    "https://github.com/termux/termux-packages/wiki/Package-Management",
+    "https://github.com/termux/termux-app/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 296,
+   "title": "bidi behavior inconsistent; possibility to enable/disable bidi in termux settings? ",
+   "url": "https://github.com/termux/termux-app/issues/296",
+   "labels": [
+    "bug report",
+    "help wanted"
+   ],
+   "updatedAt": "2017-09-21T22:52:54Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "only 8% of recently closed PRs were merged — most contributions get rejected or abandoned here (+3 more)",
+   "evidence": [
+    "https://github.com/termux/termux-app/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/termux/termux-app/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/termux/termux-app/pull/2997",
+    "https://github.com/termux/termux-app/issues/296",
+    "https://github.com/termux/termux-packages/wiki/Package-Management",
+    "https://github.com/termux/termux-app/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 403,
+   "title": "Key Enter is sent repeatedly after start on chromebook after chsh -s zsh and back to bash",
+   "url": "https://github.com/termux/termux-app/issues/403",
+   "labels": [
+    "help wanted",
+    "chrome-os"
+   ],
+   "updatedAt": "2017-12-07T01:04:12Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "discard",
+   "reason": "PR #2067 by @ghost is already open against this issue",
+   "evidence": [
+    "https://github.com/termux/termux-app/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/termux/termux-app/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/termux/termux-app/issues/2067",
+    "https://github.com/termux/termux-app/issues/5128",
+    "https://github.com/termux/termux-app/issues/2618",
+    "https://github.com/termux/termux-app/issues/2778"
+   ]
+  },
+  {
+   "number": 475,
+   "title": "Chromebook Flip in tablet mode: on-screen keyboard does not appear",
+   "url": "https://github.com/termux/termux-app/issues/475",
+   "labels": [
+    "help wanted",
+    "chrome-os"
+   ],
+   "updatedAt": "2019-11-03T23:40:55Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "discard",
+   "reason": "PR #5279 by @AlainKnaff is already open against this issue",
+   "evidence": [
+    "https://github.com/termux/termux-app/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/termux/termux-app/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/termux/termux-app/issues/5279"
+   ]
+  },
+  {
+   "number": 583,
+   "title": "Force closes on external 4k display on a Chromebook",
+   "url": "https://github.com/termux/termux-app/issues/583",
+   "labels": [
+    "bug report",
+    "help wanted",
+    "chrome-os"
+   ],
+   "updatedAt": "2018-03-05T10:02:17Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "discard",
+   "reason": "PR #2778 by @Hustoking is already open against this issue",
+   "evidence": [
+    "https://github.com/termux/termux-app/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/termux/termux-app/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/termux/termux-app/issues/2778"
+   ]
+  },
+  {
+   "number": 1310,
+   "title": "Automatic reading of output with a screenreader",
+   "url": "https://github.com/termux/termux-app/issues/1310",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2019-12-31T00:11:01Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "discard",
+   "reason": "PR #4575 by @Efreak is already open against this issue",
+   "evidence": [
+    "https://github.com/termux/termux-app/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/termux/termux-app/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/termux/termux-app/issues/4575"
+   ]
+  },
+  {
+   "number": 1343,
+   "title": "Virtual keyboard doesn't load in Chrome Tab 10",
+   "url": "https://github.com/termux/termux-app/issues/1343",
+   "labels": [
+    "help wanted",
+    "chrome-os"
+   ],
+   "updatedAt": "2019-11-10T18:20:26Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "only 8% of recently closed PRs were merged — most contributions get rejected or abandoned here (+2 more)",
+   "evidence": [
+    "https://github.com/termux/termux-app/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/termux/termux-app/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/termux/termux-app/issues/1343",
+    "https://github.com/termux/termux-packages/wiki/Package-Management",
+    "https://github.com/termux/termux-app/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 1397,
+   "title": "Line breaks and copy issues",
+   "url": "https://github.com/termux/termux-app/issues/1397",
+   "labels": [
+    "bug report",
+    "help wanted"
+   ],
+   "updatedAt": "2025-08-11T06:07:22Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "discard",
+   "reason": "PR #1 by @Sayeem3051 is already open against this issue",
+   "evidence": [
+    "https://github.com/termux/termux-app/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/termux/termux-app/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/Sayeem3051/termux-app/pull/1",
+    "https://github.com/termux/termux-app/pull/5046"
+   ]
+  },
+  {
+   "number": 1860,
+   "title": "Weird rendering when using specific shell theme and then recalling command history with long commands",
+   "url": "https://github.com/termux/termux-app/issues/1860",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2021-09-09T07:00:51Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "only 8% of recently closed PRs were merged — most contributions get rejected or abandoned here (+2 more)",
+   "evidence": [
+    "https://github.com/termux/termux-app/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/termux/termux-app/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/termux/termux-app/issues/1860",
+    "https://github.com/termux/termux-packages/wiki/Package-Management",
+    "https://github.com/termux/termux-app/blob/HEAD/README.md"
+   ]
+  }
+ ]
+}

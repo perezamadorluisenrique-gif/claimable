@@ -1,0 +1,9 @@
+{
+ "owner": "conductor-oss",
+ "repo": "conductor",
+ "language": "Java",
+ "stars": 32457,
+ "description": "Conductor is an event driven agentic workflow engine providing durable and highly resilient execution engine for applications and AI Agents",
+ "visitedAt": "2026-11-11T06:29:52.958Z",
+ "issues": []
+}

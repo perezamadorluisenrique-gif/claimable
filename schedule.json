@@ -182,5 +182,57 @@
  "elastic/elasticsearch": {
   "nextCheck": "2026-11-11T00:25:58.547Z",
   "lastNewIssue": "2026-11-05T10:53:29Z"
+ },
+ "termux/termux-app": {
+  "nextCheck": "2026-11-18T06:29:52.958Z",
+  "lastNewIssue": "2020-12-26T21:05:24Z"
+ },
+ "dbeaver/dbeaver": {
+  "nextCheck": "2026-11-18T06:29:52.958Z",
+  "lastNewIssue": "2024-11-15T10:16:58Z"
+ },
+ "jeecgboot/jeecgboot": {
+  "nextCheck": "2026-11-18T06:29:52.958Z",
+  "lastNewIssue": "2026-08-27T08:10:36Z"
+ },
+ "apache/dubbo": {
+  "nextCheck": "2026-11-18T06:29:52.958Z",
+  "lastNewIssue": "2026-08-07T03:05:38Z"
+ },
+ "teamnewpipe/newpipe": {
+  "nextCheck": "2026-11-18T06:29:52.958Z",
+  "lastNewIssue": "2026-09-28T14:34:37Z"
+ },
+ "keycloak/keycloak": {
+  "nextCheck": "2026-11-12T06:29:52.958Z",
+  "lastNewIssue": "2026-11-05T09:01:38Z"
+ },
+ "alibaba/arthas": {
+  "nextCheck": "2026-11-18T06:29:52.958Z",
+  "lastNewIssue": "2025-04-17T09:22:58Z"
+ },
+ "yuliskov/smarttube": {
+  "nextCheck": "2026-11-18T06:29:52.958Z",
+  "lastNewIssue": "2025-05-18T11:42:15Z"
+ },
+ "netty/netty": {
+  "nextCheck": "2026-11-18T06:29:52.958Z",
+  "lastNewIssue": "2019-09-18T17:08:40Z"
+ },
+ "bumptech/glide": {
+  "nextCheck": "2026-11-18T06:29:52.958Z",
+  "lastNewIssue": "2018-02-05T10:00:12Z"
+ },
+ "seleniumhq/selenium": {
+  "nextCheck": "2026-11-18T06:29:52.958Z",
+  "lastNewIssue": "2024-05-21T00:14:06Z"
+ },
+ "alibaba/nacos": {
+  "nextCheck": "2026-11-11T07:29:52.958Z",
+  "lastNewIssue": "2025-06-19T09:50:42Z"
+ },
+ "conductor-oss/conductor": {
+  "nextCheck": "2026-11-11T07:29:52.958Z",
+  "lastNewIssue": "2026-08-21T18:35:59Z"
  }
 }

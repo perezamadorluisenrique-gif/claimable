@@ -1,0 +1,28 @@
+{
+ "owner": "jeecgboot",
+ "repo": "JeecgBoot",
+ "language": "Java",
+ "stars": 48420,
+ "description": "【AI 时代的业务系统基座】企业级 AI 低代码平台：权限、多租户、工作流、报表、大屏、AI 知识库等通用能力开箱即用，AI 只需生成业务差异部分。AI Skills 一句话生成完整系统——建表、前后端代码、菜单权限、BPM 流程、表单、报表、大屏全自动。内置 AI 应用平台（聊天、知识库、流程编排、MCP），兼容主流大模型。Java + Vue3，支持单体/微服务与信创国产化。",
+ "visitedAt": "2026-11-11T06:29:52.958Z",
+ "issues": [
+  {
+   "number": 9866,
+   "title": "请问AI智能体目前是否支持动态生成Python脚本代码，执行并返回所需结果？",
+   "url": "https://github.com/jeecgboot/JeecgBoot/issues/9866",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-10-29T02:17:29Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "only 2% of recently closed PRs were merged — most contributions get rejected or abandoned here (+1 more)",
+   "evidence": [
+    "https://github.com/jeecgboot/JeecgBoot/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/jeecgboot/JeecgBoot/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/jeecgboot/JeecgBoot/issues/9866",
+    "https://github.com/jeecgboot/JeecgBoot/blob/HEAD/README.md"
+   ]
+  }
+ ]
+}

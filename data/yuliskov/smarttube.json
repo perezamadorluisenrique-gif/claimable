@@ -1,0 +1,27 @@
+{
+ "owner": "yuliskov",
+ "repo": "SmartTube",
+ "language": "Java",
+ "stars": 36174,
+ "description": "Browse media content with your own rules on Android TV",
+ "visitedAt": "2026-11-11T06:29:52.958Z",
+ "issues": [
+  {
+   "number": 4603,
+   "title": "[Feature Request]:",
+   "url": "https://github.com/yuliskov/SmartTube/issues/4603",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2026-08-26T19:51:16Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/yuliskov/SmartTube/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/yuliskov/SmartTube/issues/4603"
+   ]
+  }
+ ]
+}

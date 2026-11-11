@@ -1,0 +1,67 @@
+{
+ "owner": "alibaba",
+ "repo": "nacos",
+ "language": "Java",
+ "stars": 33512,
+ "description": "an easy-to-use dynamic service discovery, configuration and service management platform for building AI cloud native applications.",
+ "visitedAt": "2026-11-11T06:29:52.958Z",
+ "issues": [
+  {
+   "number": 2272,
+   "title": "Batch offline service based on IP address",
+   "url": "https://github.com/alibaba/nacos/issues/2272",
+   "labels": [
+    "good first issue",
+    "area/Nacos console"
+   ],
+   "updatedAt": "2026-09-24T18:45:16Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "2 stale claims, the most recent by @neoLsH 47 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/alibaba/nacos/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/alibaba/nacos/issues/2272#issuecomment-5820102408",
+    "https://github.com/alibaba/nacos/issues/2272",
+    "https://github.com/alibaba/nacos/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/alibaba/nacos/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 9235,
+   "title": "有没有基于nacos实现的Switch开关平台？",
+   "url": "https://github.com/alibaba/nacos/issues/9235",
+   "labels": [
+    "help wanted",
+    "kind/discussion"
+   ],
+   "updatedAt": "2025-12-18T17:06:50Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "labelled `kind/discussion` — scope may not be settled yet (+1 more)",
+   "evidence": [
+    "https://github.com/alibaba/nacos/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/alibaba/nacos/issues/9235",
+    "https://github.com/alibaba/nacos/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/alibaba/nacos/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 12954,
+   "title": "[Nacos 3.0] Enhance usage material for distributed locks.",
+   "url": "https://github.com/alibaba/nacos/issues/12954",
+   "labels": [
+    "help wanted",
+    "kind/feature",
+    "version/3.x"
+   ],
+   "updatedAt": "2025-07-07T06:16:08Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "discard",
+   "reason": "already assigned to @shalk",
+   "evidence": [
+    "https://github.com/alibaba/nacos/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/alibaba/nacos/issues/12954"
+   ]
+  }
+ ]
+}

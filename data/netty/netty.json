@@ -1,0 +1,45 @@
+{
+ "owner": "netty",
+ "repo": "netty",
+ "language": "Java",
+ "stars": 35070,
+ "description": "Netty project - an event-driven asynchronous network application framework",
+ "visitedAt": "2026-11-11T06:29:52.958Z",
+ "issues": [
+  {
+   "number": 2646,
+   "title": "Support HTTP Caching",
+   "url": "https://github.com/netty/netty/issues/2646",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-10-31T15:22:46Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/netty/netty/wiki/Threat-model) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/netty/netty/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/netty/netty/issues/2646",
+    "https://github.com/netty/netty/wiki/Threat-model",
+    "https://github.com/netty/netty/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 9578,
+   "title": "Date header quoted under CombinedHttpHeaders",
+   "url": "https://github.com/netty/netty/issues/9578",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-07-08T06:28:47Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "discard",
+   "reason": "PR #16921 by @skt-shinyruo is already open against this issue",
+   "evidence": [
+    "https://github.com/netty/netty/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/netty/netty/pull/16921",
+    "https://github.com/zio/zio-http/pull/1409"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,309 @@
+{
+ "owner": "bumptech",
+ "repo": "glide",
+ "language": "Java",
+ "stars": 35013,
+ "description": "An image loading and caching library for Android focused on smooth scrolling",
+ "visitedAt": "2026-11-11T06:29:52.958Z",
+ "issues": [
+  {
+   "number": 108,
+   "title": "Visually indicate where the transcoded resource was coming from",
+   "url": "https://github.com/bumptech/glide/issues/108",
+   "labels": [
+    "enhancement",
+    "feature",
+    "help wanted"
+   ],
+   "updatedAt": "2019-02-09T19:18:51Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "discard",
+   "reason": "PR #4608 by @musooff is already open against this issue",
+   "evidence": [
+    "https://github.com/bumptech/glide/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/bumptech/glide/issues/4608",
+    "https://github.com/bumptech/glide/issues/707",
+    "https://github.com/bumptech/glide/issues/5356",
+    "https://github.com/bumptech/glide/issues/2487",
+    "https://github.com/bumptech/glide/issues/4341",
+    "https://github.com/bumptech/glide/issues/5453",
+    "https://github.com/bumptech/glide/issues/5308",
+    "https://github.com/bumptech/glide/issues/5129",
+    "https://github.com/bumptech/glide/issues/2998"
+   ]
+  },
+  {
+   "number": 493,
+   "title": "Support arbitrary LayoutManagers in RecyclerView integration package",
+   "url": "https://github.com/bumptech/glide/issues/493",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "good first issue"
+   ],
+   "updatedAt": "2023-03-26T06:37:00Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "discard",
+   "reason": "PR #5698 by @sorinc03 is already open against this issue",
+   "evidence": [
+    "https://github.com/bumptech/glide/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/bumptech/glide/pull/5698"
+   ]
+  },
+  {
+   "number": 571,
+   "title": "Support of WebP format (incl. animations) where not natively available",
+   "url": "https://github.com/bumptech/glide/issues/571",
+   "labels": [
+    "feature",
+    "help wanted"
+   ],
+   "updatedAt": "2026-10-03T19:11:08Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "PR #8120 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/bumptech/glide/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/element-hq/element-android/pull/8120",
+    "https://github.com/bumptech/glide/issues/571",
+    "https://github.com/bumptech/glide/wiki",
+    "https://github.com/bumptech/glide/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 1123,
+   "title": "GIF artifacts on < Android 4.3",
+   "url": "https://github.com/bumptech/glide/issues/1123",
+   "labels": [
+    "bug",
+    "v4",
+    "repro-needed",
+    "help wanted",
+    "GIF"
+   ],
+   "updatedAt": "2017-11-17T01:53:40Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/bumptech/glide/wiki) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/bumptech/glide/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/bumptech/glide/issues/1123",
+    "https://github.com/bumptech/glide/wiki",
+    "https://github.com/bumptech/glide/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 1499,
+   "title": "Reading GIF information and getting playback callbacks ",
+   "url": "https://github.com/bumptech/glide/issues/1499",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "GIF"
+   ],
+   "updatedAt": "2017-11-20T06:18:14Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "discard",
+   "reason": "PR #5308 by @Caij is already open against this issue",
+   "evidence": [
+    "https://github.com/bumptech/glide/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/bumptech/glide/issues/5308"
+   ]
+  },
+  {
+   "number": 1872,
+   "title": "Need Callbacks for when a GifDrawable with an animation finishes it's last loop",
+   "url": "https://github.com/bumptech/glide/issues/1872",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "GIF"
+   ],
+   "updatedAt": "2020-04-02T12:20:09Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "PR #3438 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/bumptech/glide/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/bumptech/glide/pull/3438",
+    "https://github.com/bumptech/glide/issues/1872",
+    "https://github.com/bumptech/glide/wiki",
+    "https://github.com/bumptech/glide/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2151,
+   "title": "hi， how to get gif duration at glide 4.+",
+   "url": "https://github.com/bumptech/glide/issues/2151",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "GIF"
+   ],
+   "updatedAt": "2017-11-20T06:17:55Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/bumptech/glide/wiki) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/bumptech/glide/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/bumptech/glide/issues/2151",
+    "https://github.com/bumptech/glide/wiki",
+    "https://github.com/bumptech/glide/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2235,
+   "title": "Recommended ways to track cache/request statistics?",
+   "url": "https://github.com/bumptech/glide/issues/2235",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2023-01-13T07:11:15Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "discard",
+   "reason": "PR #5120 by @antonshilov is already open against this issue",
+   "evidence": [
+    "https://github.com/bumptech/glide/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/bumptech/glide/issues/5120"
+   ]
+  },
+  {
+   "number": 2524,
+   "title": "Is there is any way to listen for the current GIF Frame while playing GIF?",
+   "url": "https://github.com/bumptech/glide/issues/2524",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "GIF"
+   ],
+   "updatedAt": "2017-11-12T22:49:44Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/bumptech/glide/wiki) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/bumptech/glide/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/bumptech/glide/issues/2524",
+    "https://github.com/bumptech/glide/wiki",
+    "https://github.com/bumptech/glide/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2534,
+   "title": "HEIC support?",
+   "url": "https://github.com/bumptech/glide/issues/2534",
+   "labels": [
+    "enhancement",
+    "question",
+    "v4",
+    "help wanted"
+   ],
+   "updatedAt": "2020-04-20T10:36:03Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "labelled `question` — scope may not be settled yet (+1 more)",
+   "evidence": [
+    "https://github.com/bumptech/glide/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/bumptech/glide/issues/2534",
+    "https://github.com/bumptech/glide/wiki",
+    "https://github.com/bumptech/glide/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2637,
+   "title": "[Feature request] Improve ViewPropertyTransition.Animator",
+   "url": "https://github.com/bumptech/glide/issues/2637",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2017-12-07T15:57:28Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/bumptech/glide/wiki) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/bumptech/glide/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/bumptech/glide/issues/2637",
+    "https://github.com/bumptech/glide/wiki",
+    "https://github.com/bumptech/glide/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2678,
+   "title": "pause and resume specific requests",
+   "url": "https://github.com/bumptech/glide/issues/2678",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2020-10-22T01:55:41Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/bumptech/glide/wiki) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/bumptech/glide/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/bumptech/glide/issues/2678",
+    "https://github.com/bumptech/glide/wiki",
+    "https://github.com/bumptech/glide/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2788,
+   "title": "Possible issue with Android O : bitmaps stored on native memory, uncaught OOM, ...",
+   "url": "https://github.com/bumptech/glide/issues/2788",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2018-01-19T15:43:01Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/bumptech/glide/wiki) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/bumptech/glide/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/bumptech/glide/issues/2788",
+    "https://github.com/bumptech/glide/wiki",
+    "https://github.com/bumptech/glide/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2860,
+   "title": "Annotation processor uses class name as package name causing conflicts",
+   "url": "https://github.com/bumptech/glide/issues/2860",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2018-07-03T22:01:42Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/bumptech/glide/wiki) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/bumptech/glide/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/bumptech/glide/issues/2860",
+    "https://github.com/bumptech/glide/wiki",
+    "https://github.com/bumptech/glide/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2875,
+   "title": "API suggestion - RequestOptions",
+   "url": "https://github.com/bumptech/glide/issues/2875",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2021-06-02T04:19:41Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "PR #3365 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/bumptech/glide/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/bumptech/glide/pull/3365",
+    "https://github.com/bumptech/glide/issues/2875",
+    "https://github.com/bumptech/glide/wiki",
+    "https://github.com/bumptech/glide/blob/HEAD/CONTRIBUTING.md"
+   ]
+  }
+ ]
+}

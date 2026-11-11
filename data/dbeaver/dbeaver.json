@@ -1,0 +1,262 @@
+{
+ "owner": "dbeaver",
+ "repo": "dbeaver",
+ "language": "Java",
+ "stars": 52386,
+ "description": "Free universal database tool and SQL client",
+ "visitedAt": "2026-11-11T06:29:52.958Z",
+ "issues": [
+  {
+   "number": 2192,
+   "title": "Multiple-line values in Query Results",
+   "url": "https://github.com/dbeaver/dbeaver/issues/2192",
+   "labels": [
+    "help wanted",
+    "xf:data",
+    "xf:data editor"
+   ],
+   "updatedAt": "2026-04-02T05:10:40Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "discard",
+   "reason": "PR #21730 by @MashaKorax is already open against this issue",
+   "evidence": [
+    "https://github.com/dbeaver/dbeaver/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dbeaver/dbeaver/issues/21730",
+    "https://github.com/dbeaver/dbeaver/issues/21581"
+   ]
+  },
+  {
+   "number": 4907,
+   "title": "For BigQuery, add \"how much data will be processed by this query\"",
+   "url": "https://github.com/dbeaver/dbeaver/issues/4907",
+   "labels": [
+    "help wanted",
+    "xf:data",
+    "PRO",
+    "x:bigquery"
+   ],
+   "updatedAt": "2025-03-04T16:32:43Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "discard",
+   "reason": "PR #34821 by @ask9 is already open against this issue",
+   "evidence": [
+    "https://github.com/dbeaver/dbeaver/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dbeaver/dbeaver/issues/34821"
+   ]
+  },
+  {
+   "number": 4979,
+   "title": "Decompression of blobs",
+   "url": "https://github.com/dbeaver/dbeaver/issues/4979",
+   "labels": [
+    "help wanted",
+    "good first issue",
+    "xf:datatransfer",
+    "external"
+   ],
+   "updatedAt": "2026-10-20T19:06:18Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "discard",
+   "reason": "already assigned to @kalvin-osoro",
+   "evidence": [
+    "https://github.com/dbeaver/dbeaver/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dbeaver/dbeaver/issues/4979",
+    "https://github.com/dbeaver/dbeaver/issues/4979#issuecomment-6298859860"
+   ]
+  },
+  {
+   "number": 5153,
+   "title": "Firebird SQL async \"Event\"",
+   "url": "https://github.com/dbeaver/dbeaver/issues/5153",
+   "labels": [
+    "x:firebird",
+    "help wanted",
+    "xf:sql",
+    "wait for response",
+    "external"
+   ],
+   "updatedAt": "2026-10-19T11:01:26Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "discard",
+   "reason": "PR #42371 by @Divahar2507 is already open against this issue",
+   "evidence": [
+    "https://github.com/dbeaver/dbeaver/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dbeaver/dbeaver/pull/42371"
+   ]
+  },
+  {
+   "number": 6215,
+   "title": "Command line to Export ER Diagrams ",
+   "url": "https://github.com/dbeaver/dbeaver/issues/6215",
+   "labels": [
+    "help wanted",
+    "xf:erd",
+    "xf:cli",
+    "wait for votes"
+   ],
+   "updatedAt": "2026-08-25T03:30:15Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "discard",
+   "reason": "PR #2095 by @knwpsk is already open against this issue",
+   "evidence": [
+    "https://github.com/dbeaver/dbeaver/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dbeaver/dbeaver/issues/2095"
+   ]
+  },
+  {
+   "number": 6737,
+   "title": "PHP Tunnel Support",
+   "url": "https://github.com/dbeaver/dbeaver/issues/6737",
+   "labels": [
+    "help wanted",
+    "xf:connection"
+   ],
+   "updatedAt": "2025-03-04T16:31:51Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "discard",
+   "reason": "PR #1745 by @noschang is already open against this issue",
+   "evidence": [
+    "https://github.com/dbeaver/dbeaver/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dbeaver/dbeaver/issues/1745"
+   ]
+  },
+  {
+   "number": 7932,
+   "title": "Support for greek locale",
+   "url": "https://github.com/dbeaver/dbeaver/issues/7932",
+   "labels": [
+    "help wanted",
+    "xf:i18n"
+   ],
+   "updatedAt": "2026-08-21T16:03:41Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @Divahar2507 82 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/dbeaver/dbeaver/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dbeaver/dbeaver/issues/7932#issuecomment-5364656219",
+    "https://github.com/dbeaver/dbeaver/issues/7932",
+    "https://github.com/dbeaver/dbeaver/blob/HEAD/README.md",
+    "https://github.com/dbeaver/dbeaver/wiki/Contribute-your-code",
+    "https://github.com/dbeaver/dbeaver/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 8553,
+   "title": "Spatial viewer not functioning with SRID 2232",
+   "url": "https://github.com/dbeaver/dbeaver/issues/8553",
+   "labels": [
+    "help wanted",
+    "xf:gis"
+   ],
+   "updatedAt": "2025-03-04T16:32:18Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "discard",
+   "reason": "PR #36815 by @mkgrgis is already open against this issue",
+   "evidence": [
+    "https://github.com/dbeaver/dbeaver/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dbeaver/dbeaver/issues/36815"
+   ]
+  },
+  {
+   "number": 20964,
+   "title": "Simple Schema Compare should have option to refresh database metadata",
+   "url": "https://github.com/dbeaver/dbeaver/issues/20964",
+   "labels": [
+    "good first issue",
+    "external",
+    "wait for votes",
+    "xf:simple compare"
+   ],
+   "updatedAt": "2026-10-20T19:03:33Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "discard",
+   "reason": "PR #42806 by @sanidhya02 is already open against this issue",
+   "evidence": [
+    "https://github.com/dbeaver/dbeaver/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dbeaver/dbeaver/pull/42806"
+   ]
+  },
+  {
+   "number": 21384,
+   "title": "Found some hard-coded cases where the localization properties file was not found (part 5)",
+   "url": "https://github.com/dbeaver/dbeaver/issues/21384",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2026-11-09T20:31:17Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "discard",
+   "reason": "PR #1 by @lukman48 is already open against this issue",
+   "evidence": [
+    "https://github.com/dbeaver/dbeaver/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/lukman48/dbeaver/pull/1",
+    "https://github.com/dbeaver/dbeaver/pull/42028"
+   ]
+  },
+  {
+   "number": 26846,
+   "title": "(Fractional) scaling issues on KDE/Wayland",
+   "url": "https://github.com/dbeaver/dbeaver/issues/26846",
+   "labels": [
+    "can't reproduce",
+    "help wanted",
+    "xo:linux",
+    "xf:ui"
+   ],
+   "updatedAt": "2026-07-21T23:14:28Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "discard",
+   "reason": "PR #39651 by @sedax90 is already open against this issue",
+   "evidence": [
+    "https://github.com/dbeaver/dbeaver/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dbeaver/dbeaver/issues/39651"
+   ]
+  },
+  {
+   "number": 34959,
+   "title": "Separate windows for editor and results",
+   "url": "https://github.com/dbeaver/dbeaver/issues/34959",
+   "labels": [
+    "help wanted",
+    "xf:data",
+    "xf:ui",
+    "wait for votes"
+   ],
+   "updatedAt": "2026-08-27T09:48:08Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @Divahar2507 78 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/dbeaver/dbeaver/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dbeaver/dbeaver/issues/34959#issuecomment-5404681673",
+    "https://github.com/dbeaver/dbeaver/issues/34959",
+    "https://github.com/dbeaver/dbeaver/blob/HEAD/README.md",
+    "https://github.com/dbeaver/dbeaver/wiki/Contribute-your-code",
+    "https://github.com/dbeaver/dbeaver/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 36250,
+   "title": "Incomplete German Translation in DBeaver",
+   "url": "https://github.com/dbeaver/dbeaver/issues/36250",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "xf:i18n"
+   ],
+   "updatedAt": "2025-03-01T04:41:29Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/dbeaver/dbeaver/wiki/Contribute-your-code) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/dbeaver/dbeaver/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dbeaver/dbeaver/issues/36250",
+    "https://github.com/dbeaver/dbeaver/blob/HEAD/README.md",
+    "https://github.com/dbeaver/dbeaver/wiki/Contribute-your-code",
+    "https://github.com/dbeaver/dbeaver/blob/HEAD/AGENTS.md"
+   ]
+  }
+ ]
+}

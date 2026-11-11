@@ -1,0 +1,1834 @@
+{
+ "owner": "TeamNewPipe",
+ "repo": "NewPipe",
+ "language": "Java",
+ "stars": 40559,
+ "description": "A libre lightweight streaming front-end for Android.",
+ "visitedAt": "2026-11-11T06:29:52.958Z",
+ "issues": [
+  {
+   "number": 105,
+   "title": "UPnP / DLNA streaming on network receiver",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/105",
+   "labels": [
+    "feature request",
+    "help wanted",
+    "device/software specific"
+   ],
+   "updatedAt": "2022-11-12T16:56:41Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/105",
+    "https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe",
+    "https://github.com/TeamNewPipe/NewPipe/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 507,
+   "title": "add mp3 support",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/507",
+   "labels": [
+    "feature request",
+    "help wanted"
+   ],
+   "updatedAt": "2023-02-02T02:22:01Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "PR #2482 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+3 more)",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/pull/2482",
+    "https://github.com/TeamNewPipe/NewPipe/pull/5456",
+    "https://github.com/TeamNewPipe/NewPipe/issues/507#issuecomment-301272508",
+    "https://github.com/TeamNewPipe/NewPipe/issues/507",
+    "https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe",
+    "https://github.com/TeamNewPipe/NewPipe/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 659,
+   "title": "[waiting for exoplayer] Switch resolution without buffering",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/659",
+   "labels": [
+    "feature request",
+    "help wanted",
+    "player"
+   ],
+   "updatedAt": "2021-10-20T19:14:41Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "discard",
+   "reason": "PR #13653 by @don2000129-ux is already open against this issue",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/13653",
+    "https://github.com/TeamNewPipe/NewPipe/issues/11447"
+   ]
+  },
+  {
+   "number": 844,
+   "title": "Subscribe to searches",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/844",
+   "labels": [
+    "feature request",
+    "help wanted",
+    "search/sort"
+   ],
+   "updatedAt": "2026-01-26T17:20:41Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "discard",
+   "reason": "PR #11139 by @zestygrass is already open against this issue",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/11139",
+    "https://github.com/TeamNewPipe/NewPipe/issues/12912",
+    "https://github.com/TeamNewPipe/NewPipe/issues/3089"
+   ]
+  },
+  {
+   "number": 962,
+   "title": "refactor download manager",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/962",
+   "labels": [
+    "feature request",
+    "help wanted",
+    "bounty",
+    "downloader"
+   ],
+   "updatedAt": "2026-09-22T02:06:25Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "2 stale claims, the most recent by @voidc 2985 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/962#issuecomment-1080162171",
+    "https://github.com/TeamNewPipe/NewPipe/issues/962#issuecomment-419680068",
+    "https://github.com/TeamNewPipe/NewPipe/issues/962",
+    "https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe",
+    "https://github.com/TeamNewPipe/NewPipe/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 1214,
+   "title": "[Feature request] Add the ability to automate background player with apps like Tasker",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/1214",
+   "labels": [
+    "feature request",
+    "help wanted",
+    "discussion",
+    "player",
+    "device/software specific"
+   ],
+   "updatedAt": "2020-04-27T07:42:46Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "discard",
+   "reason": "PR #8874 by @ghost is already open against this issue",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/8874",
+    "https://github.com/TeamNewPipe/NewPipe/issues/3940"
+   ]
+  },
+  {
+   "number": 1795,
+   "title": "Remember player states like Shuffle, Repeat, etc.",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/1795",
+   "labels": [
+    "feature request",
+    "good first issue",
+    "player"
+   ],
+   "updatedAt": "2025-10-13T11:45:34Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "discard",
+   "reason": "PR #12701 by @Guan-1023 is already open against this issue",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/pull/12701"
+   ]
+  },
+  {
+   "number": 2223,
+   "title": "[Android 8.0+] Add Android Picture in Picture support",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/2223",
+   "labels": [
+    "help wanted",
+    "player",
+    "device/software specific"
+   ],
+   "updatedAt": "2025-06-18T12:21:20Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @schnatzi 1737 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/2223#issuecomment-1032415662",
+    "https://github.com/TeamNewPipe/NewPipe/issues/2223",
+    "https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe",
+    "https://github.com/TeamNewPipe/NewPipe/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2251,
+   "title": "Search filter UI - Add sorting and filtering to search",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/2251",
+   "labels": [
+    "feature request",
+    "help wanted",
+    "discussion",
+    "requires extractor change",
+    "GUI",
+    "search/sort"
+   ],
+   "updatedAt": "2026-06-29T09:00:01Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "labelled `discussion` — scope may not be settled yet (+2 more)",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/2251",
+    "https://github.com/TeamNewPipe/NewPipe/issues/2251#issuecomment-733172202",
+    "https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe",
+    "https://github.com/TeamNewPipe/NewPipe/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2285,
+   "title": "Feature Request: Select Different Download Path in Download Dialog",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/2285",
+   "labels": [
+    "feature request",
+    "good first issue",
+    "downloader"
+   ],
+   "updatedAt": "2024-10-11T16:45:42Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "2 stale claims, the most recent by @Gc0rp 763 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/2285#issuecomment-2400975583",
+    "https://github.com/TeamNewPipe/NewPipe/issues/2285",
+    "https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe",
+    "https://github.com/TeamNewPipe/NewPipe/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2313,
+   "title": "[FR] support search URLs",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/2313",
+   "labels": [
+    "feature request",
+    "good first issue",
+    "search/sort"
+   ],
+   "updatedAt": "2024-01-01T17:51:35Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "discard",
+   "reason": "already assigned to @Sola0404",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/2313",
+    "https://github.com/TeamNewPipe/NewPipe/issues/2313#issuecomment-1281602704"
+   ]
+  },
+  {
+   "number": 2725,
+   "title": "[ Feature Request ] In Code and General Documentation",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/2725",
+   "labels": [
+    "help wanted",
+    "discussion",
+    "meta"
+   ],
+   "updatedAt": "2023-01-18T18:13:10Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "labelled `discussion` — scope may not be settled yet (+1 more)",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/2725",
+    "https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe",
+    "https://github.com/TeamNewPipe/NewPipe/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 3013,
+   "title": "(Feature request) Status bar color",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/3013",
+   "labels": [
+    "feature request",
+    "help wanted",
+    "GUI"
+   ],
+   "updatedAt": "2022-05-01T20:13:03Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "PR #3774 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/pull/3774",
+    "https://github.com/TeamNewPipe/NewPipe/issues/3013",
+    "https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe",
+    "https://github.com/TeamNewPipe/NewPipe/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 3037,
+   "title": "Add search in playlists",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/3037",
+   "labels": [
+    "feature request",
+    "help wanted",
+    "GUI",
+    "playlist",
+    "search/sort",
+    "UX"
+   ],
+   "updatedAt": "2026-07-27T10:33:50Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "discard",
+   "reason": "PR #13260 by @KnightRadiant13 is already open against this issue",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/13260",
+    "https://github.com/TeamNewPipe/NewPipe/issues/3263",
+    "https://github.com/TeamNewPipe/NewPipe/issues/8293"
+   ]
+  },
+  {
+   "number": 3038,
+   "title": "Standardize view animation duration ",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/3038",
+   "labels": [
+    "feature request",
+    "good first issue",
+    "GUI"
+   ],
+   "updatedAt": "2024-10-11T07:13:03Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "PR #2309 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/pull/2309",
+    "https://github.com/TeamNewPipe/NewPipe/issues/3038#issuecomment-2406238776",
+    "https://github.com/TeamNewPipe/NewPipe/issues/3038",
+    "https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe",
+    "https://github.com/TeamNewPipe/NewPipe/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 3089,
+   "title": "[YouTube] Video titles not respecting content language",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/3089",
+   "labels": [
+    "bug",
+    "help wanted",
+    "YouTube",
+    "requires extractor change",
+    "localisation/translation"
+   ],
+   "updatedAt": "2026-11-04T11:17:59Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "PR #3098 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/pull/3098",
+    "https://github.com/TeamNewPipe/NewPipe/pull/3579",
+    "https://github.com/TeamNewPipe/NewPipe/issues/3089",
+    "https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe",
+    "https://github.com/TeamNewPipe/NewPipe/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 3103,
+   "title": "Soundcloud share to newpipe does not work",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/3103",
+   "labels": [
+    "bug",
+    "SoundCloud",
+    "good first issue"
+   ],
+   "updatedAt": "2025-04-25T02:01:08Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/3103",
+    "https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe",
+    "https://github.com/TeamNewPipe/NewPipe/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 3301,
+   "title": "Delete multiple subscriptions at once",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/3301",
+   "labels": [
+    "feature request",
+    "good first issue",
+    "GUI",
+    "feed"
+   ],
+   "updatedAt": "2026-09-17T23:38:24Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "discard",
+   "reason": "PR #13833 by @nair0xd is already open against this issue",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/pull/13833"
+   ]
+  },
+  {
+   "number": 3475,
+   "title": "Expose search API with url",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/3475",
+   "labels": [
+    "feature request",
+    "good first issue",
+    "search/sort"
+   ],
+   "updatedAt": "2025-05-16T04:37:38Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "PR #1 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/jiahengguo123/NewPipe/pull/1",
+    "https://github.com/TeamNewPipe/NewPipe/issues/3475#issuecomment-2399436586",
+    "https://github.com/TeamNewPipe/NewPipe/issues/3475",
+    "https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe",
+    "https://github.com/TeamNewPipe/NewPipe/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 3675,
+   "title": "Upload date and view count missing in stream items of playlists",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/3675",
+   "labels": [
+    "feature request",
+    "good first issue",
+    "GUI",
+    "playlist",
+    "UX"
+   ],
+   "updatedAt": "2026-03-26T01:41:45Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/3675",
+    "https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe",
+    "https://github.com/TeamNewPipe/NewPipe/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 4296,
+   "title": "Popup restores bad size",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/4296",
+   "labels": [
+    "bug",
+    "good first issue",
+    "player"
+   ],
+   "updatedAt": "2026-11-02T21:33:00Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "discard",
+   "reason": "PR #13765 by @1seco is already open against this issue",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/13765"
+   ]
+  },
+  {
+   "number": 4887,
+   "title": "Playlist playback consistency",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/4887",
+   "labels": [
+    "bug",
+    "good first issue",
+    "player"
+   ],
+   "updatedAt": "2026-02-24T17:23:24Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "discard",
+   "reason": "PR #12032 by @Stypox is already open against this issue",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/pull/12032"
+   ]
+  },
+  {
+   "number": 4952,
+   "title": "Show/Don't hide feed items when updating feed",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/4952",
+   "labels": [
+    "feature request",
+    "help wanted",
+    "discussion",
+    "GUI",
+    "feed"
+   ],
+   "updatedAt": "2026-08-25T05:47:00Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "labelled `discussion` — scope may not be settled yet (+1 more)",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/4952",
+    "https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe",
+    "https://github.com/TeamNewPipe/NewPipe/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 5025,
+   "title": "Add support for soundcloud.app.goo.gl",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/5025",
+   "labels": [
+    "feature request",
+    "SoundCloud",
+    "good first issue"
+   ],
+   "updatedAt": "2025-04-25T02:00:18Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "discard",
+   "reason": "PR #3103 by @garawaa is already open against this issue",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/3103"
+   ]
+  },
+  {
+   "number": 5256,
+   "title": "No NewPipe logo on Fire TV Stick",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/5256",
+   "labels": [
+    "bug",
+    "good first issue"
+   ],
+   "updatedAt": "2022-05-13T09:24:22Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "2 stale claims, the most recent by @ANUKULJHA1506 1643 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/5256#issuecomment-1125806807",
+    "https://github.com/TeamNewPipe/NewPipe/issues/5256",
+    "https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe",
+    "https://github.com/TeamNewPipe/NewPipe/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 5323,
+   "title": "Add auto video quality option for seamless quality transition",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/5323",
+   "labels": [
+    "feature request",
+    "help wanted",
+    "player",
+    "UX"
+   ],
+   "updatedAt": "2026-11-07T04:55:33Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "discard",
+   "reason": "PR #14000 by @SuperMattLinux is already open against this issue",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/14000",
+    "https://github.com/TeamNewPipe/NewPipe/issues/9826"
+   ]
+  },
+  {
+   "number": 5336,
+   "title": "YouTube topics support",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/5336",
+   "labels": [
+    "feature request",
+    "help wanted",
+    "YouTube"
+   ],
+   "updatedAt": "2026-01-26T17:56:51Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "discard",
+   "reason": "PR #6575 by @ghost is already open against this issue",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/6575"
+   ]
+  },
+  {
+   "number": 5433,
+   "title": "Verified mark(Right mark) beside channel name",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/5433",
+   "labels": [
+    "feature request",
+    "requires extractor change",
+    "good first issue",
+    "GUI",
+    "multiservice"
+   ],
+   "updatedAt": "2026-05-25T17:22:10Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "2 stale claims, the most recent by @Kalpita-Roy 884 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/5433#issuecomment-2158916091",
+    "https://github.com/TeamNewPipe/NewPipe/issues/5433",
+    "https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe",
+    "https://github.com/TeamNewPipe/NewPipe/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 6032,
+   "title": "Add \"search instead for\" feature to search page",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/6032",
+   "labels": [
+    "feature request",
+    "YouTube",
+    "requires extractor change",
+    "good first issue",
+    "GUI",
+    "search/sort"
+   ],
+   "updatedAt": "2026-09-07T07:14:03Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "2 stale claims, the most recent by @BuilderCoderTester 65 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/6032#issuecomment-5566576480",
+    "https://github.com/TeamNewPipe/NewPipe/issues/6032",
+    "https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe",
+    "https://github.com/TeamNewPipe/NewPipe/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 6050,
+   "title": "Upload Date in StreamInfoItem with Error from PrettyTime Conversion in German",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/6050",
+   "labels": [
+    "bug",
+    "help wanted",
+    "dependency"
+   ],
+   "updatedAt": "2026-02-24T22:45:55Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @jonas-skywalker 2040 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/6050#issuecomment-817287168",
+    "https://github.com/TeamNewPipe/NewPipe/issues/6050",
+    "https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe",
+    "https://github.com/TeamNewPipe/NewPipe/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 6067,
+   "title": "Increase tablet mode breakpoint",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/6067",
+   "labels": [
+    "feature request",
+    "good first issue",
+    "GUI"
+   ],
+   "updatedAt": "2026-05-08T13:38:53Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "discard",
+   "reason": "PR #8646 by @opusforlife2 is already open against this issue",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/8646"
+   ]
+  },
+  {
+   "number": 6273,
+   "title": "Black bars on both sides of drawer are shown",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/6273",
+   "labels": [
+    "bug",
+    "help wanted",
+    "GUI"
+   ],
+   "updatedAt": "2024-02-16T13:16:16Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/6273",
+    "https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe",
+    "https://github.com/TeamNewPipe/NewPipe/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 6292,
+   "title": "Showing total number of subscriptions.",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/6292",
+   "labels": [
+    "feature request",
+    "good first issue",
+    "GUI",
+    "database",
+    "channel",
+    "UX"
+   ],
+   "updatedAt": "2026-09-07T07:12:54Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @BuilderCoderTester 65 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/6292#issuecomment-5566559585",
+    "https://github.com/TeamNewPipe/NewPipe/issues/6292",
+    "https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe",
+    "https://github.com/TeamNewPipe/NewPipe/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 6448,
+   "title": "[HELP NEEDED] Major planned/missing features",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/6448",
+   "labels": [
+    "feature request",
+    "help wanted"
+   ],
+   "updatedAt": "2026-04-18T21:16:54Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "discard",
+   "reason": "PR #4484 by @opusforlife2 is already open against this issue",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/4484"
+   ]
+  },
+  {
+   "number": 6665,
+   "title": "Unable to export to NextCloud using SAF",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/6665",
+   "labels": [
+    "bug",
+    "good first issue",
+    "database",
+    "import/export"
+   ],
+   "updatedAt": "2026-05-25T02:46:21Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "PR #6701 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/pull/6701",
+    "https://github.com/TeamNewPipe/NewPipe/issues/6665",
+    "https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe",
+    "https://github.com/TeamNewPipe/NewPipe/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 6747,
+   "title": "The text cuts off in chapters view in landscape mode",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/6747",
+   "labels": [
+    "bug",
+    "good first issue",
+    "GUI"
+   ],
+   "updatedAt": "2026-10-25T13:50:52Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "discard",
+   "reason": "PR #13979 by @singulardot is already open against this issue",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/pull/13979"
+   ]
+  },
+  {
+   "number": 7119,
+   "title": "\"Play all\" fails on a channel that has an upcoming video (i.e. future premiere)",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/7119",
+   "labels": [
+    "bug",
+    "good first issue",
+    "channel"
+   ],
+   "updatedAt": "2026-05-08T18:17:38Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "discard",
+   "reason": "PR #13226 by @Palloxin is already open against this issue",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/13226"
+   ]
+  },
+  {
+   "number": 7226,
+   "title": "Add a tag when subtitles are available in a specific language.",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/7226",
+   "labels": [
+    "feature request",
+    "help wanted",
+    "GUI",
+    "template ignored",
+    "subtitles"
+   ],
+   "updatedAt": "2026-05-02T13:05:27Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/7226",
+    "https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe",
+    "https://github.com/TeamNewPipe/NewPipe/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 7233,
+   "title": "Use UPDATE_PACKAGES_WITHOUT_USER_ACTION for automatic background app updates",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/7233",
+   "labels": [
+    "feature request",
+    "good first issue",
+    "device/software specific"
+   ],
+   "updatedAt": "2021-12-14T16:05:47Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/7233",
+    "https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe",
+    "https://github.com/TeamNewPipe/NewPipe/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 7368,
+   "title": "Ability to sort subscriptions",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/7368",
+   "labels": [
+    "feature request",
+    "good first issue",
+    "GUI",
+    "channel",
+    "UX"
+   ],
+   "updatedAt": "2026-05-25T02:46:46Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/7368",
+    "https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe",
+    "https://github.com/TeamNewPipe/NewPipe/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 7411,
+   "title": "Importing YouTube Subscriptions from CSV fails with exception",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/7411",
+   "labels": [
+    "bug",
+    "YouTube",
+    "good first issue",
+    "import/export"
+   ],
+   "updatedAt": "2026-05-25T02:45:39Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/7411",
+    "https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe",
+    "https://github.com/TeamNewPipe/NewPipe/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 7595,
+   "title": "Update NewPipe design to Material Design version 2 or version 3",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/7595",
+   "labels": [
+    "feature request",
+    "help wanted",
+    "GUI"
+   ],
+   "updatedAt": "2026-04-09T22:34:28Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @opusforlife2 1337 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/7595#issuecomment-1468708488",
+    "https://github.com/TeamNewPipe/NewPipe/issues/7595",
+    "https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe",
+    "https://github.com/TeamNewPipe/NewPipe/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 7667,
+   "title": "Livestreams should not have playback parameters (speed adjustment or skip silence)",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/7667",
+   "labels": [
+    "feature request",
+    "good first issue",
+    "player"
+   ],
+   "updatedAt": "2026-01-07T06:41:27Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @KosOrKosm 1688 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/7667#issuecomment-1081444257",
+    "https://github.com/TeamNewPipe/NewPipe/issues/7667",
+    "https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe",
+    "https://github.com/TeamNewPipe/NewPipe/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 7811,
+   "title": "Issue with different subtitles of the same language",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/7811",
+   "labels": [
+    "bug",
+    "help wanted",
+    "YouTube",
+    "player"
+   ],
+   "updatedAt": "2026-05-02T13:02:00Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "PR #8150 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/pull/8150",
+    "https://github.com/TeamNewPipe/NewPipe/issues/7811",
+    "https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe",
+    "https://github.com/TeamNewPipe/NewPipe/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 7865,
+   "title": "NewPipe crashes when used on external screen/vendor specific screen-sharing (Samsung DEX, LG Screen+, WSA)",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/7865",
+   "labels": [
+    "bug",
+    "good first issue",
+    "GUI",
+    "device/software specific"
+   ],
+   "updatedAt": "2026-11-10T09:37:31Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "discard",
+   "reason": "PR #13990 by @TobiGr is already open against this issue",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/pull/13990"
+   ]
+  },
+  {
+   "number": 7908,
+   "title": "List loading indicator scrolling issues",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/7908",
+   "labels": [
+    "bug",
+    "help wanted",
+    "GUI"
+   ],
+   "updatedAt": "2025-08-09T09:37:48Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "PR #7659 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/pull/7659",
+    "https://github.com/TeamNewPipe/NewPipe/issues/7908",
+    "https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe",
+    "https://github.com/TeamNewPipe/NewPipe/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 7909,
+   "title": "List fragment not restoring items after rotating and going to recent apps",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/7909",
+   "labels": [
+    "bug",
+    "help wanted",
+    "GUI"
+   ],
+   "updatedAt": "2025-08-09T09:37:21Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "PR #7659 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/pull/7659",
+    "https://github.com/TeamNewPipe/NewPipe/issues/7909",
+    "https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe",
+    "https://github.com/TeamNewPipe/NewPipe/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 8016,
+   "title": "ExoPlaybackException - MediaCodecVideoDecoderException",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/8016",
+   "labels": [
+    "bug",
+    "help wanted",
+    "device/software specific"
+   ],
+   "updatedAt": "2026-09-24T10:45:20Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "PR #8875 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/pull/8875",
+    "https://github.com/TeamNewPipe/NewPipe/issues/8016",
+    "https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe",
+    "https://github.com/TeamNewPipe/NewPipe/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 8148,
+   "title": "YT: Highly compressed audio when using mobile data and in background",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/8148",
+   "labels": [
+    "bug",
+    "good first issue",
+    "player"
+   ],
+   "updatedAt": "2025-07-11T17:49:42Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/8148",
+    "https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe",
+    "https://github.com/TeamNewPipe/NewPipe/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 8243,
+   "title": "Remember audio quality selection when downloading",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/8243",
+   "labels": [
+    "feature request",
+    "good first issue",
+    "downloader"
+   ],
+   "updatedAt": "2026-04-26T17:43:01Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "discard",
+   "reason": "PR #5857 by @wqsrz is already open against this issue",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/5857"
+   ]
+  },
+  {
+   "number": 8474,
+   "title": "\"Error loading feed\" message reappears when rotating the screen even after selecting Cancel",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/8474",
+   "labels": [
+    "bug",
+    "help wanted",
+    "GUI",
+    "feed"
+   ],
+   "updatedAt": "2026-08-27T19:09:53Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "discard",
+   "reason": "PR #13322 by @PLEB666 is already open against this issue",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/13322",
+    "https://github.com/TeamNewPipe/NewPipe/issues/9942"
+   ]
+  },
+  {
+   "number": 8616,
+   "title": "Player-related code that should be improved",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/8616",
+   "labels": [
+    "help wanted",
+    "player",
+    "code quality",
+    "rewrite"
+   ],
+   "updatedAt": "2026-04-18T21:16:53Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "PR #8678 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/pull/8678",
+    "https://github.com/TeamNewPipe/NewPipe/issues/8616",
+    "https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe",
+    "https://github.com/TeamNewPipe/NewPipe/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 8684,
+   "title": "Notifications of the same videos keep being generated",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/8684",
+   "labels": [
+    "bug",
+    "good first issue",
+    "feed",
+    "new stream notification"
+   ],
+   "updatedAt": "2026-07-22T23:37:25Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "discard",
+   "reason": "PR #13377 by @ProtoUI is already open against this issue",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/13377"
+   ]
+  },
+  {
+   "number": 8898,
+   "title": "App creates an error report after loss of internet",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/8898",
+   "labels": [
+    "feature request",
+    "discussion",
+    "good first issue",
+    "GUI",
+    "networking"
+   ],
+   "updatedAt": "2026-05-01T14:56:59Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "labelled `discussion` — scope may not be settled yet (+2 more)",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/8898",
+    "https://github.com/TeamNewPipe/NewPipe/issues/8898#issuecomment-1274029579",
+    "https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe",
+    "https://github.com/TeamNewPipe/NewPipe/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 8981,
+   "title": "Clear Cache option on app's icon long-press.",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/8981",
+   "labels": [
+    "feature request",
+    "good first issue"
+   ],
+   "updatedAt": "2026-10-19T13:00:32Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @camle2145 262 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/8981",
+    "https://github.com/TeamNewPipe/NewPipe/issues/8981#issuecomment-3940302842",
+    "https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe",
+    "https://github.com/TeamNewPipe/NewPipe/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 9161,
+   "title": "Visual Bug: Player Notification Thumbnail and Colorization only displaying in certain cases.",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/9161",
+   "labels": [
+    "bug",
+    "good first issue",
+    "GUI",
+    "player notification"
+   ],
+   "updatedAt": "2026-10-26T20:09:13Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/9161",
+    "https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe",
+    "https://github.com/TeamNewPipe/NewPipe/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 9587,
+   "title": "New Settings categorization",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/9587",
+   "labels": [
+    "feature request",
+    "good first issue",
+    "GUI",
+    "rewrite"
+   ],
+   "updatedAt": "2026-01-31T12:04:33Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "discard",
+   "reason": "already assigned to @pratyaksh1610",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/pull/9580",
+    "https://github.com/TeamNewPipe/NewPipe/pull/10427",
+    "https://github.com/TeamNewPipe/NewPipe/pull/10876",
+    "https://github.com/TeamNewPipe/NewPipe/pull/12803",
+    "https://github.com/TeamNewPipe/NewPipe/issues/9587",
+    "https://github.com/TeamNewPipe/NewPipe/issues/9587#issuecomment-1416931427"
+   ]
+  },
+  {
+   "number": 10099,
+   "title": "Carry enqueued videos over if accidentally click new video",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/10099",
+   "labels": [
+    "feature request",
+    "good first issue",
+    "queue"
+   ],
+   "updatedAt": "2026-04-22T16:01:41Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/10099",
+    "https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe",
+    "https://github.com/TeamNewPipe/NewPipe/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 10442,
+   "title": "History OFF dumps tons of cache images/data to getExternalCacheDir() ",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/10442",
+   "labels": [
+    "feature request",
+    "good first issue",
+    "privacy & data protection",
+    "history"
+   ],
+   "updatedAt": "2026-01-26T17:28:51Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/10442",
+    "https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe",
+    "https://github.com/TeamNewPipe/NewPipe/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 10599,
+   "title": "Option to hide/skip/discard specific videos from feed",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/10599",
+   "labels": [
+    "feature request",
+    "help wanted",
+    "feed"
+   ],
+   "updatedAt": "2026-01-31T11:44:58Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/10599",
+    "https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe",
+    "https://github.com/TeamNewPipe/NewPipe/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 10691,
+   "title": "Autoplay bug: playback starts paused on alternative videos on some newer Android versions",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/10691",
+   "labels": [
+    "bug",
+    "good first issue",
+    "player"
+   ],
+   "updatedAt": "2025-03-11T04:18:45Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/10691",
+    "https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe",
+    "https://github.com/TeamNewPipe/NewPipe/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 10720,
+   "title": "(mediaCCC) audio language changes when switching to background player",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/10720",
+   "labels": [
+    "bug",
+    "good first issue",
+    "media.ccc.de",
+    "player"
+   ],
+   "updatedAt": "2026-10-21T22:13:58Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "discard",
+   "reason": "@TarsWang02 claimed it 20 days ago",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/10720",
+    "https://github.com/TeamNewPipe/NewPipe/issues/10720#issuecomment-6327715415",
+    "https://github.com/TeamNewPipe/NewPipe/issues/10720#issuecomment-2824377427"
+   ]
+  },
+  {
+   "number": 10939,
+   "title": "App Crash on mark video as watched",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/10939",
+   "labels": [
+    "bug",
+    "good first issue",
+    "GUI",
+    "feed"
+   ],
+   "updatedAt": "2026-10-06T06:08:57Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "3 stale claims, the most recent by @dylanlovescode 36 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/10939",
+    "https://github.com/TeamNewPipe/NewPipe/issues/10939#issuecomment-6010466604",
+    "https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe",
+    "https://github.com/TeamNewPipe/NewPipe/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 11084,
+   "title": "Watch history is not saved after stopping NewPipe",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/11084",
+   "labels": [
+    "bug",
+    "help wanted",
+    "device/software specific",
+    "history"
+   ],
+   "updatedAt": "2025-08-02T17:06:10Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/11084",
+    "https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe",
+    "https://github.com/TeamNewPipe/NewPipe/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 11139,
+   "title": "[YouTube] \"Sign in to confirm...\"/\"Watch on the latest version...\"",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/11139",
+   "labels": [
+    "bug",
+    "help wanted",
+    "YouTube",
+    "requires extractor change"
+   ],
+   "updatedAt": "2026-05-25T03:08:20Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "PR #170 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuanBindez/pytubefix/pull/170",
+    "https://github.com/TeamNewPipe/NewPipe/issues/11139",
+    "https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe",
+    "https://github.com/TeamNewPipe/NewPipe/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 11514,
+   "title": "Download Crash",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/11514",
+   "labels": [
+    "bug",
+    "good first issue",
+    "downloader",
+    "database"
+   ],
+   "updatedAt": "2026-02-19T21:59:11Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @VARTIK-ARSH 764 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/11514",
+    "https://github.com/TeamNewPipe/NewPipe/issues/11514#issuecomment-2398904777",
+    "https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe",
+    "https://github.com/TeamNewPipe/NewPipe/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 11540,
+   "title": "Newpipe searches for new videos in airplane mode, which causes significant battery drain",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/11540",
+   "labels": [
+    "bug",
+    "help wanted",
+    "new stream notification"
+   ],
+   "updatedAt": "2026-05-13T16:06:00Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/11540",
+    "https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe",
+    "https://github.com/TeamNewPipe/NewPipe/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 11708,
+   "title": "Crash while scrolling comments section or playing popup and rotating the phone",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/11708",
+   "labels": [
+    "bug",
+    "good first issue",
+    "comments"
+   ],
+   "updatedAt": "2026-10-24T02:50:07Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/11708",
+    "https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe",
+    "https://github.com/TeamNewPipe/NewPipe/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 11718,
+   "title": "CommentRepliesSource: Add cache for reply fetching",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/11718",
+   "labels": [
+    "bug",
+    "help wanted",
+    "comments",
+    "rewrite"
+   ],
+   "updatedAt": "2026-04-14T10:09:42Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "discard",
+   "reason": "PR #11595 by @trudnorx is already open against this issue",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/11595",
+    "https://github.com/TeamNewPipe/NewPipe/issues/12674"
+   ]
+  },
+  {
+   "number": 11726,
+   "title": "Add preference option for infinite search history",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/11726",
+   "labels": [
+    "feature request",
+    "good first issue",
+    "history",
+    "search/sort"
+   ],
+   "updatedAt": "2025-12-13T20:37:00Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "discard",
+   "reason": "PR #12728 by @Jane-Yanlei-Ji is already open against this issue",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/pull/12728"
+   ]
+  },
+  {
+   "number": 11735,
+   "title": "Refactor Empty State View: Followup Code Improvements",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/11735",
+   "labels": [
+    "good first issue",
+    "GUI",
+    "code quality",
+    "rewrite"
+   ],
+   "updatedAt": "2025-03-24T16:13:07Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "discard",
+   "reason": "already assigned to @SttApollo",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/pull/12217",
+    "https://github.com/TeamNewPipe/NewPipe/issues/11735",
+    "https://github.com/TeamNewPipe/NewPipe/issues/11735#issuecomment-2748603660"
+   ]
+  },
+  {
+   "number": 12248,
+   "title": "[YouTube] Coordinating efforts on SABR implementation",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/12248",
+   "labels": [
+    "bug",
+    "help wanted",
+    "discussion",
+    "YouTube",
+    "downloader",
+    "player"
+   ],
+   "updatedAt": "2026-05-28T09:41:26Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "discard",
+   "reason": "PR #12563 by @alimima is already open against this issue",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/12563"
+   ]
+  },
+  {
+   "number": 12443,
+   "title": "[PeerTube] The downloader can't combine/mux two fragmented MP4 files",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/12443",
+   "labels": [
+    "bug",
+    "help wanted",
+    "downloader",
+    "PeerTube"
+   ],
+   "updatedAt": "2026-10-16T18:05:15Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "discard",
+   "reason": "PR #12640 by @Stypox is already open against this issue",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/12640"
+   ]
+  },
+  {
+   "number": 12547,
+   "title": "Lag when many downloaded items are loaded on Download page",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/12547",
+   "labels": [
+    "bug",
+    "help wanted",
+    "downloader",
+    "GUI"
+   ],
+   "updatedAt": "2026-10-29T15:16:01Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/12547",
+    "https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe",
+    "https://github.com/TeamNewPipe/NewPipe/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 12563,
+   "title": "The content is not available and please watch on the latest version of YT and solution",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/12563",
+   "labels": [
+    "bug",
+    "help wanted",
+    "YouTube"
+   ],
+   "updatedAt": "2025-10-01T19:27:30Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/12563",
+    "https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe",
+    "https://github.com/TeamNewPipe/NewPipe/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 12640,
+   "title": "[YouTube] Out of sync audio and video in download (muxing issue)",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/12640",
+   "labels": [
+    "bug",
+    "help wanted",
+    "YouTube",
+    "downloader"
+   ],
+   "updatedAt": "2026-04-19T20:58:05Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/12640",
+    "https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe",
+    "https://github.com/TeamNewPipe/NewPipe/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 12686,
+   "title": "Unable to navigate to videos on channel page when using list mode on FireTV 4k Max",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/12686",
+   "labels": [
+    "bug",
+    "help wanted",
+    "device/software specific",
+    "UX"
+   ],
+   "updatedAt": "2026-05-25T02:44:00Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "discard",
+   "reason": "PR #13812 by @runningvisor is already open against this issue",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/13812"
+   ]
+  },
+  {
+   "number": 12726,
+   "title": "Add \"Stop after current song ends\" playback option",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/12726",
+   "labels": [
+    "feature request",
+    "good first issue",
+    "GUI",
+    "player",
+    "UX"
+   ],
+   "updatedAt": "2026-04-26T23:20:51Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "discard",
+   "reason": "PR #13747 by @mmustafasenoglu is already open against this issue",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/pull/13747"
+   ]
+  },
+  {
+   "number": 12985,
+   "title": "The app crashes when I try to open it from the background after a few hours.",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/12985",
+   "labels": [
+    "bug",
+    "help wanted",
+    "playlist"
+   ],
+   "updatedAt": "2026-04-13T19:13:36Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/12985",
+    "https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe",
+    "https://github.com/TeamNewPipe/NewPipe/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 13154,
+   "title": "[Feature request] search button to select a playlist when adding a video to a playlist",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/13154",
+   "labels": [
+    "feature request",
+    "good first issue",
+    "playlist",
+    "search/sort"
+   ],
+   "updatedAt": "2026-06-22T13:18:01Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "discard",
+   "reason": "PR #13204 by @MuriloM676 is already open against this issue",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/pull/13204",
+    "https://github.com/0ntu/NewPipe/pull/1"
+   ]
+  },
+  {
+   "number": 13234,
+   "title": "[Refactor] comment replies/license information panes doesn't become wide on wide screens",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/13234",
+   "labels": [
+    "bug",
+    "help wanted",
+    "rewrite"
+   ],
+   "updatedAt": "2026-02-24T17:04:21Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "open 9 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/13234",
+    "https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe",
+    "https://github.com/TeamNewPipe/NewPipe/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 13315,
+   "title": "[Peertube] Audio stops working when sending video to Pop-up",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/13315",
+   "labels": [
+    "bug",
+    "help wanted",
+    "PeerTube"
+   ],
+   "updatedAt": "2026-10-16T18:10:50Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/13315",
+    "https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe",
+    "https://github.com/TeamNewPipe/NewPipe/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 13325,
+   "title": "Persist repeat setting on restart",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/13325",
+   "labels": [
+    "feature request",
+    "good first issue",
+    "database",
+    "settings"
+   ],
+   "updatedAt": "2026-04-12T14:16:32Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "discard",
+   "reason": "PR #13387 by @arjun1194 is already open against this issue",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/pull/13387"
+   ]
+  },
+  {
+   "number": 13332,
+   "title": "Feature request: Network option to disable use of IPv6",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/13332",
+   "labels": [
+    "feature request",
+    "good first issue",
+    "networking"
+   ],
+   "updatedAt": "2026-10-11T18:29:14Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "discard",
+   "reason": "PR #13632 by @JensvanDijk is already open against this issue",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/pull/13632",
+    "https://github.com/ziyuzhou0815-rgb/NewPipe/pull/1"
+   ]
+  },
+  {
+   "number": 13487,
+   "title": "Keep history control buttons visible when scrolling up long history lists",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/13487",
+   "labels": [
+    "feature request",
+    "good first issue",
+    "GUI"
+   ],
+   "updatedAt": "2026-05-15T04:22:42Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "discard",
+   "reason": "already assigned to @kenneySiu",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/Fzflz-Sun/NewPipe/pull/1",
+    "https://github.com/TeamNewPipe/NewPipe/issues/13487"
+   ]
+  },
+  {
+   "number": 13668,
+   "title": "[Bandcamp] Mark paid songs and their albums",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/13668",
+   "labels": [
+    "feature request",
+    "help wanted",
+    "requires extractor change",
+    "Bandcamp"
+   ],
+   "updatedAt": "2026-11-02T16:17:53Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/13668",
+    "https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe",
+    "https://github.com/TeamNewPipe/NewPipe/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 13705,
+   "title": "Bigger minimum default frame size for Popup player in relation to screen size (image attached)",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/13705",
+   "labels": [
+    "feature request",
+    "good first issue",
+    "player",
+    "UX"
+   ],
+   "updatedAt": "2026-11-10T14:36:56Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "discard",
+   "reason": "already assigned to @sakshichitnis27",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/13705"
+   ]
+  },
+  {
+   "number": 13774,
+   "title": "Unexpected crash after reopening the app",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/13774",
+   "labels": [
+    "bug",
+    "good first issue"
+   ],
+   "updatedAt": "2026-11-06T10:55:10Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "discard",
+   "reason": "already assigned to @Fayupable",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/13774",
+    "https://github.com/TeamNewPipe/NewPipe/issues/13774#issuecomment-6417035012",
+    "https://github.com/TeamNewPipe/NewPipe/issues/13774#issuecomment-5589811508"
+   ]
+  },
+  {
+   "number": 13866,
+   "title": "Crash on startup on Android 6.0.1: NullPointerException \"Attempt to read from null array\" in MainActivity.onCreate",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/13866",
+   "labels": [
+    "bug",
+    "good first issue",
+    "device/software specific"
+   ],
+   "updatedAt": "2026-11-01T04:27:30Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "discard",
+   "reason": "@RAMKUMAR0096 claimed it 13 days ago",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/13866",
+    "https://github.com/TeamNewPipe/NewPipe/issues/13866#issuecomment-6027944659",
+    "https://github.com/TeamNewPipe/NewPipe/issues/13866#issuecomment-6503503561"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,190 @@
+{
+ "owner": "alibaba",
+ "repo": "arthas",
+ "language": "Java",
+ "stars": 37614,
+ "description": "Alibaba Java Diagnostic Tool Arthas/Alibaba Java诊断利器Arthas",
+ "visitedAt": "2026-11-11T06:29:52.958Z",
+ "issues": [
+  {
+   "number": 111,
+   "title": "Wanted: who's using Arthas/您在使用Arthas吗？",
+   "url": "https://github.com/alibaba/arthas/issues/111",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-02-25T07:02:54Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "discard",
+   "reason": "PR #2779 by @smallchips is already open against this issue",
+   "evidence": [
+    "https://github.com/alibaba/arthas/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/alibaba/arthas/issues/2779",
+    "https://github.com/alibaba/arthas/issues/2967",
+    "https://github.com/alibaba/arthas/issues/2742",
+    "https://github.com/alibaba/arthas/issues/730",
+    "https://github.com/alibaba/arthas/issues/2855",
+    "https://github.com/alibaba/arthas/issues/2623",
+    "https://github.com/alibaba/arthas/issues/1275",
+    "https://github.com/alibaba/arthas/issues/2862",
+    "https://github.com/alibaba/arthas/issues/2650"
+   ]
+  },
+  {
+   "number": 393,
+   "title": "Arthas源码分析",
+   "url": "https://github.com/alibaba/arthas/issues/393",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2023-12-05T07:50:53Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/alibaba/arthas/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/alibaba/arthas/issues/393",
+    "https://github.com/alibaba/arthas/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 1350,
+   "title": "考虑提供  client/server 的工作方式",
+   "url": "https://github.com/alibaba/arthas/issues/1350",
+   "labels": [
+    "help wanted",
+    "disscuss"
+   ],
+   "updatedAt": "2020-08-28T03:02:22Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "discard",
+   "reason": "PR #1386 by @hengyunabc is already open against this issue",
+   "evidence": [
+    "https://github.com/alibaba/arthas/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/alibaba/arthas/issues/1386",
+    "https://github.com/alibaba/arthas/issues/2163",
+    "https://github.com/alibaba/arthas/issues/2528"
+   ]
+  },
+  {
+   "number": 2146,
+   "title": "[投票]Arthas考虑主线支持JDK8及之后的版本，JDK6/JDK7分支维护",
+   "url": "https://github.com/alibaba/arthas/issues/2146",
+   "labels": [
+    "help wanted",
+    "disscuss"
+   ],
+   "updatedAt": "2024-08-14T06:29:30Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/alibaba/arthas/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/alibaba/arthas/issues/2146",
+    "https://github.com/alibaba/arthas/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2163,
+   "title": "开发一个native agent和远程管理平台，方便管理集群",
+   "url": "https://github.com/alibaba/arthas/issues/2163",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2022-09-23T08:54:21Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/alibaba/arthas/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/alibaba/arthas/issues/2163"
+   ]
+  },
+  {
+   "number": 2170,
+   "title": "支持启动时增强/trace/watch类",
+   "url": "https://github.com/alibaba/arthas/issues/2170",
+   "labels": [
+    "help wanted",
+    "disscuss"
+   ],
+   "updatedAt": "2022-11-10T06:31:06Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/alibaba/arthas/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/alibaba/arthas/issues/2170",
+    "https://github.com/alibaba/arthas/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2340,
+   "title": "tunnel server 如何集群部署",
+   "url": "https://github.com/alibaba/arthas/issues/2340",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2022-11-24T08:18:50Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/alibaba/arthas/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/alibaba/arthas/issues/2340",
+    "https://github.com/alibaba/arthas/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2349,
+   "title": "实现一个简化版的grpc",
+   "url": "https://github.com/alibaba/arthas/issues/2349",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2024-05-10T12:02:46Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "discard",
+   "reason": "PR #2562 by @985492783 is already open against this issue",
+   "evidence": [
+    "https://github.com/alibaba/arthas/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/alibaba/arthas/pull/2562"
+   ]
+  },
+  {
+   "number": 2528,
+   "title": "Arthas内部服务异步化，再包装为 gRPC 服务暴露",
+   "url": "https://github.com/alibaba/arthas/issues/2528",
+   "labels": [
+    "help wanted",
+    "disscuss"
+   ],
+   "updatedAt": "2023-09-25T11:45:46Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/alibaba/arthas/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/alibaba/arthas/issues/2528",
+    "https://github.com/alibaba/arthas/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 3012,
+   "title": "【2025 开源之夏】欢迎学生参与Arthas项目~",
+   "url": "https://github.com/alibaba/arthas/issues/3012",
+   "labels": [
+    "help wanted",
+    "disscuss"
+   ],
+   "updatedAt": "2025-04-29T03:04:37Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "discard",
+   "reason": "PR #1874 by @hengyunabc is already open against this issue",
+   "evidence": [
+    "https://github.com/alibaba/arthas/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/alibaba/arthas/issues/1874"
+   ]
+  }
+ ]
+}

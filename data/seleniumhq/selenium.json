@@ -1,0 +1,37 @@
+{
+ "owner": "SeleniumHQ",
+ "repo": "selenium",
+ "language": "Java",
+ "stars": 34582,
+ "description": "A browser automation framework and ecosystem.",
+ "visitedAt": "2026-11-11T06:29:52.958Z",
+ "issues": [
+  {
+   "number": 13995,
+   "title": "[🚀 Feature]: Implement Navigation Commands with BiDi",
+   "url": "https://github.com/SeleniumHQ/selenium/issues/13995",
+   "labels": [
+    "C-py",
+    "C-rb",
+    "C-dotnet",
+    "C-java",
+    "C-nodejs",
+    "I-enhancement",
+    "B-devtools",
+    "good first issue"
+   ],
+   "updatedAt": "2026-10-13T13:49:07Z",
+   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "verdict": "discard",
+   "reason": "PR #17232 by @krishnamohan-kothapalli is already open against this issue",
+   "evidence": [
+    "https://github.com/SeleniumHQ/selenium/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/SeleniumHQ/selenium/pull/17232",
+    "https://github.com/SeleniumHQ/selenium/pull/17715",
+    "https://github.com/SeleniumHQ/selenium/pull/14092",
+    "https://github.com/SeleniumHQ/selenium/pull/14094",
+    "https://github.com/SeleniumHQ/selenium/pull/17717"
+   ]
+  }
+ ]
+}
