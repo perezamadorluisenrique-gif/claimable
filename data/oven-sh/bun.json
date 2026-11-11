@@ -1,0 +1,646 @@
+{
+ "owner": "oven-sh",
+ "repo": "bun",
+ "language": "Rust",
+ "stars": 96744,
+ "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
+ "visitedAt": "2026-11-11T22:03:46.308Z",
+ "issues": [
+  {
+   "number": 2467,
+   "title": "Documentation and Accessibility",
+   "url": "https://github.com/oven-sh/bun/issues/2467",
+   "labels": [
+    "docs",
+    "good first issue"
+   ],
+   "updatedAt": "2025-11-07T05:08:49Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #41107 by @devwez is already open against this issue",
+   "evidence": [
+    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/oven-sh/bun/pull/41107"
+   ]
+  },
+  {
+   "number": 2503,
+   "title": "Update shell completions",
+   "url": "https://github.com/oven-sh/bun/issues/2503",
+   "labels": [
+    "good first issue",
+    "cli"
+   ],
+   "updatedAt": "2026-05-15T01:25:36Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #27908 by @ssing2 is already open against this issue",
+   "evidence": [
+    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/oven-sh/bun/pull/27908",
+    "https://github.com/oven-sh/bun/pull/29364",
+    "https://github.com/oven-sh/bun/pull/35443",
+    "https://github.com/oven-sh/bun/pull/36629",
+    "https://github.com/oven-sh/bun/pull/4428"
+   ]
+  },
+  {
+   "number": 3888,
+   "title": "Automatically create directories for the path passed to `new Database` ",
+   "url": "https://github.com/oven-sh/bun/issues/3888",
+   "labels": [
+    "enhancement",
+    "bun:sqlite",
+    "bun.js",
+    "good first issue"
+   ],
+   "updatedAt": "2025-11-25T01:47:02Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #34281 by @juan52878911 is already open against this issue",
+   "evidence": [
+    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/oven-sh/bun/pull/34281"
+   ]
+  },
+  {
+   "number": 7125,
+   "title": "`console.error` does not preserve red color for multi-line output",
+   "url": "https://github.com/oven-sh/bun/issues/7125",
+   "labels": [
+    "bug",
+    "web-api",
+    "good first issue"
+   ],
+   "updatedAt": "2026-11-07T11:33:19Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "@Nitin23123 claimed it 4 days ago",
+   "evidence": [
+    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/oven-sh/bun/issues/7125#issuecomment-6706308805",
+    "https://github.com/oven-sh/bun/issues/7125#issuecomment-1814347004"
+   ]
+  },
+  {
+   "number": 7284,
+   "title": "bun update -E doesn't work but --exact works",
+   "url": "https://github.com/oven-sh/bun/issues/7284",
+   "labels": [
+    "bug",
+    "bun install",
+    "good first issue",
+    "cli"
+   ],
+   "updatedAt": "2026-01-03T19:18:42Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "only 2% of recently closed PRs were merged — most contributions get rejected or abandoned here (+1 more)",
+   "evidence": [
+    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/oven-sh/bun/pull/7603",
+    "https://github.com/oven-sh/bun/issues/7284",
+    "https://github.com/oven-sh/bun/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/oven-sh/bun/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 7367,
+   "title": "Bun test code coverage - Not returning exit code 1 when under threshold",
+   "url": "https://github.com/oven-sh/bun/issues/7367",
+   "labels": [
+    "bug",
+    "bun:test",
+    "good first issue"
+   ],
+   "updatedAt": "2025-11-25T01:46:27Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #32849 by @robobun is already open against this issue",
+   "evidence": [
+    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/oven-sh/bun/pull/32849",
+    "https://github.com/oven-sh/bun/pull/46007",
+    "https://github.com/oven-sh/bun/pull/8864"
+   ]
+  },
+  {
+   "number": 7541,
+   "title": "Calling `next` on `console`'s asyncIterable causes its stream to become locked",
+   "url": "https://github.com/oven-sh/bun/issues/7541",
+   "labels": [
+    "bug",
+    "good first issue"
+   ],
+   "updatedAt": "2026-08-04T23:52:30Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #37299 by @JasonColapietro is already open against this issue",
+   "evidence": [
+    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/oven-sh/bun/pull/37299",
+    "https://github.com/oven-sh/bun/pull/43951",
+    "https://github.com/oven-sh/bun/pull/36369",
+    "https://github.com/oven-sh/bun/pull/48209",
+    "https://github.com/codecrafters-io/build-your-own-shell/pull/7",
+    "https://github.com/techwithanirudh/gork-slack/pull/20"
+   ]
+  },
+  {
+   "number": 8024,
+   "title": "Bun.spawn with a non-existant cwd prints error with wrong path",
+   "url": "https://github.com/oven-sh/bun/issues/8024",
+   "labels": [
+    "bug",
+    "good first issue",
+    "bun:spawn"
+   ],
+   "updatedAt": "2026-10-31T00:50:22Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #47877 by @robobun is already open against this issue",
+   "evidence": [
+    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/oven-sh/bun/pull/47877",
+    "https://github.com/oven-sh/bun/pull/47878",
+    "https://github.com/oven-sh/bun/pull/48037",
+    "https://github.com/jgmontoya/shaka/pull/28",
+    "https://github.com/agent-trail/agent-trail/pull/171",
+    "https://github.com/hutusi/minerva/pull/16",
+    "https://github.com/leeguooooo/AgentParty/pull/459",
+    "https://github.com/genesiscz/GenesisTools/pull/294"
+   ]
+  },
+  {
+   "number": 8036,
+   "title": "Make console.clear output a control sequence that clears the terminal",
+   "url": "https://github.com/oven-sh/bun/issues/8036",
+   "labels": [
+    "enhancement",
+    "web-api",
+    "good first issue"
+   ],
+   "updatedAt": "2025-11-25T01:46:08Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #37128 by @dylan-conway is already open against this issue",
+   "evidence": [
+    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/oven-sh/bun/pull/37128"
+   ]
+  },
+  {
+   "number": 8316,
+   "title": "console.log ignores enumerable:false",
+   "url": "https://github.com/oven-sh/bun/issues/8316",
+   "labels": [
+    "bug",
+    "web-api",
+    "good first issue"
+   ],
+   "updatedAt": "2026-10-14T14:43:09Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #9 by @PermaShip is already open against this issue",
+   "evidence": [
+    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/PermaShip/bun/pull/9",
+    "https://github.com/oven-sh/bun/pull/38218",
+    "https://github.com/oven-sh/bun/pull/46744",
+    "https://github.com/oven-sh/bun/pull/40319",
+    "https://github.com/oven-sh/bun/pull/47563"
+   ]
+  },
+  {
+   "number": 8480,
+   "title": "Default locale for`Intl.DateTimeFormat` should match `$LANG` environment variable",
+   "url": "https://github.com/oven-sh/bun/issues/8480",
+   "labels": [
+    "bug",
+    "good first issue",
+    "confirmed bug"
+   ],
+   "updatedAt": "2026-08-04T23:50:57Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #8 by @PermaShip is already open against this issue",
+   "evidence": [
+    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/PermaShip/bun/pull/8",
+    "https://github.com/vybestack/llxprt-code/pull/3231"
+   ]
+  },
+  {
+   "number": 8939,
+   "title": "implement completions for powershell",
+   "url": "https://github.com/oven-sh/bun/issues/8939",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "windows",
+    "cli"
+   ],
+   "updatedAt": "2026-08-04T23:50:09Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #30929 by @Liohtml is already open against this issue",
+   "evidence": [
+    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/oven-sh/bun/pull/30929",
+    "https://github.com/oven-sh/bun/pull/42527"
+   ]
+  },
+  {
+   "number": 10502,
+   "title": "window bun process.env.HOME is undefined",
+   "url": "https://github.com/oven-sh/bun/issues/10502",
+   "labels": [
+    "bug",
+    "good first issue"
+   ],
+   "updatedAt": "2026-08-24T02:56:36Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "only 2% of recently closed PRs were merged — most contributions get rejected or abandoned here (+1 more)",
+   "evidence": [
+    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/oven-sh/bun/issues/10502#issuecomment-5390176065",
+    "https://github.com/oven-sh/bun/issues/10502",
+    "https://github.com/oven-sh/bun/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/oven-sh/bun/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 12204,
+   "title": "Add \"no default conditions\" option to cli and build API",
+   "url": "https://github.com/oven-sh/bun/issues/12204",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2026-10-24T07:09:21Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #32598 by @HEMANATH-AFK is already open against this issue",
+   "evidence": [
+    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/oven-sh/bun/pull/32598"
+   ]
+  },
+  {
+   "number": 12738,
+   "title": "compiling `bun_shim_impl.exe` is not reproducible / can triggers anti-virus",
+   "url": "https://github.com/oven-sh/bun/issues/12738",
+   "labels": [
+    "chore",
+    "good first issue"
+   ],
+   "updatedAt": "2025-11-25T01:45:23Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #48036 by @alloutflo is already open against this issue",
+   "evidence": [
+    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/oven-sh/bun/pull/48036",
+    "https://github.com/oven-sh/bun/pull/32466"
+   ]
+  },
+  {
+   "number": 13196,
+   "title": "`bun -` keeps running forever",
+   "url": "https://github.com/oven-sh/bun/issues/13196",
+   "labels": [
+    "bug",
+    "good first issue",
+    "cli",
+    "confirmed bug"
+   ],
+   "updatedAt": "2025-11-25T01:45:03Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #31704 by @jianongHe is already open against this issue",
+   "evidence": [
+    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/oven-sh/bun/pull/31704"
+   ]
+  },
+  {
+   "number": 14020,
+   "title": "`bun build --compile` leads to `.bun-build` workspace clutter",
+   "url": "https://github.com/oven-sh/bun/issues/14020",
+   "labels": [
+    "bug",
+    "bundler",
+    "good first issue"
+   ],
+   "updatedAt": "2026-10-23T21:54:20Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #45967 by @robobun is already open against this issue",
+   "evidence": [
+    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/oven-sh/bun/pull/45967",
+    "https://github.com/oven-sh/bun/pull/46624",
+    "https://github.com/ket-sh/ket/pull/93",
+    "https://github.com/851-labs/tokenmaxxing/pull/121",
+    "https://github.com/jlawcordova/jlawcordova-atproto/pull/26",
+    "https://github.com/nolnoch/grayboard/pull/198",
+    "https://github.com/nolnoch/grayboard/pull/231",
+    "https://github.com/samzong/Rx/pull/43"
+   ]
+  },
+  {
+   "number": 14124,
+   "title": "Change of loading counter of installed packages in `bun install`",
+   "url": "https://github.com/oven-sh/bun/issues/14124",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2026-08-04T23:41:25Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #34255 by @thaiiko is already open against this issue",
+   "evidence": [
+    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/oven-sh/bun/pull/34255"
+   ]
+  },
+  {
+   "number": 14498,
+   "title": "`undici.Agent` is missing `async close()` method",
+   "url": "https://github.com/oven-sh/bun/issues/14498",
+   "labels": [
+    "bug",
+    "good first issue",
+    "confirmed bug"
+   ],
+   "updatedAt": "2026-08-04T23:40:40Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #35145 by @robobun is already open against this issue",
+   "evidence": [
+    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/oven-sh/bun/pull/35145",
+    "https://github.com/oven-sh/bun/pull/36102",
+    "https://github.com/oven-sh/bun/pull/39250",
+    "https://github.com/oven-sh/bun/pull/40206",
+    "https://github.com/oven-sh/bun/pull/46528"
+   ]
+  },
+  {
+   "number": 15087,
+   "title": "Implement case-changing utility methods",
+   "url": "https://github.com/oven-sh/bun/issues/15087",
+   "labels": [
+    "tracking",
+    "bun.js",
+    "good first issue"
+   ],
+   "updatedAt": "2026-08-04T23:39:37Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #48414 by @phon-t is already open against this issue",
+   "evidence": [
+    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/oven-sh/bun/pull/48414",
+    "https://github.com/oven-sh/bun/pull/45304"
+   ]
+  },
+  {
+   "number": 17507,
+   "title": "DevServer: de-emphasize frames from node modules in stack traces",
+   "url": "https://github.com/oven-sh/bun/issues/17507",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "bake:dev"
+   ],
+   "updatedAt": "2026-10-28T16:12:13Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #40326 by @yiheng-kkk is already open against this issue",
+   "evidence": [
+    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/oven-sh/bun/pull/40326"
+   ]
+  },
+  {
+   "number": 17799,
+   "title": "Remove the undici polyfill",
+   "url": "https://github.com/oven-sh/bun/issues/17799",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2026-11-07T19:19:13Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #13032 by @geminigeek is already open against this issue",
+   "evidence": [
+    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/payloadcms/payload/pull/13032",
+    "https://github.com/oven-sh/bun/pull/36102",
+    "https://github.com/oven-sh/bun/pull/39360",
+    "https://github.com/oven-sh/bun/pull/40206",
+    "https://github.com/oven-sh/bun/pull/39965",
+    "https://github.com/payloadcms/payload/pull/12622",
+    "https://github.com/app-vitals/shipwright/pull/3017",
+    "https://github.com/Rackbops/rackbops-discord-bot/pull/618"
+   ]
+  },
+  {
+   "number": 17855,
+   "title": "Bun installs Fish completions to an inconvienient directory",
+   "url": "https://github.com/oven-sh/bun/issues/17855",
+   "labels": [
+    "bug",
+    "good first issue",
+    "cli"
+   ],
+   "updatedAt": "2026-10-27T04:45:24Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #18979 by @vscncls is already open against this issue",
+   "evidence": [
+    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/oven-sh/bun/pull/18979",
+    "https://github.com/oven-sh/bun/pull/44152"
+   ]
+  },
+  {
+   "number": 18017,
+   "title": "HMR suffixes component function names with a number",
+   "url": "https://github.com/oven-sh/bun/issues/18017",
+   "labels": [
+    "bug",
+    "good first issue",
+    "bake:dev"
+   ],
+   "updatedAt": "2025-11-25T01:44:01Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #47422 by @robobun is already open against this issue",
+   "evidence": [
+    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/oven-sh/bun/pull/47422"
+   ]
+  },
+  {
+   "number": 18324,
+   "title": "Async generator function are not properly identified in console.log",
+   "url": "https://github.com/oven-sh/bun/issues/18324",
+   "labels": [
+    "bug",
+    "good first issue",
+    "console"
+   ],
+   "updatedAt": "2026-09-01T06:40:40Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #36514 by @robobun is already open against this issue",
+   "evidence": [
+    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/oven-sh/bun/pull/36514",
+    "https://github.com/oven-sh/bun/pull/47861",
+    "https://github.com/oven-sh/bun/pull/31169",
+    "https://github.com/oven-sh/bun/pull/32105"
+   ]
+  },
+  {
+   "number": 19952,
+   "title": "console.trace() goes to stdout instead of stderr",
+   "url": "https://github.com/oven-sh/bun/issues/19952",
+   "labels": [
+    "bug",
+    "good first issue",
+    "console",
+    "confirmed bug"
+   ],
+   "updatedAt": "2026-09-05T20:37:01Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #16 by @PermaShip is already open against this issue",
+   "evidence": [
+    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/PermaShip/bun/pull/16",
+    "https://github.com/oven-sh/bun/pull/32638",
+    "https://github.com/oven-sh/bun/pull/37128",
+    "https://github.com/juliopolycarpo/mangostudio/pull/769"
+   ]
+  },
+  {
+   "number": 19953,
+   "title": "console.assert() with message should include \"Assertion failed\" alongside message",
+   "url": "https://github.com/oven-sh/bun/issues/19953",
+   "labels": [
+    "bug",
+    "good first issue",
+    "console",
+    "confirmed bug"
+   ],
+   "updatedAt": "2026-09-01T07:34:13Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #31716 by @robobun is already open against this issue",
+   "evidence": [
+    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/oven-sh/bun/pull/31716",
+    "https://github.com/oven-sh/bun/pull/37128",
+    "https://github.com/oven-sh/bun/pull/44950"
+   ]
+  },
+  {
+   "number": 21361,
+   "title": "Misleading error message \"URL must not be a blank string\" when URL is a non-string value which does not stringify to a fully valid URL with a hostname",
+   "url": "https://github.com/oven-sh/bun/issues/21361",
+   "labels": [
+    "bug",
+    "good first issue",
+    "web:fetch",
+    "confirmed bug"
+   ],
+   "updatedAt": "2026-09-19T01:21:37Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #43389 by @TastyHeadphones is already open against this issue",
+   "evidence": [
+    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/oven-sh/bun/pull/43389",
+    "https://github.com/oven-sh/bun/pull/46528"
+   ]
+  },
+  {
+   "number": 21528,
+   "title": "print AggregateError more distinctly",
+   "url": "https://github.com/oven-sh/bun/issues/21528",
+   "labels": [
+    "bug",
+    "good first issue",
+    "console",
+    "confirmed bug"
+   ],
+   "updatedAt": "2026-09-29T14:10:19Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #895 by @robobun is already open against this issue",
+   "evidence": [
+    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/oven-sh/WebKit/pull/895",
+    "https://github.com/oven-sh/bun/pull/38278",
+    "https://github.com/oven-sh/bun/pull/47114",
+    "https://github.com/oven-sh/bun/pull/47290"
+   ]
+  },
+  {
+   "number": 23898,
+   "title": "Error when importing ```findPackageJSON``` method from ```node:module```",
+   "url": "https://github.com/oven-sh/bun/issues/23898",
+   "labels": [
+    "bug",
+    "good first issue",
+    "node:module",
+    "confirmed bug"
+   ],
+   "updatedAt": "2026-09-01T06:40:19Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #37947 by @robobun is already open against this issue",
+   "evidence": [
+    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/oven-sh/bun/pull/37947",
+    "https://github.com/Queep-It/landing-website/pull/3"
+   ]
+  }
+ ]
+}

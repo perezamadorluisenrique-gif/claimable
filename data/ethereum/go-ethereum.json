@@ -1,0 +1,116 @@
+{
+ "owner": "ethereum",
+ "repo": "go-ethereum",
+ "language": "Go",
+ "stars": 51472,
+ "description": "Go implementation of the Ethereum protocol",
+ "visitedAt": "2026-11-11T22:03:46.308Z",
+ "issues": [
+  {
+   "number": 16874,
+   "title": "geth takes over an hour to start with a lot of keys in the keystore",
+   "url": "https://github.com/ethereum/go-ethereum/issues/16874",
+   "labels": [
+    "type:feature",
+    "help wanted"
+   ],
+   "updatedAt": "2025-10-04T14:16:22Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #32757 by @AlexanderYastrebov is already open against this issue",
+   "evidence": [
+    "https://github.com/ethereum/go-ethereum/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ethereum/go-ethereum/pull/32757"
+   ]
+  },
+  {
+   "number": 20363,
+   "title": "Make `clef` scalable",
+   "url": "https://github.com/ethereum/go-ethereum/issues/20363",
+   "labels": [
+    "type:feature",
+    "help wanted"
+   ],
+   "updatedAt": "2025-01-31T21:39:07Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #1 by @willianpaixao is already open against this issue",
+   "evidence": [
+    "https://github.com/ethereum/go-ethereum/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/willianpaixao/go-ethereum/pull/1"
+   ]
+  },
+  {
+   "number": 20593,
+   "title": "Feature Request: A query that returns the most recent event for a given filter.",
+   "url": "https://github.com/ethereum/go-ethereum/issues/20593",
+   "labels": [
+    "type:feature",
+    "help wanted"
+   ],
+   "updatedAt": "2022-05-02T06:41:45Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.soliditylang.org/en/develop/abi-spec.html) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/ethereum/go-ethereum/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ethereum/go-ethereum/issues/20593",
+    "https://github.com/ethereum/go-ethereum/blob/HEAD/README.md",
+    "https://docs.soliditylang.org/en/develop/abi-spec.html",
+    "https://github.com/ethereum/go-ethereum/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 28222,
+   "title": "Geth should handle genesis block with default syncmode",
+   "url": "https://github.com/ethereum/go-ethereum/issues/28222",
+   "labels": [
+    "type:bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-08-16T20:20:45Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #35567 by @SakeyJakey is already open against this issue",
+   "evidence": [
+    "https://github.com/ethereum/go-ethereum/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ethereum/go-ethereum/pull/35567",
+    "https://github.com/ethereum/go-ethereum/pull/36037"
+   ]
+  },
+  {
+   "number": 28838,
+   "title": "eth_getFilterChanges returns empty output",
+   "url": "https://github.com/ethereum/go-ethereum/issues/28838",
+   "labels": [
+    "type:bug",
+    "help wanted"
+   ],
+   "updatedAt": "2024-03-17T02:42:39Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #35381 by @DHRUVILPATEL2303 is already open against this issue",
+   "evidence": [
+    "https://github.com/ethereum/go-ethereum/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ethereum/go-ethereum/pull/35381"
+   ]
+  },
+  {
+   "number": 35354,
+   "title": "Syncing archive node from era files",
+   "url": "https://github.com/ethereum/go-ethereum/issues/35354",
+   "labels": [
+    "type:feature",
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-08T16:32:43Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #33809 by @s1na is already open against this issue",
+   "evidence": [
+    "https://github.com/ethereum/go-ethereum/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ethereum/go-ethereum/issues/33809"
+   ]
+  }
+ ]
+}

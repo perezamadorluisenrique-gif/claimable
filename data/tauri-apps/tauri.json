@@ -1,0 +1,416 @@
+{
+ "owner": "tauri-apps",
+ "repo": "tauri",
+ "language": "Rust",
+ "stars": 112671,
+ "description": "Build smaller, faster, and more secure desktop and mobile applications with a web frontend.",
+ "visitedAt": "2026-11-11T22:03:46.308Z",
+ "issues": [
+  {
+   "number": 64,
+   "title": "Actually use security framework",
+   "url": "https://github.com/tauri-apps/tauri/issues/64",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-04-13T09:56:52Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "2 stale claims, the most recent by @mkdev5 255 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/tauri-apps/tauri/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/tauri-apps/tauri/issues/64#issuecomment-3983211154",
+    "https://github.com/tauri-apps/tauri/issues/64",
+    "https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits",
+    "https://github.com/tauri-apps/tauri/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2486,
+   "title": "[Windows] Trojan alert from windows defender and other anti-virus providers",
+   "url": "https://github.com/tauri-apps/tauri/issues/2486",
+   "labels": [
+    "type: bug",
+    "help wanted",
+    "platform: Windows"
+   ],
+   "updatedAt": "2026-04-16T17:23:34Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @jimhigson 387 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/tauri-apps/tauri/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/tauri-apps/tauri/issues/2486#issuecomment-3424935636",
+    "https://github.com/tauri-apps/tauri/issues/2486",
+    "https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits",
+    "https://github.com/tauri-apps/tauri/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 6199,
+   "title": "[bug] Crashing app appearance after Windows Remote Desktop connection",
+   "url": "https://github.com/tauri-apps/tauri/issues/6199",
+   "labels": [
+    "type: bug",
+    "help wanted",
+    "platform: Windows",
+    "status: needs triage"
+   ],
+   "updatedAt": "2024-12-05T13:16:28Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "labelled `status: needs triage` — scope may not be settled yet (+1 more)",
+   "evidence": [
+    "https://github.com/tauri-apps/tauri/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/tauri-apps/tauri/issues/6199",
+    "https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits",
+    "https://github.com/tauri-apps/tauri/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 6200,
+   "title": "[bug] Lag/inertia in appimage's scroll, not in binary's",
+   "url": "https://github.com/tauri-apps/tauri/issues/6200",
+   "labels": [
+    "type: bug",
+    "help wanted",
+    "platform: Linux",
+    "status: needs triage"
+   ],
+   "updatedAt": "2026-03-17T14:43:52Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "PR #32 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+3 more)",
+   "evidence": [
+    "https://github.com/tauri-apps/tauri/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/fridzema/oxide-dock/pull/32",
+    "https://github.com/tauri-apps/tauri/issues/6200",
+    "https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits",
+    "https://github.com/tauri-apps/tauri/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 7068,
+   "title": "[feat] MacOSX Support for tauri-driver",
+   "url": "https://github.com/tauri-apps/tauri/issues/7068",
+   "labels": [
+    "help wanted",
+    "type: feature request",
+    "platform: macOS"
+   ],
+   "updatedAt": "2026-03-30T19:15:20Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #15295 by @MukundaKatta is already open against this issue",
+   "evidence": [
+    "https://github.com/tauri-apps/tauri/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/tauri-apps/tauri/pull/15295",
+    "https://github.com/armaxri/termiHub/pull/174",
+    "https://github.com/srsholmes/tauri-playwright/pull/1",
+    "https://github.com/piconic-ai/peitho-studio/pull/56"
+   ]
+  },
+  {
+   "number": 7287,
+   "title": "[feat] Add support for Huawei WebView / HarmonyOS",
+   "url": "https://github.com/tauri-apps/tauri/issues/7287",
+   "labels": [
+    "help wanted",
+    "type: feature request"
+   ],
+   "updatedAt": "2026-11-05T03:17:19Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #16171 by @LeenHawk is already open against this issue",
+   "evidence": [
+    "https://github.com/tauri-apps/tauri/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/tauri-apps/tauri/pull/16171",
+    "https://github.com/tauri-apps/wry/pull/1607"
+   ]
+  },
+  {
+   "number": 10478,
+   "title": "v2 requiring an instance of App, AppHandle or Window to get access to path functions like home_dir()",
+   "url": "https://github.com/tauri-apps/tauri/issues/10478",
+   "labels": [
+    "type: documentation",
+    "help wanted"
+   ],
+   "updatedAt": "2025-06-18T13:12:10Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #15770 by @Hushlor is already open against this issue",
+   "evidence": [
+    "https://github.com/tauri-apps/tauri/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/tauri-apps/tauri/pull/15770",
+    "https://github.com/tauri-apps/tauri/pull/11455",
+    "https://github.com/niftymonkey/champ-sage/pull/44",
+    "https://github.com/skevetter/devpod/pull/659"
+   ]
+  },
+  {
+   "number": 10492,
+   "title": "[bug] ",
+   "url": "https://github.com/tauri-apps/tauri/issues/10492",
+   "labels": [
+    "type: bug",
+    "help wanted",
+    "status: needs triage"
+   ],
+   "updatedAt": "2024-10-11T18:29:12Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "labelled `status: needs triage` — scope may not be settled yet (+1 more)",
+   "evidence": [
+    "https://github.com/tauri-apps/tauri/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/tauri-apps/tauri/issues/10492",
+    "https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits"
+   ]
+  },
+  {
+   "number": 11612,
+   "title": "[bug] Error loading docs.google.com in a webview",
+   "url": "https://github.com/tauri-apps/tauri/issues/11612",
+   "labels": [
+    "type: bug",
+    "help wanted",
+    "status: needs triage"
+   ],
+   "updatedAt": "2026-05-19T09:55:15Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "labelled `status: needs triage` — scope may not be settled yet (+2 more)",
+   "evidence": [
+    "https://github.com/tauri-apps/tauri/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/tauri-apps/tauri/issues/11612",
+    "https://github.com/tauri-apps/tauri/issues/11612#issuecomment-4445064564",
+    "https://docs.google.com/document/u/0/create",
+    "https://github.com/tauri-apps/tauri/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 11860,
+   "title": "[bug] Building of the tonic crate (added as a dependency) fails the running cargo tauri dev due to failed to build archive: Operation not permitted",
+   "url": "https://github.com/tauri-apps/tauri/issues/11860",
+   "labels": [
+    "type: bug",
+    "help wanted",
+    "platform: macOS",
+    "status: needs triage"
+   ],
+   "updatedAt": "2024-12-05T10:13:51Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "labelled `status: needs triage` — scope may not be settled yet (+1 more)",
+   "evidence": [
+    "https://github.com/tauri-apps/tauri/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/tauri-apps/tauri/issues/11860",
+    "https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits",
+    "https://github.com/tauri-apps/tauri/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 11997,
+   "title": "[bug]  Error failed to bundle project: error running appimage.sh",
+   "url": "https://github.com/tauri-apps/tauri/issues/11997",
+   "labels": [
+    "type: bug",
+    "help wanted",
+    "platform: Linux",
+    "status: needs triage"
+   ],
+   "updatedAt": "2025-01-30T17:04:09Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "labelled `status: needs triage` — scope may not be settled yet (+1 more)",
+   "evidence": [
+    "https://github.com/tauri-apps/tauri/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/tauri-apps/tauri/issues/11997",
+    "https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits"
+   ]
+  },
+  {
+   "number": 12296,
+   "title": "[bug] Alpine build error",
+   "url": "https://github.com/tauri-apps/tauri/issues/12296",
+   "labels": [
+    "type: bug",
+    "help wanted",
+    "platform: Linux",
+    "status: needs triage"
+   ],
+   "updatedAt": "2025-03-07T13:59:53Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "labelled `status: needs triage` — scope may not be settled yet (+1 more)",
+   "evidence": [
+    "https://github.com/tauri-apps/tauri/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/tauri-apps/tauri/issues/12296",
+    "https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits"
+   ]
+  },
+  {
+   "number": 12562,
+   "title": "Upgrade `tauri-runtime` to `gtk4-rs`",
+   "url": "https://github.com/tauri-apps/tauri/issues/12562",
+   "labels": [
+    "help wanted",
+    "platform: Linux"
+   ],
+   "updatedAt": "2025-12-21T21:50:05Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #14684 by @rmakestrash-jpg is already open against this issue",
+   "evidence": [
+    "https://github.com/tauri-apps/tauri/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/tauri-apps/tauri/pull/14684",
+    "https://github.com/ContextualWisdomLab/bandscope/pull/162",
+    "https://github.com/PrivonFoundation/PrivonVault/pull/75",
+    "https://github.com/MaplePrivacyLabs/Maple/pull/824"
+   ]
+  },
+  {
+   "number": 12634,
+   "title": "[feat] Ability to set Android app as launcher/kiosk mode",
+   "url": "https://github.com/tauri-apps/tauri/issues/12634",
+   "labels": [
+    "help wanted",
+    "type: feature request",
+    "platform: Android"
+   ],
+   "updatedAt": "2025-08-31T12:30:02Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #15453 by @ebrevdo is already open against this issue",
+   "evidence": [
+    "https://github.com/tauri-apps/tauri/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/tauri-apps/tauri/issues/15453"
+   ]
+  },
+  {
+   "number": 13134,
+   "title": "[feat] Make borders optional instead of binding shadows",
+   "url": "https://github.com/tauri-apps/tauri/issues/13134",
+   "labels": [
+    "help wanted",
+    "type: feature request",
+    "priority: 3 low",
+    "platform: Windows"
+   ],
+   "updatedAt": "2026-10-15T03:23:10Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #14293 by @chen-zeong is already open against this issue",
+   "evidence": [
+    "https://github.com/tauri-apps/tauri/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/tauri-apps/tauri/pull/14293",
+    "https://github.com/yuh-G/rikkahub-desktop/pull/76",
+    "https://github.com/tauri-apps/tao/pull/1415",
+    "https://github.com/jacksonkasi1/clipmo/pull/2",
+    "https://github.com/readest/readest/pull/6362",
+    "https://github.com/readest/readest/pull/6399"
+   ]
+  },
+  {
+   "number": 14154,
+   "title": "[bug] The asynchronous command is re-invoked when the WebView reloads.",
+   "url": "https://github.com/tauri-apps/tauri/issues/14154",
+   "labels": [
+    "type: bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-07-27T01:51:37Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #15881 by @namdamdoi68-oss is already open against this issue",
+   "evidence": [
+    "https://github.com/tauri-apps/tauri/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/tauri-apps/tauri/pull/15881"
+   ]
+  },
+  {
+   "number": 15269,
+   "title": "[bug] [Windows] Task Manager child window icons are severely corrupted (Win11)",
+   "url": "https://github.com/tauri-apps/tauri/issues/15269",
+   "labels": [
+    "type: bug",
+    "help wanted",
+    "platform: Windows"
+   ],
+   "updatedAt": "2026-10-28T07:55:16Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #1404 by @Legend-Master is already open against this issue",
+   "evidence": [
+    "https://github.com/tauri-apps/tauri/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/tauri-apps/tao/pull/1404"
+   ]
+  },
+  {
+   "number": 15330,
+   "title": "[bug] Page scroll jumps on every keystroke when typing RTL text with spaces",
+   "url": "https://github.com/tauri-apps/tauri/issues/15330",
+   "labels": [
+    "type: bug",
+    "help wanted",
+    "platform: macOS",
+    "status: needs triage"
+   ],
+   "updatedAt": "2026-07-10T22:01:33Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "labelled `status: needs triage` — scope may not be settled yet (+1 more)",
+   "evidence": [
+    "https://github.com/tauri-apps/tauri/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/tauri-apps/tauri/issues/15330",
+    "https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits",
+    "https://github.com/tauri-apps/tauri/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 15408,
+   "title": "[bug] WebView2 custom protocol can clone DispatcherMainThreadContext off the main thread",
+   "url": "https://github.com/tauri-apps/tauri/issues/15408",
+   "labels": [
+    "type: bug",
+    "help wanted",
+    "priority: 1 high",
+    "platform: Windows"
+   ],
+   "updatedAt": "2026-10-10T11:03:09Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #15411 by @Legend-Master is already open against this issue",
+   "evidence": [
+    "https://github.com/tauri-apps/tauri/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/tauri-apps/tauri/pull/15411",
+    "https://github.com/UtkarshBhardwaj007/murmur/pull/4",
+    "https://github.com/guoyongchang/worktree-manager/pull/55",
+    "https://github.com/MERURUXD/oc-claw/pull/88",
+    "https://github.com/safing/portmaster/pull/2281",
+    "https://github.com/NeuralNomadsAI/CodeNomad/pull/996"
+   ]
+  },
+  {
+   "number": 16434,
+   "title": "macOS title bar height and appearance change when entering/exiting fullscreen",
+   "url": "https://github.com/tauri-apps/tauri/issues/16434",
+   "labels": [
+    "type: bug",
+    "help wanted",
+    "platform: macOS",
+    "status: needs triage"
+   ],
+   "updatedAt": "2026-11-05T02:53:29Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "labelled `status: needs triage` — scope may not be settled yet (+1 more)",
+   "evidence": [
+    "https://github.com/tauri-apps/tauri/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/tauri-apps/tauri/issues/16434",
+    "https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits",
+    "https://github.com/tauri-apps/tauri/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  }
+ ]
+}

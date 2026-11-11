@@ -1,0 +1,118 @@
+{
+ "owner": "sharkdp",
+ "repo": "bat",
+ "language": "Rust",
+ "stars": 61276,
+ "description": "A cat(1) clone with wings.",
+ "visitedAt": "2026-11-11T22:03:46.308Z",
+ "issues": [
+  {
+   "number": 304,
+   "title": "Moving to the end of 6 Mb file takes forever",
+   "url": "https://github.com/sharkdp/bat/issues/304",
+   "labels": [
+    "help wanted",
+    "performance"
+   ],
+   "updatedAt": "2022-10-03T19:27:12Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "the project's own setup docs say they are broken: \"currently not supported\"",
+   "evidence": [
+    "https://github.com/sharkdp/bat/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/sharkdp/bat/issues/304",
+    "https://github.com/sharkdp/bat/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 1081,
+   "title": "--wrap unpaged",
+   "url": "https://github.com/sharkdp/bat/issues/1081",
+   "labels": [
+    "feature-request",
+    "good first issue"
+   ],
+   "updatedAt": "2022-09-30T04:49:28Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #3834 by @soy-chrislo is already open against this issue",
+   "evidence": [
+    "https://github.com/sharkdp/bat/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/sharkdp/bat/pull/3834"
+   ]
+  },
+  {
+   "number": 1341,
+   "title": "Custom fallback syntax opt-in",
+   "url": "https://github.com/sharkdp/bat/issues/1341",
+   "labels": [
+    "feature-request",
+    "good first issue"
+   ],
+   "updatedAt": "2026-07-08T17:19:44Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #1 by @scottallan is already open against this issue",
+   "evidence": [
+    "https://github.com/sharkdp/bat/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/scottallan/bat-weftra-pilot/pull/1",
+    "https://github.com/sharkdp/bat/pull/4074"
+   ]
+  },
+  {
+   "number": 1534,
+   "title": "Rust's async await is not highlighted correctly ",
+   "url": "https://github.com/sharkdp/bat/issues/1534",
+   "labels": [
+    "help wanted",
+    "syntax-request",
+    "syntax-highlighting"
+   ],
+   "updatedAt": "2026-08-20T16:15:43Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #3892 by @JMak-Security is already open against this issue",
+   "evidence": [
+    "https://github.com/sharkdp/bat/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/sharkdp/bat/pull/3892"
+   ]
+  },
+  {
+   "number": 1618,
+   "title": "--list-themes + BAT_OPTS can be problematic",
+   "url": "https://github.com/sharkdp/bat/issues/1618",
+   "labels": [
+    "bug",
+    "good first issue"
+   ],
+   "updatedAt": "2026-07-26T17:25:57Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #3739 by @mkslzk is already open against this issue",
+   "evidence": [
+    "https://github.com/sharkdp/bat/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/sharkdp/bat/pull/3739",
+    "https://github.com/sharkdp/bat/pull/3859",
+    "https://github.com/sharkdp/bat/pull/3880",
+    "https://github.com/sharkdp/bat/pull/4072"
+   ]
+  },
+  {
+   "number": 1948,
+   "title": "Clarify supported custom theme formats",
+   "url": "https://github.com/sharkdp/bat/issues/1948",
+   "labels": [
+    "help wanted",
+    "documentation"
+   ],
+   "updatedAt": "2026-07-31T21:11:55Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4016 by @MeowdyAGENT is already open against this issue",
+   "evidence": [
+    "https://github.com/sharkdp/bat/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/sharkdp/bat/pull/4016"
+   ]
+  }
+ ]
+}

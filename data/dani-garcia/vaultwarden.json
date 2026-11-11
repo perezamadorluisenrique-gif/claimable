@@ -1,0 +1,30 @@
+{
+ "owner": "dani-garcia",
+ "repo": "vaultwarden",
+ "language": "Rust",
+ "stars": 70528,
+ "description": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
+ "visitedAt": "2026-11-11T22:03:46.308Z",
+ "issues": [
+  {
+   "number": 246,
+   "title": "[META] Feature Requests",
+   "url": "https://github.com/dani-garcia/vaultwarden/issues/246",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "notes"
+   ],
+   "updatedAt": "2025-12-20T18:59:32Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "PR #254 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/dani-garcia/vaultwarden/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dani-garcia/vaultwarden/pull/254",
+    "https://github.com/dani-garcia/vaultwarden/issues/246",
+    "https://github.com/dani-garcia/vaultwarden/wiki/Syncing-users-from-LDAP"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1070 @@
+{
+ "owner": "astral-sh",
+ "repo": "uv",
+ "language": "Rust",
+ "stars": 91851,
+ "description": "An extremely fast Python package and project manager, written in Rust.",
+ "visitedAt": "2026-11-11T22:03:46.308Z",
+ "issues": [
+  {
+   "number": 411,
+   "title": "Add support for a JSON output format for machine readable output throughout uv",
+   "url": "https://github.com/astral-sh/uv/issues/411",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "area:cli",
+    "tracking",
+    "area:json-output"
+   ],
+   "updatedAt": "2026-09-18T19:08:40Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #21831 by @woodruffw is already open against this issue",
+   "evidence": [
+    "https://github.com/astral-sh/uv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/astral-sh/uv/pull/21831",
+    "https://github.com/astral-sh/uv/pull/10596"
+   ]
+  },
+  {
+   "number": 878,
+   "title": "Slow tests",
+   "url": "https://github.com/astral-sh/uv/issues/878",
+   "labels": [
+    "help wanted",
+    "internal",
+    "tracking"
+   ],
+   "updatedAt": "2025-12-02T09:54:04Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "PR #900 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+4 more)",
+   "evidence": [
+    "https://github.com/astral-sh/uv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/astral-sh/uv/pull/900",
+    "https://github.com/astral-sh/uv/pull/901",
+    "https://github.com/astral-sh/uv/pull/1295",
+    "https://github.com/astral-sh/uv/pull/10647",
+    "https://github.com/astral-sh/uv/issues/878",
+    "https://github.com/astral-sh/uv/blob/HEAD/CONTRIBUTING.md",
+    "https://trio.readthedocs.io/\">Trio</a>'s"
+   ]
+  },
+  {
+   "number": 2048,
+   "title": "Test coverage for retrieval of git credentials from the helper",
+   "url": "https://github.com/astral-sh/uv/issues/2048",
+   "labels": [
+    "help wanted",
+    "internal:testing"
+   ],
+   "updatedAt": "2024-02-29T02:34:53Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #1088 by @zaniebot is already open against this issue",
+   "evidence": [
+    "https://github.com/astral-sh/uv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/astral-sh/uv-dev/pull/1088"
+   ]
+  },
+  {
+   "number": 2052,
+   "title": "Improve error message layout for wheel-build failures",
+   "url": "https://github.com/astral-sh/uv/issues/2052",
+   "labels": [
+    "help wanted",
+    "area:error-messages"
+   ],
+   "updatedAt": "2024-04-12T19:50:14Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "PR #2108 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/astral-sh/uv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/astral-sh/uv/pull/2108",
+    "https://github.com/astral-sh/uv/issues/2052",
+    "https://github.com/astral-sh/uv/blob/HEAD/CONTRIBUTING.md",
+    "https://trio.readthedocs.io/\">Trio</a>'s"
+   ]
+  },
+  {
+   "number": 2504,
+   "title": "Add system install test for pyenv shims",
+   "url": "https://github.com/astral-sh/uv/issues/2504",
+   "labels": [
+    "help wanted",
+    "internal:testing"
+   ],
+   "updatedAt": "2024-07-01T21:58:05Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "PR #2503 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/astral-sh/uv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/astral-sh/uv/pull/2503",
+    "https://github.com/astral-sh/uv/issues/2504",
+    "https://github.com/astral-sh/uv/blob/HEAD/CONTRIBUTING.md",
+    "https://trio.readthedocs.io/\">Trio</a>'s"
+   ]
+  },
+  {
+   "number": 3097,
+   "title": "Add strict command mode to `uv run`",
+   "url": "https://github.com/astral-sh/uv/issues/3097",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "needs-design"
+   ],
+   "updatedAt": "2025-02-18T15:20:36Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "labelled `needs-design` — the project is saying not to start",
+   "evidence": [
+    "https://github.com/astral-sh/uv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/astral-sh/uv/issues/3097"
+   ]
+  },
+  {
+   "number": 3644,
+   "title": "`pip compile --upgrade` behavior with yanked packages",
+   "url": "https://github.com/astral-sh/uv/issues/3644",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2024-08-16T14:52:46Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #1192 by @zaniebot is already open against this issue",
+   "evidence": [
+    "https://github.com/astral-sh/uv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/astral-sh/uv-dev/pull/1192"
+   ]
+  },
+  {
+   "number": 3709,
+   "title": "Add Windows unit test coverage to `uv-interpreter` discovery",
+   "url": "https://github.com/astral-sh/uv/issues/3709",
+   "labels": [
+    "help wanted",
+    "internal:testing",
+    "area:windows"
+   ],
+   "updatedAt": "2024-05-23T02:04:52Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "open 30 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/astral-sh/uv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/astral-sh/uv/issues/3709",
+    "https://github.com/astral-sh/uv/blob/HEAD/CONTRIBUTING.md",
+    "https://trio.readthedocs.io/\">Trio</a>'s"
+   ]
+  },
+  {
+   "number": 4130,
+   "title": "Add uv script to pyenv's pip-rehash",
+   "url": "https://github.com/astral-sh/uv/issues/4130",
+   "labels": [
+    "help wanted",
+    "compatibility"
+   ],
+   "updatedAt": "2026-09-19T13:18:23Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://trio.readthedocs.io/\">Trio</a>'s) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/astral-sh/uv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/astral-sh/uv/issues/4130",
+    "https://github.com/astral-sh/uv/blob/HEAD/CONTRIBUTING.md",
+    "https://trio.readthedocs.io/\">Trio</a>'s"
+   ]
+  },
+  {
+   "number": 4291,
+   "title": "Support `UV_ONLY_BINARY` and `UV_NO_BINARY` environment variables",
+   "url": "https://github.com/astral-sh/uv/issues/4291",
+   "labels": [
+    "help wanted",
+    "area:configuration"
+   ],
+   "updatedAt": "2026-07-09T22:59:43Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #20310 by @09Catho is already open against this issue",
+   "evidence": [
+    "https://github.com/astral-sh/uv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/astral-sh/uv/pull/20310",
+    "https://github.com/astral-sh/uv-dev/pull/141",
+    "https://github.com/astral-sh/uv/pull/11399"
+   ]
+  },
+  {
+   "number": 4389,
+   "title": "Clearer output on index strategy, determined source index and indexes being queried for uv pip install <package>",
+   "url": "https://github.com/astral-sh/uv/issues/4389",
+   "labels": [
+    "help wanted",
+    "area:error-messages"
+   ],
+   "updatedAt": "2024-06-21T09:53:46Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://trio.readthedocs.io/\">Trio</a>'s) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/astral-sh/uv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/astral-sh/uv/issues/4389",
+    "https://github.com/astral-sh/uv/blob/HEAD/CONTRIBUTING.md",
+    "https://trio.readthedocs.io/\">Trio</a>'s"
+   ]
+  },
+  {
+   "number": 4401,
+   "title": "Hint supported interpreter request formats on missing toolchain",
+   "url": "https://github.com/astral-sh/uv/issues/4401",
+   "labels": [
+    "help wanted",
+    "area:error-messages"
+   ],
+   "updatedAt": "2026-06-06T04:16:49Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #19698 by @ramaiyaKushal is already open against this issue",
+   "evidence": [
+    "https://github.com/astral-sh/uv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/astral-sh/uv/pull/19698"
+   ]
+  },
+  {
+   "number": 4710,
+   "title": "`uv pip tree` should display extras",
+   "url": "https://github.com/astral-sh/uv/issues/4710",
+   "labels": [
+    "help wanted",
+    "area:cli"
+   ],
+   "updatedAt": "2024-12-03T14:34:36Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "PR #4719 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/astral-sh/uv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/pybamm-team/PyBaMM/pull/4719",
+    "https://github.com/astral-sh/uv/issues/4710",
+    "https://github.com/astral-sh/uv/blob/HEAD/CONTRIBUTING.md",
+    "https://trio.readthedocs.io/\">Trio</a>'s"
+   ]
+  },
+  {
+   "number": 4731,
+   "title": "`uv tool` should support man pages",
+   "url": "https://github.com/astral-sh/uv/issues/4731",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-06T11:29:20Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #7171 by @eth3lbert is already open against this issue",
+   "evidence": [
+    "https://github.com/astral-sh/uv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/astral-sh/uv/pull/7171",
+    "https://github.com/kellyjonbrazil/jello/pull/74",
+    "https://github.com/ulif/diceware/pull/119",
+    "https://github.com/walles/px/pull/138",
+    "https://github.com/jarun/buku/pull/876",
+    "https://github.com/jayqi/git-janitor/pull/4"
+   ]
+  },
+  {
+   "number": 4824,
+   "title": "`--override` not supported by `uv run`",
+   "url": "https://github.com/astral-sh/uv/issues/4824",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "great writeup"
+   ],
+   "updatedAt": "2025-04-10T19:02:57Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #21771 by @Aniket-a14 is already open against this issue",
+   "evidence": [
+    "https://github.com/astral-sh/uv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/astral-sh/uv/pull/21771",
+    "https://github.com/astral-sh/uv/pull/4973",
+    "https://github.com/ptimizeroracle/ondine/pull/130"
+   ]
+  },
+  {
+   "number": 4907,
+   "title": "Add support for \"manual\" package indexes",
+   "url": "https://github.com/astral-sh/uv/issues/4907",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "compatibility"
+   ],
+   "updatedAt": "2024-11-27T17:36:14Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://trio.readthedocs.io/\">Trio</a>'s) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/astral-sh/uv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/astral-sh/uv/issues/4907",
+    "https://github.com/astral-sh/uv/blob/HEAD/CONTRIBUTING.md",
+    "https://trio.readthedocs.io/\">Trio</a>'s"
+   ]
+  },
+  {
+   "number": 5381,
+   "title": "Allow `uv add` sources to be specified outside of the requirement",
+   "url": "https://github.com/astral-sh/uv/issues/5381",
+   "labels": [
+    "help wanted",
+    "area:cli",
+    "tracking"
+   ],
+   "updatedAt": "2026-09-09T04:10:06Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #28 by @sergiocorato is already open against this issue",
+   "evidence": [
+    "https://github.com/astral-sh/uv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kenayagi/docker-odoo/pull/28"
+   ]
+  },
+  {
+   "number": 5698,
+   "title": "Use tabs for platform-specific commands in docs",
+   "url": "https://github.com/astral-sh/uv/issues/5698",
+   "labels": [
+    "documentation",
+    "help wanted"
+   ],
+   "updatedAt": "2026-06-27T10:27:36Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #1050 by @zaniebot is already open against this issue",
+   "evidence": [
+    "https://github.com/astral-sh/uv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/astral-sh/uv-dev/pull/1050",
+    "https://github.com/astral-sh/uv-dev/pull/1111",
+    "https://github.com/astral-sh/uv-dev/pull/1296",
+    "https://github.com/astral-sh/uv/pull/22934"
+   ]
+  },
+  {
+   "number": 5711,
+   "title": "Reduce build and check times",
+   "url": "https://github.com/astral-sh/uv/issues/5711",
+   "labels": [
+    "help wanted",
+    "tracking"
+   ],
+   "updatedAt": "2024-08-01T20:33:10Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "PR #7133 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/astral-sh/uv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/astral-sh/uv/pull/7133",
+    "https://github.com/astral-sh/uv/issues/5711",
+    "https://github.com/astral-sh/uv/blob/HEAD/CONTRIBUTING.md",
+    "https://trio.readthedocs.io/\">Trio</a>'s"
+   ]
+  },
+  {
+   "number": 5731,
+   "title": "uv cache size limit",
+   "url": "https://github.com/astral-sh/uv/issues/5731",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "area:cache",
+    "needs-design"
+   ],
+   "updatedAt": "2026-10-12T15:15:10Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "labelled `needs-design` — the project is saying not to start",
+   "evidence": [
+    "https://github.com/astral-sh/uv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/astral-sh/uv/pull/5757",
+    "https://github.com/astral-sh/uv/issues/5731"
+   ]
+  },
+  {
+   "number": 5852,
+   "title": "Default indentation of dependencies in `pyproject.toml`",
+   "url": "https://github.com/astral-sh/uv/issues/5852",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2026-03-18T15:46:03Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #16006 by @browniebroke is already open against this issue",
+   "evidence": [
+    "https://github.com/astral-sh/uv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/astral-sh/uv/pull/16006",
+    "https://github.com/cookiecutter/cookiecutter-django/pull/6074"
+   ]
+  },
+  {
+   "number": 5939,
+   "title": "Add test coverage for `uv python` using proxy to serve dummy distributions",
+   "url": "https://github.com/astral-sh/uv/issues/5939",
+   "labels": [
+    "help wanted",
+    "internal:testing"
+   ],
+   "updatedAt": "2024-11-04T12:31:39Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #21278 by @PuvaanRaaj is already open against this issue",
+   "evidence": [
+    "https://github.com/astral-sh/uv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/astral-sh/uv/pull/21278",
+    "https://github.com/astral-sh/uv-dev/pull/1121"
+   ]
+  },
+  {
+   "number": 6365,
+   "title": "Add a `--suffix` option to `uv tool install`",
+   "url": "https://github.com/astral-sh/uv/issues/6365",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "area:uv-tool"
+   ],
+   "updatedAt": "2026-02-02T11:12:40Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #20370 by @charliermarsh is already open against this issue",
+   "evidence": [
+    "https://github.com/astral-sh/uv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/astral-sh/uv/pull/20370",
+    "https://github.com/astral-sh/uv/pull/21272",
+    "https://github.com/open-feature/python-sdk/pull/512"
+   ]
+  },
+  {
+   "number": 6418,
+   "title": "Add incremental resolution benchmark to codspeed",
+   "url": "https://github.com/astral-sh/uv/issues/6418",
+   "labels": [
+    "help wanted",
+    "performance"
+   ],
+   "updatedAt": "2026-01-09T10:48:19Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #1169 by @zaniebot is already open against this issue",
+   "evidence": [
+    "https://github.com/astral-sh/uv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/astral-sh/uv-dev/pull/1169"
+   ]
+  },
+  {
+   "number": 6506,
+   "title": "Add support for configuring python install dir with `UV_PYTHON_INSTALL_DIR` on `uv.toml`",
+   "url": "https://github.com/astral-sh/uv/issues/6506",
+   "labels": [
+    "help wanted",
+    "area:configuration"
+   ],
+   "updatedAt": "2025-09-14T13:57:55Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #20030 by @fzlzjerry is already open against this issue",
+   "evidence": [
+    "https://github.com/astral-sh/uv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/astral-sh/uv/pull/20030"
+   ]
+  },
+  {
+   "number": 7035,
+   "title": "Special case error message when build fails on a very old package version",
+   "url": "https://github.com/astral-sh/uv/issues/7035",
+   "labels": [
+    "help wanted",
+    "area:error-messages"
+   ],
+   "updatedAt": "2024-09-08T00:14:03Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #19673 by @SuryanshSS1011 is already open against this issue",
+   "evidence": [
+    "https://github.com/astral-sh/uv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/astral-sh/uv/pull/19673"
+   ]
+  },
+  {
+   "number": 8124,
+   "title": "[Feature] Allow setting no-editable in `pyproject.toml`",
+   "url": "https://github.com/astral-sh/uv/issues/8124",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2026-05-16T19:31:51Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #22354 by @rohanz is already open against this issue",
+   "evidence": [
+    "https://github.com/astral-sh/uv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/astral-sh/uv/pull/22354"
+   ]
+  },
+  {
+   "number": 8351,
+   "title": "Show tracing output on test failure",
+   "url": "https://github.com/astral-sh/uv/issues/8351",
+   "labels": [
+    "help wanted",
+    "internal",
+    "internal:testing"
+   ],
+   "updatedAt": "2024-10-18T23:48:58Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #11774 by @Choudhry18 is already open against this issue",
+   "evidence": [
+    "https://github.com/astral-sh/uv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/astral-sh/uv/pull/11774"
+   ]
+  },
+  {
+   "number": 8607,
+   "title": "Support `all-extras` configuration for `uv sync` command",
+   "url": "https://github.com/astral-sh/uv/issues/8607",
+   "labels": [
+    "help wanted",
+    "area:configuration"
+   ],
+   "updatedAt": "2026-08-10T00:56:29Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #12965 by @blueraft is already open against this issue",
+   "evidence": [
+    "https://github.com/astral-sh/uv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/astral-sh/uv/pull/12965",
+    "https://github.com/litestar-org/litestar/pull/3875",
+    "https://github.com/astral-sh/uv/pull/12964",
+    "https://github.com/pallets-eco/flask-admin/pull/2618",
+    "https://github.com/kitware-resonant/cookiecutter-resonant/pull/303",
+    "https://github.com/eval-hub/eval-hub-sdk/pull/82",
+    "https://github.com/ait-detectmate/DetectMateLibrary/pull/177",
+    "https://github.com/luxonis/luxonis-ml/pull/476",
+    "https://github.com/INCATools/ontology-access-kit/pull/929"
+   ]
+  },
+  {
+   "number": 8757,
+   "title": "`uvx` complains about non-existent `--with`",
+   "url": "https://github.com/astral-sh/uv/issues/8757",
+   "labels": [
+    "help wanted",
+    "area:error-messages"
+   ],
+   "updatedAt": "2026-07-20T03:35:39Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #20539 by @takerukondo is already open against this issue",
+   "evidence": [
+    "https://github.com/astral-sh/uv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/astral-sh/uv/pull/20539"
+   ]
+  },
+  {
+   "number": 9119,
+   "title": "Export uv benchmarks to pubgrub",
+   "url": "https://github.com/astral-sh/uv/issues/9119",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-08-24T23:05:26Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "open 24 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/astral-sh/uv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/astral-sh/uv/issues/9119",
+    "https://github.com/astral-sh/uv/blob/HEAD/CONTRIBUTING.md",
+    "https://trio.readthedocs.io/\">Trio</a>'s"
+   ]
+  },
+  {
+   "number": 9132,
+   "title": "Versioned documentation",
+   "url": "https://github.com/astral-sh/uv/issues/9132",
+   "labels": [
+    "documentation",
+    "help wanted"
+   ],
+   "updatedAt": "2024-11-14T21:20:51Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #13686 by @geofft is already open against this issue",
+   "evidence": [
+    "https://github.com/astral-sh/uv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/astral-sh/uv/issues/13686"
+   ]
+  },
+  {
+   "number": 9652,
+   "title": "Add `uv run --watch script.py` command to rerun `uv run` on `.py` file changes",
+   "url": "https://github.com/astral-sh/uv/issues/9652",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2026-03-02T14:35:56Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "PR #10781 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/astral-sh/uv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/astral-sh/uv/pull/10781",
+    "https://github.com/astral-sh/uv/issues/9652",
+    "https://github.com/astral-sh/uv/blob/HEAD/CONTRIBUTING.md",
+    "https://trio.readthedocs.io/\">Trio</a>'s"
+   ]
+  },
+  {
+   "number": 9790,
+   "title": "uv cache management strategies for always-growing caches?",
+   "url": "https://github.com/astral-sh/uv/issues/9790",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "area:cache",
+    "needs-design"
+   ],
+   "updatedAt": "2026-05-16T07:43:46Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "labelled `needs-design` — the project is saying not to start",
+   "evidence": [
+    "https://github.com/astral-sh/uv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/teng-lin/notebooklm-py/pull/437",
+    "https://github.com/astral-sh/uv/issues/9790"
+   ]
+  },
+  {
+   "number": 9850,
+   "title": "CLI Option to save logs to a file",
+   "url": "https://github.com/astral-sh/uv/issues/9850",
+   "labels": [
+    "help wanted",
+    "area:tracing",
+    "needs-design"
+   ],
+   "updatedAt": "2026-09-17T12:42:16Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #11762 by @Choudhry18 is already open against this issue",
+   "evidence": [
+    "https://github.com/astral-sh/uv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/astral-sh/uv/pull/11762",
+    "https://github.com/meltano/meltano/pull/9400"
+   ]
+  },
+  {
+   "number": 9871,
+   "title": "Add `uv self uninstall` command",
+   "url": "https://github.com/astral-sh/uv/issues/9871",
+   "labels": [
+    "help wanted",
+    "area:cli"
+   ],
+   "updatedAt": "2025-02-19T07:35:30Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #11613 by @loic-lescoat is already open against this issue",
+   "evidence": [
+    "https://github.com/astral-sh/uv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/astral-sh/uv/pull/11613",
+    "https://github.com/astral-sh/uv/pull/9938"
+   ]
+  },
+  {
+   "number": 9902,
+   "title": "Bug: ModuleNotFoundError related to venv uv_cache.json when store in iCloud",
+   "url": "https://github.com/astral-sh/uv/issues/9902",
+   "labels": [
+    "help wanted",
+    "needs-mre"
+   ],
+   "updatedAt": "2026-08-19T17:52:40Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #220 by @zaniebot is already open against this issue",
+   "evidence": [
+    "https://github.com/astral-sh/uv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/astral-sh/uv-dev/pull/220"
+   ]
+  },
+  {
+   "number": 10699,
+   "title": "Suggest `MACOSX_DEPLOYMENT_TARGET` in resolver platform tag hint",
+   "url": "https://github.com/astral-sh/uv/issues/10699",
+   "labels": [
+    "help wanted",
+    "area:error-messages"
+   ],
+   "updatedAt": "2025-05-27T03:53:19Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #11783 by @dcarrier is already open against this issue",
+   "evidence": [
+    "https://github.com/astral-sh/uv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/astral-sh/uv/pull/11783",
+    "https://github.com/astral-sh/uv/pull/16553"
+   ]
+  },
+  {
+   "number": 10895,
+   "title": "Detect if project directory was moved for venv reconstruction",
+   "url": "https://github.com/astral-sh/uv/issues/10895",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2025-02-26T10:02:49Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "PR #102 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/astral-sh/uv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/instrument-org/instrument/pull/102",
+    "https://github.com/kmgowda/sbk-charts/pull/10",
+    "https://github.com/astral-sh/uv/issues/10895",
+    "https://github.com/astral-sh/uv/blob/HEAD/CONTRIBUTING.md",
+    "https://trio.readthedocs.io/\">Trio</a>'s"
+   ]
+  },
+  {
+   "number": 11315,
+   "title": "Add `conda` environment support for `--active` flag",
+   "url": "https://github.com/astral-sh/uv/issues/11315",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2026-08-29T04:40:59Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #21365 by @caschb is already open against this issue",
+   "evidence": [
+    "https://github.com/astral-sh/uv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/astral-sh/uv/pull/21365"
+   ]
+  },
+  {
+   "number": 12142,
+   "title": "`uv self update` may leave uv unusable if interrupted",
+   "url": "https://github.com/astral-sh/uv/issues/12142",
+   "labels": [
+    "bug",
+    "help wanted",
+    "area:windows"
+   ],
+   "updatedAt": "2026-07-24T07:59:50Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @HuzaifaAbdulRehman 112 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/astral-sh/uv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/astral-sh/uv/issues/12142#issuecomment-5048746066",
+    "https://github.com/astral-sh/uv/issues/12142",
+    "https://github.com/astral-sh/uv/blob/HEAD/CONTRIBUTING.md",
+    "https://trio.readthedocs.io/\">Trio</a>'s"
+   ]
+  },
+  {
+   "number": 12244,
+   "title": "uv panics when resizing terminal window",
+   "url": "https://github.com/astral-sh/uv/issues/12244",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-06-25T21:36:54Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #18584 by @mvanhorn is already open against this issue",
+   "evidence": [
+    "https://github.com/astral-sh/uv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/astral-sh/uv/pull/18584"
+   ]
+  },
+  {
+   "number": 12988,
+   "title": "Improve UX when `uv add` or `uv sync` are run in a directory with no `pyproject.toml`",
+   "url": "https://github.com/astral-sh/uv/issues/12988",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "area:error-messages"
+   ],
+   "updatedAt": "2025-04-21T02:07:49Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #13021 by @eduardorittner is already open against this issue",
+   "evidence": [
+    "https://github.com/astral-sh/uv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/astral-sh/uv/pull/13021"
+   ]
+  },
+  {
+   "number": 13927,
+   "title": "Filter Python executables on Windows by Python version metadata",
+   "url": "https://github.com/astral-sh/uv/issues/13927",
+   "labels": [
+    "help wanted",
+    "performance",
+    "area:windows"
+   ],
+   "updatedAt": "2025-06-12T19:42:11Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #15479 by @sunfkny is already open against this issue",
+   "evidence": [
+    "https://github.com/astral-sh/uv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/astral-sh/uv/pull/15479",
+    "https://github.com/astral-sh/uv-dev/pull/1638"
+   ]
+  },
+  {
+   "number": 13992,
+   "title": "Improve error message on \"failed to spawn\" where the Python interpreter is missing",
+   "url": "https://github.com/astral-sh/uv/issues/13992",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "area:error-messages"
+   ],
+   "updatedAt": "2025-12-08T12:22:28Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #17233 by @mahiro0x00 is already open against this issue",
+   "evidence": [
+    "https://github.com/astral-sh/uv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/astral-sh/uv/pull/17233",
+    "https://github.com/astral-sh/uv/pull/20849"
+   ]
+  },
+  {
+   "number": 14483,
+   "title": "Support `--all-groups` for `uv pip install`",
+   "url": "https://github.com/astral-sh/uv/issues/14483",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2025-12-16T07:54:10Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #14789 by @charliermarsh is already open against this issue",
+   "evidence": [
+    "https://github.com/astral-sh/uv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/astral-sh/uv/pull/14789",
+    "https://github.com/whitphx/stlite/pull/1981"
+   ]
+  },
+  {
+   "number": 14584,
+   "title": "uv errors if the `pyproject.toml` is a directory",
+   "url": "https://github.com/astral-sh/uv/issues/14584",
+   "labels": [
+    "help wanted",
+    "area:error-messages"
+   ],
+   "updatedAt": "2026-02-13T18:59:34Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #19762 by @tyblue18 is already open against this issue",
+   "evidence": [
+    "https://github.com/astral-sh/uv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/astral-sh/uv/pull/19762"
+   ]
+  },
+  {
+   "number": 14720,
+   "title": "Move environment variable parsing to `EnvironmentOptions`",
+   "url": "https://github.com/astral-sh/uv/issues/14720",
+   "labels": [
+    "help wanted",
+    "internal"
+   ],
+   "updatedAt": "2026-09-16T15:13:54Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #15001 by @Zaloog is already open against this issue",
+   "evidence": [
+    "https://github.com/astral-sh/uv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/astral-sh/uv/pull/15001",
+    "https://github.com/astral-sh/uv/pull/16388",
+    "https://github.com/astral-sh/uv-dev/pull/1039",
+    "https://github.com/astral-sh/uv-dev/pull/1389",
+    "https://github.com/astral-sh/uv/pull/15937",
+    "https://github.com/astral-sh/uv/pull/16031",
+    "https://github.com/astral-sh/uv/pull/16040",
+    "https://github.com/astral-sh/uv/pull/16109",
+    "https://github.com/astral-sh/uv/pull/16223"
+   ]
+  },
+  {
+   "number": 15424,
+   "title": "`find_uv_bin_py314` times out on Windows",
+   "url": "https://github.com/astral-sh/uv/issues/15424",
+   "labels": [
+    "help wanted",
+    "internal:ci-flake"
+   ],
+   "updatedAt": "2026-10-29T22:36:16Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://trio.readthedocs.io/\">Trio</a>'s) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/astral-sh/uv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/astral-sh/uv/issues/15424",
+    "https://github.com/astral-sh/uv/blob/HEAD/CONTRIBUTING.md",
+    "https://trio.readthedocs.io/\">Trio</a>'s"
+   ]
+  },
+  {
+   "number": 15805,
+   "title": "A way to remove old Python versions",
+   "url": "https://github.com/astral-sh/uv/issues/15805",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2026-03-30T15:40:52Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #16018 by @yumeminami is already open against this issue",
+   "evidence": [
+    "https://github.com/astral-sh/uv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/astral-sh/uv/pull/16018",
+    "https://github.com/astral-sh/uv/pull/18770"
+   ]
+  },
+  {
+   "number": 15892,
+   "title": "`uv version --all-packages` option to bump all workspace members",
+   "url": "https://github.com/astral-sh/uv/issues/15892",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2026-01-23T09:49:52Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #15939 by @blueraft is already open against this issue",
+   "evidence": [
+    "https://github.com/astral-sh/uv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/astral-sh/uv/pull/15939",
+    "https://github.com/astral-sh/uv/pull/22467"
+   ]
+  },
+  {
+   "number": 15996,
+   "title": "Loop on `EINTR` on file lock acquisition",
+   "url": "https://github.com/astral-sh/uv/issues/15996",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-09-26T14:43:53Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #19388 by @RyanJamesStewart is already open against this issue",
+   "evidence": [
+    "https://github.com/astral-sh/uv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/astral-sh/uv/pull/19388",
+    "https://github.com/astral-sh/uv/pull/21495",
+    "https://github.com/astral-sh/uv/pull/15992"
+   ]
+  },
+  {
+   "number": 16192,
+   "title": "Show a better error when a uv lockfile is used in `-r`",
+   "url": "https://github.com/astral-sh/uv/issues/16192",
+   "labels": [
+    "help wanted",
+    "area:error-messages"
+   ],
+   "updatedAt": "2025-10-16T07:45:16Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #21933 by @LJimmy007 is already open against this issue",
+   "evidence": [
+    "https://github.com/astral-sh/uv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/astral-sh/uv/pull/21933",
+    "https://github.com/astral-sh/uv/pull/16889"
+   ]
+  },
+  {
+   "number": 16721,
+   "title": "Ensure all tests which install managed Python versions use the cache",
+   "url": "https://github.com/astral-sh/uv/issues/16721",
+   "labels": [
+    "help wanted",
+    "internal",
+    "internal:testing"
+   ],
+   "updatedAt": "2025-11-13T14:16:17Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://trio.readthedocs.io/\">Trio</a>'s) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/astral-sh/uv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/astral-sh/uv/issues/16721",
+    "https://github.com/astral-sh/uv/blob/HEAD/CONTRIBUTING.md",
+    "https://trio.readthedocs.io/\">Trio</a>'s"
+   ]
+  },
+  {
+   "number": 16963,
+   "title": "Add a hint when free-threaded selector is used in `requires-python`",
+   "url": "https://github.com/astral-sh/uv/issues/16963",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "area:error-messages"
+   ],
+   "updatedAt": "2025-12-08T19:24:26Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #17021 by @kxzk is already open against this issue",
+   "evidence": [
+    "https://github.com/astral-sh/uv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/astral-sh/uv/pull/17021",
+    "https://github.com/astral-sh/uv/pull/19647"
+   ]
+  },
+  {
+   "number": 17512,
+   "title": "Investigate why uv holds so many file handles open",
+   "url": "https://github.com/astral-sh/uv/issues/17512",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-09-22T14:06:16Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #17633 by @denyszhak is already open against this issue",
+   "evidence": [
+    "https://github.com/astral-sh/uv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/astral-sh/uv/pull/17633"
+   ]
+  }
+ ]
+}

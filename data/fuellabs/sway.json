@@ -1,0 +1,1037 @@
+{
+ "owner": "FuelLabs",
+ "repo": "sway",
+ "language": "Rust",
+ "stars": 61344,
+ "description": "🌴 Empowering everyone to build reliable and efficient smart contracts.",
+ "visitedAt": "2026-11-11T22:03:46.308Z",
+ "issues": [
+  {
+   "number": 687,
+   "title": "`forc fmt` should format manifest fields with rules similar to Cargo style guide",
+   "url": "https://github.com/FuelLabs/sway/issues/687",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "forc",
+    "formatter"
+   ],
+   "updatedAt": "2023-09-19T21:30:37Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.rs/forc/badge.svg) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/FuelLabs/sway/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/sway/issues/687",
+    "https://docs.rs/forc/badge.svg"
+   ]
+  },
+  {
+   "number": 810,
+   "title": "Allow use of `consts` in place of immediates in asm blocks",
+   "url": "https://github.com/FuelLabs/sway/issues/810",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "compiler",
+    "language feature",
+    "P: low",
+    "team:compiler"
+   ],
+   "updatedAt": "2025-02-10T13:33:12Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "PR #2315 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/FuelLabs/sway/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/sway/pull/2315",
+    "https://github.com/FuelLabs/sway/issues/810",
+    "https://docs.rs/forc/badge.svg"
+   ]
+  },
+  {
+   "number": 1085,
+   "title": "Improve testing for Auth module",
+   "url": "https://github.com/FuelLabs/sway/issues/1085",
+   "labels": [
+    "good first issue",
+    "lib: std",
+    "testing",
+    "P: high"
+   ],
+   "updatedAt": "2022-10-31T00:21:52Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.rs/forc/badge.svg) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/FuelLabs/sway/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/sway/issues/1085",
+    "https://docs.rs/forc/badge.svg"
+   ]
+  },
+  {
+   "number": 1136,
+   "title": "Add CI job to generate default Forc manifest and compare against a saved version",
+   "url": "https://github.com/FuelLabs/sway/issues/1136",
+   "labels": [
+    "good first issue",
+    "ci",
+    "The Sway Book"
+   ],
+   "updatedAt": "2022-04-04T13:20:06Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "PR #1194 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/FuelLabs/sway/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/sway/pull/1194",
+    "https://github.com/FuelLabs/sway/issues/1136",
+    "https://docs.rs/forc/badge.svg"
+   ]
+  },
+  {
+   "number": 1140,
+   "title": "Need an E2E test that calls a contract from another contract",
+   "url": "https://github.com/FuelLabs/sway/issues/1140",
+   "labels": [
+    "good first issue",
+    "testing",
+    "P: high"
+   ],
+   "updatedAt": "2022-04-12T18:12:28Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4600 by @vaivaswatha is already open against this issue",
+   "evidence": [
+    "https://github.com/FuelLabs/sway/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/sway/issues/4600"
+   ]
+  },
+  {
+   "number": 1216,
+   "title": "Add `forc plugins` command flag for outputting JSON or TOML for easier machine readability",
+   "url": "https://github.com/FuelLabs/sway/issues/1216",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "forc",
+    "P: low"
+   ],
+   "updatedAt": "2022-06-01T02:19:03Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4139 by @eureka-cpu is already open against this issue",
+   "evidence": [
+    "https://github.com/FuelLabs/sway/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/sway/issues/4139"
+   ]
+  },
+  {
+   "number": 1298,
+   "title": "Add `warning` for unused `import`s",
+   "url": "https://github.com/FuelLabs/sway/issues/1298",
+   "labels": [
+    "good first issue",
+    "P: low",
+    "compiler: ui",
+    "DCA",
+    "team:compiler",
+    "ODHack12"
+   ],
+   "updatedAt": "2025-04-24T11:57:06Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "7 stale claims, the most recent by @saimeunt 594 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/FuelLabs/sway/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/sway/issues/1298#issuecomment-2758462898",
+    "https://github.com/FuelLabs/sway/issues/1298",
+    "https://docs.rs/forc/badge.svg"
+   ]
+  },
+  {
+   "number": 1427,
+   "title": "Cleanup CI `.yml` using the matrix feature",
+   "url": "https://github.com/FuelLabs/sway/issues/1427",
+   "labels": [
+    "good first issue",
+    "ci"
+   ],
+   "updatedAt": "2022-05-06T17:48:11Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "already assigned to @ra0x3",
+   "evidence": [
+    "https://github.com/FuelLabs/sway/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/sway/pull/1409",
+    "https://github.com/FuelLabs/sway/issues/1427"
+   ]
+  },
+  {
+   "number": 1448,
+   "title": "Add CI builds for all other forc project types",
+   "url": "https://github.com/FuelLabs/sway/issues/1448",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "ci"
+   ],
+   "updatedAt": "2022-05-02T17:11:07Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "PR #1409 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/FuelLabs/sway/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/sway/pull/1409",
+    "https://github.com/FuelLabs/sway/issues/1448",
+    "https://docs.github.com/en/actions/using-jobs/using-a-matrix-for-your-jobs"
+   ]
+  },
+  {
+   "number": 1474,
+   "title": "Consider showing full output in `forc parse-bytecode` example",
+   "url": "https://github.com/FuelLabs/sway/issues/1474",
+   "labels": [
+    "good first issue",
+    "The Sway Book"
+   ],
+   "updatedAt": "2022-06-27T18:11:16Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "open 55 months with no human comment, in a repo pushed to 1 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/FuelLabs/sway/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/sway/issues/1474",
+    "https://docs.rs/forc/badge.svg"
+   ]
+  },
+  {
+   "number": 1564,
+   "title": "UTXO explanation needed in the Sway Book",
+   "url": "https://github.com/FuelLabs/sway/issues/1564",
+   "labels": [
+    "good first issue",
+    "The Sway Book"
+   ],
+   "updatedAt": "2022-05-20T12:21:35Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.rs/forc/badge.svg) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/FuelLabs/sway/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/sway/issues/1564",
+    "https://docs.rs/forc/badge.svg"
+   ]
+  },
+  {
+   "number": 1570,
+   "title": "Error handling section in the Sway book required",
+   "url": "https://github.com/FuelLabs/sway/issues/1570",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "The Sway Book"
+   ],
+   "updatedAt": "2022-05-17T13:29:08Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.rs/forc/badge.svg) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/FuelLabs/sway/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/sway/issues/1570",
+    "https://docs.rs/forc/badge.svg"
+   ]
+  },
+  {
+   "number": 1617,
+   "title": "`stdout`/`stderr` hidden when CI fails to build the mdbook",
+   "url": "https://github.com/FuelLabs/sway/issues/1617",
+   "labels": [
+    "bug",
+    "good first issue",
+    "ci"
+   ],
+   "updatedAt": "2023-09-04T23:22:44Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "PR #1614 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/FuelLabs/sway/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/sway/pull/1614",
+    "https://github.com/FuelLabs/sway/issues/1617",
+    "https://docs.rs/forc/badge.svg"
+   ]
+  },
+  {
+   "number": 1696,
+   "title": "Investigate the slowness in the `cargo-test-lib-std` phase of CI",
+   "url": "https://github.com/FuelLabs/sway/issues/1696",
+   "labels": [
+    "good first issue",
+    "ci",
+    "lib: std",
+    "testing"
+   ],
+   "updatedAt": "2022-06-01T00:48:16Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "PR #2972 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/FuelLabs/sway/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/sway/pull/2972",
+    "https://github.com/FuelLabs/sway/issues/1696",
+    "https://docs.rs/forc/badge.svg"
+   ]
+  },
+  {
+   "number": 1759,
+   "title": "Reorganizing sway-std-lib",
+   "url": "https://github.com/FuelLabs/sway/issues/1759",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "bikeshedding",
+    "lib: std",
+    "big"
+   ],
+   "updatedAt": "2024-04-05T02:21:46Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "PR #2285 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/FuelLabs/sway/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/sway/pull/2285",
+    "https://github.com/FuelLabs/sway/pull/3247",
+    "https://github.com/FuelLabs/sway/issues/1759",
+    "https://docs.rs/forc/badge.svg"
+   ]
+  },
+  {
+   "number": 1890,
+   "title": "Update the Sway Book to document the abbreviations for any `forc` commands.",
+   "url": "https://github.com/FuelLabs/sway/issues/1890",
+   "labels": [
+    "good first issue",
+    "The Sway Book"
+   ],
+   "updatedAt": "2022-06-07T15:26:11Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.rs/forc/badge.svg) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/FuelLabs/sway/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/sway/issues/1890",
+    "https://docs.rs/forc/badge.svg"
+   ]
+  },
+  {
+   "number": 1892,
+   "title": "Document the `const` keyword in the Sway Book",
+   "url": "https://github.com/FuelLabs/sway/issues/1892",
+   "labels": [
+    "good first issue",
+    "The Sway Book"
+   ],
+   "updatedAt": "2022-07-05T18:36:55Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.rs/forc/badge.svg) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/FuelLabs/sway/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/sway/issues/1892",
+    "https://docs.rs/forc/badge.svg"
+   ]
+  },
+  {
+   "number": 2128,
+   "title": "Document that suffix can be used to type integer literals",
+   "url": "https://github.com/FuelLabs/sway/issues/2128",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "The Sway Book"
+   ],
+   "updatedAt": "2022-06-27T17:47:50Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "open 53 months with no human comment, in a repo pushed to 1 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/FuelLabs/sway/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/sway/issues/2128",
+    "https://docs.rs/forc/badge.svg"
+   ]
+  },
+  {
+   "number": 2140,
+   "title": "Document operators",
+   "url": "https://github.com/FuelLabs/sway/issues/2140",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "The Sway Book"
+   ],
+   "updatedAt": "2022-06-28T12:45:51Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "open 53 months with no human comment, in a repo pushed to 1 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/FuelLabs/sway/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/sway/issues/2140",
+    "https://docs.rs/forc/badge.svg"
+   ]
+  },
+  {
+   "number": 2226,
+   "title": "The formatter should alphabetize `use` statements if they're not separated by an empty line",
+   "url": "https://github.com/FuelLabs/sway/issues/2226",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "formatter"
+   ],
+   "updatedAt": "2023-09-19T20:39:03Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "PR #2215 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/FuelLabs/sway/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/sway/pull/2215",
+    "https://github.com/FuelLabs/sway/pull/2295",
+    "https://github.com/FuelLabs/sway/issues/2226",
+    "https://docs.rs/forc/badge.svg"
+   ]
+  },
+  {
+   "number": 2228,
+   "title": "Expand the `evm` standard library test",
+   "url": "https://github.com/FuelLabs/sway/issues/2228",
+   "labels": [
+    "good first issue",
+    "lib: std",
+    "testing",
+    "EVM"
+   ],
+   "updatedAt": "2023-07-26T10:21:49Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "PR #2227 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/FuelLabs/sway/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/sway/pull/2227",
+    "https://github.com/FuelLabs/sway/issues/2228",
+    "https://docs.rs/forc/badge.svg"
+   ]
+  },
+  {
+   "number": 2473,
+   "title": "Subcurrency example possible changes",
+   "url": "https://github.com/FuelLabs/sway/issues/2473",
+   "labels": [
+    "good first issue",
+    "The Sway Book",
+    "P: low",
+    "documentation"
+   ],
+   "updatedAt": "2022-08-08T06:44:53Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "open 52 months with no human comment, in a repo pushed to 1 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/FuelLabs/sway/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/sway/issues/2473",
+    "https://docs.rs/forc/badge.svg"
+   ]
+  },
+  {
+   "number": 2475,
+   "title": "Consider making `CompileResult` members private.",
+   "url": "https://github.com/FuelLabs/sway/issues/2475",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "code quality",
+    "P: medium",
+    "compiler: frontend",
+    "team:compiler"
+   ],
+   "updatedAt": "2025-02-10T13:23:23Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "open 52 months with no human comment, in a repo pushed to 1 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/FuelLabs/sway/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/sway/issues/2475",
+    "https://docs.rs/forc/badge.svg"
+   ]
+  },
+  {
+   "number": 2487,
+   "title": "Pretty print the AST from sway-core",
+   "url": "https://github.com/FuelLabs/sway/issues/2487",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "compiler: ui",
+    "logging",
+    "team:compiler"
+   ],
+   "updatedAt": "2025-02-10T13:23:24Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "PR #2570 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/FuelLabs/sway/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/sway/pull/2570",
+    "https://github.com/FuelLabs/sway/issues/2487",
+    "https://docs.rs/ptree/latest/ptree/"
+   ]
+  },
+  {
+   "number": 2494,
+   "title": "Organize test suites in `swayfmt`",
+   "url": "https://github.com/FuelLabs/sway/issues/2494",
+   "labels": [
+    "good first issue",
+    "forc",
+    "testing",
+    "formatter",
+    "may be rewarded",
+    "ODHack13"
+   ],
+   "updatedAt": "2025-06-24T16:09:32Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "already assigned to @RajeshRk18",
+   "evidence": [
+    "https://github.com/FuelLabs/sway/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/sway/pull/2338",
+    "https://github.com/FuelLabs/sway/issues/2494",
+    "https://github.com/FuelLabs/sway/issues/2494#issuecomment-2846411850"
+   ]
+  },
+  {
+   "number": 2872,
+   "title": "Add a section which documents storage interaction in libraries",
+   "url": "https://github.com/FuelLabs/sway/issues/2872",
+   "labels": [
+    "good first issue",
+    "The Sway Book"
+   ],
+   "updatedAt": "2022-09-27T11:51:39Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "open 50 months with no human comment, in a repo pushed to 1 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/FuelLabs/sway/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/sway/issues/2872",
+    "https://docs.rs/forc/badge.svg"
+   ]
+  },
+  {
+   "number": 3085,
+   "title": "Document that `pub` is not needed for trait functions and their implementation",
+   "url": "https://github.com/FuelLabs/sway/issues/3085",
+   "labels": [
+    "good first issue",
+    "The Sway Book"
+   ],
+   "updatedAt": "2022-10-20T16:13:47Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "open 49 months with no human comment, in a repo pushed to 1 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/FuelLabs/sway/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/sway/issues/3085",
+    "https://docs.rs/forc/badge.svg"
+   ]
+  },
+  {
+   "number": 3164,
+   "title": "Add \"definition dominates use\" check in the IR verifier",
+   "url": "https://github.com/FuelLabs/sway/issues/3164",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "compiler",
+    "compiler: ir",
+    "team:compiler"
+   ],
+   "updatedAt": "2025-02-10T13:21:17Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @mohammadfawaz 1476 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/FuelLabs/sway/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/sway/issues/3164#issuecomment-1293381107",
+    "https://github.com/FuelLabs/sway/issues/3164",
+    "https://docs.rs/forc/badge.svg"
+   ]
+  },
+  {
+   "number": 3174,
+   "title": "E2E test CLI flag/doc SWAY_TEST_VERBOSE inconsistency",
+   "url": "https://github.com/FuelLabs/sway/issues/3174",
+   "labels": [
+    "good first issue",
+    "testing",
+    "P: low"
+   ],
+   "updatedAt": "2022-12-13T00:30:25Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.rs/forc/badge.svg) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/FuelLabs/sway/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/sway/issues/3174",
+    "https://docs.rs/forc/badge.svg"
+   ]
+  },
+  {
+   "number": 3666,
+   "title": "Lack of examples in the \"Predicates\" guide of the Sway Book",
+   "url": "https://github.com/FuelLabs/sway/issues/3666",
+   "labels": [
+    "good first issue",
+    "The Sway Book"
+   ],
+   "updatedAt": "2023-01-20T09:43:23Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "open 47 months with no human comment, in a repo pushed to 1 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/FuelLabs/sway/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/sway/issues/3666",
+    "https://docs.rs/forc/badge.svg"
+   ]
+  },
+  {
+   "number": 3831,
+   "title": "`forc`: Add a manual `clap` `--help` implementation that also lists plugin-provided commands ",
+   "url": "https://github.com/FuelLabs/sway/issues/3831",
+   "labels": [
+    "good first issue",
+    "forc",
+    "may be rewarded",
+    "ODHack13"
+   ],
+   "updatedAt": "2025-04-26T16:54:12Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @FriendlyLifeguard 564 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/FuelLabs/sway/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/sway/issues/3831#issuecomment-2832431922",
+    "https://github.com/FuelLabs/sway/issues/3831",
+    "https://docs.rs/forc/badge.svg"
+   ]
+  },
+  {
+   "number": 3887,
+   "title": "ci: handle mdbook build failures better",
+   "url": "https://github.com/FuelLabs/sway/issues/3887",
+   "labels": [
+    "bug",
+    "good first issue",
+    "ci",
+    "P: low"
+   ],
+   "updatedAt": "2023-01-25T09:00:59Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #7637 by @0xjc65eth is already open against this issue",
+   "evidence": [
+    "https://github.com/FuelLabs/sway/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/sway/pull/7637"
+   ]
+  },
+  {
+   "number": 3925,
+   "title": "refactor(fmt): use `drain_filter` during comment formatting when stabilized",
+   "url": "https://github.com/FuelLabs/sway/issues/3925",
+   "labels": [
+    "good first issue",
+    "P: low"
+   ],
+   "updatedAt": "2023-09-19T21:23:00Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.rs/forc/badge.svg) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/FuelLabs/sway/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/sway/issues/3925",
+    "https://docs.rs/forc/badge.svg"
+   ]
+  },
+  {
+   "number": 4006,
+   "title": "Rename `AllocatedOpcode` to `AllocatedInstruction` to follow fuel-spec/fuel-asm terminology",
+   "url": "https://github.com/FuelLabs/sway/issues/4006",
+   "labels": [
+    "good first issue",
+    "compiler",
+    "code quality",
+    "compiler: codegen",
+    "team:compiler",
+    "may be rewarded",
+    "ODHack13"
+   ],
+   "updatedAt": "2025-05-17T17:20:43Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "already assigned to @Sendi0011",
+   "evidence": [
+    "https://github.com/FuelLabs/sway/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/sway/pull/4004",
+    "https://github.com/FuelLabs/sway/issues/4006",
+    "https://github.com/FuelLabs/sway/issues/4006#issuecomment-2888501339"
+   ]
+  },
+  {
+   "number": 4194,
+   "title": "[forc-doc] Add a link to the docs hub in the standard library",
+   "url": "https://github.com/FuelLabs/sway/issues/4194",
+   "labels": [
+    "good first issue",
+    "lib: std",
+    "forc-doc",
+    "may be rewarded",
+    "ODHack13"
+   ],
+   "updatedAt": "2025-06-05T11:30:10Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #7726 by @wrvnnull is already open against this issue",
+   "evidence": [
+    "https://github.com/FuelLabs/sway/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/sway/pull/7726"
+   ]
+  },
+  {
+   "number": 4274,
+   "title": "Treat warnings as erros in ci step that builds examples",
+   "url": "https://github.com/FuelLabs/sway/issues/4274",
+   "labels": [
+    "good first issue",
+    "ci",
+    "code quality"
+   ],
+   "updatedAt": "2023-03-14T15:50:44Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "open 45 months with no human comment, in a repo pushed to 1 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/FuelLabs/sway/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/sway/issues/4274",
+    "https://docs.rs/forc/badge.svg"
+   ]
+  },
+  {
+   "number": 4306,
+   "title": "`__state_clear` intrinsic not documented in the Sway Book",
+   "url": "https://github.com/FuelLabs/sway/issues/4306",
+   "labels": [
+    "good first issue",
+    "The Sway Book",
+    "may be rewarded",
+    "ODHack13"
+   ],
+   "updatedAt": "2025-06-25T07:34:32Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.rs/forc/badge.svg) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/FuelLabs/sway/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/sway/issues/4306",
+    "https://docs.rs/forc/badge.svg"
+   ]
+  },
+  {
+   "number": 4451,
+   "title": "Warn users if they create a package in a workspace without listing them as a member",
+   "url": "https://github.com/FuelLabs/sway/issues/4451",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "forc",
+    "forc-pkg",
+    "may be rewarded",
+    "ODHack13"
+   ],
+   "updatedAt": "2025-04-25T12:43:18Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #7123 by @khayss is already open against this issue",
+   "evidence": [
+    "https://github.com/FuelLabs/sway/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/sway/pull/7123"
+   ]
+  },
+  {
+   "number": 4740,
+   "title": "Rename storage access methods",
+   "url": "https://github.com/FuelLabs/sway/issues/4740",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "lib: std",
+    "breaking",
+    "compiler: ui",
+    "storage",
+    "team:compiler"
+   ],
+   "updatedAt": "2025-02-10T11:24:17Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #40 by @ironcev is already open against this issue",
+   "evidence": [
+    "https://github.com/FuelLabs/sway/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/sway-rfcs/pull/40"
+   ]
+  },
+  {
+   "number": 4818,
+   "title": "Delete redundant spans in `sway_error::error`",
+   "url": "https://github.com/FuelLabs/sway/issues/4818",
+   "labels": [
+    "good first issue",
+    "compiler",
+    "compiler: ui",
+    "team:compiler",
+    "may be rewarded",
+    "ODHack13"
+   ],
+   "updatedAt": "2025-04-25T12:43:42Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "already assigned to @saimeunt",
+   "evidence": [
+    "https://github.com/FuelLabs/sway/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/sway/pull/4878",
+    "https://github.com/FuelLabs/sway/issues/4818",
+    "https://github.com/FuelLabs/sway/issues/4818#issuecomment-2828690067"
+   ]
+  },
+  {
+   "number": 4931,
+   "title": "Add appendix to the Sway book: Operators & Symbols ",
+   "url": "https://github.com/FuelLabs/sway/issues/4931",
+   "labels": [
+    "good first issue",
+    "The Sway Book",
+    "ODHack12",
+    "may be rewarded",
+    "ODHack13"
+   ],
+   "updatedAt": "2025-05-04T14:39:46Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #7725 by @wrvnnull is already open against this issue",
+   "evidence": [
+    "https://github.com/FuelLabs/sway/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/sway/pull/7725"
+   ]
+  },
+  {
+   "number": 4993,
+   "title": "Add support for escape codes in string literals",
+   "url": "https://github.com/FuelLabs/sway/issues/4993",
+   "labels": [
+    "good first issue",
+    "compiler: parser",
+    "compiler: ui",
+    "team:compiler",
+    "ODHack12"
+   ],
+   "updatedAt": "2025-04-24T11:57:07Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "PR #5094 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/FuelLabs/sway/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/sway/pull/5094",
+    "https://github.com/FuelLabs/sway/issues/4993#issuecomment-2787826214",
+    "https://github.com/FuelLabs/sway/issues/4993",
+    "https://docs.rs/forc/badge.svg"
+   ]
+  },
+  {
+   "number": 5091,
+   "title": "Add inline documentation for `Hasher` type and `Hash` trait",
+   "url": "https://github.com/FuelLabs/sway/issues/5091",
+   "labels": [
+    "good first issue",
+    "lib: std",
+    "documentation"
+   ],
+   "updatedAt": "2023-09-05T11:39:14Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.rs/forc/badge.svg) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/FuelLabs/sway/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/sway/issues/5091",
+    "https://docs.rs/forc/badge.svg"
+   ]
+  },
+  {
+   "number": 5280,
+   "title": "Warn users when their `forc` toolchain is out of date",
+   "url": "https://github.com/FuelLabs/sway/issues/5280",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "forc",
+    "language server"
+   ],
+   "updatedAt": "2024-07-02T00:41:10Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "already assigned to @sdankel",
+   "evidence": [
+    "https://github.com/FuelLabs/sway/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/sway-vscode-plugin/pull/188",
+    "https://github.com/FuelLabs/sway/issues/5280"
+   ]
+  },
+  {
+   "number": 5450,
+   "title": "forc build invalid channel message cuts the channel",
+   "url": "https://github.com/FuelLabs/sway/issues/5450",
+   "labels": [
+    "bug",
+    "good first issue",
+    "forc"
+   ],
+   "updatedAt": "2024-01-10T17:26:44Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "open 35 months with no human comment, in a repo pushed to 1 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/FuelLabs/sway/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/sway/issues/5450",
+    "https://docs.rs/forc/badge.svg"
+   ]
+  },
+  {
+   "number": 5728,
+   "title": "Add end to end tests for predicates with arguments and multiple predicates",
+   "url": "https://github.com/FuelLabs/sway/issues/5728",
+   "labels": [
+    "good first issue",
+    "compiler",
+    "testing",
+    "team:compiler",
+    "ODHack12",
+    "may be rewarded",
+    "ODHack13"
+   ],
+   "updatedAt": "2025-04-25T12:44:27Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "already assigned to @saimeunt",
+   "evidence": [
+    "https://github.com/FuelLabs/sway/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/sway/issues/5728"
+   ]
+  },
+  {
+   "number": 5758,
+   "title": "Enforce type annotations for constants",
+   "url": "https://github.com/FuelLabs/sway/issues/5758",
+   "labels": [
+    "bug",
+    "good first issue",
+    "compiler: frontend",
+    "team:compiler",
+    "ODHack12"
+   ],
+   "updatedAt": "2025-06-27T21:05:12Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #7054 by @saimeunt is already open against this issue",
+   "evidence": [
+    "https://github.com/FuelLabs/sway/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/sway/pull/7054"
+   ]
+  },
+  {
+   "number": 5905,
+   "title": "Contract self impl",
+   "url": "https://github.com/FuelLabs/sway/issues/5905",
+   "labels": [
+    "good first issue",
+    "language feature",
+    "compiler: frontend",
+    "compiler: parser",
+    "team:compiler",
+    "ODHack12"
+   ],
+   "updatedAt": "2025-04-24T11:57:09Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "2 stale claims, the most recent by @notxorand 601 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/FuelLabs/sway/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/sway/issues/5905#issuecomment-2741676433",
+    "https://github.com/FuelLabs/sway/issues/5905",
+    "https://docs.rs/forc/badge.svg"
+   ]
+  },
+  {
+   "number": 6007,
+   "title": "DCA improvements",
+   "url": "https://github.com/FuelLabs/sway/issues/6007",
+   "labels": [
+    "good first issue",
+    "DCA"
+   ],
+   "updatedAt": "2025-03-21T19:30:42Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "already assigned to @krishnabandewar",
+   "evidence": [
+    "https://github.com/FuelLabs/sway/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/sway/issues/6007"
+   ]
+  },
+  {
+   "number": 6727,
+   "title": "Sway hex literals have their suffix counted as digits",
+   "url": "https://github.com/FuelLabs/sway/issues/6727",
+   "labels": [
+    "bug",
+    "good first issue",
+    "compiler: frontend",
+    "team:compiler",
+    "ODHack12"
+   ],
+   "updatedAt": "2025-04-24T11:57:11Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #7042 by @saimeunt is already open against this issue",
+   "evidence": [
+    "https://github.com/FuelLabs/sway/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/sway/pull/7042"
+   ]
+  },
+  {
+   "number": 7324,
+   "title": "forc-debug can't view decoded logs",
+   "url": "https://github.com/FuelLabs/sway/issues/7324",
+   "labels": [
+    "good first issue",
+    "forc-debug",
+    "team:tooling"
+   ],
+   "updatedAt": "2025-08-13T05:27:49Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "already assigned to @Copilot",
+   "evidence": [
+    "https://github.com/FuelLabs/sway/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/sway/pull/7323",
+    "https://github.com/FuelLabs/sway/issues/7324"
+   ]
+  }
+ ]
+}

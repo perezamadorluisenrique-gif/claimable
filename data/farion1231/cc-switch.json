@@ -1,0 +1,48 @@
+{
+ "owner": "farion1231",
+ "repo": "cc-switch",
+ "language": "Rust",
+ "stars": 153318,
+ "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode,DeepSeek Harness and more. Only official website: ccswitch.io",
+ "visitedAt": "2026-11-11T22:03:46.308Z",
+ "issues": [
+  {
+   "number": 3265,
+   "title": "Database files and .cc-switch directory lack explicit permission restrictions",
+   "url": "https://github.com/farion1231/cc-switch/issues/3265",
+   "labels": [
+    "good first issue",
+    "security",
+    "backend"
+   ],
+   "updatedAt": "2026-05-29T16:30:28Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #6412 by @la2278647-arch is already open against this issue",
+   "evidence": [
+    "https://github.com/farion1231/cc-switch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/farion1231/cc-switch/pull/6412",
+    "https://github.com/farion1231/cc-switch/pull/6417"
+   ]
+  },
+  {
+   "number": 3611,
+   "title": "建议支持 Skill 文件夹分类管理、优化 Hermes 导入体验及全选/全不选交互",
+   "url": "https://github.com/farion1231/cc-switch/issues/3611",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2026-10-10T01:49:20Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/farion1231/cc-switch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/farion1231/cc-switch/issues/3611",
+    "https://github.com/farion1231/cc-switch/blob/HEAD/README.md",
+    "https://github.com/farion1231/cc-switch/blob/HEAD/CONTRIBUTING.md"
+   ]
+  }
+ ]
+}

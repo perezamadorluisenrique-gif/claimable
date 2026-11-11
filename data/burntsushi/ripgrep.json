@@ -1,0 +1,153 @@
+{
+ "owner": "BurntSushi",
+ "repo": "ripgrep",
+ "language": "Rust",
+ "stars": 69966,
+ "description": "ripgrep recursively searches directories for a regex pattern while respecting your gitignore",
+ "visitedAt": "2026-11-11T22:03:46.308Z",
+ "issues": [
+  {
+   "number": 478,
+   "title": "improve error messages when -f flag fails",
+   "url": "https://github.com/BurntSushi/ripgrep/issues/478",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2026-07-06T19:41:38Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #3463 by @bugprone is already open against this issue",
+   "evidence": [
+    "https://github.com/BurntSushi/ripgrep/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/BurntSushi/ripgrep/pull/3463"
+   ]
+  },
+  {
+   "number": 1086,
+   "title": "globset: case-insensitive matching of literal globs is unnecessarily slow",
+   "url": "https://github.com/BurntSushi/ripgrep/issues/1086",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "icebox"
+   ],
+   "updatedAt": "2019-01-27T18:10:02Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #3488 by @dhmztr is already open against this issue",
+   "evidence": [
+    "https://github.com/BurntSushi/ripgrep/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/BurntSushi/ripgrep/pull/3488"
+   ]
+  },
+  {
+   "number": 1518,
+   "title": "ngram indexing implementation details",
+   "url": "https://github.com/BurntSushi/ripgrep/issues/1518",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2025-12-20T17:18:00Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #1497 by @BurntSushi is already open against this issue",
+   "evidence": [
+    "https://github.com/BurntSushi/ripgrep/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/BurntSushi/ripgrep/issues/1497"
+   ]
+  },
+  {
+   "number": 1791,
+   "title": "Support apply smart case to each individual search pattern separately",
+   "url": "https://github.com/BurntSushi/ripgrep/issues/1791",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2021-07-10T15:12:32Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.rs/regex/1/regex/#syntax) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/BurntSushi/ripgrep/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/BurntSushi/ripgrep/issues/1791",
+    "https://docs.rs/regex/1/regex/#syntax"
+   ]
+  },
+  {
+   "number": 2229,
+   "title": "[globset] support more options on GlobBuilder?",
+   "url": "https://github.com/BurntSushi/ripgrep/issues/2229",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "question"
+   ],
+   "updatedAt": "2022-06-14T12:26:36Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #3601 by @karlmoriaty is already open against this issue",
+   "evidence": [
+    "https://github.com/BurntSushi/ripgrep/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/BurntSushi/ripgrep/pull/3601",
+    "https://github.com/dfinity/sdk/pull/2320"
+   ]
+  },
+  {
+   "number": 2930,
+   "title": "add `blink` style support",
+   "url": "https://github.com/BurntSushi/ripgrep/issues/2930",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2024-11-11T17:58:25Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #84 by @andrewcarson is already open against this issue",
+   "evidence": [
+    "https://github.com/BurntSushi/ripgrep/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/BurntSushi/termcolor/pull/84",
+    "https://github.com/BurntSushi/ripgrep/pull/3252"
+   ]
+  },
+  {
+   "number": 2962,
+   "title": "Missing support for `[[:space:]]` match group in the ignore crate",
+   "url": "https://github.com/BurntSushi/ripgrep/issues/2962",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2025-10-28T23:01:49Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #6036 by @bcspragu is already open against this issue",
+   "evidence": [
+    "https://github.com/BurntSushi/ripgrep/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/jj-vcs/jj/pull/6036",
+    "https://github.com/BurntSushi/ripgrep/pull/3281"
+   ]
+  },
+  {
+   "number": 3243,
+   "title": "Add linkable headings to options in man pages",
+   "url": "https://github.com/BurntSushi/ripgrep/issues/3243",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2026-08-28T17:44:16Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #3250 by @kanata9819 is already open against this issue",
+   "evidence": [
+    "https://github.com/BurntSushi/ripgrep/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/BurntSushi/ripgrep/pull/3250",
+    "https://github.com/BurntSushi/ripgrep/pull/3521"
+   ]
+  }
+ ]
+}

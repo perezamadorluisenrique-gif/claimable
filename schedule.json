@@ -294,5 +294,65 @@
  "quantumnous/new-api": {
   "nextCheck": "2026-11-11T16:17:00.117Z",
   "lastNewIssue": "2026-10-19T08:20:04Z"
+ },
+ "ethereum/go-ethereum": {
+  "nextCheck": "2026-11-18T22:03:46.308Z",
+  "lastNewIssue": "2026-07-14T12:41:58Z"
+ },
+ "farion1231/cc-switch": {
+  "nextCheck": "2026-11-18T22:03:46.308Z",
+  "lastNewIssue": "2026-06-02T14:42:10Z"
+ },
+ "rustdesk/rustdesk": {
+  "nextCheck": "2026-11-18T22:03:46.308Z",
+  "lastNewIssue": "2026-07-06T15:02:20Z"
+ },
+ "tauri-apps/tauri": {
+  "nextCheck": "2026-11-14T22:03:46.308Z",
+  "lastNewIssue": "2026-10-30T04:56:36Z"
+ },
+ "denoland/deno": {
+  "nextCheck": "2026-11-18T22:03:46.308Z",
+  "lastNewIssue": null
+ },
+ "oven-sh/bun": {
+  "nextCheck": "2026-11-18T22:03:46.308Z",
+  "lastNewIssue": "2025-10-21T09:38:40Z"
+ },
+ "astral-sh/uv": {
+  "nextCheck": "2026-11-18T22:03:46.308Z",
+  "lastNewIssue": "2026-01-16T09:32:03Z"
+ },
+ "rtk-ai/rtk": {
+  "nextCheck": "2026-11-12T22:03:46.308Z",
+  "lastNewIssue": "2026-11-11T10:36:18Z"
+ },
+ "dani-garcia/vaultwarden": {
+  "nextCheck": "2026-11-18T22:03:46.308Z",
+  "lastNewIssue": "2018-11-09T15:55:03Z"
+ },
+ "burntsushi/ripgrep": {
+  "nextCheck": "2026-11-18T22:03:46.308Z",
+  "lastNewIssue": "2025-12-10T20:04:05Z"
+ },
+ "openinterpreter/openinterpreter": {
+  "nextCheck": "2026-11-18T22:03:46.308Z",
+  "lastNewIssue": null
+ },
+ "alacritty/alacritty": {
+  "nextCheck": "2026-11-14T22:03:46.308Z",
+  "lastNewIssue": "2026-10-13T21:42:52Z"
+ },
+ "fuellabs/sway": {
+  "nextCheck": "2026-11-18T22:03:46.308Z",
+  "lastNewIssue": "2025-08-13T05:14:56Z"
+ },
+ "sharkdp/bat": {
+  "nextCheck": "2026-11-11T23:03:46.308Z",
+  "lastNewIssue": "2025-08-03T15:00:18Z"
+ },
+ "meilisearch/meilisearch": {
+  "nextCheck": "2026-11-11T23:03:46.308Z",
+  "lastNewIssue": "2025-12-12T17:24:54Z"
  }
 }

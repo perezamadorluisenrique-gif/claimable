@@ -1,0 +1,4229 @@
+{
+ "owner": "rtk-ai",
+ "repo": "rtk",
+ "language": "Rust",
+ "stars": 86093,
+ "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+ "visitedAt": "2026-11-11T22:03:46.308Z",
+ "issues": [
+  {
+   "number": 361,
+   "title": "6 hook bugs on master — routing, streaming, extensibility, hook collision (fixed in PR #156)",
+   "url": "https://github.com/rtk-ai/rtk/issues/361",
+   "labels": [
+    "bug",
+    "help wanted",
+    "P2-important",
+    "effort-large",
+    "priority:high",
+    "area:cli"
+   ],
+   "updatedAt": "2026-10-23T13:19:15Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #2556 by @ahundt is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/2556",
+    "https://github.com/rtk-ai/rtk/pull/956",
+    "https://github.com/rtk-ai/rtk/pull/934",
+    "https://github.com/rtk-ai/rtk/pull/1277",
+    "https://github.com/rtk-ai/rtk/pull/1360",
+    "https://github.com/Homebrew/homebrew-core/pull/278049"
+   ]
+  },
+  {
+   "number": 488,
+   "title": "Feature Request: Configurable context reduction profiles (heavy, normal, soft, light)",
+   "url": "https://github.com/rtk-ai/rtk/issues/488",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "effort-large",
+    "area:cli",
+    "priority:medium",
+    "area:config"
+   ],
+   "updatedAt": "2026-10-21T09:12:50Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "only 22% of recently closed PRs were merged — most contributions get rejected or abandoned here (+1 more)",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/issues/488",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 622,
+   "title": "Feature: filter transparency header + better rtk proxy documentation",
+   "url": "https://github.com/rtk-ai/rtk/issues/622",
+   "labels": [
+    "documentation",
+    "enhancement",
+    "help wanted",
+    "good first issue",
+    "P3-nice-to-have",
+    "effort-medium",
+    "area:cli",
+    "priority:medium",
+    "area:docs"
+   ],
+   "updatedAt": "2026-10-15T09:57:18Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "only 22% of recently closed PRs were merged — most contributions get rejected or abandoned here (+2 more)",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4583",
+    "https://github.com/rtk-ai/rtk/issues/622#issuecomment-6189406386",
+    "https://github.com/rtk-ai/rtk/issues/622",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 845,
+   "title": "Feature: add support for kiro-cli",
+   "url": "https://github.com/rtk-ai/rtk/issues/845",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "effort-medium",
+    "priority:low",
+    "area:cli"
+   ],
+   "updatedAt": "2026-11-06T12:18:23Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "only 22% of recently closed PRs were merged — most contributions get rejected or abandoned here",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/issues/845",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 995,
+   "title": "Add updater/auto-updater",
+   "url": "https://github.com/rtk-ai/rtk/issues/995",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "P3-nice-to-have",
+    "effort-medium",
+    "priority:low",
+    "area:cli"
+   ],
+   "updatedAt": "2026-10-31T17:08:29Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "only 22% of recently closed PRs were merged — most contributions get rejected or abandoned here",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/issues/995",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 1098,
+   "title": "Support for Flutter & Dart commands (flutter pub, flutter analyze, dart analyze)",
+   "url": "https://github.com/rtk-ai/rtk/issues/1098",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "effort-medium",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-10-05T07:18:53Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #1128 by @Lyther is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/1128",
+    "https://github.com/rtk-ai/rtk/pull/2456"
+   ]
+  },
+  {
+   "number": 1103,
+   "title": "Feature request: `rtk init` support for custom config dirs (claude-multi compatibility)",
+   "url": "https://github.com/rtk-ai/rtk/issues/1103",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "effort-medium",
+    "priority:low",
+    "area:cli",
+    "platform:linux"
+   ],
+   "updatedAt": "2026-10-31T22:33:48Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "only 22% of recently closed PRs were merged — most contributions get rejected or abandoned here (+1 more)",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/issues/1103",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 1248,
+   "title": "[BUG] RTK Windows PowerShell Compatibility Gaps",
+   "url": "https://github.com/rtk-ai/rtk/issues/1248",
+   "labels": [
+    "bug",
+    "documentation",
+    "enhancement",
+    "help wanted",
+    "effort-large",
+    "priority:high",
+    "area:cli",
+    "platform:windows"
+   ],
+   "updatedAt": "2026-10-12T23:23:33Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #2728 by @jlaportebot is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/2728",
+    "https://github.com/rtk-ai/rtk/pull/3301",
+    "https://github.com/rtk-ai/rtk/pull/1399",
+    "https://github.com/rtk-ai/rtk/pull/1383"
+   ]
+  },
+  {
+   "number": 1262,
+   "title": "Add PHP / WordPress / Composer / PHPUnit / ddev coverage to rewrite registry",
+   "url": "https://github.com/rtk-ai/rtk/issues/1262",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "effort-medium",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-11-10T20:24:21Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "only 22% of recently closed PRs were merged — most contributions get rejected or abandoned here (+3 more)",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/issues/1262",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/src/discover/registry.rs",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 1313,
+   "title": "Feature request: lossless-only mode + honest account of silent failures truncation causes in agent contexts",
+   "url": "https://github.com/rtk-ai/rtk/issues/1313",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "effort-medium",
+    "filter-quality",
+    "priority:high",
+    "area:config"
+   ],
+   "updatedAt": "2026-09-22T15:28:36Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "only 22% of recently closed PRs were merged — most contributions get rejected or abandoned here (+1 more)",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/3857",
+    "https://github.com/rtk-ai/rtk/issues/1313",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 1314,
+   "title": "Feature: Track invoking agent (Claude, Copilot, Codex, etc) in command analytics",
+   "url": "https://github.com/rtk-ai/rtk/issues/1314",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "effort-medium",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-09-27T19:16:37Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4541 by @yeahjack is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4541"
+   ]
+  },
+  {
+   "number": 1319,
+   "title": "[FEATURE] Add Claude Code PowerShell hook compatibility",
+   "url": "https://github.com/rtk-ai/rtk/issues/1319",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "effort-large",
+    "area:cli",
+    "priority:medium",
+    "platform:windows"
+   ],
+   "updatedAt": "2026-10-16T05:26:52Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "only 22% of recently closed PRs were merged — most contributions get rejected or abandoned here",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/issues/1319",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 1323,
+   "title": "AggressiveFilter: trailing { on function signature skips brace counting, leaking let-bindings from function bodies",
+   "url": "https://github.com/rtk-ai/rtk/issues/1323",
+   "labels": [
+    "bug",
+    "good first issue",
+    "effort-small",
+    "filter-quality",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-09-25T23:57:28Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4294 by @KoksalBerkay is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4294",
+    "https://github.com/rtk-ai/rtk/pull/2397"
+   ]
+  },
+  {
+   "number": 1345,
+   "title": "`pnpm test` gets no compression when the package script runs Jest or Vitest",
+   "url": "https://github.com/rtk-ai/rtk/issues/1345",
+   "labels": [
+    "bug",
+    "help wanted",
+    "effort-medium",
+    "filter-quality",
+    "priority:high",
+    "area:cli"
+   ],
+   "updatedAt": "2026-10-23T13:19:26Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "only 22% of recently closed PRs were merged — most contributions get rejected or abandoned here (+1 more)",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/src/discover/rules.rs",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/src/cmds/js/vitest_cmd.rs",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/README.md",
+    "https://github.com/rtk-ai/rtk/issues/1345"
+   ]
+  },
+  {
+   "number": 1459,
+   "title": "rtk discover overcounts shell-wrapper parser fallbacks as top unhandled commands",
+   "url": "https://github.com/rtk-ai/rtk/issues/1459",
+   "labels": [
+    "bug",
+    "help wanted",
+    "effort-medium",
+    "filter-quality",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-11-03T12:09:49Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4830 by @GeorgiaPreda is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4830"
+   ]
+  },
+  {
+   "number": 1482,
+   "title": "Partial TOML Sub-Config Sections Silently Fall Back to Full Defaults",
+   "url": "https://github.com/rtk-ai/rtk/issues/1482",
+   "labels": [
+    "bug",
+    "good first issue",
+    "effort-small",
+    "priority:medium",
+    "area:config"
+   ],
+   "updatedAt": "2026-11-01T12:28:33Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #1483 by @Jitsusama is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/1483",
+    "https://github.com/rtk-ai/rtk/pull/3440",
+    "https://github.com/rtk-ai/rtk/pull/3278"
+   ]
+  },
+  {
+   "number": 1489,
+   "title": "bug(rewrite): npm run lint forced into rtk lint on Biome projects",
+   "url": "https://github.com/rtk-ai/rtk/issues/1489",
+   "labels": [
+    "bug",
+    "good first issue",
+    "effort-small",
+    "filter-quality",
+    "priority:high",
+    "area:cli",
+    "platform:macos",
+    "needs-triage"
+   ],
+   "updatedAt": "2026-11-11T19:21:31Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #1492 by @LukaPrebil is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/1492",
+    "https://github.com/rtk-ai/rtk/pull/3289"
+   ]
+  },
+  {
+   "number": 1526,
+   "title": "feat: Extend git subcommand coverage (ls-files, rm, tag)",
+   "url": "https://github.com/rtk-ai/rtk/issues/1526",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "effort-medium",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-10-17T13:20:52Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #1927 by @AkhileshManda is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/1927"
+   ]
+  },
+  {
+   "number": 1713,
+   "title": "Feature request: add `tea` subcommand for Gitea CLI",
+   "url": "https://github.com/rtk-ai/rtk/issues/1713",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "priority:low",
+    "area:cli"
+   ],
+   "updatedAt": "2026-10-31T23:01:51Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #3827 by @Micaso is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/3827",
+    "https://github.com/rtk-ai/rtk/pull/4494"
+   ]
+  },
+  {
+   "number": 1788,
+   "title": "Honor tracking.enabled and history_days config",
+   "url": "https://github.com/rtk-ai/rtk/issues/1788",
+   "labels": [
+    "bug",
+    "help wanted",
+    "priority:high",
+    "area:config"
+   ],
+   "updatedAt": "2026-10-30T12:59:20Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #3440 by @iliaal is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/3440"
+   ]
+  },
+  {
+   "number": 1830,
+   "title": "[rewrite] dotnet test|restore|format should auto-rewrite to rtk dotnet",
+   "url": "https://github.com/rtk-ai/rtk/issues/1830",
+   "labels": [
+    "bug",
+    "good first issue",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-10-20T23:05:49Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "only 22% of recently closed PRs were merged — most contributions get rejected or abandoned here (+3 more)",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/2142",
+    "https://github.com/rtk-ai/rtk/pull/2105",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/src/discover/registry.rs",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 1896,
+   "title": "[Request] Please add support for crush agent (by Charmbracelet)",
+   "url": "https://github.com/rtk-ai/rtk/issues/1896",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "priority:low",
+    "area:cli"
+   ],
+   "updatedAt": "2026-11-01T12:35:26Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "only 22% of recently closed PRs were merged — most contributions get rejected or abandoned here",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 1954,
+   "title": "semgrep: filesystem-deletion rule lacks paths:exclude for src/hooks/",
+   "url": "https://github.com/rtk-ai/rtk/issues/1954",
+   "labels": [
+    "bug",
+    "good first issue",
+    "priority:medium",
+    "area:ci"
+   ],
+   "updatedAt": "2026-10-12T23:41:27Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "only 22% of recently closed PRs were merged — most contributions get rejected or abandoned here (+2 more)",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/1741",
+    "https://github.com/rtk-ai/rtk/issues/1954",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 1990,
+   "title": "Expand Go ecosystem coverage: go mod, go list, gotestsum, govulncheck, staticcheck, buf, goreleaser",
+   "url": "https://github.com/rtk-ai/rtk/issues/1990",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-10-09T21:53:43Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4222 by @andrey-filenko-quarks-tech is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4222",
+    "https://github.com/rtk-ai/rtk/pull/4495",
+    "https://github.com/rtk-ai/rtk/pull/4508"
+   ]
+  },
+  {
+   "number": 1994,
+   "title": "[Feature Request] improve copilot-cli and VS Code installer updating global copilot-instructions.md files",
+   "url": "https://github.com/rtk-ai/rtk/issues/1994",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "priority:low",
+    "area:cli"
+   ],
+   "updatedAt": "2026-10-31T22:33:46Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "only 22% of recently closed PRs were merged — most contributions get rejected or abandoned here",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/issues/1994",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 2007,
+   "title": "Feature request: Add support for high-frequency unhandled commands (mvn test, npm install/view, lsof, agent-browser)",
+   "url": "https://github.com/rtk-ai/rtk/issues/2007",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "area:cli",
+    "priority:medium",
+    "needs-info"
+   ],
+   "updatedAt": "2026-09-23T19:23:57Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #1999 by @matthewahines is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/issues/1999",
+    "https://github.com/rtk-ai/rtk/issues/2073",
+    "https://github.com/rtk-ai/rtk/issues/1866",
+    "https://github.com/rtk-ai/rtk/issues/1711",
+    "https://github.com/rtk-ai/rtk/issues/1397"
+   ]
+  },
+  {
+   "number": 2136,
+   "title": "Feature Request: Support for Grok Build CLI",
+   "url": "https://github.com/rtk-ai/rtk/issues/2136",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "priority:low",
+    "area:cli",
+    "needs-info"
+   ],
+   "updatedAt": "2026-09-24T02:47:20Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4074 by @jamescazzetta is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4074"
+   ]
+  },
+  {
+   "number": 2147,
+   "title": "rtk grep should ignore .claude/worktrees",
+   "url": "https://github.com/rtk-ai/rtk/issues/2147",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "good first issue",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-10-17T00:12:45Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "only 22% of recently closed PRs were merged — most contributions get rejected or abandoned here (+1 more)",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/issues/2147#issuecomment-5017919236",
+    "https://github.com/rtk-ai/rtk/issues/2147",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 2159,
+   "title": "Further token consumption reduction throught Toon",
+   "url": "https://github.com/rtk-ai/rtk/issues/2159",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "priority:low",
+    "area:cli"
+   ],
+   "updatedAt": "2026-10-29T13:22:16Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "only 22% of recently closed PRs were merged — most contributions get rejected or abandoned here",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/issues/2159",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 2216,
+   "title": "RTK is not being configured properly with global initialization for VS Code + Copilot",
+   "url": "https://github.com/rtk-ai/rtk/issues/2216",
+   "labels": [
+    "bug",
+    "help wanted",
+    "priority:high",
+    "area:cli",
+    "area:docs"
+   ],
+   "updatedAt": "2026-09-19T02:03:55Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #2244 by @manos02 is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/issues/2244"
+   ]
+  },
+  {
+   "number": 2268,
+   "title": "Built-in filters for ssh / dig / lsof / scp (custom TOML filters don't reach the PreToolUse hook)",
+   "url": "https://github.com/rtk-ai/rtk/issues/2268",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "priority:high",
+    "area:cli"
+   ],
+   "updatedAt": "2026-10-04T00:44:06Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #2637 by @pidefrem is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/2637"
+   ]
+  },
+  {
+   "number": 2303,
+   "title": "git -C /path <subcommand> not rewritten to rtk git",
+   "url": "https://github.com/rtk-ai/rtk/issues/2303",
+   "labels": [
+    "bug",
+    "help wanted",
+    "resolved-pending-close",
+    "priority:high",
+    "area:cli"
+   ],
+   "updatedAt": "2026-11-08T11:16:03Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "only 22% of recently closed PRs were merged — most contributions get rejected or abandoned here",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/issues/2303",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 2317,
+   "title": "Tool filters mask hard failures with benign summaries (pytest collection error -> \"No tests collected\")",
+   "url": "https://github.com/rtk-ai/rtk/issues/2317",
+   "labels": [
+    "bug",
+    "help wanted",
+    "priority:high",
+    "area:cli"
+   ],
+   "updatedAt": "2026-11-07T16:09:11Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #3577 by @hesam-oxe is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/3577",
+    "https://github.com/rtk-ai/rtk/pull/4094",
+    "https://github.com/rtk-ai/rtk/pull/4467"
+   ]
+  },
+  {
+   "number": 2385,
+   "title": "MinimalFilter silently drops valid code lines containing // or /* anywhere in the line (contains vs starts_with)",
+   "url": "https://github.com/rtk-ai/rtk/issues/2385",
+   "labels": [
+    "bug",
+    "good first issue",
+    "priority:high",
+    "area:cli"
+   ],
+   "updatedAt": "2026-09-27T07:29:38Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "only 22% of recently closed PRs were merged — most contributions get rejected or abandoned here (+3 more)",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/2397",
+    "https://github.com/rtk-ai/rtk/pull/3336",
+    "https://github.com/rtk-ai/rtk/issues/2385#issuecomment-4682485532",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 2425,
+   "title": "Claude Code hook misses rtk-eligible commands inside compound invocations (pipes, && chains)",
+   "url": "https://github.com/rtk-ai/rtk/issues/2425",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-10-27T01:35:45Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "only 22% of recently closed PRs were merged — most contributions get rejected or abandoned here",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/issues/2425",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 2803,
+   "title": "antigravity ignores rtk popular commands to filter",
+   "url": "https://github.com/rtk-ai/rtk/issues/2803",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "priority:medium",
+    "area:config"
+   ],
+   "updatedAt": "2026-10-23T13:19:11Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "only 22% of recently closed PRs were merged — most contributions get rejected or abandoned here (+1 more)",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/3711",
+    "https://github.com/rtk-ai/rtk/issues/2803",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/README.md",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2805,
+   "title": "Savings accounting credits rtk with the agent's own head/tail filtering — repro: 2.1M tokens claimed '100% saved' vs ~195 real (>10,000×); likely root cause of #2762",
+   "url": "https://github.com/rtk-ai/rtk/issues/2805",
+   "labels": [
+    "bug",
+    "help wanted",
+    "priority:high",
+    "area:cli"
+   ],
+   "updatedAt": "2026-11-02T15:43:16Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "only 22% of recently closed PRs were merged — most contributions get rejected or abandoned here (+3 more)",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/3943",
+    "https://github.com/rtk-ai/rtk/issues/2805",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 2834,
+   "title": "discover: -p with an absolute path silently matches nothing (sanitized transcript dir names)",
+   "url": "https://github.com/rtk-ai/rtk/issues/2834",
+   "labels": [
+    "bug",
+    "good first issue",
+    "priority:high",
+    "area:cli"
+   ],
+   "updatedAt": "2026-09-27T23:12:36Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4938 by @alexrain is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4938",
+    "https://github.com/rtk-ai/rtk/pull/3374"
+   ]
+  },
+  {
+   "number": 2898,
+   "title": "Feature Request: Add support for ZCode (Z.ai Agentic Development Environment)",
+   "url": "https://github.com/rtk-ai/rtk/issues/2898",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "good first issue",
+    "priority:low",
+    "area:cli"
+   ],
+   "updatedAt": "2026-10-31T00:23:44Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #3713 by @IDjinn is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/3713"
+   ]
+  },
+  {
+   "number": 2995,
+   "title": "find: existing file as search root returns empty output with exit 0; hidden/gitignored matches silently dropped",
+   "url": "https://github.com/rtk-ai/rtk/issues/2995",
+   "labels": [
+    "bug",
+    "help wanted",
+    "priority:high",
+    "area:cli"
+   ],
+   "updatedAt": "2026-09-26T23:46:39Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4253 by @BeeKnown is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4253"
+   ]
+  },
+  {
+   "number": 3025,
+   "title": "Panic (SIGABRT, exit 134) on non-UTF-8 bytes in argv — std::env::args() unwrap",
+   "url": "https://github.com/rtk-ai/rtk/issues/3025",
+   "labels": [
+    "bug",
+    "good first issue",
+    "priority:high",
+    "area:cli"
+   ],
+   "updatedAt": "2026-11-05T08:23:44Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4768 by @danieldutu is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4768",
+    "https://github.com/rtk-ai/rtk/pull/4348",
+    "https://github.com/rtk-ai/rtk/pull/4727"
+   ]
+  },
+  {
+   "number": 3107,
+   "title": "`rtk read` buffers whole file (3.9x filesize RSS); `--tail-lines`/`--max-lines` bound output but not memory; `exclude_commands` cannot disable the `tail -n` rewrite",
+   "url": "https://github.com/rtk-ai/rtk/issues/3107",
+   "labels": [
+    "bug",
+    "help wanted",
+    "area:cli",
+    "priority:critical",
+    "area:performance"
+   ],
+   "updatedAt": "2026-10-31T22:33:42Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #3132 by @albatrossflyon-coder is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/3132",
+    "https://github.com/rtk-ai/rtk/pull/3324"
+   ]
+  },
+  {
+   "number": 3117,
+   "title": "rtk hook claude rewrites Biome commands to ESLint and can mask execution failures",
+   "url": "https://github.com/rtk-ai/rtk/issues/3117",
+   "labels": [
+    "bug",
+    "help wanted",
+    "priority:high",
+    "area:cli"
+   ],
+   "updatedAt": "2026-09-29T03:56:03Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #3150 by @guyoron1 is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/3150"
+   ]
+  },
+  {
+   "number": 3171,
+   "title": "Tracking issue for safe pipeline rewriting",
+   "url": "https://github.com/rtk-ai/rtk/issues/3171",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-10-30T10:12:30Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4058 by @luizacastrof1998-star is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4058",
+    "https://github.com/rtk-ai/rtk/pull/4469",
+    "https://github.com/rtk-ai/rtk/pull/3128",
+    "https://github.com/rtk-ai/rtk/pull/3343",
+    "https://github.com/rtk-ai/rtk/pull/3857",
+    "https://github.com/rtk-ai/rtk/pull/4126",
+    "https://github.com/rtk-ai/rtk/pull/1816"
+   ]
+  },
+  {
+   "number": 3193,
+   "title": "Allow overriding config path",
+   "url": "https://github.com/rtk-ai/rtk/issues/3193",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "priority:low",
+    "area:config",
+    "platform:macos"
+   ],
+   "updatedAt": "2026-10-03T22:54:56Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4363 by @vintcessun is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4363",
+    "https://github.com/irisTa56/dotfiles/pull/306"
+   ]
+  },
+  {
+   "number": 3303,
+   "title": "`git status --short/--porcelain` output loses its trailing newline",
+   "url": "https://github.com/rtk-ai/rtk/issues/3303",
+   "labels": [
+    "bug",
+    "good first issue",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-10-28T09:19:02Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "only 22% of recently closed PRs were merged — most contributions get rejected or abandoned here (+2 more)",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/3265",
+    "https://github.com/rtk-ai/rtk/issues/3303#issuecomment-5148844390",
+    "https://github.com/rtk-ai/rtk/issues/3303",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 3392,
+   "title": "`rtk grep` uses ~31× the memory and ~4.9× the wall-clock of `grep` for the same search",
+   "url": "https://github.com/rtk-ai/rtk/issues/3392",
+   "labels": [
+    "bug",
+    "help wanted",
+    "priority:high",
+    "area:performance"
+   ],
+   "updatedAt": "2026-10-02T20:04:23Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #3397 by @HetCreep is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/issues/3397",
+    "https://github.com/rtk-ai/rtk/issues/3399"
+   ]
+  },
+  {
+   "number": 3396,
+   "title": "Install verification tells users to expect `rtk 0.28.2`, and a shipped skill warns on anything that is not `rtk 0.16`",
+   "url": "https://github.com/rtk-ai/rtk/issues/3396",
+   "labels": [
+    "bug",
+    "good first issue",
+    "priority:low",
+    "area:security",
+    "area:docs"
+   ],
+   "updatedAt": "2026-10-14T12:57:22Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4744 by @Rashal10 is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4744"
+   ]
+  },
+  {
+   "number": 3397,
+   "title": "`run_streaming`'s `CaptureOnly` arm clones the entire child stdout into a field no caller reads",
+   "url": "https://github.com/rtk-ai/rtk/issues/3397",
+   "labels": [
+    "bug",
+    "help wanted",
+    "priority:medium",
+    "area:performance"
+   ],
+   "updatedAt": "2026-10-14T12:57:26Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #3850 by @wilyan09007 is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/3850"
+   ]
+  },
+  {
+   "number": 3400,
+   "title": "`rtk init --gemini --uninstall` silently skips an unparsable settings.json and leaves a dangling hook entry",
+   "url": "https://github.com/rtk-ai/rtk/issues/3400",
+   "labels": [
+    "bug",
+    "good first issue",
+    "priority:high",
+    "area:cli",
+    "area:config"
+   ],
+   "updatedAt": "2026-11-01T07:47:42Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "only 22% of recently closed PRs were merged — most contributions get rejected or abandoned here",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/issues/3400",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 3402,
+   "title": "`gradle`, `dotnet-build` and `uv-sync` filters can never activate — and `rtk verify` reports them green because the test harness never exercises `match_command`",
+   "url": "https://github.com/rtk-ai/rtk/issues/3402",
+   "labels": [
+    "bug",
+    "help wanted",
+    "area:cli",
+    "priority:medium",
+    "area:ci"
+   ],
+   "updatedAt": "2026-10-14T12:57:39Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #3424 by @RawNuke is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/3424",
+    "https://github.com/rtk-ai/rtk/pull/2709",
+    "https://github.com/rtk-ai/rtk/pull/4328"
+   ]
+  },
+  {
+   "number": 3404,
+   "title": "`rtk init --uninstall -g --agent kilocode` (and windsurf/cline/antigravity/kimi) runs the Claude uninstaller instead — removing Claude's config and nothing of the named agent",
+   "url": "https://github.com/rtk-ai/rtk/issues/3404",
+   "labels": [
+    "bug",
+    "help wanted",
+    "priority:high",
+    "area:cli",
+    "area:config"
+   ],
+   "updatedAt": "2026-10-14T12:57:44Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #3420 by @RawNuke is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/3420",
+    "https://github.com/rtk-ai/rtk/pull/3711",
+    "https://github.com/rtk-ai/rtk/pull/4463"
+   ]
+  },
+  {
+   "number": 3406,
+   "title": "Cline/Windsurf/Kilo/Antigravity install skips silently if the project's rules file contains the substring \"rtk\" — e.g. \"RTK Query\" in a Redux project",
+   "url": "https://github.com/rtk-ai/rtk/issues/3406",
+   "labels": [
+    "bug",
+    "good first issue",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-11-03T00:05:57Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "only 22% of recently closed PRs were merged — most contributions get rejected or abandoned here (+3 more)",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/3711",
+    "https://github.com/rtk-ai/rtk/pull/4175",
+    "https://github.com/rtk-ai/rtk/issues/3406",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 3408,
+   "title": "`yadm <subcommand>` is rewritten to `rtk git`, so yadm commands act on the current project repo instead of the dotfiles repo — and bare `git add` becomes `git add .`",
+   "url": "https://github.com/rtk-ai/rtk/issues/3408",
+   "labels": [
+    "bug",
+    "good first issue",
+    "priority:high",
+    "area:cli",
+    "area:security"
+   ],
+   "updatedAt": "2026-10-14T12:57:52Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #3414 by @RawNuke is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/3414",
+    "https://github.com/rtk-ai/rtk/pull/3424",
+    "https://github.com/rtk-ai/rtk/pull/4571",
+    "https://github.com/kylehgc/rtk/pull/116",
+    "https://github.com/kylehgc/rtk/pull/149",
+    "https://github.com/kylehgc/rtk/pull/150",
+    "https://github.com/kylehgc/rtk/pull/162",
+    "https://github.com/yungSNAT/PascalsLetter/pull/67"
+   ]
+  },
+  {
+   "number": 3413,
+   "title": "`gradle <task>` is rewritten to `rtk gradlew <task>`, so the project wrapper runs instead of the system Gradle the user invoked — and the rule's task allowlist has no effect",
+   "url": "https://github.com/rtk-ai/rtk/issues/3413",
+   "labels": [
+    "bug",
+    "help wanted",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-10-14T12:58:05Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #3551 by @arkgum is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/3551",
+    "https://github.com/rtk-ai/rtk/pull/4053"
+   ]
+  },
+  {
+   "number": 3416,
+   "title": "`rtk rake <any non-test task>` replaces the entire output with \"rake test: no tests ran\", and a failed test run can still print \"ok rake test: N runs, 0 failures\"",
+   "url": "https://github.com/rtk-ai/rtk/issues/3416",
+   "labels": [
+    "bug",
+    "help wanted",
+    "priority:high",
+    "area:cli"
+   ],
+   "updatedAt": "2026-09-21T23:34:39Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #3568 by @guyoron1 is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/3568"
+   ]
+  },
+  {
+   "number": 3421,
+   "title": "`rtk read --max-lines N` (and the `head` rewrite) drops lines from the middle with no gap marker, producing code that compiles-looking but means the opposite",
+   "url": "https://github.com/rtk-ai/rtk/issues/3421",
+   "labels": [
+    "bug",
+    "help wanted",
+    "priority:high",
+    "area:cli"
+   ],
+   "updatedAt": "2026-10-14T12:58:10Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #3689 by @k4its1t is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/3689",
+    "https://github.com/rtk-ai/rtk/pull/3941"
+   ]
+  },
+  {
+   "number": 3423,
+   "title": "SECURITY.md references a `security-check.yml` workflow, a `detect-dangerous-patterns.sh` script and six source paths that are all absent from the repository",
+   "url": "https://github.com/rtk-ai/rtk/issues/3423",
+   "labels": [
+    "documentation",
+    "good first issue",
+    "priority:medium",
+    "area:security",
+    "area:docs"
+   ],
+   "updatedAt": "2026-10-14T12:58:18Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4766 by @HetCreep is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4766"
+   ]
+  },
+  {
+   "number": 3426,
+   "title": "`-u` is documented in three places but is not a flag (it is passed through as a command name); `--ultra-compact` is documented as global but only affects `gh`/`glab`",
+   "url": "https://github.com/rtk-ai/rtk/issues/3426",
+   "labels": [
+    "documentation",
+    "good first issue",
+    "priority:low",
+    "area:docs"
+   ],
+   "updatedAt": "2026-10-14T12:58:27Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4083 by @ethanstoner is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4083",
+    "https://github.com/rtk-ai/rtk/pull/4125"
+   ]
+  },
+  {
+   "number": 3650,
+   "title": "perf(discover): estimate_hook_coverage double-scans for unattestable constructs",
+   "url": "https://github.com/rtk-ai/rtk/issues/3650",
+   "labels": [
+    "bug",
+    "help wanted",
+    "priority:low",
+    "area:performance"
+   ],
+   "updatedAt": "2026-10-17T21:48:58Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4637 by @ZXLyyds100 is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4637",
+    "https://github.com/rtk-ai/rtk/pull/3206"
+   ]
+  },
+  {
+   "number": 3675,
+   "title": "`pnpm test` / `pnpm build` are not routed, only `pnpm run <script>`",
+   "url": "https://github.com/rtk-ai/rtk/issues/3675",
+   "labels": [
+    "bug",
+    "good first issue",
+    "priority:low",
+    "area:cli"
+   ],
+   "updatedAt": "2026-09-24T11:10:56Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #3676 by @dwin-gharibi is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/3676"
+   ]
+  },
+  {
+   "number": 3919,
+   "title": "Feature: Append a compact RTK/recovery hint after hook-rewritten commands",
+   "url": "https://github.com/rtk-ai/rtk/issues/3919",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "priority:low",
+    "area:cli"
+   ],
+   "updatedAt": "2026-09-26T13:54:22Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "only 22% of recently closed PRs were merged — most contributions get rejected or abandoned here (+1 more)",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/issues/3919#issuecomment-5846823570",
+    "https://github.com/rtk-ai/rtk/issues/3919",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 3953,
+   "title": "hooks: track_tee_read records a read for Ask outcomes the user may reject",
+   "url": "https://github.com/rtk-ai/rtk/issues/3953",
+   "labels": [
+    "bug",
+    "good first issue",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-09-24T00:55:13Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4223 by @agnuca118-rgb is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4223",
+    "https://github.com/rtk-ai/rtk/pull/3278"
+   ]
+  },
+  {
+   "number": 3956,
+   "title": "`jq` hook-rewrite fails with opaque \"rtk: No such file or directory\" when jq is not installed, masking the real cause",
+   "url": "https://github.com/rtk-ai/rtk/issues/3956",
+   "labels": [
+    "bug",
+    "help wanted",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-10-30T07:20:11Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4081 by @ethanstoner is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4081"
+   ]
+  },
+  {
+   "number": 4012,
+   "title": "rtk read consumes the whole input before windowing: unbounded streams never terminate, peak RSS scales with file size",
+   "url": "https://github.com/rtk-ai/rtk/issues/4012",
+   "labels": [
+    "bug",
+    "help wanted",
+    "priority:high",
+    "area:performance"
+   ],
+   "updatedAt": "2026-10-29T00:43:43Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4042 by @taljeon is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4042",
+    "https://github.com/rtk-ai/rtk/pull/3941"
+   ]
+  },
+  {
+   "number": 4025,
+   "title": "gh run view --exit-status: filter skipped on a failed run, so the one case worth compressing is the one passed through raw",
+   "url": "https://github.com/rtk-ai/rtk/issues/4025",
+   "labels": [
+    "bug",
+    "good first issue",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-09-13T13:16:53Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4027 by @burakeyler is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4027",
+    "https://github.com/rtk-ai/rtk/pull/1122"
+   ]
+  },
+  {
+   "number": 4056,
+   "title": "Name the program in spawn-failure errors for captured commands",
+   "url": "https://github.com/rtk-ai/rtk/issues/4056",
+   "labels": [
+    "bug",
+    "good first issue",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-09-14T13:34:33Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4057 by @obrienciaran is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4057",
+    "https://github.com/rtk-ai/rtk/pull/4234"
+   ]
+  },
+  {
+   "number": 4065,
+   "title": "`rtk read <file>` exits 1 with no output on a non-UTF-8 file, while `--head-lines`/`--tail-lines` on the same file are byte-exact",
+   "url": "https://github.com/rtk-ai/rtk/issues/4065",
+   "labels": [
+    "bug",
+    "good first issue",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-10-31T17:19:05Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "only 22% of recently closed PRs were merged — most contributions get rejected or abandoned here (+2 more)",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4066",
+    "https://github.com/rtk-ai/rtk/pull/4647",
+    "https://github.com/rtk-ai/rtk/issues/4065",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 4097,
+   "title": "Add Devin CLI integration (PreToolUse hook via .devin/hooks.v1.json)",
+   "url": "https://github.com/rtk-ai/rtk/issues/4097",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-10-01T16:32:27Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "only 22% of recently closed PRs were merged — most contributions get rejected or abandoned here (+1 more)",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/issues/4097",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/README.md",
+    "https://docs.devin.ai/cli/extensibility/hooks/overview"
+   ]
+  },
+  {
+   "number": 4098,
+   "title": "output capped at N results: elided lines are unrecoverable and the hint has no recovery path",
+   "url": "https://github.com/rtk-ai/rtk/issues/4098",
+   "labels": [
+    "bug",
+    "help wanted",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-09-19T02:33:43Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4107 by @lindicaphxag-tech is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4107",
+    "https://github.com/gatezh/devcontainers/pull/241"
+   ]
+  },
+  {
+   "number": 4099,
+   "title": "rewrite: declines env-wrapped (env -u) and sudo-prefixed commands",
+   "url": "https://github.com/rtk-ai/rtk/issues/4099",
+   "labels": [
+    "bug",
+    "good first issue",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-09-18T18:53:46Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4115 by @taljeon is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4115"
+   ]
+  },
+  {
+   "number": 4100,
+   "title": "bug(discover): a tab between command and subcommand classifies as Supported but never rewrites",
+   "url": "https://github.com/rtk-ai/rtk/issues/4100",
+   "labels": [
+    "bug",
+    "good first issue",
+    "priority:low",
+    "area:cli"
+   ],
+   "updatedAt": "2026-09-17T23:24:47Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4104 by @jacobshaw01-del is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4104",
+    "https://github.com/rtk-ai/rtk/pull/4133",
+    "https://github.com/rtk-ai/rtk/pull/3275",
+    "https://github.com/rtk-ai/rtk/pull/4014"
+   ]
+  },
+  {
+   "number": 4102,
+   "title": "Windows: MSYS/Cygwin children also lose apostrophes and glob metacharacters, not just double quotes (sequel to #3727)",
+   "url": "https://github.com/rtk-ai/rtk/issues/4102",
+   "labels": [
+    "bug",
+    "help wanted",
+    "priority:high",
+    "area:cli",
+    "platform:windows"
+   ],
+   "updatedAt": "2026-10-07T01:08:28Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4103 by @KuSh is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4103",
+    "https://github.com/rtk-ai/rtk/pull/4257",
+    "https://github.com/rtk-ai/rtk/pull/3728",
+    "https://github.com/rtk-ai/rtk/pull/4125"
+   ]
+  },
+  {
+   "number": 4111,
+   "title": "rtk read: add a line-range option so sed -n range reads stop escaping the filter",
+   "url": "https://github.com/rtk-ai/rtk/issues/4111",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-11-11T02:47:18Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4190 by @lingeswaranmca is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/issues/4190"
+   ]
+  },
+  {
+   "number": 4144,
+   "title": "Recall retention only applies on write: a quiet machine keeps rows past retention_days",
+   "url": "https://github.com/rtk-ai/rtk/issues/4144",
+   "labels": [
+    "bug",
+    "help wanted",
+    "priority:medium",
+    "area:security"
+   ],
+   "updatedAt": "2026-09-20T11:21:56Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4145 by @dopaemon is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4145"
+   ]
+  },
+  {
+   "number": 4162,
+   "title": "rtk ast-grep: a directory named after a subcommand disables filtering for the whole implicit-run invocation",
+   "url": "https://github.com/rtk-ai/rtk/issues/4162",
+   "labels": [
+    "bug",
+    "good first issue",
+    "filter-quality",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-09-20T21:04:37Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4163 by @Yahiro025 is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4163"
+   ]
+  },
+  {
+   "number": 4183,
+   "title": "git diff/status output can contain text that exists nowhere on disk",
+   "url": "https://github.com/rtk-ai/rtk/issues/4183",
+   "labels": [
+    "bug",
+    "help wanted",
+    "priority:high",
+    "area:cli"
+   ],
+   "updatedAt": "2026-09-21T21:30:32Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4815 by @alponme is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/issues/4815"
+   ]
+  },
+  {
+   "number": 4190,
+   "title": "Hook rewrite coverage: openssl and awk unmapped; sshpass unusable as a transparent prefix",
+   "url": "https://github.com/rtk-ai/rtk/issues/4190",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-09-22T03:08:31Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #5051 by @BSD-Yassin is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/issues/5051"
+   ]
+  },
+  {
+   "number": 4193,
+   "title": "Awareness text teaches `rtk git add . && rtk git commit -m` as the chain example — unsafe for the concurrent-writer case",
+   "url": "https://github.com/rtk-ai/rtk/issues/4193",
+   "labels": [
+    "documentation",
+    "good first issue",
+    "priority:high",
+    "area:docs"
+   ],
+   "updatedAt": "2026-09-24T03:52:36Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4232 by @amandeavor is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4232"
+   ]
+  },
+  {
+   "number": 4227,
+   "title": "`rtk init --gemini` treats any BeforeTool group whose first hook contains \"rtk\" as RTK's: uninstall deletes user hooks, install skips",
+   "url": "https://github.com/rtk-ai/rtk/issues/4227",
+   "labels": [
+    "bug",
+    "help wanted",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-10-23T13:35:47Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4235 by @amandeavor is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4235",
+    "https://github.com/rtk-ai/rtk/pull/4151",
+    "https://github.com/rtk-ai/rtk/pull/4343"
+   ]
+  },
+  {
+   "number": 4231,
+   "title": "rtk diff reports legacy-encoded text as binary and drops the diff, while `rtk diff -u` on the same pair shows it",
+   "url": "https://github.com/rtk-ai/rtk/issues/4231",
+   "labels": [
+    "bug",
+    "good first issue",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-09-25T09:25:07Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4336 by @tuttucodes is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4336",
+    "https://github.com/rtk-ai/rtk/pull/4169"
+   ]
+  },
+  {
+   "number": 4237,
+   "title": "rtk rg --files <path> treats the path as a pattern when stdin is a pipe",
+   "url": "https://github.com/rtk-ai/rtk/issues/4237",
+   "labels": [
+    "bug",
+    "good first issue",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-09-25T10:22:07Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4250 by @Yi-111-a is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4250"
+   ]
+  },
+  {
+   "number": 4239,
+   "title": "feat(filters): Angular CLI output optimization for ng build, ng serve, and modern ng test",
+   "url": "https://github.com/rtk-ai/rtk/issues/4239",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-09-25T10:19:20Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "only 22% of recently closed PRs were merged — most contributions get rejected or abandoned here (+1 more)",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4410",
+    "https://github.com/rtk-ai/rtk/issues/4239",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 4243,
+   "title": "Support rtk wait-for polling/retry patterns",
+   "url": "https://github.com/rtk-ai/rtk/issues/4243",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-09-25T14:34:03Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "only 22% of recently closed PRs were merged — most contributions get rejected or abandoned here",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/issues/4243",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 4248,
+   "title": "rtk init: one command shape for every agent instead of three",
+   "url": "https://github.com/rtk-ai/rtk/issues/4248",
+   "labels": [
+    "bug",
+    "help wanted",
+    "priority:high",
+    "area:cli"
+   ],
+   "updatedAt": "2026-09-25T23:43:02Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "only 22% of recently closed PRs were merged — most contributions get rejected or abandoned here (+1 more)",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/3000",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 4249,
+   "title": "rtk read -l minimal applies C comment syntax to extensionless files: a .gitignore line `/*.log` drops the rest of the file",
+   "url": "https://github.com/rtk-ai/rtk/issues/4249",
+   "labels": [
+    "bug",
+    "good first issue",
+    "priority:high",
+    "area:cli"
+   ],
+   "updatedAt": "2026-09-25T23:58:42Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4258 by @chenzeyan54-commits is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4258",
+    "https://github.com/rtk-ai/rtk/pull/2397",
+    "https://github.com/rtk-ai/rtk/pull/3336"
+   ]
+  },
+  {
+   "number": 4251,
+   "title": "rtk read: stdin and .pyi files skip the Python path, so `-l minimal` strips them with C-style rules",
+   "url": "https://github.com/rtk-ai/rtk/issues/4251",
+   "labels": [
+    "bug",
+    "good first issue",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-09-26T00:13:30Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4259 by @Yahiro025 is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4259",
+    "https://github.com/rtk-ai/rtk/pull/4274",
+    "https://github.com/rtk-ai/rtk/pull/3336"
+   ]
+  },
+  {
+   "number": 4268,
+   "title": "rtk grep drops the filename prefix for --dereference-recursive and -d recurse",
+   "url": "https://github.com/rtk-ai/rtk/issues/4268",
+   "labels": [
+    "bug",
+    "help wanted",
+    "good first issue",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-09-26T08:57:59Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4272 by @mrhard9090 is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4272"
+   ]
+  },
+  {
+   "number": 4273,
+   "title": "rtk read: a UTF-8 byte order mark hides the first line from every filter",
+   "url": "https://github.com/rtk-ai/rtk/issues/4273",
+   "labels": [
+    "bug",
+    "help wanted",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-09-26T10:20:20Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4274 by @KuSh is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4274",
+    "https://github.com/rtk-ai/rtk/pull/4276"
+   ]
+  },
+  {
+   "number": 4275,
+   "title": "rtk read -l minimal: after an unclosed f-string field (a file being edited), Python comment stripping stops for the rest of the file",
+   "url": "https://github.com/rtk-ai/rtk/issues/4275",
+   "labels": [
+    "bug",
+    "help wanted",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-09-26T10:22:23Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4274 by @KuSh is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4274"
+   ]
+  },
+  {
+   "number": 4278,
+   "title": "discover/gain: RTK_DISABLED= after a wrapper the hook rewrites through (nice, timeout, command) is never counted as a bypass",
+   "url": "https://github.com/rtk-ai/rtk/issues/4278",
+   "labels": [
+    "bug",
+    "help wanted",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-09-26T11:14:01Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4457 by @SunilRathod27 is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4457",
+    "https://github.com/rtk-ai/rtk/pull/3808"
+   ]
+  },
+  {
+   "number": 4283,
+   "title": "A `case` (or subshell / brace group) anywhere on a line disables rewriting of every pipeline on that line",
+   "url": "https://github.com/rtk-ai/rtk/issues/4283",
+   "labels": [
+    "bug",
+    "help wanted",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-09-26T17:43:04Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4285 by @tayfuryldz is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4285"
+   ]
+  },
+  {
+   "number": 4289,
+   "title": "`rtk test` does not normalise an even, non-zero negation count — returns the child's status where a shell returns 0/1",
+   "url": "https://github.com/rtk-ai/rtk/issues/4289",
+   "labels": [
+    "bug",
+    "good first issue",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-09-26T21:18:10Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4291 by @tayfuryldz is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4291",
+    "https://github.com/rtk-ai/rtk/pull/4125"
+   ]
+  },
+  {
+   "number": 4290,
+   "title": "An empty `--shell=` value and a bare `rtk test` answer with an anyhow chain at exit 1, not the promised clap usage error",
+   "url": "https://github.com/rtk-ai/rtk/issues/4290",
+   "labels": [
+    "bug",
+    "good first issue",
+    "priority:low",
+    "area:cli"
+   ],
+   "updatedAt": "2026-09-26T21:35:50Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4292 by @JaiPatel713 is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4292",
+    "https://github.com/rtk-ai/rtk/pull/4125"
+   ]
+  },
+  {
+   "number": 4298,
+   "title": "gradlew filter drops the \"Configuration cache entry discarded with N problems\" line",
+   "url": "https://github.com/rtk-ai/rtk/issues/4298",
+   "labels": [
+    "bug",
+    "good first issue",
+    "filter-quality",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-09-27T08:58:44Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4303 by @pavelbe is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4303"
+   ]
+  },
+  {
+   "number": 4300,
+   "title": "MinimalFilter keeps a dead Python docstring branch after the Python early return",
+   "url": "https://github.com/rtk-ai/rtk/issues/4300",
+   "labels": [
+    "bug",
+    "good first issue",
+    "priority:low",
+    "area:cli",
+    "refactor",
+    "tests",
+    "filter"
+   ],
+   "updatedAt": "2026-09-27T08:58:44Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4301 by @chenzeyan54-commits is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4301"
+   ]
+  },
+  {
+   "number": 4313,
+   "title": "discover: the example command shown for a bucket changes between runs on the same history",
+   "url": "https://github.com/rtk-ai/rtk/issues/4313",
+   "labels": [
+    "bug",
+    "good first issue",
+    "priority:low",
+    "area:cli"
+   ],
+   "updatedAt": "2026-09-27T23:05:07Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4330 by @amandeavor is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4330",
+    "https://github.com/rtk-ai/rtk/pull/2931"
+   ]
+  },
+  {
+   "number": 4314,
+   "title": "learn: zero-session message blames the time window whatever the scope",
+   "url": "https://github.com/rtk-ai/rtk/issues/4314",
+   "labels": [
+    "bug",
+    "good first issue",
+    "priority:low",
+    "area:cli"
+   ],
+   "updatedAt": "2026-09-27T23:13:52Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4329 by @amandeavor is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4329",
+    "https://github.com/rtk-ai/rtk/pull/3374"
+   ]
+  },
+  {
+   "number": 4322,
+   "title": "rtk find: `--max 0` prints an empty first line before `+N more`",
+   "url": "https://github.com/rtk-ai/rtk/issues/4322",
+   "labels": [
+    "bug",
+    "good first issue",
+    "priority:low",
+    "area:cli"
+   ],
+   "updatedAt": "2026-09-28T11:55:02Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4327 by @nightcityblade is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4327"
+   ]
+  },
+  {
+   "number": 4326,
+   "title": "Windows: choose the child argument encoder per child — MSYS/Cygwin children lose one backslash of each pair inside quoted arguments",
+   "url": "https://github.com/rtk-ai/rtk/issues/4326",
+   "labels": [
+    "bug",
+    "help wanted",
+    "priority:high",
+    "area:cli",
+    "platform:windows"
+   ],
+   "updatedAt": "2026-10-09T22:09:22Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4103 by @KuSh is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4103",
+    "https://github.com/rtk-ai/rtk/pull/4544"
+   ]
+  },
+  {
+   "number": 4332,
+   "title": "`kubectl --no-headers` is compacted even though it requests parseable output, while every other output-format flag is passed through",
+   "url": "https://github.com/rtk-ai/rtk/issues/4332",
+   "labels": [
+    "bug",
+    "good first issue",
+    "priority:high",
+    "area:cli"
+   ],
+   "updatedAt": "2026-09-28T03:53:50Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4334 by @chathurabuddi is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4334"
+   ]
+  },
+  {
+   "number": 4351,
+   "title": "rtk rewrite emits multi-line stdout for a single command, violating the one-command stdout contract",
+   "url": "https://github.com/rtk-ai/rtk/issues/4351",
+   "labels": [
+    "bug",
+    "help wanted",
+    "priority:high",
+    "area:cli"
+   ],
+   "updatedAt": "2026-10-10T00:25:12Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4501 by @ether-btc is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4501",
+    "https://github.com/rtk-ai/rtk/pull/4204"
+   ]
+  },
+  {
+   "number": 4357,
+   "title": "openclaw plugin: packaging fixes for OpenClaw 2026.9.6 compatibility (openclaw.extensions + activation.onStartup)",
+   "url": "https://github.com/rtk-ai/rtk/issues/4357",
+   "labels": [
+    "bug",
+    "good first issue",
+    "priority:high",
+    "area:config"
+   ],
+   "updatedAt": "2026-09-30T10:50:04Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4373 by @Cedric921 is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4373"
+   ]
+  },
+  {
+   "number": 4358,
+   "title": "openclaw plugin: reads legacy api.config; verbose setting has no effect",
+   "url": "https://github.com/rtk-ai/rtk/issues/4358",
+   "labels": [
+    "bug",
+    "good first issue",
+    "priority:medium",
+    "area:config"
+   ],
+   "updatedAt": "2026-09-30T10:49:50Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4372 by @Cedric921 is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4372"
+   ]
+  },
+  {
+   "number": 4362,
+   "title": "rtk go test -C DIR fails: -json is injected before -C",
+   "url": "https://github.com/rtk-ai/rtk/issues/4362",
+   "labels": [
+    "bug",
+    "good first issue",
+    "priority:high",
+    "area:cli"
+   ],
+   "updatedAt": "2026-09-30T13:46:48Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #3520 by @LimJiAn is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/3520",
+    "https://github.com/rtk-ai/rtk/pull/4495"
+   ]
+  },
+  {
+   "number": 4365,
+   "title": "Add support for launchctl (macOS service management, no equivalent request yet)",
+   "url": "https://github.com/rtk-ai/rtk/issues/4365",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "area:cli",
+    "priority:medium",
+    "platform:macos"
+   ],
+   "updatedAt": "2026-09-30T19:25:20Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #3346 by @kaushal5146 is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/issues/3346",
+    "https://github.com/rtk-ai/rtk/issues/3400"
+   ]
+  },
+  {
+   "number": 4394,
+   "title": "aws: generic compaction collapses CloudWatch datapoints and log group lists to a single item",
+   "url": "https://github.com/rtk-ai/rtk/issues/4394",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-10-02T14:12:30Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4396 by @rrhaya is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4396",
+    "https://github.com/rtk-ai/rtk/pull/4397",
+    "https://github.com/rtk-ai/rtk/pull/4398"
+   ]
+  },
+  {
+   "number": 4404,
+   "title": "rtk gh issue view -c drops comments silently: the #720 passthrough checks only the long --comments flag",
+   "url": "https://github.com/rtk-ai/rtk/issues/4404",
+   "labels": [
+    "bug",
+    "good first issue",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-10-02T16:36:02Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4406 by @gurkanceylan41 is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4406"
+   ]
+  },
+  {
+   "number": 4412,
+   "title": "discover: `sudo RTK_DISABLED=$VAR …` is not detected as a bypass when `sudo` is a transparent prefix",
+   "url": "https://github.com/rtk-ai/rtk/issues/4412",
+   "labels": [
+    "bug",
+    "good first issue",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-10-03T00:12:23Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4414 by @lesbass is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4414",
+    "https://github.com/rtk-ai/rtk/pull/3808"
+   ]
+  },
+  {
+   "number": 4419,
+   "title": "rtk go test -list prints \"No tests found\" while the stream lists the tests",
+   "url": "https://github.com/rtk-ai/rtk/issues/4419",
+   "labels": [
+    "bug",
+    "good first issue",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-10-11T09:20:24Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4430 by @nightcityblade is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4430",
+    "https://github.com/rtk-ai/rtk/pull/1444"
+   ]
+  },
+  {
+   "number": 4421,
+   "title": "Exit-code guard: rspec, phpunit, mvn, bun, deno, ctest and sbt still render green summaries on a non-zero exit",
+   "url": "https://github.com/rtk-ai/rtk/issues/4421",
+   "labels": [
+    "bug",
+    "help wanted",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-10-03T09:33:47Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #3577 by @hesam-oxe is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/3577"
+   ]
+  },
+  {
+   "number": 4424,
+   "title": "RTK hooks lacks support for github copilot -and github copilot app",
+   "url": "https://github.com/rtk-ai/rtk/issues/4424",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-10-03T13:24:38Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4743 by @Karol-Mac is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/issues/4743",
+    "https://github.com/rtk-ai/rtk/issues/4568"
+   ]
+  },
+  {
+   "number": 4427,
+   "title": "rtk init claims any Claude or Cursor hook command that mentions rtk-rewrite.sh",
+   "url": "https://github.com/rtk-ai/rtk/issues/4427",
+   "labels": [
+    "bug",
+    "help wanted",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-10-30T12:16:32Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4309 by @tayfuryldz is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4309",
+    "https://github.com/rtk-ai/rtk/pull/4679",
+    "https://github.com/rtk-ai/rtk/pull/4854"
+   ]
+  },
+  {
+   "number": 4428,
+   "title": "`categorize_command` sends 21 filtering commands to `other` in the ecosystem mix; nothing ties its match to `Commands`",
+   "url": "https://github.com/rtk-ai/rtk/issues/4428",
+   "labels": [
+    "bug",
+    "help wanted",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-10-03T15:28:38Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4429 by @nightcityblade is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4429",
+    "https://github.com/rtk-ai/rtk/pull/4328"
+   ]
+  },
+  {
+   "number": 4431,
+   "title": "rtk jest drops a `run` argument anywhere in the line, so `-t run` loses its value",
+   "url": "https://github.com/rtk-ai/rtk/issues/4431",
+   "labels": [
+    "bug",
+    "good first issue",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-10-03T15:50:08Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4442 by @ragen1337 is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4442",
+    "https://github.com/rtk-ai/rtk/pull/2418"
+   ]
+  },
+  {
+   "number": 4432,
+   "title": "rtk vitest / rtk jest: the dispatch arm and the spawn wiring have no test",
+   "url": "https://github.com/rtk-ai/rtk/issues/4432",
+   "labels": [
+    "bug",
+    "good first issue",
+    "area:cli",
+    "priority:medium",
+    "area:testing"
+   ],
+   "updatedAt": "2026-10-03T15:50:30Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4456 by @yeahjack is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4456",
+    "https://github.com/rtk-ai/rtk/pull/2418"
+   ]
+  },
+  {
+   "number": 4434,
+   "title": "rtk go test: a failing fuzz run drops the failing-input path and the re-run command",
+   "url": "https://github.com/rtk-ai/rtk/issues/4434",
+   "labels": [
+    "bug",
+    "good first issue",
+    "priority:low",
+    "area:cli"
+   ],
+   "updatedAt": "2026-10-03T15:57:07Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4438 by @Ashutosh-Panda2004 is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4438",
+    "https://github.com/rtk-ai/rtk/pull/1444"
+   ]
+  },
+  {
+   "number": 4453,
+   "title": "rtk cargo test -- --list prints nothing: the filter reads the test listing as an empty run",
+   "url": "https://github.com/rtk-ai/rtk/issues/4453",
+   "labels": [
+    "bug",
+    "good first issue",
+    "area:cli",
+    "priority:medium",
+    "area:testing"
+   ],
+   "updatedAt": "2026-10-05T11:43:30Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4454 by @yeahjack is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4454",
+    "https://github.com/rtk-ai/rtk/pull/4348"
+   ]
+  },
+  {
+   "number": 4477,
+   "title": "Claude Code hook: recursive `grep` → `rtk grep` still ignores .gitignore on 0.51.0 (remaining half of #2606)",
+   "url": "https://github.com/rtk-ai/rtk/issues/4477",
+   "labels": [
+    "bug",
+    "help wanted",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-10-17T00:12:35Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "only 22% of recently closed PRs were merged — most contributions get rejected or abandoned here",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/issues/4477",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 4483,
+   "title": "Claude Code hook never rewrites 'git commit -m' when the message comes from a heredoc",
+   "url": "https://github.com/rtk-ai/rtk/issues/4483",
+   "labels": [
+    "bug",
+    "help wanted",
+    "priority:high",
+    "area:cli"
+   ],
+   "updatedAt": "2026-10-08T01:18:19Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4493 by @boss477 is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4493"
+   ]
+  },
+  {
+   "number": 4497,
+   "title": "Windows: `ruby_exec` and three other spawns skip PATH resolution, so `.bat`/`.cmd` shims are never found",
+   "url": "https://github.com/rtk-ai/rtk/issues/4497",
+   "labels": [
+    "bug",
+    "good first issue",
+    "area:cli",
+    "priority:medium",
+    "platform:windows"
+   ],
+   "updatedAt": "2026-10-17T00:24:47Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4499 by @cestercian is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4499"
+   ]
+  },
+  {
+   "number": 4500,
+   "title": "docs(openclaw): RTK_REWRITE_HOST relaxes every default ask, not only commands no rule matched",
+   "url": "https://github.com/rtk-ai/rtk/issues/4500",
+   "labels": [
+    "documentation",
+    "good first issue",
+    "priority:low",
+    "area:docs"
+   ],
+   "updatedAt": "2026-10-09T23:22:43Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4504 by @Arslan-TR is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4504",
+    "https://github.com/rtk-ai/rtk/pull/4204"
+   ]
+  },
+  {
+   "number": 4509,
+   "title": "hooks(ux): Use interactive mod for \"rtk init -g\"",
+   "url": "https://github.com/rtk-ai/rtk/issues/4509",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "P3-nice-to-have",
+    "priority:low",
+    "area:cli",
+    "area:config",
+    "area:ui",
+    "cli"
+   ],
+   "updatedAt": "2026-10-11T11:51:38Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "already assigned to @aeppling",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/issues/4509"
+   ]
+  },
+  {
+   "number": 4517,
+   "title": "disown_pair: unreachable `Arg` arm, a redundant second call, and the `&!` rule applied to fish where both spellings agree",
+   "url": "https://github.com/rtk-ai/rtk/issues/4517",
+   "labels": [
+    "bug",
+    "good first issue",
+    "priority:low",
+    "area:cli"
+   ],
+   "updatedAt": "2026-10-12T04:57:13Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4523 by @cestercian is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4523",
+    "https://github.com/rtk-ai/rtk/pull/4126"
+   ]
+  },
+  {
+   "number": 4525,
+   "title": "Windows: Hermes plugin decodes rtk output as ANSI (cp936), UnicodeDecodeError leaves stdout=None and silently disables rewriting for non-GBK commands",
+   "url": "https://github.com/rtk-ai/rtk/issues/4525",
+   "labels": [
+    "bug",
+    "help wanted",
+    "good first issue",
+    "priority:high",
+    "area:cli",
+    "platform:windows"
+   ],
+   "updatedAt": "2026-10-12T06:38:02Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4527 by @Hdx123321 is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4527"
+   ]
+  },
+  {
+   "number": 4543,
+   "title": "semgrep job: a branch behind develop is blamed for develop's own findings",
+   "url": "https://github.com/rtk-ai/rtk/issues/4543",
+   "labels": [
+    "bug",
+    "help wanted",
+    "priority:medium",
+    "area:ci"
+   ],
+   "updatedAt": "2026-10-17T20:20:28Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4636 by @ZXLyyds100 is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4636"
+   ]
+  },
+  {
+   "number": 4545,
+   "title": "hooks: permission gate should read the rewrite's own wrapper scan (follow-up to #4530)",
+   "url": "https://github.com/rtk-ai/rtk/issues/4545",
+   "labels": [
+    "bug",
+    "help wanted",
+    "priority:high",
+    "area:security"
+   ],
+   "updatedAt": "2026-10-13T21:14:17Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4554 by @akushonkamen is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4554",
+    "https://github.com/rtk-ai/rtk/pull/4530",
+    "https://github.com/rtk-ai/rtk/pull/4550"
+   ]
+  },
+  {
+   "number": 4548,
+   "title": "rtk err / test / summary <cmd> --help filter the command's own help page",
+   "url": "https://github.com/rtk-ai/rtk/issues/4548",
+   "labels": [
+    "bug",
+    "help wanted",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-10-13T13:14:16Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4585 by @voidstackloop is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4585",
+    "https://github.com/rtk-ai/rtk/pull/4348"
+   ]
+  },
+  {
+   "number": 4559,
+   "title": "Proxies silently truncate output or redefine flags (grep -c/-l/-m, find, git status/show/log, docker images); rtk curl -o fails; no Windows hook mode",
+   "url": "https://github.com/rtk-ai/rtk/issues/4559",
+   "labels": [
+    "bug",
+    "help wanted",
+    "priority:high",
+    "area:cli",
+    "platform:windows"
+   ],
+   "updatedAt": "2026-10-14T06:19:49Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "only 22% of recently closed PRs were merged — most contributions get rejected or abandoned here (+1 more)",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/gatezh/devcontainers/pull/241",
+    "https://github.com/rtk-ai/rtk/issues/4559",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/README.md",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 4564,
+   "title": "feat: live view of hook rewrites during an agent session (`rtk showlive`)",
+   "url": "https://github.com/rtk-ai/rtk/issues/4564",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "priority:low",
+    "area:cli"
+   ],
+   "updatedAt": "2026-10-14T12:56:27Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "only 22% of recently closed PRs were merged — most contributions get rejected or abandoned here",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/issues/4564",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 4568,
+   "title": "Will the be support for Goose agent harness?",
+   "url": "https://github.com/rtk-ai/rtk/issues/4568",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "priority:low",
+    "area:cli"
+   ],
+   "updatedAt": "2026-10-20T09:08:34Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "only 22% of recently closed PRs were merged — most contributions get rejected or abandoned here",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/issues/4568",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 4572,
+   "title": "discover: -p/--project filter is ignored when --all is set",
+   "url": "https://github.com/rtk-ai/rtk/issues/4572",
+   "labels": [
+    "bug",
+    "help wanted",
+    "priority:high",
+    "area:cli"
+   ],
+   "updatedAt": "2026-10-14T19:16:35Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4581 by @Nacl-HCl is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4581"
+   ]
+  },
+  {
+   "number": 4577,
+   "title": "rtk git log --format=<fmt> -z cuts the NUL-separated walk to 80 characters",
+   "url": "https://github.com/rtk-ai/rtk/issues/4577",
+   "labels": [
+    "bug",
+    "good first issue",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-10-15T00:38:53Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4579 by @dannyward630 is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4579"
+   ]
+  },
+  {
+   "number": 4588,
+   "title": "CI does not run the plugin test suites that live outside cargo",
+   "url": "https://github.com/rtk-ai/rtk/issues/4588",
+   "labels": [
+    "bug",
+    "help wanted",
+    "priority:medium",
+    "area:ci",
+    "area:testing"
+   ],
+   "updatedAt": "2026-10-15T21:59:55Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4093 by @RikETS is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4093",
+    "https://github.com/rtk-ai/rtk/pull/4611",
+    "https://github.com/rtk-ai/rtk/pull/4507",
+    "https://github.com/rtk-ai/rtk/pull/3833"
+   ]
+  },
+  {
+   "number": 4589,
+   "title": "rtk init --codex --uninstall says \"not installed (nothing to remove)\" and then \"the hook may still be registered\"",
+   "url": "https://github.com/rtk-ai/rtk/issues/4589",
+   "labels": [
+    "bug",
+    "good first issue",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-10-15T22:14:34Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4601 by @TheNetherWatcher is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4601",
+    "https://github.com/rtk-ai/rtk/pull/4463"
+   ]
+  },
+  {
+   "number": 4600,
+   "title": "rtk pytest -rP/-rA lists passing tests that print output as [FAIL]",
+   "url": "https://github.com/rtk-ai/rtk/issues/4600",
+   "labels": [
+    "bug",
+    "good first issue",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-10-23T11:24:59Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4621 by @viniciusdsandrade is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4621",
+    "https://github.com/rtk-ai/rtk/pull/4829",
+    "https://github.com/rtk-ai/rtk/pull/3355",
+    "https://github.com/rtk-ai/rtk/pull/4714"
+   ]
+  },
+  {
+   "number": 4603,
+   "title": "`rtk dotnet test` loses `--list-tests` output and deletes the test artifacts it redirects",
+   "url": "https://github.com/rtk-ai/rtk/issues/4603",
+   "labels": [
+    "bug",
+    "help wanted",
+    "priority:high",
+    "area:cli"
+   ],
+   "updatedAt": "2026-10-21T00:00:43Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "only 22% of recently closed PRs were merged — most contributions get rejected or abandoned here (+3 more)",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/2142",
+    "https://github.com/rtk-ai/rtk/pull/4628",
+    "https://github.com/rtk-ai/rtk/issues/4603",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 4606,
+   "title": "Pi/OMP extension skips unwrapped commands when a chain starts with rtk",
+   "url": "https://github.com/rtk-ai/rtk/issues/4606",
+   "labels": [
+    "bug",
+    "good first issue",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-10-16T20:31:47Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4609 by @zycxfyh is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4609"
+   ]
+  },
+  {
+   "number": 4607,
+   "title": "Pi/OMP extension: allow bounded recovery after a failed RTK startup probe",
+   "url": "https://github.com/rtk-ai/rtk/issues/4607",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-10-28T17:55:11Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #5009 by @CG-5228 is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/5009"
+   ]
+  },
+  {
+   "number": 4608,
+   "title": "OpenCode: no after-tool transport (output compression, classifiers, routes) — status of #2819?",
+   "url": "https://github.com/rtk-ai/rtk/issues/4608",
+   "labels": [
+    "help wanted",
+    "question",
+    "priority:medium",
+    "area:opencode"
+   ],
+   "updatedAt": "2026-10-19T06:55:28Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4665 by @jeff-aronow is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/issues/4665"
+   ]
+  },
+  {
+   "number": 4613,
+   "title": "kubectl get pods <name> prints \"No pods found\" for an existing pod",
+   "url": "https://github.com/rtk-ai/rtk/issues/4613",
+   "labels": [
+    "bug",
+    "good first issue",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-10-16T23:47:51Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #293 by @mariusvniekerk is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/293",
+    "https://github.com/rtk-ai/rtk/pull/4635",
+    "https://github.com/1932819331hy-debug/rtk/pull/1",
+    "https://github.com/rtk-ai/rtk/pull/4667"
+   ]
+  },
+  {
+   "number": 4614,
+   "title": "rtk oc does not accept --context, --kubeconfig, --as or a leading -n",
+   "url": "https://github.com/rtk-ai/rtk/issues/4614",
+   "labels": [
+    "bug",
+    "help wanted",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-10-17T19:24:13Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #293 by @mariusvniekerk is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/293",
+    "https://github.com/rtk-ai/rtk/pull/4635"
+   ]
+  },
+  {
+   "number": 4615,
+   "title": "`rtk rewrite` runs the daily hook reminder and telemetry ping on the hook path, so shell hooks spend the reminder into /dev/null",
+   "url": "https://github.com/rtk-ai/rtk/issues/4615",
+   "labels": [
+    "bug",
+    "good first issue",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-10-17T00:05:46Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4619 by @viniciusdsandrade is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4619",
+    "https://github.com/rtk-ai/rtk/pull/4308"
+   ]
+  },
+  {
+   "number": 4616,
+   "title": "The telemetry marker is written before a detached send that process exit kills, so a fast command spends the day's ping without sending it",
+   "url": "https://github.com/rtk-ai/rtk/issues/4616",
+   "labels": [
+    "bug",
+    "good first issue",
+    "priority:high",
+    "area:security"
+   ],
+   "updatedAt": "2026-10-17T00:05:48Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4706 by @gaurav0107 is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4706",
+    "https://github.com/rtk-ai/rtk/pull/4308"
+   ]
+  },
+  {
+   "number": 4625,
+   "title": "OpenCode plugin only reads process.env.PATH, not Path — self-disables on Windows/Bun",
+   "url": "https://github.com/rtk-ai/rtk/issues/4625",
+   "labels": [
+    "bug",
+    "good first issue",
+    "priority:high",
+    "area:cli",
+    "platform:windows"
+   ],
+   "updatedAt": "2026-10-27T12:29:36Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4626 by @qwist1233-cpu is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4626"
+   ]
+  },
+  {
+   "number": 4631,
+   "title": "`rtk init` rewrites existing files with mode 0600, whatever mode they had",
+   "url": "https://github.com/rtk-ai/rtk/issues/4631",
+   "labels": [
+    "bug",
+    "good first issue",
+    "priority:high",
+    "area:cli",
+    "area:security"
+   ],
+   "updatedAt": "2026-10-17T13:16:36Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4653 by @KuSh is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4653",
+    "https://github.com/rtk-ai/rtk/pull/4335"
+   ]
+  },
+  {
+   "number": 4654,
+   "title": "`rtk ruff` reads the subcommand from fixed positions, so ruff global options make `rtk ruff --isolated analyze graph` truncate the JSON",
+   "url": "https://github.com/rtk-ai/rtk/issues/4654",
+   "labels": [
+    "bug",
+    "help wanted",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-10-31T21:20:41Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4892 by @Protocol-zero-0 is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4892",
+    "https://github.com/rtk-ai/rtk/pull/3942",
+    "https://github.com/rtk-ai/rtk/pull/3968",
+    "https://github.com/rtk-ai/rtk/pull/4727"
+   ]
+  },
+  {
+   "number": 4684,
+   "title": "rtk jira: filtered output keeps trailing line padding — 30-39% of the result is spaces (v1.0.1)",
+   "url": "https://github.com/rtk-ai/rtk/issues/4684",
+   "labels": [
+    "bug",
+    "good first issue",
+    "priority:low",
+    "area:cli"
+   ],
+   "updatedAt": "2026-10-31T23:01:43Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4729 by @umi008 is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4729"
+   ]
+  },
+  {
+   "number": 4692,
+   "title": "rtk pipe without -f reads plain `go test` output as find/grep results",
+   "url": "https://github.com/rtk-ai/rtk/issues/4692",
+   "labels": [
+    "bug",
+    "help wanted",
+    "priority:high",
+    "area:cli",
+    "pipe"
+   ],
+   "updatedAt": "2026-11-02T13:29:30Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4789 by @Aschenbath is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4789",
+    "https://github.com/rtk-ai/rtk/pull/5015",
+    "https://github.com/rtk-ai/rtk/pull/4455"
+   ]
+  },
+  {
+   "number": 4696,
+   "title": "`rtk json --keys-only` describes an array by its first element, so keys only later elements have never appear",
+   "url": "https://github.com/rtk-ai/rtk/issues/4696",
+   "labels": [
+    "bug",
+    "good first issue",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-10-20T22:52:52Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #5059 by @Binqi2021 is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/5059",
+    "https://github.com/rtk-ai/rtk/pull/4347"
+   ]
+  },
+  {
+   "number": 4700,
+   "title": "Lint filters shorten paths to a basename, so same-named files in different directories become indistinguishable",
+   "url": "https://github.com/rtk-ai/rtk/issues/4700",
+   "labels": [
+    "bug",
+    "good first issue",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-10-31T23:01:47Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4732 by @umi008 is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4732",
+    "https://github.com/rtk-ai/rtk/pull/4645"
+   ]
+  },
+  {
+   "number": 4701,
+   "title": "`rtk ruff check --statistics` prints ruff's statistics JSON instead of its table, larger than ruff's own output",
+   "url": "https://github.com/rtk-ai/rtk/issues/4701",
+   "labels": [
+    "bug",
+    "good first issue",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-10-21T00:21:34Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4732 by @umi008 is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4732",
+    "https://github.com/rtk-ai/rtk/pull/4731",
+    "https://github.com/rtk-ai/rtk/pull/3968"
+   ]
+  },
+  {
+   "number": 4703,
+   "title": "rtk read -l minimal: C-syntax extensions missing from Language::from_extension get no comment stripping",
+   "url": "https://github.com/rtk-ai/rtk/issues/4703",
+   "labels": [
+    "bug",
+    "good first issue",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-10-21T00:22:50Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4258 by @chenzeyan54-commits is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4258",
+    "https://github.com/rtk-ai/rtk/pull/4810"
+   ]
+  },
+  {
+   "number": 4728,
+   "title": "test: help_passthrough_fuzz_test opens git's HTML manual pages in the browser on Windows",
+   "url": "https://github.com/rtk-ai/rtk/issues/4728",
+   "labels": [
+    "bug",
+    "good first issue",
+    "priority:medium",
+    "platform:windows",
+    "area:testing"
+   ],
+   "updatedAt": "2026-10-21T21:57:21Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4729 by @umi008 is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4729",
+    "https://github.com/rtk-ai/rtk/pull/4730",
+    "https://github.com/rtk-ai/rtk/pull/4732",
+    "https://github.com/rtk-ai/rtk/pull/4731",
+    "https://github.com/rtk-ai/rtk/pull/4733",
+    "https://github.com/rtk-ai/rtk/pull/4784"
+   ]
+  },
+  {
+   "number": 4746,
+   "title": "Windows: .hook_warn_last mtime never advances, so the daily hook reminder prints on every command",
+   "url": "https://github.com/rtk-ai/rtk/issues/4746",
+   "labels": [
+    "bug",
+    "good first issue",
+    "area:cli",
+    "priority:medium",
+    "platform:windows"
+   ],
+   "updatedAt": "2026-10-23T11:25:04Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "@Qssyv20 claimed it 19 days ago",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/issues/4746#issuecomment-6363781075"
+   ]
+  },
+  {
+   "number": 4748,
+   "title": "rtk pytest: a captured line shaped like a block header (`___ x ___`, `_ x _`) opens a phantom [FAIL] entry",
+   "url": "https://github.com/rtk-ai/rtk/issues/4748",
+   "labels": [
+    "bug",
+    "good first issue",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-10-23T17:06:42Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4802 by @viniciusdsandrade is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4802",
+    "https://github.com/rtk-ai/rtk/pull/4714"
+   ]
+  },
+  {
+   "number": 4749,
+   "title": "rtk pytest: an `E` diff line starting with `= `, and a blank `E` line, are hidden without being counted in `… +N more E lines`",
+   "url": "https://github.com/rtk-ai/rtk/issues/4749",
+   "labels": [
+    "bug",
+    "good first issue",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-10-23T17:06:49Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4799 by @Aschenbath is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4799",
+    "https://github.com/rtk-ai/rtk/pull/4714"
+   ]
+  },
+  {
+   "number": 4753,
+   "title": "A leading `--` is dropped before the tool runs for 19 passthrough commands (`rtk pytest -- -k.py` runs the wrong tests)",
+   "url": "https://github.com/rtk-ai/rtk/issues/4753",
+   "labels": [
+    "bug",
+    "good first issue",
+    "priority:high",
+    "area:cli"
+   ],
+   "updatedAt": "2026-10-30T14:12:29Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4768 by @danieldutu is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4768",
+    "https://github.com/danieldutu/rtk/pull/1",
+    "https://github.com/rtk-ai/rtk/pull/4727"
+   ]
+  },
+  {
+   "number": 4754,
+   "title": "telemetry forget: server-side erasure always fails with 404 (/ping/erasure)",
+   "url": "https://github.com/rtk-ai/rtk/issues/4754",
+   "labels": [
+    "bug",
+    "good first issue",
+    "priority:high",
+    "area:security"
+   ],
+   "updatedAt": "2026-10-23T23:23:43Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4772 by @maayaankk is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4772"
+   ]
+  },
+  {
+   "number": 4755,
+   "title": "rtk ng build: development-configuration tables and workspaces with a library are not compacted",
+   "url": "https://github.com/rtk-ai/rtk/issues/4755",
+   "labels": [
+    "bug",
+    "good first issue",
+    "priority:low",
+    "area:cli"
+   ],
+   "updatedAt": "2026-10-23T18:15:27Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4777 by @danieldutu is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4777",
+    "https://github.com/rtk-ai/rtk/pull/4410"
+   ]
+  },
+  {
+   "number": 4757,
+   "title": "With CLAUDE_CONFIG_DIR set, rtk init -g leaves the legacy hook script and \"Hook outdated\" never clears",
+   "url": "https://github.com/rtk-ai/rtk/issues/4757",
+   "labels": [
+    "bug",
+    "good first issue",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-10-31T23:01:39Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4774 by @danieldutu is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4774",
+    "https://github.com/rtk-ai/rtk/pull/5050",
+    "https://github.com/rtk-ai/rtk/pull/4343"
+   ]
+  },
+  {
+   "number": 4758,
+   "title": "rtk rewrite skips docker / docker compose when -f, -p, -H or --context precedes the subcommand",
+   "url": "https://github.com/rtk-ai/rtk/issues/4758",
+   "labels": [
+    "bug",
+    "good first issue",
+    "priority:high",
+    "area:cli"
+   ],
+   "updatedAt": "2026-10-23T17:24:30Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4765 by @danieldutu is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4765"
+   ]
+  },
+  {
+   "number": 4775,
+   "title": "task.toml: `match_command = \"^task\\\\b\"` matches hyphenated commands (`task-start`, `task-runner`), so the hook rewrites them",
+   "url": "https://github.com/rtk-ai/rtk/issues/4775",
+   "labels": [
+    "bug",
+    "good first issue",
+    "area:cli",
+    "priority:medium",
+    "platform:windows"
+   ],
+   "updatedAt": "2026-10-31T23:01:12Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4776 by @sarankumar1325 is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4776",
+    "https://github.com/rtk-ai/rtk/pull/4871"
+   ]
+  },
+  {
+   "number": 4781,
+   "title": "rewrite: `tail -c N file` not rewritten; compound commands with `$(...)` or `>` skip the whole command",
+   "url": "https://github.com/rtk-ai/rtk/issues/4781",
+   "labels": [
+    "bug",
+    "help wanted",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-10-24T18:18:33Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4790 by @gibkim is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4790"
+   ]
+  },
+  {
+   "number": 4803,
+   "title": "`rtk rspec`: extra stdout around the injected JSON turns the output into the whole JSON report, or nothing",
+   "url": "https://github.com/rtk-ai/rtk/issues/4803",
+   "labels": [
+    "bug",
+    "help wanted",
+    "priority:high",
+    "area:testing"
+   ],
+   "updatedAt": "2026-10-27T01:01:50Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4814 by @Aschenbath is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4814"
+   ]
+  },
+  {
+   "number": 4816,
+   "title": "`rtk read -n` (target of the `cat -n` rewrite) drops carriage returns and adds a final newline",
+   "url": "https://github.com/rtk-ai/rtk/issues/4816",
+   "labels": [
+    "bug",
+    "help wanted",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-10-31T23:01:08Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4828 by @GeorgiaPreda is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4828",
+    "https://github.com/rtk-ai/rtk/pull/4872",
+    "https://github.com/rtk-ai/rtk/pull/4647"
+   ]
+  },
+  {
+   "number": 4817,
+   "title": "rtk git show <commit>: truncation hint points to `rtk git diff --no-compact`, which does not show the commit",
+   "url": "https://github.com/rtk-ai/rtk/issues/4817",
+   "labels": [
+    "bug",
+    "good first issue",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-10-31T23:01:26Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4837 by @vshalpnjabi is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4837",
+    "https://github.com/rtk-ai/rtk/pull/4849"
+   ]
+  },
+  {
+   "number": 4818,
+   "title": "head/tail rewritten to `rtk read` report a missing file as \"cat: ...\" and `tail -n 0 missing` exits 1 (GNU tail exits 0)",
+   "url": "https://github.com/rtk-ai/rtk/issues/4818",
+   "labels": [
+    "bug",
+    "good first issue",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-11-08T11:42:27Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4827 by @wanjinhao1 is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4827",
+    "https://github.com/rtk-ai/rtk/pull/4978"
+   ]
+  },
+  {
+   "number": 4819,
+   "title": "rtk bypass / rtk proxy: spawn failures exit 1 instead of the shell's 127 / 126",
+   "url": "https://github.com/rtk-ai/rtk/issues/4819",
+   "labels": [
+    "bug",
+    "good first issue",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-11-08T11:42:47Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4836 by @deweyyyyyy is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4836",
+    "https://github.com/rtk-ai/rtk/pull/4848"
+   ]
+  },
+  {
+   "number": 4821,
+   "title": "rtk gain sends GET /health to the proxy port (default 127.0.0.1:8080) even when rtk-proxy is not installed",
+   "url": "https://github.com/rtk-ai/rtk/issues/4821",
+   "labels": [
+    "bug",
+    "good first issue",
+    "area:cli",
+    "priority:medium",
+    "area:security"
+   ],
+   "updatedAt": "2026-11-08T11:42:36Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4843 by @khamar-fathima is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4843",
+    "https://github.com/rtk-ai/rtk/pull/4908"
+   ]
+  },
+  {
+   "number": 4824,
+   "title": "rtk find on Windows prints mixed path separators ('a\\b/') in grouped output",
+   "url": "https://github.com/rtk-ai/rtk/issues/4824",
+   "labels": [
+    "bug",
+    "good first issue",
+    "priority:low",
+    "area:cli",
+    "platform:windows"
+   ],
+   "updatedAt": "2026-10-28T17:52:54Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4950 by @LetMeSleep8h is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4950"
+   ]
+  },
+  {
+   "number": 4838,
+   "title": "rtk:posthook lockfiles rule never applies to real lockfiles: Claude Code's Read returns only part of the file",
+   "url": "https://github.com/rtk-ai/rtk/issues/4838",
+   "labels": [
+    "bug",
+    "help wanted",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-10-29T07:54:50Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4984 by @CG-5228 is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4984"
+   ]
+  },
+  {
+   "number": 4844,
+   "title": "`rtk dotnet test` counts a project once per output line that names its `.csproj`",
+   "url": "https://github.com/rtk-ai/rtk/issues/4844",
+   "labels": [
+    "bug",
+    "good first issue",
+    "area:cli",
+    "priority:medium",
+    "dotnet"
+   ],
+   "updatedAt": "2026-11-01T10:49:27Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4845 by @ecoyoung is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4845",
+    "https://github.com/rtk-ai/rtk/pull/4913",
+    "https://github.com/rtk-ai/rtk/pull/4628"
+   ]
+  },
+  {
+   "number": 4853,
+   "title": "Hook matcher still claims shell syntax like `(`, `#` and backticks glued to an rtk hook path",
+   "url": "https://github.com/rtk-ai/rtk/issues/4853",
+   "labels": [
+    "bug",
+    "help wanted",
+    "priority:medium",
+    "area:security"
+   ],
+   "updatedAt": "2026-11-01T12:28:48Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4679 by @Ehsan-hash is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4679",
+    "https://github.com/rtk-ai/rtk/pull/4905"
+   ]
+  },
+  {
+   "number": 4858,
+   "title": "pnpm install wrapper drops the child's stdout on failure",
+   "url": "https://github.com/rtk-ai/rtk/issues/4858",
+   "labels": [
+    "bug",
+    "good first issue",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-10-30T15:08:20Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4865 by @ferr079 is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4865",
+    "https://github.com/rtk-ai/rtk/pull/4891"
+   ]
+  },
+  {
+   "number": 4859,
+   "title": "Install wrappers keep filtering output when the child fails (cargo, bun, TOML-dispatched mise/composer)",
+   "url": "https://github.com/rtk-ai/rtk/issues/4859",
+   "labels": [
+    "bug",
+    "help wanted",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-10-30T15:08:49Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4891 by @sundarshahi is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4891",
+    "https://github.com/rtk-ai/rtk/pull/4865"
+   ]
+  },
+  {
+   "number": 4866,
+   "title": "telemetry `passthrough_top` lists filtered commands whose output was empty",
+   "url": "https://github.com/rtk-ai/rtk/issues/4866",
+   "labels": [
+    "bug",
+    "good first issue",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-10-31T13:04:40Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4977 by @CG-5228 is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4977",
+    "https://github.com/rtk-ai/rtk/pull/4677"
+   ]
+  },
+  {
+   "number": 4893,
+   "title": "`rtk gain` says \"No tracking data yet\" when every tracked row is above the headline cap",
+   "url": "https://github.com/rtk-ai/rtk/issues/4893",
+   "labels": [
+    "bug",
+    "good first issue",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-11-08T11:42:19Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4904 by @TechWizard9999 is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4904",
+    "https://github.com/rtk-ai/rtk/pull/5007"
+   ]
+  },
+  {
+   "number": 4899,
+   "title": "docs(hooks): agent lists in hooks/README.md miss Kilo Code, Kimi and Droid",
+   "url": "https://github.com/rtk-ai/rtk/issues/4899",
+   "labels": [
+    "documentation",
+    "good first issue",
+    "priority:low",
+    "area:docs"
+   ],
+   "updatedAt": "2026-11-08T11:42:10Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4902 by @wuzhongyanqiu is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4902",
+    "https://github.com/rtk-ai/rtk/pull/5037",
+    "https://github.com/rtk-ai/rtk/pull/4582"
+   ]
+  },
+  {
+   "number": 4911,
+   "title": "`rtk dotnet build -bl:<path>` reports `fail dotnet build` for a build that succeeds",
+   "url": "https://github.com/rtk-ai/rtk/issues/4911",
+   "labels": [
+    "bug",
+    "good first issue",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-11-01T11:28:20Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4845 by @ecoyoung is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4845",
+    "https://github.com/rtk-ai/rtk/pull/4913"
+   ]
+  },
+  {
+   "number": 4917,
+   "title": "Muse Code integration: `rtk hook muse` (Claude-shape I/O, verdict parity against Muse approval policy) + `rtk init --agent muse`",
+   "url": "https://github.com/rtk-ai/rtk/issues/4917",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-11-01T12:39:15Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4929 by @seahawk2986-hue is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4929",
+    "https://github.com/rtk-ai/rtk/pull/4931"
+   ]
+  },
+  {
+   "number": 4921,
+   "title": "`rtk go tool golangci-lint run ./...` passes `run` twice: golangci-lint fails on a `run` directory and rtk prints \"No issues found\"",
+   "url": "https://github.com/rtk-ai/rtk/issues/4921",
+   "labels": [
+    "bug",
+    "good first issue",
+    "priority:high",
+    "area:cli"
+   ],
+   "updatedAt": "2026-11-03T13:38:22Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4922 by @remote-controlled-man is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4922",
+    "https://github.com/rtk-ai/rtk/pull/4997"
+   ]
+  },
+  {
+   "number": 4933,
+   "title": "rtk init --agent cursor recognises its own hook only as the exact string `rtk hook cursor`",
+   "url": "https://github.com/rtk-ai/rtk/issues/4933",
+   "labels": [
+    "bug",
+    "good first issue",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-11-03T13:48:39Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4854 by @TechWizard9999 is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4854",
+    "https://github.com/rtk-ai/rtk/pull/4935"
+   ]
+  },
+  {
+   "number": 4955,
+   "title": "Heredoc detection misses fd-prefixed heredocs (`3<<EOF`), so `split_command_chain` cuts inside the body",
+   "url": "https://github.com/rtk-ai/rtk/issues/4955",
+   "labels": [
+    "bug",
+    "good first issue",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-11-02T23:27:59Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4957 by @CG-5228 is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4957",
+    "https://github.com/rtk-ai/rtk/pull/4666"
+   ]
+  },
+  {
+   "number": 4958,
+   "title": "Docs and this repo's Copilot instructions still say the `rtk` prefix is always safe",
+   "url": "https://github.com/rtk-ai/rtk/issues/4958",
+   "labels": [
+    "documentation",
+    "good first issue",
+    "priority:medium",
+    "area:docs"
+   ],
+   "updatedAt": "2026-11-03T00:07:29Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4964 by @LetMeSleep8h is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4964",
+    "https://github.com/rtk-ai/rtk/pull/4175"
+   ]
+  },
+  {
+   "number": 4970,
+   "title": "Hook does not rewrite `go -C DIR <subcommand>` (global chdir flag before the subcommand)",
+   "url": "https://github.com/rtk-ai/rtk/issues/4970",
+   "labels": [
+    "bug",
+    "good first issue",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-11-03T12:11:46Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4971 by @LetMeSleep8h is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4971"
+   ]
+  },
+  {
+   "number": 5023,
+   "title": "hook: one `rtk hook claude` call looks for pipeline files up to five times and parses pipeline.toml twice",
+   "url": "https://github.com/rtk-ai/rtk/issues/5023",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "good first issue",
+    "priority:low",
+    "area:performance"
+   ],
+   "updatedAt": "2026-11-05T23:41:06Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #5044 by @Himanshu-singh04 is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/5044"
+   ]
+  },
+  {
+   "number": 5030,
+   "title": "test: `--dd` is not a git option, so the log-cap test fails on stock git",
+   "url": "https://github.com/rtk-ai/rtk/issues/5030",
+   "labels": [
+    "bug",
+    "good first issue",
+    "priority:low",
+    "area:cli",
+    "area:testing"
+   ],
+   "updatedAt": "2026-11-06T16:45:53Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #5031 by @JoaoSilvaIT is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/5031"
+   ]
+  },
+  {
+   "number": 5033,
+   "title": "rtk init: opt-in hook entries that skip silently when rtk is not on PATH",
+   "url": "https://github.com/rtk-ai/rtk/issues/5033",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "area:cli",
+    "priority:medium",
+    "hooks",
+    "init"
+   ],
+   "updatedAt": "2026-11-07T13:21:51Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "only 22% of recently closed PRs were merged — most contributions get rejected or abandoned here (+4 more)",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/5035",
+    "https://github.com/rtk-ai/rtk/issues/5033",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/src/hooks/hook_cmd.rs",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/hooks/README.md",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/src/hooks/constants.rs",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/README.md",
+    "https://docs.github.com/en/copilot/reference/hooks-reference"
+   ]
+  },
+  {
+   "number": 5039,
+   "title": "Hook integrity messages: ~/.claude named under CLAUDE_CONFIG_DIR, no restore hint on a bad baseline, orphaned-baseline warning never prints",
+   "url": "https://github.com/rtk-ai/rtk/issues/5039",
+   "labels": [
+    "bug",
+    "good first issue",
+    "priority:low",
+    "area:cli",
+    "area:security"
+   ],
+   "updatedAt": "2026-11-08T11:11:23Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #5050 by @Lil-Clanky is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/5050",
+    "https://github.com/rtk-ai/rtk/pull/5058",
+    "https://github.com/rtk-ai/rtk/pull/4713"
+   ]
+  },
+  {
+   "number": 5047,
+   "title": "rtk-proxy stays dead after transient OOM: self-installed scheduled-task watchdog gives up after 3 restarts (Windows)",
+   "url": "https://github.com/rtk-ai/rtk/issues/5047",
+   "labels": [
+    "bug",
+    "help wanted",
+    "priority:high",
+    "platform:windows",
+    "area:security"
+   ],
+   "updatedAt": "2026-11-08T19:32:19Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #5048 by @xiaoyanse is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/issues/5048"
+   ]
+  },
+  {
+   "number": 5049,
+   "title": "Feature request: `rtk netlify` filter for Netlify CLI output",
+   "url": "https://github.com/rtk-ai/rtk/issues/5049",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-11-09T01:44:41Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "only 22% of recently closed PRs were merged — most contributions get rejected or abandoned here",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/issues/5049",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 5051,
+   "title": "Filter the command behind an exec boundary in one place",
+   "url": "https://github.com/rtk-ai/rtk/issues/5051",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-11-09T06:54:42Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #769 by @BSD-Yassin is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/769"
+   ]
+  },
+  {
+   "number": 5070,
+   "title": "`rtk git show <rev>:<path>` silently truncates file content at ~8 KB (breaks scripts that parse it)",
+   "url": "https://github.com/rtk-ai/rtk/issues/5070",
+   "labels": [
+    "bug",
+    "help wanted",
+    "priority:high",
+    "area:cli"
+   ],
+   "updatedAt": "2026-11-11T10:37:53Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #5071 by @RagedPanda is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/5071"
+   ]
+  }
+ ]
+}

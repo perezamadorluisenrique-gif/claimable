@@ -1,0 +1,417 @@
+{
+ "owner": "alacritty",
+ "repo": "alacritty",
+ "language": "Rust",
+ "stars": 66157,
+ "description": "A cross-platform, OpenGL terminal emulator.",
+ "visitedAt": "2026-11-11T22:03:46.308Z",
+ "issues": [
+  {
+   "number": 2079,
+   "title": "Create a cross platform pty crate",
+   "url": "https://github.com/alacritty/alacritty/issues/2079",
+   "labels": [
+    "help wanted",
+    "P - low",
+    "S - I/O and PTY"
+   ],
+   "updatedAt": "2026-08-19T20:11:20Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "only 20% of recently closed PRs were merged — most contributions get rejected or abandoned here",
+   "evidence": [
+    "https://github.com/alacritty/alacritty/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/alacritty/alacritty/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/alacritty/alacritty/issues/2079",
+    "https://github.com/alacritty/alacritty/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2324,
+   "title": "WSL + ConPTY + vim -> paste with blanks lines",
+   "url": "https://github.com/alacritty/alacritty/issues/2324",
+   "labels": [
+    "help wanted",
+    "H - windows"
+   ],
+   "updatedAt": "2026-07-14T11:08:21Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "only 20% of recently closed PRs were merged — most contributions get rejected or abandoned here",
+   "evidence": [
+    "https://github.com/alacritty/alacritty/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/alacritty/alacritty/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/alacritty/alacritty/issues/2324",
+    "https://github.com/alacritty/alacritty/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2764,
+   "title": "Expand selection across tabs",
+   "url": "https://github.com/alacritty/alacritty/issues/2764",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "S - selection"
+   ],
+   "updatedAt": "2025-03-22T17:26:02Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "only 20% of recently closed PRs were merged — most contributions get rejected or abandoned here",
+   "evidence": [
+    "https://github.com/alacritty/alacritty/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/alacritty/alacritty/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/alacritty/alacritty/issues/2764",
+    "https://github.com/alacritty/alacritty/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 3082,
+   "title": "Windows colored emoji support",
+   "url": "https://github.com/alacritty/alacritty/issues/3082",
+   "labels": [
+    "help wanted",
+    "S - unicode",
+    "H - windows",
+    "B - missing feature"
+   ],
+   "updatedAt": "2025-04-16T04:47:44Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "only 20% of recently closed PRs were merged — most contributions get rejected or abandoned here (+1 more)",
+   "evidence": [
+    "https://github.com/alacritty/alacritty/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/alacritty/alacritty/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/alacritty/alacritty/pull/3127",
+    "https://github.com/alacritty/alacritty/issues/3082",
+    "https://github.com/alacritty/alacritty/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 3145,
+   "title": "Do not allow selecting unoccupied cells",
+   "url": "https://github.com/alacritty/alacritty/issues/3145",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "P - low",
+    "S - selection"
+   ],
+   "updatedAt": "2020-02-03T01:09:18Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "only 20% of recently closed PRs were merged — most contributions get rejected or abandoned here",
+   "evidence": [
+    "https://github.com/alacritty/alacritty/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/alacritty/alacritty/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/alacritty/alacritty/issues/3145",
+    "https://github.com/alacritty/alacritty/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 3255,
+   "title": "Implement upscaling for bitmap fonts in font's crate FreeType/Fontconfig backend.",
+   "url": "https://github.com/alacritty/alacritty/issues/3255",
+   "labels": [
+    "help wanted",
+    "S - font",
+    "P - low",
+    "B - missing feature"
+   ],
+   "updatedAt": "2021-06-16T11:35:58Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "only 20% of recently closed PRs were merged — most contributions get rejected or abandoned here",
+   "evidence": [
+    "https://github.com/alacritty/alacritty/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/alacritty/alacritty/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/alacritty/alacritty/issues/3255",
+    "https://github.com/alacritty/alacritty/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 3459,
+   "title": "Improve bitmap font rendering on macOS.",
+   "url": "https://github.com/alacritty/alacritty/issues/3459",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "S - font",
+    "H - macos"
+   ],
+   "updatedAt": "2020-03-15T15:02:02Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "only 20% of recently closed PRs were merged — most contributions get rejected or abandoned here",
+   "evidence": [
+    "https://github.com/alacritty/alacritty/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/alacritty/alacritty/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/alacritty/alacritty/issues/3459",
+    "https://github.com/alacritty/alacritty/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 3587,
+   "title": "Alacritty Does Not Use GPU In Hybrid Graphics Mode",
+   "url": "https://github.com/alacritty/alacritty/issues/3587",
+   "labels": [
+    "help wanted",
+    "B - performance"
+   ],
+   "updatedAt": "2025-08-17T19:44:28Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "only 20% of recently closed PRs were merged — most contributions get rejected or abandoned here (+1 more)",
+   "evidence": [
+    "https://github.com/alacritty/alacritty/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/alacritty/alacritty/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/alacritty/alacritty/issues/3587#issuecomment-757452020",
+    "https://github.com/alacritty/alacritty/issues/3587",
+    "https://github.com/alacritty/alacritty/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 4364,
+   "title": "Get stuck at exit if SIGCHLD is not unblocked",
+   "url": "https://github.com/alacritty/alacritty/issues/4364",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "P - low"
+   ],
+   "updatedAt": "2021-09-15T23:21:43Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "only 20% of recently closed PRs were merged — most contributions get rejected or abandoned here",
+   "evidence": [
+    "https://github.com/alacritty/alacritty/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/alacritty/alacritty/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/alacritty/alacritty/issues/4364",
+    "https://github.com/alacritty/alacritty/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 4754,
+   "title": "Report other mouse buttons",
+   "url": "https://github.com/alacritty/alacritty/issues/4754",
+   "labels": [
+    "help wanted",
+    "D - easy",
+    "B - missing feature"
+   ],
+   "updatedAt": "2024-02-23T23:02:40Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "only 20% of recently closed PRs were merged — most contributions get rejected or abandoned here (+1 more)",
+   "evidence": [
+    "https://github.com/alacritty/alacritty/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/alacritty/alacritty/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/alacritty/alacritty/issues/4754#issuecomment-1961770982",
+    "https://github.com/alacritty/alacritty/issues/4754",
+    "https://github.com/alacritty/alacritty/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 6036,
+   "title": "Make alacritty the default terminal on Windows",
+   "url": "https://github.com/alacritty/alacritty/issues/6036",
+   "labels": [
+    "help wanted",
+    "H - windows"
+   ],
+   "updatedAt": "2025-05-15T22:24:28Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "only 20% of recently closed PRs were merged — most contributions get rejected or abandoned here",
+   "evidence": [
+    "https://github.com/alacritty/alacritty/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/alacritty/alacritty/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/alacritty/alacritty/issues/6036",
+    "https://github.com/alacritty/alacritty/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 6124,
+   "title": "Borderless Fullscreen to prevent flicker when switching apps",
+   "url": "https://github.com/alacritty/alacritty/issues/6124",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "P - low"
+   ],
+   "updatedAt": "2025-02-12T14:05:18Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "only 20% of recently closed PRs were merged — most contributions get rejected or abandoned here",
+   "evidence": [
+    "https://github.com/alacritty/alacritty/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/alacritty/alacritty/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/alacritty/alacritty/issues/6124",
+    "https://github.com/alacritty/alacritty/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 7422,
+   "title": "Add legacy computing box drawing characters from unicode 13 to builtin font",
+   "url": "https://github.com/alacritty/alacritty/issues/7422",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "S - render"
+   ],
+   "updatedAt": "2024-05-26T12:39:58Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #8776 by @kchibisov is already open against this issue",
+   "evidence": [
+    "https://github.com/alacritty/alacritty/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/alacritty/alacritty/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/alacritty/alacritty/pull/8776",
+    "https://github.com/alacritty/alacritty/pull/7534",
+    "https://github.com/alacritty/alacritty/pull/8775"
+   ]
+  },
+  {
+   "number": 7974,
+   "title": "Set cursor when in transparent/buttonless title area on macOS",
+   "url": "https://github.com/alacritty/alacritty/issues/7974",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "H - macos"
+   ],
+   "updatedAt": "2024-10-15T15:03:01Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "only 20% of recently closed PRs were merged — most contributions get rejected or abandoned here",
+   "evidence": [
+    "https://github.com/alacritty/alacritty/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/alacritty/alacritty/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/alacritty/alacritty/issues/7974",
+    "https://github.com/alacritty/alacritty/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 8319,
+   "title": "windows clearing clipboard via osc fails",
+   "url": "https://github.com/alacritty/alacritty/issues/8319",
+   "labels": [
+    "B - bug",
+    "help wanted",
+    "H - windows",
+    "S - clipboard"
+   ],
+   "updatedAt": "2025-04-22T22:17:57Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "only 20% of recently closed PRs were merged — most contributions get rejected or abandoned here (+1 more)",
+   "evidence": [
+    "https://github.com/alacritty/alacritty/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/alacritty/alacritty/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/alacritty/copypasta/pull/78",
+    "https://github.com/alacritty/alacritty/issues/8319",
+    "https://github.com/alacritty/alacritty/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 8486,
+   "title": "Allow to specify button to use in hints.mouse",
+   "url": "https://github.com/alacritty/alacritty/issues/8486",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "D - easy"
+   ],
+   "updatedAt": "2025-02-27T13:09:06Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "only 20% of recently closed PRs were merged — most contributions get rejected or abandoned here (+1 more)",
+   "evidence": [
+    "https://github.com/alacritty/alacritty/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/alacritty/alacritty/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/alacritty/alacritty/issues/8486#issuecomment-2676334360",
+    "https://github.com/alacritty/alacritty/issues/8486",
+    "https://github.com/alacritty/alacritty/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 8846,
+   "title": "Keybinding \"/\" not starting search in \"Vi\" mode for Spanish keyboard",
+   "url": "https://github.com/alacritty/alacritty/issues/8846",
+   "labels": [
+    "B - bug",
+    "help wanted",
+    "D - easy",
+    "S - keybindings"
+   ],
+   "updatedAt": "2026-04-12T23:45:53Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "only 20% of recently closed PRs were merged — most contributions get rejected or abandoned here",
+   "evidence": [
+    "https://github.com/alacritty/alacritty/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/alacritty/alacritty/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/alacritty/alacritty/issues/8846",
+    "https://github.com/alacritty/alacritty/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 8885,
+   "title": "How to get the current directory from a session",
+   "url": "https://github.com/alacritty/alacritty/issues/8885",
+   "labels": [
+    "help wanted",
+    "D - easy"
+   ],
+   "updatedAt": "2026-10-08T06:07:41Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "only 20% of recently closed PRs were merged — most contributions get rejected or abandoned here (+1 more)",
+   "evidence": [
+    "https://github.com/alacritty/alacritty/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/alacritty/alacritty/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/alacritty/alacritty/issues/8885#issuecomment-6051269905",
+    "https://github.com/alacritty/alacritty/issues/8885",
+    "https://github.com/alacritty/alacritty/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 9047,
+   "title": "window.resize_increments miscalculates the window size for some values of window.padding",
+   "url": "https://github.com/alacritty/alacritty/issues/9047",
+   "labels": [
+    "help wanted",
+    "D - easy"
+   ],
+   "updatedAt": "2026-09-16T17:03:50Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #4717 by @njallam is already open against this issue",
+   "evidence": [
+    "https://github.com/alacritty/alacritty/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/alacritty/alacritty/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rust-windowing/winit/pull/4717",
+    "https://github.com/ump45nose/alacritty/pull/2"
+   ]
+  },
+  {
+   "number": 9070,
+   "title": "Message-bar wrapping of UTF-8 text can trigger panic",
+   "url": "https://github.com/alacritty/alacritty/issues/9070",
+   "labels": [
+    "help wanted",
+    "D - easy",
+    "P - low"
+   ],
+   "updatedAt": "2026-10-14T17:12:47Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #1 by @ump45nose is already open against this issue",
+   "evidence": [
+    "https://github.com/alacritty/alacritty/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/alacritty/alacritty/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ump45nose/alacritty/pull/1"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,209 @@
+{
+ "owner": "rustdesk",
+ "repo": "rustdesk",
+ "language": "Rust",
+ "stars": 128900,
+ "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+ "visitedAt": "2026-11-11T22:03:46.308Z",
+ "issues": [
+  {
+   "number": 40,
+   "title": "Give movement priority to host rather than client + multiple connections mouse move priority issue",
+   "url": "https://github.com/rustdesk/rustdesk/issues/40",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2026-09-23T04:58:27Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "PR #3604 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+4 more)",
+   "evidence": [
+    "https://github.com/rustdesk/rustdesk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rustdesk/rustdesk/pull/3604",
+    "https://github.com/rustdesk/rustdesk/pull/2023",
+    "https://github.com/rustdesk/rustdesk/pull/2025",
+    "https://github.com/rustdesk/rustdesk/issues/40#issuecomment-848676512",
+    "https://github.com/rustdesk/rustdesk/issues/40",
+    "https://github.com/rustdesk/rustdesk/blob/HEAD/README.md",
+    "https://github.com/servo/servo/wiki/GitHub-workflow"
+   ]
+  },
+  {
+   "number": 49,
+   "title": "feat: add remote shell (ssh/cmd)",
+   "url": "https://github.com/rustdesk/rustdesk/issues/49",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2025-06-26T18:12:22Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #5609 by @rustdesk is already open against this issue",
+   "evidence": [
+    "https://github.com/rustdesk/rustdesk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rustdesk/rustdesk/issues/5609",
+    "https://github.com/rustdesk/rustdesk/issues/16926",
+    "https://github.com/rustdesk/rustdesk/issues/10173",
+    "https://github.com/rustdesk/rustdesk/issues/16324",
+    "https://github.com/rustdesk/rustdesk/issues/12293"
+   ]
+  },
+  {
+   "number": 1169,
+   "title": "Extra Mouse Button and left/right wheel issues (Linux not ready yet, because of flutter bug)",
+   "url": "https://github.com/rustdesk/rustdesk/issues/1169",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-06-10T08:21:19Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "PR #8705 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+4 more)",
+   "evidence": [
+    "https://github.com/rustdesk/rustdesk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rustdesk/rustdesk/pull/8705",
+    "https://github.com/rustdesk/rustdesk/pull/8827",
+    "https://github.com/rustdesk/rustdesk/pull/9185",
+    "https://github.com/rustdesk/rustdesk/issues/1169#issuecomment-4466260766",
+    "https://github.com/rustdesk/rustdesk/issues/1169",
+    "https://github.com/rustdesk/rustdesk/blob/HEAD/README.md",
+    "https://docs.microsoft.com/en-us/windows/apps/design/basics/navigation-history-and-backwards-navigation#handle-mouse-navigation-buttons"
+   ]
+  },
+  {
+   "number": 2027,
+   "title": "mount local drive to remote (usb redirect)",
+   "url": "https://github.com/rustdesk/rustdesk/issues/2027",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2026-05-16T08:03:01Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/servo/servo/wiki/GitHub-workflow) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/rustdesk/rustdesk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rustdesk/rustdesk/issues/2027",
+    "https://github.com/rustdesk/rustdesk/blob/HEAD/README.md",
+    "https://github.com/servo/servo/wiki/GitHub-workflow"
+   ]
+  },
+  {
+   "number": 2166,
+   "title": "Rustdesk shows workstation offline when its screen is off",
+   "url": "https://github.com/rustdesk/rustdesk/issues/2166",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-06-18T07:15:01Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/servo/servo/wiki/GitHub-workflow) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/rustdesk/rustdesk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rustdesk/rustdesk/issues/2166",
+    "https://github.com/rustdesk/rustdesk/blob/HEAD/README.md",
+    "https://github.com/servo/servo/wiki/GitHub-workflow"
+   ]
+  },
+  {
+   "number": 3565,
+   "title": "More Linux distros compatible",
+   "url": "https://github.com/rustdesk/rustdesk/issues/3565",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-04T02:33:34Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/servo/servo/wiki/GitHub-workflow) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/rustdesk/rustdesk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rustdesk/rustdesk/issues/3565",
+    "https://github.com/rustdesk/rustdesk/blob/HEAD/README.md",
+    "https://github.com/servo/servo/wiki/GitHub-workflow"
+   ]
+  },
+  {
+   "number": 3762,
+   "title": "Audio no sound （Add asio support)",
+   "url": "https://github.com/rustdesk/rustdesk/issues/3762",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-06T15:47:19Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "PR #1 by @plantrungnampl is already open against this issue",
+   "evidence": [
+    "https://github.com/rustdesk/rustdesk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/plantrungnampl/rustdesk/pull/1",
+    "https://github.com/rustdesk/rustdesk/pull/4044",
+    "https://github.com/rustdesk/rustdesk/pull/4062",
+    "https://github.com/rustdesk/rustdesk/pull/4137"
+   ]
+  },
+  {
+   "number": 4280,
+   "title": "No sound / audio from remote PC  - working after switch default audio device from analog to digital",
+   "url": "https://github.com/rustdesk/rustdesk/issues/4280",
+   "labels": [
+    "bug",
+    "duplicate",
+    "help wanted"
+   ],
+   "updatedAt": "2026-04-21T17:21:58Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "labelled `duplicate` — the project is saying not to start",
+   "evidence": [
+    "https://github.com/rustdesk/rustdesk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rustdesk/rustdesk/issues/4280"
+   ]
+  },
+  {
+   "number": 4296,
+   "title": "Unable to interact if laptop lid is closed (TV works)",
+   "url": "https://github.com/rustdesk/rustdesk/issues/4296",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-05-25T22:29:51Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @Nitrowolf 1060 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/rustdesk/rustdesk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rustdesk/rustdesk/issues/4296#issuecomment-1859635263",
+    "https://github.com/rustdesk/rustdesk/issues/4296",
+    "https://github.com/rustdesk/rustdesk/blob/HEAD/README.md",
+    "https://github.com/servo/servo/wiki/GitHub-workflow"
+   ]
+  },
+  {
+   "number": 15526,
+   "title": "Wayland/KDE Plasma 6: host transmits vertically-flipped (180°) screen to all clients on multi-GPU (amdgpu) host; OBS captures the same portal correctly",
+   "url": "https://github.com/rustdesk/rustdesk/issues/15526",
+   "labels": [
+    "help wanted",
+    "good first issue"
+   ],
+   "updatedAt": "2026-07-21T17:42:53Z",
+   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "verdict": "discard",
+   "reason": "already assigned to @fufesou",
+   "evidence": [
+    "https://github.com/rustdesk/rustdesk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rustdesk/rustdesk/pull/15889",
+    "https://github.com/rustdesk/rustdesk/issues/15526"
+   ]
+  }
+ ]
+}
