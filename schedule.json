@@ -234,5 +234,65 @@
  "conductor-oss/conductor": {
   "nextCheck": "2026-11-11T07:29:52.958Z",
   "lastNewIssue": "2026-08-21T18:35:59Z"
+ },
+ "floci-io/floci": {
+  "nextCheck": "2026-11-14T15:17:00.117Z",
+  "lastNewIssue": "2026-10-20T01:53:02Z"
+ },
+ "ollama/ollama": {
+  "nextCheck": "2026-11-18T15:17:00.117Z",
+  "lastNewIssue": "2025-11-04T23:34:27Z"
+ },
+ "golang/go": {
+  "nextCheck": "2026-11-14T15:17:00.117Z",
+  "lastNewIssue": "2026-10-27T16:32:09Z"
+ },
+ "kubernetes/kubernetes": {
+  "nextCheck": "2026-11-14T15:17:00.117Z",
+  "lastNewIssue": "2026-10-15T01:26:04Z"
+ },
+ "microsoft/typescript": {
+  "nextCheck": "2026-11-12T15:17:00.117Z",
+  "lastNewIssue": "2026-11-10T18:13:20Z"
+ },
+ "syncthing/syncthing": {
+  "nextCheck": "2026-11-18T15:17:00.117Z",
+  "lastNewIssue": "2015-08-27T20:26:27Z"
+ },
+ "netdata/netdata": {
+  "nextCheck": "2026-11-18T15:17:00.117Z",
+  "lastNewIssue": "2018-10-14T10:14:27Z"
+ },
+ "caddyserver/caddy": {
+  "nextCheck": "2026-11-18T15:17:00.117Z",
+  "lastNewIssue": null
+ },
+ "moby/moby": {
+  "nextCheck": "2026-11-14T15:17:00.117Z",
+  "lastNewIssue": "2026-10-21T09:10:43Z"
+ },
+ "prometheus/prometheus": {
+  "nextCheck": "2026-11-18T15:17:00.117Z",
+  "lastNewIssue": "2026-03-27T20:55:01Z"
+ },
+ "rclone/rclone": {
+  "nextCheck": "2026-11-14T15:17:00.117Z",
+  "lastNewIssue": "2026-11-04T02:02:21Z"
+ },
+ "multica-ai/multica": {
+  "nextCheck": "2026-11-18T15:17:00.117Z",
+  "lastNewIssue": "2026-07-31T06:19:04Z"
+ },
+ "wagoodman/dive": {
+  "nextCheck": "2026-11-18T15:17:00.117Z",
+  "lastNewIssue": "2024-07-18T21:49:38Z"
+ },
+ "etcd-io/etcd": {
+  "nextCheck": "2026-11-11T16:17:00.117Z",
+  "lastNewIssue": "2025-12-17T19:37:27Z"
+ },
+ "quantumnous/new-api": {
+  "nextCheck": "2026-11-11T16:17:00.117Z",
+  "lastNewIssue": "2026-10-19T08:20:04Z"
  }
 }

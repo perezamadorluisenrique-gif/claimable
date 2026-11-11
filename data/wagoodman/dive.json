@@ -1,0 +1,69 @@
+{
+ "owner": "wagoodman",
+ "repo": "dive",
+ "language": "Go",
+ "stars": 54715,
+ "description": "A tool for exploring each layer in a docker image",
+ "visitedAt": "2026-11-11T15:17:00.117Z",
+ "issues": [
+  {
+   "number": 83,
+   "title": "Git Bash + containerized dive (Windows)",
+   "url": "https://github.com/wagoodman/dive/issues/83",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2019-08-21T22:32:44Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #452 by @rickardp is already open against this issue",
+   "evidence": [
+    "https://github.com/wagoodman/dive/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/wagoodman/dive/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/wagoodman/dive/issues/452",
+    "https://github.com/wagoodman/dive/issues/293"
+   ]
+  },
+  {
+   "number": 512,
+   "title": "Windows IME: if Ctrl + Space (Collapse All) key combination bound in Microsoft Pinyin IME, it stops working in Dive",
+   "url": "https://github.com/wagoodman/dive/issues/512",
+   "labels": [
+    "bug",
+    "help wanted",
+    "ui"
+   ],
+   "updatedAt": "2025-03-22T12:38:35Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #729 by @shreyanshj10 is already open against this issue",
+   "evidence": [
+    "https://github.com/wagoodman/dive/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/wagoodman/dive/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/wagoodman/dive/pull/729"
+   ]
+  },
+  {
+   "number": 539,
+   "title": "Installation of Dive on windows 10",
+   "url": "https://github.com/wagoodman/dive/issues/539",
+   "labels": [
+    "bug",
+    "good first issue",
+    "distribution",
+    "documentation"
+   ],
+   "updatedAt": "2025-03-14T14:10:48Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "only 2% of recently closed PRs were merged — most contributions get rejected or abandoned here",
+   "evidence": [
+    "https://github.com/wagoodman/dive/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/wagoodman/dive/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/wagoodman/dive/issues/539",
+    "https://github.com/wagoodman/dive/blob/HEAD/README.md"
+   ]
+  }
+ ]
+}

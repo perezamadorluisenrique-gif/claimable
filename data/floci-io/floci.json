@@ -1,0 +1,37 @@
+{
+ "owner": "floci-io",
+ "repo": "floci",
+ "language": "Java",
+ "stars": 31265,
+ "description": "Light, fluffy, and always free - The AWS Local Emulator alternative",
+ "visitedAt": "2026-11-11T15:17:00.117Z",
+ "issues": [
+  {
+   "number": 6042,
+   "title": "[BUG] iam, sts: seven answers that may not match AWS, each needing one capture to settle",
+   "url": "https://github.com/floci-io/floci/issues/6042",
+   "labels": [
+    "bug",
+    "help wanted",
+    "iam",
+    "sts"
+   ],
+   "updatedAt": "2026-10-31T17:21:43Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "PR #7174 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+6 more)",
+   "evidence": [
+    "https://github.com/floci-io/floci/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/floci-io/floci/pull/7174",
+    "https://github.com/floci-io/floci/pull/7235",
+    "https://github.com/floci-io/floci/pull/7265",
+    "https://github.com/floci-io/floci/pull/7331",
+    "https://github.com/floci-io/floci/pull/7364",
+    "https://github.com/floci-io/floci/pull/7617",
+    "https://github.com/floci-io/floci/issues/6042",
+    "https://github.com/floci-io/floci/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/en/code-security/security-advisories/guidance-on-reporting-and-writing/privately-reporting-a-security-vulnerability"
+   ]
+  }
+ ]
+}

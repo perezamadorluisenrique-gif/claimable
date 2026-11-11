@@ -1,0 +1,9 @@
+{
+ "owner": "caddyserver",
+ "repo": "caddy",
+ "language": "Go",
+ "stars": 78950,
+ "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
+ "visitedAt": "2026-11-11T15:17:00.117Z",
+ "issues": []
+}

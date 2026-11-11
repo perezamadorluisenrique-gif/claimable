@@ -1,0 +1,30 @@
+{
+ "owner": "netdata",
+ "repo": "netdata",
+ "language": "Go",
+ "stars": 81349,
+ "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
+ "visitedAt": "2026-11-11T15:17:00.117Z",
+ "issues": [
+  {
+   "number": 4392,
+   "title": "netdata is not compatible with dovecot's 2.3 statistics module",
+   "url": "https://github.com/netdata/netdata/issues/4392",
+   "labels": [
+    "help wanted",
+    "priority/low",
+    "area/collectors",
+    "collectors/python.d"
+   ],
+   "updatedAt": "2026-07-08T17:09:07Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "already assigned to @ilyam8",
+   "evidence": [
+    "https://github.com/netdata/netdata/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/netdata/netdata/pull/4959",
+    "https://github.com/netdata/netdata/issues/4392"
+   ]
+  }
+ ]
+}

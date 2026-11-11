@@ -1,0 +1,2045 @@
+{
+ "owner": "prometheus",
+ "repo": "prometheus",
+ "language": "Go",
+ "stars": 67610,
+ "description": "The Prometheus monitoring system and time series database.",
+ "visitedAt": "2026-11-11T15:17:00.117Z",
+ "issues": [
+  {
+   "number": 667,
+   "title": "Fuzz test Prometheus APIs",
+   "url": "https://github.com/prometheus/prometheus/issues/667",
+   "labels": [
+    "help wanted",
+    "kind/enhancement",
+    "priority/P3"
+   ],
+   "updatedAt": "2026-09-06T07:00:41Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #19757 by @shilohlee98 is already open against this issue",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/pull/19757",
+    "https://github.com/prometheus/prometheus/pull/945"
+   ]
+  },
+  {
+   "number": 1154,
+   "title": "Feature request: Add UI for testing full alerting expressions over time",
+   "url": "https://github.com/prometheus/prometheus/issues/1154",
+   "labels": [
+    "help wanted",
+    "kind/enhancement",
+    "component/rules",
+    "component/promtool",
+    "priority/P3"
+   ],
+   "updatedAt": "2026-08-18T11:40:49Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @kadaan 1528 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/issues/1154#issuecomment-1237315706",
+    "https://github.com/prometheus/prometheus/issues/1154",
+    "https://github.com/prometheus/prometheus/blob/HEAD/README.md",
+    "https://github.com/prometheus/prometheus/wiki/Label-Names-and-Descriptions",
+    "https://github.com/prometheus/prometheus/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2204,
+   "title": "Joining different labels",
+   "url": "https://github.com/prometheus/prometheus/issues/2204",
+   "labels": [
+    "help wanted",
+    "kind/enhancement",
+    "priority/Pmaybe",
+    "component/promql"
+   ],
+   "updatedAt": "2026-08-25T11:15:35Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "PR #3166 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/netdata/netdata/pull/3166",
+    "https://github.com/prometheus/prometheus/issues/2204",
+    "https://github.com/prometheus/prometheus/blob/HEAD/README.md",
+    "https://github.com/prometheus/prometheus/wiki/Label-Names-and-Descriptions",
+    "https://github.com/prometheus/prometheus/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2347,
+   "title": "Support YAML anchor <<: syntax",
+   "url": "https://github.com/prometheus/prometheus/issues/2347",
+   "labels": [
+    "help wanted",
+    "priority/Pmaybe",
+    "component/config"
+   ],
+   "updatedAt": "2026-08-25T11:29:10Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "PR #155 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+3 more)",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus-operator/prometheus-operator/pull/155",
+    "https://github.com/prometheus/common/pull/81",
+    "https://github.com/prometheus/prometheus/issues/2347#issuecomment-5382544531",
+    "https://github.com/prometheus/prometheus/issues/2347",
+    "https://github.com/prometheus/prometheus/blob/HEAD/README.md",
+    "https://github.com/prometheus/prometheus/wiki/Label-Names-and-Descriptions",
+    "https://github.com/prometheus/prometheus/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2537,
+   "title": "Cannot scrape targets specified by mDNS name",
+   "url": "https://github.com/prometheus/prometheus/issues/2537",
+   "labels": [
+    "help wanted",
+    "priority/Pmaybe",
+    "component/service discovery",
+    "kind/feature"
+   ],
+   "updatedAt": "2026-10-08T17:33:41Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #20033 by @acalebratliff is already open against this issue",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/pull/20033"
+   ]
+  },
+  {
+   "number": 4057,
+   "title": "Using `Select()` for both sample+metadata queries is unsuitable for remote storage implementations",
+   "url": "https://github.com/prometheus/prometheus/issues/4057",
+   "labels": [
+    "help wanted",
+    "component/remote storage",
+    "priority/P3",
+    "component/api"
+   ],
+   "updatedAt": "2026-09-08T11:37:20Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "PR #4226 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+3 more)",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/pull/4226",
+    "https://github.com/jacksontj/promxy/pull/67",
+    "https://github.com/prometheus/prometheus/pull/4546",
+    "https://github.com/prometheus/prometheus/issues/4057",
+    "https://github.com/prometheus/prometheus/blob/HEAD/README.md",
+    "https://github.com/prometheus/prometheus/wiki/Label-Names-and-Descriptions",
+    "https://github.com/prometheus/prometheus/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 4340,
+   "title": "Azure Discovery incorrectly discovering de-allocated VM NICs",
+   "url": "https://github.com/prometheus/prometheus/issues/4340",
+   "labels": [
+    "help wanted",
+    "kind/enhancement",
+    "component/service discovery"
+   ],
+   "updatedAt": "2026-09-08T11:40:28Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "already assigned to @jkroepke",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/issues/4340"
+   ]
+  },
+  {
+   "number": 4440,
+   "title": " Feat Req: Autorefresh for alerts page",
+   "url": "https://github.com/prometheus/prometheus/issues/4440",
+   "labels": [
+    "help wanted",
+    "kind/enhancement",
+    "priority/Pmaybe",
+    "component/ui"
+   ],
+   "updatedAt": "2026-09-08T11:46:39Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #18654 by @flying-musk is already open against this issue",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/pull/18654"
+   ]
+  },
+  {
+   "number": 5662,
+   "title": "Option to make failures of non-primary reads not warnings",
+   "url": "https://github.com/prometheus/prometheus/issues/5662",
+   "labels": [
+    "help wanted",
+    "priority/Pmaybe",
+    "component/remote storage",
+    "kind/feature"
+   ],
+   "updatedAt": "2024-03-19T11:43:11Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/prometheus/prometheus/wiki/Label-Names-and-Descriptions) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/issues/5662",
+    "https://github.com/prometheus/prometheus/blob/HEAD/README.md",
+    "https://github.com/prometheus/prometheus/wiki/Label-Names-and-Descriptions",
+    "https://github.com/prometheus/prometheus/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 6222,
+   "title": "Promtool subcommands should consistently support stdin reads",
+   "url": "https://github.com/prometheus/prometheus/issues/6222",
+   "labels": [
+    "help wanted",
+    "kind/enhancement",
+    "component/promtool",
+    "priority/P3",
+    "hacktoberfest"
+   ],
+   "updatedAt": "2026-09-29T06:48:20Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #19997 by @BeganovR is already open against this issue",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/pull/19997",
+    "https://github.com/prometheus/prometheus/pull/20007"
+   ]
+  },
+  {
+   "number": 6627,
+   "title": "PromQL: Evaluation changes structure of the AST",
+   "url": "https://github.com/prometheus/prometheus/issues/6627",
+   "labels": [
+    "help wanted",
+    "kind/cleanup",
+    "component/promql",
+    "priority/P3"
+   ],
+   "updatedAt": "2026-04-10T10:45:23Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "PR #6612 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/pull/6612",
+    "https://github.com/prometheus/prometheus/issues/6627#issuecomment-3476094409",
+    "https://github.com/prometheus/prometheus/issues/6627",
+    "https://github.com/prometheus/prometheus/blob/HEAD/README.md",
+    "https://github.com/prometheus/prometheus/wiki/Label-Names-and-Descriptions",
+    "https://github.com/prometheus/prometheus/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 6857,
+   "title": "MaxBlockDuration is 31 days when only using size based retention configuration",
+   "url": "https://github.com/prometheus/prometheus/issues/6857",
+   "labels": [
+    "help wanted",
+    "kind/enhancement",
+    "priority/P3",
+    "component/tsdb"
+   ],
+   "updatedAt": "2026-09-26T16:36:41Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #19844 by @zero-abd is already open against this issue",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/pull/19844"
+   ]
+  },
+  {
+   "number": 7151,
+   "title": "Add generic \"acceptance\" test for all SeriesSets and ChunkSeriesSets we use.",
+   "url": "https://github.com/prometheus/prometheus/issues/7151",
+   "labels": [
+    "help wanted",
+    "kind/enhancement",
+    "not-as-easy-as-it-looks",
+    "priority/P3"
+   ],
+   "updatedAt": "2024-04-23T11:25:17Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "already assigned to @bwplotka",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/issues/7151"
+   ]
+  },
+  {
+   "number": 7230,
+   "title": "Reduce the impact of remote write resharding",
+   "url": "https://github.com/prometheus/prometheus/issues/7230",
+   "labels": [
+    "help wanted",
+    "component/remote storage",
+    "not-as-easy-as-it-looks",
+    "priority/P3"
+   ],
+   "updatedAt": "2026-02-03T08:43:18Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @csmarchbanks 2224 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/issues/7230#issuecomment-706371428",
+    "https://github.com/prometheus/prometheus/issues/7230",
+    "https://github.com/prometheus/prometheus/blob/HEAD/README.md",
+    "https://github.com/prometheus/prometheus/wiki/Label-Names-and-Descriptions",
+    "https://github.com/prometheus/prometheus/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 7370,
+   "title": "promtool: Allow inexact matches in exp_alerts",
+   "url": "https://github.com/prometheus/prometheus/issues/7370",
+   "labels": [
+    "help wanted",
+    "kind/enhancement",
+    "priority/Pmaybe",
+    "component/promtool"
+   ],
+   "updatedAt": "2025-10-31T15:15:31Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "already assigned to @Aurifi",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/theexperiencecompany/gaia/pull/885",
+    "https://github.com/Stellar-IndigoPay/Stellar-IndigoPay/pull/1155",
+    "https://github.com/prometheus/prometheus/issues/7370"
+   ]
+  },
+  {
+   "number": 7784,
+   "title": "Add consul exposed sidecar ports",
+   "url": "https://github.com/prometheus/prometheus/issues/7784",
+   "labels": [
+    "help wanted",
+    "component/service discovery",
+    "priority/P3",
+    "kind/feature"
+   ],
+   "updatedAt": "2026-10-14T18:33:18Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @nightjard 28 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/issues/7784#issuecomment-6175516359",
+    "https://github.com/prometheus/prometheus/issues/7784",
+    "https://github.com/prometheus/prometheus/blob/HEAD/README.md",
+    "https://github.com/prometheus/prometheus/wiki/Label-Names-and-Descriptions",
+    "https://github.com/prometheus/prometheus/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 7971,
+   "title": "Remote Write page in the UI",
+   "url": "https://github.com/prometheus/prometheus/issues/7971",
+   "labels": [
+    "help wanted",
+    "component/remote storage",
+    "component/ui",
+    "priority/P3",
+    "hacktoberfest",
+    "kind/feature"
+   ],
+   "updatedAt": "2026-03-28T14:47:43Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #18388 by @vijaygovindaraja is already open against this issue",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/pull/18388"
+   ]
+  },
+  {
+   "number": 8217,
+   "title": "tsdb: Checkpoint closes mmaped chunk file despite open ChunkQuerier query; causing SIGSEGV",
+   "url": "https://github.com/prometheus/prometheus/issues/8217",
+   "labels": [
+    "help wanted",
+    "kind/bug",
+    "component/tsdb"
+   ],
+   "updatedAt": "2024-05-21T11:36:09Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #19485 by @prymitive is already open against this issue",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/pull/19485",
+    "https://github.com/prometheus/prometheus/pull/8723"
+   ]
+  },
+  {
+   "number": 8511,
+   "title": "Provide JSON Schemas for Config YAML",
+   "url": "https://github.com/prometheus/prometheus/issues/8511",
+   "labels": [
+    "help wanted",
+    "component/config",
+    "priority/P3",
+    "component/documentation",
+    "kind/feature"
+   ],
+   "updatedAt": "2025-05-16T17:26:07Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "PR #15383 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/pull/15383",
+    "https://github.com/prometheus/prometheus/issues/8511",
+    "https://github.com/prometheus/prometheus/blob/HEAD/README.md",
+    "https://github.com/prometheus/prometheus/wiki/Label-Names-and-Descriptions",
+    "https://github.com/prometheus/prometheus/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 8667,
+   "title": "Remaining tasks for rule backfiller",
+   "url": "https://github.com/prometheus/prometheus/issues/8667",
+   "labels": [
+    "help wanted",
+    "kind/enhancement",
+    "component/promql",
+    "priority/P3"
+   ],
+   "updatedAt": "2024-06-04T11:38:08Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "already assigned to @JessicaGreben",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/pull/8674",
+    "https://github.com/prometheus/prometheus/issues/8667"
+   ]
+  },
+  {
+   "number": 8787,
+   "title": "RW2 reliable stateless exemplars (M2): group together samples and exemplars in a single TimeSeries proto",
+   "url": "https://github.com/prometheus/prometheus/issues/8787",
+   "labels": [
+    "help wanted",
+    "component/remote storage"
+   ],
+   "updatedAt": "2026-11-04T05:48:41Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "PR #8296 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/pull/8296",
+    "https://github.com/prometheus/prometheus/issues/8787",
+    "https://github.com/prometheus/prometheus/blob/HEAD/README.md",
+    "https://github.com/prometheus/prometheus/wiki/Label-Names-and-Descriptions",
+    "https://github.com/prometheus/prometheus/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 8798,
+   "title": "Add exemplar support to rules (recording, alerts)",
+   "url": "https://github.com/prometheus/prometheus/issues/8798",
+   "labels": [
+    "help wanted",
+    "component/rules",
+    "kind/feature"
+   ],
+   "updatedAt": "2024-08-10T07:54:35Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #15555 by @fwippe is already open against this issue",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/pull/15555",
+    "https://github.com/GoogleCloudPlatform/prometheus-engine/pull/308"
+   ]
+  },
+  {
+   "number": 8799,
+   "title": "Data corruption on OpenBSD",
+   "url": "https://github.com/prometheus/prometheus/issues/8799",
+   "labels": [
+    "help wanted",
+    "kind/bug",
+    "priority/P2",
+    "component/tsdb"
+   ],
+   "updatedAt": "2024-06-18T11:22:21Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "PR #45 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/proposals/pull/45",
+    "https://github.com/prometheus/prometheus/issues/8799",
+    "https://github.com/prometheus/prometheus/blob/HEAD/README.md",
+    "https://github.com/prometheus/prometheus/wiki/Label-Names-and-Descriptions",
+    "https://github.com/prometheus/prometheus/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 8809,
+   "title": "[Remote Write] WAL watching best-effort start from a checkpoint instead of time.Now",
+   "url": "https://github.com/prometheus/prometheus/issues/8809",
+   "labels": [
+    "help wanted",
+    "component/remote storage",
+    "not-as-easy-as-it-looks"
+   ],
+   "updatedAt": "2025-07-29T11:12:52Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #16182 by @bwplotka is already open against this issue",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/pull/16182",
+    "https://github.com/grafana/tempo/pull/1323",
+    "https://github.com/grafana/helm-charts/pull/1405",
+    "https://github.com/prometheus/proposals/pull/72"
+   ]
+  },
+  {
+   "number": 8932,
+   "title": "Promtool should support openmetrics",
+   "url": "https://github.com/prometheus/prometheus/issues/8932",
+   "labels": [
+    "help wanted",
+    "component/promtool",
+    "priority/P3",
+    "kind/feature"
+   ],
+   "updatedAt": "2026-05-03T18:14:52Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "already assigned to @jyz0309",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/issues/8932"
+   ]
+  },
+  {
+   "number": 9107,
+   "title": "Potentially wasted space when storing chunk files on Btrfs",
+   "url": "https://github.com/prometheus/prometheus/issues/9107",
+   "labels": [
+    "help wanted",
+    "component/documentation"
+   ],
+   "updatedAt": "2026-10-29T20:14:42Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #19741 by @aamoghS is already open against this issue",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/pull/19741"
+   ]
+  },
+  {
+   "number": 9848,
+   "title": "Prometheus Agent: consider never moving samples to checkpoint",
+   "url": "https://github.com/prometheus/prometheus/issues/9848",
+   "labels": [
+    "help wanted",
+    "kind/enhancement",
+    "priority/Pmaybe",
+    "component/agent"
+   ],
+   "updatedAt": "2024-08-06T11:27:25Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/prometheus/prometheus/wiki/Label-Names-and-Descriptions) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/issues/9848",
+    "https://github.com/prometheus/prometheus/blob/HEAD/README.md",
+    "https://github.com/prometheus/prometheus/wiki/Label-Names-and-Descriptions",
+    "https://github.com/prometheus/prometheus/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 9850,
+   "title": "Allow label_join to be used in aggregation operators",
+   "url": "https://github.com/prometheus/prometheus/issues/9850",
+   "labels": [
+    "help wanted",
+    "priority/Pmaybe",
+    "component/promql",
+    "not-as-easy-as-it-looks",
+    "kind/feature"
+   ],
+   "updatedAt": "2025-10-27T15:16:51Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/prometheus/prometheus/wiki/Label-Names-and-Descriptions) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/issues/9850",
+    "https://github.com/prometheus/prometheus/blob/HEAD/README.md",
+    "https://github.com/prometheus/prometheus/wiki/Label-Names-and-Descriptions",
+    "https://github.com/prometheus/prometheus/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 10015,
+   "title": "Prometheus startup should discard data beyond the retention time",
+   "url": "https://github.com/prometheus/prometheus/issues/10015",
+   "labels": [
+    "help wanted",
+    "kind/enhancement",
+    "priority/P3",
+    "component/tsdb"
+   ],
+   "updatedAt": "2025-10-28T11:27:23Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #15404 by @nicolastakashi is already open against this issue",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/pull/15404",
+    "https://github.com/prometheus/prometheus/pull/15708"
+   ]
+  },
+  {
+   "number": 10029,
+   "title": "Feature request: Federation support  exemplars.",
+   "url": "https://github.com/prometheus/prometheus/issues/10029",
+   "labels": [
+    "help wanted",
+    "priority/P3",
+    "component/api",
+    "kind/feature"
+   ],
+   "updatedAt": "2024-08-13T11:15:42Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #20292 by @krajorama is already open against this issue",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/issues/20292"
+   ]
+  },
+  {
+   "number": 10399,
+   "title": "PromQL: scalar comparison for range selector",
+   "url": "https://github.com/prometheus/prometheus/issues/10399",
+   "labels": [
+    "help wanted",
+    "priority/P2",
+    "component/promql",
+    "kind/feature"
+   ],
+   "updatedAt": "2026-10-27T11:27:12Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @mabhi 1363 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/issues/10399#issuecomment-1434070579",
+    "https://github.com/prometheus/prometheus/issues/10399",
+    "https://github.com/prometheus/prometheus/blob/HEAD/README.md",
+    "https://github.com/prometheus/prometheus/wiki/Label-Names-and-Descriptions",
+    "https://github.com/prometheus/prometheus/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 10431,
+   "title": "Prometheus agent mode using more heap memory than regular mode.",
+   "url": "https://github.com/prometheus/prometheus/issues/10431",
+   "labels": [
+    "help wanted",
+    "kind/more-info-needed"
+   ],
+   "updatedAt": "2026-09-30T19:09:42Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #18701 by @gnosek is already open against this issue",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/issues/18701"
+   ]
+  },
+  {
+   "number": 10643,
+   "title": "Create a major.minor and major Docker tags for latest of each version (i.e. 2.35 tag to represent the latest 2.35.x)",
+   "url": "https://github.com/prometheus/prometheus/issues/10643",
+   "labels": [
+    "help wanted",
+    "kind/enhancement",
+    "priority/P3"
+   ],
+   "updatedAt": "2026-10-21T07:45:56Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #20060 by @1cbyc is already open against this issue",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/pull/20060",
+    "https://github.com/fathallahhassen/books-library-backend/pull/3"
+   ]
+  },
+  {
+   "number": 10660,
+   "title": "Makefile vulnerability ",
+   "url": "https://github.com/prometheus/prometheus/issues/10660",
+   "labels": [
+    "help wanted",
+    "kind/enhancement"
+   ],
+   "updatedAt": "2026-07-28T07:34:46Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #19281 by @Milad93R is already open against this issue",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/pull/19281",
+    "https://github.com/prometheus/prometheus/pull/20006"
+   ]
+  },
+  {
+   "number": 10750,
+   "title": "Disable WAL for agent mode",
+   "url": "https://github.com/prometheus/prometheus/issues/10750",
+   "labels": [
+    "help wanted",
+    "not-as-easy-as-it-looks",
+    "component/wal"
+   ],
+   "updatedAt": "2024-11-26T20:22:38Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/prometheus/prometheus/wiki/Label-Names-and-Descriptions) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/issues/10750",
+    "https://github.com/prometheus/prometheus/blob/HEAD/README.md",
+    "https://github.com/prometheus/prometheus/wiki/Label-Names-and-Descriptions",
+    "https://github.com/prometheus/prometheus/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 10953,
+   "title": "Configuring PromQL query statistics",
+   "url": "https://github.com/prometheus/prometheus/issues/10953",
+   "labels": [
+    "help wanted",
+    "kind/enhancement",
+    "priority/P3",
+    "component/api"
+   ],
+   "updatedAt": "2026-07-07T11:07:02Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #19688 by @Retr0-XD is already open against this issue",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/pull/19688",
+    "https://github.com/prometheus/prometheus/pull/19124"
+   ]
+  },
+  {
+   "number": 11061,
+   "title": "Add cardinality_limit to scrape config",
+   "url": "https://github.com/prometheus/prometheus/issues/11061",
+   "labels": [
+    "help wanted",
+    "component/config",
+    "priority/P3",
+    "component/scraping",
+    "kind/feature"
+   ],
+   "updatedAt": "2024-10-01T14:45:30Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/prometheus/prometheus/wiki/Label-Names-and-Descriptions) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/issues/11061",
+    "https://github.com/prometheus/prometheus/blob/HEAD/README.md",
+    "https://github.com/prometheus/prometheus/wiki/Label-Names-and-Descriptions",
+    "https://github.com/prometheus/prometheus/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 11112,
+   "title": "Compactions cause the configured storage.tsdb.retention.size to be exceeded (and risk of running out of disk space)",
+   "url": "https://github.com/prometheus/prometheus/issues/11112",
+   "labels": [
+    "help wanted",
+    "priority/P3",
+    "component/tsdb"
+   ],
+   "updatedAt": "2026-10-28T17:35:12Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #19428 by @goutamadwant is already open against this issue",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/pull/19428",
+    "https://github.com/prometheus/prometheus/pull/19844",
+    "https://github.com/prometheus/prometheus/pull/18996"
+   ]
+  },
+  {
+   "number": 11231,
+   "title": "remote read: support sharding",
+   "url": "https://github.com/prometheus/prometheus/issues/11231",
+   "labels": [
+    "help wanted",
+    "component/remote storage",
+    "priority/P3",
+    "kind/feature"
+   ],
+   "updatedAt": "2026-10-26T02:16:52Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #20191 by @DeviousCardi is already open against this issue",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/pull/20191"
+   ]
+  },
+  {
+   "number": 11268,
+   "title": "ui (histograms): Render Native Histograms in Graph view",
+   "url": "https://github.com/prometheus/prometheus/issues/11268",
+   "labels": [
+    "help wanted",
+    "component/ui",
+    "priority/P3"
+   ],
+   "updatedAt": "2025-10-28T18:31:41Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @anshjain16 896 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/issues/11268#issuecomment-2138095975",
+    "https://github.com/prometheus/prometheus/issues/11268",
+    "https://github.com/prometheus/prometheus/blob/HEAD/README.md",
+    "https://github.com/prometheus/prometheus/wiki/Label-Names-and-Descriptions",
+    "https://github.com/prometheus/prometheus/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 11362,
+   "title": "Add service discovery metadata to a single metric",
+   "url": "https://github.com/prometheus/prometheus/issues/11362",
+   "labels": [
+    "help wanted",
+    "priority/Pmaybe",
+    "not-as-easy-as-it-looks",
+    "kind/feature"
+   ],
+   "updatedAt": "2026-10-31T11:55:16Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #11854 by @rbizos is already open against this issue",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/pull/11854"
+   ]
+  },
+  {
+   "number": 11505,
+   "title": "remote write: When ingesting, check that labels are indeed sorted lexicographically",
+   "url": "https://github.com/prometheus/prometheus/issues/11505",
+   "labels": [
+    "help wanted",
+    "kind/bug",
+    "priority/P2",
+    "component/remote storage",
+    "good first issue"
+   ],
+   "updatedAt": "2026-06-01T10:28:35Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "already assigned to @alexgreenbank",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/pb82/prometheus-toolbox/pull/6",
+    "https://github.com/prometheus/prometheus/issues/11505",
+    "https://github.com/prometheus/prometheus/issues/11505#issuecomment-3476083804"
+   ]
+  },
+  {
+   "number": 11609,
+   "title": "PromQL: Support common labels",
+   "url": "https://github.com/prometheus/prometheus/issues/11609",
+   "labels": [
+    "help wanted",
+    "component/promql",
+    "not-as-easy-as-it-looks",
+    "priority/P3",
+    "kind/feature"
+   ],
+   "updatedAt": "2026-04-07T12:41:26Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/prometheus/prometheus/wiki/Label-Names-and-Descriptions) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/issues/11609",
+    "https://github.com/prometheus/prometheus/blob/HEAD/README.md",
+    "https://github.com/prometheus/prometheus/wiki/Label-Names-and-Descriptions",
+    "https://github.com/prometheus/prometheus/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 11834,
+   "title": "Remove OOO Head compaction's dependency on the in-order Head compaction",
+   "url": "https://github.com/prometheus/prometheus/issues/11834",
+   "labels": [
+    "help wanted",
+    "component/tsdb",
+    "good first issue"
+   ],
+   "updatedAt": "2026-06-01T10:47:55Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #1 by @poi1649 is already open against this issue",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/poi1649/prometheus/pull/1",
+    "https://github.com/prometheus/prometheus/pull/18434"
+   ]
+  },
+  {
+   "number": 11848,
+   "title": "promtool support for coverage of rules",
+   "url": "https://github.com/prometheus/prometheus/issues/11848",
+   "labels": [
+    "help wanted",
+    "kind/enhancement",
+    "not-as-easy-as-it-looks"
+   ],
+   "updatedAt": "2026-04-03T08:07:21Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #18432 by @thc1006 is already open against this issue",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/pull/18432",
+    "https://github.com/prometheus/proposals/pull/102"
+   ]
+  },
+  {
+   "number": 11852,
+   "title": "Prometheus agent mode hashmod sharding issue",
+   "url": "https://github.com/prometheus/prometheus/issues/11852",
+   "labels": [
+    "help wanted",
+    "kind/bug",
+    "priority/Pmaybe",
+    "component/agent"
+   ],
+   "updatedAt": "2026-11-05T04:48:34Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/prometheus/prometheus/wiki/Label-Names-and-Descriptions) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/issues/11852",
+    "https://github.com/prometheus/prometheus/blob/HEAD/README.md",
+    "https://github.com/prometheus/prometheus/wiki/Label-Names-and-Descriptions",
+    "https://github.com/prometheus/prometheus/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 11882,
+   "title": "Consider v2 of /api/v1/read with improvements",
+   "url": "https://github.com/prometheus/prometheus/issues/11882",
+   "labels": [
+    "help wanted",
+    "kind/enhancement"
+   ],
+   "updatedAt": "2026-05-08T11:13:08Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "PR #18470 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/pull/18470",
+    "https://github.com/prometheus/prometheus/issues/11882",
+    "https://github.com/prometheus/prometheus/blob/HEAD/README.md",
+    "https://github.com/prometheus/prometheus/wiki/Label-Names-and-Descriptions",
+    "https://github.com/prometheus/prometheus/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 11919,
+   "title": "Prometheus Server and Prometheus Agent are not honoring the out_of_order_time_window and storage.agent.retention, respectivelyn.max-time values, ",
+   "url": "https://github.com/prometheus/prometheus/issues/11919",
+   "labels": [
+    "help wanted",
+    "not-as-easy-as-it-looks"
+   ],
+   "updatedAt": "2024-11-05T11:18:48Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "already assigned to @rfratto, @codesome",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/issues/11919"
+   ]
+  },
+  {
+   "number": 11964,
+   "title": "Add support for ingesting openmetrics exemplars in promtool ",
+   "url": "https://github.com/prometheus/prometheus/issues/11964",
+   "labels": [
+    "help wanted",
+    "component/tsdb"
+   ],
+   "updatedAt": "2024-11-05T11:43:03Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #14762 by @anarcat is already open against this issue",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/issues/14762"
+   ]
+  },
+  {
+   "number": 12240,
+   "title": "`remote_read` should support exemplars",
+   "url": "https://github.com/prometheus/prometheus/issues/12240",
+   "labels": [
+    "help wanted",
+    "kind/enhancement",
+    "component/remote storage"
+   ],
+   "updatedAt": "2025-04-23T20:14:24Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #15798 by @Vperiodt is already open against this issue",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/pull/15798"
+   ]
+  },
+  {
+   "number": 12255,
+   "title": "Errors created via relabeling leak to remote-write",
+   "url": "https://github.com/prometheus/prometheus/issues/12255",
+   "labels": [
+    "help wanted",
+    "component/scraping"
+   ],
+   "updatedAt": "2024-11-19T11:39:41Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #19305 by @Rajkaran-122 is already open against this issue",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/pull/19305"
+   ]
+  },
+  {
+   "number": 12320,
+   "title": "[proposal] additional API endpoints to retrieve rules information",
+   "url": "https://github.com/prometheus/prometheus/issues/12320",
+   "labels": [
+    "help wanted",
+    "not-as-easy-as-it-looks",
+    "priority/P3",
+    "component/api",
+    "kind/feature"
+   ],
+   "updatedAt": "2024-11-27T14:16:17Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "7 paths named in the issue do not exist on `prometheus`'s default branch — that is unlisted work: api/v1/namespaces, api/v1/namespaces/, api/v1/groups, api/v1/rules, api/v1/groups/, api/v1/rules/status, … (+1 more)",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/issues/12320",
+    "https://github.com/prometheus/prometheus/blob/HEAD/README.md",
+    "https://github.com/prometheus/prometheus/wiki/Label-Names-and-Descriptions",
+    "https://github.com/prometheus/prometheus/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 12388,
+   "title": "Support service discovery for the PVE platform",
+   "url": "https://github.com/prometheus/prometheus/issues/12388",
+   "labels": [
+    "help wanted",
+    "priority/Pmaybe",
+    "component/service discovery",
+    "kind/feature"
+   ],
+   "updatedAt": "2024-11-26T11:50:23Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/prometheus/prometheus/wiki/Label-Names-and-Descriptions) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/issues/12388",
+    "https://github.com/prometheus/prometheus/blob/HEAD/README.md",
+    "https://github.com/prometheus/prometheus/wiki/Label-Names-and-Descriptions",
+    "https://github.com/prometheus/prometheus/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 12389,
+   "title": "Add match[] param to /api/v1/status/tsdb API",
+   "url": "https://github.com/prometheus/prometheus/issues/12389",
+   "labels": [
+    "help wanted",
+    "priority/P3",
+    "component/tsdb",
+    "kind/feature"
+   ],
+   "updatedAt": "2026-03-19T14:44:07Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #18337 by @Mentigen is already open against this issue",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/pull/18337",
+    "https://github.com/prometheus/prometheus/pull/20008"
+   ]
+  },
+  {
+   "number": 12397,
+   "title": "docs: Add auto-generated page for current metrics Prometheus exposes about itself.",
+   "url": "https://github.com/prometheus/prometheus/issues/12397",
+   "labels": [
+    "help wanted",
+    "component/documentation"
+   ],
+   "updatedAt": "2024-11-26T12:30:59Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #18377 by @kovan is already open against this issue",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/pull/18377"
+   ]
+  },
+  {
+   "number": 12456,
+   "title": "Better support for relabeling when using multiple api servers",
+   "url": "https://github.com/prometheus/prometheus/issues/12456",
+   "labels": [
+    "help wanted",
+    "component/service discovery",
+    "priority/P3",
+    "kind/feature",
+    "component/service discovery/kubernetes"
+   ],
+   "updatedAt": "2026-03-17T09:54:30Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @akshayamadhuri 1245 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/issues/12456#issuecomment-1593518923",
+    "https://github.com/prometheus/prometheus/issues/12456",
+    "https://github.com/prometheus/prometheus/blob/HEAD/README.md",
+    "https://github.com/prometheus/prometheus/wiki/Label-Names-and-Descriptions",
+    "https://github.com/prometheus/prometheus/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 12499,
+   "title": "Support \"--warn-as-error\" for `promtool test rules`",
+   "url": "https://github.com/prometheus/prometheus/issues/12499",
+   "labels": [
+    "help wanted",
+    "component/promtool",
+    "kind/feature"
+   ],
+   "updatedAt": "2025-07-28T07:05:45Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #5 by @bboreham is already open against this issue",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/bboreham/prometheus/pull/5",
+    "https://github.com/prometheus/prometheus/pull/18432",
+    "https://github.com/prometheus/prometheus/pull/19718"
+   ]
+  },
+  {
+   "number": 12531,
+   "title": "Promtool backfill inconsistent duplication handling",
+   "url": "https://github.com/prometheus/prometheus/issues/12531",
+   "labels": [
+    "help wanted",
+    "kind/bug",
+    "component/promtool"
+   ],
+   "updatedAt": "2026-05-03T17:06:25Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #19260 by @locker95 is already open against this issue",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/pull/19260",
+    "https://github.com/mephistopheles4/stacks/pull/180"
+   ]
+  },
+  {
+   "number": 12563,
+   "title": "Expand environment variables in relabel_configs",
+   "url": "https://github.com/prometheus/prometheus/issues/12563",
+   "labels": [
+    "help wanted",
+    "component/config",
+    "priority/P3",
+    "kind/feature"
+   ],
+   "updatedAt": "2026-03-31T14:40:22Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #18457 by @Mentigen is already open against this issue",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/pull/18457"
+   ]
+  },
+  {
+   "number": 12585,
+   "title": "Counters for sample appends",
+   "url": "https://github.com/prometheus/prometheus/issues/12585",
+   "labels": [
+    "help wanted",
+    "priority/P3",
+    "component/scraping",
+    "component/tsdb"
+   ],
+   "updatedAt": "2025-01-29T16:25:04Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "already assigned to @amanycodes",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/issues/12585",
+    "https://github.com/prometheus/prometheus/issues/12585#issuecomment-2571722467"
+   ]
+  },
+  {
+   "number": 12632,
+   "title": "Discussion: Enable 5 minutes of out-of-order by default in Prometheus",
+   "url": "https://github.com/prometheus/prometheus/issues/12632",
+   "labels": [
+    "help wanted",
+    "component/config",
+    "kind/more-info-needed",
+    "component/tsdb"
+   ],
+   "updatedAt": "2025-01-07T11:27:47Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/prometheus/prometheus/wiki/Label-Names-and-Descriptions) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/issues/12632",
+    "https://github.com/prometheus/prometheus/blob/HEAD/README.md",
+    "https://github.com/prometheus/prometheus/wiki/Label-Names-and-Descriptions",
+    "https://github.com/prometheus/prometheus/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 12789,
+   "title": "Add LookbackDelta to ReadHints",
+   "url": "https://github.com/prometheus/prometheus/issues/12789",
+   "labels": [
+    "help wanted",
+    "component/remote storage"
+   ],
+   "updatedAt": "2025-02-18T13:25:28Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "2 stale claims, the most recent by @kevinmingtarja 1047 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/issues/12789#issuecomment-1872495327",
+    "https://github.com/prometheus/prometheus/issues/12789",
+    "https://github.com/prometheus/prometheus/blob/HEAD/README.md",
+    "https://github.com/prometheus/prometheus/wiki/Label-Names-and-Descriptions",
+    "https://github.com/prometheus/prometheus/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 12896,
+   "title": "Turn one source label into multiple target labels",
+   "url": "https://github.com/prometheus/prometheus/issues/12896",
+   "labels": [
+    "help wanted",
+    "kind/enhancement",
+    "component/service discovery",
+    "priority/P3"
+   ],
+   "updatedAt": "2025-01-28T11:37:30Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/prometheus/prometheus/wiki/Label-Names-and-Descriptions) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/issues/12896",
+    "https://github.com/prometheus/prometheus/blob/HEAD/README.md",
+    "https://github.com/prometheus/prometheus/wiki/Label-Names-and-Descriptions",
+    "https://github.com/prometheus/prometheus/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 13140,
+   "title": "openstack_sd_config: be able to pass a list of regions",
+   "url": "https://github.com/prometheus/prometheus/issues/13140",
+   "labels": [
+    "help wanted",
+    "component/service discovery",
+    "priority/P3",
+    "kind/feature"
+   ],
+   "updatedAt": "2025-03-05T15:22:00Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/prometheus/prometheus/wiki/Label-Names-and-Descriptions) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/issues/13140",
+    "https://github.com/prometheus/prometheus/blob/HEAD/README.md",
+    "https://github.com/prometheus/prometheus/wiki/Label-Names-and-Descriptions",
+    "https://github.com/prometheus/prometheus/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 13152,
+   "title": "\"unexpected full record\" error cause WAL truncation in Compact failed and WAL num grow endlessly",
+   "url": "https://github.com/prometheus/prometheus/issues/13152",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-04-30T11:49:56Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/prometheus/prometheus/wiki/Label-Names-and-Descriptions) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/issues/13152",
+    "https://github.com/prometheus/prometheus/blob/HEAD/README.md",
+    "https://github.com/prometheus/prometheus/wiki/Label-Names-and-Descriptions",
+    "https://github.com/prometheus/prometheus/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 13556,
+   "title": "scrape: Add more tests validating HTTP requests made on scrape (and their headers)",
+   "url": "https://github.com/prometheus/prometheus/issues/13556",
+   "labels": [
+    "help wanted",
+    "component/tests"
+   ],
+   "updatedAt": "2026-08-22T13:57:31Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #17492 by @sammyqtran is already open against this issue",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/pull/17492",
+    "https://github.com/prometheus/prometheus/pull/14852"
+   ]
+  },
+  {
+   "number": 13582,
+   "title": "Support sample value updates, modification, and/or accumulation",
+   "url": "https://github.com/prometheus/prometheus/issues/13582",
+   "labels": [
+    "help wanted",
+    "component/tsdb",
+    "kind/feature"
+   ],
+   "updatedAt": "2025-04-08T12:01:06Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/prometheus/prometheus/wiki/Label-Names-and-Descriptions) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/issues/13582",
+    "https://github.com/prometheus/prometheus/blob/HEAD/README.md",
+    "https://github.com/prometheus/prometheus/wiki/Label-Names-and-Descriptions",
+    "https://github.com/prometheus/prometheus/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 13591,
+   "title": "Allow configuration of partial evaluation strategies for rule group evaluation failures",
+   "url": "https://github.com/prometheus/prometheus/issues/13591",
+   "labels": [
+    "help wanted",
+    "priority/P3",
+    "kind/feature"
+   ],
+   "updatedAt": "2026-09-17T11:53:56Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #19690 by @Retr0-XD is already open against this issue",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/pull/19690"
+   ]
+  },
+  {
+   "number": 13657,
+   "title": "Proposal: Cache expanded postings on TSDB",
+   "url": "https://github.com/prometheus/prometheus/issues/13657",
+   "labels": [
+    "help wanted",
+    "kind/enhancement",
+    "not-as-easy-as-it-looks",
+    "priority/P3",
+    "component/tsdb"
+   ],
+   "updatedAt": "2026-09-28T03:06:42Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #19852 by @Rayan-and-beyond is already open against this issue",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/pull/19852"
+   ]
+  },
+  {
+   "number": 13939,
+   "title": "OOM crashloop auto-recovery",
+   "url": "https://github.com/prometheus/prometheus/issues/13939",
+   "labels": [
+    "help wanted",
+    "kind/feature"
+   ],
+   "updatedAt": "2025-08-26T15:45:12Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #76 by @dashpole is already open against this issue",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/proposals/pull/76",
+    "https://github.com/prometheus/prometheus/pull/19685",
+    "https://github.com/GoogleCloudPlatform/prometheus/pull/153"
+   ]
+  },
+  {
+   "number": 14057,
+   "title": "Add relabeling action that drops sample if any label matches pattern",
+   "url": "https://github.com/prometheus/prometheus/issues/14057",
+   "labels": [
+    "help wanted",
+    "component/config",
+    "priority/P3",
+    "kind/feature"
+   ],
+   "updatedAt": "2026-07-08T17:30:55Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #90 by @RajeshRajendiran is already open against this issue",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/proposals/pull/90"
+   ]
+  },
+  {
+   "number": 14342,
+   "title": "[Remote Write 2.x] Arrow Proto Message Experiment & Benchmark",
+   "url": "https://github.com/prometheus/prometheus/issues/14342",
+   "labels": [
+    "help wanted",
+    "priority/Pmaybe",
+    "component/remote storage",
+    "not-as-easy-as-it-looks",
+    "kind/optimization"
+   ],
+   "updatedAt": "2024-06-25T07:10:52Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "open 29 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/issues/14342",
+    "https://github.com/prometheus/prometheus/blob/HEAD/README.md",
+    "https://github.com/prometheus/prometheus/wiki/Label-Names-and-Descriptions",
+    "https://github.com/prometheus/prometheus/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 14349,
+   "title": "[agent] metrics reported by prometheus in agent mode break meta monitoring",
+   "url": "https://github.com/prometheus/prometheus/issues/14349",
+   "labels": [
+    "help wanted",
+    "kind/bug",
+    "component/agent"
+   ],
+   "updatedAt": "2026-09-21T11:10:35Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #16706 by @SandroJijavadze is already open against this issue",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/pull/16706"
+   ]
+  },
+  {
+   "number": 14363,
+   "title": "kubernetes-sd: expose status.PodIPs / podMonitor support IP family",
+   "url": "https://github.com/prometheus/prometheus/issues/14363",
+   "labels": [
+    "help wanted",
+    "component/service discovery",
+    "component/service discovery/kubernetes"
+   ],
+   "updatedAt": "2026-03-17T09:54:09Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #16705 by @DrAuYueng is already open against this issue",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/pull/16705"
+   ]
+  },
+  {
+   "number": 14619,
+   "title": "TSDB: reduce cost of multiple label selectors for the same label name",
+   "url": "https://github.com/prometheus/prometheus/issues/14619",
+   "labels": [
+    "help wanted",
+    "kind/enhancement",
+    "component/promql",
+    "priority/P3"
+   ],
+   "updatedAt": "2026-06-08T22:05:25Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #18887 by @Vandit1604 is already open against this issue",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/pull/18887"
+   ]
+  },
+  {
+   "number": 14632,
+   "title": "[Error] Setup prometheus to scrape from MS instances registered in Eureka SD with random port",
+   "url": "https://github.com/prometheus/prometheus/issues/14632",
+   "labels": [
+    "help wanted",
+    "component/service discovery"
+   ],
+   "updatedAt": "2025-06-10T11:46:16Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/prometheus/prometheus/wiki/Label-Names-and-Descriptions) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/issues/14632",
+    "https://github.com/prometheus/prometheus/wiki/Label-Names-and-Descriptions",
+    "https://github.com/prometheus/prometheus/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 14823,
+   "title": "ST: Optimize CPU/memory use for OM1.0 Text CT/ST parsing (`st-storage` and `created-timestamp-zero-ingestion` features)",
+   "url": "https://github.com/prometheus/prometheus/issues/14823",
+   "labels": [
+    "help wanted",
+    "component/scraping"
+   ],
+   "updatedAt": "2026-11-06T18:51:33Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #43 by @Maniktherana is already open against this issue",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/proposals/pull/43",
+    "https://github.com/prometheus/prometheus/pull/20366",
+    "https://github.com/prometheus/prometheus/pull/20367",
+    "https://github.com/prometheus/prometheus/pull/14933",
+    "https://github.com/prometheus/prometheus/pull/14965",
+    "https://github.com/prometheus/prometheus/pull/15097",
+    "https://github.com/prometheus/prometheus/pull/15150",
+    "https://github.com/open-telemetry/opentelemetry-collector-contrib/pull/45256",
+    "https://github.com/open-telemetry/opentelemetry-specification/pull/4953"
+   ]
+  },
+  {
+   "number": 14824,
+   "title": "PromQL: Need richer label matcher logic (or apply matchers to expressions?)",
+   "url": "https://github.com/prometheus/prometheus/issues/14824",
+   "labels": [
+    "help wanted",
+    "priority/Pmaybe",
+    "component/promql",
+    "not-as-easy-as-it-looks",
+    "kind/feature"
+   ],
+   "updatedAt": "2026-07-27T00:22:45Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @vpranckaitis 111 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/issues/14824#issuecomment-5057914064",
+    "https://github.com/prometheus/prometheus/issues/14824",
+    "https://github.com/prometheus/prometheus/blob/HEAD/README.md",
+    "https://github.com/prometheus/prometheus/wiki/Label-Names-and-Descriptions",
+    "https://github.com/prometheus/prometheus/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 14926,
+   "title": "feat: Avoid decay of our micro-benchmarks; test them on CI",
+   "url": "https://github.com/prometheus/prometheus/issues/14926",
+   "labels": [
+    "help wanted",
+    "priority/P2",
+    "component/tests",
+    "area/ci-cd"
+   ],
+   "updatedAt": "2026-08-24T12:33:00Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #19515 by @pttydou is already open against this issue",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/pull/19515",
+    "https://github.com/prometheus/prometheus/pull/19548"
+   ]
+  },
+  {
+   "number": 15160,
+   "title": "Proposal: add `Close()` method to `index.Postings` interface",
+   "url": "https://github.com/prometheus/prometheus/issues/15160",
+   "labels": [
+    "help wanted",
+    "not-as-easy-as-it-looks",
+    "priority/P3",
+    "component/tsdb",
+    "kind/feature"
+   ],
+   "updatedAt": "2025-10-18T14:32:28Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #18918 by @cjc0013 is already open against this issue",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/pull/18918"
+   ]
+  },
+  {
+   "number": 15545,
+   "title": "Idea: Test Alert Conditions Against Historical Data for Different `for:` Values",
+   "url": "https://github.com/prometheus/prometheus/issues/15545",
+   "labels": [
+    "help wanted",
+    "component/ui",
+    "component/rules",
+    "priority/P3",
+    "kind/feature"
+   ],
+   "updatedAt": "2026-08-06T12:57:18Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #19344 by @sarthaksarthak9 is already open against this issue",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/pull/19344"
+   ]
+  },
+  {
+   "number": 15852,
+   "title": "Go-lib for promtool",
+   "url": "https://github.com/prometheus/prometheus/issues/15852",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-03-17T14:40:28Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #16935 by @DrAuYueng is already open against this issue",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/pull/16935"
+   ]
+  },
+  {
+   "number": 15863,
+   "title": "Enhancements to kubernetes_sd_config to support Gateway API resources",
+   "url": "https://github.com/prometheus/prometheus/issues/15863",
+   "labels": [
+    "help wanted",
+    "component/service discovery",
+    "kind/feature",
+    "component/service discovery/kubernetes"
+   ],
+   "updatedAt": "2026-08-03T16:36:27Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #73 by @rexagod is already open against this issue",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/proposals/pull/73",
+    "https://github.com/prometheus/prometheus/pull/19298"
+   ]
+  },
+  {
+   "number": 15871,
+   "title": "promql: option to preserve comments in parser",
+   "url": "https://github.com/prometheus/prometheus/issues/15871",
+   "labels": [
+    "help wanted",
+    "component/promql",
+    "not-as-easy-as-it-looks",
+    "priority/P3",
+    "kind/feature"
+   ],
+   "updatedAt": "2026-03-31T14:45:08Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/prometheus/prometheus/wiki/Label-Names-and-Descriptions) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/issues/15871",
+    "https://github.com/prometheus/prometheus/blob/HEAD/README.md",
+    "https://github.com/prometheus/prometheus/wiki/Label-Names-and-Descriptions",
+    "https://github.com/prometheus/prometheus/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 15872,
+   "title": "tsdb benchmarks: create consistent way for periodic commits",
+   "url": "https://github.com/prometheus/prometheus/issues/15872",
+   "labels": [
+    "help wanted",
+    "priority/P3",
+    "benchmark",
+    "component/tsdb"
+   ],
+   "updatedAt": "2025-12-16T19:24:29Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #17686 by @RaphSku is already open against this issue",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/pull/17686"
+   ]
+  },
+  {
+   "number": 16513,
+   "title": "Idea: store scrape cache as a trie instead of a map.",
+   "url": "https://github.com/prometheus/prometheus/issues/16513",
+   "labels": [
+    "help wanted",
+    "kind/enhancement",
+    "component/scraping"
+   ],
+   "updatedAt": "2026-07-08T12:40:00Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #19132 by @abhinandan-thakur is already open against this issue",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/pull/19132"
+   ]
+  },
+  {
+   "number": 16525,
+   "title": "Set and check (and document) a global label_value_length_limit",
+   "url": "https://github.com/prometheus/prometheus/issues/16525",
+   "labels": [
+    "help wanted",
+    "priority/P3",
+    "component/scraping",
+    "component/documentation",
+    "kind/feature",
+    "good first issue"
+   ],
+   "updatedAt": "2026-10-22T08:18:17Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #4 by @bboreham is already open against this issue",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/bboreham/prometheus/pull/4",
+    "https://github.com/prometheus/prometheus/pull/18705",
+    "https://github.com/prometheus/prometheus/pull/16069"
+   ]
+  },
+  {
+   "number": 16577,
+   "title": "Prometheus 3.0  alert webui Incompatible with Microsoft Chinese IME",
+   "url": "https://github.com/prometheus/prometheus/issues/16577",
+   "labels": [
+    "help wanted",
+    "component/ui"
+   ],
+   "updatedAt": "2025-11-13T22:16:34Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #17532 by @itsjoeoui is already open against this issue",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/pull/17532"
+   ]
+  },
+  {
+   "number": 16621,
+   "title": "Prometheus crashes with SIGSEGV when accessing mapped chunk during PromQL query",
+   "url": "https://github.com/prometheus/prometheus/issues/16621",
+   "labels": [
+    "help wanted",
+    "kind/enhancement",
+    "priority/P3"
+   ],
+   "updatedAt": "2026-08-04T17:59:03Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #20418 by @lvphucitus is already open against this issue",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/pull/20418"
+   ]
+  },
+  {
+   "number": 16942,
+   "title": "WAL Replay not using more memory than before the restart",
+   "url": "https://github.com/prometheus/prometheus/issues/16942",
+   "labels": [
+    "help wanted",
+    "not-as-easy-as-it-looks",
+    "component/wal"
+   ],
+   "updatedAt": "2026-10-28T12:06:43Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #18338 by @machine424 is already open against this issue",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/pull/18338",
+    "https://github.com/prometheus/prometheus/pull/20062",
+    "https://github.com/prometheus/prometheus/pull/20063",
+    "https://github.com/prometheus/prometheus/pull/20064",
+    "https://github.com/prometheus/prometheus/pull/18813"
+   ]
+  },
+  {
+   "number": 16948,
+   "title": "[nhcb] Add PromQL compatibility layer for querying nhcb as classic histogram",
+   "url": "https://github.com/prometheus/prometheus/issues/16948",
+   "labels": [
+    "help wanted",
+    "not-as-easy-as-it-looks",
+    "priority/P3",
+    "kind/feature"
+   ],
+   "updatedAt": "2026-02-26T09:32:21Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #105 by @bwplotka is already open against this issue",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/proposals/pull/105",
+    "https://github.com/prometheus/prometheus/pull/20287",
+    "https://github.com/prometheus/prometheus/pull/19881",
+    "https://github.com/prometheus/prometheus/pull/20330",
+    "https://github.com/prometheus/prometheus/pull/18048"
+   ]
+  },
+  {
+   "number": 17097,
+   "title": "Add proxy_url to targets as meta label",
+   "url": "https://github.com/prometheus/prometheus/issues/17097",
+   "labels": [
+    "help wanted",
+    "kind/enhancement",
+    "component/service discovery",
+    "priority/P3"
+   ],
+   "updatedAt": "2026-04-02T13:44:44Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #18392 by @TanayK07 is already open against this issue",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/pull/18392"
+   ]
+  },
+  {
+   "number": 17109,
+   "title": "Scrape configuration to limit label churn / added series",
+   "url": "https://github.com/prometheus/prometheus/issues/17109",
+   "labels": [
+    "help wanted",
+    "priority/P2",
+    "component/scraping",
+    "kind/feature"
+   ],
+   "updatedAt": "2026-09-01T11:48:08Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #76 by @dashpole is already open against this issue",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/proposals/pull/76"
+   ]
+  },
+  {
+   "number": 17192,
+   "title": "[RW2]: Prometheus client_golang remote API adoption",
+   "url": "https://github.com/prometheus/prometheus/issues/17192",
+   "labels": [
+    "help wanted",
+    "kind/feature"
+   ],
+   "updatedAt": "2026-09-01T11:48:05Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #19026 by @Suyog241005 is already open against this issue",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/pull/19026",
+    "https://github.com/prometheus/prometheus/pull/17197",
+    "https://github.com/prometheus/prometheus/pull/17280",
+    "https://github.com/prometheus/client_golang/pull/1894"
+   ]
+  },
+  {
+   "number": 17770,
+   "title": "Feature Request: Add Labelmap PromQL Function",
+   "url": "https://github.com/prometheus/prometheus/issues/17770",
+   "labels": [
+    "help wanted",
+    "component/promql",
+    "priority/P3",
+    "kind/feature"
+   ],
+   "updatedAt": "2026-09-01T11:48:01Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #18742 by @marksmwl is already open against this issue",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/pull/18742",
+    "https://github.com/prometheus/prometheus/pull/20192"
+   ]
+  },
+  {
+   "number": 17925,
+   "title": "feat: Add robust abstraction for a sample \"union\" type.",
+   "url": "https://github.com/prometheus/prometheus/issues/17925",
+   "labels": [
+    "help wanted",
+    "not-as-easy-as-it-looks"
+   ],
+   "updatedAt": "2026-09-01T11:47:57Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #18116 by @rohansood10 is already open against this issue",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/pull/18116"
+   ]
+  },
+  {
+   "number": 17941,
+   "title": "[meta] AppendV2 flaky tests",
+   "url": "https://github.com/prometheus/prometheus/issues/17941",
+   "labels": [
+    "help wanted",
+    "kind/bug"
+   ],
+   "updatedAt": "2026-09-01T11:47:53Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #18422 by @roidelapluie is already open against this issue",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/pull/18422",
+    "https://github.com/prometheus/prometheus/pull/17671",
+    "https://github.com/prometheus/prometheus/pull/17937",
+    "https://github.com/prometheus/prometheus/pull/17962",
+    "https://github.com/prometheus/prometheus/pull/17963",
+    "https://github.com/prometheus/prometheus/pull/17985",
+    "https://github.com/prometheus/prometheus/pull/18017",
+    "https://github.com/prometheus/prometheus/pull/18151",
+    "https://github.com/prometheus/prometheus/pull/18629"
+   ]
+  },
+  {
+   "number": 18046,
+   "title": "prombench: Is Prombench reliable enough? fix or document ignorable baseline",
+   "url": "https://github.com/prometheus/prometheus/issues/18046",
+   "labels": [
+    "help wanted",
+    "kind/bug",
+    "prombench"
+   ],
+   "updatedAt": "2026-09-29T13:52:36Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #17984 by @aknuds1 is already open against this issue",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/pull/17984",
+    "https://github.com/prometheus/prometheus/pull/18062",
+    "https://github.com/prometheus/prometheus/pull/18250",
+    "https://github.com/prometheus/prometheus/pull/18272",
+    "https://github.com/prometheus/prometheus/pull/19669",
+    "https://github.com/GoogleCloudPlatform/prometheus-test-infra/pull/188"
+   ]
+  },
+  {
+   "number": 18308,
+   "title": "\"Compaction failed\" errors in Windows container when TSDB (Data directory) is stored in Docker volume",
+   "url": "https://github.com/prometheus/prometheus/issues/18308",
+   "labels": [
+    "help wanted",
+    "component/tsdb"
+   ],
+   "updatedAt": "2026-09-01T11:47:45Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #19023 by @pratheeknathani is already open against this issue",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/pull/19023"
+   ]
+  },
+  {
+   "number": 18387,
+   "title": "Support periodic DNS re-resolution for FQDN targets discovered via Consul SD",
+   "url": "https://github.com/prometheus/prometheus/issues/18387",
+   "labels": [
+    "help wanted",
+    "kind/bug"
+   ],
+   "updatedAt": "2026-09-01T11:47:41Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #18827 by @rajnish-jais is already open against this issue",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/pull/18827",
+    "https://github.com/prometheus/prometheus/pull/19027"
+   ]
+  }
+ ]
+}

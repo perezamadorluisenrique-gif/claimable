@@ -1,0 +1,2270 @@
+{
+ "owner": "kubernetes",
+ "repo": "kubernetes",
+ "language": "Go",
+ "stars": 128976,
+ "description": "Production-Grade Container Scheduling and Management",
+ "visitedAt": "2026-11-11T15:17:00.117Z",
+ "issues": [
+  {
+   "number": 7961,
+   "title": "Run services as non-privileged users",
+   "url": "https://github.com/kubernetes/kubernetes/issues/7961",
+   "labels": [
+    "priority/backlog",
+    "area/security",
+    "kind/cleanup",
+    "sig/apps",
+    "help wanted",
+    "lifecycle/frozen"
+   ],
+   "updatedAt": "2025-11-19T19:41:04Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "already assigned to @vinayakankugoyal",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/issues/7961",
+    "https://github.com/kubernetes/kubernetes/issues/7961#issuecomment-801130176"
+   ]
+  },
+  {
+   "number": 14217,
+   "title": "Refactor Volume Code",
+   "url": "https://github.com/kubernetes/kubernetes/issues/14217",
+   "labels": [
+    "priority/backlog",
+    "kind/cleanup",
+    "sig/storage",
+    "help wanted",
+    "lifecycle/frozen"
+   ],
+   "updatedAt": "2026-09-02T01:10:35Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "PR #24331 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+5 more)",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/24331",
+    "https://github.com/kubernetes/kubernetes/pull/25457",
+    "https://github.com/kubernetes/kubernetes/pull/27970",
+    "https://github.com/kubernetes/kubernetes/issues/14217#issuecomment-5502820908",
+    "https://github.com/kubernetes/kubernetes/blob/HEAD/README.md",
+    "https://docs.docker.com/engine",
+    "https://github.com/kubernetes/kubernetes/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/kubernetes/kubernetes/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 15494,
+   "title": "Label selector design doc",
+   "url": "https://github.com/kubernetes/kubernetes/issues/15494",
+   "labels": [
+    "priority/backlog",
+    "kind/documentation",
+    "area/api",
+    "help wanted",
+    "sig/architecture",
+    "lifecycle/frozen"
+   ],
+   "updatedAt": "2025-03-29T19:09:36Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "already assigned to @bgrant0607",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/15350",
+    "https://github.com/openshift/origin/pull/5733",
+    "https://github.com/kubernetes/kubernetes/issues/15494"
+   ]
+  },
+  {
+   "number": 18174,
+   "title": "\"don't require a load balancer between cluster and control plane and still be HA\"",
+   "url": "https://github.com/kubernetes/kubernetes/issues/18174",
+   "labels": [
+    "priority/backlog",
+    "sig/network",
+    "area/kubelet",
+    "area/kube-proxy",
+    "area/HA",
+    "sig/node",
+    "sig/api-machinery",
+    "kind/api-change",
+    "kind/feature",
+    "help wanted",
+    "lifecycle/frozen",
+    "triage/accepted"
+   ],
+   "updatedAt": "2026-09-07T14:32:00Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "PR #339 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+3 more)",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes-sigs/kubespray/pull/339",
+    "https://github.com/kubernetes/kubernetes/issues/18174#issuecomment-239134058",
+    "https://github.com/kubernetes/kubernetes/issues/18174",
+    "https://github.com/kubernetes/kubernetes/blob/HEAD/README.md",
+    "https://docs.docker.com/engine",
+    "https://github.com/kubernetes/kubernetes/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/kubernetes/kubernetes/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 25836,
+   "title": "Audit all APIs for selector fields, ensure documented semantics when nil or empty.",
+   "url": "https://github.com/kubernetes/kubernetes/issues/25836",
+   "labels": [
+    "priority/backlog",
+    "help wanted",
+    "sig/architecture",
+    "lifecycle/frozen"
+   ],
+   "updatedAt": "2026-09-02T01:10:16Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #141734 by @bhushanasati25 is already open against this issue",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/141734",
+    "https://github.com/txn2/kubefwd/pull/49",
+    "https://github.com/cilium/cilium/pull/27100"
+   ]
+  },
+  {
+   "number": 26050,
+   "title": "kubectl edit: error UX is confusing and inconsistent",
+   "url": "https://github.com/kubernetes/kubernetes/issues/26050",
+   "labels": [
+    "priority/backlog",
+    "area/kubectl",
+    "kind/feature",
+    "help wanted",
+    "sig/cli",
+    "lifecycle/frozen"
+   ],
+   "updatedAt": "2026-09-02T01:09:58Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #141737 by @YashwanthMedapati is already open against this issue",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/141737",
+    "https://github.com/kubernetes/kubernetes/pull/33250",
+    "https://github.com/kubernetes/kubernetes/pull/33973",
+    "https://github.com/kubernetes/kops/pull/1772",
+    "https://github.com/kubernetes/kops/pull/1741"
+   ]
+  },
+  {
+   "number": 45206,
+   "title": "Unit test for pkg/kubelet/remote",
+   "url": "https://github.com/kubernetes/kubernetes/issues/45206",
+   "labels": [
+    "area/kubelet",
+    "kind/cleanup",
+    "sig/node",
+    "help wanted",
+    "lifecycle/frozen",
+    "needs-triage"
+   ],
+   "updatedAt": "2026-09-24T03:38:23Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "already assigned to @feiskyer, @rahulii",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/49762",
+    "https://github.com/kubernetes/kubernetes/issues/45206"
+   ]
+  },
+  {
+   "number": 67019,
+   "title": "Allow setting of Hostname also when PodSpec.HostNetwork is true",
+   "url": "https://github.com/kubernetes/kubernetes/issues/67019",
+   "labels": [
+    "sig/network",
+    "sig/node",
+    "kind/feature",
+    "help wanted",
+    "triage/accepted"
+   ],
+   "updatedAt": "2025-10-14T03:03:21Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "already assigned to @thockin, @yashsingh74",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/issues/67019",
+    "https://github.com/kubernetes/kubernetes/issues/67019#issuecomment-2045230715"
+   ]
+  },
+  {
+   "number": 69507,
+   "title": "Exposing ephemeral storage metrics to prometheus ",
+   "url": "https://github.com/kubernetes/kubernetes/issues/69507",
+   "labels": [
+    "sig/storage",
+    "kind/feature",
+    "help wanted",
+    "sig/instrumentation",
+    "triage/accepted"
+   ],
+   "updatedAt": "2026-07-30T19:03:55Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "already assigned to @machine424",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/55447",
+    "https://github.com/kubernetes/kubernetes/issues/69507",
+    "https://github.com/kubernetes/kubernetes/issues/69507#issuecomment-2820684519"
+   ]
+  },
+  {
+   "number": 74551,
+   "title": "kubectl port-forward broken pipe",
+   "url": "https://github.com/kubernetes/kubernetes/issues/74551",
+   "labels": [
+    "kind/bug",
+    "sig/api-machinery",
+    "help wanted",
+    "sig/cli",
+    "triage/unresolved"
+   ],
+   "updatedAt": "2026-10-21T12:51:41Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #107203 by @ashok-arora is already open against this issue",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/issues/107203",
+    "https://github.com/kubernetes/kubernetes/issues/143731"
+   ]
+  },
+  {
+   "number": 78564,
+   "title": "add the next run jobs time to CronJobStatus",
+   "url": "https://github.com/kubernetes/kubernetes/issues/78564",
+   "labels": [
+    "kind/feature",
+    "sig/apps",
+    "help wanted",
+    "area/workload-api/cronjob",
+    "lifecycle/frozen",
+    "needs-triage"
+   ],
+   "updatedAt": "2025-07-03T00:21:48Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #141428 by @vishals-3 is already open against this issue",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/141428"
+   ]
+  },
+  {
+   "number": 80289,
+   "title": "Migrate all uses of leader-election to use Lease API",
+   "url": "https://github.com/kubernetes/kubernetes/issues/80289",
+   "labels": [
+    "kind/cleanup",
+    "sig/scalability",
+    "help wanted",
+    "priority/important-longterm",
+    "lifecycle/frozen"
+   ],
+   "updatedAt": "2026-10-23T05:43:59Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "already assigned to @ricky1993",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/81030",
+    "https://github.com/kubernetes/kubernetes/pull/72046",
+    "https://github.com/kubernetes/kubernetes/pull/84084",
+    "https://github.com/kubernetes/kubernetes/pull/94603",
+    "https://github.com/kubernetes/kubernetes/pull/106852",
+    "https://github.com/kubernetes/cloud-provider-gcp/pull/310",
+    "https://github.com/kubernetes/cloud-provider-openstack/pull/1733",
+    "https://github.com/kubernetes/kubernetes/pull/105797",
+    "https://github.com/kubernetes/kubernetes/issues/80289"
+   ]
+  },
+  {
+   "number": 80609,
+   "title": "Decoding should not clear apiVersion/kind",
+   "url": "https://github.com/kubernetes/kubernetes/issues/80609",
+   "labels": [
+    "sig/api-machinery",
+    "kind/feature",
+    "help wanted",
+    "lifecycle/frozen",
+    "triage/accepted"
+   ],
+   "updatedAt": "2025-09-18T13:08:19Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "PR #33 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+22 more)",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/frameworkcontroller/pull/33",
+    "https://github.com/kubernetes-sigs/controller-runtime/pull/779",
+    "https://github.com/kubernetes-sigs/cluster-api/pull/4466",
+    "https://github.com/kubernetes-sigs/controller-runtime/pull/1484",
+    "https://github.com/cert-manager/cert-manager/pull/4205",
+    "https://github.com/kubernetes-sigs/controller-runtime/pull/1274",
+    "https://github.com/openshift/oadp-operator/pull/231",
+    "https://github.com/sky-uk/kfp-operator/pull/136",
+    "https://github.com/external-secrets/external-secrets/pull/1635"
+   ]
+  },
+  {
+   "number": 81132,
+   "title": "TOB-K8S-007: Log rotation is not atomic ",
+   "url": "https://github.com/kubernetes/kubernetes/issues/81132",
+   "labels": [
+    "kind/bug",
+    "area/security",
+    "sig/node",
+    "help wanted",
+    "lifecycle/frozen",
+    "wg/security-audit",
+    "triage/accepted"
+   ],
+   "updatedAt": "2026-06-17T19:56:33Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #139700 by @wilmerdooley is already open against this issue",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/139700"
+   ]
+  },
+  {
+   "number": 82440,
+   "title": "High system load/CPU utilization with trivial liveness and readiness exec probes",
+   "url": "https://github.com/kubernetes/kubernetes/issues/82440",
+   "labels": [
+    "kind/bug",
+    "priority/backlog",
+    "sig/node",
+    "help wanted",
+    "triage/accepted"
+   ],
+   "updatedAt": "2025-09-17T00:47:59Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "PR #3711 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+4 more)",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/containerd/containerd/pull/3711",
+    "https://github.com/containerd/containerd/pull/3753",
+    "https://github.com/containerd/containerd/pull/3755",
+    "https://github.com/kubernetes/kubernetes/issues/82440",
+    "https://docs.docker.com/engine",
+    "https://github.com/kubernetes/kubernetes/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/kubernetes/kubernetes/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 83107,
+   "title": "Ephemeral storage doesn't account for deleted files with open handles",
+   "url": "https://github.com/kubernetes/kubernetes/issues/83107",
+   "labels": [
+    "kind/bug",
+    "sig/node",
+    "help wanted",
+    "priority/important-longterm",
+    "lifecycle/frozen",
+    "triage/accepted"
+   ],
+   "updatedAt": "2025-04-09T17:39:47Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "PR #2697 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+3 more)",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/enhancements/pull/2697",
+    "https://github.com/kubernetes/kubernetes/pull/107329",
+    "https://github.com/kubernetes/kubernetes/issues/83107",
+    "https://github.com/kubernetes/kubernetes/blob/HEAD/README.md",
+    "https://docs.docker.com/engine",
+    "https://github.com/kubernetes/kubernetes/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/kubernetes/kubernetes/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 86080,
+   "title": "Test coverage of volume relabeling is lacking",
+   "url": "https://github.com/kubernetes/kubernetes/issues/86080",
+   "labels": [
+    "area/test",
+    "priority/backlog",
+    "kind/cleanup",
+    "sig/storage",
+    "sig/node",
+    "help wanted",
+    "lifecycle/frozen",
+    "needs-triage"
+   ],
+   "updatedAt": "2026-10-15T17:48:32Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #140123 by @lohitkolluri is already open against this issue",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/140123",
+    "https://github.com/kubernetes/kubernetes/pull/117326"
+   ]
+  },
+  {
+   "number": 95086,
+   "title": "Create E2E test for CVE-2020-8559 and similar",
+   "url": "https://github.com/kubernetes/kubernetes/issues/95086",
+   "labels": [
+    "sig/api-machinery",
+    "sig/auth",
+    "help wanted",
+    "lifecycle/frozen",
+    "sig/security"
+   ],
+   "updatedAt": "2026-06-13T12:20:59Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "already assigned to @rafikbahri",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/test-infra/pull/23428",
+    "https://github.com/kubernetes/kubernetes/issues/95086",
+    "https://github.com/kubernetes/kubernetes/issues/95086#issuecomment-4698503122"
+   ]
+  },
+  {
+   "number": 95911,
+   "title": "When a new node joins the cluster - scheduler doesn't respect CSI volume limit",
+   "url": "https://github.com/kubernetes/kubernetes/issues/95911",
+   "labels": [
+    "kind/bug",
+    "sig/scheduling",
+    "sig/storage",
+    "sig/autoscaling",
+    "kind/feature",
+    "help wanted",
+    "needs-triage"
+   ],
+   "updatedAt": "2025-11-06T06:23:51Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "labelled `needs-triage` — scope may not be settled yet (+2 more)",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/issues/95911",
+    "https://github.com/kubernetes/kubernetes/blob/HEAD/README.md",
+    "https://docs.docker.com/engine",
+    "https://github.com/kubernetes/kubernetes/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/kubernetes/kubernetes/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 99181,
+   "title": "Custom resource create might succeed after CRD deletion, leaving data in etcd",
+   "url": "https://github.com/kubernetes/kubernetes/issues/99181",
+   "labels": [
+    "kind/bug",
+    "sig/api-machinery",
+    "help wanted",
+    "priority/important-longterm",
+    "area/custom-resources",
+    "lifecycle/frozen",
+    "triage/accepted"
+   ],
+   "updatedAt": "2026-07-15T23:44:19Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #140618 by @mdabydeen is already open against this issue",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/140618",
+    "https://github.com/kubernetes/kubernetes/pull/99199"
+   ]
+  },
+  {
+   "number": 101985,
+   "title": "kubectl cp command fails when passing full Windows path such as c:\\Temp\\foobar.txt",
+   "url": "https://github.com/kubernetes/kubernetes/issues/101985",
+   "labels": [
+    "kind/bug",
+    "sig/windows",
+    "help wanted",
+    "sig/cli",
+    "needs-triage"
+   ],
+   "updatedAt": "2025-05-26T18:11:18Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "already assigned to @wzshiming",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/sillsdev/web-languageforge/pull/1816",
+    "https://github.com/kubernetes/kubernetes/issues/101985"
+   ]
+  },
+  {
+   "number": 102231,
+   "title": "replace klog.Fatal and os.Exit for defer funcs",
+   "url": "https://github.com/kubernetes/kubernetes/issues/102231",
+   "labels": [
+    "sig/network",
+    "kind/cleanup",
+    "sig/scalability",
+    "sig/scheduling",
+    "sig/node",
+    "sig/api-machinery",
+    "help wanted",
+    "sig/cli",
+    "sig/cloud-provider",
+    "triage/accepted"
+   ],
+   "updatedAt": "2025-07-22T19:56:54Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "already assigned to @cheftako",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/104503",
+    "https://github.com/kubernetes/kubernetes/pull/104750",
+    "https://github.com/kubernetes/kubernetes/pull/104774",
+    "https://github.com/kubernetes/kubernetes/pull/104775",
+    "https://github.com/kubernetes/kubernetes/pull/105076",
+    "https://github.com/kubernetes/kubernetes/pull/107724",
+    "https://github.com/kubernetes/kubernetes/issues/102231",
+    "https://github.com/kubernetes/kubernetes/issues/102231#issuecomment-3104651069"
+   ]
+  },
+  {
+   "number": 102549,
+   "title": "Add conformance tests for required SANs (like kubernetes.default) in apiserver serving certificate",
+   "url": "https://github.com/kubernetes/kubernetes/issues/102549",
+   "labels": [
+    "kind/feature",
+    "help wanted",
+    "sig/architecture",
+    "area/conformance",
+    "lifecycle/frozen",
+    "needs-triage"
+   ],
+   "updatedAt": "2026-07-15T23:44:17Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "already assigned to @mdabydeen",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/issues/102549",
+    "https://github.com/kubernetes/kubernetes/issues/102549#issuecomment-4986348498"
+   ]
+  },
+  {
+   "number": 103305,
+   "title": "Enforce ReadWriteOnce PVC access mode during scheduling",
+   "url": "https://github.com/kubernetes/kubernetes/issues/103305",
+   "labels": [
+    "sig/scheduling",
+    "sig/storage",
+    "kind/feature",
+    "help wanted",
+    "lifecycle/stale",
+    "needs-triage"
+   ],
+   "updatedAt": "2025-11-25T19:29:02Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "already assigned to @chrishenzie",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/103082",
+    "https://github.com/kubernetes/kubernetes/issues/103305"
+   ]
+  },
+  {
+   "number": 104252,
+   "title": "Inconsistent reset of changes to kubernetes endpoints",
+   "url": "https://github.com/kubernetes/kubernetes/issues/104252",
+   "labels": [
+    "kind/bug",
+    "priority/backlog",
+    "sig/network",
+    "help wanted",
+    "triage/accepted"
+   ],
+   "updatedAt": "2026-06-12T10:58:21Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #139662 by @wilmerdooley is already open against this issue",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/139662",
+    "https://github.com/kubernetes/kubernetes/pull/107878",
+    "https://github.com/kubermatic/kubermatic/pull/9047"
+   ]
+  },
+  {
+   "number": 104607,
+   "title": "wrong line number in yaml syntax error message",
+   "url": "https://github.com/kubernetes/kubernetes/issues/104607",
+   "labels": [
+    "kind/bug",
+    "sig/api-machinery",
+    "help wanted",
+    "sig/cli",
+    "lifecycle/frozen",
+    "sig/usability",
+    "triage/accepted"
+   ],
+   "updatedAt": "2026-08-02T19:23:21Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #139696 by @wilmerdooley is already open against this issue",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/139696"
+   ]
+  },
+  {
+   "number": 105626,
+   "title": "Storage e2e tests should allow RWX for block volumes and RWO for filesystem ones",
+   "url": "https://github.com/kubernetes/kubernetes/issues/105626",
+   "labels": [
+    "sig/storage",
+    "kind/feature",
+    "help wanted",
+    "needs-triage"
+   ],
+   "updatedAt": "2026-01-15T13:21:04Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "already assigned to @rhrmo, @Phaow",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/issues/105626"
+   ]
+  },
+  {
+   "number": 106119,
+   "title": "node_e2e: Cleanup configuration and rename jenkins/ directory",
+   "url": "https://github.com/kubernetes/kubernetes/issues/106119",
+   "labels": [
+    "area/test",
+    "kind/cleanup",
+    "sig/node",
+    "help wanted",
+    "priority/important-longterm",
+    "lifecycle/frozen",
+    "triage/accepted"
+   ],
+   "updatedAt": "2026-10-09T21:24:32Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "already assigned to @Adarsh-Me",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/106493",
+    "https://github.com/kubernetes/kubernetes/pull/108327",
+    "https://github.com/kubernetes/kubernetes/pull/142847",
+    "https://github.com/kubernetes/kubernetes/issues/106119",
+    "https://github.com/kubernetes/kubernetes/issues/106119#issuecomment-2634159082"
+   ]
+  },
+  {
+   "number": 107203,
+   "title": "kubectl port-forward broken pipe",
+   "url": "https://github.com/kubernetes/kubernetes/issues/107203",
+   "labels": [
+    "kind/bug",
+    "sig/api-machinery",
+    "help wanted",
+    "sig/cli",
+    "triage/accepted"
+   ],
+   "updatedAt": "2026-06-28T13:58:03Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "already assigned to @caesarxuchao, @sxllwx",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/128318",
+    "https://github.com/kubernetes/kubernetes/issues/107203"
+   ]
+  },
+  {
+   "number": 108886,
+   "title": "[windows] - Update e2e tests that perform reboots to leverage node.BootId",
+   "url": "https://github.com/kubernetes/kubernetes/issues/108886",
+   "labels": [
+    "area/test",
+    "kind/feature",
+    "sig/windows",
+    "help wanted",
+    "needs-triage"
+   ],
+   "updatedAt": "2026-07-30T18:57:33Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #141054 by @dlanov is already open against this issue",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/141054",
+    "https://github.com/kubernetes/kubernetes/pull/129554"
+   ]
+  },
+  {
+   "number": 109953,
+   "title": "kubectl edit fail, since deploy contains imagePullSecrets: - {} ",
+   "url": "https://github.com/kubernetes/kubernetes/issues/109953",
+   "labels": [
+    "kind/bug",
+    "sig/api-machinery",
+    "help wanted",
+    "sig/cli",
+    "triage/accepted"
+   ],
+   "updatedAt": "2026-02-18T01:36:01Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "already assigned to @haoruan",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/issues/109953"
+   ]
+  },
+  {
+   "number": 110905,
+   "title": "kubectl apply: prune should ignore no-namespaced resource if -n is not empty",
+   "url": "https://github.com/kubernetes/kubernetes/issues/110905",
+   "labels": [
+    "kind/bug",
+    "help wanted",
+    "sig/cli",
+    "triage/accepted"
+   ],
+   "updatedAt": "2026-10-23T06:40:15Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #140461 by @UditDewan is already open against this issue",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/140461",
+    "https://github.com/kubernetes/kubernetes/pull/110907"
+   ]
+  },
+  {
+   "number": 111823,
+   "title": "kube-proxy: log warning and/or Event if a NodePort overlaps with on-node ephemeral range",
+   "url": "https://github.com/kubernetes/kubernetes/issues/111823",
+   "labels": [
+    "priority/backlog",
+    "sig/network",
+    "help wanted",
+    "triage/accepted"
+   ],
+   "updatedAt": "2026-04-08T12:06:56Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "already assigned to @noahra",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/issues/111823"
+   ]
+  },
+  {
+   "number": 112168,
+   "title": "fake client policy/v1 eviction not reflected",
+   "url": "https://github.com/kubernetes/kubernetes/issues/112168",
+   "labels": [
+    "kind/bug",
+    "sig/api-machinery",
+    "help wanted",
+    "triage/accepted"
+   ],
+   "updatedAt": "2026-07-08T12:48:29Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #140316 by @lubingtan is already open against this issue",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/140316"
+   ]
+  },
+  {
+   "number": 112733,
+   "title": "Node lifecycle controller does not `markPodsNotReady` when the node `Ready` state changes from `false` to `unknown`",
+   "url": "https://github.com/kubernetes/kubernetes/issues/112733",
+   "labels": [
+    "kind/bug",
+    "sig/node",
+    "help wanted",
+    "good first issue",
+    "triage/accepted"
+   ],
+   "updatedAt": "2026-10-06T07:53:17Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "already assigned to @ngpayyappilly, @answer1991, @yylt, @akankshakumari393, @neoLsH, @ch0wdreN, @chiru0631, @kpdagrt22",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/issues/112733",
+    "https://github.com/kubernetes/kubernetes/issues/112733#issuecomment-2746332305"
+   ]
+  },
+  {
+   "number": 113243,
+   "title": "Crash in TestGetContainerOOMScoreAdjust",
+   "url": "https://github.com/kubernetes/kubernetes/issues/113243",
+   "labels": [
+    "kind/bug",
+    "sig/node",
+    "help wanted",
+    "priority/important-longterm",
+    "kind/failing-test",
+    "triage/accepted"
+   ],
+   "updatedAt": "2026-10-09T07:59:55Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #142862 by @back1ash is already open against this issue",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/142862"
+   ]
+  },
+  {
+   "number": 113401,
+   "title": "Should the KCM have a heartbeat (or should the APIServer be more proactive about disruptive extensions) ?",
+   "url": "https://github.com/kubernetes/kubernetes/issues/113401",
+   "labels": [
+    "area/apiserver",
+    "sig/api-machinery",
+    "kind/feature",
+    "help wanted",
+    "lifecycle/stale",
+    "triage/accepted"
+   ],
+   "updatedAt": "2025-03-23T05:44:11Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "labelled `lifecycle/stale` — scope may not be settled yet (+2 more)",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/issues/113401",
+    "https://github.com/kubernetes/kubernetes/blob/HEAD/README.md",
+    "https://docs.docker.com/engine",
+    "https://github.com/kubernetes/kubernetes/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/kubernetes/kubernetes/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 113773,
+   "title": "applyconfiguration: support conversion to corresponding type",
+   "url": "https://github.com/kubernetes/kubernetes/issues/113773",
+   "labels": [
+    "sig/api-machinery",
+    "kind/feature",
+    "help wanted",
+    "triage/accepted"
+   ],
+   "updatedAt": "2025-12-14T10:21:03Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "already assigned to @seans3",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/111023",
+    "https://github.com/kubernetes/kubernetes/issues/113773"
+   ]
+  },
+  {
+   "number": 114369,
+   "title": "NetworkPolicy tests for blocking north/south traffic",
+   "url": "https://github.com/kubernetes/kubernetes/issues/114369",
+   "labels": [
+    "priority/backlog",
+    "sig/network",
+    "help wanted",
+    "good first issue",
+    "triage/accepted",
+    "area/network-policy"
+   ],
+   "updatedAt": "2026-07-15T05:24:13Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #138630 by @jiteshkumardj is already open against this issue",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/138630"
+   ]
+  },
+  {
+   "number": 115782,
+   "title": "Write the stress test for gRPC, http, and tcp probes",
+   "url": "https://github.com/kubernetes/kubernetes/issues/115782",
+   "labels": [
+    "priority/backlog",
+    "kind/cleanup",
+    "sig/node",
+    "help wanted",
+    "good first issue",
+    "needs-triage"
+   ],
+   "updatedAt": "2026-10-23T05:28:29Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "already assigned to @lanycrost, @prateekaryyan, @hrishikeshdkakkad, @zhengkezhou1, @codeserra, @alok1929, @clementbolin, @Octopusjust, @ashutosh887, @whitebeard10",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/135689",
+    "https://github.com/kubernetes/kubernetes/issues/115782",
+    "https://github.com/kubernetes/kubernetes/issues/115782#issuecomment-6358125761",
+    "https://github.com/kubernetes/kubernetes/issues/115782#issuecomment-5874666193"
+   ]
+  },
+  {
+   "number": 115823,
+   "title": "Give an indication in container events for probe failure as to whether the failure was ignored due to FailureThreshold",
+   "url": "https://github.com/kubernetes/kubernetes/issues/115823",
+   "labels": [
+    "priority/backlog",
+    "kind/documentation",
+    "kind/cleanup",
+    "sig/node",
+    "help wanted",
+    "good first issue",
+    "triage/accepted"
+   ],
+   "updatedAt": "2026-10-23T05:30:34Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #135401 by @Maxim-Durand is already open against this issue",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/135401",
+    "https://github.com/kubernetes/kubernetes/pull/138339",
+    "https://github.com/kubernetes/kubernetes/pull/141531",
+    "https://github.com/kubernetes/kubernetes/pull/142800"
+   ]
+  },
+  {
+   "number": 117167,
+   "title": "Monitoring gaps in apiserver extension mechanisms",
+   "url": "https://github.com/kubernetes/kubernetes/issues/117167",
+   "labels": [
+    "sig/scalability",
+    "sig/api-machinery",
+    "kind/feature",
+    "sig/auth",
+    "help wanted",
+    "sig/instrumentation",
+    "triage/accepted"
+   ],
+   "updatedAt": "2025-09-18T16:44:45Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "already assigned to @s-urbaniak, @cchapla, @HirazawaUi, @rayowang, @iyear",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/116420",
+    "https://github.com/kubernetes/kubernetes/pull/117211",
+    "https://github.com/kubernetes/kubernetes/pull/117222",
+    "https://github.com/kubernetes/kubernetes/pull/118292",
+    "https://github.com/kubernetes/kubernetes/pull/118542",
+    "https://github.com/kubernetes/kubernetes/issues/117167",
+    "https://github.com/kubernetes/kubernetes/issues/117167#issuecomment-1501098946"
+   ]
+  },
+  {
+   "number": 117789,
+   "title": "Crash in fetchGroupVersionResources",
+   "url": "https://github.com/kubernetes/kubernetes/issues/117789",
+   "labels": [
+    "kind/bug",
+    "sig/api-machinery",
+    "help wanted",
+    "triage/accepted"
+   ],
+   "updatedAt": "2025-09-01T01:55:18Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "already assigned to @husnialhamdani",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/issues/117789"
+   ]
+  },
+  {
+   "number": 118172,
+   "title": "kubelet parameter(eviction-max-pod-grace-period ), not work as expected like officical comment.",
+   "url": "https://github.com/kubernetes/kubernetes/issues/118172",
+   "labels": [
+    "kind/bug",
+    "priority/backlog",
+    "kind/documentation",
+    "sig/node",
+    "help wanted",
+    "priority/important-longterm",
+    "good first issue",
+    "triage/accepted"
+   ],
+   "updatedAt": "2026-11-10T14:53:04Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "already assigned to @nimdrak, @fgksgf, @ArpanSolanki29, @neoLsH, @AnthonySchool, @anneheartrecord, @Prabhudatta3004, @hossamasr, @fabianimv, @Hariharanpugazh",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/fabianimv/kubernetes/pull/1",
+    "https://github.com/kubernetes/website/pull/51840",
+    "https://github.com/kubernetes/kubernetes/issues/118172"
+   ]
+  },
+  {
+   "number": 118360,
+   "title": "Removal of intree storage plugin is causing us to lose important test coverage",
+   "url": "https://github.com/kubernetes/kubernetes/issues/118360",
+   "labels": [
+    "kind/bug",
+    "sig/storage",
+    "kind/api-change",
+    "help wanted",
+    "needs-triage"
+   ],
+   "updatedAt": "2026-06-26T20:11:14Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "already assigned to @darshansreenivas",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/issues/118360"
+   ]
+  },
+  {
+   "number": 118407,
+   "title": "Support a list of AppProtocols",
+   "url": "https://github.com/kubernetes/kubernetes/issues/118407",
+   "labels": [
+    "priority/backlog",
+    "sig/network",
+    "kind/feature",
+    "help wanted",
+    "triage/accepted"
+   ],
+   "updatedAt": "2025-12-12T18:23:46Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "already assigned to @robscott",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes-sigs/gateway-api/pull/2495",
+    "https://github.com/envoyproxy/gateway/pull/3063",
+    "https://github.com/kubernetes/kubernetes/issues/118407"
+   ]
+  },
+  {
+   "number": 119047,
+   "title": "rewrite TestUnderTemporaryNetworkFailure to use nftables",
+   "url": "https://github.com/kubernetes/kubernetes/issues/119047",
+   "labels": [
+    "sig/network",
+    "help wanted",
+    "triage/accepted"
+   ],
+   "updatedAt": "2026-02-12T13:33:50Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "already assigned to @mansi1597, @sadB0nk, @arvchahal",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/enhancements/pull/3824",
+    "https://github.com/kubernetes/kubernetes/pull/136961",
+    "https://github.com/kubernetes/kubernetes/issues/119047",
+    "https://github.com/kubernetes/kubernetes/issues/119047#issuecomment-1626869298"
+   ]
+  },
+  {
+   "number": 120677,
+   "title": "Test Audit policy using original (non-impersonated) user for filtering",
+   "url": "https://github.com/kubernetes/kubernetes/issues/120677",
+   "labels": [
+    "sig/auth",
+    "help wanted",
+    "triage/accepted"
+   ],
+   "updatedAt": "2026-11-01T09:37:36Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #143670 by @lyelgate is already open against this issue",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/143670"
+   ]
+  },
+  {
+   "number": 121432,
+   "title": "Cleanup: validation errors which are conditional on another field",
+   "url": "https://github.com/kubernetes/kubernetes/issues/121432",
+   "labels": [
+    "help wanted",
+    "sig/docs",
+    "sig/architecture",
+    "needs-triage"
+   ],
+   "updatedAt": "2025-06-25T19:05:56Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "already assigned to @kaslin",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/issues/121432",
+    "https://github.com/kubernetes/kubernetes/issues/121432#issuecomment-1944266748"
+   ]
+  },
+  {
+   "number": 121641,
+   "title": "CRD API can accept invalid spec that later the naming controller fails to reconcile",
+   "url": "https://github.com/kubernetes/kubernetes/issues/121641",
+   "labels": [
+    "kind/bug",
+    "sig/api-machinery",
+    "help wanted",
+    "triage/accepted"
+   ],
+   "updatedAt": "2026-10-06T11:40:01Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #137026 by @4RH1T3CT0R7 is already open against this issue",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/137026",
+    "https://github.com/kubernetes/kubernetes/pull/143199"
+   ]
+  },
+  {
+   "number": 121937,
+   "title": "globalmount path will be residual when kubelet restarts",
+   "url": "https://github.com/kubernetes/kubernetes/issues/121937",
+   "labels": [
+    "kind/bug",
+    "sig/storage",
+    "help wanted",
+    "triage/accepted"
+   ],
+   "updatedAt": "2026-03-12T14:04:39Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #136771 by @shivamwayal37 is already open against this issue",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/136771",
+    "https://github.com/kubernetes/kubernetes/pull/123442",
+    "https://github.com/kubernetes/enhancements/pull/6059",
+    "https://github.com/kubernetes/kubernetes/pull/138454"
+   ]
+  },
+  {
+   "number": 123201,
+   "title": "Add jitter/randomness to pod restart exponential backoffs (for pods in CrashLoopBackoff)",
+   "url": "https://github.com/kubernetes/kubernetes/issues/123201",
+   "labels": [
+    "sig/node",
+    "kind/feature",
+    "help wanted",
+    "needs-triage"
+   ],
+   "updatedAt": "2025-09-16T23:39:55Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "already assigned to @lauralorenz",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/issues/123201"
+   ]
+  },
+  {
+   "number": 124435,
+   "title": "Provide Zip archive for downloads of Windows binaries",
+   "url": "https://github.com/kubernetes/kubernetes/issues/124435",
+   "labels": [
+    "kind/feature",
+    "area/release-eng",
+    "help wanted",
+    "sig/release",
+    "triage/accepted"
+   ],
+   "updatedAt": "2026-07-16T02:05:26Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #140619 by @mdabydeen is already open against this issue",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/140619"
+   ]
+  },
+  {
+   "number": 125191,
+   "title": "The APIServer memory usage is high.",
+   "url": "https://github.com/kubernetes/kubernetes/issues/125191",
+   "labels": [
+    "kind/bug",
+    "sig/scalability",
+    "sig/api-machinery",
+    "help wanted",
+    "triage/accepted"
+   ],
+   "updatedAt": "2025-03-31T14:38:52Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "already assigned to @hrishikeshdkakkad",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/issues/125191",
+    "https://github.com/kubernetes/kubernetes/issues/125191#issuecomment-2766452962"
+   ]
+  },
+  {
+   "number": 125469,
+   "title": "Optimize Pod informer memory efficiency used in admission plugins",
+   "url": "https://github.com/kubernetes/kubernetes/issues/125469",
+   "labels": [
+    "priority/awaiting-more-evidence",
+    "sig/node",
+    "sig/api-machinery",
+    "kind/feature",
+    "help wanted",
+    "triage/accepted"
+   ],
+   "updatedAt": "2026-10-10T16:42:20Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "PR #140803 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+3 more)",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/140803",
+    "https://github.com/kubernetes/kubernetes/issues/125469#issuecomment-5676296308",
+    "https://github.com/kubernetes/kubernetes/issues/125469",
+    "https://github.com/kubernetes/kubernetes/blob/HEAD/README.md",
+    "https://docs.docker.com/engine",
+    "https://github.com/kubernetes/kubernetes/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/kubernetes/kubernetes/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 127157,
+   "title": "Unclear with Container garbage collection configuration",
+   "url": "https://github.com/kubernetes/kubernetes/issues/127157",
+   "labels": [
+    "area/kubelet",
+    "kind/documentation",
+    "sig/node",
+    "help wanted",
+    "priority/important-longterm",
+    "needs-kind",
+    "triage/accepted"
+   ],
+   "updatedAt": "2026-10-06T07:53:39Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "already assigned to @zhifei92, @kpdagrt22",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/issues/127157"
+   ]
+  },
+  {
+   "number": 127264,
+   "title": "kube api audit log to a file",
+   "url": "https://github.com/kubernetes/kubernetes/issues/127264",
+   "labels": [
+    "kind/bug",
+    "kind/support",
+    "sig/api-machinery",
+    "help wanted",
+    "triage/accepted"
+   ],
+   "updatedAt": "2026-01-22T09:36:57Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.docker.com/engine) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/issues/127264",
+    "https://github.com/kubernetes/kubernetes/blob/HEAD/README.md",
+    "https://docs.docker.com/engine",
+    "https://github.com/kubernetes/kubernetes/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/kubernetes/kubernetes/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 128167,
+   "title": "Recreate the Device Manager gRPC server if failed",
+   "url": "https://github.com/kubernetes/kubernetes/issues/128167",
+   "labels": [
+    "priority/backlog",
+    "area/kubelet",
+    "sig/node",
+    "kind/feature",
+    "help wanted",
+    "triage/accepted"
+   ],
+   "updatedAt": "2025-10-14T00:54:24Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "already assigned to @tunedev, @zhifei92",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/125513",
+    "https://github.com/kubernetes/kubernetes/pull/128432",
+    "https://github.com/kubernetes/kubernetes/pull/135153",
+    "https://github.com/kubernetes/kubernetes/issues/128167",
+    "https://github.com/kubernetes/kubernetes/issues/128167#issuecomment-2440664853"
+   ]
+  },
+  {
+   "number": 129705,
+   "title": " ListWatch: StreamWatcher is consuming high memory in high pod churn",
+   "url": "https://github.com/kubernetes/kubernetes/issues/129705",
+   "labels": [
+    "sig/scalability",
+    "help wanted",
+    "needs-triage"
+   ],
+   "updatedAt": "2026-09-28T06:49:55Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #140930 by @ashishpatel26 is already open against this issue",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/140930"
+   ]
+  },
+  {
+   "number": 130069,
+   "title": "Migrate Kubelet codebase to contextual logging",
+   "url": "https://github.com/kubernetes/kubernetes/issues/130069",
+   "labels": [
+    "area/logging",
+    "sig/node",
+    "kind/feature",
+    "help wanted",
+    "sig/instrumentation",
+    "priority/important-longterm",
+    "triage/accepted"
+   ],
+   "updatedAt": "2026-10-26T11:31:29Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "already assigned to @zhifei92",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/129942",
+    "https://github.com/kubernetes/kubernetes/pull/125912",
+    "https://github.com/kubernetes/kubernetes/pull/130154",
+    "https://github.com/kubernetes/kubernetes/pull/130157",
+    "https://github.com/kubernetes/kubernetes/pull/130213",
+    "https://github.com/kubernetes/kubernetes/pull/130237",
+    "https://github.com/kubernetes/kubernetes/pull/130270",
+    "https://github.com/kubernetes/kubernetes/pull/130273",
+    "https://github.com/kubernetes/kubernetes/pull/130376"
+   ]
+  },
+  {
+   "number": 130169,
+   "title": "Implement missing LIST benchmarks",
+   "url": "https://github.com/kubernetes/kubernetes/issues/130169",
+   "labels": [
+    "sig/api-machinery",
+    "kind/feature",
+    "help wanted",
+    "triage/accepted"
+   ],
+   "updatedAt": "2026-06-25T07:36:40Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "already assigned to @yuminn-k",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/test-infra/pull/37036",
+    "https://github.com/kubernetes/perf-tests/pull/4059",
+    "https://github.com/kubernetes/test-infra/pull/37063",
+    "https://github.com/kubernetes/test-infra/pull/37268",
+    "https://github.com/kubernetes/perf-tests/pull/4143",
+    "https://github.com/kubernetes/kubernetes/issues/130169",
+    "https://github.com/kubernetes/kubernetes/issues/130169#issuecomment-4796787005"
+   ]
+  },
+  {
+   "number": 130407,
+   "title": "Remove usage of assertion libraries in pkg/scheduler tests",
+   "url": "https://github.com/kubernetes/kubernetes/issues/130407",
+   "labels": [
+    "kind/cleanup",
+    "sig/scheduling",
+    "help wanted",
+    "needs-triage"
+   ],
+   "updatedAt": "2026-05-27T23:53:13Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #139337 by @virajchogle is already open against this issue",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/139337",
+    "https://github.com/kubernetes/kubernetes/pull/140176"
+   ]
+  },
+  {
+   "number": 130791,
+   "title": "Automate away duplication of defaulting in Fuzzer Funcs",
+   "url": "https://github.com/kubernetes/kubernetes/issues/130791",
+   "labels": [
+    "sig/api-machinery",
+    "help wanted",
+    "triage/accepted"
+   ],
+   "updatedAt": "2025-12-09T10:08:52Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "already assigned to @dap0am",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/130725",
+    "https://github.com/kubernetes/kubernetes/issues/130791"
+   ]
+  },
+  {
+   "number": 130869,
+   "title": "Stabilize benchmark list by limiting QPS",
+   "url": "https://github.com/kubernetes/kubernetes/issues/130869",
+   "labels": [
+    "sig/scalability",
+    "sig/api-machinery",
+    "kind/feature",
+    "help wanted",
+    "triage/accepted"
+   ],
+   "updatedAt": "2025-05-26T15:56:56Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "already assigned to @fuweid",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/issues/130869"
+   ]
+  },
+  {
+   "number": 130926,
+   "title": "Explore user network namespace for rootless network testing",
+   "url": "https://github.com/kubernetes/kubernetes/issues/130926",
+   "labels": [
+    "sig/network",
+    "help wanted",
+    "sig/testing",
+    "triage/accepted"
+   ],
+   "updatedAt": "2026-05-18T13:26:37Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #143402 by @Kartavyasonar is already open against this issue",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/143402",
+    "https://github.com/kubernetes/kubernetes/pull/138993"
+   ]
+  },
+  {
+   "number": 130975,
+   "title": "k8s.io/apiserver/pkg/registry/generic/testing: store objects with defaults applied",
+   "url": "https://github.com/kubernetes/kubernetes/issues/130975",
+   "labels": [
+    "kind/bug",
+    "sig/api-machinery",
+    "help wanted",
+    "triage/accepted"
+   ],
+   "updatedAt": "2025-05-15T20:16:22Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #140700 by @prathamesh04 is already open against this issue",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/140700",
+    "https://github.com/kubernetes/kubernetes/pull/130970",
+    "https://github.com/aws-samples/appmod-blueprints/pull/1043"
+   ]
+  },
+  {
+   "number": 131049,
+   "title": "Tag Slow e2e tests correctly",
+   "url": "https://github.com/kubernetes/kubernetes/issues/131049",
+   "labels": [
+    "help wanted",
+    "sig/testing",
+    "needs-triage"
+   ],
+   "updatedAt": "2026-08-02T19:25:47Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #141101 by @tancheng33 is already open against this issue",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/141101",
+    "https://github.com/kubernetes/kubernetes/pull/141123",
+    "https://github.com/kubernetes/kubernetes/pull/141124",
+    "https://github.com/kubernetes/kubernetes/pull/140873",
+    "https://github.com/kubernetes/kubernetes/pull/141096"
+   ]
+  },
+  {
+   "number": 131885,
+   "title": "Implement checking apiserver memory limit below threshold in list benchmarks",
+   "url": "https://github.com/kubernetes/kubernetes/issues/131885",
+   "labels": [
+    "sig/api-machinery",
+    "kind/feature",
+    "help wanted",
+    "triage/accepted"
+   ],
+   "updatedAt": "2026-01-19T05:15:04Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "already assigned to @arshadd-b",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/perf-tests/pull/3574",
+    "https://github.com/kubernetes/perf-tests/pull/3624",
+    "https://github.com/kubernetes/kubernetes/issues/131885"
+   ]
+  },
+  {
+   "number": 132195,
+   "title": "API can be streamlined: assume same key for some `EnvVarSource`",
+   "url": "https://github.com/kubernetes/kubernetes/issues/132195",
+   "labels": [
+    "priority/backlog",
+    "area/api",
+    "sig/node",
+    "kind/feature",
+    "help wanted",
+    "needs-triage"
+   ],
+   "updatedAt": "2026-10-13T17:55:52Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #142992 by @Samyra312007 is already open against this issue",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/142992"
+   ]
+  },
+  {
+   "number": 132298,
+   "title": "Clean up circular dependencies around the kubelet's admitHandlers and the container runtime",
+   "url": "https://github.com/kubernetes/kubernetes/issues/132298",
+   "labels": [
+    "kind/cleanup",
+    "sig/node",
+    "help wanted",
+    "priority/important-longterm",
+    "triage/accepted"
+   ],
+   "updatedAt": "2025-09-11T17:58:07Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "already assigned to @vekarpov, @nimdrak, @ylink-lfs, @zhifei92, @coconutLatte, @Rony-2004, @ninglonglong",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/132344",
+    "https://github.com/kubernetes/kubernetes/pull/132346",
+    "https://github.com/kubernetes/kubernetes/pull/133428",
+    "https://github.com/kubernetes/kubernetes/issues/132298",
+    "https://github.com/kubernetes/kubernetes/issues/132298#issuecomment-3069167771"
+   ]
+  },
+  {
+   "number": 132858,
+   "title": "Cache NodeInfo for Kubelet admission",
+   "url": "https://github.com/kubernetes/kubernetes/issues/132858",
+   "labels": [
+    "kind/cleanup",
+    "sig/node",
+    "help wanted",
+    "triage/accepted"
+   ],
+   "updatedAt": "2026-01-12T16:58:13Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "already assigned to @aalpar, @hasan4791, @oyiz-michael",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/issues/132858"
+   ]
+  },
+  {
+   "number": 133326,
+   "title": "skiped e2e test for PodResources API",
+   "url": "https://github.com/kubernetes/kubernetes/issues/133326",
+   "labels": [
+    "area/test",
+    "kind/cleanup",
+    "sig/node",
+    "help wanted",
+    "priority/important-longterm",
+    "triage/accepted"
+   ],
+   "updatedAt": "2026-10-09T10:03:06Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "already assigned to @Adarsh-Me",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/136602",
+    "https://github.com/kubernetes/enhancements/pull/5875",
+    "https://github.com/kubernetes/kubernetes/issues/133326"
+   ]
+  },
+  {
+   "number": 133538,
+   "title": "[FG:InPlacePodVerticalScaling] Investigate recovery from failure when setting allocated resources",
+   "url": "https://github.com/kubernetes/kubernetes/issues/133538",
+   "labels": [
+    "priority/backlog",
+    "sig/node",
+    "help wanted",
+    "triage/accepted"
+   ],
+   "updatedAt": "2025-08-27T00:24:24Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #140929 by @ashishpatel26 is already open against this issue",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/140929"
+   ]
+  },
+  {
+   "number": 133877,
+   "title": "Prevent duplicate initializations of cache and etcd store",
+   "url": "https://github.com/kubernetes/kubernetes/issues/133877",
+   "labels": [
+    "kind/bug",
+    "sig/api-machinery",
+    "help wanted",
+    "triage/accepted"
+   ],
+   "updatedAt": "2026-10-24T07:44:46Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #143372 by @datayurei is already open against this issue",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/143372",
+    "https://github.com/kubernetes/kubernetes/pull/134860",
+    "https://github.com/kubernetes/kubernetes/pull/141535",
+    "https://github.com/kubernetes/kubernetes/pull/141892"
+   ]
+  },
+  {
+   "number": 134025,
+   "title": "Add Verbose Logging to net/http for Egress Auditing and Rename probe/http/http.go",
+   "url": "https://github.com/kubernetes/kubernetes/issues/134025",
+   "labels": [
+    "priority/backlog",
+    "sig/node",
+    "kind/feature",
+    "help wanted",
+    "sig/instrumentation",
+    "triage/accepted"
+   ],
+   "updatedAt": "2026-02-12T00:03:46Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #137033 by @machichima is already open against this issue",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/137033"
+   ]
+  },
+  {
+   "number": 134172,
+   "title": "Clean up features for SIG Node e2e tests",
+   "url": "https://github.com/kubernetes/kubernetes/issues/134172",
+   "labels": [
+    "area/test",
+    "kind/cleanup",
+    "sig/node",
+    "help wanted",
+    "priority/important-longterm",
+    "triage/accepted"
+   ],
+   "updatedAt": "2026-10-20T14:32:19Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "already assigned to @arjunksofficial",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/134303",
+    "https://github.com/kubernetes/test-infra/pull/35613",
+    "https://github.com/kubernetes/kubernetes/pull/134918",
+    "https://github.com/kubernetes/test-infra/pull/35789",
+    "https://github.com/kubernetes/kubernetes/pull/134924",
+    "https://github.com/kubernetes/test-infra/pull/35791",
+    "https://github.com/kubernetes/kubernetes/pull/134948",
+    "https://github.com/kubernetes/kubernetes/pull/135973",
+    "https://github.com/kubernetes/kubernetes/pull/142888"
+   ]
+  },
+  {
+   "number": 134458,
+   "title": "[Flaking test] [InPlacePodVerticalScaling] Pod Resize deferred tests are flaking",
+   "url": "https://github.com/kubernetes/kubernetes/issues/134458",
+   "labels": [
+    "sig/node",
+    "help wanted",
+    "priority/important-longterm",
+    "triage/accepted"
+   ],
+   "updatedAt": "2026-08-28T22:16:32Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #2620 by @haircommander is already open against this issue",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/openshift/kubernetes/pull/2620",
+    "https://github.com/kubernetes/kubernetes/pull/143684",
+    "https://github.com/kubernetes/kubernetes/pull/134950",
+    "https://github.com/kubernetes/kubernetes/pull/141662"
+   ]
+  },
+  {
+   "number": 134671,
+   "title": "Tracking: Enable Kube-API-Linter rules",
+   "url": "https://github.com/kubernetes/kubernetes/issues/134671",
+   "labels": [
+    "sig/api-machinery",
+    "help wanted",
+    "sig/architecture",
+    "triage/accepted"
+   ],
+   "updatedAt": "2026-09-23T01:16:14Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "already assigned to @krishhna24",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/134675",
+    "https://github.com/kubernetes/kubernetes/pull/134680",
+    "https://github.com/kubernetes/kubernetes/pull/134681",
+    "https://github.com/kubernetes/kubernetes/pull/134734",
+    "https://github.com/kubernetes/kubernetes/pull/134830",
+    "https://github.com/kubernetes/kubernetes/pull/134852",
+    "https://github.com/kubernetes/kubernetes/pull/134867",
+    "https://github.com/kubernetes/kubernetes/pull/134904",
+    "https://github.com/kubernetes/kubernetes/pull/134925"
+   ]
+  },
+  {
+   "number": 134799,
+   "title": "Add e2e test for probes using ContainerRestartRules",
+   "url": "https://github.com/kubernetes/kubernetes/issues/134799",
+   "labels": [
+    "area/test",
+    "priority/backlog",
+    "kind/cleanup",
+    "sig/node",
+    "help wanted",
+    "triage/accepted"
+   ],
+   "updatedAt": "2026-10-07T18:09:24Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #143425 by @OdedShimoni is already open against this issue",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/143425",
+    "https://github.com/kubernetes/kubernetes/pull/134631"
+   ]
+  },
+  {
+   "number": 134862,
+   "title": "Make sig-node CI test coverage adhere to defined guidance",
+   "url": "https://github.com/kubernetes/kubernetes/issues/134862",
+   "labels": [
+    "priority/backlog",
+    "sig/node",
+    "help wanted",
+    "sig/testing",
+    "triage/accepted"
+   ],
+   "updatedAt": "2026-10-09T12:24:26Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "already assigned to @Adarsh-Me",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/issues/134862"
+   ]
+  },
+  {
+   "number": 135752,
+   "title": "Migrate \"Good First Migration\" Required Fields to Declarative Validation",
+   "url": "https://github.com/kubernetes/kubernetes/issues/135752",
+   "labels": [
+    "sig/api-machinery",
+    "kind/feature",
+    "help wanted",
+    "triage/accepted",
+    "area/api-validation"
+   ],
+   "updatedAt": "2026-08-02T23:24:18Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #136632 by @darshansreenivas is already open against this issue",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/136632",
+    "https://github.com/kubernetes/kubernetes/pull/138308",
+    "https://github.com/kubernetes/kubernetes/pull/135763",
+    "https://github.com/kubernetes/kubernetes/pull/135761",
+    "https://github.com/kubernetes/kubernetes/pull/135412",
+    "https://github.com/kubernetes/kubernetes/pull/135951",
+    "https://github.com/kubernetes/kubernetes/pull/135050",
+    "https://github.com/kubernetes/kubernetes/pull/135715",
+    "https://github.com/kubernetes/kubernetes/pull/137030"
+   ]
+  },
+  {
+   "number": 136107,
+   "title": "Graduate old Alpha metrics to Beta",
+   "url": "https://github.com/kubernetes/kubernetes/issues/136107",
+   "labels": [
+    "kind/feature",
+    "help wanted",
+    "sig/instrumentation",
+    "triage/accepted"
+   ],
+   "updatedAt": "2026-10-23T05:37:45Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #137031 by @tico88612 is already open against this issue",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/137031",
+    "https://github.com/kubernetes/kubernetes/pull/138913",
+    "https://github.com/kubernetes/kubernetes/pull/136154",
+    "https://github.com/kubernetes/kubernetes/pull/136155",
+    "https://github.com/kubernetes/kubernetes/pull/136189",
+    "https://github.com/kubernetes/kubernetes/pull/138176",
+    "https://github.com/kubernetes/kubernetes/pull/140447"
+   ]
+  },
+  {
+   "number": 136114,
+   "title": "[Failing Test] [SIG-node] periodic-node-feature-discovery-e2e-test-master.Overall",
+   "url": "https://github.com/kubernetes/kubernetes/issues/136114",
+   "labels": [
+    "priority/important-soon",
+    "sig/node",
+    "help wanted",
+    "kind/failing-test",
+    "triage/accepted"
+   ],
+   "updatedAt": "2026-10-15T17:38:02Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "PR #185 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+3 more)",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/laclance/OSSOpportunityScout/pull/185",
+    "https://github.com/kubernetes-sigs/node-feature-discovery/pull/2555",
+    "https://github.com/kubernetes/kubernetes/issues/136114",
+    "https://github.com/kubernetes/kubernetes/blob/HEAD/README.md",
+    "https://docs.docker.com/engine",
+    "https://github.com/kubernetes/kubernetes/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/kubernetes/kubernetes/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 136120,
+   "title": "Pod-level limits defaults not set when all containers have limits set and pod-level request is set",
+   "url": "https://github.com/kubernetes/kubernetes/issues/136120",
+   "labels": [
+    "kind/bug",
+    "sig/node",
+    "help wanted",
+    "triage/accepted"
+   ],
+   "updatedAt": "2026-10-17T09:44:08Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #138474 by @isumitsolanki is already open against this issue",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/138474",
+    "https://github.com/kubernetes/enhancements/pull/5844",
+    "https://github.com/kubernetes/kubernetes/pull/139762",
+    "https://github.com/kubernetes/kubernetes/pull/140514"
+   ]
+  },
+  {
+   "number": 136304,
+   "title": "Graduate apiserver metrics to BETA",
+   "url": "https://github.com/kubernetes/kubernetes/issues/136304",
+   "labels": [
+    "sig/api-machinery",
+    "help wanted",
+    "sig/instrumentation",
+    "triage/accepted"
+   ],
+   "updatedAt": "2026-10-26T04:08:04Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #137031 by @tico88612 is already open against this issue",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/137031",
+    "https://github.com/kubernetes/kubernetes/pull/137505",
+    "https://github.com/kubernetes/kubernetes/pull/137506",
+    "https://github.com/kubernetes/kubernetes/pull/137509",
+    "https://github.com/kubernetes/kubernetes/pull/137515",
+    "https://github.com/kubernetes/kubernetes/pull/143570",
+    "https://github.com/kubernetes/kubernetes/pull/136894",
+    "https://github.com/kubernetes/kubernetes/pull/137116",
+    "https://github.com/kubernetes/kubernetes/pull/141161"
+   ]
+  },
+  {
+   "number": 136785,
+   "title": "Migrate 'Good First Migration' Immutable Fields to Declarative Validation",
+   "url": "https://github.com/kubernetes/kubernetes/issues/136785",
+   "labels": [
+    "sig/api-machinery",
+    "help wanted",
+    "triage/accepted",
+    "area/api-validation"
+   ],
+   "updatedAt": "2026-10-10T00:27:19Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #136811 by @itzPranshul is already open against this issue",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/136811",
+    "https://github.com/kubernetes/kubernetes/pull/136974",
+    "https://github.com/kubernetes/kubernetes/pull/138078",
+    "https://github.com/kubernetes/kubernetes/pull/138081",
+    "https://github.com/kubernetes/kubernetes/pull/136822",
+    "https://github.com/kubernetes/kubernetes/pull/136886",
+    "https://github.com/kubernetes/kubernetes/pull/137095",
+    "https://github.com/kubernetes/kubernetes/pull/137982",
+    "https://github.com/kubernetes/kubernetes/pull/138080"
+   ]
+  },
+  {
+   "number": 138085,
+   "title": "[Flaking Test] [sig-api-machinery] Simple CustomResourceDefinition creating/deleting custom resource definition objects works [Conformance]",
+   "url": "https://github.com/kubernetes/kubernetes/issues/138085",
+   "labels": [
+    "sig/api-machinery",
+    "kind/flake",
+    "help wanted",
+    "needs-triage"
+   ],
+   "updatedAt": "2026-03-28T17:24:57Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #138086 by @nicknikolakakis is already open against this issue",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/138086",
+    "https://github.com/dash0hq/dash0-operator/pull/1617"
+   ]
+  },
+  {
+   "number": 138149,
+   "title": "Migrate DRA components to support granular authorization on status updates",
+   "url": "https://github.com/kubernetes/kubernetes/issues/138149",
+   "labels": [
+    "sig/network",
+    "sig/node",
+    "sig/auth",
+    "help wanted",
+    "good first issue",
+    "triage/accepted",
+    "wg/device-management"
+   ],
+   "updatedAt": "2026-10-28T19:02:13Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #61 by @praveen0raj is already open against this issue",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ffromani/dra-driver-memory/pull/61",
+    "https://github.com/ffromani/dra-driver-integration-env/pull/1",
+    "https://github.com/ai-on-gke/common-infra/pull/15",
+    "https://github.com/loft-sh/vcluster/pull/3770",
+    "https://github.com/kubernetes-sigs/dra-driver-cpu/pull/105",
+    "https://github.com/jupyterhub/zero-to-jupyterhub-k8s/pull/3862",
+    "https://github.com/kubernetes-sigs/dranet/pull/126",
+    "https://github.com/Project-HAMi/k8s-dra-driver/pull/33",
+    "https://github.com/furiosa-ai/helm-charts/pull/37"
+   ]
+  },
+  {
+   "number": 138226,
+   "title": "[Flaking Test] [sig node] with swap stress LimitedSwap should be able to use more than the node memory capacity",
+   "url": "https://github.com/kubernetes/kubernetes/issues/138226",
+   "labels": [
+    "sig/node",
+    "kind/flake",
+    "help wanted",
+    "triage/accepted"
+   ],
+   "updatedAt": "2026-10-08T20:42:50Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #138248 by @isumitsolanki is already open against this issue",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/138248",
+    "https://github.com/kubernetes/kubernetes/pull/142850"
+   ]
+  },
+  {
+   "number": 138679,
+   "title": "[Flaking Test] TestEventSeries failing in pull-kubernetes-integration with timed out waiting for Event Series",
+   "url": "https://github.com/kubernetes/kubernetes/issues/138679",
+   "labels": [
+    "kind/flake",
+    "help wanted",
+    "sig/instrumentation",
+    "triage/accepted"
+   ],
+   "updatedAt": "2026-10-28T13:41:08Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #138782 by @nicknikolakakis is already open against this issue",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/138782",
+    "https://github.com/kubernetes/kubernetes/pull/142466",
+    "https://github.com/kubernetes/kubernetes/pull/136915",
+    "https://github.com/kubernetes/kubernetes/pull/141639",
+    "https://github.com/kubernetes/kubernetes/pull/143156"
+   ]
+  },
+  {
+   "number": 139328,
+   "title": "Investigate nftables startup performance at scale",
+   "url": "https://github.com/kubernetes/kubernetes/issues/139328",
+   "labels": [
+    "sig/network",
+    "area/kube-proxy",
+    "help wanted",
+    "triage/accepted"
+   ],
+   "updatedAt": "2026-06-04T16:10:30Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #144052 by @changren-wcr is already open against this issue",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/144052"
+   ]
+  },
+  {
+   "number": 139786,
+   "title": "[Flaking Test] [sig-network] Networking Granular Checks: Services should update nodePort: http [Slow]",
+   "url": "https://github.com/kubernetes/kubernetes/issues/139786",
+   "labels": [
+    "sig/network",
+    "kind/flake",
+    "help wanted",
+    "triage/accepted"
+   ],
+   "updatedAt": "2026-08-03T15:00:33Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #141370 by @haseebmalik18 is already open against this issue",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/141370",
+    "https://github.com/kubernetes/kubernetes/pull/140206"
+   ]
+  },
+  {
+   "number": 140489,
+   "title": "Add `[Feature:Networking-IPv6]` and `[Feature:SCTPConnectivity]` CI",
+   "url": "https://github.com/kubernetes/kubernetes/issues/140489",
+   "labels": [
+    "sig/network",
+    "help wanted",
+    "sig/testing",
+    "area/ipv6",
+    "triage/accepted",
+    "area/network-policy"
+   ],
+   "updatedAt": "2026-09-01T07:28:14Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "already assigned to @hiepnnguyentcu, @Hariharanpugazh",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/test-infra/pull/37507",
+    "https://github.com/kubernetes/kubernetes/issues/140489"
+   ]
+  },
+  {
+   "number": 140942,
+   "title": "Ensure Credential Pulled Images tests still flaking with \"pulled record ... never appeared\" after #138527/#138642 (kubelet-gce-e2e-swap-ubuntu-serial)",
+   "url": "https://github.com/kubernetes/kubernetes/issues/140942",
+   "labels": [
+    "sig/node",
+    "kind/flake",
+    "help wanted",
+    "priority/important-longterm",
+    "triage/accepted"
+   ],
+   "updatedAt": "2026-10-07T18:34:01Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #142801 by @sAchin-680 is already open against this issue",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/142801"
+   ]
+  },
+  {
+   "number": 140978,
+   "title": "No e2e coverage for readiness probes during graceful pod termination",
+   "url": "https://github.com/kubernetes/kubernetes/issues/140978",
+   "labels": [
+    "kind/bug",
+    "area/test",
+    "priority/backlog",
+    "area/kubelet",
+    "sig/node",
+    "help wanted",
+    "sig/testing",
+    "triage/accepted"
+   ],
+   "updatedAt": "2026-10-15T22:24:43Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #140980 by @karlkfi is already open against this issue",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/140980",
+    "https://github.com/kubernetes/kubernetes/pull/140882"
+   ]
+  },
+  {
+   "number": 141200,
+   "title": "[Flaking Test] [sig-node] [Feature:GPUDevicePlugin] Sanity test using nvidia-smi [Provider:aws,gce] should run nvidia-smi and cuda-demo-suite [Serial]",
+   "url": "https://github.com/kubernetes/kubernetes/issues/141200",
+   "labels": [
+    "sig/node",
+    "kind/flake",
+    "help wanted",
+    "priority/important-longterm",
+    "triage/accepted"
+   ],
+   "updatedAt": "2026-10-24T14:19:30Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "already assigned to @sAchin-680",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/142802",
+    "https://github.com/kubernetes/kubernetes/issues/141200"
+   ]
+  },
+  {
+   "number": 141819,
+   "title": "E2E testing: check for goroutine leaks",
+   "url": "https://github.com/kubernetes/kubernetes/issues/141819",
+   "labels": [
+    "kind/feature",
+    "help wanted",
+    "sig/testing",
+    "needs-triage"
+   ],
+   "updatedAt": "2026-09-07T06:33:10Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #141850 by @sandaruwijewardhana is already open against this issue",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/141850",
+    "https://github.com/kubernetes/kubernetes/pull/141955"
+   ]
+  },
+  {
+   "number": 142384,
+   "title": "`gsutil` will no longer be available from March 2027",
+   "url": "https://github.com/kubernetes/kubernetes/issues/142384",
+   "labels": [
+    "help wanted",
+    "sig/testing",
+    "sig/cloud-provider",
+    "triage/accepted"
+   ],
+   "updatedAt": "2026-10-02T07:40:56Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #142555 by @paniccaaa is already open against this issue",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/142555",
+    "https://github.com/kubernetes/kubernetes/pull/142600",
+    "https://github.com/kubernetes/kubernetes/pull/142558"
+   ]
+  },
+  {
+   "number": 142957,
+   "title": "Don't check featuregates directly in E2E tests",
+   "url": "https://github.com/kubernetes/kubernetes/issues/142957",
+   "labels": [
+    "kind/bug",
+    "help wanted",
+    "sig/testing",
+    "needs-triage"
+   ],
+   "updatedAt": "2026-10-16T17:45:57Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #142958 by @locker95 is already open against this issue",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/142958",
+    "https://github.com/kubernetes/kubernetes/pull/143112"
+   ]
+  },
+  {
+   "number": 143046,
+   "title": "[Flaking Test] [It] [sig-node] HugepageAwareMemoryReporting [Feature:HugePages] with feature gate enabled should subtract hugepage capacity from memory.available [Disruptive] [Serial] [Slow]",
+   "url": "https://github.com/kubernetes/kubernetes/issues/143046",
+   "labels": [
+    "sig/node",
+    "kind/flake",
+    "help wanted",
+    "priority/important-longterm",
+    "triage/accepted"
+   ],
+   "updatedAt": "2026-10-15T17:38:21Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #143072 by @nicknikolakakis is already open against this issue",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/143072"
+   ]
+  }
+ ]
+}

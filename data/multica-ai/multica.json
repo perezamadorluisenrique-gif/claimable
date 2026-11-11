@@ -1,0 +1,85 @@
+{
+ "owner": "multica-ai",
+ "repo": "multica",
+ "language": "Go",
+ "stars": 55562,
+ "description": "Make humans and AI agents work as one team — open-source and self-hostable.",
+ "visitedAt": "2026-11-11T15:17:00.117Z",
+ "issues": [
+  {
+   "number": 815,
+   "title": "Discussion: Multica still manages AI the way it manages people",
+   "url": "https://github.com/multica-ai/multica/issues/815",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2026-07-01T15:34:51Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #7110 by @ligl007 is already open against this issue",
+   "evidence": [
+    "https://github.com/multica-ai/multica/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/multica-ai/multica/issues/7110",
+    "https://github.com/multica-ai/multica/issues/1020",
+    "https://github.com/multica-ai/multica/issues/1216",
+    "https://github.com/multica-ai/multica/issues/6227",
+    "https://github.com/multica-ai/multica/issues/4804"
+   ]
+  },
+  {
+   "number": 1211,
+   "title": "Discussion: should team knowledge compound across agent runs the way skills do?",
+   "url": "https://github.com/multica-ai/multica/issues/1211",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2026-08-21T06:20:03Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #6620 by @caiyi6173-ship-it is already open against this issue",
+   "evidence": [
+    "https://github.com/multica-ai/multica/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/multica-ai/multica/issues/6620",
+    "https://github.com/multica-ai/multica/issues/7363",
+    "https://github.com/multica-ai/multica/issues/1824"
+   ]
+  },
+  {
+   "number": 1568,
+   "title": "[Feature]: autopilots 里 启动脚本监控5000端口 本地访问不到",
+   "url": "https://github.com/multica-ai/multica/issues/1568",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "question"
+   ],
+   "updatedAt": "2026-04-24T16:56:12Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #7272 by @muzi131313 is already open against this issue",
+   "evidence": [
+    "https://github.com/multica-ai/multica/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/multica-ai/multica/issues/7272",
+    "https://github.com/multica-ai/multica/issues/8153"
+   ]
+  },
+  {
+   "number": 6227,
+   "title": "Discussion: Should Multica be the unified SDLC standard, or an automation layer with fit criteria?",
+   "url": "https://github.com/multica-ai/multica/issues/6227",
+   "labels": [
+    "good first issue",
+    "question"
+   ],
+   "updatedAt": "2026-10-15T06:17:49Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #6861 by @kinpoe-ray is already open against this issue",
+   "evidence": [
+    "https://github.com/multica-ai/multica/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/multica-ai/multica/issues/6861"
+   ]
+  }
+ ]
+}

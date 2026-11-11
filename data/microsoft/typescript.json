@@ -1,0 +1,28 @@
+{
+ "owner": "microsoft",
+ "repo": "TypeScript",
+ "language": "Go",
+ "stars": 111871,
+ "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
+ "visitedAt": "2026-11-11T15:17:00.117Z",
+ "issues": [
+  {
+   "number": 65433,
+   "title": "Incorrect error message when ASI errors involve a nonstandard newline",
+   "url": "https://github.com/microsoft/TypeScript/issues/65433",
+   "labels": [
+    "Bug",
+    "Help Wanted",
+    "Good First Issue"
+   ],
+   "updatedAt": "2026-11-10T19:33:27Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "@akhil9tiet claimed it yesterday",
+   "evidence": [
+    "https://github.com/microsoft/TypeScript/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/TypeScript/issues/65433#issuecomment-6776359636"
+   ]
+  }
+ ]
+}

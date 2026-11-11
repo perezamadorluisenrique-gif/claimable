@@ -1,0 +1,278 @@
+{
+ "owner": "etcd-io",
+ "repo": "etcd",
+ "language": "Go",
+ "stars": 52688,
+ "description": "Distributed reliable key-value store for the most critical data of a distributed system",
+ "visitedAt": "2026-11-11T15:17:00.117Z",
+ "issues": [
+  {
+   "number": 10246,
+   "title": "Explicit client versioning",
+   "url": "https://github.com/etcd-io/etcd/issues/10246",
+   "labels": [
+    "help wanted",
+    "area/clientv3",
+    "stage/tracked"
+   ],
+   "updatedAt": "2026-02-26T20:25:40Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/etcd-io/etcd/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/etcd-io/etcd/issues/10246",
+    "https://github.com/etcd-io/etcd/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository"
+   ]
+  },
+  {
+   "number": 13637,
+   "title": "Unify testing framework",
+   "url": "https://github.com/etcd-io/etcd/issues/13637",
+   "labels": [
+    "help wanted",
+    "stage/tracked",
+    "contribfest"
+   ],
+   "updatedAt": "2026-11-10T14:23:38Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "PR #13651 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+17 more)",
+   "evidence": [
+    "https://github.com/etcd-io/etcd/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/etcd-io/etcd/pull/13651",
+    "https://github.com/etcd-io/etcd/pull/13708",
+    "https://github.com/etcd-io/etcd/pull/13770",
+    "https://github.com/etcd-io/etcd/pull/13774",
+    "https://github.com/etcd-io/etcd/pull/13820",
+    "https://github.com/etcd-io/etcd/pull/13823",
+    "https://github.com/etcd-io/etcd/pull/13819",
+    "https://github.com/etcd-io/etcd/pull/14000",
+    "https://github.com/etcd-io/etcd/pull/14020"
+   ]
+  },
+  {
+   "number": 16467,
+   "title": "Define an official performance validation suite for etcd",
+   "url": "https://github.com/etcd-io/etcd/issues/16467",
+   "labels": [
+    "area/performance",
+    "help wanted",
+    "type/feature",
+    "area/tooling",
+    "priority/important-soon"
+   ],
+   "updatedAt": "2026-09-07T09:45:14Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #21604 by @akstron is already open against this issue",
+   "evidence": [
+    "https://github.com/etcd-io/etcd/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/etcd-io/etcd/pull/21604",
+    "https://github.com/etcd-io/etcd/pull/16463",
+    "https://github.com/etcd-io/etcd/pull/16508",
+    "https://github.com/kubernetes/test-infra/pull/33425",
+    "https://github.com/kubernetes/perf-tests/pull/3592"
+   ]
+  },
+  {
+   "number": 17623,
+   "title": "The blocking nature of Concurrency API's campaign call makes it inconsistent with authentication token expiration",
+   "url": "https://github.com/etcd-io/etcd/issues/17623",
+   "labels": [
+    "type/bug",
+    "help wanted",
+    "stage/tracked"
+   ],
+   "updatedAt": "2026-08-12T02:47:08Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #3557 by @wangzy129 is already open against this issue",
+   "evidence": [
+    "https://github.com/etcd-io/etcd/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kvcache-ai/Mooncake/pull/3557"
+   ]
+  },
+  {
+   "number": 18055,
+   "title": "panic when two snapshots are received in short period",
+   "url": "https://github.com/etcd-io/etcd/issues/18055",
+   "labels": [
+    "type/bug",
+    "help wanted",
+    "stage/tracked",
+    "area/robustness-testing"
+   ],
+   "updatedAt": "2026-07-05T13:38:57Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #22046 by @darshil929 is already open against this issue",
+   "evidence": [
+    "https://github.com/etcd-io/etcd/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/etcd-io/etcd/pull/22046",
+    "https://github.com/cnuss/libetcd/pull/41"
+   ]
+  },
+  {
+   "number": 18879,
+   "title": "After a large number of watch connections are disconnected from a client at the same time, the new watch cannot work properly.",
+   "url": "https://github.com/etcd-io/etcd/issues/18879",
+   "labels": [
+    "type/bug",
+    "help wanted",
+    "priority/important-soon"
+   ],
+   "updatedAt": "2026-01-22T01:42:39Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #21065 by @zhijun42 is already open against this issue",
+   "evidence": [
+    "https://github.com/etcd-io/etcd/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/etcd-io/etcd/pull/21065"
+   ]
+  },
+  {
+   "number": 18983,
+   "title": "Reduce the time e2e tests take",
+   "url": "https://github.com/etcd-io/etcd/issues/18983",
+   "labels": [
+    "area/testing",
+    "help wanted",
+    "type/feature"
+   ],
+   "updatedAt": "2026-11-05T00:48:13Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "already assigned to @yagikota",
+   "evidence": [
+    "https://github.com/etcd-io/etcd/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/etcd-io/etcd/pull/19032",
+    "https://github.com/etcd-io/etcd/pull/20733",
+    "https://github.com/kubernetes/test-infra/pull/35628",
+    "https://github.com/etcd-io/etcd/issues/18983"
+   ]
+  },
+  {
+   "number": 19371,
+   "title": "Develop a caching library for etcd",
+   "url": "https://github.com/etcd-io/etcd/issues/19371",
+   "labels": [
+    "help wanted",
+    "type/feature",
+    "stage/triaged"
+   ],
+   "updatedAt": "2026-05-28T15:28:13Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "already assigned to @akstron",
+   "evidence": [
+    "https://github.com/etcd-io/etcd/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/cncf/mentoring/pull/1373",
+    "https://github.com/etcd-io/etcd/issues/19371",
+    "https://github.com/etcd-io/etcd/issues/19371#issuecomment-3617921984"
+   ]
+  },
+  {
+   "number": 19587,
+   "title": "Use bot to remove stage/triaged tag if no activity for a while",
+   "url": "https://github.com/etcd-io/etcd/issues/19587",
+   "labels": [
+    "help wanted",
+    "type/feature"
+   ],
+   "updatedAt": "2026-01-31T10:48:26Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "already assigned to @IAMRogerXi",
+   "evidence": [
+    "https://github.com/etcd-io/etcd/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/etcd-io/etcd/issues/19587",
+    "https://github.com/etcd-io/etcd/issues/19587#issuecomment-3828141354"
+   ]
+  },
+  {
+   "number": 19752,
+   "title": "websocket token report etcdserver: invalid auth token",
+   "url": "https://github.com/etcd-io/etcd/issues/19752",
+   "labels": [
+    "type/bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-06-09T13:43:38Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #19775 by @ali-a-a is already open against this issue",
+   "evidence": [
+    "https://github.com/etcd-io/etcd/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/etcd-io/etcd/pull/19775",
+    "https://github.com/etcd-io/etcd/pull/21910",
+    "https://github.com/etcd-io/etcd/pull/21929",
+    "https://github.com/etcd-io/etcd/pull/21935"
+   ]
+  },
+  {
+   "number": 20386,
+   "title": "Optimize Range WithKeysOnly to avoid loading values in memory",
+   "url": "https://github.com/etcd-io/etcd/issues/20386",
+   "labels": [
+    "area/performance",
+    "help wanted",
+    "type/feature",
+    "stage/triaged",
+    "priority/important-longterm"
+   ],
+   "updatedAt": "2026-05-27T18:26:48Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #21612 by @nwnt is already open against this issue",
+   "evidence": [
+    "https://github.com/etcd-io/etcd/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/etcd-io/etcd/pull/21612",
+    "https://github.com/etcd-io/etcd/pull/21061",
+    "https://github.com/etcd-io/etcd/pull/21173",
+    "https://github.com/etcd-io/etcd/pull/21177",
+    "https://github.com/etcd-io/etcd/pull/21790",
+    "https://github.com/etcd-io/etcd/pull/21791",
+    "https://github.com/etcd-io/etcd/pull/21833",
+    "https://github.com/etcd-io/etcd/pull/21834"
+   ]
+  },
+  {
+   "number": 20572,
+   "title": "[Antithesis] Migrate cluster setup to Kubernetes",
+   "url": "https://github.com/etcd-io/etcd/issues/20572",
+   "labels": [
+    "help wanted",
+    "type/feature"
+   ],
+   "updatedAt": "2026-03-28T10:14:24Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #21541 by @serathius is already open against this issue",
+   "evidence": [
+    "https://github.com/etcd-io/etcd/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/etcd-io/etcd/pull/21541",
+    "https://github.com/etcd-io/etcd/pull/20591"
+   ]
+  },
+  {
+   "number": 20622,
+   "title": "[robustness tests] Add Watch without PrevKV or ProgressNotify to Kubernetes traffic generator",
+   "url": "https://github.com/etcd-io/etcd/issues/20622",
+   "labels": [
+    "help wanted",
+    "type/feature",
+    "area/robustness-testing"
+   ],
+   "updatedAt": "2026-10-31T12:46:40Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #22677 by @jbml is already open against this issue",
+   "evidence": [
+    "https://github.com/etcd-io/etcd/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/etcd-io/etcd/pull/22677"
+   ]
+  }
+ ]
+}

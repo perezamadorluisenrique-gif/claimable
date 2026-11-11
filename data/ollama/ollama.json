@@ -1,0 +1,84 @@
+{
+ "owner": "ollama",
+ "repo": "ollama",
+ "language": "Go",
+ "stars": 186553,
+ "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+ "visitedAt": "2026-11-11T15:17:00.117Z",
+ "issues": [
+  {
+   "number": 4072,
+   "title": "Ollama should prevent sleep when working.",
+   "url": "https://github.com/ollama/ollama/issues/4072",
+   "labels": [
+    "feature request",
+    "good first issue",
+    "windows"
+   ],
+   "updatedAt": "2026-11-05T15:31:10Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #13675 by @biplavbarua is already open against this issue",
+   "evidence": [
+    "https://github.com/ollama/ollama/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ollama/ollama/pull/13675",
+    "https://github.com/ollama/ollama/pull/14951",
+    "https://github.com/ollama/ollama/pull/15053",
+    "https://github.com/ollama/ollama/pull/15763",
+    "https://github.com/ollama/ollama/pull/16104",
+    "https://github.com/ollama/ollama/pull/16468",
+    "https://github.com/ollama/ollama/pull/19525"
+   ]
+  },
+  {
+   "number": 10333,
+   "title": "CLI: image path not recognized correctly",
+   "url": "https://github.com/ollama/ollama/issues/10333",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2026-09-22T18:18:19Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #1 by @zlarkin2 is already open against this issue",
+   "evidence": [
+    "https://github.com/ollama/ollama/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/zlarkin2/ollama/pull/1",
+    "https://github.com/ollama/ollama/pull/11472",
+    "https://github.com/ollama/ollama/pull/13352",
+    "https://github.com/ollama/ollama/pull/13718",
+    "https://github.com/ollama/ollama/pull/15137",
+    "https://github.com/ollama/ollama/pull/15852",
+    "https://github.com/ollama/ollama/pull/15960",
+    "https://github.com/ollama/ollama/pull/16349",
+    "https://github.com/ollama/ollama/pull/16465"
+   ]
+  },
+  {
+   "number": 12954,
+   "title": "app: sidebar animates opening on load instead of appearing open",
+   "url": "https://github.com/ollama/ollama/issues/12954",
+   "labels": [
+    "bug",
+    "good first issue",
+    "app"
+   ],
+   "updatedAt": "2026-09-01T11:54:05Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #12983 by @iamyoshita is already open against this issue",
+   "evidence": [
+    "https://github.com/ollama/ollama/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ollama/ollama/pull/12983",
+    "https://github.com/ollama/ollama/pull/13743",
+    "https://github.com/ollama/ollama/pull/14354",
+    "https://github.com/ollama/ollama/pull/14463",
+    "https://github.com/ollama/ollama/pull/14515",
+    "https://github.com/ollama/ollama/pull/15989",
+    "https://github.com/ollama/ollama/pull/16368",
+    "https://github.com/ollama/ollama/pull/16927",
+    "https://github.com/ollama/ollama/pull/17268"
+   ]
+  }
+ ]
+}

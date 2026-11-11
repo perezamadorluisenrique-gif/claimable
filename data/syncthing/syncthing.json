@@ -1,0 +1,90 @@
+{
+ "owner": "syncthing",
+ "repo": "syncthing",
+ "language": "Go",
+ "stars": 90321,
+ "description": "Open Source Continuous File Synchronization",
+ "visitedAt": "2026-11-11T15:17:00.117Z",
+ "issues": [
+  {
+   "number": 837,
+   "title": "Ignore some files by default?",
+   "url": "https://github.com/syncthing/syncthing/issues/837",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2025-05-30T10:04:56Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #10208 by @ZetabS is already open against this issue",
+   "evidence": [
+    "https://github.com/syncthing/syncthing/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/syncthing/syncthing/issues/10208",
+    "https://github.com/syncthing/syncthing/issues/7311"
+   ]
+  },
+  {
+   "number": 1672,
+   "title": "Change blue progress bar in web-gui to be proportional to amount of changing files instead of whole dataset",
+   "url": "https://github.com/syncthing/syncthing/issues/1672",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2025-12-03T03:39:53Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "2 stale claims, the most recent by @tysoncung 343 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/syncthing/syncthing/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/syncthing/syncthing/issues/1672#issuecomment-3604924318",
+    "https://github.com/syncthing/syncthing/issues/1672",
+    "https://github.com/syncthing/syncthing/blob/HEAD/README.md",
+    "https://docs.syncthing.net/",
+    "https://github.com/syncthing/syncthing/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 1964,
+   "title": "Add list of connected applications",
+   "url": "https://github.com/syncthing/syncthing/issues/1964",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2026-04-21T11:14:42Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.syncthing.net/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/syncthing/syncthing/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/syncthing/syncthing/issues/1964",
+    "https://github.com/syncthing/syncthing/blob/HEAD/README.md",
+    "https://docs.syncthing.net/",
+    "https://github.com/syncthing/syncthing/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2208,
+   "title": "Option to specify where the temp files are saved for unfinished transfers",
+   "url": "https://github.com/syncthing/syncthing/issues/2208",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2025-12-03T03:39:44Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @tysoncung 343 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/syncthing/syncthing/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/syncthing/syncthing/issues/2208#issuecomment-3604924072",
+    "https://github.com/syncthing/syncthing/issues/2208",
+    "https://github.com/syncthing/syncthing/blob/HEAD/README.md",
+    "https://docs.syncthing.net/",
+    "https://github.com/syncthing/syncthing/blob/HEAD/CONTRIBUTING.md"
+   ]
+  }
+ ]
+}

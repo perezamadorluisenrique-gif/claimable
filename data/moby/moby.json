@@ -1,0 +1,639 @@
+{
+ "owner": "moby",
+ "repo": "moby",
+ "language": "Go",
+ "stars": 72363,
+ "description": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems",
+ "visitedAt": "2026-11-11T15:17:00.117Z",
+ "issues": [
+  {
+   "number": 13533,
+   "title": "Exclude Filter",
+   "url": "https://github.com/moby/moby/issues/13533",
+   "labels": [
+    "area/api",
+    "area/cli",
+    "kind/enhancement",
+    "area/ux",
+    "help wanted"
+   ],
+   "updatedAt": "2025-04-25T12:43:33Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #6035 by @captainmo1 is already open against this issue",
+   "evidence": [
+    "https://github.com/moby/moby/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/docker/cli/pull/6035",
+    "https://github.com/moby/moby/pull/49865",
+    "https://github.com/moby/moby/pull/53914"
+   ]
+  },
+  {
+   "number": 48207,
+   "title": "Unable to create container checkpoint",
+   "url": "https://github.com/moby/moby/issues/48207",
+   "labels": [
+    "kind/bug",
+    "area/checkpoint",
+    "version/27.0",
+    "help wanted"
+   ],
+   "updatedAt": "2026-05-20T18:23:58Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "open 28 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+2 more)",
+   "evidence": [
+    "https://github.com/moby/moby/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/moby/moby/issues/48207",
+    "https://docs.docker.com/engine/release-notes/",
+    "https://github.com/moby/moby/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/moby/moby/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 48408,
+   "title": "correct api status for images get APIs",
+   "url": "https://github.com/moby/moby/issues/48408",
+   "labels": [
+    "area/api",
+    "kind/bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-06-06T02:52:13Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #52743 by @lohitkolluri is already open against this issue",
+   "evidence": [
+    "https://github.com/moby/moby/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/moby/moby/pull/52743"
+   ]
+  },
+  {
+   "number": 48471,
+   "title": "seccomp: architecture is not present for (at least) ppc64le",
+   "url": "https://github.com/moby/moby/issues/48471",
+   "labels": [
+    "status/0-triage",
+    "kind/bug",
+    "area/security/seccomp",
+    "help wanted"
+   ],
+   "updatedAt": "2026-05-27T15:51:07Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #27 by @takumi12311123 is already open against this issue",
+   "evidence": [
+    "https://github.com/moby/moby/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/moby/profiles/pull/27",
+    "https://github.com/moby/profiles/pull/41",
+    "https://github.com/opencontainers/runc/pull/4391"
+   ]
+  },
+  {
+   "number": 49572,
+   "title": "v28: DNS name resolution with multiple user defined networks",
+   "url": "https://github.com/moby/moby/issues/49572",
+   "labels": [
+    "kind/feature",
+    "area/networking",
+    "area/networking/d/bridge",
+    "area/networking/dns",
+    "help wanted"
+   ],
+   "updatedAt": "2026-05-20T18:23:17Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #52938 by @takumi12311123 is already open against this issue",
+   "evidence": [
+    "https://github.com/moby/moby/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/moby/moby/pull/52938"
+   ]
+  },
+  {
+   "number": 49725,
+   "title": "Add info to docker events output to enable better filtering of healthcheck events",
+   "url": "https://github.com/moby/moby/issues/49725",
+   "labels": [
+    "kind/feature",
+    "help wanted"
+   ],
+   "updatedAt": "2026-04-27T12:59:01Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #53682 by @Abhirup0 is already open against this issue",
+   "evidence": [
+    "https://github.com/moby/moby/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/moby/moby/pull/53682",
+    "https://github.com/moby/moby/pull/53758"
+   ]
+  },
+  {
+   "number": 49756,
+   "title": "Default seccomp policy does not allow calling fanotify_init without CAP_SYS_ADMIN",
+   "url": "https://github.com/moby/moby/issues/49756",
+   "labels": [
+    "kind/enhancement",
+    "area/security/seccomp",
+    "help wanted"
+   ],
+   "updatedAt": "2026-07-11T11:12:56Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #35 by @ychampion is already open against this issue",
+   "evidence": [
+    "https://github.com/moby/moby/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/moby/profiles/pull/35"
+   ]
+  },
+  {
+   "number": 49825,
+   "title": "Unable to access to /proc/device-tree/model after enabling --cpu-rt-runtime option",
+   "url": "https://github.com/moby/moby/issues/49825",
+   "labels": [
+    "area/runtime",
+    "kind/bug",
+    "area/cgroup2",
+    "help wanted"
+   ],
+   "updatedAt": "2025-05-26T10:13:11Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "3 paths named in the issue do not exist on `moby`'s default branch — that is unlisted work: ExecStart=/usr/bin/dockerd, --containerd=/run/containerd/containerd.sock, proc/device-tree/model (+2 more)",
+   "evidence": [
+    "https://github.com/moby/moby/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/moby/moby/issues/49825",
+    "https://docs.docker.com/engine/release-notes/",
+    "https://github.com/moby/moby/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/moby/moby/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 49847,
+   "title": "--register-service and --security-opt required for multi-user Docker on Windows Server — not documented",
+   "url": "https://github.com/moby/moby/issues/49847",
+   "labels": [
+    "platform/windows",
+    "status/0-triage",
+    "kind/bug",
+    "help wanted"
+   ],
+   "updatedAt": "2025-05-26T10:48:58Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "open 19 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+2 more)",
+   "evidence": [
+    "https://github.com/moby/moby/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/moby/moby/issues/49847",
+    "https://docs.docker.com/engine/release-notes/",
+    "https://github.com/moby/moby/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/moby/moby/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 49853,
+   "title": "SystemFileWatcher, receiving but not sending out when making changes.",
+   "url": "https://github.com/moby/moby/issues/49853",
+   "labels": [
+    "status/0-triage",
+    "kind/bug",
+    "platform/desktop",
+    "version/27.5",
+    "help wanted"
+   ],
+   "updatedAt": "2025-06-11T09:51:58Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.docker.com/engine/release-notes/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/moby/moby/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/moby/moby/issues/49853",
+    "https://docs.docker.com/engine/release-notes/",
+    "https://github.com/moby/moby/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/moby/moby/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 49993,
+   "title": "CDI: follow-up refactors",
+   "url": "https://github.com/moby/moby/issues/49993",
+   "labels": [
+    "kind/refactor",
+    "help wanted"
+   ],
+   "updatedAt": "2025-05-26T09:47:31Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #50152 by @aciba90 is already open against this issue",
+   "evidence": [
+    "https://github.com/moby/moby/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/moby/moby/pull/50152"
+   ]
+  },
+  {
+   "number": 50083,
+   "title": "CAP_SYS_NICE doesn't work for containers running as non-root",
+   "url": "https://github.com/moby/moby/issues/50083",
+   "labels": [
+    "kind/bug",
+    "help wanted",
+    "version/28.1"
+   ],
+   "updatedAt": "2026-05-29T13:43:22Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #52830 by @cjc0013 is already open against this issue",
+   "evidence": [
+    "https://github.com/moby/moby/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/moby/moby/pull/52830"
+   ]
+  },
+  {
+   "number": 50131,
+   "title": "`/build/prune` Remove deprecates `keep-storage`",
+   "url": "https://github.com/moby/moby/issues/50131",
+   "labels": [
+    "area/api",
+    "area/builder",
+    "impact/api",
+    "area/builder/buildkit",
+    "help wanted"
+   ],
+   "updatedAt": "2026-08-23T21:43:43Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #52182 by @olegnazarov23 is already open against this issue",
+   "evidence": [
+    "https://github.com/moby/moby/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/moby/moby/pull/52182"
+   ]
+  },
+  {
+   "number": 50159,
+   "title": "`integration-cli` migration",
+   "url": "https://github.com/moby/moby/issues/50159",
+   "labels": [
+    "exp/beginner",
+    "area/testing",
+    "kind/epic",
+    "help wanted"
+   ],
+   "updatedAt": "2026-10-27T20:51:02Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #51840 by @deahtstroke is already open against this issue",
+   "evidence": [
+    "https://github.com/moby/moby/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/moby/moby/pull/51840",
+    "https://github.com/moby/moby/pull/52276",
+    "https://github.com/moby/moby/pull/52452",
+    "https://github.com/moby/moby/pull/52827",
+    "https://github.com/moby/moby/pull/53646",
+    "https://github.com/moby/moby/pull/53647",
+    "https://github.com/moby/moby/pull/53649",
+    "https://github.com/moby/moby/pull/53650",
+    "https://github.com/moby/moby/pull/53659"
+   ]
+  },
+  {
+   "number": 50185,
+   "title": "builder-next: remove / evaluate uses of MediaTypeDockerSchema1Manifest",
+   "url": "https://github.com/moby/moby/issues/50185",
+   "labels": [
+    "area/builder",
+    "kind/refactor",
+    "area/builder/buildkit",
+    "help wanted"
+   ],
+   "updatedAt": "2026-08-26T20:49:38Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "PR #50183 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+3 more)",
+   "evidence": [
+    "https://github.com/moby/moby/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/moby/moby/pull/50183",
+    "https://github.com/moby/moby/issues/50185#issuecomment-5430030526",
+    "https://github.com/moby/moby/issues/50185",
+    "https://docs.docker.com/engine/release-notes/",
+    "https://github.com/moby/moby/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/moby/moby/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 50732,
+   "title": "CI: explore `gotestsum` options for retrying flaky tests, and failing early",
+   "url": "https://github.com/moby/moby/issues/50732",
+   "labels": [
+    "kind/enhancement",
+    "kind/feature",
+    "exp/beginner",
+    "exp/intermediate",
+    "area/testing",
+    "help wanted",
+    "flaky"
+   ],
+   "updatedAt": "2026-07-16T10:57:27Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #52069 by @veeceey is already open against this issue",
+   "evidence": [
+    "https://github.com/moby/moby/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/moby/moby/pull/52069",
+    "https://github.com/moby/moby/pull/52714",
+    "https://github.com/glincker/levelrail/pull/589"
+   ]
+  },
+  {
+   "number": 50811,
+   "title": "Unify builtin network customization, improve daemon.json structure",
+   "url": "https://github.com/moby/moby/issues/50811",
+   "labels": [
+    "kind/enhancement",
+    "area/networking",
+    "area/daemon",
+    "help wanted"
+   ],
+   "updatedAt": "2025-08-29T10:43:06Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.docker.com/engine/swarm/networking/#customize-ingress) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/moby/moby/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/moby/moby/issues/50811",
+    "https://docs.docker.com/engine/swarm/networking/#customize-ingress",
+    "https://github.com/moby/moby/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/moby/moby/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 51014,
+   "title": "`moby/contrib/dockerize-disk.sh` with invalid `qemu-nbd` option `-P`",
+   "url": "https://github.com/moby/moby/issues/51014",
+   "labels": [
+    "status/0-triage",
+    "kind/bug",
+    "area/contrib",
+    "help wanted"
+   ],
+   "updatedAt": "2026-06-04T09:42:52Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #52759 by @loopassembly is already open against this issue",
+   "evidence": [
+    "https://github.com/moby/moby/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/moby/moby/pull/52759"
+   ]
+  },
+  {
+   "number": 51995,
+   "title": "[Feature request] Add --cpuset-cpus and --cpuset-mems support for Windows containers",
+   "url": "https://github.com/moby/moby/issues/51995",
+   "labels": [
+    "status/0-triage",
+    "kind/feature",
+    "help wanted"
+   ],
+   "updatedAt": "2026-05-20T14:13:31Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.docker.com/engine/release-notes/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/moby/moby/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/moby/moby/issues/51995",
+    "https://docs.docker.com/engine/release-notes/",
+    "https://github.com/moby/moby/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/moby/moby/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 52538,
+   "title": "Flaky test: TestDiskUsageConcurrentPrune",
+   "url": "https://github.com/moby/moby/issues/52538",
+   "labels": [
+    "area/testing",
+    "help wanted",
+    "version/29.4",
+    "flaky"
+   ],
+   "updatedAt": "2026-07-26T12:13:14Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "PR #52672 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+4 more)",
+   "evidence": [
+    "https://github.com/moby/moby/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/moby/moby/pull/52672",
+    "https://github.com/moby/moby/pull/52901",
+    "https://github.com/moby/moby/pull/52947",
+    "https://github.com/moby/moby/issues/52538",
+    "https://docs.docker.com/engine/release-notes/",
+    "https://github.com/moby/moby/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/moby/moby/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 52661,
+   "title": "Overlay ARP stale entries still present on 29.5.0 — fix from #50236 incomplete",
+   "url": "https://github.com/moby/moby/issues/52661",
+   "labels": [
+    "status/0-triage",
+    "kind/bug",
+    "area/networking",
+    "area/swarm",
+    "area/networking/d/overlay",
+    "help wanted",
+    "version/29.5"
+   ],
+   "updatedAt": "2026-09-29T18:43:15Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "PR #174 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+5 more)",
+   "evidence": [
+    "https://github.com/moby/moby/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/Dokploy/website/pull/174",
+    "https://github.com/moby/moby/pull/53663",
+    "https://github.com/moby/moby/pull/53833",
+    "https://github.com/moby/moby/issues/52661#issuecomment-4954834484",
+    "https://github.com/moby/moby/issues/52661",
+    "https://docs.docker.com/engine/release-notes/",
+    "https://github.com/moby/moby/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/moby/moby/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 52754,
+   "title": "Evaluate docker-py skipped tests",
+   "url": "https://github.com/moby/moby/issues/52754",
+   "labels": [
+    "area/testing",
+    "help wanted"
+   ],
+   "updatedAt": "2026-09-01T14:33:30Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #3414 by @Yashasm18 is already open against this issue",
+   "evidence": [
+    "https://github.com/moby/moby/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/docker/docker-py/pull/3414",
+    "https://github.com/moby/moby/pull/52762",
+    "https://github.com/moby/moby/pull/52758"
+   ]
+  },
+  {
+   "number": 52823,
+   "title": "Awslogs driver does not support temporary credentials",
+   "url": "https://github.com/moby/moby/issues/52823",
+   "labels": [
+    "area/logging",
+    "kind/bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-09-01T14:33:31Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #52860 by @ayush-panta is already open against this issue",
+   "evidence": [
+    "https://github.com/moby/moby/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/moby/moby/pull/52860"
+   ]
+  },
+  {
+   "number": 52956,
+   "title": "daemon/containerd GetLayerFolders: verify implementation against current hcsshim",
+   "url": "https://github.com/moby/moby/issues/52956",
+   "labels": [
+    "area/storage",
+    "platform/windows",
+    "help wanted",
+    "containerd"
+   ],
+   "updatedAt": "2026-09-01T14:33:30Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @LeonxLJX 71 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/moby/moby/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/moby/moby/issues/52956#issuecomment-5493906878",
+    "https://github.com/moby/moby/issues/52956",
+    "https://github.com/moby/moby/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.docker.com/engine/release-notes/",
+    "https://github.com/moby/moby/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 53255,
+   "title": "Flaky test: TestPublishAllWithNilPortBindings (rootless: port 32768 already in use)",
+   "url": "https://github.com/moby/moby/issues/53255",
+   "labels": [
+    "area/rootless",
+    "help wanted",
+    "flaky"
+   ],
+   "updatedAt": "2026-09-08T03:05:33Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #53341 by @aryansk is already open against this issue",
+   "evidence": [
+    "https://github.com/moby/moby/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/moby/moby/pull/53341",
+    "https://github.com/moby/moby/pull/53736",
+    "https://github.com/moby/moby/pull/53669"
+   ]
+  },
+  {
+   "number": 53488,
+   "title": "awslogs: identify concurrent writer to outgoing CloudWatch request headers",
+   "url": "https://github.com/moby/moby/issues/53488",
+   "labels": [
+    "area/logging",
+    "kind/bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-10-03T03:47:33Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #53852 by @takumi12311123 is already open against this issue",
+   "evidence": [
+    "https://github.com/moby/moby/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/moby/moby/pull/53852",
+    "https://github.com/moby/moby/pull/53870",
+    "https://github.com/moby/moby/pull/53322"
+   ]
+  },
+  {
+   "number": 53527,
+   "title": "Add daemon upgrade compatibility tests",
+   "url": "https://github.com/moby/moby/issues/53527",
+   "labels": [
+    "area/testing",
+    "kind/epic",
+    "help wanted"
+   ],
+   "updatedAt": "2026-09-01T14:33:29Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #53642 by @aron-intframe is already open against this issue",
+   "evidence": [
+    "https://github.com/moby/moby/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/moby/moby/pull/53642"
+   ]
+  },
+  {
+   "number": 53616,
+   "title": "docker pull fails with \"lsetxattr ... security.selinux: no such file or directory\" on images with SELinux-labeled layers (regression in 29.7.0, moby/go-archive v0.3.0)",
+   "url": "https://github.com/moby/moby/issues/53616",
+   "labels": [
+    "kind/bug",
+    "area/dependencies",
+    "help wanted",
+    "version/29.8"
+   ],
+   "updatedAt": "2026-10-27T15:46:34Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #120 by @ChiThang-50Cent is already open against this issue",
+   "evidence": [
+    "https://github.com/moby/moby/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/moby/go-archive/pull/120"
+   ]
+  },
+  {
+   "number": 53941,
+   "title": "Fully define and document what a \"dangling\" image is",
+   "url": "https://github.com/moby/moby/issues/53941",
+   "labels": [
+    "area/images",
+    "help wanted"
+   ],
+   "updatedAt": "2026-10-17T05:56:08Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "PR #6574 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+3 more)",
+   "evidence": [
+    "https://github.com/moby/moby/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/docker/cli/pull/6574",
+    "https://github.com/moby/moby/issues/53941#issuecomment-6170463671",
+    "https://github.com/moby/moby/issues/53941",
+    "https://docs.docker.com/engine/release-notes/",
+    "https://github.com/moby/moby/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/moby/moby/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 53999,
+   "title": "Graphdriver image store pushes pulled zstd layers with a gzip media type",
+   "url": "https://github.com/moby/moby/issues/53999",
+   "labels": [
+    "area/distribution",
+    "kind/bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-10-22T05:51:43Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #54000 by @sairex53 is already open against this issue",
+   "evidence": [
+    "https://github.com/moby/moby/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/moby/moby/pull/54000"
+   ]
+  }
+ ]
+}

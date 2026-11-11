@@ -1,0 +1,2115 @@
+{
+ "owner": "rclone",
+ "repo": "rclone",
+ "language": "Go",
+ "stars": 60921,
+ "description": "\"rsync for cloud storage\" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Azure Blob, Azure Files, Yandex Files",
+ "visitedAt": "2026-11-11T15:17:00.117Z",
+ "issues": [
+  {
+   "number": 18,
+   "title": "rclone backup: new command with incremental strategy",
+   "url": "https://github.com/rclone/rclone/issues/18",
+   "labels": [
+    "enhancement",
+    "thinking",
+    "help wanted",
+    "change detection"
+   ],
+   "updatedAt": "2024-06-17T12:38:48Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #10308 by @freva is already open against this issue",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/10308",
+    "https://github.com/rclone/rclone/issues/10287",
+    "https://github.com/rclone/rclone/issues/10213",
+    "https://github.com/rclone/rclone/issues/10105",
+    "https://github.com/rclone/rclone/issues/9943",
+    "https://github.com/rclone/rclone/issues/9053",
+    "https://github.com/rclone/rclone/issues/10293",
+    "https://github.com/rclone/rclone/issues/9214",
+    "https://github.com/rclone/rclone/issues/7518"
+   ]
+  },
+  {
+   "number": 249,
+   "title": "Feature request: Listen filesystem events and sync",
+   "url": "https://github.com/rclone/rclone/issues/249",
+   "labels": [
+    "enhancement",
+    "IMPORTANT",
+    "help wanted",
+    "integration",
+    "fsnotify / events"
+   ],
+   "updatedAt": "2026-05-31T18:56:06Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #8258 by @lawmurray is already open against this issue",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/pull/8258",
+    "https://github.com/rclone/rclone/pull/5164"
+   ]
+  },
+  {
+   "number": 514,
+   "title": "Please add static large object support for swift ",
+   "url": "https://github.com/rclone/rclone/issues/514",
+   "labels": [
+    "enhancement",
+    "Remote: Swift",
+    "help wanted",
+    "needs retest"
+   ],
+   "updatedAt": "2024-06-17T12:38:51Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "PR #4075 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/pull/4075",
+    "https://github.com/rclone/rclone/issues/514",
+    "https://github.com/rclone/rclone/blob/HEAD/README.md",
+    "http://docs.openstack.org/developer/swift/api/large_objects.html",
+    "https://github.com/rclone/rclone/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 762,
+   "title": "Skip long titled folder? --max-name-length",
+   "url": "https://github.com/rclone/rclone/issues/762",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "filtering"
+   ],
+   "updatedAt": "2025-08-30T17:31:00Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #9128 by @phzhitnikov is already open against this issue",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/9128"
+   ]
+  },
+  {
+   "number": 977,
+   "title": "Unified method of preserving file and directory metadata",
+   "url": "https://github.com/rclone/rclone/issues/977",
+   "labels": [
+    "enhancement",
+    "thinking",
+    "help wanted",
+    "metadata"
+   ],
+   "updatedAt": "2024-06-17T12:38:51Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #1337 by @yonjah is already open against this issue",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/1337",
+    "https://github.com/rclone/rclone/issues/4859"
+   ]
+  },
+  {
+   "number": 990,
+   "title": "Possible to copy open files on Windows with VSS?",
+   "url": "https://github.com/rclone/rclone/issues/990",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "OS: Windows"
+   ],
+   "updatedAt": "2026-05-01T09:46:51Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #9370 by @maxgreen01 is already open against this issue",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/pull/9370"
+   ]
+  },
+  {
+   "number": 1291,
+   "title": "exit rclone after X transfers",
+   "url": "https://github.com/rclone/rclone/issues/1291",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "UX",
+    "bandwidth"
+   ],
+   "updatedAt": "2026-10-15T20:29:16Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @manenim 27 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/1291#issuecomment-6201630044",
+    "https://github.com/rclone/rclone/issues/1291",
+    "https://github.com/rclone/rclone/blob/HEAD/README.md",
+    "https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git",
+    "https://github.com/rclone/rclone/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 1465,
+   "title": "[Feature] Mediafire support",
+   "url": "https://github.com/rclone/rclone/issues/1465",
+   "labels": [
+    "new backend",
+    "help wanted"
+   ],
+   "updatedAt": "2026-03-24T16:01:36Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @ghost 2874 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/1465#issuecomment-450531749",
+    "https://github.com/rclone/rclone/issues/1465",
+    "https://github.com/rclone/rclone/blob/HEAD/README.md",
+    "https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git",
+    "https://github.com/rclone/rclone/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 1647,
+   "title": "Cryptomator support",
+   "url": "https://github.com/rclone/rclone/issues/1647",
+   "labels": [
+    "new backend",
+    "IMPORTANT",
+    "help wanted",
+    "integration"
+   ],
+   "updatedAt": "2024-11-28T14:48:34Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #8302 by @tbodt is already open against this issue",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/pull/8302"
+   ]
+  },
+  {
+   "number": 1922,
+   "title": "Support restoring files on remotes",
+   "url": "https://github.com/rclone/rclone/issues/1922",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "versioning"
+   ],
+   "updatedAt": "2024-06-17T12:38:55Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/1922",
+    "https://github.com/rclone/rclone/blob/HEAD/README.md",
+    "https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git",
+    "https://github.com/rclone/rclone/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2099,
+   "title": "support for baidu pan (1 TB free)",
+   "url": "https://github.com/rclone/rclone/issues/2099",
+   "labels": [
+    "new backend",
+    "help wanted",
+    "regional"
+   ],
+   "updatedAt": "2026-06-15T00:22:57Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "already assigned to @ivandeex",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/2099",
+    "https://github.com/rclone/rclone/issues/2099#issuecomment-1339556721"
+   ]
+  },
+  {
+   "number": 2109,
+   "title": "vfs: add ability to exclude files from being uploaded (eg for temporary files)",
+   "url": "https://github.com/rclone/rclone/issues/2109",
+   "labels": [
+    "enhancement",
+    "VFS / mount",
+    "help wanted",
+    "filtering"
+   ],
+   "updatedAt": "2026-07-27T17:25:52Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #7319 by @utkarshdalal is already open against this issue",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/pull/7319"
+   ]
+  },
+  {
+   "number": 2110,
+   "title": "webdav: Support for digest authentication",
+   "url": "https://github.com/rclone/rclone/issues/2110",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "help wanted",
+    "Remote: WebDAV"
+   ],
+   "updatedAt": "2026-09-16T17:10:29Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #9875 by @pekhota is already open against this issue",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/pull/9875"
+   ]
+  },
+  {
+   "number": 2231,
+   "title": "Sync fails when a new file has the same name as an old directory",
+   "url": "https://github.com/rclone/rclone/issues/2231",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-10-30T16:04:32Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #9696 by @Minghan2005 is already open against this issue",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/pull/9696"
+   ]
+  },
+  {
+   "number": 2265,
+   "title": "Add --no-obscure flag so we don't try to reveal passwords",
+   "url": "https://github.com/rclone/rclone/issues/2265",
+   "labels": [
+    "enhancement",
+    "doc fix",
+    "Remote: SFTP",
+    "help wanted",
+    "needs retest",
+    "configuration"
+   ],
+   "updatedAt": "2025-04-19T21:07:01Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #9198 by @Rufubi is already open against this issue",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/pull/9198",
+    "https://github.com/FredHutch/motuz/pull/181"
+   ]
+  },
+  {
+   "number": 2352,
+   "title": "[Feature Request] adding --backup-dir-deletes-only feature",
+   "url": "https://github.com/rclone/rclone/issues/2352",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "help wanted",
+    "Remote: Box",
+    "versioning"
+   ],
+   "updatedAt": "2026-07-30T20:30:36Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #9703 by @lntutor is already open against this issue",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/pull/9703"
+   ]
+  },
+  {
+   "number": 2522,
+   "title": "Request: control over cipher suites",
+   "url": "https://github.com/rclone/rclone/issues/2522",
+   "labels": [
+    "enhancement",
+    "maintenance",
+    "help wanted"
+   ],
+   "updatedAt": "2025-10-01T17:03:31Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/2522",
+    "https://github.com/rclone/rclone/blob/HEAD/README.md",
+    "https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git",
+    "https://github.com/rclone/rclone/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2552,
+   "title": "Detect modify resolution from the underlying filesystem",
+   "url": "https://github.com/rclone/rclone/issues/2552",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2024-11-30T09:25:02Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/2552",
+    "https://github.com/rclone/rclone/blob/HEAD/README.md",
+    "https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git",
+    "https://github.com/rclone/rclone/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2755,
+   "title": "flat copy/sync without preserving dirs: `--flatten` and `--flatten-mode`",
+   "url": "https://github.com/rclone/rclone/issues/2755",
+   "labels": [
+    "enhancement",
+    "IMPORTANT",
+    "help wanted"
+   ],
+   "updatedAt": "2024-06-17T12:38:09Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/2755",
+    "https://github.com/rclone/rclone/blob/HEAD/README.md",
+    "https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git",
+    "https://github.com/rclone/rclone/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2854,
+   "title": "serve permission scheme ",
+   "url": "https://github.com/rclone/rclone/issues/2854",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "Web GUI"
+   ],
+   "updatedAt": "2024-03-08T11:30:52Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/2854",
+    "https://github.com/rclone/rclone/blob/HEAD/README.md",
+    "https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git",
+    "https://github.com/rclone/rclone/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2894,
+   "title": "Default ignore files list",
+   "url": "https://github.com/rclone/rclone/issues/2894",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "filtering"
+   ],
+   "updatedAt": "2025-01-08T17:32:43Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #7932 by @Emasoft is already open against this issue",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/7932"
+   ]
+  },
+  {
+   "number": 2924,
+   "title": "rclone occasionally displays >100% completion",
+   "url": "https://github.com/rclone/rclone/issues/2924",
+   "labels": [
+    "bug",
+    "help wanted",
+    "UX",
+    "stats"
+   ],
+   "updatedAt": "2024-11-24T19:59:20Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/2924",
+    "https://github.com/rclone/rclone/blob/HEAD/README.md",
+    "https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git",
+    "https://github.com/rclone/rclone/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2956,
+   "title": "adb as storage provider",
+   "url": "https://github.com/rclone/rclone/issues/2956",
+   "labels": [
+    "new backend",
+    "IMPORTANT",
+    "help wanted",
+    "OS: Android"
+   ],
+   "updatedAt": "2026-05-08T17:27:41Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #9409 by @ferrumclaudepilgrim is already open against this issue",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/pull/9409"
+   ]
+  },
+  {
+   "number": 3012,
+   "title": "support Dedupe on Box",
+   "url": "https://github.com/rclone/rclone/issues/3012",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "Remote: Box"
+   ],
+   "updatedAt": "2025-01-28T11:58:52Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #8346 by @chalmerssys is already open against this issue",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/8346",
+    "https://github.com/rclone/rclone/issues/8383"
+   ]
+  },
+  {
+   "number": 3151,
+   "title": "Request: Form Upload with http server",
+   "url": "https://github.com/rclone/rclone/issues/3151",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2026-06-02T19:49:06Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/3151",
+    "https://github.com/rclone/rclone/blob/HEAD/README.md",
+    "https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git",
+    "https://github.com/rclone/rclone/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 3205,
+   "title": "the suggestions to implement of a \"-z <file extensions>\" and a \"-Z\" flags",
+   "url": "https://github.com/rclone/rclone/issues/3205",
+   "labels": [
+    "enhancement",
+    "Remote: Google Cloud Storage",
+    "help wanted"
+   ],
+   "updatedAt": "2026-04-08T18:55:13Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/3205",
+    "https://github.com/rclone/rclone/blob/HEAD/README.md",
+    "https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git",
+    "https://github.com/rclone/rclone/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 3222,
+   "title": "GCS - Manage Archived Objects",
+   "url": "https://github.com/rclone/rclone/issues/3222",
+   "labels": [
+    "enhancement",
+    "Remote: Google Cloud Storage",
+    "help wanted",
+    "versioning"
+   ],
+   "updatedAt": "2024-06-17T12:38:11Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @ankur0493 2411 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/3222#issuecomment-609397564",
+    "https://github.com/rclone/rclone/issues/3222",
+    "https://github.com/rclone/rclone/blob/HEAD/README.md",
+    "https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git",
+    "https://github.com/rclone/rclone/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 3250,
+   "title": "filter: fix directory filter globs for / and ** in {}",
+   "url": "https://github.com/rclone/rclone/issues/3250",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted",
+    "filtering"
+   ],
+   "updatedAt": "2026-09-14T09:33:11Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #9645 by @giri256 is already open against this issue",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/pull/9645"
+   ]
+  },
+  {
+   "number": 3282,
+   "title": "Upload from a URL to cloud",
+   "url": "https://github.com/rclone/rclone/issues/3282",
+   "labels": [
+    "enhancement",
+    "new backend",
+    "help wanted"
+   ],
+   "updatedAt": "2026-04-23T20:37:31Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.microsoft.com/en-us/onedrive/developer/rest-api/api/driveitem_upload_url?view=odsp-graph-online#http-request) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/3282",
+    "https://github.com/rclone/rclone/blob/HEAD/README.md",
+    "https://docs.microsoft.com/en-us/onedrive/developer/rest-api/api/driveitem_upload_url?view=odsp-graph-online#http-request",
+    "https://github.com/rclone/rclone/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 3402,
+   "title": "Add a \"don't ask again\" for rclone ncdu file deletion",
+   "url": "https://github.com/rclone/rclone/issues/3402",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "help wanted",
+    "UX"
+   ],
+   "updatedAt": "2025-12-01T15:35:27Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #9463 by @arieleli01212 is already open against this issue",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/pull/9463"
+   ]
+  },
+  {
+   "number": 3683,
+   "title": "New Options to Dedupe treatment on copy/sync/move commands",
+   "url": "https://github.com/rclone/rclone/issues/3683",
+   "labels": [
+    "enhancement",
+    "Remote: Drive",
+    "help wanted",
+    "change detection"
+   ],
+   "updatedAt": "2025-11-20T14:58:45Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #9267 by @ivan-pinatti is already open against this issue",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/9267"
+   ]
+  },
+  {
+   "number": 3743,
+   "title": "\"rclone cat\" doesn't work with \"--progress\"",
+   "url": "https://github.com/rclone/rclone/issues/3743",
+   "labels": [
+    "bug",
+    "good first issue",
+    "UX",
+    "terminal"
+   ],
+   "updatedAt": "2025-11-19T16:42:23Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #6474 by @edquist is already open against this issue",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/pull/6474"
+   ]
+  },
+  {
+   "number": 3898,
+   "title": "Scale up / down number of transfers through RC",
+   "url": "https://github.com/rclone/rclone/issues/3898",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "help wanted",
+    "API / Remote Control / RC"
+   ],
+   "updatedAt": "2025-05-27T13:52:58Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #9697 by @pratyushsinghal7 is already open against this issue",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/pull/9697"
+   ]
+  },
+  {
+   "number": 3998,
+   "title": "drive: can't delete shared files",
+   "url": "https://github.com/rclone/rclone/issues/3998",
+   "labels": [
+    "bug",
+    "Remote: Drive",
+    "help wanted"
+   ],
+   "updatedAt": "2026-09-04T15:58:32Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #9864 by @adityabagla7 is already open against this issue",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/pull/9864"
+   ]
+  },
+  {
+   "number": 4062,
+   "title": "Implement OneDrive shared with me",
+   "url": "https://github.com/rclone/rclone/issues/4062",
+   "labels": [
+    "enhancement",
+    "Remote: One Drive",
+    "help wanted"
+   ],
+   "updatedAt": "2026-07-06T10:48:00Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.microsoft.com/en-us/onedrive/developer/rest-api/api/drive_sharedwithme?view=odsp-graph-online) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/4062",
+    "https://github.com/rclone/rclone/blob/HEAD/README.md",
+    "https://docs.microsoft.com/en-us/onedrive/developer/rest-api/api/drive_sharedwithme?view=odsp-graph-online",
+    "https://github.com/rclone/rclone/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 4194,
+   "title": "Support for gocryptfs as backend",
+   "url": "https://github.com/rclone/rclone/issues/4194",
+   "labels": [
+    "new backend",
+    "help wanted"
+   ],
+   "updatedAt": "2026-02-26T23:31:22Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #637 by @ncw is already open against this issue",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/637"
+   ]
+  },
+  {
+   "number": 4358,
+   "title": "[Feature request] \"Filelist remote\" - storage system (for DLNA playlist)",
+   "url": "https://github.com/rclone/rclone/issues/4358",
+   "labels": [
+    "enhancement",
+    "new backend",
+    "help wanted"
+   ],
+   "updatedAt": "2024-06-17T12:38:19Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/4358",
+    "https://github.com/rclone/rclone/blob/HEAD/README.md",
+    "https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git",
+    "https://github.com/rclone/rclone/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 4381,
+   "title": "[Proposal] rclone wait [fs:/] / Monitor Subsystem / Notify Events",
+   "url": "https://github.com/rclone/rclone/issues/4381",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "fsnotify / events"
+   ],
+   "updatedAt": "2026-02-11T14:27:31Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #9738 by @danielfrey63 is already open against this issue",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/9738"
+   ]
+  },
+  {
+   "number": 4452,
+   "title": "[Feature request] Implement --low-level-retries-sleep",
+   "url": "https://github.com/rclone/rclone/issues/4452",
+   "labels": [
+    "enhancement",
+    "Remote: One Drive",
+    "help wanted"
+   ],
+   "updatedAt": "2026-03-20T17:44:23Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/4452",
+    "https://github.com/rclone/rclone/blob/HEAD/README.md",
+    "https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git",
+    "https://github.com/rclone/rclone/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 4530,
+   "title": "support ceph s3 allow-unordered query parameter",
+   "url": "https://github.com/rclone/rclone/issues/4530",
+   "labels": [
+    "enhancement",
+    "Remote: S3",
+    "help wanted"
+   ],
+   "updatedAt": "2024-06-17T12:37:15Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/4530",
+    "https://github.com/rclone/rclone/blob/HEAD/README.md",
+    "https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git",
+    "https://github.com/rclone/rclone/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 4742,
+   "title": "Add --chown Flag",
+   "url": "https://github.com/rclone/rclone/issues/4742",
+   "labels": [
+    "enhancement",
+    "Remote: Local FS",
+    "help wanted",
+    "metadata"
+   ],
+   "updatedAt": "2026-01-12T02:14:23Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/4742",
+    "https://github.com/rclone/rclone/blob/HEAD/README.md",
+    "https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git",
+    "https://github.com/rclone/rclone/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 4758,
+   "title": "Add VFS flag to force full sequential download of files to cache",
+   "url": "https://github.com/rclone/rclone/issues/4758",
+   "labels": [
+    "enhancement",
+    "VFS / mount",
+    "help wanted"
+   ],
+   "updatedAt": "2024-06-17T12:37:16Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #5156 by @ncw is already open against this issue",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/5156"
+   ]
+  },
+  {
+   "number": 4764,
+   "title": "Hook to be invoked on server mode ",
+   "url": "https://github.com/rclone/rclone/issues/4764",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "integration",
+    "fsnotify / events"
+   ],
+   "updatedAt": "2024-06-17T12:37:16Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "PR #3900 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/pull/3900",
+    "https://github.com/rclone/rclone/issues/4764",
+    "https://github.com/rclone/rclone/blob/HEAD/README.md",
+    "https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git",
+    "https://github.com/rclone/rclone/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 4776,
+   "title": "add a new subcommand that mimics rsync",
+   "url": "https://github.com/rclone/rclone/issues/4776",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "UX",
+    "filtering",
+    "change detection"
+   ],
+   "updatedAt": "2024-06-17T12:37:17Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "PR #5164 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/pull/5164",
+    "https://github.com/rclone/rclone/issues/4776",
+    "https://github.com/rclone/rclone/blob/HEAD/README.md",
+    "https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git",
+    "https://github.com/rclone/rclone/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 4859,
+   "title": "file storage: copy ACL for file from server1 to server2",
+   "url": "https://github.com/rclone/rclone/issues/4859",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "metadata"
+   ],
+   "updatedAt": "2024-06-17T12:37:19Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/4859",
+    "https://github.com/rclone/rclone/blob/HEAD/README.md",
+    "https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git",
+    "https://github.com/rclone/rclone/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 4877,
+   "title": "Perform an operation using a specified interface",
+   "url": "https://github.com/rclone/rclone/issues/4877",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "OS: Unix"
+   ],
+   "updatedAt": "2024-06-17T12:37:20Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #4742 by @fionera is already open against this issue",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/4742"
+   ]
+  },
+  {
+   "number": 5009,
+   "title": "Add Fshare.vn Storage Provider",
+   "url": "https://github.com/rclone/rclone/issues/5009",
+   "labels": [
+    "new backend",
+    "help wanted",
+    "regional"
+   ],
+   "updatedAt": "2025-07-24T17:54:41Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/5009",
+    "https://github.com/rclone/rclone/blob/HEAD/README.md",
+    "https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git",
+    "https://github.com/rclone/rclone/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 5070,
+   "title": "build: setup official rclone PPA on launchpad.net",
+   "url": "https://github.com/rclone/rclone/issues/5070",
+   "labels": [
+    "maintenance",
+    "help wanted",
+    "build"
+   ],
+   "updatedAt": "2024-11-19T12:25:41Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/5070",
+    "https://github.com/rclone/rclone/blob/HEAD/README.md",
+    "https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git",
+    "https://github.com/rclone/rclone/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 5158,
+   "title": "Apple FileProvider support",
+   "url": "https://github.com/rclone/rclone/issues/5158",
+   "labels": [
+    "new backend",
+    "help wanted"
+   ],
+   "updatedAt": "2025-06-14T19:09:58Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/5158",
+    "https://github.com/rclone/rclone/blob/HEAD/README.md",
+    "https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git",
+    "https://github.com/rclone/rclone/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 5175,
+   "title": "A way to make Rclone run in the background on Windows",
+   "url": "https://github.com/rclone/rclone/issues/5175",
+   "labels": [
+    "enhancement",
+    "thinking",
+    "help wanted",
+    "OS: Windows"
+   ],
+   "updatedAt": "2025-07-02T02:38:15Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/5175",
+    "https://github.com/rclone/rclone/blob/HEAD/README.md",
+    "https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git",
+    "https://github.com/rclone/rclone/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 5547,
+   "title": "assign mount cache duration folder by folder",
+   "url": "https://github.com/rclone/rclone/issues/5547",
+   "labels": [
+    "enhancement",
+    "VFS / mount",
+    "help wanted"
+   ],
+   "updatedAt": "2024-06-17T12:37:23Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/5547",
+    "https://github.com/rclone/rclone/blob/HEAD/README.md",
+    "https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git",
+    "https://github.com/rclone/rclone/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 5584,
+   "title": "local filesystem's precision it not detected correctly",
+   "url": "https://github.com/rclone/rclone/issues/5584",
+   "labels": [
+    "enhancement",
+    "Remote: Local FS",
+    "help wanted"
+   ],
+   "updatedAt": "2025-08-10T12:03:23Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "already assigned to @hyperknot",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/pull/5591",
+    "https://github.com/rclone/rclone/issues/5584"
+   ]
+  },
+  {
+   "number": 5612,
+   "title": "Specific error message when attempting a transfer exceeding the file path limit on Windows",
+   "url": "https://github.com/rclone/rclone/issues/5612",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "help wanted",
+    "OS: Windows"
+   ],
+   "updatedAt": "2026-06-28T07:20:49Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #9532 by @nightt5879 is already open against this issue",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/pull/9532"
+   ]
+  },
+  {
+   "number": 6027,
+   "title": "5th mode: --vfs-cache-mode off+buffered to ram",
+   "url": "https://github.com/rclone/rclone/issues/6027",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2025-09-29T01:02:40Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/6027",
+    "https://github.com/rclone/rclone/blob/HEAD/README.md",
+    "https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git",
+    "https://github.com/rclone/rclone/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 6092,
+   "title": "webdav: Add support for dCache checksums/digests/hashes",
+   "url": "https://github.com/rclone/rclone/issues/6092",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "Remote: WebDAV"
+   ],
+   "updatedAt": "2026-01-13T15:25:50Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #10259 by @ptallada is already open against this issue",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/10259",
+    "https://github.com/rclone/rclone/issues/8593"
+   ]
+  },
+  {
+   "number": 6418,
+   "title": "azureblob support Request headers for specifying customer-provided keys",
+   "url": "https://github.com/rclone/rclone/issues/6418",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "Remote: Azure Blob"
+   ],
+   "updatedAt": "2026-11-05T15:14:30Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "@moudlajs claimed it 6 days ago",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/6418#issuecomment-6661603654"
+   ]
+  },
+  {
+   "number": 6488,
+   "title": "Add option `--remount` for remount support",
+   "url": "https://github.com/rclone/rclone/issues/6488",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2026-01-19T18:57:47Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/6488",
+    "https://github.com/rclone/rclone/blob/HEAD/README.md",
+    "https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git",
+    "https://github.com/rclone/rclone/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 6664,
+   "title": "check/cryptcheck via Remote Control / API",
+   "url": "https://github.com/rclone/rclone/issues/6664",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2026-07-24T03:14:24Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #9655 by @pratyushsinghal7 is already open against this issue",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/pull/9655"
+   ]
+  },
+  {
+   "number": 6750,
+   "title": "Rclone support for JioCloud",
+   "url": "https://github.com/rclone/rclone/issues/6750",
+   "labels": [
+    "new backend",
+    "help wanted"
+   ],
+   "updatedAt": "2026-07-08T20:10:08Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/6750",
+    "https://github.com/rclone/rclone/blob/HEAD/README.md",
+    "https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git",
+    "https://github.com/rclone/rclone/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 6893,
+   "title": "rc serve: files under a remote path containing \"]\" cannot be fetched via /[remote:path]/file",
+   "url": "https://github.com/rclone/rclone/issues/6893",
+   "labels": [
+    "bug",
+    "help wanted",
+    "Web GUI",
+    "API / Remote Control / RC"
+   ],
+   "updatedAt": "2026-10-15T18:51:30Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #10096 by @BeganovR is already open against this issue",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/pull/10096",
+    "https://github.com/rclone/rclone/pull/10099"
+   ]
+  },
+  {
+   "number": 7027,
+   "title": "Prevent HEAD call for Azure Blob",
+   "url": "https://github.com/rclone/rclone/issues/7027",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "Remote: Azure Blob"
+   ],
+   "updatedAt": "2024-04-23T15:01:19Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #7813 by @moqmar is already open against this issue",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/pull/7813"
+   ]
+  },
+  {
+   "number": 7117,
+   "title": "[http remote] Support Internet Archive archive (zip, etc) listing",
+   "url": "https://github.com/rclone/rclone/issues/7117",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "Remote: Internet Archive"
+   ],
+   "updatedAt": "2025-04-05T17:35:32Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/7117",
+    "https://github.com/rclone/rclone/blob/HEAD/README.md",
+    "https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git",
+    "https://github.com/rclone/rclone/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 7123,
+   "title": "Feature Request: NFS storage backend",
+   "url": "https://github.com/rclone/rclone/issues/7123",
+   "labels": [
+    "new backend",
+    "help wanted"
+   ],
+   "updatedAt": "2024-10-24T16:36:09Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/7123",
+    "https://github.com/rclone/rclone/blob/HEAD/README.md",
+    "https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git",
+    "https://github.com/rclone/rclone/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 7172,
+   "title": "CephFS Backend",
+   "url": "https://github.com/rclone/rclone/issues/7172",
+   "labels": [
+    "new backend",
+    "help wanted",
+    "waiting for upstream..."
+   ],
+   "updatedAt": "2026-05-06T17:44:22Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #6632 by @darthShadow is already open against this issue",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/6632"
+   ]
+  },
+  {
+   "number": 7186,
+   "title": "support prism storage as a provider ",
+   "url": "https://github.com/rclone/rclone/issues/7186",
+   "labels": [
+    "new backend",
+    "help wanted"
+   ],
+   "updatedAt": "2024-08-27T03:45:57Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/7186",
+    "https://github.com/rclone/rclone/blob/HEAD/README.md",
+    "https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git",
+    "https://github.com/rclone/rclone/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 7212,
+   "title": "Untrash/restore file in Dropbox",
+   "url": "https://github.com/rclone/rclone/issues/7212",
+   "labels": [
+    "enhancement",
+    "Remote: Dropbox",
+    "help wanted"
+   ],
+   "updatedAt": "2025-11-18T17:09:24Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @zinodaur 360 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/7212#issuecomment-3539051349",
+    "https://github.com/rclone/rclone/issues/7212",
+    "https://github.com/rclone/rclone/blob/HEAD/README.md",
+    "https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git",
+    "https://github.com/rclone/rclone/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 7310,
+   "title": "Support `mode`, `uid`, `gid`, `atime`, `mtime` metadata for SFTP",
+   "url": "https://github.com/rclone/rclone/issues/7310",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2026-04-21T00:43:20Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #9631 by @GlassOnTin is already open against this issue",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/pull/9631",
+    "https://github.com/Jeremaya25/prdrive/pull/191"
+   ]
+  },
+  {
+   "number": 7311,
+   "title": "Support metadata `mode`, `uid`, `gid`, `atime`, `mtime` for `rclone mount`",
+   "url": "https://github.com/rclone/rclone/issues/7311",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2024-09-10T20:09:28Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #8175 by @darthShadow is already open against this issue",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/pull/8175"
+   ]
+  },
+  {
+   "number": 7314,
+   "title": "Default to secure credentials storage in \"rclone config\" etc",
+   "url": "https://github.com/rclone/rclone/issues/7314",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2025-07-15T21:09:47Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "PR #7688 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nix-community/home-manager/pull/7688",
+    "https://github.com/github/gh-aw-firewall/pull/699",
+    "https://github.com/rclone/rclone/issues/7314",
+    "https://github.com/rclone/rclone/blob/HEAD/README.md",
+    "https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git",
+    "https://github.com/rclone/rclone/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 7315,
+   "title": "plan to issue a fuzz driver to OSS-Fuzz",
+   "url": "https://github.com/rclone/rclone/issues/7315",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2025-01-13T12:14:45Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/7315",
+    "https://github.com/rclone/rclone/blob/HEAD/README.md",
+    "https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git",
+    "https://github.com/rclone/rclone/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 7360,
+   "title": "New remote support: Darkibox (Powered by XFileSharing)",
+   "url": "https://github.com/rclone/rclone/issues/7360",
+   "labels": [
+    "new backend",
+    "help wanted"
+   ],
+   "updatedAt": "2024-10-21T03:06:03Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #9334 by @appfolder is already open against this issue",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/pull/9334"
+   ]
+  },
+  {
+   "number": 7477,
+   "title": "Add support for Disbox",
+   "url": "https://github.com/rclone/rclone/issues/7477",
+   "labels": [
+    "new backend",
+    "help wanted"
+   ],
+   "updatedAt": "2024-04-22T23:52:05Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/7477",
+    "https://github.com/rclone/rclone/blob/HEAD/README.md",
+    "https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git",
+    "https://github.com/rclone/rclone/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 7496,
+   "title": "add terabox.app",
+   "url": "https://github.com/rclone/rclone/issues/7496",
+   "labels": [
+    "new backend",
+    "help wanted"
+   ],
+   "updatedAt": "2026-08-20T16:02:55Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #8508 by @x1arch is already open against this issue",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/pull/8508"
+   ]
+  },
+  {
+   "number": 7630,
+   "title": "YouTube Music personal library",
+   "url": "https://github.com/rclone/rclone/issues/7630",
+   "labels": [
+    "new backend",
+    "help wanted"
+   ],
+   "updatedAt": "2024-05-08T18:23:07Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/7630",
+    "https://github.com/rclone/rclone/blob/HEAD/README.md",
+    "https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git",
+    "https://github.com/rclone/rclone/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 7642,
+   "title": "Feature request: cleanup: keep n newest versions",
+   "url": "https://github.com/rclone/rclone/issues/7642",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2025-01-16T15:14:14Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/7642",
+    "https://github.com/rclone/rclone/blob/HEAD/README.md",
+    "https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git",
+    "https://github.com/rclone/rclone/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 7715,
+   "title": "Docker-volume-plugin with rootless",
+   "url": "https://github.com/rclone/rclone/issues/7715",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2025-12-01T20:42:24Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/7715",
+    "https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git",
+    "https://github.com/rclone/rclone/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 7720,
+   "title": "Add option to delete or move any files or directories that cause errors",
+   "url": "https://github.com/rclone/rclone/issues/7720",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2025-01-14T14:49:50Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @nielash 925 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/7720#issuecomment-2085800377",
+    "https://github.com/rclone/rclone/issues/7720",
+    "https://github.com/rclone/rclone/blob/HEAD/README.md",
+    "https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git",
+    "https://github.com/rclone/rclone/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 7725,
+   "title": "Add adaptive --checkers=auto and make default",
+   "url": "https://github.com/rclone/rclone/issues/7725",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2025-01-14T14:53:46Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #10105 by @hfrmobile is already open against this issue",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/10105"
+   ]
+  },
+  {
+   "number": 7729,
+   "title": "WebDAV: Add support for metadata using PROPFIND/PROPPATCH",
+   "url": "https://github.com/rclone/rclone/issues/7729",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "Remote: WebDAV"
+   ],
+   "updatedAt": "2025-02-04T09:20:34Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #8904 by @denis-kudelin is already open against this issue",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/pull/8904"
+   ]
+  },
+  {
+   "number": 7734,
+   "title": "Change chunker default name_format to *.rc=###",
+   "url": "https://github.com/rclone/rclone/issues/7734",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "Remote: Chunker"
+   ],
+   "updatedAt": "2025-01-14T14:56:02Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #10182 by @Skillkiller is already open against this issue",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/pull/10182"
+   ]
+  },
+  {
+   "number": 7738,
+   "title": "Different output formatting for lsjson with --stat",
+   "url": "https://github.com/rclone/rclone/issues/7738",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2025-01-14T14:57:05Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #9032 by @albertony is already open against this issue",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/pull/9032"
+   ]
+  },
+  {
+   "number": 7818,
+   "title": "Hasher: trust cached sum",
+   "url": "https://github.com/rclone/rclone/issues/7818",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "Remote: Hasher"
+   ],
+   "updatedAt": "2025-05-27T14:22:42Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #9307 by @abhishek593 is already open against this issue",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/pull/9307"
+   ]
+  },
+  {
+   "number": 7842,
+   "title": "Fail on missing files when using `--files-from=`",
+   "url": "https://github.com/rclone/rclone/issues/7842",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "filtering"
+   ],
+   "updatedAt": "2026-07-11T07:05:49Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #9598 by @emyasa is already open against this issue",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/pull/9598"
+   ]
+  },
+  {
+   "number": 7976,
+   "title": "Support git-annex special remote ASYNC extension",
+   "url": "https://github.com/rclone/rclone/issues/7976",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2025-08-19T16:23:52Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "already assigned to @dmcardle",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/7976"
+   ]
+  },
+  {
+   "number": 7977,
+   "title": "Add support for transfer throttling to rclone",
+   "url": "https://github.com/rclone/rclone/issues/7977",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2025-05-10T19:19:28Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/7977",
+    "https://github.com/rclone/rclone/blob/HEAD/README.md",
+    "https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git",
+    "https://github.com/rclone/rclone/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 8003,
+   "title": "[ProtonDrive] Signature Verification Error: No matching signature",
+   "url": "https://github.com/rclone/rclone/issues/8003",
+   "labels": [
+    "bug",
+    "help wanted",
+    "Remote: Proton Drive"
+   ],
+   "updatedAt": "2026-07-29T20:34:21Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #6 by @cnighswonger is already open against this issue",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/Proton-API-Bridge/pull/6",
+    "https://github.com/rclone/go-proton-api/pull/8"
+   ]
+  },
+  {
+   "number": 8026,
+   "title": "snap2html",
+   "url": "https://github.com/rclone/rclone/issues/8026",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2025-03-06T06:21:41Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/8026",
+    "https://github.com/rclone/rclone/blob/HEAD/README.md",
+    "https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git",
+    "https://github.com/rclone/rclone/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 8049,
+   "title": "Publish & tag beta versions of rclone/docker-volume-rclone",
+   "url": "https://github.com/rclone/rclone/issues/8049",
+   "labels": [
+    "good first issue",
+    "help wanted"
+   ],
+   "updatedAt": "2025-12-11T07:29:37Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #8560 by @jezeniel is already open against this issue",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/pull/8560"
+   ]
+  },
+  {
+   "number": 8091,
+   "title": "Idea: Queries and Selectors",
+   "url": "https://github.com/rclone/rclone/issues/8091",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2026-03-21T19:46:19Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/8091",
+    "https://github.com/rclone/rclone/blob/HEAD/README.md",
+    "https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git",
+    "https://github.com/rclone/rclone/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 8097,
+   "title": "Making your own OneDrive client to avoid shared quota? When GUI is unavailable, try the CLI! (rclone docs enhancement)",
+   "url": "https://github.com/rclone/rclone/issues/8097",
+   "labels": [
+    "doc fix",
+    "Remote: One Drive",
+    "help wanted"
+   ],
+   "updatedAt": "2025-01-15T14:47:56Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/8097",
+    "https://github.com/rclone/rclone/blob/HEAD/README.md",
+    "https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git",
+    "https://github.com/rclone/rclone/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 8135,
+   "title": "Session info wipe unnecessarily cuts connection to Proton Drive (error 422)",
+   "url": "https://github.com/rclone/rclone/issues/8135",
+   "labels": [
+    "help wanted",
+    "Remote: Proton Drive"
+   ],
+   "updatedAt": "2026-09-07T04:21:00Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #9881 by @jomplox is already open against this issue",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/pull/9881"
+   ]
+  },
+  {
+   "number": 8142,
+   "title": "[1.68] Ceph, Failed to read metadata: operation error S3: HeadObject,  https response error StatusCode: 403",
+   "url": "https://github.com/rclone/rclone/issues/8142",
+   "labels": [
+    "question",
+    "help wanted"
+   ],
+   "updatedAt": "2025-01-17T15:33:33Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "labelled `question` — scope may not be settled yet (+1 more)",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/8142",
+    "https://github.com/rclone/rclone/blob/HEAD/README.md",
+    "https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git",
+    "https://github.com/rclone/rclone/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 8176,
+   "title": "Handle 'bundle' directories correctly with iCloud Drive mounts",
+   "url": "https://github.com/rclone/rclone/issues/8176",
+   "labels": [
+    "bug",
+    "help wanted",
+    "Remote: iCloud Drive"
+   ],
+   "updatedAt": "2025-03-27T07:01:07Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #9798 by @eissen-nessie is already open against this issue",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/9798",
+    "https://github.com/rclone/rclone/issues/8404"
+   ]
+  },
+  {
+   "number": 8178,
+   "title": "Remove cached objects when they are deleted in remote",
+   "url": "https://github.com/rclone/rclone/issues/8178",
+   "labels": [
+    "enhancement",
+    "VFS / mount",
+    "help wanted"
+   ],
+   "updatedAt": "2025-10-07T07:18:32Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #9876 by @bjornpagen is already open against this issue",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/9876"
+   ]
+  },
+  {
+   "number": 8244,
+   "title": "Google Photos upload issue",
+   "url": "https://github.com/rclone/rclone/issues/8244",
+   "labels": [
+    "Remote: Drive",
+    "help wanted",
+    "Remote: Google Photos"
+   ],
+   "updatedAt": "2025-01-15T15:28:16Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/8244",
+    "https://github.com/rclone/rclone/blob/HEAD/README.md",
+    "https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git",
+    "https://github.com/rclone/rclone/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 8322,
+   "title": "[Feature Request] New storage system: Thumbnails",
+   "url": "https://github.com/rclone/rclone/issues/8322",
+   "labels": [
+    "new backend",
+    "help wanted"
+   ],
+   "updatedAt": "2025-02-10T19:03:25Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/8322",
+    "https://github.com/rclone/rclone/blob/HEAD/README.md",
+    "https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git",
+    "https://github.com/rclone/rclone/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 8421,
+   "title": "Feature request for DefraDB support",
+   "url": "https://github.com/rclone/rclone/issues/8421",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2025-03-18T17:59:01Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/8421",
+    "https://github.com/rclone/rclone/blob/HEAD/README.md",
+    "https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git",
+    "https://github.com/rclone/rclone/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 8452,
+   "title": "IMAP backend support",
+   "url": "https://github.com/rclone/rclone/issues/8452",
+   "labels": [
+    "new backend",
+    "help wanted"
+   ],
+   "updatedAt": "2025-04-01T14:18:38Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #9208 by @fawzibr is already open against this issue",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/pull/9208"
+   ]
+  },
+  {
+   "number": 8477,
+   "title": "Can Rclone support \"Clear Data\" feature with ftp remote in TLS mode?",
+   "url": "https://github.com/rclone/rclone/issues/8477",
+   "labels": [
+    "enhancement",
+    "Remote: FTP",
+    "help wanted"
+   ],
+   "updatedAt": "2025-10-09T09:38:37Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/8477",
+    "https://github.com/rclone/rclone/blob/HEAD/README.md",
+    "https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git",
+    "https://github.com/rclone/rclone/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 8504,
+   "title": "Is it possible to add febbox",
+   "url": "https://github.com/rclone/rclone/issues/8504",
+   "labels": [
+    "new backend",
+    "help wanted"
+   ],
+   "updatedAt": "2025-12-28T13:20:15Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @sachienpk 319 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/8504#issuecomment-3694050626",
+    "https://github.com/rclone/rclone/issues/8504",
+    "https://github.com/rclone/rclone/blob/HEAD/README.md",
+    "https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git",
+    "https://github.com/rclone/rclone/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 8562,
+   "title": "Add Ente.io support",
+   "url": "https://github.com/rclone/rclone/issues/8562",
+   "labels": [
+    "new backend",
+    "help wanted"
+   ],
+   "updatedAt": "2025-06-09T20:53:41Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "open 18 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/8562",
+    "https://github.com/rclone/rclone/blob/HEAD/README.md",
+    "https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git",
+    "https://github.com/rclone/rclone/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 8566,
+   "title": "Add support for conditional writes to `rclone serve s3`",
+   "url": "https://github.com/rclone/rclone/issues/8566",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "dependencies",
+    "serve s3"
+   ],
+   "updatedAt": "2026-09-11T22:16:52Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #19 by @Spaceghost is already open against this issue",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/Spaceghost/rclone/pull/19"
+   ]
+  },
+  {
+   "number": 8731,
+   "title": "Onboarding UX Improvements (less confusing)",
+   "url": "https://github.com/rclone/rclone/issues/8731",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "configuration"
+   ],
+   "updatedAt": "2025-08-06T15:11:42Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/issues/8731",
+    "https://github.com/rclone/rclone/blob/HEAD/README.md",
+    "https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git",
+    "https://github.com/rclone/rclone/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 10118,
+   "title": "chunker: a failed chunk copy or move is ignored, truncating the file",
+   "url": "https://github.com/rclone/rclone/issues/10118",
+   "labels": [
+    "bug",
+    "good first issue",
+    "Remote: Chunker"
+   ],
+   "updatedAt": "2026-10-18T12:50:26Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #10126 by @BeganovR is already open against this issue",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/pull/10126"
+   ]
+  },
+  {
+   "number": 10119,
+   "title": "config: data race when concurrent rc calls first load the config",
+   "url": "https://github.com/rclone/rclone/issues/10119",
+   "labels": [
+    "bug",
+    "good first issue",
+    "configuration",
+    "API / Remote Control / RC",
+    "concurrency",
+    "librclone"
+   ],
+   "updatedAt": "2026-10-18T12:13:57Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #10134 by @mohammednumaan is already open against this issue",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/pull/10134"
+   ]
+  },
+  {
+   "number": 10195,
+   "title": "archive: objects outside archives aren't wrapped, so moving one onto its own name deletes it",
+   "url": "https://github.com/rclone/rclone/issues/10195",
+   "labels": [
+    "bug",
+    "good first issue"
+   ],
+   "updatedAt": "2026-10-27T21:41:40Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #10196 by @pcbeingused333 is already open against this issue",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/pull/10196",
+    "https://github.com/rclone/rclone/pull/10228"
+   ]
+  },
+  {
+   "number": 10246,
+   "title": "ncdu: backing out of a delete with Esc, then pressing Enter, deletes anyway",
+   "url": "https://github.com/rclone/rclone/issues/10246",
+   "labels": [
+    "bug",
+    "good first issue",
+    "terminal"
+   ],
+   "updatedAt": "2026-11-04T02:02:21Z",
+   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "PR #10247 by @Vivek1898 is already open against this issue",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/pull/10247"
+   ]
+  }
+ ]
+}

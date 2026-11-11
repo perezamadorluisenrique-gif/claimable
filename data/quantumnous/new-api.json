@@ -1,0 +1,9 @@
+{
+ "owner": "QuantumNous",
+ "repo": "new-api",
+ "language": "Go",
+ "stars": 51702,
+ "description": "Open-source AI gateway. Self-hosted LLM gateway with OpenAI-, Claude- and Gemini-compatible APIs, model routing, access control, usage tracking and cost accounting.",
+ "visitedAt": "2026-11-11T15:17:00.117Z",
+ "issues": []
+}
