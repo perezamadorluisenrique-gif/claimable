@@ -1,0 +1,27 @@
+{
+ "owner": "google",
+ "repo": "leveldb",
+ "language": "C++",
+ "stars": 39535,
+ "description": "LevelDB is a fast key-value storage library written at Google that provides an ordered mapping from string keys to string values.",
+ "visitedAt": "2026-11-12T11:19:29.437Z",
+ "issues": [
+  {
+   "number": 863,
+   "title": "Make background thread stoppable",
+   "url": "https://github.com/google/leveldb/issues/863",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2021-02-12T01:30:22Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "nothing has been merged in 246 days",
+   "evidence": [
+    "https://github.com/google/leveldb — pushed_at 2026-10-08T19:15:30Z",
+    "https://github.com/google/leveldb/pulls?q=is%3Apr+is%3Amerged"
+   ]
+  }
+ ]
+}

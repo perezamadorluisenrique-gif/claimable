@@ -1,0 +1,28 @@
+{
+ "owner": "BeyondDimension",
+ "repo": "SteamTools",
+ "language": "C#",
+ "stars": 27488,
+ "description": "🛠「Watt Toolkit」是一个开源跨平台的多功能 Steam 工具箱。",
+ "visitedAt": "2026-11-12T11:19:29.437Z",
+ "issues": [
+  {
+   "number": 2129,
+   "title": "iOS 3.x新版Steam抓包导出令牌方法 - 免越狱免降级免备份",
+   "url": "https://github.com/BeyondDimension/SteamTools/issues/2129",
+   "labels": [
+    "documentation",
+    "good first issue",
+    "question"
+   ],
+   "updatedAt": "2026-02-04T14:15:17Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #2276 by @MuelNova is already open against this issue",
+   "evidence": [
+    "https://github.com/BeyondDimension/SteamTools/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/BeyondDimension/SteamTools/issues/2276"
+   ]
+  }
+ ]
+}

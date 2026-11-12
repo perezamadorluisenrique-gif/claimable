@@ -1,0 +1,790 @@
+{
+ "owner": "x64dbg",
+ "repo": "x64dbg",
+ "language": "C++",
+ "stars": 50268,
+ "description": "An open-source user mode debugger for Windows. Optimized for reverse engineering and malware analysis.",
+ "visitedAt": "2026-11-12T11:19:29.437Z",
+ "issues": [
+  {
+   "number": 231,
+   "title": "implement script commands gmi, ref, reset, opcode",
+   "url": "https://github.com/x64dbg/x64dbg/issues/231",
+   "labels": [
+    "feature",
+    "good first issue"
+   ],
+   "updatedAt": "2016-11-01T13:38:06Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #2689 by @htdag is already open against this issue",
+   "evidence": [
+    "https://github.com/x64dbg/x64dbg/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/x64dbg/x64dbg/issues/2689"
+   ]
+  },
+  {
+   "number": 505,
+   "title": "Update like FireFox about section",
+   "url": "https://github.com/x64dbg/x64dbg/issues/505",
+   "labels": [
+    "feature",
+    "gui",
+    "good first issue"
+   ],
+   "updatedAt": "2025-03-29T11:29:05Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #2689 by @htdag is already open against this issue",
+   "evidence": [
+    "https://github.com/x64dbg/x64dbg/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/x64dbg/x64dbg/issues/2689"
+   ]
+  },
+  {
+   "number": 770,
+   "title": "add auto jump reverting",
+   "url": "https://github.com/x64dbg/x64dbg/issues/770",
+   "labels": [
+    "feature",
+    "gui",
+    "good first issue"
+   ],
+   "updatedAt": "2016-11-01T13:38:06Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #2689 by @htdag is already open against this issue",
+   "evidence": [
+    "https://github.com/x64dbg/x64dbg/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/x64dbg/x64dbg/issues/2689"
+   ]
+  },
+  {
+   "number": 771,
+   "title": "paste from various data formats",
+   "url": "https://github.com/x64dbg/x64dbg/issues/771",
+   "labels": [
+    "feature",
+    "gui",
+    "good first issue"
+   ],
+   "updatedAt": "2018-11-05T15:21:01Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/x64dbg/x64dbg/wiki/Compiling-the-whole-project) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/x64dbg/x64dbg/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/x64dbg/x64dbg/issues/771",
+    "https://github.com/x64dbg/x64dbg/wiki/Compiling-the-whole-project",
+    "https://github.com/x64dbg/x64dbg/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 778,
+   "title": "allow specification of custom calling conventions",
+   "url": "https://github.com/x64dbg/x64dbg/issues/778",
+   "labels": [
+    "feature",
+    "gui",
+    "good first issue"
+   ],
+   "updatedAt": "2016-11-01T13:38:06Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "open 126 months with no human comment, in a repo pushed to 3 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+2 more)",
+   "evidence": [
+    "https://github.com/x64dbg/x64dbg/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/x64dbg/x64dbg/issues/778",
+    "https://github.com/x64dbg/x64dbg/wiki/Compiling-the-whole-project",
+    "https://github.com/x64dbg/x64dbg/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 837,
+   "title": "Display exception handlers in the GUI",
+   "url": "https://github.com/x64dbg/x64dbg/issues/837",
+   "labels": [
+    "feature",
+    "gui",
+    "good first issue"
+   ],
+   "updatedAt": "2016-11-01T13:38:06Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/x64dbg/x64dbg/wiki/Compiling-the-whole-project) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/x64dbg/x64dbg/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/x64dbg/x64dbg/issues/837",
+    "https://github.com/x64dbg/x64dbg/wiki/Compiling-the-whole-project",
+    "https://github.com/x64dbg/x64dbg/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 838,
+   "title": "Feature request: Right click submenu option for Watch",
+   "url": "https://github.com/x64dbg/x64dbg/issues/838",
+   "labels": [
+    "enhancement",
+    "gui",
+    "good first issue"
+   ],
+   "updatedAt": "2016-11-01T13:38:06Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #2689 by @htdag is already open against this issue",
+   "evidence": [
+    "https://github.com/x64dbg/x64dbg/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/x64dbg/x64dbg/issues/2689"
+   ]
+  },
+  {
+   "number": 952,
+   "title": "check if xref analysis was done",
+   "url": "https://github.com/x64dbg/x64dbg/issues/952",
+   "labels": [
+    "enhancement",
+    "gui",
+    "good first issue"
+   ],
+   "updatedAt": "2025-03-02T13:26:45Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #1626 by @ttimasdf is already open against this issue",
+   "evidence": [
+    "https://github.com/x64dbg/x64dbg/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/x64dbg/x64dbg/issues/1626"
+   ]
+  },
+  {
+   "number": 1155,
+   "title": "move RegisterView to MenuBuilder",
+   "url": "https://github.com/x64dbg/x64dbg/issues/1155",
+   "labels": [
+    "gui",
+    "good first issue"
+   ],
+   "updatedAt": "2023-08-15T07:41:03Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "open 123 months with no human comment, in a repo pushed to 3 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+2 more)",
+   "evidence": [
+    "https://github.com/x64dbg/x64dbg/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/x64dbg/x64dbg/issues/1155",
+    "https://github.com/x64dbg/x64dbg/wiki/Compiling-the-whole-project",
+    "https://github.com/x64dbg/x64dbg/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 1167,
+   "title": "character value auto comments on ASCII for PUSH and copy mnemonic from comments",
+   "url": "https://github.com/x64dbg/x64dbg/issues/1167",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2016-11-01T13:38:07Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "open 123 months with no human comment, in a repo pushed to 3 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+2 more)",
+   "evidence": [
+    "https://github.com/x64dbg/x64dbg/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/x64dbg/x64dbg/issues/1167",
+    "https://github.com/x64dbg/x64dbg/wiki/Compiling-the-whole-project",
+    "https://github.com/x64dbg/x64dbg/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 1261,
+   "title": "Go to user or system stack frame in stack view",
+   "url": "https://github.com/x64dbg/x64dbg/issues/1261",
+   "labels": [
+    "enhancement",
+    "gui",
+    "good first issue"
+   ],
+   "updatedAt": "2016-11-17T16:17:57Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "open 122 months with no human comment, in a repo pushed to 3 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+2 more)",
+   "evidence": [
+    "https://github.com/x64dbg/x64dbg/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/x64dbg/x64dbg/issues/1261",
+    "https://github.com/x64dbg/x64dbg/wiki/Compiling-the-whole-project",
+    "https://github.com/x64dbg/x64dbg/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 1279,
+   "title": "add module tab to reference view",
+   "url": "https://github.com/x64dbg/x64dbg/issues/1279",
+   "labels": [
+    "enhancement",
+    "gui",
+    "good first issue"
+   ],
+   "updatedAt": "2016-11-22T18:05:55Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/x64dbg/x64dbg/wiki/Compiling-the-whole-project) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/x64dbg/x64dbg/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/x64dbg/x64dbg/issues/1279",
+    "https://github.com/x64dbg/x64dbg/wiki/Compiling-the-whole-project",
+    "https://github.com/x64dbg/x64dbg/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 1322,
+   "title": "hotkeys for different dump views",
+   "url": "https://github.com/x64dbg/x64dbg/issues/1322",
+   "labels": [
+    "enhancement",
+    "gui",
+    "good first issue"
+   ],
+   "updatedAt": "2017-10-05T15:20:04Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "PR #3789 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/x64dbg/x64dbg/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/x64dbg/x64dbg/pull/3789",
+    "https://github.com/x64dbg/x64dbg/issues/1322",
+    "https://github.com/x64dbg/x64dbg/wiki/Compiling-the-whole-project",
+    "https://github.com/x64dbg/x64dbg/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 1494,
+   "title": "findasm for one instruction",
+   "url": "https://github.com/x64dbg/x64dbg/issues/1494",
+   "labels": [
+    "feature",
+    "good first issue"
+   ],
+   "updatedAt": "2017-03-23T13:07:08Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (http://x64dbg.readthedocs.io/en/latest/commands/searching/findasm.html) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/x64dbg/x64dbg/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/x64dbg/x64dbg/issues/1494",
+    "http://x64dbg.readthedocs.io/en/latest/commands/searching/findasm.html",
+    "https://github.com/x64dbg/x64dbg/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 1513,
+   "title": "Memory Breakpoints with smaller than page size",
+   "url": "https://github.com/x64dbg/x64dbg/issues/1513",
+   "labels": [
+    "good first issue",
+    "bug",
+    "priority"
+   ],
+   "updatedAt": "2025-11-16T14:18:37Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/x64dbg/x64dbg/wiki/Compiling-the-whole-project) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/x64dbg/x64dbg/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/x64dbg/x64dbg/issues/1513",
+    "https://github.com/x64dbg/x64dbg/wiki/Compiling-the-whole-project",
+    "https://github.com/x64dbg/x64dbg/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 1588,
+   "title": "Info box: show the number too, not only the label",
+   "url": "https://github.com/x64dbg/x64dbg/issues/1588",
+   "labels": [
+    "enhancement",
+    "gui",
+    "good first issue"
+   ],
+   "updatedAt": "2017-10-07T23:38:03Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "PR #1745 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/x64dbg/x64dbg/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/x64dbg/x64dbg/pull/1745",
+    "https://github.com/x64dbg/x64dbg/issues/1588",
+    "https://github.com/x64dbg/x64dbg/wiki/Compiling-the-whole-project",
+    "https://github.com/x64dbg/x64dbg/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 1631,
+   "title": "Add legend for colored Basic Blocks in Graph Overview",
+   "url": "https://github.com/x64dbg/x64dbg/issues/1631",
+   "labels": [
+    "enhancement",
+    "gui",
+    "good first issue"
+   ],
+   "updatedAt": "2017-06-29T20:42:23Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/x64dbg/x64dbg/wiki/Compiling-the-whole-project) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/x64dbg/x64dbg/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/x64dbg/x64dbg/issues/1631",
+    "https://github.com/x64dbg/x64dbg/wiki/Compiling-the-whole-project",
+    "https://github.com/x64dbg/x64dbg/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 1957,
+   "title": "Address with ASCII dump",
+   "url": "https://github.com/x64dbg/x64dbg/issues/1957",
+   "labels": [
+    "feature",
+    "gui",
+    "good first issue"
+   ],
+   "updatedAt": "2023-03-02T09:47:09Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/x64dbg/x64dbg/wiki/Compiling-the-whole-project) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/x64dbg/x64dbg/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/x64dbg/x64dbg/issues/1957",
+    "https://github.com/x64dbg/x64dbg/wiki/Compiling-the-whole-project",
+    "https://github.com/x64dbg/x64dbg/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2019,
+   "title": "Run until instruction doesn't run at all if the selected instruction is IP",
+   "url": "https://github.com/x64dbg/x64dbg/issues/2019",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2018-12-16T15:59:18Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #2233 by @Vityacv is already open against this issue",
+   "evidence": [
+    "https://github.com/x64dbg/x64dbg/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/x64dbg/x64dbg/issues/2233",
+    "https://github.com/x64dbg/x64dbg/issues/2229",
+    "https://github.com/x64dbg/x64dbg/issues/2172",
+    "https://github.com/x64dbg/x64dbg/issues/1970",
+    "https://github.com/x64dbg/x64dbg/issues/2157",
+    "https://github.com/x64dbg/x64dbg/issues/2125",
+    "https://github.com/x64dbg/x64dbg/issues/2169",
+    "https://github.com/x64dbg/x64dbg/issues/2249",
+    "https://github.com/x64dbg/x64dbg/issues/1887"
+   ]
+  },
+  {
+   "number": 2103,
+   "title": "SEH page refresh",
+   "url": "https://github.com/x64dbg/x64dbg/issues/2103",
+   "labels": [
+    "enhancement",
+    "gui",
+    "good first issue"
+   ],
+   "updatedAt": "2020-04-16T22:41:27Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "open 95 months with no human comment, in a repo pushed to 3 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+2 more)",
+   "evidence": [
+    "https://github.com/x64dbg/x64dbg/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/x64dbg/x64dbg/issues/2103",
+    "https://github.com/x64dbg/x64dbg/wiki/Compiling-the-whole-project",
+    "https://github.com/x64dbg/x64dbg/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2356,
+   "title": "Change default color for unusual instructions",
+   "url": "https://github.com/x64dbg/x64dbg/issues/2356",
+   "labels": [
+    "enhancement",
+    "gui",
+    "good first issue"
+   ],
+   "updatedAt": "2021-06-04T01:49:20Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @Shiva-ansh 1996 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/x64dbg/x64dbg/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/x64dbg/x64dbg/issues/2356#issuecomment-848419914",
+    "https://github.com/x64dbg/x64dbg/issues/2356",
+    "https://github.com/x64dbg/x64dbg/wiki/Compiling-the-whole-project",
+    "https://github.com/x64dbg/x64dbg/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2382,
+   "title": "in graph mode highlight the jump to be",
+   "url": "https://github.com/x64dbg/x64dbg/issues/2382",
+   "labels": [
+    "enhancement",
+    "gui",
+    "good first issue"
+   ],
+   "updatedAt": "2025-03-02T13:14:04Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "open 78 months with no human comment, in a repo pushed to 3 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+2 more)",
+   "evidence": [
+    "https://github.com/x64dbg/x64dbg/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/x64dbg/x64dbg/issues/2382",
+    "https://github.com/x64dbg/x64dbg/wiki/Compiling-the-whole-project",
+    "https://github.com/x64dbg/x64dbg/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2383,
+   "title": "Two DLLs with the same name - can't load symbols",
+   "url": "https://github.com/x64dbg/x64dbg/issues/2383",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2022-01-05T02:08:17Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/x64dbg/x64dbg/wiki/Compiling-the-whole-project) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/x64dbg/x64dbg/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/x64dbg/x64dbg/issues/2383",
+    "https://github.com/x64dbg/x64dbg/wiki/Compiling-the-whole-project",
+    "https://github.com/x64dbg/x64dbg/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2408,
+   "title": "Move all content of faq.x64dbg.com into CHM documentation",
+   "url": "https://github.com/x64dbg/x64dbg/issues/2408",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2026-03-01T21:15:30Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/x64dbg/x64dbg/wiki/Compiling-the-whole-project) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/x64dbg/x64dbg/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/x64dbg/x64dbg/issues/2408",
+    "https://github.com/x64dbg/x64dbg/wiki/Compiling-the-whole-project",
+    "https://github.com/x64dbg/x64dbg/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2515,
+   "title": "More actions in memory map",
+   "url": "https://github.com/x64dbg/x64dbg/issues/2515",
+   "labels": [
+    "enhancement",
+    "gui",
+    "good first issue"
+   ],
+   "updatedAt": "2021-10-11T08:45:32Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "PR #2701 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+3 more)",
+   "evidence": [
+    "https://github.com/x64dbg/x64dbg/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/x64dbg/x64dbg/pull/2701",
+    "https://github.com/x64dbg/x64dbg/issues/2515",
+    "https://github.com/x64dbg/x64dbg/wiki/Compiling-the-whole-project",
+    "https://github.com/x64dbg/x64dbg/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2543,
+   "title": "Remove analysis data from selection, from module",
+   "url": "https://github.com/x64dbg/x64dbg/issues/2543",
+   "labels": [
+    "feature",
+    "gui",
+    "good first issue"
+   ],
+   "updatedAt": "2022-01-05T01:57:47Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "open 72 months with no human comment, in a repo pushed to 3 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+2 more)",
+   "evidence": [
+    "https://github.com/x64dbg/x64dbg/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/x64dbg/x64dbg/issues/2543",
+    "https://github.com/x64dbg/x64dbg/wiki/Compiling-the-whole-project",
+    "https://github.com/x64dbg/x64dbg/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2553,
+   "title": "Script IDE",
+   "url": "https://github.com/x64dbg/x64dbg/issues/2553",
+   "labels": [
+    "feature",
+    "gui",
+    "good first issue"
+   ],
+   "updatedAt": "2022-01-05T01:46:09Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/x64dbg/x64dbg/wiki/Compiling-the-whole-project) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/x64dbg/x64dbg/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/x64dbg/x64dbg/issues/2553",
+    "https://github.com/x64dbg/x64dbg/wiki/Compiling-the-whole-project",
+    "https://github.com/x64dbg/x64dbg/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2580,
+   "title": "Add exanalyse to the analysis menu on x64",
+   "url": "https://github.com/x64dbg/x64dbg/issues/2580",
+   "labels": [
+    "enhancement",
+    "gui",
+    "good first issue"
+   ],
+   "updatedAt": "2022-01-05T01:39:11Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "open 71 months with no human comment, in a repo pushed to 3 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+2 more)",
+   "evidence": [
+    "https://github.com/x64dbg/x64dbg/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/x64dbg/x64dbg/issues/2580",
+    "https://github.com/x64dbg/x64dbg/wiki/Compiling-the-whole-project",
+    "https://github.com/x64dbg/x64dbg/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2589,
+   "title": "how to set BP on the selected commands in list? ",
+   "url": "https://github.com/x64dbg/x64dbg/issues/2589",
+   "labels": [
+    "gui",
+    "good first issue"
+   ],
+   "updatedAt": "2022-01-05T01:36:03Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "PR #2901 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/x64dbg/x64dbg/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/x64dbg/x64dbg/pull/2901",
+    "https://github.com/x64dbg/x64dbg/issues/2589",
+    "https://github.com/x64dbg/x64dbg/wiki/Compiling-the-whole-project",
+    "https://github.com/x64dbg/x64dbg/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2598,
+   "title": "A few suggestions of UI",
+   "url": "https://github.com/x64dbg/x64dbg/issues/2598",
+   "labels": [
+    "enhancement",
+    "gui",
+    "good first issue"
+   ],
+   "updatedAt": "2021-10-11T08:39:09Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "PR #2620 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/x64dbg/x64dbg/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/x64dbg/x64dbg/pull/2620",
+    "https://github.com/x64dbg/x64dbg/issues/2598",
+    "https://github.com/x64dbg/x64dbg/wiki/Compiling-the-whole-project",
+    "https://github.com/x64dbg/x64dbg/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2689,
+   "title": "Memory search - Find pattern very slow",
+   "url": "https://github.com/x64dbg/x64dbg/issues/2689",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2026-03-02T01:41:14Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "already assigned to @rajkumarananthu",
+   "evidence": [
+    "https://github.com/x64dbg/x64dbg/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/x64dbg/x64dbg/pull/3835",
+    "https://github.com/x64dbg/x64dbg/issues/2689",
+    "https://github.com/x64dbg/x64dbg/issues/2689#issuecomment-1046940170"
+   ]
+  },
+  {
+   "number": 2721,
+   "title": "How do I permanently set the Dump1 tab to show my EXE's \".data\" section?",
+   "url": "https://github.com/x64dbg/x64dbg/issues/2721",
+   "labels": [
+    "feature",
+    "good first issue"
+   ],
+   "updatedAt": "2021-10-11T08:18:17Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/x64dbg/x64dbg/wiki/Compiling-the-whole-project) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/x64dbg/x64dbg/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/x64dbg/x64dbg/issues/2721",
+    "https://github.com/x64dbg/x64dbg/wiki/Compiling-the-whole-project",
+    "https://github.com/x64dbg/x64dbg/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2746,
+   "title": "Indicator of active run trace in status bar",
+   "url": "https://github.com/x64dbg/x64dbg/issues/2746",
+   "labels": [
+    "feature",
+    "gui",
+    "good first issue"
+   ],
+   "updatedAt": "2024-07-21T10:41:41Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #4000 by @hasanerman is already open against this issue",
+   "evidence": [
+    "https://github.com/x64dbg/x64dbg/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/x64dbg/x64dbg/pull/4000"
+   ]
+  },
+  {
+   "number": 2831,
+   "title": "Use different icon in sidebar for conditional breakpoint",
+   "url": "https://github.com/x64dbg/x64dbg/issues/2831",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2022-02-09T10:42:17Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "open 58 months with no human comment, in a repo pushed to 3 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+2 more)",
+   "evidence": [
+    "https://github.com/x64dbg/x64dbg/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/x64dbg/x64dbg/issues/2831",
+    "https://github.com/x64dbg/x64dbg/wiki/Compiling-the-whole-project",
+    "https://github.com/x64dbg/x64dbg/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2833,
+   "title": "Ability to set initial directrory",
+   "url": "https://github.com/x64dbg/x64dbg/issues/2833",
+   "labels": [
+    "feature",
+    "gui",
+    "good first issue"
+   ],
+   "updatedAt": "2025-11-15T11:19:20Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #1593 by @justanotheranonymoususer is already open against this issue",
+   "evidence": [
+    "https://github.com/x64dbg/x64dbg/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/x64dbg/x64dbg/issues/1593"
+   ]
+  },
+  {
+   "number": 3123,
+   "title": "Trace Over System Calls Not Working",
+   "url": "https://github.com/x64dbg/x64dbg/issues/3123",
+   "labels": [
+    "feature",
+    "good first issue"
+   ],
+   "updatedAt": "2025-09-03T13:44:44Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/x64dbg/x64dbg/wiki/Compiling-the-whole-project) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/x64dbg/x64dbg/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/x64dbg/x64dbg/issues/3123",
+    "https://github.com/x64dbg/x64dbg/wiki/Compiling-the-whole-project",
+    "https://github.com/x64dbg/x64dbg/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 3139,
+   "title": "Make DbgIsJumpGoingToExecute also work for conditional instructions",
+   "url": "https://github.com/x64dbg/x64dbg/issues/3139",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2024-02-05T11:14:36Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/x64dbg/x64dbg/wiki/Compiling-the-whole-project) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/x64dbg/x64dbg/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/x64dbg/x64dbg/issues/3139",
+    "https://github.com/x64dbg/x64dbg/wiki/Compiling-the-whole-project",
+    "https://github.com/x64dbg/x64dbg/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 3159,
+   "title": "Review/remove asserts",
+   "url": "https://github.com/x64dbg/x64dbg/issues/3159",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2023-11-12T22:08:45Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "open 40 months with no human comment, in a repo pushed to 3 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+2 more)",
+   "evidence": [
+    "https://github.com/x64dbg/x64dbg/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/x64dbg/x64dbg/issues/3159",
+    "https://github.com/x64dbg/x64dbg/wiki/Compiling-the-whole-project",
+    "https://github.com/x64dbg/x64dbg/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 3401,
+   "title": "Use high resolution icons instead of current 16x16 icons",
+   "url": "https://github.com/x64dbg/x64dbg/issues/3401",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2024-08-25T03:08:43Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/x64dbg/x64dbg/wiki/Compiling-the-whole-project) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/x64dbg/x64dbg/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/x64dbg/x64dbg/issues/3401",
+    "https://github.com/x64dbg/x64dbg/wiki/Compiling-the-whole-project",
+    "https://github.com/x64dbg/x64dbg/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 3443,
+   "title": "Ctrl+B find nothing",
+   "url": "https://github.com/x64dbg/x64dbg/issues/3443",
+   "labels": [
+    "enhancement",
+    "gui",
+    "good first issue"
+   ],
+   "updatedAt": "2025-03-25T17:37:11Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/x64dbg/x64dbg/wiki/Compiling-the-whole-project) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/x64dbg/x64dbg/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/x64dbg/x64dbg/issues/3443",
+    "https://github.com/x64dbg/x64dbg/wiki/Compiling-the-whole-project",
+    "https://github.com/x64dbg/x64dbg/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  }
+ ]
+}

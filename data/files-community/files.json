@@ -1,0 +1,259 @@
+{
+ "owner": "files-community",
+ "repo": "Files",
+ "language": "C#",
+ "stars": 46578,
+ "description": "A modern file manager that helps users organize their files and folders.",
+ "visitedAt": "2026-11-12T11:19:29.437Z",
+ "issues": [
+  {
+   "number": 1033,
+   "title": "Feature: Wrap file names in the grid layout",
+   "url": "https://github.com/files-community/Files/issues/1033",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-04-28T23:18:17Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "PR #10972 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/files-community/Files/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/files-community/Files/pull/10972",
+    "https://github.com/files-community/Files/pull/13852",
+    "https://github.com/files-community/Files/issues/1033",
+    "https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#manually-linking-a-pull-request-to-an-issue"
+   ]
+  },
+  {
+   "number": 4180,
+   "title": "Feature: Improving Performance, optimizations, reliability and codebase ",
+   "url": "https://github.com/files-community/Files/issues/4180",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-08T15:15:39Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "PR #4016 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+28 more)",
+   "evidence": [
+    "https://github.com/files-community/Files/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/files-community/Files/pull/4016",
+    "https://github.com/files-community/Files/pull/4189",
+    "https://github.com/files-community/Files/pull/4199",
+    "https://github.com/files-community/Files/pull/4209",
+    "https://github.com/files-community/Files/pull/4161",
+    "https://github.com/files-community/Files/pull/4218",
+    "https://github.com/files-community/Files/pull/4346",
+    "https://github.com/files-community/Files/pull/4448",
+    "https://github.com/files-community/Files/pull/4468"
+   ]
+  },
+  {
+   "number": 5845,
+   "title": "Feature: Everything search integration",
+   "url": "https://github.com/files-community/Files/issues/5845",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-05-13T17:00:28Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#manually-linking-a-pull-request-to-an-issue) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/files-community/Files/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/files-community/Files/issues/5845",
+    "https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#manually-linking-a-pull-request-to-an-issue"
+   ]
+  },
+  {
+   "number": 7275,
+   "title": "Feature: Please add multi-threaded copy support",
+   "url": "https://github.com/files-community/Files/issues/7275",
+   "labels": [
+    "help wanted",
+    "area - file operations"
+   ],
+   "updatedAt": "2026-07-19T02:16:02Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #18742 by @DarkEden-coding is already open against this issue",
+   "evidence": [
+    "https://github.com/files-community/Files/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/files-community/Files/pull/18742"
+   ]
+  },
+  {
+   "number": 10472,
+   "title": "Feature: Use IPTC Location metadata fields instead of reverse geocoding addresses",
+   "url": "https://github.com/files-community/Files/issues/10472",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2026-08-14T15:24:59Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @infraredCoding 92 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/files-community/Files/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/files-community/Files/issues/10472#issuecomment-5265696429",
+    "https://github.com/files-community/Files/issues/10472",
+    "https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#manually-linking-a-pull-request-to-an-issue"
+   ]
+  },
+  {
+   "number": 11735,
+   "title": "Bug: Drag and drop to some apps still fails",
+   "url": "https://github.com/files-community/Files/issues/11735",
+   "labels": [
+    "help wanted",
+    "area - file operations"
+   ],
+   "updatedAt": "2026-10-11T23:09:09Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "PR #16628 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/files-community/Files/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/files-community/Files/pull/16628",
+    "https://github.com/files-community/Files/issues/11735",
+    "https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#manually-linking-a-pull-request-to-an-issue"
+   ]
+  },
+  {
+   "number": 12014,
+   "title": "Bug: Network NAS is continuously accessed",
+   "url": "https://github.com/files-community/Files/issues/12014",
+   "labels": [
+    "help wanted",
+    "area - network drives"
+   ],
+   "updatedAt": "2024-10-07T14:58:40Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#manually-linking-a-pull-request-to-an-issue) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/files-community/Files/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/files-community/Files/issues/12014",
+    "https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#manually-linking-a-pull-request-to-an-issue"
+   ]
+  },
+  {
+   "number": 14011,
+   "title": "Bug: Don't select items that are created externally ",
+   "url": "https://github.com/files-community/Files/issues/14011",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-09-02T14:05:38Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #1 by @mangokingTW is already open against this issue",
+   "evidence": [
+    "https://github.com/files-community/Files/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/mangokingTW/Files/pull/1"
+   ]
+  },
+  {
+   "number": 14777,
+   "title": "Bug: Files stops responding while loading network share content",
+   "url": "https://github.com/files-community/Files/issues/14777",
+   "labels": [
+    "good first issue",
+    "crash",
+    "area - network drives"
+   ],
+   "updatedAt": "2026-11-09T23:11:15Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "PR #19014 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/files-community/Files/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/files-community/Files/pull/19014",
+    "https://github.com/files-community/Files/issues/14777#issuecomment-6221808256",
+    "https://github.com/files-community/Files/issues/14777",
+    "https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#manually-linking-a-pull-request-to-an-issue"
+   ]
+  },
+  {
+   "number": 16029,
+   "title": "Feature: Omnibar",
+   "url": "https://github.com/files-community/Files/issues/16029",
+   "labels": [
+    "help wanted",
+    "area - omnibar"
+   ],
+   "updatedAt": "2026-11-09T23:18:01Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "PR #16910 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+37 more)",
+   "evidence": [
+    "https://github.com/files-community/Files/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/files-community/Files/pull/16910",
+    "https://github.com/files-community/Files/pull/16946",
+    "https://github.com/files-community/Files/pull/16973",
+    "https://github.com/files-community/Files/pull/16983",
+    "https://github.com/files-community/Files/pull/17023",
+    "https://github.com/files-community/Files/pull/17095",
+    "https://github.com/files-community/Files/pull/17104",
+    "https://github.com/files-community/Files/pull/17145",
+    "https://github.com/files-community/Files/pull/17157"
+   ]
+  },
+  {
+   "number": 16645,
+   "title": "Feature: Improving Drag & Drop",
+   "url": "https://github.com/files-community/Files/issues/16645",
+   "labels": [
+    "help wanted",
+    "area - file operations"
+   ],
+   "updatedAt": "2025-12-03T23:18:01Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "open 23 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/files-community/Files/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/files-community/Files/issues/16645",
+    "https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#manually-linking-a-pull-request-to-an-issue"
+   ]
+  },
+  {
+   "number": 16857,
+   "title": "Bug: Libraries folder (root) cannot be pinned",
+   "url": "https://github.com/files-community/Files/issues/16857",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-10-15T14:35:29Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @JorgChrist 78 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/files-community/Files/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/files-community/Files/issues/16857#issuecomment-5422232262",
+    "https://github.com/files-community/Files/issues/16857",
+    "https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#manually-linking-a-pull-request-to-an-issue"
+   ]
+  },
+  {
+   "number": 18580,
+   "title": "Bug: Touch scrolling doesn't work in PDF Preview Pane on Surface devices",
+   "url": "https://github.com/files-community/Files/issues/18580",
+   "labels": [
+    "help wanted",
+    "needs - reproducing",
+    "area - info pane"
+   ],
+   "updatedAt": "2026-06-25T14:39:55Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#manually-linking-a-pull-request-to-an-issue) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/files-community/Files/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/files-community/Files/issues/18580",
+    "https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#manually-linking-a-pull-request-to-an-issue"
+   ]
+  }
+ ]
+}

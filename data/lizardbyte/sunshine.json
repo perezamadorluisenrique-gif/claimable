@@ -1,0 +1,43 @@
+{
+ "owner": "LizardByte",
+ "repo": "Sunshine",
+ "language": "C++",
+ "stars": 43235,
+ "description": "Self-hosted game stream host for Moonlight.",
+ "visitedAt": "2026-11-12T11:19:29.437Z",
+ "issues": [
+  {
+   "number": 2250,
+   "title": "KMS + Headless + Nvidia: `Unknown Monitor connector type [Meta]`",
+   "url": "https://github.com/SunshineStream/Sunshine/issues/2250",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-09-13T16:41:04Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "already assigned to @LizardByte-bot",
+   "evidence": [
+    "https://github.com/LizardByte/Sunshine/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/SunshineStream/Sunshine/pull/4946",
+    "https://github.com/SunshineStream/Sunshine/issues/2250"
+   ]
+  },
+  {
+   "number": 2846,
+   "title": "Windows.Graphics.Capture does not work with service model",
+   "url": "https://github.com/SunshineStream/Sunshine/issues/2846",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-06-08T22:58:23Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #1 by @ramirocantu is already open against this issue",
+   "evidence": [
+    "https://github.com/LizardByte/Sunshine/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ramirocantu/Sunshine/pull/1"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,796 @@
+{
+ "owner": "dotnet",
+ "repo": "roslyn",
+ "language": "C#",
+ "stars": 20771,
+ "description": "The Roslyn .NET compiler provides C# and Visual Basic languages with rich code analysis APIs.",
+ "visitedAt": "2026-11-12T11:19:29.437Z",
+ "issues": [
+  {
+   "number": 410,
+   "title": "Specify what encodings of source files are recognized by Roslyn and add corresponding tests",
+   "url": "https://github.com/dotnet/roslyn/issues/410",
+   "labels": [
+    "help wanted",
+    "Area-Compilers",
+    "Feature Request",
+    "Documentation",
+    "Test",
+    "Concept-Portability",
+    "Tenet-Localization"
+   ],
+   "updatedAt": "2026-08-26T20:53:29Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #85545 by @lonix1 is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/roslyn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/roslyn/issues/85545",
+    "https://github.com/dotnet/roslyn/issues/68911",
+    "https://github.com/dotnet/roslyn/issues/74430",
+    "https://github.com/dotnet/roslyn/issues/55834",
+    "https://github.com/dotnet/roslyn/issues/85642",
+    "https://github.com/dotnet/roslyn/issues/85609",
+    "https://github.com/dotnet/roslyn/issues/78583",
+    "https://github.com/dotnet/roslyn/issues/47384",
+    "https://github.com/dotnet/roslyn/issues/85617"
+   ]
+  },
+  {
+   "number": 1515,
+   "title": "Update Quick Info and Method Info to show exception reasons",
+   "url": "https://github.com/dotnet/roslyn/issues/1515",
+   "labels": [
+    "help wanted",
+    "Area-IDE"
+   ],
+   "updatedAt": "2025-11-14T17:10:09Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #56162 by @AraHaan is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/roslyn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/roslyn/pull/56162"
+   ]
+  },
+  {
+   "number": 4434,
+   "title": "EditorBrowsable(EditorBrowsableState.Never) in VS 2015 does not work as well as it does in VS 2013",
+   "url": "https://github.com/dotnet/roslyn/issues/4434",
+   "labels": [
+    "Bug",
+    "help wanted",
+    "Area-IDE",
+    "4 - In Review"
+   ],
+   "updatedAt": "2026-09-28T22:22:05Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "PR #2206 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+3 more)",
+   "evidence": [
+    "https://github.com/dotnet/roslyn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/fsharp/pull/2206",
+    "https://github.com/dotnet/roslyn/pull/24279",
+    "https://github.com/dotnet/roslyn/pull/27461",
+    "https://github.com/dotnet/roslyn/issues/4434",
+    "https://docs.microsoft.com/en-us/dotnet/csharp/roslyn-sdk/compiler-api-model",
+    "https://github.com/dotnet/roslyn/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 5243,
+   "title": "Cascaded diagnostic when label not found.",
+   "url": "https://github.com/dotnet/roslyn/issues/5243",
+   "labels": [
+    "Bug",
+    "help wanted",
+    "Language-C#",
+    "Area-Compilers",
+    "Concept-Diagnostic Clarity"
+   ],
+   "updatedAt": "2025-11-16T13:48:04Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #81273 by @Copilot is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/roslyn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/roslyn/pull/81273"
+   ]
+  },
+  {
+   "number": 8296,
+   "title": "Rename doesn't resolve conflict via callsite cast",
+   "url": "https://github.com/dotnet/roslyn/issues/8296",
+   "labels": [
+    "help wanted",
+    "Area-IDE",
+    "Feature - Rename"
+   ],
+   "updatedAt": "2025-11-14T17:10:12Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "open 131 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/dotnet/roslyn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/roslyn/issues/8296",
+    "https://docs.microsoft.com/en-us/dotnet/csharp/roslyn-sdk/compiler-api-model",
+    "https://github.com/dotnet/roslyn/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 8603,
+   "title": "Confusing error message for overloaded generic delegate-accepting method",
+   "url": "https://github.com/dotnet/roslyn/issues/8603",
+   "labels": [
+    "Bug",
+    "help wanted",
+    "Area-Compilers",
+    "Concept-Diagnostic Clarity"
+   ],
+   "updatedAt": "2025-11-16T14:26:04Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #81275 by @Copilot is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/roslyn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/roslyn/pull/81275"
+   ]
+  },
+  {
+   "number": 11281,
+   "title": "Should provide more specific error message when cardinality of a tuple literal doesn't match target tuple type.",
+   "url": "https://github.com/dotnet/roslyn/issues/11281",
+   "labels": [
+    "Bug",
+    "help wanted",
+    "Language-C#",
+    "Area-Compilers",
+    "Concept-Diagnostic Clarity",
+    "Feature - Tuples"
+   ],
+   "updatedAt": "2025-11-16T14:29:05Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "PR #19490 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/dotnet/roslyn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/roslyn/pull/19490",
+    "https://github.com/dotnet/roslyn/issues/11281",
+    "https://docs.microsoft.com/en-us/dotnet/csharp/roslyn-sdk/compiler-api-model",
+    "https://github.com/dotnet/roslyn/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 13315,
+   "title": "Suppress cascaded diagnostics for unused vars and funcs declared improperly",
+   "url": "https://github.com/dotnet/roslyn/issues/13315",
+   "labels": [
+    "Bug",
+    "help wanted",
+    "Area-Compilers",
+    "Concept-Diagnostic Clarity"
+   ],
+   "updatedAt": "2025-11-16T14:37:32Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.microsoft.com/en-us/dotnet/csharp/roslyn-sdk/compiler-api-model) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/dotnet/roslyn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/roslyn/issues/13315",
+    "https://docs.microsoft.com/en-us/dotnet/csharp/roslyn-sdk/compiler-api-model",
+    "https://github.com/dotnet/roslyn/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 14037,
+   "title": "Deconstruction: infer variable types even if the right-hand-side is not fully typed",
+   "url": "https://github.com/dotnet/roslyn/issues/14037",
+   "labels": [
+    "Bug",
+    "help wanted",
+    "Area-Compilers",
+    "Concept-Diagnostic Clarity",
+    "Feature - Tuples"
+   ],
+   "updatedAt": "2025-11-16T14:42:52Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "already assigned to @Copilot",
+   "evidence": [
+    "https://github.com/dotnet/roslyn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/roslyn/pull/13957",
+    "https://github.com/dotnet/roslyn/issues/14037"
+   ]
+  },
+  {
+   "number": 17383,
+   "title": "Pasting multiline text into XML comments should make it comments",
+   "url": "https://github.com/dotnet/roslyn/issues/17383",
+   "labels": [
+    "help wanted",
+    "Area-IDE"
+   ],
+   "updatedAt": "2026-07-30T11:37:38Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #84737 by @JJordan0C is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/roslyn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/roslyn/pull/84737"
+   ]
+  },
+  {
+   "number": 21476,
+   "title": "Handle user typing Action<T> in a documentation comment",
+   "url": "https://github.com/dotnet/roslyn/issues/21476",
+   "labels": [
+    "help wanted",
+    "Area-IDE",
+    "Concept-Design Debt"
+   ],
+   "updatedAt": "2025-11-14T17:11:25Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.microsoft.com/en-us/dotnet/csharp/roslyn-sdk/compiler-api-model) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/dotnet/roslyn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/roslyn/issues/21476",
+    "https://docs.microsoft.com/en-us/dotnet/csharp/roslyn-sdk/compiler-api-model",
+    "https://github.com/dotnet/roslyn/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 24209,
+   "title": "Enum Types and Enum Values should have different .editorconfig kinds",
+   "url": "https://github.com/dotnet/roslyn/issues/24209",
+   "labels": [
+    "help wanted",
+    "Area-IDE"
+   ],
+   "updatedAt": "2025-11-14T17:12:50Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "PR #394 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/dotnet/roslyn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/MeikelLP/quantum-core-x/pull/394",
+    "https://github.com/dotnet/roslyn/issues/24209",
+    "https://docs.microsoft.com/en-us/visualstudio/ide/editorconfig-naming-conventions#symbols",
+    "https://github.com/dotnet/roslyn/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 25206,
+   "title": "C# - .editorconfig option for force trailing comma",
+   "url": "https://github.com/dotnet/roslyn/issues/25206",
+   "labels": [
+    "help wanted",
+    "Area-IDE"
+   ],
+   "updatedAt": "2025-11-14T17:08:39Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #54859 by @Youssef1313 is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/roslyn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/roslyn/pull/54859"
+   ]
+  },
+  {
+   "number": 25303,
+   "title": "Decompilation should put new lines between blocks",
+   "url": "https://github.com/dotnet/roslyn/issues/25303",
+   "labels": [
+    "help wanted",
+    "Area-IDE",
+    "IDE-Formatter"
+   ],
+   "updatedAt": "2025-11-14T17:10:23Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.microsoft.com/en-us/dotnet/csharp/roslyn-sdk/compiler-api-model) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/dotnet/roslyn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/roslyn/issues/25303",
+    "https://docs.microsoft.com/en-us/dotnet/csharp/roslyn-sdk/compiler-api-model",
+    "https://github.com/dotnet/roslyn/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 25671,
+   "title": "Add support for href in xmldoc, as we have for cref and langword",
+   "url": "https://github.com/dotnet/roslyn/issues/25671",
+   "labels": [
+    "help wanted",
+    "Area-IDE"
+   ],
+   "updatedAt": "2025-11-14T17:10:23Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.microsoft.com/en-us/dotnet/csharp/roslyn-sdk/compiler-api-model) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/dotnet/roslyn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/roslyn/issues/25671",
+    "https://docs.microsoft.com/en-us/dotnet/csharp/roslyn-sdk/compiler-api-model",
+    "https://github.com/dotnet/roslyn/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 27150,
+   "title": "XML Doc Comment incorrectly indents code CDATA section",
+   "url": "https://github.com/dotnet/roslyn/issues/27150",
+   "labels": [
+    "Bug",
+    "help wanted",
+    "Area-Compilers"
+   ],
+   "updatedAt": "2026-08-04T07:18:44Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #84750 by @HominoITea is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/roslyn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/roslyn/pull/84750"
+   ]
+  },
+  {
+   "number": 29677,
+   "title": "Code fix suggestion: fix return type",
+   "url": "https://github.com/dotnet/roslyn/issues/29677",
+   "labels": [
+    "help wanted",
+    "Area-IDE"
+   ],
+   "updatedAt": "2025-11-14T17:08:15Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "PR #33457 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/dotnet/roslyn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/roslyn/pull/33457",
+    "https://github.com/dotnet/roslyn/issues/29677",
+    "https://docs.microsoft.com/en-us/dotnet/csharp/roslyn-sdk/compiler-api-model",
+    "https://github.com/dotnet/roslyn/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 30948,
+   "title": "Refactoring Extract an Interface should include xml comments",
+   "url": "https://github.com/dotnet/roslyn/issues/30948",
+   "labels": [
+    "help wanted",
+    "Area-IDE",
+    "Developer Community",
+    "Feature - Extract Interface"
+   ],
+   "updatedAt": "2025-11-14T17:10:24Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.microsoft.com/en-us/dotnet/csharp/roslyn-sdk/compiler-api-model) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/dotnet/roslyn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/roslyn/issues/30948",
+    "https://docs.microsoft.com/en-us/dotnet/csharp/roslyn-sdk/compiler-api-model",
+    "https://github.com/dotnet/roslyn/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 32790,
+   "title": "Visual Studio doesn't adjust XML Literal tag when changing tag name",
+   "url": "https://github.com/dotnet/roslyn/issues/32790",
+   "labels": [
+    "help wanted",
+    "Area-IDE",
+    "Language-VB"
+   ],
+   "updatedAt": "2025-11-14T17:09:22Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "open 95 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/dotnet/roslyn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/roslyn/issues/32790",
+    "https://docs.microsoft.com/en-us/dotnet/csharp/roslyn-sdk/compiler-api-model",
+    "https://github.com/dotnet/roslyn/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 34446,
+   "title": "Improve IDE0059 code fix for TryGetValue",
+   "url": "https://github.com/dotnet/roslyn/issues/34446",
+   "labels": [
+    "help wanted",
+    "Area-IDE",
+    "Feature - IDE0059"
+   ],
+   "updatedAt": "2025-11-14T17:09:24Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "open 93 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/dotnet/roslyn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/roslyn/issues/34446",
+    "https://docs.microsoft.com/en-us/dotnet/csharp/roslyn-sdk/compiler-api-model",
+    "https://github.com/dotnet/roslyn/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 37070,
+   "title": "Automatically Adjust Function Parameter Indentation Upon Renaming a Function",
+   "url": "https://github.com/dotnet/roslyn/issues/37070",
+   "labels": [
+    "help wanted",
+    "Area-IDE",
+    "IDE-Formatter",
+    "Feature - Rename"
+   ],
+   "updatedAt": "2025-11-14T17:10:46Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.microsoft.com/en-us/dotnet/csharp/roslyn-sdk/compiler-api-model) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/dotnet/roslyn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/roslyn/issues/37070",
+    "https://docs.microsoft.com/en-us/dotnet/csharp/roslyn-sdk/compiler-api-model",
+    "https://github.com/dotnet/roslyn/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 38490,
+   "title": "'csharp_style_conditional_delegate_call = true:silent' not honored by RunDefaultCodeCleanup",
+   "url": "https://github.com/dotnet/roslyn/issues/38490",
+   "labels": [
+    "help wanted",
+    "Area-IDE",
+    "Developer Community"
+   ],
+   "updatedAt": "2025-11-14T17:13:17Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "already assigned to @Copilot",
+   "evidence": [
+    "https://github.com/dotnet/roslyn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/roslyn/issues/38490"
+   ]
+  },
+  {
+   "number": 39615,
+   "title": "CodeLens References not shown",
+   "url": "https://github.com/dotnet/roslyn/issues/39615",
+   "labels": [
+    "Bug",
+    "help wanted",
+    "Area-IDE",
+    "Developer Community",
+    "IDE-IntelliSense",
+    "CodeLens"
+   ],
+   "updatedAt": "2026-06-12T15:42:50Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "already assigned to @dibarbet",
+   "evidence": [
+    "https://github.com/dotnet/roslyn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/roslyn/issues/39615"
+   ]
+  },
+  {
+   "number": 42018,
+   "title": "'ref var' incorrectly infers a nullable type",
+   "url": "https://github.com/dotnet/roslyn/issues/42018",
+   "labels": [
+    "help wanted",
+    "Area-Compilers",
+    "Feature - Nullable Reference Types",
+    "Regression"
+   ],
+   "updatedAt": "2026-10-19T09:34:01Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #24235 by @CyrusNajmabadi is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/roslyn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/roslyn/issues/24235"
+   ]
+  },
+  {
+   "number": 43988,
+   "title": "Add an analyzer to recommend using named parameters when passing literals as arguments",
+   "url": "https://github.com/dotnet/roslyn/issues/43988",
+   "labels": [
+    "help wanted",
+    "Area-IDE"
+   ],
+   "updatedAt": "2025-11-14T17:12:51Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "PR #45989 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/dotnet/roslyn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/roslyn/pull/45989",
+    "https://github.com/dotnet/winforms/pull/8435",
+    "https://github.com/dotnet/roslyn/issues/43988",
+    "https://docs.microsoft.com/en-us/dotnet/csharp/roslyn-sdk/compiler-api-model",
+    "https://github.com/dotnet/roslyn/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 44697,
+   "title": "Clicking on Intellisense XML comment file-include tag should open the XML file in VS and show the specified path",
+   "url": "https://github.com/dotnet/roslyn/issues/44697",
+   "labels": [
+    "help wanted",
+    "Area-IDE",
+    "IDE-Navigation"
+   ],
+   "updatedAt": "2025-11-14T17:10:49Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.microsoft.com/en-us/dotnet/csharp/roslyn-sdk/compiler-api-model) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/dotnet/roslyn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/roslyn/issues/44697",
+    "https://docs.microsoft.com/en-us/dotnet/csharp/roslyn-sdk/compiler-api-model",
+    "https://github.com/dotnet/roslyn/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 46190,
+   "title": "Signature help for delegate types",
+   "url": "https://github.com/dotnet/roslyn/issues/46190",
+   "labels": [
+    "help wanted",
+    "Area-IDE",
+    "IDE-IntelliSense"
+   ],
+   "updatedAt": "2025-11-14T17:10:50Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.microsoft.com/en-us/dotnet/csharp/roslyn-sdk/compiler-api-model) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/dotnet/roslyn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/roslyn/issues/46190",
+    "https://docs.microsoft.com/en-us/dotnet/csharp/roslyn-sdk/compiler-api-model",
+    "https://github.com/dotnet/roslyn/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 47228,
+   "title": "No (obvious) way to enforce a file header with a block comment",
+   "url": "https://github.com/dotnet/roslyn/issues/47228",
+   "labels": [
+    "help wanted",
+    "Area-IDE",
+    "Design Notes",
+    "IDE-CodeStyle"
+   ],
+   "updatedAt": "2025-11-14T17:08:19Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.microsoft.com/en-us/visualstudio/ide/reference/add-file-header?view=vs-2019) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/dotnet/roslyn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/roslyn/issues/47228",
+    "https://docs.microsoft.com/en-us/visualstudio/ide/reference/add-file-header?view=vs-2019",
+    "https://github.com/dotnet/roslyn/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 49211,
+   "title": "After copying a class and renaming the class-file and choose yes to class-rename too mix up files",
+   "url": "https://github.com/dotnet/roslyn/issues/49211",
+   "labels": [
+    "help wanted",
+    "Area-IDE",
+    "Developer Community",
+    "Feature - Rename"
+   ],
+   "updatedAt": "2025-11-14T17:05:53Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "already assigned to @Cosifne",
+   "evidence": [
+    "https://github.com/dotnet/roslyn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/roslyn/issues/49211"
+   ]
+  },
+  {
+   "number": 49764,
+   "title": "Make method async : should \"pull\" await in the caller when possible",
+   "url": "https://github.com/dotnet/roslyn/issues/49764",
+   "labels": [
+    "help wanted",
+    "Area-IDE"
+   ],
+   "updatedAt": "2025-11-14T17:10:52Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.microsoft.com/en-us/dotnet/csharp/roslyn-sdk/compiler-api-model) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/dotnet/roslyn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/roslyn/issues/49764",
+    "https://docs.microsoft.com/en-us/dotnet/csharp/roslyn-sdk/compiler-api-model",
+    "https://github.com/dotnet/roslyn/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 50479,
+   "title": "\"Add Constraints\" Code-Fix",
+   "url": "https://github.com/dotnet/roslyn/issues/50479",
+   "labels": [
+    "help wanted",
+    "Area-IDE",
+    "IDE-CodeStyle"
+   ],
+   "updatedAt": "2025-11-14T17:08:20Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.microsoft.com/en-us/dotnet/csharp/roslyn-sdk/compiler-api-model) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/dotnet/roslyn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/roslyn/issues/50479",
+    "https://docs.microsoft.com/en-us/dotnet/csharp/roslyn-sdk/compiler-api-model",
+    "https://github.com/dotnet/roslyn/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 51512,
+   "title": "Code fix for CS1612 when assigning to a nested struct field or property",
+   "url": "https://github.com/dotnet/roslyn/issues/51512",
+   "labels": [
+    "help wanted",
+    "Area-IDE",
+    "IDE-CodeStyle"
+   ],
+   "updatedAt": "2025-11-14T17:08:22Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #51515 by @jnm2 is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/roslyn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/roslyn/issues/51515"
+   ]
+  },
+  {
+   "number": 51548,
+   "title": "CSharpObjectFormatter throws NotSupportedException if it reaches ref struct property.",
+   "url": "https://github.com/dotnet/roslyn/issues/51548",
+   "labels": [
+    "Bug",
+    "help wanted",
+    "Area-Interactive",
+    "Interactive-ScriptingLogic"
+   ],
+   "updatedAt": "2026-11-10T21:04:20Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #86379 by @X6M-Work is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/roslyn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/roslyn/pull/86379"
+   ]
+  },
+  {
+   "number": 51773,
+   "title": "Improve file locations in the Roslyn Sarif reports for source generator files",
+   "url": "https://github.com/dotnet/roslyn/issues/51773",
+   "labels": [
+    "Bug",
+    "help wanted",
+    "Area-Compilers",
+    "Feature - Source Generators"
+   ],
+   "updatedAt": "2026-03-17T09:32:11Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "PR #8890 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/dotnet/roslyn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/SonarSource/sonar-dotnet/pull/8890",
+    "https://github.com/dotnet/roslyn/issues/51773",
+    "https://docs.microsoft.com/en-us/dotnet/csharp/roslyn-sdk/compiler-api-model",
+    "https://github.com/dotnet/roslyn/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 53227,
+   "title": "Add analyzer that catches properties that can be made readonly",
+   "url": "https://github.com/dotnet/roslyn/issues/53227",
+   "labels": [
+    "help wanted",
+    "Area-IDE",
+    "IDE-CodeStyle"
+   ],
+   "updatedAt": "2025-11-14T17:08:23Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.microsoft.com/en-us/dotnet/csharp/roslyn-sdk/compiler-api-model) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/dotnet/roslyn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/roslyn/issues/53227",
+    "https://docs.microsoft.com/en-us/dotnet/csharp/roslyn-sdk/compiler-api-model",
+    "https://github.com/dotnet/roslyn/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 54435,
+   "title": "Suggestion: IDE0079 (Remove unnecessary suppression) allow .editorconfig to support prefixes",
+   "url": "https://github.com/dotnet/roslyn/issues/54435",
+   "labels": [
+    "help wanted",
+    "Area-Analyzers",
+    "Feature Request",
+    "Feature - IDE0079"
+   ],
+   "updatedAt": "2025-12-03T07:31:45Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/style-rules/ide0079) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/dotnet/roslyn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/roslyn/issues/54435",
+    "https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/style-rules/ide0079",
+    "https://github.com/dotnet/roslyn/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 55960,
+   "title": "Analyzer Improvement for IDE0059",
+   "url": "https://github.com/dotnet/roslyn/issues/55960",
+   "labels": [
+    "help wanted",
+    "Area-IDE",
+    "Feature - IDE0059"
+   ],
+   "updatedAt": "2025-11-14T17:09:36Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.microsoft.com/en-us/dotnet/csharp/roslyn-sdk/compiler-api-model) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/dotnet/roslyn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/roslyn/issues/55960",
+    "https://docs.microsoft.com/en-us/dotnet/csharp/roslyn-sdk/compiler-api-model",
+    "https://github.com/dotnet/roslyn/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 58407,
+   "title": "Incorrect IDE0059 in a local function : Unnecessary assignment of a value",
+   "url": "https://github.com/dotnet/roslyn/issues/58407",
+   "labels": [
+    "Bug",
+    "help wanted",
+    "Area-IDE",
+    "Feature - IDE0059"
+   ],
+   "updatedAt": "2026-11-10T22:15:04Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #86385 by @X6M-Work is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/roslyn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/roslyn/pull/86385"
+   ]
+  },
+  {
+   "number": 59060,
+   "title": "`SemanticModel.GetSymbolInfo` doesn't return a symbol for `FunctionPointerUnmanagedCallingConventionSyntax`",
+   "url": "https://github.com/dotnet/roslyn/issues/59060",
+   "labels": [
+    "help wanted",
+    "Area-Compilers",
+    "Feature - Function Pointers"
+   ],
+   "updatedAt": "2026-09-26T11:21:13Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.microsoft.com/en-us/dotnet/csharp/roslyn-sdk/compiler-api-model) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/dotnet/roslyn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/roslyn/issues/59060",
+    "https://docs.microsoft.com/en-us/dotnet/csharp/roslyn-sdk/compiler-api-model",
+    "https://github.com/dotnet/roslyn/blob/HEAD/CONTRIBUTING.md"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,299 @@
+{
+ "owner": "dotnet",
+ "repo": "maui",
+ "language": "C#",
+ "stars": 23321,
+ "description": ".NET MAUI is the .NET Multi-platform App UI, a framework for building native device applications spanning mobile, tablet, and desktop.",
+ "visitedAt": "2026-11-12T11:19:29.437Z",
+ "issues": [
+  {
+   "number": 605,
+   "title": "[Enhancement] Allow text selection and copy in Entry and Editor controls",
+   "url": "https://github.com/dotnet/maui/issues/605",
+   "labels": [
+    "t/enhancement ☀️",
+    "good first issue",
+    "proposal/open",
+    "area-controls-entry",
+    "area-controls-editor"
+   ],
+   "updatedAt": "2026-10-28T09:51:03Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "labelled `proposal/open` — scope may not be settled yet (+1 more)",
+   "evidence": [
+    "https://github.com/dotnet/maui/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/maui/issues/605",
+    "https://docs.microsoft.com/dotnet/maui",
+    "https://github.com/dotnet/maui/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 4795,
+   "title": "Implement \"desktop dialogs\" e.g.: FileOpenDialog, FolderBrowserDialog, PrintDialog, etc.",
+   "url": "https://github.com/dotnet/maui/issues/4795",
+   "labels": [
+    "t/enhancement ☀️",
+    "good first issue",
+    "proposal/open",
+    "area-essentials",
+    "legacy-area-desktop",
+    "t/desktop"
+   ],
+   "updatedAt": "2026-10-28T18:33:14Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "labelled `proposal/open` — scope may not be settled yet (+1 more)",
+   "evidence": [
+    "https://github.com/dotnet/maui/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/maui/issues/4795",
+    "https://docs.microsoft.com/dotnet/maui",
+    "https://github.com/dotnet/maui/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 4981,
+   "title": "DisplayPromptAsync preselect initialValue in prompt for easy overwriting",
+   "url": "https://github.com/dotnet/maui/issues/4981",
+   "labels": [
+    "t/enhancement ☀️",
+    "good first issue",
+    "proposal/open",
+    "area-controls-dialogalert"
+   ],
+   "updatedAt": "2026-10-28T18:38:07Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "labelled `proposal/open` — scope may not be settled yet (+1 more)",
+   "evidence": [
+    "https://github.com/dotnet/maui/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/maui/issues/4981",
+    "https://docs.microsoft.com/dotnet/maui",
+    "https://github.com/dotnet/maui/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 7920,
+   "title": "Add a property on WebView to set additional headers",
+   "url": "https://github.com/dotnet/maui/issues/7920",
+   "labels": [
+    "t/enhancement ☀️",
+    "good first issue",
+    "proposal/open",
+    "area-controls-webview"
+   ],
+   "updatedAt": "2026-11-11T03:34:15Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "labelled `proposal/open` — scope may not be settled yet (+1 more)",
+   "evidence": [
+    "https://github.com/dotnet/maui/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/maui/issues/7920",
+    "https://github.com/dotnet/maui/issues/7920#issuecomment-6786223953",
+    "https://docs.microsoft.com/dotnet/maui",
+    "https://github.com/dotnet/maui/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 8328,
+   "title": "Order of SwipeView items inconsistent across different platforms",
+   "url": "https://github.com/dotnet/maui/issues/8328",
+   "labels": [
+    "t/bug",
+    "good first issue",
+    "platform/windows",
+    "platform/android",
+    "area-controls-swipeview"
+   ],
+   "updatedAt": "2026-10-28T19:51:00Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.microsoft.com/dotnet/maui) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/dotnet/maui/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/maui/issues/8328",
+    "https://docs.microsoft.com/dotnet/maui",
+    "https://github.com/dotnet/maui/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 10101,
+   "title": "FlyoutPage.IsPresented behaves different to Xamarin 5",
+   "url": "https://github.com/dotnet/maui/issues/10101",
+   "labels": [
+    "t/bug",
+    "help wanted",
+    "platform/windows",
+    "area-controls-flyoutpage",
+    "t/docs 📝",
+    "s/verified",
+    "s/triaged"
+   ],
+   "updatedAt": "2026-10-28T23:40:55Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.microsoft.com/en-us/dotnet/maui/user-interface/pages/flyoutpage) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/dotnet/maui/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/maui/issues/10101",
+    "https://docs.microsoft.com/en-us/dotnet/maui/user-interface/pages/flyoutpage",
+    "https://github.com/dotnet/maui/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 10331,
+   "title": "Add \"Keyboard.None\"",
+   "url": "https://github.com/dotnet/maui/issues/10331",
+   "labels": [
+    "help wanted",
+    "proposal/open",
+    "legacy-area-controls",
+    "area-keyboard"
+   ],
+   "updatedAt": "2026-10-28T23:46:08Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "labelled `proposal/open` — scope may not be settled yet (+1 more)",
+   "evidence": [
+    "https://github.com/dotnet/maui/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/maui/issues/10331",
+    "https://docs.microsoft.com/dotnet/maui",
+    "https://github.com/dotnet/maui/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 10884,
+   "title": "[Enhancement] Label Autofit Font",
+   "url": "https://github.com/dotnet/maui/issues/10884",
+   "labels": [
+    "good first issue",
+    "proposal/open",
+    "area-fonts"
+   ],
+   "updatedAt": "2026-10-29T11:33:30Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "labelled `proposal/open` — scope may not be settled yet (+1 more)",
+   "evidence": [
+    "https://github.com/dotnet/maui/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/maui/issues/10884",
+    "https://docs.microsoft.com/dotnet/maui",
+    "https://github.com/dotnet/maui/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 12857,
+   "title": "Add more Media* permissions for Android",
+   "url": "https://github.com/dotnet/maui/issues/12857",
+   "labels": [
+    "t/enhancement ☀️",
+    "good first issue",
+    "proposal/open",
+    "platform/android",
+    "p/3",
+    "area-essentials"
+   ],
+   "updatedAt": "2026-10-29T12:31:18Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "PR #23909 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/dotnet/maui/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/maui/pull/23909",
+    "https://github.com/dotnet/maui/issues/12857",
+    "https://docs.microsoft.com/dotnet/maui",
+    "https://github.com/dotnet/maui/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 17210,
+   "title": "Binding IconImageSource on MenuFlyoutItem does not update on runtime.",
+   "url": "https://github.com/dotnet/maui/issues/17210",
+   "labels": [
+    "t/bug",
+    "good first issue",
+    "platform/macos",
+    "platform/windows",
+    "area-controls-menubar",
+    "t/desktop"
+   ],
+   "updatedAt": "2026-10-30T09:44:17Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #555 by @MauiBot is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/maui/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubaflo/maui/pull/555",
+    "https://github.com/dotnet/maui/pull/40072"
+   ]
+  },
+  {
+   "number": 24641,
+   "title": "Update API Docs for Windows Life Cycle events",
+   "url": "https://github.com/dotnet/maui/issues/24641",
+   "labels": [
+    "area-docs",
+    "good first issue",
+    "s/triaged",
+    "Pri3",
+    ":watch: Not Triaged"
+   ],
+   "updatedAt": "2026-10-30T19:38:00Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @parthsali 810 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/dotnet/maui/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/maui/issues/24641#issuecomment-2334972956",
+    "https://github.com/dotnet/maui/issues/24641",
+    "https://docs.microsoft.com/dotnet/maui",
+    "https://github.com/dotnet/maui/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 24804,
+   "title": "Add OnBindingContextChanging",
+   "url": "https://github.com/dotnet/maui/issues/24804",
+   "labels": [
+    "t/enhancement ☀️",
+    "good first issue",
+    "proposal/open",
+    "area-xaml"
+   ],
+   "updatedAt": "2026-09-27T18:44:19Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "labelled `proposal/open` — scope may not be settled yet (+2 more)",
+   "evidence": [
+    "https://github.com/dotnet/maui/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/maui/issues/24804",
+    "https://github.com/dotnet/maui/issues/24804#issuecomment-5845270891",
+    "https://docs.microsoft.com/dotnet/maui",
+    "https://github.com/dotnet/maui/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 32465,
+   "title": "GraphicsView line stroke rendering inconsistent on Android compared to other platforms",
+   "url": "https://github.com/dotnet/maui/issues/32465",
+   "labels": [
+    "t/bug",
+    "good first issue",
+    "platform/android",
+    "area-drawing",
+    "s/verified",
+    "s/triaged"
+   ],
+   "updatedAt": "2026-11-02T11:22:26Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.microsoft.com/dotnet/maui) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/dotnet/maui/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/maui/issues/32465",
+    "https://docs.microsoft.com/dotnet/maui",
+    "https://github.com/dotnet/maui/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  }
+ ]
+}

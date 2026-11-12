@@ -1,0 +1,90 @@
+{
+ "owner": "jellyfin",
+ "repo": "jellyfin",
+ "language": "C#",
+ "stars": 59189,
+ "description": "The Free Software Media System - Server Backend & API",
+ "visitedAt": "2026-11-12T11:19:29.437Z",
+ "issues": [
+  {
+   "number": 2149,
+   "title": "Eliminate All Compiler Warnings In Solution",
+   "url": "https://github.com/jellyfin/jellyfin/issues/2149",
+   "labels": [
+    "good first issue",
+    "confirmed"
+   ],
+   "updatedAt": "2026-05-08T16:04:51Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "PR #2155 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+51 more)",
+   "evidence": [
+    "https://github.com/jellyfin/jellyfin/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/jellyfin/jellyfin/pull/2155",
+    "https://github.com/jellyfin/jellyfin/pull/2136",
+    "https://github.com/jellyfin/jellyfin/pull/2358",
+    "https://github.com/jellyfin/jellyfin/pull/2373",
+    "https://github.com/jellyfin/jellyfin/pull/2374",
+    "https://github.com/jellyfin/jellyfin/pull/2667",
+    "https://github.com/jellyfin/jellyfin/pull/2874",
+    "https://github.com/jellyfin/jellyfin/pull/3105",
+    "https://github.com/jellyfin/jellyfin/pull/3329"
+   ]
+  },
+  {
+   "number": 5355,
+   "title": "ToList Usage",
+   "url": "https://github.com/jellyfin/jellyfin/issues/5355",
+   "labels": [
+    "good first issue",
+    "confirmed"
+   ],
+   "updatedAt": "2025-11-21T08:00:52Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #17496 by @TheRodzz is already open against this issue",
+   "evidence": [
+    "https://github.com/jellyfin/jellyfin/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/jellyfin/jellyfin/pull/17496",
+    "https://github.com/jellyfin/jellyfin/pull/7093",
+    "https://github.com/jellyfin/jellyfin/pull/8618",
+    "https://github.com/jellyfin/jellyfin/pull/16322"
+   ]
+  },
+  {
+   "number": 8971,
+   "title": "Add \"speed\" property to playback state API's",
+   "url": "https://github.com/jellyfin/jellyfin/issues/8971",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2026-09-24T20:30:56Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #9329 by @rzk3 is already open against this issue",
+   "evidence": [
+    "https://github.com/jellyfin/jellyfin/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/jellyfin/jellyfin/pull/9329",
+    "https://github.com/jellyfin/jellyfin-androidtv/pull/2428"
+   ]
+  },
+  {
+   "number": 17666,
+   "title": "Splashscreen - Unsupported image locks branding page",
+   "url": "https://github.com/jellyfin/jellyfin/issues/17666",
+   "labels": [
+    "bug",
+    "good first issue"
+   ],
+   "updatedAt": "2026-09-11T18:01:41Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #17893 by @arcusbuilds is already open against this issue",
+   "evidence": [
+    "https://github.com/jellyfin/jellyfin/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/jellyfin/jellyfin/pull/17893"
+   ]
+  }
+ ]
+}

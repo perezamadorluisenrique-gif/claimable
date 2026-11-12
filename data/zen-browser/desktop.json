@@ -1,0 +1,277 @@
+{
+ "owner": "zen-browser",
+ "repo": "desktop",
+ "language": "C++",
+ "stars": 45712,
+ "description": "Welcome to a calmer internet",
+ "visitedAt": "2026-11-12T11:19:29.437Z",
+ "issues": [
+  {
+   "number": 8309,
+   "title": "Moving Essential Tab to New Window removes it from Essentials",
+   "url": "https://github.com/zen-browser/desktop/issues/8309",
+   "labels": [
+    "Bug",
+    "component: tabs",
+    "platform: linux",
+    "platform: macOS",
+    "platform: windows",
+    "good first issue"
+   ],
+   "updatedAt": "2026-05-03T22:40:45Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.zen-browser.app\">) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/zen-browser/desktop/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/zen-browser/desktop/issues/8309",
+    "https://docs.zen-browser.app\">"
+   ]
+  },
+  {
+   "number": 10158,
+   "title": "`about:debugging` wrong connected browser warning",
+   "url": "https://github.com/zen-browser/desktop/issues/10158",
+   "labels": [
+    "Bug",
+    "component: other",
+    "platform: linux",
+    "platform: macOS",
+    "platform: windows",
+    "good first issue"
+   ],
+   "updatedAt": "2026-04-07T07:21:32Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.zen-browser.app\">) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/zen-browser/desktop/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/zen-browser/desktop/issues/10158",
+    "https://docs.zen-browser.app\">"
+   ]
+  },
+  {
+   "number": 11595,
+   "title": "The toolbar breaks when changing the browser layout",
+   "url": "https://github.com/zen-browser/desktop/issues/11595",
+   "labels": [
+    "Bug",
+    "component: customizable-ui-toolbars",
+    "platform: linux",
+    "platform: macOS",
+    "platform: windows",
+    "good first issue"
+   ],
+   "updatedAt": "2026-11-05T16:10:21Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "@spryzz3n claimed it 7 days ago",
+   "evidence": [
+    "https://github.com/zen-browser/desktop/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/zen-browser/desktop/issues/11595",
+    "https://github.com/zen-browser/desktop/issues/11595#issuecomment-4743431820",
+    "https://github.com/zen-browser/desktop/issues/11595#issuecomment-6660165197"
+   ]
+  },
+  {
+   "number": 12402,
+   "title": "Windows: Scroll bar in tab list causes layout shift when always show scroll bars is enabled",
+   "url": "https://github.com/zen-browser/desktop/issues/12402",
+   "labels": [
+    "Bug",
+    "component: tabs",
+    "platform: windows",
+    "good first issue"
+   ],
+   "updatedAt": "2026-08-11T07:50:23Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "2 stale claims, the most recent by @feichuans 93 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/zen-browser/desktop/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/zen-browser/desktop/issues/12402",
+    "https://github.com/zen-browser/desktop/issues/12402#issuecomment-5250466570",
+    "https://docs.zen-browser.app\">"
+   ]
+  },
+  {
+   "number": 12714,
+   "title": "UI Scaling/Layout Glitch when switching between Windows 11 Workspaces with Split View active",
+   "url": "https://github.com/zen-browser/desktop/issues/12714",
+   "labels": [
+    "Bug",
+    "platform: linux",
+    "platform: macOS",
+    "platform: windows",
+    "component: split-view",
+    "good first issue"
+   ],
+   "updatedAt": "2026-04-13T06:24:37Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "already assigned to @MadeInShineA",
+   "evidence": [
+    "https://github.com/zen-browser/desktop/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/zen-browser/desktop/issues/12714",
+    "https://github.com/zen-browser/desktop/issues/12714#issuecomment-4063832641"
+   ]
+  },
+  {
+   "number": 13020,
+   "title": "Custom icons for tabs without favicons not saving",
+   "url": "https://github.com/zen-browser/desktop/issues/13020",
+   "labels": [
+    "Bug",
+    "component: workspaces",
+    "platform: linux",
+    "platform: macOS",
+    "platform: windows",
+    "good first issue"
+   ],
+   "updatedAt": "2026-09-01T07:45:24Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @R0h1tAnand 224 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/zen-browser/desktop/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/zen-browser/desktop/issues/13020",
+    "https://github.com/zen-browser/desktop/issues/13020#issuecomment-4175446498",
+    "https://docs.zen-browser.app\">"
+   ]
+  },
+  {
+   "number": 14082,
+   "title": "\"Rename Folder\" option unavailable in collapsed toolbar layout",
+   "url": "https://github.com/zen-browser/desktop/issues/14082",
+   "labels": [
+    "Bug",
+    "component: tab-folders",
+    "platform: linux",
+    "good first issue"
+   ],
+   "updatedAt": "2026-08-11T10:26:45Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #14919 by @at0miqx is already open against this issue",
+   "evidence": [
+    "https://github.com/zen-browser/desktop/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/zen-browser/desktop/pull/14919"
+   ]
+  },
+  {
+   "number": 14837,
+   "title": "UI glitch when rapidly switching Sidebar/Tabs layout options in Settings",
+   "url": "https://github.com/zen-browser/desktop/issues/14837",
+   "labels": [
+    "Bug",
+    "component: settings",
+    "platform: windows",
+    "good first issue"
+   ],
+   "updatedAt": "2026-09-14T05:09:57Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #15777 by @smartworldarafath is already open against this issue",
+   "evidence": [
+    "https://github.com/zen-browser/desktop/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/zen-browser/desktop/pull/15777"
+   ]
+  },
+  {
+   "number": 14922,
+   "title": "Top bar gets stuck opened when warn on close is turned on",
+   "url": "https://github.com/zen-browser/desktop/issues/14922",
+   "labels": [
+    "Bug",
+    "component: customizable-ui-toolbars",
+    "platform: linux",
+    "good first issue"
+   ],
+   "updatedAt": "2026-08-13T10:25:08Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #14932 by @fzlzjerry is already open against this issue",
+   "evidence": [
+    "https://github.com/zen-browser/desktop/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/zen-browser/desktop/pull/14932"
+   ]
+  },
+  {
+   "number": 15488,
+   "title": "[L10n][TR] Accesskey collisions in bookmark and tab context menus",
+   "url": "https://github.com/zen-browser/desktop/issues/15488",
+   "labels": [
+    "component: localization",
+    "platform: windows",
+    "good first issue"
+   ],
+   "updatedAt": "2026-09-28T13:46:42Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.zen-browser.app\">) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/zen-browser/desktop/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/zen-browser/desktop/issues/15488",
+    "https://docs.zen-browser.app\">"
+   ]
+  },
+  {
+   "number": 15557,
+   "title": "Can not swipe between workspaces in bottom padding-block when tablist is overflowing.",
+   "url": "https://github.com/zen-browser/desktop/issues/15557",
+   "labels": [
+    "component: tabs",
+    "platform: macOS",
+    "platform: windows",
+    "good first issue"
+   ],
+   "updatedAt": "2026-11-10T14:13:05Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.zen-browser.app\">) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/zen-browser/desktop/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/zen-browser/desktop/issues/15557",
+    "https://docs.zen-browser.app\">"
+   ]
+  },
+  {
+   "number": 15993,
+   "title": "Ctrl+L shortcut does not switch floating URL bar to current tab's URL when triggered after Ctrl+T",
+   "url": "https://github.com/zen-browser/desktop/issues/15993",
+   "labels": [
+    "component: keyboard-shortcuts",
+    "platform: linux",
+    "good first issue"
+   ],
+   "updatedAt": "2026-10-21T11:26:37Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #16078 by @Nuhcho is already open against this issue",
+   "evidence": [
+    "https://github.com/zen-browser/desktop/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/zen-browser/desktop/pull/16078"
+   ]
+  },
+  {
+   "number": 16531,
+   "title": "No animation plays upon pinning a tab (plays when unpinning)",
+   "url": "https://github.com/zen-browser/desktop/issues/16531",
+   "labels": [
+    "component: other",
+    "platform: linux",
+    "platform: macOS",
+    "platform: windows",
+    "good first issue"
+   ],
+   "updatedAt": "2026-11-11T17:42:57Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "already assigned to @mr-cheffy",
+   "evidence": [
+    "https://github.com/zen-browser/desktop/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/zen-browser/desktop/issues/16531"
+   ]
+  }
+ ]
+}

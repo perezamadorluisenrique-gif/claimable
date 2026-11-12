@@ -1,0 +1,46 @@
+{
+ "owner": "DevToys-app",
+ "repo": "DevToys",
+ "language": "C#",
+ "stars": 32245,
+ "description": "A Swiss Army knife for developers.",
+ "visitedAt": "2026-11-12T11:19:29.437Z",
+ "issues": [
+  {
+   "number": 919,
+   "title": "Add support for raycast / Alfred / spotlight / ... on Mac",
+   "url": "https://github.com/DevToys-app/DevToys/issues/919",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2026-09-19T10:19:16Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "no push in 44 days (last: 2026-09-29)",
+   "evidence": [
+    "https://github.com/DevToys-app/DevToys — pushed_at 2026-09-29T00:45:51Z",
+    "https://github.com/DevToys-app/DevToys/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/DevToys-app/DevToys/issues/919"
+   ]
+  },
+  {
+   "number": 1199,
+   "title": "Flatpak version",
+   "url": "https://github.com/DevToys-app/DevToys/issues/1199",
+   "labels": [
+    "help wanted",
+    "feature"
+   ],
+   "updatedAt": "2025-10-03T11:27:44Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "no push in 44 days (last: 2026-09-29)",
+   "evidence": [
+    "https://github.com/DevToys-app/DevToys — pushed_at 2026-09-29T00:45:51Z",
+    "https://github.com/DevToys-app/DevToys/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/DevToys-app/DevToys/issues/1199"
+   ]
+  }
+ ]
+}

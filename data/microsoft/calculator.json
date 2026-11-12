@@ -1,0 +1,1258 @@
+{
+ "owner": "microsoft",
+ "repo": "calculator",
+ "language": "C#",
+ "stars": 31091,
+ "description": "Windows Calculator: A simple yet powerful calculator that ships with Windows",
+ "visitedAt": "2026-11-12T11:19:29.437Z",
+ "issues": [
+  {
+   "number": 24,
+   "title": "Add inking support to calculator for basic calculations/conversions or other math needs",
+   "url": "https://github.com/microsoft/calculator/issues/24",
+   "labels": [
+    "help wanted",
+    "Enhancement",
+    "Pri: 2",
+    "needs spec"
+   ],
+   "updatedAt": "2026-02-28T04:09:54Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #667 by @MicrosoftIssueBot is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/calculator/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/calculator/issues/667",
+    "https://github.com/microsoft/calculator/issues/2290",
+    "https://github.com/microsoft/calculator/issues/116",
+    "https://github.com/microsoft/calculator/issues/143",
+    "https://github.com/microsoft/calculator/issues/98",
+    "https://github.com/microsoft/calculator/issues/620",
+    "https://github.com/microsoft/calculator/issues/526",
+    "https://github.com/microsoft/calculator/issues/419"
+   ]
+  },
+  {
+   "number": 56,
+   "title": "Calculator should not use FrameworkElement.Tag as it can be easily overwritten by internal control logic.",
+   "url": "https://github.com/microsoft/calculator/issues/56",
+   "labels": [
+    "help wanted",
+    "Pri: 3",
+    "codebase quality",
+    "approved"
+   ],
+   "updatedAt": "2023-06-01T04:03:04Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #2367 by @Hexer611 is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/calculator/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/calculator/pull/2367"
+   ]
+  },
+  {
+   "number": 57,
+   "title": "Length conversion should use Feet + Inches instead of Feet with decimal point",
+   "url": "https://github.com/microsoft/calculator/issues/57",
+   "labels": [
+    "help wanted",
+    "Enhancement",
+    "Pri: 2",
+    "needs spec"
+   ],
+   "updatedAt": "2024-02-27T18:48:03Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #693 by @mcooley is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/calculator/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/calculator/issues/693",
+    "https://github.com/microsoft/calculator/issues/379"
+   ]
+  },
+  {
+   "number": 58,
+   "title": "Programmer Mode should support setting the radix based on pasted values",
+   "url": "https://github.com/microsoft/calculator/issues/58",
+   "labels": [
+    "help wanted",
+    "Enhancement",
+    "Pri: 2",
+    "approved"
+   ],
+   "updatedAt": "2023-06-01T04:03:07Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.microsoft.com/en-us/windows/uwp/cpp-and-winrt-apis/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/microsoft/calculator/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/calculator/issues/58",
+    "https://docs.microsoft.com/en-us/windows/uwp/cpp-and-winrt-apis/",
+    "https://github.com/microsoft/calculator/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 60,
+   "title": "Cleanup the templates for custom controls in Calculator",
+   "url": "https://github.com/microsoft/calculator/issues/60",
+   "labels": [
+    "help wanted",
+    "Pri: 2",
+    "codebase quality",
+    "approved"
+   ],
+   "updatedAt": "2023-06-01T04:03:08Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #2021 by @djixas is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/calculator/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/calculator/issues/2021",
+    "https://github.com/microsoft/calculator/issues/1850",
+    "https://github.com/microsoft/calculator/issues/209"
+   ]
+  },
+  {
+   "number": 61,
+   "title": "Update Calculator engine’s use of smart pointers",
+   "url": "https://github.com/microsoft/calculator/issues/61",
+   "labels": [
+    "help wanted",
+    "Pri: 2",
+    "codebase quality",
+    "approved"
+   ],
+   "updatedAt": "2025-05-21T11:51:53Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "PR #473 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+3 more)",
+   "evidence": [
+    "https://github.com/microsoft/calculator/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/calculator/pull/473",
+    "https://github.com/microsoft/calculator/issues/61#issuecomment-473420365",
+    "https://github.com/microsoft/calculator/issues/61",
+    "https://docs.microsoft.com/en-us/windows/uwp/cpp-and-winrt-apis/",
+    "https://github.com/microsoft/calculator/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 63,
+   "title": "[RS5+] Update NavigationView to use DataTemplates and a template selector to generate menu in XAML rather than in code",
+   "url": "https://github.com/microsoft/calculator/issues/63",
+   "labels": [
+    "help wanted",
+    "Pri: 2",
+    "codebase quality",
+    "approved"
+   ],
+   "updatedAt": "2023-06-01T04:03:11Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #1063 by @egorpugin is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/calculator/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/calculator/issues/1063"
+   ]
+  },
+  {
+   "number": 64,
+   "title": "Adopt C++ standard types across codebase",
+   "url": "https://github.com/microsoft/calculator/issues/64",
+   "labels": [
+    "help wanted",
+    "Pri: 2",
+    "codebase quality",
+    "approved"
+   ],
+   "updatedAt": "2023-06-01T04:03:12Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "PR #390 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/microsoft/calculator/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/calculator/pull/390",
+    "https://github.com/microsoft/calculator/issues/64",
+    "https://docs.microsoft.com/en-us/windows/uwp/cpp-and-winrt-apis/",
+    "https://github.com/microsoft/calculator/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 65,
+   "title": "Centralize BiDirectional string code in the CalcViewModel",
+   "url": "https://github.com/microsoft/calculator/issues/65",
+   "labels": [
+    "help wanted",
+    "Pri: 2",
+    "codebase quality",
+    "approved"
+   ],
+   "updatedAt": "2023-06-01T04:03:13Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #2498 by @jonadem is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/calculator/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/calculator/issues/2498",
+    "https://github.com/microsoft/calculator/issues/1063"
+   ]
+  },
+  {
+   "number": 66,
+   "title": "Programmer mode on Calculator supports unsigned values",
+   "url": "https://github.com/microsoft/calculator/issues/66",
+   "labels": [
+    "help wanted",
+    "Enhancement",
+    "Pri: 2",
+    "needs spec"
+   ],
+   "updatedAt": "2026-02-16T15:24:23Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "labelled `needs spec` — the project is saying not to start",
+   "evidence": [
+    "https://github.com/microsoft/calculator/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/calculator/issues/66"
+   ]
+  },
+  {
+   "number": 67,
+   "title": "Update calc engine to remove existence of negative 0",
+   "url": "https://github.com/microsoft/calculator/issues/67",
+   "labels": [
+    "help wanted",
+    "Pri: 2",
+    "codebase quality",
+    "approved"
+   ],
+   "updatedAt": "2023-06-01T04:03:16Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.microsoft.com/en-us/windows/uwp/cpp-and-winrt-apis/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/microsoft/calculator/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/calculator/issues/67",
+    "https://docs.microsoft.com/en-us/windows/uwp/cpp-and-winrt-apis/",
+    "https://github.com/microsoft/calculator/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 68,
+   "title": "Calculator Display implements Value pattern",
+   "url": "https://github.com/microsoft/calculator/issues/68",
+   "labels": [
+    "help wanted",
+    "Pri: 3",
+    "codebase quality",
+    "approved"
+   ],
+   "updatedAt": "2023-06-01T04:03:18Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #2331 by @onu032001 is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/calculator/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/calculator/issues/2331"
+   ]
+  },
+  {
+   "number": 69,
+   "title": "Investigate migration of calc engine to BigInteger/BigRational",
+   "url": "https://github.com/microsoft/calculator/issues/69",
+   "labels": [
+    "help wanted",
+    "Pri: 3",
+    "codebase quality",
+    "approved"
+   ],
+   "updatedAt": "2023-06-01T04:03:19Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.microsoft.com/en-us/windows/uwp/cpp-and-winrt-apis/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/microsoft/calculator/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/calculator/issues/69",
+    "https://docs.microsoft.com/en-us/windows/uwp/cpp-and-winrt-apis/",
+    "https://github.com/microsoft/calculator/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 83,
+   "title": "Multiple instances of app don't appear as separate processes in Task Manager",
+   "url": "https://github.com/microsoft/calculator/issues/83",
+   "labels": [
+    "help wanted",
+    "Enhancement",
+    "Pri: 2",
+    "needs spec"
+   ],
+   "updatedAt": "2023-06-01T04:03:21Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "labelled `needs spec` — the project is saying not to start",
+   "evidence": [
+    "https://github.com/microsoft/calculator/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/calculator/issues/83"
+   ]
+  },
+  {
+   "number": 114,
+   "title": "Don't clear input when switching modes",
+   "url": "https://github.com/microsoft/calculator/issues/114",
+   "labels": [
+    "help wanted",
+    "Enhancement",
+    "Pri: 2",
+    "needs spec"
+   ],
+   "updatedAt": "2024-01-29T16:06:46Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "labelled `needs spec` — the project is saying not to start",
+   "evidence": [
+    "https://github.com/microsoft/calculator/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/calculator/pull/1654",
+    "https://github.com/microsoft/calculator/issues/114"
+   ]
+  },
+  {
+   "number": 116,
+   "title": "Support floating point when in all radices in Programmer view (dec, octal, hex, bin)",
+   "url": "https://github.com/microsoft/calculator/issues/116",
+   "labels": [
+    "help wanted",
+    "Enhancement",
+    "Pri: 2",
+    "needs spec"
+   ],
+   "updatedAt": "2024-07-08T10:44:09Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "labelled `needs spec` — the project is saying not to start",
+   "evidence": [
+    "https://github.com/microsoft/calculator/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/calculator/issues/116"
+   ]
+  },
+  {
+   "number": 123,
+   "title": "Tab for constant values in scientific calculator",
+   "url": "https://github.com/microsoft/calculator/issues/123",
+   "labels": [
+    "help wanted",
+    "Enhancement",
+    "Pri: 2",
+    "needs spec"
+   ],
+   "updatedAt": "2023-06-01T04:03:26Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #2433 by @OZ1 is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/calculator/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/calculator/issues/2433",
+    "https://github.com/microsoft/calculator/issues/2447",
+    "https://github.com/microsoft/calculator/issues/648",
+    "https://github.com/microsoft/calculator/issues/153"
+   ]
+  },
+  {
+   "number": 128,
+   "title": "Support Reverse Polish Notation (RPN)",
+   "url": "https://github.com/microsoft/calculator/issues/128",
+   "labels": [
+    "help wanted",
+    "Enhancement",
+    "Pri: 2",
+    "needs spec"
+   ],
+   "updatedAt": "2024-09-25T21:37:38Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #1541 by @kezyr is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/calculator/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/calculator/issues/1541",
+    "https://github.com/microsoft/calculator/issues/116",
+    "https://github.com/microsoft/calculator/issues/2066",
+    "https://github.com/microsoft/calculator/issues/162"
+   ]
+  },
+  {
+   "number": 143,
+   "title": "Add support for time in date calculations",
+   "url": "https://github.com/microsoft/calculator/issues/143",
+   "labels": [
+    "help wanted",
+    "Enhancement",
+    "Pri: 2",
+    "needs spec"
+   ],
+   "updatedAt": "2026-07-10T19:10:36Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "labelled `needs spec` — the project is saying not to start",
+   "evidence": [
+    "https://github.com/microsoft/calculator/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/calculator/issues/143"
+   ]
+  },
+  {
+   "number": 157,
+   "title": "Update support and keyboard documentation",
+   "url": "https://github.com/microsoft/calculator/issues/157",
+   "labels": [
+    "help wanted",
+    "Enhancement",
+    "Pri: 2",
+    "needs spec"
+   ],
+   "updatedAt": "2023-06-01T04:03:31Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #620 by @grochocki is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/calculator/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/calculator/issues/620",
+    "https://github.com/microsoft/calculator/issues/486"
+   ]
+  },
+  {
+   "number": 162,
+   "title": "Pasting long decimal number results in Invalid input",
+   "url": "https://github.com/microsoft/calculator/issues/162",
+   "labels": [
+    "help wanted",
+    "Bug",
+    "Pri: 3",
+    "triage approved",
+    "Area: User Experience"
+   ],
+   "updatedAt": "2022-02-10T22:46:53Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "already assigned to @grochocki",
+   "evidence": [
+    "https://github.com/microsoft/calculator/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/calculator/issues/162"
+   ]
+  },
+  {
+   "number": 163,
+   "title": "Bring back history editing",
+   "url": "https://github.com/microsoft/calculator/issues/163",
+   "labels": [
+    "help wanted",
+    "Enhancement",
+    "Pri: 2",
+    "needs spec"
+   ],
+   "updatedAt": "2026-07-24T14:48:13Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #620 by @grochocki is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/calculator/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/calculator/issues/620",
+    "https://github.com/microsoft/calculator/issues/526",
+    "https://github.com/microsoft/calculator/issues/595",
+    "https://github.com/microsoft/calculator/issues/277"
+   ]
+  },
+  {
+   "number": 170,
+   "title": "Implement a user-friendly view for fractions and powers",
+   "url": "https://github.com/microsoft/calculator/issues/170",
+   "labels": [
+    "help wanted",
+    "Enhancement",
+    "Pri: 2",
+    "needs spec"
+   ],
+   "updatedAt": "2023-06-01T04:03:35Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #204 by @whutddk is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/calculator/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/calculator/issues/204"
+   ]
+  },
+  {
+   "number": 204,
+   "title": "science mode should support an easy button to change result format from decimal mode to fractional mode",
+   "url": "https://github.com/microsoft/calculator/issues/204",
+   "labels": [
+    "help wanted",
+    "Enhancement",
+    "Pri: 2",
+    "needs spec"
+   ],
+   "updatedAt": "2023-06-01T04:03:36Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "labelled `needs spec` — the project is saying not to start",
+   "evidence": [
+    "https://github.com/microsoft/calculator/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/calculator/issues/204"
+   ]
+  },
+  {
+   "number": 209,
+   "title": "Investigate launch performance issues",
+   "url": "https://github.com/microsoft/calculator/issues/209",
+   "labels": [
+    "help wanted",
+    "Pri: 2",
+    "codebase quality",
+    "approved"
+   ],
+   "updatedAt": "2023-06-01T04:03:38Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "already assigned to @joseartrivera",
+   "evidence": [
+    "https://github.com/microsoft/calculator/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/calculator/pull/1213",
+    "https://github.com/microsoft/calculator/pull/1257",
+    "https://github.com/microsoft/calculator/issues/209"
+   ]
+  },
+  {
+   "number": 214,
+   "title": "Epoch timestamp to Datetime converter",
+   "url": "https://github.com/microsoft/calculator/issues/214",
+   "labels": [
+    "help wanted",
+    "Enhancement",
+    "Pri: 2",
+    "needs spec"
+   ],
+   "updatedAt": "2023-06-01T04:03:39Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "labelled `needs spec` — the project is saying not to start",
+   "evidence": [
+    "https://github.com/microsoft/calculator/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/calculator/issues/214"
+   ]
+  },
+  {
+   "number": 215,
+   "title": "Single calc instance and window vs. Multiple calc windows",
+   "url": "https://github.com/microsoft/calculator/issues/215",
+   "labels": [
+    "help wanted",
+    "Enhancement",
+    "Pri: 2",
+    "needs spec"
+   ],
+   "updatedAt": "2026-09-01T17:13:06Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "labelled `needs spec` — the project is saying not to start",
+   "evidence": [
+    "https://github.com/microsoft/calculator/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/calculator/issues/215"
+   ]
+  },
+  {
+   "number": 243,
+   "title": "Update Angle Converter to Support Degrees, Minutes, Seconds Format For Conversions",
+   "url": "https://github.com/microsoft/calculator/issues/243",
+   "labels": [
+    "help wanted",
+    "Enhancement",
+    "Pri: 2",
+    "needs spec"
+   ],
+   "updatedAt": "2023-06-01T04:03:42Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #2311 by @oxygen-dioxide is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/calculator/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/calculator/issues/2311",
+    "https://github.com/microsoft/calculator/issues/1035",
+    "https://github.com/microsoft/calculator/issues/648",
+    "https://github.com/microsoft/calculator/issues/379"
+   ]
+  },
+  {
+   "number": 277,
+   "title": "Bring back insert-from-history",
+   "url": "https://github.com/microsoft/calculator/issues/277",
+   "labels": [
+    "help wanted",
+    "Enhancement",
+    "Pri: 2",
+    "approved"
+   ],
+   "updatedAt": "2023-06-01T04:03:45Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #163 by @miloush is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/calculator/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/calculator/issues/163",
+    "https://github.com/microsoft/calculator/issues/872"
+   ]
+  },
+  {
+   "number": 283,
+   "title": "Include formula for all conversions",
+   "url": "https://github.com/microsoft/calculator/issues/283",
+   "labels": [
+    "help wanted",
+    "Enhancement",
+    "Pri: 2",
+    "needs spec"
+   ],
+   "updatedAt": "2023-06-01T04:03:46Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "labelled `needs spec` — the project is saying not to start",
+   "evidence": [
+    "https://github.com/microsoft/calculator/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/calculator/issues/283"
+   ]
+  },
+  {
+   "number": 295,
+   "title": "Update project setting to tell compiler source code is UTF-8",
+   "url": "https://github.com/microsoft/calculator/issues/295",
+   "labels": [
+    "help wanted",
+    "Pri: 3",
+    "codebase quality"
+   ],
+   "updatedAt": "2023-06-01T04:03:49Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "PR #176 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/microsoft/calculator/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/calculator/pull/176",
+    "https://github.com/microsoft/calculator/issues/295",
+    "https://docs.microsoft.com/en-us/cpp/build/reference/utf-8-set-source-and-executable-character-sets-to-utf-8?view=vs-2017",
+    "https://github.com/microsoft/calculator/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 309,
+   "title": "Inaccurate results for trigonometric functions with exact results",
+   "url": "https://github.com/microsoft/calculator/issues/309",
+   "labels": [
+    "help wanted",
+    "Bug",
+    "triage approved",
+    "Area: User Experience",
+    "Pri: 2"
+   ],
+   "updatedAt": "2022-02-10T22:48:40Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "PR #2424 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/microsoft/calculator/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/calculator/pull/2424",
+    "https://github.com/microsoft/calculator/issues/309",
+    "https://docs.microsoft.com/en-us/windows/uwp/cpp-and-winrt-apis/",
+    "https://github.com/microsoft/calculator/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 347,
+   "title": "Temperature unit conversion does not work for temperature intervals",
+   "url": "https://github.com/microsoft/calculator/issues/347",
+   "labels": [
+    "help wanted",
+    "Enhancement",
+    "Pri: 2",
+    "needs spec"
+   ],
+   "updatedAt": "2023-06-01T04:03:52Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #379 by @rudyhuyn is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/calculator/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/calculator/issues/379"
+   ]
+  },
+  {
+   "number": 351,
+   "title": "In scan mode, Narrator is not reading proper information when focus lands on the whole calendar picker control",
+   "url": "https://github.com/microsoft/calculator/issues/351",
+   "labels": [
+    "help wanted",
+    "Bug",
+    "Area: Accessibility",
+    "Pri: 3",
+    "triage approved"
+   ],
+   "updatedAt": "2022-02-10T22:48:09Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.microsoft.com/en-us/windows/uwp/cpp-and-winrt-apis/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/microsoft/calculator/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/calculator/issues/351",
+    "https://docs.microsoft.com/en-us/windows/uwp/cpp-and-winrt-apis/",
+    "https://github.com/microsoft/calculator/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 386,
+   "title": "Narrator reads information of \"Bit\" button twice after activating it",
+   "url": "https://github.com/microsoft/calculator/issues/386",
+   "labels": [
+    "help wanted",
+    "Bug",
+    "Area: Accessibility",
+    "Pri: 3",
+    "triage approved",
+    "Area: User Experience"
+   ],
+   "updatedAt": "2023-08-18T06:05:07Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.microsoft.com/en-us/windows/uwp/cpp-and-winrt-apis/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/microsoft/calculator/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/calculator/issues/386",
+    "https://docs.microsoft.com/en-us/windows/uwp/cpp-and-winrt-apis/",
+    "https://github.com/microsoft/calculator/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 388,
+   "title": "\"Previous\", \"Next\" and \"Year\" buttons are not adopting High contrast black and white themes properly",
+   "url": "https://github.com/microsoft/calculator/issues/388",
+   "labels": [
+    "help wanted",
+    "Bug",
+    "Area: Accessibility",
+    "triage approved",
+    "Pri: 2"
+   ],
+   "updatedAt": "2022-02-10T22:48:28Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.microsoft.com/en-us/windows/uwp/cpp-and-winrt-apis/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/microsoft/calculator/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/calculator/issues/388",
+    "https://docs.microsoft.com/en-us/windows/uwp/cpp-and-winrt-apis/",
+    "https://github.com/microsoft/calculator/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 419,
+   "title": "Add \"Running\" conversions category",
+   "url": "https://github.com/microsoft/calculator/issues/419",
+   "labels": [
+    "help wanted",
+    "Enhancement",
+    "Pri: 2",
+    "needs spec"
+   ],
+   "updatedAt": "2024-09-30T11:06:33Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "labelled `needs spec` — the project is saying not to start",
+   "evidence": [
+    "https://github.com/microsoft/calculator/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/calculator/issues/419"
+   ]
+  },
+  {
+   "number": 421,
+   "title": "Using the up-arrow to select items in the conversion list only works when down-arrow not used and list is scrolled",
+   "url": "https://github.com/microsoft/calculator/issues/421",
+   "labels": [
+    "help wanted",
+    "Bug",
+    "Pri: 3",
+    "triage approved",
+    "Area: User Experience"
+   ],
+   "updatedAt": "2022-02-10T22:49:25Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.microsoft.com/en-us/windows/uwp/cpp-and-winrt-apis/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/microsoft/calculator/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/calculator/issues/421",
+    "https://docs.microsoft.com/en-us/windows/uwp/cpp-and-winrt-apis/",
+    "https://github.com/microsoft/calculator/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 486,
+   "title": "Add setting to allow user to change default launch behavior",
+   "url": "https://github.com/microsoft/calculator/issues/486",
+   "labels": [
+    "help wanted",
+    "Enhancement",
+    "Pri: 2",
+    "needs spec"
+   ],
+   "updatedAt": "2023-06-01T04:03:57Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #30 by @Chips1234 is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/calculator/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/calculator-specs/pull/30"
+   ]
+  },
+  {
+   "number": 497,
+   "title": "Refresh Approximation units (aka \"Whimsical\" units)",
+   "url": "https://github.com/microsoft/calculator/issues/497",
+   "labels": [
+    "help wanted",
+    "Enhancement",
+    "Pri: 2",
+    "needs spec"
+   ],
+   "updatedAt": "2023-06-01T04:03:58Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "labelled `needs spec` — the project is saying not to start",
+   "evidence": [
+    "https://github.com/microsoft/calculator/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/calculator/issues/497"
+   ]
+  },
+  {
+   "number": 508,
+   "title": "keyboard input sometimes broken when multiple instances open",
+   "url": "https://github.com/microsoft/calculator/issues/508",
+   "labels": [
+    "help wanted",
+    "Bug",
+    "triage approved",
+    "Area: User Experience",
+    "Pri: 2"
+   ],
+   "updatedAt": "2022-02-10T22:49:51Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.microsoft.com/en-us/windows/uwp/cpp-and-winrt-apis/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/microsoft/calculator/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/calculator/issues/508",
+    "https://docs.microsoft.com/en-us/windows/uwp/cpp-and-winrt-apis/",
+    "https://github.com/microsoft/calculator/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 515,
+   "title": "Converter should integrate (or reuse) online unit conversions (Bing or similar services) to increase category/unit coverage",
+   "url": "https://github.com/microsoft/calculator/issues/515",
+   "labels": [
+    "help wanted",
+    "Enhancement",
+    "Pri: 2",
+    "needs spec"
+   ],
+   "updatedAt": "2023-06-01T04:03:59Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #2359 by @Veloctor is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/calculator/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/calculator/issues/2359",
+    "https://github.com/microsoft/calculator/issues/589",
+    "https://github.com/microsoft/calculator/issues/1035",
+    "https://github.com/microsoft/calculator/issues/243"
+   ]
+  },
+  {
+   "number": 517,
+   "title": "Add Matrix & Vector Modes",
+   "url": "https://github.com/microsoft/calculator/issues/517",
+   "labels": [
+    "help wanted",
+    "Enhancement",
+    "Pri: 2",
+    "needs spec"
+   ],
+   "updatedAt": "2024-11-07T20:43:06Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "labelled `needs spec` — the project is saying not to start",
+   "evidence": [
+    "https://github.com/microsoft/calculator/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/calculator/issues/517"
+   ]
+  },
+  {
+   "number": 526,
+   "title": "Develop a parser for arbitrary expressions in the calc engine",
+   "url": "https://github.com/microsoft/calculator/issues/526",
+   "labels": [
+    "help wanted",
+    "Enhancement",
+    "Pri: 1",
+    "needs spec"
+   ],
+   "updatedAt": "2023-09-07T11:46:18Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #163 by @miloush is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/calculator/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/calculator/issues/163",
+    "https://github.com/microsoft/calculator/issues/620",
+    "https://github.com/microsoft/calculator/issues/157"
+   ]
+  },
+  {
+   "number": 574,
+   "title": "Incorrect result for exponational and logarithmic functions with exact results",
+   "url": "https://github.com/microsoft/calculator/issues/574",
+   "labels": [
+    "help wanted",
+    "Bug",
+    "Pri: 3",
+    "triage approved",
+    "Area: User Experience"
+   ],
+   "updatedAt": "2022-02-10T22:50:02Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "PR #2424 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+3 more)",
+   "evidence": [
+    "https://github.com/microsoft/calculator/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/calculator/pull/2424",
+    "https://github.com/microsoft/calculator/issues/574#issuecomment-516923748",
+    "https://github.com/microsoft/calculator/issues/574",
+    "https://docs.microsoft.com/en-us/windows/uwp/cpp-and-winrt-apis/",
+    "https://github.com/microsoft/calculator/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 589,
+   "title": "Update unit selection UX to highlight common and recently-used units and make it easier to find and select units",
+   "url": "https://github.com/microsoft/calculator/issues/589",
+   "labels": [
+    "help wanted",
+    "Enhancement",
+    "Pri: 2",
+    "needs spec"
+   ],
+   "updatedAt": "2023-06-01T04:04:07Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #872 by @Zitchas is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/calculator/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/calculator/issues/872"
+   ]
+  },
+  {
+   "number": 595,
+   "title": "Users are unable to edit numerical values inserted from memory",
+   "url": "https://github.com/microsoft/calculator/issues/595",
+   "labels": [
+    "help wanted",
+    "Bug",
+    "Pri: 3",
+    "triage approved",
+    "Area: User Experience"
+   ],
+   "updatedAt": "2022-02-10T22:50:12Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @praveensvsrk 2591 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/microsoft/calculator/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/calculator/issues/595#issuecomment-540003859",
+    "https://github.com/microsoft/calculator/issues/595",
+    "https://docs.microsoft.com/en-us/windows/uwp/cpp-and-winrt-apis/",
+    "https://github.com/microsoft/calculator/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 613,
+   "title": "Add support for imaginary numbers",
+   "url": "https://github.com/microsoft/calculator/issues/613",
+   "labels": [
+    "help wanted",
+    "Enhancement",
+    "Pri: 2",
+    "needs spec"
+   ],
+   "updatedAt": "2023-06-01T04:04:11Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #945 by @matthew4850 is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/calculator/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/calculator/issues/945"
+   ]
+  },
+  {
+   "number": 693,
+   "title": "Enable code analysis on all projects and resolve warnings",
+   "url": "https://github.com/microsoft/calculator/issues/693",
+   "labels": [
+    "help wanted",
+    "Pri: 2",
+    "codebase quality",
+    "build",
+    "approved"
+   ],
+   "updatedAt": "2023-06-01T04:04:17Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "PR #689 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+3 more)",
+   "evidence": [
+    "https://github.com/microsoft/calculator/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/calculator/pull/689",
+    "https://github.com/microsoft/calculator/pull/1074",
+    "https://github.com/microsoft/calculator/issues/693",
+    "https://docs.microsoft.com/en-us/windows/uwp/cpp-and-winrt-apis/",
+    "https://github.com/microsoft/calculator/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 939,
+   "title": "Calculator startup time increased by 40ms after version 1906",
+   "url": "https://github.com/microsoft/calculator/issues/939",
+   "labels": [
+    "help wanted",
+    "Bug",
+    "triage approved",
+    "Area: Performance",
+    "Pri: 2"
+   ],
+   "updatedAt": "2022-02-10T22:52:27Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "already assigned to @joseartrivera",
+   "evidence": [
+    "https://github.com/microsoft/calculator/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/calculator/issues/939"
+   ]
+  },
+  {
+   "number": 960,
+   "title": "In scan mode, focus navigates twice to \"Function\" button.",
+   "url": "https://github.com/microsoft/calculator/issues/960",
+   "labels": [
+    "help wanted",
+    "Bug",
+    "Area: Accessibility",
+    "Pri: 3",
+    "triage approved",
+    "Area: User Experience"
+   ],
+   "updatedAt": "2022-02-10T22:51:39Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #2479 by @onu032001 is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/calculator/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/calculator/issues/2479"
+   ]
+  },
+  {
+   "number": 963,
+   "title": "In Scan/Item mode, screen reader focus navigates to background hidden element 'Not busy...' progress bar while navigating from 'Convert From...' text to 'Main' landmark",
+   "url": "https://github.com/microsoft/calculator/issues/963",
+   "labels": [
+    "help wanted",
+    "Bug",
+    "Area: Accessibility",
+    "triage approved",
+    "Area: User Experience",
+    "Pri: 2"
+   ],
+   "updatedAt": "2023-08-18T06:05:09Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.microsoft.com/en-us/windows/uwp/cpp-and-winrt-apis/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/microsoft/calculator/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/calculator/issues/963",
+    "https://docs.microsoft.com/en-us/windows/uwp/cpp-and-winrt-apis/",
+    "https://github.com/microsoft/calculator/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 977,
+   "title": "Context menu style picker should show up as a nested context menu",
+   "url": "https://github.com/microsoft/calculator/issues/977",
+   "labels": [
+    "help wanted",
+    "Bug",
+    "Pri: 3",
+    "triage approved",
+    "Area: User Experience"
+   ],
+   "updatedAt": "2022-02-10T22:51:52Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.microsoft.com/en-us/windows/uwp/cpp-and-winrt-apis/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/microsoft/calculator/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/calculator/issues/977",
+    "https://docs.microsoft.com/en-us/windows/uwp/cpp-and-winrt-apis/",
+    "https://github.com/microsoft/calculator/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 984,
+   "title": "Share output should render equations in rich MathML styling instead of linear",
+   "url": "https://github.com/microsoft/calculator/issues/984",
+   "labels": [
+    "help wanted",
+    "Bug",
+    "triage approved",
+    "Area: User Experience",
+    "Pri: 2"
+   ],
+   "updatedAt": "2022-02-10T22:52:03Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.microsoft.com/en-us/windows/uwp/cpp-and-winrt-apis/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/microsoft/calculator/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/calculator/issues/984",
+    "https://docs.microsoft.com/en-us/windows/uwp/cpp-and-winrt-apis/",
+    "https://github.com/microsoft/calculator/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 1002,
+   "title": "Buttons on top of the graph should appear on graph hover/interaction before fading away after inactivity",
+   "url": "https://github.com/microsoft/calculator/issues/1002",
+   "labels": [
+    "help wanted",
+    "Bug",
+    "Pri: 3",
+    "triage approved",
+    "Area: User Experience"
+   ],
+   "updatedAt": "2022-02-10T22:53:20Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.microsoft.com/en-us/windows/uwp/cpp-and-winrt-apis/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/microsoft/calculator/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/calculator/issues/1002",
+    "https://docs.microsoft.com/en-us/windows/uwp/cpp-and-winrt-apis/",
+    "https://github.com/microsoft/calculator/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 1311,
+   "title": "Entering negative exponents in Scientific mode is not supported",
+   "url": "https://github.com/microsoft/calculator/issues/1311",
+   "labels": [
+    "help wanted",
+    "Bug",
+    "triage approved",
+    "Area: User Experience",
+    "Pri: 2"
+   ],
+   "updatedAt": "2024-03-25T11:37:58Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #2035 by @drxddy is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/calculator/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/calculator/pull/2035"
+   ]
+  },
+  {
+   "number": 1325,
+   "title": "Unable to set focus back to the Calculator after minimizing using the title bar menu",
+   "url": "https://github.com/microsoft/calculator/issues/1325",
+   "labels": [
+    "help wanted",
+    "Bug",
+    "Pri: 3",
+    "triage approved",
+    "Area: User Experience"
+   ],
+   "updatedAt": "2022-02-10T22:57:03Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #1808 by @Shomnipotence is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/calculator/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/calculator/issues/1808"
+   ]
+  },
+  {
+   "number": 1340,
+   "title": "Crash occurs upon opening an additional session of Calculator that is not the same size and mode of the current, open session",
+   "url": "https://github.com/microsoft/calculator/issues/1340",
+   "labels": [
+    "help wanted",
+    "Bug",
+    "triage approved",
+    "Area: Reliability",
+    "Pri: 2"
+   ],
+   "updatedAt": "2024-05-21T15:29:23Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.microsoft.com/en-us/windows/uwp/cpp-and-winrt-apis/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/microsoft/calculator/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/calculator/issues/1340",
+    "https://docs.microsoft.com/en-us/windows/uwp/cpp-and-winrt-apis/",
+    "https://github.com/microsoft/calculator/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 1433,
+   "title": "Function won't Show after Pressing Enter if IME is Open in Graphing Mode",
+   "url": "https://github.com/microsoft/calculator/issues/1433",
+   "labels": [
+    "help wanted",
+    "Bug",
+    "triage approved",
+    "Area: World-Readiness",
+    "Pri: 2"
+   ],
+   "updatedAt": "2024-05-06T15:59:34Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.microsoft.com/en-us/windows/uwp/cpp-and-winrt-apis/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/microsoft/calculator/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/calculator/issues/1433",
+    "https://docs.microsoft.com/en-us/windows/uwp/cpp-and-winrt-apis/",
+    "https://github.com/microsoft/calculator/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 1541,
+   "title": "Typing the most negative number by numpad not possible",
+   "url": "https://github.com/microsoft/calculator/issues/1541",
+   "labels": [
+    "help wanted",
+    "Bug",
+    "triage approved",
+    "Area: User Experience",
+    "Pri: 2"
+   ],
+   "updatedAt": "2022-11-08T14:51:15Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #2035 by @drxddy is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/calculator/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/calculator/pull/2035"
+   ]
+  }
+ ]
+}

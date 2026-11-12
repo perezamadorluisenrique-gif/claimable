@@ -1,0 +1,2215 @@
+{
+ "owner": "dotnet",
+ "repo": "aspnetcore",
+ "language": "C#",
+ "stars": 38509,
+ "description": "ASP.NET Core is a cross-platform .NET framework for building modern cloud-based web applications on Windows, Mac, or Linux.",
+ "visitedAt": "2026-11-12T11:19:29.437Z",
+ "issues": [
+  {
+   "number": 2396,
+   "title": "Add EventSource/EventCounter tracing and metrics for Session",
+   "url": "https://github.com/dotnet/aspnetcore/issues/2396",
+   "labels": [
+    "help wanted",
+    "enhancement",
+    "feature-session",
+    "severity-nice-to-have",
+    "affected-few",
+    "area-middleware"
+   ],
+   "updatedAt": "2026-05-01T21:22:49Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #64554 by @davhdavh is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/issues/64554",
+    "https://github.com/dotnet/aspnetcore/issues/25224",
+    "https://github.com/dotnet/aspnetcore/issues/33866"
+   ]
+  },
+  {
+   "number": 2455,
+   "title": "Option to look for default files at the root of wwwroot path only, not at subpath",
+   "url": "https://github.com/dotnet/aspnetcore/issues/2455",
+   "labels": [
+    "help wanted",
+    "enhancement",
+    "feature-static-files",
+    "affected-few",
+    "severity-minor",
+    "area-middleware"
+   ],
+   "updatedAt": "2026-05-01T21:13:35Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines",
+    "https://github.com/dotnet/aspnetcore/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2622,
+   "title": "Cache invalidation",
+   "url": "https://github.com/dotnet/aspnetcore/issues/2622",
+   "labels": [
+    "Needs: Design",
+    "help wanted",
+    "enhancement",
+    "feature-response-caching",
+    "severity-nice-to-have",
+    "affected-few",
+    "area-middleware"
+   ],
+   "updatedAt": "2026-05-01T21:18:24Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/issues/2622",
+    "https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines",
+    "https://github.com/dotnet/aspnetcore/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2694,
+   "title": "HttpRuleParser GetExpressionLength allows invalid characters.",
+   "url": "https://github.com/dotnet/aspnetcore/issues/2694",
+   "labels": [
+    "bug",
+    "help wanted",
+    "feature-http-abstractions",
+    "affected-few",
+    "severity-minor",
+    "area-networking"
+   ],
+   "updatedAt": "2026-08-09T23:19:06Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @wehamed 95 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/issues/2694#issuecomment-5234365586",
+    "https://github.com/dotnet/aspnetcore/issues/2694",
+    "https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines",
+    "https://github.com/dotnet/aspnetcore/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2695,
+   "title": "MediaTypeHeaderValue accepts a list of strings instead of a list of StringSegments",
+   "url": "https://github.com/dotnet/aspnetcore/issues/2695",
+   "labels": [
+    "help wanted",
+    "enhancement",
+    "feature-http-abstractions",
+    "api-suggestion",
+    "severity-nice-to-have",
+    "affected-very-few",
+    "area-networking"
+   ],
+   "updatedAt": "2026-05-01T21:17:25Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/issues/2695",
+    "https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines",
+    "https://github.com/dotnet/aspnetcore/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2707,
+   "title": "Add Microbenchmarks for Microsoft.AspNetCore.WebUtilities",
+   "url": "https://github.com/dotnet/aspnetcore/issues/2707",
+   "labels": [
+    "task",
+    "help wanted",
+    "feature-http-abstractions",
+    "Perf",
+    "severity-nice-to-have",
+    "affected-medium",
+    "area-networking"
+   ],
+   "updatedAt": "2026-05-01T21:17:49Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/issues/2707",
+    "https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines",
+    "https://github.com/dotnet/aspnetcore/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2708,
+   "title": "ITlsConnectionFeature should include client certificate chain elements",
+   "url": "https://github.com/dotnet/aspnetcore/issues/2708",
+   "labels": [
+    "help wanted",
+    "enhancement",
+    "feature-http-abstractions",
+    "severity-minor",
+    "affected-very-few",
+    "area-networking"
+   ],
+   "updatedAt": "2026-05-01T21:21:30Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #69351 by @rokonec is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/issues/69351",
+    "https://github.com/dotnet/aspnetcore/issues/43661"
+   ]
+  },
+  {
+   "number": 2725,
+   "title": "Make OwinFeatureCollection mutable",
+   "url": "https://github.com/dotnet/aspnetcore/issues/2725",
+   "labels": [
+    "help wanted",
+    "enhancement",
+    "feature-http-abstractions",
+    "severity-nice-to-have",
+    "affected-very-few",
+    "area-networking"
+   ],
+   "updatedAt": "2026-10-02T07:51:51Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "2 stale claims, the most recent by @valkiara 41 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/issues/2725#issuecomment-5947709444",
+    "https://github.com/dotnet/aspnetcore/issues/2725",
+    "https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines",
+    "https://github.com/dotnet/aspnetcore/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2733,
+   "title": "Review and update form parsing logic",
+   "url": "https://github.com/dotnet/aspnetcore/issues/2733",
+   "labels": [
+    "bug",
+    "help wanted",
+    "feature-http-abstractions",
+    "severity-nice-to-have",
+    "affected-very-few",
+    "area-networking"
+   ],
+   "updatedAt": "2026-05-01T21:16:59Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/issues/2733",
+    "https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines",
+    "https://github.com/dotnet/aspnetcore/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2948,
+   "title": "Consider using ActivatorUtilities.CreateFactory in AuthenticationHandlerProvider ",
+   "url": "https://github.com/dotnet/aspnetcore/issues/2948",
+   "labels": [
+    "help wanted",
+    "enhancement",
+    "feature-http-abstractions",
+    "severity-nice-to-have",
+    "affected-few",
+    "area-networking"
+   ],
+   "updatedAt": "2026-05-01T21:16:10Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/issues/2948",
+    "https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines",
+    "https://github.com/dotnet/aspnetcore/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 3807,
+   "title": "Implement SendFileAsync feature",
+   "url": "https://github.com/dotnet/aspnetcore/issues/3807",
+   "labels": [
+    "help wanted",
+    "enhancement",
+    "Perf",
+    "feature-iis",
+    "severity-nice-to-have",
+    "affected-very-few",
+    "area-networking"
+   ],
+   "updatedAt": "2026-05-01T21:20:32Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/issues/3807",
+    "https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines",
+    "https://github.com/dotnet/aspnetcore/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 3956,
+   "title": "ASP.NET Core add Tag Helpers to replace HTML Helpers such as @Html.DisplayFor",
+   "url": "https://github.com/dotnet/aspnetcore/issues/3956",
+   "labels": [
+    "enhancement",
+    "area-mvc",
+    "good first issue",
+    "feature-mvc-razor-views"
+   ],
+   "updatedAt": "2026-05-01T21:22:24Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #61438 by @eajhnsn1 is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/issues/61438"
+   ]
+  },
+  {
+   "number": 4382,
+   "title": "Setting an invalid Transfer-Encoding response header sometimes kills the connection instead of responding with a 500 status",
+   "url": "https://github.com/dotnet/aspnetcore/issues/4382",
+   "labels": [
+    "bug",
+    "help wanted",
+    "feature-kestrel",
+    "severity-nice-to-have",
+    "affected-very-few",
+    "area-networking"
+   ],
+   "updatedAt": "2026-08-28T16:30:39Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #68901 by @zeohhh is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/pull/68901"
+   ]
+  },
+  {
+   "number": 4651,
+   "title": "Log decryption failures",
+   "url": "https://github.com/dotnet/aspnetcore/issues/4651",
+   "labels": [
+    "help wanted",
+    "enhancement",
+    "area-auth",
+    "severity-minor",
+    "affected-medium"
+   ],
+   "updatedAt": "2026-05-01T21:17:43Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/issues/4651",
+    "https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines",
+    "https://github.com/dotnet/aspnetcore/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 4652,
+   "title": "Empty body responses can violate content security policy",
+   "url": "https://github.com/dotnet/aspnetcore/issues/4652",
+   "labels": [
+    "help wanted",
+    "enhancement",
+    "area-auth"
+   ],
+   "updatedAt": "2026-05-01T21:17:42Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/issues/4652",
+    "https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines",
+    "https://github.com/dotnet/aspnetcore/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 4677,
+   "title": "OIDC MW: add HandleRemoteSignOutAsync event",
+   "url": "https://github.com/dotnet/aspnetcore/issues/4677",
+   "labels": [
+    "help wanted",
+    "enhancement",
+    "area-auth"
+   ],
+   "updatedAt": "2026-05-01T21:17:32Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/issues/4677",
+    "https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines",
+    "https://github.com/dotnet/aspnetcore/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 4678,
+   "title": "OpenIdConnectEvents event for RemoteSignOut complete",
+   "url": "https://github.com/dotnet/aspnetcore/issues/4678",
+   "labels": [
+    "help wanted",
+    "enhancement",
+    "area-auth"
+   ],
+   "updatedAt": "2026-05-01T21:17:31Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/issues/4678",
+    "https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines",
+    "https://github.com/dotnet/aspnetcore/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 4710,
+   "title": "Stop referencing user-replaceable features for internal logic",
+   "url": "https://github.com/dotnet/aspnetcore/issues/4710",
+   "labels": [
+    "help wanted",
+    "enhancement",
+    "feature-kestrel",
+    "severity-nice-to-have",
+    "affected-very-few",
+    "area-networking"
+   ],
+   "updatedAt": "2026-05-01T21:17:17Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/issues/4710",
+    "https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines",
+    "https://github.com/dotnet/aspnetcore/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 4747,
+   "title": "Misleading TaskCanceledException",
+   "url": "https://github.com/dotnet/aspnetcore/issues/4747",
+   "labels": [
+    "bug",
+    "help wanted",
+    "feature-kestrel",
+    "severity-nice-to-have",
+    "affected-very-few",
+    "area-networking"
+   ],
+   "updatedAt": "2026-05-01T21:12:02Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "PR #233 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/leehopper/personal-running-coach/pull/233",
+    "https://github.com/dotnet/aspnetcore/issues/4747",
+    "https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines",
+    "https://github.com/dotnet/aspnetcore/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 4759,
+   "title": "Log HTTPs cert info on startup",
+   "url": "https://github.com/dotnet/aspnetcore/issues/4759",
+   "labels": [
+    "help wanted",
+    "enhancement",
+    "feature-kestrel",
+    "severity-nice-to-have",
+    "affected-very-few",
+    "area-networking"
+   ],
+   "updatedAt": "2026-05-01T21:16:57Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #55179 by @Paultje52 is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/issues/55179",
+    "https://github.com/dotnet/aspnetcore/issues/64931"
+   ]
+  },
+  {
+   "number": 4765,
+   "title": "Read additional KestrelServerOptions from config",
+   "url": "https://github.com/dotnet/aspnetcore/issues/4765",
+   "labels": [
+    "Needs: Design",
+    "help wanted",
+    "enhancement",
+    "feature-kestrel",
+    "affected-few",
+    "severity-minor",
+    "area-networking"
+   ],
+   "updatedAt": "2026-09-16T08:17:43Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #69340 by @marcominerva is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/pull/69340",
+    "https://github.com/dotnet/AspNetCore.Docs/pull/16889",
+    "https://github.com/dotnet/AspNetCore.Docs/pull/31633",
+    "https://github.com/dluc/kernel-memory/pull/863",
+    "https://github.com/EvilBeaver/OneScript/pull/1521"
+   ]
+  },
+  {
+   "number": 5316,
+   "title": "Additional streaming parameter types",
+   "url": "https://github.com/dotnet/aspnetcore/issues/5316",
+   "labels": [
+    "Needs: Design",
+    "help wanted",
+    "enhancement",
+    "area-signalr",
+    "Blazor ♥ SignalR",
+    "severity-nice-to-have",
+    "affected-very-few"
+   ],
+   "updatedAt": "2026-05-01T21:18:40Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/issues/5316",
+    "https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines",
+    "https://github.com/dotnet/aspnetcore/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 5321,
+   "title": "Add possibility to inject json reviver function in Typescript client",
+   "url": "https://github.com/dotnet/aspnetcore/issues/5321",
+   "labels": [
+    "help wanted",
+    "enhancement",
+    "area-signalr",
+    "api-suggestion",
+    "severity-minor",
+    "affected-very-few"
+   ],
+   "updatedAt": "2026-05-01T21:20:19Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/issues/5321",
+    "https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines",
+    "https://github.com/dotnet/aspnetcore/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 5336,
+   "title": "Allow signalr-protocol-msgpack to be use with UMD",
+   "url": "https://github.com/dotnet/aspnetcore/issues/5336",
+   "labels": [
+    "help wanted",
+    "enhancement",
+    "area-signalr",
+    "feature-client-javascript",
+    "severity-minor",
+    "affected-very-few"
+   ],
+   "updatedAt": "2026-05-01T21:13:20Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/issues/5336",
+    "https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines",
+    "https://github.com/dotnet/aspnetcore/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 5342,
+   "title": "Url can't be changed for easy reconnect",
+   "url": "https://github.com/dotnet/aspnetcore/issues/5342",
+   "labels": [
+    "help wanted",
+    "enhancement",
+    "blocked",
+    "area-signalr",
+    "feature-client-java",
+    "feature-client-net",
+    "feature-client-javascript",
+    "affected-few",
+    "severity-minor"
+   ],
+   "updatedAt": "2026-05-01T21:17:23Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "labelled `blocked` — the project is saying not to start",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/pull/11010",
+    "https://github.com/dotnet/aspnetcore/pull/11102",
+    "https://github.com/dotnet/aspnetcore/issues/5342"
+   ]
+  },
+  {
+   "number": 5350,
+   "title": "Improve error messaging for 404s",
+   "url": "https://github.com/dotnet/aspnetcore/issues/5350",
+   "labels": [
+    "help wanted",
+    "enhancement",
+    "area-signalr",
+    "feature-client-java",
+    "feature-client-net",
+    "feature-client-javascript",
+    "severity-nice-to-have",
+    "affected-few"
+   ],
+   "updatedAt": "2026-05-01T21:13:36Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "PR #31402 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/pull/31402",
+    "https://github.com/dotnet/aspnetcore/issues/5350",
+    "https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines",
+    "https://github.com/dotnet/aspnetcore/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 5888,
+   "title": "Add an AutomaticChallenge option to disable HttpSys from adding auth headers on 401",
+   "url": "https://github.com/dotnet/aspnetcore/issues/5888",
+   "labels": [
+    "help wanted",
+    "enhancement",
+    "feature-httpsys",
+    "severity-nice-to-have",
+    "affected-very-few",
+    "area-networking"
+   ],
+   "updatedAt": "2026-05-01T21:20:44Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/issues/5888",
+    "https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines",
+    "https://github.com/dotnet/aspnetcore/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 5902,
+   "title": "If one hosting startup class fails to execute, subsequent hosting startup classes defined in the assembly won't be executed.",
+   "url": "https://github.com/dotnet/aspnetcore/issues/5902",
+   "labels": [
+    "bug",
+    "help wanted",
+    "severity-minor",
+    "affected-very-few",
+    "area-hosting",
+    "area-networking"
+   ],
+   "updatedAt": "2026-09-19T03:04:46Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @collinstevens 1998 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/issues/5902#issuecomment-846765920",
+    "https://github.com/dotnet/aspnetcore/issues/5902",
+    "https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines",
+    "https://github.com/dotnet/aspnetcore/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 5938,
+   "title": "TestServer.CreateClient :  the HttpClient created didn't support well the cancellation.",
+   "url": "https://github.com/dotnet/aspnetcore/issues/5938",
+   "labels": [
+    "bug",
+    "help wanted",
+    "affected-few",
+    "severity-minor",
+    "area-hosting",
+    "area-networking"
+   ],
+   "updatedAt": "2026-09-07T21:06:12Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #69106 by @georgehotca is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/pull/69106"
+   ]
+  },
+  {
+   "number": 5982,
+   "title": "Mod Rewrite Middleware Checklist",
+   "url": "https://github.com/dotnet/aspnetcore/issues/5982",
+   "labels": [
+    "help wanted",
+    "enhancement",
+    "feature-rewrite-middleware",
+    "area-middleware"
+   ],
+   "updatedAt": "2026-05-01T21:21:44Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #926 by @renovate[bot] is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/arcus-azure/arcus.templates/pull/926"
+   ]
+  },
+  {
+   "number": 5984,
+   "title": "Perf: add API to avoid regex matching rewrite rules unless necessary",
+   "url": "https://github.com/dotnet/aspnetcore/issues/5984",
+   "labels": [
+    "help wanted",
+    "enhancement",
+    "feature-rewrite-middleware",
+    "api-suggestion",
+    "area-middleware"
+   ],
+   "updatedAt": "2026-05-16T08:05:50Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @puneetdixit200 180 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/issues/5984#issuecomment-4466266171",
+    "https://github.com/dotnet/aspnetcore/issues/5984",
+    "https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines",
+    "https://github.com/dotnet/aspnetcore/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 5994,
+   "title": "Compression: Add threshold for compression ",
+   "url": "https://github.com/dotnet/aspnetcore/issues/5994",
+   "labels": [
+    "help wanted",
+    "enhancement",
+    "feature-response-compression",
+    "affected-few",
+    "severity-minor",
+    "area-middleware"
+   ],
+   "updatedAt": "2026-09-28T20:26:57Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #69612 by @abdelrahman-abusleem is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/issues/69612"
+   ]
+  },
+  {
+   "number": 6003,
+   "title": "Regex Timeout are too short, not consistent, and not configurable in RewriteMiddleware",
+   "url": "https://github.com/dotnet/aspnetcore/issues/6003",
+   "labels": [
+    "help wanted",
+    "enhancement",
+    "feature-rewrite-middleware",
+    "severity-minor",
+    "affected-very-few",
+    "area-middleware"
+   ],
+   "updatedAt": "2026-05-01T21:21:12Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/issues/6003",
+    "https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines",
+    "https://github.com/dotnet/aspnetcore/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 6006,
+   "title": "Add support for PATH_INFO server variable",
+   "url": "https://github.com/dotnet/aspnetcore/issues/6006",
+   "labels": [
+    "help wanted",
+    "enhancement",
+    "area-middleware"
+   ],
+   "updatedAt": "2026-09-10T19:33:47Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #69203 by @georgehotca is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/pull/69203"
+   ]
+  },
+  {
+   "number": 6946,
+   "title": "ITicketStore from DI",
+   "url": "https://github.com/dotnet/aspnetcore/issues/6946",
+   "labels": [
+    "help wanted",
+    "enhancement",
+    "area-auth",
+    "affected-few",
+    "severity-minor"
+   ],
+   "updatedAt": "2026-05-01T21:15:24Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "PR #153 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akunzai/GSS.Authentication.CAS/pull/153",
+    "https://github.com/dotnet/aspnetcore/issues/6946",
+    "https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines",
+    "https://github.com/dotnet/aspnetcore/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 7663,
+   "title": "Support asp-items for datalist element",
+   "url": "https://github.com/dotnet/aspnetcore/issues/7663",
+   "labels": [
+    "help wanted",
+    "enhancement",
+    "area-mvc",
+    "severity-minor",
+    "affected-medium",
+    "Priority:2",
+    "feature-mvc-razor-views"
+   ],
+   "updatedAt": "2026-09-15T13:06:06Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #69439 by @FestimReqi is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/pull/69439",
+    "https://github.com/DamianEdwards/TagHelperPack/pull/40"
+   ]
+  },
+  {
+   "number": 8565,
+   "title": "Kestrel outputs to console an http url for non-http connection handlers",
+   "url": "https://github.com/dotnet/aspnetcore/issues/8565",
+   "labels": [
+    "help wanted",
+    "enhancement",
+    "feature-kestrel",
+    "🥌 Bedrock",
+    "severity-nice-to-have",
+    "affected-very-few",
+    "area-networking"
+   ],
+   "updatedAt": "2026-05-01T21:17:19Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "already assigned to @davidfowl",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/issues/8565"
+   ]
+  },
+  {
+   "number": 8602,
+   "title": "User Secrets broke on different first word capitalization",
+   "url": "https://github.com/dotnet/aspnetcore/issues/8602",
+   "labels": [
+    "bug",
+    "help wanted",
+    "area-commandlinetools",
+    "feature-user-secrets",
+    "affected-few",
+    "severity-minor"
+   ],
+   "updatedAt": "2026-10-06T01:48:34Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/issues/8602",
+    "https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines",
+    "https://github.com/dotnet/aspnetcore/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 8857,
+   "title": "Add support for TypeConverter on propertes/parameters in MVC",
+   "url": "https://github.com/dotnet/aspnetcore/issues/8857",
+   "labels": [
+    "help wanted",
+    "enhancement",
+    "area-mvc",
+    "feature-model-binding",
+    "affected-few",
+    "severity-minor"
+   ],
+   "updatedAt": "2026-05-01T21:15:28Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/issues/8857",
+    "https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines",
+    "https://github.com/dotnet/aspnetcore/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 9736,
+   "title": "make Partial Tag Helper's  \"view-data\" attribute helperful",
+   "url": "https://github.com/dotnet/aspnetcore/issues/9736",
+   "labels": [
+    "bug",
+    "help wanted",
+    "area-mvc",
+    "affected-few",
+    "severity-major"
+   ],
+   "updatedAt": "2026-05-01T21:22:29Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #65577 by @kubaflo is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/pull/65577"
+   ]
+  },
+  {
+   "number": 9964,
+   "title": "Follow links when disconnecting",
+   "url": "https://github.com/dotnet/aspnetcore/issues/9964",
+   "labels": [
+    "help wanted",
+    "enhancement",
+    "area-blazor",
+    "good first issue",
+    "severity-major",
+    "affected-medium",
+    "feature-blazor-server"
+   ],
+   "updatedAt": "2026-08-16T07:46:01Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #68562 by @oguzozshn is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/pull/68562"
+   ]
+  },
+  {
+   "number": 9974,
+   "title": "Blazor: bind-value-oninput or bind does not work with contenteditable divs",
+   "url": "https://github.com/dotnet/aspnetcore/issues/9974",
+   "labels": [
+    "help wanted",
+    "enhancement",
+    "area-blazor",
+    "feature-razor.language",
+    "feature-blazor-component-model",
+    "Pillar: Complete Blazor Web",
+    "on-roadmap"
+   ],
+   "updatedAt": "2026-11-02T16:25:52Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #64610 by @javiercn is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/pull/64610"
+   ]
+  },
+  {
+   "number": 12809,
+   "title": "Non-HTTP TLS connection middleware",
+   "url": "https://github.com/dotnet/aspnetcore/issues/12809",
+   "labels": [
+    "help wanted",
+    "enhancement",
+    "🥌 Bedrock",
+    "severity-nice-to-have",
+    "affected-few",
+    "area-networking"
+   ],
+   "updatedAt": "2026-05-01T21:11:01Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "PR #6035 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/orleans/pull/6035",
+    "https://github.com/dotnet/aspnetcore/issues/12809#issuecomment-540709974",
+    "https://github.com/dotnet/aspnetcore/issues/12809",
+    "https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines",
+    "https://github.com/dotnet/aspnetcore/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 13145,
+   "title": "Detect IIS in-proc from UseKestrel",
+   "url": "https://github.com/dotnet/aspnetcore/issues/13145",
+   "labels": [
+    "help wanted",
+    "enhancement",
+    "severity-nice-to-have",
+    "affected-very-few",
+    "area-networking"
+   ],
+   "updatedAt": "2026-05-01T21:12:45Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/issues/13145",
+    "https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines",
+    "https://github.com/dotnet/aspnetcore/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 13413,
+   "title": "Include valid/invalid state in ValidationStateChangedEventArgs",
+   "url": "https://github.com/dotnet/aspnetcore/issues/13413",
+   "labels": [
+    "help wanted",
+    "enhancement",
+    "area-blazor",
+    "severity-major",
+    "affected-medium",
+    "feature-blazor-builtin-components",
+    "Pillar: Complete Blazor Web"
+   ],
+   "updatedAt": "2026-11-06T14:30:05Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #67362 by @vendasankarsf3945 is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/pull/67362"
+   ]
+  },
+  {
+   "number": 13613,
+   "title": "SignalR (Client) UWP Background Support",
+   "url": "https://github.com/dotnet/aspnetcore/issues/13613",
+   "labels": [
+    "Needs: Design",
+    "help wanted",
+    "enhancement",
+    "area-signalr",
+    "severity-nice-to-have",
+    "affected-very-few"
+   ],
+   "updatedAt": "2026-05-01T21:17:17Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.microsoft.com/en-us/windows/uwp/networking/network-communications-in-the-background) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/issues/13613",
+    "https://docs.microsoft.com/en-us/windows/uwp/networking/network-communications-in-the-background",
+    "https://github.com/dotnet/aspnetcore/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 14172,
+   "title": "Add Java client transport fallback",
+   "url": "https://github.com/dotnet/aspnetcore/issues/14172",
+   "labels": [
+    "help wanted",
+    "enhancement",
+    "area-signalr",
+    "feature-client-java",
+    "severity-minor",
+    "affected-medium"
+   ],
+   "updatedAt": "2026-05-01T21:18:39Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/issues/14172",
+    "https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines",
+    "https://github.com/dotnet/aspnetcore/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 17804,
+   "title": "Request to make Kestrel BadHttpRequestException.Reason public",
+   "url": "https://github.com/dotnet/aspnetcore/issues/17804",
+   "labels": [
+    "help wanted",
+    "enhancement",
+    "feature-kestrel",
+    "severity-nice-to-have",
+    "affected-very-few",
+    "area-networking"
+   ],
+   "updatedAt": "2026-05-01T21:20:12Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "PR #20339 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/pull/20339",
+    "https://github.com/dotnet/aspnetcore/issues/17804",
+    "https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines",
+    "https://github.com/dotnet/aspnetcore/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 17840,
+   "title": "Provide better experience when the BodyReader is left in a reading state ",
+   "url": "https://github.com/dotnet/aspnetcore/issues/17840",
+   "labels": [
+    "help wanted",
+    "enhancement",
+    "feature-kestrel",
+    "severity-nice-to-have",
+    "affected-very-few",
+    "area-networking"
+   ],
+   "updatedAt": "2026-05-01T21:19:56Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "already assigned to @davidfowl",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/issues/17840",
+    "https://github.com/dotnet/aspnetcore/issues/17840#issuecomment-713713232"
+   ]
+  },
+  {
+   "number": 17900,
+   "title": "\"stateChanged\" missing from Typescript SignalR lifetime events?",
+   "url": "https://github.com/dotnet/aspnetcore/issues/17900",
+   "labels": [
+    "help wanted",
+    "enhancement",
+    "area-signalr",
+    "api-suggestion",
+    "severity-minor",
+    "affected-very-few"
+   ],
+   "updatedAt": "2026-05-01T21:22:56Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/issues/17900",
+    "https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines",
+    "https://github.com/dotnet/aspnetcore/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 18555,
+   "title": "ArgumentException \"unrecognized escape sequence\" in RewriteOptions.AddApacheModRewrite in case of usage of regex shorthand character classes (like \\d)",
+   "url": "https://github.com/dotnet/aspnetcore/issues/18555",
+   "labels": [
+    "investigate",
+    "help wanted",
+    "good first issue",
+    "area-middleware"
+   ],
+   "updatedAt": "2026-01-07T00:18:37Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #66354 by @slymanmrcan is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/pull/66354",
+    "https://github.com/dotnet/aspnetcore/pull/68788",
+    "https://github.com/dotnet/aspnetcore/pull/68926",
+    "https://github.com/bitfoundation/bitplatform/pull/12594"
+   ]
+  },
+  {
+   "number": 19098,
+   "title": "Microsoft.AspNetCore.SpaServices.Extensions is undocumented",
+   "url": "https://github.com/dotnet/aspnetcore/issues/19098",
+   "labels": [
+    "help wanted",
+    "enhancement",
+    "Docs",
+    "feature-spa",
+    "severity-major",
+    "affected-medium",
+    "area-ui-rendering"
+   ],
+   "updatedAt": "2026-05-01T21:18:56Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.microsoft.com/en-us/aspnet/core/client-side/spa-services?view=aspnetcore-3.1) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/issues/19098",
+    "https://docs.microsoft.com/en-us/aspnet/core/client-side/spa-services?view=aspnetcore-3.1",
+    "https://github.com/dotnet/aspnetcore/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 20898,
+   "title": "LoadAsync on Session - when _isNewSessionKey is true",
+   "url": "https://github.com/dotnet/aspnetcore/issues/20898",
+   "labels": [
+    "help wanted",
+    "enhancement",
+    "Perf",
+    "breaking-change",
+    "severity-nice-to-have",
+    "affected-few",
+    "area-middleware"
+   ],
+   "updatedAt": "2026-05-01T21:12:31Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/issues/20898",
+    "https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines",
+    "https://github.com/dotnet/aspnetcore/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 21384,
+   "title": "[Blazor] Throw meaningful exception for JSRuntime calls that timeout",
+   "url": "https://github.com/dotnet/aspnetcore/issues/21384",
+   "labels": [
+    "bug",
+    "help wanted",
+    "area-blazor",
+    "good first issue",
+    "feature-blazor-wasm",
+    "affected-few",
+    "severity-major",
+    "cost: S",
+    "feature-blazor-jsinterop",
+    "reevaluate",
+    "Pillar: Technical Debt"
+   ],
+   "updatedAt": "2026-10-26T18:07:03Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #67013 by @GOVINSAGA is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/pull/67013",
+    "https://github.com/SamProf/MatBlazor/pull/737"
+   ]
+  },
+  {
+   "number": 23063,
+   "title": "TransformOutbound of route constraint is not called when the route segment is optional",
+   "url": "https://github.com/dotnet/aspnetcore/issues/23063",
+   "labels": [
+    "bug",
+    "help wanted",
+    "area-mvc",
+    "feature-routing",
+    "affected-few",
+    "severity-major"
+   ],
+   "updatedAt": "2026-08-12T12:53:45Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #68453 by @GOVINSAGA is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/pull/68453"
+   ]
+  },
+  {
+   "number": 24384,
+   "title": "Kestrel port binding default to 80 or 443 / No error/warn/info/debug when \"{abc}\" provided",
+   "url": "https://github.com/dotnet/aspnetcore/issues/24384",
+   "labels": [
+    "bug",
+    "help wanted",
+    "severity-minor",
+    "affected-very-few",
+    "area-networking"
+   ],
+   "updatedAt": "2026-05-01T21:14:24Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #63135 by @h5aaimtron is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/pull/63135"
+   ]
+  },
+  {
+   "number": 24618,
+   "title": "Rewrite module - Rule action not working with rewrite maps",
+   "url": "https://github.com/dotnet/aspnetcore/issues/24618",
+   "labels": [
+    "bug",
+    "help wanted",
+    "feature-rewrite-middleware",
+    "area-middleware"
+   ],
+   "updatedAt": "2026-05-01T21:13:33Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #68808 by @astralmaster is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/pull/68808"
+   ]
+  },
+  {
+   "number": 28120,
+   "title": "Preload default Kestrel config before running Kestrel's configureOptions callback",
+   "url": "https://github.com/dotnet/aspnetcore/issues/28120",
+   "labels": [
+    "bug",
+    "help wanted",
+    "feature-kestrel",
+    "affected-few",
+    "severity-minor",
+    "area-networking"
+   ],
+   "updatedAt": "2026-05-01T21:14:17Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "PR #4448 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/dotnet-docker/pull/4448",
+    "https://github.com/dotnet/aspnetcore/issues/28120",
+    "https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines",
+    "https://github.com/dotnet/aspnetcore/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 28344,
+   "title": "Denying authorization access to a Blazor webassembly client",
+   "url": "https://github.com/dotnet/aspnetcore/issues/28344",
+   "labels": [
+    "bug",
+    "help wanted",
+    "area-blazor",
+    "good first issue",
+    "feature-blazor-wasm",
+    "severity-major",
+    "affected-medium",
+    "Priority:1",
+    "Pillar: Technical Debt"
+   ],
+   "updatedAt": "2026-05-26T14:58:44Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #66888 by @littletoxic is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/pull/66888",
+    "https://github.com/dotnet/aspnetcore/pull/66899"
+   ]
+  },
+  {
+   "number": 28375,
+   "title": "[StackExchange.Redis] Add DefaultReadCommandFlag into RedisCacheOptions for read operations",
+   "url": "https://github.com/dotnet/aspnetcore/issues/28375",
+   "labels": [
+    "help wanted",
+    "enhancement",
+    "feature-caching",
+    "area-middleware"
+   ],
+   "updatedAt": "2026-05-01T21:14:14Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #41948 by @udlose is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/issues/41948"
+   ]
+  },
+  {
+   "number": 28600,
+   "title": "Check Web APIs returning ActionResult with status code 2xx",
+   "url": "https://github.com/dotnet/aspnetcore/issues/28600",
+   "labels": [
+    "help wanted",
+    "enhancement",
+    "area-mvc",
+    "good first issue",
+    "affected-few",
+    "severity-minor",
+    "feature-mvc-execution-pipeline"
+   ],
+   "updatedAt": "2026-08-20T15:02:07Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #69183 by @fahmymohammed is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/pull/69183"
+   ]
+  },
+  {
+   "number": 29541,
+   "title": "CertificateManagerEventSource Has Incorrectly Authored Events",
+   "url": "https://github.com/dotnet/aspnetcore/issues/29541",
+   "labels": [
+    "bug",
+    "investigate",
+    "help wanted",
+    "area-commandlinetools",
+    "feature-devcerts",
+    "severity-nice-to-have",
+    "affected-very-few"
+   ],
+   "updatedAt": "2026-05-01T21:15:33Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #68138 by @HengYpinn is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/pull/68138"
+   ]
+  },
+  {
+   "number": 29835,
+   "title": "TagHelperContent.AppendHtml does not append but replace",
+   "url": "https://github.com/dotnet/aspnetcore/issues/29835",
+   "labels": [
+    "help wanted",
+    "area-mvc",
+    "good first issue",
+    "feature-mvc-razor-views"
+   ],
+   "updatedAt": "2026-08-20T15:20:22Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #69215 by @fahmymohammed is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/pull/69215"
+   ]
+  },
+  {
+   "number": 30388,
+   "title": "React SPA Template Jest Unit Tests Should Work",
+   "url": "https://github.com/dotnet/aspnetcore/issues/30388",
+   "labels": [
+    "help wanted",
+    "enhancement",
+    "feature-spa",
+    "good first issue",
+    "severity-nice-to-have",
+    "affected-few",
+    "area-ui-rendering"
+   ],
+   "updatedAt": "2026-07-28T11:20:38Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.microsoft.com/en-us/visualstudio/javascript/unit-testing-javascript-with-visual-studio?view=vs-2019) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/issues/30388",
+    "https://docs.microsoft.com/en-us/visualstudio/javascript/unit-testing-javascript-with-visual-studio?view=vs-2019",
+    "https://github.com/dotnet/aspnetcore/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 30792,
+   "title": "IISHttpServer populates IServerAddressesFeature.Addresses with non-http addresses",
+   "url": "https://github.com/dotnet/aspnetcore/issues/30792",
+   "labels": [
+    "bug",
+    "help wanted",
+    "area-networking"
+   ],
+   "updatedAt": "2026-05-01T21:18:38Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #8565 by @mconnew is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/issues/8565"
+   ]
+  },
+  {
+   "number": 33866,
+   "title": "asp.net core api Request.Form URL-encoded Chinese is not restored correctly.",
+   "url": "https://github.com/dotnet/aspnetcore/issues/33866",
+   "labels": [
+    "bug",
+    "help wanted",
+    "area-networking"
+   ],
+   "updatedAt": "2026-05-01T21:14:53Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/issues/33866",
+    "https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines",
+    "https://github.com/dotnet/aspnetcore/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 33946,
+   "title": "Write more content directly to StreamWriter in W3CLogger",
+   "url": "https://github.com/dotnet/aspnetcore/issues/33946",
+   "labels": [
+    "help wanted",
+    "Perf",
+    "area-networking"
+   ],
+   "updatedAt": "2026-09-08T05:18:24Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #69108 by @z0rimo is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/pull/69108",
+    "https://github.com/dotnet/aspnetcore/pull/33251"
+   ]
+  },
+  {
+   "number": 34050,
+   "title": "Add support for binding to AF_VSOCK and AF_HYPERV sockets",
+   "url": "https://github.com/dotnet/aspnetcore/issues/34050",
+   "labels": [
+    "help wanted",
+    "enhancement",
+    "feature-kestrel",
+    "area-networking"
+   ],
+   "updatedAt": "2026-05-01T21:14:58Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/user-guide/make-integration-service) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/issues/34050",
+    "https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/user-guide/make-integration-service",
+    "https://github.com/dotnet/aspnetcore/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 39375,
+   "title": "Identity: Message for invalid username does not reflect actual permitted characters.",
+   "url": "https://github.com/dotnet/aspnetcore/issues/39375",
+   "labels": [
+    "bug",
+    "help wanted",
+    "area-identity"
+   ],
+   "updatedAt": "2026-10-23T09:51:55Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #62111 by @SourceCodeWhen is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/pull/62111"
+   ]
+  },
+  {
+   "number": 40415,
+   "title": "JSON \"null\" request body rejected as an empty request body",
+   "url": "https://github.com/dotnet/aspnetcore/issues/40415",
+   "labels": [
+    "help wanted",
+    "enhancement",
+    "area-mvc"
+   ],
+   "updatedAt": "2026-05-01T21:11:20Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #65595 by @kubaflo is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/pull/65595"
+   ]
+  },
+  {
+   "number": 40757,
+   "title": "[Blazor][Wasm] Set oidc Authentication Options to Local Storage",
+   "url": "https://github.com/dotnet/aspnetcore/issues/40757",
+   "labels": [
+    "help wanted",
+    "enhancement",
+    "area-blazor",
+    "feature-blazor-wasm",
+    "Priority:1",
+    "feature-blazor-wasm-auth",
+    "triaged",
+    "Pillar: Dev Experience"
+   ],
+   "updatedAt": "2026-11-06T14:02:00Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #67625 by @karmegams02 is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/pull/67625"
+   ]
+  },
+  {
+   "number": 41338,
+   "title": "ValidationMessageStore.Add field accessor parameter shows a warning for nullable properties",
+   "url": "https://github.com/dotnet/aspnetcore/issues/41338",
+   "labels": [
+    "bug",
+    "help wanted",
+    "area-blazor",
+    "Priority:2",
+    "feature-blazor-form-validation",
+    "Pillar: Technical Debt"
+   ],
+   "updatedAt": "2026-10-19T10:28:56Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #67746 by @BharatRamsf3693 is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/pull/67746"
+   ]
+  },
+  {
+   "number": 41948,
+   "title": "Add ability to leverage StackExchange.Redis.CommandFlags via IDistributedCache or IDistributedRedisCache (new)",
+   "url": "https://github.com/dotnet/aspnetcore/issues/41948",
+   "labels": [
+    "Needs: Design",
+    "help wanted",
+    "enhancement",
+    "feature-caching",
+    "area-middleware"
+   ],
+   "updatedAt": "2026-05-01T21:13:53Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/issues/41948",
+    "https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines",
+    "https://github.com/dotnet/aspnetcore/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 41961,
+   "title": "Exclude css isolation assets from `dotnet publish`",
+   "url": "https://github.com/dotnet/aspnetcore/issues/41961",
+   "labels": [
+    "help wanted",
+    "enhancement",
+    "area-mvc",
+    "good first issue"
+   ],
+   "updatedAt": "2026-05-05T11:12:45Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #54497 by @EduardF1 is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/sdk/pull/54497"
+   ]
+  },
+  {
+   "number": 43353,
+   "title": "Remove blocking APIs in asp.net core integration tests code",
+   "url": "https://github.com/dotnet/aspnetcore/issues/43353",
+   "labels": [
+    "bug",
+    "help wanted",
+    "area-networking"
+   ],
+   "updatedAt": "2026-05-01T21:17:06Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/issues/43353",
+    "https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines",
+    "https://github.com/dotnet/aspnetcore/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 43510,
+   "title": "HubClientProxyGenerator doesn't run when using inferred generic type arguments",
+   "url": "https://github.com/dotnet/aspnetcore/issues/43510",
+   "labels": [
+    "bug",
+    "help wanted",
+    "area-signalr"
+   ],
+   "updatedAt": "2026-05-01T21:17:25Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #55862 by @MattyLeslie is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/pull/55862"
+   ]
+  },
+  {
+   "number": 43959,
+   "title": "AuthorizeView should expose the results of the AuthorizeAsync call as a context variable.",
+   "url": "https://github.com/dotnet/aspnetcore/issues/43959",
+   "labels": [
+    "help wanted",
+    "enhancement",
+    "area-blazor",
+    "good first issue"
+   ],
+   "updatedAt": "2026-11-08T13:03:14Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #1 by @sachinmedavarapu is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/sachinmedavarapu/aspnetcore/pull/1"
+   ]
+  },
+  {
+   "number": 45264,
+   "title": "`RouteHandlerBuilder.Accepts` does not return 415 response when the request has no `Content-Type`",
+   "url": "https://github.com/dotnet/aspnetcore/issues/45264",
+   "labels": [
+    "help wanted",
+    "Docs",
+    "area-minimal",
+    "net8_docathon"
+   ],
+   "updatedAt": "2026-05-01T21:17:16Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "PR #50747 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/pull/50747",
+    "https://github.com/dotnet/aspnetcore/issues/45264",
+    "https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines",
+    "https://github.com/dotnet/aspnetcore/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 45700,
+   "title": "Support pnpm that installed using a standalone script in SpaProxyLaunchCommand",
+   "url": "https://github.com/dotnet/aspnetcore/issues/45700",
+   "labels": [
+    "help wanted",
+    "feature-spa",
+    "good first issue",
+    "area-ui-rendering"
+   ],
+   "updatedAt": "2026-09-19T02:30:45Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #65386 by @murataslan1 is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/pull/65386",
+    "https://github.com/dotnet/aspnetcore/pull/67422"
+   ]
+  },
+  {
+   "number": 46638,
+   "title": "MigrationsEndPoint throwing `InvalidOperationException: Incorrect Content-Type:` on load",
+   "url": "https://github.com/dotnet/aspnetcore/issues/46638",
+   "labels": [
+    "bug",
+    "help wanted",
+    "area-networking"
+   ],
+   "updatedAt": "2026-10-19T07:20:51Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #69564 by @adomorn is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/pull/69564"
+   ]
+  },
+  {
+   "number": 46811,
+   "title": "Calling Asynchronous .NET JS Interop Method Synchronously from JS Produces Misleading Error Message ",
+   "url": "https://github.com/dotnet/aspnetcore/issues/46811",
+   "labels": [
+    "bug",
+    "help wanted",
+    "area-blazor",
+    "good first issue",
+    "feature-blazor-wasm",
+    "Priority:2",
+    "feature-blazor-jsinterop",
+    "Pillar: Dev Experience",
+    "copilot-candidate"
+   ],
+   "updatedAt": "2026-10-05T10:08:35Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #65880 by @iamcymentho is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/pull/65880",
+    "https://github.com/dotnet/aspnetcore/pull/68789",
+    "https://github.com/dotnet/aspnetcore/pull/69659"
+   ]
+  },
+  {
+   "number": 47597,
+   "title": "[Java Client] HTTP errors during WebSocket handshake not surfaced as HttpRequestExceptions",
+   "url": "https://github.com/dotnet/aspnetcore/issues/47597",
+   "labels": [
+    "help wanted",
+    "area-signalr"
+   ],
+   "updatedAt": "2026-08-18T06:19:58Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #68611 by @HengYpinn is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/pull/68611"
+   ]
+  },
+  {
+   "number": 48180,
+   "title": "[Analyzer] : Warn when registering custom IProblemDetailsWriter after calling AddRazorPages, etc",
+   "url": "https://github.com/dotnet/aspnetcore/issues/48180",
+   "labels": [
+    "bug",
+    "help wanted",
+    "area-mvc",
+    "api-approved",
+    "analyzer"
+   ],
+   "updatedAt": "2026-05-01T21:15:05Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #49286 by @david-acker is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/pull/49286",
+    "https://github.com/dotnet/AspNetCore.Docs/pull/29221"
+   ]
+  },
+  {
+   "number": 49096,
+   "title": "HttpRequest.Form throws an undocumented System.InvalidOperationException",
+   "url": "https://github.com/dotnet/aspnetcore/issues/49096",
+   "labels": [
+    "bug",
+    "help wanted",
+    "Docs",
+    "area-networking",
+    "net8_docathon"
+   ],
+   "updatedAt": "2026-05-01T21:17:29Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #69562 by @su-senka is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/pull/69562"
+   ]
+  },
+  {
+   "number": 49130,
+   "title": "[ResponseCache] for Blazor static server rendering",
+   "url": "https://github.com/dotnet/aspnetcore/issues/49130",
+   "labels": [
+    "help wanted",
+    "enhancement",
+    "area-blazor",
+    "Pillar: Complete Blazor Web"
+   ],
+   "updatedAt": "2026-11-09T15:36:48Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "already assigned to @danroth27",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/issues/49130"
+   ]
+  },
+  {
+   "number": 50364,
+   "title": "Inconsistency between IIS and Kestrel for websocket connect operation with duplicate 'Upgrade: websocket, websocket' header ",
+   "url": "https://github.com/dotnet/aspnetcore/issues/50364",
+   "labels": [
+    "bug",
+    "help wanted",
+    "feature-websockets",
+    "feature-iis",
+    "area-networking"
+   ],
+   "updatedAt": "2026-05-01T21:21:56Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #65077 by @Copilot is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/pull/65077"
+   ]
+  },
+  {
+   "number": 51787,
+   "title": "NavigationException doesn't have a useful message.",
+   "url": "https://github.com/dotnet/aspnetcore/issues/51787",
+   "labels": [
+    "help wanted",
+    "enhancement",
+    "area-blazor",
+    "feature-blazor-navigation"
+   ],
+   "updatedAt": "2026-10-17T11:52:21Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #69910 by @Yusuf-Hussien is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/pull/69910"
+   ]
+  },
+  {
+   "number": 51844,
+   "title": "[Blazor] Clearer way to troubleshoot complex state transitions",
+   "url": "https://github.com/dotnet/aspnetcore/issues/51844",
+   "labels": [
+    "task",
+    "help wanted",
+    "area-blazor",
+    "Priority:1",
+    "Pillar: Technical Debt",
+    "feature-observability"
+   ],
+   "updatedAt": "2026-05-01T21:12:19Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/issues/51844",
+    "https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines",
+    "https://github.com/dotnet/aspnetcore/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 53048,
+   "title": "/signin-oidc does not unset nonce and correlation cookies with param error=login_required from failed identity server prompt=none request",
+   "url": "https://github.com/dotnet/aspnetcore/issues/53048",
+   "labels": [
+    "help wanted",
+    "enhancement",
+    "area-auth"
+   ],
+   "updatedAt": "2026-08-22T10:32:00Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #68797 by @astralmaster is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/pull/68797"
+   ]
+  },
+  {
+   "number": 53238,
+   "title": "[Java Client] No proguard file declaring that we need to keep class members",
+   "url": "https://github.com/dotnet/aspnetcore/issues/53238",
+   "labels": [
+    "help wanted",
+    "area-signalr"
+   ],
+   "updatedAt": "2026-09-24T15:10:05Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @Samyra312007 87 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/issues/53238#issuecomment-5310304505",
+    "https://github.com/dotnet/aspnetcore/issues/53238",
+    "https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines",
+    "https://github.com/dotnet/aspnetcore/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 53620,
+   "title": "More granular JSExceptions for JSInterop",
+   "url": "https://github.com/dotnet/aspnetcore/issues/53620",
+   "labels": [
+    "area-blazor",
+    "good first issue"
+   ],
+   "updatedAt": "2026-10-26T18:07:07Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #70334 by @osamashtayat is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/pull/70334"
+   ]
+  },
+  {
+   "number": 54358,
+   "title": "Unable to use JS Initializer for custom boot resource loader",
+   "url": "https://github.com/dotnet/aspnetcore/issues/54358",
+   "labels": [
+    "bug",
+    "help wanted",
+    "area-blazor",
+    "feature-blazor-js-initializers"
+   ],
+   "updatedAt": "2026-10-22T13:24:17Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #65696 by @muharremtekin is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/pull/65696"
+   ]
+  },
+  {
+   "number": 54431,
+   "title": "Blazor InputSelect with multiple enabled throws NullRefException if nothing is selected",
+   "url": "https://github.com/dotnet/aspnetcore/issues/54431",
+   "labels": [
+    "bug",
+    "help wanted",
+    "area-blazor"
+   ],
+   "updatedAt": "2026-10-19T10:33:46Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #66868 by @irfanajaffer is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/pull/66868"
+   ]
+  },
+  {
+   "number": 54464,
+   "title": "Allow backwards-forwards navigation caching with antiforgery tokens",
+   "url": "https://github.com/dotnet/aspnetcore/issues/54464",
+   "labels": [
+    "help wanted",
+    "enhancement",
+    "area-middleware",
+    "feature-antiforgery"
+   ],
+   "updatedAt": "2026-05-01T21:20:26Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #68738 by @astralmaster is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/pull/68738"
+   ]
+  },
+  {
+   "number": 56494,
+   "title": "SignalR - Browser/TypeScript client - the Server-Sent Event keep alive ping fails to renew the access token if a 401 Unauthorized happens on the ping",
+   "url": "https://github.com/dotnet/aspnetcore/issues/56494",
+   "labels": [
+    "bug",
+    "help wanted",
+    "area-signalr",
+    "feature-client-javascript"
+   ],
+   "updatedAt": "2026-07-17T08:01:14Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #67851 by @Arul1998 is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/pull/67851"
+   ]
+  },
+  {
+   "number": 60181,
+   "title": "UserManager.AccessFailedAsync results in overflow if DefaultLockoutTimeSpan is too large",
+   "url": "https://github.com/dotnet/aspnetcore/issues/60181",
+   "labels": [
+    "bug",
+    "help wanted",
+    "area-identity"
+   ],
+   "updatedAt": "2026-10-23T09:51:55Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #60350 by @shethaadit is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/pull/60350",
+    "https://github.com/dotnet/aspnetcore/pull/67647",
+    "https://github.com/dotnet/aspnetcore/pull/69700"
+   ]
+  },
+  {
+   "number": 60252,
+   "title": "The virtual UpdatePasswordHash is only invoked by ResetPasswordAsync",
+   "url": "https://github.com/dotnet/aspnetcore/issues/60252",
+   "labels": [
+    "bug",
+    "help wanted",
+    "area-identity"
+   ],
+   "updatedAt": "2026-05-01T21:19:18Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #60592 by @equist is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/pull/60592",
+    "https://github.com/dotnet/aspnetcore/pull/65576",
+    "https://github.com/Musikero31/CasaAsa/pull/62"
+   ]
+  },
+  {
+   "number": 60885,
+   "title": "[Blazor] InputText binding is not supported well with Shadow DOM elements",
+   "url": "https://github.com/dotnet/aspnetcore/issues/60885",
+   "labels": [
+    "bug",
+    "help wanted",
+    "area-blazor"
+   ],
+   "updatedAt": "2026-11-05T10:45:24Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "@Manish-1kumar claimed it 7 days ago",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/issues/60885#issuecomment-6655997849"
+   ]
+  },
+  {
+   "number": 61826,
+   "title": "Design proposal: #47685 Add blob() method to JS side of Blazor DotNetStreamReference",
+   "url": "https://github.com/dotnet/aspnetcore/issues/61826",
+   "labels": [
+    "help wanted",
+    "area-blazor",
+    "good first issue",
+    "design-proposal"
+   ],
+   "updatedAt": "2026-08-25T22:24:00Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #66679 by @andersabjorn is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/pull/66679",
+    "https://github.com/dotnet/aspnetcore/pull/66921"
+   ]
+  },
+  {
+   "number": 64301,
+   "title": "Validating the security stamp is extending the session if allowRefresh is false",
+   "url": "https://github.com/dotnet/aspnetcore/issues/64301",
+   "labels": [
+    "bug",
+    "help wanted",
+    "area-auth"
+   ],
+   "updatedAt": "2026-10-23T09:51:55Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #65803 by @matantsach is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/pull/65803"
+   ]
+  },
+  {
+   "number": 65181,
+   "title": "Oput examples under the examples key when generating openapi documents",
+   "url": "https://github.com/dotnet/aspnetcore/issues/65181",
+   "labels": [
+    "help wanted",
+    "feature-openapi",
+    "area-minimal"
+   ],
+   "updatedAt": "2026-07-03T15:00:30Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #67894 by @pradeep-ramola is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/pull/67894"
+   ]
+  },
+  {
+   "number": 67285,
+   "title": "ParameterView unchecked type casts when splatting provides unhelpful error messages",
+   "url": "https://github.com/dotnet/aspnetcore/issues/67285",
+   "labels": [
+    "help wanted",
+    "area-blazor",
+    "design-proposal",
+    "copilot-candidate"
+   ],
+   "updatedAt": "2026-06-29T05:28:29Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #67452 by @dx3mirror is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/pull/67452",
+    "https://github.com/dotnet/aspnetcore/pull/68790"
+   ]
+  },
+  {
+   "number": 67479,
+   "title": "Sending more than 32K to localstorage Then Reading It Causes Circuit Deadlock",
+   "url": "https://github.com/dotnet/aspnetcore/issues/67479",
+   "labels": [
+    "bug",
+    "help wanted",
+    "area-blazor"
+   ],
+   "updatedAt": "2026-10-23T09:51:55Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #68714 by @imsouvik is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/pull/68714"
+   ]
+  }
+ ]
+}

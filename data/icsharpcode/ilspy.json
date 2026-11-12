@@ -1,0 +1,168 @@
+{
+ "owner": "icsharpcode",
+ "repo": "ILSpy",
+ "language": "C#",
+ "stars": 27032,
+ "description": ".NET Decompiler with support for PDB generation, ReadyToRun, Metadata (&more) - cross-platform!",
+ "visitedAt": "2026-11-12T11:19:29.437Z",
+ "issues": [
+  {
+   "number": 819,
+   "title": "When navigating to an overridden virtual method from the overriding derived class, navigate to the overridden method",
+   "url": "https://github.com/icsharpcode/ILSpy/issues/819",
+   "labels": [
+    "UI",
+    "Help Wanted"
+   ],
+   "updatedAt": "2020-06-25T11:09:13Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "PR #3918 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/icsharpcode/ILSpy/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/icsharpcode/ILSpy/pull/3918",
+    "https://github.com/icsharpcode/ILSpy/issues/819",
+    "https://github.com/icsharpcode/ILSpy/wiki/Plugins",
+    "https://github.com/icsharpcode/ILSpy/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 947,
+   "title": "Pointer arithmetic compound assignments",
+   "url": "https://github.com/icsharpcode/ILSpy/issues/947",
+   "labels": [
+    "Decompiler",
+    "C#",
+    "Help Wanted",
+    "Enhancement"
+   ],
+   "updatedAt": "2022-04-18T15:35:15Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "PR #924 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/icsharpcode/ILSpy/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/icsharpcode/ILSpy/pull/924",
+    "https://github.com/icsharpcode/ILSpy/issues/947",
+    "https://github.com/icsharpcode/ILSpy/wiki/Plugins",
+    "https://github.com/icsharpcode/ILSpy/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 1088,
+   "title": "Implement Roslyn formatting options in the decompiler",
+   "url": "https://github.com/icsharpcode/ILSpy/issues/1088",
+   "labels": [
+    "New Feature",
+    "Decompiler",
+    "C#",
+    "Output",
+    "Help Wanted"
+   ],
+   "updatedAt": "2019-08-10T22:03:49Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #4298 by @MadProbe is already open against this issue",
+   "evidence": [
+    "https://github.com/icsharpcode/ILSpy/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/icsharpcode/ILSpy/issues/4298"
+   ]
+  },
+  {
+   "number": 1493,
+   "title": " Reference assemblies from nuget",
+   "url": "https://github.com/icsharpcode/ILSpy/issues/1493",
+   "labels": [
+    "Help Wanted",
+    "Enhancement"
+   ],
+   "updatedAt": "2019-07-14T06:51:08Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/icsharpcode/ILSpy/wiki/Plugins) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/icsharpcode/ILSpy/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/icsharpcode/ILSpy/issues/1493",
+    "https://github.com/icsharpcode/ILSpy/wiki/Plugins",
+    "https://github.com/icsharpcode/ILSpy/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 1508,
+   "title": "How to deal with assembly binding redirects?",
+   "url": "https://github.com/icsharpcode/ILSpy/issues/1508",
+   "labels": [
+    "Help Wanted",
+    "Enhancement"
+   ],
+   "updatedAt": "2019-07-14T06:43:19Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #1817 by @tamlin-mike is already open against this issue",
+   "evidence": [
+    "https://github.com/icsharpcode/ILSpy/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/icsharpcode/ILSpy/issues/1817"
+   ]
+  },
+  {
+   "number": 1755,
+   "title": "delegate addition not using +=",
+   "url": "https://github.com/icsharpcode/ILSpy/issues/1755",
+   "labels": [
+    "Decompiler",
+    "C#",
+    "Help Wanted",
+    "Enhancement"
+   ],
+   "updatedAt": "2019-10-22T14:04:37Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/icsharpcode/ILSpy/wiki/Plugins) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/icsharpcode/ILSpy/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/icsharpcode/ILSpy/issues/1755",
+    "https://github.com/icsharpcode/ILSpy/wiki/Plugins",
+    "https://github.com/icsharpcode/ILSpy/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 1886,
+   "title": "[ILSpy.ReadyToRun] Decorate the disassembly with DebugInfo",
+   "url": "https://github.com/icsharpcode/ILSpy/issues/1886",
+   "labels": [
+    "Help Wanted",
+    "r2r"
+   ],
+   "updatedAt": "2023-09-23T04:41:44Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "PR #1987 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/icsharpcode/ILSpy/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/icsharpcode/ILSpy/pull/1987",
+    "https://github.com/icsharpcode/ILSpy/issues/1886",
+    "https://github.com/icsharpcode/ILSpy/wiki/Plugins",
+    "https://github.com/icsharpcode/ILSpy/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 1887,
+   "title": "[ILSpy.ReadyToRun] Supporting other architectures",
+   "url": "https://github.com/icsharpcode/ILSpy/issues/1887",
+   "labels": [
+    "Help Wanted",
+    "r2r"
+   ],
+   "updatedAt": "2023-09-25T13:38:31Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/icsharpcode/ILSpy/wiki/Plugins) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/icsharpcode/ILSpy/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/icsharpcode/ILSpy/issues/1887",
+    "https://github.com/icsharpcode/ILSpy/wiki/Plugins",
+    "https://github.com/icsharpcode/ILSpy/blob/HEAD/AGENTS.md"
+   ]
+  }
+ ]
+}

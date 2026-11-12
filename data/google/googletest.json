@@ -1,0 +1,147 @@
+{
+ "owner": "google",
+ "repo": "googletest",
+ "language": "C++",
+ "stars": 39723,
+ "description": "GoogleTest - Google Testing and Mocking Framework",
+ "visitedAt": "2026-11-12T11:19:29.437Z",
+ "issues": [
+  {
+   "number": 813,
+   "title": "gtest-port.h fileno not declared in scope",
+   "url": "https://github.com/google/googletest/issues/813",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2021-12-06T17:43:34Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "PR #83 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/google/googletest/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/DrylandEcology/SOILWAT2/pull/83",
+    "https://github.com/mesonbuild/wrapdb/pull/2176",
+    "https://github.com/google/googletest/issues/813",
+    "https://github.com/google/googletest/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2809,
+   "title": "--color_output with MinGW from MSYS2 uses escaping sequences instead of WinAPI functions",
+   "url": "https://github.com/google/googletest/issues/2809",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2020-10-24T10:18:31Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #3049 by @tanzislam is already open against this issue",
+   "evidence": [
+    "https://github.com/google/googletest/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/google/googletest/pull/3049"
+   ]
+  },
+  {
+   "number": 2930,
+   "title": "Question: Colored output on Windows powershell with CTest",
+   "url": "https://github.com/google/googletest/issues/2930",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-09-09T08:43:32Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #5091 by @Tiancheng-Xu is already open against this issue",
+   "evidence": [
+    "https://github.com/google/googletest/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/google/googletest/pull/5091"
+   ]
+  },
+  {
+   "number": 2932,
+   "title": "Generated XML test result files are not outputting UTF-8 encoded characters correctly using --gtest-output:xml",
+   "url": "https://github.com/google/googletest/issues/2932",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2020-07-28T15:08:01Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "already assigned to @derekmauro",
+   "evidence": [
+    "https://github.com/google/googletest/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/google/googletest/issues/2932"
+   ]
+  },
+  {
+   "number": 3433,
+   "title": "Extended exception handling",
+   "url": "https://github.com/google/googletest/issues/3433",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2022-09-27T18:10:50Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #3512 by @Andrysky is already open against this issue",
+   "evidence": [
+    "https://github.com/google/googletest/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/google/googletest/pull/3512"
+   ]
+  },
+  {
+   "number": 3804,
+   "title": "SEH '__try' is not supported on this target",
+   "url": "https://github.com/google/googletest/issues/3804",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2022-04-25T19:39:24Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/google/googletest/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/google/googletest/issues/3804",
+    "https://github.com/google/googletest/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 3822,
+   "title": "Easily parsable test list",
+   "url": "https://github.com/google/googletest/issues/3822",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2022-10-03T18:09:59Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "discard",
+   "reason": "PR #5058 by @ameliabarnabyhub is already open against this issue",
+   "evidence": [
+    "https://github.com/google/googletest/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/google/googletest/pull/5058"
+   ]
+  },
+  {
+   "number": 3935,
+   "title": "Support --gtest_stream_result_to on Windows",
+   "url": "https://github.com/google/googletest/issues/3935",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2026-07-23T22:54:03Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/google/googletest/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/google/googletest/issues/3935",
+    "https://github.com/google/googletest/blob/HEAD/CONTRIBUTING.md"
+   ]
+  }
+ ]
+}

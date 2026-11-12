@@ -1,0 +1,46 @@
+{
+ "owner": "QL-Win",
+ "repo": "QuickLook",
+ "language": "C#",
+ "stars": 25719,
+ "description": "Bring macOS “Quick Look” feature to Windows",
+ "visitedAt": "2026-11-12T11:19:29.437Z",
+ "issues": [
+  {
+   "number": 404,
+   "title": "STEP File Viewer Library",
+   "url": "https://github.com/QL-Win/QuickLook/issues/404",
+   "labels": [
+    "help wanted",
+    "good for a plugin"
+   ],
+   "updatedAt": "2024-12-22T18:44:26Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/QL-Win/QuickLook/wiki/Differences-Between-Distributions) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/QL-Win/QuickLook/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/QL-Win/QuickLook/issues/404",
+    "https://github.com/QL-Win/QuickLook/wiki/Differences-Between-Distributions"
+   ]
+  },
+  {
+   "number": 1672,
+   "title": "Readest instead of SumatraPDF suggestion",
+   "url": "https://github.com/QL-Win/QuickLook/issues/1672",
+   "labels": [
+    "help wanted",
+    "good for a plugin"
+   ],
+   "updatedAt": "2025-07-27T07:33:57Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/QL-Win/QuickLook/wiki/Differences-Between-Distributions) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/QL-Win/QuickLook/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/QL-Win/QuickLook/issues/1672",
+    "https://github.com/QL-Win/QuickLook/wiki/Differences-Between-Distributions"
+   ]
+  }
+ ]
+}

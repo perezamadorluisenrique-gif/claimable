@@ -1,0 +1,45 @@
+{
+ "owner": "BCUninstaller",
+ "repo": "Bulk-Crap-Uninstaller",
+ "language": "C#",
+ "stars": 22381,
+ "description": "Remove large amounts of unwanted applications quickly.",
+ "visitedAt": "2026-11-12T11:19:29.437Z",
+ "issues": [
+  {
+   "number": 255,
+   "title": "add indonesian language",
+   "url": "https://github.com/BCUninstaller/Bulk-Crap-Uninstaller/issues/255",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2021-05-06T04:37:35Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "no push in 65 days (last: 2026-09-07)",
+   "evidence": [
+    "https://github.com/BCUninstaller/Bulk-Crap-Uninstaller — pushed_at 2026-09-07T23:26:21Z",
+    "https://github.com/BCUninstaller/Bulk-Crap-Uninstaller/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/BCUninstaller/Bulk-Crap-Uninstaller/issues/255"
+   ]
+  },
+  {
+   "number": 763,
+   "title": "Hindi installer translation needs to be updated",
+   "url": "https://github.com/BCUninstaller/Bulk-Crap-Uninstaller/issues/763",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2025-07-02T08:09:38Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "no push in 65 days (last: 2026-09-07)",
+   "evidence": [
+    "https://github.com/BCUninstaller/Bulk-Crap-Uninstaller — pushed_at 2026-09-07T23:26:21Z",
+    "https://github.com/BCUninstaller/Bulk-Crap-Uninstaller/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/BCUninstaller/Bulk-Crap-Uninstaller/issues/763"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "owner": "QuantConnect",
+ "repo": "Lean",
+ "language": "C#",
+ "stars": 22478,
+ "description": "Lean Algorithmic Trading Engine by QuantConnect (Python, C#)",
+ "visitedAt": "2026-11-12T11:19:29.437Z",
+ "issues": [
+  {
+   "number": 4605,
+   "title": "Adds Futures Fill Model",
+   "url": "https://github.com/QuantConnect/Lean/issues/4605",
+   "labels": [
+    "feature",
+    "good first issue",
+    "depth"
+   ],
+   "updatedAt": "2026-10-06T22:13:10Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/structureddynamics/irON-Parsers/wiki/Collaboration%3A-git-development-workflow) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/QuantConnect/Lean/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/QuantConnect/Lean/issues/4605",
+    "https://github.com/structureddynamics/irON-Parsers/wiki/Collaboration%3A-git-development-workflow"
+   ]
+  },
+  {
+   "number": 6620,
+   "title": "Implement TD Sequential Candlestick Indicator",
+   "url": "https://github.com/QuantConnect/Lean/issues/6620",
+   "labels": [
+    "feature",
+    "indicator",
+    "good first issue"
+   ],
+   "updatedAt": "2026-10-28T21:06:39Z",
+   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @rathnagiri 484 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/QuantConnect/Lean/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/QuantConnect/Lean/issues/6620#issuecomment-3080061746",
+    "https://github.com/QuantConnect/Lean/issues/6620",
+    "https://github.com/structureddynamics/irON-Parsers/wiki/Collaboration%3A-git-development-workflow"
+   ]
+  }
+ ]
+}
