@@ -1,0 +1,49 @@
+{
+ "owner": "JustVugg",
+ "repo": "colibri",
+ "language": "C",
+ "stars": 49684,
+ "description": "A hierarchical inference engine for frontier MoE models: hot experts on the GPU (CUDA, Vulkan), warm ones in RAM, cold ones streamed from NVMe. Written in C, runs on the hardware you already own.",
+ "visitedAt": "2026-11-12T19:57:47.710Z",
+ "issues": [
+  {
+   "number": 708,
+   "title": "[Experiment] expert-transition-history placement policy vs gate-momentum — controlled A/B for hypothesis #1",
+   "url": "https://github.com/JustVugg/colibri/issues/708",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "performance",
+    "discussion"
+   ],
+   "updatedAt": "2026-09-27T07:30:34Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "PR #1078 by @siongchin87 is already open against this issue",
+   "evidence": [
+    "https://github.com/JustVugg/colibri/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JustVugg/colibri/issues/1078"
+   ]
+  },
+  {
+   "number": 1050,
+   "title": "[perf] olmoe: O(cap) eviction scan under g_pilot_mx makes tok/s non-monotonic in cache size",
+   "url": "https://github.com/JustVugg/colibri/issues/1050",
+   "labels": [
+    "good first issue",
+    "performance"
+   ],
+   "updatedAt": "2026-09-07T21:37:57Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "PR #1 by @shanthropic is already open against this issue",
+   "evidence": [
+    "https://github.com/JustVugg/colibri/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/shanthropic/colibri/pull/1",
+    "https://github.com/JustVugg/colibri/pull/1571",
+    "https://github.com/JustVugg/colibri/pull/1272",
+    "https://github.com/JustVugg/colibri/pull/1611"
+   ]
+  }
+ ]
+}

@@ -466,5 +466,77 @@
  "dotnet/roslyn": {
   "nextCheck": "2026-11-12T12:19:29.437Z",
   "lastNewIssue": "2026-11-11T02:20:24Z"
+ },
+ "bitwarden/server": {
+  "nextCheck": "2026-11-19T19:57:47.710Z",
+  "lastNewIssue": "2026-03-04T19:37:10Z"
+ },
+ "lively-community/lively": {
+  "nextCheck": "2026-11-19T19:57:47.710Z",
+  "lastNewIssue": "2023-07-19T03:28:05Z"
+ },
+ "ppy/osu": {
+  "nextCheck": "2026-11-19T19:57:47.710Z",
+  "lastNewIssue": null
+ },
+ "genymobile/scrcpy": {
+  "nextCheck": "2026-11-19T19:57:47.710Z",
+  "lastNewIssue": "2020-07-27T10:18:10Z"
+ },
+ "microsoft/powertoys": {
+  "nextCheck": "2026-11-19T19:57:47.710Z",
+  "lastNewIssue": "2026-07-21T12:32:13Z"
+ },
+ "obsproject/obs-studio": {
+  "nextCheck": "2026-11-19T19:57:47.710Z",
+  "lastNewIssue": "2026-05-05T22:53:49Z"
+ },
+ "justvugg/colibri": {
+  "nextCheck": "2026-11-19T19:57:47.710Z",
+  "lastNewIssue": "2026-08-16T10:48:46Z"
+ },
+ "php/php-src": {
+  "nextCheck": "2026-11-19T19:57:47.710Z",
+  "lastNewIssue": "2026-09-12T10:47:19Z"
+ },
+ "nothings/stb": {
+  "nextCheck": "2026-11-19T19:57:47.710Z",
+  "lastNewIssue": "2021-11-21T21:33:16Z"
+ },
+ "valinet/explorerpatcher": {
+  "nextCheck": "2026-11-19T19:57:47.710Z",
+  "lastNewIssue": "2023-10-06T20:03:07Z"
+ },
+ "nginx/nginx": {
+  "nextCheck": "2026-11-19T19:57:47.710Z",
+  "lastNewIssue": "2026-05-14T00:59:26Z"
+ },
+ "openssl/openssl": {
+  "nextCheck": "2026-11-13T19:57:47.710Z",
+  "lastNewIssue": "2026-11-12T10:08:04Z"
+ },
+ "xiaojieonly/ehviewer_cn_sxj": {
+  "nextCheck": "2026-11-19T19:57:47.710Z",
+  "lastNewIssue": "2024-02-05T06:28:45Z"
+ },
+ "meta/zstd": {
+  "nextCheck": "2026-11-19T19:57:47.710Z",
+  "lastNewIssue": "2025-04-17T09:09:19Z"
+ },
+ "valkey-io/valkey": {
+  "nextCheck": "2026-11-19T19:57:47.710Z",
+  "lastNewIssue": "2026-01-15T20:24:48Z"
+ },
+ "libuv/libuv": {
+  "nextCheck": "2026-11-19T19:57:47.710Z",
+  "lastNewIssue": "2024-04-12T16:10:45Z"
+ },
+ "radareorg/radare2": {
+  "nextCheck": "2026-11-12T20:57:47.710Z",
+  "lastNewIssue": "2021-08-19T22:24:29Z"
+ },
+ "fastfetch-cli/fastfetch": {
+  "nextCheck": "2026-11-12T20:57:47.710Z",
+  "lastNewIssue": "2026-08-17T06:35:04Z"
  }
 }

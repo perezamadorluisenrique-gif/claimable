@@ -1,0 +1,29 @@
+{
+ "owner": "Genymobile",
+ "repo": "scrcpy",
+ "language": "C",
+ "stars": 154501,
+ "description": "Display and control your Android device",
+ "visitedAt": "2026-11-12T19:57:47.710Z",
+ "issues": [
+  {
+   "number": 1624,
+   "title": "Static build",
+   "url": "https://github.com/Genymobile/scrcpy/issues/1624",
+   "labels": [
+    "help wanted",
+    "feature request"
+   ],
+   "updatedAt": "2022-09-20T13:49:10Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "PR #1634 by @Xellerate005 is already open against this issue",
+   "evidence": [
+    "https://github.com/Genymobile/scrcpy/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/Genymobile/scrcpy/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/Genymobile/scrcpy/issues/1634",
+    "https://github.com/Genymobile/scrcpy/issues/2395"
+   ]
+  }
+ ]
+}

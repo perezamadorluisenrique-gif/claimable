@@ -1,0 +1,66 @@
+{
+ "owner": "php",
+ "repo": "php-src",
+ "language": "C",
+ "stars": 41771,
+ "description": "The PHP Interpreter",
+ "visitedAt": "2026-11-12T19:57:47.710Z",
+ "issues": [
+  {
+   "number": 23280,
+   "title": "Zend: add missing ZPP tests",
+   "url": "https://github.com/php/php-src/issues/23280",
+   "labels": [
+    "Category: Tests",
+    "Category: Engine",
+    "Good first issue"
+   ],
+   "updatedAt": "2026-11-06T23:32:45Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "PR #23343 by @timsurrealedu is already open against this issue",
+   "evidence": [
+    "https://github.com/php/php-src/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/php/php-src/pull/23343"
+   ]
+  },
+  {
+   "number": 23404,
+   "title": "CI for Apache/LiteSpeed modules",
+   "url": "https://github.com/php/php-src/issues/23404",
+   "labels": [
+    "Status: Needs Triage",
+    "Category: CI",
+    "Good first issue"
+   ],
+   "updatedAt": "2026-10-26T17:39:52Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "PR #23405 by @NattyNarwhal is already open against this issue",
+   "evidence": [
+    "https://github.com/php/php-src/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/php/php-src/pull/23405",
+    "https://github.com/php/php-src/pull/24783"
+   ]
+  },
+  {
+   "number": 23674,
+   "title": "Suppress Warnings From libpng",
+   "url": "https://github.com/php/php-src/issues/23674",
+   "labels": [
+    "Feature",
+    "Extension: gd",
+    "Status: Needs Triage",
+    "Good first issue"
+   ],
+   "updatedAt": "2026-09-17T18:03:48Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "PR #24503 by @cgsmith is already open against this issue",
+   "evidence": [
+    "https://github.com/php/php-src/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/php/php-src/pull/24503"
+   ]
+  }
+ ]
+}

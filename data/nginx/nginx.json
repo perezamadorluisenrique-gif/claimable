@@ -1,0 +1,246 @@
+{
+ "owner": "nginx",
+ "repo": "nginx",
+ "language": "C",
+ "stars": 32090,
+ "description": "The official NGINX Open Source repository.",
+ "visitedAt": "2026-11-12T19:57:47.710Z",
+ "issues": [
+  {
+   "number": 400,
+   "title": "Add Support for the current Syslog Protocol (RFC 5424)",
+   "url": "https://github.com/nginx/nginx/issues/400",
+   "labels": [
+    "enhancement",
+    "feature",
+    "good first issue",
+    "Complexity - hard",
+    "ready-for-review"
+   ],
+   "updatedAt": "2026-11-05T22:10:51Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "PR #517 by @u5surf is already open against this issue",
+   "evidence": [
+    "https://github.com/nginx/nginx/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nginx/nginx/pull/517",
+    "https://github.com/nginx/nginx/pull/1287"
+   ]
+  },
+  {
+   "number": 568,
+   "title": "io_uring support",
+   "url": "https://github.com/nginx/nginx/issues/568",
+   "labels": [
+    "help wanted",
+    "feature",
+    "backlog"
+   ],
+   "updatedAt": "2026-11-05T22:11:47Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "PR #1303 by @clingfei is already open against this issue",
+   "evidence": [
+    "https://github.com/nginx/nginx/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nginx/nginx/pull/1303"
+   ]
+  },
+  {
+   "number": 1127,
+   "title": "QUIC: redundant ngx_quic_keys_discard() call on every 1-RTT packet",
+   "url": "https://github.com/nginx/nginx/issues/1127",
+   "labels": [
+    "good first issue",
+    "refined",
+    "x-small"
+   ],
+   "updatedAt": "2026-11-06T16:36:18Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "PR #1128 by @KasenX is already open against this issue",
+   "evidence": [
+    "https://github.com/nginx/nginx/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nginx/nginx/pull/1128"
+   ]
+  },
+  {
+   "number": 1156,
+   "title": "Sub-second cache",
+   "url": "https://github.com/nginx/nginx/issues/1156",
+   "labels": [
+    "enhancement",
+    "invalid",
+    "good first issue",
+    "refined",
+    "needs-analysis",
+    "in-analysis"
+   ],
+   "updatedAt": "2026-11-05T22:15:32Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "PR #1553 by @vinaykumar-1591 is already open against this issue",
+   "evidence": [
+    "https://github.com/nginx/nginx/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nginx/nginx/pull/1553"
+   ]
+  },
+  {
+   "number": 1234,
+   "title": "Improve handling of Age header with $upstream_cache_age",
+   "url": "https://github.com/nginx/nginx/issues/1234",
+   "labels": [
+    "enhancement",
+    "feature",
+    "good first issue",
+    "refined"
+   ],
+   "updatedAt": "2026-11-05T22:15:45Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "PR #42 by @anchmelev is already open against this issue",
+   "evidence": [
+    "https://github.com/nginx/nginx/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nginx/nginx-tests/pull/42",
+    "https://github.com/nginx/nginx/pull/1242"
+   ]
+  },
+  {
+   "number": 1235,
+   "title": "Switched $request_time tracking to ngx_current_msec",
+   "url": "https://github.com/nginx/nginx/issues/1235",
+   "labels": [
+    "enhancement",
+    "feature",
+    "good first issue",
+    "refined",
+    "ready-for-review"
+   ],
+   "updatedAt": "2026-11-05T22:15:46Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "PR #1254 by @ac000 is already open against this issue",
+   "evidence": [
+    "https://github.com/nginx/nginx/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nginx/nginx/pull/1254"
+   ]
+  },
+  {
+   "number": 1236,
+   "title": "Improve consistency of directio handling",
+   "url": "https://github.com/nginx/nginx/issues/1236",
+   "labels": [
+    "enhancement",
+    "feature",
+    "good first issue",
+    "refined"
+   ],
+   "updatedAt": "2026-11-05T22:15:47Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "PR #1239 by @txhno is already open against this issue",
+   "evidence": [
+    "https://github.com/nginx/nginx/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nginx/nginx/pull/1239",
+    "https://github.com/nginx/nginx.org/pull/259"
+   ]
+  },
+  {
+   "number": 1238,
+   "title": "Add config generation number to process titles",
+   "url": "https://github.com/nginx/nginx/issues/1238",
+   "labels": [
+    "enhancement",
+    "feature",
+    "good first issue",
+    "refined"
+   ],
+   "updatedAt": "2026-11-05T22:15:49Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "PR #1245 by @alexdcdc is already open against this issue",
+   "evidence": [
+    "https://github.com/nginx/nginx/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nginx/nginx/pull/1245",
+    "https://github.com/nginx/nginx/pull/1696",
+    "https://github.com/nginx/nginx/pull/1863"
+   ]
+  },
+  {
+   "number": 1250,
+   "title": "Deduplicate HTTP/2 code",
+   "url": "https://github.com/nginx/nginx/issues/1250",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "refined"
+   ],
+   "updatedAt": "2026-11-11T20:46:32Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "already assigned to @arut, @hongzhidao, @nitin9977",
+   "evidence": [
+    "https://github.com/nginx/nginx/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nginx/nginx/issues/1250"
+   ]
+  },
+  {
+   "number": 1262,
+   "title": "Support full HTTP request timeouts",
+   "url": "https://github.com/nginx/nginx/issues/1262",
+   "labels": [
+    "enhancement",
+    "feature",
+    "good first issue",
+    "refined"
+   ],
+   "updatedAt": "2026-11-11T20:45:23Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "PR #1738 by @vinaykumar-1591 is already open against this issue",
+   "evidence": [
+    "https://github.com/nginx/nginx/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nginx/nginx/pull/1738"
+   ]
+  },
+  {
+   "number": 1263,
+   "title": "Support more robust retries",
+   "url": "https://github.com/nginx/nginx/issues/1263",
+   "labels": [
+    "enhancement",
+    "feature",
+    "good first issue",
+    "refined"
+   ],
+   "updatedAt": "2026-11-11T20:45:42Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "PR #121 by @sbhowmikf5 is already open against this issue",
+   "evidence": [
+    "https://github.com/nginx/nginx/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nginx/nginx-tests/pull/121"
+   ]
+  },
+  {
+   "number": 1356,
+   "title": "`error_page` for HTTP 413 doesn't work with HTTP/2 or HTTP/3",
+   "url": "https://github.com/nginx/nginx/issues/1356",
+   "labels": [
+    "bug",
+    "good first issue",
+    "Complexity - hard",
+    "refined"
+   ],
+   "updatedAt": "2026-11-05T22:16:14Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "PR #1370 by @Srujan-rai is already open against this issue",
+   "evidence": [
+    "https://github.com/nginx/nginx/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nginx/nginx/pull/1370",
+    "https://github.com/nginx/nginx/pull/1419",
+    "https://github.com/nginx/nginx/pull/1134"
+   ]
+  }
+ ]
+}

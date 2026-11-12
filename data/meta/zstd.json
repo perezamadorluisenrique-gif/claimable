@@ -1,0 +1,332 @@
+{
+ "owner": "meta",
+ "repo": "zstd",
+ "language": "C",
+ "stars": 28219,
+ "description": "Zstandard - Fast real-time compression algorithm",
+ "visitedAt": "2026-11-12T19:57:47.710Z",
+ "issues": [
+  {
+   "number": 1878,
+   "title": "installation with MSYS2",
+   "url": "https://github.com/meta/zstd/issues/1878",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "build",
+    "long-term"
+   ],
+   "updatedAt": "2020-01-07T23:43:28Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "PR #1911 by @Cyan4973 is already open against this issue",
+   "evidence": [
+    "https://github.com/meta/zstd/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/meta/zstd/issues/1911"
+   ]
+  },
+  {
+   "number": 1911,
+   "title": "mingw library cross-compilation",
+   "url": "https://github.com/meta/zstd/issues/1911",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2020-01-21T23:03:06Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "already assigned to @Cyan4973",
+   "evidence": [
+    "https://github.com/meta/zstd/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/meta/zstd/pull/1883",
+    "https://github.com/meta/zstd/issues/1911"
+   ]
+  },
+  {
+   "number": 2064,
+   "title": "zstdgrep parsing of grep options naively broken",
+   "url": "https://github.com/meta/zstd/issues/2064",
+   "labels": [
+    "bug",
+    "help wanted",
+    "long-term"
+   ],
+   "updatedAt": "2024-06-12T05:27:37Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "PR #1 by @vulragrag-star is already open against this issue",
+   "evidence": [
+    "https://github.com/meta/zstd/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/vulragrag-star/zstd/pull/1",
+    "https://github.com/meta/zstd/pull/4770",
+    "https://github.com/meta/zstd/pull/2095",
+    "https://github.com/meta/zstd/pull/2135"
+   ]
+  },
+  {
+   "number": 2377,
+   "title": "Support using zstd as cmake subdirectory - proper include directory",
+   "url": "https://github.com/meta/zstd/issues/2377",
+   "labels": [
+    "feature request",
+    "help wanted",
+    "build"
+   ],
+   "updatedAt": "2021-05-05T21:31:06Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "reservations",
+   "reason": "4 paths named in the issue do not exist on `zstd`'s default branch — that is unlisted work: lib/includes/zstd, lib/includes, zstd/zstd.h, zstd/ (+1 more)",
+   "evidence": [
+    "https://github.com/meta/zstd/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/meta/zstd/issues/2377",
+    "https://docs.travis-ci.com/user/tutorial/#to-get-started-with-travis-ci-using-github",
+    "https://github.com/meta/zstd/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2679,
+   "title": "IBM Linux on z SIMD optimization",
+   "url": "https://github.com/meta/zstd/issues/2679",
+   "labels": [
+    "Announce",
+    "help wanted"
+   ],
+   "updatedAt": "2026-05-04T15:19:03Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.travis-ci.com/user/tutorial/#to-get-started-with-travis-ci-using-github) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/meta/zstd/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/meta/zstd/issues/2679",
+    "https://docs.travis-ci.com/user/tutorial/#to-get-started-with-travis-ci-using-github",
+    "https://github.com/meta/zstd/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2789,
+   "title": "[Huffman Assembly] Expand supported platforms",
+   "url": "https://github.com/meta/zstd/issues/2789",
+   "labels": [
+    "help wanted",
+    "long-term"
+   ],
+   "updatedAt": "2022-08-05T20:16:49Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "already assigned to @terrelln",
+   "evidence": [
+    "https://github.com/meta/zstd/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/meta/zstd/pull/2722",
+    "https://github.com/meta/zstd/pull/2893",
+    "https://github.com/meta/zstd/issues/2789"
+   ]
+  },
+  {
+   "number": 3025,
+   "title": "Improve and Move Windows Artifact Generation to GitHub Actions",
+   "url": "https://github.com/meta/zstd/issues/3025",
+   "labels": [
+    "help wanted",
+    "release-blocking"
+   ],
+   "updatedAt": "2024-03-04T07:42:49Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.travis-ci.com/user/tutorial/#to-get-started-with-travis-ci-using-github) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/meta/zstd/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/meta/zstd/issues/3025",
+    "https://docs.travis-ci.com/user/tutorial/#to-get-started-with-travis-ci-using-github",
+    "https://github.com/meta/zstd/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 3037,
+   "title": "better gzip(1) command line option compatibility: Support -l for gzip files",
+   "url": "https://github.com/meta/zstd/issues/3037",
+   "labels": [
+    "feature request",
+    "help wanted",
+    "long-term"
+   ],
+   "updatedAt": "2022-12-22T15:24:51Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "PR #4713 by @RachitJava is already open against this issue",
+   "evidence": [
+    "https://github.com/meta/zstd/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/meta/zstd/pull/4713"
+   ]
+  },
+  {
+   "number": 3123,
+   "title": "Inclusion of Bazel build files in official zstd library",
+   "url": "https://github.com/meta/zstd/issues/3123",
+   "labels": [
+    "feature request",
+    "help wanted",
+    "build"
+   ],
+   "updatedAt": "2023-05-02T11:59:36Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.travis-ci.com/user/tutorial/#to-get-started-with-travis-ci-using-github) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/meta/zstd/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/meta/zstd/issues/3123",
+    "https://docs.travis-ci.com/user/tutorial/#to-get-started-with-travis-ci-using-github",
+    "https://github.com/meta/zstd/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 3146,
+   "title": "[Documentation] Clarify the variables that affect installation",
+   "url": "https://github.com/meta/zstd/issues/3146",
+   "labels": [
+    "help wanted",
+    "documentation",
+    "Install issues"
+   ],
+   "updatedAt": "2022-12-21T01:07:45Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "PR #4662 by @MukundaKatta is already open against this issue",
+   "evidence": [
+    "https://github.com/meta/zstd/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/meta/zstd/pull/4662"
+   ]
+  },
+  {
+   "number": 3171,
+   "title": "Add stream-size option to pzstd",
+   "url": "https://github.com/meta/zstd/issues/3171",
+   "labels": [
+    "feature request",
+    "help wanted",
+    "good first issue"
+   ],
+   "updatedAt": "2023-08-27T00:05:53Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "PR #4759 by @VirajMishra1 is already open against this issue",
+   "evidence": [
+    "https://github.com/meta/zstd/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/meta/zstd/pull/4759"
+   ]
+  },
+  {
+   "number": 3404,
+   "title": "Refactor ZSTD_estimateCCtxSize_usingCCtxParams_internal()",
+   "url": "https://github.com/meta/zstd/issues/3404",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "long-term"
+   ],
+   "updatedAt": "2023-01-04T18:57:48Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "already assigned to @benjamintli",
+   "evidence": [
+    "https://github.com/meta/zstd/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/meta/zstd/pull/3333",
+    "https://github.com/meta/zstd/issues/3404",
+    "https://github.com/meta/zstd/issues/3404#issuecomment-1366917352"
+   ]
+  },
+  {
+   "number": 3732,
+   "title": "[meson] unresolved symbols when linking some programs",
+   "url": "https://github.com/meta/zstd/issues/3732",
+   "labels": [
+    "help wanted",
+    "build",
+    "Portability"
+   ],
+   "updatedAt": "2024-03-13T16:01:16Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "PR #4829 by @roshandhiman is already open against this issue",
+   "evidence": [
+    "https://github.com/meta/zstd/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/meta/zstd/pull/4829"
+   ]
+  },
+  {
+   "number": 3734,
+   "title": "I hope to provide a cross compiled script for Android",
+   "url": "https://github.com/meta/zstd/issues/3734",
+   "labels": [
+    "help wanted",
+    "build"
+   ],
+   "updatedAt": "2024-03-04T07:15:46Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "reservations",
+   "reason": "open 39 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/meta/zstd/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/meta/zstd/issues/3734",
+    "https://docs.travis-ci.com/user/tutorial/#to-get-started-with-travis-ci-using-github",
+    "https://github.com/meta/zstd/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 3758,
+   "title": "Building libzstd as part of larger cmake project using add_directory(zstd/build/cmake) does not work ",
+   "url": "https://github.com/meta/zstd/issues/3758",
+   "labels": [
+    "help wanted",
+    "build"
+   ],
+   "updatedAt": "2023-09-17T18:32:05Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.travis-ci.com/user/tutorial/#to-get-started-with-travis-ci-using-github) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/meta/zstd/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/meta/zstd/issues/3758",
+    "https://docs.travis-ci.com/user/tutorial/#to-get-started-with-travis-ci-using-github",
+    "https://github.com/meta/zstd/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 3882,
+   "title": "zstd fails to process some filenames on Windows [we need a hero]",
+   "url": "https://github.com/meta/zstd/issues/3882",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2025-03-19T21:36:21Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "reservations",
+   "reason": "PR #1113 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/meta/zstd/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/velopack/velopack/pull/1113",
+    "https://github.com/meta/zstd/issues/3882",
+    "https://docs.travis-ci.com/user/tutorial/#to-get-started-with-travis-ci-using-github",
+    "https://github.com/meta/zstd/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 4368,
+   "title": "Possible division by zero in zstdcli_trace.c",
+   "url": "https://github.com/meta/zstd/issues/4368",
+   "labels": [
+    "bug",
+    "help wanted",
+    "good first issue"
+   ],
+   "updatedAt": "2026-06-18T07:46:59Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "PR #4743 by @VedantMadane is already open against this issue",
+   "evidence": [
+    "https://github.com/meta/zstd/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/meta/zstd/pull/4743",
+    "https://github.com/meta/zstd/pull/4761"
+   ]
+  }
+ ]
+}

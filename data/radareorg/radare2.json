@@ -1,0 +1,1016 @@
+{
+ "owner": "radareorg",
+ "repo": "radare2",
+ "language": "C",
+ "stars": 25387,
+ "description": "UNIX-like reverse engineering framework and command-line toolset",
+ "visitedAt": "2026-11-12T19:57:47.710Z",
+ "issues": [
+  {
+   "number": 3222,
+   "title": "Structured document helpers",
+   "url": "https://github.com/radareorg/radare2/issues/3222",
+   "labels": [
+    "good first issue",
+    "json",
+    "RBin",
+    "test-required",
+    "XML",
+    "r2r",
+    "high-priority"
+   ],
+   "updatedAt": "2020-09-24T05:26:58Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "PR #7519 by @XVilka is already open against this issue",
+   "evidence": [
+    "https://github.com/radareorg/radare2/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/radareorg/radare2/issues/7519"
+   ]
+  },
+  {
+   "number": 3635,
+   "title": "Fix build on non-exec environments",
+   "url": "https://github.com/radareorg/radare2/issues/3635",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "buildsystem",
+    "Android"
+   ],
+   "updatedAt": "2020-06-24T16:34:50Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/radareorg/radare2/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/radareorg/radare2/issues/3635",
+    "https://github.com/radareorg/radare2/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 4124,
+   "title": "Add command to generate coredump in MACH0 or ELF",
+   "url": "https://github.com/radareorg/radare2/issues/4124",
+   "labels": [
+    "debug-info",
+    "good first issue",
+    "RDebug",
+    "MACH0",
+    "ELF",
+    "BSD"
+   ],
+   "updatedAt": "2020-06-16T08:35:01Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "reservations",
+   "reason": "2 stale claims, the most recent by @leberus 3738 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting",
+   "evidence": [
+    "https://github.com/radareorg/radare2/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/radareorg/radare2/issues/4124",
+    "https://github.com/radareorg/radare2/issues/4124#issuecomment-240761096",
+    "https://github.com/radareorg/radare2/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 4721,
+   "title": "Ability to pass arguments to r2pipe script",
+   "url": "https://github.com/radareorg/radare2/issues/4721",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "r2pipe"
+   ],
+   "updatedAt": "2021-01-10T21:08:59Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/radareorg/radare2/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/radareorg/radare2/issues/4721",
+    "https://github.com/radareorg/radare2/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 4887,
+   "title": "Implement frame navigation in the debugger",
+   "url": "https://github.com/radareorg/radare2/issues/4887",
+   "labels": [
+    "good first issue",
+    "RDebug",
+    "gdb"
+   ],
+   "updatedAt": "2020-06-27T16:37:07Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/radareorg/radare2/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/radareorg/radare2/issues/4887",
+    "https://github.com/radareorg/radare2/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 7310,
+   "title": "Create zignatures pack for windows",
+   "url": "https://github.com/radareorg/radare2/issues/7310",
+   "labels": [
+    "good first issue",
+    "zignatures",
+    "Windows"
+   ],
+   "updatedAt": "2020-12-04T03:45:28Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "reservations",
+   "reason": "PR #16929 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/radareorg/radare2/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/radareorg/radare2/pull/16929",
+    "https://github.com/radareorg/radare2/pull/17800",
+    "https://github.com/radareorg/radare2/issues/7310",
+    "https://github.com/radareorg/radare2/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 7519,
+   "title": "Add commands to create, display and process an RTable",
+   "url": "https://github.com/radareorg/radare2/issues/7519",
+   "labels": [
+    "enhancement",
+    "FEEDBACK WANTED",
+    "consoleui",
+    "good first issue"
+   ],
+   "updatedAt": "2020-07-17T10:16:44Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "PR #13822 by @radare is already open against this issue",
+   "evidence": [
+    "https://github.com/radareorg/radare2/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/radareorg/radare2/issues/13822"
+   ]
+  },
+  {
+   "number": 7867,
+   "title": "dmsdj and dmsdj all?",
+   "url": "https://github.com/radareorg/radare2/issues/7867",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "RDebug"
+   ],
+   "updatedAt": "2017-07-08T14:46:52Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/radareorg/radare2/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/radareorg/radare2/issues/7867",
+    "https://github.com/radareorg/radare2/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 8666,
+   "title": "Symbols in /usr/lib/debug aren't automatically loaded",
+   "url": "https://github.com/radareorg/radare2/issues/8666",
+   "labels": [
+    "debug-info",
+    "good first issue",
+    "RBin",
+    "high-priority"
+   ],
+   "updatedAt": "2023-10-11T02:44:58Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "reservations",
+   "reason": "PR #22668 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/radareorg/radare2/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/radareorg/radare2/pull/22668",
+    "https://github.com/radareorg/radare2/issues/8666",
+    "https://github.com/radareorg/radare2/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 9051,
+   "title": "Base addresses not setting properly on PIE enabled binaries",
+   "url": "https://github.com/radareorg/radare2/issues/9051",
+   "labels": [
+    "good first issue",
+    "RBin"
+   ],
+   "updatedAt": "2020-07-02T06:50:38Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/radareorg/radare2/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/radareorg/radare2/issues/9051",
+    "https://github.com/radareorg/radare2/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 9600,
+   "title": "Define a constant via \"types\" command",
+   "url": "https://github.com/radareorg/radare2/issues/9600",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "RAnal",
+    "types"
+   ],
+   "updatedAt": "2021-05-11T10:36:49Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "PR #3159 by @XVilka is already open against this issue",
+   "evidence": [
+    "https://github.com/radareorg/radare2/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/radareorg/radare2/issues/3159"
+   ]
+  },
+  {
+   "number": 9719,
+   "title": "Visual preview for the `graph.*` variables changes in `Ve` mode",
+   "url": "https://github.com/radareorg/radare2/issues/9719",
+   "labels": [
+    "enhancement",
+    "consoleui",
+    "good first issue",
+    "RGraph",
+    "hackaton"
+   ],
+   "updatedAt": "2020-09-02T09:25:37Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/radareorg/radare2/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/radareorg/radare2/issues/9719",
+    "https://github.com/radareorg/radare2/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 9749,
+   "title": "ahb side effects",
+   "url": "https://github.com/radareorg/radare2/issues/9749",
+   "labels": [
+    "good first issue",
+    "RAnal"
+   ],
+   "updatedAt": "2022-06-05T12:07:45Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "reservations",
+   "reason": "open 105 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say",
+   "evidence": [
+    "https://github.com/radareorg/radare2/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/radareorg/radare2/issues/9749",
+    "https://github.com/radareorg/radare2/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 9880,
+   "title": "ESIL asm.shortcuts",
+   "url": "https://github.com/radareorg/radare2/issues/9880",
+   "labels": [
+    "good first issue",
+    "RAnal",
+    "ESIL",
+    "Hacktoberfest"
+   ],
+   "updatedAt": "2019-09-18T09:01:16Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "already assigned to @radare, @sivaramaaa",
+   "evidence": [
+    "https://github.com/radareorg/radare2/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/radareorg/radare2/issues/9880"
+   ]
+  },
+  {
+   "number": 9881,
+   "title": "ahi f and ahi F",
+   "url": "https://github.com/radareorg/radare2/issues/9881",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "RAnal"
+   ],
+   "updatedAt": "2020-07-13T11:49:21Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "already assigned to @HoundThe",
+   "evidence": [
+    "https://github.com/radareorg/radare2/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/radareorg/radare2/issues/9881"
+   ]
+  },
+  {
+   "number": 10058,
+   "title": "p8s should do the same as pcs",
+   "url": "https://github.com/radareorg/radare2/issues/10058",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2026-01-18T18:26:31Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "PR #24729 by @vicky-dx is already open against this issue",
+   "evidence": [
+    "https://github.com/radareorg/radare2/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/radareorg/radare2/pull/24729"
+   ]
+  },
+  {
+   "number": 10751,
+   "title": "Show prompt/visual/graph/disasm/hexdump with 0xff..%x instead",
+   "url": "https://github.com/radareorg/radare2/issues/10751",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "Hacktoberfest"
+   ],
+   "updatedAt": "2018-10-11T09:30:38Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "reservations",
+   "reason": "open 101 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say",
+   "evidence": [
+    "https://github.com/radareorg/radare2/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/radareorg/radare2/issues/10751",
+    "https://github.com/radareorg/radare2/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 11784,
+   "title": "Using multiple FLIRT signature files",
+   "url": "https://github.com/radareorg/radare2/issues/11784",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "zignatures",
+    "FLIRT",
+    "Hacktoberfest"
+   ],
+   "updatedAt": "2019-10-01T10:52:29Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/radareorg/radare2/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/radareorg/radare2/issues/11784",
+    "https://github.com/radareorg/radare2/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 11988,
+   "title": "ob inconsistencies",
+   "url": "https://github.com/radareorg/radare2/issues/11988",
+   "labels": [
+    "FEEDBACK WANTED",
+    "refactor",
+    "good first issue",
+    "RBin",
+    "Hacktoberfest"
+   ],
+   "updatedAt": "2025-11-17T14:13:12Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "already assigned to @condret, @trufae, @Lazula",
+   "evidence": [
+    "https://github.com/radareorg/radare2/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/radareorg/radare2/issues/11988"
+   ]
+  },
+  {
+   "number": 12311,
+   "title": "Add VB helpers in core ",
+   "url": "https://github.com/radareorg/radare2/issues/12311",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "RAnal",
+    "PE",
+    "Hacktoberfest"
+   ],
+   "updatedAt": "2019-10-01T10:49:27Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "PR #921 by @Maijin is already open against this issue",
+   "evidence": [
+    "https://github.com/radareorg/radare2/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/radareorg/radare2/issues/921"
+   ]
+  },
+  {
+   "number": 12504,
+   "title": "Switch to SPDX for copyright and licenses",
+   "url": "https://github.com/radareorg/radare2/issues/12504",
+   "labels": [
+    "refactor",
+    "good first issue",
+    "documentation"
+   ],
+   "updatedAt": "2020-10-12T06:10:00Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "PR #18777 by @StefanBruens is already open against this issue",
+   "evidence": [
+    "https://github.com/radareorg/radare2/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/radareorg/radare2/issues/18777"
+   ]
+  },
+  {
+   "number": 12555,
+   "title": "Support bitfields in `pf` and `t` commands",
+   "url": "https://github.com/radareorg/radare2/issues/12555",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "pf",
+    "types",
+    "command",
+    "input"
+   ],
+   "updatedAt": "2022-06-05T12:04:51Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/radareorg/radare2/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/radareorg/radare2/issues/12555",
+    "https://github.com/radareorg/radare2/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 12588,
+   "title": "Add command to manage visual tabs",
+   "url": "https://github.com/radareorg/radare2/issues/12588",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "visual",
+    "Hacktoberfest"
+   ],
+   "updatedAt": "2019-10-01T10:48:56Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/radareorg/radare2/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/radareorg/radare2/issues/12588",
+    "https://github.com/radareorg/radare2/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 12726,
+   "title": "pf output is confusing",
+   "url": "https://github.com/radareorg/radare2/issues/12726",
+   "labels": [
+    "FEEDBACK WANTED",
+    "good first issue",
+    "pf"
+   ],
+   "updatedAt": "2020-07-17T12:47:11Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "already assigned to @kazarmy, @oxcabe",
+   "evidence": [
+    "https://github.com/radareorg/radare2/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/radareorg/radare2/issues/12726"
+   ]
+  },
+  {
+   "number": 12870,
+   "title": "Merge/Kill quintuplicate JSON implementations",
+   "url": "https://github.com/radareorg/radare2/issues/12870",
+   "labels": [
+    "enhancement",
+    "refactor",
+    "good first issue",
+    "json",
+    "Hacktoberfest"
+   ],
+   "updatedAt": "2019-10-05T07:29:15Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "reservations",
+   "reason": "PR #12877 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/radareorg/radare2/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/radareorg/radare2/pull/12877",
+    "https://github.com/radareorg/radare2/pull/13025",
+    "https://github.com/radareorg/radare2/issues/12870",
+    "https://github.com/radareorg/radare2/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 12954,
+   "title": "R_API char *r_file_slurp(const char *str, int *usz)",
+   "url": "https://github.com/radareorg/radare2/issues/12954",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2019-02-15T07:55:39Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/radareorg/radare2/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/radareorg/radare2/issues/12954",
+    "https://github.com/radareorg/radare2/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 13060,
+   "title": "Visual browse calling conventions",
+   "url": "https://github.com/radareorg/radare2/issues/13060",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "types",
+    "visual",
+    "Hacktoberfest"
+   ],
+   "updatedAt": "2019-10-01T10:41:54Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "already assigned to @sivaramaaa, @oxcabe",
+   "evidence": [
+    "https://github.com/radareorg/radare2/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/radareorg/radare2/issues/13060"
+   ]
+  },
+  {
+   "number": 13241,
+   "title": "More granular heap information",
+   "url": "https://github.com/radareorg/radare2/issues/13241",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "Windows",
+    "heap"
+   ],
+   "updatedAt": "2020-05-06T06:19:41Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "reservations",
+   "reason": "open 94 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say",
+   "evidence": [
+    "https://github.com/radareorg/radare2/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/radareorg/radare2/issues/13241",
+    "https://github.com/radareorg/radare2/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 13355,
+   "title": "Add colors in r2 -h commandline help messages",
+   "url": "https://github.com/radareorg/radare2/issues/13355",
+   "labels": [
+    "FEEDBACK WANTED",
+    "consoleui",
+    "good first issue"
+   ],
+   "updatedAt": "2019-03-12T00:33:31Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/radareorg/radare2/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/radareorg/radare2/issues/13355",
+    "https://github.com/radareorg/radare2/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 13403,
+   "title": "RFE: Graph navigation keys",
+   "url": "https://github.com/radareorg/radare2/issues/13403",
+   "labels": [
+    "enhancement",
+    "FEEDBACK WANTED",
+    "good first issue",
+    "RGraph",
+    "visual"
+   ],
+   "updatedAt": "2019-07-30T16:36:52Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "already assigned to @deepakchethan",
+   "evidence": [
+    "https://github.com/radareorg/radare2/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/radareorg/radare2/issues/13403",
+    "https://github.com/radareorg/radare2/issues/13403#issuecomment-473726954"
+   ]
+  },
+  {
+   "number": 13411,
+   "title": "Implement mX/'X in graph (like it's done in visual already",
+   "url": "https://github.com/radareorg/radare2/issues/13411",
+   "labels": [
+    "enhancement",
+    "FEEDBACK WANTED",
+    "good first issue"
+   ],
+   "updatedAt": "2019-06-17T01:20:54Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "already assigned to @Vane11ope",
+   "evidence": [
+    "https://github.com/radareorg/radare2/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/radareorg/radare2/issues/13411"
+   ]
+  },
+  {
+   "number": 13499,
+   "title": "Remove unnecessary calls to RConfig.get",
+   "url": "https://github.com/radareorg/radare2/issues/13499",
+   "labels": [
+    "good first issue",
+    "optimization",
+    "Hacktoberfest"
+   ],
+   "updatedAt": "2019-10-14T15:36:39Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @Gaurav-Punjabi 2586 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting",
+   "evidence": [
+    "https://github.com/radareorg/radare2/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/radareorg/radare2/issues/13499#issuecomment-541669117",
+    "https://github.com/radareorg/radare2/issues/13499",
+    "https://github.com/radareorg/radare2/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 13554,
+   "title": "Add an option to make io circular",
+   "url": "https://github.com/radareorg/radare2/issues/13554",
+   "labels": [
+    "consoleui",
+    "good first issue",
+    "visual"
+   ],
+   "updatedAt": "2022-06-05T12:07:31Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/radareorg/radare2/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/radareorg/radare2/issues/13554",
+    "https://github.com/radareorg/radare2/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 13619,
+   "title": "Add scrollbar in panels",
+   "url": "https://github.com/radareorg/radare2/issues/13619",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "visual",
+    "panel"
+   ],
+   "updatedAt": "2021-01-11T05:09:10Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "already assigned to @Vane11ope",
+   "evidence": [
+    "https://github.com/radareorg/radare2/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/radareorg/radare2/issues/13619"
+   ]
+  },
+  {
+   "number": 13642,
+   "title": "Inverse register usage in function",
+   "url": "https://github.com/radareorg/radare2/issues/13642",
+   "labels": [
+    "enhancement",
+    "FEEDBACK WANTED",
+    "good first issue",
+    "zignatures"
+   ],
+   "updatedAt": "2021-05-12T04:19:02Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/radareorg/radare2/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/radareorg/radare2/issues/13642",
+    "https://github.com/radareorg/radare2/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 13818,
+   "title": "Do not show \"CODE XREF ...\" if reflines are shown (by default)",
+   "url": "https://github.com/radareorg/radare2/issues/13818",
+   "labels": [
+    "consoleui",
+    "good first issue",
+    "hackaton",
+    "visual",
+    "Hacktoberfest"
+   ],
+   "updatedAt": "2019-10-01T10:30:56Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/radareorg/radare2/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/radareorg/radare2/issues/13818",
+    "https://github.com/radareorg/radare2/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 13821,
+   "title": "Add code hotkey hints in visual pxr",
+   "url": "https://github.com/radareorg/radare2/issues/13821",
+   "labels": [
+    "consoleui",
+    "good first issue",
+    "print",
+    "visual"
+   ],
+   "updatedAt": "2021-05-11T10:36:22Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/radareorg/radare2/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/radareorg/radare2/issues/13821",
+    "https://github.com/radareorg/radare2/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 13969,
+   "title": "Add * and j in all the missing commands",
+   "url": "https://github.com/radareorg/radare2/issues/13969",
+   "labels": [
+    "FEEDBACK WANTED",
+    "good first issue",
+    "json",
+    "Hacktoberfest",
+    "IMPORTANT"
+   ],
+   "updatedAt": "2020-10-14T01:26:39Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "reservations",
+   "reason": "PR #15168 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+4 more)",
+   "evidence": [
+    "https://github.com/radareorg/radare2/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/radareorg/radare2/pull/15168",
+    "https://github.com/radareorg/radare2/pull/17258",
+    "https://github.com/radareorg/radare2/pull/17443",
+    "https://github.com/radareorg/radare2/pull/17916",
+    "https://github.com/radareorg/radare2/issues/13969",
+    "https://github.com/radareorg/radare2/issues/13969#issuecomment-537317822",
+    "https://github.com/radareorg/radare2/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 14018,
+   "title": "Update/autogenerate windows syscalls for r2",
+   "url": "https://github.com/radareorg/radare2/issues/14018",
+   "labels": [
+    "good first issue",
+    "Windows",
+    "buildsystem",
+    "Hacktoberfest"
+   ],
+   "updatedAt": "2019-10-28T10:11:47Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/radareorg/radare2/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/radareorg/radare2/issues/14018",
+    "https://github.com/radareorg/radare2/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 14200,
+   "title": "Display anal hint in the disasm",
+   "url": "https://github.com/radareorg/radare2/issues/14200",
+   "labels": [
+    "enhancement",
+    "consoleui",
+    "good first issue",
+    "RAsm-Disassembler",
+    "Hacktoberfest"
+   ],
+   "updatedAt": "2019-10-01T10:28:44Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/radareorg/radare2/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/radareorg/radare2/issues/14200",
+    "https://github.com/radareorg/radare2/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 14324,
+   "title": "Support base64: on more commands",
+   "url": "https://github.com/radareorg/radare2/issues/14324",
+   "labels": [
+    "FEEDBACK WANTED",
+    "refactor",
+    "good first issue",
+    "Hacktoberfest",
+    "shell"
+   ],
+   "updatedAt": "2021-02-03T13:37:55Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "already assigned to @radare",
+   "evidence": [
+    "https://github.com/radareorg/radare2/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/radareorg/radare2/issues/14324"
+   ]
+  },
+  {
+   "number": 14455,
+   "title": "Implement asm.tabs2",
+   "url": "https://github.com/radareorg/radare2/issues/14455",
+   "labels": [
+    "FEEDBACK WANTED",
+    "consoleui",
+    "good first issue",
+    "RAsm-Disassembler"
+   ],
+   "updatedAt": "2019-07-05T10:15:38Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "already assigned to @deepakchethan",
+   "evidence": [
+    "https://github.com/radareorg/radare2/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/radareorg/radare2/issues/14455"
+   ]
+  },
+  {
+   "number": 14549,
+   "title": "Improve visual browse classes",
+   "url": "https://github.com/radareorg/radare2/issues/14549",
+   "labels": [
+    "good first issue",
+    "types",
+    "visual",
+    "classes"
+   ],
+   "updatedAt": "2021-12-21T01:03:51Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "already assigned to @deepakchethan, @Vane11ope",
+   "evidence": [
+    "https://github.com/radareorg/radare2/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/radareorg/radare2/issues/14549"
+   ]
+  },
+  {
+   "number": 14685,
+   "title": "Tree hud thing",
+   "url": "https://github.com/radareorg/radare2/issues/14685",
+   "labels": [
+    "consoleui",
+    "good first issue"
+   ],
+   "updatedAt": "2019-10-23T12:25:10Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/radareorg/radare2/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/radareorg/radare2/issues/14685",
+    "https://github.com/radareorg/radare2/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 14686,
+   "title": "add icg arg to graph only classes mathching strstr",
+   "url": "https://github.com/radareorg/radare2/issues/14686",
+   "labels": [
+    "good first issue",
+    "RAnal",
+    "RGraph"
+   ],
+   "updatedAt": "2022-06-05T11:50:31Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "reservations",
+   "reason": "PR #20239 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/radareorg/radare2/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/radareorg/radare2/pull/20239",
+    "https://github.com/radareorg/radare2/issues/14686",
+    "https://github.com/radareorg/radare2/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 14769,
+   "title": "Update shellforge",
+   "url": "https://github.com/radareorg/radare2/issues/14769",
+   "labels": [
+    "ragg2",
+    "good first issue",
+    "hackaton"
+   ],
+   "updatedAt": "2022-08-01T11:32:05Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @adwait1-g 1565 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting",
+   "evidence": [
+    "https://github.com/radareorg/radare2/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/radareorg/radare2/issues/14769#issuecomment-1200609598",
+    "https://github.com/radareorg/radare2/issues/14769",
+    "https://github.com/radareorg/radare2/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 14843,
+   "title": "Question about imports",
+   "url": "https://github.com/radareorg/radare2/issues/14843",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2020-03-06T07:43:53Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/radareorg/radare2/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/radareorg/radare2/issues/14843",
+    "https://github.com/radareorg/radare2/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 15121,
+   "title": "Prettier interface for the tabline (`t` commands)",
+   "url": "https://github.com/radareorg/radare2/issues/15121",
+   "labels": [
+    "enhancement",
+    "consoleui",
+    "good first issue",
+    "visual"
+   ],
+   "updatedAt": "2020-11-19T07:46:55Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/radareorg/radare2/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/radareorg/radare2/issues/15121",
+    "https://github.com/radareorg/radare2/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 15575,
+   "title": "Convert all unit legacy tests in the new minunit format",
+   "url": "https://github.com/radareorg/radare2/issues/15575",
+   "labels": [
+    "good first issue",
+    "r2r"
+   ],
+   "updatedAt": "2020-07-27T13:54:22Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/radareorg/radare2/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/radareorg/radare2/issues/15575",
+    "https://github.com/radareorg/radare2/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 15810,
+   "title": "Stabs format parser",
+   "url": "https://github.com/radareorg/radare2/issues/15810",
+   "labels": [
+    "debug-info",
+    "good first issue",
+    "hackaton"
+   ],
+   "updatedAt": "2020-09-02T09:22:31Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/radareorg/radare2/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/radareorg/radare2/issues/15810",
+    "https://github.com/radareorg/radare2/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 15853,
+   "title": "Support interfacing with debuginfod from binutils",
+   "url": "https://github.com/radareorg/radare2/issues/15853",
+   "labels": [
+    "debug-info",
+    "good first issue",
+    "RBin",
+    "hackaton",
+    "DWARF"
+   ],
+   "updatedAt": "2020-09-02T09:22:25Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/radareorg/radare2/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/radareorg/radare2/issues/15853",
+    "https://github.com/radareorg/radare2/blob/HEAD/README.md"
+   ]
+  }
+ ]
+}

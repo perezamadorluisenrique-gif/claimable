@@ -1,0 +1,267 @@
+{
+ "owner": "lively-community",
+ "repo": "lively",
+ "language": "C#",
+ "stars": 20065,
+ "description": "Free and open-source software that allows users to set animated desktop wallpapers and screensavers powered by WinUI 3.",
+ "visitedAt": "2026-11-12T19:57:47.710Z",
+ "issues": [
+  {
+   "number": 24,
+   "title": "Automatically use high performance graphics card on gaming laptops.",
+   "url": "https://github.com/lively-community/lively/issues/24",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2023-09-14T22:10:25Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "nothing has been merged in 409 days",
+   "evidence": [
+    "https://github.com/lively-community/lively — pushed_at 2026-09-30T16:49:36Z",
+    "https://github.com/lively-community/lively/pulls?q=is%3Apr+is%3Amerged"
+   ]
+  },
+  {
+   "number": 173,
+   "title": "Can not work with Tencent‘s DeskGo",
+   "url": "https://github.com/lively-community/lively/issues/173",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2021-06-05T13:14:53Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "nothing has been merged in 409 days",
+   "evidence": [
+    "https://github.com/lively-community/lively — pushed_at 2026-09-30T16:49:36Z",
+    "https://github.com/lively-community/lively/pulls?q=is%3Apr+is%3Amerged"
+   ]
+  },
+  {
+   "number": 202,
+   "title": "Local storage for Shadertoy wallpapers",
+   "url": "https://github.com/lively-community/lively/issues/202",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2025-10-09T17:40:44Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "nothing has been merged in 409 days",
+   "evidence": [
+    "https://github.com/lively-community/lively — pushed_at 2026-09-30T16:49:36Z",
+    "https://github.com/lively-community/lively/pulls?q=is%3Apr+is%3Amerged"
+   ]
+  },
+  {
+   "number": 220,
+   "title": "Linux port",
+   "url": "https://github.com/lively-community/lively/issues/220",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "working on it"
+   ],
+   "updatedAt": "2026-09-28T16:35:17Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "nothing has been merged in 409 days",
+   "evidence": [
+    "https://github.com/lively-community/lively — pushed_at 2026-09-30T16:49:36Z",
+    "https://github.com/lively-community/lively/pulls?q=is%3Apr+is%3Amerged"
+   ]
+  },
+  {
+   "number": 316,
+   "title": "Chinese keyboard input not working / 键盘输入的交互方式下，动态网页壁纸无法输入中文 ",
+   "url": "https://github.com/lively-community/lively/issues/316",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2024-02-26T04:26:25Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "nothing has been merged in 409 days",
+   "evidence": [
+    "https://github.com/lively-community/lively — pushed_at 2026-09-30T16:49:36Z",
+    "https://github.com/lively-community/lively/pulls?q=is%3Apr+is%3Amerged"
+   ]
+  },
+  {
+   "number": 537,
+   "title": "Lockscreen picture wallpaper not correct",
+   "url": "https://github.com/lively-community/lively/issues/537",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2022-05-07T21:25:23Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "nothing has been merged in 409 days",
+   "evidence": [
+    "https://github.com/lively-community/lively — pushed_at 2026-09-30T16:49:36Z",
+    "https://github.com/lively-community/lively/pulls?q=is%3Apr+is%3Amerged"
+   ]
+  },
+  {
+   "number": 666,
+   "title": "Inconsistent Window Focus when using Godot as Wallpaper",
+   "url": "https://github.com/lively-community/lively/issues/666",
+   "labels": [
+    "bug",
+    "good first issue"
+   ],
+   "updatedAt": "2021-08-13T05:17:31Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "nothing has been merged in 409 days",
+   "evidence": [
+    "https://github.com/lively-community/lively — pushed_at 2026-09-30T16:49:36Z",
+    "https://github.com/lively-community/lively/pulls?q=is%3Apr+is%3Amerged"
+   ]
+  },
+  {
+   "number": 693,
+   "title": "Support for Objects and Arrays as Customizable Properties",
+   "url": "https://github.com/lively-community/lively/issues/693",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2021-08-28T08:32:47Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "nothing has been merged in 409 days",
+   "evidence": [
+    "https://github.com/lively-community/lively — pushed_at 2026-09-30T16:49:36Z",
+    "https://github.com/lively-community/lively/pulls?q=is%3Apr+is%3Amerged"
+   ]
+  },
+  {
+   "number": 732,
+   "title": "Screensaver triggering during browser idle",
+   "url": "https://github.com/lively-community/lively/issues/732",
+   "labels": [
+    "bug",
+    "help wanted",
+    "screensaver"
+   ],
+   "updatedAt": "2023-11-14T05:16:38Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "nothing has been merged in 409 days",
+   "evidence": [
+    "https://github.com/lively-community/lively — pushed_at 2026-09-30T16:49:36Z",
+    "https://github.com/lively-community/lively/pulls?q=is%3Apr+is%3Amerged"
+   ]
+  },
+  {
+   "number": 853,
+   "title": "On website wallpapers mouse wheel and mouse drag don't work",
+   "url": "https://github.com/lively-community/lively/issues/853",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2024-10-25T10:34:40Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "nothing has been merged in 409 days",
+   "evidence": [
+    "https://github.com/lively-community/lively — pushed_at 2026-09-30T16:49:36Z",
+    "https://github.com/lively-community/lively/pulls?q=is%3Apr+is%3Amerged"
+   ]
+  },
+  {
+   "number": 1276,
+   "title": "Add chinese account system / 添加账户系统",
+   "url": "https://github.com/lively-community/lively/issues/1276",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2022-07-06T00:18:30Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "nothing has been merged in 409 days",
+   "evidence": [
+    "https://github.com/lively-community/lively — pushed_at 2026-09-30T16:49:36Z",
+    "https://github.com/lively-community/lively/pulls?q=is%3Apr+is%3Amerged"
+   ]
+  },
+  {
+   "number": 1289,
+   "title": "Pause playback when a remote computer connects to the PC using AnyDesk",
+   "url": "https://github.com/lively-community/lively/issues/1289",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2022-07-07T22:12:51Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "nothing has been merged in 409 days",
+   "evidence": [
+    "https://github.com/lively-community/lively — pushed_at 2026-09-30T16:49:36Z",
+    "https://github.com/lively-community/lively/pulls?q=is%3Apr+is%3Amerged"
+   ]
+  },
+  {
+   "number": 1356,
+   "title": "Use other feedback channels in China and establish download substations. 请求在中国使用其他反馈渠道，建立下载分站。",
+   "url": "https://github.com/lively-community/lively/issues/1356",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2022-10-29T17:41:27Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "nothing has been merged in 409 days",
+   "evidence": [
+    "https://github.com/lively-community/lively — pushed_at 2026-09-30T16:49:36Z",
+    "https://github.com/lively-community/lively/pulls?q=is%3Apr+is%3Amerged"
+   ]
+  },
+  {
+   "number": 1410,
+   "title": "Multi touch",
+   "url": "https://github.com/lively-community/lively/issues/1410",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2022-10-20T10:04:15Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "nothing has been merged in 409 days",
+   "evidence": [
+    "https://github.com/lively-community/lively — pushed_at 2026-09-30T16:49:36Z",
+    "https://github.com/lively-community/lively/pulls?q=is%3Apr+is%3Amerged"
+   ]
+  },
+  {
+   "number": 1797,
+   "title": "Battery info API",
+   "url": "https://github.com/lively-community/lively/issues/1797",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2025-09-16T02:48:11Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "nothing has been merged in 409 days",
+   "evidence": [
+    "https://github.com/lively-community/lively — pushed_at 2026-09-30T16:49:36Z",
+    "https://github.com/lively-community/lively/pulls?q=is%3Apr+is%3Amerged"
+   ]
+  }
+ ]
+}

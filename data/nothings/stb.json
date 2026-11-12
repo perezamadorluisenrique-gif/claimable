@@ -1,0 +1,29 @@
+{
+ "owner": "nothings",
+ "repo": "stb",
+ "language": "C",
+ "stars": 34986,
+ "description": "stb single-file public domain libraries for C/C++",
+ "visitedAt": "2026-11-12T19:57:47.710Z",
+ "issues": [
+  {
+   "number": 1251,
+   "title": "stb_ds.h unit test fails",
+   "url": "https://github.com/nothings/stb/issues/1251",
+   "labels": [
+    "help wanted",
+    "4 need data",
+    "1 stb_ds",
+    "2 bug w/ repro"
+   ],
+   "updatedAt": "2026-11-11T21:03:11Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "reservations",
+   "reason": "median time from PR opened to merged: 769 days (34/50 of recent PRs merged)",
+   "evidence": [
+    "https://github.com/nothings/stb/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nothings/stb/issues/1251"
+   ]
+  }
+ ]
+}

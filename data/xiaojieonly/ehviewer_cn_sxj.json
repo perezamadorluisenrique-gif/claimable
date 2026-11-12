@@ -1,0 +1,149 @@
+{
+ "owner": "xiaojieonly",
+ "repo": "Ehviewer_CN_SXJ",
+ "language": "C",
+ "stars": 28962,
+ "description": "ehviewer，用爱发电，快乐前行",
+ "visitedAt": "2026-11-12T19:57:47.710Z",
+ "issues": [
+  {
+   "number": 22,
+   "title": "【功能申请】避免下载失败的图片被跳过",
+   "url": "https://github.com/xiaojieonly/Ehviewer_CN_SXJ/issues/22",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2025-03-02T08:47:29Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "PR #2755 by @MIKUzwj831 is already open against this issue",
+   "evidence": [
+    "https://github.com/xiaojieonly/Ehviewer_CN_SXJ/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/xiaojieonly/Ehviewer_CN_SXJ/issues/2755",
+    "https://github.com/xiaojieonly/Ehviewer_CN_SXJ/issues/1850",
+    "https://github.com/xiaojieonly/Ehviewer_CN_SXJ/issues/1934",
+    "https://github.com/xiaojieonly/Ehviewer_CN_SXJ/issues/1544",
+    "https://github.com/xiaojieonly/Ehviewer_CN_SXJ/issues/1755",
+    "https://github.com/xiaojieonly/Ehviewer_CN_SXJ/issues/2066",
+    "https://github.com/xiaojieonly/Ehviewer_CN_SXJ/issues/2861",
+    "https://github.com/xiaojieonly/Ehviewer_CN_SXJ/issues/389",
+    "https://github.com/xiaojieonly/Ehviewer_CN_SXJ/issues/96"
+   ]
+  },
+  {
+   "number": 31,
+   "title": "求助，关于收藏的转移",
+   "url": "https://github.com/xiaojieonly/Ehviewer_CN_SXJ/issues/31",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2020-12-21T01:56:48Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "PR #1980 by @XH-86 is already open against this issue",
+   "evidence": [
+    "https://github.com/xiaojieonly/Ehviewer_CN_SXJ/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/xiaojieonly/Ehviewer_CN_SXJ/issues/1980",
+    "https://github.com/xiaojieonly/Ehviewer_CN_SXJ/issues/1083",
+    "https://github.com/xiaojieonly/Ehviewer_CN_SXJ/issues/1496",
+    "https://github.com/xiaojieonly/Ehviewer_CN_SXJ/issues/1625"
+   ]
+  },
+  {
+   "number": 96,
+   "title": "分享一下我解决进不去里站的方法",
+   "url": "https://github.com/xiaojieonly/Ehviewer_CN_SXJ/issues/96",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-02T08:38:57Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/xiaojieonly/Ehviewer_CN_SXJ/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/xiaojieonly/Ehviewer_CN_SXJ/issues/96"
+   ]
+  },
+  {
+   "number": 231,
+   "title": "求助：里站exhentai怎么搜中文本（汉化本）",
+   "url": "https://github.com/xiaojieonly/Ehviewer_CN_SXJ/issues/231",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2023-09-24T02:38:17Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/xiaojieonly/Ehviewer_CN_SXJ/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/xiaojieonly/Ehviewer_CN_SXJ/issues/231"
+   ]
+  },
+  {
+   "number": 252,
+   "title": "家人们怎么进里站",
+   "url": "https://github.com/xiaojieonly/Ehviewer_CN_SXJ/issues/252",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2023-01-07T11:15:52Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "PR #2402 by @tibuqijin is already open against this issue",
+   "evidence": [
+    "https://github.com/xiaojieonly/Ehviewer_CN_SXJ/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/xiaojieonly/Ehviewer_CN_SXJ/issues/2402"
+   ]
+  },
+  {
+   "number": 432,
+   "title": "我把在网上看到一个十分全面的解答放在这里",
+   "url": "https://github.com/xiaojieonly/Ehviewer_CN_SXJ/issues/432",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2024-06-01T05:32:27Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/xiaojieonly/Ehviewer_CN_SXJ/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/xiaojieonly/Ehviewer_CN_SXJ/issues/432"
+   ]
+  },
+  {
+   "number": 635,
+   "title": "大佬们你们用的都是什么梯子呀？",
+   "url": "https://github.com/xiaojieonly/Ehviewer_CN_SXJ/issues/635",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2025-08-23T07:59:20Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/xiaojieonly/Ehviewer_CN_SXJ/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/xiaojieonly/Ehviewer_CN_SXJ/issues/635"
+   ]
+  },
+  {
+   "number": 1029,
+   "title": "如何将彩e中的下载迁移到绿e中",
+   "url": "https://github.com/xiaojieonly/Ehviewer_CN_SXJ/issues/1029",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2024-10-16T05:02:31Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/xiaojieonly/Ehviewer_CN_SXJ/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/xiaojieonly/Ehviewer_CN_SXJ/issues/1029"
+   ]
+  }
+ ]
+}

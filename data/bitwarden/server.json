@@ -1,0 +1,81 @@
+{
+ "owner": "bitwarden",
+ "repo": "server",
+ "language": "C#",
+ "stars": 20613,
+ "description": "Bitwarden infrastructure/backend (API, database, Docker, etc).",
+ "visitedAt": "2026-11-12T19:57:47.710Z",
+ "issues": [
+  {
+   "number": 1268,
+   "title": "\"Create Account\" Button should be inactive/hidden when \"globalSettings__disableUserRegistration=true\"",
+   "url": "https://github.com/bitwarden/server/issues/1268",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2025-03-29T16:24:38Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "already assigned to @trmartin4",
+   "evidence": [
+    "https://github.com/bitwarden/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/bitwarden/server/issues/1268",
+    "https://github.com/bitwarden/server/issues/1268#issuecomment-1501062949"
+   ]
+  },
+  {
+   "number": 5461,
+   "title": "OpenID Connect response_mode handling - flawed discovery, missing validation",
+   "url": "https://github.com/bitwarden/server/issues/5461",
+   "labels": [
+    "bug",
+    "good first issue"
+   ],
+   "updatedAt": "2026-04-13T09:40:50Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.docker.com/compose/install/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/bitwarden/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/bitwarden/server/issues/5461",
+    "https://docs.docker.com/compose/install/"
+   ]
+  },
+  {
+   "number": 6792,
+   "title": "Unexpected behaviour when mailserver DNS name does not exist",
+   "url": "https://github.com/bitwarden/server/issues/6792",
+   "labels": [
+    "bug",
+    "good first issue"
+   ],
+   "updatedAt": "2026-04-13T09:44:27Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "PR #7654 by @singhvishalkr is already open against this issue",
+   "evidence": [
+    "https://github.com/bitwarden/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/bitwarden/server/pull/7654"
+   ]
+  },
+  {
+   "number": 7142,
+   "title": "Admin Panel “Web Vault: Unable to fetch installed version”",
+   "url": "https://github.com/bitwarden/server/issues/7142",
+   "labels": [
+    "bug",
+    "good first issue",
+    "bw-lite-deploy"
+   ],
+   "updatedAt": "2026-04-14T03:43:27Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "PR #7653 by @singhvishalkr is already open against this issue",
+   "evidence": [
+    "https://github.com/bitwarden/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/bitwarden/server/pull/7653"
+   ]
+  }
+ ]
+}

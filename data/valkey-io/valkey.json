@@ -1,0 +1,209 @@
+{
+ "owner": "valkey-io",
+ "repo": "valkey",
+ "language": "C",
+ "stars": 27674,
+ "description": "A flexible distributed key-value database that is optimized for caching and other realtime workloads.",
+ "visitedAt": "2026-11-12T19:57:47.710Z",
+ "issues": [
+  {
+   "number": 15,
+   "title": "Devendoring",
+   "url": "https://github.com/valkey-io/valkey/issues/15",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2025-01-10T23:05:07Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "PR #363 by @WM0323 is already open against this issue",
+   "evidence": [
+    "https://github.com/valkey-io/valkey/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/valkey-io/valkey/pull/363"
+   ]
+  },
+  {
+   "number": 211,
+   "title": "OpenSSF scorecard + openSSF best practice.",
+   "url": "https://github.com/valkey-io/valkey/issues/211",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2024-05-08T17:52:27Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "reservations",
+   "reason": "PR #221 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/valkey-io/valkey/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/valkey-io/valkey/pull/221",
+    "https://github.com/valkey-io/valkey/pull/312",
+    "https://github.com/valkey-io/valkey/issues/211",
+    "https://github.com/valkey-io/valkey/blob/HEAD/README.md",
+    "https://docs.github.com/en/github/getting-started-with-github/fork-a-repo",
+    "https://github.com/valkey-io/valkey/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 641,
+   "title": "[BUG] Stream lag value could be incorrect",
+   "url": "https://github.com/valkey-io/valkey/issues/641",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2024-06-18T18:56:42Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "PR #685 by @artikell is already open against this issue",
+   "evidence": [
+    "https://github.com/valkey-io/valkey/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/valkey-io/valkey/pull/685",
+    "https://github.com/valkey-io/valkey/pull/5081"
+   ]
+  },
+  {
+   "number": 998,
+   "title": "[BUG] slot stuck in importing state on replica after scale-up and rebalance",
+   "url": "https://github.com/valkey-io/valkey/issues/998",
+   "labels": [
+    "bug",
+    "help wanted",
+    "cluster"
+   ],
+   "updatedAt": "2026-09-17T17:22:47Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "PR #4735 by @Rayan-and-beyond is already open against this issue",
+   "evidence": [
+    "https://github.com/valkey-io/valkey/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/valkey-io/valkey/pull/4735"
+   ]
+  },
+  {
+   "number": 1453,
+   "title": "AOF issue related to code coverage",
+   "url": "https://github.com/valkey-io/valkey/issues/1453",
+   "labels": [
+    "help wanted",
+    "test-failure"
+   ],
+   "updatedAt": "2026-06-05T15:30:44Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "already assigned to @Nikhil-Manglore",
+   "evidence": [
+    "https://github.com/valkey-io/valkey/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/valkey-io/valkey/pull/1504",
+    "https://github.com/valkey-io/valkey/issues/1453"
+   ]
+  },
+  {
+   "number": 1601,
+   "title": "[NEW] Introduce database logical names",
+   "url": "https://github.com/valkey-io/valkey/issues/1601",
+   "labels": [
+    "help wanted",
+    "client-changes-needed"
+   ],
+   "updatedAt": "2026-05-24T08:04:43Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "PR #3821 by @eifrah-aws is already open against this issue",
+   "evidence": [
+    "https://github.com/valkey-io/valkey/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/valkey-io/valkey/pull/3821",
+    "https://github.com/valkey-io/valkey/pull/2309"
+   ]
+  },
+  {
+   "number": 1652,
+   "title": "[NEW] Introduce QUIC as a Transport Protocol for Valkey",
+   "url": "https://github.com/valkey-io/valkey/issues/1652",
+   "labels": [
+    "help wanted",
+    "major-decision-pending",
+    "client-changes-needed"
+   ],
+   "updatedAt": "2025-03-11T13:34:18Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "PR #1300 by @ohadshacham is already open against this issue",
+   "evidence": [
+    "https://github.com/valkey-io/valkey/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/valkey-io/valkey/issues/1300"
+   ]
+  },
+  {
+   "number": 2617,
+   "title": "HFE backlog",
+   "url": "https://github.com/valkey-io/valkey/issues/2617",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2025-09-16T10:38:32Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "reservations",
+   "reason": "open 14 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/valkey-io/valkey/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/valkey-io/valkey/issues/2617",
+    "https://github.com/valkey-io/valkey/blob/HEAD/README.md",
+    "https://docs.github.com/en/github/getting-started-with-github/fork-a-repo",
+    "https://github.com/valkey-io/valkey/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2621,
+   "title": "HFE backlog - improve active expiration job",
+   "url": "https://github.com/valkey-io/valkey/issues/2621",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-06-01T03:38:04Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "PR #4385 by @renechoi is already open against this issue",
+   "evidence": [
+    "https://github.com/valkey-io/valkey/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/valkey-io/valkey/pull/4385"
+   ]
+  },
+  {
+   "number": 2767,
+   "title": "[NEW] Full Sync from Replica",
+   "url": "https://github.com/valkey-io/valkey/issues/2767",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2026-05-15T12:17:52Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "PR #3724 by @avifenesh is already open against this issue",
+   "evidence": [
+    "https://github.com/valkey-io/valkey/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/valkey-io/valkey/pull/3724",
+    "https://github.com/valkey-io/valkey/pull/3893"
+   ]
+  },
+  {
+   "number": 3066,
+   "title": "[NEW] Cross cluster replication support",
+   "url": "https://github.com/valkey-io/valkey/issues/3066",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2026-05-13T00:03:54Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/getting-started-with-github/fork-a-repo) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/valkey-io/valkey/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/valkey-io/valkey/issues/3066",
+    "https://github.com/valkey-io/valkey/blob/HEAD/README.md",
+    "https://docs.github.com/en/github/getting-started-with-github/fork-a-repo",
+    "https://github.com/valkey-io/valkey/blob/HEAD/CONTRIBUTING.md"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "owner": "valinet",
+ "repo": "ExplorerPatcher",
+ "language": "C",
+ "stars": 34269,
+ "description": "This project aims to enhance the working environment on Windows",
+ "visitedAt": "2026-11-12T19:57:47.710Z",
+ "issues": [
+  {
+   "number": 2258,
+   "title": "Fix Windows 10 Wifi/Internet Flyout and old system notifications and action center in Windows 11 23H2 (22631)",
+   "url": "https://github.com/valinet/ExplorerPatcher/issues/2258",
+   "labels": [
+    "enhancement",
+    "Help Wanted"
+   ],
+   "updatedAt": "2026-02-02T18:53:18Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/valinet/ExplorerPatcher/wiki/Configure-updates) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/valinet/ExplorerPatcher/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/valinet/ExplorerPatcher/issues/2258",
+    "https://github.com/valinet/ExplorerPatcher/wiki/Configure-updates"
+   ]
+  }
+ ]
+}

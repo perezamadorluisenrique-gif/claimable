@@ -1,0 +1,91 @@
+{
+ "owner": "libuv",
+ "repo": "libuv",
+ "language": "C",
+ "stars": 27317,
+ "description": "Cross-platform asynchronous I/O",
+ "visitedAt": "2026-11-12T19:57:47.710Z",
+ "issues": [
+  {
+   "number": 829,
+   "title": "uv_interface_addresses: support 64 bits MAC addresses",
+   "url": "https://github.com/libuv/libuv/issues/829",
+   "labels": [
+    "bug",
+    "help wanted",
+    "v2",
+    "good first issue"
+   ],
+   "updatedAt": "2019-08-10T08:04:18Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "PR #5137 by @jasnell is already open against this issue",
+   "evidence": [
+    "https://github.com/libuv/libuv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/libuv/libuv/pull/5137",
+    "https://github.com/libuv/libuv/pull/5402"
+   ]
+  },
+  {
+   "number": 1027,
+   "title": "Improve documentation",
+   "url": "https://github.com/libuv/libuv/issues/1027",
+   "labels": [
+    "help wanted",
+    "doc"
+   ],
+   "updatedAt": "2024-05-30T07:29:46Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "reservations",
+   "reason": "PR #1033 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/libuv/libuv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/libuv/libuv/pull/1033",
+    "https://github.com/libuv/libuv/pull/1246",
+    "https://github.com/libuv/libuv/issues/1027",
+    "http://docs.libuv.org",
+    "https://github.com/libuv/libuv/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2537,
+   "title": "AF_UNIX on Windows",
+   "url": "https://github.com/libuv/libuv/issues/2537",
+   "labels": [
+    "windows",
+    "feature-request",
+    "help wanted",
+    "good first issue"
+   ],
+   "updatedAt": "2025-04-10T15:01:00Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "PR #134 by @JakkuSakura is already open against this issue",
+   "evidence": [
+    "https://github.com/libuv/libuv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/wayland-transpositor/wprs/pull/134",
+    "https://github.com/libuv/libuv/pull/5267",
+    "https://github.com/cppalliance/corosio/pull/229",
+    "https://github.com/cameronsjo/bosun/pull/542"
+   ]
+  },
+  {
+   "number": 4388,
+   "title": "win: use WinDNS family of functions for DNS resolving",
+   "url": "https://github.com/libuv/libuv/issues/4388",
+   "labels": [
+    "enhancement",
+    "feature-request",
+    "good first issue"
+   ],
+   "updatedAt": "2025-02-16T11:53:30Z",
+   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "verdict": "discard",
+   "reason": "PR #5417 by @ian0318git is already open against this issue",
+   "evidence": [
+    "https://github.com/libuv/libuv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/libuv/libuv/pull/5417"
+   ]
+  }
+ ]
+}
