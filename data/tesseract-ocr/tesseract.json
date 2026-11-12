@@ -1,0 +1,116 @@
+{
+ "owner": "tesseract-ocr",
+ "repo": "tesseract",
+ "language": "C++",
+ "stars": 77445,
+ "description": "Tesseract Open Source OCR Engine (main repository)",
+ "visitedAt": "2026-11-12T03:03:40.195Z",
+ "issues": [
+  {
+   "number": 1038,
+   "title": "Need Indic scripts experts to review cleanup code",
+   "url": "https://github.com/tesseract-ocr/tesseract/issues/1038",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2024-12-02T05:46:09Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #2304 by @clarkk is already open against this issue",
+   "evidence": [
+    "https://github.com/tesseract-ocr/tesseract/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/tesseract-ocr/tesseract/issues/2304"
+   ]
+  },
+  {
+   "number": 1221,
+   "title": "Define the / sign as a word delimiter.",
+   "url": "https://github.com/tesseract-ocr/tesseract/issues/1221",
+   "labels": [
+    "feature request",
+    "help wanted"
+   ],
+   "updatedAt": "2018-10-12T19:46:15Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #2860 by @stweil is already open against this issue",
+   "evidence": [
+    "https://github.com/tesseract-ocr/tesseract/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/tesseract-ocr/tesseract/issues/2860",
+    "https://github.com/tesseract-ocr/tesseract/issues/3906"
+   ]
+  },
+  {
+   "number": 1743,
+   "title": "Is it possible to convert tesseract traineddata to other format?",
+   "url": "https://github.com/tesseract-ocr/tesseract/issues/1743",
+   "labels": [
+    "help wanted",
+    "traineddata"
+   ],
+   "updatedAt": "2026-05-29T21:32:39Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #4556 by @Copilot is already open against this issue",
+   "evidence": [
+    "https://github.com/tesseract-ocr/tesseract/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/tesseract-ocr/tesseract/pull/4556"
+   ]
+  },
+  {
+   "number": 1861,
+   "title": "Please add language information to the TSV output",
+   "url": "https://github.com/tesseract-ocr/tesseract/issues/1861",
+   "labels": [
+    "feature request",
+    "help wanted",
+    "output"
+   ],
+   "updatedAt": "2020-11-30T10:21:03Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #4168 by @DrDub is already open against this issue",
+   "evidence": [
+    "https://github.com/tesseract-ocr/tesseract/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/tesseract-ocr/tesseract/pull/4168"
+   ]
+  },
+  {
+   "number": 2634,
+   "title": "Small extra blocks with a single letter gets split off of bigger text blocks",
+   "url": "https://github.com/tesseract-ocr/tesseract/issues/2634",
+   "labels": [
+    "help wanted",
+    "layout analysis"
+   ],
+   "updatedAt": "2024-10-25T09:53:02Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #3906 by @rmast is already open against this issue",
+   "evidence": [
+    "https://github.com/tesseract-ocr/tesseract/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/tesseract-ocr/tesseract/issues/3906"
+   ]
+  },
+  {
+   "number": 2838,
+   "title": "Test suite depends on submodule instead of using gtest from distribution",
+   "url": "https://github.com/tesseract-ocr/tesseract/issues/2838",
+   "labels": [
+    "feature request",
+    "help wanted",
+    "unit tests"
+   ],
+   "updatedAt": "2024-06-12T05:53:41Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "PR #4650 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/tesseract-ocr/tesseract/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/tesseract-ocr/tesseract/pull/4650",
+    "https://github.com/tesseract-ocr/tesseract/issues/2838",
+    "https://docs.github.com/en/get-started/quickstart/contributing-to-projects"
+   ]
+  }
+ ]
+}

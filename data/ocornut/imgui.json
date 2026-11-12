@@ -1,0 +1,198 @@
+{
+ "owner": "ocornut",
+ "repo": "imgui",
+ "language": "C++",
+ "stars": 77045,
+ "description": "Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies",
+ "visitedAt": "2026-11-12T03:03:40.195Z",
+ "issues": [
+  {
+   "number": 707,
+   "title": "Post your color styles/themes here",
+   "url": "https://github.com/ocornut/imgui/issues/707",
+   "labels": [
+    "help wanted",
+    "in progress",
+    "style"
+   ],
+   "updatedAt": "2026-08-02T17:33:11Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "only 12% of recently closed PRs were merged — most contributions get rejected or abandoned here (+2 more)",
+   "evidence": [
+    "https://github.com/ocornut/imgui/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/ocornut/imgui/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ocornut/imgui/issues/707#issuecomment-389050203",
+    "https://github.com/ocornut/imgui/issues/707",
+    "https://github.com/ocornut/imgui/wiki"
+   ]
+  },
+  {
+   "number": 2117,
+   "title": "Linux/Mac compatibility of multi-viewports",
+   "url": "https://github.com/ocornut/imgui/issues/2117",
+   "labels": [
+    "help wanted",
+    "backends",
+    "osx/ios",
+    "multi-viewports",
+    "linux/bsd"
+   ],
+   "updatedAt": "2024-08-18T23:29:35Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #9594 by @hinxx is already open against this issue",
+   "evidence": [
+    "https://github.com/ocornut/imgui/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/ocornut/imgui/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ocornut/imgui/issues/9594",
+    "https://github.com/ocornut/imgui/issues/7664",
+    "https://github.com/ocornut/imgui/issues/8251",
+    "https://github.com/ocornut/imgui/issues/3898",
+    "https://github.com/ocornut/imgui/issues/9356",
+    "https://github.com/ocornut/imgui/issues/1542",
+    "https://github.com/ocornut/imgui/issues/4490",
+    "https://github.com/ocornut/imgui/issues/8289"
+   ]
+  },
+  {
+   "number": 2675,
+   "title": "Inertial scrolling [help needed]",
+   "url": "https://github.com/ocornut/imgui/issues/2675",
+   "labels": [
+    "help wanted",
+    "scrolling"
+   ],
+   "updatedAt": "2019-07-18T16:46:46Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #7348 by @astharoth-tlotb is already open against this issue",
+   "evidence": [
+    "https://github.com/ocornut/imgui/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/ocornut/imgui/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ocornut/imgui/pull/7348"
+   ]
+  },
+  {
+   "number": 5031,
+   "title": "Dear ImGui Job Board",
+   "url": "https://github.com/ocornut/imgui/issues/5031",
+   "labels": [
+    "help wanted",
+    "news/info"
+   ],
+   "updatedAt": "2025-01-05T00:04:32Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "only 12% of recently closed PRs were merged — most contributions get rejected or abandoned here (+1 more)",
+   "evidence": [
+    "https://github.com/ocornut/imgui/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/ocornut/imgui/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ocornut/imgui/issues/5031",
+    "https://github.com/ocornut/imgui/wiki/Sponsors"
+   ]
+  },
+  {
+   "number": 8465,
+   "title": "Request for feedback: dynamic fonts & texture updates (v1.92)",
+   "url": "https://github.com/ocornut/imgui/issues/8465",
+   "labels": [
+    "help wanted",
+    "font/text",
+    "news/info"
+   ],
+   "updatedAt": "2025-06-27T13:04:05Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "only 12% of recently closed PRs were merged — most contributions get rejected or abandoned here (+4 more)",
+   "evidence": [
+    "https://github.com/ocornut/imgui/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/ocornut/imgui/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/epezent/implot/pull/614",
+    "https://github.com/ocornut/imgui/issues/8465#issuecomment-2810814798",
+    "https://github.com/ocornut/imgui/issues/8465",
+    "https://github.com/ocornut/imgui/blob/HEAD/imgui.h",
+    "https://github.com/ocornut/imgui/wiki"
+   ]
+  },
+  {
+   "number": 8878,
+   "title": "Help Wanted: Android build failing on CI",
+   "url": "https://github.com/ocornut/imgui/issues/8878",
+   "labels": [
+    "help wanted",
+    "android"
+   ],
+   "updatedAt": "2026-06-25T13:35:33Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "only 12% of recently closed PRs were merged — most contributions get rejected or abandoned here (+2 more)",
+   "evidence": [
+    "https://github.com/ocornut/imgui/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/ocornut/imgui/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ocornut/imgui/pull/9467",
+    "https://github.com/ocornut/imgui/issues/8878",
+    "https://github.com/ocornut/imgui/wiki"
+   ]
+  },
+  {
+   "number": 9122,
+   "title": "Converging toward a principal Unreal Engine backend/binding for Dear ImGui?",
+   "url": "https://github.com/ocornut/imgui/issues/9122",
+   "labels": [
+    "help wanted",
+    "backends"
+   ],
+   "updatedAt": "2026-10-16T18:45:08Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "only 12% of recently closed PRs were merged — most contributions get rejected or abandoned here (+1 more)",
+   "evidence": [
+    "https://github.com/ocornut/imgui/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/ocornut/imgui/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ocornut/imgui/issues/9122",
+    "https://github.com/ocornut/imgui/wiki/Bindings#unreal-engine"
+   ]
+  },
+  {
+   "number": 9340,
+   "title": "Dynamic Rendering Error",
+   "url": "https://github.com/ocornut/imgui/issues/9340",
+   "labels": [
+    "help wanted",
+    "backends",
+    "vulkan"
+   ],
+   "updatedAt": "2026-04-10T02:24:52Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #9357 by @qiyuewuyi2333 is already open against this issue",
+   "evidence": [
+    "https://github.com/ocornut/imgui/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/ocornut/imgui/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ocornut/imgui/pull/9357"
+   ]
+  },
+  {
+   "number": 9349,
+   "title": "Problem with semaphore and validation layer when using multi viewports.",
+   "url": "https://github.com/ocornut/imgui/issues/9349",
+   "labels": [
+    "help wanted",
+    "backends",
+    "vulkan",
+    "multi-viewports"
+   ],
+   "updatedAt": "2026-07-09T21:55:30Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "only 12% of recently closed PRs were merged — most contributions get rejected or abandoned here (+1 more)",
+   "evidence": [
+    "https://github.com/ocornut/imgui/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/ocornut/imgui/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ocornut/imgui/issues/9349",
+    "https://docs.vulkan.org/guide/latest/swapchain_semaphore_reuse.html"
+   ]
+  }
+ ]
+}

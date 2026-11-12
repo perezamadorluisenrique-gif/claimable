@@ -1,0 +1,2269 @@
+{
+ "owner": "microsoft",
+ "repo": "terminal",
+ "language": "C++",
+ "stars": 105362,
+ "description": "The new Windows Terminal and the original Windows console host, all in the same place!",
+ "visitedAt": "2026-11-12T03:03:40.195Z",
+ "issues": [
+  {
+   "number": 351,
+   "title": "Exiting from Full Screen mode incorrectly restores window size",
+   "url": "https://github.com/microsoft/terminal/issues/351",
+   "labels": [
+    "Product-Conhost",
+    "Help Wanted",
+    "Area-Interaction",
+    "Issue-Bug",
+    "Priority-3",
+    "good first issue"
+   ],
+   "updatedAt": "2026-10-12T15:02:16Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #19439 by @samuelfessahaye is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/pull/19439"
+   ]
+  },
+  {
+   "number": 538,
+   "title": "Support Right to Left (RTL) text",
+   "url": "https://github.com/microsoft/terminal/issues/538",
+   "labels": [
+    "Issue-Feature",
+    "Help Wanted",
+    "Area-Rendering",
+    "Product-Terminal"
+   ],
+   "updatedAt": "2026-08-28T14:23:36Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "PR #1873 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+4 more)",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/pull/1873",
+    "https://github.com/microsoft/terminal/pull/7190",
+    "https://github.com/microsoft/terminal/pull/18942",
+    "https://github.com/microsoft/terminal/issues/538",
+    "https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022",
+    "https://github.com/microsoft/terminal/blob/HEAD/README.md",
+    "https://github.com/microsoft/terminal/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 694,
+   "title": "Suggestion: \"One-click & snap\" connect to bluetooth/serial devices and network hosts using QR Code and Code 128",
+   "url": "https://github.com/microsoft/terminal/issues/694",
+   "labels": [
+    "Issue-Feature",
+    "Help Wanted",
+    "Area-Extensibility",
+    "Product-Terminal"
+   ],
+   "updatedAt": "2026-04-03T13:38:05Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #4000 by @zadjii-msft is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/issues/4000"
+   ]
+  },
+  {
+   "number": 1320,
+   "title": "Support runtime variables in the custom user title",
+   "url": "https://github.com/microsoft/terminal/issues/1320",
+   "labels": [
+    "Issue-Feature",
+    "Help Wanted",
+    "Area-UserInterface",
+    "Product-Terminal"
+   ],
+   "updatedAt": "2026-11-01T12:01:23Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "PR #2373 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/pull/2373",
+    "https://github.com/microsoft/terminal/issues/1320",
+    "https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022",
+    "https://github.com/microsoft/terminal/blob/HEAD/README.md",
+    "https://github.com/microsoft/terminal/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 1334,
+   "title": "Support \"Key Chords\" in keybindings",
+   "url": "https://github.com/microsoft/terminal/issues/1334",
+   "labels": [
+    "Issue-Feature",
+    "Help Wanted",
+    "Area-Settings",
+    "Product-Terminal"
+   ],
+   "updatedAt": "2026-01-12T09:09:03Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "PR #2290 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+4 more)",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/pull/2290",
+    "https://github.com/microsoft/terminal/pull/4746",
+    "https://github.com/microsoft/terminal/pull/6635",
+    "https://github.com/microsoft/terminal/issues/1334",
+    "https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022",
+    "https://github.com/microsoft/terminal/blob/HEAD/README.md",
+    "https://github.com/microsoft/terminal/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 1379,
+   "title": "Add support for turning off cursor blink",
+   "url": "https://github.com/microsoft/terminal/issues/1379",
+   "labels": [
+    "Help Wanted",
+    "Area-TerminalControl",
+    "Area-Settings",
+    "Product-Terminal",
+    "Issue-Task",
+    "In-PR",
+    "Priority-2"
+   ],
+   "updatedAt": "2026-10-19T15:15:45Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "PR #4902 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+3 more)",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/pull/4902",
+    "https://github.com/microsoft/terminal/pull/7379",
+    "https://github.com/microsoft/terminal/issues/1379",
+    "https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022",
+    "https://github.com/microsoft/terminal/blob/HEAD/README.md",
+    "https://github.com/microsoft/terminal/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 1441,
+   "title": "Mouse pointer should be text and not arrow one",
+   "url": "https://github.com/microsoft/terminal/issues/1441",
+   "labels": [
+    "Help Wanted",
+    "Area-TerminalControl",
+    "Product-Terminal",
+    "Issue-Task",
+    "In-PR"
+   ],
+   "updatedAt": "2026-09-04T15:44:08Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #20645 by @nshopik is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/pull/20645"
+   ]
+  },
+  {
+   "number": 1446,
+   "title": "Feature Request: CornerRadius on Cursor Shape",
+   "url": "https://github.com/microsoft/terminal/issues/1446",
+   "labels": [
+    "Help Wanted",
+    "Area-Rendering",
+    "Area-Settings",
+    "Product-Terminal",
+    "Issue-Task",
+    "In-PR",
+    "good first issue"
+   ],
+   "updatedAt": "2026-02-09T19:32:58Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "2 stale claims, the most recent by @shivam-dhir 294 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/issues/1446#issuecomment-3782881103",
+    "https://github.com/microsoft/terminal/issues/1446",
+    "https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022",
+    "https://github.com/microsoft/terminal/blob/HEAD/README.md",
+    "https://github.com/microsoft/terminal/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 1553,
+   "title": "Feature Request: Mouse/Touch/Pointer Bindings (like middle-click paste, right-click context menu, etc.)",
+   "url": "https://github.com/microsoft/terminal/issues/1553",
+   "labels": [
+    "Help Wanted",
+    "Area-Input",
+    "Area-TerminalControl",
+    "Area-Settings",
+    "Product-Terminal",
+    "Issue-Scenario"
+   ],
+   "updatedAt": "2026-02-07T17:54:47Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "already assigned to @zadjii-msft",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/pull/2152",
+    "https://github.com/microsoft/terminal/pull/2586",
+    "https://github.com/microsoft/terminal/pull/5096",
+    "https://github.com/microsoft/terminal/pull/5212",
+    "https://github.com/microsoft/terminal/pull/5263",
+    "https://github.com/microsoft/terminal/pull/5299",
+    "https://github.com/microsoft/terminal/issues/1553",
+    "https://github.com/microsoft/terminal/issues/1553#issuecomment-578914898"
+   ]
+  },
+  {
+   "number": 1701,
+   "title": "Mouse panning (middle-button scrolling)",
+   "url": "https://github.com/microsoft/terminal/issues/1701",
+   "labels": [
+    "Help Wanted",
+    "Area-Input",
+    "Area-TerminalControl",
+    "Product-Terminal",
+    "Issue-Task",
+    "In-PR",
+    "good first issue"
+   ],
+   "updatedAt": "2026-08-02T12:18:17Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #20469 by @ghnew is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/pull/20469"
+   ]
+  },
+  {
+   "number": 1868,
+   "title": "Suggestion: ability for applications to set their tab icon",
+   "url": "https://github.com/microsoft/terminal/issues/1868",
+   "labels": [
+    "Issue-Feature",
+    "Help Wanted",
+    "Area-VT",
+    "Product-Terminal"
+   ],
+   "updatedAt": "2026-09-01T16:37:20Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "PR #20634 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+3 more)",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/neovim/neovim/pull/20634",
+    "https://github.com/microsoft/terminal/issues/1868#issuecomment-509260979",
+    "https://github.com/microsoft/terminal/issues/1868",
+    "https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022",
+    "https://github.com/microsoft/terminal/blob/HEAD/README.md",
+    "https://github.com/microsoft/terminal/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 1871,
+   "title": "Display current tab's icon as a badge on the taskbar icon",
+   "url": "https://github.com/microsoft/terminal/issues/1871",
+   "labels": [
+    "Issue-Feature",
+    "Help Wanted",
+    "Area-UserInterface",
+    "Product-Terminal"
+   ],
+   "updatedAt": "2026-01-23T15:33:20Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #4768 by @brucejo75 is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/issues/4768",
+    "https://github.com/microsoft/terminal/issues/118"
+   ]
+  },
+  {
+   "number": 2933,
+   "title": "Add support for roaming settings.json or storing it elsewhere",
+   "url": "https://github.com/microsoft/terminal/issues/2933",
+   "labels": [
+    "Issue-Feature",
+    "Help Wanted",
+    "Area-Settings",
+    "Product-Terminal"
+   ],
+   "updatedAt": "2026-10-21T01:00:57Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "PR #5305 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+3 more)",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/pull/5305",
+    "https://github.com/microsoft/terminal/pull/6904",
+    "https://github.com/microsoft/terminal/issues/2933",
+    "https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022",
+    "https://github.com/microsoft/terminal/blob/HEAD/README.md",
+    "https://github.com/microsoft/terminal/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 2976,
+   "title": "Feature Request: Customize confirmation prompt before exit.",
+   "url": "https://github.com/microsoft/terminal/issues/2976",
+   "labels": [
+    "Help Wanted",
+    "Area-UserInterface",
+    "Product-Terminal",
+    "Issue-Task"
+   ],
+   "updatedAt": "2026-06-10T16:48:55Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/issues/2976",
+    "https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022",
+    "https://github.com/microsoft/terminal/blob/HEAD/README.md",
+    "https://github.com/microsoft/terminal/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 3019,
+   "title": "Alt-Gr issue (global one also affecting conhost, not just Windows Terminal)",
+   "url": "https://github.com/microsoft/terminal/issues/3019",
+   "labels": [
+    "Product-Conhost",
+    "Help Wanted",
+    "Area-Input",
+    "Issue-Bug"
+   ],
+   "updatedAt": "2026-11-05T01:46:59Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "already assigned to @lhecker",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/issues/3019"
+   ]
+  },
+  {
+   "number": 3193,
+   "title": "Tile mode for background image stretch",
+   "url": "https://github.com/microsoft/terminal/issues/3193",
+   "labels": [
+    "Help Wanted",
+    "Area-UserInterface",
+    "Product-Terminal",
+    "Issue-Task",
+    "Priority-3"
+   ],
+   "updatedAt": "2026-10-01T09:55:29Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #9995 by @zadjii-msft is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/issues/9995"
+   ]
+  },
+  {
+   "number": 3656,
+   "title": "Add support for `tmux` Control Mode",
+   "url": "https://github.com/microsoft/terminal/issues/3656",
+   "labels": [
+    "Issue-Feature",
+    "Help Wanted",
+    "Area-Interop",
+    "Area-UserInterface",
+    "Area-Extensibility",
+    "Product-Terminal",
+    "In-PR"
+   ],
+   "updatedAt": "2026-10-28T11:47:23Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #18928 by @joexue is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/pull/18928"
+   ]
+  },
+  {
+   "number": 4134,
+   "title": "Polish Commandline Help MessageBox to be at least like, but at best better than,  `msiexec /?`",
+   "url": "https://github.com/microsoft/terminal/issues/4134",
+   "labels": [
+    "Help Wanted",
+    "Area-UserInterface",
+    "Product-Terminal",
+    "Issue-Task",
+    "In-PR",
+    "Priority-3",
+    "Area-Commandline",
+    "good first issue"
+   ],
+   "updatedAt": "2026-06-24T11:37:28Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @imashu-del 162 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/issues/4134#issuecomment-4613721404",
+    "https://github.com/microsoft/terminal/issues/4134",
+    "https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022",
+    "https://github.com/microsoft/terminal/blob/HEAD/README.md",
+    "https://github.com/microsoft/terminal/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 4175,
+   "title": "Inconsistent gutters/margins on HiDPI displays with `snapToGridOnResize`",
+   "url": "https://github.com/microsoft/terminal/issues/4175",
+   "labels": [
+    "Help Wanted",
+    "Issue-Bug",
+    "Area-TerminalControl",
+    "Area-Settings",
+    "Product-Terminal",
+    "Priority-3",
+    "good first issue"
+   ],
+   "updatedAt": "2026-11-11T15:23:47Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "PR #17721 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+3 more)",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/pull/17721",
+    "https://github.com/microsoft/terminal/issues/4175#issuecomment-4089414239",
+    "https://github.com/microsoft/terminal/issues/4175",
+    "https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022",
+    "https://github.com/microsoft/terminal/blob/HEAD/README.md",
+    "https://github.com/microsoft/terminal/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 4359,
+   "title": "CreatePseudoConsole doesn't handle sockets correctly",
+   "url": "https://github.com/microsoft/terminal/issues/4359",
+   "labels": [
+    "Help Wanted",
+    "Product-Conpty",
+    "Issue-Bug",
+    "Priority-1",
+    "Area-Quality"
+   ],
+   "updatedAt": "2025-11-01T21:09:18Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.microsoft.com/en-us/windows/console/creating-a-pseudoconsole-session#preparing-the-communication-channels) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/issues/4359",
+    "https://docs.microsoft.com/en-us/windows/console/creating-a-pseudoconsole-session#preparing-the-communication-channels",
+    "https://github.com/microsoft/terminal/blob/HEAD/README.md",
+    "https://github.com/microsoft/terminal/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 4717,
+   "title": "Add title to split window",
+   "url": "https://github.com/microsoft/terminal/issues/4717",
+   "labels": [
+    "Help Wanted",
+    "Area-UserInterface",
+    "Product-Terminal",
+    "Issue-Task",
+    "In-PR"
+   ],
+   "updatedAt": "2026-08-31T17:28:32Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #20068 by @sagarbhure-msft is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/pull/20068"
+   ]
+  },
+  {
+   "number": 5366,
+   "title": "Media and other keys autoscroll the terminal",
+   "url": "https://github.com/microsoft/terminal/issues/5366",
+   "labels": [
+    "Help Wanted",
+    "Area-Input",
+    "Issue-Bug",
+    "Area-TerminalControl",
+    "Product-Terminal",
+    "Priority-2"
+   ],
+   "updatedAt": "2026-04-24T13:24:12Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "PR #7883 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/pull/7883",
+    "https://github.com/microsoft/terminal/issues/5366",
+    "https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022",
+    "https://github.com/microsoft/terminal/blob/HEAD/README.md",
+    "https://github.com/microsoft/terminal/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 5482,
+   "title": "Dynamic Profile Generator for Windows PowerShell",
+   "url": "https://github.com/microsoft/terminal/issues/5482",
+   "labels": [
+    "Help Wanted",
+    "Area-Settings",
+    "Product-Terminal",
+    "Issue-Task"
+   ],
+   "updatedAt": "2026-02-07T02:11:33Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/issues/5482",
+    "https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022",
+    "https://github.com/microsoft/terminal/blob/HEAD/README.md",
+    "https://github.com/microsoft/terminal/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 5677,
+   "title": "Fullscreen: enable revealing the tabs by hovering at the top of the screen",
+   "url": "https://github.com/microsoft/terminal/issues/5677",
+   "labels": [
+    "Help Wanted",
+    "Area-UserInterface",
+    "Product-Terminal",
+    "Issue-Task"
+   ],
+   "updatedAt": "2026-11-06T15:16:04Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #3486 by @zadjii-msft is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/issues/3486"
+   ]
+  },
+  {
+   "number": 6056,
+   "title": "Cannot scroll buffer in Terminal with inbox telnet client",
+   "url": "https://github.com/microsoft/terminal/issues/6056",
+   "labels": [
+    "Help Wanted",
+    "Product-Conpty",
+    "Area-Output",
+    "Issue-Bug",
+    "Priority-2"
+   ],
+   "updatedAt": "2025-12-15T14:33:33Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #13392 by @DHowett is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/issues/13392"
+   ]
+  },
+  {
+   "number": 6654,
+   "title": "Bring \"Open in Windows Terminal\" for Right Click on Drive Letter",
+   "url": "https://github.com/microsoft/terminal/issues/6654",
+   "labels": [
+    "Help Wanted",
+    "Issue-Bug",
+    "Product-Terminal",
+    "Priority-2",
+    "Area-ShellExtension"
+   ],
+   "updatedAt": "2025-11-17T15:17:39Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "PR #9510 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/pull/9510",
+    "https://github.com/microsoft/terminal/issues/6654",
+    "https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022",
+    "https://github.com/microsoft/terminal/blob/HEAD/README.md",
+    "https://github.com/microsoft/terminal/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 6779,
+   "title": "Support fonts and fonts attributes through inline escape sequences like mintty and vte52",
+   "url": "https://github.com/microsoft/terminal/issues/6779",
+   "labels": [
+    "Help Wanted",
+    "Area-VT",
+    "Area-Fonts",
+    "Product-Terminal",
+    "Issue-Task"
+   ],
+   "updatedAt": "2026-08-01T18:44:31Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #6879 by @DHowett is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/issues/6879",
+    "https://github.com/microsoft/terminal/issues/9081"
+   ]
+  },
+  {
+   "number": 7014,
+   "title": "Transparent background doesn't become transparent foreground when rendered in reverse video",
+   "url": "https://github.com/microsoft/terminal/issues/7014",
+   "labels": [
+    "Help Wanted",
+    "Area-Rendering",
+    "Product-Terminal",
+    "Issue-Task"
+   ],
+   "updatedAt": "2026-04-28T20:41:39Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "PR #1635 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JanDeDobbeleer/oh-my-posh/pull/1635",
+    "https://github.com/microsoft/terminal/issues/7014",
+    "https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022",
+    "https://github.com/microsoft/terminal/blob/HEAD/README.md",
+    "https://github.com/microsoft/terminal/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 7436,
+   "title": "Use a Clip rect for Pane animations instead of the Width/Height",
+   "url": "https://github.com/microsoft/terminal/issues/7436",
+   "labels": [
+    "Help Wanted",
+    "Area-UserInterface",
+    "Product-Terminal",
+    "Issue-Task",
+    "Priority-3"
+   ],
+   "updatedAt": "2026-08-28T20:11:34Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #1000 by @zadjii-msft is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/issues/1000"
+   ]
+  },
+  {
+   "number": 7955,
+   "title": "terminal activity indicator/alert when in background",
+   "url": "https://github.com/microsoft/terminal/issues/7955",
+   "labels": [
+    "Issue-Feature",
+    "Help Wanted",
+    "Area-UserInterface",
+    "Product-Terminal",
+    "In-PR"
+   ],
+   "updatedAt": "2026-07-20T18:57:37Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #20014 by @carlos-zamora is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/pull/20014",
+    "https://github.com/hpi-swa/smalltalkCI/pull/469"
+   ]
+  },
+  {
+   "number": 8264,
+   "title": "Doesn't detect pwsh installed in custom directory from Scoop",
+   "url": "https://github.com/microsoft/terminal/issues/8264",
+   "labels": [
+    "Help Wanted",
+    "Area-Settings",
+    "Product-Terminal",
+    "Issue-Task",
+    "In-PR",
+    "good first issue"
+   ],
+   "updatedAt": "2026-08-21T18:01:43Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @Adesh4477 177 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/issues/8264#issuecomment-4485257761",
+    "https://github.com/microsoft/terminal/issues/8264",
+    "https://github.com/lukesampson/scoop/wiki/Quick-Start#installing-scoop-to-custom-directory",
+    "https://github.com/microsoft/terminal/blob/HEAD/README.md",
+    "https://github.com/microsoft/terminal/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 8914,
+   "title": "Profile reordering for Settings UI",
+   "url": "https://github.com/microsoft/terminal/issues/8914",
+   "labels": [
+    "Issue-Feature",
+    "Help Wanted",
+    "Product-Terminal",
+    "Area-SettingsUI"
+   ],
+   "updatedAt": "2026-10-19T14:59:05Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #10000 by @zadjii-msft is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/issues/10000"
+   ]
+  },
+  {
+   "number": 9218,
+   "title": "Please provide a new setting: verticalScrollBarWidth",
+   "url": "https://github.com/microsoft/terminal/issues/9218",
+   "labels": [
+    "Help Wanted",
+    "Area-UserInterface",
+    "Area-TerminalControl",
+    "Product-Terminal",
+    "Issue-Task"
+   ],
+   "updatedAt": "2026-10-19T20:01:12Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "PR #6686 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/microsoft-ui-xaml/pull/6686",
+    "https://github.com/microsoft/terminal/issues/9218",
+    "https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022",
+    "https://github.com/microsoft/terminal/blob/HEAD/README.md",
+    "https://github.com/microsoft/terminal/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 9232,
+   "title": "pasting large multiline text is extremelly slow",
+   "url": "https://github.com/microsoft/terminal/issues/9232",
+   "labels": [
+    "Help Wanted",
+    "Area-Performance",
+    "Issue-Bug",
+    "Area-TerminalControl",
+    "Product-Terminal",
+    "Priority-2"
+   ],
+   "updatedAt": "2026-07-21T17:17:32Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "PR #16224 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+3 more)",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/pull/16224",
+    "https://github.com/microsoft/terminal/pull/19721",
+    "https://github.com/microsoft/terminal/issues/9232",
+    "https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022",
+    "https://github.com/microsoft/terminal/blob/HEAD/README.md",
+    "https://github.com/microsoft/terminal/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 9422,
+   "title": "Support random color scheme, pseudocode [ scheme = rand(settings.schemes) ]",
+   "url": "https://github.com/microsoft/terminal/issues/9422",
+   "labels": [
+    "Help Wanted",
+    "Area-Settings",
+    "Product-Terminal",
+    "Issue-Task",
+    "In-PR",
+    "good first issue"
+   ],
+   "updatedAt": "2026-04-27T15:08:36Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #20114 by @RAGHAV-0202 is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/pull/20114"
+   ]
+  },
+  {
+   "number": 9479,
+   "title": "Feature request: Pasting with OSC 52 (for e.g. terminal-based editors)",
+   "url": "https://github.com/microsoft/terminal/issues/9479",
+   "labels": [
+    "Help Wanted",
+    "Area-TerminalControl",
+    "Area-Settings",
+    "Product-Terminal",
+    "Issue-Task"
+   ],
+   "updatedAt": "2026-02-22T21:26:26Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "PR #91 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/n0-computer/sendme/pull/91",
+    "https://github.com/microsoft/terminal/issues/9479",
+    "https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022",
+    "https://github.com/microsoft/terminal/blob/HEAD/README.md",
+    "https://github.com/microsoft/terminal/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 9694,
+   "title": "Add icon to profile title on settings UI",
+   "url": "https://github.com/microsoft/terminal/issues/9694",
+   "labels": [
+    "Help Wanted",
+    "Product-Terminal",
+    "Issue-Task",
+    "In-PR",
+    "good first issue",
+    "Area-SettingsUI"
+   ],
+   "updatedAt": "2026-10-01T13:42:35Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "PR #10046 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+4 more)",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/pull/10046",
+    "https://github.com/microsoft/terminal/pull/10124",
+    "https://github.com/microsoft/terminal/issues/9694#issuecomment-5932691467",
+    "https://github.com/microsoft/terminal/issues/9694",
+    "https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022",
+    "https://github.com/microsoft/terminal/blob/HEAD/README.md",
+    "https://github.com/microsoft/terminal/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 10119,
+   "title": "Explorer background context menu option missing",
+   "url": "https://github.com/microsoft/terminal/issues/10119",
+   "labels": [
+    "Help Wanted",
+    "Needs-Repro",
+    "Issue-Bug",
+    "Product-Terminal",
+    "Area-ShellExtension"
+   ],
+   "updatedAt": "2026-11-11T08:27:53Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #14185 by @DHowett is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/issues/14185"
+   ]
+  },
+  {
+   "number": 10197,
+   "title": "Exclude Quake window from FancyZones",
+   "url": "https://github.com/microsoft/terminal/issues/10197",
+   "labels": [
+    "Help Wanted",
+    "Issue-Bug",
+    "Area-UserInterface",
+    "Product-Terminal",
+    "Issue-Task",
+    "Priority-3",
+    "Area-Windowing"
+   ],
+   "updatedAt": "2026-05-20T10:34:26Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #8888 by @DHowett is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/issues/8888"
+   ]
+  },
+  {
+   "number": 10552,
+   "title": "profile-icons with web sources are not shown on the taskbar",
+   "url": "https://github.com/microsoft/terminal/issues/10552",
+   "labels": [
+    "Help Wanted",
+    "Area-UserInterface",
+    "Product-Terminal",
+    "Issue-Task",
+    "Priority-3"
+   ],
+   "updatedAt": "2026-10-19T14:58:53Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @yash112-lang 1950 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/issues/10552#issuecomment-877799292",
+    "https://github.com/microsoft/terminal/issues/10552",
+    "https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022",
+    "https://github.com/microsoft/terminal/blob/HEAD/README.md",
+    "https://github.com/microsoft/terminal/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 10667,
+   "title": "Windows Terminal may need to be translated into more languages",
+   "url": "https://github.com/microsoft/terminal/issues/10667",
+   "labels": [
+    "Help Wanted",
+    "Product-Terminal",
+    "Issue-Scenario",
+    "Area-Localization"
+   ],
+   "updatedAt": "2026-09-22T19:28:08Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #20816 by @enixyazilim is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/pull/20816",
+    "https://github.com/microsoft/terminal/pull/17995",
+    "https://github.com/microsoft/terminal/pull/19554"
+   ]
+  },
+  {
+   "number": 10754,
+   "title": "No cursor after exiting vim",
+   "url": "https://github.com/microsoft/terminal/issues/10754",
+   "labels": [
+    "Help Wanted",
+    "Issue-Bug",
+    "Area-TerminalControl",
+    "Product-Terminal",
+    "Priority-2"
+   ],
+   "updatedAt": "2026-02-16T15:46:36Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/issues/10754",
+    "https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022",
+    "https://github.com/microsoft/terminal/blob/HEAD/README.md",
+    "https://github.com/microsoft/terminal/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 11057,
+   "title": "WT should set COLORTERM",
+   "url": "https://github.com/microsoft/terminal/issues/11057",
+   "labels": [
+    "Help Wanted",
+    "Area-TerminalConnection",
+    "Product-Terminal",
+    "Issue-Task",
+    "In-PR"
+   ],
+   "updatedAt": "2026-08-18T11:35:21Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "PR #11152 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+4 more)",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/pull/11152",
+    "https://github.com/moby/buildkit/pull/2954",
+    "https://github.com/microsoft/terminal/pull/15082",
+    "https://github.com/microsoft/terminal/issues/11057",
+    "https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022",
+    "https://github.com/microsoft/terminal/blob/HEAD/README.md",
+    "https://github.com/microsoft/terminal/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 11162,
+   "title": "Adjust styling of quake window (default height, etc)",
+   "url": "https://github.com/microsoft/terminal/issues/11162",
+   "labels": [
+    "Help Wanted",
+    "Area-Settings",
+    "Product-Terminal",
+    "Issue-Task",
+    "In-PR",
+    "Area-Windowing"
+   ],
+   "updatedAt": "2026-11-09T20:23:05Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #9992 by @zadjii-msft is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/issues/9992",
+    "https://github.com/microsoft/terminal/issues/8888"
+   ]
+  },
+  {
+   "number": 11204,
+   "title": "tmux exception in windows terminal",
+   "url": "https://github.com/microsoft/terminal/issues/11204",
+   "labels": [
+    "Help Wanted",
+    "Area-VT",
+    "Issue-Bug",
+    "Product-Terminal",
+    "Priority-2"
+   ],
+   "updatedAt": "2026-03-13T18:34:48Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "PR #806 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/PowerShell/openssh-portable/pull/806",
+    "https://github.com/microsoft/terminal/issues/11204",
+    "https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022",
+    "https://github.com/microsoft/terminal/blob/HEAD/README.md",
+    "https://github.com/microsoft/terminal/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 11332,
+   "title": "Schema does not allow actions without arguments in verbose form",
+   "url": "https://github.com/microsoft/terminal/issues/11332",
+   "labels": [
+    "Help Wanted",
+    "Product-Terminal",
+    "Issue-Task",
+    "In-PR",
+    "Area-Schema"
+   ],
+   "updatedAt": "2026-07-16T15:38:26Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #20430 by @Weichenleeeee123 is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/pull/20430"
+   ]
+  },
+  {
+   "number": 11630,
+   "title": "Allow search by Name in the Actions dialog.",
+   "url": "https://github.com/microsoft/terminal/issues/11630",
+   "labels": [
+    "Help Wanted",
+    "Product-Terminal",
+    "Issue-Task",
+    "Area-SettingsUI"
+   ],
+   "updatedAt": "2026-10-19T14:59:12Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #10000 by @zadjii-msft is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/issues/10000"
+   ]
+  },
+  {
+   "number": 11751,
+   "title": "Add ability to not automatically copy whitespace-only selections",
+   "url": "https://github.com/microsoft/terminal/issues/11751",
+   "labels": [
+    "Help Wanted",
+    "Area-TerminalControl",
+    "Product-Terminal",
+    "Issue-Task",
+    "In-PR"
+   ],
+   "updatedAt": "2026-09-07T10:42:58Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/issues/11751",
+    "https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022",
+    "https://github.com/microsoft/terminal/blob/HEAD/README.md",
+    "https://github.com/microsoft/terminal/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 11767,
+   "title": "x:Bind not Binding",
+   "url": "https://github.com/microsoft/terminal/issues/11767",
+   "labels": [
+    "Help Wanted",
+    "Area-TerminalControl",
+    "Product-Terminal",
+    "Issue-Task",
+    "good first issue"
+   ],
+   "updatedAt": "2026-09-26T05:39:37Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "3 stale claims, the most recent by @lekithkishore 69 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/issues/11767#issuecomment-5542282519",
+    "https://github.com/microsoft/terminal/issues/11767",
+    "https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022",
+    "https://github.com/microsoft/terminal/blob/HEAD/README.md",
+    "https://github.com/microsoft/terminal/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 12123,
+   "title": "scancodes in command palette",
+   "url": "https://github.com/microsoft/terminal/issues/12123",
+   "labels": [
+    "Help Wanted",
+    "Issue-Bug",
+    "Product-Terminal",
+    "In-PR",
+    "Priority-3",
+    "Area-SettingsUI"
+   ],
+   "updatedAt": "2026-07-31T23:19:05Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @mauve 1747 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/issues/12123#issuecomment-1025161062",
+    "https://github.com/microsoft/terminal/issues/12123",
+    "https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022",
+    "https://github.com/microsoft/terminal/blob/HEAD/README.md",
+    "https://github.com/microsoft/terminal/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 12293,
+   "title": "Quake Mode reveal animation tears/flickers",
+   "url": "https://github.com/microsoft/terminal/issues/12293",
+   "labels": [
+    "Help Wanted",
+    "Issue-Bug",
+    "Product-Terminal",
+    "In-PR",
+    "Priority-3",
+    "good first issue",
+    "Area-Windowing"
+   ],
+   "updatedAt": "2025-04-25T23:05:11Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @jihuayu 1225 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/issues/12293#issuecomment-1623572192",
+    "https://github.com/microsoft/terminal/issues/12293",
+    "https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022",
+    "https://github.com/microsoft/terminal/blob/HEAD/README.md",
+    "https://github.com/microsoft/terminal/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 12382,
+   "title": "Add functionality to settings `Open JSON file` entry to open the settings.json parent folder in Explorer",
+   "url": "https://github.com/microsoft/terminal/issues/12382",
+   "labels": [
+    "Help Wanted",
+    "Product-Terminal",
+    "Issue-Task",
+    "In-PR",
+    "good first issue",
+    "Area-SettingsUI"
+   ],
+   "updatedAt": "2026-10-13T20:41:04Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "PR #17690 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+3 more)",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/pull/17690",
+    "https://github.com/microsoft/terminal/issues/12382#issuecomment-4983449443",
+    "https://github.com/microsoft/terminal/wiki/Frequently-Asked-Questions-(FAQ",
+    "https://github.com/microsoft/terminal/blob/HEAD/README.md",
+    "https://github.com/microsoft/terminal/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 12594,
+   "title": "Quake Mode should remember its size",
+   "url": "https://github.com/microsoft/terminal/issues/12594",
+   "labels": [
+    "Help Wanted",
+    "Issue-Bug",
+    "Product-Terminal",
+    "In-PR",
+    "Priority-3",
+    "Area-Windowing"
+   ],
+   "updatedAt": "2026-04-24T17:50:30Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #19580 by @metal-gabe is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/pull/19580",
+    "https://github.com/alxdolphin/herminal/pull/1"
+   ]
+  },
+  {
+   "number": 12886,
+   "title": "Notice in UI on updating the Terminal app + Fix a Release Notes link to point to the actual release page and not generic releases page",
+   "url": "https://github.com/microsoft/terminal/issues/12886",
+   "labels": [
+    "Help Wanted",
+    "Area-UserInterface",
+    "Product-Terminal",
+    "Issue-Task",
+    "In-PR",
+    "good first issue"
+   ],
+   "updatedAt": "2026-10-05T14:31:34Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "3 stale claims, the most recent by @shivam-dhir 294 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/issues/12886#issuecomment-3782869155",
+    "https://github.com/microsoft/terminal/issues/12886",
+    "https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022",
+    "https://github.com/microsoft/terminal/blob/HEAD/README.md",
+    "https://github.com/microsoft/terminal/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 12902,
+   "title": "Tab position is not restored for `restoreLastClosed` action",
+   "url": "https://github.com/microsoft/terminal/issues/12902",
+   "labels": [
+    "Help Wanted",
+    "Issue-Bug",
+    "Area-UserInterface",
+    "Product-Terminal",
+    "In-PR",
+    "Priority-3"
+   ],
+   "updatedAt": "2026-10-09T18:06:25Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/issues/12902",
+    "https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022",
+    "https://github.com/microsoft/terminal/blob/HEAD/README.md",
+    "https://github.com/microsoft/terminal/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 12959,
+   "title": "White line at bottom when using \"Automatically hide the taskbar\"",
+   "url": "https://github.com/microsoft/terminal/issues/12959",
+   "labels": [
+    "Help Wanted",
+    "Issue-Bug",
+    "Product-Terminal",
+    "In-PR",
+    "Area-Windowing"
+   ],
+   "updatedAt": "2026-05-10T01:07:01Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #3486 by @zadjii-msft is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/issues/3486"
+   ]
+  },
+  {
+   "number": 13217,
+   "title": "Show info message box when terminal is paused",
+   "url": "https://github.com/microsoft/terminal/issues/13217",
+   "labels": [
+    "Issue-Feature",
+    "Help Wanted",
+    "Area-TerminalControl",
+    "Product-Terminal"
+   ],
+   "updatedAt": "2025-11-07T20:35:58Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/issues/13217",
+    "https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022",
+    "https://github.com/microsoft/terminal/blob/HEAD/README.md",
+    "https://github.com/microsoft/terminal/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 13444,
+   "title": "sendInput doesn't seem to work in multipleActions",
+   "url": "https://github.com/microsoft/terminal/issues/13444",
+   "labels": [
+    "Help Wanted",
+    "Area-Input",
+    "Issue-Bug",
+    "Area-Settings",
+    "Product-Terminal",
+    "Priority-3"
+   ],
+   "updatedAt": "2026-10-12T00:52:43Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @Ankith-B 32 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/issues/13444#issuecomment-6110229722",
+    "https://github.com/microsoft/terminal/issues/13444",
+    "https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022",
+    "https://github.com/microsoft/terminal/blob/HEAD/README.md",
+    "https://github.com/microsoft/terminal/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 13588,
+   "title": "Put action shortcut key/keyboard bindings (hotkeys) next to actions in menus",
+   "url": "https://github.com/microsoft/terminal/issues/13588",
+   "labels": [
+    "Help Wanted",
+    "Area-UserInterface",
+    "Product-Terminal",
+    "Issue-Task"
+   ],
+   "updatedAt": "2026-06-14T19:07:47Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #6469 by @Chips1234 is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/issues/6469"
+   ]
+  },
+  {
+   "number": 13792,
+   "title": "Send different key codes for `Tab` and `Ctrl+I` (READ: support `modifyOtherKeys`)",
+   "url": "https://github.com/microsoft/terminal/issues/13792",
+   "labels": [
+    "Issue-Feature",
+    "Product-Conhost",
+    "Help Wanted",
+    "Area-Input",
+    "Area-VT",
+    "Issue-Task"
+   ],
+   "updatedAt": "2026-04-16T01:28:10Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/issues/13792",
+    "https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022",
+    "https://github.com/microsoft/terminal/blob/HEAD/README.md",
+    "https://github.com/microsoft/terminal/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 14185,
+   "title": "Continued issues with the shell extension",
+   "url": "https://github.com/microsoft/terminal/issues/14185",
+   "labels": [
+    "Help Wanted",
+    "Issue-Bug",
+    "Product-Terminal",
+    "Area-ShellExtension"
+   ],
+   "updatedAt": "2026-10-24T21:13:38Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #10119 by @JonathanLydall is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/issues/10119",
+    "https://github.com/microsoft/terminal/issues/10496"
+   ]
+  },
+  {
+   "number": 14264,
+   "title": "Rename tab title doesn't work in fullscreen mode (or focus mode)",
+   "url": "https://github.com/microsoft/terminal/issues/14264",
+   "labels": [
+    "Help Wanted",
+    "Area-UserInterface",
+    "Product-Terminal",
+    "Issue-Task",
+    "In-PR"
+   ],
+   "updatedAt": "2026-08-11T22:05:47Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/issues/14264",
+    "https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022",
+    "https://github.com/microsoft/terminal/blob/HEAD/README.md",
+    "https://github.com/microsoft/terminal/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 14687,
+   "title": "wt new-tab open near current tab",
+   "url": "https://github.com/microsoft/terminal/issues/14687",
+   "labels": [
+    "Help Wanted",
+    "Product-Terminal",
+    "Issue-Task",
+    "In-PR",
+    "Area-Commandline",
+    "good first issue"
+   ],
+   "updatedAt": "2026-11-02T00:31:08Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #20082 by @Jotanune is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/pull/20082"
+   ]
+  },
+  {
+   "number": 14774,
+   "title": "Automatic scrolling of window when setting cursor position",
+   "url": "https://github.com/microsoft/terminal/issues/14774",
+   "labels": [
+    "Product-Conhost",
+    "Help Wanted",
+    "Area-Output",
+    "Area-Server",
+    "Issue-Bug",
+    "Priority-1"
+   ],
+   "updatedAt": "2026-08-16T16:12:40Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #35683 by @cruzlauroiii is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/anthropics/claude-code/pull/35683"
+   ]
+  },
+  {
+   "number": 14817,
+   "title": "'Use parent process directory' not being respected for new Tabs",
+   "url": "https://github.com/microsoft/terminal/issues/14817",
+   "labels": [
+    "Help Wanted",
+    "Issue-Bug",
+    "Area-UserInterface",
+    "Product-Terminal",
+    "Priority-3"
+   ],
+   "updatedAt": "2026-10-12T15:48:39Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #18122 by @fireattack is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/issues/18122",
+    "https://github.com/microsoft/terminal/issues/4637"
+   ]
+  },
+  {
+   "number": 14861,
+   "title": "start wt.exe with parameter fails in administrator mode",
+   "url": "https://github.com/microsoft/terminal/issues/14861",
+   "labels": [
+    "Help Wanted",
+    "Issue-Bug",
+    "Product-Terminal",
+    "Priority-2",
+    "Area-Commandline"
+   ],
+   "updatedAt": "2026-10-09T04:03:28Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/issues/14861",
+    "https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022",
+    "https://github.com/microsoft/terminal/blob/HEAD/README.md",
+    "https://github.com/microsoft/terminal/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 14932,
+   "title": "Bug with \"Open windows from a previous session\" and defaults profile run as admin",
+   "url": "https://github.com/microsoft/terminal/issues/14932",
+   "labels": [
+    "Help Wanted",
+    "Issue-Bug",
+    "Area-UserInterface",
+    "Product-Terminal",
+    "Priority-2"
+   ],
+   "updatedAt": "2026-04-09T18:12:14Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #11111 by @DHowett is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/issues/11111",
+    "https://github.com/microsoft/terminal/issues/14799"
+   ]
+  },
+  {
+   "number": 14940,
+   "title": "Refine customization around text color adjustment",
+   "url": "https://github.com/microsoft/terminal/issues/14940",
+   "labels": [
+    "Help Wanted",
+    "Issue-Bug",
+    "Area-Settings",
+    "Product-Terminal",
+    "Issue-Task"
+   ],
+   "updatedAt": "2026-05-30T19:56:44Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #12999 by @zadjii-msft is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/issues/12999"
+   ]
+  },
+  {
+   "number": 15083,
+   "title": "mouse events are sent incorrectly in win32-input-mode",
+   "url": "https://github.com/microsoft/terminal/issues/15083",
+   "labels": [
+    "Product-Conhost",
+    "Help Wanted",
+    "Product-Conpty",
+    "Area-Input",
+    "Area-VT",
+    "Issue-Bug"
+   ],
+   "updatedAt": "2026-09-30T22:24:59Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "PR #6309 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+3 more)",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/pull/6309",
+    "https://github.com/microsoft/terminal/pull/17833",
+    "https://github.com/microsoft/terminal/issues/15083",
+    "https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022",
+    "https://github.com/microsoft/terminal/blob/HEAD/README.md",
+    "https://github.com/microsoft/terminal/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 15763,
+   "title": "window of a windows terminal is appending to the end of windows stack",
+   "url": "https://github.com/microsoft/terminal/issues/15763",
+   "labels": [
+    "Help Wanted",
+    "Issue-Bug",
+    "Product-Terminal",
+    "Area-DefApp",
+    "Area-Windowing"
+   ],
+   "updatedAt": "2026-09-28T15:58:24Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #14957 by @zadjii-msft is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/issues/14957"
+   ]
+  },
+  {
+   "number": 15940,
+   "title": "`til::coalesce<T>` should be able to take a function that returns `T`",
+   "url": "https://github.com/microsoft/terminal/issues/15940",
+   "labels": [
+    "Help Wanted",
+    "Product-Meta",
+    "Issue-Task",
+    "Area-CodeHealth"
+   ],
+   "updatedAt": "2026-08-19T03:19:15Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/issues/15940",
+    "https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022",
+    "https://github.com/microsoft/terminal/blob/HEAD/README.md",
+    "https://github.com/microsoft/terminal/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 16060,
+   "title": "Add a parameter for `--closeOnExit`",
+   "url": "https://github.com/microsoft/terminal/issues/16060",
+   "labels": [
+    "Help Wanted",
+    "Product-Terminal",
+    "Issue-Task",
+    "In-PR",
+    "Area-Commandline"
+   ],
+   "updatedAt": "2025-12-02T17:24:50Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "already assigned to @htcfreek",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/issues/16060",
+    "https://github.com/microsoft/terminal/issues/16060#issuecomment-1765129517"
+   ]
+  },
+  {
+   "number": 16287,
+   "title": "Paste doesn't always work as expected in broadcasted panes",
+   "url": "https://github.com/microsoft/terminal/issues/16287",
+   "labels": [
+    "Help Wanted",
+    "Issue-Bug",
+    "Area-UserInterface",
+    "Area-TerminalControl",
+    "Product-Terminal"
+   ],
+   "updatedAt": "2026-10-14T07:30:40Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #20164 by @DHowett is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/issues/20164"
+   ]
+  },
+  {
+   "number": 16385,
+   "title": "Control key getting \"stuck\" for enter/tab key?",
+   "url": "https://github.com/microsoft/terminal/issues/16385",
+   "labels": [
+    "Help Wanted",
+    "Area-Input",
+    "Issue-Bug",
+    "Product-Terminal"
+   ],
+   "updatedAt": "2026-06-16T14:33:45Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #19589 by @MrLuje is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/issues/19589",
+    "https://github.com/microsoft/terminal/issues/83"
+   ]
+  },
+  {
+   "number": 16465,
+   "title": "Request:  move the tabColor setting  from profile to  color-scheme",
+   "url": "https://github.com/microsoft/terminal/issues/16465",
+   "labels": [
+    "Help Wanted",
+    "Area-Settings",
+    "Product-Terminal",
+    "Issue-Task"
+   ],
+   "updatedAt": "2026-04-07T17:09:27Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/issues/16465",
+    "https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022",
+    "https://github.com/microsoft/terminal/blob/HEAD/README.md",
+    "https://github.com/microsoft/terminal/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 16906,
+   "title": "Sidebar and settings are shown at the same time",
+   "url": "https://github.com/microsoft/terminal/issues/16906",
+   "labels": [
+    "Help Wanted",
+    "Issue-Bug",
+    "Product-Terminal",
+    "In-PR",
+    "Area-SettingsUI"
+   ],
+   "updatedAt": "2025-12-21T06:32:00Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @AlejandroBlanco2001 919 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/issues/16906#issuecomment-2096515716",
+    "https://github.com/microsoft/terminal/issues/16906",
+    "https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022",
+    "https://github.com/microsoft/terminal/blob/HEAD/README.md",
+    "https://github.com/microsoft/terminal/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 16912,
+   "title": "Enhanced Tab Visibility: A Desire for Multiline Tabs in Terminal",
+   "url": "https://github.com/microsoft/terminal/issues/16912",
+   "labels": [
+    "Issue-Feature",
+    "Help Wanted",
+    "Needs-Tag-Fix",
+    "External-Blocked-WinUI3"
+   ],
+   "updatedAt": "2026-08-21T18:41:18Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "labelled `External-Blocked-WinUI3` — the project is saying not to start",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/issues/16912"
+   ]
+  },
+  {
+   "number": 17356,
+   "title": "Window does not stay on top when \"Always on top\" is enabled",
+   "url": "https://github.com/microsoft/terminal/issues/17356",
+   "labels": [
+    "Help Wanted",
+    "Issue-Bug",
+    "Product-Terminal",
+    "Area-Windowing"
+   ],
+   "updatedAt": "2025-12-23T16:36:54Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/issues/17356",
+    "https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022",
+    "https://github.com/microsoft/terminal/blob/HEAD/README.md",
+    "https://github.com/microsoft/terminal/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 17650,
+   "title": "Mica Alt",
+   "url": "https://github.com/microsoft/terminal/issues/17650",
+   "labels": [
+    "Help Wanted",
+    "Product-Terminal",
+    "Issue-Task",
+    "good first issue",
+    "Area-Theming"
+   ],
+   "updatedAt": "2026-11-02T00:07:57Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #1 by @Copilot is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/deepanshu-maliyan/terminal/pull/1",
+    "https://github.com/microsoft/terminal/pull/20464",
+    "https://github.com/MicrosoftDocs/terminal/pull/969"
+   ]
+  },
+  {
+   "number": 18375,
+   "title": "Implement (Contour's) Color Palette Update Notification and report",
+   "url": "https://github.com/microsoft/terminal/issues/18375",
+   "labels": [
+    "Issue-Feature",
+    "Product-Conhost",
+    "Help Wanted",
+    "Area-VT",
+    "Product-Terminal",
+    "Priority-3"
+   ],
+   "updatedAt": "2026-09-08T00:02:02Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "PR #31 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/lovaizu/dotfiles/pull/31",
+    "https://github.com/microsoft/terminal/issues/18375",
+    "https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022",
+    "https://github.com/microsoft/terminal/blob/HEAD/README.md",
+    "https://github.com/microsoft/terminal/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 18390,
+   "title": "Launch size, Launch position should each have a \"as current window\" button",
+   "url": "https://github.com/microsoft/terminal/issues/18390",
+   "labels": [
+    "Issue-Feature",
+    "Help Wanted",
+    "Product-Terminal",
+    "Needs-Tag-Fix",
+    "Priority-3",
+    "Area-SettingsUI"
+   ],
+   "updatedAt": "2026-09-26T18:03:32Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/issues/18390",
+    "https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022",
+    "https://github.com/microsoft/terminal/blob/HEAD/README.md",
+    "https://github.com/microsoft/terminal/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 18591,
+   "title": "Add SGR-Pixels (mouse mode 1016)",
+   "url": "https://github.com/microsoft/terminal/issues/18591",
+   "labels": [
+    "Issue-Feature",
+    "Help Wanted",
+    "Area-Input",
+    "Area-VT",
+    "Product-Terminal"
+   ],
+   "updatedAt": "2026-03-07T07:50:59Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #19949 by @sebgod is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/pull/19949"
+   ]
+  },
+  {
+   "number": 19121,
+   "title": "Add ability to disable OSC 9 progress bar in tab and taskbar",
+   "url": "https://github.com/microsoft/terminal/issues/19121",
+   "labels": [
+    "Issue-Feature",
+    "Help Wanted",
+    "Area-UserInterface",
+    "Product-Terminal",
+    "Issue-Task",
+    "Priority-3"
+   ],
+   "updatedAt": "2026-07-13T03:45:37Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "2 stale claims, the most recent by @DataVoyager-Aditya 122 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/issues/19121#issuecomment-4954236109",
+    "https://github.com/microsoft/terminal/issues/19121",
+    "https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022",
+    "https://github.com/microsoft/terminal/blob/HEAD/README.md",
+    "https://github.com/microsoft/terminal/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 19264,
+   "title": "Terminal will always choose 16x16 image in profile icon regardless resolution and scaling when an .ico file is used.",
+   "url": "https://github.com/microsoft/terminal/issues/19264",
+   "labels": [
+    "Help Wanted",
+    "Area-UserInterface",
+    "Product-Terminal",
+    "Issue-Task"
+   ],
+   "updatedAt": "2026-09-09T04:43:02Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #20659 by @vortsghost2025 is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/pull/20659",
+    "https://github.com/MicrosoftDocs/terminal/pull/875"
+   ]
+  },
+  {
+   "number": 19308,
+   "title": "Extra padding on bottom when showTabsInTitlebar is false",
+   "url": "https://github.com/microsoft/terminal/issues/19308",
+   "labels": [
+    "Help Wanted",
+    "Issue-Bug",
+    "Product-Terminal",
+    "Priority-3",
+    "Impact-Visual"
+   ],
+   "updatedAt": "2026-08-07T13:57:43Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/issues/19308",
+    "https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022",
+    "https://github.com/microsoft/terminal/blob/HEAD/README.md",
+    "https://github.com/microsoft/terminal/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 19491,
+   "title": "Indicate status of IME by changing cursor color",
+   "url": "https://github.com/microsoft/terminal/issues/19491",
+   "labels": [
+    "Product-Conhost",
+    "Help Wanted",
+    "Area-Input",
+    "Product-Terminal",
+    "Issue-Task",
+    "Needs-Tag-Fix",
+    "Priority-3"
+   ],
+   "updatedAt": "2025-10-31T02:40:15Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #20653 by @hdformat is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/issues/20653"
+   ]
+  },
+  {
+   "number": 19538,
+   "title": "Add 'new tab' menu item to window system menu when tab strip is hidden",
+   "url": "https://github.com/microsoft/terminal/issues/19538",
+   "labels": [
+    "Issue-Feature",
+    "Help Wanted",
+    "Area-UserInterface",
+    "Product-Terminal"
+   ],
+   "updatedAt": "2025-11-12T20:41:04Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #20034 by @etbala is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/pull/20034"
+   ]
+  },
+  {
+   "number": 19555,
+   "title": "Add support for includes in SSH profile generator",
+   "url": "https://github.com/microsoft/terminal/issues/19555",
+   "labels": [
+    "Help Wanted",
+    "Product-Terminal",
+    "Issue-Task",
+    "Priority-3"
+   ],
+   "updatedAt": "2026-01-18T15:51:38Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @AbhishekGiri04 297 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/issues/19555#issuecomment-3765430378",
+    "https://github.com/microsoft/terminal/issues/19555",
+    "https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022",
+    "https://github.com/microsoft/terminal/blob/HEAD/README.md",
+    "https://github.com/microsoft/terminal/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 19589,
+   "title": "CTRL key issue after switching tab with CTRL+Tab",
+   "url": "https://github.com/microsoft/terminal/issues/19589",
+   "labels": [
+    "Help Wanted",
+    "Area-Input",
+    "Issue-Bug",
+    "Product-Terminal"
+   ],
+   "updatedAt": "2026-02-25T20:50:35Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/issues/19589",
+    "https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022",
+    "https://github.com/microsoft/terminal/blob/HEAD/README.md",
+    "https://github.com/microsoft/terminal/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 19625,
+   "title": "VT margins are meant to be tracked separately for each page",
+   "url": "https://github.com/microsoft/terminal/issues/19625",
+   "labels": [
+    "Product-Conhost",
+    "Help Wanted",
+    "Area-VT",
+    "Issue-Bug",
+    "Product-Terminal",
+    "Priority-2"
+   ],
+   "updatedAt": "2025-12-10T20:24:50Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #20523 by @maoyouaa is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/pull/20523"
+   ]
+  },
+  {
+   "number": 19713,
+   "title": "Keyboard focus improvements for font features/axes",
+   "url": "https://github.com/microsoft/terminal/issues/19713",
+   "labels": [
+    "Help Wanted",
+    "Area-UserInterface",
+    "Product-Terminal",
+    "Needs-Tag-Fix"
+   ],
+   "updatedAt": "2026-03-16T15:02:22Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @enderpearl7 291 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/issues/19713#issuecomment-3796701081",
+    "https://github.com/microsoft/terminal/issues/19713",
+    "https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022",
+    "https://github.com/microsoft/terminal/blob/HEAD/README.md",
+    "https://github.com/microsoft/terminal/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 19749,
+   "title": "[cont] [DefTerm] Some invocations can cause deadlocks in terminal + another GUI application in Attach mode",
+   "url": "https://github.com/microsoft/terminal/issues/19749",
+   "labels": [
+    "Help Wanted",
+    "Issue-Bug",
+    "Product-Terminal",
+    "Priority-2",
+    "Area-DefApp"
+   ],
+   "updatedAt": "2026-01-22T04:11:41Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/issues/19749",
+    "https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022",
+    "https://github.com/microsoft/terminal/blob/HEAD/README.md",
+    "https://github.com/microsoft/terminal/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 19800,
+   "title": "Dragging window in F11 Fullscreen makes it movable but fails to exit Fullscreen state (Controls remain hidden)",
+   "url": "https://github.com/microsoft/terminal/issues/19800",
+   "labels": [
+    "Help Wanted",
+    "Issue-Bug",
+    "Product-Terminal",
+    "Priority-3",
+    "Impact-Visual"
+   ],
+   "updatedAt": "2026-05-01T22:09:15Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022",
+    "https://github.com/microsoft/terminal/blob/HEAD/README.md",
+    "https://github.com/microsoft/terminal/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 19806,
+   "title": "Refactor IconPathConverter::IconWUX() to not set icon size",
+   "url": "https://github.com/microsoft/terminal/issues/19806",
+   "labels": [
+    "Help Wanted",
+    "Product-Terminal",
+    "Issue-Task",
+    "Area-CodeHealth"
+   ],
+   "updatedAt": "2026-04-17T22:52:47Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #20125 by @R-Alothaim is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/pull/20125"
+   ]
+  },
+  {
+   "number": 19873,
+   "title": "Setting page UI enhancements",
+   "url": "https://github.com/microsoft/terminal/issues/19873",
+   "labels": [
+    "Issue-Feature",
+    "Help Wanted",
+    "Area-UserInterface",
+    "Product-Terminal"
+   ],
+   "updatedAt": "2026-08-04T16:12:29Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #20447 by @k-charansai is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/pull/20447",
+    "https://github.com/microsoft/terminal/pull/19999",
+    "https://github.com/microsoft/terminal/pull/20292"
+   ]
+  },
+  {
+   "number": 19897,
+   "title": "Disabling focus mode in quake window should persist when persisting window layout",
+   "url": "https://github.com/microsoft/terminal/issues/19897",
+   "labels": [
+    "Help Wanted",
+    "Issue-Bug",
+    "Area-Settings",
+    "Product-Terminal"
+   ],
+   "updatedAt": "2026-08-10T10:26:28Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/issues/19897",
+    "https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022",
+    "https://github.com/microsoft/terminal/blob/HEAD/README.md",
+    "https://github.com/microsoft/terminal/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 19954,
+   "title": "DEC Locator mode",
+   "url": "https://github.com/microsoft/terminal/issues/19954",
+   "labels": [
+    "Issue-Feature",
+    "Help Wanted",
+    "Area-VT",
+    "Product-Terminal"
+   ],
+   "updatedAt": "2026-03-11T19:31:33Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "open 8 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+2 more)",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/issues/19954",
+    "https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022",
+    "https://github.com/microsoft/terminal/blob/HEAD/README.md",
+    "https://github.com/microsoft/terminal/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 20056,
+   "title": "Quake mode leaves an empty tray icon even if window is closed",
+   "url": "https://github.com/microsoft/terminal/issues/20056",
+   "labels": [
+    "Help Wanted",
+    "Issue-Bug",
+    "Area-UserInterface",
+    "Product-Terminal",
+    "Priority-3"
+   ],
+   "updatedAt": "2026-04-29T19:20:05Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "already assigned to @zadjii-msft",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/issues/20056"
+   ]
+  },
+  {
+   "number": 20281,
+   "title": "Rendering artifacts when Windows scaling is not the standard 125%",
+   "url": "https://github.com/microsoft/terminal/issues/20281",
+   "labels": [
+    "Help Wanted",
+    "Issue-Bug",
+    "Area-UserInterface",
+    "Product-Terminal",
+    "Impact-Visual"
+   ],
+   "updatedAt": "2026-11-10T05:56:15Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #20282 by @amanraj069 is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/pull/20282"
+   ]
+  },
+  {
+   "number": 20305,
+   "title": "`globalSummon` with `\"monitor\": \"any\"` behaves as `\"monitor\": \"toCurrent\"`",
+   "url": "https://github.com/microsoft/terminal/issues/20305",
+   "labels": [
+    "Help Wanted",
+    "Issue-Bug",
+    "Product-Terminal",
+    "Priority-3",
+    "Area-Windowing"
+   ],
+   "updatedAt": "2026-07-30T17:04:07Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @Weichenleeeee123 119 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/issues/20305#issuecomment-4991371070",
+    "https://github.com/microsoft/terminal/issues/20305",
+    "https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022",
+    "https://github.com/microsoft/terminal/blob/HEAD/README.md",
+    "https://github.com/microsoft/terminal/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 20562,
+   "title": "Holding Alt+Shift+Left/Right to resize panes stalls the UI (4+ panes)",
+   "url": "https://github.com/microsoft/terminal/issues/20562",
+   "labels": [
+    "Help Wanted",
+    "Issue-Bug",
+    "Area-UserInterface",
+    "Product-Terminal",
+    "Priority-3"
+   ],
+   "updatedAt": "2026-09-10T07:15:43Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #20563 by @zhangxaochen is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/pull/20563",
+    "https://github.com/microsoft/terminal/pull/20564"
+   ]
+  }
+ ]
+}

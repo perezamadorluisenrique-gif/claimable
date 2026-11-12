@@ -1,0 +1,175 @@
+{
+ "owner": "react",
+ "repo": "react-native",
+ "language": "C++",
+ "stars": 126896,
+ "description": "A framework for building native applications using React",
+ "visitedAt": "2026-11-12T03:03:40.195Z",
+ "issues": [
+  {
+   "number": 12220,
+   "title": "Memory leak when programmatically changing 'source' prop of Image",
+   "url": "https://github.com/react/react-native/issues/12220",
+   "labels": [
+    "Good first issue",
+    "Platform: iOS",
+    "Component: Image",
+    "Bug"
+   ],
+   "updatedAt": "2026-10-24T16:53:39Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #57096 by @msulemans is already open against this issue",
+   "evidence": [
+    "https://github.com/react/react-native/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/react/react-native/pull/57096",
+    "https://github.com/react/react-native/pull/59454"
+   ]
+  },
+  {
+   "number": 17553,
+   "title": "Inverted FlatList displays activity indicator at the bottom",
+   "url": "https://github.com/react/react-native/issues/17553",
+   "labels": [
+    "Good first issue",
+    "Help Wanted :octocat:",
+    "Type: Enhancement",
+    "Component: FlatList",
+    "Bug"
+   ],
+   "updatedAt": "2026-09-03T04:56:37Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "6 stale claims, the most recent by @Navjot1806 277 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/react/react-native/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/react/react-native/issues/17553#issuecomment-3865022863",
+    "https://github.com/react/react-native/issues/17553",
+    "https://github.com/react/react-native/blob/HEAD/AGENTS.md",
+    "https://docs.expo.dev/get-started/set-up-your-environment/"
+   ]
+  },
+  {
+   "number": 30862,
+   "title": "Android: Enabled services",
+   "url": "https://github.com/react/react-native/issues/30862",
+   "labels": [
+    "Good first issue",
+    "Platform: Android",
+    "Accessibility",
+    "Accessibility Team - Evaluated"
+   ],
+   "updatedAt": "2026-07-21T16:11:58Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #56268 by @taibin is already open against this issue",
+   "evidence": [
+    "https://github.com/react/react-native/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/react/react-native/pull/56268",
+    "https://github.com/react/react-native/pull/57864",
+    "https://github.com/react/react-native/pull/59234"
+   ]
+  },
+  {
+   "number": 30864,
+   "title": "Android: Installed services",
+   "url": "https://github.com/react/react-native/issues/30864",
+   "labels": [
+    "Good first issue",
+    "Platform: Android",
+    "Accessibility",
+    "Needs: Docs Website PR",
+    "Accessibility Team - Evaluated"
+   ],
+   "updatedAt": "2026-06-01T10:12:58Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #56268 by @taibin is already open against this issue",
+   "evidence": [
+    "https://github.com/react/react-native/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/react/react-native/pull/56268",
+    "https://github.com/react/react-native/pull/59234"
+   ]
+  },
+  {
+   "number": 30969,
+   "title": "Collection Name not supported by SectionList ",
+   "url": "https://github.com/react/react-native/issues/30969",
+   "labels": [
+    "Good first issue",
+    "Platform: Android",
+    "Component: SectionList",
+    "Accessibility"
+   ],
+   "updatedAt": "2026-11-10T14:46:42Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "7 stale claims, the most recent by @baadaldev 36 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/react/react-native/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/react/react-native/issues/30969",
+    "https://github.com/react/react-native/issues/30969#issuecomment-6037130042",
+    "https://github.com/react/react-native/blob/HEAD/AGENTS.md",
+    "https://docs.expo.dev/get-started/set-up-your-environment/"
+   ]
+  },
+  {
+   "number": 30973,
+   "title": "Position in Collection not supported by Flatlist",
+   "url": "https://github.com/react/react-native/issues/30973",
+   "labels": [
+    "Good first issue",
+    "Platform: Android",
+    "Component: FlatList",
+    "Accessibility"
+   ],
+   "updatedAt": "2026-10-08T18:24:15Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #58322 by @Ajeethundal is already open against this issue",
+   "evidence": [
+    "https://github.com/react/react-native/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/react/react-native/pull/58322"
+   ]
+  },
+  {
+   "number": 30974,
+   "title": "Position in Collection not supported by SectionList ",
+   "url": "https://github.com/react/react-native/issues/30974",
+   "labels": [
+    "Good first issue",
+    "Platform: Android",
+    "Component: SectionList",
+    "Accessibility"
+   ],
+   "updatedAt": "2026-06-01T10:25:49Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #58322 by @Ajeethundal is already open against this issue",
+   "evidence": [
+    "https://github.com/react/react-native/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/react/react-native/pull/58322"
+   ]
+  },
+  {
+   "number": 30975,
+   "title": "Position in Collection not supported by VirtualizedList  ",
+   "url": "https://github.com/react/react-native/issues/30975",
+   "labels": [
+    "Good first issue",
+    "Platform: Android",
+    "Component: VirtualizedList",
+    "Accessibility"
+   ],
+   "updatedAt": "2026-06-01T10:15:26Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #56692 by @saisreelasyaappali is already open against this issue",
+   "evidence": [
+    "https://github.com/react/react-native/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/react/react-native/pull/56692",
+    "https://github.com/react/react-native/pull/58322"
+   ]
+  }
+ ]
+}

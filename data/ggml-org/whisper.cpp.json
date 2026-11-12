@@ -1,0 +1,708 @@
+{
+ "owner": "ggml-org",
+ "repo": "whisper.cpp",
+ "language": "C++",
+ "stars": 55071,
+ "description": "Port of OpenAI's Whisper model in C/C++",
+ "visitedAt": "2026-11-12T03:03:40.195Z",
+ "issues": [
+  {
+   "number": 64,
+   "title": "whisper : mark speakers/voices (diarization)",
+   "url": "https://github.com/ggml-org/whisper.cpp/issues/64",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2026-05-23T16:13:30Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "already assigned to @akashmjn",
+   "evidence": [
+    "https://github.com/ggml-org/whisper.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/whisper.cpp/pull/1058",
+    "https://github.com/ggml-org/whisper.cpp/issues/64"
+   ]
+  },
+  {
+   "number": 80,
+   "title": "[Feature Request] `--output-*` or `-o*` should accept optional output filename argument",
+   "url": "https://github.com/ggml-org/whisper.cpp/issues/80",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2022-10-24T11:20:00Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "PR #424 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/ggml-org/whisper.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/whisper.cpp/pull/424",
+    "https://github.com/ggml-org/whisper.cpp/issues/80",
+    "https://github.com/ggml-org/whisper.cpp/blob/HEAD/README.md",
+    "https://github.com/ggml-org/llama.cpp/wiki/Modules",
+    "https://github.com/ggml-org/whisper.cpp/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 165,
+   "title": "Remove dr_wav.h",
+   "url": "https://github.com/ggml-org/whisper.cpp/issues/165",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2026-10-22T00:48:01Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #89 by @ggerganov is already open against this issue",
+   "evidence": [
+    "https://github.com/ggml-org/whisper.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/whisper.cpp/issues/89"
+   ]
+  },
+  {
+   "number": 235,
+   "title": "Specialized vocabulary",
+   "url": "https://github.com/ggml-org/whisper.cpp/issues/235",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2022-12-11T01:13:38Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "PR #271 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/ggml-org/whisper.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/whisper.cpp/pull/271",
+    "https://github.com/ggml-org/whisper.cpp/issues/235",
+    "https://github.com/ggml-org/whisper.cpp/blob/HEAD/README.md",
+    "https://github.com/ggml-org/llama.cpp/wiki/Modules",
+    "https://github.com/ggml-org/whisper.cpp/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 295,
+   "title": "Apple Watch example app",
+   "url": "https://github.com/ggml-org/whisper.cpp/issues/295",
+   "labels": [
+    "help wanted",
+    "ideas"
+   ],
+   "updatedAt": "2024-06-24T23:09:36Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #89 by @ggerganov is already open against this issue",
+   "evidence": [
+    "https://github.com/ggml-org/whisper.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/whisper.cpp/issues/89"
+   ]
+  },
+  {
+   "number": 303,
+   "title": "Feature request: whisper.cpp in a library (with a .Net wrapper)",
+   "url": "https://github.com/ggml-org/whisper.cpp/issues/303",
+   "labels": [
+    "help wanted",
+    "bindings"
+   ],
+   "updatedAt": "2023-02-15T10:52:54Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #1009 by @jaybinks is already open against this issue",
+   "evidence": [
+    "https://github.com/ggml-org/whisper.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/whisper.cpp/issues/1009",
+    "https://github.com/ggml-org/whisper.cpp/issues/89"
+   ]
+  },
+  {
+   "number": 332,
+   "title": "Suggestion: Add .clang-format file",
+   "url": "https://github.com/ggml-org/whisper.cpp/issues/332",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2023-01-02T15:56:29Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @asmaloney 1409 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/ggml-org/whisper.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/whisper.cpp/issues/332#issuecomment-1369047619",
+    "https://github.com/ggml-org/whisper.cpp/issues/332",
+    "https://github.com/ggml-org/whisper.cpp/blob/HEAD/README.md",
+    "https://github.com/ggml-org/llama.cpp/wiki/Modules",
+    "https://github.com/ggml-org/whisper.cpp/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 335,
+   "title": "Node package ES6 compatibility",
+   "url": "https://github.com/ggml-org/whisper.cpp/issues/335",
+   "labels": [
+    "help wanted",
+    "build"
+   ],
+   "updatedAt": "2022-12-29T11:52:29Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #89 by @ggerganov is already open against this issue",
+   "evidence": [
+    "https://github.com/ggml-org/whisper.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/whisper.cpp/issues/89"
+   ]
+  },
+  {
+   "number": 338,
+   "title": "Feature Request: Karaoke Improvement",
+   "url": "https://github.com/ggml-org/whisper.cpp/issues/338",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2023-05-04T19:44:59Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #89 by @ggerganov is already open against this issue",
+   "evidence": [
+    "https://github.com/ggml-org/whisper.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/whisper.cpp/issues/89"
+   ]
+  },
+  {
+   "number": 339,
+   "title": "Lack of escaping in wts output",
+   "url": "https://github.com/ggml-org/whisper.cpp/issues/339",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2022-12-29T12:00:08Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #4086 by @Aurora-NICExq is already open against this issue",
+   "evidence": [
+    "https://github.com/ggml-org/whisper.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/whisper.cpp/pull/4086"
+   ]
+  },
+  {
+   "number": 380,
+   "title": "Add a possibility to specify list of languages for each file",
+   "url": "https://github.com/ggml-org/whisper.cpp/issues/380",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2023-01-06T17:33:58Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #543 by @whicks1 is already open against this issue",
+   "evidence": [
+    "https://github.com/ggml-org/whisper.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/whisper.cpp/issues/543",
+    "https://github.com/ggml-org/whisper.cpp/issues/4046",
+    "https://github.com/ggml-org/whisper.cpp/issues/89"
+   ]
+  },
+  {
+   "number": 382,
+   "title": "Should we use process time for benchmarks/timings?",
+   "url": "https://github.com/ggml-org/whisper.cpp/issues/382",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2023-01-07T21:20:18Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/ggml-org/llama.cpp/wiki/Modules) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/ggml-org/whisper.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/whisper.cpp/issues/382",
+    "https://github.com/ggml-org/whisper.cpp/blob/HEAD/README.md",
+    "https://github.com/ggml-org/llama.cpp/wiki/Modules",
+    "https://github.com/ggml-org/whisper.cpp/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 414,
+   "title": "OpenBLAS hardcoded in Makefile - and should we use it?",
+   "url": "https://github.com/ggml-org/whisper.cpp/issues/414",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2023-01-16T19:10:30Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #89 by @ggerganov is already open against this issue",
+   "evidence": [
+    "https://github.com/ggml-org/whisper.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/whisper.cpp/issues/89"
+   ]
+  },
+  {
+   "number": 427,
+   "title": "Add option to extend Confidence color-coding to CSV or some other output file format",
+   "url": "https://github.com/ggml-org/whisper.cpp/issues/427",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2025-12-08T09:06:04Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/ggml-org/llama.cpp/wiki/Modules) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/ggml-org/whisper.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/whisper.cpp/issues/427",
+    "https://github.com/ggml-org/whisper.cpp/blob/HEAD/README.md",
+    "https://github.com/ggml-org/llama.cpp/wiki/Modules",
+    "https://github.com/ggml-org/whisper.cpp/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 447,
+   "title": "Passing parameters like -print-colors or -ml 1 to web version",
+   "url": "https://github.com/ggml-org/whisper.cpp/issues/447",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2025-05-25T14:48:05Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #4066 by @ubmids is already open against this issue",
+   "evidence": [
+    "https://github.com/ggml-org/whisper.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/whisper.cpp/pull/4066"
+   ]
+  },
+  {
+   "number": 479,
+   "title": "'-sow' could potentially break the limitation of  ' -ml' ",
+   "url": "https://github.com/ggml-org/whisper.cpp/issues/479",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2023-02-11T07:07:46Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #4162 by @jerrychen751 is already open against this issue",
+   "evidence": [
+    "https://github.com/ggml-org/whisper.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/whisper.cpp/pull/4162"
+   ]
+  },
+  {
+   "number": 492,
+   "title": "whisper_init_from_file: loading model from 'models/ggml-base.en.bin'",
+   "url": "https://github.com/ggml-org/whisper.cpp/issues/492",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2023-02-11T07:27:52Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #1009 by @jaybinks is already open against this issue",
+   "evidence": [
+    "https://github.com/ggml-org/whisper.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/whisper.cpp/issues/1009",
+    "https://github.com/ggml-org/whisper.cpp/issues/1632",
+    "https://github.com/ggml-org/whisper.cpp/issues/89"
+   ]
+  },
+  {
+   "number": 509,
+   "title": "Option to store output in the same format that gets logged to console",
+   "url": "https://github.com/ggml-org/whisper.cpp/issues/509",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2023-11-29T06:50:08Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #89 by @ggerganov is already open against this issue",
+   "evidence": [
+    "https://github.com/ggml-org/whisper.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/whisper.cpp/issues/89"
+   ]
+  },
+  {
+   "number": 514,
+   "title": "@all: Help wanted to cross compile",
+   "url": "https://github.com/ggml-org/whisper.cpp/issues/514",
+   "labels": [
+    "help wanted",
+    "build"
+   ],
+   "updatedAt": "2023-02-27T18:21:01Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #89 by @ggerganov is already open against this issue",
+   "evidence": [
+    "https://github.com/ggml-org/whisper.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/whisper.cpp/issues/89"
+   ]
+  },
+  {
+   "number": 535,
+   "title": "Add function to get language title",
+   "url": "https://github.com/ggml-org/whisper.cpp/issues/535",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2024-07-10T14:34:47Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #4049 by @wangyusheng1985 is already open against this issue",
+   "evidence": [
+    "https://github.com/ggml-org/whisper.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/whisper.cpp/pull/4049"
+   ]
+  },
+  {
+   "number": 543,
+   "title": "max-len as a range or 'suggestion' to reduce dangling tokens",
+   "url": "https://github.com/ggml-org/whisper.cpp/issues/543",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2024-03-05T22:33:54Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #89 by @ggerganov is already open against this issue",
+   "evidence": [
+    "https://github.com/ggml-org/whisper.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/whisper.cpp/issues/89"
+   ]
+  },
+  {
+   "number": 555,
+   "title": "errorlevel not set when exiting with errors in windows version",
+   "url": "https://github.com/ggml-org/whisper.cpp/issues/555",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2023-03-06T17:24:53Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #1724 by @pprobst is already open against this issue",
+   "evidence": [
+    "https://github.com/ggml-org/whisper.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/whisper.cpp/issues/1724",
+    "https://github.com/ggml-org/whisper.cpp/issues/89"
+   ]
+  },
+  {
+   "number": 557,
+   "title": "New feature suggestion: save screen output as a file ",
+   "url": "https://github.com/ggml-org/whisper.cpp/issues/557",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2023-03-06T17:35:41Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "open 45 months with no human comment, in a repo pushed to 2 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+2 more)",
+   "evidence": [
+    "https://github.com/ggml-org/whisper.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/whisper.cpp/issues/557",
+    "https://github.com/ggml-org/whisper.cpp/blob/HEAD/README.md",
+    "https://github.com/ggml-org/llama.cpp/wiki/Modules",
+    "https://github.com/ggml-org/whisper.cpp/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 585,
+   "title": "whisper.wasm : update Emscripten bridge to provide text segments and token data to the JS layer",
+   "url": "https://github.com/ggml-org/whisper.cpp/issues/585",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2023-10-18T11:32:51Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #4066 by @ubmids is already open against this issue",
+   "evidence": [
+    "https://github.com/ggml-org/whisper.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/whisper.cpp/pull/4066"
+   ]
+  },
+  {
+   "number": 641,
+   "title": "Is it possible to modify the command example to make it listen for one command only, then stop listening ?",
+   "url": "https://github.com/ggml-org/whisper.cpp/issues/641",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2023-03-22T20:16:25Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #3686 by @oglego is already open against this issue",
+   "evidence": [
+    "https://github.com/ggml-org/whisper.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/whisper.cpp/pull/3686"
+   ]
+  },
+  {
+   "number": 744,
+   "title": "An option to stream audio files?",
+   "url": "https://github.com/ggml-org/whisper.cpp/issues/744",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2026-02-07T14:12:25Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #4046 by @uniboo is already open against this issue",
+   "evidence": [
+    "https://github.com/ggml-org/whisper.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/whisper.cpp/issues/4046",
+    "https://github.com/ggml-org/whisper.cpp/issues/89"
+   ]
+  },
+  {
+   "number": 825,
+   "title": "Consider using OPFS instead of IndexedDB for storage in WASM demos",
+   "url": "https://github.com/ggml-org/whisper.cpp/issues/825",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2024-06-06T11:08:31Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/ggml-org/llama.cpp/wiki/Modules) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/ggml-org/whisper.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/whisper.cpp/issues/825",
+    "https://github.com/ggml-org/whisper.cpp/blob/HEAD/README.md",
+    "https://github.com/ggml-org/llama.cpp/wiki/Modules",
+    "https://github.com/ggml-org/whisper.cpp/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 969,
+   "title": "Start/stop recording in stream",
+   "url": "https://github.com/ggml-org/whisper.cpp/issues/969",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2023-10-29T15:49:22Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #3926 by @ailakshya is already open against this issue",
+   "evidence": [
+    "https://github.com/ggml-org/whisper.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/whisper.cpp/pull/3926"
+   ]
+  },
+  {
+   "number": 984,
+   "title": "SetMaxTokensPerSegment in go binding causes the segements to end prematurely",
+   "url": "https://github.com/ggml-org/whisper.cpp/issues/984",
+   "labels": [
+    "bug",
+    "help wanted",
+    "good first issue"
+   ],
+   "updatedAt": "2023-06-25T11:02:53Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #89 by @ggerganov is already open against this issue",
+   "evidence": [
+    "https://github.com/ggml-org/whisper.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/whisper.cpp/issues/89"
+   ]
+  },
+  {
+   "number": 1028,
+   "title": "CMake: issues with changes to BLAS introduced in #927, wrong use of nonexistent BLAS_INCLUDE_DIRS",
+   "url": "https://github.com/ggml-org/whisper.cpp/issues/1028",
+   "labels": [
+    "good first issue",
+    "build"
+   ],
+   "updatedAt": "2023-06-25T17:24:09Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/ggml-org/llama.cpp/wiki/Modules) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/ggml-org/whisper.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/whisper.cpp/issues/1028",
+    "https://github.com/ggml-org/whisper.cpp/blob/HEAD/README.md",
+    "https://github.com/ggml-org/llama.cpp/wiki/Modules",
+    "https://github.com/ggml-org/whisper.cpp/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 1056,
+   "title": "Streaming to file leads to \"duplicates\"",
+   "url": "https://github.com/ggml-org/whisper.cpp/issues/1056",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2024-12-14T22:25:27Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #3471 by @isbee is already open against this issue",
+   "evidence": [
+    "https://github.com/ggml-org/whisper.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/whisper.cpp/pull/3471",
+    "https://github.com/ggml-org/whisper.cpp/pull/3926",
+    "https://github.com/ggml-org/whisper.cpp/pull/4134"
+   ]
+  },
+  {
+   "number": 1242,
+   "title": "Add ability to limit auto-detection to a subset of languages",
+   "url": "https://github.com/ggml-org/whisper.cpp/issues/1242",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2026-08-18T17:21:56Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #4100 by @A-Raphie is already open against this issue",
+   "evidence": [
+    "https://github.com/ggml-org/whisper.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/whisper.cpp/pull/4100"
+   ]
+  },
+  {
+   "number": 1528,
+   "title": "'swift build' fails on command line for SPM package",
+   "url": "https://github.com/ggml-org/whisper.cpp/issues/1528",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2023-11-20T14:55:37Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/ggml-org/llama.cpp/wiki/Modules) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/ggml-org/whisper.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/whisper.cpp/issues/1528",
+    "https://github.com/ggml-org/whisper.cpp/blob/HEAD/README.md",
+    "https://github.com/ggml-org/llama.cpp/wiki/Modules",
+    "https://github.com/ggml-org/whisper.cpp/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 1557,
+   "title": "NPU support in whisper.cpp",
+   "url": "https://github.com/ggml-org/whisper.cpp/issues/1557",
+   "labels": [
+    "good first issue",
+    "performance",
+    "research🔬"
+   ],
+   "updatedAt": "2026-11-07T21:47:55Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #4159 by @anguoyang is already open against this issue",
+   "evidence": [
+    "https://github.com/ggml-org/whisper.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/whisper.cpp/pull/4159"
+   ]
+  },
+  {
+   "number": 1818,
+   "title": "whisper : update the \"talk\" example",
+   "url": "https://github.com/ggml-org/whisper.cpp/issues/1818",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2026-01-22T20:40:23Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @VishalTech45 293 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/ggml-org/whisper.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/whisper.cpp/issues/1818#issuecomment-3786559251",
+    "https://github.com/ggml-org/whisper.cpp/issues/1818",
+    "https://github.com/ggml-org/whisper.cpp/blob/HEAD/README.md",
+    "https://github.com/ggml-org/llama.cpp/wiki/Modules",
+    "https://github.com/ggml-org/whisper.cpp/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2334,
+   "title": "whisper_full_with_state: failed to decode",
+   "url": "https://github.com/ggml-org/whisper.cpp/issues/2334",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2024-10-01T17:09:39Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/ggml-org/llama.cpp/wiki/Modules) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/ggml-org/whisper.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/whisper.cpp/issues/2334",
+    "https://github.com/ggml-org/whisper.cpp/blob/HEAD/README.md",
+    "https://github.com/ggml-org/llama.cpp/wiki/Modules",
+    "https://github.com/ggml-org/whisper.cpp/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2454,
+   "title": "tests : add WER benchmarks",
+   "url": "https://github.com/ggml-org/whisper.cpp/issues/2454",
+   "labels": [
+    "help wanted",
+    "high priority",
+    "research🔬",
+    "roadmap"
+   ],
+   "updatedAt": "2025-05-26T17:44:11Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "PR #2877 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+3 more)",
+   "evidence": [
+    "https://github.com/ggml-org/whisper.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/whisper.cpp/pull/2877",
+    "https://github.com/ggml-org/whisper.cpp/blob/HEAD/src/whisper.cpp",
+    "https://github.com/ggml-org/whisper.cpp/blob/HEAD/README.md",
+    "https://github.com/ggml-org/llama.cpp/wiki/Modules",
+    "https://github.com/ggml-org/whisper.cpp/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 3018,
+   "title": "can I enable \"-dl\" option and detect multiple languages (in one audio-clip)? Thanks!",
+   "url": "https://github.com/ggml-org/whisper.cpp/issues/3018",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2025-04-09T23:19:59Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #3468 by @isbee is already open against this issue",
+   "evidence": [
+    "https://github.com/ggml-org/whisper.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/whisper.cpp/pull/3468"
+   ]
+  }
+ ]
+}

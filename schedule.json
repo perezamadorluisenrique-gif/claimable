@@ -354,5 +354,45 @@
  "meilisearch/meilisearch": {
   "nextCheck": "2026-11-11T23:03:46.308Z",
   "lastNewIssue": "2025-12-12T17:24:54Z"
+ },
+ "fuellabs/fuel-core": {
+  "nextCheck": "2026-11-19T03:03:40.195Z",
+  "lastNewIssue": "2025-12-05T00:57:34Z"
+ },
+ "ggml-org/llama.cpp": {
+  "nextCheck": "2026-11-19T03:03:40.195Z",
+  "lastNewIssue": "2026-08-15T02:40:06Z"
+ },
+ "react/react-native": {
+  "nextCheck": "2026-11-19T03:03:40.195Z",
+  "lastNewIssue": "2021-02-10T20:22:30Z"
+ },
+ "godotengine/godot": {
+  "nextCheck": "2026-11-19T03:03:40.195Z",
+  "lastNewIssue": null
+ },
+ "microsoft/terminal": {
+  "nextCheck": "2026-11-19T03:03:40.195Z",
+  "lastNewIssue": "2026-08-20T03:46:41Z"
+ },
+ "tesseract-ocr/tesseract": {
+  "nextCheck": "2026-11-19T03:03:40.195Z",
+  "lastNewIssue": "2020-01-01T11:48:14Z"
+ },
+ "ocornut/imgui": {
+  "nextCheck": "2026-11-19T03:03:40.195Z",
+  "lastNewIssue": "2026-04-06T10:02:50Z"
+ },
+ "protocolbuffers/protobuf": {
+  "nextCheck": "2026-11-19T03:03:40.195Z",
+  "lastNewIssue": "2026-09-25T20:33:40Z"
+ },
+ "ggml-org/whisper.cpp": {
+  "nextCheck": "2026-11-19T03:03:40.195Z",
+  "lastNewIssue": "2025-04-08T18:52:55Z"
+ },
+ "clickhouse/clickhouse": {
+  "nextCheck": "2026-11-12T04:03:40.195Z",
+  "lastNewIssue": "2026-09-22T07:25:04Z"
  }
 }

@@ -1,0 +1,1044 @@
+{
+ "owner": "protocolbuffers",
+ "repo": "protobuf",
+ "language": "C++",
+ "stars": 72162,
+ "description": "Protocol Buffers - Google's data interchange format",
+ "visitedAt": "2026-11-12T03:03:40.195Z",
+ "issues": [
+  {
+   "number": 985,
+   "title": "support documentation in code generated bindings",
+   "url": "https://github.com/protocolbuffers/protobuf/issues/985",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "P3"
+   ],
+   "updatedAt": "2021-10-01T20:21:47Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "open 134 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say",
+   "evidence": [
+    "https://github.com/protocolbuffers/protobuf/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/protocolbuffers/protobuf/issues/985",
+    "https://github.com/protocolbuffers/protobuf/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2275,
+   "title": "Ruby deprecated descriptors should throw ruby warnings",
+   "url": "https://github.com/protocolbuffers/protobuf/issues/2275",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "ruby"
+   ],
+   "updatedAt": "2024-02-02T01:20:41Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/protocolbuffers/protobuf/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/protocolbuffers/protobuf/issues/2275",
+    "https://github.com/protocolbuffers/protobuf/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 4867,
+   "title": "protoc --grpc_out should look on Windows path for grpc_cpp_plugin.exe",
+   "url": "https://github.com/protocolbuffers/protobuf/issues/4867",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "c++",
+    "protoc"
+   ],
+   "updatedAt": "2022-09-01T18:58:18Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #30870 by @JJC3321 is already open against this issue",
+   "evidence": [
+    "https://github.com/protocolbuffers/protobuf/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/protocolbuffers/protobuf/pull/30870"
+   ]
+  },
+  {
+   "number": 6506,
+   "title": "Make PHP Extension thread-safe",
+   "url": "https://github.com/protocolbuffers/protobuf/issues/6506",
+   "labels": [
+    "help wanted",
+    "php"
+   ],
+   "updatedAt": "2022-09-01T18:28:43Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/protocolbuffers/protobuf/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/protocolbuffers/protobuf/issues/6506",
+    "https://github.com/protocolbuffers/protobuf/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 7161,
+   "title": "Cannot assign an array to a repeated field in Ruby",
+   "url": "https://github.com/protocolbuffers/protobuf/issues/7161",
+   "labels": [
+    "help wanted",
+    "ruby"
+   ],
+   "updatedAt": "2022-09-01T18:45:03Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/protocolbuffers/protobuf/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/protocolbuffers/protobuf/issues/7161",
+    "https://github.com/protocolbuffers/protobuf/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 7735,
+   "title": "Unrecoverable freeze/crash when calling .extend on repeated field with current object",
+   "url": "https://github.com/protocolbuffers/protobuf/issues/7735",
+   "labels": [
+    "help wanted",
+    "python",
+    "customer issue",
+    "P3"
+   ],
+   "updatedAt": "2022-09-01T19:01:39Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "already assigned to @anandolee",
+   "evidence": [
+    "https://github.com/protocolbuffers/protobuf/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/protocolbuffers/protobuf/issues/7735"
+   ]
+  },
+  {
+   "number": 8174,
+   "title": "Allow custom plugin codegenerators to use imports",
+   "url": "https://github.com/protocolbuffers/protobuf/issues/8174",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "protoc"
+   ],
+   "updatedAt": "2022-09-01T18:07:19Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/protocolbuffers/protobuf/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/protocolbuffers/protobuf/issues/8174",
+    "https://github.com/protocolbuffers/protobuf/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 8953,
+   "title": "proto defined enums conflicts with globally defined variables using protoc cpp",
+   "url": "https://github.com/protocolbuffers/protobuf/issues/8953",
+   "labels": [
+    "help wanted",
+    "c++",
+    "protoc"
+   ],
+   "updatedAt": "2026-10-22T02:51:58Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/protocolbuffers/protobuf/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/protocolbuffers/protobuf/issues/8953",
+    "https://github.com/protocolbuffers/protobuf/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 9491,
+   "title": "protobuf php extension does not provide a config.w32",
+   "url": "https://github.com/protocolbuffers/protobuf/issues/9491",
+   "labels": [
+    "help wanted",
+    "windows",
+    "php"
+   ],
+   "updatedAt": "2024-03-23T09:30:19Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/protocolbuffers/protobuf/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/protocolbuffers/protobuf/issues/9491",
+    "https://github.com/protocolbuffers/protobuf/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 9643,
+   "title": "How to import proto files between different files using cmake",
+   "url": "https://github.com/protocolbuffers/protobuf/issues/9643",
+   "labels": [
+    "help wanted",
+    "c++"
+   ],
+   "updatedAt": "2026-09-03T02:09:50Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @LeonxLJX 70 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting",
+   "evidence": [
+    "https://github.com/protocolbuffers/protobuf/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/protocolbuffers/protobuf/issues/9643#issuecomment-5519247728",
+    "https://github.com/protocolbuffers/protobuf/issues/9643",
+    "https://github.com/protocolbuffers/protobuf/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 10159,
+   "title": "Protobuf's constant initialization is not actually constant on Windows",
+   "url": "https://github.com/protocolbuffers/protobuf/issues/10159",
+   "labels": [
+    "help wanted",
+    "c++",
+    "windows",
+    "wait for user action"
+   ],
+   "updatedAt": "2026-04-14T17:37:22Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "already assigned to @sbenzaquen, @mkruskal-google",
+   "evidence": [
+    "https://github.com/protocolbuffers/protobuf/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/protocolbuffers/protobuf/pull/10232",
+    "https://github.com/microsoft/vcpkg/pull/48425",
+    "https://github.com/protocolbuffers/protobuf/pull/25205",
+    "https://github.com/google/perfetto/pull/4652",
+    "https://github.com/protocolbuffers/protobuf/issues/10159"
+   ]
+  },
+  {
+   "number": 10229,
+   "title": "Delimited Messages - let's harmonize across languages",
+   "url": "https://github.com/protocolbuffers/protobuf/issues/10229",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "c#",
+    "python",
+    "objective-c",
+    "ruby",
+    "php",
+    "jruby"
+   ],
+   "updatedAt": "2024-08-06T13:49:01Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #10 by @lizard-boy is already open against this issue",
+   "evidence": [
+    "https://github.com/protocolbuffers/protobuf/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/grepdemos/wire/pull/10",
+    "https://github.com/bufbuild/protobuf-es/pull/387",
+    "https://github.com/square/wire/pull/2424",
+    "https://github.com/emcfarlane/larking/pull/100",
+    "https://github.com/apple/swift-protobuf/pull/1434",
+    "https://github.com/some-natalie/kubernoodles/pull/411"
+   ]
+  },
+  {
+   "number": 10247,
+   "title": "Protobuf java generate to large methods",
+   "url": "https://github.com/protocolbuffers/protobuf/issues/10247",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "java",
+    "performance",
+    "java-lite"
+   ],
+   "updatedAt": "2022-08-02T18:15:31Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #4 by @DanielThomas is already open against this issue",
+   "evidence": [
+    "https://github.com/protocolbuffers/protobuf/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/DanielThomas/protobuf/pull/4",
+    "https://github.com/protocolbuffers/protobuf/pull/10960"
+   ]
+  },
+  {
+   "number": 10262,
+   "title": "Critical Violations Reported in CAST Analysis for Auto Generated Code ",
+   "url": "https://github.com/protocolbuffers/protobuf/issues/10262",
+   "labels": [
+    "help wanted",
+    "java",
+    "cleanup"
+   ],
+   "updatedAt": "2022-07-18T22:07:15Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/protocolbuffers/protobuf/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/protocolbuffers/protobuf/issues/10262",
+    "https://github.com/protocolbuffers/protobuf/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 10491,
+   "title": "inconsistent handling of keywords and conflicts",
+   "url": "https://github.com/protocolbuffers/protobuf/issues/10491",
+   "labels": [
+    "help wanted",
+    "protoc"
+   ],
+   "updatedAt": "2023-02-15T02:31:33Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "PR #391 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder",
+   "evidence": [
+    "https://github.com/protocolbuffers/protobuf/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/viamrobotics/viam-cpp-sdk/pull/391",
+    "https://github.com/protocolbuffers/protobuf/issues/10491",
+    "https://github.com/protocolbuffers/protobuf/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 10828,
+   "title": "Define cmake target as PIC if BUILD_SHARED_LIBS",
+   "url": "https://github.com/protocolbuffers/protobuf/issues/10828",
+   "labels": [
+    "help wanted",
+    "c++",
+    "cmake"
+   ],
+   "updatedAt": "2022-11-02T20:22:32Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/protocolbuffers/protobuf/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/protocolbuffers/protobuf/issues/10828",
+    "https://github.com/protocolbuffers/protobuf/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 10834,
+   "title": "Using `m` as a package name leads to invalid code",
+   "url": "https://github.com/protocolbuffers/protobuf/issues/10834",
+   "labels": [
+    "help wanted",
+    "java"
+   ],
+   "updatedAt": "2022-11-03T17:42:38Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "already assigned to @googleberg",
+   "evidence": [
+    "https://github.com/protocolbuffers/protobuf/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/protocolbuffers/protobuf/issues/10834"
+   ]
+  },
+  {
+   "number": 11252,
+   "title": "Include valid proguard config in java protolite library",
+   "url": "https://github.com/protocolbuffers/protobuf/issues/11252",
+   "labels": [
+    "help wanted",
+    "java"
+   ],
+   "updatedAt": "2022-12-15T11:51:46Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "already assigned to @googleberg",
+   "evidence": [
+    "https://github.com/protocolbuffers/protobuf/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/protocolbuffers/protobuf/issues/11252"
+   ]
+  },
+  {
+   "number": 12626,
+   "title": "Upgrading from 3.21.10 to 3.22.3 failures: missing symbol called",
+   "url": "https://github.com/protocolbuffers/protobuf/issues/12626",
+   "labels": [
+    "help wanted",
+    "golang"
+   ],
+   "updatedAt": "2023-05-05T00:05:42Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/protocolbuffers/protobuf/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/protocolbuffers/protobuf/issues/12626",
+    "https://github.com/protocolbuffers/protobuf/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 12732,
+   "title": "Stack smashing before `main()` caused by adding `import` to quick start's greeter proto file",
+   "url": "https://github.com/protocolbuffers/protobuf/issues/12732",
+   "labels": [
+    "help wanted",
+    "c++"
+   ],
+   "updatedAt": "2024-01-25T10:41:44Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "already assigned to @sbenzaquen",
+   "evidence": [
+    "https://github.com/protocolbuffers/protobuf/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/protocolbuffers/protobuf/issues/12732"
+   ]
+  },
+  {
+   "number": 12809,
+   "title": "Pass key-value pairs into Struct constructor in python",
+   "url": "https://github.com/protocolbuffers/protobuf/issues/12809",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2024-01-30T23:16:54Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/protocolbuffers/protobuf/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/protocolbuffers/protobuf/issues/12809",
+    "https://github.com/protocolbuffers/protobuf/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 13248,
+   "title": "Evaluate Profile-Guided Optimization (PGO)",
+   "url": "https://github.com/protocolbuffers/protobuf/issues/13248",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2023-07-12T17:40:40Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/protocolbuffers/protobuf/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/protocolbuffers/protobuf/issues/13248",
+    "https://github.com/protocolbuffers/protobuf/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 14392,
+   "title": "Java generated code fails to compile if 'descriptor' field name is used",
+   "url": "https://github.com/protocolbuffers/protobuf/issues/14392",
+   "labels": [
+    "help wanted",
+    "java"
+   ],
+   "updatedAt": "2026-06-22T19:25:47Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "already assigned to @mkruskal-google, @shaod2",
+   "evidence": [
+    "https://github.com/protocolbuffers/protobuf/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/protocolbuffers/protobuf/issues/14392"
+   ]
+  },
+  {
+   "number": 14492,
+   "title": "[CMake] Simplify cross compilation of C++ projects with proto files",
+   "url": "https://github.com/protocolbuffers/protobuf/issues/14492",
+   "labels": [
+    "help wanted",
+    "cmake"
+   ],
+   "updatedAt": "2023-11-03T10:45:03Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "open 37 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say",
+   "evidence": [
+    "https://github.com/protocolbuffers/protobuf/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/protocolbuffers/protobuf/issues/14492",
+    "https://github.com/protocolbuffers/protobuf/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 14555,
+   "title": "Protobuf/Gradle Case Sensitivity Issue on macOS - class x is public should be declared in a file named x.java",
+   "url": "https://github.com/protocolbuffers/protobuf/issues/14555",
+   "labels": [
+    "help wanted",
+    "java",
+    "platform related"
+   ],
+   "updatedAt": "2023-11-03T15:34:08Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "already assigned to @zhangskz",
+   "evidence": [
+    "https://github.com/protocolbuffers/protobuf/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/protocolbuffers/protobuf/issues/14555"
+   ]
+  },
+  {
+   "number": 14563,
+   "title": "Generated PHP code with incorrect comment formating",
+   "url": "https://github.com/protocolbuffers/protobuf/issues/14563",
+   "labels": [
+    "help wanted",
+    "php"
+   ],
+   "updatedAt": "2024-01-30T22:46:17Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "PR #6737 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder",
+   "evidence": [
+    "https://github.com/protocolbuffers/protobuf/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/googleapis/google-cloud-php/pull/6737",
+    "https://github.com/protocolbuffers/protobuf/issues/14563",
+    "https://github.com/protocolbuffers/protobuf/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 14872,
+   "title": "PHP: better debug info for Message objects in protobuf C-extension",
+   "url": "https://github.com/protocolbuffers/protobuf/issues/14872",
+   "labels": [
+    "help wanted",
+    "php"
+   ],
+   "updatedAt": "2024-02-01T17:27:32Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/protocolbuffers/protobuf/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/protocolbuffers/protobuf/issues/14872",
+    "https://github.com/protocolbuffers/protobuf/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 15028,
+   "title": "Signed / unsigned comparison warning on MSVC",
+   "url": "https://github.com/protocolbuffers/protobuf/issues/15028",
+   "labels": [
+    "help wanted",
+    "c++"
+   ],
+   "updatedAt": "2026-09-03T02:11:15Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @LeonxLJX 70 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting",
+   "evidence": [
+    "https://github.com/protocolbuffers/protobuf/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/protocolbuffers/protobuf/issues/15028#issuecomment-5519258972",
+    "https://github.com/protocolbuffers/protobuf/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 15511,
+   "title": "Building MSI Package linked to protobuf with CMake WIX fails",
+   "url": "https://github.com/protocolbuffers/protobuf/issues/15511",
+   "labels": [
+    "help wanted",
+    "cmake"
+   ],
+   "updatedAt": "2024-04-05T06:02:59Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/protocolbuffers/protobuf/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/protocolbuffers/protobuf/issues/15511",
+    "https://github.com/protocolbuffers/protobuf/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 15524,
+   "title": "Include macOS arm64 protoc binary in nuget package",
+   "url": "https://github.com/protocolbuffers/protobuf/issues/15524",
+   "labels": [
+    "help wanted",
+    "c#",
+    "mac"
+   ],
+   "updatedAt": "2026-09-03T06:47:47Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #27656 by @pepone is already open against this issue",
+   "evidence": [
+    "https://github.com/protocolbuffers/protobuf/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/protocolbuffers/protobuf/pull/27656",
+    "https://github.com/icerpc/icerpc-csharp/pull/4707"
+   ]
+  },
+  {
+   "number": 15541,
+   "title": "C++ | Array size of enumeration not reliable in case of not consecutive numbers (actual size does not match)",
+   "url": "https://github.com/protocolbuffers/protobuf/issues/15541",
+   "labels": [
+    "help wanted",
+    "c++"
+   ],
+   "updatedAt": "2026-09-03T02:12:45Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @LeonxLJX 70 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting",
+   "evidence": [
+    "https://github.com/protocolbuffers/protobuf/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/protocolbuffers/protobuf/issues/15541#issuecomment-5519270600",
+    "https://github.com/protocolbuffers/protobuf/issues/15541",
+    "https://github.com/protocolbuffers/protobuf/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 15827,
+   "title": "Build requires C++14, CMake doesn't set it",
+   "url": "https://github.com/protocolbuffers/protobuf/issues/15827",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2024-04-05T05:59:33Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "already assigned to @mkruskal-google",
+   "evidence": [
+    "https://github.com/protocolbuffers/protobuf/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/protocolbuffers/protobuf/issues/15827"
+   ]
+  },
+  {
+   "number": 17085,
+   "title": "Dotnet - Include key name when failing to add to a MapField due to a duplicate key",
+   "url": "https://github.com/protocolbuffers/protobuf/issues/17085",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-09-03T02:12:00Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #30114 by @ankitdhandharia is already open against this issue",
+   "evidence": [
+    "https://github.com/protocolbuffers/protobuf/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/protocolbuffers/protobuf/pull/30114"
+   ]
+  },
+  {
+   "number": 17349,
+   "title": "Support maintaining source directory structure at generated location when using protobuf_generate",
+   "url": "https://github.com/protocolbuffers/protobuf/issues/17349",
+   "labels": [
+    "help wanted",
+    "c++",
+    "cmake"
+   ],
+   "updatedAt": "2026-09-03T02:10:28Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @LeonxLJX 70 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting",
+   "evidence": [
+    "https://github.com/protocolbuffers/protobuf/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/protocolbuffers/protobuf/issues/17349#issuecomment-5519252765",
+    "https://github.com/protocolbuffers/protobuf/issues/17349",
+    "https://github.com/protocolbuffers/protobuf/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 18352,
+   "title": "Bazel rules for C#",
+   "url": "https://github.com/protocolbuffers/protobuf/issues/18352",
+   "labels": [
+    "help wanted",
+    "c#",
+    "bazel"
+   ],
+   "updatedAt": "2026-09-03T10:32:51Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @LeonxLJX 70 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting",
+   "evidence": [
+    "https://github.com/protocolbuffers/protobuf/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/protocolbuffers/protobuf/issues/18352#issuecomment-5519242132",
+    "https://github.com/protocolbuffers/protobuf/issues/18352",
+    "https://github.com/protocolbuffers/protobuf/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 19291,
+   "title": "-Wnull dereference warning, when using -Os, -DNDEBUG and -Wnull-dereference flags after upgrading to protobuf 27.4",
+   "url": "https://github.com/protocolbuffers/protobuf/issues/19291",
+   "labels": [
+    "help wanted",
+    "c++"
+   ],
+   "updatedAt": "2026-09-03T02:02:49Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @LeonxLJX 70 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting",
+   "evidence": [
+    "https://github.com/protocolbuffers/protobuf/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/protocolbuffers/protobuf/issues/19291#issuecomment-5519191098",
+    "https://github.com/protocolbuffers/protobuf/issues/19291",
+    "https://github.com/protocolbuffers/protobuf/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 19584,
+   "title": "[MSVC]  protobuf failed to run test on Windows",
+   "url": "https://github.com/protocolbuffers/protobuf/issues/19584",
+   "labels": [
+    "help wanted",
+    "windows"
+   ],
+   "updatedAt": "2024-12-11T15:33:40Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "already assigned to @shaod2",
+   "evidence": [
+    "https://github.com/protocolbuffers/protobuf/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/protocolbuffers/protobuf/issues/19584"
+   ]
+  },
+  {
+   "number": 20515,
+   "title": "BUG: pkg-config metadata is incorrect on windows",
+   "url": "https://github.com/protocolbuffers/protobuf/issues/20515",
+   "labels": [
+    "help wanted",
+    "windows",
+    "cmake"
+   ],
+   "updatedAt": "2025-12-02T18:59:02Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "already assigned to @mkruskal-google",
+   "evidence": [
+    "https://github.com/protocolbuffers/protobuf/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/protocolbuffers/protobuf/issues/20515"
+   ]
+  },
+  {
+   "number": 21092,
+   "title": "Ruby class documentation barely exists",
+   "url": "https://github.com/protocolbuffers/protobuf/issues/21092",
+   "labels": [
+    "help wanted",
+    "ruby",
+    "documentation"
+   ],
+   "updatedAt": "2026-09-03T02:08:27Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @LeonxLJX 70 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting",
+   "evidence": [
+    "https://github.com/protocolbuffers/protobuf/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/protocolbuffers/protobuf/issues/21092#issuecomment-5519236566",
+    "https://github.com/protocolbuffers/protobuf/issues/21092",
+    "https://github.com/protocolbuffers/protobuf/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 21691,
+   "title": "gRPC python type stubs not accurately reflecting runtime",
+   "url": "https://github.com/protocolbuffers/protobuf/issues/21691",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2025-12-16T19:34:48Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "already assigned to @anandolee",
+   "evidence": [
+    "https://github.com/protocolbuffers/protobuf/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/protocolbuffers/protobuf/pull/23156",
+    "https://github.com/protocolbuffers/protobuf/issues/21691"
+   ]
+  },
+  {
+   "number": 21995,
+   "title": "Python: Use multi-phase initialisation (PEP 489)",
+   "url": "https://github.com/protocolbuffers/protobuf/issues/21995",
+   "labels": [
+    "help wanted",
+    "python",
+    "keep open"
+   ],
+   "updatedAt": "2025-09-04T17:46:04Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "already assigned to @anandolee",
+   "evidence": [
+    "https://github.com/protocolbuffers/protobuf/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/protocolbuffers/protobuf/issues/21995"
+   ]
+  },
+  {
+   "number": 22173,
+   "title": "Iterating a \\Google\\Protobuf\\Internal\\Message PHP object segfaults when using the protobuf extension",
+   "url": "https://github.com/protocolbuffers/protobuf/issues/22173",
+   "labels": [
+    "help wanted",
+    "php"
+   ],
+   "updatedAt": "2026-09-03T02:06:45Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @LeonxLJX 70 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting",
+   "evidence": [
+    "https://github.com/protocolbuffers/protobuf/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/protocolbuffers/protobuf/issues/22173#issuecomment-5519223008",
+    "https://github.com/protocolbuffers/protobuf/issues/22173",
+    "https://github.com/protocolbuffers/protobuf/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 22288,
+   "title": "Allow configurable handling of invalid UTF-8 for better backward compatibility (C#)",
+   "url": "https://github.com/protocolbuffers/protobuf/issues/22288",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-09-03T02:07:34Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @LeonxLJX 70 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting",
+   "evidence": [
+    "https://github.com/protocolbuffers/protobuf/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/protocolbuffers/protobuf/issues/22288#issuecomment-5519229448",
+    "https://github.com/protocolbuffers/protobuf/issues/22288",
+    "https://github.com/protocolbuffers/protobuf/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 22744,
+   "title": "Check for wrapper types in C# code gen should be case insensitive",
+   "url": "https://github.com/protocolbuffers/protobuf/issues/22744",
+   "labels": [
+    "help wanted",
+    "c#"
+   ],
+   "updatedAt": "2026-09-03T02:04:27Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #28891 by @Pybsama is already open against this issue",
+   "evidence": [
+    "https://github.com/protocolbuffers/protobuf/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/protocolbuffers/protobuf/pull/28891"
+   ]
+  },
+  {
+   "number": 23248,
+   "title": "Warning in repeated_ptr_field.h about conversion from `size_t` to `int` causes compiler error",
+   "url": "https://github.com/protocolbuffers/protobuf/issues/23248",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2025-09-12T21:23:05Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "already assigned to @anandolee",
+   "evidence": [
+    "https://github.com/protocolbuffers/protobuf/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/protocolbuffers/protobuf/issues/23248"
+   ]
+  },
+  {
+   "number": 23670,
+   "title": "[python] Message constructor argument enum typing",
+   "url": "https://github.com/protocolbuffers/protobuf/issues/23670",
+   "labels": [
+    "help wanted",
+    "python"
+   ],
+   "updatedAt": "2026-01-14T19:29:43Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #25319 by @aidandj is already open against this issue",
+   "evidence": [
+    "https://github.com/protocolbuffers/protobuf/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/protocolbuffers/protobuf/pull/25319"
+   ]
+  },
+  {
+   "number": 23957,
+   "title": "bug: CodedInputStream.newInstance(List) with an empty bytebuffer produces an error",
+   "url": "https://github.com/protocolbuffers/protobuf/issues/23957",
+   "labels": [
+    "help wanted",
+    "java"
+   ],
+   "updatedAt": "2026-09-03T02:05:56Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @LeonxLJX 70 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting",
+   "evidence": [
+    "https://github.com/protocolbuffers/protobuf/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/protocolbuffers/protobuf/issues/23957#issuecomment-5519216400",
+    "https://github.com/protocolbuffers/protobuf/issues/23957",
+    "https://github.com/protocolbuffers/protobuf/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 24257,
+   "title": "[Python] Potential memory leak",
+   "url": "https://github.com/protocolbuffers/protobuf/issues/24257",
+   "labels": [
+    "help wanted",
+    "python"
+   ],
+   "updatedAt": "2026-09-03T02:05:05Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @LeonxLJX 70 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting",
+   "evidence": [
+    "https://github.com/protocolbuffers/protobuf/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/protocolbuffers/protobuf/issues/24257#issuecomment-5519209319",
+    "https://github.com/protocolbuffers/protobuf/issues/24257",
+    "https://github.com/protocolbuffers/protobuf/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 24610,
+   "title": "pkg-config can not resolve dependencies",
+   "url": "https://github.com/protocolbuffers/protobuf/issues/24610",
+   "labels": [
+    "help wanted",
+    "cmake"
+   ],
+   "updatedAt": "2026-09-03T02:03:35Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @LeonxLJX 70 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting",
+   "evidence": [
+    "https://github.com/protocolbuffers/protobuf/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/protocolbuffers/protobuf/issues/24610#issuecomment-5519197243",
+    "https://github.com/protocolbuffers/protobuf/issues/24610",
+    "https://github.com/protocolbuffers/protobuf/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 24882,
+   "title": "Multiple CWE's in protobuf after SAST analysis by PVS-Studio",
+   "url": "https://github.com/protocolbuffers/protobuf/issues/24882",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-09-03T02:02:11Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @LeonxLJX 70 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting",
+   "evidence": [
+    "https://github.com/protocolbuffers/protobuf/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/protocolbuffers/protobuf/issues/24882#issuecomment-5519186211",
+    "https://github.com/protocolbuffers/protobuf/issues/24882",
+    "https://github.com/protocolbuffers/protobuf/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 26188,
+   "title": "PHP: C extension has undocumented \"append\" function that has no package parity.",
+   "url": "https://github.com/protocolbuffers/protobuf/issues/26188",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-09-03T02:01:29Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #29395 by @yiheng-kkk is already open against this issue",
+   "evidence": [
+    "https://github.com/protocolbuffers/protobuf/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/protocolbuffers/protobuf/pull/29395"
+   ]
+  },
+  {
+   "number": 26437,
+   "title": "Recursion Depth Limit: Can reach depth 200 via 100 nested unknown groups beneath a depth=100 messageset item",
+   "url": "https://github.com/protocolbuffers/protobuf/issues/26437",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-09-03T02:00:50Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #27589 by @Ashutosh0x is already open against this issue",
+   "evidence": [
+    "https://github.com/protocolbuffers/protobuf/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/protocolbuffers/protobuf/pull/27589",
+    "https://github.com/protocolbuffers/protobuf/pull/28821"
+   ]
+  },
+  {
+   "number": 27307,
+   "title": "Protobuf library requires bash.exe / WSL, seemingly unnecessarily",
+   "url": "https://github.com/protocolbuffers/protobuf/issues/27307",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-09-03T01:59:27Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #27804 by @puneetdixit200 is already open against this issue",
+   "evidence": [
+    "https://github.com/protocolbuffers/protobuf/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/protocolbuffers/protobuf/pull/27804"
+   ]
+  },
+  {
+   "number": 28065,
+   "title": "Protobuf `ParseFromArray` takes an `int size` where negative values are UB",
+   "url": "https://github.com/protocolbuffers/protobuf/issues/28065",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-09-03T01:57:54Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #29157 by @waterWang is already open against this issue",
+   "evidence": [
+    "https://github.com/protocolbuffers/protobuf/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/protocolbuffers/protobuf/pull/29157"
+   ]
+  },
+  {
+   "number": 29893,
+   "title": "JSON: non-ASCII decimal digits in quoted numeric fields accepted by Python and Java, rejected by C++",
+   "url": "https://github.com/protocolbuffers/protobuf/issues/29893",
+   "labels": [
+    "help wanted",
+    "wait for user action"
+   ],
+   "updatedAt": "2026-09-22T00:45:34Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "PR #30366 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder",
+   "evidence": [
+    "https://github.com/protocolbuffers/protobuf/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/protocolbuffers/protobuf/pull/30366",
+    "https://github.com/protocolbuffers/protobuf/issues/29893",
+    "https://github.com/protocolbuffers/protobuf/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 30162,
+   "title": "protobuf_generate() ignores --proto_path passed through PROTOC_OPTIONS",
+   "url": "https://github.com/protocolbuffers/protobuf/issues/30162",
+   "labels": [
+    "help wanted",
+    "documentation",
+    "cmake"
+   ],
+   "updatedAt": "2026-10-06T16:15:17Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "5 paths named in the issue do not exist on `protobuf`'s default branch — that is unlisted work: foo.pb.h, foo.pb.cc, gen/foo.proto, build/build/gen/foo.pb.h, build/foo.pb.h",
+   "evidence": [
+    "https://github.com/protocolbuffers/protobuf/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/protocolbuffers/protobuf/issues/30162",
+    "https://github.com/protocolbuffers/protobuf/blob/HEAD/CONTRIBUTING.md"
+   ]
+  }
+ ]
+}

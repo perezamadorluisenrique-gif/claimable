@@ -1,0 +1,384 @@
+{
+ "owner": "FuelLabs",
+ "repo": "fuel-core",
+ "language": "Rust",
+ "stars": 56762,
+ "description": "Rust full node implementation of the Fuel v2 protocol.",
+ "visitedAt": "2026-11-12T03:03:40.195Z",
+ "issues": [
+  {
+   "number": 975,
+   "title": "Unify defaults for config",
+   "url": "https://github.com/FuelLabs/fuel-core/issues/975",
+   "labels": [
+    "good first issue",
+    "tech-debt",
+    "fuel-core"
+   ],
+   "updatedAt": "2025-04-24T14:48:00Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.rs/fuel-core/badge.svg) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/FuelLabs/fuel-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/fuel-core/issues/975",
+    "https://github.com/FuelLabs/fuel-core/blob/HEAD/README.md",
+    "https://docs.rs/fuel-core/badge.svg"
+   ]
+  },
+  {
+   "number": 1529,
+   "title": "Move executor tests from `fuel-core` to `fuel-core-executor` crate",
+   "url": "https://github.com/FuelLabs/fuel-core/issues/1529",
+   "labels": [
+    "good first issue",
+    "tech-debt"
+   ],
+   "updatedAt": "2025-08-07T14:46:57Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "already assigned to @MitchTurner",
+   "evidence": [
+    "https://github.com/FuelLabs/fuel-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/fuel-core/issues/1529"
+   ]
+  },
+  {
+   "number": 1662,
+   "title": "Create users friendly logs",
+   "url": "https://github.com/FuelLabs/fuel-core/issues/1662",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2025-05-08T15:09:23Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.rs/fuel-core/badge.svg) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/FuelLabs/fuel-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/fuel-core/issues/1662",
+    "https://github.com/FuelLabs/fuel-core/blob/HEAD/README.md",
+    "https://docs.rs/fuel-core/badge.svg"
+   ]
+  },
+  {
+   "number": 1738,
+   "title": "Add documentation to the `docs.fuel.network` about how `fuel-core` works",
+   "url": "https://github.com/FuelLabs/fuel-core/issues/1738",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2025-09-18T14:51:20Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.rs/fuel-core/badge.svg) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/FuelLabs/fuel-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/fuel-core/issues/1738",
+    "https://github.com/FuelLabs/fuel-core/blob/HEAD/README.md",
+    "https://docs.rs/fuel-core/badge.svg"
+   ]
+  },
+  {
+   "number": 1824,
+   "title": "Add `RelayedTransactionStatus' table to regenesis snapshot",
+   "url": "https://github.com/FuelLabs/fuel-core/issues/1824",
+   "labels": [
+    "bug",
+    "good first issue",
+    "regenesis"
+   ],
+   "updatedAt": "2025-05-08T14:21:40Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "PR #1787 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/FuelLabs/fuel-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/fuel-core/pull/1787",
+    "https://github.com/FuelLabs/fuel-core/issues/1824",
+    "https://github.com/FuelLabs/fuel-core/blob/HEAD/README.md",
+    "https://docs.rs/fuel-core/badge.svg"
+   ]
+  },
+  {
+   "number": 1911,
+   "title": "Beef up execution tests",
+   "url": "https://github.com/FuelLabs/fuel-core/issues/1911",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2025-06-12T14:52:25Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "already assigned to @AurelienFT",
+   "evidence": [
+    "https://github.com/FuelLabs/fuel-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/fuel-core/issues/1911"
+   ]
+  },
+  {
+   "number": 2180,
+   "title": "Handle shrinking of the `--state-rewind-duration` argument",
+   "url": "https://github.com/FuelLabs/fuel-core/issues/2180",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2024-09-24T11:33:51Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "already assigned to @acerone85",
+   "evidence": [
+    "https://github.com/FuelLabs/fuel-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/fuel-core/issues/2180",
+    "https://github.com/FuelLabs/fuel-core/issues/2180#issuecomment-2371008367"
+   ]
+  },
+  {
+   "number": 2279,
+   "title": "DA compression: optimization: index block events",
+   "url": "https://github.com/FuelLabs/fuel-core/issues/2279",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2024-12-12T16:06:19Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "already assigned to @AurelienFT",
+   "evidence": [
+    "https://github.com/FuelLabs/fuel-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/fuel-core/pull/1609",
+    "https://github.com/FuelLabs/fuel-core/issues/2279"
+   ]
+  },
+  {
+   "number": 2382,
+   "title": "Separate Execution Gas Price and DA Gas Price into separate newtypes to add clarity",
+   "url": "https://github.com/FuelLabs/fuel-core/issues/2382",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2025-01-30T15:52:23Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "already assigned to @MitchTurner",
+   "evidence": [
+    "https://github.com/FuelLabs/fuel-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/fuel-core/pull/2364",
+    "https://github.com/FuelLabs/fuel-core/issues/2382"
+   ]
+  },
+  {
+   "number": 2488,
+   "title": "Fix RUSTSEC-2024-0421 / Update libp2p",
+   "url": "https://github.com/FuelLabs/fuel-core/issues/2488",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2025-09-18T14:53:18Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "already assigned to @MitchTurner",
+   "evidence": [
+    "https://github.com/FuelLabs/fuel-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/fuel-core/pull/2489",
+    "https://github.com/FuelLabs/fuel-core/pull/2644",
+    "https://github.com/FuelLabs/fuel-core/issues/2488"
+   ]
+  },
+  {
+   "number": 2581,
+   "title": "Add `assert_integrity` at service level in txpool",
+   "url": "https://github.com/FuelLabs/fuel-core/issues/2581",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2025-01-16T14:02:50Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #2579 by @AurelienFT is already open against this issue",
+   "evidence": [
+    "https://github.com/FuelLabs/fuel-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/fuel-core/pull/2579"
+   ]
+  },
+  {
+   "number": 2592,
+   "title": "Identify all the places we are using `anyhow` on trait interfaces",
+   "url": "https://github.com/FuelLabs/fuel-core/issues/2592",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2026-11-05T23:03:26Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "@sharmis-tp claimed it 6 days ago",
+   "evidence": [
+    "https://github.com/FuelLabs/fuel-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/fuel-core/issues/2592#issuecomment-6671818513",
+    "https://github.com/FuelLabs/fuel-core/issues/2592#issuecomment-3183951491"
+   ]
+  },
+  {
+   "number": 2657,
+   "title": "Avoid cloning of vectors in `HexString`",
+   "url": "https://github.com/FuelLabs/fuel-core/issues/2657",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2025-02-19T05:14:29Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #3034 by @grandima is already open against this issue",
+   "evidence": [
+    "https://github.com/FuelLabs/fuel-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/fuel-core/pull/3034"
+   ]
+  },
+  {
+   "number": 2679,
+   "title": "WASM block production can fail if new `fuel-core` supports new types of transactions",
+   "url": "https://github.com/FuelLabs/fuel-core/issues/2679",
+   "labels": [
+    "bug",
+    "good first issue"
+   ],
+   "updatedAt": "2025-09-18T14:45:56Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.rs/fuel-core/badge.svg) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/FuelLabs/fuel-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/fuel-core/issues/2679",
+    "https://github.com/FuelLabs/fuel-core/blob/HEAD/README.md",
+    "https://docs.rs/fuel-core/badge.svg"
+   ]
+  },
+  {
+   "number": 2773,
+   "title": "Use CampledPercentage across the whole codebase for percentage",
+   "url": "https://github.com/FuelLabs/fuel-core/issues/2773",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "tech-debt"
+   ],
+   "updatedAt": "2025-07-17T09:30:47Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #3218 by @adhiraj997 is already open against this issue",
+   "evidence": [
+    "https://github.com/FuelLabs/fuel-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/fuel-core/pull/3218",
+    "https://github.com/FuelLabs/fuel-core/pull/2733",
+    "https://github.com/FuelLabs/fuel-core/pull/2786"
+   ]
+  },
+  {
+   "number": 2836,
+   "title": "Avoid usage of the `BoxedStream` from the ports in services",
+   "url": "https://github.com/FuelLabs/fuel-core/issues/2836",
+   "labels": [
+    "good first issue",
+    "tech-debt"
+   ],
+   "updatedAt": "2025-04-22T11:31:15Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @Guocork 571 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/FuelLabs/fuel-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/fuel-core/issues/2836#issuecomment-2816974665",
+    "https://github.com/FuelLabs/fuel-core/issues/2836",
+    "https://github.com/FuelLabs/fuel-core/blob/HEAD/README.md",
+    "https://docs.rs/fuel-core/badge.svg"
+   ]
+  },
+  {
+   "number": 2961,
+   "title": "Verify prev block root in the executor and not only in the importer",
+   "url": "https://github.com/FuelLabs/fuel-core/issues/2961",
+   "labels": [
+    "good first issue",
+    "tech-debt"
+   ],
+   "updatedAt": "2025-10-02T19:12:47Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @Rustix69 405 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/FuelLabs/fuel-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/fuel-core/issues/2961#issuecomment-3362600425",
+    "https://github.com/FuelLabs/fuel-core/issues/2961",
+    "https://github.com/FuelLabs/fuel-core/blob/HEAD/README.md",
+    "https://docs.rs/fuel-core/badge.svg"
+   ]
+  },
+  {
+   "number": 3011,
+   "title": "bug(p2p): investigate discrepency between peer count metric vs peers returned via graphql",
+   "url": "https://github.com/FuelLabs/fuel-core/issues/3011",
+   "labels": [
+    "bug",
+    "good first issue",
+    "needs-investigation"
+   ],
+   "updatedAt": "2025-11-03T15:53:04Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #3162 by @Drstone-23 is already open against this issue",
+   "evidence": [
+    "https://github.com/FuelLabs/fuel-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/fuel-core/pull/3162"
+   ]
+  },
+  {
+   "number": 3073,
+   "title": "Add roundtrip compression tests to show all coin types are covered",
+   "url": "https://github.com/FuelLabs/fuel-core/issues/3073",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2025-09-18T14:36:15Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #3309 by @0xjc65eth is already open against this issue",
+   "evidence": [
+    "https://github.com/FuelLabs/fuel-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/fuel-core/pull/3309",
+    "https://github.com/FuelLabs/fuel-core/pull/3071"
+   ]
+  },
+  {
+   "number": 3140,
+   "title": "Adjust the playground to support the auth token",
+   "url": "https://github.com/FuelLabs/fuel-core/issues/3140",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2026-10-12T13:01:37Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #3184 by @MitchTurner is already open against this issue",
+   "evidence": [
+    "https://github.com/FuelLabs/fuel-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/fuel-core/pull/3184"
+   ]
+  },
+  {
+   "number": 3160,
+   "title": "Have parity between pre confirmation statuses and `Success` and `Failed` statuses",
+   "url": "https://github.com/FuelLabs/fuel-core/issues/3160",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2026-01-22T15:14:51Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #3186 by @MitchTurner is already open against this issue",
+   "evidence": [
+    "https://github.com/FuelLabs/fuel-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FuelLabs/fuel-core/pull/3186"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,734 @@
+{
+ "owner": "ggml-org",
+ "repo": "llama.cpp",
+ "language": "C++",
+ "stars": 133933,
+ "description": "LLM inference in C/C++",
+ "visitedAt": "2026-11-12T03:03:40.195Z",
+ "issues": [
+  {
+   "number": 231,
+   "title": "Study how LM Evaluation Harness works and try to implement it",
+   "url": "https://github.com/ggml-org/llama.cpp/issues/231",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "high priority",
+    "generation quality",
+    "research 🔬"
+   ],
+   "updatedAt": "2026-02-17T06:59:00Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #15189 by @fo40225 is already open against this issue",
+   "evidence": [
+    "https://github.com/ggml-org/llama.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/llama.cpp/pull/15189"
+   ]
+  },
+  {
+   "number": 1299,
+   "title": "Test replit-code-v1-3b model",
+   "url": "https://github.com/ggml-org/llama.cpp/issues/1299",
+   "labels": [
+    "help wanted",
+    "model"
+   ],
+   "updatedAt": "2023-05-05T20:12:38Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #29466 by @4claps is already open against this issue",
+   "evidence": [
+    "https://github.com/ggml-org/llama.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/llama.cpp/issues/29466",
+    "https://github.com/ggml-org/llama.cpp/issues/24066"
+   ]
+  },
+  {
+   "number": 1714,
+   "title": "Support CoreML like whisper.cpp?",
+   "url": "https://github.com/ggml-org/llama.cpp/issues/1714",
+   "labels": [
+    "help wanted",
+    "performance",
+    "macos"
+   ],
+   "updatedAt": "2025-02-20T14:52:01Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "PR #266 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+5 more)",
+   "evidence": [
+    "https://github.com/ggml-org/llama.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/1bit-MONSTER/llama.cpp/pull/266",
+    "https://github.com/1bit-MONSTER/llama.cpp/pull/268",
+    "https://github.com/1bit-MONSTER/llama.cpp/pull/269",
+    "https://github.com/1bit-MONSTER/llama.cpp/pull/275",
+    "https://github.com/ggml-org/llama.cpp/issues/1714",
+    "https://github.com/ggml-org/llama.cpp/blob/HEAD/README.md",
+    "https://github.com/ggml-org/llama.cpp/wiki/Modules",
+    "https://github.com/ggml-org/llama.cpp/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 1865,
+   "title": "[IDEA] Global token enhancement/depression",
+   "url": "https://github.com/ggml-org/llama.cpp/issues/1865",
+   "labels": [
+    "help wanted",
+    "research 🔬"
+   ],
+   "updatedAt": "2023-06-17T10:12:22Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #31972 by @randomstuff is already open against this issue",
+   "evidence": [
+    "https://github.com/ggml-org/llama.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/llama.cpp/issues/31972"
+   ]
+  },
+  {
+   "number": 2164,
+   "title": "mpi : attempt inference of 65B LLaMA on a cluster of Raspberry Pis",
+   "url": "https://github.com/ggml-org/llama.cpp/issues/2164",
+   "labels": [
+    "help wanted",
+    "hardware",
+    "research 🔬"
+   ],
+   "updatedAt": "2025-11-29T12:50:33Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #2209 by @magnusviri is already open against this issue",
+   "evidence": [
+    "https://github.com/ggml-org/llama.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/llama.cpp/issues/2209"
+   ]
+  },
+  {
+   "number": 2209,
+   "title": "Using MPI w/ 65b model but each node uses the full RAM.",
+   "url": "https://github.com/ggml-org/llama.cpp/issues/2209",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2023-07-16T19:37:33Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #27428 by @kylebakerio is already open against this issue",
+   "evidence": [
+    "https://github.com/ggml-org/llama.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/llama.cpp/issues/27428"
+   ]
+  },
+  {
+   "number": 3294,
+   "title": "Request: Nougat OCR Integration",
+   "url": "https://github.com/ggml-org/llama.cpp/issues/3294",
+   "labels": [
+    "help wanted",
+    "model"
+   ],
+   "updatedAt": "2024-07-02T23:30:28Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/ggml-org/llama.cpp/wiki/Modules) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/ggml-org/llama.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/llama.cpp/issues/3294",
+    "https://github.com/ggml-org/llama.cpp/blob/HEAD/README.md",
+    "https://github.com/ggml-org/llama.cpp/wiki/Modules",
+    "https://github.com/ggml-org/llama.cpp/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 3628,
+   "title": "ci : fix Docker workflow",
+   "url": "https://github.com/ggml-org/llama.cpp/issues/3628",
+   "labels": [
+    "help wanted",
+    "build"
+   ],
+   "updatedAt": "2024-03-20T01:07:19Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "PR #4150 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+3 more)",
+   "evidence": [
+    "https://github.com/ggml-org/llama.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/llama.cpp/pull/4150",
+    "https://github.com/ggml-org/llama.cpp/pull/4603",
+    "https://github.com/ggml-org/llama.cpp/issues/3628",
+    "https://github.com/ggml-org/llama.cpp/blob/HEAD/README.md",
+    "https://github.com/ggml-org/llama.cpp/wiki/Modules",
+    "https://github.com/ggml-org/llama.cpp/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 3957,
+   "title": "GGUF endianness cannot be determined from GGUF itself",
+   "url": "https://github.com/ggml-org/llama.cpp/issues/3957",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "breaking change"
+   ],
+   "updatedAt": "2026-04-27T04:11:04Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "PR #540 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+4 more)",
+   "evidence": [
+    "https://github.com/ggml-org/llama.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/huggingface/huggingface.js/pull/540",
+    "https://github.com/huggingface/huggingface.js/pull/545",
+    "https://github.com/ggml-org/llama.cpp/issues/3957#issuecomment-4144152294",
+    "https://github.com/ggml-org/llama.cpp/issues/3957",
+    "https://github.com/ggml-org/llama.cpp/blob/HEAD/README.md",
+    "https://github.com/ggml-org/llama.cpp/wiki/Modules",
+    "https://github.com/ggml-org/llama.cpp/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 4574,
+   "title": "llama : integer type consistency in `llama.h`",
+   "url": "https://github.com/ggml-org/llama.cpp/issues/4574",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "refactoring",
+    "roadmap"
+   ],
+   "updatedAt": "2026-11-06T08:45:39Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #22277 by @Vladimirhoa is already open against this issue",
+   "evidence": [
+    "https://github.com/ggml-org/llama.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/llama.cpp/pull/22277",
+    "https://github.com/ggml-org/llama.cpp/pull/22440",
+    "https://github.com/ggml-org/llama.cpp/pull/25892",
+    "https://github.com/ggml-org/llama.cpp/pull/27125",
+    "https://github.com/ggml-org/llama.cpp/pull/4540",
+    "https://github.com/ggml-org/llama.cpp/pull/4577",
+    "https://github.com/ggml-org/llama.cpp/pull/28631"
+   ]
+  },
+  {
+   "number": 5276,
+   "title": "MiniCPM 2b model support?",
+   "url": "https://github.com/ggml-org/llama.cpp/issues/5276",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2024-04-23T08:21:55Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "PR #5346 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/ggml-org/llama.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/llama.cpp/pull/5346",
+    "https://github.com/ggml-org/llama.cpp/issues/5276",
+    "https://github.com/ggml-org/llama.cpp/blob/HEAD/README.md",
+    "https://github.com/ggml-org/llama.cpp/wiki/Modules",
+    "https://github.com/ggml-org/llama.cpp/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 5365,
+   "title": "Support for Sparse MoE models like Camelidae and Sparsetral",
+   "url": "https://github.com/ggml-org/llama.cpp/issues/5365",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2026-06-07T11:02:55Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #25971 by @nganhuongg is already open against this issue",
+   "evidence": [
+    "https://github.com/ggml-org/llama.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/llama.cpp/pull/25971"
+   ]
+  },
+  {
+   "number": 5765,
+   "title": "server : add \"token healing\" support",
+   "url": "https://github.com/ggml-org/llama.cpp/issues/5765",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "roadmap"
+   ],
+   "updatedAt": "2026-06-08T21:59:11Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #7187 by @mare5x is already open against this issue",
+   "evidence": [
+    "https://github.com/ggml-org/llama.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/llama.cpp/pull/7187",
+    "https://github.com/ggml-org/llama.cpp/pull/19238",
+    "https://github.com/auroralabs-loci/llama.cpp/pull/1116",
+    "https://github.com/ggml-org/llama.cpp/pull/24247"
+   ]
+  },
+  {
+   "number": 6259,
+   "title": "split: allow --split-max-size option",
+   "url": "https://github.com/ggml-org/llama.cpp/issues/6259",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "good first issue",
+    "split"
+   ],
+   "updatedAt": "2026-06-03T18:18:37Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #23374 by @Eram24 is already open against this issue",
+   "evidence": [
+    "https://github.com/ggml-org/llama.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/llama.cpp/pull/23374",
+    "https://github.com/ggml-org/llama.cpp/pull/6343"
+   ]
+  },
+  {
+   "number": 6268,
+   "title": "llama cpp server cant open to public",
+   "url": "https://github.com/ggml-org/llama.cpp/issues/6268",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "server"
+   ],
+   "updatedAt": "2026-09-06T04:17:25Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @Vithun06 67 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/ggml-org/llama.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/llama.cpp/issues/6268#issuecomment-5553202218",
+    "https://github.com/ggml-org/llama.cpp/issues/6268",
+    "https://github.com/ggml-org/llama.cpp/blob/HEAD/README.md",
+    "https://github.com/ggml-org/llama.cpp/wiki/Modules",
+    "https://github.com/ggml-org/llama.cpp/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 6506,
+   "title": "Question: How to generate an MPS gputrace",
+   "url": "https://github.com/ggml-org/llama.cpp/issues/6506",
+   "labels": [
+    "help wanted",
+    "high priority"
+   ],
+   "updatedAt": "2025-10-16T10:08:01Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/ggml-org/llama.cpp/wiki/Modules) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/ggml-org/llama.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/llama.cpp/issues/6506",
+    "https://github.com/ggml-org/llama.cpp/blob/HEAD/README.md",
+    "https://github.com/ggml-org/llama.cpp/wiki/Modules",
+    "https://github.com/ggml-org/llama.cpp/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 6546,
+   "title": "kubernetes example",
+   "url": "https://github.com/ggml-org/llama.cpp/issues/6546",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "kubernetes"
+   ],
+   "updatedAt": "2026-03-17T10:35:47Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "already assigned to @shenron0101",
+   "evidence": [
+    "https://github.com/ggml-org/llama.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/llama.cpp/pull/20212",
+    "https://github.com/ggml-org/llama.cpp/issues/6546",
+    "https://github.com/ggml-org/llama.cpp/issues/6546#issuecomment-2046285069"
+   ]
+  },
+  {
+   "number": 6717,
+   "title": "Inference not running when using a tokenizer with word model",
+   "url": "https://github.com/ggml-org/llama.cpp/issues/6717",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2024-05-27T07:26:22Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #30290 by @bappisinsane is already open against this issue",
+   "evidence": [
+    "https://github.com/ggml-org/llama.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/llama.cpp/pull/30290"
+   ]
+  },
+  {
+   "number": 6758,
+   "title": "ggml : add GPU support for Mamba models",
+   "url": "https://github.com/ggml-org/llama.cpp/issues/6758",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "Nvidia GPU",
+    "roadmap"
+   ],
+   "updatedAt": "2026-05-04T10:37:38Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "PR #7531 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+4 more)",
+   "evidence": [
+    "https://github.com/ggml-org/llama.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/llama.cpp/pull/7531",
+    "https://github.com/ggml-org/llama.cpp/pull/8546",
+    "https://github.com/ggml-org/llama.cpp/issues/6758#issuecomment-2510212975",
+    "https://github.com/ggml-org/llama.cpp/blob/HEAD/README.md",
+    "https://github.com/ggml-org/llama.cpp/wiki/Modules",
+    "https://github.com/ggml-org/llama.cpp/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 7559,
+   "title": "Refactor: Existing examples refactoring opportunities",
+   "url": "https://github.com/ggml-org/llama.cpp/issues/7559",
+   "labels": [
+    "help wanted",
+    "refactoring"
+   ],
+   "updatedAt": "2024-05-27T09:39:09Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "PR #7561 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+3 more)",
+   "evidence": [
+    "https://github.com/ggml-org/llama.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/llama.cpp/pull/7561",
+    "https://github.com/ggml-org/llama.cpp/issues/7559",
+    "https://github.com/ggml-org/llama.cpp/blob/HEAD/README.md",
+    "https://github.com/ggml-org/llama.cpp/wiki/Modules",
+    "https://github.com/ggml-org/llama.cpp/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 7772,
+   "title": "ggml : add DirectML backend",
+   "url": "https://github.com/ggml-org/llama.cpp/issues/7772",
+   "labels": [
+    "help wanted",
+    "research 🔬",
+    "roadmap"
+   ],
+   "updatedAt": "2026-02-25T09:20:33Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/ggml-org/llama.cpp/wiki/Modules) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/ggml-org/llama.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/llama.cpp/issues/7772",
+    "https://github.com/ggml-org/llama.cpp/blob/HEAD/README.md",
+    "https://github.com/ggml-org/llama.cpp/wiki/Modules",
+    "https://github.com/ggml-org/llama.cpp/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 8188,
+   "title": "Feature Request: Installable package via winget",
+   "url": "https://github.com/ggml-org/llama.cpp/issues/8188",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2026-08-21T08:35:26Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "PR #778 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+3 more)",
+   "evidence": [
+    "https://github.com/ggml-org/llama.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/huggingface/huggingface.js/pull/778",
+    "https://github.com/microsoft/winget-pkgs/pull/441696",
+    "https://github.com/ggml-org/llama.cpp/issues/8188",
+    "https://github.com/ggml-org/llama.cpp/blob/HEAD/README.md",
+    "https://github.com/ggml-org/llama.cpp/wiki/Modules",
+    "https://github.com/ggml-org/llama.cpp/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 9095,
+   "title": "Refactor: Add more typechecking to GGUFWriter.add_key_value",
+   "url": "https://github.com/ggml-org/llama.cpp/issues/9095",
+   "labels": [
+    "help wanted",
+    "refactoring"
+   ],
+   "updatedAt": "2026-06-09T05:59:32Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #20242 by @eyupcanakman is already open against this issue",
+   "evidence": [
+    "https://github.com/ggml-org/llama.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/llama.cpp/pull/20242",
+    "https://github.com/ggml-org/llama.cpp/pull/21244",
+    "https://github.com/ggml-org/llama.cpp/pull/21931"
+   ]
+  },
+  {
+   "number": 10453,
+   "title": "ggml : add ANE backend",
+   "url": "https://github.com/ggml-org/llama.cpp/issues/10453",
+   "labels": [
+    "help wanted",
+    "research 🔬",
+    "roadmap"
+   ],
+   "updatedAt": "2026-09-12T19:57:07Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/ggml-org/llama.cpp/wiki/Modules) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/ggml-org/llama.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/llama.cpp/issues/10453",
+    "https://github.com/ggml-org/llama.cpp/blob/HEAD/README.md",
+    "https://github.com/ggml-org/llama.cpp/wiki/Modules",
+    "https://github.com/ggml-org/llama.cpp/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 10685,
+   "title": "Feature Request: llama-server hot swapping cvectors via API like we can do with LoRA adapters now",
+   "url": "https://github.com/ggml-org/llama.cpp/issues/10685",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2026-06-24T23:47:51Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #24740 by @aliceyh7 is already open against this issue",
+   "evidence": [
+    "https://github.com/ggml-org/llama.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/llama.cpp/pull/24740",
+    "https://github.com/aliceyh7/su26-ai301-contribution/pull/1"
+   ]
+  },
+  {
+   "number": 10747,
+   "title": "Compile bug: ios swift xcode build error when upgrade to llama : use cmake for swift build ",
+   "url": "https://github.com/ggml-org/llama.cpp/issues/10747",
+   "labels": [
+    "help wanted",
+    "good first issue",
+    "build"
+   ],
+   "updatedAt": "2025-03-21T15:58:29Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "PR #10525 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+3 more)",
+   "evidence": [
+    "https://github.com/ggml-org/llama.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/llama.cpp/pull/10525",
+    "https://github.com/ggml-org/llama.cpp/pull/11996",
+    "https://github.com/ggml-org/llama.cpp/issues/10747",
+    "https://github.com/ggml-org/llama.cpp/blob/HEAD/README.md",
+    "https://github.com/ggml-org/llama.cpp/wiki/Modules",
+    "https://github.com/ggml-org/llama.cpp/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 12476,
+   "title": "tts : add support for Orpheus",
+   "url": "https://github.com/ggml-org/llama.cpp/issues/12476",
+   "labels": [
+    "good first issue",
+    "tts"
+   ],
+   "updatedAt": "2026-08-17T16:52:09Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #12487 by @jsrgb is already open against this issue",
+   "evidence": [
+    "https://github.com/ggml-org/llama.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/llama.cpp/pull/12487"
+   ]
+  },
+  {
+   "number": 13523,
+   "title": "tutorials : list for llama.cpp",
+   "url": "https://github.com/ggml-org/llama.cpp/issues/13523",
+   "labels": [
+    "help wanted",
+    "good first issue",
+    "roadmap"
+   ],
+   "updatedAt": "2026-09-01T11:25:05Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #24197 by @Wenjunyun123 is already open against this issue",
+   "evidence": [
+    "https://github.com/ggml-org/llama.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/llama.cpp/pull/24197",
+    "https://github.com/ggml-org/llama.cpp/pull/25068",
+    "https://github.com/ggml-org/llama.cpp/pull/25798",
+    "https://github.com/ggml-org/llama.cpp/pull/25799",
+    "https://github.com/ggml-org/llama.cpp/pull/14363"
+   ]
+  },
+  {
+   "number": 14909,
+   "title": "Feature Request: Implement missing ops from backends",
+   "url": "https://github.com/ggml-org/llama.cpp/issues/14909",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2026-10-30T03:47:58Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #819 by @loci-dev is already open against this issue",
+   "evidence": [
+    "https://github.com/ggml-org/llama.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/auroralabs-loci/llama.cpp/pull/819",
+    "https://github.com/auroralabs-loci/llama.cpp/pull/877",
+    "https://github.com/ggml-org/llama.cpp/pull/18878",
+    "https://github.com/ggml-org/llama.cpp/pull/14919",
+    "https://github.com/ggml-org/llama.cpp/pull/15635",
+    "https://github.com/ggml-org/llama.cpp/pull/16529",
+    "https://github.com/ggml-org/llama.cpp/pull/16542",
+    "https://github.com/ggml-org/llama.cpp/pull/16917",
+    "https://github.com/ggml-org/llama.cpp/pull/16936"
+   ]
+  },
+  {
+   "number": 17387,
+   "title": "Eval bug: llama server response hangs for /slots/0?action=erase",
+   "url": "https://github.com/ggml-org/llama.cpp/issues/17387",
+   "labels": [
+    "bug",
+    "help wanted",
+    "server/api",
+    "medium severity"
+   ],
+   "updatedAt": "2025-11-26T07:34:24Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "PR #17513 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/ggml-org/llama.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/llama.cpp/pull/17513",
+    "https://github.com/ggml-org/llama.cpp/issues/17387",
+    "https://github.com/ggml-org/llama.cpp/blob/HEAD/README.md",
+    "https://github.com/ggml-org/llama.cpp/wiki/Modules",
+    "https://github.com/ggml-org/llama.cpp/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 17488,
+   "title": "GGUF convert support for Vibevoice",
+   "url": "https://github.com/ggml-org/llama.cpp/issues/17488",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "good first issue",
+    "model",
+    "3rd party",
+    "tts"
+   ],
+   "updatedAt": "2026-10-23T09:11:07Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #30530 by @virg1n is already open against this issue",
+   "evidence": [
+    "https://github.com/ggml-org/llama.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/llama.cpp/pull/30530"
+   ]
+  },
+  {
+   "number": 17611,
+   "title": "Eval bug: wrong default threads in llama-bench",
+   "url": "https://github.com/ggml-org/llama.cpp/issues/17611",
+   "labels": [
+    "good first issue",
+    "performance",
+    "low severity"
+   ],
+   "updatedAt": "2026-11-02T05:17:10Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #19971 by @hobostay is already open against this issue",
+   "evidence": [
+    "https://github.com/ggml-org/llama.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/llama.cpp/pull/19971",
+    "https://github.com/ggml-org/llama.cpp/pull/23905",
+    "https://github.com/ggml-org/llama.cpp/pull/25261",
+    "https://github.com/ggml-org/llama.cpp/pull/27031",
+    "https://github.com/ggml-org/llama.cpp/pull/29301",
+    "https://github.com/ggml-org/llama.cpp/pull/31981"
+   ]
+  },
+  {
+   "number": 17861,
+   "title": "Feature Request: support the  multi-modal Bagel model",
+   "url": "https://github.com/ggml-org/llama.cpp/issues/17861",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "model",
+    "Review Complexity : High",
+    "mtmd"
+   ],
+   "updatedAt": "2026-10-25T21:42:54Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @LeonxLJX 72 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/ggml-org/llama.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/llama.cpp/issues/17861#issuecomment-5492563755",
+    "https://github.com/ggml-org/llama.cpp/issues/17861",
+    "https://github.com/ggml-org/llama.cpp/blob/HEAD/README.md",
+    "https://github.com/ggml-org/llama.cpp/wiki/Modules",
+    "https://github.com/ggml-org/llama.cpp/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 18499,
+   "title": "Misc. bug: llama-finetune won't work even with 17M parameters arch:llama",
+   "url": "https://github.com/ggml-org/llama.cpp/issues/18499",
+   "labels": [
+    "bug",
+    "help wanted",
+    "Review Complexity : High"
+   ],
+   "updatedAt": "2026-09-01T11:24:54Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #21924 by @System64fumo is already open against this issue",
+   "evidence": [
+    "https://github.com/ggml-org/llama.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/llama.cpp/pull/21924"
+   ]
+  },
+  {
+   "number": 27102,
+   "title": "Eval bug: CUDA kernel stall during model execution, killed by watchdog",
+   "url": "https://github.com/ggml-org/llama.cpp/issues/27102",
+   "labels": [
+    "bug",
+    "help wanted",
+    "Nvidia GPU"
+   ],
+   "updatedAt": "2026-08-26T09:20:15Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "already assigned to @ORippler",
+   "evidence": [
+    "https://github.com/ggml-org/llama.cpp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ggml-org/llama.cpp/pull/26574",
+    "https://github.com/ggml-org/llama.cpp/issues/27102"
+   ]
+  }
+ ]
+}

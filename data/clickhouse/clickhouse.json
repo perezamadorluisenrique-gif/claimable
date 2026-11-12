@@ -1,0 +1,307 @@
+{
+ "owner": "ClickHouse",
+ "repo": "ClickHouse",
+ "language": "C++",
+ "stars": 50862,
+ "description": "ClickHouse® is a real-time analytics database management system",
+ "visitedAt": "2026-11-12T03:03:40.195Z",
+ "issues": [
+  {
+   "number": 2434,
+   "title": "Clickhouse get lost when multiple CH instances are running on the same host",
+   "url": "https://github.com/ClickHouse/ClickHouse/issues/2434",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "minor",
+    "comp-distributed",
+    "external"
+   ],
+   "updatedAt": "2026-11-02T11:42:19Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #123078 by @clickgapai is already open against this issue",
+   "evidence": [
+    "https://github.com/ClickHouse/ClickHouse/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ClickHouse/ClickHouse/issues/123078",
+    "https://github.com/ClickHouse/ClickHouse/issues/78213"
+   ]
+  },
+  {
+   "number": 6743,
+   "title": "verbose mode partition commands with wrong partition identifier",
+   "url": "https://github.com/ClickHouse/ClickHouse/issues/6743",
+   "labels": [
+    "help wanted",
+    "feature",
+    "easy task",
+    "usability",
+    "operations",
+    "comp-mergetree",
+    "external"
+   ],
+   "updatedAt": "2026-09-11T20:10:39Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #129769 by @a-kash-singh is already open against this issue",
+   "evidence": [
+    "https://github.com/ClickHouse/ClickHouse/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ClickHouse/ClickHouse/pull/129769"
+   ]
+  },
+  {
+   "number": 6808,
+   "title": "Add function to check if an IPv4/6 is in a list of subnets",
+   "url": "https://github.com/ClickHouse/ClickHouse/issues/6808",
+   "labels": [
+    "help wanted",
+    "feature",
+    "comp-regular-function",
+    "external"
+   ],
+   "updatedAt": "2026-09-11T20:10:31Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/ClickHouse/ClickHouse/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ClickHouse/ClickHouse/issues/6808",
+    "https://github.com/ClickHouse/ClickHouse/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/ClickHouse/ClickHouse/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 8676,
+   "title": "Default cluster for distributed DDL",
+   "url": "https://github.com/ClickHouse/ClickHouse/issues/8676",
+   "labels": [
+    "help wanted",
+    "feature",
+    "easy task",
+    "comp-ddl"
+   ],
+   "updatedAt": "2026-09-04T10:07:13Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/ClickHouse/ClickHouse/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ClickHouse/ClickHouse/issues/8676",
+    "https://github.com/ClickHouse/ClickHouse/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/ClickHouse/ClickHouse/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 10296,
+   "title": "Add ClickHouse test to PerfKitBenchmarker",
+   "url": "https://github.com/ClickHouse/ClickHouse/issues/10296",
+   "labels": [
+    "help wanted",
+    "feature",
+    "comp-ci-infrastructure"
+   ],
+   "updatedAt": "2026-09-04T14:58:05Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/ClickHouse/ClickHouse/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ClickHouse/ClickHouse/issues/10296",
+    "https://github.com/ClickHouse/ClickHouse/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/ClickHouse/ClickHouse/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 17795,
+   "title": "Optimize search in pre-ordered arrays",
+   "url": "https://github.com/ClickHouse/ClickHouse/issues/17795",
+   "labels": [
+    "help wanted",
+    "feature",
+    "comp-regular-function",
+    "external"
+   ],
+   "updatedAt": "2026-09-11T18:06:51Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #124390 by @fallintoplace is already open against this issue",
+   "evidence": [
+    "https://github.com/ClickHouse/ClickHouse/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ClickHouse/ClickHouse/pull/124390",
+    "https://github.com/ClickHouse/ClickHouse/pull/72517"
+   ]
+  },
+  {
+   "number": 23858,
+   "title": "Decrease the logging level for health checks",
+   "url": "https://github.com/ClickHouse/ClickHouse/issues/23858",
+   "labels": [
+    "help wanted",
+    "feature",
+    "usability",
+    "minor",
+    "comp-logging",
+    "external"
+   ],
+   "updatedAt": "2026-09-11T18:04:38Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #5183 by @citrin is already open against this issue",
+   "evidence": [
+    "https://github.com/ClickHouse/ClickHouse/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ClickHouse/ClickHouse/issues/5183"
+   ]
+  },
+  {
+   "number": 27668,
+   "title": "Types of expressions over SimpleAggregateFunctions are inconsistent.",
+   "url": "https://github.com/ClickHouse/ClickHouse/issues/27668",
+   "labels": [
+    "help wanted",
+    "unexpected behaviour",
+    "comp-aggregate-functions",
+    "external"
+   ],
+   "updatedAt": "2026-09-11T18:02:34Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/ClickHouse/ClickHouse/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ClickHouse/ClickHouse/issues/27668",
+    "https://github.com/ClickHouse/ClickHouse/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/ClickHouse/ClickHouse/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 30600,
+   "title": "Add `url` function to SQL",
+   "url": "https://github.com/ClickHouse/ClickHouse/issues/30600",
+   "labels": [
+    "help wanted",
+    "feature",
+    "minor",
+    "comp-regular-function"
+   ],
+   "updatedAt": "2026-09-04T10:11:51Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "open 62 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say",
+   "evidence": [
+    "https://github.com/ClickHouse/ClickHouse/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ClickHouse/ClickHouse/issues/30600",
+    "https://github.com/ClickHouse/ClickHouse/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/ClickHouse/ClickHouse/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 31468,
+   "title": "close rpc call in native protocol",
+   "url": "https://github.com/ClickHouse/ClickHouse/issues/31468",
+   "labels": [
+    "help wanted",
+    "feature",
+    "easy task",
+    "comp-protocols",
+    "external"
+   ],
+   "updatedAt": "2026-09-11T17:59:12Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/ClickHouse/ClickHouse/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ClickHouse/ClickHouse/issues/31468",
+    "https://github.com/ClickHouse/ClickHouse/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/ClickHouse/ClickHouse/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 37939,
+   "title": "gcs : The request signature we calculated does not match the signature you provided",
+   "url": "https://github.com/ClickHouse/ClickHouse/issues/37939",
+   "labels": [
+    "help wanted",
+    "unexpected behaviour",
+    "comp-table-functions",
+    "external"
+   ],
+   "updatedAt": "2026-09-11T17:14:00Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/ClickHouse/ClickHouse/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ClickHouse/ClickHouse/issues/37939",
+    "https://github.com/ClickHouse/ClickHouse/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/ClickHouse/ClickHouse/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 40702,
+   "title": "topKWeighted should support floating point weight as other *Weighted functions",
+   "url": "https://github.com/ClickHouse/ClickHouse/issues/40702",
+   "labels": [
+    "help wanted",
+    "unexpected behaviour",
+    "comp-aggregate-functions",
+    "external"
+   ],
+   "updatedAt": "2026-09-11T16:39:33Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @itz-puneet 66 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting",
+   "evidence": [
+    "https://github.com/ClickHouse/ClickHouse/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ClickHouse/ClickHouse/issues/40702#issuecomment-5561212400",
+    "https://github.com/ClickHouse/ClickHouse/issues/40702",
+    "https://github.com/ClickHouse/ClickHouse/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/ClickHouse/ClickHouse/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 41007,
+   "title": "`dictEvict` or `dictExpire` command for cached dictionaries.",
+   "url": "https://github.com/ClickHouse/ClickHouse/issues/41007",
+   "labels": [
+    "help wanted",
+    "feature",
+    "comp-dictionary",
+    "minor",
+    "external"
+   ],
+   "updatedAt": "2026-09-11T16:39:12Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "discard",
+   "reason": "PR #55846 by @mbtolou is already open against this issue",
+   "evidence": [
+    "https://github.com/ClickHouse/ClickHouse/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ClickHouse/ClickHouse/issues/55846"
+   ]
+  },
+  {
+   "number": 41671,
+   "title": "Select asterisk from table with only several column granted not throw an exception",
+   "url": "https://github.com/ClickHouse/ClickHouse/issues/41671",
+   "labels": [
+    "help wanted",
+    "feature",
+    "minor",
+    "comp-rbac",
+    "warmup task",
+    "external"
+   ],
+   "updatedAt": "2026-09-11T16:38:31Z",
+   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "verdict": "reservations",
+   "reason": "2 stale claims, the most recent by @kaijaytu 101 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting",
+   "evidence": [
+    "https://github.com/ClickHouse/ClickHouse/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ClickHouse/ClickHouse/issues/41671#issuecomment-5164981328",
+    "https://github.com/ClickHouse/ClickHouse/issues/41671",
+    "https://github.com/ClickHouse/ClickHouse/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/ClickHouse/ClickHouse/blob/HEAD/AGENTS.md"
+   ]
+  }
+ ]
+}
