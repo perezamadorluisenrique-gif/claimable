@@ -1,0 +1,1673 @@
+{
+ "owner": "matomo-org",
+ "repo": "matomo",
+ "language": "PHP",
+ "stars": 22020,
+ "description": "Empowering People Ethically 🚀 — Matomo is hiring! Join us → https://matomo.org/jobs Matomo is the leading open-source alternative to Google Analytics, giving you complete control and built-in privacy",
+ "visitedAt": "2026-11-13T01:07:25.191Z",
+ "issues": [
+  {
+   "number": 2860,
+   "title": "Email reports to support \"Yearly\" reports",
+   "url": "https://github.com/matomo-org/matomo/issues/2860",
+   "labels": [
+    "Enhancement",
+    "Help wanted",
+    "c: Email Reports",
+    "c: Dates & Calendar"
+   ],
+   "updatedAt": "2024-09-13T09:12:52Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #2012 by @mattab is already open against this issue",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/2012"
+   ]
+  },
+  {
+   "number": 3580,
+   "title": "Add links to Piwik Videos from inline help",
+   "url": "https://github.com/matomo-org/matomo/issues/3580",
+   "labels": [
+    "Task",
+    "Help wanted",
+    "c: Usability"
+   ],
+   "updatedAt": "2024-09-13T09:12:26Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/3580"
+   ]
+  },
+  {
+   "number": 4108,
+   "title": "Real time widget: display local time of visitors in tooltip",
+   "url": "https://github.com/matomo-org/matomo/issues/4108",
+   "labels": [
+    "Enhancement",
+    "Help wanted"
+   ],
+   "updatedAt": "2024-09-13T09:11:50Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #25134 by @tsteur is already open against this issue",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/25134"
+   ]
+  },
+  {
+   "number": 4339,
+   "title": "Check that visitors from google drive and other google sub sites are not counted as google search",
+   "url": "https://github.com/matomo-org/matomo/issues/4339",
+   "labels": [
+    "Task",
+    "Help wanted"
+   ],
+   "updatedAt": "2024-09-13T09:11:37Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "open 158 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/4339"
+   ]
+  },
+  {
+   "number": 4468,
+   "title": "when &gclid= parameter found, mark visitor as Adwords",
+   "url": "https://github.com/matomo-org/matomo/issues/4468",
+   "labels": [
+    "Enhancement",
+    "Help wanted"
+   ],
+   "updatedAt": "2024-09-13T09:11:29Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #9837 by @peterbo is already open against this issue",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/9837"
+   ]
+  },
+  {
+   "number": 5206,
+   "title": "Configurable \"Rows to display\" for evolutionLimits",
+   "url": "https://github.com/matomo-org/matomo/issues/5206",
+   "labels": [
+    "Enhancement",
+    "Help wanted"
+   ],
+   "updatedAt": "2024-01-03T05:04:06Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/5206"
+   ]
+  },
+  {
+   "number": 5810,
+   "title": "add bug reporting feature to help page",
+   "url": "https://github.com/matomo-org/matomo/issues/5810",
+   "labels": [
+    "Enhancement",
+    "Help wanted"
+   ],
+   "updatedAt": "2024-09-13T09:10:03Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/5810"
+   ]
+  },
+  {
+   "number": 5908,
+   "title": "Add more default dashboards or add a plugin to the Marketplace that provides further dashboards",
+   "url": "https://github.com/matomo-org/matomo/issues/5908",
+   "labels": [
+    "Enhancement",
+    "Help wanted"
+   ],
+   "updatedAt": "2024-09-13T09:09:51Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #16026 by @ghost is already open against this issue",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/16026"
+   ]
+  },
+  {
+   "number": 5959,
+   "title": "Use machine learning to create better insights",
+   "url": "https://github.com/matomo-org/matomo/issues/5959",
+   "labels": [
+    "Enhancement",
+    "Help wanted"
+   ],
+   "updatedAt": "2024-09-13T09:09:43Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/5959"
+   ]
+  },
+  {
+   "number": 6173,
+   "title": "Create a Privacy Seal ",
+   "url": "https://github.com/matomo-org/matomo/issues/6173",
+   "labels": [
+    "Enhancement",
+    "Help wanted",
+    "c: Privacy",
+    "triaged"
+   ],
+   "updatedAt": "2024-07-29T20:38:15Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/6173"
+   ]
+  },
+  {
+   "number": 7060,
+   "title": "IP::getNonProxyIpFromHeader retrieves final proxy instead of client",
+   "url": "https://github.com/matomo-org/matomo/issues/7060",
+   "labels": [
+    "Bug",
+    "Help wanted"
+   ],
+   "updatedAt": "2025-02-11T08:25:40Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #25431 by @bupt-Yy-young is already open against this issue",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/25431"
+   ]
+  },
+  {
+   "number": 7225,
+   "title": "Change piwik's favicon (piwik installation) VS piwik.org",
+   "url": "https://github.com/matomo-org/matomo/issues/7225",
+   "labels": [
+    "Task",
+    "Help wanted",
+    "c: Usability",
+    "c: Design / UI"
+   ],
+   "updatedAt": "2024-09-13T09:07:14Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/7225"
+   ]
+  },
+  {
+   "number": 7308,
+   "title": "Improve Exported file names ",
+   "url": "https://github.com/matomo-org/matomo/issues/7308",
+   "labels": [
+    "Enhancement",
+    "Help wanted"
+   ],
+   "updatedAt": "2024-09-13T09:07:04Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/7308"
+   ]
+  },
+  {
+   "number": 7608,
+   "title": "tiny: visitor profile: linebreak between value and unit",
+   "url": "https://github.com/matomo-org/matomo/issues/7608",
+   "labels": [
+    "Task",
+    "Help wanted",
+    "c: Design / UI"
+   ],
+   "updatedAt": "2024-09-13T09:06:28Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/7608"
+   ]
+  },
+  {
+   "number": 7978,
+   "title": "Excluded User Agent still tracked",
+   "url": "https://github.com/matomo-org/matomo/issues/7978",
+   "labels": [
+    "Help wanted",
+    "c: Usability"
+   ],
+   "updatedAt": "2024-09-13T09:05:58Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/7978"
+   ]
+  },
+  {
+   "number": 8911,
+   "title": "Visitor profile summary: avarage time on each page",
+   "url": "https://github.com/matomo-org/matomo/issues/8911",
+   "labels": [
+    "Enhancement",
+    "Help wanted"
+   ],
+   "updatedAt": "2024-09-13T09:04:47Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/8911"
+   ]
+  },
+  {
+   "number": 9108,
+   "title": "Better naming for \"Continue to Piwik\" in Database upgrade screen",
+   "url": "https://github.com/matomo-org/matomo/issues/9108",
+   "labels": [
+    "Help wanted",
+    "c: Usability"
+   ],
+   "updatedAt": "2024-09-13T09:04:30Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/9108"
+   ]
+  },
+  {
+   "number": 9347,
+   "title": "Improve print version of Piwik ",
+   "url": "https://github.com/matomo-org/matomo/issues/9347",
+   "labels": [
+    "Enhancement",
+    "Help wanted",
+    "c: Usability",
+    "c: Design / UI"
+   ],
+   "updatedAt": "2024-09-13T09:03:59Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "PR #12447 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/pull/12447",
+    "https://github.com/matomo-org/matomo/issues/9347"
+   ]
+  },
+  {
+   "number": 9569,
+   "title": "Not clear how to switch theme or how to use initial theme again",
+   "url": "https://github.com/matomo-org/matomo/issues/9569",
+   "labels": [
+    "Help wanted",
+    "c: Usability",
+    "c: Onboarding"
+   ],
+   "updatedAt": "2026-03-13T08:44:31Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #9595 by @tsteur is already open against this issue",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/9595"
+   ]
+  },
+  {
+   "number": 9619,
+   "title": "New FAQ: How do I force my website visitors browsers to download the recently updated piwik.js?",
+   "url": "https://github.com/matomo-org/matomo/issues/9619",
+   "labels": [
+    "c: Website matomo.org",
+    "Help wanted"
+   ],
+   "updatedAt": "2024-09-13T09:03:35Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/9619"
+   ]
+  },
+  {
+   "number": 9702,
+   "title": "visitor profile: show list of all cities",
+   "url": "https://github.com/matomo-org/matomo/issues/9702",
+   "labels": [
+    "Enhancement",
+    "Help wanted",
+    "c: Usability"
+   ],
+   "updatedAt": "2024-09-13T09:03:28Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #9507 by @hpvd is already open against this issue",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/9507",
+    "https://github.com/matomo-org/matomo/issues/9834",
+    "https://github.com/matomo-org/matomo/issues/9707"
+   ]
+  },
+  {
+   "number": 9707,
+   "title": "vistor profile: show all Referrers",
+   "url": "https://github.com/matomo-org/matomo/issues/9707",
+   "labels": [
+    "Enhancement",
+    "Help wanted",
+    "c: Usability"
+   ],
+   "updatedAt": "2024-09-13T09:03:27Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #9731 by @hpvd is already open against this issue",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/9731",
+    "https://github.com/matomo-org/matomo/issues/9507"
+   ]
+  },
+  {
+   "number": 9776,
+   "title": "When tracking code is put in <head>, add a note that fallback noscript should be put in body",
+   "url": "https://github.com/matomo-org/matomo/issues/9776",
+   "labels": [
+    "Help wanted"
+   ],
+   "updatedAt": "2024-09-13T09:03:17Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #9 by @ghost is already open against this issue",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/strugee/gplenforced.org/pull/9"
+   ]
+  },
+  {
+   "number": 9823,
+   "title": "Site Search always loggs with results",
+   "url": "https://github.com/matomo-org/matomo/issues/9823",
+   "labels": [
+    "Help wanted",
+    "c: Usability"
+   ],
+   "updatedAt": "2024-09-13T09:03:12Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/9823"
+   ]
+  },
+  {
+   "number": 9849,
+   "title": "Starting the archiver via HTTPS fails with self signed certificate ",
+   "url": "https://github.com/matomo-org/matomo/issues/9849",
+   "labels": [
+    "Enhancement",
+    "Help wanted"
+   ],
+   "updatedAt": "2024-09-13T09:03:07Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/9849"
+   ]
+  },
+  {
+   "number": 9882,
+   "title": "API: Return orderId in get goal items by SKU",
+   "url": "https://github.com/matomo-org/matomo/issues/9882",
+   "labels": [
+    "Enhancement",
+    "Help wanted"
+   ],
+   "updatedAt": "2024-09-13T09:03:04Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/9882"
+   ]
+  },
+  {
+   "number": 10008,
+   "title": "Delete data with specific hours ",
+   "url": "https://github.com/matomo-org/matomo/issues/10008",
+   "labels": [
+    "Enhancement",
+    "Help wanted"
+   ],
+   "updatedAt": "2024-09-13T09:02:49Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/10008"
+   ]
+  },
+  {
+   "number": 10048,
+   "title": "Add new API methods UserCountry.getNumberOfDistinctContinents and UserCountry.getNumberOfDistinctRegions ",
+   "url": "https://github.com/matomo-org/matomo/issues/10048",
+   "labels": [
+    "Enhancement",
+    "Help wanted"
+   ],
+   "updatedAt": "2024-09-13T09:02:48Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/10048"
+   ]
+  },
+  {
+   "number": 10059,
+   "title": "Auto-generate goal tracking JS for each goal",
+   "url": "https://github.com/matomo-org/matomo/issues/10059",
+   "labels": [
+    "Enhancement",
+    "Help wanted",
+    "c: Usability",
+    "c: Onboarding",
+    "c: Tracking"
+   ],
+   "updatedAt": "2024-09-13T09:02:45Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/10059"
+   ]
+  },
+  {
+   "number": 10116,
+   "title": "Allow disable and configure the 'cdt' ignore mechanisme ",
+   "url": "https://github.com/matomo-org/matomo/issues/10116",
+   "labels": [
+    "Enhancement",
+    "Help wanted"
+   ],
+   "updatedAt": "2024-09-13T09:02:43Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/10116"
+   ]
+  },
+  {
+   "number": 10131,
+   "title": "Buttons should have vertical spacing",
+   "url": "https://github.com/matomo-org/matomo/issues/10131",
+   "labels": [
+    "Bug",
+    "Help wanted",
+    "c: Design / UI"
+   ],
+   "updatedAt": "2024-09-13T09:02:40Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/10131"
+   ]
+  },
+  {
+   "number": 10159,
+   "title": "Disabling period \"range\" in enabled_periods_API causes segment value suggestions to fail",
+   "url": "https://github.com/matomo-org/matomo/issues/10159",
+   "labels": [
+    "Bug",
+    "Help wanted",
+    "triaged"
+   ],
+   "updatedAt": "2025-08-27T04:38:45Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/10159"
+   ]
+  },
+  {
+   "number": 10208,
+   "title": "Add \"export widget\" to export links in data tables (footer)",
+   "url": "https://github.com/matomo-org/matomo/issues/10208",
+   "labels": [
+    "Enhancement",
+    "Help wanted",
+    "c: Usability",
+    "c: Consistent Reports & Analytics UX"
+   ],
+   "updatedAt": "2024-09-13T10:56:53Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "PR #11958 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/pull/11958",
+    "https://github.com/matomo-org/matomo/issues/10208"
+   ]
+  },
+  {
+   "number": 10298,
+   "title": "show always same number of decimal digits - even if \"0\"",
+   "url": "https://github.com/matomo-org/matomo/issues/10298",
+   "labels": [
+    "Help wanted",
+    "c: Usability",
+    "c: Consistent Reports & Analytics UX"
+   ],
+   "updatedAt": "2024-09-13T10:56:56Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #25474 by @snake14 is already open against this issue",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/25474"
+   ]
+  },
+  {
+   "number": 10325,
+   "title": "ecommerce/products: rename \"visits\" metric to \"unique pageviews\"",
+   "url": "https://github.com/matomo-org/matomo/issues/10325",
+   "labels": [
+    "Enhancement",
+    "Help wanted",
+    "c: Usability",
+    "c: Ecommerce",
+    "c: Consistent Reports & Analytics UX"
+   ],
+   "updatedAt": "2024-09-13T10:56:57Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/10325"
+   ]
+  },
+  {
+   "number": 10727,
+   "title": "Enhance explanation on how to exclude traffic.",
+   "url": "https://github.com/matomo-org/matomo/issues/10727",
+   "labels": [
+    "Help wanted",
+    "c: Usability",
+    "c: Documentation"
+   ],
+   "updatedAt": "2023-12-10T12:04:33Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "PR #12450 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/pull/12450",
+    "https://github.com/matomo-org/matomo/issues/10727"
+   ]
+  },
+  {
+   "number": 10837,
+   "title": "use singular and plural - e.g. in visitor log",
+   "url": "https://github.com/matomo-org/matomo/issues/10837",
+   "labels": [
+    "Help wanted",
+    "c: Usability"
+   ],
+   "updatedAt": "2024-01-03T05:04:16Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "open 122 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/10837"
+   ]
+  },
+  {
+   "number": 11261,
+   "title": "Segments | Improve geographical segmentations: Continent & Regions segment are not clear",
+   "url": "https://github.com/matomo-org/matomo/issues/11261",
+   "labels": [
+    "Help wanted",
+    "c: Usability",
+    "c: Segments"
+   ],
+   "updatedAt": "2026-06-22T17:34:01Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #7428 by @sgiehl is already open against this issue",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/7428"
+   ]
+  },
+  {
+   "number": 11319,
+   "title": "User country map: allow to zoom in countries when no clickable area",
+   "url": "https://github.com/matomo-org/matomo/issues/11319",
+   "labels": [
+    "Bug",
+    "Help wanted",
+    "c: Usability"
+   ],
+   "updatedAt": "2026-10-01T05:31:39Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/11319"
+   ]
+  },
+  {
+   "number": 11796,
+   "title": "E-Mail addresses with special characters are not working",
+   "url": "https://github.com/matomo-org/matomo/issues/11796",
+   "labels": [
+    "Bug",
+    "Help wanted"
+   ],
+   "updatedAt": "2022-08-30T09:32:55Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/11796"
+   ]
+  },
+  {
+   "number": 12418,
+   "title": "Page Overlay doesn't work with www.*",
+   "url": "https://github.com/matomo-org/matomo/issues/12418",
+   "labels": [
+    "Bug",
+    "Help wanted",
+    "c: Usability",
+    "c: Tracking",
+    "c: Data Integrity & Accuracy"
+   ],
+   "updatedAt": "2024-09-13T10:57:26Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #17299 by @utrautmann is already open against this issue",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/17299"
+   ]
+  },
+  {
+   "number": 12453,
+   "title": "Dashboard drag and drop",
+   "url": "https://github.com/matomo-org/matomo/issues/12453",
+   "labels": [
+    "Enhancement",
+    "Help wanted"
+   ],
+   "updatedAt": "2026-03-12T09:03:46Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #21066 by @rcontiuk is already open against this issue",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/21066"
+   ]
+  },
+  {
+   "number": 12663,
+   "title": "Add CSS lineHeight URL parameter for out-out frame",
+   "url": "https://github.com/matomo-org/matomo/issues/12663",
+   "labels": [
+    "Help wanted",
+    "c: Design / UI"
+   ],
+   "updatedAt": "2024-01-03T05:05:30Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "open 105 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/12663"
+   ]
+  },
+  {
+   "number": 12703,
+   "title": "Custom logo with transparent background shows up white in the PDF reports",
+   "url": "https://github.com/matomo-org/matomo/issues/12703",
+   "labels": [
+    "Bug",
+    "Help wanted",
+    "c: Design / UI"
+   ],
+   "updatedAt": "2024-01-03T05:05:35Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "open 105 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/12703"
+   ]
+  },
+  {
+   "number": 12801,
+   "title": "Diagnostic to check tracking code is installed on target website",
+   "url": "https://github.com/matomo-org/matomo/issues/12801",
+   "labels": [
+    "Help wanted",
+    "c: Onboarding"
+   ],
+   "updatedAt": "2024-01-03T05:05:39Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "PR #12799 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/pull/12799",
+    "https://github.com/matomo-org/matomo/issues/12801"
+   ]
+  },
+  {
+   "number": 12820,
+   "title": "Integrity Check of coreUpdater is behaving odd",
+   "url": "https://github.com/matomo-org/matomo/issues/12820",
+   "labels": [
+    "Help wanted",
+    "c: Design / UI"
+   ],
+   "updatedAt": "2024-01-03T05:05:42Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "open 104 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/12820"
+   ]
+  },
+  {
+   "number": 12934,
+   "title": "Plugins Directory Permissions Notification Persists after Fixing",
+   "url": "https://github.com/matomo-org/matomo/issues/12934",
+   "labels": [
+    "Bug",
+    "Help wanted"
+   ],
+   "updatedAt": "2024-09-13T09:00:29Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/12934"
+   ]
+  },
+  {
+   "number": 13203,
+   "title": "Rename Goals by dimension category \"by Location\"",
+   "url": "https://github.com/matomo-org/matomo/issues/13203",
+   "labels": [
+    "Enhancement",
+    "Help wanted"
+   ],
+   "updatedAt": "2024-01-03T05:06:02Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "open 101 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/13203"
+   ]
+  },
+  {
+   "number": 13354,
+   "title": "[New Diagnostic] Check free disk space in cache directory",
+   "url": "https://github.com/matomo-org/matomo/issues/13354",
+   "labels": [
+    "Enhancement",
+    "Help wanted"
+   ],
+   "updatedAt": "2024-01-03T05:06:10Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "open 100 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/13354"
+   ]
+  },
+  {
+   "number": 13400,
+   "title": "Acquisition:Social Networks:Expand  long links breaks the UI",
+   "url": "https://github.com/matomo-org/matomo/issues/13400",
+   "labels": [
+    "Help wanted",
+    "c: Design / UI"
+   ],
+   "updatedAt": "2024-01-03T05:06:16Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @plaffitt 2593 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/13400#issuecomment-539497954",
+    "https://github.com/matomo-org/matomo/issues/13400"
+   ]
+  },
+  {
+   "number": 14219,
+   "title": "Enabling SQL profiler on Response should be by setting enable_sql_profiler and not by debug",
+   "url": "https://github.com/matomo-org/matomo/issues/14219",
+   "labels": [
+    "Help wanted",
+    "c: Platform"
+   ],
+   "updatedAt": "2024-09-13T09:00:10Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "PR #14288 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/pull/14288",
+    "https://github.com/matomo-org/developer-documentation/pull/302",
+    "https://github.com/matomo-org/matomo/issues/14219"
+   ]
+  },
+  {
+   "number": 14314,
+   "title": "Redis cache: Prepend Matomo version number to cache key, and enforce a TTL",
+   "url": "https://github.com/matomo-org/matomo/issues/14314",
+   "labels": [
+    "Bug",
+    "Help wanted"
+   ],
+   "updatedAt": "2024-01-03T05:06:46Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "PR #26 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/component-cache/pull/26",
+    "https://github.com/matomo-org/matomo/issues/14314"
+   ]
+  },
+  {
+   "number": 14315,
+   "title": "remember \"Show Totals Row\" preference under each report ",
+   "url": "https://github.com/matomo-org/matomo/issues/14315",
+   "labels": [
+    "Enhancement",
+    "Help wanted",
+    "c: Usability"
+   ],
+   "updatedAt": "2024-01-03T05:06:47Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "open 93 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/14315"
+   ]
+  },
+  {
+   "number": 14879,
+   "title": "Show segment title in row evolution / segmented visitor log popup",
+   "url": "https://github.com/matomo-org/matomo/issues/14879",
+   "labels": [
+    "Help wanted",
+    "c: Usability",
+    "c: Consistent Reports & Analytics UX",
+    "c: Segments"
+   ],
+   "updatedAt": "2024-09-13T10:57:39Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/14879"
+   ]
+  },
+  {
+   "number": 15023,
+   "title": "Add rows to the lay-out of the dashboards",
+   "url": "https://github.com/matomo-org/matomo/issues/15023",
+   "labels": [
+    "Enhancement",
+    "Help wanted"
+   ],
+   "updatedAt": "2024-09-13T08:59:47Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/15023"
+   ]
+  },
+  {
+   "number": 15176,
+   "title": "Email Report Entry/Exit Pages Sort Order",
+   "url": "https://github.com/matomo-org/matomo/issues/15176",
+   "labels": [
+    "Bug",
+    "Help wanted"
+   ],
+   "updatedAt": "2024-01-03T05:07:03Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/15176"
+   ]
+  },
+  {
+   "number": 15259,
+   "title": "Remove NFS diagnostic check?",
+   "url": "https://github.com/matomo-org/matomo/issues/15259",
+   "labels": [
+    "Help wanted",
+    "c: Usability",
+    "c: Documentation"
+   ],
+   "updatedAt": "2024-01-03T05:07:09Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/15259"
+   ]
+  },
+  {
+   "number": 15278,
+   "title": " SecureHash is not secure ",
+   "url": "https://github.com/matomo-org/matomo/issues/15278",
+   "labels": [
+    "Enhancement",
+    "Help wanted",
+    "c: Security",
+    "triaged"
+   ],
+   "updatedAt": "2025-05-26T06:52:44Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "PR #17961 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/pull/17961",
+    "https://github.com/matomo-org/matomo/issues/15278"
+   ]
+  },
+  {
+   "number": 15908,
+   "title": "Add description to IP exclusion list",
+   "url": "https://github.com/matomo-org/matomo/issues/15908",
+   "labels": [
+    "Enhancement",
+    "Help wanted"
+   ],
+   "updatedAt": "2024-01-03T05:07:42Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/15908"
+   ]
+  },
+  {
+   "number": 16025,
+   "title": "Add widget Current local time in website's timezone to include in screenshots",
+   "url": "https://github.com/matomo-org/matomo/issues/16025",
+   "labels": [
+    "Enhancement",
+    "Help wanted",
+    "c: New plugin"
+   ],
+   "updatedAt": "2024-01-03T05:07:52Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @aouinag 2313 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/16025#issuecomment-658057561",
+    "https://github.com/matomo-org/matomo/issues/16025"
+   ]
+  },
+  {
+   "number": 16040,
+   "title": "Create plugin that can be configured to not track in private mode",
+   "url": "https://github.com/matomo-org/matomo/issues/16040",
+   "labels": [
+    "Help wanted",
+    "c: Privacy",
+    "c: New plugin",
+    "triaged"
+   ],
+   "updatedAt": "2024-09-13T11:02:54Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "open 78 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/16040"
+   ]
+  },
+  {
+   "number": 16158,
+   "title": "Metric documentation for \"Unique Actions\" is incorrect",
+   "url": "https://github.com/matomo-org/matomo/issues/16158",
+   "labels": [
+    "Bug",
+    "Help wanted",
+    "c: Custom Dimensions"
+   ],
+   "updatedAt": "2024-01-03T05:06:56Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #19164 by @utrautmann is already open against this issue",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/19164"
+   ]
+  },
+  {
+   "number": 16273,
+   "title": "Misleading tooltip in the goal report",
+   "url": "https://github.com/matomo-org/matomo/issues/16273",
+   "labels": [
+    "Help wanted",
+    "c: Usability"
+   ],
+   "updatedAt": "2024-09-13T08:59:22Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/16273"
+   ]
+  },
+  {
+   "number": 16339,
+   "title": "Remove \"learn more\" in Database Usage page, or link to the right FAQ",
+   "url": "https://github.com/matomo-org/matomo/issues/16339",
+   "labels": [
+    "Bug",
+    "Help wanted",
+    "c: Documentation",
+    "triaged"
+   ],
+   "updatedAt": "2024-11-25T21:08:53Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/16339"
+   ]
+  },
+  {
+   "number": 16404,
+   "title": "Installation with DB connection over TLS not possible",
+   "url": "https://github.com/matomo-org/matomo/issues/16404",
+   "labels": [
+    "Enhancement",
+    "Help wanted"
+   ],
+   "updatedAt": "2026-10-01T05:30:17Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #25638 by @D3strukt0r is already open against this issue",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/pull/25638"
+   ]
+  },
+  {
+   "number": 16556,
+   "title": "Edit user buttons are overlapping on narrower screens",
+   "url": "https://github.com/matomo-org/matomo/issues/16556",
+   "labels": [
+    "Help wanted",
+    "c: Design / UI"
+   ],
+   "updatedAt": "2026-01-28T01:42:13Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @ShivankJoginipalli 289 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/16556#issuecomment-3808482349",
+    "https://github.com/matomo-org/matomo/issues/16556"
+   ]
+  },
+  {
+   "number": 16616,
+   "title": "Form field usability improvements",
+   "url": "https://github.com/matomo-org/matomo/issues/16616",
+   "labels": [
+    "Help wanted",
+    "c: Usability"
+   ],
+   "updatedAt": "2025-09-23T06:42:27Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @Narkunan 417 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/16616#issuecomment-3317696805",
+    "https://github.com/matomo-org/matomo/issues/16616"
+   ]
+  },
+  {
+   "number": 16646,
+   "title": "Improve usability of segment editor",
+   "url": "https://github.com/matomo-org/matomo/issues/16646",
+   "labels": [
+    "Help wanted",
+    "c: Usability"
+   ],
+   "updatedAt": "2024-01-03T07:05:44Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "PR #17998 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/pull/17998",
+    "https://github.com/matomo-org/matomo/issues/16646"
+   ]
+  },
+  {
+   "number": 16969,
+   "title": "Some goal metrics are not translatable",
+   "url": "https://github.com/matomo-org/matomo/issues/16969",
+   "labels": [
+    "Help wanted",
+    "c: i18n"
+   ],
+   "updatedAt": "2024-11-25T21:08:44Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "open 72 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/16969"
+   ]
+  },
+  {
+   "number": 17094,
+   "title": "Have a minimal JS tracker with only very basic features",
+   "url": "https://github.com/matomo-org/matomo/issues/17094",
+   "labels": [
+    "c: Performance",
+    "Help wanted",
+    "c: New plugin"
+   ],
+   "updatedAt": "2024-09-13T08:59:00Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/17094"
+   ]
+  },
+  {
+   "number": 17122,
+   "title": "Email reports with a CSV file should use the friendly column names (\"Visits\" instead of \"nb_visits\")",
+   "url": "https://github.com/matomo-org/matomo/issues/17122",
+   "labels": [
+    "Help wanted",
+    "c: Usability",
+    "c: Consistent Reports & Analytics UX"
+   ],
+   "updatedAt": "2026-02-26T15:19:26Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #24141 by @hellomueen is already open against this issue",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/pull/24141"
+   ]
+  },
+  {
+   "number": 17287,
+   "title": "Admin Users should have option to select between Real Time or Pre-Processed when creating segments",
+   "url": "https://github.com/matomo-org/matomo/issues/17287",
+   "labels": [
+    "Enhancement",
+    "Help wanted",
+    "c: Design / UI"
+   ],
+   "updatedAt": "2025-11-24T06:02:52Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/17287"
+   ]
+  },
+  {
+   "number": 17390,
+   "title": "Document using Matomo with OPcache and JIT compilation",
+   "url": "https://github.com/matomo-org/matomo/issues/17390",
+   "labels": [
+    "c: Performance",
+    "Help wanted",
+    "c: Documentation"
+   ],
+   "updatedAt": "2024-09-13T08:58:54Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/17390"
+   ]
+  },
+  {
+   "number": 17834,
+   "title": "Allow more than 10 results per page in user edit permissions page",
+   "url": "https://github.com/matomo-org/matomo/issues/17834",
+   "labels": [
+    "Enhancement",
+    "Help wanted"
+   ],
+   "updatedAt": "2024-01-03T05:09:21Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/17834"
+   ]
+  },
+  {
+   "number": 18090,
+   "title": "Have the possibility to force disable async archiving in case async archiving is not fully working and we detect it falsely",
+   "url": "https://github.com/matomo-org/matomo/issues/18090",
+   "labels": [
+    "Bug",
+    "Help wanted",
+    "Stability"
+   ],
+   "updatedAt": "2025-09-01T17:01:57Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/18090"
+   ]
+  },
+  {
+   "number": 18096,
+   "title": "As a user I want to see \"Last week\" or \"Last Month\" by default when I login",
+   "url": "https://github.com/matomo-org/matomo/issues/18096",
+   "labels": [
+    "Enhancement",
+    "Help wanted",
+    "c: Onboarding",
+    "c: Consistent Reports & Analytics UX",
+    "c: Dates & Calendar"
+   ],
+   "updatedAt": "2024-11-25T21:08:35Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @abilogos 1860 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/18096#issuecomment-939361280",
+    "https://github.com/matomo-org/matomo/issues/18096"
+   ]
+  },
+  {
+   "number": 18189,
+   "title": "Wrong amount of Users / Websites in Diagnostic > Database Usage > General Information",
+   "url": "https://github.com/matomo-org/matomo/issues/18189",
+   "labels": [
+    "Bug",
+    "Help wanted"
+   ],
+   "updatedAt": "2024-09-13T08:58:41Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/18189"
+   ]
+  },
+  {
+   "number": 18378,
+   "title": "The newly added daily mail report cannot be sent on the same day！",
+   "url": "https://github.com/matomo-org/matomo/issues/18378",
+   "labels": [
+    "Bug",
+    "Help wanted"
+   ],
+   "updatedAt": "2024-01-03T05:09:47Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @Sofia-Morgado 1501 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/18378#issuecomment-1265566469",
+    "https://github.com/matomo-org/matomo/issues/18378"
+   ]
+  },
+  {
+   "number": 18434,
+   "title": "Manage Goals page: show the Month & Year when the Goal was created",
+   "url": "https://github.com/matomo-org/matomo/issues/18434",
+   "labels": [
+    "Enhancement",
+    "Help wanted",
+    "c: Goals"
+   ],
+   "updatedAt": "2024-11-25T21:08:30Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "open 60 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/18434"
+   ]
+  },
+  {
+   "number": 18436,
+   "title": "Output Segment ID or Name with Exception",
+   "url": "https://github.com/matomo-org/matomo/issues/18436",
+   "labels": [
+    "Enhancement",
+    "Help wanted",
+    "c: Platform",
+    "Easier debugging"
+   ],
+   "updatedAt": "2024-09-13T08:58:40Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/18436"
+   ]
+  },
+  {
+   "number": 18857,
+   "title": "When autofilling a search term on info page, the wrong background is selected in the form field",
+   "url": "https://github.com/matomo-org/matomo/issues/18857",
+   "labels": [
+    "Help wanted",
+    "c: Design / UI"
+   ],
+   "updatedAt": "2026-07-11T09:34:13Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/18857"
+   ]
+  },
+  {
+   "number": 18878,
+   "title": "When come from `Quick Links` section, `add new user` it append `showadduser=1` to the URL permanent",
+   "url": "https://github.com/matomo-org/matomo/issues/18878",
+   "labels": [
+    "Bug",
+    "Help wanted"
+   ],
+   "updatedAt": "2024-09-13T08:58:35Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #23774 by @tsteur is already open against this issue",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/23774"
+   ]
+  },
+  {
+   "number": 19042,
+   "title": "Add info to Report Search tooltip",
+   "url": "https://github.com/matomo-org/matomo/issues/19042",
+   "labels": [
+    "Enhancement",
+    "Help wanted",
+    "c: Design / UI"
+   ],
+   "updatedAt": "2026-07-11T11:53:19Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @dideldumthecat 125 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/19042#issuecomment-4945286327",
+    "https://github.com/matomo-org/matomo/issues/19042"
+   ]
+  },
+  {
+   "number": 19059,
+   "title": "New site shows tracking code with old piwik files",
+   "url": "https://github.com/matomo-org/matomo/issues/19059",
+   "labels": [
+    "Bug",
+    "Help wanted"
+   ],
+   "updatedAt": "2025-11-14T07:04:21Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/19059"
+   ]
+  },
+  {
+   "number": 19122,
+   "title": "Email Report files alphabetical order should work in all languages, by eg \"Report for URL Website - YYYY-MM-DD to YYYY-MM-D2 - $Translated_Date_string\"",
+   "url": "https://github.com/matomo-org/matomo/issues/19122",
+   "labels": [
+    "Enhancement",
+    "Help wanted",
+    "c: i18n",
+    "c: Consistent Reports & Analytics UX",
+    "c: Email Reports"
+   ],
+   "updatedAt": "2025-11-24T06:01:59Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/19122"
+   ]
+  },
+  {
+   "number": 19152,
+   "title": "History triggered email report sent",
+   "url": "https://github.com/matomo-org/matomo/issues/19152",
+   "labels": [
+    "Enhancement",
+    "Help wanted"
+   ],
+   "updatedAt": "2024-09-13T08:58:30Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/19152"
+   ]
+  },
+  {
+   "number": 19213,
+   "title": "Calendar User Experience issue",
+   "url": "https://github.com/matomo-org/matomo/issues/19213",
+   "labels": [
+    "Enhancement",
+    "Help wanted",
+    "c: Usability"
+   ],
+   "updatedAt": "2023-12-13T14:26:13Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @ARSHIL1804 1189 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/19213#issuecomment-1675861993",
+    "https://github.com/matomo-org/matomo/issues/19213"
+   ]
+  },
+  {
+   "number": 19370,
+   "title": "UX: Manage Measurables --> Add buttons to access to the first and last page",
+   "url": "https://github.com/matomo-org/matomo/issues/19370",
+   "labels": [
+    "Enhancement",
+    "Help wanted"
+   ],
+   "updatedAt": "2022-06-20T08:21:52Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/19370"
+   ]
+  },
+  {
+   "number": 19844,
+   "title": "Tracking code generator incorrectly sets domains for websites that use www in the hostname",
+   "url": "https://github.com/matomo-org/matomo/issues/19844",
+   "labels": [
+    "Help wanted"
+   ],
+   "updatedAt": "2022-11-09T02:23:01Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #25429 by @TheNetherWatcher is already open against this issue",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/pull/25429"
+   ]
+  },
+  {
+   "number": 20230,
+   "title": "Page Overlay specific date ranges",
+   "url": "https://github.com/matomo-org/matomo/issues/20230",
+   "labels": [
+    "Enhancement",
+    "Help wanted"
+   ],
+   "updatedAt": "2026-04-14T21:38:57Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/20230"
+   ]
+  },
+  {
+   "number": 20255,
+   "title": "Create a config file for Open API and/or Swagger",
+   "url": "https://github.com/matomo-org/matomo/issues/20255",
+   "labels": [
+    "Enhancement",
+    "Help wanted",
+    "c: Platform",
+    "c: Documentation",
+    "c: APIs"
+   ],
+   "updatedAt": "2025-11-24T06:02:06Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @BirdboyBolu 1226 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/20255#issuecomment-1623484190",
+    "https://github.com/matomo-org/matomo/issues/20255"
+   ]
+  },
+  {
+   "number": 20950,
+   "title": "Add \"local time - Day of the Month\" as a possible dimension in Custom Report",
+   "url": "https://github.com/matomo-org/matomo/issues/20950",
+   "labels": [
+    "Enhancement",
+    "Help wanted"
+   ],
+   "updatedAt": "2024-06-17T01:30:05Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/issues/20950"
+   ]
+  },
+  {
+   "number": 22791,
+   "title": "Clarify \"Keep Page URL fragments when tracking Page URLs\" Option in Measurable Settings",
+   "url": "https://github.com/matomo-org/matomo/issues/22791",
+   "labels": [
+    "Enhancement",
+    "Help wanted",
+    "triaged"
+   ],
+   "updatedAt": "2025-09-28T11:03:35Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #25696 by @sundeep8967 is already open against this issue",
+   "evidence": [
+    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/matomo-org/matomo/pull/25696"
+   ]
+  }
+ ]
+}

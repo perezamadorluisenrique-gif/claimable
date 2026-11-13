@@ -1,0 +1,45 @@
+{
+ "owner": "getgrav",
+ "repo": "grav",
+ "language": "PHP",
+ "stars": 15720,
+ "description": "Modern, Crazy Fast, Ridiculously Easy and Amazingly Powerful Flat-File CMS powered by PHP, Markdown, Twig, and Symfony",
+ "visitedAt": "2026-11-13T01:07:25.191Z",
+ "issues": [
+  {
+   "number": 983,
+   "title": "Consider alternatives to Gregwar/Image for image manipulation",
+   "url": "https://github.com/getgrav/grav/issues/983",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "hacktoberfest"
+   ],
+   "updatedAt": "2020-05-06T19:01:13Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/getgrav/grav/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/getgrav/grav/issues/983"
+   ]
+  },
+  {
+   "number": 1999,
+   "title": "Uri should prefer port in HTTP_HOST and not take SERVER_PORT",
+   "url": "https://github.com/getgrav/grav/issues/1999",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2018-04-30T08:28:03Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/getgrav/grav/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/getgrav/grav/issues/1999"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1644 @@
+{
+ "owner": "nextcloud",
+ "repo": "server",
+ "language": "PHP",
+ "stars": 37464,
+ "description": "☁️ Nextcloud server, a safe home for all your data",
+ "visitedAt": "2026-11-13T01:07:25.191Z",
+ "issues": [
+  {
+   "number": 722,
+   "title": "Option to duplicate a workflow operation",
+   "url": "https://github.com/nextcloud/server/issues/722",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "1. to develop",
+    "feature: workflows"
+   ],
+   "updatedAt": "2020-12-28T08:52:33Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #64078 by @kongomongo is already open against this issue",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/issues/64078",
+    "https://github.com/nextcloud/server/issues/62029"
+   ]
+  },
+  {
+   "number": 874,
+   "title": "Files Sharing javascript cleanup",
+   "url": "https://github.com/nextcloud/server/issues/874",
+   "labels": [
+    "help wanted",
+    "1. to develop",
+    "feature: sharing",
+    "technical debt",
+    "standardization"
+   ],
+   "updatedAt": "2025-02-27T17:51:16Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #58363 by @Breizhroot is already open against this issue",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/issues/58363",
+    "https://github.com/nextcloud/server/issues/38940",
+    "https://github.com/nextcloud/server/issues/44596"
+   ]
+  },
+  {
+   "number": 1127,
+   "title": "Get rid of inline CSS and remove unsafe-inline gradually from controllers",
+   "url": "https://github.com/nextcloud/server/issues/1127",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "1. to develop",
+    "security"
+   ],
+   "updatedAt": "2024-07-31T14:44:53Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "PR #9846 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/pull/9846",
+    "https://github.com/nextcloud/server/issues/1127",
+    "https://docs.nextcloud.com/server/latest/developer_manual/",
+    "https://github.com/nextcloud/server/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 1963,
+   "title": "Improve user share suggestions",
+   "url": "https://github.com/nextcloud/server/issues/1963",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "1. to develop",
+    "feature: sharing",
+    "feature: search"
+   ],
+   "updatedAt": "2022-10-12T08:58:44Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.nextcloud.com/server/latest/developer_manual/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/issues/1963",
+    "https://docs.nextcloud.com/server/latest/developer_manual/",
+    "https://github.com/nextcloud/server/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2028,
+   "title": "Dropbox like file picker javascript integration",
+   "url": "https://github.com/nextcloud/server/issues/2028",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "1. to develop",
+    "feature: dav",
+    "feature: filepicker",
+    "integration"
+   ],
+   "updatedAt": "2025-03-16T20:44:56Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #37716 by @aleixq is already open against this issue",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/issues/37716",
+    "https://github.com/nextcloud/server/issues/58747",
+    "https://github.com/nextcloud/server/issues/3131"
+   ]
+  },
+  {
+   "number": 2964,
+   "title": "Support for rotating rotating master key used for server-side encryption",
+   "url": "https://github.com/nextcloud/server/issues/2964",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "1. to develop",
+    "feature: encryption (server-side)"
+   ],
+   "updatedAt": "2026-10-30T16:40:12Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "@BRB2000 claimed it 13 days ago",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/issues/2964#issuecomment-6527999991"
+   ]
+  },
+  {
+   "number": 3122,
+   "title": "Use the Big List of Naughty Strings for QA input",
+   "url": "https://github.com/nextcloud/server/issues/3122",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "1. to develop",
+    "low",
+    "tests"
+   ],
+   "updatedAt": "2023-08-26T23:12:50Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #34 by @snyk-bot is already open against this issue",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/Zintexiss/server/pull/34",
+    "https://github.com/Zintexiss/server/pull/35",
+    "https://github.com/Zintexiss/server/pull/36",
+    "https://github.com/Zintexiss/server/pull/37"
+   ]
+  },
+  {
+   "number": 3471,
+   "title": "Reduce storage-full warnings for users with external mounts",
+   "url": "https://github.com/nextcloud/server/issues/3471",
+   "labels": [
+    "enhancement",
+    "design",
+    "good first issue",
+    "1. to develop",
+    "feature: external storage",
+    "feature: files"
+   ],
+   "updatedAt": "2026-10-23T21:43:31Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #2 by @0403350035 is already open against this issue",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/0403350035/server/pull/2"
+   ]
+  },
+  {
+   "number": 3610,
+   "title": "Default data directory remains after configuring a custom data directory",
+   "url": "https://github.com/nextcloud/server/issues/3610",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "1. to develop",
+    "feature: install and update",
+    "papercut"
+   ],
+   "updatedAt": "2026-10-23T21:53:11Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #53980 by @joshtrichards is already open against this issue",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/pull/53980"
+   ]
+  },
+  {
+   "number": 3753,
+   "title": "Cross check selected mimetypes in the workflows against our mapping file",
+   "url": "https://github.com/nextcloud/server/issues/3753",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "1. to develop",
+    "feature: workflows"
+   ],
+   "updatedAt": "2021-05-21T13:27:56Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "PR #3725 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/pull/3725",
+    "https://github.com/nextcloud/server/issues/3753",
+    "https://docs.nextcloud.com/server/latest/developer_manual/",
+    "https://github.com/nextcloud/server/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 3903,
+   "title": "Background job for cleanup of unneeded remote storages",
+   "url": "https://github.com/nextcloud/server/issues/3903",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "1. to develop",
+    "feature: sharing"
+   ],
+   "updatedAt": "2023-09-02T12:11:13Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "PR #3887 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/pull/3887",
+    "https://github.com/nextcloud/server/issues/3903",
+    "https://docs.nextcloud.com/server/latest/developer_manual/",
+    "https://github.com/nextcloud/server/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 5050,
+   "title": "Support calendar sharing via MacOS Calendar.app",
+   "url": "https://github.com/nextcloud/server/issues/5050",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "1. to develop",
+    "feature: sharing",
+    "feature: dav",
+    "feature: caldav"
+   ],
+   "updatedAt": "2024-10-17T18:27:12Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #20096 by @georgehrke is already open against this issue",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/issues/20096",
+    "https://github.com/nextcloud/server/issues/19568"
+   ]
+  },
+  {
+   "number": 5528,
+   "title": "Plural missing on CalDAV Activity when creating multiple Calendar events",
+   "url": "https://github.com/nextcloud/server/issues/5528",
+   "labels": [
+    "bug",
+    "good first issue",
+    "1. to develop",
+    "papercut",
+    "feature: activity and notification",
+    "feature: language/translations (l10n/i18n)",
+    "feature: caldav",
+    "32-feedback"
+   ],
+   "updatedAt": "2025-08-18T16:07:55Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #14 by @snyk-bot is already open against this issue",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TomG736/server/pull/14",
+    "https://github.com/TomG736/server/pull/15",
+    "https://github.com/nextcloud/server/pull/65236",
+    "https://github.com/Mugetsu15/server/pull/1"
+   ]
+  },
+  {
+   "number": 7091,
+   "title": "React gracefully on LDAP timeouts",
+   "url": "https://github.com/nextcloud/server/issues/7091",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "1. to develop",
+    "feature: ldap"
+   ],
+   "updatedAt": "2021-05-21T11:59:51Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.nextcloud.com/server/latest/developer_manual/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/issues/7091",
+    "https://docs.nextcloud.com/server/latest/developer_manual/",
+    "https://github.com/nextcloud/server/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 9036,
+   "title": "Clear / refresh 2FA backup codes",
+   "url": "https://github.com/nextcloud/server/issues/9036",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "good first issue",
+    "1. to develop",
+    "feature: authentication"
+   ],
+   "updatedAt": "2025-01-31T17:10:14Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.nextcloud.com/server/latest/developer_manual/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/issues/9036",
+    "https://docs.nextcloud.com/server/latest/developer_manual/",
+    "https://github.com/nextcloud/server/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 10560,
+   "title": "Add \"Created On\" category to one time passwords management",
+   "url": "https://github.com/nextcloud/server/issues/10560",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "1. to develop",
+    "feature: authentication",
+    "feature: settings"
+   ],
+   "updatedAt": "2024-10-18T15:33:42Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #10776 by @michag86 is already open against this issue",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/issues/10776"
+   ]
+  },
+  {
+   "number": 11334,
+   "title": "Allow group admins to assign any existing account to their managed groups",
+   "url": "https://github.com/nextcloud/server/issues/11334",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "1. to develop",
+    "feature: users and groups"
+   ],
+   "updatedAt": "2026-11-12T17:18:22Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #53114 by @cushdog is already open against this issue",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/pull/53114",
+    "https://github.com/nextcloud/documentation/pull/13119"
+   ]
+  },
+  {
+   "number": 11393,
+   "title": "Indicate users default quota",
+   "url": "https://github.com/nextcloud/server/issues/11393",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "3. to review",
+    "papercut",
+    "feature: users and groups"
+   ],
+   "updatedAt": "2024-02-01T19:45:11Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.nextcloud.com/server/latest/developer_manual/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/issues/11393",
+    "https://docs.nextcloud.com/server/latest/developer_manual/",
+    "https://github.com/nextcloud/server/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 12126,
+   "title": "Email server - SMTP test fails to detect typos in the \"from\" address",
+   "url": "https://github.com/nextcloud/server/issues/12126",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "1. to develop",
+    "feature: settings",
+    "feature: emails"
+   ],
+   "updatedAt": "2020-03-10T08:11:55Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.nextcloud.com/server/latest/developer_manual/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/issues/12126",
+    "https://docs.nextcloud.com/server/latest/developer_manual/",
+    "https://github.com/nextcloud/server/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 12171,
+   "title": "Password protection for link shares should suggest autogenerated passwords",
+   "url": "https://github.com/nextcloud/server/issues/12171",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "design",
+    "2. developing",
+    "feature: sharing",
+    "overview",
+    "client: 💻 desktop",
+    "client: 🤖🍏 mobile",
+    "needs review"
+   ],
+   "updatedAt": "2024-11-07T15:31:05Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.nextcloud.com/server/latest/developer_manual/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/issues/12171",
+    "https://docs.nextcloud.com/server/latest/developer_manual/",
+    "https://github.com/nextcloud/server/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 12225,
+   "title": "Cleanup Server.php (aliases & services)",
+   "url": "https://github.com/nextcloud/server/issues/12225",
+   "labels": [
+    "good first issue",
+    "1. to develop",
+    "technical debt"
+   ],
+   "updatedAt": "2023-09-14T13:57:12Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.nextcloud.com/server/latest/developer_manual/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/issues/12225",
+    "https://docs.nextcloud.com/server/latest/developer_manual/",
+    "https://github.com/nextcloud/server/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 12590,
+   "title": "visual feedback if a note attached to a share was send successfully to the recipient",
+   "url": "https://github.com/nextcloud/server/issues/12590",
+   "labels": [
+    "enhancement",
+    "design",
+    "good first issue",
+    "1. to develop",
+    "feature: sharing"
+   ],
+   "updatedAt": "2021-05-20T12:29:15Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.nextcloud.com/server/latest/developer_manual/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/issues/12590",
+    "https://docs.nextcloud.com/server/latest/developer_manual/",
+    "https://github.com/nextcloud/server/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 13087,
+   "title": "Settings navigation: selected category out of viewable range after select",
+   "url": "https://github.com/nextcloud/server/issues/13087",
+   "labels": [
+    "enhancement",
+    "design",
+    "good first issue",
+    "1. to develop",
+    "feature: settings"
+   ],
+   "updatedAt": "2021-05-27T07:42:04Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @christophehenry 2860 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/issues/13087#issuecomment-453979674",
+    "https://github.com/nextcloud/server/issues/13087",
+    "https://docs.nextcloud.com/server/latest/developer_manual/",
+    "https://github.com/nextcloud/server/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 13255,
+   "title": "Move core apps backgroudjobs to OCP",
+   "url": "https://github.com/nextcloud/server/issues/13255",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "1. to develop",
+    "overview",
+    "technical debt"
+   ],
+   "updatedAt": "2026-03-19T08:31:27Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.nextcloud.com/server/latest/developer_manual/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/issues/13255",
+    "https://docs.nextcloud.com/server/latest/developer_manual/",
+    "https://github.com/nextcloud/server/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 13557,
+   "title": "Embed images when sending HTML E-Mail",
+   "url": "https://github.com/nextcloud/server/issues/13557",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "design",
+    "good first issue",
+    "1. to develop",
+    "feature: emails",
+    "feature: caldav"
+   ],
+   "updatedAt": "2025-01-23T12:59:11Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #48686 by @gillesF78 is already open against this issue",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/issues/48686",
+    "https://github.com/nextcloud/server/issues/17187"
+   ]
+  },
+  {
+   "number": 13805,
+   "title": "LDAP admin settings design improvements",
+   "url": "https://github.com/nextcloud/server/issues/13805",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "design",
+    "good first issue",
+    "1. to develop",
+    "feature: ldap"
+   ],
+   "updatedAt": "2025-08-11T17:40:21Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.nextcloud.com/server/latest/developer_manual/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/issues/13805",
+    "https://docs.nextcloud.com/server/latest/developer_manual/",
+    "https://github.com/nextcloud/server/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 14379,
+   "title": "Use HTML details where appropiate",
+   "url": "https://github.com/nextcloud/server/issues/14379",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "design",
+    "good first issue",
+    "1. to develop",
+    "feature: accessibility"
+   ],
+   "updatedAt": "2020-08-21T12:57:37Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.nextcloud.com/server/latest/developer_manual/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/issues/14379",
+    "https://docs.nextcloud.com/server/latest/developer_manual/",
+    "https://github.com/nextcloud/server/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 14411,
+   "title": "Trigger password reset email from user management",
+   "url": "https://github.com/nextcloud/server/issues/14411",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "1. to develop",
+    "security",
+    "feature: authentication",
+    "feature: users and groups"
+   ],
+   "updatedAt": "2026-09-25T23:39:49Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @tmmmemcee 48 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/issues/14411#issuecomment-5841133534",
+    "https://github.com/nextcloud/server/issues/14411",
+    "https://docs.nextcloud.com/server/latest/developer_manual/",
+    "https://github.com/nextcloud/server/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 14447,
+   "title": "Allow to get CookieJar in IClientService",
+   "url": "https://github.com/nextcloud/server/issues/14447",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "1. to develop",
+    "technical debt",
+    "performance 🚀"
+   ],
+   "updatedAt": "2024-10-18T18:04:05Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @liamjack 2405 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/issues/14447#issuecomment-612622106",
+    "https://github.com/nextcloud/server/issues/14447",
+    "https://docs.nextcloud.com/server/latest/developer_manual/",
+    "https://github.com/nextcloud/server/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 15770,
+   "title": "Easy registration of new accounts",
+   "url": "https://github.com/nextcloud/server/issues/15770",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "2. developing",
+    "feature: authentication",
+    "feature: users and groups"
+   ],
+   "updatedAt": "2024-10-18T18:41:25Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @fifkis 2590 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/issues/15770#issuecomment-540724822",
+    "https://github.com/nextcloud/server/issues/15770",
+    "https://docs.nextcloud.com/server/latest/developer_manual/",
+    "https://github.com/nextcloud/server/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 17554,
+   "title": "Expand CalDAVRemoveEmptyValue.php to fix additional 'Unsupported VALUE parameter for DTEND property' errors that cause sync issues",
+   "url": "https://github.com/nextcloud/server/issues/17554",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "1. to develop",
+    "feature: dav",
+    "feature: caldav"
+   ],
+   "updatedAt": "2026-09-15T16:55:31Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.nextcloud.com/server/latest/developer_manual/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://docs.nextcloud.com/server/latest/developer_manual/",
+    "https://github.com/nextcloud/server/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 18552,
+   "title": "Add \"no free space checking\" in external storages configuration",
+   "url": "https://github.com/nextcloud/server/issues/18552",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "1. to develop",
+    "feature: external storage",
+    "feature: files"
+   ],
+   "updatedAt": "2025-03-17T22:04:05Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #3471 by @MorrisJobke is already open against this issue",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/issues/3471"
+   ]
+  },
+  {
+   "number": 18875,
+   "title": "Emptycontent view for \"Others with access\" section",
+   "url": "https://github.com/nextcloud/server/issues/18875",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "1. to develop",
+    "feature: sharing"
+   ],
+   "updatedAt": "2023-06-26T03:44:39Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.nextcloud.com/server/latest/developer_manual/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/issues/18875",
+    "https://docs.nextcloud.com/server/latest/developer_manual/",
+    "https://github.com/nextcloud/server/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 18935,
+   "title": "Pressing escape on the sharing note should cancel and not save",
+   "url": "https://github.com/nextcloud/server/issues/18935",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "1. to develop",
+    "feature: sharing",
+    "papercut",
+    "needs review"
+   ],
+   "updatedAt": "2025-03-17T21:16:01Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.nextcloud.com/server/latest/developer_manual/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/issues/18935",
+    "https://docs.nextcloud.com/server/latest/developer_manual/",
+    "https://github.com/nextcloud/server/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 18946,
+   "title": "Maintenance mode should disable data directory check",
+   "url": "https://github.com/nextcloud/server/issues/18946",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "1. to develop",
+    "feature: install and update",
+    "feature: occ"
+   ],
+   "updatedAt": "2024-10-10T21:50:16Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.nextcloud.com/server/latest/developer_manual/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/issues/18946",
+    "https://docs.nextcloud.com/server/latest/developer_manual/",
+    "https://github.com/nextcloud/server/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 20223,
+   "title": "Bad usability of \"file is locked\" message in upload",
+   "url": "https://github.com/nextcloud/server/issues/20223",
+   "labels": [
+    "bug",
+    "good first issue",
+    "1. to develop",
+    "feature: dav",
+    "feature: files",
+    "feature: activity and notification",
+    "feature: locking",
+    "26-feedback",
+    "needs review"
+   ],
+   "updatedAt": "2026-07-23T15:46:40Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.nextcloud.com/server/latest/developer_manual/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/issues/20223",
+    "https://docs.nextcloud.com/server/latest/developer_manual/",
+    "https://github.com/nextcloud/server/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 20945,
+   "title": "Allow calendars to be shared without adding the (creator) label to the name.",
+   "url": "https://github.com/nextcloud/server/issues/20945",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "1. to develop",
+    "feature: sharing",
+    "feature: dav",
+    "papercut",
+    "feature: caldav"
+   ],
+   "updatedAt": "2025-12-17T14:35:01Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.nextcloud.com/server/latest/developer_manual/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/issues/20945",
+    "https://docs.nextcloud.com/server/latest/developer_manual/",
+    "https://github.com/nextcloud/server/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 22951,
+   "title": "Color management support",
+   "url": "https://github.com/nextcloud/server/issues/22951",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "0. Needs triage",
+    "feature: previews and thumbnails"
+   ],
+   "updatedAt": "2025-03-14T13:27:14Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #61415 by @s0len is already open against this issue",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/pull/61415",
+    "https://github.com/nextcloud/server/pull/66028"
+   ]
+  },
+  {
+   "number": 23172,
+   "title": "Option to disable showing system email in avatars' contacts menu",
+   "url": "https://github.com/nextcloud/server/issues/23172",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "1. to develop",
+    "feature: contacts menu",
+    "privacy"
+   ],
+   "updatedAt": "2023-10-24T19:38:00Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.nextcloud.com/server/latest/developer_manual/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/issues/23172",
+    "https://docs.nextcloud.com/server/latest/developer_manual/",
+    "https://github.com/nextcloud/server/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 24056,
+   "title": "Unified search - search in current app by default",
+   "url": "https://github.com/nextcloud/server/issues/24056",
+   "labels": [
+    "enhancement",
+    "design",
+    "good first issue",
+    "1. to develop",
+    "feature: search",
+    "performance 🚀"
+   ],
+   "updatedAt": "2025-03-17T22:10:33Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.nextcloud.com/server/latest/developer_manual/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/issues/24056#issuecomment-1697044803",
+    "https://github.com/nextcloud/server/issues/24056",
+    "https://docs.nextcloud.com/server/latest/developer_manual/",
+    "https://github.com/nextcloud/server/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 24141,
+   "title": "[sharebymail] Before password validation, clean pasted password with whitespace before/after and \\",
+   "url": "https://github.com/nextcloud/server/issues/24141",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "1. to develop",
+    "feature: sharing",
+    "feature: emails",
+    "needs review"
+   ],
+   "updatedAt": "2024-11-07T15:30:17Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @stavoxnetworks 2188 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/issues/24141#issuecomment-727713926",
+    "https://github.com/nextcloud/server/issues/24141",
+    "https://docs.nextcloud.com/server/latest/developer_manual/",
+    "https://github.com/nextcloud/server/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 24300,
+   "title": "occ config:system:set should return a different output when unchanged",
+   "url": "https://github.com/nextcloud/server/issues/24300",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "1. to develop",
+    "feature: occ"
+   ],
+   "updatedAt": "2025-08-11T17:40:03Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #65235 by @whoalin1 is already open against this issue",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/pull/65235"
+   ]
+  },
+  {
+   "number": 26345,
+   "title": "l10n: [user_ldap] Extract \"%\" from text string",
+   "url": "https://github.com/nextcloud/server/issues/26345",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "1. to develop",
+    "feature: ldap",
+    "papercut",
+    "feature: language/translations (l10n/i18n)"
+   ],
+   "updatedAt": "2026-09-15T17:09:11Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #65237 by @whoalin1 is already open against this issue",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/pull/65237",
+    "https://github.com/nextcloud/server/pull/64370"
+   ]
+  },
+  {
+   "number": 26632,
+   "title": "Group deletion should delete shares",
+   "url": "https://github.com/nextcloud/server/issues/26632",
+   "labels": [
+    "bug",
+    "good first issue",
+    "1. to develop",
+    "feature: sharing",
+    "feature: users and groups",
+    "26-feedback"
+   ],
+   "updatedAt": "2025-06-30T08:09:21Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "already assigned to @ChairBorn",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/issues/26632",
+    "https://github.com/nextcloud/server/issues/26632#issuecomment-2830916094"
+   ]
+  },
+  {
+   "number": 27029,
+   "title": "`occ` output not quiet when it should be, exit code not proper",
+   "url": "https://github.com/nextcloud/server/issues/27029",
+   "labels": [
+    "bug",
+    "good first issue",
+    "3. to review",
+    "feature: occ",
+    "25-feedback"
+   ],
+   "updatedAt": "2024-11-20T20:15:41Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #49412 by @joshtrichards is already open against this issue",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/pull/49412"
+   ]
+  },
+  {
+   "number": 27030,
+   "title": "Add support for output format to `occ files:scan`",
+   "url": "https://github.com/nextcloud/server/issues/27030",
+   "labels": [
+    "bug",
+    "good first issue",
+    "1. to develop",
+    "feature: occ",
+    "25-feedback"
+   ],
+   "updatedAt": "2024-11-20T19:08:35Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.nextcloud.com/server/latest/developer_manual/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/issues/27030",
+    "https://docs.nextcloud.com/server/latest/developer_manual/",
+    "https://github.com/nextcloud/server/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 27031,
+   "title": "`occ files:scan` misinterprets wrong path as username",
+   "url": "https://github.com/nextcloud/server/issues/27031",
+   "labels": [
+    "bug",
+    "good first issue",
+    "3. to review",
+    "papercut",
+    "feature: occ",
+    "25-feedback"
+   ],
+   "updatedAt": "2024-11-20T20:16:03Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #49412 by @joshtrichards is already open against this issue",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/pull/49412"
+   ]
+  },
+  {
+   "number": 28640,
+   "title": "Support SVG Favicons",
+   "url": "https://github.com/nextcloud/server/issues/28640",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "1. to develop",
+    "feature: theming"
+   ],
+   "updatedAt": "2025-12-20T17:43:57Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @hariprabhu571 327 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/issues/28640",
+    "https://github.com/nextcloud/server/issues/28640#issuecomment-3677988046",
+    "https://docs.nextcloud.com/server/latest/developer_manual/",
+    "https://github.com/nextcloud/server/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 28875,
+   "title": "Check for 4-byte UTF-8 support before migrating to MySQL/MariaDB",
+   "url": "https://github.com/nextcloud/server/issues/28875",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "1. to develop",
+    "feature: occ",
+    "feature: database"
+   ],
+   "updatedAt": "2026-10-20T08:31:40Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #65721 by @DevKaurav-14 is already open against this issue",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/pull/65721"
+   ]
+  },
+  {
+   "number": 29583,
+   "title": "`Cannot write into 'config' directory` misleading when an upgrade is needed",
+   "url": "https://github.com/nextcloud/server/issues/29583",
+   "labels": [
+    "bug",
+    "good first issue",
+    "1. to develop",
+    "feature: install and update",
+    "25-feedback"
+   ],
+   "updatedAt": "2026-09-21T00:47:28Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #65234 by @whoalin1 is already open against this issue",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/pull/65234"
+   ]
+  },
+  {
+   "number": 30282,
+   "title": "WebDAV external storage times out when browsing or syncing large files",
+   "url": "https://github.com/nextcloud/server/issues/30282",
+   "labels": [
+    "bug",
+    "help wanted",
+    "feature: external storage",
+    "0. Needs triage",
+    "28-feedback",
+    "needs review",
+    "hotspot: file transfer performance"
+   ],
+   "updatedAt": "2026-09-14T01:39:48Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "PR #26266 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+4 more)",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/pull/26266",
+    "https://github.com/nextcloud/server/pull/33087",
+    "https://github.com/nextcloud/server/issues/30282",
+    "https://docs.nextcloud.com/server/latest/developer_manual/",
+    "https://github.com/nextcloud/server/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 32989,
+   "title": "FreeBusy shows appointments of deleted calendars",
+   "url": "https://github.com/nextcloud/server/issues/32989",
+   "labels": [
+    "bug",
+    "good first issue",
+    "1. to develop",
+    "feature: caldav",
+    "26-feedback"
+   ],
+   "updatedAt": "2026-07-29T11:44:01Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #62667 by @ndo84bw is already open against this issue",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/pull/62667"
+   ]
+  },
+  {
+   "number": 34414,
+   "title": "[Bug]: Clicking administration settings doesn't auto-scroll to admin settings menu section if there are lots of categories or screen is short",
+   "url": "https://github.com/nextcloud/server/issues/34414",
+   "labels": [
+    "bug",
+    "good first issue",
+    "1. to develop",
+    "feature: settings",
+    "26-feedback"
+   ],
+   "updatedAt": "2026-10-22T07:37:21Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "2 stale claims, the most recent by @guitarmanchan911-byte 22 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/issues/34414",
+    "https://github.com/nextcloud/server/issues/34414#issuecomment-6335406786",
+    "https://github.com/nextcloud/server/wiki/Maintenance-and-Release-Schedule",
+    "https://github.com/nextcloud/server/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 34555,
+   "title": "Migrations generated via occ fail psalm validation",
+   "url": "https://github.com/nextcloud/server/issues/34555",
+   "labels": [
+    "good first issue",
+    "1. to develop",
+    "feature: install and update",
+    "technical debt",
+    "needs review"
+   ],
+   "updatedAt": "2024-09-08T01:13:49Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.nextcloud.com/server/latest/developer_manual/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/issues/34555",
+    "https://docs.nextcloud.com/server/latest/developer_manual/",
+    "https://github.com/nextcloud/server/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 36233,
+   "title": "Set Start of Week, 12/24 hour, Celsius/Fahrenheit, etc. Separately",
+   "url": "https://github.com/nextcloud/server/issues/36233",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "0. Needs triage",
+    "feature: settings",
+    "feature: language/translations (l10n/i18n)"
+   ],
+   "updatedAt": "2025-02-02T17:46:20Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "labelled `0. Needs triage` — scope may not be settled yet (+2 more)",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/issues/36233",
+    "https://docs.nextcloud.com/server/latest/developer_manual/",
+    "https://github.com/nextcloud/server/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 36607,
+   "title": "Enable usage of svg favicons and remove imagick from iconbuilder",
+   "url": "https://github.com/nextcloud/server/issues/36607",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "2. developing",
+    "feature: theming",
+    "technical debt"
+   ],
+   "updatedAt": "2026-10-09T00:47:28Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #64703 by @szaimen is already open against this issue",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/pull/64703",
+    "https://github.com/nextcloud/server/pull/55132"
+   ]
+  },
+  {
+   "number": 37045,
+   "title": "[Bug]: External Storage against BSD ftp server failing due to parsing difference",
+   "url": "https://github.com/nextcloud/server/issues/37045",
+   "labels": [
+    "bug",
+    "good first issue",
+    "1. to develop",
+    "feature: external storage",
+    "25-feedback"
+   ],
+   "updatedAt": "2026-08-13T06:04:05Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #63197 by @xusnitdinov is already open against this issue",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/pull/63197"
+   ]
+  },
+  {
+   "number": 38726,
+   "title": "Dashboard: current Date and Time widget",
+   "url": "https://github.com/nextcloud/server/issues/38726",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "3. to review",
+    "feature: dashboard"
+   ],
+   "updatedAt": "2026-03-14T19:25:40Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "2 stale claims, the most recent by @its-skark 260 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/issues/38726#issuecomment-3961317999",
+    "https://github.com/nextcloud/server/issues/38726",
+    "https://docs.nextcloud.com/server/latest/developer_manual/",
+    "https://github.com/nextcloud/server/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 39027,
+   "title": "Allow to hide \"hidden files\" on public shares",
+   "url": "https://github.com/nextcloud/server/issues/39027",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "feature: sharing",
+    "0. Needs triage",
+    "feature: files",
+    "29-feedback"
+   ],
+   "updatedAt": "2026-06-08T10:12:24Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #64085 by @fauzanfebrian is already open against this issue",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/pull/64085"
+   ]
+  },
+  {
+   "number": 39390,
+   "title": "Ask for authentication before removing 'Device & Sessions'",
+   "url": "https://github.com/nextcloud/server/issues/39390",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "0. Needs triage",
+    "feature: authentication",
+    "feature: settings"
+   ],
+   "updatedAt": "2024-10-07T19:15:51Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #48168 by @lithrel is already open against this issue",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/pull/48168"
+   ]
+  },
+  {
+   "number": 40624,
+   "title": "[Bug]: Web Updater’s \"start update\" button unreachable without scroll bar",
+   "url": "https://github.com/nextcloud/server/issues/40624",
+   "labels": [
+    "bug",
+    "design",
+    "good first issue",
+    "1. to develop",
+    "feature: install and update",
+    "25-feedback"
+   ],
+   "updatedAt": "2026-09-21T07:29:34Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #7935 by @LittleHuba is already open against this issue",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/issues/7935"
+   ]
+  },
+  {
+   "number": 41543,
+   "title": "Show active locale or language when either are forced rather than misleading `No locale set`",
+   "url": "https://github.com/nextcloud/server/issues/41543",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "1. to develop",
+    "feature: settings",
+    "feature: language/translations (l10n/i18n)",
+    "javascript"
+   ],
+   "updatedAt": "2025-06-06T08:25:14Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #53364 by @arc64 is already open against this issue",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/pull/53364"
+   ]
+  },
+  {
+   "number": 46126,
+   "title": "[Bug]: Missing column in database index on query for time sensitive background jobs",
+   "url": "https://github.com/nextcloud/server/issues/46126",
+   "labels": [
+    "bug",
+    "good first issue",
+    "1. to develop",
+    "performance 🚀",
+    "29-feedback"
+   ],
+   "updatedAt": "2024-12-16T18:46:03Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #58191 by @QDenka is already open against this issue",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/pull/58191",
+    "https://github.com/nextcloud/server/pull/58540"
+   ]
+  },
+  {
+   "number": 49460,
+   "title": "Ability to set default_phone_region to none / E.164 only",
+   "url": "https://github.com/nextcloud/server/issues/49460",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "0. Needs triage",
+    "feature: settings",
+    "feature: language/translations (l10n/i18n)",
+    "feature: profile"
+   ],
+   "updatedAt": "2026-04-29T16:38:08Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "labelled `0. Needs triage` — scope may not be settled yet (+3 more)",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/issues/49460",
+    "https://github.com/nextcloud/server/issues/49460#issuecomment-4345663578",
+    "https://docs.nextcloud.com/server/latest/developer_manual/",
+    "https://github.com/nextcloud/server/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 53249,
+   "title": "S3 external storage created via `occ files_external:create` does not detect remote file changes",
+   "url": "https://github.com/nextcloud/server/issues/53249",
+   "labels": [
+    "bug",
+    "good first issue",
+    "1. to develop",
+    "feature: external storage",
+    "papercut",
+    "feature: occ",
+    "feature: object storage",
+    "30-feedback"
+   ],
+   "updatedAt": "2026-09-14T21:35:31Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #64333 by @joshtrichards is already open against this issue",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/pull/64333"
+   ]
+  },
+  {
+   "number": 54878,
+   "title": "[Bug]: Display to \"999+\" when users limit is reached in Accounts",
+   "url": "https://github.com/nextcloud/server/issues/54878",
+   "labels": [
+    "bug",
+    "good first issue",
+    "0. Needs triage",
+    "feature: users and groups",
+    "31-feedback"
+   ],
+   "updatedAt": "2026-11-10T23:26:48Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #57736 by @Sebastianmueller22 is already open against this issue",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/pull/57736",
+    "https://github.com/nextcloud/server/pull/58398"
+   ]
+  },
+  {
+   "number": 56904,
+   "title": "Allow user-level sender addresses for “Share by mail” (file sharing)",
+   "url": "https://github.com/nextcloud/server/issues/56904",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "0. Needs triage"
+   ],
+   "updatedAt": "2026-03-15T16:44:39Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #57080 by @abhinavohri is already open against this issue",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/pull/57080",
+    "https://github.com/nextcloud/server/pull/58962",
+    "https://github.com/nextcloud/server/pull/64395",
+    "https://github.com/ahujadivyam/nextcloud-server/pull/1"
+   ]
+  },
+  {
+   "number": 57276,
+   "title": "Different icon for \"View in folder\" menu element",
+   "url": "https://github.com/nextcloud/server/issues/57276",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "1. to develop",
+    "feature: files",
+    "papercut"
+   ],
+   "updatedAt": "2026-04-14T12:26:09Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "PR #58436 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/pull/58436",
+    "https://github.com/nextcloud/server/issues/57276",
+    "https://docs.nextcloud.com/server/latest/developer_manual/",
+    "https://github.com/nextcloud/server/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 58821,
+   "title": "Reject credential and other unsupported keys in `files_external:option`",
+   "url": "https://github.com/nextcloud/server/issues/58821",
+   "labels": [
+    "bug",
+    "good first issue",
+    "feature: external storage",
+    "0. Needs triage",
+    "papercut",
+    "feature: occ",
+    "32-feedback"
+   ],
+   "updatedAt": "2026-09-17T15:35:35Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #65233 by @whoalin1 is already open against this issue",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/pull/65233"
+   ]
+  },
+  {
+   "number": 60291,
+   "title": "File search: Information Tab should contain file path",
+   "url": "https://github.com/nextcloud/server/issues/60291",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "0. Needs triage",
+    "feature: search"
+   ],
+   "updatedAt": "2026-08-19T01:49:23Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #63304 by @redsteadz is already open against this issue",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/pull/63304"
+   ]
+  },
+  {
+   "number": 61376,
+   "title": "Display the enabled groups for an app when occ command to list apps is used",
+   "url": "https://github.com/nextcloud/server/issues/61376",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "2. developing",
+    "feature: occ"
+   ],
+   "updatedAt": "2026-06-30T17:11:04Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #61377 by @akhil1508 is already open against this issue",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/pull/61377",
+    "https://github.com/nextcloud/server/pull/64290"
+   ]
+  },
+  {
+   "number": 61446,
+   "title": "[Bug]: user_ldap: getDomainDNFromDN() includes `count` element from ldap_explode_dn(), producing invalid DN passed to ldap_read()",
+   "url": "https://github.com/nextcloud/server/issues/61446",
+   "labels": [
+    "bug",
+    "good first issue",
+    "1. to develop",
+    "feature: ldap",
+    "33-feedback"
+   ],
+   "updatedAt": "2026-07-22T20:18:15Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #61479 by @joshtrichards is already open against this issue",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/pull/61479",
+    "https://github.com/nextcloud/server/pull/65590",
+    "https://github.com/php/php-src/pull/16092"
+   ]
+  },
+  {
+   "number": 65243,
+   "title": "Add a default limit to the results of the `occ taskprocessing:list` command",
+   "url": "https://github.com/nextcloud/server/issues/65243",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "feature: TaskProcessing"
+   ],
+   "updatedAt": "2026-10-07T06:13:41Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #66131 by @AndreIsraelAO is already open against this issue",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/pull/66131"
+   ]
+  },
+  {
+   "number": 65507,
+   "title": "Hide Flow user settings entry when empty",
+   "url": "https://github.com/nextcloud/server/issues/65507",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "good first issue",
+    "1. to develop",
+    "feature: workflows"
+   ],
+   "updatedAt": "2026-10-14T19:54:05Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #65579 by @pk7243959-wq is already open against this issue",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/pull/65579",
+    "https://github.com/dh1011/server/pull/2",
+    "https://github.com/nextcloud/server/pull/66326"
+   ]
+  },
+  {
+   "number": 65814,
+   "title": "[Bug]: External links lose openfile parameter value",
+   "url": "https://github.com/nextcloud/server/issues/65814",
+   "labels": [
+    "bug",
+    "good first issue",
+    "1. to develop",
+    "35-feedback"
+   ],
+   "updatedAt": "2026-11-05T10:37:32Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #65997 by @sundeep8967 is already open against this issue",
+   "evidence": [
+    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nextcloud/server/pull/65997",
+    "https://github.com/dh1011/server/pull/1",
+    "https://github.com/nextcloud/server/pull/66309"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,225 @@
+{
+ "owner": "laravel",
+ "repo": "framework",
+ "language": "PHP",
+ "stars": 34997,
+ "description": "Laravel is a web application framework with expressive, elegant syntax.",
+ "visitedAt": "2026-11-13T01:07:25.191Z",
+ "issues": [
+  {
+   "number": 53292,
+   "title": "Conditional (when helper) gives back Eloquent Builder instance inside the closure instead of the relationship instance",
+   "url": "https://github.com/laravel/framework/issues/53292",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-03-20T08:08:24Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @Sajid-al-islam 725 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting",
+   "evidence": [
+    "https://github.com/laravel/framework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/laravel/framework/issues/53292#issuecomment-2482128816",
+    "https://github.com/laravel/framework/issues/53292"
+   ]
+  },
+  {
+   "number": 53628,
+   "title": "orWhere generating an OR when it previously would generate an AND",
+   "url": "https://github.com/laravel/framework/issues/53628",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2025-05-22T17:10:43Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/laravel/framework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/laravel/framework/issues/53628"
+   ]
+  },
+  {
+   "number": 54570,
+   "title": "Inconsistent accessor attribute name conversion",
+   "url": "https://github.com/laravel/framework/issues/54570",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2025-05-12T02:19:36Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/laravel/framework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/laravel/framework/issues/54570"
+   ]
+  },
+  {
+   "number": 54716,
+   "title": "Database cache driver does not work correctly with parallel tests",
+   "url": "https://github.com/laravel/framework/issues/54716",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-05-13T17:04:30Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "PR #178 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder",
+   "evidence": [
+    "https://github.com/laravel/framework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/davidharting/davidharting.com/pull/178",
+    "https://github.com/laravel/framework/issues/54716"
+   ]
+  },
+  {
+   "number": 55194,
+   "title": "Issues with php artisan migrate:fresh affecting multiple database connections",
+   "url": "https://github.com/laravel/framework/issues/55194",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2025-12-13T19:14:25Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/laravel/framework/pulls?q=is%3Apr+is%3Amerged"
+   ]
+  },
+  {
+   "number": 55435,
+   "title": "Injecting a specific logger using Dependency Injection from AppServiceProvider creates bugs within the framework error handler logger",
+   "url": "https://github.com/laravel/framework/issues/55435",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2025-04-22T09:39:22Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/laravel/framework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/laravel/framework/issues/55435"
+   ]
+  },
+  {
+   "number": 55744,
+   "title": "Issue with automaticallyEagerLoadRelationships() and withDefault() – Related Model Created with Missing Foreign Keys",
+   "url": "https://github.com/laravel/framework/issues/55744",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2025-07-30T03:53:22Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/laravel/framework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/laravel/framework/issues/55744"
+   ]
+  },
+  {
+   "number": 56602,
+   "title": "Artisan Console Components should use STDERR for auxiliary output",
+   "url": "https://github.com/laravel/framework/issues/56602",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-10-11T19:58:48Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/laravel/framework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/laravel/framework/issues/56602#issuecomment-3368981441",
+    "https://github.com/laravel/framework/issues/56602#issuecomment-3419526170",
+    "https://github.com/laravel/framework/issues/56602"
+   ]
+  },
+  {
+   "number": 57965,
+   "title": "->json() still creates nvarchar(max) columns on SQL Server 2025 despite native JSON datatype support",
+   "url": "https://github.com/laravel/framework/issues/57965",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-02-23T07:16:34Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #58105 by @n9rrrx is already open against this issue",
+   "evidence": [
+    "https://github.com/laravel/framework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/laravel/framework/pull/58105"
+   ]
+  },
+  {
+   "number": 58279,
+   "title": "Redis-based throttle rate limiting generates non-namespaced keys, breaking Redis ACL compatibility",
+   "url": "https://github.com/laravel/framework/issues/58279",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-02-23T07:16:34Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/laravel/framework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/laravel/framework/issues/58279"
+   ]
+  },
+  {
+   "number": 59516,
+   "title": "Inconsistent orWhere behavior after upgrade from Laravel 10.x to 13.x",
+   "url": "https://github.com/laravel/framework/issues/59516",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-05-01T21:30:45Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/laravel/framework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/laravel/framework/issues/59516"
+   ]
+  },
+  {
+   "number": 60221,
+   "title": "Stack push not always working",
+   "url": "https://github.com/laravel/framework/issues/60221",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-10-09T05:45:45Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "PR #11409 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/laravel/framework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/laravel/docs/pull/11409",
+    "https://github.com/laravel/framework/issues/60221#issuecomment-5493278190",
+    "https://github.com/laravel/framework/issues/60221"
+   ]
+  },
+  {
+   "number": 60253,
+   "title": "Laravel install fails on Windows install:features",
+   "url": "https://github.com/laravel/framework/issues/60253",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-09-16T03:58:11Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #60578 by @sawirricardo is already open against this issue",
+   "evidence": [
+    "https://github.com/laravel/framework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/laravel/framework/pull/60578",
+    "https://github.com/laravel/maestro/pull/143",
+    "https://github.com/laravel/maestro/pull/216"
+   ]
+  }
+ ]
+}

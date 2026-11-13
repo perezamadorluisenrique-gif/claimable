@@ -1,0 +1,1631 @@
+{
+ "owner": "FreshRSS",
+ "repo": "FreshRSS",
+ "language": "PHP",
+ "stars": 16551,
+ "description": "A free, self-hostable news aggregator…",
+ "visitedAt": "2026-11-13T01:07:25.191Z",
+ "issues": [
+  {
+   "number": 947,
+   "title": "[improvement] full article content by fivefilter rules",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/947",
+   "labels": [
+    "Extension :electric_plug:",
+    "help wanted",
+    "Feature Request"
+   ],
+   "updatedAt": "2022-09-04T18:37:28Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "PR #2867 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/pull/2867",
+    "https://github.com/FreshRSS/FreshRSS/issues/947",
+    "https://github.com/FreshRSS/FreshRSS/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 948,
+   "title": "Clear duplicates",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/948",
+   "labels": [
+    "help wanted",
+    "Feature Request"
+   ],
+   "updatedAt": "2026-05-03T12:56:42Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #3419 by @dumprop is already open against this issue",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/issues/3419",
+    "https://github.com/FreshRSS/FreshRSS/issues/2104",
+    "https://github.com/FreshRSS/FreshRSS/issues/302"
+   ]
+  },
+  {
+   "number": 1053,
+   "title": "LDAP/Active Directory",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/1053",
+   "labels": [
+    "help wanted",
+    "Feature Request"
+   ],
+   "updatedAt": "2023-06-03T19:48:39Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "PR #5351 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/pull/5351",
+    "https://github.com/FreshRSS/FreshRSS/issues/1053",
+    "https://github.com/FreshRSS/FreshRSS/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 1639,
+   "title": "First set of quality tests",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/1639",
+   "labels": [
+    "Important :fire:",
+    "help wanted",
+    "System care",
+    "Feature Request"
+   ],
+   "updatedAt": "2026-11-09T20:43:00Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "already assigned to @Inverle",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/pull/1638",
+    "https://github.com/FreshRSS/FreshRSS/issues/1639"
+   ]
+  },
+  {
+   "number": 1646,
+   "title": "Cannot add feed - Cloudflare protection",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/1646",
+   "labels": [
+    "Extension :electric_plug:",
+    "Feed problem :newspaper_roll:",
+    "help wanted"
+   ],
+   "updatedAt": "2022-03-08T13:59:00Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #8494 by @pollocluck is already open against this issue",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/issues/8494"
+   ]
+  },
+  {
+   "number": 2372,
+   "title": "[FR] Action on feed opening",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/2372",
+   "labels": [
+    "UI :art:",
+    "help wanted",
+    "Feature Request"
+   ],
+   "updatedAt": "2022-09-03T09:58:48Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/issues/2372",
+    "https://github.com/FreshRSS/FreshRSS/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 2400,
+   "title": "docker UID/GID environment settings?",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/2400",
+   "labels": [
+    "help wanted",
+    "Docker 🐋",
+    "Feature Request"
+   ],
+   "updatedAt": "2026-08-09T00:39:36Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/issues/2400",
+    "https://github.com/FreshRSS/FreshRSS/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 2426,
+   "title": "[FR] dynamic sidebar width ",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/2426",
+   "labels": [
+    "Optional :cherries:",
+    "UI :art:",
+    "help wanted",
+    "Feature Request"
+   ],
+   "updatedAt": "2022-09-08T14:38:45Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @Frenzie 2700 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/issues/2426#issuecomment-504693744",
+    "https://github.com/FreshRSS/FreshRSS/issues/2426",
+    "https://github.com/FreshRSS/FreshRSS/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 2459,
+   "title": "Feature Request: Subscription Management",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/2459",
+   "labels": [
+    "UI :art:",
+    "help wanted",
+    "Feature Request"
+   ],
+   "updatedAt": "2026-05-03T12:57:41Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #4672 by @math-GH is already open against this issue",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/pull/4672"
+   ]
+  },
+  {
+   "number": 2516,
+   "title": "idea about send to kindle",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/2516",
+   "labels": [
+    "help wanted",
+    "Feature Request"
+   ],
+   "updatedAt": "2023-12-12T14:19:23Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/issues/2516",
+    "https://github.com/FreshRSS/FreshRSS/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 2518,
+   "title": "[FR] Additional field - Category",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/2518",
+   "labels": [
+    "UI :art:",
+    "Good first issue 1️⃣",
+    "help wanted",
+    "View",
+    "Feature Request"
+   ],
+   "updatedAt": "2026-05-03T12:57:42Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "already assigned to @math-GH",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/issues/2518"
+   ]
+  },
+  {
+   "number": 2570,
+   "title": "Consider: CSS Containment",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/2570",
+   "labels": [
+    "UI :art:",
+    "help wanted",
+    "Feature Request"
+   ],
+   "updatedAt": "2026-05-03T12:57:43Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/issues/2570",
+    "https://github.com/FreshRSS/FreshRSS/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 2742,
+   "title": "unnecessary folder in mobile app feed list ",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/2742",
+   "labels": [
+    "Good first issue 1️⃣",
+    "help wanted",
+    "API :handshake:"
+   ],
+   "updatedAt": "2026-09-22T05:13:00Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/issues/2742",
+    "https://github.com/FreshRSS/FreshRSS/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 2786,
+   "title": "provide snap package",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/2786",
+   "labels": [
+    "help wanted",
+    "Feature Request"
+   ],
+   "updatedAt": "2022-08-28T19:15:07Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/issues/2786"
+   ]
+  },
+  {
+   "number": 2805,
+   "title": "[Suggestion] Ajout d'un bouton \"Menu à droite\"",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/2805",
+   "labels": [
+    "UI :art:",
+    "help wanted",
+    "Feature Request"
+   ],
+   "updatedAt": "2022-08-28T15:27:14Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/issues/2805",
+    "https://github.com/FreshRSS/FreshRSS/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 2826,
+   "title": "Change title before add",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/2826",
+   "labels": [
+    "Not urgent :snail:",
+    "UI :art:",
+    "help wanted",
+    "Feature Request"
+   ],
+   "updatedAt": "2026-07-10T15:23:16Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #9022 by @Elgeryy1 is already open against this issue",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/pull/9022"
+   ]
+  },
+  {
+   "number": 2900,
+   "title": "Button install extensions",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/2900",
+   "labels": [
+    "help wanted",
+    "Feature Request"
+   ],
+   "updatedAt": "2026-05-03T12:57:44Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #3053 by @aledeg is already open against this issue",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/pull/3053",
+    "https://github.com/FreshRSS/FreshRSS/pull/7712"
+   ]
+  },
+  {
+   "number": 2916,
+   "title": "Test and add Netnewswire to the list of supported clients",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/2916",
+   "labels": [
+    "Documentation :books:",
+    "help wanted",
+    "API :handshake:"
+   ],
+   "updatedAt": "2022-08-28T15:18:54Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/issues/2916",
+    "https://github.com/FreshRSS/FreshRSS/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 2927,
+   "title": "Can't send email checking",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/2927",
+   "labels": [
+    "Documentation :books:",
+    "help wanted",
+    "Docker 🐋"
+   ],
+   "updatedAt": "2026-05-03T12:57:45Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "already assigned to @marienfressinaud",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/issues/2927"
+   ]
+  },
+  {
+   "number": 3210,
+   "title": "Different displayed settings for each categorization ",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/3210",
+   "labels": [
+    "Good first issue 1️⃣",
+    "help wanted",
+    "Feature Request"
+   ],
+   "updatedAt": "2022-08-28T14:07:39Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/issues/3210",
+    "https://github.com/FreshRSS/FreshRSS/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 3230,
+   "title": "[Suggestion] Une vue globale encore plus synthétique (comme le regretté mulitboards.net)",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/3230",
+   "labels": [
+    "UI :art:",
+    "help wanted",
+    "View",
+    "Feature Request"
+   ],
+   "updatedAt": "2022-08-28T13:27:31Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/issues/3230",
+    "https://github.com/FreshRSS/FreshRSS/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 3436,
+   "title": "[Feature request] Show recent news in HTML5 notifications",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/3436",
+   "labels": [
+    "help wanted",
+    "Feature Request"
+   ],
+   "updatedAt": "2022-08-28T12:23:46Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/issues/3436",
+    "https://github.com/FreshRSS/FreshRSS/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 3527,
+   "title": "[Feature Request/Bug] reordering feeds within a category",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/3527",
+   "labels": [
+    "Not urgent :snail:",
+    "Good first issue 1️⃣",
+    "help wanted",
+    "Feature Request"
+   ],
+   "updatedAt": "2026-08-14T16:20:48Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #1875 by @Uhter is already open against this issue",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/issues/1875"
+   ]
+  },
+  {
+   "number": 3752,
+   "title": "[BUG] SSL error even after disabling verification of SSL security",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/3752",
+   "labels": [
+    "Good first issue 1️⃣",
+    "Security :shield:",
+    "help wanted"
+   ],
+   "updatedAt": "2024-11-05T19:12:47Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/issues/3752",
+    "https://github.com/FreshRSS/FreshRSS/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 3780,
+   "title": "[Feature]Share article feed content instead of link to Wallabag",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/3780",
+   "labels": [
+    "Good first issue 1️⃣",
+    "help wanted",
+    "Feature Request",
+    "Sharing"
+   ],
+   "updatedAt": "2025-10-02T11:54:35Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/issues/3780",
+    "https://github.com/FreshRSS/FreshRSS/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 3885,
+   "title": "[Feature] Grid view",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/3885",
+   "labels": [
+    "UI :art:",
+    "help wanted",
+    "View",
+    "Feature Request",
+    "FR: grid view"
+   ],
+   "updatedAt": "2026-05-03T12:57:51Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #6848 by @math-GH is already open against this issue",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/pull/6848"
+   ]
+  },
+  {
+   "number": 4396,
+   "title": "[Feature] E-Ink Support? ",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/4396",
+   "labels": [
+    "UI :art:",
+    "help wanted"
+   ],
+   "updatedAt": "2025-12-31T16:40:24Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #4691 by @foureight84 is already open against this issue",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/issues/4691"
+   ]
+  },
+  {
+   "number": 4883,
+   "title": "[Feature] Change Username",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/4883",
+   "labels": [
+    "Documentation :books:",
+    "help wanted",
+    "Feature Request"
+   ],
+   "updatedAt": "2026-09-08T20:47:10Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "already assigned to @Inverle",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/issues/4883"
+   ]
+  },
+  {
+   "number": 4913,
+   "title": "[Feature] Visibility options for the category",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/4913",
+   "labels": [
+    "Good first issue 1️⃣",
+    "help wanted",
+    "FR: Bulk action"
+   ],
+   "updatedAt": "2026-11-09T20:44:22Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #8903 by @Inverle is already open against this issue",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/pull/8903"
+   ]
+  },
+  {
+   "number": 5939,
+   "title": "[Feature] Adding security certificates to specific feeds for access ",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/5939",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2023-12-12T14:20:54Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/issues/5939",
+    "https://github.com/FreshRSS/FreshRSS/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 6034,
+   "title": "[Feature] Automatic update without cron job",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/6034",
+   "labels": [
+    "Extension :electric_plug:",
+    "Good first issue 1️⃣",
+    "help wanted"
+   ],
+   "updatedAt": "2024-02-19T02:10:03Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/issues/6034",
+    "https://github.com/FreshRSS/FreshRSS/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 6135,
+   "title": "[Feature] Global limits to preserve resources",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/6135",
+   "labels": [
+    "Good first issue 1️⃣",
+    "help wanted",
+    "System care",
+    "Feature Request"
+   ],
+   "updatedAt": "2024-03-01T14:07:35Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "open 33 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/issues/6135",
+    "https://github.com/FreshRSS/FreshRSS/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 6136,
+   "title": "Memory optimisation of API function",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/6136",
+   "labels": [
+    "Good first issue 1️⃣",
+    "help wanted",
+    "API :handshake:",
+    "System care"
+   ],
+   "updatedAt": "2024-03-01T14:07:10Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "PR #6137 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/pull/6137",
+    "https://github.com/FreshRSS/FreshRSS/issues/6136",
+    "https://github.com/FreshRSS/FreshRSS/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 6139,
+   "title": "Memory optimisation of export/import",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/6139",
+   "labels": [
+    "Good first issue 1️⃣",
+    "help wanted",
+    "System care"
+   ],
+   "updatedAt": "2024-03-01T14:06:54Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "PR #9350 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/pull/9350",
+    "https://github.com/FreshRSS/FreshRSS/issues/6139",
+    "https://github.com/FreshRSS/FreshRSS/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 6150,
+   "title": "[Feature] Fever-style hot view",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/6150",
+   "labels": [
+    "Optional :cherries:",
+    "help wanted"
+   ],
+   "updatedAt": "2024-03-12T19:36:56Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/issues/6150",
+    "https://github.com/FreshRSS/FreshRSS/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 6158,
+   "title": "[Feature] Make \"About FreshRSS\" customizable",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/6158",
+   "labels": [
+    "Good first issue 1️⃣",
+    "help wanted"
+   ],
+   "updatedAt": "2024-03-05T12:18:03Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/issues/6158",
+    "https://github.com/FreshRSS/FreshRSS/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 6208,
+   "title": "Caddy Reverse Proxy using Subfolder",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/6208",
+   "labels": [
+    "Documentation :books:",
+    "Good first issue 1️⃣",
+    "help wanted"
+   ],
+   "updatedAt": "2025-09-03T08:09:58Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "PR #6219 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/pull/6219",
+    "https://github.com/FreshRSS/FreshRSS/issues/6208"
+   ]
+  },
+  {
+   "number": 6209,
+   "title": "[Feature] XPath, date: Possibility to specify the language",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/6209",
+   "labels": [
+    "I18n :earth_africa:",
+    "help wanted",
+    "Feature Request",
+    "Web Scraping"
+   ],
+   "updatedAt": "2024-09-22T16:22:37Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/issues/6209",
+    "https://github.com/FreshRSS/FreshRSS/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 6332,
+   "title": "[i18n] Translation Hebrew (HE) 🇮🇱 needs translators",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/6332",
+   "labels": [
+    "Good first issue 1️⃣",
+    "I18n :earth_africa:",
+    "help wanted",
+    "Hacktoberfest"
+   ],
+   "updatedAt": "2026-05-03T12:55:24Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/issues/6332",
+    "https://github.com/FreshRSS/FreshRSS/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 6353,
+   "title": "[i18n] Translation Occitan (OC) 🇫🇷 needs translators",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/6353",
+   "labels": [
+    "Good first issue 1️⃣",
+    "I18n :earth_africa:",
+    "help wanted",
+    "Hacktoberfest"
+   ],
+   "updatedAt": "2026-05-03T12:55:25Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/issues/6353",
+    "https://github.com/FreshRSS/FreshRSS/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 6487,
+   "title": "[Feature] Notification to Admin when an update is actually ready for installation",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/6487",
+   "labels": [
+    "Update action :floppy_disk:",
+    "help wanted",
+    "Feature Request",
+    "UX"
+   ],
+   "updatedAt": "2026-10-20T11:40:38Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/issues/6487",
+    "https://github.com/FreshRSS/FreshRSS/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 6551,
+   "title": "[Feature] Support running without local storage",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/6551",
+   "labels": [
+    "help wanted",
+    "Feature Request"
+   ],
+   "updatedAt": "2025-02-06T13:55:25Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/issues/6551",
+    "https://github.com/FreshRSS/FreshRSS/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 6562,
+   "title": "[Feature] Ability to resize column widths in the feed",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/6562",
+   "labels": [
+    "UI :art:",
+    "help wanted",
+    "UX"
+   ],
+   "updatedAt": "2024-10-30T13:59:27Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/issues/6562",
+    "https://github.com/FreshRSS/FreshRSS/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 6721,
+   "title": "Support for RSS TTL",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/6721",
+   "labels": [
+    "SimplePie :cake:",
+    "help wanted",
+    "RSS standard"
+   ],
+   "updatedAt": "2024-09-20T22:09:47Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/issues/6721",
+    "https://github.com/FreshRSS/FreshRSS/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 6776,
+   "title": "UI support SeaMonkey",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/6776",
+   "labels": [
+    "UI :art:",
+    "Good first issue 1️⃣",
+    "help wanted",
+    "Theme 🖌"
+   ],
+   "updatedAt": "2026-11-09T20:43:10Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "PR #6777 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+5 more)",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/pull/6777",
+    "https://github.com/FreshRSS/FreshRSS/pull/8804",
+    "https://github.com/FreshRSS/FreshRSS/pull/8810",
+    "https://github.com/FreshRSS/FreshRSS/pull/8811",
+    "https://github.com/FreshRSS/FreshRSS/pull/8813",
+    "https://github.com/FreshRSS/FreshRSS/pull/8823",
+    "https://github.com/FreshRSS/FreshRSS/issues/6776",
+    "https://github.com/FreshRSS/FreshRSS/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 6830,
+   "title": "Take advantage of PHP 8.4+ native CSS selectors",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/6830",
+   "labels": [
+    "Good first issue 1️⃣",
+    "help wanted",
+    "System care",
+    "php",
+    "Web Scraping"
+   ],
+   "updatedAt": "2026-11-09T20:43:14Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #9050 by @Elgeryy1 is already open against this issue",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/pull/9050"
+   ]
+  },
+  {
+   "number": 6831,
+   "title": "Take advantage of PHP 8.4+ native HTML5 support",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/6831",
+   "labels": [
+    "SimplePie :cake:",
+    "Security :shield:",
+    "help wanted",
+    "php"
+   ],
+   "updatedAt": "2026-11-09T20:43:17Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #8825 by @polybjorn is already open against this issue",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/pull/8825",
+    "https://github.com/FreshRSS/Extensions/pull/578"
+   ]
+  },
+  {
+   "number": 6839,
+   "title": "[Feature]Subscribe FreshRSS's logs itself as rss",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/6839",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-09T20:44:37Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/issues/6839",
+    "https://github.com/FreshRSS/FreshRSS/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 6841,
+   "title": "[i18n] Translation Czech (CS) 🇨🇿 - Hacktoberfest Task",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/6841",
+   "labels": [
+    "Good first issue 1️⃣",
+    "I18n :earth_africa:",
+    "help wanted",
+    "Hacktoberfest"
+   ],
+   "updatedAt": "2025-10-04T13:53:53Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/issues/6841",
+    "https://github.com/FreshRSS/FreshRSS/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 6842,
+   "title": "[i18n] Translation Greek (EL) 🇬🇷 - Hacktoberfest Task",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/6842",
+   "labels": [
+    "Good first issue 1️⃣",
+    "I18n :earth_africa:",
+    "help wanted",
+    "Hacktoberfest"
+   ],
+   "updatedAt": "2025-10-04T13:53:37Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "PR #8977 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/pull/8977",
+    "https://github.com/FreshRSS/FreshRSS/issues/6842",
+    "https://github.com/FreshRSS/FreshRSS/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 6942,
+   "title": "[Feature] Allow Admin set default theme (Include login page theme)",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/6942",
+   "labels": [
+    "UI :art:",
+    "Good first issue 1️⃣",
+    "help wanted",
+    "Theme 🖌",
+    "UX"
+   ],
+   "updatedAt": "2025-01-30T18:19:04Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #9137 by @Elgeryy1 is already open against this issue",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/pull/9137"
+   ]
+  },
+  {
+   "number": 6976,
+   "title": "[Feature] Re-scanning the database and re-applying filters",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/6976",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2024-11-19T18:55:59Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/issues/6976",
+    "https://github.com/FreshRSS/FreshRSS/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 6998,
+   "title": "[Feature] Please add Readeck as sharing method",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/6998",
+   "labels": [
+    "Good first issue 1️⃣",
+    "help wanted",
+    "Sharing"
+   ],
+   "updatedAt": "2025-10-02T11:51:56Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #7092 by @Abdallah-Abdaljalil is already open against this issue",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/pull/7092"
+   ]
+  },
+  {
+   "number": 7209,
+   "title": "Add new option for CURLOPT_HTTPPROXYTUNNEL",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/7209",
+   "labels": [
+    "help wanted",
+    "Hacktoberfest",
+    "Bug (unconfirmed)"
+   ],
+   "updatedAt": "2026-09-08T20:46:34Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #9078 by @Elgeryy1 is already open against this issue",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/pull/9078",
+    "https://github.com/FreshRSS/FreshRSS/pull/7231",
+    "https://github.com/FreshRSS/FreshRSS/pull/9054"
+   ]
+  },
+  {
+   "number": 7260,
+   "title": "Use the Force HTTPS mechanism also for favicons, Web scraping, etc.",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/7260",
+   "labels": [
+    "Security :shield:",
+    "help wanted"
+   ],
+   "updatedAt": "2026-09-08T20:46:35Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #9048 by @Elgeryy1 is already open against this issue",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/pull/9048"
+   ]
+  },
+  {
+   "number": 7308,
+   "title": "[Feature] Ability to use docker secrets files",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/7308",
+   "labels": [
+    "Security :shield:",
+    "help wanted",
+    "Docker 🐋",
+    "Feature Request"
+   ],
+   "updatedAt": "2026-09-08T20:46:35Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #9030 by @Elgeryy1 is already open against this issue",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/pull/9030"
+   ]
+  },
+  {
+   "number": 7365,
+   "title": "[Feature] Store reading progress",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/7365",
+   "labels": [
+    "Extension :electric_plug:",
+    "help wanted",
+    "Feature Request"
+   ],
+   "updatedAt": "2025-02-26T08:25:57Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/issues/7365",
+    "https://github.com/FreshRSS/FreshRSS/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 7408,
+   "title": "Add support for HTTP 103 Early Hints",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/7408",
+   "labels": [
+    "SimplePie :cake:",
+    "Feed problem :newspaper_roll:",
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-09T20:42:09Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #84 by @Elgeryy1 is already open against this issue",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/simplepie/pull/84"
+   ]
+  },
+  {
+   "number": 7418,
+   "title": "[Feature] Export/archive/download individual articles",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/7418",
+   "labels": [
+    "help wanted",
+    "Feature Request"
+   ],
+   "updatedAt": "2025-03-17T10:32:23Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/issues/7418",
+    "https://github.com/FreshRSS/FreshRSS/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 7648,
+   "title": "[Feature] Show a warning when subscribing to an already added feed",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/7648",
+   "labels": [
+    "Good first issue 1️⃣",
+    "help wanted",
+    "Feature Request"
+   ],
+   "updatedAt": "2026-07-10T14:19:12Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #9016 by @Elgeryy1 is already open against this issue",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/pull/9016"
+   ]
+  },
+  {
+   "number": 7659,
+   "title": "[Feature] Manual ordering of feeds within a category",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/7659",
+   "labels": [
+    "help wanted",
+    "Feature Request",
+    "UX"
+   ],
+   "updatedAt": "2026-08-14T16:20:27Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #8687 by @pe1uca is already open against this issue",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/pull/8687"
+   ]
+  },
+  {
+   "number": 7869,
+   "title": "Rework service sharing configuration page",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/7869",
+   "labels": [
+    "help wanted",
+    "Feature Request",
+    "UX",
+    "Sharing"
+   ],
+   "updatedAt": "2026-05-03T12:31:40Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #7840 by @fernandeusto is already open against this issue",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/issues/7840"
+   ]
+  },
+  {
+   "number": 7923,
+   "title": "Complete TODOs from source code",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/7923",
+   "labels": [
+    "help wanted",
+    "System care"
+   ],
+   "updatedAt": "2026-10-23T23:30:54Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "@hifarrer claimed it 20 days ago",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/pull/7958",
+    "https://github.com/FreshRSS/FreshRSS/pull/8000",
+    "https://github.com/FreshRSS/FreshRSS/pull/9136",
+    "https://github.com/FreshRSS/FreshRSS/issues/7923",
+    "https://github.com/FreshRSS/FreshRSS/issues/7923#issuecomment-6376783191"
+   ]
+  },
+  {
+   "number": 7948,
+   "title": "Add a feed based on remote OPML URL",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/7948",
+   "labels": [
+    "help wanted",
+    "Feature Request",
+    "Web Scraping"
+   ],
+   "updatedAt": "2026-05-03T12:31:41Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "open 14 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/issues/7948",
+    "https://github.com/FreshRSS/FreshRSS/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 7954,
+   "title": "[Feature] Use \"key code\" for the hotkeys, instead of the actual letters",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/7954",
+   "labels": [
+    "Good first issue 1️⃣",
+    "help wanted",
+    "Shortcuts ⌨",
+    "Feature Request"
+   ],
+   "updatedAt": "2026-05-03T12:31:41Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #9039 by @lcd1232 is already open against this issue",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/pull/9039"
+   ]
+  },
+  {
+   "number": 8031,
+   "title": "Rewrite OpenID Connect using native PHP instead of mod_auth_openidc",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/8031",
+   "labels": [
+    "Security :shield:",
+    "help wanted",
+    "Hacktoberfest",
+    "php"
+   ],
+   "updatedAt": "2026-01-04T11:22:52Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #9516 by @c-egbert is already open against this issue",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/pull/9516",
+    "https://github.com/FreshRSS/FreshRSS/pull/7805",
+    "https://github.com/FreshRSS/FreshRSS/pull/7135",
+    "https://github.com/FreshRSS/FreshRSS/pull/5351",
+    "https://github.com/FreshRSS/FreshRSS/pull/7174"
+   ]
+  },
+  {
+   "number": 8109,
+   "title": "Consider adding support for Really Simple Licensing (RSL)",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/8109",
+   "labels": [
+    "Optional :cherries:",
+    "SimplePie :cake:",
+    "help wanted",
+    "RSS standard"
+   ],
+   "updatedAt": "2025-12-16T14:37:51Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/issues/8109",
+    "https://github.com/FreshRSS/FreshRSS/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 8162,
+   "title": "[Feed problem] Titles are not parsed properly.",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/8162",
+   "labels": [
+    "Extension :electric_plug:",
+    "Feed problem :newspaper_roll:",
+    "help wanted"
+   ],
+   "updatedAt": "2026-09-25T12:23:19Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/issues/8162"
+   ]
+  },
+  {
+   "number": 8183,
+   "title": "Export to SQLite from Web UI",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/8183",
+   "labels": [
+    "Good first issue 1️⃣",
+    "help wanted"
+   ],
+   "updatedAt": "2026-09-08T20:46:37Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #9138 by @Elgeryy1 is already open against this issue",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/pull/9138",
+    "https://github.com/FreshRSS/FreshRSS/pull/8819"
+   ]
+  },
+  {
+   "number": 8198,
+   "title": "[Feature] Read articles from E-Reader Browser (Kindle)",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/8198",
+   "labels": [
+    "Security :shield:",
+    "help wanted",
+    "Feature Request"
+   ],
+   "updatedAt": "2026-01-30T13:01:41Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/issues/8198",
+    "https://github.com/FreshRSS/FreshRSS/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 8249,
+   "title": "[Bug] Unread count of feed in sidebar is slow to update",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/8249",
+   "labels": [
+    "UI :art:",
+    "help wanted",
+    "Bug (unconfirmed)"
+   ],
+   "updatedAt": "2026-07-22T22:45:05Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #9018 by @Elgeryy1 is already open against this issue",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/pull/9018"
+   ]
+  },
+  {
+   "number": 8326,
+   "title": "[Feature] Ignore junk after closing RSS tag in XML",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/8326",
+   "labels": [
+    "Feed problem :newspaper_roll:",
+    "help wanted",
+    "Feature Request"
+   ],
+   "updatedAt": "2026-07-10T15:16:33Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #9020 by @Elgeryy1 is already open against this issue",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/pull/9020"
+   ]
+  },
+  {
+   "number": 8333,
+   "title": "[Feature] Theme Optimization",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/8333",
+   "labels": [
+    "UI :art:",
+    "help wanted",
+    "Feature Request"
+   ],
+   "updatedAt": "2025-12-20T16:10:39Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/issues/8333",
+    "https://github.com/FreshRSS/FreshRSS/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 8379,
+   "title": "[Feature] Persian (jalali) calendar",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/8379",
+   "labels": [
+    "I18n :earth_africa:",
+    "help wanted",
+    "Feature Request"
+   ],
+   "updatedAt": "2026-02-01T12:38:10Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/issues/8379",
+    "https://github.com/FreshRSS/FreshRSS/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 8429,
+   "title": "[Feature] Better feed error experience",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/8429",
+   "labels": [
+    "SimplePie :cake:",
+    "help wanted",
+    "Feature Request",
+    "FR: handle error feeds",
+    "Web Scraping"
+   ],
+   "updatedAt": "2026-07-03T21:16:02Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #9397 by @Inverle is already open against this issue",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/issues/9397"
+   ]
+  },
+  {
+   "number": 8472,
+   "title": "[Feature] Configuration per feed and category of an extension",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/8472",
+   "labels": [
+    "Extension :electric_plug:",
+    "help wanted",
+    "Feature Request"
+   ],
+   "updatedAt": "2026-09-08T20:46:38Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #9021 by @Elgeryy1 is already open against this issue",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/pull/9021"
+   ]
+  },
+  {
+   "number": 8578,
+   "title": "[Bug] 404 error when trying to logout with OIDC (Authentik)",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/8578",
+   "labels": [
+    "Security :shield:",
+    "help wanted",
+    "Bug (unconfirmed)"
+   ],
+   "updatedAt": "2026-03-07T22:01:54Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/issues/8578"
+   ]
+  },
+  {
+   "number": 8636,
+   "title": "[Bug] Simplepie destroys headers with a JSON value",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/8636",
+   "labels": [
+    "SimplePie :cake:",
+    "help wanted",
+    "Bug (unconfirmed)"
+   ],
+   "updatedAt": "2026-09-08T20:46:40Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/issues/8636"
+   ]
+  },
+  {
+   "number": 8641,
+   "title": "[Feature] hook for all entry modifications",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/8641",
+   "labels": [
+    "Extension :electric_plug:",
+    "help wanted",
+    "Feature Request"
+   ],
+   "updatedAt": "2026-03-30T08:26:34Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "PR #8673 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/pull/8673",
+    "https://github.com/FreshRSS/FreshRSS/issues/8641",
+    "https://github.com/FreshRSS/FreshRSS/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 8658,
+   "title": "[Feature] more batch \"mark as read\" tools",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/8658",
+   "labels": [
+    "UI :art:",
+    "help wanted",
+    "Feature Request",
+    "UX"
+   ],
+   "updatedAt": "2026-07-06T10:20:57Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/issues/8658",
+    "https://github.com/FreshRSS/FreshRSS/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 8690,
+   "title": "[Bug] reverse proxy quic/http3 oidc fails",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/8690",
+   "labels": [
+    "help wanted",
+    "Bug (unconfirmed)"
+   ],
+   "updatedAt": "2026-04-17T09:33:35Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/issues/8690"
+   ]
+  },
+  {
+   "number": 8829,
+   "title": "[Bug] bottom bar detaches from bottom, wanders into middle of screen",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/8829",
+   "labels": [
+    "UI :art:",
+    "help wanted",
+    "Bug (confirmed) 🐞"
+   ],
+   "updatedAt": "2026-10-05T19:34:00Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "PR #8833 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/pull/8833",
+    "https://github.com/FreshRSS/FreshRSS/pull/8933",
+    "https://github.com/FreshRSS/FreshRSS/pull/8934",
+    "https://github.com/FreshRSS/FreshRSS/issues/8829",
+    "https://github.com/FreshRSS/FreshRSS/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 8931,
+   "title": "[Feature] Two-Factor Authenticaton via TOTP",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/8931",
+   "labels": [
+    "Extension :electric_plug:",
+    "Security :shield:",
+    "help wanted",
+    "Feature Request"
+   ],
+   "updatedAt": "2026-07-03T21:05:23Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "already assigned to @Inverle",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/issues/8931"
+   ]
+  },
+  {
+   "number": 9222,
+   "title": "[Bug] Prevent spam of empty log messages",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/9222",
+   "labels": [
+    "Good first issue 1️⃣",
+    "help wanted",
+    "Bug (confirmed) 🐞"
+   ],
+   "updatedAt": "2026-09-08T20:46:47Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #9239 by @mmustafasenoglu is already open against this issue",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/pull/9239",
+    "https://github.com/FreshRSS/FreshRSS/pull/1619"
+   ]
+  },
+  {
+   "number": 9232,
+   "title": "Is it possible to change the view from 'Reader' to 'Normal' in shared user query?",
+   "url": "https://github.com/FreshRSS/FreshRSS/issues/9232",
+   "labels": [
+    "UI :art:",
+    "help wanted",
+    "API :handshake:",
+    "Sharing"
+   ],
+   "updatedAt": "2026-09-08T20:46:48Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #9243 by @Alkarex is already open against this issue",
+   "evidence": [
+    "https://github.com/FreshRSS/FreshRSS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FreshRSS/FreshRSS/pull/9243"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,452 @@
+{
+ "owner": "symfony",
+ "repo": "symfony",
+ "language": "PHP",
+ "stars": 31523,
+ "description": "The Symfony PHP framework",
+ "visitedAt": "2026-11-13T01:07:25.191Z",
+ "issues": [
+  {
+   "number": 38885,
+   "title": "JUnit format support for lint:twig (and possibly other CI commands)",
+   "url": "https://github.com/symfony/symfony/issues/38885",
+   "labels": [
+    "Feature",
+    "TwigBridge",
+    "Help wanted",
+    "Keep open"
+   ],
+   "updatedAt": "2026-10-18T12:11:25Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #67192 by @m1rm is already open against this issue",
+   "evidence": [
+    "https://github.com/symfony/symfony/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/symfony/symfony/pull/67192",
+    "https://github.com/symfony/symfony/pull/67338",
+    "https://github.com/symfony/symfony/pull/67348"
+   ]
+  },
+  {
+   "number": 45127,
+   "title": "Missing translations for Mongolian (mn)",
+   "url": "https://github.com/symfony/symfony/issues/45127",
+   "labels": [
+    "Good first issue",
+    "Help wanted",
+    "Missing translations"
+   ],
+   "updatedAt": "2026-10-29T13:46:53Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @lacatoire 1509 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting",
+   "evidence": [
+    "https://github.com/symfony/symfony/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/symfony/symfony/issues/45127#issuecomment-1257561324",
+    "https://github.com/symfony/symfony/issues/45127"
+   ]
+  },
+  {
+   "number": 45130,
+   "title": "Missing translations for Norwegian Nynorsk (nn)",
+   "url": "https://github.com/symfony/symfony/issues/45130",
+   "labels": [
+    "Good first issue",
+    "Help wanted",
+    "Missing translations"
+   ],
+   "updatedAt": "2026-10-29T14:02:22Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @yahya-galib 1679 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting",
+   "evidence": [
+    "https://github.com/symfony/symfony/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/symfony/symfony/issues/45130#issuecomment-1093368899",
+    "https://github.com/symfony/symfony/issues/45130"
+   ]
+  },
+  {
+   "number": 51897,
+   "title": "Missing translations for Burmese (my)",
+   "url": "https://github.com/symfony/symfony/issues/51897",
+   "labels": [
+    "Good first issue",
+    "Help wanted",
+    "Missing translations"
+   ],
+   "updatedAt": "2026-11-12T15:37:17Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/symfony/symfony/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/symfony/symfony/issues/51897"
+   ]
+  },
+  {
+   "number": 51903,
+   "title": "Missing translations for Welsh (cy)",
+   "url": "https://github.com/symfony/symfony/issues/51903",
+   "labels": [
+    "Good first issue",
+    "Help wanted",
+    "Missing translations"
+   ],
+   "updatedAt": "2026-10-29T13:47:28Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/symfony/symfony/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/symfony/symfony/issues/51903"
+   ]
+  },
+  {
+   "number": 53012,
+   "title": "Missing translations for Basque (eu)",
+   "url": "https://github.com/symfony/symfony/issues/53012",
+   "labels": [
+    "Good first issue",
+    "Help wanted",
+    "Missing translations"
+   ],
+   "updatedAt": "2026-10-29T13:46:03Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @aetxebeste 926 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting",
+   "evidence": [
+    "https://github.com/symfony/symfony/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/symfony/symfony/issues/53012#issuecomment-2088166015",
+    "https://github.com/symfony/symfony/issues/53012"
+   ]
+  },
+  {
+   "number": 60551,
+   "title": "Allow retrieval of current RateLimit without actually consuming",
+   "url": "https://github.com/symfony/symfony/issues/60551",
+   "labels": [
+    "Feature",
+    "Help wanted",
+    "RateLimiter",
+    "Keep open"
+   ],
+   "updatedAt": "2026-10-21T08:49:28Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #67355 by @Samyra312007 is already open against this issue",
+   "evidence": [
+    "https://github.com/symfony/symfony/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/symfony/symfony/pull/67355",
+    "https://github.com/vincentchalamon/bike-trip-planner/pull/1315"
+   ]
+  },
+  {
+   "number": 64478,
+   "title": "Missing translations for Afrikaans (af)",
+   "url": "https://github.com/symfony/symfony/issues/64478",
+   "labels": [
+    "Good first issue",
+    "Help wanted",
+    "Missing translations"
+   ],
+   "updatedAt": "2026-10-29T13:45:52Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/symfony/symfony/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/symfony/symfony/issues/64478"
+   ]
+  },
+  {
+   "number": 64481,
+   "title": "Missing translations for Armenian (hy)",
+   "url": "https://github.com/symfony/symfony/issues/64481",
+   "labels": [
+    "Good first issue",
+    "Help wanted",
+    "Missing translations"
+   ],
+   "updatedAt": "2026-10-31T10:26:29Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "@dbuhonov claimed it 13 days ago",
+   "evidence": [
+    "https://github.com/symfony/symfony/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/symfony/symfony/issues/64481#issuecomment-6542215745"
+   ]
+  },
+  {
+   "number": 64482,
+   "title": "Missing translations for Azerbaijani (az)",
+   "url": "https://github.com/symfony/symfony/issues/64482",
+   "labels": [
+    "Good first issue",
+    "Help wanted",
+    "Missing translations"
+   ],
+   "updatedAt": "2026-10-29T13:45:59Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/symfony/symfony/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/symfony/symfony/issues/64482"
+   ]
+  },
+  {
+   "number": 64483,
+   "title": "Missing translations for Belarusian (be)",
+   "url": "https://github.com/symfony/symfony/issues/64483",
+   "labels": [
+    "Good first issue",
+    "Help wanted",
+    "Missing translations"
+   ],
+   "updatedAt": "2026-10-29T13:46:06Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/symfony/symfony/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/symfony/symfony/issues/64483"
+   ]
+  },
+  {
+   "number": 64490,
+   "title": "Missing translations for Czech (cs)",
+   "url": "https://github.com/symfony/symfony/issues/64490",
+   "labels": [
+    "Good first issue",
+    "Help wanted",
+    "Missing translations"
+   ],
+   "updatedAt": "2026-10-29T13:46:26Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/symfony/symfony/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/symfony/symfony/issues/64490"
+   ]
+  },
+  {
+   "number": 64494,
+   "title": "Missing translations for Finnish (fi)",
+   "url": "https://github.com/symfony/symfony/issues/64494",
+   "labels": [
+    "Good first issue",
+    "Help wanted",
+    "Missing translations"
+   ],
+   "updatedAt": "2026-10-29T16:21:13Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/symfony/symfony/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/symfony/symfony/issues/64494"
+   ]
+  },
+  {
+   "number": 64496,
+   "title": "Missing translations for Galician (gl)",
+   "url": "https://github.com/symfony/symfony/issues/64496",
+   "labels": [
+    "Good first issue",
+    "Help wanted",
+    "Missing translations"
+   ],
+   "updatedAt": "2026-10-29T13:46:40Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/symfony/symfony/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/symfony/symfony/issues/64496"
+   ]
+  },
+  {
+   "number": 64499,
+   "title": "Missing translations for Hebrew (he)",
+   "url": "https://github.com/symfony/symfony/issues/64499",
+   "labels": [
+    "Good first issue",
+    "Help wanted",
+    "Missing translations"
+   ],
+   "updatedAt": "2026-11-03T11:55:13Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/symfony/symfony/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/symfony/symfony/issues/64499"
+   ]
+  },
+  {
+   "number": 64506,
+   "title": "Missing translations for Norwegian (no)",
+   "url": "https://github.com/symfony/symfony/issues/64506",
+   "labels": [
+    "Good first issue",
+    "Help wanted",
+    "Missing translations"
+   ],
+   "updatedAt": "2026-10-29T13:46:57Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/symfony/symfony/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/symfony/symfony/issues/64506"
+   ]
+  },
+  {
+   "number": 64507,
+   "title": "Missing translations for Norwegian Bokmål (nb)",
+   "url": "https://github.com/symfony/symfony/issues/64507",
+   "labels": [
+    "Good first issue",
+    "Help wanted",
+    "Missing translations"
+   ],
+   "updatedAt": "2026-10-24T11:40:02Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/symfony/symfony/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/symfony/symfony/issues/64507"
+   ]
+  },
+  {
+   "number": 64510,
+   "title": "Missing translations for Portuguese (pt)",
+   "url": "https://github.com/symfony/symfony/issues/64510",
+   "labels": [
+    "Good first issue",
+    "Help wanted",
+    "Missing translations"
+   ],
+   "updatedAt": "2026-10-29T13:47:05Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/symfony/symfony/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/symfony/symfony/issues/64510"
+   ]
+  },
+  {
+   "number": 65558,
+   "title": "Missing translations for Lithuanian (lt)",
+   "url": "https://github.com/symfony/symfony/issues/65558",
+   "labels": [
+    "Good first issue",
+    "Help wanted",
+    "Missing translations"
+   ],
+   "updatedAt": "2026-10-29T13:46:47Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/symfony/symfony/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/symfony/symfony/issues/65558"
+   ]
+  },
+  {
+   "number": 65569,
+   "title": "Missing translations for Uzbek (uz)",
+   "url": "https://github.com/symfony/symfony/issues/65569",
+   "labels": [
+    "Good first issue",
+    "Help wanted",
+    "Missing translations"
+   ],
+   "updatedAt": "2026-11-10T18:06:18Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "@kasevvlad claimed it 2 days ago",
+   "evidence": [
+    "https://github.com/symfony/symfony/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/symfony/symfony/issues/65569#issuecomment-6775211778"
+   ]
+  },
+  {
+   "number": 66090,
+   "title": "Missing translations for Bosnian (bs)",
+   "url": "https://github.com/symfony/symfony/issues/66090",
+   "labels": [
+    "Good first issue",
+    "Help wanted",
+    "Missing translations"
+   ],
+   "updatedAt": "2026-10-29T13:46:09Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/symfony/symfony/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/symfony/symfony/issues/66090"
+   ]
+  },
+  {
+   "number": 66105,
+   "title": "Missing translations for Romanian (ro)",
+   "url": "https://github.com/symfony/symfony/issues/66105",
+   "labels": [
+    "Good first issue",
+    "Help wanted",
+    "Missing translations"
+   ],
+   "updatedAt": "2026-10-29T13:47:09Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/symfony/symfony/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/symfony/symfony/issues/66105"
+   ]
+  },
+  {
+   "number": 66111,
+   "title": "Missing translations for Urdu (ur)",
+   "url": "https://github.com/symfony/symfony/issues/66111",
+   "labels": [
+    "Good first issue",
+    "Help wanted",
+    "Missing translations"
+   ],
+   "updatedAt": "2026-10-28T03:15:03Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "@sohailsq claimed it 16 days ago",
+   "evidence": [
+    "https://github.com/symfony/symfony/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/symfony/symfony/pull/66545",
+    "https://github.com/symfony/symfony/issues/66111#issuecomment-6459705791",
+    "https://github.com/symfony/symfony/issues/66111#issuecomment-6096238193"
+   ]
+  },
+  {
+   "number": 67434,
+   "title": "Missing translations for Tagalog (tl)",
+   "url": "https://github.com/symfony/symfony/issues/67434",
+   "labels": [
+    "Good first issue",
+    "Help wanted",
+    "Missing translations"
+   ],
+   "updatedAt": "2026-10-24T11:40:11Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/symfony/symfony/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/symfony/symfony/issues/67434"
+   ]
+  }
+ ]
+}

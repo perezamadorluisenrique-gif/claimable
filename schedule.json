@@ -538,5 +538,61 @@
  "fastfetch-cli/fastfetch": {
   "nextCheck": "2026-11-12T20:57:47.710Z",
   "lastNewIssue": "2026-08-17T06:35:04Z"
+ },
+ "danielmiessler/seclists": {
+  "nextCheck": "2026-11-20T01:07:25.191Z",
+  "lastNewIssue": "2026-01-31T17:27:49Z"
+ },
+ "nextcloud/server": {
+  "nextCheck": "2026-11-16T01:07:25.191Z",
+  "lastNewIssue": "2026-10-23T17:59:48Z"
+ },
+ "laravel/framework": {
+  "nextCheck": "2026-11-20T01:07:25.191Z",
+  "lastNewIssue": "2026-05-24T01:50:54Z"
+ },
+ "symfony/symfony": {
+  "nextCheck": "2026-11-16T01:07:25.191Z",
+  "lastNewIssue": "2026-10-24T11:40:11Z"
+ },
+ "monicahq/monica": {
+  "nextCheck": "2026-11-20T01:07:25.191Z",
+  "lastNewIssue": "2021-12-28T13:01:20Z"
+ },
+ "phpmailer/phpmailer": {
+  "nextCheck": "2026-11-20T01:07:25.191Z",
+  "lastNewIssue": "2026-09-10T08:33:36Z"
+ },
+ "matomo-org/matomo": {
+  "nextCheck": "2026-11-20T01:07:25.191Z",
+  "lastNewIssue": "2024-11-22T09:51:52Z"
+ },
+ "briannesbitt/carbon": {
+  "nextCheck": "2026-11-20T01:07:25.191Z",
+  "lastNewIssue": "2023-08-22T09:48:40Z"
+ },
+ "freshrss/freshrss": {
+  "nextCheck": "2026-11-20T01:07:25.191Z",
+  "lastNewIssue": "2026-08-24T15:28:23Z"
+ },
+ "getgrav/grav": {
+  "nextCheck": "2026-11-20T01:07:25.191Z",
+  "lastNewIssue": "2018-04-27T09:27:33Z"
+ },
+ "yiisoft/yii2": {
+  "nextCheck": "2026-11-13T02:07:25.191Z",
+  "lastNewIssue": "2025-10-02T14:21:35Z"
+ },
+ "wallabag/wallabag": {
+  "nextCheck": "2026-11-13T02:07:25.191Z",
+  "lastNewIssue": "2025-06-25T13:12:28Z"
+ },
+ "ramsey/uuid": {
+  "nextCheck": "2026-11-13T02:07:25.191Z",
+  "lastNewIssue": "2024-02-07T08:23:34Z"
+ },
+ "yourls/yourls": {
+  "nextCheck": "2026-11-13T02:07:25.191Z",
+  "lastNewIssue": "2025-01-15T13:39:17Z"
  }
 }

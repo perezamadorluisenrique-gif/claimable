@@ -1,0 +1,27 @@
+{
+ "owner": "briannesbitt",
+ "repo": "Carbon",
+ "language": "PHP",
+ "stars": 16581,
+ "description": "A simple PHP API extension for DateTime.",
+ "visitedAt": "2026-11-13T01:07:25.191Z",
+ "issues": [
+  {
+   "number": 2835,
+   "title": "Carbon support for time-zone-aware doctrine types",
+   "url": "https://github.com/briannesbitt/Carbon/issues/2835",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2024-04-07T14:56:24Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #10 by @varshneydevansh is already open against this issue",
+   "evidence": [
+    "https://github.com/briannesbitt/Carbon/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/CarbonPHP/carbon-doctrine-types/pull/10"
+   ]
+  }
+ ]
+}

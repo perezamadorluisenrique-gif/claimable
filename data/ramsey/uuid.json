@@ -1,0 +1,9 @@
+{
+ "owner": "ramsey",
+ "repo": "uuid",
+ "language": "PHP",
+ "stars": 12632,
+ "description": ":snowflake: A PHP library for generating universally unique identifiers (UUIDs).",
+ "visitedAt": "2026-11-13T01:07:25.191Z",
+ "issues": []
+}

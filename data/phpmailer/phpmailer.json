@@ -1,0 +1,125 @@
+{
+ "owner": "PHPMailer",
+ "repo": "PHPMailer",
+ "language": "PHP",
+ "stars": 22341,
+ "description": "The classic email sending library for PHP",
+ "visitedAt": "2026-11-13T01:07:25.191Z",
+ "issues": [
+  {
+   "number": 24,
+   "title": "Missing translations",
+   "url": "https://github.com/PHPMailer/PHPMailer/issues/24",
+   "labels": [
+    "Bug",
+    "Help wanted"
+   ],
+   "updatedAt": "2025-07-23T14:21:11Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "PR #31 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+5 more)",
+   "evidence": [
+    "https://github.com/PHPMailer/PHPMailer/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/PHPMailer/PHPMailer/pull/31",
+    "https://github.com/PHPMailer/PHPMailer/pull/1598",
+    "https://github.com/PHPMailer/PHPMailer/pull/2531",
+    "https://github.com/PHPMailer/PHPMailer/pull/2808",
+    "https://github.com/PHPMailer/PHPMailer/pull/2968",
+    "https://github.com/PHPMailer/PHPMailer/issues/24",
+    "https://docs.laminas.dev/laminas-mail/"
+   ]
+  },
+  {
+   "number": 85,
+   "title": "Improve tests",
+   "url": "https://github.com/PHPMailer/PHPMailer/issues/85",
+   "labels": [
+    "Help wanted",
+    "Quality"
+   ],
+   "updatedAt": "2021-07-06T23:41:18Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @mymas 2971 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/PHPMailer/PHPMailer/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/PHPMailer/PHPMailer/issues/85#issuecomment-423971327",
+    "https://github.com/PHPMailer/PHPMailer/issues/85",
+    "https://docs.laminas.dev/laminas-mail/"
+   ]
+  },
+  {
+   "number": 175,
+   "title": "iCalendar invite is not showing RSVP buttons in email clients",
+   "url": "https://github.com/PHPMailer/PHPMailer/issues/175",
+   "labels": [
+    "Help wanted",
+    "High priority"
+   ],
+   "updatedAt": "2025-03-22T16:28:27Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.laminas.dev/laminas-mail/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/PHPMailer/PHPMailer/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/PHPMailer/PHPMailer/issues/175",
+    "https://docs.laminas.dev/laminas-mail/"
+   ]
+  },
+  {
+   "number": 612,
+   "title": "Create a diagnostic utility",
+   "url": "https://github.com/PHPMailer/PHPMailer/issues/612",
+   "labels": [
+    "Feature request",
+    "Help wanted"
+   ],
+   "updatedAt": "2021-10-11T14:30:16Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/PHPMailer/PHPMailer/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/PHPMailer/PHPMailer/issues/612",
+    "https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting"
+   ]
+  },
+  {
+   "number": 1405,
+   "title": "Improve feedback on TLS errors",
+   "url": "https://github.com/PHPMailer/PHPMailer/issues/1405",
+   "labels": [
+    "Help wanted"
+   ],
+   "updatedAt": "2018-12-03T06:58:05Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "PR #2526 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/PHPMailer/PHPMailer/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/PHPMailer/PHPMailer/pull/2526",
+    "https://github.com/PHPMailer/PHPMailer/issues/1405",
+    "https://docs.laminas.dev/laminas-mail/"
+   ]
+  },
+  {
+   "number": 3359,
+   "title": "Write or document a replacement for parseAddresses",
+   "url": "https://github.com/PHPMailer/PHPMailer/issues/3359",
+   "labels": [
+    "Help wanted",
+    "Documentation",
+    "Good first project",
+    "Hacktoberfest"
+   ],
+   "updatedAt": "2026-11-04T20:13:35Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "PR #3365 by @mahdyaralipor is already open against this issue",
+   "evidence": [
+    "https://github.com/PHPMailer/PHPMailer/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/PHPMailer/PHPMailer/pull/3365"
+   ]
+  }
+ ]
+}

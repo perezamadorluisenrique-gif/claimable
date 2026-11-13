@@ -1,0 +1,69 @@
+{
+ "owner": "danielmiessler",
+ "repo": "SecLists",
+ "language": "PHP",
+ "stars": 74673,
+ "description": "SecLists is the security tester's companion. It's a collection of multiple types of lists used during security assessments, collected in one place. List types include usernames, passwords, URLs, sensi",
+ "visitedAt": "2026-11-13T01:07:25.191Z",
+ "issues": [
+  {
+   "number": 1028,
+   "title": "Rewrite of generate-environment-identifiers-dict.sh",
+   "url": "https://github.com/danielmiessler/SecLists/issues/1028",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "ci/cd"
+   ],
+   "updatedAt": "2025-07-08T08:30:54Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "already assigned to @molangning",
+   "evidence": [
+    "https://github.com/danielmiessler/SecLists/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/danielmiessler/SecLists/issues/1028"
+   ]
+  },
+  {
+   "number": 1264,
+   "title": "Modularize and change format of quickhits.txt",
+   "url": "https://github.com/danielmiessler/SecLists/issues/1264",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "wordlist",
+    "ci/cd"
+   ],
+   "updatedAt": "2026-01-22T07:21:06Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "reservations",
+   "reason": "PR #1279 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/danielmiessler/SecLists/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/danielmiessler/SecLists/pull/1279",
+    "https://github.com/danielmiessler/SecLists/issues/1264",
+    "https://github.com/danielmiessler/SecLists/blob/HEAD/Discovery/Web-Content/combined_words.txt"
+   ]
+  },
+  {
+   "number": 1280,
+   "title": "Language-specific web content-discovery wordlists",
+   "url": "https://github.com/danielmiessler/SecLists/issues/1280",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "wordlist",
+    "ci/cd"
+   ],
+   "updatedAt": "2026-04-22T08:40:42Z",
+   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "verdict": "discard",
+   "reason": "already assigned to @ItsIgnacioPortal",
+   "evidence": [
+    "https://github.com/danielmiessler/SecLists/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/danielmiessler/SecLists/pull/1279",
+    "https://github.com/danielmiessler/SecLists/issues/1280"
+   ]
+  }
+ ]
+}
