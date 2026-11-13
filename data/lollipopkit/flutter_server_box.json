@@ -1,0 +1,30 @@
+{
+ "owner": "lollipopkit",
+ "repo": "flutter_server_box",
+ "language": "Dart",
+ "stars": 8967,
+ "description": "ServerBox - high performance server toolbox app & server written in Flutter & Rust.",
+ "visitedAt": "2026-11-13T22:40:39.276Z",
+ "issues": [
+  {
+   "number": 1144,
+   "title": "是否可以加入Komari api增加服务器",
+   "url": "https://github.com/lollipopkit/flutter_server_box/issues/1144",
+   "labels": [
+    "help wanted",
+    "feature"
+   ],
+   "updatedAt": "2026-04-30T03:57:38Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "the project requires disclosing AI assistance: \"declared. ### Storage (lib/data/store/CLAUDE\" — not optional; skipping it can sink the PR and your standing in the project",
+   "evidence": [
+    "https://github.com/lollipopkit/flutter_server_box/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/lollipopkit/flutter_server_box/issues/1144",
+    "https://github.com/lollipopkit/flutter_server_box/blob/HEAD/README.md",
+    "https://github.com/lollipopkit/flutter_server_box/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/lollipopkit/flutter_server_box/blob/HEAD/CLAUDE.md"
+   ]
+  }
+ ]
+}

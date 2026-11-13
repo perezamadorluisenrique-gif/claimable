@@ -1,0 +1,63 @@
+{
+ "owner": "saber-notes",
+ "repo": "saber",
+ "language": "Dart",
+ "stars": 5034,
+ "description": "The cross-platform open-source app built for handwriting",
+ "visitedAt": "2026-11-13T22:40:39.276Z",
+ "issues": [
+  {
+   "number": 519,
+   "title": "[FEAT] Switching to eraser mode by initial long press in pen mode",
+   "url": "https://github.com/saber-notes/saber/issues/519",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2023-04-03T00:26:52Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/articles/closing-issues-using-keywords) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/saber-notes/saber/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/saber-notes/saber/issues/519",
+    "https://docs.github.com/articles/closing-issues-using-keywords"
+   ]
+  },
+  {
+   "number": 541,
+   "title": "Add a setting to only sync over wifi",
+   "url": "https://github.com/saber-notes/saber/issues/541",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2023-06-29T05:50:49Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "discard",
+   "reason": "PR #1368 by @AlphaGergedan is already open against this issue",
+   "evidence": [
+    "https://github.com/saber-notes/saber/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/saber-notes/saber/pull/1368"
+   ]
+  },
+  {
+   "number": 674,
+   "title": "Define \"1.0x\" zoom to be when the page width and screen width are equal",
+   "url": "https://github.com/saber-notes/saber/issues/674",
+   "labels": [
+    "bug",
+    "good first issue"
+   ],
+   "updatedAt": "2023-05-30T14:50:15Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/articles/closing-issues-using-keywords) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/saber-notes/saber/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/saber-notes/saber/issues/674",
+    "https://docs.github.com/articles/closing-issues-using-keywords"
+   ]
+  }
+ ]
+}

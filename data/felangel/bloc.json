@@ -1,0 +1,63 @@
+{
+ "owner": "felangel",
+ "repo": "bloc",
+ "language": "Dart",
+ "stars": 12488,
+ "description": "A predictable state management library that helps implement the BLoC design pattern",
+ "visitedAt": "2026-11-13T22:40:39.276Z",
+ "issues": [
+  {
+   "number": 1837,
+   "title": "Docs: migrating from library X",
+   "url": "https://github.com/felangel/bloc/issues/1837",
+   "labels": [
+    "good first issue",
+    "documentation"
+   ],
+   "updatedAt": "2026-09-29T18:15:59Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @ayushxx01 45 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting",
+   "evidence": [
+    "https://github.com/felangel/bloc/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/felangel/bloc/issues/1837#issuecomment-5896003043",
+    "https://github.com/felangel/bloc/issues/1837",
+    "https://github.com/felangel/bloc/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2785,
+   "title": "question:  Could you please enhance your 'Infinite list' example from docs?",
+   "url": "https://github.com/felangel/bloc/issues/2785",
+   "labels": [
+    "good first issue",
+    "example"
+   ],
+   "updatedAt": "2025-01-01T21:00:31Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "discard",
+   "reason": "PR #4839 by @GhagSagar23 is already open against this issue",
+   "evidence": [
+    "https://github.com/felangel/bloc/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/felangel/bloc/pull/4839"
+   ]
+  },
+  {
+   "number": 3248,
+   "title": "docs: clearly document semantics for different transformers off the same bloc",
+   "url": "https://github.com/felangel/bloc/issues/3248",
+   "labels": [
+    "good first issue",
+    "documentation"
+   ],
+   "updatedAt": "2026-05-27T18:29:48Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "discard",
+   "reason": "PR #4819 by @champ96k is already open against this issue",
+   "evidence": [
+    "https://github.com/felangel/bloc/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/felangel/bloc/pull/4819"
+   ]
+  }
+ ]
+}

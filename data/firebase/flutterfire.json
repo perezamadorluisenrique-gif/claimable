@@ -1,0 +1,29 @@
+{
+ "owner": "firebase",
+ "repo": "flutterfire",
+ "language": "Dart",
+ "stars": 9269,
+ "description": "🔥 A collection of Firebase plugins for Flutter apps.",
+ "visitedAt": "2026-11-13T22:40:39.276Z",
+ "issues": [
+  {
+   "number": 9518,
+   "title": "[📚] Add documentation on how to use Isolates with Firestore",
+   "url": "https://github.com/firebase/flutterfire/issues/9518",
+   "labels": [
+    "type: documentation",
+    "good first issue",
+    "plugin: cloud_firestore",
+    "platform: all"
+   ],
+   "updatedAt": "2026-08-30T18:42:57Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "discard",
+   "reason": "PR #18629 by @enesbugrahankilic is already open against this issue",
+   "evidence": [
+    "https://github.com/firebase/flutterfire/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/firebase/flutterfire/pull/18629"
+   ]
+  }
+ ]
+}

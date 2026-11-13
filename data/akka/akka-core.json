@@ -1,0 +1,2127 @@
+{
+ "owner": "akka",
+ "repo": "akka-core",
+ "language": "Scala",
+ "stars": 13283,
+ "description": "A platform to build and run apps that are elastic, agile, and resilient. SDK, libraries, and hosted environments.",
+ "visitedAt": "2026-11-13T22:40:39.276Z",
+ "issues": [
+  {
+   "number": 18515,
+   "title": "Consider using Resume directive on DelimiterFraming to drop oversized lines",
+   "url": "https://github.com/akka/akka-core/issues/18515",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:stream",
+    "t:io"
+   ],
+   "updatedAt": "2023-03-27T07:18:12Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/18515",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 18774,
+   "title": "Issues importing docs into Dash",
+   "url": "https://github.com/akka/akka-core/issues/18774",
+   "labels": [
+    "1 - triaged",
+    "t:build",
+    "help wanted"
+   ],
+   "updatedAt": "2021-08-31T09:03:11Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/18774",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 19191,
+   "title": "ShardRegion - use counter instead of calculating size using foldLeft",
+   "url": "https://github.com/akka/akka-core/issues/19191",
+   "labels": [
+    "1 - triaged",
+    "t:cluster-tools",
+    "help wanted",
+    "t:cluster-sharding"
+   ],
+   "updatedAt": "2019-07-09T09:07:03Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/19191",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 19511,
+   "title": "Support TLS session key logging",
+   "url": "https://github.com/akka/akka-core/issues/19511",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:stream",
+    "nice-to-have (low-prio)"
+   ],
+   "updatedAt": "2022-05-24T12:13:20Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/19511",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 19771,
+   "title": "UdpListener crashes when sending a message fails",
+   "url": "https://github.com/akka/akka-core/issues/19771",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:io",
+    "t:dns"
+   ],
+   "updatedAt": "2021-03-29T10:36:46Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/19771",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 19823,
+   "title": "Provide mechanism for detecting Cluster singleton failures and cluster sharding start failures",
+   "url": "https://github.com/akka/akka-core/issues/19823",
+   "labels": [
+    "1 - triaged",
+    "t:cluster-tools",
+    "help wanted",
+    "t:cluster-sharding"
+   ],
+   "updatedAt": "2019-07-09T09:07:04Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/19823",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 20755,
+   "title": "Docs incorrectly state that SupervisorStrategy can't be changed",
+   "url": "https://github.com/akka/akka-core/issues/20755",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:docs",
+    "t:core"
+   ],
+   "updatedAt": "2021-08-16T09:55:24Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/20755",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 21349,
+   "title": "Improve docs on error handling in Akka Streams",
+   "url": "https://github.com/akka/akka-core/issues/21349",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:docs"
+   ],
+   "updatedAt": "2022-06-22T15:16:38Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/21349",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 21526,
+   "title": "Sink with resource management",
+   "url": "https://github.com/akka/akka-core/issues/21526",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:stream"
+   ],
+   "updatedAt": "2022-09-11T11:27:24Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/21526",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 21626,
+   "title": "It will kind to add \"include\"s to code exaples to simplify cut'n'paste for lay people",
+   "url": "https://github.com/akka/akka-core/issues/21626",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:docs"
+   ],
+   "updatedAt": "2021-07-05T09:19:20Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/21626",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 21630,
+   "title": "Streams to ClusterSharding Sink",
+   "url": "https://github.com/akka/akka-core/issues/21630",
+   "labels": [
+    "1 - triaged",
+    "t:cluster-tools",
+    "help wanted",
+    "t:stream",
+    "t:cluster-sharding"
+   ],
+   "updatedAt": "2019-07-09T09:07:04Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/21630",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 21856,
+   "title": "Amend documentation about adding custom operations on FlowOps",
+   "url": "https://github.com/akka/akka-core/issues/21856",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:docs",
+    "t:stream"
+   ],
+   "updatedAt": "2019-11-08T08:42:09Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/21856",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 22904,
+   "title": "Scaladoc/Javadoc links",
+   "url": "https://github.com/akka/akka-core/issues/22904",
+   "labels": [
+    "3 - in progress",
+    "help wanted",
+    "t:docs"
+   ],
+   "updatedAt": "2023-10-07T07:17:12Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "PR #23811 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+35 more)",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/pull/23811",
+    "https://github.com/akka/akka-core/pull/24524",
+    "https://github.com/akka/akka-core/pull/24689",
+    "https://github.com/akka/akka-core/pull/30609",
+    "https://github.com/akka/akka-core/pull/30635",
+    "https://github.com/akka/akka-core/pull/30636",
+    "https://github.com/akka/akka-core/pull/30679",
+    "https://github.com/akka/akka-core/pull/30680",
+    "https://github.com/akka/akka-core/pull/30718"
+   ]
+  },
+  {
+   "number": 23066,
+   "title": "supervison strategy not applied to flatMapMerge",
+   "url": "https://github.com/akka/akka-core/issues/23066",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:stream"
+   ],
+   "updatedAt": "2022-05-10T21:37:36Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/23066",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 23248,
+   "title": "Make cluster routers DC aware",
+   "url": "https://github.com/akka/akka-core/issues/23248",
+   "labels": [
+    "1 - triaged",
+    "t:cluster",
+    "help wanted",
+    "t:cluster:dc"
+   ],
+   "updatedAt": "2019-09-17T14:20:07Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "PR #23257 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/pull/23257",
+    "https://github.com/akka/akka-core/issues/23248",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 23249,
+   "title": "Make DistributedData DC aware",
+   "url": "https://github.com/akka/akka-core/issues/23249",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:distributed-data",
+    "t:cluster:dc"
+   ],
+   "updatedAt": "2020-01-01T15:34:10Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @nmarasoiu 3300 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/23249#issuecomment-340987111",
+    "https://github.com/akka/akka-core/issues/23249",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 23263,
+   "title": "Document that takeWhile can be used as \"complete this stream when X comes in\"",
+   "url": "https://github.com/akka/akka-core/issues/23263",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:docs",
+    "t:stream",
+    "discuss"
+   ],
+   "updatedAt": "2022-09-26T14:25:55Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/23263",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 23958,
+   "title": "Improve Sink.combine to return materialized values of all Sinks",
+   "url": "https://github.com/akka/akka-core/issues/23958",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:stream"
+   ],
+   "updatedAt": "2022-09-19T13:41:02Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "PR #31345 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/pull/31345",
+    "https://github.com/apache/pekko/pull/849",
+    "https://github.com/akka/akka-core/issues/23958",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 24053,
+   "title": "Cluster sharding: Expose entity ID to the sharded actor",
+   "url": "https://github.com/akka/akka-core/issues/24053",
+   "labels": [
+    "help wanted",
+    "nice-to-have (low-prio)",
+    "t:cluster-sharding"
+   ],
+   "updatedAt": "2021-01-26T14:12:39Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "PR #24058 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/pull/24058",
+    "https://github.com/akkadotnet/akka.net/pull/3524",
+    "https://github.com/akka/akka-core/issues/24053",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 24141,
+   "title": "Docs for using getStageActor from Java",
+   "url": "https://github.com/akka/akka-core/issues/24141",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:stream"
+   ],
+   "updatedAt": "2020-03-02T07:56:37Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/24141",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 24623,
+   "title": "Serialization compatibility testkit",
+   "url": "https://github.com/akka/akka-core/issues/24623",
+   "labels": [
+    "1 - triaged",
+    "t:cluster",
+    "help wanted",
+    "t:remoting",
+    "t:serialization"
+   ],
+   "updatedAt": "2020-11-16T22:47:28Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/24623",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 24933,
+   "title": "Streams operators docs DIAGRAMS (ticket only for diagrams)",
+   "url": "https://github.com/akka/akka-core/issues/24933",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:docs",
+    "t:stream"
+   ],
+   "updatedAt": "2019-09-27T15:28:28Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "PR #24892 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+5 more)",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/pull/24892",
+    "https://github.com/akka/akka-core/pull/25372",
+    "https://github.com/akka/akka-core/pull/25380",
+    "https://github.com/akka/akka-core/pull/25478",
+    "https://github.com/akka/akka-core/issues/24933#issuecomment-427355525",
+    "https://github.com/akka/akka-core/issues/24933",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 24977,
+   "title": "Stream operators docs gen: handle cases for <a name=\"\"/> when the same name exists in more places",
+   "url": "https://github.com/akka/akka-core/issues/24977",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:docs",
+    "nice-to-have (low-prio)"
+   ],
+   "updatedAt": "2019-06-25T16:20:12Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "PR #24892 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/pull/24892",
+    "https://github.com/akka/akka-core/issues/24977",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 24992,
+   "title": "simplify javadsl Flow.recoverWith",
+   "url": "https://github.com/akka/akka-core/issues/24992",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:stream"
+   ],
+   "updatedAt": "2024-01-08T11:32:29Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "PR #26310 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/pull/26310",
+    "https://github.com/akka/akka-core/issues/24992",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 25090,
+   "title": "akka dies with a java.lang.UnsatisfiedLinkError when run GraalVM native-image",
+   "url": "https://github.com/akka/akka-core/issues/25090",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:graal"
+   ],
+   "updatedAt": "2019-06-26T14:06:28Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/25090",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 25402,
+   "title": "streams ActorRefSourceActor - option to ask its actual buffer usage",
+   "url": "https://github.com/akka/akka-core/issues/25402",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:stream"
+   ],
+   "updatedAt": "2019-06-25T16:03:24Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/25402",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 25440,
+   "title": "Link back from cluster-sharding.md to cluster-usage.md#node-roles",
+   "url": "https://github.com/akka/akka-core/issues/25440",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:docs",
+    "t:cluster-sharding"
+   ],
+   "updatedAt": "2019-07-09T09:08:32Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "open 101 months with no human comment, in a repo pushed to 1 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/25440",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 25458,
+   "title": "Javadsl TestKit/TestProbe",
+   "url": "https://github.com/akka/akka-core/issues/25458",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:testing",
+    "discuss"
+   ],
+   "updatedAt": "2019-08-07T13:44:28Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/25458",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 25466,
+   "title": "Additional sets of stream operators to include in overview",
+   "url": "https://github.com/akka/akka-core/issues/25466",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:docs",
+    "t:stream",
+    "good first issue",
+    "hackathon"
+   ],
+   "updatedAt": "2020-02-25T14:50:46Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "PR #28644 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/pull/28644",
+    "https://github.com/akka/akka-core/issues/25466",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 25467,
+   "title": "Additional stream operators to include in overview ",
+   "url": "https://github.com/akka/akka-core/issues/25467",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:docs",
+    "t:stream",
+    "good first issue",
+    "hackathon"
+   ],
+   "updatedAt": "2019-11-19T17:26:23Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "discard",
+   "reason": "PR #25766 by @gabfssilva is already open against this issue",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/25766",
+    "https://github.com/akka/akka-core/issues/24933"
+   ]
+  },
+  {
+   "number": 25468,
+   "title": "[NICE FIRST CONTRIB] Additional examples for Stream operator docs",
+   "url": "https://github.com/akka/akka-core/issues/25468",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:docs",
+    "t:stream",
+    "good first issue",
+    "hackathon"
+   ],
+   "updatedAt": "2026-05-22T00:46:17Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "PR #25476 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+27 more)",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/pull/25476",
+    "https://github.com/akka/akka-core/pull/25498",
+    "https://github.com/akka/akka-core/pull/25660",
+    "https://github.com/akka/akka-core/pull/25661",
+    "https://github.com/akka/akka-core/pull/25741",
+    "https://github.com/akka/akka-core/pull/25786",
+    "https://github.com/akka/akka-core/pull/25790",
+    "https://github.com/akka/akka-core/pull/26162",
+    "https://github.com/akka/akka-core/pull/26163"
+   ]
+  },
+  {
+   "number": 25520,
+   "title": "Add a note in fsm.md to also consider 'become'",
+   "url": "https://github.com/akka/akka-core/issues/25520",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:docs"
+   ],
+   "updatedAt": "2019-07-22T10:30:57Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "discard",
+   "reason": "PR #30189 by @patriknw is already open against this issue",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/30189",
+    "https://github.com/akka/akka-core/issues/30315",
+    "https://github.com/akka/akka-core/issues/21516",
+    "https://github.com/akka/akka-core/issues/29955"
+   ]
+  },
+  {
+   "number": 25532,
+   "title": "Use sbt-paradox-apidoc",
+   "url": "https://github.com/akka/akka-core/issues/25532",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:docs"
+   ],
+   "updatedAt": "2019-06-25T16:01:19Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "open 100 months with no human comment, in a repo pushed to 1 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/25532",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 25598,
+   "title": "Quality assurance of Scaladoc/Javadoc in Typed",
+   "url": "https://github.com/akka/akka-core/issues/25598",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:docs",
+    "t:typed"
+   ],
+   "updatedAt": "2019-10-08T11:54:05Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/25598",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 25640,
+   "title": "akka.util.Unsafe fails with exception on JDK 11 when using modules and not loading `jdk.unsupported`",
+   "url": "https://github.com/akka/akka-core/issues/25640",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:jdk-next",
+    "t:jdk"
+   ],
+   "updatedAt": "2020-05-04T15:59:31Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "PR #1620 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/graphhopper/graphhopper/pull/1620",
+    "https://github.com/akka/akka-core/issues/25640",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 25814,
+   "title": "concatSubstreams hangs when used as documented.",
+   "url": "https://github.com/akka/akka-core/issues/25814",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:docs",
+    "t:stream",
+    "hackathon"
+   ],
+   "updatedAt": "2019-05-29T10:40:50Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/25814",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 25882,
+   "title": "UDP tests fail on Windows and Java 11",
+   "url": "https://github.com/akka/akka-core/issues/25882",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "failed",
+    "t:io",
+    "t:jdk-next"
+   ],
+   "updatedAt": "2021-03-29T09:43:02Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "open 98 months with no human comment, in a repo pushed to 1 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/25882",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 25974,
+   "title": "Port Netty's FastThreadLocal like thing to Akka.",
+   "url": "https://github.com/akka/akka-core/issues/25974",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "discuss",
+    "nice-to-have (low-prio)"
+   ],
+   "updatedAt": "2019-06-27T08:07:14Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/25974",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 26041,
+   "title": "UnzipWith documentation incorrectly states that it cancels eagerly",
+   "url": "https://github.com/akka/akka-core/issues/26041",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:docs",
+    "t:stream"
+   ],
+   "updatedAt": "2020-02-10T14:45:21Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/26041",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 26296,
+   "title": "watchWith and failure",
+   "url": "https://github.com/akka/akka-core/issues/26296",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:typed",
+    "nice-to-have (low-prio)"
+   ],
+   "updatedAt": "2019-08-04T06:30:11Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "PR #1852 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/alpakka/pull/1852",
+    "https://github.com/akka/akka-core/issues/26296",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 26854,
+   "title": "Better documentation of event stream semantics",
+   "url": "https://github.com/akka/akka-core/issues/26854",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:core",
+    "t:typed"
+   ],
+   "updatedAt": "2019-12-06T09:57:57Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "PR #26810 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/pull/26810",
+    "https://github.com/akka/akka-core/pull/32094",
+    "https://github.com/akka/akka-core/issues/26854",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 27107,
+   "title": "ByteBufferSerializer for Jackson",
+   "url": "https://github.com/akka/akka-core/issues/27107",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:remoting:artery",
+    "t:serialization"
+   ],
+   "updatedAt": "2019-09-03T08:39:40Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/27107",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 27155,
+   "title": "Add docs for using testkits with Junit 5",
+   "url": "https://github.com/akka/akka-core/issues/27155",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:docs",
+    "t:testing"
+   ],
+   "updatedAt": "2020-05-05T13:38:28Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/27155",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 27182,
+   "title": "Document/demo creating fat jars with sbt-assembly",
+   "url": "https://github.com/akka/akka-core/issues/27182",
+   "labels": [
+    "1 - triaged",
+    "help wanted"
+   ],
+   "updatedAt": "2019-07-22T09:55:05Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "open 90 months with no human comment, in a repo pushed to 1 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/27182",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 27193,
+   "title": "AbruptTerminationException is silenced when using RestartSource.withBackoff()",
+   "url": "https://github.com/akka/akka-core/issues/27193",
+   "labels": [
+    "1 - triaged",
+    "help wanted"
+   ],
+   "updatedAt": "2021-03-01T09:43:54Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/27193",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 27298,
+   "title": "Request variant of StreamConverters.javaCollector that emits instead of materializing",
+   "url": "https://github.com/akka/akka-core/issues/27298",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:stream"
+   ],
+   "updatedAt": "2022-09-19T13:30:29Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/27298",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 27312,
+   "title": "expectNextN in javadsl.TestSink returns a Scala collection.",
+   "url": "https://github.com/akka/akka-core/issues/27312",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:testing",
+    "t:java"
+   ],
+   "updatedAt": "2019-07-22T09:52:08Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/27312",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 27418,
+   "title": "Better error message when JavaSerializer.currentSystem is not set",
+   "url": "https://github.com/akka/akka-core/issues/27418",
+   "labels": [
+    "1 - triaged",
+    "help wanted"
+   ],
+   "updatedAt": "2019-07-29T06:56:56Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/27418",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 27426,
+   "title": "Akka Typed / Persistence : add .recover to Effect.persist for faster failure notification",
+   "url": "https://github.com/akka/akka-core/issues/27426",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:typed"
+   ],
+   "updatedAt": "2019-07-30T11:03:58Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/27426",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 27562,
+   "title": "Document or fix PF methods in classic Java testkit",
+   "url": "https://github.com/akka/akka-core/issues/27562",
+   "labels": [
+    "help wanted",
+    "t:testing",
+    "t:java"
+   ],
+   "updatedAt": "2019-08-29T07:14:02Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "PR #27563 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/pull/27563",
+    "https://github.com/akka/akka-core/issues/27562",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 27618,
+   "title": "Support non-eager cancellation for alsoTo steam combinator",
+   "url": "https://github.com/akka/akka-core/issues/27618",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:stream"
+   ],
+   "updatedAt": "2019-10-01T11:04:53Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/27618",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 27673,
+   "title": "MetricsCollector.apply() does not report exceptions from custom collector creation",
+   "url": "https://github.com/akka/akka-core/issues/27673",
+   "labels": [
+    "1 - triaged",
+    "help wanted"
+   ],
+   "updatedAt": "2019-09-11T12:26:20Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/27673",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 27716,
+   "title": "Ddata GMap",
+   "url": "https://github.com/akka/akka-core/issues/27716",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:distributed-data"
+   ],
+   "updatedAt": "2019-09-16T12:21:53Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/27716",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 27741,
+   "title": "Consistent doc header casing",
+   "url": "https://github.com/akka/akka-core/issues/27741",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:docs",
+    "nice-to-have (low-prio)"
+   ],
+   "updatedAt": "2019-09-18T15:20:12Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "PR #27708 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/pull/27708",
+    "https://github.com/akka/akka-core/issues/27741",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 27792,
+   "title": "Remove some non-helpful phrases from the docs",
+   "url": "https://github.com/akka/akka-core/issues/27792",
+   "labels": [
+    "help wanted",
+    "t:docs"
+   ],
+   "updatedAt": "2019-11-04T11:11:44Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "PR #27771 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+4 more)",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/pull/27771",
+    "https://github.com/akka/akka-core/pull/29623",
+    "https://github.com/akka/akka-core/pull/29744",
+    "https://github.com/akka/akka-core/issues/27792#issuecomment-534955732",
+    "https://github.com/akka/akka-core/issues/27792",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 27883,
+   "title": "Implement missed Source(FLow)WithContext methods",
+   "url": "https://github.com/akka/akka-core/issues/27883",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:stream"
+   ],
+   "updatedAt": "2020-05-25T02:10:11Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "PR #29107 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/pull/29107",
+    "https://github.com/akka/akka-core/issues/27883",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 28049,
+   "title": "Fix the many new unchecked* compiler warnings in akka-actor-typed-tests",
+   "url": "https://github.com/akka/akka-core/issues/28049",
+   "labels": [
+    "1 - triaged",
+    "t:build",
+    "help wanted",
+    "t:codeDiscipline"
+   ],
+   "updatedAt": "2023-10-26T09:10:55Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/28049",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 28334,
+   "title": "Document prefix and tail needing to submaterialize",
+   "url": "https://github.com/akka/akka-core/issues/28334",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:docs",
+    "t:stream"
+   ],
+   "updatedAt": "2019-12-12T08:07:13Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/28334",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 28366,
+   "title": "add a withNumberOfShards to ClusterShardingSettings",
+   "url": "https://github.com/akka/akka-core/issues/28366",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:typed",
+    "t:cluster-sharding"
+   ],
+   "updatedAt": "2020-02-06T11:46:30Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/28366",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 28422,
+   "title": "Add Scala only operator mark in generated docs",
+   "url": "https://github.com/akka/akka-core/issues/28422",
+   "labels": [
+    "help wanted",
+    "nice-to-have (low-prio)"
+   ],
+   "updatedAt": "2020-05-18T17:56:02Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "open 84 months with no human comment, in a repo pushed to 1 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/28422",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 28511,
+   "title": "Use TypeCheckedTripleEquals in Typed tests",
+   "url": "https://github.com/akka/akka-core/issues/28511",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:testing",
+    "t:typed"
+   ],
+   "updatedAt": "2020-01-24T09:06:02Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/28511",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 28566,
+   "title": "Persistence with Jackson trying to cast all Map keys to String",
+   "url": "https://github.com/akka/akka-core/issues/28566",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:docs",
+    "t:serialization"
+   ],
+   "updatedAt": "2021-03-02T21:07:41Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @mghildiy 2458 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/28566#issuecomment-588998078",
+    "https://github.com/akka/akka-core/issues/28566",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 28596,
+   "title": "StubbedActorContext.scheduleOnce returns canceled Cancellable",
+   "url": "https://github.com/akka/akka-core/issues/28596",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:testing",
+    "t:typed"
+   ],
+   "updatedAt": "2020-03-02T13:11:19Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/28596",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 28602,
+   "title": "Add test using Tagged in persistence tck",
+   "url": "https://github.com/akka/akka-core/issues/28602",
+   "labels": [
+    "1 - triaged",
+    "t:persistence",
+    "help wanted",
+    "t:testing"
+   ],
+   "updatedAt": "2020-02-12T14:06:21Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "PR #28553 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+3 more)",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/pull/28553",
+    "https://github.com/akka/akka-core/pull/26825",
+    "https://github.com/akka/akka-core/issues/28602",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 28772,
+   "title": "ManualTime.expectNoMessageFor does not detect a message during specified period when it exists",
+   "url": "https://github.com/akka/akka-core/issues/28772",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:testing",
+    "t:typed"
+   ],
+   "updatedAt": "2020-05-18T17:53:19Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "discard",
+   "reason": "PR #28773 by @k4ji is already open against this issue",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/pull/28773"
+   ]
+  },
+  {
+   "number": 28942,
+   "title": "Add a way to map element to send only to a specific flow",
+   "url": "https://github.com/akka/akka-core/issues/28942",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:stream"
+   ],
+   "updatedAt": "2020-05-18T08:53:47Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/28942",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 28951,
+   "title": "sbt compile keeps reformatting some Java sources",
+   "url": "https://github.com/akka/akka-core/issues/28951",
+   "labels": [
+    "1 - triaged",
+    "t:build",
+    "help wanted"
+   ],
+   "updatedAt": "2020-04-24T12:12:57Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "PR #28962 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/pull/28962",
+    "https://github.com/akka/akka-core/issues/28951",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 29029,
+   "title": "More with LogCapturing",
+   "url": "https://github.com/akka/akka-core/issues/29029",
+   "labels": [
+    "help wanted",
+    "t:testing",
+    "t:typed",
+    "nice-to-have (low-prio)"
+   ],
+   "updatedAt": "2021-01-26T13:55:49Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "PR #29028 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/pull/29028",
+    "https://github.com/akka/akka-core/issues/29029",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 29154,
+   "title": "Provide log4j2 support in LoggingTestKit instead of logback-classic",
+   "url": "https://github.com/akka/akka-core/issues/29154",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:testing",
+    "t:typed"
+   ],
+   "updatedAt": "2020-06-03T13:40:55Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/29154",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 29156,
+   "title": "weird behavior when a classic actor ask a typed actor",
+   "url": "https://github.com/akka/akka-core/issues/29156",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:docs"
+   ],
+   "updatedAt": "2020-07-07T23:12:04Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/29156",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 29389,
+   "title": "Clarification for typed GroupRouter comment on sending messages to unreachable cluster nodes",
+   "url": "https://github.com/akka/akka-core/issues/29389",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:docs",
+    "t:typed"
+   ],
+   "updatedAt": "2020-09-11T09:12:35Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/29389",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 29397,
+   "title": "IPv4-compatible IPv6 address support",
+   "url": "https://github.com/akka/akka-core/issues/29397",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:dns"
+   ],
+   "updatedAt": "2022-01-03T07:37:42Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/29397",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 29456,
+   "title": "Protobuf files conflict due to version mismatch",
+   "url": "https://github.com/akka/akka-core/issues/29456",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:serialization"
+   ],
+   "updatedAt": "2021-04-29T15:29:58Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "PR #1329 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-grpc/pull/1329",
+    "https://github.com/akka/akka-core/issues/29456",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 29537,
+   "title": "Artery outbound connection is not closed when connecting to a non-existing actor system.",
+   "url": "https://github.com/akka/akka-core/issues/29537",
+   "labels": [
+    "1 - triaged",
+    "help wanted"
+   ],
+   "updatedAt": "2021-03-01T09:41:41Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/29537",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 29776,
+   "title": "Document what happens when ActorAdapter receives a null",
+   "url": "https://github.com/akka/akka-core/issues/29776",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2021-12-26T11:42:41Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @tulikavijay 1870 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/29776#issuecomment-931619141",
+    "https://github.com/akka/akka-core/issues/29776",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 29780,
+   "title": " Stop a BehaviorTestKit",
+   "url": "https://github.com/akka/akka-core/issues/29780",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:testing",
+    "t:typed"
+   ],
+   "updatedAt": "2022-08-23T07:10:17Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/29780",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 29803,
+   "title": "PersistenceTestKitReadJournal should implement EventsByTagQuery",
+   "url": "https://github.com/akka/akka-core/issues/29803",
+   "labels": [
+    "1 - triaged",
+    "t:persistence",
+    "help wanted",
+    "t:testing"
+   ],
+   "updatedAt": "2021-11-04T21:06:22Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/29803",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 29879,
+   "title": "add mergeSubstreamsPriorized to SubFlow",
+   "url": "https://github.com/akka/akka-core/issues/29879",
+   "labels": [
+    "help wanted",
+    "t:stream",
+    "nice-to-have (low-prio)"
+   ],
+   "updatedAt": "2021-01-26T13:48:51Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/29879",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 29920,
+   "title": "[Docs] Add Scatter Gather First Completed pattern under Interaction Patterns",
+   "url": "https://github.com/akka/akka-core/issues/29920",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:docs",
+    "t:typed"
+   ],
+   "updatedAt": "2020-12-22T14:07:23Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "open 72 months with no human comment, in a repo pushed to 1 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/29920",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 29923,
+   "title": "Serialization issues with Option",
+   "url": "https://github.com/akka/akka-core/issues/29923",
+   "labels": [
+    "1 - triaged",
+    "help wanted"
+   ],
+   "updatedAt": "2021-03-01T08:53:52Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/29923",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 29948,
+   "title": "give users options to control the starting up behavior of the distributed data local replicator",
+   "url": "https://github.com/akka/akka-core/issues/29948",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:distributed-data"
+   ],
+   "updatedAt": "2021-01-14T13:12:03Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/29948",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 29989,
+   "title": "Scala 3 type inference issue with expectMsgType[T]",
+   "url": "https://github.com/akka/akka-core/issues/29989",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:testing",
+    "t:scala-3"
+   ],
+   "updatedAt": "2021-02-01T15:40:50Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "PR #29956 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/pull/29956",
+    "https://github.com/akka/akka-core/issues/29989",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 29990,
+   "title": "Scala 3 type inference issue with ActorSystemSetups#get",
+   "url": "https://github.com/akka/akka-core/issues/29990",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:core",
+    "t:scala-3"
+   ],
+   "updatedAt": "2021-02-01T15:40:50Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "PR #29956 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/pull/29956",
+    "https://github.com/akka/akka-core/issues/29990",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 30031,
+   "title": "Use AsynchronousFileChannel for FileSource",
+   "url": "https://github.com/akka/akka-core/issues/30031",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:stream",
+    "nice-to-have (low-prio)"
+   ],
+   "updatedAt": "2021-02-15T10:46:28Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "discard",
+   "reason": "PR #31909 by @patriknw is already open against this issue",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/31909"
+   ]
+  },
+  {
+   "number": 30076,
+   "title": "Source.fromPublisher does not pick up attributes correctly",
+   "url": "https://github.com/akka/akka-core/issues/30076",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:stream"
+   ],
+   "updatedAt": "2022-05-06T14:49:42Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "PR #30195 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+3 more)",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/pull/30195",
+    "https://github.com/akka/akka-core/pull/31129",
+    "https://github.com/akka/akka-core/issues/30076#issuecomment-812996583",
+    "https://github.com/akka/akka-core/issues/30076",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 30170,
+   "title": "Unstashed messages enqueued in TestActorRef mailbox while processing a message from self are stuck until another message is received",
+   "url": "https://github.com/akka/akka-core/issues/30170",
+   "labels": [
+    "help wanted",
+    "t:testing",
+    "nice-to-have (low-prio)"
+   ],
+   "updatedAt": "2021-04-09T14:00:53Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/30170",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 30199,
+   "title": "Convenience for attributes on Sink",
+   "url": "https://github.com/akka/akka-core/issues/30199",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:stream"
+   ],
+   "updatedAt": "2024-01-08T20:19:54Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/30199",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 30204,
+   "title": "akka-stream log() to accept slf4j Logger",
+   "url": "https://github.com/akka/akka-core/issues/30204",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:stream"
+   ],
+   "updatedAt": "2021-04-28T13:26:30Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/30204",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 30439,
+   "title": "PersistentActor doesn't stop when RecoveryCompleted message is failed to be processed",
+   "url": "https://github.com/akka/akka-core/issues/30439",
+   "labels": [
+    "1 - triaged",
+    "t:persistence",
+    "help wanted"
+   ],
+   "updatedAt": "2021-09-13T13:07:34Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/30439",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 30483,
+   "title": "Custom manifest naming for persistence with Jackson",
+   "url": "https://github.com/akka/akka-core/issues/30483",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:serialization"
+   ],
+   "updatedAt": "2021-08-24T10:18:00Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/30483",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 30516,
+   "title": "Additional test coverage for DurableStateBehavior",
+   "url": "https://github.com/akka/akka-core/issues/30516",
+   "labels": [
+    "t:persistence",
+    "help wanted",
+    "t:testing"
+   ],
+   "updatedAt": "2021-08-10T11:33:21Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "open 64 months with no human comment, in a repo pushed to 1 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/30516",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 30720,
+   "title": "Add Introduction to Dynamic Stream Handling",
+   "url": "https://github.com/akka/akka-core/issues/30720",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:docs",
+    "t:stream"
+   ],
+   "updatedAt": "2021-09-27T06:14:04Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/30720",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 30747,
+   "title": "Only EventSourcedBehavior, or nested EventSourcedBehavior allowed. exception thrown in EventSourcedBehaviorTestKit",
+   "url": "https://github.com/akka/akka-core/issues/30747",
+   "labels": [
+    "1 - triaged",
+    "t:persistence",
+    "help wanted",
+    "t:testing"
+   ],
+   "updatedAt": "2024-05-22T12:06:52Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/30747",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 30753,
+   "title": "Provide a 'tree' CRDT type",
+   "url": "https://github.com/akka/akka-core/issues/30753",
+   "labels": [
+    "help wanted",
+    "t:distributed-data"
+   ],
+   "updatedAt": "2021-10-06T11:34:39Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "open 62 months with no human comment, in a repo pushed to 1 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/30753",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 31151,
+   "title": "UnsupportedOperationException for the returned `List<T>` in groupedWithin` should be metioned in JavaDoc.",
+   "url": "https://github.com/akka/akka-core/issues/31151",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:docs"
+   ],
+   "updatedAt": "2022-03-15T14:48:46Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/31151",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 31227,
+   "title": "Document ClusterSharding TestKit",
+   "url": "https://github.com/akka/akka-core/issues/31227",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:docs",
+    "t:cluster-sharding"
+   ],
+   "updatedAt": "2022-03-14T07:14:27Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/31227",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 31253,
+   "title": "flatMapPrefix in javadsl should better be `java.util.List` instead of `java.lang.Iterable`",
+   "url": "https://github.com/akka/akka-core/issues/31253",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:stream",
+    "t:java"
+   ],
+   "updatedAt": "2024-01-02T11:08:14Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @dhirensr 1056 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/31253#issuecomment-1868351988",
+    "https://github.com/akka/akka-core/issues/31253",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 31297,
+   "title": "Group router always drops first message ",
+   "url": "https://github.com/akka/akka-core/issues/31297",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:typed"
+   ],
+   "updatedAt": "2022-03-30T15:51:47Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/31297",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 31320,
+   "title": "No way to use sharded daemon process with custom shard allocation strategy",
+   "url": "https://github.com/akka/akka-core/issues/31320",
+   "labels": [
+    "1 - triaged",
+    "help wanted",
+    "t:cluster-sharding"
+   ],
+   "updatedAt": "2022-04-06T14:41:17Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "PR #31413 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/pull/31413",
+    "https://github.com/akka/akka-core/issues/31320",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 31389,
+   "title": "Interaction between ExplicitlyTriggeredScheduler & streams timers",
+   "url": "https://github.com/akka/akka-core/issues/31389",
+   "labels": [
+    "help wanted",
+    "t:stream",
+    "t:testing"
+   ],
+   "updatedAt": "2022-05-30T15:41:19Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/issues/31389",
+    "https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository",
+    "https://github.com/akka/akka-core/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 31441,
+   "title": "Possibility to give persistence plugin configurations at runtime",
+   "url": "https://github.com/akka/akka-core/issues/31441",
+   "labels": [
+    "1 - triaged",
+    "t:persistence",
+    "help wanted"
+   ],
+   "updatedAt": "2022-06-22T14:50:15Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "discard",
+   "reason": "PR #32601 by @ptrdom is already open against this issue",
+   "evidence": [
+    "https://github.com/akka/akka-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/akka/akka-core/pull/32601"
+   ]
+  }
+ ]
+}

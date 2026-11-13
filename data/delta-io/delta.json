@@ -1,0 +1,101 @@
+{
+ "owner": "delta-io",
+ "repo": "delta",
+ "language": "Scala",
+ "stars": 9074,
+ "description": "An open-source storage framework that enables building a Lakehouse architecture with compute engines including Spark, PrestoDB, Flink, Trino, and Hive and APIs",
+ "visitedAt": "2026-11-13T22:40:39.276Z",
+ "issues": [
+  {
+   "number": 1127,
+   "title": "[Feature Request] Consolidate CDF TahoeFileIndex code paths",
+   "url": "https://github.com/delta-io/delta/issues/1127",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "not-stale"
+   ],
+   "updatedAt": "2026-07-29T20:56:43Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "discard",
+   "reason": "already assigned to @amirmor1",
+   "evidence": [
+    "https://github.com/delta-io/delta/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/delta-io/delta/issues/1127"
+   ]
+  },
+  {
+   "number": 1183,
+   "title": "[BUG] Fix SQL API option/properties metadata configuration",
+   "url": "https://github.com/delta-io/delta/issues/1183",
+   "labels": [
+    "bug",
+    "good first issue",
+    "not-stale"
+   ],
+   "updatedAt": "2026-07-29T17:27:31Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "discard",
+   "reason": "already assigned to @alfonsorr",
+   "evidence": [
+    "https://github.com/delta-io/delta/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/delta-io/delta/issues/1183",
+    "https://github.com/delta-io/delta/issues/1183#issuecomment-1208686872"
+   ]
+  },
+  {
+   "number": 1384,
+   "title": "[Feature Request] Refactor SQL configuration properties to remove `databricks` prefix",
+   "url": "https://github.com/delta-io/delta/issues/1384",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "not-stale"
+   ],
+   "updatedAt": "2026-07-29T17:28:01Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "discard",
+   "reason": "PR #1469 by @Clcanny is already open against this issue",
+   "evidence": [
+    "https://github.com/delta-io/delta/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/delta-io/delta/pull/1469",
+    "https://github.com/delta-io/delta/pull/1611"
+   ]
+  },
+  {
+   "number": 1442,
+   "title": "[Feature Request] Support additional generation expressions for automatic data skipping",
+   "url": "https://github.com/delta-io/delta/issues/1442",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "not-stale"
+   ],
+   "updatedAt": "2026-07-29T17:28:15Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "discard",
+   "reason": "PR #7663 by @mahesh-desu is already open against this issue",
+   "evidence": [
+    "https://github.com/delta-io/delta/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/delta-io/delta/pull/7663"
+   ]
+  },
+  {
+   "number": 4914,
+   "title": "[Kernel] Remove unecessary N.json loading for InCommitTimestamp value",
+   "url": "https://github.com/delta-io/delta/issues/4914",
+   "labels": [
+    "good first issue",
+    "kernel"
+   ],
+   "updatedAt": "2026-09-01T10:13:00Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "discard",
+   "reason": "PR #6320 by @piyushka-ally is already open against this issue",
+   "evidence": [
+    "https://github.com/delta-io/delta/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/delta-io/delta/pull/6320"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,345 @@
+{
+ "owner": "imaNNeo",
+ "repo": "fl_chart",
+ "language": "Dart",
+ "stars": 7593,
+ "description": "FL Chart is a highly customizable Flutter chart library that supports Line Chart, Bar Chart, Pie Chart, Scatter Chart, Radar Chart and Candlestick Chart.",
+ "visitedAt": "2026-11-13T22:40:39.276Z",
+ "issues": [
+  {
+   "number": 494,
+   "title": "Applying styling to to BarChartGroupData",
+   "url": "https://github.com/imaNNeo/fl_chart/issues/494",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "Bar Chart"
+   ],
+   "updatedAt": "2024-02-01T12:29:03Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "discard",
+   "reason": "PR #1150 by @sgshivamgarg8 is already open against this issue",
+   "evidence": [
+    "https://github.com/imaNNeo/fl_chart/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/imaNNeo/fl_chart/issues/1150"
+   ]
+  },
+  {
+   "number": 689,
+   "title": "Ability to extend extra lines through chart borders",
+   "url": "https://github.com/imaNNeo/fl_chart/issues/689",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "Line Chart"
+   ],
+   "updatedAt": "2021-07-17T16:22:29Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "open 66 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/imaNNeo/fl_chart/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/imaNNeo/fl_chart/issues/689",
+    "https://docs.flutter.dev/get-started/install",
+    "https://github.com/imaNNeo/fl_chart/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 824,
+   "title": "Padding for text label of extralines",
+   "url": "https://github.com/imaNNeo/fl_chart/issues/824",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "Line Chart"
+   ],
+   "updatedAt": "2023-11-24T18:20:14Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.flutter.dev/get-started/install) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/imaNNeo/fl_chart/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/imaNNeo/fl_chart/issues/824",
+    "https://docs.flutter.dev/get-started/install",
+    "https://github.com/imaNNeo/fl_chart/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 890,
+   "title": "Above/Below graph positioning of tooltips",
+   "url": "https://github.com/imaNNeo/fl_chart/issues/890",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "Line Chart"
+   ],
+   "updatedAt": "2022-08-04T14:05:22Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "discard",
+   "reason": "PR #877 by @nikhil-s-b is already open against this issue",
+   "evidence": [
+    "https://github.com/imaNNeo/fl_chart/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/imaNNeo/fl_chart/issues/877"
+   ]
+  },
+  {
+   "number": 899,
+   "title": "Synchronize the color of the line connected to the spot and the chart line.",
+   "url": "https://github.com/imaNNeo/fl_chart/issues/899",
+   "labels": [
+    "good first issue",
+    "Line Chart"
+   ],
+   "updatedAt": "2022-02-24T15:19:30Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.flutter.dev/get-started/install) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/imaNNeo/fl_chart/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/imaNNeo/fl_chart/issues/899",
+    "https://docs.flutter.dev/get-started/install",
+    "https://github.com/imaNNeo/fl_chart/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 958,
+   "title": "Radarchart maxValue",
+   "url": "https://github.com/imaNNeo/fl_chart/issues/958",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "Radar Chart"
+   ],
+   "updatedAt": "2022-03-28T20:43:15Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "open 56 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/imaNNeo/fl_chart/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/imaNNeo/fl_chart/issues/958",
+    "https://docs.flutter.dev/get-started/install",
+    "https://github.com/imaNNeo/fl_chart/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 1088,
+   "title": "Dynamic tooltipBgColor in LineChart [Partial idea, i need help with the final part]",
+   "url": "https://github.com/imaNNeo/fl_chart/issues/1088",
+   "labels": [
+    "good first issue",
+    "question",
+    "Line Chart"
+   ],
+   "updatedAt": "2022-08-04T14:05:15Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "labelled `question` — scope may not be settled yet (+1 more)",
+   "evidence": [
+    "https://github.com/imaNNeo/fl_chart/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/imaNNeo/fl_chart/issues/1088",
+    "https://docs.flutter.dev/get-started/install",
+    "https://github.com/imaNNeo/fl_chart/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 1138,
+   "title": "BarChar sample source",
+   "url": "https://github.com/imaNNeo/fl_chart/issues/1138",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "Bar Chart"
+   ],
+   "updatedAt": "2024-07-25T15:27:11Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "PR #1172 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/imaNNeo/fl_chart/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/imaNNeo/fl_chart/pull/1172",
+    "https://github.com/imaNNeo/fl_chart/issues/1138",
+    "https://docs.flutter.dev/get-started/install",
+    "https://github.com/imaNNeo/fl_chart/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 1150,
+   "title": "Grid include min and max value ",
+   "url": "https://github.com/imaNNeo/fl_chart/issues/1150",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "Fundamental"
+   ],
+   "updatedAt": "2024-02-06T22:09:03Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.flutter.dev/get-started/install) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/imaNNeo/fl_chart/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/imaNNeo/fl_chart/issues/1150",
+    "https://docs.flutter.dev/get-started/install",
+    "https://github.com/imaNNeo/fl_chart/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 1170,
+   "title": "can getTitlesWidget function transmit x's index?",
+   "url": "https://github.com/imaNNeo/fl_chart/issues/1170",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "Fundamental"
+   ],
+   "updatedAt": "2024-03-25T08:14:47Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.flutter.dev/get-started/install) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/imaNNeo/fl_chart/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/imaNNeo/fl_chart/issues/1170",
+    "https://docs.flutter.dev/get-started/install",
+    "https://github.com/imaNNeo/fl_chart/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 1189,
+   "title": "`BarChartRodData.borderRadius` does not support `BorderRadiusDirectional`",
+   "url": "https://github.com/imaNNeo/fl_chart/issues/1189",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "Fundamental"
+   ],
+   "updatedAt": "2026-09-29T04:49:50Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "discard",
+   "reason": "PR #2128 by @ibrahim-iqbal is already open against this issue",
+   "evidence": [
+    "https://github.com/imaNNeo/fl_chart/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/imaNNeo/fl_chart/pull/2128",
+    "https://github.com/albertms10/cabin_booking/pull/99"
+   ]
+  },
+  {
+   "number": 1194,
+   "title": "Abilit to specify a border with different border sides for bar charts.",
+   "url": "https://github.com/imaNNeo/fl_chart/issues/1194",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "Bar Chart"
+   ],
+   "updatedAt": "2023-04-30T11:33:18Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "discard",
+   "reason": "PR #2088 by @haashem is already open against this issue",
+   "evidence": [
+    "https://github.com/imaNNeo/fl_chart/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/imaNNeo/fl_chart/pull/2088"
+   ]
+  },
+  {
+   "number": 1377,
+   "title": "Use the default theme available by the themeData for tooltips instead of library's custom theme",
+   "url": "https://github.com/imaNNeo/fl_chart/issues/1377",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "Fundamental"
+   ],
+   "updatedAt": "2026-10-22T19:43:26Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @mostafaemara 638 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/imaNNeo/fl_chart/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/imaNNeo/fl_chart/issues/1377#issuecomment-2656917362",
+    "https://github.com/imaNNeo/fl_chart/issues/1377",
+    "https://docs.flutter.dev/get-started/install",
+    "https://github.com/imaNNeo/fl_chart/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 1383,
+   "title": "formating numbers according to app's localization",
+   "url": "https://github.com/imaNNeo/fl_chart/issues/1383",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "Line Chart"
+   ],
+   "updatedAt": "2023-11-24T20:18:38Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.flutter.dev/get-started/install) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/imaNNeo/fl_chart/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/imaNNeo/fl_chart/issues/1383",
+    "https://docs.flutter.dev/get-started/install",
+    "https://github.com/imaNNeo/fl_chart/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 1474,
+   "title": "The datas are be sorted in line_chart, but I do not want them t be sorted.",
+   "url": "https://github.com/imaNNeo/fl_chart/issues/1474",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "Line Chart"
+   ],
+   "updatedAt": "2023-11-05T13:46:35Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.flutter.dev/get-started/install) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/imaNNeo/fl_chart/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/imaNNeo/fl_chart/issues/1474",
+    "https://docs.flutter.dev/get-started/install",
+    "https://github.com/imaNNeo/fl_chart/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 1476,
+   "title": "RadarChart Supporting ability and color filling",
+   "url": "https://github.com/imaNNeo/fl_chart/issues/1476",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "Radar Chart"
+   ],
+   "updatedAt": "2023-11-05T13:37:40Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "open 37 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/imaNNeo/fl_chart/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/imaNNeo/fl_chart/issues/1476",
+    "https://docs.flutter.dev/get-started/install",
+    "https://github.com/imaNNeo/fl_chart/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 1480,
+   "title": "Adding a pointer beside the bar rod.",
+   "url": "https://github.com/imaNNeo/fl_chart/issues/1480",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "Bar Chart"
+   ],
+   "updatedAt": "2026-08-15T05:37:18Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @akhildev2000 91 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/imaNNeo/fl_chart/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/imaNNeo/fl_chart/issues/1480#issuecomment-5300762627",
+    "https://github.com/imaNNeo/fl_chart/issues/1480",
+    "https://docs.flutter.dev/get-started/install",
+    "https://github.com/imaNNeo/fl_chart/blob/HEAD/CONTRIBUTING.md"
+   ]
+  }
+ ]
+}

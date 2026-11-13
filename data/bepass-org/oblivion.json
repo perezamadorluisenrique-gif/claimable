@@ -1,0 +1,84 @@
+{
+ "owner": "bepass-org",
+ "repo": "oblivion",
+ "language": "Dart",
+ "stars": 4896,
+ "description": "Unofficial warp client for android",
+ "visitedAt": "2026-11-13T22:40:39.276Z",
+ "issues": [
+  {
+   "number": 155,
+   "title": "Russian translation",
+   "url": "https://github.com/bepass-org/oblivion/issues/155",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2024-05-14T12:04:49Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/bepass-org/oblivion/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/bepass-org/oblivion/issues/155",
+    "https://github.com/bepass-org/oblivion/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 162,
+   "title": "Chinese translation",
+   "url": "https://github.com/bepass-org/oblivion/issues/162",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2024-06-23T11:37:53Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "discard",
+   "reason": "PR #400 by @liu2909 is already open against this issue",
+   "evidence": [
+    "https://github.com/bepass-org/oblivion/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/bepass-org/oblivion/issues/400",
+    "https://github.com/bepass-org/oblivion/issues/309",
+    "https://github.com/bepass-org/oblivion/issues/280",
+    "https://github.com/bepass-org/oblivion/issues/680"
+   ]
+  },
+  {
+   "number": 171,
+   "title": "English translation",
+   "url": "https://github.com/bepass-org/oblivion/issues/171",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2026-10-09T14:13:30Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/bepass-org/oblivion/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/bepass-org/oblivion/issues/171",
+    "https://github.com/bepass-org/oblivion/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 186,
+   "title": "work without vpn connection with root",
+   "url": "https://github.com/bepass-org/oblivion/issues/186",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2024-05-19T23:15:23Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/bepass-org/oblivion/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/bepass-org/oblivion/issues/186",
+    "https://github.com/bepass-org/oblivion/blob/HEAD/README.md"
+   ]
+  }
+ ]
+}

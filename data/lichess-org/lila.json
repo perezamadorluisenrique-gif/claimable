@@ -1,0 +1,110 @@
+{
+ "owner": "lichess-org",
+ "repo": "lila",
+ "language": "Scala",
+ "stars": 18964,
+ "description": "♞ lichess.org: the forever free, adless and open source chess server ♞",
+ "visitedAt": "2026-11-13T22:40:39.276Z",
+ "issues": [
+  {
+   "number": 12866,
+   "title": "Crazyhouse drops by click-click",
+   "url": "https://github.com/lichess-org/lila/issues/12866",
+   "labels": [
+    "improvement",
+    "good first issue"
+   ],
+   "updatedAt": "2023-08-29T01:45:06Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "discard",
+   "reason": "PR #21295 by @NaderFarhat is already open against this issue",
+   "evidence": [
+    "https://github.com/lichess-org/lila/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/lichess-org/lila/pull/21295"
+   ]
+  },
+  {
+   "number": 12911,
+   "title": "Translating the Accessibility Mode, for blind users.",
+   "url": "https://github.com/lichess-org/lila/issues/12911",
+   "labels": [
+    "improvement",
+    "good first issue",
+    "i18n",
+    "nvui"
+   ],
+   "updatedAt": "2026-10-19T06:31:56Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "PR #17554 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+4 more)",
+   "evidence": [
+    "https://github.com/lichess-org/lila/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/lichess-org/lila/pull/17554",
+    "https://github.com/lichess-org/lila/pull/19129",
+    "https://github.com/lichess-org/lila/issues/12911#issuecomment-2781399406",
+    "https://github.com/lichess-org/lila/issues/12911",
+    "https://github.com/lichess-org/lila/wiki/Lichess-Development-Onboarding",
+    "https://github.com/lichess-org/lila/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 12926,
+   "title": "Board editor: possibly disable 960 Castling in standard",
+   "url": "https://github.com/lichess-org/lila/issues/12926",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2026-08-15T16:33:22Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/lichess-org/lila/wiki/Lichess-Development-Onboarding) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/lichess-org/lila/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/lichess-org/lila/issues/12926",
+    "https://github.com/lichess-org/lila/wiki/Lichess-Development-Onboarding",
+    "https://github.com/lichess-org/lila/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 14116,
+   "title": "\"Practice with computer\" defaults the player to white (and computer to black) in Racing Kings games",
+   "url": "https://github.com/lichess-org/lila/issues/14116",
+   "labels": [
+    "bug",
+    "good first issue",
+    "no scala"
+   ],
+   "updatedAt": "2026-11-02T17:46:45Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "discard",
+   "reason": "PR #20864 by @danielvirin is already open against this issue",
+   "evidence": [
+    "https://github.com/lichess-org/lila/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/lichess-org/lila/pull/20864"
+   ]
+  },
+  {
+   "number": 17396,
+   "title": "Standardise UX for checkboxes and toggle switches",
+   "url": "https://github.com/lichess-org/lila/issues/17396",
+   "labels": [
+    "improvement",
+    "good first issue",
+    "chore"
+   ],
+   "updatedAt": "2026-02-12T01:42:28Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "PR #19046 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+4 more)",
+   "evidence": [
+    "https://github.com/lichess-org/lila/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/lichess-org/lila/pull/19046",
+    "https://github.com/lichess-org/lila/pull/19281",
+    "https://github.com/lichess-org/lila/issues/17396",
+    "https://github.com/lichess-org/lila/issues/17396#issuecomment-3713345415",
+    "https://github.com/lichess-org/lila/wiki/Lichess-Development-Onboarding",
+    "https://github.com/lichess-org/lila/blob/HEAD/CONTRIBUTING.md"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "owner": "btwld",
+ "repo": "fvm",
+ "language": "Dart",
+ "stars": 5542,
+ "description": "Flutter Version Management: A simple CLI to manage Flutter SDK versions.",
+ "visitedAt": "2026-11-13T22:40:39.276Z",
+ "issues": [
+  {
+   "number": 635,
+   "title": "[BUG] `fvm use` makes unrelated changes to settings.json.",
+   "url": "https://github.com/btwld/fvm/issues/635",
+   "labels": [
+    "bug",
+    "help wanted",
+    "triage:confirmed"
+   ],
+   "updatedAt": "2026-09-08T15:44:47Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "discard",
+   "reason": "PR #681 by @bkleineibst is already open against this issue",
+   "evidence": [
+    "https://github.com/btwld/fvm/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/btwld/fvm/issues/681"
+   ]
+  },
+  {
+   "number": 751,
+   "title": "[Feature Request] Support range versions",
+   "url": "https://github.com/btwld/fvm/issues/751",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "triage:backlog"
+   ],
+   "updatedAt": "2026-09-08T22:10:37Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "discard",
+   "reason": "PR #583 by @JCKodel is already open against this issue",
+   "evidence": [
+    "https://github.com/btwld/fvm/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/btwld/fvm/issues/583",
+    "https://github.com/btwld/fvm/issues/1016",
+    "https://github.com/btwld/fvm/issues/648"
+   ]
+  }
+ ]
+}

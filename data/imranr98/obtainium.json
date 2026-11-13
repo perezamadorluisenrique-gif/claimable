@@ -1,0 +1,254 @@
+{
+ "owner": "ImranR98",
+ "repo": "Obtainium",
+ "language": "Dart",
+ "stars": 21410,
+ "description": "Get Android app updates straight from the source.",
+ "visitedAt": "2026-11-13T22:40:39.276Z",
+ "issues": [
+  {
+   "number": 121,
+   "title": "SOCKS5 Proxy/Orbot Support",
+   "url": "https://github.com/ImranR98/Obtainium/issues/121",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2026-10-27T21:27:10Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "discard",
+   "reason": "PR #1270 by @ceskyDJ is already open against this issue",
+   "evidence": [
+    "https://github.com/ImranR98/Obtainium/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ImranR98/Obtainium/issues/1270",
+    "https://github.com/ImranR98/Obtainium/issues/2585"
+   ]
+  },
+  {
+   "number": 582,
+   "title": "Allow custom script to support more sources",
+   "url": "https://github.com/ImranR98/Obtainium/issues/582",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2023-08-19T11:21:24Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification#ssh-commit-signature-verification) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/ImranR98/Obtainium/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ImranR98/Obtainium/issues/582",
+    "https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification#ssh-commit-signature-verification"
+   ]
+  },
+  {
+   "number": 682,
+   "title": "XAPK Support",
+   "url": "https://github.com/ImranR98/Obtainium/issues/682",
+   "labels": [
+    "bug",
+    "help wanted",
+    "high priority",
+    "installer"
+   ],
+   "updatedAt": "2025-08-21T17:27:19Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "PR #1990 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/ImranR98/Obtainium/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ImranR98/Obtainium/pull/1990",
+    "https://github.com/ImranR98/Obtainium/issues/682",
+    "https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification#ssh-commit-signature-verification"
+   ]
+  },
+  {
+   "number": 686,
+   "title": "sound effect after downloading update / when update is detected",
+   "url": "https://github.com/ImranR98/Obtainium/issues/686",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "low priority"
+   ],
+   "updatedAt": "2024-07-15T14:34:10Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification#ssh-commit-signature-verification) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/ImranR98/Obtainium/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ImranR98/Obtainium/issues/686",
+    "https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification#ssh-commit-signature-verification"
+   ]
+  },
+  {
+   "number": 698,
+   "title": "Add a toggle to refresh",
+   "url": "https://github.com/ImranR98/Obtainium/issues/698",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "UI"
+   ],
+   "updatedAt": "2026-11-13T15:54:47Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification#ssh-commit-signature-verification) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/ImranR98/Obtainium/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ImranR98/Obtainium/issues/698",
+    "https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification#ssh-commit-signature-verification"
+   ]
+  },
+  {
+   "number": 795,
+   "title": "support App Bundles (.aab)",
+   "url": "https://github.com/ImranR98/Obtainium/issues/795",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2024-11-12T17:24:35Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification#ssh-commit-signature-verification) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/ImranR98/Obtainium/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ImranR98/Obtainium/issues/795",
+    "https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification#ssh-commit-signature-verification"
+   ]
+  },
+  {
+   "number": 1932,
+   "title": "Problem with downloading from Github",
+   "url": "https://github.com/ImranR98/Obtainium/issues/1932",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2024-11-20T20:01:15Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification#ssh-commit-signature-verification) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/ImranR98/Obtainium/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ImranR98/Obtainium/issues/1932",
+    "https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification#ssh-commit-signature-verification"
+   ]
+  },
+  {
+   "number": 2343,
+   "title": "Add setting to customize export name",
+   "url": "https://github.com/ImranR98/Obtainium/issues/2343",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2025-06-13T20:10:13Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "PR #3079 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/ImranR98/Obtainium/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ImranR98/Obtainium/pull/3079",
+    "https://github.com/ImranR98/Obtainium/issues/2343",
+    "https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification#ssh-commit-signature-verification"
+   ]
+  },
+  {
+   "number": 2355,
+   "title": "Merge app filter and sort options into one",
+   "url": "https://github.com/ImranR98/Obtainium/issues/2355",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "UI"
+   ],
+   "updatedAt": "2025-06-15T18:34:02Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "open 17 months with no human comment, in a repo pushed to 13 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/ImranR98/Obtainium/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ImranR98/Obtainium/issues/2355",
+    "https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification#ssh-commit-signature-verification"
+   ]
+  },
+  {
+   "number": 2381,
+   "title": "English string change suggestions",
+   "url": "https://github.com/ImranR98/Obtainium/issues/2381",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "UI"
+   ],
+   "updatedAt": "2026-10-19T00:47:13Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "PR #3411 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/ImranR98/Obtainium/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ImranR98/Obtainium/pull/3411",
+    "https://github.com/ImranR98/Obtainium/issues/2381",
+    "https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification#ssh-commit-signature-verification"
+   ]
+  },
+  {
+   "number": 2924,
+   "title": "Can you added TV Version armv7 + 64",
+   "url": "https://github.com/ImranR98/Obtainium/issues/2924",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2026-06-23T18:36:44Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification#ssh-commit-signature-verification) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/ImranR98/Obtainium/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ImranR98/Obtainium/issues/2924",
+    "https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification#ssh-commit-signature-verification"
+   ]
+  },
+  {
+   "number": 3275,
+   "title": "ci: enable the use of a dependancy bot",
+   "url": "https://github.com/ImranR98/Obtainium/issues/3275",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2026-09-06T12:04:41Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/code-security/tutorials/secure-your-dependencies/automate-dependabot-with-actions#automatically-approving-a-pull-request) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/ImranR98/Obtainium/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ImranR98/Obtainium/issues/3275",
+    "https://docs.github.com/en/code-security/tutorials/secure-your-dependencies/automate-dependabot-with-actions#automatically-approving-a-pull-request"
+   ]
+  },
+  {
+   "number": 3390,
+   "title": "Feature Request: Add a Paste Button to the URL TextField",
+   "url": "https://github.com/ImranR98/Obtainium/issues/3390",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "low priority",
+    "UI"
+   ],
+   "updatedAt": "2026-10-18T22:16:27Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "discard",
+   "reason": "PR #3410 by @huseyinapa is already open against this issue",
+   "evidence": [
+    "https://github.com/ImranR98/Obtainium/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ImranR98/Obtainium/pull/3410"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,567 @@
+{
+ "owner": "gitbucket",
+ "repo": "gitbucket",
+ "language": "Scala",
+ "stars": 9420,
+ "description": "A Git platform powered by Scala with easy installation, high extensibility & GitHub API compatibility",
+ "visitedAt": "2026-11-13T22:40:39.276Z",
+ "issues": [
+  {
+   "number": 137,
+   "title": "Spacing in large files with long lines is not displayed correctly",
+   "url": "https://github.com/gitbucket/gitbucket/issues/137",
+   "labels": [
+    "improvement",
+    "help wanted"
+   ],
+   "updatedAt": "2018-03-09T22:57:33Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "discard",
+   "reason": "PR #803 by @luzuojin is already open against this issue",
+   "evidence": [
+    "https://github.com/gitbucket/gitbucket/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/gitbucket/gitbucket/issues/803"
+   ]
+  },
+  {
+   "number": 352,
+   "title": "Repo encryption support!",
+   "url": "https://github.com/gitbucket/gitbucket/issues/352",
+   "labels": [
+    "improvement",
+    "help wanted"
+   ],
+   "updatedAt": "2018-03-09T23:03:41Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "discard",
+   "reason": "PR #2210 by @uli-heller is already open against this issue",
+   "evidence": [
+    "https://github.com/gitbucket/gitbucket/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/gitbucket/gitbucket/issues/2210"
+   ]
+  },
+  {
+   "number": 667,
+   "title": "\"Load More\" action on the recent activity home page.",
+   "url": "https://github.com/gitbucket/gitbucket/issues/667",
+   "labels": [
+    "improvement",
+    "help wanted"
+   ],
+   "updatedAt": "2020-08-22T08:49:16Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/gitbucket/gitbucket/wiki) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/gitbucket/gitbucket/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/gitbucket/gitbucket/issues/667",
+    "https://github.com/gitbucket/gitbucket/wiki"
+   ]
+  },
+  {
+   "number": 729,
+   "title": "Display SVG images instead of blob by default",
+   "url": "https://github.com/gitbucket/gitbucket/issues/729",
+   "labels": [
+    "feature",
+    "help wanted"
+   ],
+   "updatedAt": "2018-05-27T02:36:33Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "discard",
+   "reason": "PR #3074 by @rysyd is already open against this issue",
+   "evidence": [
+    "https://github.com/gitbucket/gitbucket/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/gitbucket/gitbucket/issues/3074"
+   ]
+  },
+  {
+   "number": 730,
+   "title": "Private Activity - similar to the \"Public Activity\"",
+   "url": "https://github.com/gitbucket/gitbucket/issues/730",
+   "labels": [
+    "improvement",
+    "help wanted"
+   ],
+   "updatedAt": "2018-03-09T23:11:55Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/gitbucket/gitbucket/wiki) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/gitbucket/gitbucket/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/gitbucket/gitbucket/issues/730",
+    "https://github.com/gitbucket/gitbucket/wiki"
+   ]
+  },
+  {
+   "number": 843,
+   "title": "Azure AD authentication",
+   "url": "https://github.com/gitbucket/gitbucket/issues/843",
+   "labels": [
+    "feature",
+    "help wanted",
+    "LDAP/SSO"
+   ],
+   "updatedAt": "2018-04-03T05:49:19Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "discard",
+   "reason": "PR #1737 by @karthikbalu is already open against this issue",
+   "evidence": [
+    "https://github.com/gitbucket/gitbucket/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/gitbucket/gitbucket/issues/1737"
+   ]
+  },
+  {
+   "number": 904,
+   "title": "support .mailmap",
+   "url": "https://github.com/gitbucket/gitbucket/issues/904",
+   "labels": [
+    "feature",
+    "help wanted"
+   ],
+   "updatedAt": "2018-08-21T07:42:09Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/gitbucket/gitbucket/wiki) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/gitbucket/gitbucket/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/gitbucket/gitbucket/issues/904",
+    "https://github.com/gitbucket/gitbucket/wiki"
+   ]
+  },
+  {
+   "number": 908,
+   "title": "RepositoryNotFoundException when merge pull request",
+   "url": "https://github.com/gitbucket/gitbucket/issues/908",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2017-09-15T23:33:14Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/gitbucket/gitbucket/wiki) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/gitbucket/gitbucket/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/gitbucket/gitbucket/issues/908",
+    "https://github.com/gitbucket/gitbucket/wiki"
+   ]
+  },
+  {
+   "number": 969,
+   "title": "Still cannot fork big repository",
+   "url": "https://github.com/gitbucket/gitbucket/issues/969",
+   "labels": [
+    "improvement",
+    "help wanted"
+   ],
+   "updatedAt": "2017-02-20T02:10:40Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "discard",
+   "reason": "PR #3515 by @pbpf is already open against this issue",
+   "evidence": [
+    "https://github.com/gitbucket/gitbucket/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/gitbucket/gitbucket/issues/3515",
+    "https://github.com/gitbucket/gitbucket/issues/3565"
+   ]
+  },
+  {
+   "number": 1045,
+   "title": "Create issue per email",
+   "url": "https://github.com/gitbucket/gitbucket/issues/1045",
+   "labels": [
+    "feature",
+    "help wanted",
+    "plugin"
+   ],
+   "updatedAt": "2017-11-01T14:17:59Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/gitbucket/gitbucket/wiki) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/gitbucket/gitbucket/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/gitbucket/gitbucket/issues/1045",
+    "https://github.com/gitbucket/gitbucket/wiki"
+   ]
+  },
+  {
+   "number": 1048,
+   "title": "Request: Events API",
+   "url": "https://github.com/gitbucket/gitbucket/issues/1048",
+   "labels": [
+    "feature",
+    "help wanted",
+    "APIv3"
+   ],
+   "updatedAt": "2018-07-23T04:41:33Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "open 132 months with no human comment, in a repo pushed to 7 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/gitbucket/gitbucket/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/gitbucket/gitbucket/issues/1048",
+    "https://github.com/gitbucket/gitbucket/wiki"
+   ]
+  },
+  {
+   "number": 1136,
+   "title": "customizing the main page",
+   "url": "https://github.com/gitbucket/gitbucket/issues/1136",
+   "labels": [
+    "feature",
+    "help wanted",
+    "plugin"
+   ],
+   "updatedAt": "2021-05-05T22:06:47Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/gitbucket/gitbucket/wiki) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/gitbucket/gitbucket/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/gitbucket/gitbucket/issues/1136",
+    "https://github.com/gitbucket/gitbucket/wiki"
+   ]
+  },
+  {
+   "number": 1173,
+   "title": "Browse pull requests",
+   "url": "https://github.com/gitbucket/gitbucket/issues/1173",
+   "labels": [
+    "improvement",
+    "help wanted"
+   ],
+   "updatedAt": "2018-03-09T23:58:28Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "open 129 months with no human comment, in a repo pushed to 7 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/gitbucket/gitbucket/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/gitbucket/gitbucket/issues/1173",
+    "https://github.com/gitbucket/gitbucket/wiki"
+   ]
+  },
+  {
+   "number": 1244,
+   "title": "timeout on pull request API call",
+   "url": "https://github.com/gitbucket/gitbucket/issues/1244",
+   "labels": [
+    "improvement",
+    "help wanted"
+   ],
+   "updatedAt": "2016-09-28T00:30:45Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "discard",
+   "reason": "already assigned to @nazoking",
+   "evidence": [
+    "https://github.com/gitbucket/gitbucket/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/gitbucket/gitbucket/issues/1244"
+   ]
+  },
+  {
+   "number": 1274,
+   "title": "Export SQL Data including Schema",
+   "url": "https://github.com/gitbucket/gitbucket/issues/1274",
+   "labels": [
+    "improvement",
+    "help wanted",
+    "plugin"
+   ],
+   "updatedAt": "2017-11-01T14:10:33Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/gitbucket/gitbucket/wiki) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/gitbucket/gitbucket/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/gitbucket/gitbucket/issues/1274",
+    "https://github.com/gitbucket/gitbucket/wiki"
+   ]
+  },
+  {
+   "number": 1294,
+   "title": "Wiki pages import",
+   "url": "https://github.com/gitbucket/gitbucket/issues/1294",
+   "labels": [
+    "help wanted",
+    "plugin"
+   ],
+   "updatedAt": "2017-11-01T14:09:14Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/gitbucket/gitbucket/wiki) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/gitbucket/gitbucket/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/gitbucket/gitbucket/issues/1294",
+    "https://github.com/gitbucket/gitbucket/wiki"
+   ]
+  },
+  {
+   "number": 1295,
+   "title": "Issues import",
+   "url": "https://github.com/gitbucket/gitbucket/issues/1295",
+   "labels": [
+    "help wanted",
+    "plugin"
+   ],
+   "updatedAt": "2017-11-01T14:09:03Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/gitbucket/gitbucket/wiki) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/gitbucket/gitbucket/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/gitbucket/gitbucket/issues/1295",
+    "https://github.com/gitbucket/gitbucket/wiki"
+   ]
+  },
+  {
+   "number": 1440,
+   "title": "Allow to specify a branch when filing for an issue",
+   "url": "https://github.com/gitbucket/gitbucket/issues/1440",
+   "labels": [
+    "feature",
+    "help wanted",
+    "plugin"
+   ],
+   "updatedAt": "2017-11-01T14:02:05Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "discard",
+   "reason": "PR #3379 by @OscarS1969 is already open against this issue",
+   "evidence": [
+    "https://github.com/gitbucket/gitbucket/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/gitbucket/gitbucket/issues/3379"
+   ]
+  },
+  {
+   "number": 1444,
+   "title": "GVFS support",
+   "url": "https://github.com/gitbucket/gitbucket/issues/1444",
+   "labels": [
+    "feature",
+    "pending",
+    "help wanted"
+   ],
+   "updatedAt": "2018-06-25T15:41:30Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/gitbucket/gitbucket/wiki) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/gitbucket/gitbucket/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/gitbucket/gitbucket/issues/1444",
+    "https://github.com/gitbucket/gitbucket/wiki"
+   ]
+  },
+  {
+   "number": 1510,
+   "title": "Integration with Slack sends message with broken link if branch name has a slash character",
+   "url": "https://github.com/gitbucket/gitbucket/issues/1510",
+   "labels": [
+    "help wanted",
+    "waiting 4 user feedback"
+   ],
+   "updatedAt": "2020-08-22T11:51:05Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/gitbucket/gitbucket/wiki) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/gitbucket/gitbucket/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/gitbucket/gitbucket/issues/1510",
+    "https://github.com/gitbucket/gitbucket/wiki"
+   ]
+  },
+  {
+   "number": 1619,
+   "title": "Relation for issues",
+   "url": "https://github.com/gitbucket/gitbucket/issues/1619",
+   "labels": [
+    "feature",
+    "help wanted"
+   ],
+   "updatedAt": "2018-03-09T23:37:39Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "open 115 months with no human comment, in a repo pushed to 7 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/gitbucket/gitbucket/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/gitbucket/gitbucket/issues/1619",
+    "https://github.com/gitbucket/gitbucket/wiki/Wishlist"
+   ]
+  },
+  {
+   "number": 1743,
+   "title": "/issues API to get all assigned issues",
+   "url": "https://github.com/gitbucket/gitbucket/issues/1743",
+   "labels": [
+    "feature",
+    "help wanted",
+    "APIv3"
+   ],
+   "updatedAt": "2018-10-13T00:45:32Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "discard",
+   "reason": "already assigned to @kounoike",
+   "evidence": [
+    "https://github.com/gitbucket/gitbucket/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/gitbucket/gitbucket/issues/1743"
+   ]
+  },
+  {
+   "number": 1745,
+   "title": "Add \"created_by\" and \"updated_by\" Fields.",
+   "url": "https://github.com/gitbucket/gitbucket/issues/1745",
+   "labels": [
+    "improvement",
+    "help wanted"
+   ],
+   "updatedAt": "2017-12-04T23:38:39Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "open 110 months with no human comment, in a repo pushed to 7 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/gitbucket/gitbucket/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/gitbucket/gitbucket/issues/1745",
+    "https://github.com/gitbucket/gitbucket/wiki"
+   ]
+  },
+  {
+   "number": 2125,
+   "title": "Release native image for Linux ",
+   "url": "https://github.com/gitbucket/gitbucket/issues/2125",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2018-08-02T08:14:50Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/gitbucket/gitbucket/wiki) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/gitbucket/gitbucket/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/gitbucket/gitbucket/issues/2125",
+    "https://github.com/gitbucket/gitbucket/wiki"
+   ]
+  },
+  {
+   "number": 2253,
+   "title": "RememberMe option on login form",
+   "url": "https://github.com/gitbucket/gitbucket/issues/2253",
+   "labels": [
+    "feature",
+    "help wanted"
+   ],
+   "updatedAt": "2019-01-27T15:34:50Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/gitbucket/gitbucket/wiki) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/gitbucket/gitbucket/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/gitbucket/gitbucket/issues/2253",
+    "https://github.com/gitbucket/gitbucket/wiki"
+   ]
+  },
+  {
+   "number": 2255,
+   "title": "News Feed Activity Comments Display Raw Markdown",
+   "url": "https://github.com/gitbucket/gitbucket/issues/2255",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2021-06-12T14:34:20Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/gitbucket/gitbucket/wiki) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/gitbucket/gitbucket/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/gitbucket/gitbucket/issues/2255",
+    "https://github.com/gitbucket/gitbucket/wiki"
+   ]
+  },
+  {
+   "number": 2259,
+   "title": "LDAPException: No Such Object",
+   "url": "https://github.com/gitbucket/gitbucket/issues/2259",
+   "labels": [
+    "improvement",
+    "help wanted",
+    "LDAP/SSO"
+   ],
+   "updatedAt": "2019-08-18T07:40:57Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/gitbucket/gitbucket/wiki) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/gitbucket/gitbucket/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/gitbucket/gitbucket/issues/2259",
+    "https://github.com/gitbucket/gitbucket/wiki"
+   ]
+  },
+  {
+   "number": 2329,
+   "title": "In github webhook push event, include all fields from example",
+   "url": "https://github.com/gitbucket/gitbucket/issues/2329",
+   "labels": [
+    "help wanted",
+    "APIv3"
+   ],
+   "updatedAt": "2020-07-01T08:30:23Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/gitbucket/gitbucket/wiki) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/gitbucket/gitbucket/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/gitbucket/gitbucket/issues/2329",
+    "https://github.com/gitbucket/gitbucket/wiki"
+   ]
+  },
+  {
+   "number": 2426,
+   "title": "Git LFS problem when behind a reverse proxy with basic auth",
+   "url": "https://github.com/gitbucket/gitbucket/issues/2426",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2020-04-11T02:03:28Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "open 82 months with no human comment, in a repo pushed to 7 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/gitbucket/gitbucket/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/gitbucket/gitbucket/issues/2426",
+    "https://github.com/gitbucket/gitbucket/wiki/Reverse-proxy-with-Apache"
+   ]
+  },
+  {
+   "number": 2593,
+   "title": "Commit compare API end points appears broken",
+   "url": "https://github.com/gitbucket/gitbucket/issues/2593",
+   "labels": [
+    "help wanted",
+    "APIv3"
+   ],
+   "updatedAt": "2023-03-19T06:52:58Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "discard",
+   "reason": "PR #392 by @dmk23 is already open against this issue",
+   "evidence": [
+    "https://github.com/gitbucket/gitbucket/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/gitbucket/gitbucket/issues/392"
+   ]
+  },
+  {
+   "number": 2755,
+   "title": "Wiki - Backup Script - Windows - Needs URL and Token Update",
+   "url": "https://github.com/gitbucket/gitbucket/issues/2755",
+   "labels": [
+    "help wanted",
+    "document"
+   ],
+   "updatedAt": "2021-05-01T20:36:43Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/gitbucket/gitbucket/wiki) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/gitbucket/gitbucket/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/gitbucket/gitbucket/issues/2755",
+    "https://github.com/gitbucket/gitbucket/wiki"
+   ]
+  }
+ ]
+}

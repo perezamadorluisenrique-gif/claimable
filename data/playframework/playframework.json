@@ -1,0 +1,1275 @@
+{
+ "owner": "playframework",
+ "repo": "playframework",
+ "language": "Scala",
+ "stars": 12622,
+ "description": "The Community Maintained High Velocity Web Framework For Java and Scala.",
+ "visitedAt": "2026-11-13T22:40:39.276Z",
+ "issues": [
+  {
+   "number": 995,
+   "title": "Implement test coverage analysis",
+   "url": "https://github.com/playframework/playframework/issues/995",
+   "labels": [
+    "type:improvement",
+    "help wanted"
+   ],
+   "updatedAt": "2019-05-09T13:06:25Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "discard",
+   "reason": "already assigned to @huntc",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/pull/945",
+    "https://github.com/playframework/playframework/issues/995"
+   ]
+  },
+  {
+   "number": 2054,
+   "title": "Document config sharing for multimodule projects",
+   "url": "https://github.com/playframework/playframework/issues/2054",
+   "labels": [
+    "help wanted",
+    "topic:documentation"
+   ],
+   "updatedAt": "2019-05-09T13:06:25Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/issues/2054"
+   ]
+  },
+  {
+   "number": 2365,
+   "title": "Quoting for database columns",
+   "url": "https://github.com/playframework/playframework/issues/2365",
+   "labels": [
+    "type:feature",
+    "help wanted"
+   ],
+   "updatedAt": "2019-05-09T13:06:25Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/issues/2365"
+   ]
+  },
+  {
+   "number": 2581,
+   "title": "Support SLF4J Mapped Diagnostic Context (MDC) on internal server error",
+   "url": "https://github.com/playframework/playframework/issues/2581",
+   "labels": [
+    "type:improvement",
+    "help wanted",
+    "good first issue"
+   ],
+   "updatedAt": "2019-05-09T13:06:25Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "discard",
+   "reason": "PR #6171 by @richdougherty is already open against this issue",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/issues/6171",
+    "https://github.com/playframework/playframework/issues/7458"
+   ]
+  },
+  {
+   "number": 2951,
+   "title": "Ability to manually resolve evolution without trying to run the script",
+   "url": "https://github.com/playframework/playframework/issues/2951",
+   "labels": [
+    "type:feature",
+    "help wanted"
+   ],
+   "updatedAt": "2019-05-09T13:06:25Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "open 152 months with no human comment, in a repo pushed to 4 days ago — easy issues do not survive that long here; assume it is harder than its labels say",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/issues/2951"
+   ]
+  },
+  {
+   "number": 3346,
+   "title": "Route regex without identifier",
+   "url": "https://github.com/playframework/playframework/issues/3346",
+   "labels": [
+    "type:feature",
+    "help wanted"
+   ],
+   "updatedAt": "2019-05-09T13:06:25Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/issues/3346"
+   ]
+  },
+  {
+   "number": 3629,
+   "title": "Exception details dropped on failed request parsing",
+   "url": "https://github.com/playframework/playframework/issues/3629",
+   "labels": [
+    "type:improvement",
+    "help wanted"
+   ],
+   "updatedAt": "2019-05-09T13:06:25Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "PR #3631 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/pull/3631",
+    "https://github.com/playframework/playframework/issues/3629"
+   ]
+  },
+  {
+   "number": 3654,
+   "title": "Doc code snippets should show link to full source file",
+   "url": "https://github.com/playframework/playframework/issues/3654",
+   "labels": [
+    "help wanted",
+    "topic:documentation"
+   ],
+   "updatedAt": "2019-05-09T13:06:25Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/issues/3654"
+   ]
+  },
+  {
+   "number": 4084,
+   "title": "Document play.http.context configuration",
+   "url": "https://github.com/playframework/playframework/issues/4084",
+   "labels": [
+    "help wanted",
+    "topic:documentation"
+   ],
+   "updatedAt": "2019-05-09T13:06:25Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/issues/4084"
+   ]
+  },
+  {
+   "number": 4396,
+   "title": "Input Helpers use 'value, not '_value",
+   "url": "https://github.com/playframework/playframework/issues/4396",
+   "labels": [
+    "help wanted",
+    "topic:documentation"
+   ],
+   "updatedAt": "2019-05-09T13:06:25Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/issues/4396"
+   ]
+  },
+  {
+   "number": 5523,
+   "title": "Update documentation about Apache as a FrontEnd server",
+   "url": "https://github.com/playframework/playframework/issues/5523",
+   "labels": [
+    "help wanted",
+    "topic:documentation"
+   ],
+   "updatedAt": "2026-11-09T07:14:37Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "discard",
+   "reason": "PR #14428 by @shu-chen-dot-ca is already open against this issue",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/pull/14428"
+   ]
+  },
+  {
+   "number": 5546,
+   "title": "[feature] Create JUnit matchers for CompletionStage, Future, Optional",
+   "url": "https://github.com/playframework/playframework/issues/5546",
+   "labels": [
+    "type:feature",
+    "help wanted",
+    "good first issue"
+   ],
+   "updatedAt": "2025-03-17T11:19:19Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @deepakab03 3066 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/issues/5546#issuecomment-399520255",
+    "https://github.com/playframework/playframework/issues/5546",
+    "https://github.com/junit-team/junit/wiki/Matchers-and-assertthat"
+   ]
+  },
+  {
+   "number": 6049,
+   "title": "[doc] Add a note about Evolutions lifecycle and potential catches",
+   "url": "https://github.com/playframework/playframework/issues/6049",
+   "labels": [
+    "help wanted",
+    "good first issue",
+    "topic:documentation"
+   ],
+   "updatedAt": "2019-05-09T13:06:26Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/issues/6049"
+   ]
+  },
+  {
+   "number": 6184,
+   "title": "Load a \"default\" ApplicationLoader",
+   "url": "https://github.com/playframework/playframework/issues/6184",
+   "labels": [
+    "help wanted",
+    "good first issue"
+   ],
+   "updatedAt": "2019-05-09T13:06:26Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/issues/6184"
+   ]
+  },
+  {
+   "number": 6358,
+   "title": "[doc] Document how to access configuration (Application, Configuration etc)",
+   "url": "https://github.com/playframework/playframework/issues/6358",
+   "labels": [
+    "help wanted",
+    "topic:documentation"
+   ],
+   "updatedAt": "2021-02-27T20:12:57Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/issues/6358"
+   ]
+  },
+  {
+   "number": 6380,
+   "title": "Better handling for POST with unsupported media type",
+   "url": "https://github.com/playframework/playframework/issues/6380",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2023-10-29T16:49:52Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/issues/6380"
+   ]
+  },
+  {
+   "number": 6555,
+   "title": "controllers package should be under play package",
+   "url": "https://github.com/playframework/playframework/issues/6555",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2019-05-09T13:06:26Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/issues/6555"
+   ]
+  },
+  {
+   "number": 6750,
+   "title": "Chunked transfer closes stream with empty string",
+   "url": "https://github.com/playframework/playframework/issues/6750",
+   "labels": [
+    "help wanted",
+    "topic:documentation"
+   ],
+   "updatedAt": "2019-05-09T13:06:27Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "PR #315 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/tminglei/slick-pg/pull/315",
+    "https://github.com/hmrc/ras-frontend/pull/48",
+    "https://github.com/playframework/playframework/issues/6750"
+   ]
+  },
+  {
+   "number": 6802,
+   "title": "Alternative for java.net.URI",
+   "url": "https://github.com/playframework/playframework/issues/6802",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2022-02-11T12:40:57Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "PR #6803 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/pull/6803",
+    "https://github.com/playframework/playframework/issues/6802"
+   ]
+  },
+  {
+   "number": 6939,
+   "title": "`Play.XML`  should use  ThreadLocal SAXParser",
+   "url": "https://github.com/playframework/playframework/issues/6939",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2019-05-09T13:06:27Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/issues/6939"
+   ]
+  },
+  {
+   "number": 6945,
+   "title": "Document how to use the interactive console with Compile Time DI",
+   "url": "https://github.com/playframework/playframework/issues/6945",
+   "labels": [
+    "help wanted",
+    "topic:documentation"
+   ],
+   "updatedAt": "2019-05-09T13:06:27Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/issues/6945"
+   ]
+  },
+  {
+   "number": 7161,
+   "title": "Make a Java based CSRFTokenHelper",
+   "url": "https://github.com/playframework/playframework/issues/7161",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2022-02-11T12:40:01Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "open 117 months with no human comment, in a repo pushed to 4 days ago — easy issues do not survive that long here; assume it is harder than its labels say",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/issues/7161"
+   ]
+  },
+  {
+   "number": 7220,
+   "title": "method overloading in router",
+   "url": "https://github.com/playframework/playframework/issues/7220",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2019-05-09T13:06:27Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/issues/7220"
+   ]
+  },
+  {
+   "number": 7243,
+   "title": "Kotlin + Play",
+   "url": "https://github.com/playframework/playframework/issues/7243",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2019-05-09T13:06:27Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/issues/7243"
+   ]
+  },
+  {
+   "number": 7550,
+   "title": "Use proguard to decrease deployment size and RAM usage.",
+   "url": "https://github.com/playframework/playframework/issues/7550",
+   "labels": [
+    "type:improvement",
+    "help wanted"
+   ],
+   "updatedAt": "2019-05-09T13:06:28Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/issues/7550"
+   ]
+  },
+  {
+   "number": 7634,
+   "title": "Allow serving of a \"default asset\"",
+   "url": "https://github.com/playframework/playframework/issues/7634",
+   "labels": [
+    "type:improvement",
+    "help wanted"
+   ],
+   "updatedAt": "2019-05-09T13:06:28Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "discard",
+   "reason": "PR #8267 by @dusanstanojeviccs is already open against this issue",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/pull/8267"
+   ]
+  },
+  {
+   "number": 7692,
+   "title": "[enhancement] Java Cache APIs get() methods should accept type parameter",
+   "url": "https://github.com/playframework/playframework/issues/7692",
+   "labels": [
+    "type:improvement",
+    "help wanted"
+   ],
+   "updatedAt": "2020-04-08T03:39:04Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @Shruti9520 3328 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/issues/7692#issuecomment-333911677",
+    "https://github.com/playframework/playframework/issues/7692"
+   ]
+  },
+  {
+   "number": 7773,
+   "title": "Add forked mode to Play",
+   "url": "https://github.com/playframework/playframework/issues/7773",
+   "labels": [
+    "type:improvement",
+    "help wanted"
+   ],
+   "updatedAt": "2019-05-09T13:06:29Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "discard",
+   "reason": "PR #8206 by @TimMoore is already open against this issue",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/issues/8206",
+    "https://github.com/playframework/playframework/issues/8330"
+   ]
+  },
+  {
+   "number": 7785,
+   "title": "More useful exception page",
+   "url": "https://github.com/playframework/playframework/issues/7785",
+   "labels": [
+    "type:improvement",
+    "help wanted"
+   ],
+   "updatedAt": "2019-05-09T13:06:29Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/issues/7785"
+   ]
+  },
+  {
+   "number": 7878,
+   "title": "Feature request: assign application/json content type for FakeRequest",
+   "url": "https://github.com/playframework/playframework/issues/7878",
+   "labels": [
+    "type:improvement",
+    "help wanted",
+    "good first issue"
+   ],
+   "updatedAt": "2019-05-09T13:06:29Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "discard",
+   "reason": "PR #8494 by @EmanuelDubor is already open against this issue",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/pull/8494",
+    "https://github.com/playframework/playframework/pull/8698"
+   ]
+  },
+  {
+   "number": 7917,
+   "title": "Automatically generate table of contents for certain docs",
+   "url": "https://github.com/playframework/playframework/issues/7917",
+   "labels": [
+    "help wanted",
+    "topic:documentation"
+   ],
+   "updatedAt": "2019-05-09T13:06:29Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/issues/7917"
+   ]
+  },
+  {
+   "number": 7946,
+   "title": "Bindables docs need improvement",
+   "url": "https://github.com/playframework/playframework/issues/7946",
+   "labels": [
+    "good first issue",
+    "topic:documentation"
+   ],
+   "updatedAt": "2019-05-09T13:06:29Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/issues/7946"
+   ]
+  },
+  {
+   "number": 7949,
+   "title": "potential deadlock in DefaultApplicationLifecycle",
+   "url": "https://github.com/playframework/playframework/issues/7949",
+   "labels": [
+    "type:defect",
+    "help wanted"
+   ],
+   "updatedAt": "2024-03-14T12:53:18Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @samupra 3301 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/issues/7949#issuecomment-340651565",
+    "https://github.com/playframework/playframework/issues/7949"
+   ]
+  },
+  {
+   "number": 8004,
+   "title": "Add documentation for simple form use case",
+   "url": "https://github.com/playframework/playframework/issues/8004",
+   "labels": [
+    "type:improvement",
+    "help wanted",
+    "topic:documentation"
+   ],
+   "updatedAt": "2019-05-09T13:06:29Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "discard",
+   "reason": "PR #11136 by @Max-AR is already open against this issue",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/pull/11136"
+   ]
+  },
+  {
+   "number": 8008,
+   "title": "Provide safer API for getting filenames of uploaded files",
+   "url": "https://github.com/playframework/playframework/issues/8008",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2023-09-20T07:48:25Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "discard",
+   "reason": "PR #12183 by @alexdboxall is already open against this issue",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/pull/12183",
+    "https://github.com/playframework/playframework/pull/8007"
+   ]
+  },
+  {
+   "number": 8015,
+   "title": "play-socket.io not mentioned in documentation and examples",
+   "url": "https://github.com/playframework/playframework/issues/8015",
+   "labels": [
+    "help wanted",
+    "topic:documentation"
+   ],
+   "updatedAt": "2019-05-09T13:06:29Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "discard",
+   "reason": "PR #11136 by @Max-AR is already open against this issue",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/pull/11136"
+   ]
+  },
+  {
+   "number": 8039,
+   "title": "Add documentation for new PlayServices/PlayWeb sbt plugins",
+   "url": "https://github.com/playframework/playframework/issues/8039",
+   "labels": [
+    "help wanted",
+    "topic:documentation",
+    "topic:sbt"
+   ],
+   "updatedAt": "2022-02-11T11:53:41Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "discard",
+   "reason": "PR #11136 by @Max-AR is already open against this issue",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/pull/11136"
+   ]
+  },
+  {
+   "number": 8052,
+   "title": "docs related to security and caching actions could be improved",
+   "url": "https://github.com/playframework/playframework/issues/8052",
+   "labels": [
+    "help wanted",
+    "good first issue",
+    "topic:documentation"
+   ],
+   "updatedAt": "2019-05-09T13:06:29Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "discard",
+   "reason": "PR #11136 by @Max-AR is already open against this issue",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/pull/11136"
+   ]
+  },
+  {
+   "number": 8075,
+   "title": "play.http.secret.key should only be required when using features that use it",
+   "url": "https://github.com/playframework/playframework/issues/8075",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2019-05-24T15:27:14Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "PR #62 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/lagom/online-auction-scala/pull/62",
+    "https://github.com/playframework/playframework/issues/8075"
+   ]
+  },
+  {
+   "number": 8100,
+   "title": "[2.6.x] RequestHeader.withHeaders does not update cookie/session/flash",
+   "url": "https://github.com/playframework/playframework/issues/8100",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2021-02-11T10:42:49Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/issues/8100"
+   ]
+  },
+  {
+   "number": 8176,
+   "title": "Improve documentation about testing",
+   "url": "https://github.com/playframework/playframework/issues/8176",
+   "labels": [
+    "help wanted",
+    "good first issue",
+    "topic:documentation"
+   ],
+   "updatedAt": "2026-06-08T15:17:20Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "discard",
+   "reason": "PR #11136 by @Max-AR is already open against this issue",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/pull/11136"
+   ]
+  },
+  {
+   "number": 8379,
+   "title": "Also include sbt-test files in sbt-headers",
+   "url": "https://github.com/playframework/playframework/issues/8379",
+   "labels": [
+    "help wanted",
+    "good first issue",
+    "topic:sbt"
+   ],
+   "updatedAt": "2020-04-12T23:40:02Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "PR #8357 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/pull/8357",
+    "https://github.com/playframework/playframework/issues/8379#issuecomment-612693062"
+   ]
+  },
+  {
+   "number": 8444,
+   "title": "Deprecate ApplicationLifecycle's stop hooks in favor of Coordinated Shutdown",
+   "url": "https://github.com/playframework/playframework/issues/8444",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2022-02-11T12:39:10Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "PR #8406 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/pull/8406",
+    "https://github.com/playframework/playframework/issues/8444"
+   ]
+  },
+  {
+   "number": 8457,
+   "title": "[Docs] Explain how to setup Coordinated Shutdown in clustered embedded Play",
+   "url": "https://github.com/playframework/playframework/issues/8457",
+   "labels": [
+    "help wanted",
+    "topic:documentation"
+   ],
+   "updatedAt": "2022-02-11T12:22:52Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/issues/8457"
+   ]
+  },
+  {
+   "number": 8459,
+   "title": "Supporting typed errors on the HttpErrorHandler",
+   "url": "https://github.com/playframework/playframework/issues/8459",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2020-04-06T03:28:13Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @fusuiyi123 2413 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/issues/8459#issuecomment-609546502",
+    "https://github.com/playframework/playframework/issues/8459"
+   ]
+  },
+  {
+   "number": 8460,
+   "title": "many Thread Pool example could be improved",
+   "url": "https://github.com/playframework/playframework/issues/8460",
+   "labels": [
+    "good first issue",
+    "topic:documentation"
+   ],
+   "updatedAt": "2019-05-09T13:06:30Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/issues/8460"
+   ]
+  },
+  {
+   "number": 8468,
+   "title": "RFE: Logging for Evolutions",
+   "url": "https://github.com/playframework/playframework/issues/8468",
+   "labels": [
+    "type:improvement",
+    "help wanted"
+   ],
+   "updatedAt": "2019-05-09T13:06:31Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "PR #8550 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/pull/8550",
+    "https://github.com/playframework/playframework/issues/8468"
+   ]
+  },
+  {
+   "number": 8507,
+   "title": "Incorrect documentation for GlobalSettings.onRouteRequest migration",
+   "url": "https://github.com/playframework/playframework/issues/8507",
+   "labels": [
+    "help wanted",
+    "good first issue",
+    "topic:documentation"
+   ],
+   "updatedAt": "2020-04-06T00:53:33Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @dmitraver 2965 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/issues/8507#issuecomment-426198762",
+    "https://github.com/playframework/playframework/issues/8507"
+   ]
+  },
+  {
+   "number": 8682,
+   "title": "Test AkkaHttp's support for client-side SSL authentication",
+   "url": "https://github.com/playframework/playframework/issues/8682",
+   "labels": [
+    "help wanted",
+    "good first issue"
+   ],
+   "updatedAt": "2022-02-11T12:22:09Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/issues/8682"
+   ]
+  },
+  {
+   "number": 8779,
+   "title": "Have consistent names for adding, removing and clearing data in multiple APIs",
+   "url": "https://github.com/playframework/playframework/issues/8779",
+   "labels": [
+    "type:improvement",
+    "help wanted",
+    "good first issue"
+   ],
+   "updatedAt": "2022-02-11T12:16:20Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "PR #8803 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+3 more)",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/pull/8803",
+    "https://github.com/playframework/playframework/pull/8832",
+    "https://github.com/playframework/playframework/pull/10998",
+    "https://github.com/playframework/playframework/issues/8779#issuecomment-476103397",
+    "https://github.com/playframework/playframework/issues/8779"
+   ]
+  },
+  {
+   "number": 8848,
+   "title": "Show Flow.fromSinkAndSourceCoupled in websocket docs/examples",
+   "url": "https://github.com/playframework/playframework/issues/8848",
+   "labels": [
+    "help wanted",
+    "good first issue",
+    "topic:documentation"
+   ],
+   "updatedAt": "2019-05-09T13:06:31Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/issues/8848"
+   ]
+  },
+  {
+   "number": 8969,
+   "title": "Create a test suite for how routers handle trailing slashes",
+   "url": "https://github.com/playframework/playframework/issues/8969",
+   "labels": [
+    "help wanted",
+    "good first issue"
+   ],
+   "updatedAt": "2022-02-11T12:12:42Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "open 95 months with no human comment, in a repo pushed to 4 days ago — easy issues do not survive that long here; assume it is harder than its labels say",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/issues/8969"
+   ]
+  },
+  {
+   "number": 8984,
+   "title": "Document Authentication",
+   "url": "https://github.com/playframework/playframework/issues/8984",
+   "labels": [
+    "help wanted",
+    "good first issue",
+    "topic:documentation"
+   ],
+   "updatedAt": "2019-05-09T13:06:32Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/issues/8984"
+   ]
+  },
+  {
+   "number": 9447,
+   "title": "Overload Helpers so Symbol is not required",
+   "url": "https://github.com/playframework/playframework/issues/9447",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2020-05-12T06:19:40Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "discard",
+   "reason": "PR #273 by @mkurz is already open against this issue",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/twirl/pull/273",
+    "https://github.com/playframework/play-samples/pull/38"
+   ]
+  },
+  {
+   "number": 9448,
+   "title": "Scalafix rule for Symbol->String in helpers",
+   "url": "https://github.com/playframework/playframework/issues/9448",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2019-11-20T11:08:16Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "PR #38 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/play-samples/pull/38",
+    "https://github.com/playframework/playframework/issues/9448"
+   ]
+  },
+  {
+   "number": 9460,
+   "title": "Export play-ehcache from the play repo",
+   "url": "https://github.com/playframework/playframework/issues/9460",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2022-02-11T12:09:54Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "open 95 months with no human comment, in a repo pushed to 4 days ago — easy issues do not survive that long here; assume it is harder than its labels say",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/issues/9460"
+   ]
+  },
+  {
+   "number": 9516,
+   "title": "Better document how to config Play for containerized env",
+   "url": "https://github.com/playframework/playframework/issues/9516",
+   "labels": [
+    "help wanted",
+    "good first issue",
+    "topic:documentation"
+   ],
+   "updatedAt": "2022-02-11T12:08:45Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/issues/9516"
+   ]
+  },
+  {
+   "number": 9753,
+   "title": "Cleanup the `play.utils` package",
+   "url": "https://github.com/playframework/playframework/issues/9753",
+   "labels": [
+    "type:improvement",
+    "help wanted",
+    "good first issue"
+   ],
+   "updatedAt": "2020-03-28T05:38:14Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @fusuiyi123 2425 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/issues/9753#issuecomment-603636371",
+    "https://github.com/playframework/playframework/issues/9753"
+   ]
+  },
+  {
+   "number": 9837,
+   "title": "Decode PLAY_SESSION cookie string to map?",
+   "url": "https://github.com/playframework/playframework/issues/9837",
+   "labels": [
+    "help wanted",
+    "good first issue",
+    "topic:documentation"
+   ],
+   "updatedAt": "2023-02-19T13:05:33Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/issues/9837"
+   ]
+  },
+  {
+   "number": 9841,
+   "title": "Run `validateExternalLinks` at least nightly",
+   "url": "https://github.com/playframework/playframework/issues/9841",
+   "labels": [
+    "help wanted",
+    "good first issue"
+   ],
+   "updatedAt": "2022-02-11T11:56:40Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/issues/9841"
+   ]
+  },
+  {
+   "number": 9843,
+   "title": "Allow more flexible HTTP bindings ",
+   "url": "https://github.com/playframework/playframework/issues/9843",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2022-02-11T12:37:07Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "open 85 months with no human comment, in a repo pushed to 4 days ago — easy issues do not survive that long here; assume it is harder than its labels say",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/issues/9843"
+   ]
+  },
+  {
+   "number": 9844,
+   "title": "Uncouple Server and Logger lifecycles",
+   "url": "https://github.com/playframework/playframework/issues/9844",
+   "labels": [
+    "help wanted",
+    "good first issue"
+   ],
+   "updatedAt": "2022-03-07T15:48:04Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @AndySakov 1734 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/issues/9844#issuecomment-1038038285",
+    "https://github.com/playframework/playframework/issues/9844"
+   ]
+  },
+  {
+   "number": 9852,
+   "title": "Create a BodyParser to parse MultipartFormData directly to a stream",
+   "url": "https://github.com/playframework/playframework/issues/9852",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2024-10-07T21:01:21Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "discard",
+   "reason": "PR #10309 by @smadarasmi is already open against this issue",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/pull/10309"
+   ]
+  },
+  {
+   "number": 10120,
+   "title": "[Docs] MigrationGuide from 2.4 to X for EventSource is unspecific",
+   "url": "https://github.com/playframework/playframework/issues/10120",
+   "labels": [
+    "help wanted",
+    "topic:documentation"
+   ],
+   "updatedAt": "2021-02-17T10:14:38Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/issues/10120"
+   ]
+  },
+  {
+   "number": 10204,
+   "title": "Unable to create a routes file with same name as a method in Predef",
+   "url": "https://github.com/playframework/playframework/issues/10204",
+   "labels": [
+    "type:improvement",
+    "help wanted"
+   ],
+   "updatedAt": "2026-09-18T01:30:21Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/issues/10204"
+   ]
+  },
+  {
+   "number": 10351,
+   "title": "docs: Cloud Foundry instructions broken",
+   "url": "https://github.com/playframework/playframework/issues/10351",
+   "labels": [
+    "type:defect",
+    "help wanted",
+    "good first issue",
+    "topic:documentation"
+   ],
+   "updatedAt": "2021-01-17T22:02:21Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/issues/10351"
+   ]
+  },
+  {
+   "number": 10831,
+   "title": "Not detecting changes in twirl files in sub-project (when PlayLayoutPlugin is disabled)",
+   "url": "https://github.com/playframework/playframework/issues/10831",
+   "labels": [
+    "type:defect",
+    "help wanted"
+   ],
+   "updatedAt": "2022-02-16T15:02:15Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "reservations",
+   "reason": "open 68 months with no human comment, in a repo pushed to 4 days ago — easy issues do not survive that long here; assume it is harder than its labels say",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/issues/10831"
+   ]
+  },
+  {
+   "number": 10873,
+   "title": "Injection parameters to methods of controllers",
+   "url": "https://github.com/playframework/playframework/issues/10873",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2022-02-24T20:01:30Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/issues/10873"
+   ]
+  },
+  {
+   "number": 10957,
+   "title": "Caffeine-based cache (SyncCacheApi) loose thread locals when using a custom execution context",
+   "url": "https://github.com/playframework/playframework/issues/10957",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2022-03-07T12:37:05Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/issues/10957"
+   ]
+  },
+  {
+   "number": 11171,
+   "title": "Unable to map snake_case JSON to Play Form with camelCase fields (Java)",
+   "url": "https://github.com/playframework/playframework/issues/11171",
+   "labels": [
+    "type:improvement",
+    "help wanted"
+   ],
+   "updatedAt": "2026-04-28T08:17:47Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "discard",
+   "reason": "PR #12017 by @amvanbaren is already open against this issue",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/pull/12017"
+   ]
+  },
+  {
+   "number": 11198,
+   "title": "PathBindable vs QueryStringBindable",
+   "url": "https://github.com/playframework/playframework/issues/11198",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2023-05-05T17:31:26Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/issues/11198"
+   ]
+  },
+  {
+   "number": 11303,
+   "title": "Fails to convert error to PlayException/UsefulException",
+   "url": "https://github.com/playframework/playframework/issues/11303",
+   "labels": [
+    "type:defect",
+    "help wanted"
+   ],
+   "updatedAt": "2022-10-12T11:51:04Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/issues/11303"
+   ]
+  },
+  {
+   "number": 11439,
+   "title": "Routes cannot route a method whose name is a reserved word.",
+   "url": "https://github.com/playframework/playframework/issues/11439",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2022-09-29T11:52:07Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "discard",
+   "reason": "PR #11890 by @amvanbaren is already open against this issue",
+   "evidence": [
+    "https://github.com/playframework/playframework/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/playframework/playframework/pull/11890"
+   ]
+  }
+ ]
+}

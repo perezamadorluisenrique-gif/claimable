@@ -1,0 +1,27 @@
+{
+ "owner": "rrousselGit",
+ "repo": "riverpod",
+ "language": "Dart",
+ "stars": 7422,
+ "description": "A reactive caching and data-binding framework.   Riverpod makes working with asynchronous code a breeze.",
+ "visitedAt": "2026-11-13T22:40:39.276Z",
+ "issues": [
+  {
+   "number": 4836,
+   "title": "Docs: Request to add Simplified Chinese official documentation",
+   "url": "https://github.com/rrousselGit/riverpod/issues/4836",
+   "labels": [
+    "documentation",
+    "help wanted"
+   ],
+   "updatedAt": "2026-08-05T07:31:03Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "discard",
+   "reason": "already assigned to @rrousselGit",
+   "evidence": [
+    "https://github.com/rrousselGit/riverpod/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rrousselGit/riverpod/issues/4836"
+   ]
+  }
+ ]
+}

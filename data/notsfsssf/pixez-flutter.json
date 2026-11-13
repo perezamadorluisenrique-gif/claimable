@@ -1,0 +1,28 @@
+{
+ "owner": "Notsfsssf",
+ "repo": "pixez-flutter",
+ "language": "Dart",
+ "stars": 13314,
+ "description": "一个支持免代理直连及查看动图的第三方Pixiv flutter客户端",
+ "visitedAt": "2026-11-13T22:40:39.276Z",
+ "issues": [
+  {
+   "number": 1102,
+   "title": "关闭程序后弹窗unknown hard error",
+   "url": "https://github.com/Notsfsssf/pixez-flutter/issues/1102",
+   "labels": [
+    "bug",
+    "help wanted",
+    "Platform: Windows"
+   ],
+   "updatedAt": "2026-01-05T07:46:24Z",
+   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/Notsfsssf/pixez-flutter/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/Notsfsssf/pixez-flutter/issues/1102"
+   ]
+  }
+ ]
+}

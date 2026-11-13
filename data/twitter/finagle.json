@@ -1,0 +1,9 @@
+{
+ "owner": "twitter",
+ "repo": "finagle",
+ "language": "Scala",
+ "stars": 8870,
+ "description": "A fault tolerant, protocol-agnostic RPC system",
+ "visitedAt": "2026-11-13T22:40:39.276Z",
+ "issues": []
+}
