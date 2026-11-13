@@ -1,0 +1,29 @@
+{
+ "owner": "activeadmin",
+ "repo": "activeadmin",
+ "language": "Ruby",
+ "stars": 9712,
+ "description": "The administration framework for Ruby on Rails applications.",
+ "visitedAt": "2026-11-13T08:02:18.780Z",
+ "issues": [
+  {
+   "number": 4279,
+   "title": "`display_name_method_for` works not as intended with Draper",
+   "url": "https://github.com/activeadmin/activeadmin/issues/4279",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-03-04T18:19:28Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/activeadmin/activeadmin/wiki) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/activeadmin/activeadmin/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/activeadmin/activeadmin/issues/4279",
+    "https://github.com/activeadmin/activeadmin/wiki",
+    "https://github.com/activeadmin/activeadmin/blob/HEAD/CONTRIBUTING.md"
+   ]
+  }
+ ]
+}

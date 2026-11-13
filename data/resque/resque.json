@@ -1,0 +1,62 @@
+{
+ "owner": "resque",
+ "repo": "resque",
+ "language": "Ruby",
+ "stars": 9466,
+ "description": "Resque is a Redis-backed Ruby library for creating background jobs, placing them on multiple queues, and processing them later.",
+ "visitedAt": "2026-11-13T08:02:18.780Z",
+ "issues": [
+  {
+   "number": 1719,
+   "title": "retry and remove, could use some distance",
+   "url": "https://github.com/resque/resque/issues/1719",
+   "labels": [
+    "help wanted",
+    "good first issue"
+   ],
+   "updatedAt": "2021-09-30T12:42:48Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "PR #2 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder",
+   "evidence": [
+    "https://github.com/resque/resque/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/f-moya/resque/pull/2",
+    "https://github.com/resque/resque/issues/1719"
+   ]
+  },
+  {
+   "number": 1757,
+   "title": "Allow colons in queue name",
+   "url": "https://github.com/resque/resque/issues/1757",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2022-06-04T16:23:24Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/resque/resque/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/resque/resque/issues/1757"
+   ]
+  },
+  {
+   "number": 1771,
+   "title": "Update/remove homepage or move docs over?",
+   "url": "https://github.com/resque/resque/issues/1771",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2021-11-23T12:32:29Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "PR #1778 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/resque/resque/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/resque/resque/pull/1778",
+    "https://github.com/resque/resque.github.io/pull/15",
+    "https://github.com/resque/resque/issues/1771"
+   ]
+  }
+ ]
+}

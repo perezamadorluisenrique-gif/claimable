@@ -1,0 +1,170 @@
+{
+ "owner": "pppscn",
+ "repo": "SmsForwarder",
+ "language": "Kotlin",
+ "stars": 28821,
+ "description": "短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人、企业微信群机器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Telegram机器人、Server酱、PushPlus、手机短信等。包括主动控制服务端与客户端，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。（V3.0 新增）PS.这个APK主要是",
+ "visitedAt": "2026-11-13T08:02:18.780Z",
+ "issues": [
+  {
+   "number": 720,
+   "title": "[Suggestion]: 可否考虑增加原生的QQ和微信机器人",
+   "url": "https://github.com/pppscn/SmsForwarder/issues/720",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-08-17T01:52:02Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "already assigned to @pppscn",
+   "evidence": [
+    "https://github.com/pppscn/SmsForwarder/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/pppscn/SmsForwarder/issues/720"
+   ]
+  },
+  {
+   "number": 722,
+   "title": "新增飞书机器人等渠道支持手动发送信息功能",
+   "url": "https://github.com/pppscn/SmsForwarder/issues/722",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-03-27T10:33:59Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "already assigned to @pppscn",
+   "evidence": [
+    "https://github.com/pppscn/SmsForwarder/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/pppscn/SmsForwarder/issues/722"
+   ]
+  },
+  {
+   "number": 726,
+   "title": "[Suggestion]: 支持用Telegram Bot API发短信（TG->短信转发）或者远程控制",
+   "url": "https://github.com/pppscn/SmsForwarder/issues/726",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-04-11T05:27:02Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "already assigned to @pppscn",
+   "evidence": [
+    "https://github.com/pppscn/SmsForwarder/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/pppscn/SmsForwarder/issues/726"
+   ]
+  },
+  {
+   "number": 742,
+   "title": "[Suggestion]: 增加Matrix通道的转发功能",
+   "url": "https://github.com/pppscn/SmsForwarder/issues/742",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-06-10T07:06:39Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #718 by @LMTXQ is already open against this issue",
+   "evidence": [
+    "https://github.com/pppscn/SmsForwarder/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/pppscn/SmsForwarder/issues/718"
+   ]
+  },
+  {
+   "number": 748,
+   "title": "[Suggestion]:  需要一个短信播报的功能",
+   "url": "https://github.com/pppscn/SmsForwarder/issues/748",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-06-16T11:02:50Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "already assigned to @pppscn",
+   "evidence": [
+    "https://github.com/pppscn/SmsForwarder/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/pppscn/SmsForwarder/issues/748"
+   ]
+  },
+  {
+   "number": 760,
+   "title": "[Suggestion]: 小米手机无人值守支持",
+   "url": "https://github.com/pppscn/SmsForwarder/issues/760",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-08-04T02:19:58Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "already assigned to @pppscn",
+   "evidence": [
+    "https://github.com/pppscn/SmsForwarder/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/pppscn/SmsForwarder/issues/760"
+   ]
+  },
+  {
+   "number": 766,
+   "title": "[Suggestion]: 优化一下ColorOS16下的设置教程吧",
+   "url": "https://github.com/pppscn/SmsForwarder/issues/766",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-04T01:42:39Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "already assigned to @pppscn",
+   "evidence": [
+    "https://github.com/pppscn/SmsForwarder/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/pppscn/SmsForwarder/issues/766"
+   ]
+  },
+  {
+   "number": 769,
+   "title": "[Suggestion]: 希望转发通道能支持拖动排序",
+   "url": "https://github.com/pppscn/SmsForwarder/issues/769",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-09-11T05:38:33Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "already assigned to @pppscn",
+   "evidence": [
+    "https://github.com/pppscn/SmsForwarder/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/pppscn/SmsForwarder/issues/769"
+   ]
+  },
+  {
+   "number": 776,
+   "title": "[Suggestion]: 能不能增加一个远程指令控制手机关闭静音和勿扰状态",
+   "url": "https://github.com/pppscn/SmsForwarder/issues/776",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-10-17T04:41:53Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "already assigned to @pppscn",
+   "evidence": [
+    "https://github.com/pppscn/SmsForwarder/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/pppscn/SmsForwarder/issues/776"
+   ]
+  },
+  {
+   "number": 781,
+   "title": "[Suggestion]: 请求各发送方支持 mTLS 客户端证书认证",
+   "url": "https://github.com/pppscn/SmsForwarder/issues/781",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-01T01:16:36Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "already assigned to @pppscn",
+   "evidence": [
+    "https://github.com/pppscn/SmsForwarder/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/pppscn/SmsForwarder/issues/781"
+   ]
+  }
+ ]
+}

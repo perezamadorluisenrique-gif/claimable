@@ -1,0 +1,67 @@
+{
+ "owner": "Kotlin",
+ "repo": "kotlinx.coroutines",
+ "language": "Kotlin",
+ "stars": 13822,
+ "description": "Library support for Kotlin coroutines ",
+ "visitedAt": "2026-11-13T08:02:18.780Z",
+ "issues": [
+  {
+   "number": 728,
+   "title": "Provide API for blocking call invocation on  job completion and/or cancellation",
+   "url": "https://github.com/Kotlin/kotlinx.coroutines/issues/728",
+   "labels": [
+    "help wanted",
+    "use-case needed",
+    "design"
+   ],
+   "updatedAt": "2023-02-28T23:18:51Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #3282 by @Motoaleks is already open against this issue",
+   "evidence": [
+    "https://github.com/Kotlin/kotlinx.coroutines/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/Kotlin/kotlinx.coroutines/issues/3282"
+   ]
+  },
+  {
+   "number": 1543,
+   "title": "CoroutinesTimeout non-coroutines jobs dump",
+   "url": "https://github.com/Kotlin/kotlinx.coroutines/issues/1543",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "debug"
+   ],
+   "updatedAt": "2021-12-20T09:37:45Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "already assigned to @qwwdfsad",
+   "evidence": [
+    "https://github.com/Kotlin/kotlinx.coroutines/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/Kotlin/kotlinx.coroutines/issues/1543"
+   ]
+  },
+  {
+   "number": 2607,
+   "title": "Provide an API to recover stacktrace of the exception when it does not cross coroutine boundary",
+   "url": "https://github.com/Kotlin/kotlinx.coroutines/issues/2607",
+   "labels": [
+    "help wanted",
+    "use-case needed",
+    "design",
+    "debug"
+   ],
+   "updatedAt": "2025-08-07T05:50:10Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #3475 by @ferinagy is already open against this issue",
+   "evidence": [
+    "https://github.com/Kotlin/kotlinx.coroutines/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/lysine-dev/retrofit/pull/3475",
+    "https://github.com/Kotlin/kotlinx.coroutines/pull/2628",
+    "https://github.com/Kotlin/kotlinx.coroutines/pull/3063"
+   ]
+  }
+ ]
+}

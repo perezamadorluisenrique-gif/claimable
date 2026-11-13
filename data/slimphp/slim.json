@@ -1,0 +1,27 @@
+{
+ "owner": "slimphp",
+ "repo": "Slim",
+ "language": "PHP",
+ "stars": 12280,
+ "description": "Slim is a PHP micro framework that helps you quickly write simple yet powerful web applications and APIs.",
+ "visitedAt": "2026-11-13T08:02:18.780Z",
+ "issues": [
+  {
+   "number": 3287,
+   "title": "Error handling still problematic",
+   "url": "https://github.com/slimphp/Slim/issues/3287",
+   "labels": [
+    "help wanted",
+    "Slim 5"
+   ],
+   "updatedAt": "2024-07-20T08:32:19Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/slimphp/Slim/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/slimphp/Slim/issues/3287"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,172 @@
+{
+ "owner": "chatwoot",
+ "repo": "chatwoot",
+ "language": "Ruby",
+ "stars": 39566,
+ "description": "Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬",
+ "visitedAt": "2026-11-13T08:02:18.780Z",
+ "issues": [
+  {
+   "number": 404,
+   "title": "[CW-2846] [Chore] Add content security policy",
+   "url": "https://github.com/chatwoot/chatwoot/issues/404",
+   "labels": [
+    "Good first issue",
+    "chore",
+    "👩‍💻 development-chores",
+    "security-issues"
+   ],
+   "updatedAt": "2026-08-19T11:50:05Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #14736 by @Administration-LGL is already open against this issue",
+   "evidence": [
+    "https://github.com/chatwoot/chatwoot/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/chatwoot/chatwoot/pull/14736"
+   ]
+  },
+  {
+   "number": 1632,
+   "title": "[CW-2867] Enhancement: Truncate long messages",
+   "url": "https://github.com/chatwoot/chatwoot/issues/1632",
+   "labels": [
+    "Good first issue",
+    "feature-request",
+    "🧄 feature/agent-ui"
+   ],
+   "updatedAt": "2026-11-06T22:12:28Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #14097 by @Mrsandeep27 is already open against this issue",
+   "evidence": [
+    "https://github.com/chatwoot/chatwoot/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/chatwoot/chatwoot/pull/14097",
+    "https://github.com/chatwoot/chatwoot/pull/14262",
+    "https://github.com/chatwoot/chatwoot/pull/14247"
+   ]
+  },
+  {
+   "number": 1655,
+   "title": "[CW-2868] Integration for Microsoft Teams",
+   "url": "https://github.com/chatwoot/chatwoot/issues/1655",
+   "labels": [
+    "Good first issue",
+    "feature-request",
+    "🐗 Need Product Spec",
+    "🔌 integrations/other"
+   ],
+   "updatedAt": "2026-11-04T11:02:33Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "@AlexeyKasianenko claimed it 9 days ago",
+   "evidence": [
+    "https://github.com/chatwoot/chatwoot/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/chatwoot/chatwoot/issues/1655#issuecomment-6628997468"
+   ]
+  },
+  {
+   "number": 1959,
+   "title": "Email continuity / ActionMailbox with Postal server",
+   "url": "https://github.com/chatwoot/chatwoot/issues/1959",
+   "labels": [
+    "documentation",
+    "Good first issue",
+    "feature-request",
+    "📮 channel/email",
+    "📨 self-hosted/smtp-mailer-config"
+   ],
+   "updatedAt": "2026-02-12T01:30:32Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "already assigned to @lenikadali",
+   "evidence": [
+    "https://github.com/chatwoot/chatwoot/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/chatwoot/chatwoot/issues/1959",
+    "https://github.com/chatwoot/chatwoot/issues/1959#issuecomment-2344246245"
+   ]
+  },
+  {
+   "number": 2383,
+   "title": "[CW-1797] chore: Add validations before saving Dialogflow credentials",
+   "url": "https://github.com/chatwoot/chatwoot/issues/2383",
+   "labels": [
+    "Good first issue",
+    "feature-request",
+    "🤖 integrations/dialogflow"
+   ],
+   "updatedAt": "2026-10-20T13:20:26Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #14156 by @vidhishamaradiya85 is already open against this issue",
+   "evidence": [
+    "https://github.com/chatwoot/chatwoot/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/chatwoot/chatwoot/pull/14156"
+   ]
+  },
+  {
+   "number": 5950,
+   "title": "Option to disable the \"message delete\" button",
+   "url": "https://github.com/chatwoot/chatwoot/issues/5950",
+   "labels": [
+    "Good first issue",
+    "feature-request",
+    "🧄 feature/agent-ui"
+   ],
+   "updatedAt": "2026-10-30T21:02:39Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #14173 by @cahrll is already open against this issue",
+   "evidence": [
+    "https://github.com/chatwoot/chatwoot/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/chatwoot/chatwoot/pull/14173",
+    "https://github.com/chatwoot/chatwoot/pull/14221"
+   ]
+  },
+  {
+   "number": 6911,
+   "title": "Feature Request to add chatwoot directly install in plesk apps",
+   "url": "https://github.com/chatwoot/chatwoot/issues/6911",
+   "labels": [
+    "Good first issue",
+    "feature-request",
+    "self-hosted",
+    "🏋️‍♂️ accepting-community-prs",
+    "⚙️ self-hosted/config"
+   ],
+   "updatedAt": "2026-09-19T16:27:45Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "2 stale claims, the most recent by @znabhi 124 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting",
+   "evidence": [
+    "https://github.com/chatwoot/chatwoot/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/chatwoot/chatwoot/issues/6911#issuecomment-4952352177",
+    "https://github.com/chatwoot/chatwoot/issues/6911",
+    "https://github.com/chatwoot/chatwoot/blob/HEAD/README.md",
+    "https://github.com/chatwoot/chatwoot/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 8214,
+   "title": "[CW-2693] feat: Auto-populate social media handles from Supported Channels",
+   "url": "https://github.com/chatwoot/chatwoot/issues/8214",
+   "labels": [
+    "Good first issue",
+    "feature-request",
+    "🏋️‍♂️ accepting-community-prs",
+    "📨 channel/telegram",
+    "💬 channel/whatsapp",
+    "😶‍🌫️ feature/custom-attributes",
+    "📷 channel/instagram",
+    "channel/line"
+   ],
+   "updatedAt": "2026-10-20T13:19:58Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #14169 by @TwiceSA is already open against this issue",
+   "evidence": [
+    "https://github.com/chatwoot/chatwoot/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/chatwoot/chatwoot/pull/14169"
+   ]
+  }
+ ]
+}

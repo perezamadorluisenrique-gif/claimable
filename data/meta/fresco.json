@@ -1,0 +1,724 @@
+{
+ "owner": "meta",
+ "repo": "fresco",
+ "language": "Kotlin",
+ "stars": 17159,
+ "description": "An Android library for managing images and the memory they use.",
+ "visitedAt": "2026-11-13T08:02:18.780Z",
+ "issues": [
+  {
+   "number": 345,
+   "title": "PlaceholderImage don't display in AndroidStudio preview if has rounded attribute.",
+   "url": "https://github.com/meta/fresco/issues/345",
+   "labels": [
+    "bug",
+    "help wanted",
+    "good first issue"
+   ],
+   "updatedAt": "2020-04-03T14:04:16Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/meta/fresco/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 1445,
+   "title": "Share Element Gone after do SharedElementReturnTransition in Android N",
+   "url": "https://github.com/meta/fresco/issues/1445",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2019-05-17T12:46:30Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/meta/fresco/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 1463,
+   "title": "Should support VectorDrawable resource id",
+   "url": "https://github.com/meta/fresco/issues/1463",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2019-06-03T15:54:54Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/meta/fresco/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 1871,
+   "title": "Color spaces in Android O are not handled properly by some features",
+   "url": "https://github.com/meta/fresco/issues/1871",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "good first issue"
+   ],
+   "updatedAt": "2018-07-11T16:19:29Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/meta/fresco/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 1905,
+   "title": "Overlay drawable alpha value not respected",
+   "url": "https://github.com/meta/fresco/issues/1905",
+   "labels": [
+    "bug",
+    "help wanted",
+    "good first issue"
+   ],
+   "updatedAt": "2018-07-12T14:52:50Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/meta/fresco/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 1963,
+   "title": "Images flash upon loading",
+   "url": "https://github.com/meta/fresco/issues/1963",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2018-02-09T10:48:40Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/meta/fresco/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 1981,
+   "title": "Set file Uri in SimpleDraweeView when used Context.MODE_PRIVATE",
+   "url": "https://github.com/meta/fresco/issues/1981",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2018-07-09T10:53:24Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/meta/fresco/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 1983,
+   "title": "HTTP error response when loading image results in leaked connection",
+   "url": "https://github.com/meta/fresco/issues/1983",
+   "labels": [
+    "bug",
+    "good first issue"
+   ],
+   "updatedAt": "2018-07-09T11:00:44Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/meta/fresco/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 2023,
+   "title": "RetainingDataSourceSupplier ignores fadeDuration",
+   "url": "https://github.com/meta/fresco/issues/2023",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "good first issue"
+   ],
+   "updatedAt": "2021-02-05T12:02:02Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/meta/fresco/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 2038,
+   "title": "Tools Attributes do not work with fresco, it becomes hard to use in xml editor",
+   "url": "https://github.com/meta/fresco/issues/2038",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "good first issue"
+   ],
+   "updatedAt": "2018-07-09T10:51:25Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/meta/fresco/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 2059,
+   "title": "Adding Fresco source into a react-native-maps project to debug it",
+   "url": "https://github.com/meta/fresco/issues/2059",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2018-06-19T11:22:39Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/meta/fresco/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 2083,
+   "title": "Create SimpleDraweeSpanEditText like SimpleDraweeSpanTextView. DraweeSpanStringBuilder add delete/clear support.",
+   "url": "https://github.com/meta/fresco/issues/2083",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "good first issue"
+   ],
+   "updatedAt": "2022-09-07T19:33:07Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/meta/fresco/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 2087,
+   "title": "Rounded corners / circular rounding not working for GIF / Animated WebPs",
+   "url": "https://github.com/meta/fresco/issues/2087",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2020-10-27T14:07:04Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/meta/fresco/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 2098,
+   "title": "Request same url several times",
+   "url": "https://github.com/meta/fresco/issues/2098",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "good first issue"
+   ],
+   "updatedAt": "2018-12-15T15:47:40Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/meta/fresco/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 2103,
+   "title": "Wide color gamut support for Postprocessors",
+   "url": "https://github.com/meta/fresco/issues/2103",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2018-07-09T15:43:49Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/meta/fresco/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 2159,
+   "title": "Fresco does not work after grant permission",
+   "url": "https://github.com/meta/fresco/issues/2159",
+   "labels": [
+    "bug",
+    "needs-details",
+    "starter-task",
+    "help wanted"
+   ],
+   "updatedAt": "2018-08-07T08:38:34Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/meta/fresco/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 2171,
+   "title": "Tell Fresco to use disk cache for thumbnails of local videos",
+   "url": "https://github.com/meta/fresco/issues/2171",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2018-08-06T16:31:33Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/meta/fresco/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 2173,
+   "title": "Cannot load Adaptive Icons (ProgressiveDecoder: unknown image format)",
+   "url": "https://github.com/meta/fresco/issues/2173",
+   "labels": [
+    "enhancement",
+    "starter-task",
+    "good first issue"
+   ],
+   "updatedAt": "2018-09-04T09:04:49Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/meta/fresco/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 2192,
+   "title": "I am testing the new features of Android P and found that the footprint of fresco displayed on Android P has been deformed.",
+   "url": "https://github.com/meta/fresco/issues/2192",
+   "labels": [
+    "bug",
+    "good first issue"
+   ],
+   "updatedAt": "2019-01-01T09:09:30Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/meta/fresco/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 2222,
+   "title": "Improve bytearray handling",
+   "url": "https://github.com/meta/fresco/issues/2222",
+   "labels": [
+    "help wanted",
+    "good first issue"
+   ],
+   "updatedAt": "2023-07-12T17:05:38Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/meta/fresco/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 2254,
+   "title": "Issue with status bar transparent",
+   "url": "https://github.com/meta/fresco/issues/2254",
+   "labels": [
+    "starter-task",
+    "help wanted",
+    "good first issue"
+   ],
+   "updatedAt": "2019-11-11T12:48:18Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/meta/fresco/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 2298,
+   "title": "SVGs - ScaleTypes and Color Filters not working",
+   "url": "https://github.com/meta/fresco/issues/2298",
+   "labels": [
+    "enhancement",
+    "starter-task",
+    "help wanted",
+    "good first issue"
+   ],
+   "updatedAt": "2025-01-23T14:59:35Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/meta/fresco/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 2346,
+   "title": "Rounding image corners drops its quality",
+   "url": "https://github.com/meta/fresco/issues/2346",
+   "labels": [
+    "bug",
+    "help wanted",
+    "good first issue"
+   ],
+   "updatedAt": "2019-07-25T10:13:55Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/meta/fresco/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 2354,
+   "title": "Launch emulator failed when CircleCI checks",
+   "url": "https://github.com/meta/fresco/issues/2354",
+   "labels": [
+    "build",
+    "help wanted",
+    "good first issue"
+   ],
+   "updatedAt": "2021-03-17T01:26:15Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/meta/fresco/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 2364,
+   "title": "java.lang.UnsatisfiedLinkError: couldn't find DSO to load: libimagepipeline.so",
+   "url": "https://github.com/meta/fresco/issues/2364",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2025-02-05T07:13:27Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/meta/fresco/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 2373,
+   "title": "Not load image from url in custom InfoWindow on Google Maps",
+   "url": "https://github.com/meta/fresco/issues/2373",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "good first issue"
+   ],
+   "updatedAt": "2020-03-17T12:23:19Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/meta/fresco/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 2382,
+   "title": "Occasionally throws FileNotFoundException by reading files after inserting to main disk cache concurrently ",
+   "url": "https://github.com/meta/fresco/issues/2382",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2019-07-31T02:19:42Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/meta/fresco/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 2389,
+   "title": " java.lang.UnsatisfiedLinkError: couldn't find DSO to load: libgifimage.so",
+   "url": "https://github.com/meta/fresco/issues/2389",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2020-03-30T06:10:09Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/meta/fresco/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 2390,
+   "title": "Local thumbnails not working for AVI, MPG/MPEG, or WMV: ThumbnailUtils: java.io.IOException: Failed to create thumbnail",
+   "url": "https://github.com/meta/fresco/issues/2390",
+   "labels": [
+    "help wanted",
+    "good first issue"
+   ],
+   "updatedAt": "2021-04-28T16:51:56Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/meta/fresco/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 2406,
+   "title": "HEIF image Rotation issue",
+   "url": "https://github.com/meta/fresco/issues/2406",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2019-11-24T20:33:36Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/meta/fresco/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 2429,
+   "title": " bitmap's byte[] leak when use RoundedBitmapDrawable in android 6.0",
+   "url": "https://github.com/meta/fresco/issues/2429",
+   "labels": [
+    "bug",
+    "starter-task",
+    "help wanted"
+   ],
+   "updatedAt": "2019-12-18T09:22:05Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/meta/fresco/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 2433,
+   "title": "The vulnerability of the libjpeg-turbo ",
+   "url": "https://github.com/meta/fresco/issues/2433",
+   "labels": [
+    "bug",
+    "help wanted",
+    "good first issue"
+   ],
+   "updatedAt": "2022-06-28T12:55:16Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/meta/fresco/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 2455,
+   "title": "targetSdk 29 (scoped storage) support?",
+   "url": "https://github.com/meta/fresco/issues/2455",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "good first issue"
+   ],
+   "updatedAt": "2025-07-25T09:37:49Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/meta/fresco/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 2461,
+   "title": "Unused value",
+   "url": "https://github.com/meta/fresco/issues/2461",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "good first issue"
+   ],
+   "updatedAt": "2022-10-24T22:30:55Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/meta/fresco/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 2463,
+   "title": "color attribbute in fresco progress",
+   "url": "https://github.com/meta/fresco/issues/2463",
+   "labels": [
+    "bug",
+    "help wanted",
+    "good first issue"
+   ],
+   "updatedAt": "2020-08-10T08:39:08Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/meta/fresco/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 2477,
+   "title": "native-imagetranscoder CVE-2018-14498",
+   "url": "https://github.com/meta/fresco/issues/2477",
+   "labels": [
+    "bug",
+    "help wanted",
+    "good first issue"
+   ],
+   "updatedAt": "2020-12-17T04:47:14Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/meta/fresco/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 2481,
+   "title": "PlaceholderImageScaleType sometimes doesn't work",
+   "url": "https://github.com/meta/fresco/issues/2481",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "good first issue"
+   ],
+   "updatedAt": "2023-04-19T17:27:30Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/meta/fresco/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 2490,
+   "title": "SvgDecoderExample limit <svg tag",
+   "url": "https://github.com/meta/fresco/issues/2490",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "good first issue"
+   ],
+   "updatedAt": "2020-04-28T11:13:21Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/meta/fresco/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 2491,
+   "title": "NativeJpegTranscoder does not properly support wide color gamut images",
+   "url": "https://github.com/meta/fresco/issues/2491",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "good first issue"
+   ],
+   "updatedAt": "2020-05-27T10:33:21Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/meta/fresco/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 2497,
+   "title": "Callbacks do not work when both `setLowResImageRequest` and `setImageRequest` are used",
+   "url": "https://github.com/meta/fresco/issues/2497",
+   "labels": [
+    "bug",
+    "help wanted",
+    "good first issue"
+   ],
+   "updatedAt": "2026-05-12T13:01:56Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/meta/fresco/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 2502,
+   "title": "Memory cache keeps growing when using non-static images in Recyclerview",
+   "url": "https://github.com/meta/fresco/issues/2502",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "good first issue"
+   ],
+   "updatedAt": "2026-05-12T13:01:37Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/meta/fresco/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 2504,
+   "title": "Fatal Exception: java.lang.NullPointerException: Attempt to get length of null array",
+   "url": "https://github.com/meta/fresco/issues/2504",
+   "labels": [
+    "bug",
+    "help wanted",
+    "good first issue"
+   ],
+   "updatedAt": "2024-07-08T17:53:14Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/meta/fresco/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 2534,
+   "title": "fail to load disk-cached webp image after terminating and restart app",
+   "url": "https://github.com/meta/fresco/issues/2534",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-04-17T17:10:00Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/meta/fresco/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  }
+ ]
+}

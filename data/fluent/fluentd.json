@@ -1,0 +1,27 @@
+{
+ "owner": "fluent",
+ "repo": "fluentd",
+ "language": "Ruby",
+ "stars": 13614,
+ "description": "Fluentd: Unified Logging Layer (project under CNCF)",
+ "visitedAt": "2026-11-13T08:02:18.780Z",
+ "issues": [
+  {
+   "number": 3501,
+   "title": "emit warning along with unmatched line",
+   "url": "https://github.com/fluent/fluentd/issues/3501",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2025-07-05T03:34:29Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #5570 by @ynpreet is already open against this issue",
+   "evidence": [
+    "https://github.com/fluent/fluentd/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/fluent/fluentd/pull/5570"
+   ]
+  }
+ ]
+}

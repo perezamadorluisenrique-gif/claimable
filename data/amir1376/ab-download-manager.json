@@ -1,0 +1,34 @@
+{
+ "owner": "amir1376",
+ "repo": "ab-download-manager",
+ "language": "Kotlin",
+ "stars": 19174,
+ "description": "A Download Manager that speeds up your downloads",
+ "visitedAt": "2026-11-13T08:02:18.780Z",
+ "issues": [
+  {
+   "number": 24,
+   "title": "google chrome detects as malware immediately.",
+   "url": "https://github.com/amir1376/ab-download-manager/issues/24",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2024-08-26T15:21:11Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #484 by @parsa381b is already open against this issue",
+   "evidence": [
+    "https://github.com/amir1376/ab-download-manager/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/amir1376/ab-download-manager/issues/484",
+    "https://github.com/amir1376/ab-download-manager/issues/1201",
+    "https://github.com/amir1376/ab-download-manager/issues/811",
+    "https://github.com/amir1376/ab-download-manager/issues/1053",
+    "https://github.com/amir1376/ab-download-manager/issues/916",
+    "https://github.com/amir1376/ab-download-manager/issues/572",
+    "https://github.com/amir1376/ab-download-manager/issues/613",
+    "https://github.com/amir1376/ab-download-manager/issues/32",
+    "https://github.com/amir1376/ab-download-manager/issues/1023"
+   ]
+  }
+ ]
+}

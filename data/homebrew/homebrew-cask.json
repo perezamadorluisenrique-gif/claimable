@@ -1,0 +1,35 @@
+{
+ "owner": "Homebrew",
+ "repo": "homebrew-cask",
+ "language": "Ruby",
+ "stars": 22289,
+ "description": "🍻 Default casks (upstream binary packages) for the package manager for everywhere",
+ "visitedAt": "2026-11-13T08:02:18.780Z",
+ "issues": [
+  {
+   "number": 172732,
+   "title": "Casks with homepage or source issues",
+   "url": "https://github.com/Homebrew/homebrew-cask/issues/172732",
+   "labels": [
+    "good first issue",
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-13T01:13:34Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "PR #173030 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+9 more)",
+   "evidence": [
+    "https://github.com/Homebrew/homebrew-cask/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/Homebrew/homebrew-cask/pull/173030",
+    "https://github.com/Homebrew/homebrew-cask/pull/174574",
+    "https://github.com/Homebrew/homebrew-cask/pull/175052",
+    "https://github.com/Homebrew/homebrew-cask/pull/177120",
+    "https://github.com/Homebrew/homebrew-cask/pull/177121",
+    "https://github.com/Homebrew/homebrew-cask/pull/177137",
+    "https://github.com/Homebrew/homebrew-cask/pull/177281",
+    "https://github.com/Homebrew/homebrew-cask/pull/177583",
+    "https://github.com/Homebrew/homebrew-cask/issues/172732"
+   ]
+  }
+ ]
+}

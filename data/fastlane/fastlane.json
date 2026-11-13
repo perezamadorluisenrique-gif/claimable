@@ -1,0 +1,27 @@
+{
+ "owner": "fastlane",
+ "repo": "fastlane",
+ "language": "Ruby",
+ "stars": 42377,
+ "description": "🚀 The easiest way to automate building and releasing your iOS and Android apps",
+ "visitedAt": "2026-11-13T08:02:18.780Z",
+ "issues": [
+  {
+   "number": 21968,
+   "title": "AvailableTerritories is deprecated and fastlane is not upgraded to new api endpoints",
+   "url": "https://github.com/fastlane/fastlane/issues/21968",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-08-15T13:48:29Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #1 by @chrsappiah-cloud is already open against this issue",
+   "evidence": [
+    "https://github.com/fastlane/fastlane/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/chrsappiah-cloud/CareLens-Aged-Plus/pull/1",
+    "https://github.com/fastlane/fastlane/pull/29650"
+   ]
+  }
+ ]
+}

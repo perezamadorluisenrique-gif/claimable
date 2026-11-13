@@ -1,0 +1,125 @@
+{
+ "owner": "capistrano",
+ "repo": "capistrano",
+ "language": "Ruby",
+ "stars": 13013,
+ "description": "A deployment automation tool built on Ruby, Rake, and SSH.",
+ "visitedAt": "2026-11-13T08:02:18.780Z",
+ "issues": [
+  {
+   "number": 1362,
+   "title": "Improve .git-wrapper for the new GIT_TERMINAL_PROMPT var",
+   "url": "https://github.com/capistrano/capistrano/issues/1362",
+   "labels": [
+    "new feature",
+    "help wanted"
+   ],
+   "updatedAt": "2017-10-10T13:37:23Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "nothing has been merged in 120 days",
+   "evidence": [
+    "https://github.com/capistrano/capistrano/pulls?q=is%3Apr+is%3Amerged"
+   ]
+  },
+  {
+   "number": 1427,
+   "title": "Setting user per-host isn't working",
+   "url": "https://github.com/capistrano/capistrano/issues/1427",
+   "labels": [
+    "bug?",
+    "help wanted",
+    "discuss!"
+   ],
+   "updatedAt": "2016-12-27T19:28:29Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "nothing has been merged in 120 days",
+   "evidence": [
+    "https://github.com/capistrano/capistrano/pulls?q=is%3Apr+is%3Amerged"
+   ]
+  },
+  {
+   "number": 1484,
+   "title": "Support cloning mercurial subrepositories",
+   "url": "https://github.com/capistrano/capistrano/issues/1484",
+   "labels": [
+    "new feature",
+    "help wanted"
+   ],
+   "updatedAt": "2016-01-20T02:19:11Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "nothing has been merged in 120 days",
+   "evidence": [
+    "https://github.com/capistrano/capistrano/pulls?q=is%3Apr+is%3Amerged"
+   ]
+  },
+  {
+   "number": 1735,
+   "title": "Stage dependency requirement should check all specified tasks for a stage rather than just the first one",
+   "url": "https://github.com/capistrano/capistrano/issues/1735",
+   "labels": [
+    "need more info",
+    "new feature",
+    "help wanted",
+    "discuss!"
+   ],
+   "updatedAt": "2016-07-26T15:03:35Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "nothing has been merged in 120 days",
+   "evidence": [
+    "https://github.com/capistrano/capistrano/pulls?q=is%3Apr+is%3Amerged"
+   ]
+  },
+  {
+   "number": 1822,
+   "title": "run_locally ignores --dry-run",
+   "url": "https://github.com/capistrano/capistrano/issues/1822",
+   "labels": [
+    "help wanted",
+    "discuss!"
+   ],
+   "updatedAt": "2020-07-24T15:35:58Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "nothing has been merged in 120 days",
+   "evidence": [
+    "https://github.com/capistrano/capistrano/pulls?q=is%3Apr+is%3Amerged"
+   ]
+  },
+  {
+   "number": 1884,
+   "title": "Better explain how to specify server-side environment variables",
+   "url": "https://github.com/capistrano/capistrano/issues/1884",
+   "labels": [
+    "help wanted",
+    "documentation"
+   ],
+   "updatedAt": "2020-12-18T18:47:06Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "nothing has been merged in 120 days",
+   "evidence": [
+    "https://github.com/capistrano/capistrano/pulls?q=is%3Apr+is%3Amerged"
+   ]
+  },
+  {
+   "number": 1965,
+   "title": "Document variables: list, scope, meaning",
+   "url": "https://github.com/capistrano/capistrano/issues/1965",
+   "labels": [
+    "help wanted",
+    "documentation"
+   ],
+   "updatedAt": "2018-02-16T23:49:58Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "nothing has been merged in 120 days",
+   "evidence": [
+    "https://github.com/capistrano/capistrano/pulls?q=is%3Apr+is%3Amerged"
+   ]
+  }
+ ]
+}

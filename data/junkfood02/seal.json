@@ -1,0 +1,134 @@
+{
+ "owner": "JunkFood02",
+ "repo": "Seal",
+ "language": "Kotlin",
+ "stars": 30530,
+ "description": "🦭 Video/Audio Downloader for Android, based on yt-dlp",
+ "visitedAt": "2026-11-13T08:02:18.780Z",
+ "issues": [
+  {
+   "number": 187,
+   "title": "[Feature Request] - Wiki 📜📖",
+   "url": "https://github.com/JunkFood02/Seal/issues/187",
+   "labels": [
+    "documentation",
+    "help wanted"
+   ],
+   "updatedAt": "2023-02-17T13:14:59Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "nothing has been merged in 714 days",
+   "evidence": [
+    "https://github.com/JunkFood02/Seal — pushed_at 2026-09-25T15:35:51Z",
+    "https://github.com/JunkFood02/Seal/pulls?q=is%3Apr+is%3Amerged"
+   ]
+  },
+  {
+   "number": 342,
+   "title": "chapters marking support for youtube videos",
+   "url": "https://github.com/JunkFood02/Seal/issues/342",
+   "labels": [
+    "enhancement",
+    "pending",
+    "good first issue"
+   ],
+   "updatedAt": "2023-08-21T18:14:21Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "nothing has been merged in 714 days",
+   "evidence": [
+    "https://github.com/JunkFood02/Seal — pushed_at 2026-09-25T15:35:51Z",
+    "https://github.com/JunkFood02/Seal/pulls?q=is%3Apr+is%3Amerged"
+   ]
+  },
+  {
+   "number": 506,
+   "title": "Prevent pip while using quick download ",
+   "url": "https://github.com/JunkFood02/Seal/issues/506",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "external"
+   ],
+   "updatedAt": "2023-05-31T18:29:31Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "nothing has been merged in 714 days",
+   "evidence": [
+    "https://github.com/JunkFood02/Seal — pushed_at 2026-09-25T15:35:51Z",
+    "https://github.com/JunkFood02/Seal/pulls?q=is%3Apr+is%3Amerged"
+   ]
+  },
+  {
+   "number": 507,
+   "title": "[Bug Report] Can't download video - AES 128 encryption",
+   "url": "https://github.com/JunkFood02/Seal/issues/507",
+   "labels": [
+    "bug",
+    "help wanted",
+    "pending",
+    "upstream"
+   ],
+   "updatedAt": "2023-05-11T05:41:26Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "nothing has been merged in 714 days",
+   "evidence": [
+    "https://github.com/JunkFood02/Seal — pushed_at 2026-09-25T15:35:51Z",
+    "https://github.com/JunkFood02/Seal/pulls?q=is%3Apr+is%3Amerged"
+   ]
+  },
+  {
+   "number": 605,
+   "title": "Add more in-app tips",
+   "url": "https://github.com/JunkFood02/Seal/issues/605",
+   "labels": [
+    "documentation",
+    "help wanted"
+   ],
+   "updatedAt": "2026-06-25T15:30:10Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "nothing has been merged in 714 days",
+   "evidence": [
+    "https://github.com/JunkFood02/Seal — pushed_at 2026-09-25T15:35:51Z",
+    "https://github.com/JunkFood02/Seal/pulls?q=is%3Apr+is%3Amerged"
+   ]
+  },
+  {
+   "number": 1161,
+   "title": "No usable temporary directory found",
+   "url": "https://github.com/JunkFood02/Seal/issues/1161",
+   "labels": [
+    "bug",
+    "help wanted",
+    "question"
+   ],
+   "updatedAt": "2024-07-01T11:43:46Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "nothing has been merged in 714 days",
+   "evidence": [
+    "https://github.com/JunkFood02/Seal — pushed_at 2026-09-25T15:35:51Z",
+    "https://github.com/JunkFood02/Seal/pulls?q=is%3Apr+is%3Amerged"
+   ]
+  },
+  {
+   "number": 1404,
+   "title": "Cannot link executable: library \"libandroid-support.so\" not found",
+   "url": "https://github.com/JunkFood02/Seal/issues/1404",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2025-02-16T02:09:59Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "nothing has been merged in 714 days",
+   "evidence": [
+    "https://github.com/JunkFood02/Seal — pushed_at 2026-09-25T15:35:51Z",
+    "https://github.com/JunkFood02/Seal/pulls?q=is%3Apr+is%3Amerged"
+   ]
+  }
+ ]
+}

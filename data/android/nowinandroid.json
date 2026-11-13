@@ -1,0 +1,69 @@
+{
+ "owner": "android",
+ "repo": "nowinandroid",
+ "language": "Kotlin",
+ "stars": 22068,
+ "description": "A fully functional Android app built entirely with Kotlin and Jetpack Compose",
+ "visitedAt": "2026-11-13T08:02:18.780Z",
+ "issues": [
+  {
+   "number": 514,
+   "title": "[Bug]: Significant amount of overdraw throughout the app",
+   "url": "https://github.com/android/nowinandroid/issues/514",
+   "labels": [
+    "bug",
+    "help wanted",
+    "p1"
+   ],
+   "updatedAt": "2023-01-25T16:32:15Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/GoogleCloudPlatform/Template/wiki/style.html) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/android/nowinandroid/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/android/nowinandroid/issues/514",
+    "https://github.com/GoogleCloudPlatform/Template/wiki/style.html",
+    "https://github.com/android/nowinandroid/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 633,
+   "title": "[Bug]: Splashscreen theme doesn't change after switching the color theme",
+   "url": "https://github.com/android/nowinandroid/issues/633",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted"
+   ],
+   "updatedAt": "2026-06-06T12:50:47Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #1718 by @seve-andre is already open against this issue",
+   "evidence": [
+    "https://github.com/android/nowinandroid/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/android/nowinandroid/pull/1718",
+    "https://github.com/android/nowinandroid/pull/2012",
+    "https://github.com/android/nowinandroid/pull/2059",
+    "https://github.com/kuvandikov/nowinandroid/pull/1"
+   ]
+  },
+  {
+   "number": 682,
+   "title": "[Bug]: Jacoco configuration ignores sourcesets of buildFlavors",
+   "url": "https://github.com/android/nowinandroid/issues/682",
+   "labels": [
+    "bug",
+    "help wanted",
+    "continuous-integration"
+   ],
+   "updatedAt": "2024-12-03T12:57:12Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "already assigned to @alexvanyo",
+   "evidence": [
+    "https://github.com/android/nowinandroid/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/android/nowinandroid/issues/682"
+   ]
+  }
+ ]
+}

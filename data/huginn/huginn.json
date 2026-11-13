@@ -1,0 +1,940 @@
+{
+ "owner": "huginn",
+ "repo": "huginn",
+ "language": "Ruby",
+ "stars": 50477,
+ "description": "Create agents that monitor and act on your behalf.  Your agents are standing by!",
+ "visitedAt": "2026-11-13T08:02:18.780Z",
+ "issues": [
+  {
+   "number": 52,
+   "title": "RESTful polling",
+   "url": "https://github.com/huginn/huginn/issues/52",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "suggestion"
+   ],
+   "updatedAt": "2014-06-04T03:59:06Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #158 by @slef is already open against this issue",
+   "evidence": [
+    "https://github.com/huginn/huginn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/huginn/huginn/pull/158"
+   ]
+  },
+  {
+   "number": 132,
+   "title": "Dashboards",
+   "url": "https://github.com/huginn/huginn/issues/132",
+   "labels": [
+    "help wanted",
+    "suggestion",
+    "discussion"
+   ],
+   "updatedAt": "2016-04-09T03:09:56Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #424 by @virtadpt is already open against this issue",
+   "evidence": [
+    "https://github.com/huginn/huginn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/huginn/huginn/issues/424",
+    "https://github.com/huginn/huginn/issues/1583",
+    "https://github.com/huginn/huginn/issues/60",
+    "https://github.com/huginn/huginn/issues/3040",
+    "https://github.com/huginn/huginn/issues/1730",
+    "https://github.com/huginn/huginn/issues/1514",
+    "https://github.com/huginn/huginn/issues/978",
+    "https://github.com/huginn/huginn/issues/2810"
+   ]
+  },
+  {
+   "number": 166,
+   "title": "Create Huginn iPhone / Android app",
+   "url": "https://github.com/huginn/huginn/issues/166",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "bounty"
+   ],
+   "updatedAt": "2026-06-20T04:41:17Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #2218 by @HenryQW is already open against this issue",
+   "evidence": [
+    "https://github.com/huginn/huginn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/huginn/huginn/issues/2218",
+    "https://github.com/huginn/huginn/issues/1412",
+    "https://github.com/huginn/huginn/issues/2401",
+    "https://github.com/huginn/huginn/issues/2096",
+    "https://github.com/huginn/huginn/issues/1567"
+   ]
+  },
+  {
+   "number": 188,
+   "title": "Huginn should be an oauth endpoint and have an open API",
+   "url": "https://github.com/huginn/huginn/issues/188",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2020-08-24T09:17:43Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #2044 by @xenithorb is already open against this issue",
+   "evidence": [
+    "https://github.com/huginn/huginn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/huginn/huginn/issues/2044",
+    "https://github.com/huginn/huginn/issues/3037",
+    "https://github.com/huginn/huginn/issues/316",
+    "https://github.com/huginn/huginn/issues/2575",
+    "https://github.com/huginn/huginn/issues/1567",
+    "https://github.com/huginn/huginn/issues/978"
+   ]
+  },
+  {
+   "number": 243,
+   "title": "JSON editing improvements",
+   "url": "https://github.com/huginn/huginn/issues/243",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2016-05-30T01:54:49Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #2552 by @yiranzhimo is already open against this issue",
+   "evidence": [
+    "https://github.com/huginn/huginn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/huginn/huginn/issues/2552",
+    "https://github.com/huginn/huginn/issues/353"
+   ]
+  },
+  {
+   "number": 262,
+   "title": "EventMixer Agent",
+   "url": "https://github.com/huginn/huginn/issues/262",
+   "labels": [
+    "help wanted",
+    "agent",
+    "discussion"
+   ],
+   "updatedAt": "2015-09-02T07:15:06Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #353 by @0xdevalias is already open against this issue",
+   "evidence": [
+    "https://github.com/huginn/huginn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/huginn/huginn/issues/353",
+    "https://github.com/huginn/huginn/issues/287",
+    "https://github.com/huginn/huginn/issues/978",
+    "https://github.com/huginn/huginn/issues/1567"
+   ]
+  },
+  {
+   "number": 316,
+   "title": "Facebook Graph API agent",
+   "url": "https://github.com/huginn/huginn/issues/316",
+   "labels": [
+    "help wanted",
+    "agent",
+    "discussion"
+   ],
+   "updatedAt": "2017-07-10T23:05:30Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "PR #324 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/huginn/huginn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/huginn/huginn/pull/324",
+    "https://github.com/huginn/huginn/issues/316",
+    "https://github.com/huginn/huginn/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/huginn/huginn/wiki/Creating-a-new-agent"
+   ]
+  },
+  {
+   "number": 321,
+   "title": "Dropbox Agent",
+   "url": "https://github.com/huginn/huginn/issues/321",
+   "labels": [
+    "help wanted",
+    "agent",
+    "suggestion"
+   ],
+   "updatedAt": "2016-04-19T14:38:02Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "PR #572 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+3 more)",
+   "evidence": [
+    "https://github.com/huginn/huginn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/huginn/huginn/pull/572",
+    "https://github.com/huginn/huginn/pull/582",
+    "https://github.com/huginn/huginn/issues/321#issuecomment-52590977",
+    "https://github.com/huginn/huginn/issues/321",
+    "https://github.com/huginn/huginn/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/huginn/huginn/wiki/Creating-a-new-agent"
+   ]
+  },
+  {
+   "number": 353,
+   "title": "Official Agent Suggestions Thread",
+   "url": "https://github.com/huginn/huginn/issues/353",
+   "labels": [
+    "help wanted",
+    "agent",
+    "suggestion",
+    "discussion"
+   ],
+   "updatedAt": "2026-09-20T01:25:49Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #1632 by @sriramsv is already open against this issue",
+   "evidence": [
+    "https://github.com/huginn/huginn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/huginn/huginn/issues/1632",
+    "https://github.com/huginn/huginn/issues/1936",
+    "https://github.com/huginn/huginn/issues/3542",
+    "https://github.com/huginn/huginn/issues/321",
+    "https://github.com/huginn/huginn/issues/132",
+    "https://github.com/huginn/huginn/issues/1586"
+   ]
+  },
+  {
+   "number": 358,
+   "title": "EventFormattingAgent (or possibly DigestEmailAgent) - Allow HTML formatting",
+   "url": "https://github.com/huginn/huginn/issues/358",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "agent"
+   ],
+   "updatedAt": "2016-01-12T21:52:17Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #978 by @yhaenggi is already open against this issue",
+   "evidence": [
+    "https://github.com/huginn/huginn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/huginn/huginn/issues/978"
+   ]
+  },
+  {
+   "number": 362,
+   "title": "Per User TimeZone settings",
+   "url": "https://github.com/huginn/huginn/issues/362",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2019-12-19T16:12:32Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #371 by @0xdevalias is already open against this issue",
+   "evidence": [
+    "https://github.com/huginn/huginn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/huginn/huginn/issues/371",
+    "https://github.com/huginn/huginn/issues/2211",
+    "https://github.com/huginn/huginn/issues/1567"
+   ]
+  },
+  {
+   "number": 371,
+   "title": "Add support for admin users",
+   "url": "https://github.com/huginn/huginn/issues/371",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "suggestion"
+   ],
+   "updatedAt": "2016-03-12T21:53:29Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "PR #1330 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/huginn/huginn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/huginn/huginn/pull/1330",
+    "https://github.com/huginn/huginn/issues/371",
+    "https://github.com/huginn/huginn/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/huginn/huginn/wiki/Creating-a-new-agent"
+   ]
+  },
+  {
+   "number": 390,
+   "title": "Create a Huginn Scenario directory site ",
+   "url": "https://github.com/huginn/huginn/issues/390",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "discussion"
+   ],
+   "updatedAt": "2022-05-15T17:15:33Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "PR #325 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/huginn/huginn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/huginn/huginn/pull/325",
+    "https://github.com/huginn/huginn/issues/390",
+    "https://github.com/huginn/huginn/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/huginn/huginn/wiki/Creating-a-new-agent"
+   ]
+  },
+  {
+   "number": 424,
+   "title": "Make it possible to reskin the Huginn frontpage.",
+   "url": "https://github.com/huginn/huginn/issues/424",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "UI"
+   ],
+   "updatedAt": "2016-02-14T22:25:19Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #1583 by @strugee is already open against this issue",
+   "evidence": [
+    "https://github.com/huginn/huginn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/huginn/huginn/issues/1583"
+   ]
+  },
+  {
+   "number": 432,
+   "title": "Make a Google Fit Agent",
+   "url": "https://github.com/huginn/huginn/issues/432",
+   "labels": [
+    "help wanted",
+    "agent"
+   ],
+   "updatedAt": "2014-08-16T12:10:00Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #3303 by @lukeyeager is already open against this issue",
+   "evidence": [
+    "https://github.com/huginn/huginn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/huginn/huginn/issues/3303",
+    "https://github.com/huginn/huginn/issues/1567"
+   ]
+  },
+  {
+   "number": 700,
+   "title": "New agent: Firebase",
+   "url": "https://github.com/huginn/huginn/issues/700",
+   "labels": [
+    "help wanted",
+    "agent",
+    "suggestion"
+   ],
+   "updatedAt": "2016-03-10T05:37:27Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #2440 by @stormshawn is already open against this issue",
+   "evidence": [
+    "https://github.com/huginn/huginn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/huginn/huginn/issues/2440",
+    "https://github.com/huginn/huginn/issues/353"
+   ]
+  },
+  {
+   "number": 730,
+   "title": "Extend PeakDetectorAgent to also detect instances when the values are lower than normal",
+   "url": "https://github.com/huginn/huginn/issues/730",
+   "labels": [
+    "help wanted",
+    "suggestion"
+   ],
+   "updatedAt": "2016-04-08T15:46:54Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/huginn/huginn/wiki/Creating-a-new-agent) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/huginn/huginn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/huginn/huginn/issues/730",
+    "https://github.com/huginn/huginn/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/huginn/huginn/wiki/Creating-a-new-agent"
+   ]
+  },
+  {
+   "number": 750,
+   "title": "Make it possible to detect slow climbs in values to precipitous degrees.",
+   "url": "https://github.com/huginn/huginn/issues/750",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2015-05-03T19:36:53Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #978 by @yhaenggi is already open against this issue",
+   "evidence": [
+    "https://github.com/huginn/huginn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/huginn/huginn/issues/978"
+   ]
+  },
+  {
+   "number": 751,
+   "title": "Twitter Agent fails with \"Not authorized.\" rather than checks HTTP error code.",
+   "url": "https://github.com/huginn/huginn/issues/751",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2015-03-23T18:38:54Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #1972 by @axsuul is already open against this issue",
+   "evidence": [
+    "https://github.com/huginn/huginn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/huginn/huginn/issues/1972"
+   ]
+  },
+  {
+   "number": 841,
+   "title": "WebsiteAgent: Creating events based on a specific key changes",
+   "url": "https://github.com/huginn/huginn/issues/841",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2016-03-03T22:54:21Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/huginn/huginn/wiki/Creating-a-new-agent) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/huginn/huginn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/huginn/huginn/issues/841",
+    "https://github.com/huginn/huginn/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/huginn/huginn/wiki/Creating-a-new-agent"
+   ]
+  },
+  {
+   "number": 856,
+   "title": "Non-existent value in website-agent",
+   "url": "https://github.com/huginn/huginn/issues/856",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2025-07-04T18:17:41Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #1567 by @hughwi is already open against this issue",
+   "evidence": [
+    "https://github.com/huginn/huginn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/huginn/huginn/issues/1567"
+   ]
+  },
+  {
+   "number": 990,
+   "title": "Uneven match error in Website Agent",
+   "url": "https://github.com/huginn/huginn/issues/990",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2022-02-18T01:15:50Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #1112 by @fixbroke is already open against this issue",
+   "evidence": [
+    "https://github.com/huginn/huginn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/huginn/huginn/issues/1112"
+   ]
+  },
+  {
+   "number": 1290,
+   "title": "Java Script Agent options",
+   "url": "https://github.com/huginn/huginn/issues/1290",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2016-02-20T21:24:59Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/huginn/huginn/wiki/Creating-a-new-agent) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/huginn/huginn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/huginn/huginn/issues/1290",
+    "https://github.com/huginn/huginn/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/huginn/huginn/wiki/Creating-a-new-agent"
+   ]
+  },
+  {
+   "number": 1319,
+   "title": "support spinner ?",
+   "url": "https://github.com/huginn/huginn/issues/1319",
+   "labels": [
+    "help wanted",
+    "suggestion"
+   ],
+   "updatedAt": "2016-04-22T08:41:57Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/huginn/huginn/wiki/Creating-a-new-agent) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/huginn/huginn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/huginn/huginn/issues/1319",
+    "https://github.com/huginn/huginn/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/huginn/huginn/wiki/Creating-a-new-agent"
+   ]
+  },
+  {
+   "number": 1345,
+   "title": "Diagram view should show agents with colour",
+   "url": "https://github.com/huginn/huginn/issues/1345",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2017-01-23T18:27:41Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #813 by @cantino is already open against this issue",
+   "evidence": [
+    "https://github.com/huginn/huginn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/huginn/huginn/issues/813"
+   ]
+  },
+  {
+   "number": 1369,
+   "title": "WebsiteAgent - Merge should be a property apart",
+   "url": "https://github.com/huginn/huginn/issues/1369",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2016-04-05T18:16:33Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/huginn/huginn/wiki/Creating-a-new-agent) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/huginn/huginn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/huginn/huginn/issues/1369",
+    "https://github.com/huginn/huginn/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/huginn/huginn/wiki/Creating-a-new-agent"
+   ]
+  },
+  {
+   "number": 1552,
+   "title": "Chart title links pointing to Twitter search",
+   "url": "https://github.com/huginn/huginn/issues/1552",
+   "labels": [
+    "help wanted",
+    "bug"
+   ],
+   "updatedAt": "2016-06-18T23:00:23Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/huginn/huginn/wiki/Creating-a-new-agent) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/huginn/huginn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/huginn/huginn/issues/1552",
+    "https://github.com/huginn/huginn/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/huginn/huginn/wiki/Creating-a-new-agent"
+   ]
+  },
+  {
+   "number": 1589,
+   "title": "How To Select Origin And Destination Using Liquid",
+   "url": "https://github.com/huginn/huginn/issues/1589",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2016-07-25T02:01:30Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/huginn/huginn/wiki/Creating-a-new-agent) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/huginn/huginn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/huginn/huginn/issues/1589",
+    "https://github.com/huginn/huginn/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/huginn/huginn/wiki/Creating-a-new-agent"
+   ]
+  },
+  {
+   "number": 1598,
+   "title": "DataOutputAgent ignores multiple <category> items ?",
+   "url": "https://github.com/huginn/huginn/issues/1598",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2016-07-26T19:10:03Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/huginn/huginn/wiki/Creating-a-new-agent) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/huginn/huginn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/huginn/huginn/issues/1598",
+    "https://github.com/huginn/huginn/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/huginn/huginn/wiki/Creating-a-new-agent"
+   ]
+  },
+  {
+   "number": 1605,
+   "title": "JSONEditor cannot handle null",
+   "url": "https://github.com/huginn/huginn/issues/1605",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2017-04-29T09:27:38Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/huginn/huginn/wiki/Creating-a-new-agent) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/huginn/huginn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/huginn/huginn/issues/1605",
+    "https://github.com/huginn/huginn/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/huginn/huginn/wiki/Creating-a-new-agent"
+   ]
+  },
+  {
+   "number": 1691,
+   "title": "Ability to edit each field separately in a popup",
+   "url": "https://github.com/huginn/huginn/issues/1691",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2016-09-16T15:56:50Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/huginn/huginn/wiki/Creating-a-new-agent) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/huginn/huginn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/huginn/huginn/issues/1691",
+    "https://github.com/huginn/huginn/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/huginn/huginn/wiki/Creating-a-new-agent"
+   ]
+  },
+  {
+   "number": 1723,
+   "title": "Post agent: merge with original event",
+   "url": "https://github.com/huginn/huginn/issues/1723",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2017-07-25T22:23:43Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "PR #2069 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/huginn/huginn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/huginn/huginn/pull/2069",
+    "https://github.com/huginn/huginn/issues/1723",
+    "https://github.com/huginn/huginn/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/huginn/huginn/wiki/Creating-a-new-agent"
+   ]
+  },
+  {
+   "number": 1724,
+   "title": "Set the default value for \"Keep events\"?",
+   "url": "https://github.com/huginn/huginn/issues/1724",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2017-01-23T18:05:44Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #3780 by @wangyusheng1985 is already open against this issue",
+   "evidence": [
+    "https://github.com/huginn/huginn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/huginn/huginn/pull/3780"
+   ]
+  },
+  {
+   "number": 1833,
+   "title": "To get tweets from multiple users that specified in Twitter User Agent",
+   "url": "https://github.com/huginn/huginn/issues/1833",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2021-08-10T11:11:13Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #2775 by @lessrand is already open against this issue",
+   "evidence": [
+    "https://github.com/huginn/huginn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/huginn/huginn/issues/2775"
+   ]
+  },
+  {
+   "number": 1868,
+   "title": "ShellCommandAgent needs an mode:merge option",
+   "url": "https://github.com/huginn/huginn/issues/1868",
+   "labels": [
+    "help wanted",
+    "suggestion"
+   ],
+   "updatedAt": "2017-04-05T21:02:20Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/huginn/huginn/wiki/Creating-a-new-agent) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/huginn/huginn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/huginn/huginn/issues/1868",
+    "https://github.com/huginn/huginn/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/huginn/huginn/wiki/Creating-a-new-agent"
+   ]
+  },
+  {
+   "number": 1936,
+   "title": "Agent for scheduled list of static events",
+   "url": "https://github.com/huginn/huginn/issues/1936",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2020-11-13T19:25:33Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/huginn/huginn/wiki/Creating-a-new-agent) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/huginn/huginn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/huginn/huginn/issues/1936",
+    "https://github.com/huginn/huginn/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/huginn/huginn/wiki/Creating-a-new-agent"
+   ]
+  },
+  {
+   "number": 1940,
+   "title": "If Event table is empty during a MySQL restart, auto_increment is reset and Huginn stops working",
+   "url": "https://github.com/huginn/huginn/issues/1940",
+   "labels": [
+    "help wanted",
+    "bug"
+   ],
+   "updatedAt": "2020-07-23T00:14:36Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "PR #1974 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/huginn/huginn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/huginn/huginn/pull/1974",
+    "https://github.com/huginn/huginn/pull/2014",
+    "https://github.com/huginn/huginn/issues/1940",
+    "https://github.com/huginn/huginn/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/huginn/huginn/wiki/Creating-a-new-agent"
+   ]
+  },
+  {
+   "number": 2134,
+   "title": "Show a warning if the default password was not changed",
+   "url": "https://github.com/huginn/huginn/issues/2134",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2017-09-30T15:17:14Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/huginn/huginn/wiki/Creating-a-new-agent) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/huginn/huginn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/huginn/huginn/issues/2134",
+    "https://github.com/huginn/huginn/wiki/Creating-a-new-agent"
+   ]
+  },
+  {
+   "number": 2223,
+   "title": "Make WebhookAgent CORS compatible",
+   "url": "https://github.com/huginn/huginn/issues/2223",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2019-07-30T08:30:48Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #3779 by @wangyusheng1985 is already open against this issue",
+   "evidence": [
+    "https://github.com/huginn/huginn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/huginn/huginn/pull/3779"
+   ]
+  },
+  {
+   "number": 2248,
+   "title": "POST an array with PostAgent",
+   "url": "https://github.com/huginn/huginn/issues/2248",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2018-03-30T08:35:49Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/huginn/huginn/wiki/Creating-a-new-agent) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/huginn/huginn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/huginn/huginn/issues/2248",
+    "https://github.com/huginn/huginn/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/huginn/huginn/wiki/Creating-a-new-agent"
+   ]
+  },
+  {
+   "number": 2263,
+   "title": "Webhook agent not working when file is included with JSON",
+   "url": "https://github.com/huginn/huginn/issues/2263",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2018-04-21T08:43:38Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #3773 by @wangyusheng1985 is already open against this issue",
+   "evidence": [
+    "https://github.com/huginn/huginn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/huginn/huginn/pull/3773"
+   ]
+  },
+  {
+   "number": 2332,
+   "title": "Make it possible to trigger RSS agent by feeding it an event.",
+   "url": "https://github.com/huginn/huginn/issues/2332",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2018-07-29T22:49:09Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #3778 by @wangyusheng1985 is already open against this issue",
+   "evidence": [
+    "https://github.com/huginn/huginn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/huginn/huginn/pull/3778"
+   ]
+  },
+  {
+   "number": 2431,
+   "title": "WebHooksAgent and Recieved Headers",
+   "url": "https://github.com/huginn/huginn/issues/2431",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2018-12-10T03:33:54Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @Fishwaldo 2895 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/huginn/huginn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/huginn/huginn/issues/2431#issuecomment-445655650",
+    "https://github.com/huginn/huginn/issues/2431",
+    "https://github.com/huginn/huginn/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/huginn/huginn/wiki/Creating-a-new-agent"
+   ]
+  },
+  {
+   "number": 2541,
+   "title": "Allow modifying email <head> for inserting styles and meta tag in Email Agent",
+   "url": "https://github.com/huginn/huginn/issues/2541",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2019-05-31T08:42:39Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #2881 by @MarkBarbieri is already open against this issue",
+   "evidence": [
+    "https://github.com/huginn/huginn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/huginn/huginn/pull/2881"
+   ]
+  },
+  {
+   "number": 2584,
+   "title": "Using an additional single quote in Liquid var causes process get stuck",
+   "url": "https://github.com/huginn/huginn/issues/2584",
+   "labels": [
+    "help wanted",
+    "bug"
+   ],
+   "updatedAt": "2019-08-16T21:08:19Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #3774 by @wangyusheng1985 is already open against this issue",
+   "evidence": [
+    "https://github.com/huginn/huginn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/huginn/huginn/pull/3774"
+   ]
+  },
+  {
+   "number": 2742,
+   "title": "Add a list of Agents that aren't assigned to a Scenario",
+   "url": "https://github.com/huginn/huginn/issues/2742",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2020-04-15T21:49:24Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/huginn/huginn/wiki/Creating-a-new-agent) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/huginn/huginn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/huginn/huginn/issues/2742",
+    "https://github.com/huginn/huginn/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/huginn/huginn/wiki/Creating-a-new-agent"
+   ]
+  },
+  {
+   "number": 2815,
+   "title": "Send fix events on a schedule",
+   "url": "https://github.com/huginn/huginn/issues/2815",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2020-06-21T21:54:31Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #3777 by @wangyusheng1985 is already open against this issue",
+   "evidence": [
+    "https://github.com/huginn/huginn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/huginn/huginn/pull/3777"
+   ]
+  },
+  {
+   "number": 2824,
+   "title": "Is it possible to disable user signup?",
+   "url": "https://github.com/huginn/huginn/issues/2824",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2020-07-09T22:15:01Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/huginn/huginn/wiki/Creating-a-new-agent) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/huginn/huginn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/huginn/huginn/issues/2824",
+    "https://github.com/huginn/huginn/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/huginn/huginn/wiki/Creating-a-new-agent"
+   ]
+  },
+  {
+   "number": 2855,
+   "title": "Update example docker commands due to deprecated \"--link\" flag",
+   "url": "https://github.com/huginn/huginn/issues/2855",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2020-09-26T15:27:24Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #3770 by @wangyusheng1985 is already open against this issue",
+   "evidence": [
+    "https://github.com/huginn/huginn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/huginn/huginn/pull/3770"
+   ]
+  },
+  {
+   "number": 3748,
+   "title": "Make UI translations pluggable as add-on gems",
+   "url": "https://github.com/huginn/huginn/issues/3748",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2026-10-09T20:21:58Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "PR #3763 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+3 more)",
+   "evidence": [
+    "https://github.com/huginn/huginn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/huginn/huginn/pull/3763",
+    "https://github.com/huginn/huginn/pull/3781",
+    "https://github.com/huginn/huginn/issues/3748#issuecomment-6088617063",
+    "https://github.com/huginn/huginn/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/huginn/huginn/wiki/Creating-a-new-agent"
+   ]
+  }
+ ]
+}

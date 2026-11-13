@@ -1,0 +1,26 @@
+{
+ "owner": "ubicloud",
+ "repo": "ubicloud",
+ "language": "Ruby",
+ "stars": 12404,
+ "description": "Open source alternative to AWS. Elastic compute, block storage (non replicated), firewall and load balancer, managed Postgres, K8s, AI inference, and IAM services.",
+ "visitedAt": "2026-11-13T08:02:18.780Z",
+ "issues": [
+  {
+   "number": 1152,
+   "title": "Get Hetzner server identifier from API",
+   "url": "https://github.com/ubicloud/ubicloud/issues/1152",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2025-08-22T03:07:44Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #5213 by @monsonego is already open against this issue",
+   "evidence": [
+    "https://github.com/ubicloud/ubicloud/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ubicloud/ubicloud/pull/5213"
+   ]
+  }
+ ]
+}

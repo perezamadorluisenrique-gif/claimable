@@ -1,0 +1,69 @@
+{
+ "owner": "open-ani",
+ "repo": "animeko",
+ "language": "Kotlin",
+ "stars": 21663,
+ "description": "集找番、追番、看番的一站式弹幕追番平台，云收藏同步 (Bangumi)，离线缓存，BitTorrent，弹幕云过滤。100% Kotlin/Compose Multiplatform",
+ "visitedAt": "2026-11-13T08:02:18.780Z",
+ "issues": [
+  {
+   "number": 59,
+   "title": "增加设置允许后台播放",
+   "url": "https://github.com/open-ani/animeko/issues/59",
+   "labels": [
+    "help wanted",
+    "s: player",
+    "s: settings"
+   ],
+   "updatedAt": "2026-09-05T20:41:14Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #3394 by @wuhutakeoffyoo is already open against this issue",
+   "evidence": [
+    "https://github.com/open-ani/animeko/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/open-ani/animeko/issues/3394",
+    "https://github.com/open-ani/animeko/issues/3660",
+    "https://github.com/open-ani/animeko/issues/3611",
+    "https://github.com/open-ani/animeko/issues/2272",
+    "https://github.com/open-ani/animeko/issues/2468"
+   ]
+  },
+  {
+   "number": 2328,
+   "title": "应用崩溃 IllegalStateException",
+   "url": "https://github.com/open-ani/animeko/issues/2328",
+   "labels": [
+    "help wanted",
+    "android",
+    "s: player",
+    "crash"
+   ],
+   "updatedAt": "2026-09-05T20:52:53Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/open-ani/animeko/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/open-ani/animeko/issues/2328"
+   ]
+  },
+  {
+   "number": 2995,
+   "title": "jellyfin源无法，播放strm流文件",
+   "url": "https://github.com/open-ani/animeko/issues/2995",
+   "labels": [
+    "help wanted",
+    "s: player",
+    "s: media"
+   ],
+   "updatedAt": "2026-09-05T20:57:26Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/open-ani/animeko/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/open-ani/animeko/issues/2995"
+   ]
+  }
+ ]
+}

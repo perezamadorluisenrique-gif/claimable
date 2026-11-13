@@ -1,0 +1,32 @@
+{
+ "owner": "Shopify",
+ "repo": "liquid",
+ "language": "Ruby",
+ "stars": 11924,
+ "description": "Liquid markup language. Safe, customer facing template language for flexible web apps. ",
+ "visitedAt": "2026-11-13T08:02:18.780Z",
+ "issues": [
+  {
+   "number": 1772,
+   "title": "Ruby 3.3 deprecation warnings: base64, bigdecimal will no longer be part of the default gems",
+   "url": "https://github.com/Shopify/liquid/issues/1772",
+   "labels": [
+    "help wanted",
+    "Good first issue"
+   ],
+   "updatedAt": "2024-03-21T19:55:46Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #1957 by @UlyssesZh is already open against this issue",
+   "evidence": [
+    "https://github.com/Shopify/liquid/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/Shopify/liquid/pull/1957",
+    "https://github.com/Shopify/liquid/pull/2095",
+    "https://github.com/Shopify/liquid/pull/2108",
+    "https://github.com/RubyMoney/money/pull/1068",
+    "https://github.com/perlun/perlun.eu.org/pull/37",
+    "https://github.com/lutaml/lutaml-model/pull/369"
+   ]
+  }
+ ]
+}

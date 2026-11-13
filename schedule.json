@@ -594,5 +594,125 @@
  "yourls/yourls": {
   "nextCheck": "2026-11-13T02:07:25.191Z",
   "lastNewIssue": "2025-01-15T13:39:17Z"
+ },
+ "slimphp/slim": {
+  "nextCheck": "2026-11-20T08:02:18.780Z",
+  "lastNewIssue": "2023-09-20T08:13:39Z"
+ },
+ "huginn/huginn": {
+  "nextCheck": "2026-11-20T08:02:18.780Z",
+  "lastNewIssue": "2026-09-16T13:42:46Z"
+ },
+ "fastlane/fastlane": {
+  "nextCheck": "2026-11-20T08:02:18.780Z",
+  "lastNewIssue": "2024-04-12T08:45:38Z"
+ },
+ "freecodecamp/devdocs": {
+  "nextCheck": "2026-11-20T08:02:18.780Z",
+  "lastNewIssue": "2025-10-25T07:48:11Z"
+ },
+ "chatwoot/chatwoot": {
+  "nextCheck": "2026-11-20T08:02:18.780Z",
+  "lastNewIssue": "2023-10-26T02:01:09Z"
+ },
+ "homebrew/homebrew-cask": {
+  "nextCheck": "2026-11-20T08:02:18.780Z",
+  "lastNewIssue": "2024-05-02T13:51:54Z"
+ },
+ "homebrew/homebrew-core": {
+  "nextCheck": "2026-11-20T08:02:18.780Z",
+  "lastNewIssue": "2024-09-20T15:27:03Z"
+ },
+ "github-linguist/linguist": {
+  "nextCheck": "2026-11-14T08:02:18.780Z",
+  "lastNewIssue": "2026-11-09T17:26:43Z"
+ },
+ "fluent/fluentd": {
+  "nextCheck": "2026-11-20T08:02:18.780Z",
+  "lastNewIssue": "2021-09-09T15:11:21Z"
+ },
+ "capistrano/capistrano": {
+  "nextCheck": "2026-11-20T08:02:18.780Z",
+  "lastNewIssue": "2018-02-16T11:53:10Z"
+ },
+ "ubicloud/ubicloud": {
+  "nextCheck": "2026-11-20T08:02:18.780Z",
+  "lastNewIssue": "2024-01-26T07:42:14Z"
+ },
+ "shopify/liquid": {
+  "nextCheck": "2026-11-20T08:02:18.780Z",
+  "lastNewIssue": "2023-12-27T09:42:22Z"
+ },
+ "activeadmin/activeadmin": {
+  "nextCheck": "2026-11-20T08:02:18.780Z",
+  "lastNewIssue": "2016-01-21T12:11:38Z"
+ },
+ "resque/resque": {
+  "nextCheck": "2026-11-20T08:02:18.780Z",
+  "lastNewIssue": "2021-09-28T14:24:19Z"
+ },
+ "varvet/pundit": {
+  "nextCheck": "2026-11-20T08:02:18.780Z",
+  "lastNewIssue": "2022-05-09T14:24:20Z"
+ },
+ "thoughtbot/factory_bot": {
+  "nextCheck": "2026-11-20T08:02:18.780Z",
+  "lastNewIssue": "2026-07-15T17:48:37Z"
+ },
+ "librepods-org/librepods": {
+  "nextCheck": "2026-11-16T08:02:18.780Z",
+  "lastNewIssue": "2026-10-28T11:38:55Z"
+ },
+ "junkfood02/seal": {
+  "nextCheck": "2026-11-20T08:02:18.780Z",
+  "lastNewIssue": "2024-03-23T11:29:16Z"
+ },
+ "square/leakcanary": {
+  "nextCheck": "2026-11-20T08:02:18.780Z",
+  "lastNewIssue": "2020-05-20T20:05:31Z"
+ },
+ "pppscn/smsforwarder": {
+  "nextCheck": "2026-11-16T08:02:18.780Z",
+  "lastNewIssue": "2026-11-01T01:16:36Z"
+ },
+ "android/nowinandroid": {
+  "nextCheck": "2026-11-20T08:02:18.780Z",
+  "lastNewIssue": "2023-04-25T02:46:57Z"
+ },
+ "open-ani/animeko": {
+  "nextCheck": "2026-11-20T08:02:18.780Z",
+  "lastNewIssue": "2026-05-01T16:44:50Z"
+ },
+ "amir1376/ab-download-manager": {
+  "nextCheck": "2026-11-20T08:02:18.780Z",
+  "lastNewIssue": "2024-08-13T21:03:30Z"
+ },
+ "meta/fresco": {
+  "nextCheck": "2026-11-20T08:02:18.780Z",
+  "lastNewIssue": "2020-08-26T09:11:09Z"
+ },
+ "mobile-dev-inc/maestro": {
+  "nextCheck": "2026-11-20T08:02:18.780Z",
+  "lastNewIssue": "2024-11-19T18:19:02Z"
+ },
+ "ktorio/ktor": {
+  "nextCheck": "2026-11-20T08:02:18.780Z",
+  "lastNewIssue": "2020-05-27T10:38:26Z"
+ },
+ "thunderbird/thunderbird-android": {
+  "nextCheck": "2026-11-16T08:02:18.780Z",
+  "lastNewIssue": "2026-10-29T10:25:38Z"
+ },
+ "kotlin/kotlinx.coroutines": {
+  "nextCheck": "2026-11-20T08:02:18.780Z",
+  "lastNewIssue": "2021-03-24T15:28:45Z"
+ },
+ "shihabal3amri/diplay": {
+  "nextCheck": "2026-11-20T08:02:18.780Z",
+  "lastNewIssue": "2026-10-12T06:38:32Z"
+ },
+ "libre-tube/libretube": {
+  "nextCheck": "2026-11-13T09:02:18.780Z",
+  "lastNewIssue": "2026-05-24T20:42:54Z"
  }
 }

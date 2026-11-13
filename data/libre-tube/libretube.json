@@ -1,0 +1,187 @@
+{
+ "owner": "libre-tube",
+ "repo": "LibreTube",
+ "language": "Kotlin",
+ "stars": 12981,
+ "description": "An alternative frontend for YouTube, for Android.",
+ "visitedAt": "2026-11-13T08:02:18.780Z",
+ "issues": [
+  {
+   "number": 4255,
+   "title": "Video quality limited to screen resolution",
+   "url": "https://github.com/libre-tube/LibreTube/issues/4255",
+   "labels": [
+    "bug",
+    "help wanted",
+    "priority: low"
+   ],
+   "updatedAt": "2026-10-25T23:11:57Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "PR #7689 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder",
+   "evidence": [
+    "https://github.com/libre-tube/LibreTube/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/libre-tube/LibreTube/pull/7689",
+    "https://github.com/libre-tube/LibreTube/issues/4255"
+   ]
+  },
+  {
+   "number": 4685,
+   "title": "Improve LibreTube Screen Reader Accessibility",
+   "url": "https://github.com/libre-tube/LibreTube/issues/4685",
+   "labels": [
+    "bug",
+    "help wanted",
+    "priority: low"
+   ],
+   "updatedAt": "2024-10-08T18:50:08Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/libre-tube/LibreTube/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/libre-tube/LibreTube/issues/4685"
+   ]
+  },
+  {
+   "number": 4710,
+   "title": "Improve Segment Submission",
+   "url": "https://github.com/libre-tube/LibreTube/issues/4710",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "contribution-friendly"
+   ],
+   "updatedAt": "2024-07-23T16:17:28Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "PR #4726 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/libre-tube/LibreTube/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/libre-tube/LibreTube/pull/4726",
+    "https://github.com/libre-tube/LibreTube/issues/4710",
+    "https://github.com/libre-tube/LibreTube/issues/4710#issuecomment-1869169943"
+   ]
+  },
+  {
+   "number": 5816,
+   "title": "Opening a video from the mini-player moves the video to a corner",
+   "url": "https://github.com/libre-tube/LibreTube/issues/5816",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-03-05T21:06:14Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/libre-tube/LibreTube/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/libre-tube/LibreTube/issues/5816"
+   ]
+  },
+  {
+   "number": 5928,
+   "title": "Incomplete Playlist Download Issue",
+   "url": "https://github.com/libre-tube/LibreTube/issues/5928",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2024-04-23T11:20:16Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/libre-tube/LibreTube/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/libre-tube/LibreTube/issues/5928"
+   ]
+  },
+  {
+   "number": 6451,
+   "title": "Network switching pauses playback",
+   "url": "https://github.com/libre-tube/LibreTube/issues/6451",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2024-11-28T06:25:46Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/libre-tube/LibreTube/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/libre-tube/LibreTube/issues/6451"
+   ]
+  },
+  {
+   "number": 7352,
+   "title": "Bug in dark mode",
+   "url": "https://github.com/libre-tube/LibreTube/issues/7352",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2025-07-31T14:19:52Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "PR #7377 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder",
+   "evidence": [
+    "https://github.com/libre-tube/LibreTube/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/libre-tube/LibreTube/pull/7377",
+    "https://github.com/libre-tube/LibreTube/issues/7352"
+   ]
+  },
+  {
+   "number": 7685,
+   "title": "Audio player layout breaks when switching PiP mode or sharing link to app",
+   "url": "https://github.com/libre-tube/LibreTube/issues/7685",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2025-11-03T15:51:53Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "open 14 months with no human comment, in a repo pushed to 5 days ago — easy issues do not survive that long here; assume it is harder than its labels say",
+   "evidence": [
+    "https://github.com/libre-tube/LibreTube/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/libre-tube/LibreTube/issues/7685"
+   ]
+  },
+  {
+   "number": 8249,
+   "title": "App being hardly usable in Android Desktop Mode in maximized state",
+   "url": "https://github.com/libre-tube/LibreTube/issues/8249",
+   "labels": [
+    "bug",
+    "help wanted",
+    "contribution-friendly"
+   ],
+   "updatedAt": "2026-05-14T19:27:14Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/libre-tube/LibreTube/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/libre-tube/LibreTube/issues/8249"
+   ]
+  },
+  {
+   "number": 8314,
+   "title": "Translations for upcoming release",
+   "url": "https://github.com/libre-tube/LibreTube/issues/8314",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-04-20T20:44:11Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/libre-tube/LibreTube/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/libre-tube/LibreTube/issues/8314"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,189 @@
+{
+ "owner": "mobile-dev-inc",
+ "repo": "Maestro",
+ "language": "Kotlin",
+ "stars": 16372,
+ "description": "Painless E2E Automation for Mobile and Web",
+ "visitedAt": "2026-11-13T08:02:18.780Z",
+ "issues": [
+  {
+   "number": 1096,
+   "title": "Make Maestro faster by giving the option to skip helper APKs install/uninstall",
+   "url": "https://github.com/mobile-dev-inc/Maestro/issues/1096",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "maestro cli",
+    "P3",
+    "awaiting maestro 3.0"
+   ],
+   "updatedAt": "2026-10-23T13:21:29Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #3139 by @qwertey6 is already open against this issue",
+   "evidence": [
+    "https://github.com/mobile-dev-inc/Maestro/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/mobile-dev-inc/Maestro/pull/3139",
+    "https://github.com/mobile-dev-inc/Maestro/pull/3138"
+   ]
+  },
+  {
+   "number": 1226,
+   "title": "`inputText`: add a way to obscure sensitive text",
+   "url": "https://github.com/mobile-dev-inc/Maestro/issues/1226",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "maestro cli"
+   ],
+   "updatedAt": "2026-08-09T21:34:44Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #3496 by @Mohanad49 is already open against this issue",
+   "evidence": [
+    "https://github.com/mobile-dev-inc/Maestro/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/mobile-dev-inc/Maestro/pull/3496",
+    "https://github.com/mobile-dev-inc/Maestro/pull/1292",
+    "https://github.com/mobile-dev-inc/Maestro/pull/1481",
+    "https://github.com/whiteboard-works/biteworthy/pull/828",
+    "https://github.com/thannous/dreamer/pull/316"
+   ]
+  },
+  {
+   "number": 1665,
+   "title": " Command to install APK or APP files from a URL ",
+   "url": "https://github.com/mobile-dev-inc/Maestro/issues/1665",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "maestro cli",
+    "P2",
+    "awaiting maestro 3.0"
+   ],
+   "updatedAt": "2026-10-23T13:21:34Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #1854 by @boranfrkn is already open against this issue",
+   "evidence": [
+    "https://github.com/mobile-dev-inc/Maestro/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/mobile-dev-inc/Maestro/pull/1854"
+   ]
+  },
+  {
+   "number": 1780,
+   "title": "Add `visibilityPercentage` param for `assertVisible` command",
+   "url": "https://github.com/mobile-dev-inc/Maestro/issues/1780",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "maestro cli"
+   ],
+   "updatedAt": "2025-04-01T15:24:06Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #3027 by @vazidmansuri005 is already open against this issue",
+   "evidence": [
+    "https://github.com/mobile-dev-inc/Maestro/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/mobile-dev-inc/Maestro/pull/3027"
+   ]
+  },
+  {
+   "number": 1783,
+   "title": "Add a new `maestro validate` (\"dry run\") command",
+   "url": "https://github.com/mobile-dev-inc/Maestro/issues/1783",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "maestro cli",
+    "P2"
+   ],
+   "updatedAt": "2026-08-06T12:21:06Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "PR #1709 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/mobile-dev-inc/Maestro/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/software-mansion/radon-ide/pull/1709",
+    "https://github.com/mobile-dev-inc/Maestro/issues/1783#issuecomment-5204556829",
+    "https://github.com/mobile-dev-inc/Maestro/issues/1783",
+    "https://github.com/mobile-dev-inc/Maestro/blob/HEAD/README.md",
+    "https://docs.maestro.dev/maestro-cli/how-to-install-maestro-cli",
+    "https://github.com/mobile-dev-inc/Maestro/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 1785,
+   "title": "Add a new `maestro doctor` command",
+   "url": "https://github.com/mobile-dev-inc/Maestro/issues/1785",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "maestro cli",
+    "P3"
+   ],
+   "updatedAt": "2025-10-26T16:56:57Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #2630 by @caxewsh is already open against this issue",
+   "evidence": [
+    "https://github.com/mobile-dev-inc/Maestro/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/mobile-dev-inc/Maestro/pull/2630"
+   ]
+  },
+  {
+   "number": 1798,
+   "title": "Maestro dumps its state files into `$HOME`",
+   "url": "https://github.com/mobile-dev-inc/Maestro/issues/1798",
+   "labels": [
+    "good first issue",
+    "maestro cli",
+    "P3"
+   ],
+   "updatedAt": "2026-10-15T14:05:54Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #3322 by @sorinc03 is already open against this issue",
+   "evidence": [
+    "https://github.com/mobile-dev-inc/Maestro/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/mobile-dev-inc/Maestro/pull/3322"
+   ]
+  },
+  {
+   "number": 1810,
+   "title": "Improve device selection prompt",
+   "url": "https://github.com/mobile-dev-inc/Maestro/issues/1810",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "maestro cli",
+    "P3"
+   ],
+   "updatedAt": "2025-04-01T15:23:47Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #3438 by @coyaSONG is already open against this issue",
+   "evidence": [
+    "https://github.com/mobile-dev-inc/Maestro/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/mobile-dev-inc/Maestro/pull/3438",
+    "https://github.com/mobile-dev-inc/Maestro/pull/3705"
+   ]
+  },
+  {
+   "number": 2149,
+   "title": "Output of relativePoint cannot be used with swipe command start and end parameters",
+   "url": "https://github.com/mobile-dev-inc/Maestro/issues/2149",
+   "labels": [
+    "good first issue",
+    "Maestro"
+   ],
+   "updatedAt": "2026-10-15T14:06:33Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #3026 by @vazidmansuri005 is already open against this issue",
+   "evidence": [
+    "https://github.com/mobile-dev-inc/Maestro/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/mobile-dev-inc/Maestro/pull/3026"
+   ]
+  }
+ ]
+}

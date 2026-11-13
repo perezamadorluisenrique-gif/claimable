@@ -1,0 +1,128 @@
+{
+ "owner": "librepods-org",
+ "repo": "librepods",
+ "language": "Kotlin",
+ "stars": 30696,
+ "description": "AirPods liberated from Apple's ecosystem.",
+ "visitedAt": "2026-11-13T08:02:18.780Z",
+ "issues": [
+  {
+   "number": 102,
+   "title": "Toggle case charging sounds not working",
+   "url": "https://github.com/librepods-org/librepods/issues/102",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2025-07-10T17:26:50Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #842 by @isorropisths is already open against this issue",
+   "evidence": [
+    "https://github.com/librepods-org/librepods/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/librepods-org/librepods/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/librepods-org/librepods/issues/842",
+    "https://github.com/librepods-org/librepods/issues/421",
+    "https://github.com/librepods-org/librepods/issues/873",
+    "https://github.com/librepods-org/librepods/issues/554",
+    "https://github.com/librepods-org/librepods/issues/782",
+    "https://github.com/librepods-org/librepods/issues/376",
+    "https://github.com/librepods-org/librepods/issues/609"
+   ]
+  },
+  {
+   "number": 153,
+   "title": "[Android] Automatic Ear Detection skips a song",
+   "url": "https://github.com/librepods-org/librepods/issues/153",
+   "labels": [
+    "bug",
+    "help wanted",
+    "android"
+   ],
+   "updatedAt": "2025-07-10T17:23:33Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #572 by @thisisAcidic is already open against this issue",
+   "evidence": [
+    "https://github.com/librepods-org/librepods/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/librepods-org/librepods/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/librepods-org/librepods/pull/572"
+   ]
+  },
+  {
+   "number": 211,
+   "title": "L2CAP connection fails on A16 GrapheneOS",
+   "url": "https://github.com/librepods-org/librepods/issues/211",
+   "labels": [
+    "bug",
+    "good first issue",
+    "android"
+   ],
+   "updatedAt": "2026-11-10T21:03:04Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #785 by @SAGIRIxr is already open against this issue",
+   "evidence": [
+    "https://github.com/librepods-org/librepods/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/librepods-org/librepods/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/librepods-org/librepods/pull/785"
+   ]
+  },
+  {
+   "number": 555,
+   "title": "Head Gestures not registering \"No\" Gesture",
+   "url": "https://github.com/librepods-org/librepods/issues/555",
+   "labels": [
+    "help wanted",
+    "android"
+   ],
+   "updatedAt": "2026-04-30T14:47:05Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #573 by @thisisAcidic is already open against this issue",
+   "evidence": [
+    "https://github.com/librepods-org/librepods/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/librepods-org/librepods/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/librepods-org/librepods/pull/573"
+   ]
+  },
+  {
+   "number": 647,
+   "title": "Linux ARM support",
+   "url": "https://github.com/librepods-org/librepods/issues/647",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "linux"
+   ],
+   "updatedAt": "2026-06-28T18:57:32Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #358 by @RBastianini is already open against this issue",
+   "evidence": [
+    "https://github.com/librepods-org/librepods/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/librepods-org/librepods/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/librepods-org/librepods/issues/358",
+    "https://github.com/librepods-org/librepods/issues/609"
+   ]
+  },
+  {
+   "number": 878,
+   "title": "android: privileged (shell) service for protected permissions",
+   "url": "https://github.com/librepods-org/librepods/issues/878",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "android"
+   ],
+   "updatedAt": "2026-10-30T15:41:16Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #885 by @EroNiiChan is already open against this issue",
+   "evidence": [
+    "https://github.com/librepods-org/librepods/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/librepods-org/librepods/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/librepods-org/librepods/pull/885"
+   ]
+  }
+ ]
+}

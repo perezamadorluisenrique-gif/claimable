@@ -1,0 +1,1927 @@
+{
+ "owner": "github-linguist",
+ "repo": "linguist",
+ "language": "Ruby",
+ "stars": 13780,
+ "description": "Language Savant. If your repository's language is being reported incorrectly, send us a pull request!",
+ "visitedAt": "2026-11-13T08:02:18.780Z",
+ "issues": [
+  {
+   "number": 3924,
+   "title": "Outstanding Grammar Issues",
+   "url": "https://github.com/github-linguist/linguist/issues/3924",
+   "labels": [
+    "Help Wanted"
+   ],
+   "updatedAt": "2026-11-09T16:34:04Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "PR #3915 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+16 more)",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/pull/3915",
+    "https://github.com/mgalloy/idl.tmbundle/pull/3",
+    "https://github.com/ccreutzig/sublime-MuPAD/pull/2",
+    "https://github.com/shadanan/mathematica-tmbundle/pull/4",
+    "https://github.com/yrammos/AtLilyPond/pull/7",
+    "https://github.com/github-linguist/linguist/pull/4322",
+    "https://github.com/github-linguist/linguist/pull/3973",
+    "https://github.com/leanprover/vscode-lean/pull/121",
+    "https://github.com/github-linguist/linguist/pull/4546"
+   ]
+  },
+  {
+   "number": 5169,
+   "title": "High Level Assembly language is not recognized",
+   "url": "https://github.com/github-linguist/linguist/issues/5169",
+   "labels": [
+    "Add Language",
+    "Pending Popularity",
+    "Good First Issue"
+   ],
+   "updatedAt": "2024-08-24T08:14:52Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/5169",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 5346,
+   "title": "ARM32 Assembly Language",
+   "url": "https://github.com/github-linguist/linguist/issues/5346",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2025-09-17T04:19:56Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/5346",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 5416,
+   "title": "Add ArkScript language",
+   "url": "https://github.com/github-linguist/linguist/issues/5416",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2026-04-14T13:35:31Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/5416",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 5446,
+   "title": "Add TI Basic Programs `.tiprogram`",
+   "url": "https://github.com/github-linguist/linguist/issues/5446",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2023-03-03T07:01:19Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/5446",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 5463,
+   "title": "`.proxyrc`",
+   "url": "https://github.com/github-linguist/linguist/issues/5463",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2022-11-29T17:55:09Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/5463",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 5570,
+   "title": "Add PromQL language",
+   "url": "https://github.com/github-linguist/linguist/issues/5570",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2024-05-06T22:32:41Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/5570",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 5590,
+   "title": "W3C BNF",
+   "url": "https://github.com/github-linguist/linguist/issues/5590",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2026-04-06T12:35:18Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/5590",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 5598,
+   "title": "Add `gitcommit` and `gitrebase` language?",
+   "url": "https://github.com/github-linguist/linguist/issues/5598",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2025-09-21T06:26:07Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "PR #7596 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/pull/7596",
+    "https://github.com/github-linguist/linguist/issues/5598",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 6014,
+   "title": "Some suggestions of engineering formats/languages",
+   "url": "https://github.com/github-linguist/linguist/issues/6014",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2024-07-31T05:04:22Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "the files this issue points at total 164 KB (largest: languages.yml 164 KB) — whatever the difficulty label says, this is not a small change (+1 more)",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/blob/HEAD/lib/linguist/languages.yml",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 6040,
+   "title": "Add todo.txt Template (*.todo.txt)",
+   "url": "https://github.com/github-linguist/linguist/issues/6040",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2025-09-21T05:20:26Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/6040",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 6246,
+   "title": "Add language SPICE",
+   "url": "https://github.com/github-linguist/linguist/issues/6246",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2023-04-12T12:39:14Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/6246",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 6258,
+   "title": "Magik (Smallworld) language",
+   "url": "https://github.com/github-linguist/linguist/issues/6258",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2023-01-24T19:55:50Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/6258",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 6289,
+   "title": "Scpel (Subconscious Electronic Programming Language)",
+   "url": "https://github.com/github-linguist/linguist/issues/6289",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2023-02-15T05:08:31Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "open 46 months with no human comment, in a repo pushed to 9 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/6289",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 6301,
+   "title": "Add language: ZScript",
+   "url": "https://github.com/github-linguist/linguist/issues/6301",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2023-11-05T09:45:23Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/6301",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 6304,
+   "title": "Add language: LALRPOP",
+   "url": "https://github.com/github-linguist/linguist/issues/6304",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2023-05-01T17:58:28Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/6304",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 6348,
+   "title": "Add language: dyff",
+   "url": "https://github.com/github-linguist/linguist/issues/6348",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2023-04-13T07:54:06Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code-and-syntax-highlighting) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/6348",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code-and-syntax-highlighting"
+   ]
+  },
+  {
+   "number": 6383,
+   "title": "Add Language: USD",
+   "url": "https://github.com/github-linguist/linguist/issues/6383",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2023-05-10T01:41:37Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "open 43 months with no human comment, in a repo pushed to 9 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/6383",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 6397,
+   "title": "Add language: Semantic Code string",
+   "url": "https://github.com/github-linguist/linguist/issues/6397",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2023-04-30T17:09:42Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "open 43 months with no human comment, in a repo pushed to 9 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/6397",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 6429,
+   "title": "Add language: Cosmo",
+   "url": "https://github.com/github-linguist/linguist/issues/6429",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2023-12-18T07:39:12Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #6447 by @kevinalavik is already open against this issue",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/6447"
+   ]
+  },
+  {
+   "number": 6446,
+   "title": "Request for Z-Sharp Language.",
+   "url": "https://github.com/github-linguist/linguist/issues/6446",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2023-06-29T09:05:04Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/6446",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 6447,
+   "title": "Cosmo Lang",
+   "url": "https://github.com/github-linguist/linguist/issues/6447",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2023-08-21T05:19:34Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/6447",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 6472,
+   "title": "Add support for IEC 61131-3 Structured Text",
+   "url": "https://github.com/github-linguist/linguist/issues/6472",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2025-01-08T09:55:48Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/6472",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 6535,
+   "title": "X++ Support for Microsoft Dynamics 365 Finance & Supply Chain Management (ERP)",
+   "url": "https://github.com/github-linguist/linguist/issues/6535",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2023-09-06T02:48:03Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/6535",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 6581,
+   "title": "Plang!",
+   "url": "https://github.com/github-linguist/linguist/issues/6581",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2023-10-18T16:07:45Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "open 38 months with no human comment, in a repo pushed to 9 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/6581",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 6585,
+   "title": "Winglang",
+   "url": "https://github.com/github-linguist/linguist/issues/6585",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2024-01-08T06:55:20Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/6585",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 6593,
+   "title": "Add Language: NueJS",
+   "url": "https://github.com/github-linguist/linguist/issues/6593",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2023-11-04T22:57:02Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @johnmays 1104 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/6593#issuecomment-1793572689",
+    "https://github.com/github-linguist/linguist/issues/6593",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 6613,
+   "title": "Add support for expect (as a form of tcl)",
+   "url": "https://github.com/github-linguist/linguist/issues/6613",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2025-10-16T05:38:04Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/6613",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 6621,
+   "title": "Add support for Hot Soup Processor",
+   "url": "https://github.com/github-linguist/linguist/issues/6621",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2024-01-21T18:00:56Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #8267 by @tamiroh is already open against this issue",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/pull/8267"
+   ]
+  },
+  {
+   "number": 6711,
+   "title": "New language: UserStory",
+   "url": "https://github.com/github-linguist/linguist/issues/6711",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2024-03-17T10:13:08Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/6711",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 6717,
+   "title": "Add the B lang and .s for assembly",
+   "url": "https://github.com/github-linguist/linguist/issues/6717",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2026-08-26T18:19:21Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "PR #8056 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/pull/8056",
+    "https://github.com/github-linguist/linguist/issues/6717",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 6721,
+   "title": "Add `Markdoc`, `.mdoc`",
+   "url": "https://github.com/github-linguist/linguist/issues/6721",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2024-03-11T20:10:40Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/6721",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 6731,
+   "title": "Language Request: SCL (Structured Text)",
+   "url": "https://github.com/github-linguist/linguist/issues/6731",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2024-03-01T11:54:42Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "open 33 months with no human comment, in a repo pushed to 9 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/6731",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 6754,
+   "title": "New Language: Log files (log4net / most log files)",
+   "url": "https://github.com/github-linguist/linguist/issues/6754",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2024-11-08T09:03:33Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/6754",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 6800,
+   "title": "Add Matrix Market Exchange Formats support",
+   "url": "https://github.com/github-linguist/linguist/issues/6800",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2024-04-19T00:36:41Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "open 31 months with no human comment, in a repo pushed to 9 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/6800",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 6801,
+   "title": "Add FunC language for TON SmartContracts",
+   "url": "https://github.com/github-linguist/linguist/issues/6801",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2024-04-22T12:02:28Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "open 31 months with no human comment, in a repo pushed to 9 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/6801",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 6819,
+   "title": "Twine Language Syntax (And all flavors)",
+   "url": "https://github.com/github-linguist/linguist/issues/6819",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2024-05-10T14:24:37Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "open 31 months with no human comment, in a repo pushed to 9 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/6819",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 6827,
+   "title": "Add support for Verilog-AMS",
+   "url": "https://github.com/github-linguist/linguist/issues/6827",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2024-05-14T14:54:48Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "open 30 months with no human comment, in a repo pushed to 9 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/6827",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 6840,
+   "title": "Add Pikchr",
+   "url": "https://github.com/github-linguist/linguist/issues/6840",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2024-05-23T23:04:35Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/6840",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 6843,
+   "title": "Add Dictu",
+   "url": "https://github.com/github-linguist/linguist/issues/6843",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2024-05-19T19:06:00Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "open 30 months with no human comment, in a repo pushed to 9 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/6843",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 6852,
+   "title": "Add GemStone/S",
+   "url": "https://github.com/github-linguist/linguist/issues/6852",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2024-05-23T16:01:37Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "open 30 months with no human comment, in a repo pushed to 9 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/6852",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 6857,
+   "title": "Add Skript",
+   "url": "https://github.com/github-linguist/linguist/issues/6857",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2024-05-28T15:42:08Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #8054 by @RohanDaCoder is already open against this issue",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/pull/8054"
+   ]
+  },
+  {
+   "number": 6866,
+   "title": "Add AppGameKit",
+   "url": "https://github.com/github-linguist/linguist/issues/6866",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2024-06-12T23:33:55Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "open 30 months with no human comment, in a repo pushed to 9 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/6866",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 6895,
+   "title": "Add Language: ALFA - Abbreviated Language for Authorization",
+   "url": "https://github.com/github-linguist/linguist/issues/6895",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2024-06-20T05:50:24Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "open 29 months with no human comment, in a repo pushed to 9 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/6895",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 6899,
+   "title": "Jakt",
+   "url": "https://github.com/github-linguist/linguist/issues/6899",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2024-06-22T18:27:52Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "open 29 months with no human comment, in a repo pushed to 9 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/6899",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 6902,
+   "title": "Alda",
+   "url": "https://github.com/github-linguist/linguist/issues/6902",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2024-06-22T18:59:17Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "open 29 months with no human comment, in a repo pushed to 9 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/6902",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 6904,
+   "title": "Wenyan",
+   "url": "https://github.com/github-linguist/linguist/issues/6904",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2024-06-22T19:09:07Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "open 29 months with no human comment, in a repo pushed to 9 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/6904",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/wenyan-lang/wenyan/wiki/Standard-Library-Cheatsheet"
+   ]
+  },
+  {
+   "number": 6905,
+   "title": "Coconut",
+   "url": "https://github.com/github-linguist/linguist/issues/6905",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2024-06-22T19:33:24Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "open 29 months with no human comment, in a repo pushed to 9 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/6905",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 6906,
+   "title": "Gluon",
+   "url": "https://github.com/github-linguist/linguist/issues/6906",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2024-06-22T19:41:17Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "open 29 months with no human comment, in a repo pushed to 9 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/6906",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 6907,
+   "title": "P",
+   "url": "https://github.com/github-linguist/linguist/issues/6907",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2024-06-22T19:50:01Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "PR #9 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rockwotj/chorus/pull/9",
+    "https://github.com/github-linguist/linguist/issues/6907",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 6908,
+   "title": "Gravity",
+   "url": "https://github.com/github-linguist/linguist/issues/6908",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2024-06-22T19:51:59Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "open 29 months with no human comment, in a repo pushed to 9 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/6908",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 6909,
+   "title": "Unison",
+   "url": "https://github.com/github-linguist/linguist/issues/6909",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2024-06-22T20:13:33Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "open 29 months with no human comment, in a repo pushed to 9 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/6909",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 6920,
+   "title": "Wa(凹语言)",
+   "url": "https://github.com/github-linguist/linguist/issues/6920",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2024-06-30T10:23:52Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "open 29 months with no human comment, in a repo pushed to 9 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/6920",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 6926,
+   "title": "uBO",
+   "url": "https://github.com/github-linguist/linguist/issues/6926",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2024-10-01T04:23:17Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "open 29 months with no human comment, in a repo pushed to 9 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/6926",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 6929,
+   "title": "Add Asp scripting language",
+   "url": "https://github.com/github-linguist/linguist/issues/6929",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2024-08-13T14:08:59Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/6929",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 6931,
+   "title": "Add Onyx",
+   "url": "https://github.com/github-linguist/linguist/issues/6931",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2024-09-02T05:01:31Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "open 29 months with no human comment, in a repo pushed to 9 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/6931",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.onyxlang.io/book/syntax/syntax.html"
+   ]
+  },
+  {
+   "number": 6932,
+   "title": "Lobster",
+   "url": "https://github.com/github-linguist/linguist/issues/6932",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2024-07-07T18:02:30Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "open 29 months with no human comment, in a repo pushed to 9 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/6932",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 6946,
+   "title": "Lux",
+   "url": "https://github.com/github-linguist/linguist/issues/6946",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2024-07-19T18:38:03Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "open 28 months with no human comment, in a repo pushed to 9 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/6946",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 6947,
+   "title": "SOUL",
+   "url": "https://github.com/github-linguist/linguist/issues/6947",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2024-07-19T18:40:47Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "open 28 months with no human comment, in a repo pushed to 9 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/6947",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 6948,
+   "title": "Flix",
+   "url": "https://github.com/github-linguist/linguist/issues/6948",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2024-07-19T18:44:27Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "open 28 months with no human comment, in a repo pushed to 9 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/6948",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 6949,
+   "title": "Hylo",
+   "url": "https://github.com/github-linguist/linguist/issues/6949",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2024-07-19T18:48:36Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "open 28 months with no human comment, in a repo pushed to 9 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/6949",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.hylo-lang.org/language-tour/basic-types"
+   ]
+  },
+  {
+   "number": 6950,
+   "title": "Amber",
+   "url": "https://github.com/github-linguist/linguist/issues/6950",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2024-07-19T18:53:58Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "open 28 months with no human comment, in a repo pushed to 9 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/6950",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.amber-lang.com/basic_syntax/data_types"
+   ]
+  },
+  {
+   "number": 6951,
+   "title": "Wyvern",
+   "url": "https://github.com/github-linguist/linguist/issues/6951",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2024-07-19T18:58:44Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "open 28 months with no human comment, in a repo pushed to 9 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/6951",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 6956,
+   "title": "Felix",
+   "url": "https://github.com/github-linguist/linguist/issues/6956",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2024-07-21T19:54:24Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "open 28 months with no human comment, in a repo pushed to 9 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/6956",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 6960,
+   "title": "Rune",
+   "url": "https://github.com/github-linguist/linguist/issues/6960",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2024-07-21T20:14:14Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "open 28 months with no human comment, in a repo pushed to 9 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/6960",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 6961,
+   "title": "Catala",
+   "url": "https://github.com/github-linguist/linguist/issues/6961",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2024-07-21T20:16:15Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "open 28 months with no human comment, in a repo pushed to 9 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/6961",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 6980,
+   "title": "Scratch",
+   "url": "https://github.com/github-linguist/linguist/issues/6980",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2024-09-26T12:06:42Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/6980",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 6987,
+   "title": "Goby",
+   "url": "https://github.com/github-linguist/linguist/issues/6987",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2024-08-11T15:44:40Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "open 27 months with no human comment, in a repo pushed to 9 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/6987",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 7035,
+   "title": "Add Support for PLC Structured Text Language (IEC 61131-3)",
+   "url": "https://github.com/github-linguist/linguist/issues/7035",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2026-02-23T09:07:29Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/7035",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 7061,
+   "title": "New language: Atlas ",
+   "url": "https://github.com/github-linguist/linguist/issues/7061",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2024-10-27T13:49:50Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/7061",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 7067,
+   "title": "GDShader / Godot Shading Language",
+   "url": "https://github.com/github-linguist/linguist/issues/7067",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2025-09-26T20:11:48Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "PR #7071 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/pull/7071",
+    "https://github.com/github-linguist/linguist/issues/7067",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 7103,
+   "title": "Add nuon support",
+   "url": "https://github.com/github-linguist/linguist/issues/7103",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2024-10-23T21:34:41Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "open 25 months with no human comment, in a repo pushed to 9 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/7103",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.rs/nuon/latest/nuon/"
+   ]
+  },
+  {
+   "number": 7105,
+   "title": "New language: Teal",
+   "url": "https://github.com/github-linguist/linguist/issues/7105",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2025-08-18T17:41:57Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/7105",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 7156,
+   "title": "Flow",
+   "url": "https://github.com/github-linguist/linguist/issues/7156",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2024-12-13T03:11:00Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "open 23 months with no human comment, in a repo pushed to 9 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/7156",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 7165,
+   "title": "Add ArkTs, aka eTS (Extended TypeScript)",
+   "url": "https://github.com/github-linguist/linguist/issues/7165",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2025-09-21T05:14:33Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/7165",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 7171,
+   "title": "DataFlex - add support for this language",
+   "url": "https://github.com/github-linguist/linguist/issues/7171",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2025-07-02T18:57:29Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #7479 by @sonnyfalk is already open against this issue",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/pull/7479"
+   ]
+  },
+  {
+   "number": 7172,
+   "title": "Add Cangjie",
+   "url": "https://github.com/github-linguist/linguist/issues/7172",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2024-12-20T13:44:52Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "open 23 months with no human comment, in a repo pushed to 9 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/7172",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 7173,
+   "title": "Add WXML, WXSS and WXS",
+   "url": "https://github.com/github-linguist/linguist/issues/7173",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2024-12-20T14:00:44Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "open 23 months with no human comment, in a repo pushed to 9 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/7173",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 7178,
+   "title": "New language: LPC",
+   "url": "https://github.com/github-linguist/linguist/issues/7178",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2024-12-26T18:39:06Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #7179 by @jlchmura is already open against this issue",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/pull/7179"
+   ]
+  },
+  {
+   "number": 7205,
+   "title": "Open Shading Language",
+   "url": "https://github.com/github-linguist/linguist/issues/7205",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2025-01-19T17:49:15Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "open 22 months with no human comment, in a repo pushed to 9 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/7205",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://open-shading-language.readthedocs.io/en/v1.13.10.0/syntax.html"
+   ]
+  },
+  {
+   "number": 7206,
+   "title": "Metal Shading Language",
+   "url": "https://github.com/github-linguist/linguist/issues/7206",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2025-01-19T18:07:58Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "open 22 months with no human comment, in a repo pushed to 9 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/7206",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 7244,
+   "title": "Add Language Karel",
+   "url": "https://github.com/github-linguist/linguist/issues/7244",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2025-02-18T21:34:09Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "open 21 months with no human comment, in a repo pushed to 9 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/7244",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 7277,
+   "title": "goboscript",
+   "url": "https://github.com/github-linguist/linguist/issues/7277",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2025-03-29T23:41:09Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/7277",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 7304,
+   "title": "Cortex XQL",
+   "url": "https://github.com/github-linguist/linguist/issues/7304",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2026-11-03T14:39:44Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "open 20 months with no human comment, in a repo pushed to 9 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/7304",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 7451,
+   "title": "PARIG/GP",
+   "url": "https://github.com/github-linguist/linguist/issues/7451",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2025-06-18T15:13:55Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "open 17 months with no human comment, in a repo pushed to 9 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/7451",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 7454,
+   "title": "GritQL",
+   "url": "https://github.com/github-linguist/linguist/issues/7454",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2025-06-20T11:03:09Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "open 17 months with no human comment, in a repo pushed to 9 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/7454",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.grit.io/language/syntax"
+   ]
+  },
+  {
+   "number": 7482,
+   "title": "TLISP Programming language",
+   "url": "https://github.com/github-linguist/linguist/issues/7482",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2025-07-06T17:34:07Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "open 16 months with no human comment, in a repo pushed to 9 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/7482",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 7499,
+   "title": "Add support for Metamath",
+   "url": "https://github.com/github-linguist/linguist/issues/7499",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2025-07-23T20:40:50Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "open 16 months with no human comment, in a repo pushed to 9 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/7499",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 7527,
+   "title": "VTL",
+   "url": "https://github.com/github-linguist/linguist/issues/7527",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2025-08-13T11:30:35Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "open 15 months with no human comment, in a repo pushed to 9 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/7527",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 7575,
+   "title": "Add highlighting for `strace` command output",
+   "url": "https://github.com/github-linguist/linguist/issues/7575",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2025-09-09T11:20:17Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "open 14 months with no human comment, in a repo pushed to 9 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/7575",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 7576,
+   "title": "Configuration  .conf files",
+   "url": "https://github.com/github-linguist/linguist/issues/7576",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2025-09-15T16:41:26Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/7576",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 7639,
+   "title": "Golang template support",
+   "url": "https://github.com/github-linguist/linguist/issues/7639",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2025-10-21T11:15:23Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "PR #7687 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/pull/7687",
+    "https://github.com/github-linguist/linguist/issues/7639",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 7748,
+   "title": "Add Quint language support",
+   "url": "https://github.com/github-linguist/linguist/issues/7748",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2026-01-10T20:02:31Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "PR #7959 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/pull/7959",
+    "https://github.com/github-linguist/linguist/issues/7748",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 7789,
+   "title": "Emojicode",
+   "url": "https://github.com/github-linguist/linguist/issues/7789",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2026-02-03T12:23:59Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @abdishakur1000 283 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/7789#issuecomment-3840961133",
+    "https://github.com/github-linguist/linguist/issues/7789",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 7886,
+   "title": "Excel Formula Language",
+   "url": "https://github.com/github-linguist/linguist/issues/7886",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2026-03-30T06:38:06Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "open 8 months with no human comment, in a repo pushed to 9 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/7886",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 7950,
+   "title": "Add SNOBOL",
+   "url": "https://github.com/github-linguist/linguist/issues/7950",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2026-05-06T04:19:33Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "open 6 months with no human comment, in a repo pushed to 9 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/7950",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 8013,
+   "title": "PL/I language support",
+   "url": "https://github.com/github-linguist/linguist/issues/8013",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2026-06-10T18:40:05Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #8249 by @Portll is already open against this issue",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/pull/8249"
+   ]
+  },
+  {
+   "number": 8046,
+   "title": "Add support for Civet language",
+   "url": "https://github.com/github-linguist/linguist/issues/8046",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2026-07-11T14:30:50Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #8063 by @TemRevil is already open against this issue",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/pull/8063"
+   ]
+  },
+  {
+   "number": 8206,
+   "title": "Add support for Salam",
+   "url": "https://github.com/github-linguist/linguist/issues/8206",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2026-09-25T09:02:18Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "2 stale claims, the most recent by @Shraddha2685 49 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+3 more)",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/8206#issuecomment-5828918353",
+    "https://github.com/github-linguist/linguist/issues/8206",
+    "https://github.com/github-linguist/linguist/blob/HEAD/lib/linguist/languages.yml",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 8317,
+   "title": "Lean is missing a color in `lib/linguist/languages.yml`",
+   "url": "https://github.com/github-linguist/linguist/issues/8317",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2026-11-10T15:40:23Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #8325 by @deni-ing is already open against this issue",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/pull/8325"
+   ]
+  },
+  {
+   "number": 8322,
+   "title": "Algol 68",
+   "url": "https://github.com/github-linguist/linguist/issues/8322",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2026-11-11T01:15:12Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #8326 by @DecimalTurn is already open against this issue",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/pull/8326"
+   ]
+  }
+ ]
+}

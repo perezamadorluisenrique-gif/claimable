@@ -1,0 +1,29 @@
+{
+ "owner": "thoughtbot",
+ "repo": "factory_bot",
+ "language": "Ruby",
+ "stars": 8166,
+ "description": "A library for setting up Ruby objects as test data.",
+ "visitedAt": "2026-11-13T08:02:18.780Z",
+ "issues": [
+  {
+   "number": 1826,
+   "title": "Feedback on Documentation",
+   "url": "https://github.com/thoughtbot/factory_bot/issues/1826",
+   "labels": [
+    "documentation",
+    "good first issue",
+    "help wanted"
+   ],
+   "updatedAt": "2026-07-31T09:00:17Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #1829 by @Y12hu is already open against this issue",
+   "evidence": [
+    "https://github.com/thoughtbot/factory_bot/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/thoughtbot/factory_bot/pull/1829",
+    "https://github.com/thoughtbot/factory_bot/pull/1831"
+   ]
+  }
+ ]
+}

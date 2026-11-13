@@ -1,0 +1,28 @@
+{
+ "owner": "square",
+ "repo": "leakcanary",
+ "language": "Kotlin",
+ "stars": 30006,
+ "description": "A memory leak detection library for Android.",
+ "visitedAt": "2026-11-13T08:02:18.780Z",
+ "issues": [
+  {
+   "number": 1839,
+   "title": "🙏 Guest Book 🙏",
+   "url": "https://github.com/square/leakcanary/issues/1839",
+   "labels": [
+    "status: help wanted",
+    "good first issue"
+   ],
+   "updatedAt": "2024-11-20T21:13:40Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @MohitMandalia 1777 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting",
+   "evidence": [
+    "https://github.com/square/leakcanary/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/square/leakcanary/issues/1839#issuecomment-1003513049",
+    "https://github.com/square/leakcanary/issues/1839"
+   ]
+  }
+ ]
+}

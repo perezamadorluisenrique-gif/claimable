@@ -1,0 +1,66 @@
+{
+ "owner": "ktorio",
+ "repo": "ktor",
+ "language": "Kotlin",
+ "stars": 14562,
+ "description": "Framework for quickly creating connected applications in Kotlin with minimal effort",
+ "visitedAt": "2026-11-13T08:02:18.780Z",
+ "issues": [
+  {
+   "number": 96,
+   "title": "Implement RealWorld",
+   "url": "https://github.com/ktorio/ktor/issues/96",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2020-08-10T15:22:27Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.gradle.org/current/userguide/publishing_maven.html) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/ktorio/ktor/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ktorio/ktor/issues/96",
+    "https://github.com/ktorio/ktor/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.gradle.org/current/userguide/publishing_maven.html"
+   ]
+  },
+  {
+   "number": 1159,
+   "title": "Feature: Ktor websocket client with Stomp",
+   "url": "https://github.com/ktorio/ktor/issues/1159",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "up for grabs"
+   ],
+   "updatedAt": "2025-07-11T20:36:02Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "already assigned to @e5l",
+   "evidence": [
+    "https://github.com/ktorio/ktor/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ktorio/ktor/issues/1159",
+    "https://github.com/ktorio/ktor/issues/1159#issuecomment-1000790965"
+   ]
+  },
+  {
+   "number": 1899,
+   "title": "Systemd sockets",
+   "url": "https://github.com/ktorio/ktor/issues/1899",
+   "labels": [
+    "help wanted",
+    "feature"
+   ],
+   "updatedAt": "2020-08-10T15:27:40Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.gradle.org/current/userguide/publishing_maven.html) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/ktorio/ktor/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ktorio/ktor/issues/1899",
+    "https://github.com/ktorio/ktor/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.gradle.org/current/userguide/publishing_maven.html"
+   ]
+  }
+ ]
+}

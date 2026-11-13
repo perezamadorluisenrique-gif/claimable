@@ -1,0 +1,289 @@
+{
+ "owner": "thunderbird",
+ "repo": "thunderbird-android",
+ "language": "Kotlin",
+ "stars": 14203,
+ "description": "Thunderbird for Android – Open Source Email App for Android (fka K-9 Mail)",
+ "visitedAt": "2026-11-13T08:02:18.780Z",
+ "issues": [
+  {
+   "number": 3042,
+   "title": "Confusing setting name: \"When ‘Auto-sync’ is checked\"",
+   "url": "https://github.com/thunderbird/thunderbird-android/issues/3042",
+   "labels": [
+    "type: enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2026-11-02T15:11:55Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #11830 by @MGRAFF2006 is already open against this issue",
+   "evidence": [
+    "https://github.com/thunderbird/thunderbird-android/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/thunderbird/thunderbird-android/pull/11830"
+   ]
+  },
+  {
+   "number": 3562,
+   "title": "File extension k9s seems not registered in android",
+   "url": "https://github.com/thunderbird/thunderbird-android/issues/3562",
+   "labels": [
+    "type: enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2026-07-29T10:05:37Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @chrisdebian 107 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/thunderbird/thunderbird-android/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/thunderbird/thunderbird-android/issues/3562#issuecomment-5116223914",
+    "https://github.com/thunderbird/thunderbird-android/issues/3562",
+    "https://docs.github.com/en",
+    "https://github.com/thunderbird/thunderbird-android/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 7332,
+   "title": "Improve error messages during account setup",
+   "url": "https://github.com/thunderbird/thunderbird-android/issues/7332",
+   "labels": [
+    "type: enhancement",
+    "good first issue",
+    "priority: low"
+   ],
+   "updatedAt": "2025-07-10T23:13:24Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/thunderbird/thunderbird-android/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/thunderbird/thunderbird-android/issues/7332",
+    "https://docs.github.com/en",
+    "https://github.com/thunderbird/thunderbird-android/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 7554,
+   "title": "Ask for notification permission when enabling account notifications",
+   "url": "https://github.com/thunderbird/thunderbird-android/issues/7554",
+   "labels": [
+    "good first issue",
+    "priority: medium"
+   ],
+   "updatedAt": "2025-03-12T11:44:35Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #11287 by @rafaeltonholo is already open against this issue",
+   "evidence": [
+    "https://github.com/thunderbird/thunderbird-android/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/thunderbird/thunderbird-android/issues/11287"
+   ]
+  },
+  {
+   "number": 7758,
+   "title": "Switch to Activity Result API",
+   "url": "https://github.com/thunderbird/thunderbird-android/issues/7758",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2026-10-24T15:06:06Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "@feather2222 claimed it 20 days ago",
+   "evidence": [
+    "https://github.com/thunderbird/thunderbird-android/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/thunderbird/thunderbird-android/pull/7742",
+    "https://github.com/thunderbird/thunderbird-android/pull/8737",
+    "https://github.com/thunderbird/thunderbird-android/pull/8740",
+    "https://github.com/thunderbird/thunderbird-android/pull/8746",
+    "https://github.com/thunderbird/thunderbird-android/pull/8749",
+    "https://github.com/thunderbird/thunderbird-android/pull/8753",
+    "https://github.com/thunderbird/thunderbird-android/issues/7758#issuecomment-6385787688",
+    "https://github.com/thunderbird/thunderbird-android/issues/7758#issuecomment-2165755346"
+   ]
+  },
+  {
+   "number": 7790,
+   "title": "Widget font size too high as a function of the Android font size",
+   "url": "https://github.com/thunderbird/thunderbird-android/issues/7790",
+   "labels": [
+    "type: enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2026-08-07T10:55:08Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "already assigned to @varshilsoni",
+   "evidence": [
+    "https://github.com/thunderbird/thunderbird-android/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/thunderbird/thunderbird-android/pull/11081",
+    "https://github.com/thunderbird/thunderbird-android/issues/7790"
+   ]
+  },
+  {
+   "number": 7906,
+   "title": "Use account image for \"K-9 Accounts\" widget",
+   "url": "https://github.com/thunderbird/thunderbird-android/issues/7906",
+   "labels": [
+    "type: enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2026-07-29T10:12:21Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @chrisdebian 107 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/thunderbird/thunderbird-android/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/thunderbird/thunderbird-android/issues/7906#issuecomment-5116306790",
+    "https://github.com/thunderbird/thunderbird-android/issues/7906",
+    "https://docs.github.com/en",
+    "https://github.com/thunderbird/thunderbird-android/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 8390,
+   "title": "Create Archive Folder if None Exists",
+   "url": "https://github.com/thunderbird/thunderbird-android/issues/8390",
+   "labels": [
+    "type: enhancement",
+    "good first issue",
+    "rls"
+   ],
+   "updatedAt": "2026-04-11T22:00:53Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/thunderbird/thunderbird-android/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/thunderbird/thunderbird-android/issues/8390",
+    "https://docs.github.com/en",
+    "https://github.com/thunderbird/thunderbird-android/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 8460,
+   "title": "Indicator of email from how much time is synchronized",
+   "url": "https://github.com/thunderbird/thunderbird-android/issues/8460",
+   "labels": [
+    "type: enhancement",
+    "good first issue",
+    "status: needs design"
+   ],
+   "updatedAt": "2026-07-29T11:18:21Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "labelled `status: needs design` — the project is saying not to start",
+   "evidence": [
+    "https://github.com/thunderbird/thunderbird-android/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/thunderbird/thunderbird-android/issues/8460"
+   ]
+  },
+  {
+   "number": 8796,
+   "title": "Make harder moving messages to the wrong folder, instead of scrolling the list of folders",
+   "url": "https://github.com/thunderbird/thunderbird-android/issues/8796",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2026-09-11T09:10:08Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/thunderbird/thunderbird-android/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/thunderbird/thunderbird-android/issues/8796",
+    "https://docs.github.com/en",
+    "https://github.com/thunderbird/thunderbird-android/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 9430,
+   "title": "Swipe actions not available to TalkBack users",
+   "url": "https://github.com/thunderbird/thunderbird-android/issues/9430",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2026-09-11T09:09:35Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/thunderbird/thunderbird-android/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/thunderbird/thunderbird-android/issues/9430",
+    "https://docs.github.com/en",
+    "https://github.com/thunderbird/thunderbird-android/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 10033,
+   "title": "Unable to transfer profiles from chromebook",
+   "url": "https://github.com/thunderbird/thunderbird-android/issues/10033",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2026-10-18T14:28:36Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @yuvarajvodiboina 26 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/thunderbird/thunderbird-android/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/thunderbird/thunderbird-android/issues/10033#issuecomment-6251082314",
+    "https://github.com/thunderbird/thunderbird-android/issues/10033",
+    "https://docs.github.com/en",
+    "https://github.com/thunderbird/thunderbird-android/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 10114,
+   "title": "Attachment handling",
+   "url": "https://github.com/thunderbird/thunderbird-android/issues/10114",
+   "labels": [
+    "type: enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2026-07-24T19:16:42Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #11709 by @sirtet is already open against this issue",
+   "evidence": [
+    "https://github.com/thunderbird/thunderbird-android/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/thunderbird/thunderbird-android/pull/11709"
+   ]
+  },
+  {
+   "number": 11502,
+   "title": "From address is not shown in full detail",
+   "url": "https://github.com/thunderbird/thunderbird-android/issues/11502",
+   "labels": [
+    "good first issue",
+    "status: needs design"
+   ],
+   "updatedAt": "2026-10-01T15:13:36Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #11574 by @arpitJ-dev is already open against this issue",
+   "evidence": [
+    "https://github.com/thunderbird/thunderbird-android/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/thunderbird/thunderbird-android/pull/11574"
+   ]
+  },
+  {
+   "number": 11818,
+   "title": "Incorrect rendering of HTML signature",
+   "url": "https://github.com/thunderbird/thunderbird-android/issues/11818",
+   "labels": [
+    "good first issue",
+    "unconfirmed"
+   ],
+   "updatedAt": "2026-11-05T18:32:53Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #11882 by @dougsparling is already open against this issue",
+   "evidence": [
+    "https://github.com/thunderbird/thunderbird-android/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/thunderbird/thunderbird-android/pull/11882"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "owner": "Homebrew",
+ "repo": "homebrew-core",
+ "language": "Ruby",
+ "stars": 15661,
+ "description": "🍻 Default and OSS formulae (built-from-source packages) for the package manager for everywhere",
+ "visitedAt": "2026-11-13T08:02:18.780Z",
+ "issues": [
+  {
+   "number": 139929,
+   "title": "Existing formulae with unsolved issues",
+   "url": "https://github.com/Homebrew/homebrew-core/issues/139929",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-13T01:03:54Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "PR #141341 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+7 more)",
+   "evidence": [
+    "https://github.com/Homebrew/homebrew-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/Homebrew/homebrew-core/pull/141341",
+    "https://github.com/Homebrew/homebrew-core/pull/142057",
+    "https://github.com/Homebrew/homebrew-core/pull/158644",
+    "https://github.com/Homebrew/homebrew-core/pull/159061",
+    "https://github.com/Homebrew/homebrew-core/pull/159199",
+    "https://github.com/Homebrew/homebrew-core/pull/159200",
+    "https://github.com/Homebrew/homebrew-core/issues/139929",
+    "https://github.com/Homebrew/homebrew-core/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.brew.sh/Formula-Cookbook#commit"
+   ]
+  },
+  {
+   "number": 191352,
+   "title": "Improve `:all` bottle coverage",
+   "url": "https://github.com/Homebrew/homebrew-core/issues/191352",
+   "labels": [
+    "help wanted",
+    "good first issue"
+   ],
+   "updatedAt": "2026-11-04T22:28:08Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "PR #19174 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+83 more)",
+   "evidence": [
+    "https://github.com/Homebrew/homebrew-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/Homebrew/brew/pull/19174",
+    "https://github.com/Homebrew/homebrew-core/pull/234063",
+    "https://github.com/Homebrew/homebrew-core/pull/234051",
+    "https://github.com/Homebrew/homebrew-core/pull/234094",
+    "https://github.com/Homebrew/homebrew-core/pull/234096",
+    "https://github.com/Homebrew/homebrew-core/pull/234097",
+    "https://github.com/Homebrew/homebrew-core/pull/234157",
+    "https://github.com/Homebrew/homebrew-core/pull/234320",
+    "https://github.com/Homebrew/homebrew-core/pull/234343"
+   ]
+  }
+ ]
+}

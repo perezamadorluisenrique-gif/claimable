@@ -1,0 +1,347 @@
+{
+ "owner": "freeCodeCamp",
+ "repo": "devdocs",
+ "language": "Ruby",
+ "stars": 39618,
+ "description": "API Documentation Browser",
+ "visitedAt": "2026-11-13T08:02:18.780Z",
+ "issues": [
+  {
+   "number": 6,
+   "title": "Current page's table of contents",
+   "url": "https://github.com/freeCodeCamp/devdocs/issues/6",
+   "labels": [
+    "feature",
+    "help wanted"
+   ],
+   "updatedAt": "2026-10-20T11:31:21Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #2744 by @devdocs-bot is already open against this issue",
+   "evidence": [
+    "https://github.com/freeCodeCamp/devdocs/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/freeCodeCamp/devdocs/issues/2744",
+    "https://github.com/freeCodeCamp/devdocs/issues/1564",
+    "https://github.com/freeCodeCamp/devdocs/issues/1152",
+    "https://github.com/freeCodeCamp/devdocs/issues/953",
+    "https://github.com/freeCodeCamp/devdocs/issues/1942",
+    "https://github.com/freeCodeCamp/devdocs/issues/2075",
+    "https://github.com/freeCodeCamp/devdocs/issues/1752",
+    "https://github.com/freeCodeCamp/devdocs/issues/771",
+    "https://github.com/freeCodeCamp/devdocs/issues/2642"
+   ]
+  },
+  {
+   "number": 927,
+   "title": "Chef docs are outdated (and never will be updated)",
+   "url": "https://github.com/freeCodeCamp/devdocs/issues/927",
+   "labels": [
+    "docs/update",
+    "help wanted"
+   ],
+   "updatedAt": "2026-03-27T18:20:54Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.chef.io/cookbooks.html) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/freeCodeCamp/devdocs/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/freeCodeCamp/devdocs/issues/927",
+    "https://github.com/freeCodeCamp/devdocs/blob/HEAD/README.md",
+    "https://docs.chef.io/cookbooks.html",
+    "https://github.com/freeCodeCamp/devdocs/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 1193,
+   "title": "Use Fetch instead of XHR",
+   "url": "https://github.com/freeCodeCamp/devdocs/issues/1193",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2020-03-22T10:35:45Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #1845 by @hmdros is already open against this issue",
+   "evidence": [
+    "https://github.com/freeCodeCamp/devdocs/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/freeCodeCamp/devdocs/pull/1845"
+   ]
+  },
+  {
+   "number": 1277,
+   "title": "Android SDK Documentation",
+   "url": "https://github.com/freeCodeCamp/devdocs/issues/1277",
+   "labels": [
+    "docs/new+request",
+    "help wanted"
+   ],
+   "updatedAt": "2023-07-18T08:50:16Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/freeCodeCamp/devdocs/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/freeCodeCamp/devdocs/issues/1277",
+    "https://github.com/freeCodeCamp/devdocs/blob/HEAD/README.md",
+    "https://github.com/freeCodeCamp/devdocs/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 1517,
+   "title": "Search hint for new users",
+   "url": "https://github.com/freeCodeCamp/devdocs/issues/1517",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-02-27T20:56:03Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #2713 by @Vam-si-krish is already open against this issue",
+   "evidence": [
+    "https://github.com/freeCodeCamp/devdocs/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/freeCodeCamp/devdocs/pull/2713"
+   ]
+  },
+  {
+   "number": 1612,
+   "title": "Add ecto_sql package",
+   "url": "https://github.com/freeCodeCamp/devdocs/issues/1612",
+   "labels": [
+    "docs/new+request",
+    "help wanted"
+   ],
+   "updatedAt": "2022-06-02T22:17:24Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "open 63 months with no human comment, in a repo pushed to 1 days ago — easy issues do not survive that long here; assume it is harder than its labels say",
+   "evidence": [
+    "https://github.com/freeCodeCamp/devdocs/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/freeCodeCamp/devdocs/issues/1612",
+    "https://github.com/freeCodeCamp/devdocs/blob/HEAD/README.md",
+    "https://github.com/freeCodeCamp/devdocs/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 1674,
+   "title": "Add Echo and Gorm Docs",
+   "url": "https://github.com/freeCodeCamp/devdocs/issues/1674",
+   "labels": [
+    "docs/new+request",
+    "help wanted"
+   ],
+   "updatedAt": "2021-12-17T09:45:44Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "open 60 months with no human comment, in a repo pushed to 1 days ago — easy issues do not survive that long here; assume it is harder than its labels say",
+   "evidence": [
+    "https://github.com/freeCodeCamp/devdocs/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/freeCodeCamp/devdocs/issues/1674",
+    "https://github.com/freeCodeCamp/devdocs/blob/HEAD/README.md",
+    "https://github.com/freeCodeCamp/devdocs/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 1687,
+   "title": "Add flutter docs",
+   "url": "https://github.com/freeCodeCamp/devdocs/issues/1687",
+   "labels": [
+    "docs/new+request",
+    "help wanted"
+   ],
+   "updatedAt": "2025-07-04T09:29:50Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/freeCodeCamp/devdocs/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/freeCodeCamp/devdocs/issues/1687",
+    "https://github.com/freeCodeCamp/devdocs/blob/HEAD/README.md",
+    "https://github.com/freeCodeCamp/devdocs/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 1727,
+   "title": "Nuxt JS",
+   "url": "https://github.com/freeCodeCamp/devdocs/issues/1727",
+   "labels": [
+    "docs/new+request",
+    "help wanted"
+   ],
+   "updatedAt": "2022-10-08T03:26:52Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #1832 by @thewheat is already open against this issue",
+   "evidence": [
+    "https://github.com/freeCodeCamp/devdocs/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/freeCodeCamp/devdocs/pull/1832"
+   ]
+  },
+  {
+   "number": 1752,
+   "title": "Add docs for mc-stan.org",
+   "url": "https://github.com/freeCodeCamp/devdocs/issues/1752",
+   "labels": [
+    "docs/new+request",
+    "help wanted"
+   ],
+   "updatedAt": "2023-02-14T17:06:38Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #1832 by @thewheat is already open against this issue",
+   "evidence": [
+    "https://github.com/freeCodeCamp/devdocs/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/freeCodeCamp/devdocs/pull/1832"
+   ]
+  },
+  {
+   "number": 2010,
+   "title": "alpine.js documentation",
+   "url": "https://github.com/freeCodeCamp/devdocs/issues/2010",
+   "labels": [
+    "docs/new+request",
+    "help wanted"
+   ],
+   "updatedAt": "2025-02-02T13:46:37Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/freeCodeCamp/devdocs/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/freeCodeCamp/devdocs/issues/2010",
+    "https://github.com/freeCodeCamp/devdocs/blob/HEAD/README.md",
+    "https://github.com/freeCodeCamp/devdocs/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2058,
+   "title": "Support for Presto SQL language",
+   "url": "https://github.com/freeCodeCamp/devdocs/issues/2058",
+   "labels": [
+    "docs/new+request",
+    "help wanted"
+   ],
+   "updatedAt": "2023-10-09T19:18:32Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "open 38 months with no human comment, in a repo pushed to 1 days ago — easy issues do not survive that long here; assume it is harder than its labels say",
+   "evidence": [
+    "https://github.com/freeCodeCamp/devdocs/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/freeCodeCamp/devdocs/issues/2058",
+    "https://github.com/freeCodeCamp/devdocs/blob/HEAD/README.md",
+    "https://github.com/freeCodeCamp/devdocs/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2068,
+   "title": "Add support for Nuxt JS",
+   "url": "https://github.com/freeCodeCamp/devdocs/issues/2068",
+   "labels": [
+    "docs/new+request",
+    "help wanted"
+   ],
+   "updatedAt": "2023-10-09T19:18:33Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "open 38 months with no human comment, in a repo pushed to 1 days ago — easy issues do not survive that long here; assume it is harder than its labels say",
+   "evidence": [
+    "https://github.com/freeCodeCamp/devdocs/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/freeCodeCamp/devdocs/issues/2068",
+    "https://github.com/freeCodeCamp/devdocs/blob/HEAD/README.md",
+    "https://github.com/freeCodeCamp/devdocs/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2091,
+   "title": "update dart docs to current dart (3.13)",
+   "url": "https://github.com/freeCodeCamp/devdocs/issues/2091",
+   "labels": [
+    "docs/update",
+    "help wanted"
+   ],
+   "updatedAt": "2024-01-13T20:31:33Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "open 37 months with no human comment, in a repo pushed to 1 days ago — easy issues do not survive that long here; assume it is harder than its labels say",
+   "evidence": [
+    "https://github.com/freeCodeCamp/devdocs/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/freeCodeCamp/devdocs/issues/2091",
+    "https://github.com/freeCodeCamp/devdocs/blob/HEAD/README.md",
+    "https://github.com/freeCodeCamp/devdocs/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2302,
+   "title": "How to add Solidity  to this document",
+   "url": "https://github.com/freeCodeCamp/devdocs/issues/2302",
+   "labels": [
+    "docs/new+request",
+    "help wanted"
+   ],
+   "updatedAt": "2024-10-10T20:34:03Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/freeCodeCamp/devdocs/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/freeCodeCamp/devdocs/issues/2302",
+    "https://github.com/freeCodeCamp/devdocs/blob/HEAD/README.md",
+    "https://github.com/freeCodeCamp/devdocs/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2317,
+   "title": "Add AuthJS & DrizzleORM",
+   "url": "https://github.com/freeCodeCamp/devdocs/issues/2317",
+   "labels": [
+    "docs/new+request",
+    "help wanted"
+   ],
+   "updatedAt": "2024-10-10T20:33:58Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "open 27 months with no human comment, in a repo pushed to 1 days ago — easy issues do not survive that long here; assume it is harder than its labels say",
+   "evidence": [
+    "https://github.com/freeCodeCamp/devdocs/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/freeCodeCamp/devdocs/issues/2317",
+    "https://github.com/freeCodeCamp/devdocs/blob/HEAD/README.md",
+    "https://github.com/freeCodeCamp/devdocs/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2520,
+   "title": "llms.txt end points for each doc route",
+   "url": "https://github.com/freeCodeCamp/devdocs/issues/2520",
+   "labels": [
+    "feature",
+    "help wanted"
+   ],
+   "updatedAt": "2025-10-19T11:15:05Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #2674 by @claw-explorer is already open against this issue",
+   "evidence": [
+    "https://github.com/freeCodeCamp/devdocs/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/freeCodeCamp/devdocs/pull/2674"
+   ]
+  },
+  {
+   "number": 2611,
+   "title": "Feature: Organize documentation topics in beginner-friendly learning order",
+   "url": "https://github.com/freeCodeCamp/devdocs/issues/2611",
+   "labels": [
+    "docs/improvement",
+    "help wanted"
+   ],
+   "updatedAt": "2026-09-14T13:04:51Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "open 13 months with no human comment, in a repo pushed to 1 days ago — easy issues do not survive that long here; assume it is harder than its labels say",
+   "evidence": [
+    "https://github.com/freeCodeCamp/devdocs/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/freeCodeCamp/devdocs/issues/2611",
+    "https://github.com/freeCodeCamp/devdocs/blob/HEAD/README.md",
+    "https://github.com/freeCodeCamp/devdocs/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  }
+ ]
+}

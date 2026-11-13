@@ -1,0 +1,45 @@
+{
+ "owner": "varvet",
+ "repo": "pundit",
+ "language": "Ruby",
+ "stars": 8519,
+ "description": "Minimal authorization through OO design and pure Ruby classes",
+ "visitedAt": "2026-11-13T08:02:18.780Z",
+ "issues": [
+  {
+   "number": 723,
+   "title": "Overriding both authorize and policy is required for namespacing",
+   "url": "https://github.com/varvet/pundit/issues/723",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2024-05-15T13:53:40Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "discard",
+   "reason": "PR #772 by @TheDevJoao is already open against this issue",
+   "evidence": [
+    "https://github.com/varvet/pundit/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/varvet/pundit/pull/772",
+    "https://github.com/varvet/pundit/pull/883",
+    "https://github.com/varvet/pundit/pull/886"
+   ]
+  },
+  {
+   "number": 735,
+   "title": "[Request] Generate policy file when using scaffolding",
+   "url": "https://github.com/varvet/pundit/issues/735",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2026-08-15T09:53:34Z",
+   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "verdict": "reservations",
+   "reason": "2 stale claims, the most recent by @ponio-ponix 90 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting",
+   "evidence": [
+    "https://github.com/varvet/pundit/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/varvet/pundit/issues/735#issuecomment-5301697672",
+    "https://github.com/varvet/pundit/issues/735"
+   ]
+  }
+ ]
+}
