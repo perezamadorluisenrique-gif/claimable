@@ -1,0 +1,91 @@
+{
+ "owner": "iina",
+ "repo": "iina",
+ "language": "Swift",
+ "stars": 47081,
+ "description": "The modern video player for macOS.",
+ "visitedAt": "2026-11-13T16:28:29.473Z",
+ "issues": [
+  {
+   "number": 126,
+   "title": "Add Chromecast support?",
+   "url": "https://github.com/iina/iina/issues/126",
+   "labels": [
+    "help wanted",
+    "type: feature request"
+   ],
+   "updatedAt": "2026-08-15T14:35:24Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #3885 by @svobs is already open against this issue",
+   "evidence": [
+    "https://github.com/iina/iina/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/iina/iina/issues/3885",
+    "https://github.com/iina/iina/issues/2259",
+    "https://github.com/iina/iina/issues/2403",
+    "https://github.com/iina/iina/issues/2666",
+    "https://github.com/iina/iina/issues/3583",
+    "https://github.com/iina/iina/issues/2328",
+    "https://github.com/iina/iina/issues/4075",
+    "https://github.com/iina/iina/issues/2679",
+    "https://github.com/iina/iina/issues/3191"
+   ]
+  },
+  {
+   "number": 1094,
+   "title": "[Feature Request] Enhance browsers extension findings video URL's scheme",
+   "url": "https://github.com/iina/iina/issues/1094",
+   "labels": [
+    "help wanted",
+    "type: feature request"
+   ],
+   "updatedAt": "2017-10-24T14:25:59Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #3160 by @Oleg-Chashko is already open against this issue",
+   "evidence": [
+    "https://github.com/iina/iina/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/iina/iina/issues/3160",
+    "https://github.com/iina/iina/issues/5561"
+   ]
+  },
+  {
+   "number": 2172,
+   "title": "Last.fm / scrobbling support",
+   "url": "https://github.com/iina/iina/issues/2172",
+   "labels": [
+    "help wanted",
+    "type: feature request"
+   ],
+   "updatedAt": "2021-09-18T21:00:31Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.iina.io/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/iina/iina/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/iina/iina/issues/2172",
+    "https://docs.iina.io/",
+    "https://github.com/iina/iina/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/iina/iina/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 2686,
+   "title": "Charting out the future of IINA's development",
+   "url": "https://github.com/iina/iina/issues/2686",
+   "labels": [
+    "help wanted",
+    "type: project management",
+    "type: discuss"
+   ],
+   "updatedAt": "2020-02-23T17:04:46Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #2960 by @Mancerrss is already open against this issue",
+   "evidence": [
+    "https://github.com/iina/iina/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/iina/iina/issues/2960"
+   ]
+  }
+ ]
+}

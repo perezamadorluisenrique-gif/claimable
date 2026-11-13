@@ -1,0 +1,68 @@
+{
+ "owner": "SwiftyJSON",
+ "repo": "SwiftyJSON",
+ "language": "Swift",
+ "stars": 22919,
+ "description": "The better way to deal with JSON data in Swift.",
+ "visitedAt": "2026-11-13T16:28:29.473Z",
+ "issues": [
+  {
+   "number": 715,
+   "title": "Validating JSON with Schema",
+   "url": "https://github.com/SwiftyJSON/SwiftyJSON/issues/715",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2025-02-02T12:37:43Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "already assigned to @sujaykakkad",
+   "evidence": [
+    "https://github.com/SwiftyJSON/SwiftyJSON — pushed_at 2026-08-18T07:07:07Z",
+    "https://github.com/SwiftyJSON/SwiftyJSON/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/SwiftyJSON/SwiftyJSON/issues/715",
+    "https://github.com/SwiftyJSON/SwiftyJSON/issues/715#issuecomment-334952765"
+   ]
+  },
+  {
+   "number": 748,
+   "title": "Trouble Building on Swift for Linux",
+   "url": "https://github.com/SwiftyJSON/SwiftyJSON/issues/748",
+   "labels": [
+    "bug",
+    "enhancement",
+    "help wanted",
+    "linux"
+   ],
+   "updatedAt": "2018-05-24T07:52:18Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "no push in 87 days (last: 2026-08-18) (+1 more)",
+   "evidence": [
+    "https://github.com/SwiftyJSON/SwiftyJSON — pushed_at 2026-08-18T07:07:07Z",
+    "https://github.com/SwiftyJSON/SwiftyJSON/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/SwiftyJSON/SwiftyJSON/issues/748#issuecomment-264083994",
+    "https://github.com/SwiftyJSON/SwiftyJSON/issues/748"
+   ]
+  },
+  {
+   "number": 750,
+   "title": "NSJSONSerialization doesn't work on Linux",
+   "url": "https://github.com/SwiftyJSON/SwiftyJSON/issues/750",
+   "labels": [
+    "help wanted",
+    "linux"
+   ],
+   "updatedAt": "2017-03-02T03:10:43Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "no push in 87 days (last: 2026-08-18)",
+   "evidence": [
+    "https://github.com/SwiftyJSON/SwiftyJSON — pushed_at 2026-08-18T07:07:07Z",
+    "https://github.com/SwiftyJSON/SwiftyJSON/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/SwiftyJSON/SwiftyJSON/issues/750"
+   ]
+  }
+ ]
+}

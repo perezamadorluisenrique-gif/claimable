@@ -1,0 +1,151 @@
+{
+ "owner": "realm",
+ "repo": "SwiftLint",
+ "language": "Swift",
+ "stars": 19786,
+ "description": "A tool to enforce Swift style and conventions.",
+ "visitedAt": "2026-11-13T16:28:29.473Z",
+ "issues": [
+  {
+   "number": 3348,
+   "title": "Fix all parsing warnings & errors in rule examples",
+   "url": "https://github.com/realm/SwiftLint/issues/3348",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2023-02-17T14:44:31Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #6910 by @Akhrameev is already open against this issue",
+   "evidence": [
+    "https://github.com/realm/SwiftLint/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/realm/SwiftLint/pull/6910",
+    "https://github.com/realm/SwiftLint/pull/3349",
+    "https://github.com/realm/SwiftLint/pull/4784"
+   ]
+  },
+  {
+   "number": 4810,
+   "title": "Feature request: lexicographic sorting options for `sorted_imports`",
+   "url": "https://github.com/realm/SwiftLint/issues/4810",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2023-03-11T16:43:48Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #6665 by @ayushnagpal570-ai is already open against this issue",
+   "evidence": [
+    "https://github.com/realm/SwiftLint/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/realm/SwiftLint/pull/6665",
+    "https://github.com/realm/SwiftLint/pull/4935"
+   ]
+  },
+  {
+   "number": 5224,
+   "title": "Spaces in function arguments",
+   "url": "https://github.com/realm/SwiftLint/issues/5224",
+   "labels": [
+    "good first issue",
+    "rule-request"
+   ],
+   "updatedAt": "2025-07-07T20:33:24Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #5337 by @yuya-okuse is already open against this issue",
+   "evidence": [
+    "https://github.com/realm/SwiftLint/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/realm/SwiftLint/pull/5337"
+   ]
+  },
+  {
+   "number": 5359,
+   "title": "Detect redundant extensions",
+   "url": "https://github.com/realm/SwiftLint/issues/5359",
+   "labels": [
+    "good first issue",
+    "rule-request"
+   ],
+   "updatedAt": "2024-01-08T08:14:12Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #5397 by @mzeeshanid is already open against this issue",
+   "evidence": [
+    "https://github.com/realm/SwiftLint/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/realm/SwiftLint/pull/5397"
+   ]
+  },
+  {
+   "number": 5421,
+   "title": "Allow parent config as an argument",
+   "url": "https://github.com/realm/SwiftLint/issues/5421",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2026-08-09T09:00:47Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #6868 by @LizunovSergey is already open against this issue",
+   "evidence": [
+    "https://github.com/realm/SwiftLint/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/realm/SwiftLint/pull/6868"
+   ]
+  },
+  {
+   "number": 5422,
+   "title": "missing_docs warns about actors not documenting public protocol properties",
+   "url": "https://github.com/realm/SwiftLint/issues/5422",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2024-07-02T18:23:01Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #6855 by @ZHUOLIN0928 is already open against this issue",
+   "evidence": [
+    "https://github.com/realm/SwiftLint/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/realm/SwiftLint/pull/6855"
+   ]
+  },
+  {
+   "number": 5461,
+   "title": "Adding a TypeContent case of `type_contents_order`",
+   "url": "https://github.com/realm/SwiftLint/issues/5461",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2024-04-06T15:22:53Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.fastlane.tools/actions/swiftlint) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/realm/SwiftLint/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/realm/SwiftLint/issues/5461",
+    "https://github.com/realm/SwiftLint/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.fastlane.tools/actions/swiftlint"
+   ]
+  },
+  {
+   "number": 5829,
+   "title": "Rule Request: Avoid multiple statements on a single line separated with semicolons",
+   "url": "https://github.com/realm/SwiftLint/issues/5829",
+   "labels": [
+    "good first issue",
+    "rule-request"
+   ],
+   "updatedAt": "2025-02-03T14:53:17Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #5990 by @AhmedZaghloul19 is already open against this issue",
+   "evidence": [
+    "https://github.com/realm/SwiftLint/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/realm/SwiftLint/pull/5990"
+   ]
+  }
+ ]
+}

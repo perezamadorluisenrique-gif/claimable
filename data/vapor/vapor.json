@@ -1,0 +1,84 @@
+{
+ "owner": "vapor",
+ "repo": "vapor",
+ "language": "Swift",
+ "stars": 26242,
+ "description": "💧 A server-side Swift HTTP web framework.",
+ "visitedAt": "2026-11-13T16:28:29.473Z",
+ "issues": [
+  {
+   "number": 2838,
+   "title": "Add fuzzing tests",
+   "url": "https://github.com/vapor/vapor/issues/2838",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2025-03-09T23:25:28Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.vapor.codes/4.0/\">) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/vapor/vapor/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/vapor/vapor/issues/2838",
+    "https://docs.vapor.codes/4.0/\">"
+   ]
+  },
+  {
+   "number": 2877,
+   "title": "Handled a DebuggableError",
+   "url": "https://github.com/vapor/vapor/issues/2877",
+   "labels": [
+    "bug",
+    "help wanted",
+    "good first issue"
+   ],
+   "updatedAt": "2026-10-14T10:30:05Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #3446 by @bplattenburg is already open against this issue",
+   "evidence": [
+    "https://github.com/vapor/vapor/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/vapor/vapor/pull/3446"
+   ]
+  },
+  {
+   "number": 3237,
+   "title": "Include Request URL in RouteNotFound Error",
+   "url": "https://github.com/vapor/vapor/issues/3237",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "good first issue"
+   ],
+   "updatedAt": "2026-10-14T10:29:27Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #3460 by @mvanhorn is already open against this issue",
+   "evidence": [
+    "https://github.com/vapor/vapor/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/vapor/vapor/pull/3460",
+    "https://github.com/vapor/vapor/pull/3580"
+   ]
+  },
+  {
+   "number": 3343,
+   "title": "`URLQueryContainer` should have a `has`/`contains` method",
+   "url": "https://github.com/vapor/vapor/issues/3343",
+   "labels": [
+    "help wanted",
+    "good first issue"
+   ],
+   "updatedAt": "2026-10-20T13:58:09Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #3407 by @elvagabondcoder is already open against this issue",
+   "evidence": [
+    "https://github.com/vapor/vapor/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/vapor/vapor/pull/3407",
+    "https://github.com/vapor/vapor/pull/3579",
+    "https://github.com/vapor/vapor/pull/3610"
+   ]
+  }
+ ]
+}

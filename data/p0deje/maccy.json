@@ -1,0 +1,115 @@
+{
+ "owner": "p0deje",
+ "repo": "Maccy",
+ "language": "Swift",
+ "stars": 22274,
+ "description": "Lightweight clipboard manager for macOS",
+ "visitedAt": "2026-11-13T16:28:29.473Z",
+ "issues": [
+  {
+   "number": 182,
+   "title": "Cloud sync/backup?",
+   "url": "https://github.com/p0deje/Maccy/issues/182",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2025-08-04T21:22:44Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #1496 by @GYF0311 is already open against this issue",
+   "evidence": [
+    "https://github.com/p0deje/Maccy/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/p0deje/Maccy/issues/1496",
+    "https://github.com/p0deje/Maccy/issues/1308"
+   ]
+  },
+  {
+   "number": 239,
+   "title": "Paste/delete multiple items",
+   "url": "https://github.com/p0deje/Maccy/issues/239",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2026-09-20T11:48:31Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #1324 by @weisJ is already open against this issue",
+   "evidence": [
+    "https://github.com/p0deje/Maccy/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/p0deje/Maccy/pull/1324",
+    "https://github.com/p0deje/Maccy/pull/1602"
+   ]
+  },
+  {
+   "number": 608,
+   "title": "Add an option to delete the database from disk on quit when \"Clear history on quit\" is enabled",
+   "url": "https://github.com/p0deje/Maccy/issues/608",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2024-01-28T18:42:33Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/p0deje/Maccy/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/p0deje/Maccy/issues/608"
+   ]
+  },
+  {
+   "number": 655,
+   "title": "Is there a way to sync settings between computers?",
+   "url": "https://github.com/p0deje/Maccy/issues/655",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2024-06-25T10:58:54Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/p0deje/Maccy/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/p0deje/Maccy/issues/655"
+   ]
+  },
+  {
+   "number": 733,
+   "title": "Option for \"Clear history on quit\" to not store history on disk",
+   "url": "https://github.com/p0deje/Maccy/issues/733",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2025-02-18T13:11:46Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #1544 by @BySergiMM is already open against this issue",
+   "evidence": [
+    "https://github.com/p0deje/Maccy/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/p0deje/Maccy/pull/1544"
+   ]
+  },
+  {
+   "number": 761,
+   "title": "Drag & Drop support (for images)",
+   "url": "https://github.com/p0deje/Maccy/issues/761",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "nsmenu"
+   ],
+   "updatedAt": "2025-08-14T17:41:39Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #1555 by @NinyaDev is already open against this issue",
+   "evidence": [
+    "https://github.com/p0deje/Maccy/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/p0deje/Maccy/pull/1555"
+   ]
+  }
+ ]
+}

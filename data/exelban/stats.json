@@ -1,0 +1,26 @@
+{
+ "owner": "exelban",
+ "repo": "stats",
+ "language": "Swift",
+ "stars": 43290,
+ "description": "macOS system monitor in your menu bar",
+ "visitedAt": "2026-11-13T16:28:29.473Z",
+ "issues": [
+  {
+   "number": 3621,
+   "title": "CPU Power Showing 0.00W",
+   "url": "https://github.com/exelban/stats/issues/3621",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-10-25T10:25:04Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/exelban/stats/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/exelban/stats/issues/3621"
+   ]
+  }
+ ]
+}

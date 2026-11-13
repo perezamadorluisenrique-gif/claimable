@@ -714,5 +714,85 @@
  "libre-tube/libretube": {
   "nextCheck": "2026-11-13T09:02:18.780Z",
   "lastNewIssue": "2026-05-24T20:42:54Z"
+ },
+ "ankidroid/anki-android": {
+  "nextCheck": "2026-11-14T16:28:29.473Z",
+  "lastNewIssue": "2026-11-13T12:29:56Z"
+ },
+ "swiftlang/swift": {
+  "nextCheck": "2026-11-20T16:28:29.473Z",
+  "lastNewIssue": "2026-05-14T15:30:53Z"
+ },
+ "apple/container": {
+  "nextCheck": "2026-11-20T16:28:29.473Z",
+  "lastNewIssue": null
+ },
+ "iina/iina": {
+  "nextCheck": "2026-11-20T16:28:29.473Z",
+  "lastNewIssue": "2020-01-06T10:26:47Z"
+ },
+ "exelban/stats": {
+  "nextCheck": "2026-11-20T16:28:29.473Z",
+  "lastNewIssue": "2026-09-16T16:46:31Z"
+ },
+ "utmapp/utm": {
+  "nextCheck": "2026-11-20T16:28:29.473Z",
+  "lastNewIssue": "2024-06-02T18:38:55Z"
+ },
+ "manaflow-ai/cmux": {
+  "nextCheck": "2026-11-20T16:28:29.473Z",
+  "lastNewIssue": "2026-10-04T14:30:17Z"
+ },
+ "airbnb/lottie-ios": {
+  "nextCheck": "2026-11-20T16:28:29.473Z",
+  "lastNewIssue": "2022-09-05T17:49:22Z"
+ },
+ "vapor/vapor": {
+  "nextCheck": "2026-11-20T16:28:29.473Z",
+  "lastNewIssue": "2025-07-03T15:11:12Z"
+ },
+ "reactivex/rxswift": {
+  "nextCheck": "2026-11-20T16:28:29.473Z",
+  "lastNewIssue": null
+ },
+ "slopus/happy": {
+  "nextCheck": "2026-11-20T16:28:29.473Z",
+  "lastNewIssue": "2025-10-07T17:44:26Z"
+ },
+ "codeeditapp/codeedit": {
+  "nextCheck": "2026-11-20T16:28:29.473Z",
+  "lastNewIssue": "2025-04-17T22:49:16Z"
+ },
+ "swiftyjson/swiftyjson": {
+  "nextCheck": "2026-11-20T16:28:29.473Z",
+  "lastNewIssue": "2016-12-04T05:48:35Z"
+ },
+ "p0deje/maccy": {
+  "nextCheck": "2026-11-20T16:28:29.473Z",
+  "lastNewIssue": "2024-04-10T04:37:30Z"
+ },
+ "realm/swiftlint": {
+  "nextCheck": "2026-11-20T16:28:29.473Z",
+  "lastNewIssue": "2024-10-18T19:56:26Z"
+ },
+ "ianyh/amethyst": {
+  "nextCheck": "2026-11-20T16:28:29.473Z",
+  "lastNewIssue": "2023-02-07T02:54:23Z"
+ },
+ "localsend/localsend": {
+  "nextCheck": "2026-11-20T16:28:29.473Z",
+  "lastNewIssue": "2024-07-15T14:39:45Z"
+ },
+ "appflowy-io/appflowy": {
+  "nextCheck": "2026-11-20T16:28:29.473Z",
+  "lastNewIssue": "2024-03-13T08:20:28Z"
+ },
+ "predidit/kazumi": {
+  "nextCheck": "2026-11-13T17:28:29.473Z",
+  "lastNewIssue": "2026-08-04T02:48:57Z"
+ },
+ "ente/ente": {
+  "nextCheck": "2026-11-13T17:28:29.473Z",
+  "lastNewIssue": "2025-07-18T04:27:42Z"
  }
 }

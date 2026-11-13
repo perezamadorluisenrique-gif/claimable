@@ -1,0 +1,103 @@
+{
+ "owner": "Predidit",
+ "repo": "Kazumi",
+ "language": "Dart",
+ "stars": 42045,
+ "description": "基于自定义规则的番剧采集APP，支持流媒体在线观看，支持弹幕，支持实时超分辨率。",
+ "visitedAt": "2026-11-13T16:28:29.473Z",
+ "issues": [
+  {
+   "number": 712,
+   "title": "按键全屏和设备方向全屏的冲突问题",
+   "url": "https://github.com/Predidit/Kazumi/issues/712",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2025-02-10T15:34:18Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #1326 by @Qing-Novel is already open against this issue",
+   "evidence": [
+    "https://github.com/Predidit/Kazumi/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/Predidit/Kazumi/issues/1326",
+    "https://github.com/Predidit/Kazumi/issues/2084",
+    "https://github.com/Predidit/Kazumi/issues/2491",
+    "https://github.com/Predidit/Kazumi/issues/2751"
+   ]
+  },
+  {
+   "number": 914,
+   "title": "解析模块迭代",
+   "url": "https://github.com/Predidit/Kazumi/issues/914",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2025-09-18T10:18:34Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/Predidit/Kazumi/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/Predidit/Kazumi/issues/914",
+    "https://github.com/Predidit/Kazumi/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 982,
+   "title": "优化快捷键组件",
+   "url": "https://github.com/Predidit/Kazumi/issues/982",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2025-05-20T04:02:13Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #2491 by @JiuN-BG is already open against this issue",
+   "evidence": [
+    "https://github.com/Predidit/Kazumi/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/Predidit/Kazumi/issues/2491",
+    "https://github.com/Predidit/Kazumi/issues/2746"
+   ]
+  },
+  {
+   "number": 1243,
+   "title": "评估 flutter 3.35 线程合并的性能影响",
+   "url": "https://github.com/Predidit/Kazumi/issues/1243",
+   "labels": [
+    "help wanted",
+    "question"
+   ],
+   "updatedAt": "2025-08-27T03:53:20Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "PR #134 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/Predidit/Kazumi/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/AimesSoft/NipaPlay-Reload/pull/134",
+    "https://github.com/Predidit/Kazumi/issues/1243",
+    "https://github.com/Predidit/Kazumi/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 1805,
+   "title": "流量播放时，会在刚进入播放时自动缓存整集，对流量需求较大",
+   "url": "https://github.com/Predidit/Kazumi/issues/1805",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2026-02-22T03:26:42Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "open 9 months with no human comment, in a repo pushed to 1 days ago — easy issues do not survive that long here; assume it is harder than its labels say",
+   "evidence": [
+    "https://github.com/Predidit/Kazumi/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/Predidit/Kazumi/issues/1805",
+    "https://github.com/Predidit/Kazumi/blob/HEAD/README.md"
+   ]
+  }
+ ]
+}

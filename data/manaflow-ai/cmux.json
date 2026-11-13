@@ -1,0 +1,2292 @@
+{
+ "owner": "manaflow-ai",
+ "repo": "cmux",
+ "language": "Swift",
+ "stars": 28751,
+ "description": "Open source Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents. Built for multitasking, organization, and programmability.",
+ "visitedAt": "2026-11-13T16:28:29.473Z",
+ "issues": [
+  {
+   "number": 178,
+   "title": "Locked into vertical split",
+   "url": "https://github.com/manaflow-ai/cmux/issues/178",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S2: major",
+    "area: layout",
+    "difficulty:2",
+    "needs-decision"
+   ],
+   "updatedAt": "2026-10-02T00:14:45Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #35392 by @teamleaderleo is already open against this issue",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/issues/35392",
+    "https://github.com/manaflow-ai/cmux/issues/35368",
+    "https://github.com/manaflow-ai/cmux/issues/39239",
+    "https://github.com/manaflow-ai/cmux/issues/2442",
+    "https://github.com/manaflow-ai/cmux/issues/28394",
+    "https://github.com/manaflow-ai/cmux/issues/42407",
+    "https://github.com/manaflow-ai/cmux/issues/13515",
+    "https://github.com/manaflow-ai/cmux/issues/8431",
+    "https://github.com/manaflow-ai/cmux/issues/27934"
+   ]
+  },
+  {
+   "number": 338,
+   "title": "CJK (Korean) text output is clipped/truncated in cmux but renders correctly in standalone Ghostty",
+   "url": "https://github.com/manaflow-ai/cmux/issues/338",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S3: minor",
+    "area: terminal",
+    "area: input",
+    "difficulty:2"
+   ],
+   "updatedAt": "2026-10-02T22:52:02Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "PR #3015 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/pull/3015",
+    "https://github.com/manaflow-ai/cmux/issues/338",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/README.md",
+    "https://docs.brew.sh/Shell-Completion",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 701,
+   "title": "macOS app launches without visible window, then window closes immediately",
+   "url": "https://github.com/manaflow-ai/cmux/issues/701",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S1: critical",
+    "needs-triage",
+    "area: layout",
+    "difficulty:3"
+   ],
+   "updatedAt": "2026-10-28T17:16:52Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "labelled `needs-triage` — scope may not be settled yet (+1 more)",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/issues/701",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/README.md",
+    "https://docs.brew.sh/Shell-Completion",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 872,
+   "title": "Cmux tab opens new window after response",
+   "url": "https://github.com/manaflow-ai/cmux/issues/872",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S2: major",
+    "area: layout",
+    "difficulty:3"
+   ],
+   "updatedAt": "2026-10-02T22:06:01Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.brew.sh/Shell-Completion) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/issues/872",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/README.md",
+    "https://docs.brew.sh/Shell-Completion",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 894,
+   "title": "Notifications not working with Qwen Code (no OSC notification support)",
+   "url": "https://github.com/manaflow-ai/cmux/issues/894",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S3: minor",
+    "area: agents",
+    "area: notifications",
+    "difficulty:2",
+    "needs-decision"
+   ],
+   "updatedAt": "2026-10-02T00:14:38Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #30389 by @teamleaderleo is already open against this issue",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/issues/30389",
+    "https://github.com/manaflow-ai/cmux/issues/13515",
+    "https://github.com/manaflow-ai/cmux/issues/27491",
+    "https://github.com/manaflow-ai/cmux/issues/1435",
+    "https://github.com/manaflow-ai/cmux/issues/15391",
+    "https://github.com/manaflow-ai/cmux/issues/12969",
+    "https://github.com/manaflow-ai/cmux/issues/13095"
+   ]
+  },
+  {
+   "number": 1207,
+   "title": "Selected workspace background ignores assigned tab color (solidFill mode)",
+   "url": "https://github.com/manaflow-ai/cmux/issues/1207",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S3: minor",
+    "area: workspaces",
+    "difficulty:2",
+    "needs-decision"
+   ],
+   "updatedAt": "2026-10-02T00:30:45Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "labelled `needs-decision` — the project is saying not to start",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/pull/14890",
+    "https://github.com/manaflow-ai/cmux/issues/1207"
+   ]
+  },
+  {
+   "number": 1765,
+   "title": "macOS window arrangement shortcuts are broken",
+   "url": "https://github.com/manaflow-ai/cmux/issues/1765",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S2: major",
+    "needs-triage",
+    "area: layout",
+    "difficulty:2"
+   ],
+   "updatedAt": "2026-11-07T00:16:15Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #1932 by @che-3 is already open against this issue",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/pull/1932",
+    "https://github.com/manaflow-ai/cmux/pull/2348",
+    "https://github.com/manaflow-ai/cmux/pull/8559"
+   ]
+  },
+  {
+   "number": 2295,
+   "title": "cursor not same when display multiple window",
+   "url": "https://github.com/manaflow-ai/cmux/issues/2295",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S2: major",
+    "needs-triage",
+    "area: layout",
+    "difficulty:2",
+    "needs-decision"
+   ],
+   "updatedAt": "2026-10-02T00:13:56Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "labelled `needs-decision` — the project is saying not to start",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/issues/2295"
+   ]
+  },
+  {
+   "number": 2440,
+   "title": "Terminal content disappearing upon reorganization",
+   "url": "https://github.com/manaflow-ai/cmux/issues/2440",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S2: major",
+    "area: terminal",
+    "difficulty:3",
+    "cmux-next"
+   ],
+   "updatedAt": "2026-10-24T05:43:34Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.brew.sh/Shell-Completion) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/issues/2440",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/README.md",
+    "https://docs.brew.sh/Shell-Completion",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2610,
+   "title": "Browser automation: eval, press, addscript fail with `js_error` even when webview is focused",
+   "url": "https://github.com/manaflow-ai/cmux/issues/2610",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S3: minor",
+    "area: browser",
+    "difficulty:3"
+   ],
+   "updatedAt": "2026-10-16T12:45:31Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #2215 by @lawrencecchen is already open against this issue",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/issues/2215",
+    "https://github.com/manaflow-ai/cmux/issues/5160"
+   ]
+  },
+  {
+   "number": 2630,
+   "title": "Browser omnibar shows only \"Switch to tab\" for URLs with a path already open in the same window",
+   "url": "https://github.com/manaflow-ai/cmux/issues/2630",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S3: minor",
+    "area: browser",
+    "difficulty:2",
+    "needs-decision"
+   ],
+   "updatedAt": "2026-10-02T00:34:04Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #17444 by @grandmasteri is already open against this issue",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/issues/17444"
+   ]
+  },
+  {
+   "number": 2686,
+   "title": "SSH workspace: UI split button opens local shell instead of remote",
+   "url": "https://github.com/manaflow-ai/cmux/issues/2686",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S3: minor",
+    "needs-triage",
+    "area: layout",
+    "area: remote",
+    "difficulty:3"
+   ],
+   "updatedAt": "2026-10-02T00:19:42Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "labelled `needs-triage` — scope may not be settled yet (+2 more)",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/issues/2686",
+    "https://github.com/manaflow-ai/cmux/issues/2686#issuecomment-5943192296",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/README.md",
+    "https://docs.brew.sh/Shell-Completion",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2757,
+   "title": "Crash on launch: Auto Layout constraint cycle in TerminalNotificationStore",
+   "url": "https://github.com/manaflow-ai/cmux/issues/2757",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S1: critical",
+    "area: layout",
+    "area: notifications",
+    "difficulty:3"
+   ],
+   "updatedAt": "2026-10-01T04:50:07Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #1609 by @EtanHey is already open against this issue",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/pull/1609",
+    "https://github.com/manaflow-ai/cmux/pull/15228"
+   ]
+  },
+  {
+   "number": 2759,
+   "title": "Focus does not move to new terminal window when browser address bar selected",
+   "url": "https://github.com/manaflow-ai/cmux/issues/2759",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S2: major",
+    "area: browser",
+    "difficulty:2"
+   ],
+   "updatedAt": "2026-10-17T20:04:46Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.brew.sh/Shell-Completion) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/issues/2759",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/README.md",
+    "https://docs.brew.sh/Shell-Completion",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 3342,
+   "title": "Stable agent session recovery after CMUX crash or relaunch",
+   "url": "https://github.com/manaflow-ai/cmux/issues/3342",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S2: major",
+    "area: agents",
+    "difficulty:4"
+   ],
+   "updatedAt": "2026-10-02T22:53:08Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #3805 by @aml11 is already open against this issue",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/pull/3805",
+    "https://github.com/manaflow-ai/cmux/pull/24489"
+   ]
+  },
+  {
+   "number": 4148,
+   "title": "**Title:** v0.64.5 cmuxd-remote: shell hangs at first prompt with powerlevel10k worker (regression from 0.64.4)",
+   "url": "https://github.com/manaflow-ai/cmux/issues/4148",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S2: major",
+    "area: terminal",
+    "area: remote",
+    "difficulty:3",
+    "cmux-next"
+   ],
+   "updatedAt": "2026-10-24T05:45:57Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "PR #30508 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/pull/30508",
+    "https://github.com/manaflow-ai/cmux/issues/4148",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/README.md",
+    "https://docs.brew.sh/Shell-Completion",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 4344,
+   "title": "Force-click \"Look Up\" / dictionary popover not wired up in terminal surface",
+   "url": "https://github.com/manaflow-ai/cmux/issues/4344",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S3: minor",
+    "area: terminal",
+    "difficulty:1"
+   ],
+   "updatedAt": "2026-10-01T04:35:40Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #4346 by @li0near is already open against this issue",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/pull/4346"
+   ]
+  },
+  {
+   "number": 4405,
+   "title": "Performance: Codex hooks and terminal rendering amplify latency under load",
+   "url": "https://github.com/manaflow-ai/cmux/issues/4405",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S3: minor",
+    "area: performance",
+    "difficulty:4"
+   ],
+   "updatedAt": "2026-10-06T01:43:45Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "PR #5755 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+4 more)",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/pull/5755",
+    "https://github.com/manaflow-ai/cmux/pull/6655",
+    "https://github.com/manaflow-ai/cmux/issues/4405",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/CLI/cmux.swift",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/Sources/AppDelegate.swift",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/Sources/Workspace.swift",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/README.md",
+    "https://docs.brew.sh/Shell-Completion",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 4734,
+   "title": "cmux ssh with non-default SSH port: -p flag breaks daemon + file viewer; --port works",
+   "url": "https://github.com/manaflow-ai/cmux/issues/4734",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S2: major",
+    "area: remote",
+    "area: cli",
+    "difficulty:3"
+   ],
+   "updatedAt": "2026-10-26T23:11:18Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #7969 by @psh4607 is already open against this issue",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/pull/7969"
+   ]
+  },
+  {
+   "number": 5305,
+   "title": "Audit (tracking): cmux.app 0.64.12 reaches 4.6 GB footprint + sustained CPU on a real ~23h session — live vmmap/heap/sample evidence",
+   "url": "https://github.com/manaflow-ai/cmux/issues/5305",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S3: minor",
+    "needs-triage",
+    "area: performance",
+    "difficulty:4",
+    "needs-decision"
+   ],
+   "updatedAt": "2026-10-02T00:26:13Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "labelled `needs-decision` — the project is saying not to start",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/pull/5311",
+    "https://github.com/manaflow-ai/cmux/issues/5305"
+   ]
+  },
+  {
+   "number": 8718,
+   "title": "Pi workspace auto-naming does not run for existing/resumed sessions",
+   "url": "https://github.com/manaflow-ai/cmux/issues/8718",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S3: minor",
+    "area: workspaces",
+    "area: agents",
+    "difficulty:3"
+   ],
+   "updatedAt": "2026-10-01T05:51:20Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.brew.sh/Shell-Completion) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/issues/8718",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/README.md",
+    "https://docs.brew.sh/Shell-Completion",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 9843,
+   "title": "Shell integration polls gh pr view every 45s even for branches with no PR, draining the GitHub GraphQL rate limit",
+   "url": "https://github.com/manaflow-ai/cmux/issues/9843",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S3: minor",
+    "area: terminal",
+    "difficulty:2",
+    "cmux-next"
+   ],
+   "updatedAt": "2026-10-24T07:57:54Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "the files this issue points at total 91 KB (largest: cmux-zsh-integration.zsh 91 KB) — whatever the difficulty label says, this is not a small change (+1 more)",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/issues/9843",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/Resources/shell-integration/cmux-zsh-integration.zsh",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/README.md",
+    "https://docs.brew.sh/Shell-Completion",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 10874,
+   "title": "iroh host: dead client connection holds admission capacity, same identity gets Connection refused for 2-9 min",
+   "url": "https://github.com/manaflow-ai/cmux/issues/10874",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S2: major",
+    "area: cloud",
+    "difficulty:3"
+   ],
+   "updatedAt": "2026-10-26T23:52:41Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #25756 by @austinywang is already open against this issue",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/pull/25756"
+   ]
+  },
+  {
+   "number": 10943,
+   "title": "ssh-tmux: pastes over 9994 bytes are silently dropped entirely",
+   "url": "https://github.com/manaflow-ai/cmux/issues/10943",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S3: minor",
+    "area: remote",
+    "difficulty:2"
+   ],
+   "updatedAt": "2026-10-02T20:26:10Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #11219 by @TalexDreamSoul is already open against this issue",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/pull/11219"
+   ]
+  },
+  {
+   "number": 11348,
+   "title": "devbox/blaxel cmux-bashrc: ble.sh cache seed refresh copies non-atomically",
+   "url": "https://github.com/manaflow-ai/cmux/issues/11348",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "S3: minor",
+    "area: terminal",
+    "area: cloud",
+    "difficulty:2"
+   ],
+   "updatedAt": "2026-10-02T22:55:41Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "PR #11286 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/pull/11286",
+    "https://github.com/manaflow-ai/cmux/pull/38658",
+    "https://github.com/manaflow-ai/cmux/issues/11348",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/README.md",
+    "https://docs.brew.sh/Shell-Completion",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 12180,
+   "title": "CI: app-host unit test shards 1/2/4 hang to the 75-minute job timeout on main (tmux/SSH integration tests; shard 2 hangs after all tests finish)",
+   "url": "https://github.com/manaflow-ai/cmux/issues/12180",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S2: major",
+    "area: build-and-ci",
+    "difficulty:3"
+   ],
+   "updatedAt": "2026-09-30T23:53:06Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "PR #12157 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+7 more)",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/pull/12157",
+    "https://github.com/manaflow-ai/cmux/pull/13367",
+    "https://github.com/manaflow-ai/cmux/pull/13408",
+    "https://github.com/manaflow-ai/cmux/pull/13421",
+    "https://github.com/manaflow-ai/cmux/pull/13427",
+    "https://github.com/manaflow-ai/cmux/pull/13838",
+    "https://github.com/manaflow-ai/cmux/issues/12180",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/.github/workflows/ci.yml",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 12900,
+   "title": "extensions command to install gh-dash missing from release and nightly builds",
+   "url": "https://github.com/manaflow-ai/cmux/issues/12900",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S3: minor",
+    "needs-triage",
+    "area: cli",
+    "difficulty:2"
+   ],
+   "updatedAt": "2026-10-02T22:56:06Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "PR #14807 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/pull/14807",
+    "https://github.com/manaflow-ai/cmux/issues/12900",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/README.md",
+    "https://docs.brew.sh/Shell-Completion",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 12939,
+   "title": "0.64.25 Mac registers with pairing broker but never appears in iOS app",
+   "url": "https://github.com/manaflow-ai/cmux/issues/12939",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S2: major",
+    "area: remote",
+    "area: ios",
+    "difficulty:4"
+   ],
+   "updatedAt": "2026-10-26T22:40:20Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #12933 by @azooz2003-bit is already open against this issue",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/pull/12933"
+   ]
+  },
+  {
+   "number": 12943,
+   "title": "Scrolling long thread histories freezes the app (reported on X)",
+   "url": "https://github.com/manaflow-ai/cmux/issues/12943",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S2: major",
+    "area: performance",
+    "difficulty:4"
+   ],
+   "updatedAt": "2026-10-28T06:19:16Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "@austinywang claimed it 16 days ago",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/issues/12943#issuecomment-6462199909"
+   ]
+  },
+  {
+   "number": 13808,
+   "title": "[RFC] Make \"ran zero tests\" a failure: three green-but-empty lanes on 2026-09-22",
+   "url": "https://github.com/manaflow-ai/cmux/issues/13808",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S2: major",
+    "area: build-and-ci",
+    "difficulty:2"
+   ],
+   "updatedAt": "2026-10-31T02:09:48Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #28804 by @yuminn-k is already open against this issue",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/pull/28804",
+    "https://github.com/manaflow-ai/cmux/pull/13414",
+    "https://github.com/manaflow-ai/cmux/pull/13924",
+    "https://github.com/manaflow-ai/cmux/pull/39714"
+   ]
+  },
+  {
+   "number": 13944,
+   "title": "cmux ssh --transport mosh: ssh exits 255 in a reconnect loop when the local mosh client is absent",
+   "url": "https://github.com/manaflow-ai/cmux/issues/13944",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S2: major",
+    "area: remote",
+    "area: cli",
+    "difficulty:2",
+    "cmux-next"
+   ],
+   "updatedAt": "2026-10-24T05:44:45Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #14452 by @austinywang is already open against this issue",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/pull/14452",
+    "https://github.com/manaflow-ai/cmux/pull/26608"
+   ]
+  },
+  {
+   "number": 13986,
+   "title": "0.64.25 turn-end notifications silently dropped when agent identity resolves empty",
+   "url": "https://github.com/manaflow-ai/cmux/issues/13986",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S3: minor",
+    "area: agents",
+    "area: notifications",
+    "difficulty:3"
+   ],
+   "updatedAt": "2026-10-02T22:06:05Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.brew.sh/Shell-Completion) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/issues/13986",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/README.md",
+    "https://docs.brew.sh/Shell-Completion",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 14020,
+   "title": "Focus that lands right after a split never reaches the workspace focus model",
+   "url": "https://github.com/manaflow-ai/cmux/issues/14020",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S3: minor",
+    "area: layout",
+    "area: workspaces",
+    "difficulty:2",
+    "cmux-next"
+   ],
+   "updatedAt": "2026-10-24T05:46:20Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #14471 by @austinywang is already open against this issue",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/pull/14471",
+    "https://github.com/manaflow-ai/cmux/pull/14049"
+   ]
+  },
+  {
+   "number": 14025,
+   "title": "0.64.25 right sidebar: Custom button never appears in the mode bar",
+   "url": "https://github.com/manaflow-ai/cmux/issues/14025",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S2: major",
+    "area: sidebar",
+    "difficulty:2"
+   ],
+   "updatedAt": "2026-10-01T03:35:16Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #14484 by @austinywang is already open against this issue",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/pull/14484"
+   ]
+  },
+  {
+   "number": 14217,
+   "title": "Pi session restore drops the value of --name and -n",
+   "url": "https://github.com/manaflow-ai/cmux/issues/14217",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S3: minor",
+    "area: workspaces",
+    "difficulty:2"
+   ],
+   "updatedAt": "2026-10-02T00:12:24Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #14218 by @Ge-limin is already open against this issue",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/pull/14218"
+   ]
+  },
+  {
+   "number": 14308,
+   "title": "0.64.25 Agent hibernation almost never applies to Claude Code: idle_prompt marks finished chats needsInput",
+   "url": "https://github.com/manaflow-ai/cmux/issues/14308",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S3: minor",
+    "area: agents",
+    "difficulty:3"
+   ],
+   "updatedAt": "2026-10-30T18:03:44Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.brew.sh/Shell-Completion) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/issues/14308",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/README.md",
+    "https://docs.brew.sh/Shell-Completion",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 14317,
+   "title": "Floating composer launchable from anywhere on macOS to start a new agent session",
+   "url": "https://github.com/manaflow-ai/cmux/issues/14317",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "S3: minor",
+    "area: agents",
+    "difficulty:3"
+   ],
+   "updatedAt": "2026-10-24T05:49:13Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.brew.sh/Shell-Completion) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/issues/14317",
+    "https://docs.brew.sh/Shell-Completion",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 14481,
+   "title": "Pi first-class parity with Claude Code and Codex (tracker)",
+   "url": "https://github.com/manaflow-ai/cmux/issues/14481",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "S3: minor",
+    "area: agents",
+    "difficulty:4",
+    "cmux-next"
+   ],
+   "updatedAt": "2026-11-01T23:42:32Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #31059 by @nebullii is already open against this issue",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/pull/31059",
+    "https://github.com/manaflow-ai/cmux/pull/21390"
+   ]
+  },
+  {
+   "number": 14545,
+   "title": "iOS 1.0.5 beta: allow renaming the terminal window within the workspace",
+   "url": "https://github.com/manaflow-ai/cmux/issues/14545",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "S3: minor",
+    "area: ios",
+    "difficulty:2"
+   ],
+   "updatedAt": "2026-09-30T23:58:30Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.brew.sh/Shell-Completion) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/issues/14545",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/README.md",
+    "https://docs.brew.sh/Shell-Completion",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 14654,
+   "title": "0.64.25 iPhone app lists another person's Mac (previously signed in with same email) instead of the user's own Mac",
+   "url": "https://github.com/manaflow-ai/cmux/issues/14654",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S2: major",
+    "area: ios",
+    "difficulty:3"
+   ],
+   "updatedAt": "2026-10-27T00:24:52Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #25762 by @austinywang is already open against this issue",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/pull/25762"
+   ]
+  },
+  {
+   "number": 14707,
+   "title": "Update installed plugins automatically",
+   "url": "https://github.com/manaflow-ai/cmux/issues/14707",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "S3: minor",
+    "area: updates",
+    "difficulty:3",
+    "cmux-next"
+   ],
+   "updatedAt": "2026-10-26T18:58:00Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "@ajeebtech claimed it 18 days ago",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/pull/31462",
+    "https://github.com/manaflow-ai/cmux/issues/14707#issuecomment-6424735232"
+   ]
+  },
+  {
+   "number": 14762,
+   "title": "iOS app: link to a headless Linux box as the runtime host",
+   "url": "https://github.com/manaflow-ai/cmux/issues/14762",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "S2: major",
+    "area: ios",
+    "difficulty:4"
+   ],
+   "updatedAt": "2026-10-04T13:42:52Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.brew.sh/Shell-Completion) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/issues/14762",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/README.md",
+    "https://docs.brew.sh/Shell-Completion",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 14763,
+   "title": "Pairing QR code page shows no QR code; Tailscale IP direct entry fails",
+   "url": "https://github.com/manaflow-ai/cmux/issues/14763",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S2: major",
+    "area: remote",
+    "area: ios",
+    "difficulty:3"
+   ],
+   "updatedAt": "2026-10-26T22:40:32Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #18286 by @austinywang is already open against this issue",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/pull/18286",
+    "https://github.com/manaflow-ai/cmux/pull/14817"
+   ]
+  },
+  {
+   "number": 14853,
+   "title": "Codex in cmux never uses the shared background server: Computer Use -c overrides force embedded mode",
+   "url": "https://github.com/manaflow-ai/cmux/issues/14853",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S3: minor",
+    "area: agents",
+    "difficulty:3"
+   ],
+   "updatedAt": "2026-10-11T23:03:59Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #15473 by @vegerot is already open against this issue",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/issues/15473",
+    "https://github.com/manaflow-ai/cmux/issues/20149",
+    "https://github.com/manaflow-ai/cmux/issues/13742"
+   ]
+  },
+  {
+   "number": 15022,
+   "title": "ssh-tmux: add --socket-name (tmux -L) so one host can mirror separate tmux servers into separate windows",
+   "url": "https://github.com/manaflow-ai/cmux/issues/15022",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "area: remote",
+    "difficulty:3"
+   ],
+   "updatedAt": "2026-11-08T23:37:15Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #38258 by @dsanh14 is already open against this issue",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/pull/38258"
+   ]
+  },
+  {
+   "number": 15058,
+   "title": "0.64.25 cmux hooks broke Claude Code for a user",
+   "url": "https://github.com/manaflow-ai/cmux/issues/15058",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "S2: major",
+    "area: agents",
+    "difficulty:3"
+   ],
+   "updatedAt": "2026-10-02T22:56:26Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.brew.sh/Shell-Completion) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/issues/15058",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/README.md",
+    "https://docs.brew.sh/Shell-Completion",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 15071,
+   "title": "New split that receives OSC 11 right after creation intermittently never paints (PTY alive)",
+   "url": "https://github.com/manaflow-ai/cmux/issues/15071",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S3: minor",
+    "area: terminal",
+    "area: layout",
+    "difficulty:3"
+   ],
+   "updatedAt": "2026-10-02T00:17:01Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "PR #15520 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/pull/15520",
+    "https://github.com/manaflow-ai/cmux/pull/18432",
+    "https://github.com/manaflow-ai/cmux/issues/15071#issuecomment-5943164756",
+    "https://github.com/manaflow-ai/cmux/issues/15071",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/README.md",
+    "https://docs.brew.sh/Shell-Completion",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 15249,
+   "title": "cmux cloud: one-step GitHub identity + agent-ready setup for cloud machines",
+   "url": "https://github.com/manaflow-ai/cmux/issues/15249",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "S3: minor",
+    "area: cloud",
+    "difficulty:3"
+   ],
+   "updatedAt": "2026-10-02T09:00:48Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "PR #16769 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/pull/16769",
+    "https://github.com/manaflow-ai/cmux/issues/15249",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/README.md",
+    "https://docs.brew.sh/Shell-Completion",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 15268,
+   "title": "Apply more updates without relaunching cmux",
+   "url": "https://github.com/manaflow-ai/cmux/issues/15268",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "S3: minor",
+    "needs-triage",
+    "area: updates",
+    "difficulty:4"
+   ],
+   "updatedAt": "2026-11-04T10:24:21Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "PR #15296 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+3 more)",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/pull/15296",
+    "https://github.com/manaflow-ai/cmux/issues/15268",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/daemon/remote/cmd/cmuxd-remote/main.go",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/.github/workflows/release.yml",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/Sources/Panels/AgentSessionWebRendererCoordinator.swift",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/README.md",
+    "https://docs.brew.sh/Shell-Completion",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 15286,
+   "title": "TitlebarControlsAccessoryViewController leaks window geometry observers when the tracked window deallocates",
+   "url": "https://github.com/manaflow-ai/cmux/issues/15286",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S3: minor",
+    "area: layout",
+    "difficulty:2"
+   ],
+   "updatedAt": "2026-10-07T13:45:50Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.brew.sh/Shell-Completion) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/issues/15286",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/README.md",
+    "https://docs.brew.sh/Shell-Completion",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 15299,
+   "title": "Let one action carry more than one shortcut, so presets stop having to take keys away",
+   "url": "https://github.com/manaflow-ai/cmux/issues/15299",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "S3: minor",
+    "area: input",
+    "difficulty:2",
+    "needs a call",
+    "cmux-next"
+   ],
+   "updatedAt": "2026-10-24T05:45:36Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #15427 by @teamleaderleo is already open against this issue",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/issues/15427",
+    "https://github.com/manaflow-ai/cmux/issues/32536",
+    "https://github.com/manaflow-ai/cmux/issues/13742"
+   ]
+  },
+  {
+   "number": 15350,
+   "title": "Self-hosted macOS pool starvation makes unrelated PRs look broken, and blocks Release compiles even with full-ci",
+   "url": "https://github.com/manaflow-ai/cmux/issues/15350",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S2: major",
+    "area: build-and-ci",
+    "difficulty:4"
+   ],
+   "updatedAt": "2026-09-30T23:51:22Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "PR #14876 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/pull/14876",
+    "https://github.com/manaflow-ai/cmux/pull/15315",
+    "https://github.com/manaflow-ai/cmux/issues/15350",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/README.md",
+    "https://docs.brew.sh/Shell-Completion",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 15351,
+   "title": "Run CmuxCloud Swift package tests in PR CI",
+   "url": "https://github.com/manaflow-ai/cmux/issues/15351",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "S3: minor",
+    "area: build-and-ci",
+    "difficulty:3"
+   ],
+   "updatedAt": "2026-11-04T10:24:26Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.brew.sh/Shell-Completion) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/issues/15351",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/README.md",
+    "https://docs.brew.sh/Shell-Completion",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 15355,
+   "title": "Give workspaces and surfaces one visible, stable handle that agents and people share, and autolink it",
+   "url": "https://github.com/manaflow-ai/cmux/issues/15355",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "S3: minor",
+    "area: workspaces",
+    "difficulty:3"
+   ],
+   "updatedAt": "2026-11-04T10:24:29Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.brew.sh/Shell-Completion) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/issues/15355",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/README.md",
+    "https://docs.brew.sh/Shell-Completion",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 15391,
+   "title": "[RFC] Compile avoidance: make full macOS app compilation exceptional on PR pushes",
+   "url": "https://github.com/manaflow-ai/cmux/issues/15391",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "S3: minor",
+    "area: build-and-ci",
+    "difficulty:4"
+   ],
+   "updatedAt": "2026-11-04T10:24:31Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "PR #15420 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+4 more)",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/pull/15420",
+    "https://github.com/manaflow-ai/cmux/pull/15551",
+    "https://github.com/manaflow-ai/cmux/pull/15552",
+    "https://github.com/manaflow-ai/cmux/issues/15391",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/Sources/TerminalController.swift",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/Sources/Workspace.swift",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/Sources/Surfaces/CmuxTuiSurfaceProviders.swift",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/README.md",
+    "https://docs.brew.sh/Shell-Completion"
+   ]
+  },
+  {
+   "number": 15395,
+   "title": "ci-failure-attribution: two machine failures it cannot see, and one of them switches off the auto re-run",
+   "url": "https://github.com/manaflow-ai/cmux/issues/15395",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S2: major",
+    "area: build-and-ci",
+    "difficulty:3"
+   ],
+   "updatedAt": "2026-10-31T02:09:50Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #28805 by @yuminn-k is already open against this issue",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/pull/28805",
+    "https://github.com/manaflow-ai/cmux/pull/14838"
+   ]
+  },
+  {
+   "number": 15407,
+   "title": "Claude panels lose auto-resume after /clear (wasAgentRunning and autoResume reset while the process keeps running)",
+   "url": "https://github.com/manaflow-ai/cmux/issues/15407",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S2: major",
+    "area: workspaces",
+    "area: agents",
+    "difficulty:3"
+   ],
+   "updatedAt": "2026-11-04T09:58:29Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #13850 by @austinywang is already open against this issue",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/pull/13850",
+    "https://github.com/manaflow-ai/cmux/pull/18668"
+   ]
+  },
+  {
+   "number": 15410,
+   "title": "CI reports environment faults under the name of the test that was running",
+   "url": "https://github.com/manaflow-ai/cmux/issues/15410",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "S2: major",
+    "area: build-and-ci",
+    "difficulty:3"
+   ],
+   "updatedAt": "2026-10-02T22:56:29Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #28805 by @yuminn-k is already open against this issue",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/pull/28805",
+    "https://github.com/manaflow-ai/cmux/pull/14876",
+    "https://github.com/manaflow-ai/cmux/pull/15449",
+    "https://github.com/manaflow-ai/cmux/pull/14855",
+    "https://github.com/manaflow-ai/cmux/pull/26783"
+   ]
+  },
+  {
+   "number": 15473,
+   "title": "Codex shared daemon loses cmux hook context: notifications denied or silently skipped",
+   "url": "https://github.com/manaflow-ai/cmux/issues/15473",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S3: minor",
+    "area: agents",
+    "area: notifications",
+    "difficulty:3",
+    "cmux-next"
+   ],
+   "updatedAt": "2026-11-02T09:39:07Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "PR #18792 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/pull/18792",
+    "https://github.com/manaflow-ai/cmux/pull/19104",
+    "https://github.com/manaflow-ai/cmux/issues/15473",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/README.md",
+    "https://docs.brew.sh/Shell-Completion",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 15479,
+   "title": "Config error card still lists cmux-owned keys when Ghostty reports them without a file location",
+   "url": "https://github.com/manaflow-ai/cmux/issues/15479",
+   "labels": [
+    "help wanted",
+    "S3: minor",
+    "area: terminal",
+    "difficulty:2"
+   ],
+   "updatedAt": "2026-10-12T13:10:28Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "3 paths named in the issue do not exist on `cmux`'s default branch — that is unlisted work: ~/Library/Application, Support/com.cmuxterm.app/config.ghostty, com.cmuxterm.app.nightly/config.ghostty (+1 more)",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/issues/15479",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/README.md",
+    "https://docs.brew.sh/Shell-Completion",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 15549,
+   "title": "Auto-distinguish agent workspaces: automatic color and name so parallel sessions are tellable at a glance",
+   "url": "https://github.com/manaflow-ai/cmux/issues/15549",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "S3: minor",
+    "area: workspaces",
+    "area: agents",
+    "difficulty:3"
+   ],
+   "updatedAt": "2026-11-04T10:24:34Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.brew.sh/Shell-Completion) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/issues/15549",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/README.md",
+    "https://docs.brew.sh/Shell-Completion",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 15602,
+   "title": "Add bounded retention and cleanup for background-agent scratch artifacts",
+   "url": "https://github.com/manaflow-ai/cmux/issues/15602",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "S3: minor",
+    "area: agents",
+    "difficulty:3"
+   ],
+   "updatedAt": "2026-11-04T10:24:36Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.brew.sh/Shell-Completion) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/issues/15602",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/README.md",
+    "https://docs.brew.sh/Shell-Completion",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 15637,
+   "title": "Follow-up: inject update continuation-nudge state instead of using a singleton",
+   "url": "https://github.com/manaflow-ai/cmux/issues/15637",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "S3: minor",
+    "needs-triage",
+    "area: workspaces",
+    "area: updates",
+    "difficulty:3"
+   ],
+   "updatedAt": "2026-11-04T10:24:41Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "labelled `needs-triage` — scope may not be settled yet (+1 more)",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/issues/15637",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/README.md",
+    "https://docs.brew.sh/Shell-Completion",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 15643,
+   "title": "Workspaces: session snapshot silently drops workspaces past the 128th per window",
+   "url": "https://github.com/manaflow-ai/cmux/issues/15643",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S2: major",
+    "area: workspaces",
+    "difficulty:2"
+   ],
+   "updatedAt": "2026-10-31T13:13:34Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #19768 by @austinywang is already open against this issue",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/pull/19768",
+    "https://github.com/manaflow-ai/cmux/pull/25764",
+    "https://github.com/manaflow-ai/cmux/pull/29422",
+    "https://github.com/manaflow-ai/cmux/pull/29439"
+   ]
+  },
+  {
+   "number": 15656,
+   "title": "Settings: launch-time socketPassword scrub rewrites cmux.json, dropping comments, escaping slashes and replacing a symlink",
+   "url": "https://github.com/manaflow-ai/cmux/issues/15656",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S3: minor",
+    "area: settings",
+    "difficulty:2"
+   ],
+   "updatedAt": "2026-10-30T22:06:08Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #32539 by @hanlily666 is already open against this issue",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/pull/32539"
+   ]
+  },
+  {
+   "number": 15658,
+   "title": "Track workspace auto-naming parity across hook-enabled harnesses",
+   "url": "https://github.com/manaflow-ai/cmux/issues/15658",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "S3: minor",
+    "area: agents",
+    "difficulty:4"
+   ],
+   "updatedAt": "2026-11-04T10:24:44Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #15663 by @teamleaderleo is already open against this issue",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/issues/15663"
+   ]
+  },
+  {
+   "number": 15663,
+   "title": "Mobile agent chat: define and extend discovery and transcript fallback coverage beyond Claude/Codex",
+   "url": "https://github.com/manaflow-ai/cmux/issues/15663",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "S3: minor",
+    "area: agents",
+    "area: ios",
+    "difficulty:4"
+   ],
+   "updatedAt": "2026-11-04T10:24:46Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #14480 by @austinywang is already open against this issue",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/issues/14480"
+   ]
+  },
+  {
+   "number": 15667,
+   "title": "[all] session journal grows without retention; sealing hides terminal output and keeps indexes",
+   "url": "https://github.com/manaflow-ai/cmux/issues/15667",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S3: minor",
+    "area: workspaces",
+    "difficulty:3",
+    "cmux-next"
+   ],
+   "updatedAt": "2026-11-03T08:00:58Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #38409 by @Roo4L is already open against this issue",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/issues/38409",
+    "https://github.com/manaflow-ai/cmux/issues/34882"
+   ]
+  },
+  {
+   "number": 15689,
+   "title": "Session restore silently drops windows after the twelfth",
+   "url": "https://github.com/manaflow-ai/cmux/issues/15689",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S3: minor",
+    "area: workspaces",
+    "difficulty:2"
+   ],
+   "updatedAt": "2026-10-31T13:13:32Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #29422 by @nebullii is already open against this issue",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/pull/29422",
+    "https://github.com/manaflow-ai/cmux/pull/29439"
+   ]
+  },
+  {
+   "number": 15696,
+   "title": "CLI contract omits iOS Simulator and mobile namespaces",
+   "url": "https://github.com/manaflow-ai/cmux/issues/15696",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S3: minor",
+    "area: cli",
+    "area: docs",
+    "difficulty:2"
+   ],
+   "updatedAt": "2026-10-11T14:21:58Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #15704 by @teamleaderleo is already open against this issue",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/issues/15704"
+   ]
+  },
+  {
+   "number": 15719,
+   "title": "Browser import: support Safari/WebKit Cookies.binarycookies",
+   "url": "https://github.com/manaflow-ai/cmux/issues/15719",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "S3: minor",
+    "area: browser",
+    "difficulty:3"
+   ],
+   "updatedAt": "2026-11-08T03:54:13Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #5667 by @ishu86 is already open against this issue",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/pull/5667",
+    "https://github.com/manaflow-ai/cmux/pull/38233",
+    "https://github.com/manaflow-ai/cmux/pull/15627"
+   ]
+  },
+  {
+   "number": 15723,
+   "title": "Devices route selection disables Tailscale fallback when Iroh is configured",
+   "url": "https://github.com/manaflow-ai/cmux/issues/15723",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S2: major",
+    "area: remote",
+    "area: ios",
+    "difficulty:2"
+   ],
+   "updatedAt": "2026-10-26T23:04:31Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #25751 by @austinywang is already open against this issue",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/pull/25751"
+   ]
+  },
+  {
+   "number": 15732,
+   "title": "Mobile Task Composer Codex discovery ignores custom executable and CODEX_HOME",
+   "url": "https://github.com/manaflow-ai/cmux/issues/15732",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "S3: minor",
+    "area: agents",
+    "area: ios",
+    "difficulty:2"
+   ],
+   "updatedAt": "2026-10-01T02:46:37Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.brew.sh/Shell-Completion) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/issues/15732",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/README.md",
+    "https://docs.brew.sh/Shell-Completion",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 15739,
+   "title": "window default-display is documented but unreachable",
+   "url": "https://github.com/manaflow-ai/cmux/issues/15739",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S3: minor",
+    "area: layout",
+    "area: cli",
+    "difficulty:1"
+   ],
+   "updatedAt": "2026-10-08T22:58:41Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.brew.sh/Shell-Completion) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/issues/15739#issuecomment-6070714724",
+    "https://github.com/manaflow-ai/cmux/issues/15739",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/README.md",
+    "https://docs.brew.sh/Shell-Completion",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 15745,
+   "title": "CLI: new-surface silently ignores unknown and missing-value flags",
+   "url": "https://github.com/manaflow-ai/cmux/issues/15745",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted",
+    "S3: minor",
+    "area: workspaces",
+    "area: cli",
+    "difficulty:2"
+   ],
+   "updatedAt": "2026-10-02T22:05:48Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #15992 by @soyeladice-svg is already open against this issue",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/pull/15992"
+   ]
+  },
+  {
+   "number": 15755,
+   "title": "Legacy recently-closed browser fallback loses interaction state",
+   "url": "https://github.com/manaflow-ai/cmux/issues/15755",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S3: minor",
+    "area: workspaces",
+    "area: browser",
+    "difficulty:2"
+   ],
+   "updatedAt": "2026-10-01T04:26:17Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #15795 by @Tiancheng-Xu is already open against this issue",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/pull/15795",
+    "https://github.com/manaflow-ai/cmux/pull/15941",
+    "https://github.com/manaflow-ai/cmux/pull/16204"
+   ]
+  },
+  {
+   "number": 15757,
+   "title": "Codex workspace auto-naming drops custom model provider under --ignore-user-config",
+   "url": "https://github.com/manaflow-ai/cmux/issues/15757",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S2: major",
+    "area: workspaces",
+    "area: agents",
+    "difficulty:2"
+   ],
+   "updatedAt": "2026-10-28T06:37:53Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #26728 by @austinywang is already open against this issue",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/pull/26728"
+   ]
+  },
+  {
+   "number": 15760,
+   "title": "iOS task composer hides model controls for wrapped agent commands such as sr codex",
+   "url": "https://github.com/manaflow-ai/cmux/issues/15760",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "S3: minor",
+    "area: agents",
+    "area: ios",
+    "difficulty:2"
+   ],
+   "updatedAt": "2026-11-07T22:02:50Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #38057 by @aldeberts is already open against this issue",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/pull/38057"
+   ]
+  },
+  {
+   "number": 15847,
+   "title": "Cloud tree rename: a silent no-op default and a predicate that does not enforce its own doc comment",
+   "url": "https://github.com/manaflow-ai/cmux/issues/15847",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S3: minor",
+    "area: cloud",
+    "difficulty:1",
+    "cmux-next"
+   ],
+   "updatedAt": "2026-10-24T15:01:10Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "the files this issue points at total 50 KB (largest: CloudTreeNodeActions.swift 45 KB, CloudTreeOutlineView+Update.swift 5 KB) — whatever the difficulty label says, this is not a small change (+1 more)",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/Sources/Cloud/CloudTreeNodeActions.swift",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/Sources/Cloud/CloudTreeOutlineView+Update.swift",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/README.md",
+    "https://docs.brew.sh/Shell-Completion",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 15855,
+   "title": "Workspaces and terminals have no creation time: the daemon never records one, so the sidebar cannot show an age for either",
+   "url": "https://github.com/manaflow-ai/cmux/issues/15855",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "S3: minor",
+    "area: sidebar",
+    "area: workspaces",
+    "difficulty:4"
+   ],
+   "updatedAt": "2026-11-04T10:24:52Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "the files this issue points at total 1545 KB (largest: mux.rs 1388 KB, model.rs 51 KB, model.rs 42 KB) — whatever the difficulty label says, this is not a small change (+1 more)",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/cmux-tui/crates/cmux-tui-core/src/mux.rs",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/cmux-tui/bindings/rust/src/resource/model.rs",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/cmux-tui/crates/cmux-tui-core/src/model.rs",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/README.md",
+    "https://docs.brew.sh/Shell-Completion",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 15876,
+   "title": "A Claude upstream account behind a long cooldown has no way back except delete and re-add",
+   "url": "https://github.com/manaflow-ai/cmux/issues/15876",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S2: major",
+    "area: agents",
+    "area: auth",
+    "difficulty:2"
+   ],
+   "updatedAt": "2026-10-01T00:35:58Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "PR #15885 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+3 more)",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/pull/15885",
+    "https://github.com/manaflow-ai/cmux/issues/15876",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/web/services/coderouter/repository.ts",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/web/services/coderouter/claudeUpstream.ts",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/web/services/coderouter/types.ts",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/README.md",
+    "https://docs.brew.sh/Shell-Completion",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 15950,
+   "title": "0.64.25 auto-set NODE_OPTIONS kills node",
+   "url": "https://github.com/manaflow-ai/cmux/issues/15950",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S3: minor",
+    "area: agents",
+    "difficulty:2"
+   ],
+   "updatedAt": "2026-10-11T05:14:32Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "PR #22278 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/pull/22278",
+    "https://github.com/manaflow-ai/cmux/issues/15950",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/README.md",
+    "https://docs.brew.sh/Shell-Completion",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 16087,
+   "title": "Cloud CLI: concurrent vm run loses directory bindings",
+   "url": "https://github.com/manaflow-ai/cmux/issues/16087",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S3: minor",
+    "area: cloud",
+    "area: cli",
+    "difficulty:2"
+   ],
+   "updatedAt": "2026-10-31T03:00:21Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #28826 by @yuminn-k is already open against this issue",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/pull/28826"
+   ]
+  },
+  {
+   "number": 16099,
+   "title": "iOS SSH: close workspace swallows provider failures",
+   "url": "https://github.com/manaflow-ai/cmux/issues/16099",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S3: minor",
+    "area: remote",
+    "area: ios",
+    "difficulty:2"
+   ],
+   "updatedAt": "2026-10-31T03:19:44Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #28848 by @yuminn-k is already open against this issue",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/pull/28848"
+   ]
+  },
+  {
+   "number": 16103,
+   "title": "ssh-tmux silently skips sessions renamed between discovery and attach",
+   "url": "https://github.com/manaflow-ai/cmux/issues/16103",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S3: minor",
+    "area: remote",
+    "difficulty:2"
+   ],
+   "updatedAt": "2026-10-21T13:45:30Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #9912 by @chanh is already open against this issue",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/pull/9912",
+    "https://github.com/manaflow-ai/cmux/pull/21769",
+    "https://github.com/manaflow-ai/cmux/pull/23523"
+   ]
+  },
+  {
+   "number": 16119,
+   "title": "iOS On iPhone browser tunnel ignores tagged Mac app instance",
+   "url": "https://github.com/manaflow-ai/cmux/issues/16119",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S3: minor",
+    "area: remote",
+    "area: ios",
+    "area: browser",
+    "difficulty:3"
+   ],
+   "updatedAt": "2026-10-01T04:08:15Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #39423 by @weiweiwu007 is already open against this issue",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/pull/39423"
+   ]
+  },
+  {
+   "number": 16125,
+   "title": "Dock restore loses transferred panels when persisted workspace IDs collide",
+   "url": "https://github.com/manaflow-ai/cmux/issues/16125",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S3: minor",
+    "area: workspaces",
+    "difficulty:3"
+   ],
+   "updatedAt": "2026-11-07T02:48:12Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #38675 by @jvarah is already open against this issue",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/pull/38675"
+   ]
+  },
+  {
+   "number": 16126,
+   "title": "iOS SSH tmux marker collision can hide and kill user sessions",
+   "url": "https://github.com/manaflow-ai/cmux/issues/16126",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S2: major",
+    "area: remote",
+    "area: ios",
+    "difficulty:2",
+    "cmux-next"
+   ],
+   "updatedAt": "2026-11-10T04:26:09Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #40163 by @hkwan16 is already open against this issue",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/pull/40163"
+   ]
+  },
+  {
+   "number": 16136,
+   "title": "cmux docs prints English in every locale",
+   "url": "https://github.com/manaflow-ai/cmux/issues/16136",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S3: minor",
+    "area: cli",
+    "difficulty:3"
+   ],
+   "updatedAt": "2026-11-03T10:53:31Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #33593 by @miggyjv is already open against this issue",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/pull/33593",
+    "https://github.com/manaflow-ai/cmux/pull/15409"
+   ]
+  },
+  {
+   "number": 16139,
+   "title": "iOS SSH browser reconnect can clear a newer proxy task and leak listeners",
+   "url": "https://github.com/manaflow-ai/cmux/issues/16139",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S3: minor",
+    "area: remote",
+    "area: ios",
+    "difficulty:3"
+   ],
+   "updatedAt": "2026-10-01T04:12:05Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #16142 by @teamleaderleo is already open against this issue",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/issues/16142"
+   ]
+  },
+  {
+   "number": 16142,
+   "title": "iOS SSH reconnect can erase replacement connect task and resurrect a canceled connection",
+   "url": "https://github.com/manaflow-ai/cmux/issues/16142",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S2: major",
+    "area: remote",
+    "area: ios",
+    "difficulty:3"
+   ],
+   "updatedAt": "2026-10-26T23:57:36Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #25772 by @austinywang is already open against this issue",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/pull/25772"
+   ]
+  },
+  {
+   "number": 16146,
+   "title": "iOS SSH tmux control open can adopt after close and erase a newer task",
+   "url": "https://github.com/manaflow-ai/cmux/issues/16146",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S2: major",
+    "area: remote",
+    "area: ios",
+    "difficulty:3"
+   ],
+   "updatedAt": "2026-10-26T22:59:12Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #26726 by @austinywang is already open against this issue",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/pull/26726"
+   ]
+  },
+  {
+   "number": 16153,
+   "title": "CI: fast-guard deduplication reuses stale merge-base verdict on label reruns",
+   "url": "https://github.com/manaflow-ai/cmux/issues/16153",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S3: minor",
+    "area: build-and-ci",
+    "difficulty:2"
+   ],
+   "updatedAt": "2026-10-01T00:10:06Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "5 paths named in the issue do not exist on `cmux`'s default branch — that is unlisted work: github/workflows/ci-fast-guards.yml, refs/pull/, fast_guard_status.py, github/workflows/ci.yml, scripts/ci/fast_guard_status.py (+2 more)",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/issues/16153",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/.github/workflows/ci.yml",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/.github/workflows/ci-guards.yml",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/.github/workflows/ci-fast-guards.yml",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/README.md",
+    "https://docs.brew.sh/Shell-Completion",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 16193,
+   "title": "labels sync accepts case-only duplicate names and partially applies",
+   "url": "https://github.com/manaflow-ai/cmux/issues/16193",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted",
+    "S3: minor",
+    "area: build-and-ci",
+    "difficulty:1"
+   ],
+   "updatedAt": "2026-10-01T04:05:38Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #16198 by @wanjinhao1 is already open against this issue",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/pull/16198"
+   ]
+  },
+  {
+   "number": 16325,
+   "title": "Workspace switching degrades to 2.5–4 s after ~1 day uptime; main thread stuck in _CFXNotificationRegistrarRemoveObservers (0.64.25)",
+   "url": "https://github.com/manaflow-ai/cmux/issues/16325",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S2: major",
+    "area: workspaces",
+    "area: performance",
+    "difficulty:4"
+   ],
+   "updatedAt": "2026-10-28T06:26:15Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "@austinywang claimed it 16 days ago",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/issues/16325#issuecomment-6462117758"
+   ]
+  },
+  {
+   "number": 16351,
+   "title": "tmux_hud_test.go: mirror split recorder races on its mode flag",
+   "url": "https://github.com/manaflow-ai/cmux/issues/16351",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S3: minor",
+    "area: layout",
+    "area: build-and-ci",
+    "difficulty:1"
+   ],
+   "updatedAt": "2026-10-01T04:20:14Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #16102 by @STRML is already open against this issue",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/pull/16102"
+   ]
+  },
+  {
+   "number": 16379,
+   "title": "Cloud browser readiness probe ignores its timeout when proxy headers stall",
+   "url": "https://github.com/manaflow-ai/cmux/issues/16379",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S2: major",
+    "area: cloud",
+    "area: browser",
+    "difficulty:2"
+   ],
+   "updatedAt": "2026-10-01T05:29:42Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.brew.sh/Shell-Completion) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/README.md",
+    "https://docs.brew.sh/Shell-Completion",
+    "https://github.com/manaflow-ai/cmux/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 16494,
+   "title": "Setting to hide only the native claude_code sidebar pill",
+   "url": "https://github.com/manaflow-ai/cmux/issues/16494",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "area: sidebar",
+    "area: settings"
+   ],
+   "updatedAt": "2026-10-09T07:26:38Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #18820 by @UzairKhalid-crypto is already open against this issue",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/pull/18820",
+    "https://github.com/manaflow-ai/cmux/pull/23657"
+   ]
+  },
+  {
+   "number": 17144,
+   "title": "Initial-command SSH surfaces lack TTY metadata: native image paste inserts Mac-local path instead of uploading",
+   "url": "https://github.com/manaflow-ai/cmux/issues/17144",
+   "labels": [
+    "help wanted",
+    "S3: minor",
+    "area: input",
+    "area: remote"
+   ],
+   "updatedAt": "2026-10-03T21:28:11Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #7046 by @rocker-zhang is already open against this issue",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/pull/7046"
+   ]
+  },
+  {
+   "number": 17287,
+   "title": "cmux-tui client busy-loops (input thread 100% CPU) and ignores SIGTERM after its pty is deleted",
+   "url": "https://github.com/manaflow-ai/cmux/issues/17287",
+   "labels": [
+    "bug",
+    "help wanted",
+    "S2: major",
+    "area: terminal",
+    "area: cli"
+   ],
+   "updatedAt": "2026-10-06T09:41:52Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #17564 by @Faisal-Fayaz is already open against this issue",
+   "evidence": [
+    "https://github.com/manaflow-ai/cmux/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/manaflow-ai/cmux/pull/17564",
+    "https://github.com/manaflow-ai/cmux/pull/19596"
+   ]
+  }
+ ]
+}

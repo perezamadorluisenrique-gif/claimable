@@ -1,0 +1,163 @@
+{
+ "owner": "localsend",
+ "repo": "localsend",
+ "language": "Dart",
+ "stars": 98253,
+ "description": "An open-source cross-platform alternative to AirDrop",
+ "visitedAt": "2026-11-13T16:28:29.473Z",
+ "issues": [
+  {
+   "number": 60,
+   "title": "Chrome Plugin",
+   "url": "https://github.com/localsend/localsend/issues/60",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2023-01-29T20:54:58Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #1438 by @iamLazyCode is already open against this issue",
+   "evidence": [
+    "https://github.com/localsend/localsend/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/localsend/localsend/issues/1438",
+    "https://github.com/localsend/localsend/issues/2440",
+    "https://github.com/localsend/localsend/issues/2294",
+    "https://github.com/localsend/localsend/issues/654",
+    "https://github.com/localsend/localsend/issues/3378",
+    "https://github.com/localsend/localsend/issues/3072",
+    "https://github.com/localsend/localsend/issues/125"
+   ]
+  },
+  {
+   "number": 209,
+   "title": "Providing support for Android x86",
+   "url": "https://github.com/localsend/localsend/issues/209",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2023-02-27T00:20:02Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/flutter/flutter/wiki/JIT-Release-Modes) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/localsend/localsend/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/localsend/localsend/issues/209",
+    "https://github.com/flutter/flutter/wiki/JIT-Release-Modes",
+    "https://github.com/localsend/localsend/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 344,
+   "title": "Adopt XMPP standard set in XEP-0174",
+   "url": "https://github.com/localsend/localsend/issues/344",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2025-03-03T05:39:55Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #3027 by @AMRITO-KUNDU is already open against this issue",
+   "evidence": [
+    "https://github.com/localsend/localsend/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/localsend/localsend/issues/3027",
+    "https://github.com/localsend/localsend/issues/2367"
+   ]
+  },
+  {
+   "number": 436,
+   "title": "Runtime dependency on wlanapi.dll",
+   "url": "https://github.com/localsend/localsend/issues/436",
+   "labels": [
+    "bug",
+    "help wanted",
+    "windows"
+   ],
+   "updatedAt": "2023-11-11T23:07:35Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/localsend/localsend/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/localsend/localsend/issues/436",
+    "https://github.com/localsend/localsend/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 895,
+   "title": "Bug report: it's laggy dragging the program window on GNOME",
+   "url": "https://github.com/localsend/localsend/issues/895",
+   "labels": [
+    "bug",
+    "help wanted",
+    "linux"
+   ],
+   "updatedAt": "2024-06-01T16:55:30Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/localsend/localsend/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/localsend/localsend/issues/895",
+    "https://github.com/localsend/localsend/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 1082,
+   "title": "Feature request: Support for void linux",
+   "url": "https://github.com/localsend/localsend/issues/1082",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "linux"
+   ],
+   "updatedAt": "2026-01-06T18:07:20Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #2380 by @FeBe95 is already open against this issue",
+   "evidence": [
+    "https://github.com/localsend/localsend/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/localsend/localsend/issues/2380"
+   ]
+  },
+  {
+   "number": 1310,
+   "title": "File picker does not open on MX Linux while folder selection works",
+   "url": "https://github.com/localsend/localsend/issues/1310",
+   "labels": [
+    "bug",
+    "help wanted",
+    "linux"
+   ],
+   "updatedAt": "2026-10-04T23:24:14Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #3622 by @vincenzolamberti is already open against this issue",
+   "evidence": [
+    "https://github.com/localsend/localsend/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/localsend/localsend/pull/3622"
+   ]
+  },
+  {
+   "number": 1511,
+   "title": "Port to KaiOS",
+   "url": "https://github.com/localsend/localsend/issues/1511",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "packaging"
+   ],
+   "updatedAt": "2026-10-10T18:51:19Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/localsend/localsend/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/localsend/localsend/issues/1511",
+    "https://github.com/localsend/localsend/blob/HEAD/README.md"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,218 @@
+{
+ "owner": "AppFlowy-IO",
+ "repo": "AppFlowy",
+ "language": "Dart",
+ "stars": 78645,
+ "description": "Bring projects, wikis, and teams together with AI. AppFlowy is the AI collaborative workspace where you achieve more without losing control of your data. The leading open source Notion alternative.",
+ "visitedAt": "2026-11-13T16:28:29.473Z",
+ "issues": [
+  {
+   "number": 1020,
+   "title": "[FR] Text link",
+   "url": "https://github.com/AppFlowy-IO/AppFlowy/issues/1020",
+   "labels": [
+    "help wanted",
+    "improvements",
+    "grid",
+    "kanban board"
+   ],
+   "updatedAt": "2026-01-13T03:40:04Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #9117 by @scoleman43 is already open against this issue",
+   "evidence": [
+    "https://github.com/AppFlowy-IO/AppFlowy/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/AppFlowy-IO/AppFlowy/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/AppFlowy-IO/AppFlowy/issues/9117",
+    "https://github.com/AppFlowy-IO/AppFlowy/issues/8740"
+   ]
+  },
+  {
+   "number": 1989,
+   "title": "[FR] import from synology ds note",
+   "url": "https://github.com/AppFlowy-IO/AppFlowy/issues/1989",
+   "labels": [
+    "help wanted",
+    "importer"
+   ],
+   "updatedAt": "2023-06-12T11:51:50Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "only 6% of recently closed PRs were merged — most contributions get rejected or abandoned here (+2 more)",
+   "evidence": [
+    "https://github.com/AppFlowy-IO/AppFlowy/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/AppFlowy-IO/AppFlowy/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/AppFlowy-IO/AppFlowy/issues/1989",
+    "https://docs.appflowy.io/docs/documentation/appflowy/from-source"
+   ]
+  },
+  {
+   "number": 2306,
+   "title": "[FR] Create shortcuts for going back / forward a page",
+   "url": "https://github.com/AppFlowy-IO/AppFlowy/issues/2306",
+   "labels": [
+    "help wanted",
+    "shortcuts",
+    "2024"
+   ],
+   "updatedAt": "2026-08-17T20:08:59Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #8983 by @YadneshTeli is already open against this issue",
+   "evidence": [
+    "https://github.com/AppFlowy-IO/AppFlowy/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/AppFlowy-IO/AppFlowy/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/AppFlowy-IO/AppFlowy/pull/8983"
+   ]
+  },
+  {
+   "number": 3074,
+   "title": "[FR] press Enter anywhere in the grid view to add a new row / shift + enter a new line",
+   "url": "https://github.com/AppFlowy-IO/AppFlowy/issues/3074",
+   "labels": [
+    "help wanted",
+    "grid",
+    "shortcuts",
+    "2024"
+   ],
+   "updatedAt": "2026-09-29T07:45:24Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "only 6% of recently closed PRs were merged — most contributions get rejected or abandoned here (+2 more)",
+   "evidence": [
+    "https://github.com/AppFlowy-IO/AppFlowy/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/AppFlowy-IO/AppFlowy/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/AppFlowy-IO/AppFlowy/issues/3074#issuecomment-5885924768",
+    "https://github.com/AppFlowy-IO/AppFlowy/issues/3074",
+    "https://docs.appflowy.io/docs/documentation/appflowy/from-source"
+   ]
+  },
+  {
+   "number": 3322,
+   "title": "[FR] Advanced settings for autotypograph",
+   "url": "https://github.com/AppFlowy-IO/AppFlowy/issues/3322",
+   "labels": [
+    "help wanted",
+    "good first issue for devs",
+    "improvements",
+    "editor",
+    "hacktoberfest"
+   ],
+   "updatedAt": "2026-07-18T11:00:59Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #8783 by @kyo5uke is already open against this issue",
+   "evidence": [
+    "https://github.com/AppFlowy-IO/AppFlowy/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/AppFlowy-IO/AppFlowy/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/AppFlowy-IO/AppFlowy/pull/8783",
+    "https://github.com/AppFlowy-IO/AppFlowy/pull/8898"
+   ]
+  },
+  {
+   "number": 3427,
+   "title": "[FR] remove formatting option",
+   "url": "https://github.com/AppFlowy-IO/AppFlowy/issues/3427",
+   "labels": [
+    "new feature",
+    "help wanted",
+    "good first issue for devs",
+    "editor",
+    "hacktoberfest",
+    "2024"
+   ],
+   "updatedAt": "2026-09-09T19:29:13Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #9046 by @ibrahim-iqbal is already open against this issue",
+   "evidence": [
+    "https://github.com/AppFlowy-IO/AppFlowy/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/AppFlowy-IO/AppFlowy/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/AppFlowy-IO/AppFlowy/pull/9046"
+   ]
+  },
+  {
+   "number": 3464,
+   "title": "[FR] Add missing translations or improve existing translations for AppFlowy",
+   "url": "https://github.com/AppFlowy-IO/AppFlowy/issues/3464",
+   "labels": [
+    "help wanted",
+    "good first issue for devs",
+    "hacktoberfest",
+    "non-coding"
+   ],
+   "updatedAt": "2026-08-30T18:42:57Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #8899 by @NoahMenezes is already open against this issue",
+   "evidence": [
+    "https://github.com/AppFlowy-IO/AppFlowy/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/AppFlowy-IO/AppFlowy/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/AppFlowy-IO/AppFlowy/pull/8899"
+   ]
+  },
+  {
+   "number": 3536,
+   "title": "[Bug] CSD GTK titlebar on GNOME does not follow dark/light theme setting",
+   "url": "https://github.com/AppFlowy-IO/AppFlowy/issues/3536",
+   "labels": [
+    "good first issue for experienced devs",
+    "help wanted",
+    "improvements",
+    "platform-linux",
+    "2024",
+    "desktop",
+    "look and joy"
+   ],
+   "updatedAt": "2024-12-28T13:02:30Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "only 6% of recently closed PRs were merged — most contributions get rejected or abandoned here (+2 more)",
+   "evidence": [
+    "https://github.com/AppFlowy-IO/AppFlowy/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/AppFlowy-IO/AppFlowy/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/AppFlowy-IO/AppFlowy/pull/5991",
+    "https://github.com/AppFlowy-IO/AppFlowy/issues/3536",
+    "https://docs.appflowy.io/docs/documentation/appflowy/from-source"
+   ]
+  },
+  {
+   "number": 4114,
+   "title": "[Bug] missing xdg_foreign support",
+   "url": "https://github.com/AppFlowy-IO/AppFlowy/issues/4114",
+   "labels": [
+    "bug",
+    "help wanted",
+    "platform-linux"
+   ],
+   "updatedAt": "2025-06-04T16:05:32Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "only 6% of recently closed PRs were merged — most contributions get rejected or abandoned here (+1 more)",
+   "evidence": [
+    "https://github.com/AppFlowy-IO/AppFlowy/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/AppFlowy-IO/AppFlowy/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/AppFlowy-IO/AppFlowy/issues/4114",
+    "https://docs.appflowy.io/docs/documentation/appflowy/from-source"
+   ]
+  },
+  {
+   "number": 4892,
+   "title": "[Bug] Layers of optimized keyboard layouts do not work",
+   "url": "https://github.com/AppFlowy-IO/AppFlowy/issues/4892",
+   "labels": [
+    "help wanted",
+    "improvements"
+   ],
+   "updatedAt": "2024-04-19T08:25:11Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #8802 by @alyvusal is already open against this issue",
+   "evidence": [
+    "https://github.com/AppFlowy-IO/AppFlowy/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/AppFlowy-IO/AppFlowy/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/AppFlowy-IO/AppFlowy/issues/8802"
+   ]
+  }
+ ]
+}

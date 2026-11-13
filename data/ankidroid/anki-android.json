@@ -1,0 +1,694 @@
+{
+ "owner": "ankidroid",
+ "repo": "Anki-Android",
+ "language": "Kotlin",
+ "stars": 12214,
+ "description": "AnkiDroid: Anki flashcards on Android. Your secret trick to achieve superhuman information retention.",
+ "visitedAt": "2026-11-13T16:28:29.473Z",
+ "issues": [
+  {
+   "number": 6369,
+   "title": "TalkBack conflicts with TTS",
+   "url": "https://github.com/ankidroid/Anki-Android/issues/6369",
+   "labels": [
+    "Bug",
+    "Help Wanted",
+    "Reproduced",
+    "Keep Open",
+    "Accessibility"
+   ],
+   "updatedAt": "2026-08-27T19:05:10Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/ankidroid/Anki-Android/wiki/Development-Guide) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/ankidroid/Anki-Android/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ankidroid/Anki-Android/issues/6369",
+    "https://github.com/ankidroid/Anki-Android/wiki/Development-Guide",
+    "https://github.com/ankidroid/Anki-Android/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 6669,
+   "title": "Image not showing in study options menu.",
+   "url": "https://github.com/ankidroid/Anki-Android/issues/6669",
+   "labels": [
+    "UI",
+    "Help Wanted",
+    "Anki Ecosystem Compatibility"
+   ],
+   "updatedAt": "2025-12-23T01:14:42Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "6 stale claims, the most recent by @Akira2206 333 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/ankidroid/Anki-Android/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ankidroid/Anki-Android/issues/6669#issuecomment-3657602048",
+    "https://github.com/ankidroid/Anki-Android/issues/6669",
+    "https://github.com/ankidroid/Anki-Android/wiki/FAQ",
+    "https://github.com/ankidroid/Anki-Android/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 7913,
+   "title": "TalkBack Accessibility Improvement Umbrella Tracker",
+   "url": "https://github.com/ankidroid/Anki-Android/issues/7913",
+   "labels": [
+    "UI",
+    "Help Wanted",
+    "Good First Issue",
+    "Keep Open",
+    "Accessibility"
+   ],
+   "updatedAt": "2026-01-15T14:19:16Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #20334 by @KT-1114 is already open against this issue",
+   "evidence": [
+    "https://github.com/ankidroid/Anki-Android/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ankidroid/Anki-Android/pull/20334"
+   ]
+  },
+  {
+   "number": 9670,
+   "title": "S-pen related enhancement suggestions",
+   "url": "https://github.com/ankidroid/Anki-Android/issues/9670",
+   "labels": [
+    "Enhancement",
+    "Tablet",
+    "Help Wanted",
+    "Keep Open"
+   ],
+   "updatedAt": "2026-04-06T07:34:53Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "already assigned to @BrayanDSO",
+   "evidence": [
+    "https://github.com/ankidroid/Anki-Android/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ankidroid/Anki-Android/issues/9670"
+   ]
+  },
+  {
+   "number": 13283,
+   "title": "[Cleanup]: Add Tests to the code (`@NeedsTest`)",
+   "url": "https://github.com/ankidroid/Anki-Android/issues/13283",
+   "labels": [
+    "Good First Issue",
+    "Keep Open",
+    "Tests"
+   ],
+   "updatedAt": "2026-09-19T15:08:45Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "PR #13306 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+23 more)",
+   "evidence": [
+    "https://github.com/ankidroid/Anki-Android/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ankidroid/Anki-Android/pull/13306",
+    "https://github.com/ankidroid/Anki-Android/pull/14291",
+    "https://github.com/ankidroid/Anki-Android/pull/14337",
+    "https://github.com/ankidroid/Anki-Android/pull/14856",
+    "https://github.com/ankidroid/Anki-Android/pull/17311",
+    "https://github.com/ankidroid/Anki-Android/pull/19067",
+    "https://github.com/ankidroid/Anki-Android/pull/19738",
+    "https://github.com/ankidroid/Anki-Android/pull/19957",
+    "https://github.com/ankidroid/Anki-Android/pull/20043"
+   ]
+  },
+  {
+   "number": 14425,
+   "title": "Option to open a card from card browser in preview mode instead of edit mode.",
+   "url": "https://github.com/ankidroid/Anki-Android/issues/14425",
+   "labels": [
+    "UI",
+    "Accepted",
+    "Good First Issue",
+    "Keep Open",
+    "Card Browser"
+   ],
+   "updatedAt": "2026-01-12T18:05:47Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "already assigned to @david-allison",
+   "evidence": [
+    "https://github.com/ankidroid/Anki-Android/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ankidroid/Anki-Android/issues/14425"
+   ]
+  },
+  {
+   "number": 15034,
+   "title": "Support for choosing a custom backup location",
+   "url": "https://github.com/ankidroid/Anki-Android/issues/15034",
+   "labels": [
+    "Priority-High",
+    "Accepted",
+    "Help Wanted"
+   ],
+   "updatedAt": "2026-11-03T03:15:26Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #18182 by @Clesssss is already open against this issue",
+   "evidence": [
+    "https://github.com/ankidroid/Anki-Android/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ankidroid/Anki-Android/pull/18182",
+    "https://github.com/ankidroid/Anki-Android/pull/20658"
+   ]
+  },
+  {
+   "number": 15706,
+   "title": "Queue UI requests from page fragments while app in background",
+   "url": "https://github.com/ankidroid/Anki-Android/issues/15706",
+   "labels": [
+    "Help Wanted",
+    "Keep Open"
+   ],
+   "updatedAt": "2026-11-04T14:28:07Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #23004 by @mixelas is already open against this issue",
+   "evidence": [
+    "https://github.com/ankidroid/Anki-Android/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ankidroid/Anki-Android/pull/23004"
+   ]
+  },
+  {
+   "number": 16626,
+   "title": "APK size optimization umbrella (remaining task: size comparison on PRs)",
+   "url": "https://github.com/ankidroid/Anki-Android/issues/16626",
+   "labels": [
+    "Enhancement",
+    "Help Wanted",
+    "Keep Open",
+    "Dev",
+    "CI"
+   ],
+   "updatedAt": "2026-10-24T14:43:44Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #22048 by @mixelas is already open against this issue",
+   "evidence": [
+    "https://github.com/ankidroid/Anki-Android/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ankidroid/Anki-Android/pull/22048",
+    "https://github.com/ankidroid/Anki-Android/pull/16627"
+   ]
+  },
+  {
+   "number": 18286,
+   "title": "ContentProvider returns null unless app manually launched — request for background-initializable entry point",
+   "url": "https://github.com/ankidroid/Anki-Android/issues/18286",
+   "labels": [
+    "Help Wanted",
+    "API",
+    "Keep Open"
+   ],
+   "updatedAt": "2026-10-03T10:21:02Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #22871 by @leonardoxiao is already open against this issue",
+   "evidence": [
+    "https://github.com/ankidroid/Anki-Android/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ankidroid/Anki-Android/issues/22871"
+   ]
+  },
+  {
+   "number": 18413,
+   "title": "Improve Privacy Policy to explain Google Play Data Sharing",
+   "url": "https://github.com/ankidroid/Anki-Android/issues/18413",
+   "labels": [
+    "Help Wanted"
+   ],
+   "updatedAt": "2026-10-26T10:04:21Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/ankidroid/Anki-Android/wiki/Privacy-Policy) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/ankidroid/Anki-Android/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ankidroid/Anki-Android/issues/18413",
+    "https://github.com/ankidroid/Anki-Android/wiki/Privacy-Policy",
+    "https://github.com/ankidroid/Anki-Android/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 18553,
+   "title": "Inconsistencies between dialog messages",
+   "url": "https://github.com/ankidroid/Anki-Android/issues/18553",
+   "labels": [
+    "Good First Issue"
+   ],
+   "updatedAt": "2026-09-24T23:23:00Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "PR #20263 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+7 more)",
+   "evidence": [
+    "https://github.com/ankidroid/Anki-Android/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ankidroid/Anki-Android/pull/20263",
+    "https://github.com/ankidroid/Anki-Android/pull/20273",
+    "https://github.com/ankidroid/Anki-Android/pull/20348",
+    "https://github.com/ankidroid/Anki-Android/pull/20368",
+    "https://github.com/ankidroid/Anki-Android/pull/20417",
+    "https://github.com/ankidroid/Anki-Android/pull/20459",
+    "https://github.com/ankidroid/Anki-Android/issues/18553",
+    "https://github.com/ankidroid/Anki-Android/issues/18553#issuecomment-4148290728",
+    "https://github.com/ankidroid/Anki-Android/wiki/Development-Guide"
+   ]
+  },
+  {
+   "number": 19678,
+   "title": "The message \"An error occurred when generating an image occlusion note\" is sometimes shown when clicking the check button in the Image Occlusion editor",
+   "url": "https://github.com/ankidroid/Anki-Android/issues/19678",
+   "labels": [
+    "Help Wanted",
+    "upstream-issue",
+    "Reproduced"
+   ],
+   "updatedAt": "2026-10-02T15:12:13Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "already assigned to @mikehardy-machineaccount",
+   "evidence": [
+    "https://github.com/ankidroid/Anki-Android/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ankitects/anki/pull/4458",
+    "https://github.com/ankidroid/Anki-Android/issues/19678",
+    "https://github.com/ankidroid/Anki-Android/issues/19678#issuecomment-3899436610"
+   ]
+  },
+  {
+   "number": 20478,
+   "title": "Improve the \"Learn ahead limit\" and \"Timebox time limit\" dialogs",
+   "url": "https://github.com/ankidroid/Anki-Android/issues/20478",
+   "labels": [
+    "Good First Issue"
+   ],
+   "updatedAt": "2026-10-29T11:14:09Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #22858 by @Ratnesh5 is already open against this issue",
+   "evidence": [
+    "https://github.com/ankidroid/Anki-Android/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ankidroid/Anki-Android/pull/22858",
+    "https://github.com/ankidroid/Anki-Android/pull/20485",
+    "https://github.com/ankidroid/Anki-Android/pull/21910"
+   ]
+  },
+  {
+   "number": 20508,
+   "title": "Improve some dialogs (mostly string changes)",
+   "url": "https://github.com/ankidroid/Anki-Android/issues/20508",
+   "labels": [
+    "Good First Issue"
+   ],
+   "updatedAt": "2026-11-06T18:18:05Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "PR #20515 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+10 more)",
+   "evidence": [
+    "https://github.com/ankidroid/Anki-Android/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ankidroid/Anki-Android/pull/20515",
+    "https://github.com/ankidroid/Anki-Android/pull/20522",
+    "https://github.com/ankidroid/Anki-Android/pull/20530",
+    "https://github.com/ankidroid/Anki-Android/pull/20553",
+    "https://github.com/ankidroid/Anki-Android/pull/21226",
+    "https://github.com/ankidroid/Anki-Android/pull/21362",
+    "https://github.com/ankidroid/Anki-Android/pull/21777",
+    "https://github.com/ankidroid/Anki-Android/pull/21818",
+    "https://github.com/ankidroid/Anki-Android/pull/21982"
+   ]
+  },
+  {
+   "number": 20598,
+   "title": "Improve the Review forgotten cards dialog",
+   "url": "https://github.com/ankidroid/Anki-Android/issues/20598",
+   "labels": [
+    "Good First Issue"
+   ],
+   "updatedAt": "2026-10-23T08:27:44Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #22725 by @LucWaw is already open against this issue",
+   "evidence": [
+    "https://github.com/ankidroid/Anki-Android/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ankidroid/Anki-Android/pull/22725"
+   ]
+  },
+  {
+   "number": 20601,
+   "title": "Improve the Study by card state or tag dialog",
+   "url": "https://github.com/ankidroid/Anki-Android/issues/20601",
+   "labels": [
+    "Good First Issue"
+   ],
+   "updatedAt": "2026-10-13T19:45:42Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #20805 by @Akira2206 is already open against this issue",
+   "evidence": [
+    "https://github.com/ankidroid/Anki-Android/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ankidroid/Anki-Android/pull/20805"
+   ]
+  },
+  {
+   "number": 20929,
+   "title": "Deck options Easy Days switch triggered when scrolling",
+   "url": "https://github.com/ankidroid/Anki-Android/issues/20929",
+   "labels": [
+    "Help Wanted",
+    "upstream-issue",
+    "2.21"
+   ],
+   "updatedAt": "2026-10-24T14:44:26Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #4784 by @Luc-Mcgrady is already open against this issue",
+   "evidence": [
+    "https://github.com/ankidroid/Anki-Android/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ankitects/anki/pull/4784",
+    "https://github.com/ankidroid/Anki-Android/pull/20935"
+   ]
+  },
+  {
+   "number": 20973,
+   "title": "Performance: Investigate androidx: startUpWebView",
+   "url": "https://github.com/ankidroid/Anki-Android/issues/20973",
+   "labels": [
+    "Performance",
+    "Good First Issue"
+   ],
+   "updatedAt": "2026-09-02T21:05:22Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #21220 by @neronguyen is already open against this issue",
+   "evidence": [
+    "https://github.com/ankidroid/Anki-Android/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ankidroid/Anki-Android/pull/21220"
+   ]
+  },
+  {
+   "number": 21010,
+   "title": "[Tablet] Reconsider design of Note Editor Previewer",
+   "url": "https://github.com/ankidroid/Anki-Android/issues/21010",
+   "labels": [
+    "Help Wanted",
+    "2.24"
+   ],
+   "updatedAt": "2026-10-28T22:05:05Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #22565 by @criticalAY is already open against this issue",
+   "evidence": [
+    "https://github.com/ankidroid/Anki-Android/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ankidroid/Anki-Android/pull/22565",
+    "https://github.com/ankidroid/Anki-Android/pull/21644",
+    "https://github.com/ankidroid/Anki-Android/pull/21620"
+   ]
+  },
+  {
+   "number": 21780,
+   "title": "Cleanup edge to edge deprecations",
+   "url": "https://github.com/ankidroid/Anki-Android/issues/21780",
+   "labels": [
+    "Good First Issue",
+    "Deprecation"
+   ],
+   "updatedAt": "2026-10-27T11:31:49Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @Roniscend 66 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/ankidroid/Anki-Android/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ankidroid/Anki-Android/issues/21780#issuecomment-5588869128",
+    "https://github.com/ankidroid/Anki-Android/issues/21780",
+    "https://github.com/ankidroid/Anki-Android/wiki/Development-Guide",
+    "https://github.com/ankidroid/Anki-Android/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 21942,
+   "title": "Incorrect test: `copyNoteCopiesDeckId`",
+   "url": "https://github.com/ankidroid/Anki-Android/issues/21942",
+   "labels": [
+    "Good First Issue"
+   ],
+   "updatedAt": "2026-10-15T14:29:08Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "already assigned to @Sanjeev-Narang",
+   "evidence": [
+    "https://github.com/ankidroid/Anki-Android/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ankidroid/Anki-Android/issues/21942",
+    "https://github.com/ankidroid/Anki-Android/issues/21942#issuecomment-6194263578"
+   ]
+  },
+  {
+   "number": 22139,
+   "title": "Play Store report: video playback stuttering",
+   "url": "https://github.com/ankidroid/Anki-Android/issues/22139",
+   "labels": [
+    "Needs Author Reply",
+    "Help Wanted",
+    "Can't reproduce",
+    "2.25"
+   ],
+   "updatedAt": "2026-10-13T10:45:49Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/ankidroid/Anki-Android/wiki/Development-Guide) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/ankidroid/Anki-Android/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ankidroid/Anki-Android/issues/22139",
+    "https://github.com/ankidroid/Anki-Android/wiki/Development-Guide",
+    "https://github.com/ankidroid/Anki-Android/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 22163,
+   "title": "IDE Lint: limit test names",
+   "url": "https://github.com/ankidroid/Anki-Android/issues/22163",
+   "labels": [
+    "Good First Issue",
+    "Lint"
+   ],
+   "updatedAt": "2026-11-10T16:03:15Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #22885 by @criticalAY is already open against this issue",
+   "evidence": [
+    "https://github.com/ankidroid/Anki-Android/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ankidroid/Anki-Android/pull/22885"
+   ]
+  },
+  {
+   "number": 22390,
+   "title": "refactor: Separate Deck Picker dialogs from side-pane changes",
+   "url": "https://github.com/ankidroid/Anki-Android/issues/22390",
+   "labels": [
+    "Help Wanted"
+   ],
+   "updatedAt": "2026-10-11T20:43:23Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #22755 by @n1snt is already open against this issue",
+   "evidence": [
+    "https://github.com/ankidroid/Anki-Android/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ankidroid/Anki-Android/pull/22755",
+    "https://github.com/ankidroid/Anki-Android/pull/22392",
+    "https://github.com/ankidroid/Anki-Android/pull/22437"
+   ]
+  },
+  {
+   "number": 22433,
+   "title": "2.25: Font Scaling issue with whiteboard",
+   "url": "https://github.com/ankidroid/Anki-Android/issues/22433",
+   "labels": [
+    "Needs Author Reply",
+    "Help Wanted",
+    "Can't reproduce"
+   ],
+   "updatedAt": "2026-10-23T14:46:43Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/ankidroid/Anki-Android/wiki/Development-Guide) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/ankidroid/Anki-Android/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ankidroid/Anki-Android/issues/22433",
+    "https://github.com/ankidroid/Anki-Android/wiki/Development-Guide",
+    "https://github.com/ankidroid/Anki-Android/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 22442,
+   "title": "docs: add source comments to default config values from upstream Anki",
+   "url": "https://github.com/ankidroid/Anki-Android/issues/22442",
+   "labels": [
+    "Good First Issue",
+    "Docs"
+   ],
+   "updatedAt": "2026-10-19T14:40:28Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "already assigned to @Ranjan-3105",
+   "evidence": [
+    "https://github.com/ankidroid/Anki-Android/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ankidroid/Anki-Android/pull/22737",
+    "https://github.com/ankidroid/Anki-Android/issues/22442",
+    "https://github.com/ankidroid/Anki-Android/issues/22442#issuecomment-6269107109"
+   ]
+  },
+  {
+   "number": 22511,
+   "title": "improve UX of external app security warning",
+   "url": "https://github.com/ankidroid/Anki-Android/issues/22511",
+   "labels": [
+    "Help Wanted"
+   ],
+   "updatedAt": "2026-10-14T19:27:16Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #22567 by @sanjaysargam is already open against this issue",
+   "evidence": [
+    "https://github.com/ankidroid/Anki-Android/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ankidroid/Anki-Android/pull/22567"
+   ]
+  },
+  {
+   "number": 22835,
+   "title": "lint: enforce all preference keys are named `pref_key_`",
+   "url": "https://github.com/ankidroid/Anki-Android/issues/22835",
+   "labels": [
+    "Good First Issue",
+    "Lint"
+   ],
+   "updatedAt": "2026-11-03T15:08:11Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "already assigned to @AnushreeKasturi",
+   "evidence": [
+    "https://github.com/ankidroid/Anki-Android/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ankidroid/Anki-Android/pull/22917",
+    "https://github.com/ankidroid/Anki-Android/issues/22835",
+    "https://github.com/ankidroid/Anki-Android/issues/22835#issuecomment-6459253424"
+   ]
+  },
+  {
+   "number": 22844,
+   "title": "GrapheneOS Storage Scopes",
+   "url": "https://github.com/ankidroid/Anki-Android/issues/22844",
+   "labels": [
+    "Help Wanted",
+    "Needs Triage",
+    "2.25",
+    "2.26"
+   ],
+   "updatedAt": "2026-10-31T08:11:17Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "labelled `Needs Triage` — scope may not be settled yet (+1 more)",
+   "evidence": [
+    "https://github.com/ankidroid/Anki-Android/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ankidroid/Anki-Android/issues/22844",
+    "https://docs.ankidroid.org/",
+    "https://github.com/ankidroid/Anki-Android/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 22951,
+   "title": "Make the input stepper dialogs consistent",
+   "url": "https://github.com/ankidroid/Anki-Android/issues/22951",
+   "labels": [
+    "Good First Issue"
+   ],
+   "updatedAt": "2026-11-06T17:58:18Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #22846 by @david-allison is already open against this issue",
+   "evidence": [
+    "https://github.com/ankidroid/Anki-Android/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ankidroid/Anki-Android/pull/22846"
+   ]
+  },
+  {
+   "number": 22994,
+   "title": "Crash reporting: Stop reporting termux exception",
+   "url": "https://github.com/ankidroid/Anki-Android/issues/22994",
+   "labels": [
+    "Good First Issue"
+   ],
+   "updatedAt": "2026-11-11T16:31:40Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #23208 by @aarianmm is already open against this issue",
+   "evidence": [
+    "https://github.com/ankidroid/Anki-Android/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ankidroid/Anki-Android/pull/23208"
+   ]
+  },
+  {
+   "number": 23048,
+   "title": "Dialogs: cap numbers and deal with leading zeros",
+   "url": "https://github.com/ankidroid/Anki-Android/issues/23048",
+   "labels": [
+    "Good First Issue"
+   ],
+   "updatedAt": "2026-11-10T11:14:28Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #23249 by @Shreyas-Kumar-S is already open against this issue",
+   "evidence": [
+    "https://github.com/ankidroid/Anki-Android/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ankidroid/Anki-Android/pull/23249"
+   ]
+  },
+  {
+   "number": 23204,
+   "title": "[DEV] Attachment choices stop working after editor recreation",
+   "url": "https://github.com/ankidroid/Anki-Android/issues/23204",
+   "labels": [
+    "Help Wanted"
+   ],
+   "updatedAt": "2026-11-13T14:23:07Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/ankidroid/Anki-Android/wiki/Development-Guide) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/ankidroid/Anki-Android/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ankidroid/Anki-Android/issues/23204",
+    "https://github.com/ankidroid/Anki-Android/wiki/Development-Guide",
+    "https://github.com/ankidroid/Anki-Android/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 23256,
+   "title": "Cards borrowed by another filtered deck still enable Create",
+   "url": "https://github.com/ankidroid/Anki-Android/issues/23256",
+   "labels": [
+    "Help Wanted"
+   ],
+   "updatedAt": "2026-11-13T14:18:23Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/ankidroid/Anki-Android/wiki/Development-Guide) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/ankidroid/Anki-Android/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ankidroid/Anki-Android/issues/23256",
+    "https://github.com/ankidroid/Anki-Android/wiki/Development-Guide",
+    "https://github.com/ankidroid/Anki-Android/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 23257,
+   "title": "Previewed cards incorrectly enable due-only study",
+   "url": "https://github.com/ankidroid/Anki-Android/issues/23257",
+   "labels": [
+    "Help Wanted"
+   ],
+   "updatedAt": "2026-11-13T14:20:40Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/ankidroid/Anki-Android/wiki/Development-Guide) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/ankidroid/Anki-Android/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ankidroid/Anki-Android/issues/23257",
+    "https://github.com/ankidroid/Anki-Android/wiki/Development-Guide",
+    "https://github.com/ankidroid/Anki-Android/blob/HEAD/CONTRIBUTING.md"
+   ]
+  }
+ ]
+}

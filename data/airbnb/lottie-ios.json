@@ -1,0 +1,50 @@
+{
+ "owner": "airbnb",
+ "repo": "lottie-ios",
+ "language": "Swift",
+ "stars": 26934,
+ "description": "An iOS library to natively render After Effects vector animations",
+ "visitedAt": "2026-11-13T16:28:29.473Z",
+ "issues": [
+  {
+   "number": 1717,
+   "title": "Trim Paths timing is out of sync",
+   "url": "https://github.com/airbnb/lottie-ios/issues/1717",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-07-22T20:58:46Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "no push in 38 days (last: 2026-10-06) (+1 more)",
+   "evidence": [
+    "https://github.com/airbnb/lottie-ios — pushed_at 2026-10-06T17:02:33Z",
+    "https://github.com/airbnb/lottie-ios/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/airbnb/lottie-ios/pull/1721",
+    "https://github.com/airbnb/lottie-ios/issues/1717",
+    "https://github.com/airbnb/lottie-ios/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 1739,
+   "title": "The Main Thread rendering engine doesn't currently support repeaters. To play an animation with repeaters, you can use the Core Animation rendering engine instead",
+   "url": "https://github.com/airbnb/lottie-ios/issues/1739",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2023-05-31T14:38:59Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "no push in 38 days (last: 2026-10-06) (+1 more)",
+   "evidence": [
+    "https://github.com/airbnb/lottie-ios — pushed_at 2026-10-06T17:02:33Z",
+    "https://github.com/airbnb/lottie-ios/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/airbnb/lottie-ios/pull/1754",
+    "https://github.com/airbnb/lottie-ios/issues/1739",
+    "https://github.com/airbnb/lottie-ios/blob/HEAD/README.md"
+   ]
+  }
+ ]
+}

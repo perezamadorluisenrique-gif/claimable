@@ -1,0 +1,2144 @@
+{
+ "owner": "swiftlang",
+ "repo": "swift",
+ "language": "Swift",
+ "stars": 70548,
+ "description": "The Swift Programming Language",
+ "visitedAt": "2026-11-13T16:28:29.473Z",
+ "issues": [
+  {
+   "number": 42961,
+   "title": "[SR-339] SILParser needs grammar documentation",
+   "url": "https://github.com/swiftlang/swift/issues/42961",
+   "labels": [
+    "improvement",
+    "compiler",
+    "good first issue",
+    "nfc"
+   ],
+   "updatedAt": "2023-03-10T17:08:25Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "open 133 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/issues/42961",
+    "https://github.com/swiftlang/swift/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 42962,
+   "title": "[SR-340] Refactor SILParser::parseSILInstruction",
+   "url": "https://github.com/swiftlang/swift/issues/42962",
+   "labels": [
+    "compiler",
+    "good first issue",
+    "SILParser",
+    "nfc"
+   ],
+   "updatedAt": "2025-06-16T09:11:45Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #82091 by @optimistiCli is already open against this issue",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/issues/82091",
+    "https://github.com/swiftlang/swift/issues/62732"
+   ]
+  },
+  {
+   "number": 42963,
+   "title": "[SR-341] Make test/SIL/Parser/witness_with_inherited_gp.sil not depend on stdlib and remove XFAIL",
+   "url": "https://github.com/swiftlang/swift/issues/42963",
+   "labels": [
+    "bug",
+    "compiler",
+    "good first issue",
+    "nfc"
+   ],
+   "updatedAt": "2023-03-10T17:08:26Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/issues/42963",
+    "https://github.com/swiftlang/swift/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 42964,
+   "title": "[SR-342] Convert or add *.sil version of all *.swift tests in test/SILOptimizer and test/IRGen",
+   "url": "https://github.com/swiftlang/swift/issues/42964",
+   "labels": [
+    "bug",
+    "compiler",
+    "good first issue",
+    "nfc"
+   ],
+   "updatedAt": "2023-03-10T17:08:27Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/issues/42964",
+    "https://github.com/swiftlang/swift/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 43002,
+   "title": "[SR-385] Replace test/Interpreter/SDK/Inputs/libTestLoad.dylib with source code",
+   "url": "https://github.com/swiftlang/swift/issues/43002",
+   "labels": [
+    "bug",
+    "compiler",
+    "good first issue",
+    "nfc"
+   ],
+   "updatedAt": "2023-03-10T17:08:27Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/issues/43002",
+    "https://github.com/swiftlang/swift/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 43376,
+   "title": "[SR-764] swiftc calls default initializers \"synthesized initializers\"",
+   "url": "https://github.com/swiftlang/swift/issues/43376",
+   "labels": [
+    "bug",
+    "compiler",
+    "good first issue",
+    "diagnostics quality",
+    "type checker",
+    "properties",
+    "class"
+   ],
+   "updatedAt": "2023-09-09T22:52:04Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #68856 by @Visckmart is already open against this issue",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/pull/68856"
+   ]
+  },
+  {
+   "number": 43485,
+   "title": "[SR-873] Python Benchmark Driver needs unit tests",
+   "url": "https://github.com/swiftlang/swift/issues/43485",
+   "labels": [
+    "compiler",
+    "good first issue"
+   ],
+   "updatedAt": "2025-07-02T18:50:18Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/issues/43485",
+    "https://github.com/swiftlang/swift/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 43500,
+   "title": "[SR-888] Sequence.minElement() and maxElement() should be protocol requirements (customization points)",
+   "url": "https://github.com/swiftlang/swift/issues/43500",
+   "labels": [
+    "good first issue",
+    "standard library",
+    "affects ABI",
+    "swift evolution proposal needed"
+   ],
+   "updatedAt": "2026-01-14T16:42:02Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "labelled `swift evolution proposal needed` — scope may not be settled yet",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/issues/43500",
+    "https://github.com/swiftlang/swift/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 43590,
+   "title": "[SR-978] Warn on do {} with only one empty catch {} block",
+   "url": "https://github.com/swiftlang/swift/issues/43590",
+   "labels": [
+    "improvement",
+    "compiler",
+    "good first issue",
+    "diagnostics quality",
+    "swift 5.9",
+    "missing warning",
+    "statements",
+    "do catch"
+   ],
+   "updatedAt": "2025-12-25T09:07:55Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "2 stale claims, the most recent by @anirudhmathur12 323 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/issues/43590#issuecomment-3691191915",
+    "https://github.com/swiftlang/swift/issues/43590",
+    "https://github.com/swiftlang/swift/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 44300,
+   "title": "[SR-1691] Run longer tests first",
+   "url": "https://github.com/swiftlang/swift/issues/44300",
+   "labels": [
+    "test suite",
+    "good first issue",
+    "python"
+   ],
+   "updatedAt": "2026-01-14T16:43:44Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/issues/44300",
+    "https://github.com/swiftlang/swift/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 44416,
+   "title": "[SR-1807] Sema should catch and warn about self capture in closures",
+   "url": "https://github.com/swiftlang/swift/issues/44416",
+   "labels": [
+    "compiler",
+    "good first issue",
+    "new feature"
+   ],
+   "updatedAt": "2023-07-19T16:13:06Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @swift-ci 3744 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/issues/44416#issuecomment-1108178720",
+    "https://github.com/swiftlang/swift/issues/44416",
+    "https://github.com/swiftlang/swift/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 44568,
+   "title": "[SR-1959] Use Bounds.Stride for Index on countable ranges",
+   "url": "https://github.com/swiftlang/swift/issues/44568",
+   "labels": [
+    "improvement",
+    "good first issue",
+    "standard library",
+    "affects ABI",
+    "swift evolution proposal needed"
+   ],
+   "updatedAt": "2022-11-11T08:23:23Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "labelled `swift evolution proposal needed` — scope may not be settled yet (+1 more)",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/issues/44568",
+    "https://github.com/swiftlang/swift/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 44725,
+   "title": "[SR-2117] Add documentation for SourceKit request types",
+   "url": "https://github.com/swiftlang/swift/issues/44725",
+   "labels": [
+    "improvement",
+    "good first issue"
+   ],
+   "updatedAt": "2026-09-24T09:14:32Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #92586 by @Aditya-XR is already open against this issue",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/pull/92586"
+   ]
+  },
+  {
+   "number": 45010,
+   "title": "[SR-2403] Recognize __builtin_{huge_val,inf,nan}() macros",
+   "url": "https://github.com/swiftlang/swift/issues/45010",
+   "labels": [
+    "bug",
+    "compiler",
+    "good first issue",
+    "c/c++ macros",
+    "c interop"
+   ],
+   "updatedAt": "2023-02-02T19:42:05Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "open 125 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/issues/45010",
+    "https://github.com/swiftlang/swift/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 45551,
+   "title": "[SR-2961] utils/run-test should accept the same \"optimization mode\" flags build-script does",
+   "url": "https://github.com/swiftlang/swift/issues/45551",
+   "labels": [
+    "good first issue",
+    "contributor experience",
+    "utils",
+    "run-test"
+   ],
+   "updatedAt": "2026-08-01T08:33:43Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #91159 by @AayushP123 is already open against this issue",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/pull/91159"
+   ]
+  },
+  {
+   "number": 45795,
+   "title": "[SR-3207] Segfault with Obj-C parameter of (NSError* __autoreleasing __nonnull * __nullable)",
+   "url": "https://github.com/swiftlang/swift/issues/45795",
+   "labels": [
+    "bug",
+    "compiler",
+    "good first issue",
+    "crash"
+   ],
+   "updatedAt": "2023-04-17T00:29:43Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/issues/45795",
+    "https://github.com/swiftlang/swift/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 45842,
+   "title": "[SR-3254] Unhelpful diagnostics for compound name reference.",
+   "url": "https://github.com/swiftlang/swift/issues/45842",
+   "labels": [
+    "bug",
+    "compiler",
+    "good first issue",
+    "diagnostics quality",
+    "type checker",
+    "function references",
+    "swift 6.0"
+   ],
+   "updatedAt": "2026-08-01T08:55:30Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #91162 by @AayushP123 is already open against this issue",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/pull/91162"
+   ]
+  },
+  {
+   "number": 45904,
+   "title": "[SR-3316] \"Script mode\" globals have internal visibility and can be accessed before initialization from other files",
+   "url": "https://github.com/swiftlang/swift/issues/45904",
+   "labels": [
+    "compiler",
+    "good first issue",
+    "swift evolution proposal needed",
+    "access control",
+    "script mode"
+   ],
+   "updatedAt": "2026-01-23T13:56:56Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "already assigned to @Vivek09Chahal",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/issues/45904"
+   ]
+  },
+  {
+   "number": 45984,
+   "title": "[SR-3396] `reversed` for sequences and forward collections and should return a `ReversedRandomAccessCollection<[Iterator.Element]>`",
+   "url": "https://github.com/swiftlang/swift/issues/45984",
+   "labels": [
+    "improvement",
+    "good first issue",
+    "standard library",
+    "affects ABI",
+    "swift evolution proposal needed"
+   ],
+   "updatedAt": "2022-11-11T20:14:55Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "labelled `swift evolution proposal needed` — scope may not be settled yet",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/issues/45984",
+    "https://github.com/swiftlang/swift/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 46007,
+   "title": "[SR-3419] Strides should be collections",
+   "url": "https://github.com/swiftlang/swift/issues/46007",
+   "labels": [
+    "improvement",
+    "good first issue",
+    "standard library",
+    "affects ABI",
+    "swift evolution proposal needed"
+   ],
+   "updatedAt": "2022-11-11T19:21:57Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "labelled `swift evolution proposal needed` — scope may not be settled yet (+1 more)",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/issues/46007",
+    "https://github.com/swiftlang/swift/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 46032,
+   "title": "[SR-3444] map, filter on RangeReplaceableCollection should return Self",
+   "url": "https://github.com/swiftlang/swift/issues/46032",
+   "labels": [
+    "improvement",
+    "good first issue",
+    "standard library",
+    "swift evolution proposal needed"
+   ],
+   "updatedAt": "2022-11-11T19:28:09Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "labelled `swift evolution proposal needed` — scope may not be settled yet",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/issues/46032",
+    "https://github.com/swiftlang/swift/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 46138,
+   "title": "[SR-3550] Compound name syntax for functions with no params",
+   "url": "https://github.com/swiftlang/swift/issues/46138",
+   "labels": [
+    "compiler",
+    "good first issue",
+    "swift evolution proposal needed",
+    "declaration names"
+   ],
+   "updatedAt": "2026-01-23T02:45:33Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "labelled `swift evolution proposal needed` — scope may not be settled yet",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/issues/46138",
+    "https://github.com/swiftlang/swift/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 46337,
+   "title": "[SR-3752] Remove redundant word \"Index\" from Collection properties/typealiases",
+   "url": "https://github.com/swiftlang/swift/issues/46337",
+   "labels": [
+    "improvement",
+    "good first issue",
+    "standard library",
+    "affects ABI",
+    "swift evolution proposal needed"
+   ],
+   "updatedAt": "2022-11-11T19:30:19Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "labelled `swift evolution proposal needed` — scope may not be settled yet",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/issues/46337",
+    "https://github.com/swiftlang/swift/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 46345,
+   "title": "[SR-3760] zip should be a collection when both arguments are a collection",
+   "url": "https://github.com/swiftlang/swift/issues/46345",
+   "labels": [
+    "improvement",
+    "good first issue",
+    "standard library",
+    "affects ABI",
+    "swift evolution proposal needed"
+   ],
+   "updatedAt": "2025-11-23T04:10:26Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "already assigned to @angrezichatterbox",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/issues/46345",
+    "https://github.com/swiftlang/swift/issues/46345#issuecomment-3566893724"
+   ]
+  },
+  {
+   "number": 46347,
+   "title": "[SR-3762] Default implementation of index(after:) for Integer indices",
+   "url": "https://github.com/swiftlang/swift/issues/46347",
+   "labels": [
+    "improvement",
+    "good first issue",
+    "standard library",
+    "affects ABI",
+    "swift evolution proposal needed"
+   ],
+   "updatedAt": "2022-11-11T19:41:16Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "labelled `swift evolution proposal needed` — scope may not be settled yet",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/issues/46347",
+    "https://github.com/swiftlang/swift/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 47936,
+   "title": "[SR-5362] StdlibUnittest allows redeclaration of the same-named test; ignores all but last",
+   "url": "https://github.com/swiftlang/swift/issues/47936",
+   "labels": [
+    "bug",
+    "good first issue",
+    "standard library"
+   ],
+   "updatedAt": "2026-08-01T08:39:37Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/issues/47936",
+    "https://github.com/swiftlang/swift/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 48100,
+   "title": "[SR-5528] Allow multiple typealiases in a declaration",
+   "url": "https://github.com/swiftlang/swift/issues/48100",
+   "labels": [
+    "parser",
+    "compiler",
+    "good first issue",
+    "feature",
+    "type checker",
+    "swift evolution proposal needed",
+    "typealias"
+   ],
+   "updatedAt": "2025-03-01T09:28:41Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "already assigned to @progressive-galib",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/issues/48100",
+    "https://github.com/swiftlang/swift/issues/48100#issuecomment-2581610850"
+   ]
+  },
+  {
+   "number": 48312,
+   "title": "[SR-5742] Refactoring action to convert imperative code to functional style",
+   "url": "https://github.com/swiftlang/swift/issues/48312",
+   "labels": [
+    "compiler",
+    "good first issue",
+    "feature",
+    "refactoring",
+    "IDE support"
+   ],
+   "updatedAt": "2022-11-11T17:52:33Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/issues/48312",
+    "https://github.com/swiftlang/swift/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 48389,
+   "title": "[SR-5819] Suggest `as? AnyHashable` when `as? Equatable` or `as? Hashable` is attempted",
+   "url": "https://github.com/swiftlang/swift/issues/48389",
+   "labels": [
+    "bug",
+    "compiler",
+    "good first issue",
+    "diagnostics quality"
+   ],
+   "updatedAt": "2025-02-25T03:13:29Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/issues/48389",
+    "https://github.com/swiftlang/swift/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 48543,
+   "title": "[SR-5984] Error message for accidentally calling function in #selector(foo()) could suggest removing parens",
+   "url": "https://github.com/swiftlang/swift/issues/48543",
+   "labels": [
+    "bug",
+    "compiler",
+    "good first issue",
+    "diagnostics quality",
+    "type checker"
+   ],
+   "updatedAt": "2026-08-01T08:55:30Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #91161 by @AayushP123 is already open against this issue",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/pull/91161"
+   ]
+  },
+  {
+   "number": 48709,
+   "title": "[SR-6154] Add support for LLVM_REVERSE_ITERATION and use it to uncover non-determinism",
+   "url": "https://github.com/swiftlang/swift/issues/48709",
+   "labels": [
+    "compiler",
+    "good first issue"
+   ],
+   "updatedAt": "2025-06-16T08:46:54Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/issues/48709"
+   ]
+  },
+  {
+   "number": 48759,
+   "title": "[SR-6207] Misleading error for unqualified use of static variable in method",
+   "url": "https://github.com/swiftlang/swift/issues/48759",
+   "labels": [
+    "bug",
+    "compiler",
+    "good first issue",
+    "diagnostics quality",
+    "type checker",
+    "expressions",
+    "static declarations",
+    "swift 6.0"
+   ],
+   "updatedAt": "2026-01-08T02:14:32Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #85706 by @aeu is already open against this issue",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/pull/85706"
+   ]
+  },
+  {
+   "number": 48910,
+   "title": "[SR-6360] Catch the reasonable mistake 'UnsafeRawMutableBufferPointer'",
+   "url": "https://github.com/swiftlang/swift/issues/48910",
+   "labels": [
+    "improvement",
+    "good first issue",
+    "standard library"
+   ],
+   "updatedAt": "2023-12-22T07:38:12Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/issues/48910",
+    "https://github.com/swiftlang/swift/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 48967,
+   "title": "[SR-6417] Check if super is called when required.",
+   "url": "https://github.com/swiftlang/swift/issues/48967",
+   "labels": [
+    "improvement",
+    "compiler",
+    "good first issue",
+    "feature",
+    "type checker",
+    "swift evolution proposal needed"
+   ],
+   "updatedAt": "2022-11-11T19:01:15Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "labelled `swift evolution proposal needed` — scope may not be settled yet",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/issues/48967",
+    "https://github.com/swiftlang/swift/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 49240,
+   "title": "[SR-6691] Sequence.split should have a Lazy equivalent",
+   "url": "https://github.com/swiftlang/swift/issues/49240",
+   "labels": [
+    "good first issue",
+    "feature",
+    "standard library",
+    "swift evolution proposal needed"
+   ],
+   "updatedAt": "2023-10-26T17:31:26Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "already assigned to @greenthings",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/issues/49240",
+    "https://github.com/swiftlang/swift/issues/49240#issuecomment-1757604216"
+   ]
+  },
+  {
+   "number": 49413,
+   "title": "[SR-6864] Add a \"cycle\" method to the standard library",
+   "url": "https://github.com/swiftlang/swift/issues/49413",
+   "labels": [
+    "good first issue",
+    "feature",
+    "standard library",
+    "swift evolution proposal needed"
+   ],
+   "updatedAt": "2022-11-11T08:35:26Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "labelled `swift evolution proposal needed` — scope may not be settled yet",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/issues/49413",
+    "https://github.com/swiftlang/swift/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 49414,
+   "title": "[SR-6865] Sorted collections",
+   "url": "https://github.com/swiftlang/swift/issues/49414",
+   "labels": [
+    "good first issue",
+    "feature",
+    "standard library",
+    "swift evolution proposal needed"
+   ],
+   "updatedAt": "2022-11-11T18:59:44Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "labelled `swift evolution proposal needed` — scope may not be settled yet",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/issues/49414",
+    "https://github.com/swiftlang/swift/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 49416,
+   "title": "[SR-6867] \"Chunking\" split",
+   "url": "https://github.com/swiftlang/swift/issues/49416",
+   "labels": [
+    "good first issue",
+    "feature",
+    "standard library",
+    "swift evolution proposal needed"
+   ],
+   "updatedAt": "2022-11-11T20:16:42Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "labelled `swift evolution proposal needed` — scope may not be settled yet",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/issues/49416",
+    "https://github.com/swiftlang/swift/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 49661,
+   "title": "[SR-7113] `try` on closures needs a clearer error message",
+   "url": "https://github.com/swiftlang/swift/issues/49661",
+   "labels": [
+    "bug",
+    "compiler",
+    "good first issue",
+    "diagnostics quality"
+   ],
+   "updatedAt": "2026-08-01T08:55:30Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #91163 by @AayushP123 is already open against this issue",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/pull/91163"
+   ]
+  },
+  {
+   "number": 49699,
+   "title": "[SR-7151] Generalize CaseIterable Synthesis for Availability",
+   "url": "https://github.com/swiftlang/swift/issues/49699",
+   "labels": [
+    "improvement",
+    "compiler",
+    "good first issue",
+    "feature",
+    "derived conformances"
+   ],
+   "updatedAt": "2022-11-07T14:43:09Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/issues/49699",
+    "https://github.com/swiftlang/swift/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 49778,
+   "title": "[SR-7230] Improve error message for statement that begins with open brace",
+   "url": "https://github.com/swiftlang/swift/issues/49778",
+   "labels": [
+    "bug",
+    "compiler",
+    "good first issue",
+    "diagnostics quality"
+   ],
+   "updatedAt": "2026-10-30T06:53:07Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "@Harsh28-raj claimed it 14 days ago",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/issues/49778#issuecomment-6516841152"
+   ]
+  },
+  {
+   "number": 50722,
+   "title": "[SR-8190] Introduce a RingBuffer to the Standard Library",
+   "url": "https://github.com/swiftlang/swift/issues/50722",
+   "labels": [
+    "good first issue",
+    "feature",
+    "standard library",
+    "swift evolution proposal needed"
+   ],
+   "updatedAt": "2025-03-27T09:47:42Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "labelled `swift evolution proposal needed` — scope may not be settled yet",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/issues/50722",
+    "https://github.com/swiftlang/swift/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 50743,
+   "title": "[SR-8211] Support a mechanism for zeroing an UnsafeMutable{,Raw}BufferPointer",
+   "url": "https://github.com/swiftlang/swift/issues/50743",
+   "labels": [
+    "good first issue",
+    "feature",
+    "standard library",
+    "swift evolution proposal needed"
+   ],
+   "updatedAt": "2023-09-06T15:15:29Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "labelled `swift evolution proposal needed` — scope may not be settled yet",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/issues/50743",
+    "https://github.com/swiftlang/swift/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 50745,
+   "title": "[SR-8213] Compiler may indicate \"case will never be executed\" even if it is unavoidable to execute the case in switch statement.",
+   "url": "https://github.com/swiftlang/swift/issues/50745",
+   "labels": [
+    "bug",
+    "compiler",
+    "good first issue",
+    "diagnostics quality",
+    "type checker",
+    "SILGen",
+    "pattern matching",
+    "switch",
+    "swift 5.9",
+    "patterns",
+    "statements",
+    "switch cases"
+   ],
+   "updatedAt": "2023-05-11T16:08:56Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "PR #65610 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/pull/65610",
+    "https://github.com/swiftlang/swift/issues/50745#issuecomment-1108319088",
+    "https://github.com/swiftlang/swift/issues/50745",
+    "https://github.com/swiftlang/swift/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 50784,
+   "title": "[SR-8252] Consolidate and Fix -debug-crash-* Flags",
+   "url": "https://github.com/swiftlang/swift/issues/50784",
+   "labels": [
+    "improvement",
+    "compiler",
+    "good first issue"
+   ],
+   "updatedAt": "2026-06-02T00:40:23Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "PR #89616 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/pull/89616",
+    "https://github.com/swiftlang/swift/issues/50784",
+    "https://github.com/swiftlang/swift/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 51411,
+   "title": "[SR-8905] Gaps in String benchmarking",
+   "url": "https://github.com/swiftlang/swift/issues/51411",
+   "labels": [
+    "good first issue",
+    "standard library",
+    "benchmarks"
+   ],
+   "updatedAt": "2025-06-16T08:46:59Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "PR #91172 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/pull/91172",
+    "https://github.com/swiftlang/swift/issues/51411",
+    "https://github.com/swiftlang/swift/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 51543,
+   "title": "[SR-9040] Suggestion when overriding implictly unwrapped optional does not suggest making parameter implictly unwrapped",
+   "url": "https://github.com/swiftlang/swift/issues/51543",
+   "labels": [
+    "bug",
+    "compiler",
+    "good first issue",
+    "diagnostics quality"
+   ],
+   "updatedAt": "2026-02-19T23:13:10Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #87356 by @vanshkamra12 is already open against this issue",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/pull/87356"
+   ]
+  },
+  {
+   "number": 51806,
+   "title": "[SR-9336] importing structures with anonymous fields crashes the ClangImporter",
+   "url": "https://github.com/swiftlang/swift/issues/51806",
+   "labels": [
+    "Linux",
+    "improvement",
+    "compiler",
+    "good first issue",
+    "Windows",
+    "Android"
+   ],
+   "updatedAt": "2025-01-16T11:50:20Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 52009,
+   "title": "[SR-9561] add a test for WeakMirror",
+   "url": "https://github.com/swiftlang/swift/issues/52009",
+   "labels": [
+    "test suite",
+    "good first issue",
+    "Windows",
+    "standard library"
+   ],
+   "updatedAt": "2025-06-16T08:47:03Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "open 96 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/issues/52009",
+    "https://github.com/swiftlang/swift/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 52010,
+   "title": "[SR-9562] add a test for Mirrors",
+   "url": "https://github.com/swiftlang/swift/issues/52010",
+   "labels": [
+    "test suite",
+    "good first issue",
+    "Windows",
+    "standard library"
+   ],
+   "updatedAt": "2025-06-16T08:47:03Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/issues/52010",
+    "https://github.com/swiftlang/swift/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 52016,
+   "title": "[SR-9569] refactor fork-join, threading in CollectionTransformers",
+   "url": "https://github.com/swiftlang/swift/issues/52016",
+   "labels": [
+    "good first issue",
+    "Windows",
+    "standard library"
+   ],
+   "updatedAt": "2025-06-16T08:47:04Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "open 96 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/issues/52016",
+    "https://github.com/swiftlang/swift/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 52214,
+   "title": "[SR-9789] Use \"pretty\" nullability in generated ObjC headers",
+   "url": "https://github.com/swiftlang/swift/issues/52214",
+   "labels": [
+    "improvement",
+    "compiler",
+    "good first issue",
+    "PrintAsClang"
+   ],
+   "updatedAt": "2025-01-10T05:22:33Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "already assigned to @adellibovi",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/issues/52214",
+    "https://github.com/swiftlang/swift/issues/52214#issuecomment-1108351538"
+   ]
+  },
+  {
+   "number": 52906,
+   "title": "[SR-10506] Formalize getType closure pattern",
+   "url": "https://github.com/swiftlang/swift/issues/52906",
+   "labels": [
+    "compiler",
+    "good first issue",
+    "type checker"
+   ],
+   "updatedAt": "2025-06-16T08:44:42Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/issues/52906",
+    "https://github.com/swiftlang/swift/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 53066,
+   "title": "[SR-10667] Optimise chained SubSequence producing methods into fewer calls",
+   "url": "https://github.com/swiftlang/swift/issues/53066",
+   "labels": [
+    "performance",
+    "improvement",
+    "compiler",
+    "good first issue",
+    "SILGen"
+   ],
+   "updatedAt": "2026-06-28T05:57:37Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #90317 by @jkaunert is already open against this issue",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/pull/90317"
+   ]
+  },
+  {
+   "number": 53248,
+   "title": "[SR-10858] Bridging NSString-keyed Dictionaries should only set allowsDuplicates if there are non-ASCII (non-NFC?) Strings",
+   "url": "https://github.com/swiftlang/swift/issues/53248",
+   "labels": [
+    "improvement",
+    "good first issue",
+    "standard library",
+    "Dictionary"
+   ],
+   "updatedAt": "2023-08-02T20:53:20Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #74473 by @patlux is already open against this issue",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/issues/74473",
+    "https://github.com/swiftlang/swift/issues/64978",
+    "https://github.com/swiftlang/swift/issues/74081"
+   ]
+  },
+  {
+   "number": 54205,
+   "title": "[SR-11795] Replace OSX with macOS pretty much everywhere",
+   "url": "https://github.com/swiftlang/swift/issues/54205",
+   "labels": [
+    "bug",
+    "compiler",
+    "good first issue"
+   ],
+   "updatedAt": "2023-12-11T05:15:18Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #70364 by @tonyarnold is already open against this issue",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/pull/70364"
+   ]
+  },
+  {
+   "number": 54301,
+   "title": "[SR-11885] Allow operator functions to have extra arguments with default values",
+   "url": "https://github.com/swiftlang/swift/issues/54301",
+   "labels": [
+    "improvement",
+    "compiler",
+    "good first issue",
+    "feature",
+    "swift evolution proposal needed",
+    "operators",
+    "declarations",
+    "func"
+   ],
+   "updatedAt": "2024-07-17T15:43:32Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #69051 by @mininny is already open against this issue",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/pull/69051"
+   ]
+  },
+  {
+   "number": 54322,
+   "title": "[SR-11905] Objective-C interop allows creation of undefined behavior",
+   "url": "https://github.com/swiftlang/swift/issues/54322",
+   "labels": [
+    "bug",
+    "compiler",
+    "good first issue"
+   ],
+   "updatedAt": "2026-07-24T17:46:54Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "PR #12655 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/flutter/packages/pull/12655",
+    "https://github.com/swiftlang/swift/issues/54322",
+    "https://github.com/swiftlang/swift/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 54688,
+   "title": "[SR-12260] It's impossible to change the default type for array and dictionary literals",
+   "url": "https://github.com/swiftlang/swift/issues/54688",
+   "labels": [
+    "improvement",
+    "compiler",
+    "good first issue",
+    "standard library",
+    "swift evolution proposal needed"
+   ],
+   "updatedAt": "2022-11-11T19:50:01Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "labelled `swift evolution proposal needed` — scope may not be settled yet",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/issues/54688",
+    "https://github.com/swiftlang/swift/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 55376,
+   "title": "[SR-12930] Add protocol extension to \"Result where Success == Void\" so that we can use .success()",
+   "url": "https://github.com/swiftlang/swift/issues/55376",
+   "labels": [
+    "improvement",
+    "good first issue",
+    "standard library",
+    "swift evolution proposal needed"
+   ],
+   "updatedAt": "2026-07-23T15:51:56Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "labelled `swift evolution proposal needed` — scope may not be settled yet",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/issues/55376",
+    "https://github.com/swiftlang/swift/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 55828,
+   "title": "[SR-13388] Add Fix-Its to \"override\" mismatch",
+   "url": "https://github.com/swiftlang/swift/issues/55828",
+   "labels": [
+    "improvement",
+    "compiler",
+    "good first issue"
+   ],
+   "updatedAt": "2026-08-03T19:11:19Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "2 stale claims, the most recent by @rogerneal 103 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/issues/55828#issuecomment-5159817827",
+    "https://github.com/swiftlang/swift/issues/55828",
+    "https://github.com/swiftlang/swift/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 56009,
+   "title": "[SR-13571] build release and debug variants of swiftrt.obj, swiftCore",
+   "url": "https://github.com/swiftlang/swift/issues/56009",
+   "labels": [
+    "bug",
+    "good first issue",
+    "Windows",
+    "standard library"
+   ],
+   "updatedAt": "2023-12-05T09:22:58Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "open 75 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/issues/56009",
+    "https://github.com/swiftlang/swift/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 56194,
+   "title": "[SR-13797] Segfault in swift::PartialApplyInst::create ",
+   "url": "https://github.com/swiftlang/swift/issues/56194",
+   "labels": [
+    "bug",
+    "compiler",
+    "good first issue",
+    "type checker"
+   ],
+   "updatedAt": "2026-10-23T12:26:30Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @OlafAndreas 21 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/issues/56194#issuecomment-6364842641",
+    "https://github.com/swiftlang/swift/issues/56194",
+    "https://github.com/swiftlang/swift/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 56366,
+   "title": "[SR-13969] [docs] Describe how to quickly compile a minimal multi-module project",
+   "url": "https://github.com/swiftlang/swift/issues/56366",
+   "labels": [
+    "compiler",
+    "good first issue"
+   ],
+   "updatedAt": "2025-06-30T19:09:57Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #82640 by @twhitt14 is already open against this issue",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/pull/82640"
+   ]
+  },
+  {
+   "number": 57283,
+   "title": "[SR-14941] Introduce compiler warning for leading-zero octal notation",
+   "url": "https://github.com/swiftlang/swift/issues/57283",
+   "labels": [
+    "improvement",
+    "good first issue"
+   ],
+   "updatedAt": "2026-07-24T05:14:32Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "already assigned to @elhewaty",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/issues/57283",
+    "https://github.com/swiftlang/swift/issues/57283#issuecomment-5066391619"
+   ]
+  },
+  {
+   "number": 57378,
+   "title": "[SR-15051] Swift should suggest updating existing @available attribute when you use an insufficiently available declaration",
+   "url": "https://github.com/swiftlang/swift/issues/57378",
+   "labels": [
+    "improvement",
+    "compiler",
+    "good first issue",
+    "diagnostics quality",
+    "type checker",
+    "fix-its",
+    "availability"
+   ],
+   "updatedAt": "2026-02-22T06:16:35Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #87607 by @Flamki is already open against this issue",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/pull/87607"
+   ]
+  },
+  {
+   "number": 57437,
+   "title": "[SR-15111] “Type of expression is ambiguous” error when initializing a class",
+   "url": "https://github.com/swiftlang/swift/issues/57437",
+   "labels": [
+    "bug",
+    "compiler",
+    "good first issue",
+    "diagnostics quality",
+    "type checker",
+    "type inference",
+    "expressions",
+    "swift 5.9",
+    "optional chaining"
+   ],
+   "updatedAt": "2023-09-01T13:36:51Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #68264 by @Rajveer100 is already open against this issue",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/pull/68264",
+    "https://github.com/swiftlang/swift/pull/65610"
+   ]
+  },
+  {
+   "number": 57499,
+   "title": "[SR-15176] Fixit for `override func` that should be `override var`",
+   "url": "https://github.com/swiftlang/swift/issues/57499",
+   "labels": [
+    "improvement",
+    "compiler",
+    "good first issue",
+    "diagnostics quality",
+    "fix-its",
+    "inheritance",
+    "override",
+    "swift 5.9"
+   ],
+   "updatedAt": "2024-12-24T16:53:32Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #63858 by @Rajveer100 is already open against this issue",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/pull/63858"
+   ]
+  },
+  {
+   "number": 61039,
+   "title": "SwiftUI: Failed to produce diagnostic for expression when using keyword 'open' in some contexts",
+   "url": "https://github.com/swiftlang/swift/issues/61039",
+   "labels": [
+    "compiler",
+    "good first issue",
+    "diagnostics quality",
+    "type checker",
+    "failed to produce diagnostic",
+    "swift 5.9"
+   ],
+   "updatedAt": "2026-11-12T17:39:16Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #88641 by @tanmayg1502 is already open against this issue",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/pull/88641",
+    "https://github.com/swiftlang/swift/pull/65610"
+   ]
+  },
+  {
+   "number": 61601,
+   "title": "Fill out unimplemented expression cases in the ASTPrinter",
+   "url": "https://github.com/swiftlang/swift/issues/61601",
+   "labels": [
+    "compiler",
+    "good first issue",
+    "ASTPrinter",
+    "expressions"
+   ],
+   "updatedAt": "2026-10-12T16:21:34Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #88019 by @Anandb71 is already open against this issue",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/pull/88019",
+    "https://github.com/swiftlang/swift/pull/93186",
+    "https://github.com/swiftlang/swift/pull/64667"
+   ]
+  },
+  {
+   "number": 61733,
+   "title": "Improve the error message for passing `(any P)?` to `(some P)?`",
+   "url": "https://github.com/swiftlang/swift/issues/61733",
+   "labels": [
+    "compiler",
+    "good first issue",
+    "diagnostics quality",
+    "type checker",
+    "Optional",
+    "generics",
+    "existentials"
+   ],
+   "updatedAt": "2026-03-24T17:25:16Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "already assigned to @aeu",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/pull/62094",
+    "https://github.com/swiftlang/swift/pull/86773",
+    "https://github.com/swiftlang/swift/issues/61733",
+    "https://github.com/swiftlang/swift/issues/61733#issuecomment-1307931020"
+   ]
+  },
+  {
+   "number": 62909,
+   "title": "\"Instance member cannot be used on type\" diagnostic message could be more specific",
+   "url": "https://github.com/swiftlang/swift/issues/62909",
+   "labels": [
+    "bug",
+    "compiler",
+    "good first issue",
+    "diagnostics quality",
+    "type checker"
+   ],
+   "updatedAt": "2024-12-07T17:40:16Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #63301 by @valeriyvan is already open against this issue",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/pull/63301",
+    "https://github.com/swiftlang/swift/pull/78043",
+    "https://github.com/swiftlang/swift/pull/78052"
+   ]
+  },
+  {
+   "number": 64903,
+   "title": "Bad diagnostic when inheriting from class in extension",
+   "url": "https://github.com/swiftlang/swift/issues/64903",
+   "labels": [
+    "bug",
+    "compiler",
+    "good first issue",
+    "diagnostics quality",
+    "type checker",
+    "inheritance",
+    "extension",
+    "swift 6.0"
+   ],
+   "updatedAt": "2026-01-08T02:13:01Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #85811 by @aeu is already open against this issue",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/pull/85811",
+    "https://github.com/aeu/legible-algorithms/pull/22"
+   ]
+  },
+  {
+   "number": 65699,
+   "title": "Code completion: Stop suggesting old-style protocol metatype syntax in Swift 6 mode",
+   "url": "https://github.com/swiftlang/swift/issues/65699",
+   "labels": [
+    "bug",
+    "good first issue",
+    "code completion",
+    "IDE support",
+    "existentials",
+    "metatypes",
+    "swift 5.9",
+    "unexpected behavior",
+    "types"
+   ],
+   "updatedAt": "2023-05-13T14:40:51Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "already assigned to @aniket-singh-01",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/pull/65731",
+    "https://github.com/swiftlang/swift/issues/65699",
+    "https://github.com/swiftlang/swift/issues/65699#issuecomment-1544194951"
+   ]
+  },
+  {
+   "number": 65843,
+   "title": "`[.]Type` completion for `(any P).` shows it will produce an existential metatype",
+   "url": "https://github.com/swiftlang/swift/issues/65843",
+   "labels": [
+    "bug",
+    "good first issue",
+    "code completion",
+    "IDE support",
+    "existentials",
+    "metatypes",
+    "swift 5.9",
+    "unexpected behavior",
+    "types"
+   ],
+   "updatedAt": "2024-04-22T02:07:50Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #73163 by @Rajveer100 is already open against this issue",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/pull/73163",
+    "https://github.com/swiftlang/swift/pull/65731"
+   ]
+  },
+  {
+   "number": 67306,
+   "title": "We should have a tool that finds unused diagnostic IDs",
+   "url": "https://github.com/swiftlang/swift/issues/67306",
+   "labels": [
+    "compiler",
+    "good first issue",
+    "feature",
+    "utils",
+    "development tools",
+    "QoI"
+   ],
+   "updatedAt": "2025-11-04T12:49:44Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #68902 by @mininny is already open against this issue",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/pull/68902",
+    "https://github.com/swiftlang/swift/pull/88359"
+   ]
+  },
+  {
+   "number": 68284,
+   "title": "Diagnostic for use of plain protocol name in type position should suggest `some` or `any`",
+   "url": "https://github.com/swiftlang/swift/issues/68284",
+   "labels": [
+    "bug",
+    "compiler",
+    "good first issue",
+    "diagnostics quality",
+    "type checker",
+    "fix-its",
+    "generics",
+    "opaque types",
+    "existentials",
+    "swift 5.9",
+    "types"
+   ],
+   "updatedAt": "2025-10-29T17:48:21Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #84586 by @yyoungbash is already open against this issue",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/pull/84586"
+   ]
+  },
+  {
+   "number": 69241,
+   "title": "Missing fix-it when opaque property type is inferred",
+   "url": "https://github.com/swiftlang/swift/issues/69241",
+   "labels": [
+    "improvement",
+    "compiler",
+    "good first issue",
+    "diagnostics quality",
+    "type checker",
+    "fix-its",
+    "opaque types",
+    "opaque result types",
+    "swift 6.0"
+   ],
+   "updatedAt": "2024-06-30T17:48:20Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #74811 by @Androp0v is already open against this issue",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/pull/74811"
+   ]
+  },
+  {
+   "number": 70645,
+   "title": "Passing class-constrained type as AnyObject instance behavior is not matched on Darwin and non-Darwin platform ",
+   "url": "https://github.com/swiftlang/swift/issues/70645",
+   "labels": [
+    "bug",
+    "good first issue",
+    "type checker",
+    "swift 5.9"
+   ],
+   "updatedAt": "2026-10-29T23:44:04Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #93852 by @Kyle-Ye is already open against this issue",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/pull/93852",
+    "https://github.com/OpenSwiftUIProject/OpenCombine/pull/18"
+   ]
+  },
+  {
+   "number": 72523,
+   "title": "Add test coverage for `update-checkout --stash` option",
+   "url": "https://github.com/swiftlang/swift/issues/72523",
+   "labels": [
+    "test suite",
+    "good first issue",
+    "update-checkout",
+    "contributor experience",
+    "utils"
+   ],
+   "updatedAt": "2025-06-16T08:23:31Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #72823 by @fabricerenard12 is already open against this issue",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/pull/72823",
+    "https://github.com/swiftlang/swift/pull/72704"
+   ]
+  },
+  {
+   "number": 72662,
+   "title": "Bad diagnostic for `any P!`",
+   "url": "https://github.com/swiftlang/swift/issues/72662",
+   "labels": [
+    "bug",
+    "compiler",
+    "good first issue",
+    "diagnostics quality",
+    "type checker",
+    "TypeResolver",
+    "existentials",
+    "unexpected behavior",
+    "types",
+    "swift 6.0",
+    "implicitly unwrapped optionals"
+   ],
+   "updatedAt": "2024-06-16T16:38:40Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #74461 by @iMostfa is already open against this issue",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/pull/74461"
+   ]
+  },
+  {
+   "number": 76320,
+   "title": "Offer additional note for why method with Self reference cannot be used on `any SomeType`",
+   "url": "https://github.com/swiftlang/swift/issues/76320",
+   "labels": [
+    "improvement",
+    "compiler",
+    "good first issue",
+    "diagnostics quality",
+    "type checker",
+    "existentials",
+    "swift 6.2"
+   ],
+   "updatedAt": "2025-08-07T11:40:52Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #82601 by @SwiftyJoeyy is already open against this issue",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/pull/82601"
+   ]
+  },
+  {
+   "number": 77835,
+   "title": "Diagnostic for `static  nonmutating` should be improved",
+   "url": "https://github.com/swiftlang/swift/issues/77835",
+   "labels": [
+    "bug",
+    "compiler",
+    "good first issue",
+    "diagnostics quality",
+    "type checker",
+    "declarations",
+    "static declarations",
+    "mutating",
+    "swift 6.1"
+   ],
+   "updatedAt": "2025-05-18T18:39:39Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #78052 by @felixinkinto is already open against this issue",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/pull/78052"
+   ]
+  },
+  {
+   "number": 78362,
+   "title": "Bad diagnostic about memberwise `init` not being public",
+   "url": "https://github.com/swiftlang/swift/issues/78362",
+   "labels": [
+    "compiler",
+    "good first issue",
+    "diagnostics quality",
+    "type checker",
+    "conformances",
+    "fix-its",
+    "access control",
+    "memberwise init",
+    "swift 6.2"
+   ],
+   "updatedAt": "2026-01-14T16:36:58Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #80939 by @rdingman is already open against this issue",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/pull/80939",
+    "https://github.com/clerk/clerk-ios/pull/398"
+   ]
+  },
+  {
+   "number": 78439,
+   "title": "SendNonSendable Crash: \"constructing SILType with type that should have been eliminated by SIL lowering\"",
+   "url": "https://github.com/swiftlang/swift/issues/78439",
+   "labels": [
+    "concurrency",
+    "compiler",
+    "good first issue",
+    "crash",
+    "SIL",
+    "needs tests",
+    "swift 6.2"
+   ],
+   "updatedAt": "2026-02-08T03:20:49Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "already assigned to @gottesmm",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/issues/78439"
+   ]
+  },
+  {
+   "number": 83344,
+   "title": "Missing fixits for missing @dynamicMemberLookup impl",
+   "url": "https://github.com/swiftlang/swift/issues/83344",
+   "labels": [
+    "bug",
+    "compiler",
+    "good first issue",
+    "diagnostics quality",
+    "type checker",
+    "fix-its",
+    "attributes",
+    "@dynamicMemberLookup",
+    "swift 6.2"
+   ],
+   "updatedAt": "2025-08-22T12:19:09Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #83440 by @doste is already open against this issue",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/pull/83440",
+    "https://github.com/swiftlang/swift/pull/91941"
+   ]
+  },
+  {
+   "number": 83538,
+   "title": "`isolated` keyword incorrectly permitted in inheritance clause",
+   "url": "https://github.com/swiftlang/swift/issues/83538",
+   "labels": [
+    "concurrency",
+    "compiler",
+    "good first issue",
+    "type checker",
+    "accepts invalid",
+    "actor isolation",
+    "inheritance clauses"
+   ],
+   "updatedAt": "2026-08-14T22:35:23Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #86001 by @AlexsanderDamaceno is already open against this issue",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/pull/86001",
+    "https://github.com/swiftlang/swift/pull/92106"
+   ]
+  },
+  {
+   "number": 85157,
+   "title": "Incorrect fix-it for static member access on instance",
+   "url": "https://github.com/swiftlang/swift/issues/85157",
+   "labels": [
+    "compiler",
+    "good first issue",
+    "diagnostics quality",
+    "type checker",
+    "fix-its",
+    "generics",
+    "opaque parameter types",
+    "static declarations"
+   ],
+   "updatedAt": "2025-11-13T11:57:33Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #85264 by @SwiftyJoeyy is already open against this issue",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/pull/85264",
+    "https://github.com/swiftlang/swift/pull/92187"
+   ]
+  },
+  {
+   "number": 85882,
+   "title": "Redundant effect warnings should have fixits",
+   "url": "https://github.com/swiftlang/swift/issues/85882",
+   "labels": [
+    "compiler",
+    "good first issue",
+    "diagnostics quality",
+    "type checker",
+    "fix-its",
+    "error handling",
+    "swift 6.3"
+   ],
+   "updatedAt": "2026-02-04T19:55:15Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #85977 by @AlexsanderDamaceno is already open against this issue",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/pull/85977",
+    "https://github.com/swiftlang/swift/pull/86434"
+   ]
+  },
+  {
+   "number": 86693,
+   "title": "global actor annotations can be applied to inheritance clauses",
+   "url": "https://github.com/swiftlang/swift/issues/86693",
+   "labels": [
+    "concurrency",
+    "good first issue",
+    "type checker",
+    "accepts invalid",
+    "attributes",
+    "actor isolation",
+    "inheritance clauses",
+    "swift 6.3"
+   ],
+   "updatedAt": "2026-07-23T16:07:34Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #90888 by @hkarmoush is already open against this issue",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/pull/90888"
+   ]
+  },
+  {
+   "number": 87218,
+   "title": "Suboptimal diagnostics on mutating on immutable + optional value on non-optional parameter",
+   "url": "https://github.com/swiftlang/swift/issues/87218",
+   "labels": [
+    "compiler",
+    "good first issue",
+    "diagnostics quality",
+    "type checker",
+    "expressions",
+    "mutating"
+   ],
+   "updatedAt": "2026-10-25T04:07:17Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #89572 by @carloshpdoc is already open against this issue",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/pull/89572"
+   ]
+  },
+  {
+   "number": 87322,
+   "title": "Redundant error for missing type annotation in computed property",
+   "url": "https://github.com/swiftlang/swift/issues/87322",
+   "labels": [
+    "compiler",
+    "good first issue",
+    "diagnostics quality",
+    "type checker",
+    "let & var",
+    "swift 6.3"
+   ],
+   "updatedAt": "2026-02-24T00:59:23Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #87446 by @AbdAlRahmanGad is already open against this issue",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/pull/87446"
+   ]
+  },
+  {
+   "number": 87324,
+   "title": "No fix-it for missing type annotation in computed property",
+   "url": "https://github.com/swiftlang/swift/issues/87324",
+   "labels": [
+    "compiler",
+    "good first issue",
+    "diagnostics quality",
+    "type checker",
+    "fix-its",
+    "let & var",
+    "swift 6.3"
+   ],
+   "updatedAt": "2026-02-19T22:56:12Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #87348 by @vanshkamra12 is already open against this issue",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/pull/87348",
+    "https://github.com/swiftlang/swift/pull/87486",
+    "https://github.com/swiftlang/swift/pull/91942"
+   ]
+  },
+  {
+   "number": 87468,
+   "title": "Build Debug versions of `swiftrt.o` (`swiftrtd.o`)",
+   "url": "https://github.com/swiftlang/swift/issues/87468",
+   "labels": [
+    "good first issue",
+    "Windows",
+    "runtime"
+   ],
+   "updatedAt": "2026-02-24T22:12:08Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #87647 by @amanmaurya92 is already open against this issue",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/pull/87647",
+    "https://github.com/swiftlang/swift/pull/90718"
+   ]
+  },
+  {
+   "number": 87757,
+   "title": "Separate `-dump-clang-diagnostics` into two features.",
+   "url": "https://github.com/swiftlang/swift/issues/87757",
+   "labels": [
+    "clang importer",
+    "good first issue"
+   ],
+   "updatedAt": "2026-04-15T10:36:14Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #87726 by @hnrklssn is already open against this issue",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/pull/87726",
+    "https://github.com/swiftlang/swift/pull/88478"
+   ]
+  },
+  {
+   "number": 87830,
+   "title": "No fix-it for escaping closure captures 'inout' parameter",
+   "url": "https://github.com/swiftlang/swift/issues/87830",
+   "labels": [
+    "compiler",
+    "good first issue",
+    "diagnostics quality",
+    "fix-its",
+    "SIL",
+    "closures",
+    "capture lists",
+    "expressions",
+    "inout",
+    "value capturing",
+    "swift 6.3"
+   ],
+   "updatedAt": "2026-03-19T03:07:58Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #87989 by @developer-bhavesh is already open against this issue",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/pull/87989",
+    "https://github.com/swiftlang/swift/pull/92190"
+   ]
+  },
+  {
+   "number": 88338,
+   "title": "Error says `@preconcurrency` only applies in inheritance clauses",
+   "url": "https://github.com/swiftlang/swift/issues/88338",
+   "labels": [
+    "compiler",
+    "good first issue",
+    "diagnostics quality",
+    "type checker",
+    "TypeResolver",
+    "attributes",
+    "@preconcurrency",
+    "swift 6.3"
+   ],
+   "updatedAt": "2026-10-23T10:55:44Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #88356 by @sakshar2303 is already open against this issue",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/pull/88356",
+    "https://github.com/swiftlang/swift/pull/88585",
+    "https://github.com/swiftlang/swift/pull/92072",
+    "https://github.com/swiftlang/swift/pull/93581"
+   ]
+  },
+  {
+   "number": 88709,
+   "title": "Misleading error about `nonisolated` not being applicable to mutable stored properties",
+   "url": "https://github.com/swiftlang/swift/issues/88709",
+   "labels": [
+    "concurrency",
+    "compiler",
+    "good first issue",
+    "diagnostics quality",
+    "type checker",
+    "actor isolation",
+    "swift 6.3"
+   ],
+   "updatedAt": "2026-05-08T15:36:17Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #88716 by @broken-circle is already open against this issue",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/pull/88716",
+    "https://github.com/swiftlang/swift/pull/91377",
+    "https://github.com/marmot-protocol/whitenoise-mac/pull/162",
+    "https://github.com/manaflow-ai/cmux/pull/8117"
+   ]
+  },
+  {
+   "number": 88835,
+   "title": "Compiler error when extending a typealias of a partially specialized generic type",
+   "url": "https://github.com/swiftlang/swift/issues/88835",
+   "labels": [
+    "bug",
+    "compiler",
+    "good first issue",
+    "type checker",
+    "generics",
+    "TypeResolver",
+    "typealias",
+    "swift 5.9",
+    "unexpected error",
+    "extension",
+    "declarations"
+   ],
+   "updatedAt": "2026-06-28T09:45:48Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #88836 by @xavgru12 is already open against this issue",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/pull/88836"
+   ]
+  },
+  {
+   "number": 89131,
+   "title": "Invalid fix-it on unused optional binding when multiple conditions",
+   "url": "https://github.com/swiftlang/swift/issues/89131",
+   "labels": [
+    "compiler",
+    "good first issue",
+    "diagnostics quality",
+    "type checker",
+    "fix-its",
+    "statements",
+    "swift 6.4"
+   ],
+   "updatedAt": "2026-10-28T06:37:07Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #90223 by @iHackSubhodip is already open against this issue",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/pull/90223",
+    "https://github.com/swiftlang/swift/pull/92104"
+   ]
+  }
+ ]
+}

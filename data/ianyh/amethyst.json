@@ -1,0 +1,411 @@
+{
+ "owner": "ianyh",
+ "repo": "Amethyst",
+ "language": "Swift",
+ "stars": 16322,
+ "description": "Automatic tiling window manager for macOS à la xmonad.",
+ "visitedAt": "2026-11-13T16:28:29.473Z",
+ "issues": [
+  {
+   "number": 302,
+   "title": "Add option to specify initial layout for each virtual desktop",
+   "url": "https://github.com/ianyh/Amethyst/issues/302",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2023-03-14T12:40:15Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/ianyh/Amethyst/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ianyh/Amethyst/issues/302",
+    "https://github.com/ianyh/Amethyst/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 351,
+   "title": "Padding settings do not immediately apply",
+   "url": "https://github.com/ianyh/Amethyst/issues/351",
+   "labels": [
+    "bug",
+    "help wanted",
+    "starter issue"
+   ],
+   "updatedAt": "2017-11-12T19:14:00Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #918 by @alextenczar is already open against this issue",
+   "evidence": [
+    "https://github.com/ianyh/Amethyst/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ianyh/Amethyst/issues/918"
+   ]
+  },
+  {
+   "number": 481,
+   "title": "BSP moves the main pane to the right of the screen",
+   "url": "https://github.com/ianyh/Amethyst/issues/481",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2019-05-28T00:36:56Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/ianyh/Amethyst/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ianyh/Amethyst/issues/481",
+    "https://github.com/ianyh/Amethyst/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 482,
+   "title": "BSP creates new windows in the same \"tree\" that they were spawned from",
+   "url": "https://github.com/ianyh/Amethyst/issues/482",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2019-05-28T00:37:04Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #643 by @fooness is already open against this issue",
+   "evidence": [
+    "https://github.com/ianyh/Amethyst/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ianyh/Amethyst/issues/643"
+   ]
+  },
+  {
+   "number": 533,
+   "title": "Changing Focus Between Screens Fails On Empty Desktop",
+   "url": "https://github.com/ianyh/Amethyst/issues/533",
+   "labels": [
+    "bug",
+    "help wanted",
+    "starter issue"
+   ],
+   "updatedAt": "2024-07-24T08:56:20Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/ianyh/Amethyst/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ianyh/Amethyst/issues/533",
+    "https://github.com/ianyh/Amethyst/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 593,
+   "title": "Write a user guide for new users",
+   "url": "https://github.com/ianyh/Amethyst/issues/593",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2019-04-02T12:49:23Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "PR #794 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder",
+   "evidence": [
+    "https://github.com/ianyh/Amethyst/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ianyh/Amethyst/pull/794",
+    "https://github.com/ianyh/Amethyst/issues/593",
+    "https://github.com/ianyh/Amethyst/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 638,
+   "title": "Configurable Raise Delay With Focus-follows-mouse",
+   "url": "https://github.com/ianyh/Amethyst/issues/638",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "starter issue"
+   ],
+   "updatedAt": "2026-05-21T20:38:00Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/ianyh/Amethyst/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ianyh/Amethyst/issues/638",
+    "https://github.com/ianyh/Amethyst/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 717,
+   "title": "Feature Request: cli/terminal commands ",
+   "url": "https://github.com/ianyh/Amethyst/issues/717",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2025-03-04T20:40:39Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/ianyh/Amethyst/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ianyh/Amethyst/issues/717",
+    "https://github.com/ianyh/Amethyst/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 784,
+   "title": "Matlab is not being tiled",
+   "url": "https://github.com/ianyh/Amethyst/issues/784",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2025-01-26T18:22:53Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #1030 by @thomasheartman is already open against this issue",
+   "evidence": [
+    "https://github.com/ianyh/Amethyst/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ianyh/Amethyst/issues/1030"
+   ]
+  },
+  {
+   "number": 911,
+   "title": "Feature Request: Focus space shortcut",
+   "url": "https://github.com/ianyh/Amethyst/issues/911",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "starter issue"
+   ],
+   "updatedAt": "2026-07-08T12:43:52Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/ianyh/Amethyst/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ianyh/Amethyst/issues/911",
+    "https://github.com/ianyh/Amethyst/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 918,
+   "title": "[Feature Request] Screen Padding Keyboard Shortcuts (Increase/Decrease)",
+   "url": "https://github.com/ianyh/Amethyst/issues/918",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2020-02-09T21:14:29Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/ianyh/Amethyst/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ianyh/Amethyst/issues/918",
+    "https://github.com/ianyh/Amethyst/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 923,
+   "title": "bsp layout does not respect setting for new windows going to main pane",
+   "url": "https://github.com/ianyh/Amethyst/issues/923",
+   "labels": [
+    "bug",
+    "help wanted",
+    "starter issue"
+   ],
+   "updatedAt": "2021-07-10T02:45:29Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/ianyh/Amethyst/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ianyh/Amethyst/issues/923",
+    "https://github.com/ianyh/Amethyst/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 930,
+   "title": "Toggling the previous workspace ",
+   "url": "https://github.com/ianyh/Amethyst/issues/930",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "starter issue"
+   ],
+   "updatedAt": "2020-02-09T20:57:44Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "open 83 months with no human comment, in a repo pushed to 8 days ago — easy issues do not survive that long here; assume it is harder than its labels say",
+   "evidence": [
+    "https://github.com/ianyh/Amethyst/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ianyh/Amethyst/issues/930",
+    "https://github.com/ianyh/Amethyst/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 1041,
+   "title": "Better Action Descriptions",
+   "url": "https://github.com/ianyh/Amethyst/issues/1041",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2024-04-10T12:02:44Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/ianyh/Amethyst/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ianyh/Amethyst/issues/1041",
+    "https://github.com/ianyh/Amethyst/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 1069,
+   "title": "Move focus to floating windows.",
+   "url": "https://github.com/ianyh/Amethyst/issues/1069",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "discussion needed"
+   ],
+   "updatedAt": "2022-10-07T07:12:11Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #1243 by @oskar-gmerek is already open against this issue",
+   "evidence": [
+    "https://github.com/ianyh/Amethyst/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ianyh/Amethyst/issues/1243"
+   ]
+  },
+  {
+   "number": 1085,
+   "title": "Tile \"Floating Windows\" only?",
+   "url": "https://github.com/ianyh/Amethyst/issues/1085",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "starter issue"
+   ],
+   "updatedAt": "2023-01-10T02:13:20Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "open 72 months with no human comment, in a repo pushed to 8 days ago — easy issues do not survive that long here; assume it is harder than its labels say",
+   "evidence": [
+    "https://github.com/ianyh/Amethyst/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ianyh/Amethyst/issues/1085",
+    "https://github.com/ianyh/Amethyst/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 1086,
+   "title": "Ability to save/restore windows to spaces",
+   "url": "https://github.com/ianyh/Amethyst/issues/1086",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2023-01-10T02:21:40Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/ianyh/Amethyst/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ianyh/Amethyst/issues/1086",
+    "https://github.com/ianyh/Amethyst/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 1098,
+   "title": "Choose a default layout for each display",
+   "url": "https://github.com/ianyh/Amethyst/issues/1098",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2022-04-14T13:50:45Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/ianyh/Amethyst/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ianyh/Amethyst/issues/1098",
+    "https://github.com/ianyh/Amethyst/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 1318,
+   "title": "\"Go to space X\"",
+   "url": "https://github.com/ianyh/Amethyst/issues/1318",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2026-07-03T09:17:50Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/ianyh/Amethyst/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ianyh/Amethyst/issues/1318",
+    "https://github.com/ianyh/Amethyst/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 1354,
+   "title": "Cannot cycle through windows when focused on a browser password input field",
+   "url": "https://github.com/ianyh/Amethyst/issues/1354",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2023-02-09T23:45:39Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/ianyh/Amethyst/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ianyh/Amethyst/issues/1354",
+    "https://github.com/ianyh/Amethyst/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 1387,
+   "title": "Equalize windows",
+   "url": "https://github.com/ianyh/Amethyst/issues/1387",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2023-01-31T14:26:22Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/ianyh/Amethyst/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ianyh/Amethyst/issues/1387",
+    "https://github.com/ianyh/Amethyst/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 1410,
+   "title": "Can't float the 'Add to Todoist' pop up in Brave Browser.",
+   "url": "https://github.com/ianyh/Amethyst/issues/1410",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2023-02-09T12:43:06Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "open 46 months with no human comment, in a repo pushed to 8 days ago — easy issues do not survive that long here; assume it is harder than its labels say",
+   "evidence": [
+    "https://github.com/ianyh/Amethyst/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ianyh/Amethyst/issues/1410",
+    "https://github.com/ianyh/Amethyst/blob/HEAD/README.md"
+   ]
+  }
+ ]
+}

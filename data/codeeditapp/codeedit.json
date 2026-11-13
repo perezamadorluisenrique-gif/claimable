@@ -1,0 +1,347 @@
+{
+ "owner": "CodeEditApp",
+ "repo": "CodeEdit",
+ "language": "Swift",
+ "stars": 23109,
+ "description": "📝 CodeEdit App for macOS – Elevate your code editing experience. Open source, free forever.",
+ "visitedAt": "2026-11-13T16:28:29.473Z",
+ "issues": [
+  {
+   "number": 76,
+   "title": "👀 Extension Architecture / API",
+   "url": "https://github.com/CodeEditApp/CodeEdit/issues/76",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "clarification needed",
+    "extensions",
+    "PRIORITY"
+   ],
+   "updatedAt": "2025-04-28T09:24:18Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "PR #1195 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+3 more)",
+   "evidence": [
+    "https://github.com/CodeEditApp/CodeEdit/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/CodeEditApp/CodeEdit/pull/1195",
+    "https://github.com/CodeEditApp/CodeEdit/pull/1274",
+    "https://github.com/CodeEditApp/CodeEditKit/pull/14",
+    "https://github.com/CodeEditApp/CodeEdit/issues/76",
+    "https://docs.nova.app/",
+    "https://github.com/CodeEditApp/CodeEdit/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 241,
+   "title": "✨ Jump Bar Overflow Accordion Effect",
+   "url": "https://github.com/CodeEditApp/CodeEdit/issues/241",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2025-05-07T18:10:19Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "already assigned to @swiftlysingh",
+   "evidence": [
+    "https://github.com/CodeEditApp/CodeEdit/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/CodeEditApp/CodeEdit/pull/2045",
+    "https://github.com/CodeEditApp/CodeEdit/issues/241"
+   ]
+  },
+  {
+   "number": 346,
+   "title": "👀 Workspace UI",
+   "url": "https://github.com/CodeEditApp/CodeEdit/issues/346",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "UI",
+    "PRIORITY",
+    "workspace"
+   ],
+   "updatedAt": "2024-06-22T20:54:31Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "open 56 months with no human comment, in a repo pushed to 27 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/CodeEditApp/CodeEdit/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/CodeEditApp/CodeEdit/issues/346",
+    "https://github.com/CodeEditApp/CodeEdit/wiki/Workspace-Windowing-&-Layout-Strategy",
+    "https://github.com/CodeEditApp/CodeEdit/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 379,
+   "title": "✨ Terminal Utility: Tabs & Split View",
+   "url": "https://github.com/CodeEditApp/CodeEdit/issues/379",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2025-06-28T06:28:27Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #2076 by @SoreGus is already open against this issue",
+   "evidence": [
+    "https://github.com/CodeEditApp/CodeEdit/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/CodeEditApp/CodeEdit/pull/2076"
+   ]
+  },
+  {
+   "number": 711,
+   "title": "🐞 Sidebar tab panel state is not retained when returning to it from another tab",
+   "url": "https://github.com/CodeEditApp/CodeEdit/issues/711",
+   "labels": [
+    "bug",
+    "good first issue",
+    "UI"
+   ],
+   "updatedAt": "2026-08-01T17:27:51Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #2189 by @Borisserz is already open against this issue",
+   "evidence": [
+    "https://github.com/CodeEditApp/CodeEdit/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/CodeEditApp/CodeEdit/pull/2189"
+   ]
+  },
+  {
+   "number": 891,
+   "title": "✨ Add \"Clear To Start\" (⌘K) shortcut to integrated terminal",
+   "url": "https://github.com/CodeEditApp/CodeEdit/issues/891",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2026-07-29T09:44:41Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #2187 by @Borisserz is already open against this issue",
+   "evidence": [
+    "https://github.com/CodeEditApp/CodeEdit/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/CodeEditApp/CodeEdit/pull/2187",
+    "https://github.com/CodeEditApp/CodeEdit/pull/1843"
+   ]
+  },
+  {
+   "number": 1034,
+   "title": "✨ Drag and Drop \"keep both files\" prompt",
+   "url": "https://github.com/CodeEditApp/CodeEdit/issues/1034",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2025-04-19T04:59:06Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/CodeEditApp/CodeEdit/wiki/Getting-Started) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/CodeEditApp/CodeEdit/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/CodeEditApp/CodeEdit/issues/1034",
+    "https://github.com/CodeEditApp/CodeEdit/wiki/Getting-Started",
+    "https://github.com/CodeEditApp/CodeEdit/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 1061,
+   "title": "✨ Separate files and folders in the \"Open Recent\" sub-menu",
+   "url": "https://github.com/CodeEditApp/CodeEdit/issues/1061",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2025-05-05T15:23:50Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "already assigned to @atsrus",
+   "evidence": [
+    "https://github.com/CodeEditApp/CodeEdit/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/CodeEditApp/CodeEdit/pull/2039",
+    "https://github.com/CodeEditApp/CodeEdit/issues/1061"
+   ]
+  },
+  {
+   "number": 1190,
+   "title": "🐞 Terminal doesn't honor escape key functions",
+   "url": "https://github.com/CodeEditApp/CodeEdit/issues/1190",
+   "labels": [
+    "bug",
+    "good first issue",
+    "terminal"
+   ],
+   "updatedAt": "2025-04-19T17:53:24Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/CodeEditApp/CodeEdit/wiki/Getting-Started) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/CodeEditApp/CodeEdit/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/CodeEditApp/CodeEdit/issues/1190",
+    "https://github.com/CodeEditApp/CodeEdit/wiki/Getting-Started",
+    "https://github.com/CodeEditApp/CodeEdit/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 1632,
+   "title": "✨ Hide Interface",
+   "url": "https://github.com/CodeEditApp/CodeEdit/issues/1632",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2025-05-06T16:58:21Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "already assigned to @SimonKudsk",
+   "evidence": [
+    "https://github.com/CodeEditApp/CodeEdit/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/CodeEditApp/CodeEdit/pull/2044",
+    "https://github.com/CodeEditApp/CodeEdit/pull/2104",
+    "https://github.com/CodeEditApp/CodeEdit/issues/1632",
+    "https://github.com/CodeEditApp/CodeEdit/issues/1632#issuecomment-2422966250"
+   ]
+  },
+  {
+   "number": 1648,
+   "title": "✨ Create a new window of an open workspace",
+   "url": "https://github.com/CodeEditApp/CodeEdit/issues/1648",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "UI",
+    "navigator",
+    "inspector",
+    "workspace",
+    "tabs",
+    "utility"
+   ],
+   "updatedAt": "2025-01-18T09:42:42Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #1649 by @austincondiff is already open against this issue",
+   "evidence": [
+    "https://github.com/CodeEditApp/CodeEdit/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/CodeEditApp/CodeEdit/issues/1649"
+   ]
+  },
+  {
+   "number": 1649,
+   "title": "✨ Create new window tab as duplicate workspace",
+   "url": "https://github.com/CodeEditApp/CodeEdit/issues/1649",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "workspace",
+    "tabs"
+   ],
+   "updatedAt": "2024-04-24T07:14:36Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #1648 by @austincondiff is already open against this issue",
+   "evidence": [
+    "https://github.com/CodeEditApp/CodeEdit/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/CodeEditApp/CodeEdit/issues/1648",
+    "https://github.com/CodeEditApp/CodeEdit/issues/1657"
+   ]
+  },
+  {
+   "number": 1656,
+   "title": "✨ ⇧⌘T keyboard shortcut to bring back closed editor tabs",
+   "url": "https://github.com/CodeEditApp/CodeEdit/issues/1656",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "UI",
+    "tabs",
+    "feature request"
+   ],
+   "updatedAt": "2026-08-10T11:07:28Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @EhsanAzish80 95 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/CodeEditApp/CodeEdit/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/CodeEditApp/CodeEdit/issues/1656#issuecomment-5239314107",
+    "https://github.com/CodeEditApp/CodeEdit/issues/1656",
+    "https://github.com/CodeEditApp/CodeEdit/wiki/Getting-Started",
+    "https://github.com/CodeEditApp/CodeEdit/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 1691,
+   "title": "🐞 Autocomplete Braces setting is completely non-functional",
+   "url": "https://github.com/CodeEditApp/CodeEdit/issues/1691",
+   "labels": [
+    "bug",
+    "good first issue",
+    "settings"
+   ],
+   "updatedAt": "2026-05-05T13:22:12Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #366 by @cavoco is already open against this issue",
+   "evidence": [
+    "https://github.com/CodeEditApp/CodeEdit/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/CodeEditApp/CodeEditSourceEditor/pull/366"
+   ]
+  },
+  {
+   "number": 1729,
+   "title": "🐞 Status Bar does not update when workspace is first opened",
+   "url": "https://github.com/CodeEditApp/CodeEdit/issues/1729",
+   "labels": [
+    "bug",
+    "good first issue",
+    "statusbar",
+    "source editor"
+   ],
+   "updatedAt": "2026-08-01T17:59:53Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #2177 by @jkaunert is already open against this issue",
+   "evidence": [
+    "https://github.com/CodeEditApp/CodeEdit/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/CodeEditApp/CodeEdit/pull/2177",
+    "https://github.com/CodeEditApp/CodeEdit/pull/2188"
+   ]
+  },
+  {
+   "number": 2029,
+   "title": "🐞 Name Not Selected for Editing When Creating New Files or Folders in Project Navigator",
+   "url": "https://github.com/CodeEditApp/CodeEdit/issues/2029",
+   "labels": [
+    "bug",
+    "good first issue",
+    "UI",
+    "navigator"
+   ],
+   "updatedAt": "2025-05-07T00:27:36Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #2179 by @Mohd-Nafish is already open against this issue",
+   "evidence": [
+    "https://github.com/CodeEditApp/CodeEdit/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/CodeEditApp/CodeEdit/pull/2179"
+   ]
+  },
+  {
+   "number": 2030,
+   "title": "🐞 Several “Cannot Find File” Alerts Appear After Renaming Files",
+   "url": "https://github.com/CodeEditApp/CodeEdit/issues/2030",
+   "labels": [
+    "bug",
+    "good first issue",
+    "navigator"
+   ],
+   "updatedAt": "2026-06-18T18:52:18Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "already assigned to @gtrujillov",
+   "evidence": [
+    "https://github.com/CodeEditApp/CodeEdit/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/CodeEditApp/CodeEdit/issues/2030",
+    "https://github.com/CodeEditApp/CodeEdit/issues/2030#issuecomment-4679515855"
+   ]
+  }
+ ]
+}

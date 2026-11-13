@@ -1,0 +1,45 @@
+{
+ "owner": "slopus",
+ "repo": "happy",
+ "language": "Swift",
+ "stars": 24569,
+ "description": "Orchestrate Claude, Codex and Grok in one app. Open-source (MIT), reuses the subscriptions you already pay for.",
+ "visitedAt": "2026-11-13T16:28:29.473Z",
+ "issues": [
+  {
+   "number": 76,
+   "title": "Feature: Add keyboard shortcut support for external keyboards",
+   "url": "https://github.com/slopus/happy/issues/76",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2025-09-08T23:53:41Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "discard",
+   "reason": "PR #862 by @yuki1217ats is already open against this issue",
+   "evidence": [
+    "https://github.com/slopus/happy/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/slopus/happy/pull/862"
+   ]
+  },
+  {
+   "number": 165,
+   "title": "Remove \"Co-authored by: Happy\" in git commit message",
+   "url": "https://github.com/slopus/happy/issues/165",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2026-03-30T19:45:09Z",
+   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/slopus/happy/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/slopus/happy/issues/165",
+    "https://github.com/slopus/happy/blob/HEAD/docs/CONTRIBUTING.md"
+   ]
+  }
+ ]
+}
