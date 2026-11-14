@@ -1,0 +1,197 @@
+{
+ "owner": "nmattia",
+ "repo": "niv",
+ "language": "Haskell",
+ "stars": 1869,
+ "description": "Easy dependency management for Nix projects",
+ "visitedAt": "2026-11-14T11:31:58.340Z",
+ "issues": [
+  {
+   "number": 71,
+   "title": "Automatically generate CLI shortcuts",
+   "url": "https://github.com/nmattia/niv/issues/71",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2021-08-03T08:08:57Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "no push in 64 days (last: 2026-09-11)",
+   "evidence": [
+    "https://github.com/nmattia/niv — pushed_at 2026-09-11T15:23:03Z",
+    "https://github.com/nmattia/niv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nmattia/niv/issues/71"
+   ]
+  },
+  {
+   "number": 75,
+   "title": "Present a diff of the update before writing it to file",
+   "url": "https://github.com/nmattia/niv/issues/75",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2021-08-03T08:06:48Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "no push in 64 days (last: 2026-09-11) (+1 more)",
+   "evidence": [
+    "https://github.com/nmattia/niv — pushed_at 2026-09-11T15:23:03Z",
+    "https://github.com/nmattia/niv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nmattia/niv/pull/86",
+    "https://github.com/nmattia/niv/issues/75"
+   ]
+  },
+  {
+   "number": 77,
+   "title": "Add support for Docker fetcher",
+   "url": "https://github.com/nmattia/niv/issues/77",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2020-01-07T14:05:54Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "PR #128 by @ryanorendorff is already open against this issue",
+   "evidence": [
+    "https://github.com/nmattia/niv — pushed_at 2026-09-11T15:23:03Z",
+    "https://github.com/nmattia/niv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nmattia/niv/issues/128",
+    "https://github.com/nmattia/niv/issues/300",
+    "https://github.com/nmattia/niv/issues/222"
+   ]
+  },
+  {
+   "number": 78,
+   "title": "Add support for Hackage fetcher",
+   "url": "https://github.com/nmattia/niv/issues/78",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2020-05-01T04:10:15Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "PR #263 by @nmattia is already open against this issue",
+   "evidence": [
+    "https://github.com/nmattia/niv — pushed_at 2026-09-11T15:23:03Z",
+    "https://github.com/nmattia/niv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nmattia/niv/issues/263",
+    "https://github.com/nmattia/niv/issues/128",
+    "https://github.com/nmattia/niv/issues/300"
+   ]
+  },
+  {
+   "number": 79,
+   "title": "Add support for npm fetcher",
+   "url": "https://github.com/nmattia/niv/issues/79",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2020-01-07T14:05:43Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "PR #146 by @nmattia is already open against this issue",
+   "evidence": [
+    "https://github.com/nmattia/niv — pushed_at 2026-09-11T15:23:03Z",
+    "https://github.com/nmattia/niv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nmattia/niv/issues/146",
+    "https://github.com/nmattia/niv/issues/128",
+    "https://github.com/nmattia/niv/issues/300"
+   ]
+  },
+  {
+   "number": 128,
+   "title": "Add fetcher for fetchPypi",
+   "url": "https://github.com/nmattia/niv/issues/128",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2020-01-07T14:03:07Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "no push in 64 days (last: 2026-09-11)",
+   "evidence": [
+    "https://github.com/nmattia/niv — pushed_at 2026-09-11T15:23:03Z",
+    "https://github.com/nmattia/niv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nmattia/niv/issues/128"
+   ]
+  },
+  {
+   "number": 240,
+   "title": "subcommand to refresh checksum",
+   "url": "https://github.com/nmattia/niv/issues/240",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2021-08-15T15:02:24Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "no push in 64 days (last: 2026-09-11)",
+   "evidence": [
+    "https://github.com/nmattia/niv — pushed_at 2026-09-11T15:23:03Z",
+    "https://github.com/nmattia/niv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nmattia/niv/issues/240"
+   ]
+  },
+  {
+   "number": 316,
+   "title": "[feature] `init` option to create a tiny shell.nix skeleton",
+   "url": "https://github.com/nmattia/niv/issues/316",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2021-08-14T09:54:04Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "no push in 64 days (last: 2026-09-11)",
+   "evidence": [
+    "https://github.com/nmattia/niv — pushed_at 2026-09-11T15:23:03Z",
+    "https://github.com/nmattia/niv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nmattia/niv/issues/316"
+   ]
+  },
+  {
+   "number": 317,
+   "title": "autodetect obvious URLs (`niv add https://github.com/user/repo.git`)",
+   "url": "https://github.com/nmattia/niv/issues/317",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2022-03-12T10:26:00Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "no push in 64 days (last: 2026-09-11)",
+   "evidence": [
+    "https://github.com/nmattia/niv — pushed_at 2026-09-11T15:23:03Z",
+    "https://github.com/nmattia/niv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nmattia/niv/issues/317"
+   ]
+  },
+  {
+   "number": 330,
+   "title": "\"Could not read the output of 'nix-prefetch-url'.  This is a bug.\"",
+   "url": "https://github.com/nmattia/niv/issues/330",
+   "labels": [
+    "good first issue",
+    "documentation"
+   ],
+   "updatedAt": "2021-09-07T08:45:19Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "no push in 64 days (last: 2026-09-11)",
+   "evidence": [
+    "https://github.com/nmattia/niv — pushed_at 2026-09-11T15:23:03Z",
+    "https://github.com/nmattia/niv/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nmattia/niv/issues/330"
+   ]
+  }
+ ]
+}

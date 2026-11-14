@@ -1,0 +1,26 @@
+{
+ "owner": "LuaLS",
+ "repo": "lua-language-server",
+ "language": "Lua",
+ "stars": 4411,
+ "description": "A language server that offers Lua language support - programmed in Lua",
+ "visitedAt": "2026-11-14T11:31:58.340Z",
+ "issues": [
+  {
+   "number": 283,
+   "title": "Better global",
+   "url": "https://github.com/LuaLS/lua-language-server/issues/283",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2024-06-06T08:44:17Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "PR #2961 by @cameronr is already open against this issue",
+   "evidence": [
+    "https://github.com/LuaLS/lua-language-server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/LuaLS/lua-language-server/issues/2961"
+   ]
+  }
+ ]
+}

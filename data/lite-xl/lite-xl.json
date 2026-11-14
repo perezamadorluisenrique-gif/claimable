@@ -1,0 +1,29 @@
+{
+ "owner": "lite-xl",
+ "repo": "lite-xl",
+ "language": "Lua",
+ "stars": 6525,
+ "description": "A lightweight text editor written in Lua",
+ "visitedAt": "2026-11-14T11:31:58.340Z",
+ "issues": [
+  {
+   "number": 113,
+   "title": "High CPU and Memory usage on large projects.",
+   "url": "https://github.com/lite-xl/lite-xl/issues/113",
+   "labels": [
+    "help wanted",
+    "performance"
+   ],
+   "updatedAt": "2025-02-23T14:28:23Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "PR #2240 by @artisenalcode is already open against this issue",
+   "evidence": [
+    "https://github.com/lite-xl/lite-xl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/lite-xl/lite-xl/pull/2240",
+    "https://github.com/lite-xl/lite-xl/pull/2252",
+    "https://github.com/lite-xl/lite-xl/pull/266"
+   ]
+  }
+ ]
+}

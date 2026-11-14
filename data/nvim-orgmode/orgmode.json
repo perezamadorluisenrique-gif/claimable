@@ -1,0 +1,44 @@
+{
+ "owner": "nvim-orgmode",
+ "repo": "orgmode",
+ "language": "Lua",
+ "stars": 3934,
+ "description": "Orgmode clone written in Lua for Neovim 0.12.0+.",
+ "visitedAt": "2026-11-14T11:31:58.340Z",
+ "issues": [
+  {
+   "number": 508,
+   "title": "Manage checkboxes as we do headings",
+   "url": "https://github.com/nvim-orgmode/orgmode/issues/508",
+   "labels": [
+    "core-feature",
+    "good first issue"
+   ],
+   "updatedAt": "2023-03-01T17:25:07Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "PR #1205 by @dinhkarate is already open against this issue",
+   "evidence": [
+    "https://github.com/nvim-orgmode/orgmode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nvim-orgmode/orgmode/pull/1205"
+   ]
+  },
+  {
+   "number": 519,
+   "title": "`org-insert-drawer` and `org-insert-property-drawer`",
+   "url": "https://github.com/nvim-orgmode/orgmode/issues/519",
+   "labels": [
+    "core-feature",
+    "good first issue"
+   ],
+   "updatedAt": "2023-03-01T23:32:14Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "PR #1072 by @aaratha is already open against this issue",
+   "evidence": [
+    "https://github.com/nvim-orgmode/orgmode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nvim-orgmode/orgmode/pull/1072"
+   ]
+  }
+ ]
+}

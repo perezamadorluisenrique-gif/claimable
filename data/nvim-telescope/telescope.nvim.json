@@ -1,0 +1,97 @@
+{
+ "owner": "nvim-telescope",
+ "repo": "telescope.nvim",
+ "language": "Lua",
+ "stars": 19855,
+ "description": "Find, Filter, Preview, Pick. All lua, all the time.",
+ "visitedAt": "2026-11-14T11:31:58.340Z",
+ "issues": [
+  {
+   "number": 2544,
+   "title": "Option to show source in diagnostic picker",
+   "url": "https://github.com/nvim-telescope/telescope.nvim/issues/2544",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2024-08-13T23:50:19Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "PR #3281 by @dansdantas is already open against this issue",
+   "evidence": [
+    "https://github.com/nvim-telescope/telescope.nvim/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nvim-telescope/telescope.nvim/pull/3281",
+    "https://github.com/nvim-telescope/telescope.nvim/pull/3376"
+   ]
+  },
+  {
+   "number": 3086,
+   "title": "Support devicons in lsp_references picker",
+   "url": "https://github.com/nvim-telescope/telescope.nvim/issues/3086",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2025-03-07T16:08:20Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "PR #3200 by @jamestrew is already open against this issue",
+   "evidence": [
+    "https://github.com/nvim-telescope/telescope.nvim/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nvim-telescope/telescope.nvim/pull/3200"
+   ]
+  },
+  {
+   "number": 3117,
+   "title": "telescope results line color / highlight",
+   "url": "https://github.com/nvim-telescope/telescope.nvim/issues/3117",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2024-05-26T01:25:55Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "PR #3667 by @singhvishalkr is already open against this issue",
+   "evidence": [
+    "https://github.com/nvim-telescope/telescope.nvim/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nvim-telescope/telescope.nvim/pull/3667"
+   ]
+  },
+  {
+   "number": 3213,
+   "title": "cwd_only option for marks picker",
+   "url": "https://github.com/nvim-telescope/telescope.nvim/issues/3213",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2024-07-21T23:50:47Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "PR #3324 by @coockoo is already open against this issue",
+   "evidence": [
+    "https://github.com/nvim-telescope/telescope.nvim/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nvim-telescope/telescope.nvim/pull/3324"
+   ]
+  },
+  {
+   "number": 3257,
+   "title": "Selection caret does only appear after search is complete",
+   "url": "https://github.com/nvim-telescope/telescope.nvim/issues/3257",
+   "labels": [
+    "bug",
+    "help wanted",
+    "reproducible"
+   ],
+   "updatedAt": "2024-09-12T01:24:44Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "PR #3690 by @ChrisJr404 is already open against this issue",
+   "evidence": [
+    "https://github.com/nvim-telescope/telescope.nvim/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nvim-telescope/telescope.nvim/pull/3690"
+   ]
+  }
+ ]
+}

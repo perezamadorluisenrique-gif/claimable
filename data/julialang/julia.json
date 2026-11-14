@@ -1,0 +1,1858 @@
+{
+ "owner": "JuliaLang",
+ "repo": "julia",
+ "language": "Julia",
+ "stars": 49255,
+ "description": "The Julia Programming Language",
+ "visitedAt": "2026-11-14T11:31:58.340Z",
+ "issues": [
+  {
+   "number": 130,
+   "title": "implement zeros() by calling calloc",
+   "url": "https://github.com/JuliaLang/julia/issues/130",
+   "labels": [
+    "performance",
+    "help wanted",
+    "arrays"
+   ],
+   "updatedAt": "2025-08-18T21:06:18Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "PR #43941 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+3 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/pull/43941",
+    "https://github.com/JuliaLang/julia/issues/130#issuecomment-255251546",
+    "https://github.com/JuliaLang/julia/issues/130",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2625,
+   "title": "store the actual source code of a method",
+   "url": "https://github.com/JuliaLang/julia/issues/2625",
+   "labels": [
+    "help wanted",
+    "observability"
+   ],
+   "updatedAt": "2025-04-30T19:10:53Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "PR #62024 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/pull/62024",
+    "https://github.com/JuliaLang/julia/issues/2625",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2976,
+   "title": "Proposal: expose flags set by floating-point exceptions",
+   "url": "https://github.com/JuliaLang/julia/issues/2976",
+   "labels": [
+    "help wanted",
+    "maths"
+   ],
+   "updatedAt": "2022-11-21T21:37:29Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "PR #2814 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/pull/2814",
+    "https://github.com/JuliaLang/julia/issues/2976",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "http://docs.oracle.com/cd/E19957-01/806-3568/ncg_handle.html",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 3150,
+   "title": "parse command interpolations at parse time",
+   "url": "https://github.com/JuliaLang/julia/issues/3150",
+   "labels": [
+    "help wanted",
+    "parser"
+   ],
+   "updatedAt": "2023-10-30T01:44:32Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "PR #94 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+3 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/Tokenize.jl/pull/94",
+    "https://github.com/JuliaLang/julia/pull/32408",
+    "https://github.com/JuliaLang/julia/issues/3150",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 4600,
+   "title": "relative using/import should search current directory",
+   "url": "https://github.com/JuliaLang/julia/issues/4600",
+   "labels": [
+    "help wanted",
+    "design",
+    "modules"
+   ],
+   "updatedAt": "2022-09-03T18:40:58Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "already assigned to @StefanKarpinski",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/pull/8656",
+    "https://github.com/JuliaLang/julia/issues/4600",
+    "https://github.com/JuliaLang/julia/issues/4600#issuecomment-750468666"
+   ]
+  },
+  {
+   "number": 4648,
+   "title": "== for immutables should recursively call == on its fields",
+   "url": "https://github.com/JuliaLang/julia/issues/4648",
+   "labels": [
+    "needs decision",
+    "help wanted",
+    "breaking",
+    "equality"
+   ],
+   "updatedAt": "2022-04-09T12:11:28Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "labelled `needs decision` — the project is saying not to start",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TuringLang/Bijectors.jl/pull/106",
+    "https://github.com/JuliaLang/julia/issues/4648"
+   ]
+  },
+  {
+   "number": 5239,
+   "title": "Bug in HTML output of method tables",
+   "url": "https://github.com/JuliaLang/julia/issues/5239",
+   "labels": [
+    "help wanted",
+    "display and printing"
+   ],
+   "updatedAt": "2017-01-03T21:40:54Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "PR #10061 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/pull/10061",
+    "https://github.com/JuliaLang/julia/issues/5239",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 5405,
+   "title": "Ellipsis slicing",
+   "url": "https://github.com/JuliaLang/julia/issues/5405",
+   "labels": [
+    "help wanted",
+    "arrays",
+    "parser"
+   ],
+   "updatedAt": "2025-01-08T18:07:38Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (http://docs.scipy.org/doc/numpy/reference/arrays.indexing.html) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/issues/5405",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "http://docs.scipy.org/doc/numpy/reference/arrays.indexing.html",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 5690,
+   "title": "`parse` can't parse our own Float32 output format",
+   "url": "https://github.com/JuliaLang/julia/issues/5690",
+   "labels": [
+    "help wanted",
+    "good first issue"
+   ],
+   "updatedAt": "2025-11-06T21:58:23Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.julialang.org/en/v1/devdocs/backtraces/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/issues/5690",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 6148,
+   "title": "IEEE-754 recommended functions",
+   "url": "https://github.com/JuliaLang/julia/issues/6148",
+   "labels": [
+    "help wanted",
+    "maths",
+    "feature"
+   ],
+   "updatedAt": "2025-02-16T22:07:33Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "PR #10008 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/pull/10008",
+    "https://github.com/JuliaLang/julia/issues/6148",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 6493,
+   "title": "function to change numeric output format",
+   "url": "https://github.com/JuliaLang/julia/issues/6493",
+   "labels": [
+    "REPL",
+    "good first issue",
+    "display and printing"
+   ],
+   "updatedAt": "2023-05-25T04:35:23Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "PR #52543 by @stevengj is already open against this issue",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/pull/52543"
+   ]
+  },
+  {
+   "number": 6921,
+   "title": "Pager support in the repl",
+   "url": "https://github.com/JuliaLang/julia/issues/6921",
+   "labels": [
+    "help wanted",
+    "REPL"
+   ],
+   "updatedAt": "2024-02-08T21:08:45Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "PR #13825 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+4 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/pull/13825",
+    "https://github.com/JuliaLang/julia/pull/38956",
+    "https://github.com/JuliaLang/julia/issues/6921#issuecomment-290927191",
+    "https://github.com/JuliaLang/julia/issues/6921",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 9180,
+   "title": "ternary operator with \"return\" gives a parse error",
+   "url": "https://github.com/JuliaLang/julia/issues/9180",
+   "labels": [
+    "help wanted",
+    "parser"
+   ],
+   "updatedAt": "2025-01-29T23:08:20Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "PR #9122 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/pull/9122",
+    "https://github.com/JuliaLang/julia/issues/9180",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 9429,
+   "title": "searchsorted by applies by function to item being searched",
+   "url": "https://github.com/JuliaLang/julia/issues/9429",
+   "labels": [
+    "help wanted",
+    "search & find"
+   ],
+   "updatedAt": "2025-01-23T02:10:22Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.julialang.org/en/v1/devdocs/backtraces/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/issues/9429",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 10092,
+   "title": "make KeyIterator and ValueIterator more array-like",
+   "url": "https://github.com/JuliaLang/julia/issues/10092",
+   "labels": [
+    "help wanted",
+    "collections"
+   ],
+   "updatedAt": "2025-04-12T06:28:56Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "PR #56580 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/pull/56580",
+    "https://github.com/JuliaLang/julia/issues/10092",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 10682,
+   "title": "cpp namespace pollution in julia.h",
+   "url": "https://github.com/JuliaLang/julia/issues/10682",
+   "labels": [
+    "help wanted",
+    "embedding"
+   ],
+   "updatedAt": "2020-11-02T15:49:53Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "PR #13641 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+4 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/pull/13641",
+    "https://github.com/JuliaLang/julia/pull/43986",
+    "https://github.com/JuliaLang/julia/blob/HEAD/src/julia.h",
+    "https://github.com/JuliaLang/julia/blob/HEAD/src/julia_internal.h",
+    "https://github.com/JuliaLang/julia/blob/HEAD/src/support/libsupport.h",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 10907,
+   "title": "add fast path for very small Dicts?",
+   "url": "https://github.com/JuliaLang/julia/issues/10907",
+   "labels": [
+    "speculative",
+    "performance",
+    "help wanted"
+   ],
+   "updatedAt": "2022-03-13T06:59:40Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.julialang.org/en/v1/devdocs/backtraces/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/issues/10907",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 11161,
+   "title": "RFC:  adding O() notation in the documentation for functions, like Haskell",
+   "url": "https://github.com/JuliaLang/julia/issues/11161",
+   "labels": [
+    "docs",
+    "help wanted",
+    "good first issue",
+    "Hacktoberfest"
+   ],
+   "updatedAt": "2023-11-18T18:06:57Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @ScottPJones 4209 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/issues/11161#issuecomment-99930222",
+    "https://github.com/JuliaLang/julia/issues/11161",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 11212,
+   "title": "Pick a hex literal standard and use it consistently",
+   "url": "https://github.com/JuliaLang/julia/issues/11212",
+   "labels": [
+    "help wanted",
+    "parser",
+    "design"
+   ],
+   "updatedAt": "2017-09-01T16:17:29Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "already assigned to @simonbyrne",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/issues/11212"
+   ]
+  },
+  {
+   "number": 11523,
+   "title": "`each_cache_line(A,R)` iteration for efficient multidimensional algorithms",
+   "url": "https://github.com/JuliaLang/julia/issues/11523",
+   "labels": [
+    "speculative",
+    "help wanted"
+   ],
+   "updatedAt": "2022-03-13T06:59:41Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.julialang.org/en/v1/devdocs/backtraces/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/issues/11523",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 12711,
+   "title": "Redirect output to an IOBuffer",
+   "url": "https://github.com/JuliaLang/julia/issues/12711",
+   "labels": [
+    "help wanted",
+    "io"
+   ],
+   "updatedAt": "2024-04-11T01:06:33Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "PR #336 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+4 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/SciML/Optimization.jl/pull/336",
+    "https://github.com/Nemocas/Nemo.jl/pull/2128",
+    "https://github.com/dahong67/CacheVariables.jl/pull/30",
+    "https://github.com/JuliaLang/julia/issues/12711",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 12922,
+   "title": "Add streams to interfaces manual",
+   "url": "https://github.com/JuliaLang/julia/issues/12922",
+   "labels": [
+    "docs",
+    "help wanted"
+   ],
+   "updatedAt": "2017-11-21T01:03:49Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @souravsingh 3992 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/issues/12922#issuecomment-163752940",
+    "https://github.com/JuliaLang/julia/issues/12922",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "http://julia.readthedocs.org/en/latest/manual/interfaces/.",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 12989,
+   "title": "Improve apropos display",
+   "url": "https://github.com/JuliaLang/julia/issues/12989",
+   "labels": [
+    "help wanted",
+    "good first issue",
+    "docsystem",
+    "Hacktoberfest"
+   ],
+   "updatedAt": "2017-01-03T21:50:16Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @anthonyclays 4086 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/issues/12989#issuecomment-138351688",
+    "https://github.com/JuliaLang/julia/issues/12989",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 14216,
+   "title": "Comparison operator in findmin() variants",
+   "url": "https://github.com/JuliaLang/julia/issues/14216",
+   "labels": [
+    "help wanted",
+    "collections"
+   ],
+   "updatedAt": "2019-03-24T13:19:40Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.julialang.org/en/v1/devdocs/backtraces/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/issues/14216",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 15378,
+   "title": "Greedy: want atsign-simd working for zip",
+   "url": "https://github.com/JuliaLang/julia/issues/15378",
+   "labels": [
+    "help wanted",
+    "compiler:simd"
+   ],
+   "updatedAt": "2018-04-24T17:11:35Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.julialang.org/en/v1/devdocs/backtraces/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/issues/15378",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 15523,
+   "title": "Unconsistent result when using sum or mean function on Complex{Int8} array",
+   "url": "https://github.com/JuliaLang/julia/issues/15523",
+   "labels": [
+    "maths",
+    "complex",
+    "good first issue",
+    "fold"
+   ],
+   "updatedAt": "2025-09-29T14:19:21Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "the issue body forbids pull requests against it: \"do not make pr\"",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/issues/15523"
+   ]
+  },
+  {
+   "number": 17789,
+   "title": "LibGit2.set_ssl_cert_locations segfaults on a cluster",
+   "url": "https://github.com/JuliaLang/julia/issues/17789",
+   "labels": [
+    "help wanted",
+    "libgit2"
+   ],
+   "updatedAt": "2023-12-13T13:54:05Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.julialang.org/en/v1/devdocs/backtraces/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/issues/17789",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 17916,
+   "title": "Tests for git https clone/proxy",
+   "url": "https://github.com/JuliaLang/julia/issues/17916",
+   "labels": [
+    "help wanted",
+    "test",
+    "libgit2"
+   ],
+   "updatedAt": "2018-05-21T18:28:21Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "already assigned to @Keno",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/pull/19216",
+    "https://github.com/JuliaLang/julia/issues/17916"
+   ]
+  },
+  {
+   "number": 18295,
+   "title": "Pick a different key binding for \"Insert new line without executing it\" at least on Win",
+   "url": "https://github.com/JuliaLang/julia/issues/18295",
+   "labels": [
+    "help wanted",
+    "system:windows",
+    "REPL"
+   ],
+   "updatedAt": "2025-12-27T05:56:27Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.julialang.org/en/v1/devdocs/backtraces/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/issues/18295",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 18356,
+   "title": "Manual line wrapping of exceptions looks bad on narrow terminal",
+   "url": "https://github.com/JuliaLang/julia/issues/18356",
+   "labels": [
+    "help wanted",
+    "display and printing"
+   ],
+   "updatedAt": "2017-05-17T21:48:07Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.julialang.org/en/v1/devdocs/backtraces/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/issues/18356",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 18745,
+   "title": "help should indicate where things come from",
+   "url": "https://github.com/JuliaLang/julia/issues/18745",
+   "labels": [
+    "help wanted",
+    "good first issue",
+    "docsystem",
+    "Hacktoberfest"
+   ],
+   "updatedAt": "2022-03-13T06:59:45Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "PR #22972 by @danielmatz is already open against this issue",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/pull/22972",
+    "https://github.com/JuliaLang/julia/pull/19162"
+   ]
+  },
+  {
+   "number": 19260,
+   "title": "`:(($+)(1,2))` prints as `:((+)(1,2))` which is `:(1 + 2)`",
+   "url": "https://github.com/JuliaLang/julia/issues/19260",
+   "labels": [
+    "help wanted",
+    "display and printing"
+   ],
+   "updatedAt": "2017-08-21T17:12:13Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "2 stale claims, the most recent by @shivakrishna9 3373 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/issues/19260#issuecomment-323564024",
+    "https://github.com/JuliaLang/julia/issues/19260",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 19529,
+   "title": "Include all public docstrings in the manual",
+   "url": "https://github.com/JuliaLang/julia/issues/19529",
+   "labels": [
+    "docs",
+    "help wanted",
+    "docsystem"
+   ],
+   "updatedAt": "2026-05-03T11:55:19Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "PR #32882 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+6 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/pull/32882",
+    "https://github.com/JuliaLang/julia/pull/44642",
+    "https://github.com/JuliaLang/julia/pull/55267",
+    "https://github.com/JuliaLang/julia/pull/55560",
+    "https://github.com/JuliaLang/julia/pull/64729",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 19839,
+   "title": "LibGit2 refactor",
+   "url": "https://github.com/JuliaLang/julia/issues/19839",
+   "labels": [
+    "help wanted",
+    "libgit2"
+   ],
+   "updatedAt": "2017-03-07T17:46:12Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "PR #19651 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+9 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/pull/19651",
+    "https://github.com/JuliaLang/julia/pull/19878",
+    "https://github.com/JuliaLang/julia/pull/19935",
+    "https://github.com/JuliaLang/julia/pull/19951",
+    "https://github.com/JuliaLang/julia/pull/19955",
+    "https://github.com/JuliaLang/julia/pull/19970",
+    "https://github.com/JuliaLang/julia/pull/20104",
+    "https://github.com/JuliaLang/julia/pull/20155",
+    "https://github.com/JuliaLang/julia/issues/19839"
+   ]
+  },
+  {
+   "number": 21038,
+   "title": "Feature request: deprecate across modules",
+   "url": "https://github.com/JuliaLang/julia/issues/21038",
+   "labels": [
+    "help wanted",
+    "macros"
+   ],
+   "updatedAt": "2025-06-22T16:02:44Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.julialang.org/en/v1/devdocs/backtraces/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/issues/21038",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 22423,
+   "title": "Unnecessary root for known permanently rooted types",
+   "url": "https://github.com/JuliaLang/julia/issues/22423",
+   "labels": [
+    "help wanted",
+    "compiler:codegen"
+   ],
+   "updatedAt": "2018-07-08T02:20:59Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @Keno 3426 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/issues/22423#issuecomment-311535913",
+    "https://github.com/JuliaLang/julia/issues/22423",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 22772,
+   "title": "Add a \"lazy\" while guard to comprehension syntax",
+   "url": "https://github.com/JuliaLang/julia/issues/22772",
+   "labels": [
+    "speculative",
+    "help wanted"
+   ],
+   "updatedAt": "2022-03-13T06:59:47Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.julialang.org/en/v1/devdocs/backtraces/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/issues/22772",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 24043,
+   "title": "Undocumented exceptions",
+   "url": "https://github.com/JuliaLang/julia/issues/24043",
+   "labels": [
+    "docs",
+    "help wanted",
+    "good first issue",
+    "Hacktoberfest"
+   ],
+   "updatedAt": "2025-10-20T00:21:30Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "PR #24200 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+4 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/pull/24200",
+    "https://github.com/JuliaLang/julia/pull/34189",
+    "https://github.com/JuliaLang/julia/issues/24043#issuecomment-336728655",
+    "https://github.com/JuliaLang/julia/issues/24043",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 24464,
+   "title": "More libgit2 memory ownership issues",
+   "url": "https://github.com/JuliaLang/julia/issues/24464",
+   "labels": [
+    "help wanted",
+    "libgit2"
+   ],
+   "updatedAt": "2022-03-13T06:59:48Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "PR #24504 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+4 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/pull/24504",
+    "https://github.com/JuliaLang/julia/pull/24523",
+    "https://github.com/JuliaLang/julia/issues/24464",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 24598,
+   "title": "replace: allow transform function as first argument?",
+   "url": "https://github.com/JuliaLang/julia/issues/24598",
+   "labels": [
+    "help wanted",
+    "good first issue",
+    "strings"
+   ],
+   "updatedAt": "2021-06-04T22:24:41Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "PR #61183 by @christiankadiu is already open against this issue",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/pull/61183"
+   ]
+  },
+  {
+   "number": 25720,
+   "title": "bring back `reload`",
+   "url": "https://github.com/JuliaLang/julia/issues/25720",
+   "labels": [
+    "help wanted",
+    "feature"
+   ],
+   "updatedAt": "2018-10-16T18:46:03Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "PR #64922 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/pull/64922",
+    "https://github.com/JuliaLang/julia/issues/25720",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 26412,
+   "title": "Make `cumsum(A)` compute a summed-area table",
+   "url": "https://github.com/JuliaLang/julia/issues/26412",
+   "labels": [
+    "arrays",
+    "good first issue"
+   ],
+   "updatedAt": "2018-10-02T16:10:59Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "2 stale claims, the most recent by @ChamanAgrawal 2965 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/issues/26412",
+    "https://github.com/JuliaLang/julia/issues/26412#issuecomment-426253925",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 27138,
+   "title": "Support `convert(AbstractArray{T}, ::AbstractRange)` and variants",
+   "url": "https://github.com/JuliaLang/julia/issues/27138",
+   "labels": [
+    "help wanted",
+    "arrays"
+   ],
+   "updatedAt": "2018-05-17T14:18:15Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "PR #48894 by @putianyi889 is already open against this issue",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/pull/48894"
+   ]
+  },
+  {
+   "number": 28712,
+   "title": "Better documentation of stdlibs",
+   "url": "https://github.com/JuliaLang/julia/issues/28712",
+   "labels": [
+    "docs",
+    "good first issue"
+   ],
+   "updatedAt": "2026-01-29T11:22:51Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "PR #55311 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/pull/55311",
+    "https://github.com/JuliaLang/julia/issues/28712",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 29077,
+   "title": "Support `'` format flag for `@printf`",
+   "url": "https://github.com/JuliaLang/julia/issues/29077",
+   "labels": [
+    "help wanted",
+    "display and printing"
+   ],
+   "updatedAt": "2019-05-31T14:41:47Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "PR #42145 by @ki-chi is already open against this issue",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/pull/42145"
+   ]
+  },
+  {
+   "number": 29637,
+   "title": "Support s390x",
+   "url": "https://github.com/JuliaLang/julia/issues/29637",
+   "labels": [
+    "help wanted",
+    "feature"
+   ],
+   "updatedAt": "2025-02-17T20:51:29Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.julialang.org/en/v1/devdocs/backtraces/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/issues/29637",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 29938,
+   "title": "Check for case error in main-file when loading a package and give a good error message",
+   "url": "https://github.com/JuliaLang/julia/issues/29938",
+   "labels": [
+    "packages",
+    "good first issue"
+   ],
+   "updatedAt": "2019-12-27T09:24:44Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "2 stale claims, the most recent by @premnarain 2514 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/issues/29938#issuecomment-569197475",
+    "https://github.com/JuliaLang/julia/issues/29938",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 30438,
+   "title": "Uninformative Broadcast Error Message",
+   "url": "https://github.com/JuliaLang/julia/issues/30438",
+   "labels": [
+    "good first issue",
+    "broadcast",
+    "error messages"
+   ],
+   "updatedAt": "2026-06-05T12:58:54Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "PR #32867 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+3 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/pull/32867",
+    "https://github.com/JuliaLang/julia/issues/30438#issuecomment-451014084",
+    "https://github.com/JuliaLang/julia/issues/30438",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 31304,
+   "title": "Lack of type info when `isa` test fails",
+   "url": "https://github.com/JuliaLang/julia/issues/31304",
+   "labels": [
+    "help wanted",
+    "testsystem",
+    "display and printing"
+   ],
+   "updatedAt": "2020-02-25T15:27:41Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @apieum 2542 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/issues/31304#issuecomment-559886139",
+    "https://github.com/JuliaLang/julia/issues/31304",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 32018,
+   "title": "Single argument `isa` function",
+   "url": "https://github.com/JuliaLang/julia/issues/32018",
+   "labels": [
+    "help wanted",
+    "feature"
+   ],
+   "updatedAt": "2025-08-02T15:56:40Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "PR #32968 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+3 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/pull/32968",
+    "https://github.com/JuliaLang/julia/issues/32018#issuecomment-491881298",
+    "https://github.com/JuliaLang/julia/issues/32018",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 32684,
+   "title": "Cannot combine @simd and @threads on a loop",
+   "url": "https://github.com/JuliaLang/julia/issues/32684",
+   "labels": [
+    "help wanted",
+    "multithreading",
+    "good first issue"
+   ],
+   "updatedAt": "2026-06-06T02:49:36Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @Aranya0811 161 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/issues/32684#issuecomment-4636971088",
+    "https://github.com/JuliaLang/julia/issues/32684",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 32926,
+   "title": "Precompiling modules outside of packages",
+   "url": "https://github.com/JuliaLang/julia/issues/32926",
+   "labels": [
+    "docs",
+    "help wanted"
+   ],
+   "updatedAt": "2020-04-12T02:49:50Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.julialang.org/en/v1.1/manual/modules/#Module-initialization-and-precompilation-1) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/issues/32926",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1.1/manual/modules/#Module-initialization-and-precompilation-1",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 33067,
+   "title": "Idea: Lazy/faster randperm from FPE",
+   "url": "https://github.com/JuliaLang/julia/issues/33067",
+   "labels": [
+    "performance",
+    "help wanted",
+    "randomness"
+   ],
+   "updatedAt": "2023-03-05T17:56:42Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "2 stale claims, the most recent by @sunoru 1350 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/issues/33067#issuecomment-1455157935",
+    "https://github.com/JuliaLang/julia/issues/33067",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 33537,
+   "title": "Do something else when method name is a TypeVar",
+   "url": "https://github.com/JuliaLang/julia/issues/33537",
+   "labels": [
+    "bug",
+    "good first issue"
+   ],
+   "updatedAt": "2023-02-11T07:16:57Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.julialang.org/en/v1/devdocs/backtraces/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/issues/33537",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 33539,
+   "title": "Methoderror for constructors should consider typevars ",
+   "url": "https://github.com/JuliaLang/julia/issues/33539",
+   "labels": [
+    "help wanted",
+    "error messages"
+   ],
+   "updatedAt": "2019-10-19T22:36:27Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @KlausC 2583 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/issues/33539#issuecomment-544202908",
+    "https://github.com/JuliaLang/julia/issues/33539",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 33599,
+   "title": "single-argument accumulate!, cumsum!, cumprod!, etc.?",
+   "url": "https://github.com/JuliaLang/julia/issues/33599",
+   "labels": [
+    "good first issue",
+    "feature"
+   ],
+   "updatedAt": "2025-05-05T17:49:47Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "open 86 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+2 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/issues/33599",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 33666,
+   "title": "add help builtins for special characters",
+   "url": "https://github.com/JuliaLang/julia/issues/33666",
+   "labels": [
+    "docs",
+    "help wanted",
+    "good first issue"
+   ],
+   "updatedAt": "2023-10-30T18:43:51Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "PR #33824 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+5 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/pull/33824",
+    "https://github.com/JuliaLang/julia/pull/34035",
+    "https://github.com/JuliaLang/julia/pull/39609",
+    "https://github.com/JuliaLang/julia/issues/33666",
+    "https://github.com/JuliaLang/julia/issues/33666#issuecomment-775602860",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 33947,
+   "title": "wanted: `open(create=true, exclusive=true)` dead or alive",
+   "url": "https://github.com/JuliaLang/julia/issues/33947",
+   "labels": [
+    "good first issue",
+    "feature"
+   ],
+   "updatedAt": "2021-10-07T12:26:28Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @aaryan20 1864 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/issues/33947#issuecomment-937476795",
+    "https://github.com/JuliaLang/julia/issues/33947",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 34332,
+   "title": "Feature (workflow) request: conflict-free way of creating NEWS.md",
+   "url": "https://github.com/JuliaLang/julia/issues/34332",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2020-05-09T00:23:36Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.julialang.org/en/v1/devdocs/backtraces/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/issues/34332",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 34368,
+   "title": "generators should lower to `Iterators.map`, not `Base.Generator`",
+   "url": "https://github.com/JuliaLang/julia/issues/34368",
+   "labels": [
+    "help wanted",
+    "compiler:lowering"
+   ],
+   "updatedAt": "2021-06-04T21:56:53Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "PR #34352 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+3 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/pull/34352",
+    "https://github.com/JuliaLang/julia/pull/34678",
+    "https://github.com/JuliaLang/julia/issues/34368",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 34761,
+   "title": "Better documentation for `methods`",
+   "url": "https://github.com/JuliaLang/julia/issues/34761",
+   "labels": [
+    "docs",
+    "good first issue"
+   ],
+   "updatedAt": "2023-12-25T17:33:41Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @11happy 1055 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/issues/34761#issuecomment-1869064166",
+    "https://github.com/JuliaLang/julia/issues/34761",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 35125,
+   "title": "Missing GCD methods on complex numbers",
+   "url": "https://github.com/JuliaLang/julia/issues/35125",
+   "labels": [
+    "help wanted",
+    "maths",
+    "complex"
+   ],
+   "updatedAt": "2022-10-02T15:32:34Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @ravibitsgoa 2426 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/issues/35125#issuecomment-603010434",
+    "https://github.com/JuliaLang/julia/issues/35125",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 35182,
+   "title": "issetequal between ranges and other collections",
+   "url": "https://github.com/JuliaLang/julia/issues/35182",
+   "labels": [
+    "performance",
+    "help wanted",
+    "collections",
+    "equality"
+   ],
+   "updatedAt": "2021-05-10T19:37:35Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "PR #64801 by @GeorgiaPreda is already open against this issue",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/pull/64801"
+   ]
+  },
+  {
+   "number": 35516,
+   "title": "Add `haskey` for `Tuple`",
+   "url": "https://github.com/JuliaLang/julia/issues/35516",
+   "labels": [
+    "good first issue",
+    "collections"
+   ],
+   "updatedAt": "2020-11-23T15:31:51Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.julialang.org/en/v1/devdocs/backtraces/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/issues/35516",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 35543,
+   "title": "Stable API to strip type parameters from type",
+   "url": "https://github.com/JuliaLang/julia/issues/35543",
+   "labels": [
+    "help wanted",
+    "feature"
+   ],
+   "updatedAt": "2023-09-12T07:40:29Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "PR #1064 by @N5N3 is already open against this issue",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaArrays/StaticArrays.jl/pull/1064",
+    "https://github.com/JuliaLang/julia/pull/37103",
+    "https://github.com/Evizero/Augmentor.jl/pull/87",
+    "https://github.com/FluxML/Flux.jl/pull/1704",
+    "https://github.com/JuliaControl/ControlSystems.jl/pull/625",
+    "https://github.com/JuliaSmoothOptimizers/LinearOperators.jl/pull/321",
+    "https://github.com/oscar-system/Oscar.jl/pull/4020"
+   ]
+  },
+  {
+   "number": 35876,
+   "title": "Provide startup option to include current active environment in julia prompt",
+   "url": "https://github.com/JuliaLang/julia/issues/35876",
+   "labels": [
+    "REPL",
+    "good first issue"
+   ],
+   "updatedAt": "2025-07-23T13:15:58Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "PR #1 by @pranavb05 is already open against this issue",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/pranavb05/julia/pull/1"
+   ]
+  },
+  {
+   "number": 35959,
+   "title": "docs for redirect_std* assume too much background knowledge",
+   "url": "https://github.com/JuliaLang/julia/issues/35959",
+   "labels": [
+    "docs",
+    "good first issue"
+   ],
+   "updatedAt": "2023-03-05T08:29:02Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "PR #49563 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+3 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/pull/49563",
+    "https://github.com/JuliaLang/julia/issues/35959",
+    "https://github.com/JuliaLang/julia/issues/35959#issuecomment-1455024363",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/manual/networking-and-streams/#",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 36460,
+   "title": "Feature request: make `?` print page by page like `man` in Linux",
+   "url": "https://github.com/JuliaLang/julia/issues/36460",
+   "labels": [
+    "good first issue",
+    "docsystem"
+   ],
+   "updatedAt": "2022-11-20T20:04:54Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "PR #38956 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/pull/38956",
+    "https://github.com/JuliaLang/julia/issues/36460",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 36718,
+   "title": "re-evaluate/remove `Random.UnsafeView`",
+   "url": "https://github.com/JuliaLang/julia/issues/36718",
+   "labels": [
+    "help wanted",
+    "randomness",
+    "good first issue",
+    "stdlib"
+   ],
+   "updatedAt": "2025-07-26T02:16:30Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "PR #222 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+4 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaGraphics/ColorTypes.jl/pull/222",
+    "https://github.com/JuliaLang/julia/pull/44264",
+    "https://github.com/JuliaLang/julia/issues/36718#issuecomment-721636939",
+    "https://github.com/JuliaLang/julia/issues/36718",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 37122,
+   "title": "Improve documentation for `esc`",
+   "url": "https://github.com/JuliaLang/julia/issues/37122",
+   "labels": [
+    "docs",
+    "good first issue"
+   ],
+   "updatedAt": "2023-05-30T14:15:28Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.julialang.org/en/v1/devdocs/backtraces/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/issues/37122",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 37376,
+   "title": "mod(::Complex{<:Integer}, ::Integer) and div etc.",
+   "url": "https://github.com/JuliaLang/julia/issues/37376",
+   "labels": [
+    "complex",
+    "good first issue"
+   ],
+   "updatedAt": "2022-09-13T16:43:48Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @prithvitewatia 2095 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/issues/37376#issuecomment-781483462",
+    "https://github.com/JuliaLang/julia/issues/37376",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 37523,
+   "title": "startup message could mention apropos or `?\"...\"` for text search",
+   "url": "https://github.com/JuliaLang/julia/issues/37523",
+   "labels": [
+    "good first issue",
+    "Hacktoberfest"
+   ],
+   "updatedAt": "2020-12-12T16:10:43Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @ashwanirathee 2223 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/issues/37523#issuecomment-707479259",
+    "https://github.com/JuliaLang/julia/issues/37523",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 38344,
+   "title": "map! only works on AbstractArray",
+   "url": "https://github.com/JuliaLang/julia/issues/38344",
+   "labels": [
+    "help wanted",
+    "arrays",
+    "good first issue"
+   ],
+   "updatedAt": "2023-10-19T19:32:35Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.julialang.org/en/v1/devdocs/backtraces/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/issues/38344",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 38872,
+   "title": "FCall macro and/or Fortran calling convention",
+   "url": "https://github.com/JuliaLang/julia/issues/38872",
+   "labels": [
+    "help wanted",
+    "feature",
+    "ffi"
+   ],
+   "updatedAt": "2022-01-22T14:55:25Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.julialang.org/en/v1/devdocs/backtraces/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/issues/38872",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 39680,
+   "title": "Improve task switch performance",
+   "url": "https://github.com/JuliaLang/julia/issues/39680",
+   "labels": [
+    "performance",
+    "help wanted"
+   ],
+   "updatedAt": "2021-03-18T11:28:35Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "PR #39679 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/pull/39679",
+    "https://github.com/JuliaLang/julia/issues/39680",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 39938,
+   "title": "Add hint for MethodError on transpose/adjoint",
+   "url": "https://github.com/JuliaLang/julia/issues/39938",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2026-01-03T15:04:06Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @divyaS09 1335 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/issues/39938#issuecomment-1475880958",
+    "https://github.com/JuliaLang/julia/issues/39938",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 39940,
+   "title": "`findprev`/`findlast` with empty search string",
+   "url": "https://github.com/JuliaLang/julia/issues/39940",
+   "labels": [
+    "bug",
+    "help wanted",
+    "strings",
+    "search & find"
+   ],
+   "updatedAt": "2025-05-18T22:02:30Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "PR #40120 by @bicycle1885 is already open against this issue",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/pull/40120",
+    "https://github.com/JuliaLang/julia/pull/64515"
+   ]
+  },
+  {
+   "number": 40188,
+   "title": "Confusing test failure display for KeySet",
+   "url": "https://github.com/JuliaLang/julia/issues/40188",
+   "labels": [
+    "good first issue",
+    "display and printing"
+   ],
+   "updatedAt": "2021-08-26T02:21:23Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "PR #41751 by @thazhemadam is already open against this issue",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/pull/41751"
+   ]
+  },
+  {
+   "number": 41862,
+   "title": "Consider improving performance of rand! for view of BitArray",
+   "url": "https://github.com/JuliaLang/julia/issues/41862",
+   "labels": [
+    "performance",
+    "help wanted"
+   ],
+   "updatedAt": "2025-12-07T06:36:04Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.julialang.org/en/v1/devdocs/backtraces/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/issues/41862",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 42030,
+   "title": "Add inbounds annotation to safe iteration",
+   "url": "https://github.com/JuliaLang/julia/issues/42030",
+   "labels": [
+    "help wanted",
+    "compiler:lowering",
+    "feature"
+   ],
+   "updatedAt": "2021-08-29T23:02:17Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "PR #42202 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/pull/42202",
+    "https://github.com/JuliaLang/julia/issues/42030",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 42687,
+   "title": "shell mode: switch to pkg mode with ']'",
+   "url": "https://github.com/JuliaLang/julia/issues/42687",
+   "labels": [
+    "REPL",
+    "good first issue"
+   ],
+   "updatedAt": "2022-05-09T16:39:12Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "PR #3081 by @skleinbo is already open against this issue",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/Pkg.jl/pull/3081"
+   ]
+  },
+  {
+   "number": 43266,
+   "title": "FR: Random sampler for `Iterators.ProductIterator`",
+   "url": "https://github.com/JuliaLang/julia/issues/43266",
+   "labels": [
+    "randomness",
+    "good first issue",
+    "feature"
+   ],
+   "updatedAt": "2026-11-13T12:58:55Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "@abarnaanbazhagan2727 claimed it yesterday",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/issues/43266#issuecomment-6853656925"
+   ]
+  },
+  {
+   "number": 43542,
+   "title": "objectid takes arbitrarily long",
+   "url": "https://github.com/JuliaLang/julia/issues/43542",
+   "labels": [
+    "performance",
+    "good first issue",
+    "Hacktoberfest",
+    "hashing"
+   ],
+   "updatedAt": "2026-11-13T13:01:25Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "PR #44483 by @SamarthMayya is already open against this issue",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/pull/44483",
+    "https://github.com/FluxML/Optimisers.jl/pull/106"
+   ]
+  },
+  {
+   "number": 43597,
+   "title": "Replace uses of tempname in CI by mktemp",
+   "url": "https://github.com/JuliaLang/julia/issues/43597",
+   "labels": [
+    "help wanted",
+    "good first issue",
+    "ci"
+   ],
+   "updatedAt": "2026-11-13T12:58:33Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "@abarnaanbazhagan2727 claimed it yesterday",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/pull/38879",
+    "https://github.com/JuliaLang/julia/pull/43606",
+    "https://github.com/JuliaLang/julia/pull/43634",
+    "https://github.com/JuliaLang/julia/pull/64786",
+    "https://github.com/JuliaLang/julia/issues/43597#issuecomment-6853648728"
+   ]
+  },
+  {
+   "number": 43811,
+   "title": "Better introduction to parametric types in the manual",
+   "url": "https://github.com/JuliaLang/julia/issues/43811",
+   "labels": [
+    "docs",
+    "types and dispatch",
+    "good first issue"
+   ],
+   "updatedAt": "2023-02-09T09:03:55Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "2 stale claims, the most recent by @MashiatK 1375 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/issues/43811#issuecomment-1422972474",
+    "https://github.com/JuliaLang/julia/issues/43811",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 44417,
+   "title": "better calling convention for large numbers of arguments",
+   "url": "https://github.com/JuliaLang/julia/issues/44417",
+   "labels": [
+    "compiler:codegen",
+    "good first issue",
+    "latency"
+   ],
+   "updatedAt": "2022-03-16T15:11:17Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @gbaraldi 1717 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/issues/44417#issuecomment-1057606308",
+    "https://github.com/JuliaLang/julia/issues/44417",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 44681,
+   "title": "Repl session uuid",
+   "url": "https://github.com/JuliaLang/julia/issues/44681",
+   "labels": [
+    "REPL",
+    "good first issue",
+    "feature"
+   ],
+   "updatedAt": "2023-08-16T10:51:37Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "PR #59953 by @tecosaur is already open against this issue",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/pull/59953"
+   ]
+  },
+  {
+   "number": 45142,
+   "title": "Explicitly document the `missing` behavior for all functions that handle `missing` values",
+   "url": "https://github.com/JuliaLang/julia/issues/45142",
+   "labels": [
+    "docs",
+    "good first issue"
+   ],
+   "updatedAt": "2026-11-13T12:57:21Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "@abarnaanbazhagan2727 claimed it yesterday",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/issues/45142#issuecomment-6853622526",
+    "https://github.com/JuliaLang/julia/issues/45142#issuecomment-1422972055"
+   ]
+  },
+  {
+   "number": 45337,
+   "title": "`filter` not defined for `enumerate`",
+   "url": "https://github.com/JuliaLang/julia/issues/45337",
+   "labels": [
+    "good first issue",
+    "iteration"
+   ],
+   "updatedAt": "2026-01-11T18:32:59Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "PR #60413 by @phantomsoldierking is already open against this issue",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/pull/60413"
+   ]
+  }
+ ]
+}

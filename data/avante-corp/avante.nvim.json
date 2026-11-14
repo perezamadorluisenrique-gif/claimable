@@ -1,0 +1,48 @@
+{
+ "owner": "avante-corp",
+ "repo": "avante.nvim",
+ "language": "Lua",
+ "stars": 18188,
+ "description": "Use your Neovim like using Cursor AI IDE!",
+ "visitedAt": "2026-11-14T11:31:58.340Z",
+ "issues": [
+  {
+   "number": 3323,
+   "title": "structured configuration for password retreival",
+   "url": "https://github.com/avante-corp/avante.nvim/issues/3323",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2026-10-20T14:06:55Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.aws.amazon.com/cli/v1/userguide/cli-chap-authentication.html) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/avante-corp/avante.nvim/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/avante-corp/avante.nvim/issues/3323",
+    "https://github.com/avante-corp/avante.nvim/blob/HEAD/README.md",
+    "https://docs.aws.amazon.com/cli/v1/userguide/cli-chap-authentication.html",
+    "https://github.com/avante-corp/avante.nvim/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 3325,
+   "title": "replace __inherited_from with a solution that allows cascading inheritance",
+   "url": "https://github.com/avante-corp/avante.nvim/issues/3325",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2026-11-11T03:05:26Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "PR #3396 by @YaoSong808 is already open against this issue",
+   "evidence": [
+    "https://github.com/avante-corp/avante.nvim/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/avante-corp/avante.nvim/pull/3396",
+    "https://github.com/avante-corp/avante.nvim/pull/3401"
+   ]
+  }
+ ]
+}

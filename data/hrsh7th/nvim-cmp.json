@@ -1,0 +1,137 @@
+{
+ "owner": "hrsh7th",
+ "repo": "nvim-cmp",
+ "language": "Lua",
+ "stars": 9489,
+ "description": "A completion plugin for neovim coded in Lua.",
+ "visitedAt": "2026-11-14T11:31:58.340Z",
+ "issues": [
+  {
+   "number": 103,
+   "title": "<cr> mapping breaks abbreviations",
+   "url": "https://github.com/hrsh7th/nvim-cmp/issues/103",
+   "labels": [
+    "bug",
+    "help wanted",
+    "reproduced",
+    "difficult"
+   ],
+   "updatedAt": "2026-08-12T16:00:13Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "PR #2231 by @fzlzjerry is already open against this issue",
+   "evidence": [
+    "https://github.com/hrsh7th/nvim-cmp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/hrsh7th/nvim-cmp/pull/2231"
+   ]
+  },
+  {
+   "number": 797,
+   "title": "Add special highlights for markdown docs (underline/strike/bold etc)",
+   "url": "https://github.com/hrsh7th/nvim-cmp/issues/797",
+   "labels": [
+    "help wanted",
+    "feature-request"
+   ],
+   "updatedAt": "2025-04-04T18:45:48Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/hrsh7th/nvim-cmp/wiki/List-of-sources) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/hrsh7th/nvim-cmp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/hrsh7th/nvim-cmp/issues/797",
+    "https://github.com/hrsh7th/nvim-cmp/wiki/List-of-sources"
+   ]
+  },
+  {
+   "number": 943,
+   "title": "Documenting Defaults",
+   "url": "https://github.com/hrsh7th/nvim-cmp/issues/943",
+   "labels": [
+    "documentation",
+    "help wanted"
+   ],
+   "updatedAt": "2022-05-01T14:10:24Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "PR #2233 by @ump45nose is already open against this issue",
+   "evidence": [
+    "https://github.com/hrsh7th/nvim-cmp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/hrsh7th/nvim-cmp/pull/2233"
+   ]
+  },
+  {
+   "number": 1029,
+   "title": "cmp.config.window.bordered() changes active item highlight bg.",
+   "url": "https://github.com/hrsh7th/nvim-cmp/issues/1029",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2023-02-14T23:21:44Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/hrsh7th/nvim-cmp/wiki/List-of-sources) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/hrsh7th/nvim-cmp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/hrsh7th/nvim-cmp/issues/1029",
+    "https://github.com/hrsh7th/nvim-cmp/wiki/List-of-sources"
+   ]
+  },
+  {
+   "number": 1206,
+   "title": "LSP documentation on nvim-qt is narrow",
+   "url": "https://github.com/hrsh7th/nvim-cmp/issues/1206",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2022-10-15T06:17:29Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "open 50 months with no human comment, in a repo pushed to 9 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/hrsh7th/nvim-cmp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/hrsh7th/nvim-cmp/issues/1206",
+    "https://github.com/hrsh7th/nvim-cmp/wiki/List-of-sources"
+   ]
+  },
+  {
+   "number": 1425,
+   "title": "Cmp configured with cmdline breaks scoped working directories ",
+   "url": "https://github.com/hrsh7th/nvim-cmp/issues/1425",
+   "labels": [
+    "bug",
+    "help wanted",
+    "reproduced"
+   ],
+   "updatedAt": "2023-05-23T23:37:45Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/hrsh7th/nvim-cmp/wiki/List-of-sources) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/hrsh7th/nvim-cmp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/hrsh7th/nvim-cmp/issues/1425",
+    "https://github.com/hrsh7th/nvim-cmp/wiki/List-of-sources"
+   ]
+  },
+  {
+   "number": 1511,
+   "title": "Setting mapping in `cmp.setup.cmdline({'/', '?'}, {` prevents command tab completion from working after search",
+   "url": "https://github.com/hrsh7th/nvim-cmp/issues/1511",
+   "labels": [
+    "bug",
+    "help wanted",
+    "difficult"
+   ],
+   "updatedAt": "2024-08-22T04:15:40Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "PR #1794 by @eyalk11 is already open against this issue",
+   "evidence": [
+    "https://github.com/hrsh7th/nvim-cmp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/hrsh7th/nvim-cmp/issues/1794"
+   ]
+  }
+ ]
+}

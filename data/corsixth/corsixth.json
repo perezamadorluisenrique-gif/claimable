@@ -1,0 +1,44 @@
+{
+ "owner": "CorsixTH",
+ "repo": "CorsixTH",
+ "language": "Lua",
+ "stars": 4710,
+ "description": "Open source clone of Theme Hospital",
+ "visitedAt": "2026-11-14T11:31:58.340Z",
+ "issues": [
+  {
+   "number": 3549,
+   "title": "Good First Issue: Check behavior of the original game with respect to large toilets.",
+   "url": "https://github.com/CorsixTH/CorsixTH/issues/3549",
+   "labels": [
+    "Good First Issue"
+   ],
+   "updatedAt": "2026-10-20T11:20:26Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "PR #3596 by @Ankit-cs is already open against this issue",
+   "evidence": [
+    "https://github.com/CorsixTH/CorsixTH/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/CorsixTH/CorsixTH/pull/3596"
+   ]
+  },
+  {
+   "number": 3606,
+   "title": "Good First Issue: Observe Random Announcements behaviour in regular gameplay",
+   "url": "https://github.com/CorsixTH/CorsixTH/issues/3606",
+   "labels": [
+    "Good First Issue"
+   ],
+   "updatedAt": "2026-10-24T22:15:44Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/CorsixTH/CorsixTH/wiki/Sound-List) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/CorsixTH/CorsixTH/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/CorsixTH/CorsixTH/issues/3606",
+    "https://github.com/CorsixTH/CorsixTH/wiki/Sound-List",
+    "https://github.com/CorsixTH/CorsixTH/blob/HEAD/CONTRIBUTING.md"
+   ]
+  }
+ ]
+}

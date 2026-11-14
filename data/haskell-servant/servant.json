@@ -1,0 +1,684 @@
+{
+ "owner": "haskell-servant",
+ "repo": "servant",
+ "language": "Haskell",
+ "stars": 1968,
+ "description": "Servant is a Haskell DSL for describing, serving, querying, mocking, documenting web applications and more!",
+ "visitedAt": "2026-11-14T11:31:58.340Z",
+ "issues": [
+  {
+   "number": 266,
+   "title": "Support rate limiting",
+   "url": "https://github.com/haskell-servant/servant/issues/266",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "servant-server"
+   ],
+   "updatedAt": "2022-03-03T15:57:19Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (http://docs.servant.dev/en/latest/tutorial/index.html) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/haskell-servant/servant/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/haskell-servant/servant/issues/266",
+    "http://docs.servant.dev/en/latest/tutorial/index.html",
+    "https://github.com/haskell-servant/servant/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 278,
+   "title": "OPTIONS support",
+   "url": "https://github.com/haskell-servant/servant/issues/278",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "servant-server",
+    "documentation:cookbook"
+   ],
+   "updatedAt": "2022-02-07T08:45:54Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "PR #489 by @jkarni is already open against this issue",
+   "evidence": [
+    "https://github.com/haskell-servant/servant/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/haskell-servant/servant/issues/489",
+    "https://github.com/haskell-servant/servant/issues/1681"
+   ]
+  },
+  {
+   "number": 339,
+   "title": "Support `Raw` in `servant-js`",
+   "url": "https://github.com/haskell-servant/servant/issues/339",
+   "labels": [
+    "help wanted",
+    "servant-js",
+    "ZuriHac17"
+   ],
+   "updatedAt": "2017-06-08T10:59:31Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "PR #334 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/haskell-servant/servant/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/haskell-servant/servant/pull/334",
+    "https://github.com/haskell-servant/servant/issues/339",
+    "http://docs.servant.dev/en/latest/tutorial/index.html",
+    "https://github.com/haskell-servant/servant/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 501,
+   "title": "Dynamic Content Type",
+   "url": "https://github.com/haskell-servant/servant/issues/501",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "servant-client",
+    "rfc"
+   ],
+   "updatedAt": "2020-02-25T02:08:16Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "labelled `rfc` — scope may not be settled yet (+1 more)",
+   "evidence": [
+    "https://github.com/haskell-servant/servant/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/haskell-servant/servant/issues/501",
+    "http://docs.servant.dev/en/latest/tutorial/index.html",
+    "https://github.com/haskell-servant/servant/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 605,
+   "title": "Want to add my servant example for versioned APIs and partial client implementations",
+   "url": "https://github.com/haskell-servant/servant/issues/605",
+   "labels": [
+    "help wanted",
+    "documentation"
+   ],
+   "updatedAt": "2017-01-20T14:28:46Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (http://docs.servant.dev/en/latest/tutorial/index.html) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/haskell-servant/servant/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/haskell-servant/servant/issues/605",
+    "http://docs.servant.dev/en/latest/tutorial/index.html",
+    "https://github.com/haskell-servant/servant/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 612,
+   "title": "Add a test for streaming of response bodies using lazy Bytestrings in servant-server",
+   "url": "https://github.com/haskell-servant/servant/issues/612",
+   "labels": [
+    "help wanted",
+    "servant-server"
+   ],
+   "updatedAt": "2018-02-27T20:51:53Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "PR #912 by @alpmestan is already open against this issue",
+   "evidence": [
+    "https://github.com/haskell-servant/servant/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/haskell-servant/servant/issues/912",
+    "https://github.com/haskell-servant/servant/issues/986"
+   ]
+  },
+  {
+   "number": 628,
+   "title": "Idea Symbolic Names for HTTP Status codes",
+   "url": "https://github.com/haskell-servant/servant/issues/628",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "servant-api"
+   ],
+   "updatedAt": "2017-01-19T21:33:39Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "PR #770 by @danclien is already open against this issue",
+   "evidence": [
+    "https://github.com/haskell-servant/servant/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/haskell-servant/servant/issues/770"
+   ]
+  },
+  {
+   "number": 633,
+   "title": "can't test servant-client with ghcjs",
+   "url": "https://github.com/haskell-servant/servant/issues/633",
+   "labels": [
+    "help wanted",
+    "servant-client"
+   ],
+   "updatedAt": "2017-01-19T21:34:12Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "open 122 months with no human comment, in a repo pushed to 1 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/haskell-servant/servant/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/haskell-servant/servant/issues/633",
+    "http://docs.servant.dev/en/latest/tutorial/index.html",
+    "https://github.com/haskell-servant/servant/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 634,
+   "title": "Dynamic routing",
+   "url": "https://github.com/haskell-servant/servant/issues/634",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2020-04-17T13:10:33Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "PR #1148 by @falsandtru is already open against this issue",
+   "evidence": [
+    "https://github.com/haskell-servant/servant/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/haskell-servant/servant/issues/1148",
+    "https://github.com/haskell-servant/servant/issues/1427"
+   ]
+  },
+  {
+   "number": 659,
+   "title": "API construction is too lenient",
+   "url": "https://github.com/haskell-servant/servant/issues/659",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2017-01-21T17:46:23Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "PR #770 by @danclien is already open against this issue",
+   "evidence": [
+    "https://github.com/haskell-servant/servant/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/haskell-servant/servant/issues/770"
+   ]
+  },
+  {
+   "number": 673,
+   "title": "Add tests of capture / query param / body etc. parsing error messages",
+   "url": "https://github.com/haskell-servant/servant/issues/673",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2017-01-19T22:35:30Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "PR #670 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/haskell-servant/servant/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/haskell-servant/servant/pull/670",
+    "https://github.com/haskell-servant/servant/issues/673",
+    "http://docs.servant.dev/en/latest/tutorial/index.html",
+    "https://github.com/haskell-servant/servant/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 692,
+   "title": "Update Handler section in tutorial's' Server.lhs",
+   "url": "https://github.com/haskell-servant/servant/issues/692",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2017-01-30T13:17:18Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "already assigned to @alpmestan",
+   "evidence": [
+    "https://github.com/haskell-servant/servant/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/haskell-servant/servant/pull/693",
+    "https://github.com/haskell-servant/servant/issues/692"
+   ]
+  },
+  {
+   "number": 770,
+   "title": "Invalid HTTP headers",
+   "url": "https://github.com/haskell-servant/servant/issues/770",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2017-06-20T15:05:18Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (http://docs.servant.dev/en/latest/tutorial/index.html) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/haskell-servant/servant/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/haskell-servant/servant/issues/770",
+    "http://docs.servant.dev/en/latest/tutorial/index.html",
+    "https://github.com/haskell-servant/servant/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 826,
+   "title": "Augment tutorial with a section about \"real world applications\"",
+   "url": "https://github.com/haskell-servant/servant/issues/826",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "documentation"
+   ],
+   "updatedAt": "2017-10-03T14:56:36Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "PR #827 by @saurabhnanda is already open against this issue",
+   "evidence": [
+    "https://github.com/haskell-servant/servant/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/haskell-servant/servant/issues/827"
+   ]
+  },
+  {
+   "number": 833,
+   "title": "Generic api type fold: unify servant-foreign and servant-docs",
+   "url": "https://github.com/haskell-servant/servant/issues/833",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "servant-docs",
+    "servant-foreign"
+   ],
+   "updatedAt": "2017-10-16T08:45:56Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "PR #986 by @bergey is already open against this issue",
+   "evidence": [
+    "https://github.com/haskell-servant/servant/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/haskell-servant/servant/issues/986"
+   ]
+  },
+  {
+   "number": 859,
+   "title": "Write integrations tests for servant-client",
+   "url": "https://github.com/haskell-servant/servant/issues/859",
+   "labels": [
+    "help wanted",
+    "servant-client"
+   ],
+   "updatedAt": "2017-11-10T21:21:13Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "PR #860 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/haskell-servant/servant/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/haskell-servant/servant/pull/860",
+    "https://github.com/haskell-servant/servant/issues/859",
+    "http://docs.servant.dev/en/latest/tutorial/index.html",
+    "https://github.com/haskell-servant/servant/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 902,
+   "title": "Support API.Modifiers in servant-docs",
+   "url": "https://github.com/haskell-servant/servant/issues/902",
+   "labels": [
+    "help wanted",
+    "servant-docs"
+   ],
+   "updatedAt": "2018-02-09T09:40:06Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "open 107 months with no human comment, in a repo pushed to 1 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/haskell-servant/servant/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/haskell-servant/servant/issues/902",
+    "http://docs.servant.dev/en/latest/tutorial/index.html",
+    "https://github.com/haskell-servant/servant/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 912,
+   "title": "Add examples of using the streaming combinators to the cookbook",
+   "url": "https://github.com/haskell-servant/servant/issues/912",
+   "labels": [
+    "help wanted",
+    "tutorial",
+    "documentation"
+   ],
+   "updatedAt": "2018-05-16T10:54:42Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (http://docs.servant.dev/en/latest/tutorial/index.html) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/haskell-servant/servant/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/haskell-servant/servant/issues/912",
+    "http://docs.servant.dev/en/latest/tutorial/index.html",
+    "https://github.com/haskell-servant/servant/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 945,
+   "title": "Make `Servant.Client.Ghcjs.runClientM` take in a `ClientEnv`",
+   "url": "https://github.com/haskell-servant/servant/issues/945",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2019-08-16T18:38:39Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "PR #986 by @bergey is already open against this issue",
+   "evidence": [
+    "https://github.com/haskell-servant/servant/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/haskell-servant/servant/issues/986"
+   ]
+  },
+  {
+   "number": 962,
+   "title": "Implement a \"CaptureSome\" combinator",
+   "url": "https://github.com/haskell-servant/servant/issues/962",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2018-06-11T17:00:02Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.docker.com/registry/spec/api) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/haskell-servant/servant/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/haskell-servant/servant/issues/962",
+    "https://docs.docker.com/registry/spec/api",
+    "https://github.com/haskell-servant/servant/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 989,
+   "title": "Make proper Stream support in servant-docs",
+   "url": "https://github.com/haskell-servant/servant/issues/989",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "servant-docs"
+   ],
+   "updatedAt": "2019-02-18T21:16:34Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "PR #988 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/haskell-servant/servant/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/haskell-servant/servant/pull/988",
+    "https://github.com/haskell-servant/servant/issues/989",
+    "http://docs.servant.dev/en/latest/tutorial/index.html",
+    "https://github.com/haskell-servant/servant/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 992,
+   "title": "HasLink (Stream ... ) broken in servant-0.14",
+   "url": "https://github.com/haskell-servant/servant/issues/992",
+   "labels": [
+    "bug",
+    "help wanted",
+    "newcomer-friendly"
+   ],
+   "updatedAt": "2018-07-28T11:54:40Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "PR #986 by @bergey is already open against this issue",
+   "evidence": [
+    "https://github.com/haskell-servant/servant/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/haskell-servant/servant/issues/986"
+   ]
+  },
+  {
+   "number": 1002,
+   "title": "servant-client requires charset in Accept PlainText",
+   "url": "https://github.com/haskell-servant/servant/issues/1002",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "servant-api",
+    "newcomer-friendly"
+   ],
+   "updatedAt": "2020-09-16T00:45:34Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "PR #21 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/haskell-servant/servant/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/fission-codes/ipfs-haskell/pull/21",
+    "https://github.com/haskell-servant/servant/issues/1002",
+    "http://docs.servant.dev/en/latest/tutorial/index.html",
+    "https://github.com/haskell-servant/servant/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 1038,
+   "title": "Generic records causes very slow compile times",
+   "url": "https://github.com/haskell-servant/servant/issues/1038",
+   "labels": [
+    "help wanted",
+    "performance"
+   ],
+   "updatedAt": "2019-08-03T10:31:09Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (http://docs.servant.dev/en/latest/tutorial/index.html) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/haskell-servant/servant/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/haskell-servant/servant/issues/1038",
+    "http://docs.servant.dev/en/latest/tutorial/index.html",
+    "https://github.com/haskell-servant/servant/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 1091,
+   "title": "client streaming + http redirect result into runtime exception",
+   "url": "https://github.com/haskell-servant/servant/issues/1091",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2019-02-06T08:43:12Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "PR #1110 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/haskell-servant/servant/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/haskell-servant/servant/pull/1110",
+    "https://github.com/haskell-servant/servant/issues/1091",
+    "http://docs.servant.dev/en/latest/tutorial/index.html",
+    "https://github.com/haskell-servant/servant/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 1118,
+   "title": "Lenient combinator infers to \"Either String\" ",
+   "url": "https://github.com/haskell-servant/servant/issues/1118",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2024-05-05T12:48:56Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (http://docs.servant.dev/en/latest/tutorial/index.html) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/haskell-servant/servant/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/haskell-servant/servant/issues/1118",
+    "http://docs.servant.dev/en/latest/tutorial/index.html",
+    "https://github.com/haskell-servant/servant/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 1129,
+   "title": "Split ClientSpec",
+   "url": "https://github.com/haskell-servant/servant/issues/1129",
+   "labels": [
+    "help wanted",
+    "servant-client",
+    "newcomer-friendly"
+   ],
+   "updatedAt": "2019-03-03T06:52:25Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "PR #1154 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/haskell-servant/servant/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/haskell-servant/servant/pull/1154",
+    "https://github.com/haskell-servant/servant/issues/1129",
+    "http://docs.servant.dev/en/latest/tutorial/index.html",
+    "https://github.com/haskell-servant/servant/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 1144,
+   "title": "servant-server tutorial (or cookbook?): Add Raw example that's not about static file serving",
+   "url": "https://github.com/haskell-servant/servant/issues/1144",
+   "labels": [
+    "help wanted",
+    "servant-server",
+    "tutorial",
+    "documentation",
+    "documentation:cookbook"
+   ],
+   "updatedAt": "2019-03-06T09:07:53Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "open 94 months with no human comment, in a repo pushed to 1 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/haskell-servant/servant/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/haskell-servant/servant/issues/1144",
+    "http://docs.servant.dev/en/latest/tutorial/index.html",
+    "https://github.com/haskell-servant/servant/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 1212,
+   "title": "Obsolete documentation",
+   "url": "https://github.com/haskell-servant/servant/issues/1212",
+   "labels": [
+    "help wanted",
+    "servant-client"
+   ],
+   "updatedAt": "2019-09-04T23:28:23Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "PR #1335 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/haskell-servant/servant/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/haskell-servant/servant/pull/1335",
+    "https://github.com/haskell-servant/servant/issues/1212",
+    "http://docs.servant.dev/en/latest/tutorial/index.html",
+    "https://github.com/haskell-servant/servant/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 1215,
+   "title": "Add servant-client-ghcjs to travis setup",
+   "url": "https://github.com/haskell-servant/servant/issues/1215",
+   "labels": [
+    "help wanted",
+    "ci",
+    "servant-client-ghcjs"
+   ],
+   "updatedAt": "2019-09-07T11:20:22Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "open 88 months with no human comment, in a repo pushed to 1 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/haskell-servant/servant/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/haskell-servant/servant/issues/1215",
+    "http://docs.servant.dev/en/latest/tutorial/index.html",
+    "https://github.com/haskell-servant/servant/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 1239,
+   "title": "UTF-8 `É` incorrectly read as `Ã`",
+   "url": "https://github.com/haskell-servant/servant/issues/1239",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2019-11-07T07:52:05Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (http://docs.servant.dev/en/latest/tutorial/index.html) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/haskell-servant/servant/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/haskell-servant/servant/issues/1239",
+    "http://docs.servant.dev/en/latest/tutorial/index.html",
+    "https://github.com/haskell-servant/servant/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 1311,
+   "title": "bump aeson deps",
+   "url": "https://github.com/haskell-servant/servant/issues/1311",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2020-07-21T07:31:40Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (http://docs.servant.dev/en/latest/tutorial/index.html) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/haskell-servant/servant/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/haskell-servant/servant/issues/1311",
+    "http://docs.servant.dev/en/latest/tutorial/index.html",
+    "https://github.com/haskell-servant/servant/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 1336,
+   "title": "greet.hs needs cleanup",
+   "url": "https://github.com/haskell-servant/servant/issues/1336",
+   "labels": [
+    "help wanted",
+    "servant-docs",
+    "documentation"
+   ],
+   "updatedAt": "2020-09-02T08:02:38Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "PR #1335 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/haskell-servant/servant/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/haskell-servant/servant/pull/1335",
+    "https://github.com/haskell-servant/servant/issues/1336",
+    "http://docs.servant.dev/en/latest/tutorial/index.html",
+    "https://github.com/haskell-servant/servant/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 1484,
+   "title": "State of Servant authentication",
+   "url": "https://github.com/haskell-servant/servant/issues/1484",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "idea"
+   ],
+   "updatedAt": "2022-07-14T11:26:39Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "PR #1537 by @L7R7 is already open against this issue",
+   "evidence": [
+    "https://github.com/haskell-servant/servant/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/haskell-servant/servant/issues/1537",
+    "https://github.com/haskell-servant/servant/issues/1494"
+   ]
+  },
+  {
+   "number": 1493,
+   "title": "Better document (just response?) headers",
+   "url": "https://github.com/haskell-servant/servant/issues/1493",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "documentation"
+   ],
+   "updatedAt": "2021-12-02T16:50:06Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "open 60 months with no human comment, in a repo pushed to 1 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/haskell-servant/servant/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/haskell-servant/servant/issues/1493",
+    "http://docs.servant.dev/en/latest/tutorial/index.html",
+    "https://github.com/haskell-servant/servant/blob/HEAD/README.md"
+   ]
+  }
+ ]
+}

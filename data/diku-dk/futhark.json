@@ -1,0 +1,82 @@
+{
+ "owner": "diku-dk",
+ "repo": "futhark",
+ "language": "Haskell",
+ "stars": 2821,
+ "description": ":boom::computer::boom: A data-parallel functional programming language",
+ "visitedAt": "2026-11-14T11:31:58.340Z",
+ "issues": [
+  {
+   "number": 912,
+   "title": "Error formatting improvements",
+   "url": "https://github.com/diku-dk/futhark/issues/912",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "compiler"
+   ],
+   "updatedAt": "2023-07-22T18:03:47Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "PR #913 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/diku-dk/futhark/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/diku-dk/futhark/pull/913",
+    "https://github.com/diku-dk/futhark/issues/912",
+    "http://futhark.readthedocs.io/en/latest/installation.html"
+   ]
+  },
+  {
+   "number": 1458,
+   "title": "Add --skip-compilation flag to futhark test",
+   "url": "https://github.com/diku-dk/futhark/issues/1458",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2026-07-29T06:31:20Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "already assigned to @LiljeDue, @Copilot",
+   "evidence": [
+    "https://github.com/diku-dk/futhark/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/diku-dk/futhark/issues/1458"
+   ]
+  },
+  {
+   "number": 1567,
+   "title": "Add expression attribute for repl display",
+   "url": "https://github.com/diku-dk/futhark/issues/1567",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2023-08-29T08:20:06Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "PR #2166 by @patrick-nicodemus is already open against this issue",
+   "evidence": [
+    "https://github.com/diku-dk/futhark/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/diku-dk/futhark/issues/2166"
+   ]
+  },
+  {
+   "number": 1689,
+   "title": "Add Code Generation or Bridge for Java / JVM",
+   "url": "https://github.com/diku-dk/futhark/issues/1689",
+   "labels": [
+    "good first issue",
+    "tools"
+   ],
+   "updatedAt": "2022-09-27T09:54:01Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (http://futhark.readthedocs.io/en/latest/installation.html) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/diku-dk/futhark/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/diku-dk/futhark/issues/1689",
+    "http://futhark.readthedocs.io/en/latest/installation.html"
+   ]
+  }
+ ]
+}

@@ -990,5 +990,101 @@
  "crytic/echidna": {
   "nextCheck": "2026-11-14T04:20:07.172Z",
   "lastNewIssue": "2024-05-25T23:03:40Z"
+ },
+ "agda/agda": {
+  "nextCheck": "2026-11-21T11:31:58.340Z",
+  "lastNewIssue": "2024-10-23T09:58:51Z"
+ },
+ "diku-dk/futhark": {
+  "nextCheck": "2026-11-21T11:31:58.340Z",
+  "lastNewIssue": "2022-06-03T18:12:43Z"
+ },
+ "wireapp/wire-server": {
+  "nextCheck": "2026-11-21T11:31:58.340Z",
+  "lastNewIssue": "2019-08-02T10:51:56Z"
+ },
+ "nammayatri/nammayatri": {
+  "nextCheck": "2026-11-21T11:31:58.340Z",
+  "lastNewIssue": "2023-03-14T11:56:03Z"
+ },
+ "haskell-servant/servant": {
+  "nextCheck": "2026-11-21T11:31:58.340Z",
+  "lastNewIssue": "2021-12-02T16:50:06Z"
+ },
+ "lamdu/lamdu": {
+  "nextCheck": "2026-11-21T11:31:58.340Z",
+  "lastNewIssue": "2022-12-07T10:29:23Z"
+ },
+ "nmattia/niv": {
+  "nextCheck": "2026-11-21T11:31:58.340Z",
+  "lastNewIssue": "2021-09-06T15:45:34Z"
+ },
+ "nvim-telescope/telescope.nvim": {
+  "nextCheck": "2026-11-21T11:31:58.340Z",
+  "lastNewIssue": "2024-08-15T11:12:56Z"
+ },
+ "avante-corp/avante.nvim": {
+  "nextCheck": "2026-11-17T11:31:58.340Z",
+  "lastNewIssue": "2026-10-20T14:48:08Z"
+ },
+ "apache/apisix": {
+  "nextCheck": "2026-11-21T11:31:58.340Z",
+  "lastNewIssue": "2024-01-31T06:35:11Z"
+ },
+ "hrsh7th/nvim-cmp": {
+  "nextCheck": "2026-11-21T11:31:58.340Z",
+  "lastNewIssue": "2023-04-01T17:22:03Z"
+ },
+ "lite-xl/lite-xl": {
+  "nextCheck": "2026-11-21T11:31:58.340Z",
+  "lastNewIssue": "2021-03-18T00:28:15Z"
+ },
+ "neogitorg/neogit": {
+  "nextCheck": "2026-11-21T11:31:58.340Z",
+  "lastNewIssue": "2024-11-15T21:23:06Z"
+ },
+ "nvim-neo-tree/neo-tree.nvim": {
+  "nextCheck": "2026-11-21T11:31:58.340Z",
+  "lastNewIssue": "2024-05-01T08:34:22Z"
+ },
+ "pathofbuildingcommunity/pathofbuilding": {
+  "nextCheck": "2026-11-21T11:31:58.340Z",
+  "lastNewIssue": "2023-07-08T05:40:47Z"
+ },
+ "corsixth/corsixth": {
+  "nextCheck": "2026-11-17T11:31:58.340Z",
+  "lastNewIssue": "2026-10-24T22:14:41Z"
+ },
+ "luals/lua-language-server": {
+  "nextCheck": "2026-11-21T11:31:58.340Z",
+  "lastNewIssue": "2020-12-05T06:52:10Z"
+ },
+ "beyond-all-reason/beyond-all-reason": {
+  "nextCheck": "2026-11-21T11:31:58.340Z",
+  "lastNewIssue": "2026-01-20T20:49:48Z"
+ },
+ "zbirenbaum/copilot.lua": {
+  "nextCheck": "2026-11-21T11:31:58.340Z",
+  "lastNewIssue": "2025-03-25T18:50:06Z"
+ },
+ "mason-org/mason-lspconfig.nvim": {
+  "nextCheck": "2026-11-21T11:31:58.340Z",
+  "lastNewIssue": "2023-05-12T17:52:24Z"
+ },
+ "nvim-orgmode/orgmode": {
+  "nextCheck": "2026-11-21T11:31:58.340Z",
+  "lastNewIssue": "2023-03-01T23:21:06Z"
+ },
+ "luarocks/luarocks": {
+  "nextCheck": "2026-11-21T11:31:58.340Z",
+  "lastNewIssue": "2017-07-17T08:13:22Z"
+ },
+ "julialang/julia": {
+  "nextCheck": "2026-11-14T12:31:58.340Z",
+  "lastNewIssue": "2026-09-16T09:17:08Z"
+ },
+ "fluxml/flux.jl": {
+  "nextCheck": "2026-11-14T12:31:58.340Z",
+  "lastNewIssue": "2023-04-23T18:54:58Z"
  }
 }

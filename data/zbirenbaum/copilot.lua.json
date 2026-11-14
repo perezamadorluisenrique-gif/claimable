@@ -1,0 +1,26 @@
+{
+ "owner": "zbirenbaum",
+ "repo": "copilot.lua",
+ "language": "Lua",
+ "stars": 4096,
+ "description": "Fully featured & enhanced replacement for copilot.vim complete with API for interacting with Github Copilot",
+ "visitedAt": "2026-11-14T11:31:58.340Z",
+ "issues": [
+  {
+   "number": 404,
+   "title": "Toggle copilot-cmp",
+   "url": "https://github.com/zbirenbaum/copilot.lua/issues/404",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2025-08-29T15:51:19Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "PR #723 by @n0hah is already open against this issue",
+   "evidence": [
+    "https://github.com/zbirenbaum/copilot.lua/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/zbirenbaum/copilot.lua/issues/723"
+   ]
+  }
+ ]
+}

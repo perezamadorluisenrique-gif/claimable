@@ -1,0 +1,195 @@
+{
+ "owner": "apache",
+ "repo": "apisix",
+ "language": "Lua",
+ "stars": 17311,
+ "description": "The Cloud-Native API Gateway and AI Gateway",
+ "visitedAt": "2026-11-14T11:31:58.340Z",
+ "issues": [
+  {
+   "number": 6797,
+   "title": "bug: cannot use file-logger to log to stdout",
+   "url": "https://github.com/apache/apisix/issues/6797",
+   "labels": [
+    "good first issue",
+    "For student"
+   ],
+   "updatedAt": "2026-07-06T00:45:56Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "PR #13681 by @ecsimsw is already open against this issue",
+   "evidence": [
+    "https://github.com/apache/apisix/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/apache/apisix/pull/13681"
+   ]
+  },
+  {
+   "number": 7342,
+   "title": "docs: Rework the service discovery documentation in general and Eureka in particular",
+   "url": "https://github.com/apache/apisix/issues/7342",
+   "labels": [
+    "good first issue",
+    "doc"
+   ],
+   "updatedAt": "2026-09-19T10:20:23Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @Felix-ming 56 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/apache/apisix/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/apache/apisix/issues/7342#issuecomment-5741005622",
+    "https://github.com/apache/apisix/issues/7342",
+    "https://github.com/apache/apisix/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.docker.com/get-docker/"
+   ]
+  },
+  {
+   "number": 7865,
+   "title": "feat: remove openldap dependencies from apisix",
+   "url": "https://github.com/apache/apisix/issues/7865",
+   "labels": [
+    "good first issue",
+    "pending"
+   ],
+   "updatedAt": "2023-09-04T09:09:13Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.docker.com/get-docker/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/apache/apisix/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/apache/apisix/issues/7865",
+    "https://docs.docker.com/get-docker/",
+    "https://github.com/apache/apisix/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 7990,
+   "title": "Merge `extra_init_by_lua_start ` and `extra_init_by_lua ` directive in test cases",
+   "url": "https://github.com/apache/apisix/issues/7990",
+   "labels": [
+    "good first issue",
+    "tech debt"
+   ],
+   "updatedAt": "2026-01-07T16:42:24Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "3 stale claims, the most recent by @ongdisheng 311 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/apache/apisix/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/apache/apisix/issues/7990#issuecomment-3719758705",
+    "https://github.com/apache/apisix/issues/7990",
+    "https://github.com/apache/apisix/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.docker.com/get-docker/"
+   ]
+  },
+  {
+   "number": 8311,
+   "title": "feat: As a user, I want kubernetes service discovery to support more configuration items",
+   "url": "https://github.com/apache/apisix/issues/8311",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2026-10-29T07:50:13Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "PR #13302 by @venkatapgummadi is already open against this issue",
+   "evidence": [
+    "https://github.com/apache/apisix/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/apache/apisix/pull/13302"
+   ]
+  },
+  {
+   "number": 8511,
+   "title": "request help: the format of response body that returned by plugin should match Content-Type",
+   "url": "https://github.com/apache/apisix/issues/8511",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2026-11-08T21:04:20Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "already assigned to @MekelCon",
+   "evidence": [
+    "https://github.com/apache/apisix/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/apache/apisix/issues/8511",
+    "https://github.com/apache/apisix/issues/8511#issuecomment-1465231556"
+   ]
+  },
+  {
+   "number": 8984,
+   "title": "docs: improve docs for APISIX's gRPC support",
+   "url": "https://github.com/apache/apisix/issues/8984",
+   "labels": [
+    "help wanted",
+    "good first issue",
+    "doc"
+   ],
+   "updatedAt": "2026-11-01T12:20:19Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "@Majid-Tayebi claimed it 13 days ago",
+   "evidence": [
+    "https://github.com/apache/apisix/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/apache/apisix/issues/8984#issuecomment-6557855224",
+    "https://github.com/apache/apisix/issues/8984#issuecomment-1450547109"
+   ]
+  },
+  {
+   "number": 9431,
+   "title": "bug: the routes with vars parametes , whos max match is not supported.(route的vars匹配规则不支持最大匹配)",
+   "url": "https://github.com/apache/apisix/issues/9431",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2026-03-05T05:59:27Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "PR #158 by @janiussyafiq is already open against this issue",
+   "evidence": [
+    "https://github.com/apache/apisix/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/api7/lua-resty-radixtree/pull/158"
+   ]
+  },
+  {
+   "number": 10735,
+   "title": "docs: make route matching/filtering information more visible",
+   "url": "https://github.com/apache/apisix/issues/10735",
+   "labels": [
+    "good first issue",
+    "doc"
+   ],
+   "updatedAt": "2026-09-20T23:17:55Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "3 stale claims, the most recent by @Felix-ming 55 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/apache/apisix/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/apache/apisix/issues/10735#issuecomment-5753431374",
+    "https://github.com/apache/apisix/issues/10735",
+    "https://github.com/apache/apisix/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.docker.com/get-docker/"
+   ]
+  },
+  {
+   "number": 10893,
+   "title": "docs: Mac related documents need to be modified / deleted",
+   "url": "https://github.com/apache/apisix/issues/10893",
+   "labels": [
+    "good first issue",
+    "doc"
+   ],
+   "updatedAt": "2026-03-27T06:17:18Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @Sushant-ass 232 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/apache/apisix/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/apache/apisix/issues/10893#issuecomment-4140457182",
+    "https://github.com/apache/apisix/issues/10893",
+    "https://github.com/apache/apisix/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.docker.com/get-docker/"
+   ]
+  }
+ ]
+}

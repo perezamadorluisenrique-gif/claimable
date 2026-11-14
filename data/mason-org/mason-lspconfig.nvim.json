@@ -1,0 +1,27 @@
+{
+ "owner": "mason-org",
+ "repo": "mason-lspconfig.nvim",
+ "language": "Lua",
+ "stars": 3957,
+ "description": "Extension to mason.nvim that makes it easier to use lspconfig with mason.nvim.",
+ "visitedAt": "2026-11-14T11:31:58.340Z",
+ "issues": [
+  {
+   "number": 224,
+   "title": "terraformls completion is not working",
+   "url": "https://github.com/mason-org/mason-lspconfig.nvim/issues/224",
+   "labels": [
+    "help wanted",
+    "server-issue"
+   ],
+   "updatedAt": "2025-07-16T14:07:49Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "10 paths named in the issue do not exist on `mason-lspconfig.nvim`'s default branch — that is unlisted work: github.com/mason-org/mason-registry, libcurl/7.87.0, LibreSSL/3.3.6, zlib/1.2.11, nghttp2/1.51.0, liblzma/5.0.5, …",
+   "evidence": [
+    "https://github.com/mason-org/mason-lspconfig.nvim/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/mason-org/mason-lspconfig.nvim/issues/224"
+   ]
+  }
+ ]
+}

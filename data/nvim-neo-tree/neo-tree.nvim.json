@@ -1,0 +1,126 @@
+{
+ "owner": "nvim-neo-tree",
+ "repo": "neo-tree.nvim",
+ "language": "Lua",
+ "stars": 5648,
+ "description": "Neovim plugin to manage the file system and other tree like structures.",
+ "visitedAt": "2026-11-14T11:31:58.340Z",
+ "issues": [
+  {
+   "number": 514,
+   "title": "Preview in float changes position of floating neo-tree",
+   "url": "https://github.com/nvim-neo-tree/neo-tree.nvim/issues/514",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2024-04-10T12:57:49Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "PR #1653 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/nvim-neo-tree/neo-tree.nvim/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nvim-neo-tree/neo-tree.nvim/pull/1653",
+    "https://github.com/nvim-neo-tree/neo-tree.nvim/issues/514",
+    "https://github.com/nvim-neo-tree/neo-tree.nvim/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/nvim-neo-tree/neo-tree.nvim/wiki/Changelog#30"
+   ]
+  },
+  {
+   "number": 820,
+   "title": "How to completion in input window?",
+   "url": "https://github.com/nvim-neo-tree/neo-tree.nvim/issues/820",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2024-06-08T03:09:32Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/nvim-neo-tree/neo-tree.nvim/wiki/Changelog#30) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/nvim-neo-tree/neo-tree.nvim/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nvim-neo-tree/neo-tree.nvim/issues/820",
+    "https://github.com/nvim-neo-tree/neo-tree.nvim/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/nvim-neo-tree/neo-tree.nvim/wiki/Changelog#30"
+   ]
+  },
+  {
+   "number": 1021,
+   "title": "BUG: Alignment exception when file name has long characters",
+   "url": "https://github.com/nvim-neo-tree/neo-tree.nvim/issues/1021",
+   "labels": [
+    "bug",
+    "help wanted",
+    "good-first-issue"
+   ],
+   "updatedAt": "2023-07-05T11:11:24Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/nvim-neo-tree/neo-tree.nvim/wiki/Changelog#30) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/nvim-neo-tree/neo-tree.nvim/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nvim-neo-tree/neo-tree.nvim/issues/1021",
+    "https://github.com/nvim-neo-tree/neo-tree.nvim/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/nvim-neo-tree/neo-tree.nvim/wiki/Changelog#30"
+   ]
+  },
+  {
+   "number": 1286,
+   "title": "BUG: Source selector tabs behaves weirdly when *it thinks* there is not enough space (while actually there is)",
+   "url": "https://github.com/nvim-neo-tree/neo-tree.nvim/issues/1286",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2024-06-07T02:14:44Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "already assigned to @pysan3",
+   "evidence": [
+    "https://github.com/nvim-neo-tree/neo-tree.nvim/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nvim-neo-tree/neo-tree.nvim/pull/1392",
+    "https://github.com/nvim-neo-tree/neo-tree.nvim/issues/1286"
+   ]
+  },
+  {
+   "number": 1369,
+   "title": "BUG: Default ACLs ignored when adding new file",
+   "url": "https://github.com/nvim-neo-tree/neo-tree.nvim/issues/1369",
+   "labels": [
+    "bug",
+    "help wanted",
+    "waiting-for-response"
+   ],
+   "updatedAt": "2025-01-19T16:12:34Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/nvim-neo-tree/neo-tree.nvim/wiki/Changelog#30) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/nvim-neo-tree/neo-tree.nvim/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nvim-neo-tree/neo-tree.nvim/issues/1369",
+    "https://github.com/nvim-neo-tree/neo-tree.nvim/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/nvim-neo-tree/neo-tree.nvim/wiki/Changelog#30"
+   ]
+  },
+  {
+   "number": 1453,
+   "title": "BUG: fuzzy find does not take always_show into account",
+   "url": "https://github.com/nvim-neo-tree/neo-tree.nvim/issues/1453",
+   "labels": [
+    "bug",
+    "help wanted",
+    "wontfix",
+    "good-first-issue"
+   ],
+   "updatedAt": "2024-05-01T14:53:36Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "labelled `wontfix` — the project is saying not to start",
+   "evidence": [
+    "https://github.com/nvim-neo-tree/neo-tree.nvim/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nvim-neo-tree/neo-tree.nvim/issues/1453"
+   ]
+  }
+ ]
+}

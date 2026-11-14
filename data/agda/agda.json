@@ -1,0 +1,572 @@
+{
+ "owner": "agda",
+ "repo": "agda",
+ "language": "Haskell",
+ "stars": 2969,
+ "description": "Agda is a dependently typed programming language / interactive theorem prover.",
+ "visitedAt": "2026-11-14T11:31:58.340Z",
+ "issues": [
+  {
+   "number": 59,
+   "title": "Improving termination checking of functions defined using with",
+   "url": "https://github.com/agda/agda/issues/59",
+   "labels": [
+    "type: enhancement",
+    "termination",
+    "with",
+    "help wanted"
+   ],
+   "updatedAt": "2021-02-07T18:41:46Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "PR #3794 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/agda/agda/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/agda/agda/pull/3794",
+    "https://github.com/agda/agda/issues/59",
+    "https://readthedocs.org/projects/agda/badge/?version=latest"
+   ]
+  },
+  {
+   "number": 737,
+   "title": "Interactive program building (using give and refine) inserts superfluous parentheses",
+   "url": "https://github.com/agda/agda/issues/737",
+   "labels": [
+    "type: bug",
+    "ux: interaction",
+    "ux: printing",
+    "give",
+    "help wanted"
+   ],
+   "updatedAt": "2022-08-26T18:43:59Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "already assigned to @UlfNorell",
+   "evidence": [
+    "https://github.com/agda/agda/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/agda/agda/issues/737"
+   ]
+  },
+  {
+   "number": 923,
+   "title": "Warning for unused bindings",
+   "url": "https://github.com/agda/agda/issues/923",
+   "labels": [
+    "type: enhancement",
+    "ux: warnings",
+    "help wanted"
+   ],
+   "updatedAt": "2022-12-13T13:48:07Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "PR #8226 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/agda/agda/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/agda/agda/pull/8226",
+    "https://github.com/agda/agda/issues/923",
+    "https://readthedocs.org/projects/agda/badge/?version=latest"
+   ]
+  },
+  {
+   "number": 1314,
+   "title": "Interactive highlighting leaves traces after `give`",
+   "url": "https://github.com/agda/agda/issues/1314",
+   "labels": [
+    "type: bug",
+    "ux: highlighting",
+    "difficulty: easy",
+    "highlighting-interactive",
+    "help wanted"
+   ],
+   "updatedAt": "2020-01-15T16:21:19Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "PR #1424 by @GoogleCodeExporter is already open against this issue",
+   "evidence": [
+    "https://github.com/agda/agda/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/agda/agda/issues/1424"
+   ]
+  },
+  {
+   "number": 2587,
+   "title": "postfix projections not working for (non-field) functions",
+   "url": "https://github.com/agda/agda/issues/2587",
+   "labels": [
+    "type: enhancement",
+    "projections",
+    "help wanted"
+   ],
+   "updatedAt": "2022-08-24T20:44:05Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://readthedocs.org/projects/agda/badge/?version=latest) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/agda/agda/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/agda/agda/issues/2587",
+    "https://readthedocs.org/projects/agda/badge/?version=latest"
+   ]
+  },
+  {
+   "number": 3198,
+   "title": "Links to comments rather than code",
+   "url": "https://github.com/agda/agda/issues/3198",
+   "labels": [
+    "type: enhancement",
+    "backend: html",
+    "help wanted"
+   ],
+   "updatedAt": "2022-08-26T08:42:39Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "already assigned to @nad",
+   "evidence": [
+    "https://github.com/agda/agda/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/agda/agda/issues/3198"
+   ]
+  },
+  {
+   "number": 3321,
+   "title": "Emacs mode: support emacs' own highlighting schema",
+   "url": "https://github.com/agda/agda/issues/3321",
+   "labels": [
+    "ux: emacs",
+    "type: enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2018-11-09T18:16:05Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://readthedocs.org/projects/agda/badge/?version=latest) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/agda/agda/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/agda/agda/issues/3321",
+    "https://readthedocs.org/projects/agda/badge/?version=latest"
+   ]
+  },
+  {
+   "number": 3376,
+   "title": "Completion for command line options",
+   "url": "https://github.com/agda/agda/issues/3376",
+   "labels": [
+    "type: enhancement",
+    "command-line",
+    "help wanted"
+   ],
+   "updatedAt": "2018-11-09T08:50:06Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "PR #6565 by @lawcho is already open against this issue",
+   "evidence": [
+    "https://github.com/agda/agda/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/agda/agda/issues/6565"
+   ]
+  },
+  {
+   "number": 3405,
+   "title": "Allow the user to run TC computation (reflection) in the emacs mode",
+   "url": "https://github.com/agda/agda/issues/3405",
+   "labels": [
+    "type: enhancement",
+    "reflection",
+    "help wanted"
+   ],
+   "updatedAt": "2020-02-07T12:21:04Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://readthedocs.org/projects/agda/badge/?version=latest) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/agda/agda/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/agda/agda/issues/3405",
+    "https://readthedocs.org/projects/agda/badge/?version=latest"
+   ]
+  },
+  {
+   "number": 3994,
+   "title": "Emacs’ keyboard macros and Agda input method",
+   "url": "https://github.com/agda/agda/issues/3994",
+   "labels": [
+    "ux: emacs",
+    "agda-mode",
+    "help wanted"
+   ],
+   "updatedAt": "2020-01-15T15:46:22Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://readthedocs.org/projects/agda/badge/?version=latest) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/agda/agda/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/agda/agda/issues/3994",
+    "https://readthedocs.org/projects/agda/badge/?version=latest"
+   ]
+  },
+  {
+   "number": 4328,
+   "title": "Use github actions' cron to build additional libraries?",
+   "url": "https://github.com/agda/agda/issues/4328",
+   "labels": [
+    "infra: test suite",
+    "help wanted",
+    "infra: github workflows",
+    "nightly"
+   ],
+   "updatedAt": "2026-09-02T13:48:20Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://readthedocs.org/projects/agda/badge/?version=latest) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/agda/agda/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/agda/agda/issues/4328",
+    "https://readthedocs.org/projects/agda/badge/?version=latest"
+   ]
+  },
+  {
+   "number": 4358,
+   "title": "Quadratic name selection",
+   "url": "https://github.com/agda/agda/issues/4358",
+   "labels": [
+    "type: bug",
+    "performance",
+    "help wanted"
+   ],
+   "updatedAt": "2021-02-08T11:02:31Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://readthedocs.org/projects/agda/badge/?version=latest) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/agda/agda/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/agda/agda/issues/4358",
+    "https://readthedocs.org/projects/agda/badge/?version=latest"
+   ]
+  },
+  {
+   "number": 4422,
+   "title": "A more flexible jump-to-definition command",
+   "url": "https://github.com/agda/agda/issues/4422",
+   "labels": [
+    "ux: emacs",
+    "type: enhancement",
+    "ux: interaction",
+    "help wanted"
+   ],
+   "updatedAt": "2020-02-07T05:46:39Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://readthedocs.org/projects/agda/badge/?version=latest) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/agda/agda/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/agda/agda/issues/4422",
+    "https://readthedocs.org/projects/agda/badge/?version=latest"
+   ]
+  },
+  {
+   "number": 4427,
+   "title": "Make -v profile work when Agda is killed",
+   "url": "https://github.com/agda/agda/issues/4427",
+   "labels": [
+    "type: enhancement",
+    "help wanted",
+    "PR welcome"
+   ],
+   "updatedAt": "2022-08-26T13:08:28Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://readthedocs.org/projects/agda/badge/?version=latest) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/agda/agda/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/agda/agda/issues/4427",
+    "https://readthedocs.org/projects/agda/badge/?version=latest"
+   ]
+  },
+  {
+   "number": 4465,
+   "title": "Serializer: One memo table per type?",
+   "url": "https://github.com/agda/agda/issues/4465",
+   "labels": [
+    "performance",
+    "serialization",
+    "help wanted"
+   ],
+   "updatedAt": "2022-08-26T13:09:39Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://readthedocs.org/projects/agda/badge/?version=latest) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/agda/agda/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/agda/agda/issues/4465",
+    "https://readthedocs.org/projects/agda/badge/?version=latest"
+   ]
+  },
+  {
+   "number": 4627,
+   "title": "Should the GHC backend support Cabal and/or Stack?",
+   "url": "https://github.com/agda/agda/issues/4627",
+   "labels": [
+    "status: info-needed",
+    "type: enhancement",
+    "backend: ghc",
+    "help wanted"
+   ],
+   "updatedAt": "2024-09-26T17:42:01Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "PR #1622 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/agda/agda/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/agda/agda-stdlib/pull/1622",
+    "https://github.com/agda/agda/issues/4627",
+    "https://readthedocs.org/projects/agda/badge/?version=latest"
+   ]
+  },
+  {
+   "number": 4653,
+   "title": "Incorrect HTML is generated",
+   "url": "https://github.com/agda/agda/issues/4653",
+   "labels": [
+    "type: bug",
+    "backend: html",
+    "help wanted"
+   ],
+   "updatedAt": "2022-10-05T14:11:29Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "already assigned to @nad",
+   "evidence": [
+    "https://github.com/agda/agda/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/agda/agda/issues/4653",
+    "https://github.com/agda/agda/issues/4653#issuecomment-1159133201"
+   ]
+  },
+  {
+   "number": 4991,
+   "title": "Possible simplification to NATDIVSUCAUX",
+   "url": "https://github.com/agda/agda/issues/4991",
+   "labels": [
+    "type: enhancement",
+    "builtin",
+    "language change",
+    "help wanted"
+   ],
+   "updatedAt": "2022-08-25T07:26:22Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://readthedocs.org/projects/agda/badge/?version=latest) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/agda/agda/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/agda/agda/issues/4991",
+    "https://readthedocs.org/projects/agda/badge/?version=latest"
+   ]
+  },
+  {
+   "number": 5127,
+   "title": "\\AgdaMissingDefinition is missing a definition",
+   "url": "https://github.com/agda/agda/issues/5127",
+   "labels": [
+    "type: bug",
+    "backend: latex",
+    "difficulty: easy",
+    "help wanted",
+    "PR welcome"
+   ],
+   "updatedAt": "2022-08-26T19:11:19Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "open 71 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/agda/agda/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/agda/agda/issues/5127",
+    "https://readthedocs.org/projects/agda/badge/?version=latest"
+   ]
+  },
+  {
+   "number": 5232,
+   "title": "Make some types more strict?",
+   "url": "https://github.com/agda/agda/issues/5232",
+   "labels": [
+    "performance",
+    "type: task",
+    "type: discussion",
+    "help wanted"
+   ],
+   "updatedAt": "2022-08-26T19:13:05Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "labelled `type: discussion` — scope may not be settled yet (+1 more)",
+   "evidence": [
+    "https://github.com/agda/agda/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/agda/agda/issues/5232",
+    "https://readthedocs.org/projects/agda/badge/?version=latest"
+   ]
+  },
+  {
+   "number": 5443,
+   "title": "Read the interface files on demand",
+   "url": "https://github.com/agda/agda/issues/5443",
+   "labels": [
+    "type: enhancement",
+    "performance",
+    "help wanted"
+   ],
+   "updatedAt": "2022-08-25T07:26:26Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://readthedocs.org/projects/agda/badge/?version=latest) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/agda/agda/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/agda/agda/issues/5443",
+    "https://readthedocs.org/projects/agda/badge/?version=latest"
+   ]
+  },
+  {
+   "number": 5629,
+   "title": "Unicode identifier visually similar to ASCII one (source of confusion/obfuscation)",
+   "url": "https://github.com/agda/agda/issues/5629",
+   "labels": [
+    "unicode",
+    "faq",
+    "help wanted",
+    "did-you-mean"
+   ],
+   "updatedAt": "2021-11-08T18:33:40Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "PR #2 by @mkhakimova42 is already open against this issue",
+   "evidence": [
+    "https://github.com/agda/agda/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/mkhakimova42/agda/pull/2"
+   ]
+  },
+  {
+   "number": 5673,
+   "title": "Too many calls to stat64/lstat64",
+   "url": "https://github.com/agda/agda/issues/5673",
+   "labels": [
+    "type: bug",
+    "performance",
+    "help wanted"
+   ],
+   "updatedAt": "2024-11-12T22:01:27Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "already assigned to @nad",
+   "evidence": [
+    "https://github.com/agda/agda/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/agda/agda/issues/5673"
+   ]
+  },
+  {
+   "number": 5704,
+   "title": "Document the different uses of `_`",
+   "url": "https://github.com/agda/agda/issues/5704",
+   "labels": [
+    "meta",
+    "ux: documentation",
+    "help wanted"
+   ],
+   "updatedAt": "2022-08-27T08:34:56Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://readthedocs.org/projects/agda/badge/?version=latest) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/agda/agda/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/agda/agda/issues/5704",
+    "https://readthedocs.org/projects/agda/badge/?version=latest"
+   ]
+  },
+  {
+   "number": 5964,
+   "title": "[Feature Request] Improve HTML Generation with an Index.",
+   "url": "https://github.com/agda/agda/issues/5964",
+   "labels": [
+    "type: enhancement",
+    "backend: html",
+    "bugfix-sprint-candidate",
+    "help wanted"
+   ],
+   "updatedAt": "2022-08-23T12:41:11Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://readthedocs.org/projects/agda/badge/?version=latest) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/agda/agda/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/agda/agda/issues/5964",
+    "https://readthedocs.org/projects/agda/badge/?version=latest"
+   ]
+  },
+  {
+   "number": 6091,
+   "title": "Mark small functions as INLINABLE",
+   "url": "https://github.com/agda/agda/issues/6091",
+   "labels": [
+    "performance",
+    "type: task",
+    "help wanted"
+   ],
+   "updatedAt": "2022-09-08T12:30:00Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://readthedocs.org/projects/agda/badge/?version=latest) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/agda/agda/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/agda/agda/issues/6091",
+    "https://readthedocs.org/projects/agda/badge/?version=latest"
+   ]
+  },
+  {
+   "number": 6330,
+   "title": "Use Markdown in readthedocs documentation",
+   "url": "https://github.com/agda/agda/issues/6330",
+   "labels": [
+    "ux: documentation",
+    "type: task",
+    "help wanted"
+   ],
+   "updatedAt": "2024-06-12T12:54:09Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "open 49 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/agda/agda/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/agda/agda/issues/6330",
+    "https://readthedocs.org/projects/agda/badge/?version=latest"
+   ]
+  },
+  {
+   "number": 6591,
+   "title": "Support prefers-color-scheme media query in default CSS",
+   "url": "https://github.com/agda/agda/issues/6591",
+   "labels": [
+    "type: enhancement",
+    "backend: html",
+    "help wanted"
+   ],
+   "updatedAt": "2024-06-12T13:03:11Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "open 43 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/agda/agda/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/agda/agda/issues/6591",
+    "https://readthedocs.org/projects/agda/badge/?version=latest"
+   ]
+  },
+  {
+   "number": 7584,
+   "title": "LHS unification performance (discussion requested)",
+   "url": "https://github.com/agda/agda/issues/7584",
+   "labels": [
+    "performance",
+    "coverage",
+    "cubical",
+    "help wanted"
+   ],
+   "updatedAt": "2024-10-28T14:39:58Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "already assigned to @AndrasKovacs",
+   "evidence": [
+    "https://github.com/agda/agda/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/agda/agda/issues/7584"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "owner": "nammayatri",
+ "repo": "nammayatri",
+ "language": "Haskell",
+ "stars": 2580,
+ "description": "A Direct-to-Driver open mobility platform powering the next-generation of mobility applications in India.",
+ "visitedAt": "2026-11-14T11:31:58.340Z",
+ "issues": [
+  {
+   "number": 148,
+   "title": "Move external integrations from shared-kernel dependency to current codebase",
+   "url": "https://github.com/nammayatri/nammayatri/issues/148",
+   "labels": [
+    "good first issue",
+    "backend",
+    "refactor"
+   ],
+   "updatedAt": "2026-10-21T16:26:46Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "already assigned to @Dwibedi-10",
+   "evidence": [
+    "https://github.com/nammayatri/nammayatri/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nammayatri/nammayatri/issues/148"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "owner": "luarocks",
+ "repo": "luarocks",
+ "language": "Lua",
+ "stars": 3756,
+ "description": "LuaRocks is the package manager for the Lua programming language.",
+ "visitedAt": "2026-11-14T11:31:58.340Z",
+ "issues": [
+  {
+   "number": 719,
+   "title": "Target Lua version variable",
+   "url": "https://github.com/luarocks/luarocks/issues/719",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2025-02-20T14:41:31Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "PR #1747 by @Vrohs is already open against this issue",
+   "evidence": [
+    "https://github.com/luarocks/luarocks/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/luarocks/luarocks/pull/1747",
+    "https://github.com/luarocks/luarocks/pull/871",
+    "https://github.com/luarocks/luarocks/pull/1785"
+   ]
+  }
+ ]
+}

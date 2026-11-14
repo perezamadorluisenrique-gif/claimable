@@ -1,0 +1,46 @@
+{
+ "owner": "lamdu",
+ "repo": "lamdu",
+ "language": "Haskell",
+ "stars": 1895,
+ "description": "lamdu - towards the next generation IDE",
+ "visitedAt": "2026-11-14T11:31:58.340Z",
+ "issues": [
+  {
+   "number": 82,
+   "title": "More examples, please",
+   "url": "https://github.com/lamdu/lamdu/issues/82",
+   "labels": [
+    "Documentation",
+    "good first issue",
+    "help wanted"
+   ],
+   "updatedAt": "2018-10-29T18:21:15Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "open 111 months with no human comment, in a repo pushed to 13 days ago — easy issues do not survive that long here; assume it is harder than its labels say",
+   "evidence": [
+    "https://github.com/lamdu/lamdu/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/lamdu/lamdu/issues/82"
+   ]
+  },
+  {
+   "number": 199,
+   "title": "Cmd+Right to move if-expression's condition to true branch",
+   "url": "https://github.com/lamdu/lamdu/issues/199",
+   "labels": [
+    "UI",
+    "good first issue",
+    "help wanted"
+   ],
+   "updatedAt": "2023-06-11T13:26:18Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "open 48 months with no human comment, in a repo pushed to 13 days ago — easy issues do not survive that long here; assume it is harder than its labels say",
+   "evidence": [
+    "https://github.com/lamdu/lamdu/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/lamdu/lamdu/issues/199"
+   ]
+  }
+ ]
+}

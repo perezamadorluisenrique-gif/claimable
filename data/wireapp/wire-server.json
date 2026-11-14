@@ -1,0 +1,30 @@
+{
+ "owner": "wireapp",
+ "repo": "wire-server",
+ "language": "Haskell",
+ "stars": 2781,
+ "description": "🇪🇺 Wire back-end services",
+ "visitedAt": "2026-11-14T11:31:58.340Z",
+ "issues": [
+  {
+   "number": 812,
+   "title": "Reduce duplication of mock https servers in integration tests.",
+   "url": "https://github.com/wireapp/wire-server/issues/812",
+   "labels": [
+    "help wanted",
+    "good first issue"
+   ],
+   "updatedAt": "2019-08-02T10:56:49Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "open 89 months with no human comment, in a repo pushed to 1 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/wireapp/wire-server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/wireapp/wire-server/issues/812",
+    "https://github.com/wireapp/wire-server/blob/HEAD/README.md",
+    "https://docs.wire.com",
+    "https://github.com/wireapp/wire-server/blob/HEAD/AGENTS.md"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,564 @@
+{
+ "owner": "beyond-all-reason",
+ "repo": "Beyond-All-Reason",
+ "language": "Lua",
+ "stars": 4348,
+ "description": "Main game repository for Beyond All Reason.",
+ "visitedAt": "2026-11-14T11:31:58.340Z",
+ "issues": [
+  {
+   "number": 323,
+   "title": "Unit selection priority",
+   "url": "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/323",
+   "labels": [
+    "Good First Issue",
+    "Widget"
+   ],
+   "updatedAt": "2024-10-13T02:45:32Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "PR #5769 by @shedatc is already open against this issue",
+   "evidence": [
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/5769"
+   ]
+  },
+  {
+   "number": 379,
+   "title": "Stockpile buildings keep building even when told to wait",
+   "url": "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/379",
+   "labels": [
+    "Enhancement",
+    "Good First Issue",
+    "Gadget",
+    "Widget"
+   ],
+   "updatedAt": "2026-08-20T14:28:19Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "PR #9359 by @ParanoikCZE is already open against this issue",
+   "evidence": [
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/9359",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/2777"
+   ]
+  },
+  {
+   "number": 494,
+   "title": "Unable to have fine control over energy consumption priority ordering",
+   "url": "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/494",
+   "labels": [
+    "Good First Issue",
+    "Gadget",
+    "Widget",
+    "Unit Def",
+    "Awaiting BLT Approval"
+   ],
+   "updatedAt": "2024-10-20T18:45:18Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/494"
+   ]
+  },
+  {
+   "number": 516,
+   "title": "End game awards bugged in 1v1",
+   "url": "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/516",
+   "labels": [
+    "Bug",
+    "Good First Issue",
+    "Widget"
+   ],
+   "updatedAt": "2025-03-25T16:42:09Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/516"
+   ]
+  },
+  {
+   "number": 859,
+   "title": "shift-queue manual targeting",
+   "url": "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/859",
+   "labels": [
+    "Good First Issue",
+    "Widget",
+    "Unit Def"
+   ],
+   "updatedAt": "2024-10-19T23:26:37Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "PR #2673 by @h0lley is already open against this issue",
+   "evidence": [
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/2673"
+   ]
+  },
+  {
+   "number": 1242,
+   "title": "Underwater metal spots output hard with water quality set to high",
+   "url": "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/1242",
+   "labels": [
+    "Bug",
+    "Good First Issue",
+    "Widget"
+   ],
+   "updatedAt": "2026-03-28T10:09:17Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "PR #7156 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder",
+   "evidence": [
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/pull/7156",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/1242"
+   ]
+  },
+  {
+   "number": 1260,
+   "title": "Remove energy costs for minor secondary lasers",
+   "url": "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/1260",
+   "labels": [
+    "Good First Issue",
+    "Approved",
+    "Unit Def"
+   ],
+   "updatedAt": "2025-01-18T11:49:11Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/1260"
+   ]
+  },
+  {
+   "number": 1309,
+   "title": "Pregame/Placement: Commander can be placed on non-traversable terrain.",
+   "url": "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/1309",
+   "labels": [
+    "Good First Issue",
+    "Widget",
+    "Testing Needed"
+   ],
+   "updatedAt": "2024-10-26T02:54:43Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "PR #1585 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder",
+   "evidence": [
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/pull/1585",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/1309"
+   ]
+  },
+  {
+   "number": 1346,
+   "title": "Epic Stormbgringer can't land on air repair pad most of time",
+   "url": "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/1346",
+   "labels": [
+    "Good First Issue",
+    "Unit Def",
+    "Testing Needed"
+   ],
+   "updatedAt": "2026-05-13T22:01:54Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/1346"
+   ]
+  },
+  {
+   "number": 1670,
+   "title": "Player feedback suggestion: Make mexes overlay signal metal worth",
+   "url": "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/1670",
+   "labels": [
+    "Good First Issue",
+    "Widget"
+   ],
+   "updatedAt": "2024-11-27T10:41:22Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/1670"
+   ]
+  },
+  {
+   "number": 1909,
+   "title": "Commando build stacking",
+   "url": "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/1909",
+   "labels": [
+    "Bug",
+    "Good First Issue"
+   ],
+   "updatedAt": "2025-08-04T20:51:38Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/1909"
+   ]
+  },
+  {
+   "number": 2411,
+   "title": "Set Target shouldn't override Attack",
+   "url": "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/2411",
+   "labels": [
+    "Enhancement",
+    "Good First Issue",
+    "Approved",
+    "Widget"
+   ],
+   "updatedAt": "2026-08-04T17:22:32Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "already assigned to @efrec",
+   "evidence": [
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/pull/3909",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/2411"
+   ]
+  },
+  {
+   "number": 2445,
+   "title": "Nano turrets stay permanently idle if tasked to assist something that's out of range",
+   "url": "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/2445",
+   "labels": [
+    "Enhancement",
+    "Good First Issue",
+    "Widget"
+   ],
+   "updatedAt": "2026-10-27T14:54:42Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/2445"
+   ]
+  },
+  {
+   "number": 3062,
+   "title": "Cannot issue Guard command chain with Anti-nuke ship",
+   "url": "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/3062",
+   "labels": [
+    "Bug",
+    "Good First Issue",
+    "Widget"
+   ],
+   "updatedAt": "2025-09-08T07:39:27Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "PR #5794 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder",
+   "evidence": [
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/pull/5794",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/3062"
+   ]
+  },
+  {
+   "number": 3156,
+   "title": "Hold Fire Against Capture-Marked Enemies",
+   "url": "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/3156",
+   "labels": [
+    "Enhancement",
+    "Good First Issue",
+    "Approved",
+    "Widget"
+   ],
+   "updatedAt": "2025-12-04T09:55:12Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "PR #4740 by @SamWain is already open against this issue",
+   "evidence": [
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/pull/4740",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/pull/4755"
+   ]
+  },
+  {
+   "number": 3210,
+   "title": "Minelayer Vehicles Cannot Continue Building a Mine if They Stop the Mine's Construction",
+   "url": "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/3210",
+   "labels": [
+    "Enhancement",
+    "Good First Issue"
+   ],
+   "updatedAt": "2025-08-05T17:08:47Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "PR #7840 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder",
+   "evidence": [
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/pull/7840",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/3210"
+   ]
+  },
+  {
+   "number": 3224,
+   "title": "show reclaim coutdown (as quivalent to the construciton countdown)",
+   "url": "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/3224",
+   "labels": [
+    "Enhancement",
+    "Good First Issue",
+    "Widget"
+   ],
+   "updatedAt": "2024-10-13T02:50:01Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "PR #7096 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/pull/7096",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/3224"
+   ]
+  },
+  {
+   "number": 3299,
+   "title": "Snap-to-Deposit buildings sometimes are terrain incompatible at snap location",
+   "url": "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/3299",
+   "labels": [
+    "Bug",
+    "Good First Issue",
+    "Gadget"
+   ],
+   "updatedAt": "2024-10-13T14:09:21Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/3299"
+   ]
+  },
+  {
+   "number": 3339,
+   "title": "Standardize Grid Hotkey Slots for Naval static defense",
+   "url": "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/3339",
+   "labels": [
+    "Enhancement",
+    "Good First Issue",
+    "UI"
+   ],
+   "updatedAt": "2025-03-25T14:52:00Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/3339"
+   ]
+  },
+  {
+   "number": 3340,
+   "title": "Add Windmill<->Tidal link to Context Build Widget",
+   "url": "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/3340",
+   "labels": [
+    "Enhancement",
+    "Good First Issue",
+    "Widget"
+   ],
+   "updatedAt": "2025-09-08T07:37:19Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/3340"
+   ]
+  },
+  {
+   "number": 3377,
+   "title": "commando attack range got faulty when corcom dgun got changed",
+   "url": "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/3377",
+   "labels": [
+    "Bug",
+    "Good First Issue",
+    "Unit Def"
+   ],
+   "updatedAt": "2024-10-11T21:24:37Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "open 29 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say",
+   "evidence": [
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/3377"
+   ]
+  },
+  {
+   "number": 3448,
+   "title": "Adding a unit that's currently being built to a control group (Autogroup immediate mode: ON) makes its control group number display disappear when it leaves the factory",
+   "url": "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/3448",
+   "labels": [
+    "Bug",
+    "Good First Issue",
+    "Widget"
+   ],
+   "updatedAt": "2025-03-26T17:12:05Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/3448"
+   ]
+  },
+  {
+   "number": 3492,
+   "title": "Legacy keys vs Grid keys, small inconsistency, missing keys",
+   "url": "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/3492",
+   "labels": [
+    "Bug",
+    "Good First Issue",
+    "UI",
+    "Keybinds"
+   ],
+   "updatedAt": "2026-04-29T04:36:15Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "PR #4997 by @colingeniet is already open against this issue",
+   "evidence": [
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/pull/4997"
+   ]
+  },
+  {
+   "number": 3509,
+   "title": "Highlighted range/perimeter for selected/constructing unit",
+   "url": "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/3509",
+   "labels": [
+    "Enhancement",
+    "Good First Issue",
+    "Widget"
+   ],
+   "updatedAt": "2025-09-09T22:44:51Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/3509"
+   ]
+  },
+  {
+   "number": 3815,
+   "title": "Weird aiming bug gauntlet/agitator",
+   "url": "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/3815",
+   "labels": [
+    "Bug",
+    "Good First Issue",
+    "Script / Animation"
+   ],
+   "updatedAt": "2025-02-19T17:14:23Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "discard",
+   "reason": "PR #1586 by @misfit86 is already open against this issue",
+   "evidence": [
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/1586"
+   ]
+  },
+  {
+   "number": 3845,
+   "title": "Corroy depth charge issues",
+   "url": "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/3845",
+   "labels": [
+    "Bug",
+    "Good First Issue",
+    "Script / Animation",
+    "Unit Def"
+   ],
+   "updatedAt": "2026-11-02T05:46:51Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/3845"
+   ]
+  },
+  {
+   "number": 3860,
+   "title": "Torpedo Bombers have +750 extra range",
+   "url": "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/3860",
+   "labels": [
+    "Bug",
+    "Good First Issue",
+    "Approved",
+    "Unit Def"
+   ],
+   "updatedAt": "2025-09-06T15:01:45Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "PR #3918 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder",
+   "evidence": [
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/pull/3918",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/3860"
+   ]
+  },
+  {
+   "number": 4353,
+   "title": "resurrected commander able to get stuck on edge of map",
+   "url": "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/4353",
+   "labels": [
+    "Bug",
+    "Good First Issue",
+    "Gadget"
+   ],
+   "updatedAt": "2025-11-25T22:49:28Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/4353"
+   ]
+  },
+  {
+   "number": 4372,
+   "title": "Black Hydra can sometimes shoot not where its cannons point",
+   "url": "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/4372",
+   "labels": [
+    "Bug",
+    "Good First Issue",
+    "Unit Def"
+   ],
+   "updatedAt": "2025-11-15T06:41:21Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/4372"
+   ]
+  },
+  {
+   "number": 6704,
+   "title": "Producing seaplane/t2air with /nocost , removes auto-fire from enemy against em",
+   "url": "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/6704",
+   "labels": [
+    "Bug",
+    "Good First Issue"
+   ],
+   "updatedAt": "2026-07-27T05:35:37Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "PR #8495 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/pull/8495",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/6704#issuecomment-4069987488",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/6704"
+   ]
+  }
+ ]
+}

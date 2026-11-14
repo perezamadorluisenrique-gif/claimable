@@ -1,0 +1,99 @@
+{
+ "owner": "NeogitOrg",
+ "repo": "neogit",
+ "language": "Lua",
+ "stars": 5672,
+ "description": "An interactive and powerful Git interface for Neovim, inspired by Magit",
+ "visitedAt": "2026-11-14T11:31:58.340Z",
+ "issues": [
+  {
+   "number": 1134,
+   "title": "Add toggle for default value in remote URL input",
+   "url": "https://github.com/NeogitOrg/neogit/issues/1134",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2024-01-15T13:43:36Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "open 34 months with no human comment, in a repo pushed to 3 days ago — easy issues do not survive that long here; assume it is harder than its labels say",
+   "evidence": [
+    "https://github.com/NeogitOrg/neogit/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/NeogitOrg/neogit/issues/1134",
+    "https://github.com/NeogitOrg/neogit/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 1149,
+   "title": "Making the popup windows' names easily legible",
+   "url": "https://github.com/NeogitOrg/neogit/issues/1149",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2024-03-27T21:41:53Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "open 34 months with no human comment, in a repo pushed to 3 days ago — easy issues do not survive that long here; assume it is harder than its labels say",
+   "evidence": [
+    "https://github.com/NeogitOrg/neogit/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/NeogitOrg/neogit/issues/1149",
+    "https://github.com/NeogitOrg/neogit/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 1173,
+   "title": "Option to open status with the current file selected",
+   "url": "https://github.com/NeogitOrg/neogit/issues/1173",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2024-03-27T21:37:29Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "reservations",
+   "reason": "open 34 months with no human comment, in a repo pushed to 3 days ago — easy issues do not survive that long here; assume it is harder than its labels say",
+   "evidence": [
+    "https://github.com/NeogitOrg/neogit/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/NeogitOrg/neogit/issues/1173",
+    "https://github.com/NeogitOrg/neogit/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 1273,
+   "title": "Remove the `Commands: mappings` message in commit editor",
+   "url": "https://github.com/NeogitOrg/neogit/issues/1273",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2024-05-07T21:01:59Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/NeogitOrg/neogit/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/NeogitOrg/neogit/issues/1273",
+    "https://github.com/NeogitOrg/neogit/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 1560,
+   "title": "Show graph like Git Graph",
+   "url": "https://github.com/NeogitOrg/neogit/issues/1560",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2024-11-26T22:28:32Z",
+   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/NeogitOrg/neogit/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/NeogitOrg/neogit/issues/1560",
+    "https://github.com/NeogitOrg/neogit/blob/HEAD/CONTRIBUTING.md"
+   ]
+  }
+ ]
+}
