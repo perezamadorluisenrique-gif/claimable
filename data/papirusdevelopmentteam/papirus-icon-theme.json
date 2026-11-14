@@ -1,0 +1,372 @@
+{
+ "owner": "PapirusDevelopmentTeam",
+ "repo": "papirus-icon-theme",
+ "language": "Shell",
+ "stars": 8203,
+ "description": "Pixel perfect icon theme for Linux",
+ "visitedAt": "2026-11-14T22:28:38.603Z",
+ "issues": [
+  {
+   "number": 305,
+   "title": "Some missings emblems",
+   "url": "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/issues/305",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2017-03-05T20:50:32Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #4103 by @Antics419 is already open against this issue",
+   "evidence": [
+    "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/issues/4103"
+   ]
+  },
+  {
+   "number": 799,
+   "title": "[Icons Request] Compiz Config Manager icons",
+   "url": "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/issues/799",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2019-11-02T17:18:43Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "open 111 months with no human comment, in a repo pushed to 5 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/issues/799",
+    "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/wiki"
+   ]
+  },
+  {
+   "number": 884,
+   "title": "Audacity theme",
+   "url": "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/issues/884",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2017-11-10T06:49:11Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "open 110 months with no human comment, in a repo pushed to 5 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/issues/884",
+    "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/wiki"
+   ]
+  },
+  {
+   "number": 900,
+   "title": "Static website for Papirus",
+   "url": "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/issues/900",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2020-12-29T10:22:54Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/wiki) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/issues/900",
+    "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/wiki"
+   ]
+  },
+  {
+   "number": 1743,
+   "title": "Please create theme for LyX",
+   "url": "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/issues/1743",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2020-08-02T08:37:52Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/wiki) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/issues/1743",
+    "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/wiki"
+   ]
+  },
+  {
+   "number": 2007,
+   "title": "Add symlinks/icons for Flathub apps",
+   "url": "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/issues/2007",
+   "labels": [
+    "icon request",
+    "good first issue"
+   ],
+   "updatedAt": "2026-11-14T03:01:30Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #4102 by @Antics419 is already open against this issue",
+   "evidence": [
+    "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/issues/4102",
+    "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/issues/3582"
+   ]
+  },
+  {
+   "number": 3254,
+   "title": "[Icon request] OB-Xd",
+   "url": "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/issues/3254",
+   "labels": [
+    "icon request",
+    "good first issue"
+   ],
+   "updatedAt": "2023-08-13T06:26:43Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "open 52 months with no human comment, in a repo pushed to 5 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/issues/3254",
+    "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/wiki"
+   ]
+  },
+  {
+   "number": 3343,
+   "title": "[Rework] MuseScore",
+   "url": "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/issues/3343",
+   "labels": [
+    "icon request",
+    "good first issue"
+   ],
+   "updatedAt": "2026-09-12T18:01:10Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/wiki) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/issues/3343",
+    "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/wiki"
+   ]
+  },
+  {
+   "number": 3344,
+   "title": "[Icon request] Odoo",
+   "url": "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/issues/3344",
+   "labels": [
+    "icon request",
+    "good first issue"
+   ],
+   "updatedAt": "2023-08-13T05:41:10Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #4364 by @zibetnu is already open against this issue",
+   "evidence": [
+    "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/pull/4364"
+   ]
+  },
+  {
+   "number": 3354,
+   "title": "[Icon request] Communique",
+   "url": "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/issues/3354",
+   "labels": [
+    "icon request",
+    "good first issue"
+   ],
+   "updatedAt": "2023-08-13T05:40:39Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "open 48 months with no human comment, in a repo pushed to 5 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/issues/3354",
+    "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/wiki"
+   ]
+  },
+  {
+   "number": 3489,
+   "title": "[Icon request] Marathon, Marathon 2: Durandal, Marathon Infinity",
+   "url": "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/issues/3489",
+   "labels": [
+    "icon request",
+    "good first issue"
+   ],
+   "updatedAt": "2023-09-25T07:28:26Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/wiki) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/issues/3489",
+    "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/wiki"
+   ]
+  },
+  {
+   "number": 3514,
+   "title": "[Icon request] vimiv",
+   "url": "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/issues/3514",
+   "labels": [
+    "icon request",
+    "good first issue"
+   ],
+   "updatedAt": "2023-08-13T05:20:23Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "open 40 months with no human comment, in a repo pushed to 5 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/issues/3514",
+    "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/wiki"
+   ]
+  },
+  {
+   "number": 3550,
+   "title": "[Icon request] Anytype",
+   "url": "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/issues/3550",
+   "labels": [
+    "icon request",
+    "good first issue"
+   ],
+   "updatedAt": "2023-09-05T16:42:04Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "open 39 months with no human comment, in a repo pushed to 5 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/issues/3550",
+    "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/wiki"
+   ]
+  },
+  {
+   "number": 3595,
+   "title": "Plasma 6 applets use system icons so missing many icons for applet",
+   "url": "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/issues/3595",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "icon request",
+    "panel"
+   ],
+   "updatedAt": "2024-05-18T16:08:47Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "PR #3606 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/pull/3606",
+    "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/pull/3614",
+    "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/issues/3595",
+    "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/wiki"
+   ]
+  },
+  {
+   "number": 3663,
+   "title": "Adapt Papirus to KDE Plasma 6",
+   "url": "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/issues/3663",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "icon request",
+    "panel",
+    "plasma"
+   ],
+   "updatedAt": "2026-05-03T16:26:38Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #3923 by @morganist is already open against this issue",
+   "evidence": [
+    "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/issues/3923",
+    "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/issues/3872"
+   ]
+  },
+  {
+   "number": 3704,
+   "title": "[Icon request] OpenJDK 22",
+   "url": "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/issues/3704",
+   "labels": [
+    "icon request",
+    "good first issue"
+   ],
+   "updatedAt": "2024-05-02T09:01:25Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "open 31 months with no human comment, in a repo pushed to 5 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/issues/3704",
+    "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/wiki"
+   ]
+  },
+  {
+   "number": 3748,
+   "title": "Read/unread message (mail) icons are very similar and have equal contrast",
+   "url": "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/issues/3748",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2025-01-22T09:38:44Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/wiki) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/issues/3748",
+    "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/wiki"
+   ]
+  },
+  {
+   "number": 3833,
+   "title": "[Icon request] OneKey",
+   "url": "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/issues/3833",
+   "labels": [
+    "icon request",
+    "good first issue"
+   ],
+   "updatedAt": "2024-10-12T06:54:03Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "open 26 months with no human comment, in a repo pushed to 5 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/issues/3833",
+    "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/wiki"
+   ]
+  },
+  {
+   "number": 3834,
+   "title": "[Icon request] Akuse",
+   "url": "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/issues/3834",
+   "labels": [
+    "icon request",
+    "good first issue"
+   ],
+   "updatedAt": "2024-10-12T06:53:46Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "open 26 months with no human comment, in a repo pushed to 5 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/issues/3834",
+    "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/wiki"
+   ]
+  },
+  {
+   "number": 4239,
+   "title": "[Cinnamon 6.6.7] Missing icons",
+   "url": "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/issues/4239",
+   "labels": [
+    "bug",
+    "help wanted",
+    "more info needed"
+   ],
+   "updatedAt": "2026-11-02T05:25:23Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/wiki) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/issues/4239",
+    "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/wiki"
+   ]
+  }
+ ]
+}

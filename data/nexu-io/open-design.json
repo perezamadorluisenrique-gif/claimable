@@ -4,7 +4,7 @@
  "language": "TypeScript",
  "stars": 106999,
  "description": "The 1st Collaborative AI Design Agent Workspace. Local-first and open source. Create motion, prototypes, websites, apps, dashboards, presentations, images, and videos with your team and AI agents. Sha",
- "visitedAt": "2026-11-10T17:47:07.019Z",
+ "visitedAt": "2026-11-14T22:28:38.603Z",
  "issues": [
   {
    "number": 473,
@@ -542,27 +542,6 @@
    ]
   },
   {
-   "number": 2647,
-   "title": "Onboarding top tabs should support direct switching",
-   "url": "https://github.com/nexu-io/open-design/issues/2647",
-   "labels": [
-    "enhancement",
-    "help wanted"
-   ],
-   "updatedAt": "2026-08-30T22:32:05Z",
-   "checkedAt": "2026-11-10T17:47:07.019Z",
-   "verdict": "reservations",
-   "reason": "1 stale claim, the most recent by @lefarcen 72 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
-   "evidence": [
-    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/nexu-io/open-design/issues/2647#issuecomment-5471665361",
-    "https://github.com/nexu-io/open-design/issues/2647",
-    "https://github.com/nexu-io/open-design/blob/HEAD/CONTRIBUTING.md",
-    "https://github.com/nexu-io/open-design/blob/HEAD/.github/AGENTS.md",
-    "https://docs.anthropic.com/en/docs/claude-code/skills"
-   ]
-  },
-  {
    "number": 2652,
    "title": "After manually deleting an @skill reference, selecting a new skill does not insert it into the input",
    "url": "https://github.com/nexu-io/open-design/issues/2652",
@@ -921,8 +900,8 @@
     "type/enhancement",
     "priority:p2"
    ],
-   "updatedAt": "2026-11-10T10:40:27Z",
-   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "updatedAt": "2026-11-11T09:51:15Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
    "verdict": "discard",
    "reason": "already assigned to @helloigig",
    "evidence": [
@@ -1066,6 +1045,1611 @@
    "evidence": [
     "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/nexu-io/open-design/pull/7415"
+   ]
+  },
+  {
+   "number": 5402,
+   "title": "feat(codex): honor model-specific reasoning levels for GPT-5.6",
+   "url": "https://github.com/nexu-io/open-design/issues/5402",
+   "labels": [
+    "help wanted",
+    "feature",
+    "needs-product-direction"
+   ],
+   "updatedAt": "2026-09-10T13:06:41Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #7831 by @jaehanbyun is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/7831"
+   ]
+  },
+  {
+   "number": 5568,
+   "title": "Document Docker build resource requirements when GHCR image is not pullable",
+   "url": "https://github.com/nexu-io/open-design/issues/5568",
+   "labels": [
+    "good first issue",
+    "help wanted",
+    "docs"
+   ],
+   "updatedAt": "2026-08-23T13:34:21Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #5572 by @dbalanco is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/5572"
+   ]
+  },
+  {
+   "number": 5694,
+   "title": "Auto-open generated image artifacts in new sessions",
+   "url": "https://github.com/nexu-io/open-design/issues/5694",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted"
+   ],
+   "updatedAt": "2026-07-26T07:29:19Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #5711 by @vinkiYu is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/5711",
+    "https://github.com/nexu-io/open-design/pull/6030"
+   ]
+  },
+  {
+   "number": 5734,
+   "title": "[Bug]: 本机CLI检测不到codex cli",
+   "url": "https://github.com/nexu-io/open-design/issues/5734",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-10-10T15:43:36Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #8659 by @Diyoncrz18 is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/8659"
+   ]
+  },
+  {
+   "number": 5948,
+   "title": "feat(runtime): Grok Build streaming-json + design artifact handoff",
+   "url": "https://github.com/nexu-io/open-design/issues/5948",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2026-10-03T00:29:18Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #5951 by @DoGMaTiiC is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/5951",
+    "https://github.com/nexu-io/open-design/pull/5952"
+   ]
+  },
+  {
+   "number": 6077,
+   "title": "Enable model discovery (Fetch models) for the Ollama BYOK provider",
+   "url": "https://github.com/nexu-io/open-design/issues/6077",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-07T05:08:03Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #6079 by @dpeterson01 is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/6079"
+   ]
+  },
+  {
+   "number": 6097,
+   "title": "[Bug]: Codex Slides gallery clips studio screenshots on narrow phones",
+   "url": "https://github.com/nexu-io/open-design/issues/6097",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted"
+   ],
+   "updatedAt": "2026-08-31T01:35:19Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #3 by @roian6 is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design-contributor-card/pull/3"
+   ]
+  },
+  {
+   "number": 6116,
+   "title": "`od conversation info` always 404s and reports it as `daemon-not-running`",
+   "url": "https://github.com/nexu-io/open-design/issues/6116",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-10-12T22:07:23Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #6129 by @PushkarP-404 is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/6129",
+    "https://github.com/nexu-io/open-design/pull/8669"
+   ]
+  },
+  {
+   "number": 6136,
+   "title": "[Bug]: packaged desktop can crash with Object has been destroyed during splash teardown",
+   "url": "https://github.com/nexu-io/open-design/issues/6136",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted"
+   ],
+   "updatedAt": "2026-08-02T11:55:47Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #6137 by @itlackey is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/6137"
+   ]
+  },
+  {
+   "number": 6224,
+   "title": "[Bug]: components-manifest extractor: token refs lost for every other CSS rule and for nested rules; substring class matchers create false-positive groups",
+   "url": "https://github.com/nexu-io/open-design/issues/6224",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-09-07T19:22:55Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #7860 by @Hubertformin is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/7860"
+   ]
+  },
+  {
+   "number": 6387,
+   "title": "Eight bundled design systems have no _official manifest, so their cards link back to the index",
+   "url": "https://github.com/nexu-io/open-design/issues/6387",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-09-03T12:23:04Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #6403 by @nmsn is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/6403",
+    "https://github.com/nexu-io/open-design/pull/7924"
+   ]
+  },
+  {
+   "number": 6392,
+   "title": "Prevent Question card required marker from wrapping with long copy",
+   "url": "https://github.com/nexu-io/open-design/issues/6392",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-09T11:27:42Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #6419 by @linghaoSu is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/6419"
+   ]
+  },
+  {
+   "number": 6394,
+   "title": "Show generated-work upsell when the first work is created",
+   "url": "https://github.com/nexu-io/open-design/issues/6394",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-10-22T08:40:07Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #8998 by @BharanitharanKR is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/8998"
+   ]
+  },
+  {
+   "number": 6482,
+   "title": "[Bug]: BYOK OpenCode treats multimodal custom models as text-only and does not forward image attachments",
+   "url": "https://github.com/nexu-io/open-design/issues/6482",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-09-11T09:20:22Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #6495 by @Sid-Qin is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/6495"
+   ]
+  },
+  {
+   "number": 6501,
+   "title": "Cannot select API provider in the new UI design",
+   "url": "https://github.com/nexu-io/open-design/issues/6501",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2026-10-23T06:28:24Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @lefarcen 92 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/issues/6501#issuecomment-5300695959",
+    "https://github.com/nexu-io/open-design/issues/6501",
+    "https://github.com/nexu-io/open-design/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/nexu-io/open-design/blob/HEAD/.github/AGENTS.md",
+    "https://docs.anthropic.com/en/docs/claude-code/skills"
+   ]
+  },
+  {
+   "number": 6576,
+   "title": "fix(web): provide a server-side folder picker for Project locations in remote/headless deployments",
+   "url": "https://github.com/nexu-io/open-design/issues/6576",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-09-14T21:58:35Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #8136 by @marcelokarval is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/8136"
+   ]
+  },
+  {
+   "number": 6804,
+   "title": "[Bug]: Operational result prompts are obscured by the window",
+   "url": "https://github.com/nexu-io/open-design/issues/6804",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-12T05:37:51Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #7011 by @mturac is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/7011"
+   ]
+  },
+  {
+   "number": 6964,
+   "title": "[Bug]: Packaged main process crashes with EPIPE on first console.info from renderer lifecycle handlers",
+   "url": "https://github.com/nexu-io/open-design/issues/6964",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-08-31T05:18:31Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #7521 by @lorenzozanee is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/7521",
+    "https://github.com/nexu-io/open-design/pull/7446"
+   ]
+  },
+  {
+   "number": 6969,
+   "title": "Claude Code receives an unsupported SOCKS-only system proxy with no HTTP proxy override",
+   "url": "https://github.com/nexu-io/open-design/issues/6969",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-10-14T04:23:35Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "2 stale claims, the most recent by @lefarcen 54 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+3 more)",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/issues/6969#issuecomment-5772367253",
+    "https://github.com/nexu-io/open-design/blob/HEAD/apps/web/src/components/SettingsDialog.tsx",
+    "https://github.com/nexu-io/open-design/blob/HEAD/apps/daemon/src/app-config.ts",
+    "https://github.com/nexu-io/open-design/blob/HEAD/apps/daemon/src/runtimes/env.ts",
+    "https://github.com/nexu-io/open-design/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/nexu-io/open-design/blob/HEAD/.github/AGENTS.md",
+    "https://docs.anthropic.com/en/docs/claude-code/corporate-proxy",
+    "https://github.com/nexu-io/open-design/issues/6969"
+   ]
+  },
+  {
+   "number": 7008,
+   "title": "Comment and Inspect cannot target elements inside project-local nested iframes",
+   "url": "https://github.com/nexu-io/open-design/issues/7008",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-14T06:53:31Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #7296 by @mixxer is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/7296"
+   ]
+  },
+  {
+   "number": 7014,
+   "title": "MCP server advertises resources but does not implement resources/templates/list",
+   "url": "https://github.com/nexu-io/open-design/issues/7014",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted"
+   ],
+   "updatedAt": "2026-10-23T02:40:27Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #7204 by @mturac is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/7204"
+   ]
+  },
+  {
+   "number": 7043,
+   "title": "OD_PROJECT_STORAGE=s3 backend is implemented but never wired into project routes",
+   "url": "https://github.com/nexu-io/open-design/issues/7043",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-09-17T14:03:13Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #7077 by @zenprocess is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/7077"
+   ]
+  },
+  {
+   "number": 7098,
+   "title": "[Bug]: MCP server instructions are 5,859 chars — Claude Code truncates at 2,048, discarding all run-commissioning guidance",
+   "url": "https://github.com/nexu-io/open-design/issues/7098",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted"
+   ],
+   "updatedAt": "2026-08-19T00:25:07Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #7100 by @rookepoole is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/7100",
+    "https://github.com/nexu-io/open-design/pull/7101"
+   ]
+  },
+  {
+   "number": 7259,
+   "title": "Update store validator fails the whole check-for-update on a stray .DS_Store, even when the real check succeeds",
+   "url": "https://github.com/nexu-io/open-design/issues/7259",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-14T06:53:49Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #7267 by @mixxer is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/7267",
+    "https://github.com/nexu-io/open-design/pull/7268"
+   ]
+  },
+  {
+   "number": 7281,
+   "title": "macOS proxy bypass entries with IPv6 CIDR (fe80::/10, fc00::/7) are injected verbatim into agent NO_PROXY and crash httpx-based agents (AGENT_EXECUTION_FAILED / \"json-rpc id 2: Internal error\")",
+   "url": "https://github.com/nexu-io/open-design/issues/7281",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-09T03:34:07Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #7283 by @huytdps13400 is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/7283"
+   ]
+  },
+  {
+   "number": 7471,
+   "title": "@open-design/dsh-runtime: git installs are broken — no prepare script, dist never built, sources stripped by files field",
+   "url": "https://github.com/nexu-io/open-design/issues/7471",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-09-03T05:22:34Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #7748 by @VedantMadane is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/7748"
+   ]
+  },
+  {
+   "number": 7524,
+   "title": "[Bug]: 2 speaker notes in HTML",
+   "url": "https://github.com/nexu-io/open-design/issues/7524",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-10-17T01:48:52Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #8664 by @Diyoncrz18 is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/8664"
+   ]
+  },
+  {
+   "number": 7526,
+   "title": "[Bug]: Export to PPTX but no speaker notes",
+   "url": "https://github.com/nexu-io/open-design/issues/7526",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-10-14T12:57:15Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #7536 by @GoodSamaritan-bot-by-EG is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/7536",
+    "https://github.com/nexu-io/open-design/pull/8664"
+   ]
+  },
+  {
+   "number": 7538,
+   "title": "[Bug]: BYOK API mode fails when OpenCode is unavailable",
+   "url": "https://github.com/nexu-io/open-design/issues/7538",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-09-09T10:22:19Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #7541 by @Dohyeon2006 is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/7541"
+   ]
+  },
+  {
+   "number": 7546,
+   "title": "Google Gemini BYOK: #1847 URL-normalization fix (#2761) does not cover the OpenCode run path added in #4876 — test passes, every run 404/401s",
+   "url": "https://github.com/nexu-io/open-design/issues/7546",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-09-07T02:34:50Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #7550 by @celeste1900 is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/7550",
+    "https://github.com/nexu-io/open-design/pull/7552",
+    "https://github.com/nexu-io/open-design/pull/7547"
+   ]
+  },
+  {
+   "number": 7563,
+   "title": "[Bug]: Update-ready popup cannot proceed when an active task is running or the restart preflight is unknown",
+   "url": "https://github.com/nexu-io/open-design/issues/7563",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-09-09T15:22:16Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #7965 by @jaygupta17 is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/7965"
+   ]
+  },
+  {
+   "number": 7599,
+   "title": "Fal-configured image project defaults to unavailable Vela model",
+   "url": "https://github.com/nexu-io/open-design/issues/7599",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-09-10T16:50:48Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @lefarcen 74 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/issues/7599#issuecomment-5503140806",
+    "https://github.com/nexu-io/open-design/issues/7599",
+    "https://github.com/nexu-io/open-design/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/nexu-io/open-design/blob/HEAD/.github/AGENTS.md",
+    "https://docs.anthropic.com/en/docs/claude-code/skills"
+   ]
+  },
+  {
+   "number": 7600,
+   "title": "[Bug]: No Design after various attempts",
+   "url": "https://github.com/nexu-io/open-design/issues/7600",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-08-31T10:35:01Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.anthropic.com/en/docs/claude-code/skills) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/issues/7600",
+    "https://github.com/nexu-io/open-design/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/nexu-io/open-design/blob/HEAD/.github/AGENTS.md",
+    "https://docs.anthropic.com/en/docs/claude-code/skills"
+   ]
+  },
+  {
+   "number": 7604,
+   "title": "Deck thumbnail rail always shows slide 1 for reveal.js-based decks (getComputedStyle can't see ancestor-driven hiding)",
+   "url": "https://github.com/nexu-io/open-design/issues/7604",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-10-01T00:29:54Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #7606 by @mixxer is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/7606"
+   ]
+  },
+  {
+   "number": 7609,
+   "title": "piAgentDef dogfooding: record agent_cli_version in run diagnostics (+ stale-runtime hint)",
+   "url": "https://github.com/nexu-io/open-design/issues/7609",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "needs-product-direction"
+   ],
+   "updatedAt": "2026-09-02T16:49:03Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #7610 by @libaojiang is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/7610"
+   ]
+  },
+  {
+   "number": 7624,
+   "title": "opencode runs die on a permission prompt: OD probes for a flag opencode dropped",
+   "url": "https://github.com/nexu-io/open-design/issues/7624",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-11T03:47:09Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #7625 by @koeseo is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/7625",
+    "https://github.com/nexu-io/open-design/pull/7631",
+    "https://github.com/nexu-io/open-design/pull/9408"
+   ]
+  },
+  {
+   "number": 7660,
+   "title": "Instagram and Xiaohongshu share options are misaligned",
+   "url": "https://github.com/nexu-io/open-design/issues/7660",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted"
+   ],
+   "updatedAt": "2026-09-26T18:08:15Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #8473 by @deodattap is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/8473"
+   ]
+  },
+  {
+   "number": 7710,
+   "title": "Splash screen window never becomes visible on Windows after 2026-08-29 cumulative updates (Surface Pro 9, Iris Xe, Electron 41)",
+   "url": "https://github.com/nexu-io/open-design/issues/7710",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-09-01T21:47:33Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "already assigned to @T-sanjay-ram",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/issues/7710",
+    "https://github.com/nexu-io/open-design/issues/7710#issuecomment-5500732011"
+   ]
+  },
+  {
+   "number": 7790,
+   "title": "Nix CLI discovery misses Home Manager's /etc/profiles/per-user/$USER/bin (follow-up to #6121)",
+   "url": "https://github.com/nexu-io/open-design/issues/7790",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted"
+   ],
+   "updatedAt": "2026-10-18T20:10:30Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #7795 by @SatvikMishra08 is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/7795"
+   ]
+  },
+  {
+   "number": 7836,
+   "title": "[Bug]: Reference-project search can submit a hidden auto-selected project",
+   "url": "https://github.com/nexu-io/open-design/issues/7836",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-05T03:39:29Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #8621 by @chaitanya-y20 is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/8621"
+   ]
+  },
+  {
+   "number": 7874,
+   "title": "[Bug]: Chat composer can send before current-turn uploads are ready",
+   "url": "https://github.com/nexu-io/open-design/issues/7874",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-10-12T01:35:27Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #7875 by @roian6 is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/7875"
+   ]
+  },
+  {
+   "number": 7968,
+   "title": "Support opencode2 (OpenCode V2) MCP config: nested mcp.servers + ~/.config/opencode2 path",
+   "url": "https://github.com/nexu-io/open-design/issues/7968",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-09-09T19:09:36Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "already assigned to @Bryandero98",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/issues/7968",
+    "https://github.com/nexu-io/open-design/issues/7968#issuecomment-5607234354"
+   ]
+  },
+  {
+   "number": 7992,
+   "title": "[Bug]: DeepSeek Harness 0.1.5-rc.1 streams no assistant text — connection test fails with \"exit 0\"",
+   "url": "https://github.com/nexu-io/open-design/issues/7992",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-09-30T19:59:16Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #8070 by @rottenpen is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/8070"
+   ]
+  },
+  {
+   "number": 8005,
+   "title": "Archive download failure silently substitutes a single-file ZIP with no error",
+   "url": "https://github.com/nexu-io/open-design/issues/8005",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-09-14T21:29:27Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #8134 by @xiaodu55 is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/8134",
+    "https://github.com/nexu-io/open-design/pull/8138"
+   ]
+  },
+  {
+   "number": 8048,
+   "title": "Three max-tokens defaults exceed MAX_MAX_TOKENS and cannot be restored after an override",
+   "url": "https://github.com/nexu-io/open-design/issues/8048",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-06T14:29:24Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #8049 by @Matthew-Selvam is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/8049",
+    "https://github.com/nexu-io/open-design/pull/8052",
+    "https://github.com/nexu-io/open-design/pull/8055",
+    "https://github.com/nexu-io/open-design/pull/8087",
+    "https://github.com/nexu-io/open-design/pull/9344"
+   ]
+  },
+  {
+   "number": 8095,
+   "title": "[Bug]: Ctrl+Shift+- (zoom out) does not work - Electron intercepts the shortcut",
+   "url": "https://github.com/nexu-io/open-design/issues/8095",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted"
+   ],
+   "updatedAt": "2026-09-30T07:07:25Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #8530 by @scs0209 is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/8530"
+   ]
+  },
+  {
+   "number": 8097,
+   "title": "New Project dialog unreachable since #6142 — no way to bind a project to a local working directory",
+   "url": "https://github.com/nexu-io/open-design/issues/8097",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted"
+   ],
+   "updatedAt": "2026-10-13T02:54:21Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #8191 by @Shikhaaa506 is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/8191"
+   ]
+  },
+  {
+   "number": 8099,
+   "title": "[Bug]: production stage emits no progress while building one large artifact in a single tool call",
+   "url": "https://github.com/nexu-io/open-design/issues/8099",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted"
+   ],
+   "updatedAt": "2026-09-30T12:34:09Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "already assigned to @YUHAO-corn",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/issues/8099",
+    "https://github.com/nexu-io/open-design/issues/8099#issuecomment-5911334669"
+   ]
+  },
+  {
+   "number": 8103,
+   "title": "fix(media): send image_urls to Fal Seedream edit endpoints",
+   "url": "https://github.com/nexu-io/open-design/issues/8103",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted"
+   ],
+   "updatedAt": "2026-09-30T12:33:47Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #8105 by @ergs0204 is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/8105"
+   ]
+  },
+  {
+   "number": 8143,
+   "title": "[Bug]: generate() produces a grey palette for dark primaries (brightnessStep1 is tuned for bright seeds)",
+   "url": "https://github.com/nexu-io/open-design/issues/8143",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-10-10T14:58:31Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #8148 by @roian6 is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/8148"
+   ]
+  },
+  {
+   "number": 8176,
+   "title": "[Bug]: Global button height reset clips multi-line button content in several components",
+   "url": "https://github.com/nexu-io/open-design/issues/8176",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-10-29T07:10:06Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #8309 by @PratikRai0101 is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/8309"
+   ]
+  },
+  {
+   "number": 8227,
+   "title": "[Bug]: official Dockerfile ships no agent CLI — opencode/Vela login required workaround",
+   "url": "https://github.com/nexu-io/open-design/issues/8227",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-06T14:45:56Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #9346 by @mafujahmedridoy22-commits is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/9346"
+   ]
+  },
+  {
+   "number": 8284,
+   "title": "[Bug]: Packaged Electron disk cache grows unbounded during task previews (SimpleCache / critique max-age=3600)",
+   "url": "https://github.com/nexu-io/open-design/issues/8284",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted"
+   ],
+   "updatedAt": "2026-10-04T22:14:17Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #8540 by @BillNotAGamer is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/8540",
+    "https://github.com/nexu-io/open-design/pull/8283"
+   ]
+  },
+  {
+   "number": 8343,
+   "title": "[Bug]: Home creation-type listbox lacks a keyboard focus model",
+   "url": "https://github.com/nexu-io/open-design/issues/8343",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted"
+   ],
+   "updatedAt": "2026-10-12T14:42:34Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #8347 by @roian6 is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/8347"
+   ]
+  },
+  {
+   "number": 8363,
+   "title": "[Bug]: Linux AppImage cannot start — web sidecar fails to load next.config.ts (ENOENT on WORKSPACE_ROOT-relative sources in packaged layout)",
+   "url": "https://github.com/nexu-io/open-design/issues/8363",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-10-24T05:06:45Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #8840 by @ExtraBinoss is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/8840",
+    "https://github.com/nexu-io/open-design/pull/9051",
+    "https://github.com/nexu-io/open-design/pull/8538"
+   ]
+  },
+  {
+   "number": 8370,
+   "title": "[Bug]: Cannot go out of Deepseek signin",
+   "url": "https://github.com/nexu-io/open-design/issues/8370",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-11T15:52:06Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #8376 by @PratikRai0101 is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/8376"
+   ]
+  },
+  {
+   "number": 8475,
+   "title": "[Bug]: Web app crashes on load — raw NUL bytes in useProjectRunStatuses.ts cause 'literal not terminated' SyntaxError",
+   "url": "https://github.com/nexu-io/open-design/issues/8475",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-11T17:05:42Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #8476 by @TwFlem is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/8476",
+    "https://github.com/nexu-io/open-design/pull/8529"
+   ]
+  },
+  {
+   "number": 8493,
+   "title": "[Bug]: Plugin-details views appear as workspace tabs alongside projects and pile up as identical \"插件详情\" entries",
+   "url": "https://github.com/nexu-io/open-design/issues/8493",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted"
+   ],
+   "updatedAt": "2026-10-09T03:15:32Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #8500 by @hu-kujiku is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/8500"
+   ]
+  },
+  {
+   "number": 8548,
+   "title": "[Bug]: DSH `job_output` waits longer than 10 minutes are killed by the inactivity watchdog, and the `OD_CHAT_RUN_INACTIVITY_TIMEOUT_MS` escape hatch is inert in packaged builds",
+   "url": "https://github.com/nexu-io/open-design/issues/8548",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-10-06T00:25:29Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #8552 by @tev6 is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/8552"
+   ]
+  },
+  {
+   "number": 8572,
+   "title": "Reasonix connection test persists a probe session into the user's Reasonix state home",
+   "url": "https://github.com/nexu-io/open-design/issues/8572",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted"
+   ],
+   "updatedAt": "2026-10-04T18:57:33Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #8573 by @jf200s is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/8573"
+   ]
+  },
+  {
+   "number": 8575,
+   "title": "Windows: ACP model detection fails for npm-installed agents (raw spawn of .cmd shim → EINVAL), model picker falls back to stale list",
+   "url": "https://github.com/nexu-io/open-design/issues/8575",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-10-04T05:39:04Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #8577 by @dchaudhari7177 is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/8577"
+   ]
+  },
+  {
+   "number": 8578,
+   "title": "[Bug]: custom-image reference-image (i2i) posts JSON to /images/edits — empty \"custom image 404:\" on providers without that route (e.g. Alibaba Cloud Model Studio); add Model Studio as a supported provider",
+   "url": "https://github.com/nexu-io/open-design/issues/8578",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-10-07T12:21:25Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #8579 by @Shadid516 is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/8579"
+   ]
+  },
+  {
+   "number": 8588,
+   "title": "Linux menu entry renders without an icon — icon ships into an undeclared hicolor size directory",
+   "url": "https://github.com/nexu-io/open-design/issues/8588",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-09T12:02:16Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "@dattarajdev claimed it 5 days ago",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/issues/8588#issuecomment-6739475304"
+   ]
+  },
+  {
+   "number": 8596,
+   "title": "Issue 2 — A run that produced an artifact is reported as failed, and the failure card hides the artifact",
+   "url": "https://github.com/nexu-io/open-design/issues/8596",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-13T18:52:39Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #8613 by @PratikRai0101 is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/8613"
+   ]
+  },
+  {
+   "number": 8638,
+   "title": "Compact model switcher on Home: add search; long provider-prefixed model names are indistinguishable",
+   "url": "https://github.com/nexu-io/open-design/issues/8638",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2026-10-13T02:34:28Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #8642 by @marianif is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/8642",
+    "https://github.com/nexu-io/open-design/pull/8667"
+   ]
+  },
+  {
+   "number": 8753,
+   "title": "Desktop: support batch import of personal Skills",
+   "url": "https://github.com/nexu-io/open-design/issues/8753",
+   "labels": [
+    "help wanted",
+    "feature"
+   ],
+   "updatedAt": "2026-10-15T03:27:54Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #8754 by @xiaomizhou2 is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/8754"
+   ]
+  },
+  {
+   "number": 8779,
+   "title": "Add Databricks Unity Gateway BYOK presets",
+   "url": "https://github.com/nexu-io/open-design/issues/8779",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "needs-product-direction"
+   ],
+   "updatedAt": "2026-10-18T14:27:06Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #8780 by @jogueber is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/8780"
+   ]
+  },
+  {
+   "number": 8790,
+   "title": "[Bug]: Design-system card shows six FILE_NOT_FOUND asset tiles when brand.json has no system/ files",
+   "url": "https://github.com/nexu-io/open-design/issues/8790",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-13T18:10:24Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #8795 by @marcodellemarche is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/8795",
+    "https://github.com/nexu-io/open-design/pull/9463"
+   ]
+  },
+  {
+   "number": 8792,
+   "title": "[Bug]: Placeholder previews and a chat UI kit are written into installed design system packages",
+   "url": "https://github.com/nexu-io/open-design/issues/8792",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-10-18T22:26:57Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #8796 by @marcodellemarche is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/8796"
+   ]
+  },
+  {
+   "number": 8822,
+   "title": "web sidecar proxy leaks daemon sockets when the browser disconnects early (SSE / aborted fetch / aborted upload)",
+   "url": "https://github.com/nexu-io/open-design/issues/8822",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-10-20T08:20:24Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #8827 by @prami25r is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/8827"
+   ]
+  },
+  {
+   "number": 8831,
+   "title": "[Bug]: Design 执行记录中无 description 的失败命令无法展开，错误输出不可查看",
+   "url": "https://github.com/nexu-io/open-design/issues/8831",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted"
+   ],
+   "updatedAt": "2026-10-17T14:19:19Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #8835 by @dunegym is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/8835"
+   ]
+  },
+  {
+   "number": 8849,
+   "title": "[Bug]: Обработка изображений не запускается: ошибка авторизации Vela вместо понятного сообщения",
+   "url": "https://github.com/nexu-io/open-design/issues/8849",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted"
+   ],
+   "updatedAt": "2026-10-29T04:12:10Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #8866 by @vijaykiran06 is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/8866",
+    "https://github.com/nexu-io/open-design/pull/9150"
+   ]
+  },
+  {
+   "number": 8889,
+   "title": "CLI project create silently drops unreadable or malformed --metadata-json",
+   "url": "https://github.com/nexu-io/open-design/issues/8889",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-12T04:24:26Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #8893 by @xu91102 is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/8893",
+    "https://github.com/nexu-io/open-design/pull/8972",
+    "https://github.com/nexu-io/open-design/pull/9431"
+   ]
+  },
+  {
+   "number": 8890,
+   "title": "Research CLI treats string option values before search as subcommands",
+   "url": "https://github.com/nexu-io/open-design/issues/8890",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-13T14:47:26Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #8894 by @xu91102 is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/8894",
+    "https://github.com/nexu-io/open-design/pull/8914",
+    "https://github.com/nexu-io/open-design/pull/9455"
+   ]
+  },
+  {
+   "number": 8891,
+   "title": "Inline HTML export misses entity-encoded asset filenames and double-escapes style attributes",
+   "url": "https://github.com/nexu-io/open-design/issues/8891",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-13T15:01:34Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #8895 by @xu91102 is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/8895",
+    "https://github.com/nexu-io/open-design/pull/9431",
+    "https://github.com/nexu-io/open-design/pull/9456"
+   ]
+  },
+  {
+   "number": 8913,
+   "title": "Model selector hides full name on hover",
+   "url": "https://github.com/nexu-io/open-design/issues/8913",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-10-21T18:54:38Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #8960 by @vijaykiran06 is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/8960"
+   ]
+  },
+  {
+   "number": 8919,
+   "title": "[Bug]: DSH 0.2.1-rc.2 - connection component install fails (ERR_PNPM_ADDING_TO_ROOT + dsh-scope NO_MATCHING_VERSION)",
+   "url": "https://github.com/nexu-io/open-design/issues/8919",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-10-25T10:23:14Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #8992 by @BharanitharanKR is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/8992"
+   ]
+  },
+  {
+   "number": 9016,
+   "title": "[Bug]: 首启向导连接测试失败时，点击 Continue 无任何反馈",
+   "url": "https://github.com/nexu-io/open-design/issues/9016",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-10-26T06:40:51Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #9020 by @vijaykiran06 is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/9020"
+   ]
+  },
+  {
+   "number": 9056,
+   "title": "[Bug]: Wrong OpenRouter model name with OpenCode harness",
+   "url": "https://github.com/nexu-io/open-design/issues/9056",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-12T04:00:29Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #9058 by @florianaltendorfer is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/9058",
+    "https://github.com/nexu-io/open-design/pull/9462"
+   ]
+  },
+  {
+   "number": 9086,
+   "title": "[Feature]: MCP start_run cannot target a conversation — expose conversationId (plus list/create conversations) so external agents can switch sessions",
+   "url": "https://github.com/nexu-io/open-design/issues/9086",
+   "labels": [
+    "help wanted",
+    "feature"
+   ],
+   "updatedAt": "2026-11-11T03:08:00Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "@maxmilian claimed it 4 days ago",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/issues/9086#issuecomment-6785714316"
+   ]
+  },
+  {
+   "number": 9157,
+   "title": "[Bug]: Windows web UI shows \"Internal Server Error\" (HTTP 500) when the user profile is behind a junction (C:\\Users -> D:\\)",
+   "url": "https://github.com/nexu-io/open-design/issues/9157",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-08T15:39:09Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #9187 by @qwist1233-cpu is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/9187",
+    "https://github.com/nexu-io/open-design/pull/9371"
+   ]
+  },
+  {
+   "number": 9292,
+   "title": "[Bug]: DeepSeek BYOK 预设中“获取 API Key”链接错误跳转至 OpenAI 控制台",
+   "url": "https://github.com/nexu-io/open-design/issues/9292",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-13T18:10:23Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #9301 by @XuDaojie is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/9301",
+    "https://github.com/nexu-io/open-design/pull/9460"
+   ]
+  },
+  {
+   "number": 9305,
+   "title": "[Bug]: Preview comment save is gated on a team workspace, so the request is never sent on personal workspaces",
+   "url": "https://github.com/nexu-io/open-design/issues/9305",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-09T02:01:48Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #9307 by @wasabihu is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/9307"
+   ]
+  },
+  {
+   "number": 9359,
+   "title": "[Bug] Web UI crashes on plain-HTTP non-localhost origins in v0.27.0 — unguarded crypto.randomUUID() again (regression of #1620)",
+   "url": "https://github.com/nexu-io/open-design/issues/9359",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-13T18:11:25Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #9372 by @syed-irtaza7 is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/9372",
+    "https://github.com/nexu-io/open-design/pull/9461"
+   ]
+  },
+  {
+   "number": 9377,
+   "title": "[Bug]: Plugin gallery ignores shipped title_i18n — 464 plugins still show English in the zh-CN UI",
+   "url": "https://github.com/nexu-io/open-design/issues/9377",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-13T08:38:54Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #9403 by @dns-18 is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/9403",
+    "https://github.com/nexu-io/open-design/pull/9458"
+   ]
+  },
+  {
+   "number": 9416,
+   "title": "[Bug]: Client retries a non-retryable 403 WORKSPACE_PROJECT_PERMISSION_DENIED in a tight loop and shows a misleading 'contact support' card",
+   "url": "https://github.com/nexu-io/open-design/issues/9416",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-13T16:38:07Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #9448 by @sachitdotdev is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/9448"
+   ]
+  },
+  {
+   "number": 9417,
+   "title": "[Bug]: Resource push fails with 501 blob_upload_failed on a 0-byte file and never names the offending path",
+   "url": "https://github.com/nexu-io/open-design/issues/9417",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-12T09:49:14Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #9438 by @Vedant-200 is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/9438"
+   ]
+  },
+  {
+   "number": 9422,
+   "title": "net.fetch fails for every loopback request and falls back to undici (352 warnings per session)",
+   "url": "https://github.com/nexu-io/open-design/issues/9422",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-11T22:43:53Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.anthropic.com/en/docs/claude-code/skills) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/issues/9422",
+    "https://github.com/nexu-io/open-design/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/nexu-io/open-design/blob/HEAD/.github/AGENTS.md",
+    "https://docs.anthropic.com/en/docs/claude-code/skills"
+   ]
+  },
+  {
+   "number": 9452,
+   "title": "Mac packaged design-system previews: preserve canonical URLs through od:// and first-read context",
+   "url": "https://github.com/nexu-io/open-design/issues/9452",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-14T17:10:52Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "already assigned to @shadowhelper93",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/issues/9452",
+    "https://github.com/nexu-io/open-design/issues/9452#issuecomment-6881174971"
    ]
   }
  ]

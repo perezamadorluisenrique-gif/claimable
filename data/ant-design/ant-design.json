@@ -4,6 +4,1898 @@
  "language": "TypeScript",
  "stars": 100145,
  "description": "An enterprise-class UI design language and React UI library",
- "visitedAt": "2026-11-10T17:47:07.019Z",
- "issues": []
+ "visitedAt": "2026-11-14T22:28:38.603Z",
+ "issues": [
+  {
+   "number": 8579,
+   "title": "Upload component - enable sending multiple files in one XHR request",
+   "url": "https://github.com/ant-design/ant-design/issues/8579",
+   "labels": [
+    "help wanted",
+    "💡 Feature Request",
+    "Inactive",
+    "IssueHuntFest"
+   ],
+   "updatedAt": "2026-08-31T00:50:26Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/blueimp/jQuery-File-Upload/wiki/Options#singlefileuploads) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/issues/8579",
+    "https://github.com/blueimp/jQuery-File-Upload/wiki/Options#singlefileuploads"
+   ]
+  },
+  {
+   "number": 22253,
+   "title": "增加表格筛选父级字段高亮",
+   "url": "https://github.com/ant-design/ant-design/issues/22253",
+   "labels": [
+    "help wanted",
+    "Inactive",
+    "improvement"
+   ],
+   "updatedAt": "2026-08-31T00:50:07Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/ant-design/ant-design/wiki/Development) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/issues/22253",
+    "https://github.com/ant-design/ant-design/wiki/Development"
+   ]
+  },
+  {
+   "number": 22343,
+   "title": "Improve the accessibility",
+   "url": "https://github.com/ant-design/ant-design/issues/22343",
+   "labels": [
+    "help wanted",
+    "Inactive",
+    "⌨️ Accessibility"
+   ],
+   "updatedAt": "2026-08-31T00:50:06Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "PR #25774 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+8 more)",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/pull/25774",
+    "https://github.com/ant-design/ant-design/pull/25630",
+    "https://github.com/biglocalnews/reporting-tool/pull/8",
+    "https://github.com/ant-design/ant-design/pull/33136",
+    "https://github.com/ant-design/ant-design/pull/59006",
+    "https://github.com/ant-design/ant-design/pull/59007",
+    "https://github.com/ant-design/ant-design/pull/59024",
+    "https://github.com/ant-design/ant-design/pull/59032",
+    "https://github.com/ant-design/ant-design/issues/22343"
+   ]
+  },
+  {
+   "number": 25929,
+   "title": "Upload 分片上传",
+   "url": "https://github.com/ant-design/ant-design/issues/25929",
+   "labels": [
+    "help wanted",
+    "💡 Feature Request",
+    "Inactive"
+   ],
+   "updatedAt": "2026-08-31T00:49:53Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/ant-design/ant-design/wiki/Development) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/issues/25929",
+    "https://github.com/ant-design/ant-design/wiki/Development"
+   ]
+  },
+  {
+   "number": 26021,
+   "title": "Add back expandIconAsCell={false} in > 4.0",
+   "url": "https://github.com/ant-design/ant-design/issues/26021",
+   "labels": [
+    "help wanted",
+    "💡 Feature Request",
+    "Inactive"
+   ],
+   "updatedAt": "2026-08-31T00:49:52Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/ant-design/ant-design/wiki/Development) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/issues/26021",
+    "https://github.com/ant-design/ant-design/wiki/Development"
+   ]
+  },
+  {
+   "number": 26182,
+   "title": "[Statistic.Countdown] Would be nice to have a pause/start api.",
+   "url": "https://github.com/ant-design/ant-design/issues/26182",
+   "labels": [
+    "help wanted",
+    "💡 Feature Request",
+    "Inactive"
+   ],
+   "updatedAt": "2026-08-31T00:49:50Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/ant-design/ant-design/wiki/Development) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/issues/26182",
+    "https://github.com/ant-design/ant-design/wiki/Development"
+   ]
+  },
+  {
+   "number": 26758,
+   "title": "DatePicker/RangePicker on mobile browsers",
+   "url": "https://github.com/ant-design/ant-design/issues/26758",
+   "labels": [
+    "help wanted",
+    "Inactive",
+    "improvement",
+    "📱Mobile Device"
+   ],
+   "updatedAt": "2026-08-31T00:49:46Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "PR #691 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/react-component/picker/pull/691",
+    "https://github.com/ant-design/ant-design/issues/26758",
+    "https://github.com/ant-design/ant-design/wiki/Development"
+   ]
+  },
+  {
+   "number": 27197,
+   "title": "Filter treeNodes in Tree component on search",
+   "url": "https://github.com/ant-design/ant-design/issues/27197",
+   "labels": [
+    "help wanted",
+    "💡 Feature Request",
+    "Inactive"
+   ],
+   "updatedAt": "2026-08-31T00:49:42Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "PR #31809 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/pull/31809",
+    "https://github.com/ant-design/ant-design/issues/27197",
+    "https://github.com/ant-design/ant-design/wiki/Development"
+   ]
+  },
+  {
+   "number": 27426,
+   "title": "mentions 使用onchange的情况下输入 @ 符号在删除之前的@符号会弹出无数据 ",
+   "url": "https://github.com/ant-design/ant-design/issues/27426",
+   "labels": [
+    "🐛 Bug",
+    "help wanted",
+    "Inactive"
+   ],
+   "updatedAt": "2026-08-31T00:49:41Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #339 by @dogledogle is already open against this issue",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/react-component/mentions/pull/339"
+   ]
+  },
+  {
+   "number": 27512,
+   "title": "Allow primitive values as table's datasource",
+   "url": "https://github.com/ant-design/ant-design/issues/27512",
+   "labels": [
+    "help wanted",
+    "💡 Feature Request",
+    "Inactive"
+   ],
+   "updatedAt": "2026-08-31T00:49:40Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/ant-design/ant-design/wiki/Development) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/issues/27512",
+    "https://github.com/ant-design/ant-design/wiki/Development"
+   ]
+  },
+  {
+   "number": 28041,
+   "title": "[Tree] Outer connected line flash when toggling inner node's switch button",
+   "url": "https://github.com/ant-design/ant-design/issues/28041",
+   "labels": [
+    "🐛 Bug",
+    "help wanted",
+    "Inactive"
+   ],
+   "updatedAt": "2026-08-31T00:49:38Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/ant-design/ant-design/wiki/Development) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/issues/28041",
+    "https://github.com/ant-design/ant-design/wiki/Development"
+   ]
+  },
+  {
+   "number": 28316,
+   "title": "表头分组和固定列搜索定位问题",
+   "url": "https://github.com/ant-design/ant-design/issues/28316",
+   "labels": [
+    "🐛 Bug",
+    "help wanted",
+    "Inactive"
+   ],
+   "updatedAt": "2026-08-31T00:49:37Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/ant-design/ant-design/wiki/Development) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/issues/28316",
+    "https://github.com/ant-design/ant-design/wiki/Development"
+   ]
+  },
+  {
+   "number": 29568,
+   "title": "sustainable time for <Spin />",
+   "url": "https://github.com/ant-design/ant-design/issues/29568",
+   "labels": [
+    "help wanted",
+    "Inactive"
+   ],
+   "updatedAt": "2024-11-29T03:53:01Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #58759 by @dogledogle is already open against this issue",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/pull/58759"
+   ]
+  },
+  {
+   "number": 30165,
+   "title": "Select: define the width of  select item option",
+   "url": "https://github.com/ant-design/ant-design/issues/30165",
+   "labels": [
+    "help wanted",
+    "💡 Feature Request",
+    "Inactive"
+   ],
+   "updatedAt": "2026-08-31T00:49:27Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/ant-design/ant-design/wiki/Development) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/issues/30165",
+    "https://github.com/ant-design/ant-design/wiki/Development"
+   ]
+  },
+  {
+   "number": 30624,
+   "title": "AutoComplete does not fire onDropdownVisibleChange after filtering.",
+   "url": "https://github.com/ant-design/ant-design/issues/30624",
+   "labels": [
+    "🐛 Bug",
+    "help wanted",
+    "Inactive"
+   ],
+   "updatedAt": "2025-01-16T00:06:43Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #628 by @anderlaw is already open against this issue",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/react-component/select/pull/628"
+   ]
+  },
+  {
+   "number": 31233,
+   "title": "Avatar groups should only display the   n overflow element when n>1, otherwise use the space to display the final item",
+   "url": "https://github.com/ant-design/ant-design/issues/31233",
+   "labels": [
+    "help wanted",
+    "Inactive"
+   ],
+   "updatedAt": "2026-06-23T02:56:24Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "PR #58475 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/pull/58475",
+    "https://github.com/ant-design/ant-design/issues/31233",
+    "https://github.com/ant-design/ant-design/wiki/Development"
+   ]
+  },
+  {
+   "number": 32402,
+   "title": "Menu.Item title tooltip is visible on mobile after Layout.Sider is collapsed with 0 width",
+   "url": "https://github.com/ant-design/ant-design/issues/32402",
+   "labels": [
+    "help wanted",
+    "Inactive",
+    "📱Mobile Device"
+   ],
+   "updatedAt": "2025-12-01T22:09:05Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/ant-design/ant-design/wiki/Development) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/issues/32402",
+    "https://github.com/ant-design/ant-design/wiki/Development"
+   ]
+  },
+  {
+   "number": 32681,
+   "title": "Menu 性能问题",
+   "url": "https://github.com/ant-design/ant-design/issues/32681",
+   "labels": [
+    "help wanted",
+    "Inactive",
+    "⚡️ Performance"
+   ],
+   "updatedAt": "2025-01-16T00:06:41Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "already assigned to @zombieJ",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/react-component/menu/pull/426",
+    "https://github.com/ant-design/ant-design/pull/35071",
+    "https://github.com/ant-design/ant-design/issues/32681"
+   ]
+  },
+  {
+   "number": 33185,
+   "title": "Input.Password component doesn't get initial value from Form on SSR (Next.js)",
+   "url": "https://github.com/ant-design/ant-design/issues/33185",
+   "labels": [
+    "🐛 Bug",
+    "help wanted",
+    "Inactive"
+   ],
+   "updatedAt": "2026-09-23T05:33:08Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #59369 by @pentaoa is already open against this issue",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/pull/59369"
+   ]
+  },
+  {
+   "number": 33363,
+   "title": "[Accessibility] Improve Image.PreviewGroup full screen images accessibility",
+   "url": "https://github.com/ant-design/ant-design/issues/33363",
+   "labels": [
+    "help wanted",
+    "💡 Feature Request",
+    "Inactive",
+    "⌨️ Accessibility"
+   ],
+   "updatedAt": "2026-08-31T00:49:26Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/ant-design/ant-design/wiki/Development) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/issues/33363",
+    "https://github.com/ant-design/ant-design/wiki/Development"
+   ]
+  },
+  {
+   "number": 33859,
+   "title": "Mac系统下，Radio按钮在选中状态被禁用时，有很大概率会出现Radio选中状态闪烁的情况",
+   "url": "https://github.com/ant-design/ant-design/issues/33859",
+   "labels": [
+    "🐛 Bug",
+    "help wanted",
+    "Inactive"
+   ],
+   "updatedAt": "2025-06-01T14:45:56Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/ant-design/ant-design/wiki/Development) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/issues/33859",
+    "https://github.com/ant-design/ant-design/wiki/Development"
+   ]
+  },
+  {
+   "number": 34182,
+   "title": "Tree 的 titleRender 刷新多次 ",
+   "url": "https://github.com/ant-design/ant-design/issues/34182",
+   "labels": [
+    "help wanted",
+    "Inactive",
+    "⚡️ Performance"
+   ],
+   "updatedAt": "2025-01-16T00:06:38Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #190 by @muzea is already open against this issue",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/react-component/virtual-list/pull/190"
+   ]
+  },
+  {
+   "number": 34817,
+   "title": "Table EXPAND_COLUMN does not work for JSX style.",
+   "url": "https://github.com/ant-design/ant-design/issues/34817",
+   "labels": [
+    "help wanted",
+    "Inactive"
+   ],
+   "updatedAt": "2025-09-22T16:13:00Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/ant-design/ant-design/wiki/Development) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/issues/34817",
+    "https://github.com/ant-design/ant-design/wiki/Development"
+   ]
+  },
+  {
+   "number": 36985,
+   "title": "setFieldValue don't call dependencies form field change",
+   "url": "https://github.com/ant-design/ant-design/issues/36985",
+   "labels": [
+    "help wanted",
+    "Inactive",
+    "improvement"
+   ],
+   "updatedAt": "2026-08-13T06:49:18Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #492 by @linct96 is already open against this issue",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/react-component/field-form/pull/492"
+   ]
+  },
+  {
+   "number": 37157,
+   "title": "关于Image.PreviewGroup挂载到指定节点后，鼠标不在图片放大界面上触发wheel事件监听时也会导致图片放大缩小",
+   "url": "https://github.com/ant-design/ant-design/issues/37157",
+   "labels": [
+    "help wanted",
+    "Inactive"
+   ],
+   "updatedAt": "2026-08-13T09:04:46Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/ant-design/ant-design/wiki/Development) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/issues/37157",
+    "https://github.com/ant-design/ant-design/wiki/Development"
+   ]
+  },
+  {
+   "number": 37289,
+   "title": "<Dropdown arrow trigger={['contextMenu']}> can't show arrow",
+   "url": "https://github.com/ant-design/ant-design/issues/37289",
+   "labels": [
+    "🐛 Bug",
+    "help wanted",
+    "Inactive"
+   ],
+   "updatedAt": "2024-09-07T13:42:23Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/ant-design/ant-design/wiki/Development) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/issues/37289",
+    "https://github.com/ant-design/ant-design/wiki/Development"
+   ]
+  },
+  {
+   "number": 38158,
+   "title": "Popover remains visible when component tree is suspended",
+   "url": "https://github.com/ant-design/ant-design/issues/38158",
+   "labels": [
+    "help wanted",
+    "Inactive"
+   ],
+   "updatedAt": "2026-08-18T09:05:06Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/ant-design/ant-design/wiki/Development) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/issues/38158",
+    "https://github.com/ant-design/ant-design/wiki/Development"
+   ]
+  },
+  {
+   "number": 38918,
+   "title": "Impossible to add word-wrap to menu title; `white-space: normal` has no effect",
+   "url": "https://github.com/ant-design/ant-design/issues/38918",
+   "labels": [
+    "help wanted",
+    "Inactive"
+   ],
+   "updatedAt": "2026-08-20T05:16:04Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/ant-design/ant-design/wiki/Development) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/issues/38918",
+    "https://github.com/ant-design/ant-design/wiki/Development"
+   ]
+  },
+  {
+   "number": 41024,
+   "title": "Theme: controlPaddingHorizontal issues",
+   "url": "https://github.com/ant-design/ant-design/issues/41024",
+   "labels": [
+    "help wanted",
+    "Inactive",
+    "improvement"
+   ],
+   "updatedAt": "2025-10-14T02:10:17Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #59545 by @xushanpei is already open against this issue",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/pull/59545"
+   ]
+  },
+  {
+   "number": 41151,
+   "title": "glitch on Textarea and scrollbar",
+   "url": "https://github.com/ant-design/ant-design/issues/41151",
+   "labels": [
+    "help wanted",
+    "Inactive"
+   ],
+   "updatedAt": "2024-12-15T00:08:43Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @digholesnehal 1132 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/issues/41151#issuecomment-1753068881",
+    "https://github.com/ant-design/ant-design/issues/41151",
+    "https://github.com/ant-design/ant-design/wiki/Development"
+   ]
+  },
+  {
+   "number": 41652,
+   "title": "[Image]图片组件希望增加属性,控制是否开启拖动自动回弹到屏幕中心",
+   "url": "https://github.com/ant-design/ant-design/issues/41652",
+   "labels": [
+    "help wanted",
+    "Inactive",
+    "unconfirmed"
+   ],
+   "updatedAt": "2026-09-02T07:51:15Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #531 by @EmilyyyLiu is already open against this issue",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/react-component/image/pull/531"
+   ]
+  },
+  {
+   "number": 41654,
+   "title": "Mentions: unexpected behavior with max-height and scroll",
+   "url": "https://github.com/ant-design/ant-design/issues/41654",
+   "labels": [
+    "🐛 Bug",
+    "help wanted",
+    "Inactive"
+   ],
+   "updatedAt": "2024-05-22T10:58:54Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/ant-design/ant-design/wiki/Development) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/issues/41654",
+    "https://github.com/ant-design/ant-design/wiki/Development"
+   ]
+  },
+  {
+   "number": 41672,
+   "title": "pagenation组件做国际化，但是antd组件库里没有相关的国际化语言",
+   "url": "https://github.com/ant-design/ant-design/issues/41672",
+   "labels": [
+    "help wanted",
+    "Inactive",
+    "unconfirmed"
+   ],
+   "updatedAt": "2024-12-05T02:30:25Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/ant-design/ant-design/wiki/Development) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/issues/41672",
+    "https://github.com/ant-design/ant-design/wiki/Development"
+   ]
+  },
+  {
+   "number": 44142,
+   "title": "增加手机浏览器访问时的文档列表结构",
+   "url": "https://github.com/ant-design/ant-design/issues/44142",
+   "labels": [
+    "help wanted",
+    "📝 Documentation",
+    "Inactive",
+    "📱Mobile Device"
+   ],
+   "updatedAt": "2025-06-01T15:11:15Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/ant-design/ant-design/wiki/Development) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/issues/44142",
+    "https://github.com/ant-design/ant-design/wiki/Development"
+   ]
+  },
+  {
+   "number": 44382,
+   "title": "【cascader】同一省份中选中某个位于底部的某个市，然后切换到另一个省份时，市的一列没有默认回到顶部",
+   "url": "https://github.com/ant-design/ant-design/issues/44382",
+   "labels": [
+    "help wanted",
+    "Inactive",
+    "unconfirmed"
+   ],
+   "updatedAt": "2026-10-10T10:03:26Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #428 by @blockmood is already open against this issue",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/react-component/cascader/pull/428",
+    "https://github.com/react-component/cascader/pull/440",
+    "https://github.com/react-component/cascader/pull/667"
+   ]
+  },
+  {
+   "number": 44667,
+   "title": "Accessibility issue: aria-required-children issue for antd Tree",
+   "url": "https://github.com/ant-design/ant-design/issues/44667",
+   "labels": [
+    "help wanted",
+    "Inactive",
+    "⌨️ Accessibility"
+   ],
+   "updatedAt": "2026-08-19T04:15:23Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "PR #59020 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/pull/59020",
+    "https://github.com/ant-design/ant-design/issues/44667",
+    "https://github.com/ant-design/ant-design/wiki/Development"
+   ]
+  },
+  {
+   "number": 45305,
+   "title": "[Preact] second official framework support",
+   "url": "https://github.com/ant-design/ant-design/issues/45305",
+   "labels": [
+    "help wanted",
+    "Inactive"
+   ],
+   "updatedAt": "2026-01-20T12:20:45Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/ant-design/ant-design/wiki/Development) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/issues/45305",
+    "https://github.com/ant-design/ant-design/wiki/Development"
+   ]
+  },
+  {
+   "number": 45524,
+   "title": "开启table的虚拟滚动，表头会出现频发性位置错乱",
+   "url": "https://github.com/ant-design/ant-design/issues/45524",
+   "labels": [
+    "🐛 Bug",
+    "help wanted",
+    "Inactive"
+   ],
+   "updatedAt": "2026-04-20T08:48:04Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "PR #50561 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/pull/50561",
+    "https://github.com/ant-design/ant-design/issues/45524",
+    "https://github.com/ant-design/ant-design/wiki/Development"
+   ]
+  },
+  {
+   "number": 46257,
+   "title": "addOnBefore/addOnAfter text not programmatically associated with Input elements (accessibility)",
+   "url": "https://github.com/ant-design/ant-design/issues/46257",
+   "labels": [
+    "help wanted",
+    "Inactive",
+    "⌨️ Accessibility",
+    "unconfirmed"
+   ],
+   "updatedAt": "2025-11-05T14:11:17Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #59377 by @meet-student is already open against this issue",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/pull/59377"
+   ]
+  },
+  {
+   "number": 46413,
+   "title": "Fix ESM exports",
+   "url": "https://github.com/ant-design/ant-design/issues/46413",
+   "labels": [
+    "help wanted",
+    "Inactive",
+    "🧶 Low Priority"
+   ],
+   "updatedAt": "2024-05-04T06:32:58Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "8 paths named in the issue do not exist on `ant-design`'s default branch — that is unlisted work: antd/es/, rc-???/lib/, lib/, d.ts, *#__PURE__*/, antd/es/skeleton/Paragraph.js, … (+1 more)",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/issues/46413",
+    "https://github.com/ant-design/ant-design/wiki/Development"
+   ]
+  },
+  {
+   "number": 47047,
+   "title": "为 `Layout.Header` 增加 `theme` 属性",
+   "url": "https://github.com/ant-design/ant-design/issues/47047",
+   "labels": [
+    "help wanted",
+    "💡 Feature Request",
+    "Inactive"
+   ],
+   "updatedAt": "2025-12-18T01:47:45Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/ant-design/ant-design/wiki/Development) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/issues/47047",
+    "https://github.com/ant-design/ant-design/wiki/Development"
+   ]
+  },
+  {
+   "number": 47653,
+   "title": "希望能控制 Cascader 多选时下拉展开的选项",
+   "url": "https://github.com/ant-design/ant-design/issues/47653",
+   "labels": [
+    "help wanted",
+    "Inactive",
+    "👷🏻‍♂️ Someone working on it"
+   ],
+   "updatedAt": "2024-12-15T00:08:29Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/ant-design/ant-design/wiki/Development) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/issues/47653",
+    "https://github.com/ant-design/ant-design/wiki/Development"
+   ]
+  },
+  {
+   "number": 47834,
+   "title": "Table 堆叠固定列没有阴影",
+   "url": "https://github.com/ant-design/ant-design/issues/47834",
+   "labels": [
+    "🐛 Bug",
+    "help wanted",
+    "Inactive"
+   ],
+   "updatedAt": "2025-01-16T00:06:34Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #1202 by @bbb169 is already open against this issue",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/react-component/table/pull/1202"
+   ]
+  },
+  {
+   "number": 48036,
+   "title": "Autocomplete component - Required ARIA attributes must be provided",
+   "url": "https://github.com/ant-design/ant-design/issues/48036",
+   "labels": [
+    "help wanted",
+    "Inactive",
+    "⌨️ Accessibility"
+   ],
+   "updatedAt": "2026-08-19T16:02:12Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "PR #1077 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/react-component/select/pull/1077",
+    "https://github.com/ant-design/ant-design/issues/48036",
+    "https://github.com/ant-design/ant-design/wiki/Development"
+   ]
+  },
+  {
+   "number": 48054,
+   "title": "Got error when rendering tree at new window",
+   "url": "https://github.com/ant-design/ant-design/issues/48054",
+   "labels": [
+    "help wanted",
+    "Inactive",
+    "unconfirmed"
+   ],
+   "updatedAt": "2024-06-16T00:07:13Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/ant-design/ant-design/wiki/Development) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/issues/48054",
+    "https://github.com/ant-design/ant-design/wiki/Development"
+   ]
+  },
+  {
+   "number": 48132,
+   "title": "Dropdown is missing critical accessibility attributes",
+   "url": "https://github.com/ant-design/ant-design/issues/48132",
+   "labels": [
+    "help wanted",
+    "Inactive",
+    "⌨️ Accessibility"
+   ],
+   "updatedAt": "2024-05-31T00:06:29Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #59544 by @xushanpei is already open against this issue",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/pull/59544"
+   ]
+  },
+  {
+   "number": 48213,
+   "title": "Support for Remix.js (similar to '@ant-design/nextjs-registry')",
+   "url": "https://github.com/ant-design/ant-design/issues/48213",
+   "labels": [
+    "help wanted",
+    "Inactive"
+   ],
+   "updatedAt": "2024-11-16T00:08:33Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/ant-design/ant-design/wiki/Development) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/issues/48213",
+    "https://github.com/ant-design/ant-design/wiki/Development"
+   ]
+  },
+  {
+   "number": 48235,
+   "title": "TimePicker Popup use12Hours AM and PM labels are not covered by internationalization",
+   "url": "https://github.com/ant-design/ant-design/issues/48235",
+   "labels": [
+    "help wanted",
+    "Inactive",
+    "unconfirmed"
+   ],
+   "updatedAt": "2026-08-28T02:21:08Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #3138 by @FatahChan is already open against this issue",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/iamkun/dayjs/pull/3138",
+    "https://github.com/react-component/picker/pull/842"
+   ]
+  },
+  {
+   "number": 48385,
+   "title": "Table没有border时，columns存在只有一列的子列下的样式问题",
+   "url": "https://github.com/ant-design/ant-design/issues/48385",
+   "labels": [
+    "help wanted",
+    "Inactive",
+    "unconfirmed"
+   ],
+   "updatedAt": "2024-06-24T14:21:51Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/ant-design/ant-design/wiki/Development) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/issues/48385",
+    "https://github.com/ant-design/ant-design/wiki/Development"
+   ]
+  },
+  {
+   "number": 48497,
+   "title": "Visual glitch when opening a Modal containing an already opened Select",
+   "url": "https://github.com/ant-design/ant-design/issues/48497",
+   "labels": [
+    "help wanted",
+    "Inactive",
+    "🧶 Low Priority",
+    "unconfirmed"
+   ],
+   "updatedAt": "2024-05-31T00:06:23Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "open 31 months with no human comment, in a repo pushed to 2 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/issues/48497",
+    "https://github.com/ant-design/ant-design/wiki/Development"
+   ]
+  },
+  {
+   "number": 48651,
+   "title": "What to display Table.EXPAND_COLUMN in children column?",
+   "url": "https://github.com/ant-design/ant-design/issues/48651",
+   "labels": [
+    "help wanted",
+    "💡 Feature Request",
+    "Inactive"
+   ],
+   "updatedAt": "2024-05-31T00:06:16Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/ant-design/ant-design/wiki/Development) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/issues/48651",
+    "https://github.com/ant-design/ant-design/wiki/Development"
+   ]
+  },
+  {
+   "number": 48710,
+   "title": "Animate Tree subnodes on select",
+   "url": "https://github.com/ant-design/ant-design/issues/48710",
+   "labels": [
+    "🐛 Bug",
+    "help wanted",
+    "Inactive"
+   ],
+   "updatedAt": "2024-06-16T00:07:09Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/ant-design/ant-design/wiki/Development) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/issues/48710",
+    "https://github.com/ant-design/ant-design/wiki/Development"
+   ]
+  },
+  {
+   "number": 48974,
+   "title": "Refactor Collapse to <details />",
+   "url": "https://github.com/ant-design/ant-design/issues/48974",
+   "labels": [
+    "help wanted",
+    "Inactive",
+    "⌨️ Accessibility"
+   ],
+   "updatedAt": "2024-10-28T07:41:21Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #362 by @IVLIU is already open against this issue",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/react-component/collapse/pull/362"
+   ]
+  },
+  {
+   "number": 49053,
+   "title": "Automatic configuration of the dropdown list location in Dropdown ",
+   "url": "https://github.com/ant-design/ant-design/issues/49053",
+   "labels": [
+    "help wanted",
+    "Inactive"
+   ],
+   "updatedAt": "2024-11-19T02:09:03Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "open 30 months with no human comment, in a repo pushed to 2 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/issues/49053",
+    "https://github.com/ant-design/ant-design/wiki/Development"
+   ]
+  },
+  {
+   "number": 49059,
+   "title": "Watermark component is not working on the iPad",
+   "url": "https://github.com/ant-design/ant-design/issues/49059",
+   "labels": [
+    "help wanted",
+    "Inactive"
+   ],
+   "updatedAt": "2024-07-16T00:07:33Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/ant-design/ant-design/wiki/Development) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/issues/49059",
+    "https://github.com/ant-design/ant-design/wiki/Development"
+   ]
+  },
+  {
+   "number": 49290,
+   "title": "Ability to have an icon inside progress bar line",
+   "url": "https://github.com/ant-design/ant-design/issues/49290",
+   "labels": [
+    "help wanted",
+    "💡 Feature Request",
+    "Inactive"
+   ],
+   "updatedAt": "2025-05-13T09:00:22Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/ant-design/ant-design/wiki/Development) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/issues/49290",
+    "https://github.com/ant-design/ant-design/wiki/Development"
+   ]
+  },
+  {
+   "number": 49394,
+   "title": "TimePicker.RangePicker `format` should support array type ",
+   "url": "https://github.com/ant-design/ant-design/issues/49394",
+   "labels": [
+    "help wanted",
+    "💡 Feature Request",
+    "Inactive"
+   ],
+   "updatedAt": "2024-07-31T00:06:01Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #49364 by @Flcwl is already open against this issue",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/issues/49364"
+   ]
+  },
+  {
+   "number": 49470,
+   "title": "RangePicker组件在onCalendarChange方法中调用form.setFieldsValue会导致时间不可选择",
+   "url": "https://github.com/ant-design/ant-design/issues/49470",
+   "labels": [
+    "🐛 Bug",
+    "help wanted",
+    "Inactive"
+   ],
+   "updatedAt": "2025-01-15T09:52:16Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #718 by @clydee-geng is already open against this issue",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/react-component/field-form/pull/718"
+   ]
+  },
+  {
+   "number": 49475,
+   "title": "Skeleton unmounting throws errors in console in Preact",
+   "url": "https://github.com/ant-design/ant-design/issues/49475",
+   "labels": [
+    "help wanted",
+    "Inactive",
+    "unconfirmed"
+   ],
+   "updatedAt": "2025-10-03T08:42:30Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/ant-design/ant-design/wiki/Development) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/issues/49475",
+    "https://github.com/ant-design/ant-design/wiki/Development"
+   ]
+  },
+  {
+   "number": 49481,
+   "title": "Can antd enhance the actual performance of components in the project by adding e2e testing?",
+   "url": "https://github.com/ant-design/ant-design/issues/49481",
+   "labels": [
+    "help wanted",
+    "Inactive"
+   ],
+   "updatedAt": "2024-07-31T00:05:53Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/ant-design/ant-design/wiki/Development) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/issues/49481",
+    "https://github.com/ant-design/ant-design/wiki/Development"
+   ]
+  },
+  {
+   "number": 49502,
+   "title": "Tabs extra content raises an a11y error",
+   "url": "https://github.com/ant-design/ant-design/issues/49502",
+   "labels": [
+    "help wanted",
+    "Inactive",
+    "⌨️ Accessibility",
+    "unconfirmed"
+   ],
+   "updatedAt": "2026-08-28T02:22:33Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #1015 by @yiheng-kkk is already open against this issue",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/react-component/tabs/pull/1015",
+    "https://github.com/react-component/tabs/pull/1024"
+   ]
+  },
+  {
+   "number": 49680,
+   "title": "Accessibility: Focus on invisible div in tabs while tabbing",
+   "url": "https://github.com/ant-design/ant-design/issues/49680",
+   "labels": [
+    "help wanted",
+    "Inactive",
+    "⌨️ Accessibility"
+   ],
+   "updatedAt": "2026-08-15T11:51:56Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/ant-design/ant-design/wiki/Development) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/issues/49680",
+    "https://github.com/ant-design/ant-design/wiki/Development"
+   ]
+  },
+  {
+   "number": 49726,
+   "title": "Tree树形控件的draggable中对象参数中的icon属性能否以接收参数的函数形式返回",
+   "url": "https://github.com/ant-design/ant-design/issues/49726",
+   "labels": [
+    "help wanted",
+    "💡 Feature Request",
+    "Inactive"
+   ],
+   "updatedAt": "2024-08-16T00:07:15Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/ant-design/ant-design/wiki/Development) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/issues/49726",
+    "https://github.com/ant-design/ant-design/wiki/Development"
+   ]
+  },
+  {
+   "number": 49776,
+   "title": "table组件columns中fixed: right;使用的postion: sticky; 当它和transform: scale 一起使用的时候， 在电脑上没问题， 但是在ipad的浏览器上， fixed:right那一列会出现偏移",
+   "url": "https://github.com/ant-design/ant-design/issues/49776",
+   "labels": [
+    "help wanted",
+    "Inactive",
+    "📱Mobile Device"
+   ],
+   "updatedAt": "2024-08-16T00:07:12Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/ant-design/ant-design/wiki/Development) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/issues/49776",
+    "https://github.com/ant-design/ant-design/wiki/Development"
+   ]
+  },
+  {
+   "number": 49817,
+   "title": "Form 嵌套 Form 点击 submit 会刷新页面",
+   "url": "https://github.com/ant-design/ant-design/issues/49817",
+   "labels": [
+    "help wanted",
+    "Inactive"
+   ],
+   "updatedAt": "2024-08-16T00:07:11Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/ant-design/ant-design/wiki/Development) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/issues/49817",
+    "https://github.com/ant-design/ant-design/wiki/Development"
+   ]
+  },
+  {
+   "number": 49824,
+   "title": "Tooltip组件，切换open时，会产生闪烁",
+   "url": "https://github.com/ant-design/ant-design/issues/49824",
+   "labels": [
+    "help wanted",
+    "Inactive",
+    "🧶 Low Priority"
+   ],
+   "updatedAt": "2024-09-16T00:08:22Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/ant-design/ant-design/wiki/Development) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/issues/49824",
+    "https://github.com/ant-design/ant-design/wiki/Development"
+   ]
+  },
+  {
+   "number": 49913,
+   "title": "HappyDom vitest tests fail on Modal visibility",
+   "url": "https://github.com/ant-design/ant-design/issues/49913",
+   "labels": [
+    "help wanted",
+    "Inactive",
+    "🚌 External Dependency"
+   ],
+   "updatedAt": "2024-08-31T00:07:27Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "open 28 months with no human comment, in a repo pushed to 2 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/issues/49913",
+    "https://github.com/ant-design/ant-design/wiki/Development"
+   ]
+  },
+  {
+   "number": 50320,
+   "title": "Using `dropdownRender` in `Dropdown` to wrap menu in JSX breaks keyboard focus inside menu",
+   "url": "https://github.com/ant-design/ant-design/issues/50320",
+   "labels": [
+    "help wanted",
+    "Inactive",
+    "⌨️ Accessibility"
+   ],
+   "updatedAt": "2024-09-16T00:08:17Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "PR #268 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/react-component/dropdown/pull/268",
+    "https://github.com/ant-design/ant-design/issues/50320",
+    "https://github.com/ant-design/ant-design/wiki/Development"
+   ]
+  },
+  {
+   "number": 50554,
+   "title": "Range slider works incorrectly",
+   "url": "https://github.com/ant-design/ant-design/issues/50554",
+   "labels": [
+    "help wanted",
+    "Inactive"
+   ],
+   "updatedAt": "2024-12-15T00:08:02Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @ritikpal1122 726 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/issues/50554#issuecomment-2482661983",
+    "https://github.com/ant-design/ant-design/issues/50554",
+    "https://github.com/ant-design/ant-design/wiki/Development"
+   ]
+  },
+  {
+   "number": 50629,
+   "title": "Sorting on a table with the sticky prop and fixed columns breaks alignment",
+   "url": "https://github.com/ant-design/ant-design/issues/50629",
+   "labels": [
+    "🐛 Bug",
+    "help wanted",
+    "Inactive",
+    "⌨️ Accessibility"
+   ],
+   "updatedAt": "2026-10-23T12:01:50Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @ninadsutrave 22 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/issues/50629#issuecomment-6364400437",
+    "https://github.com/ant-design/ant-design/issues/50629",
+    "https://github.com/ant-design/ant-design/wiki/Development"
+   ]
+  },
+  {
+   "number": 50648,
+   "title": "bug[Table]: error border-radius when column scroll",
+   "url": "https://github.com/ant-design/ant-design/issues/50648",
+   "labels": [
+    "🐛 Bug",
+    "help wanted",
+    "Inactive"
+   ],
+   "updatedAt": "2024-10-16T00:07:58Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "open 27 months with no human comment, in a repo pushed to 2 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/issues/50648",
+    "https://github.com/ant-design/ant-design/wiki/Development"
+   ]
+  },
+  {
+   "number": 50885,
+   "title": "InputNumber to support allowClear",
+   "url": "https://github.com/ant-design/ant-design/issues/50885",
+   "labels": [
+    "help wanted",
+    "💡 Feature Request",
+    "Inactive",
+    "OSS-Easy"
+   ],
+   "updatedAt": "2025-11-03T02:33:21Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #728 by @BadMooncc is already open against this issue",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/react-component/input-number/pull/728",
+    "https://github.com/react-component/input-number/pull/729",
+    "https://github.com/ant-design/ant-design/pull/59004",
+    "https://github.com/react-component/input-number/pull/751",
+    "https://github.com/ant-design/ant-design/pull/59251"
+   ]
+  },
+  {
+   "number": 51008,
+   "title": "动态规则rules为空时，已校验出的错误无法被消除",
+   "url": "https://github.com/ant-design/ant-design/issues/51008",
+   "labels": [
+    "help wanted",
+    "Inactive"
+   ],
+   "updatedAt": "2024-11-16T00:08:31Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #729 by @sakuraee is already open against this issue",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/react-component/field-form/pull/729"
+   ]
+  },
+  {
+   "number": 51600,
+   "title": "Tag suggestion renderer in Select component with mode=\"tags\"",
+   "url": "https://github.com/ant-design/ant-design/issues/51600",
+   "labels": [
+    "help wanted",
+    "Inactive"
+   ],
+   "updatedAt": "2024-12-31T00:07:44Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "PR #5475 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ethyca/fides/pull/5475",
+    "https://github.com/ant-design/ant-design/issues/51600",
+    "https://github.com/ant-design/ant-design/wiki/Development"
+   ]
+  },
+  {
+   "number": 51621,
+   "title": "Luxon DatePicker wrapper mixes timezones for different input interactions",
+   "url": "https://github.com/ant-design/ant-design/issues/51621",
+   "labels": [
+    "help wanted",
+    "Inactive"
+   ],
+   "updatedAt": "2024-12-16T00:09:10Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/ant-design/ant-design/wiki/Development) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/issues/51621",
+    "https://github.com/ant-design/ant-design/wiki/Development"
+   ]
+  },
+  {
+   "number": 51717,
+   "title": "`RangePicker` breaks when using with date-fns via `dateFnsGenerateConfig`",
+   "url": "https://github.com/ant-design/ant-design/issues/51717",
+   "labels": [
+    "help wanted",
+    "Inactive"
+   ],
+   "updatedAt": "2026-10-20T08:53:22Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/ant-design/ant-design/wiki/Development) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/issues/51717",
+    "https://github.com/ant-design/ant-design/wiki/Development"
+   ]
+  },
+  {
+   "number": 52030,
+   "title": "在 iPad 17.7 下的 table 横向滚动条在固定列的问题",
+   "url": "https://github.com/ant-design/ant-design/issues/52030",
+   "labels": [
+    "help wanted",
+    "Inactive",
+    "📱Mobile Device"
+   ],
+   "updatedAt": "2025-01-31T00:08:09Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/ant-design/ant-design/wiki/Development) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/issues/52030",
+    "https://github.com/ant-design/ant-design/wiki/Development"
+   ]
+  },
+  {
+   "number": 52986,
+   "title": "Rate 只读模式的展示体验优化，支持精细显示",
+   "url": "https://github.com/ant-design/ant-design/issues/52986",
+   "labels": [
+    "help wanted",
+    "💡 Feature Request",
+    "Inactive"
+   ],
+   "updatedAt": "2025-05-01T00:10:09Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #196 by @yellowryan is already open against this issue",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/react-component/rate/pull/196",
+    "https://github.com/react-component/rate/pull/218"
+   ]
+  },
+  {
+   "number": 52987,
+   "title": "Select renders an input with blank value causing screenreader accessibility concerns",
+   "url": "https://github.com/ant-design/ant-design/issues/52987",
+   "labels": [
+    "help wanted",
+    "Inactive",
+    "⌨️ Accessibility"
+   ],
+   "updatedAt": "2025-06-16T00:09:56Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #56986 by @Pareder is already open against this issue",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/issues/56986"
+   ]
+  },
+  {
+   "number": 53203,
+   "title": "Proposal: Collapse accessibility enhancements",
+   "url": "https://github.com/ant-design/ant-design/issues/53203",
+   "labels": [
+    "help wanted",
+    "Inactive",
+    "⌨️ Accessibility"
+   ],
+   "updatedAt": "2025-05-16T00:09:16Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #363 by @jon-cullison is already open against this issue",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/react-component/collapse/pull/363"
+   ]
+  },
+  {
+   "number": 53584,
+   "title": "Web Accessibility Issue in tabs and cards",
+   "url": "https://github.com/ant-design/ant-design/issues/53584",
+   "labels": [
+    "help wanted",
+    "Inactive",
+    "⌨️ Accessibility"
+   ],
+   "updatedAt": "2026-08-19T15:13:32Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #1024 by @rubenmarcus is already open against this issue",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/react-component/tabs/pull/1024"
+   ]
+  },
+  {
+   "number": 53636,
+   "title": "Radio button screen reader navigation issue",
+   "url": "https://github.com/ant-design/ant-design/issues/53636",
+   "labels": [
+    "help wanted",
+    "Inactive",
+    "⌨️ Accessibility"
+   ],
+   "updatedAt": "2026-07-31T01:24:46Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #59194 by @zoli211 is already open against this issue",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/pull/59194"
+   ]
+  },
+  {
+   "number": 53638,
+   "title": "DatePicker is not keyboard accessible nor a11y compliant",
+   "url": "https://github.com/ant-design/ant-design/issues/53638",
+   "labels": [
+    "help wanted",
+    "Inactive",
+    "⌨️ Accessibility"
+   ],
+   "updatedAt": "2026-09-02T05:46:24Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/ant-design/ant-design/wiki/Development) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/issues/53638",
+    "https://github.com/ant-design/ant-design/wiki/Development"
+   ]
+  },
+  {
+   "number": 53862,
+   "title": "Table 展开使用合并单元格使用有问题",
+   "url": "https://github.com/ant-design/ant-design/issues/53862",
+   "labels": [
+    "help wanted",
+    "💡 Feature Request",
+    "Inactive"
+   ],
+   "updatedAt": "2025-07-16T00:09:59Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "already assigned to @crazyair",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/issues/53862"
+   ]
+  },
+  {
+   "number": 53869,
+   "title": "\"Maximum update depth exceeded\" error in Ellipsis",
+   "url": "https://github.com/ant-design/ant-design/issues/53869",
+   "labels": [
+    "help wanted",
+    "Inactive"
+   ],
+   "updatedAt": "2026-05-01T22:45:21Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "already assigned to @Copilot",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/issues/53869"
+   ]
+  },
+  {
+   "number": 54204,
+   "title": "Tour组件中，只更改 某一步引导 选中的div的offset",
+   "url": "https://github.com/ant-design/ant-design/issues/54204",
+   "labels": [
+    "help wanted",
+    "Inactive",
+    "improvement"
+   ],
+   "updatedAt": "2025-08-16T00:09:09Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #81 by @QdabuliuQ is already open against this issue",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/react-component/tour/pull/81"
+   ]
+  },
+  {
+   "number": 54677,
+   "title": "Typography.Paragraph's ellipsis tooltip becomes inconsistent when used inside Select options.",
+   "url": "https://github.com/ant-design/ant-design/issues/54677",
+   "labels": [
+    "🐛 Bug",
+    "help wanted",
+    "Inactive"
+   ],
+   "updatedAt": "2026-10-06T09:04:53Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/ant-design/ant-design/wiki/Development) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/issues/54677",
+    "https://github.com/ant-design/ant-design/wiki/Development"
+   ]
+  },
+  {
+   "number": 54884,
+   "title": "Select组件在有选中项的情况下，onSearch输入的时候下拉选项框的滚动条没有置顶",
+   "url": "https://github.com/ant-design/ant-design/issues/54884",
+   "labels": [
+    "help wanted",
+    "Inactive",
+    "improvement"
+   ],
+   "updatedAt": "2026-05-01T22:49:55Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #1161 by @cactuser-Lu is already open against this issue",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/react-component/select/pull/1161",
+    "https://github.com/react-component/select/pull/1163"
+   ]
+  },
+  {
+   "number": 55694,
+   "title": "Upload component sets status: \"error\" for cloud-only files",
+   "url": "https://github.com/ant-design/ant-design/issues/55694",
+   "labels": [
+    "help wanted",
+    "Inactive"
+   ],
+   "updatedAt": "2026-09-25T07:26:10Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #685 by @divyeshagrawal is already open against this issue",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/react-component/upload/pull/685"
+   ]
+  },
+  {
+   "number": 55854,
+   "title": "Select 选择器下拉框自动关闭",
+   "url": "https://github.com/ant-design/ant-design/issues/55854",
+   "labels": [
+    "🐛 Bug",
+    "help wanted",
+    "Inactive",
+    "6.x"
+   ],
+   "updatedAt": "2026-05-01T22:57:06Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #56987 by @HN816 is already open against this issue",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/pull/56987"
+   ]
+  },
+  {
+   "number": 56236,
+   "title": "notification 动画效果雕花",
+   "url": "https://github.com/ant-design/ant-design/issues/56236",
+   "labels": [
+    "help wanted",
+    "Inactive"
+   ],
+   "updatedAt": "2026-07-31T03:10:00Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #59033 by @ZQDesigned is already open against this issue",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/pull/59033"
+   ]
+  },
+  {
+   "number": 56356,
+   "title": "表格可伸缩列不跟手，位置会偏移，而且有时无法退出拖拽状态",
+   "url": "https://github.com/ant-design/ant-design/issues/56356",
+   "labels": [
+    "help wanted",
+    "📝 Documentation",
+    "Inactive"
+   ],
+   "updatedAt": "2026-05-01T23:05:25Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "PR #56447 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/pull/56447",
+    "https://github.com/DouyinFE/semi-design/pull/3213",
+    "https://github.com/ant-design/ant-design/issues/56356",
+    "https://github.com/ant-design/ant-design/wiki/Development"
+   ]
+  },
+  {
+   "number": 56496,
+   "title": "Select scroll is not smooth",
+   "url": "https://github.com/ant-design/ant-design/issues/56496",
+   "labels": [
+    "help wanted",
+    "Inactive",
+    "improvement"
+   ],
+   "updatedAt": "2026-09-07T01:39:35Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #380 by @RounakKumarAgarwal is already open against this issue",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/react-component/virtual-list/pull/380"
+   ]
+  },
+  {
+   "number": 56530,
+   "title": "examples refresh",
+   "url": "https://github.com/ant-design/ant-design/issues/56530",
+   "labels": [
+    "help wanted",
+    "📝 Documentation",
+    "Inactive"
+   ],
+   "updatedAt": "2026-02-16T00:13:52Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #59521 by @shuaiyafei is already open against this issue",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/pull/59521"
+   ]
+  },
+  {
+   "number": 56590,
+   "title": "Collapse增加自定义Collapse Panel功能",
+   "url": "https://github.com/ant-design/ant-design/issues/56590",
+   "labels": [
+    "help wanted",
+    "💡 Feature Request",
+    "Inactive",
+    "👷🏻‍♂️ Someone working on it"
+   ],
+   "updatedAt": "2026-09-01T07:09:23Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "already assigned to @QdabuliuQ",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/issues/56590",
+    "https://github.com/ant-design/ant-design/issues/56590#issuecomment-5490246084"
+   ]
+  },
+  {
+   "number": 56858,
+   "title": "Missing exports field in package.json causes Yarn PnP resolution failures for subpath imports",
+   "url": "https://github.com/ant-design/ant-design/issues/56858",
+   "labels": [
+    "help wanted",
+    "Inactive"
+   ],
+   "updatedAt": "2026-09-01T10:17:30Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #58775 by @drewmt is already open against this issue",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/pull/58775",
+    "https://github.com/ant-design/ant-design/pull/59376",
+    "https://github.com/ant-design/ant-design/pull/57930",
+    "https://github.com/ant-design/ant-design/pull/57968"
+   ]
+  },
+  {
+   "number": 56936,
+   "title": "Collecting Well-Designed Theme Configs Based on Ant Design 6.x (Semantic DOM   Tokens)",
+   "url": "https://github.com/ant-design/ant-design/issues/56936",
+   "labels": [
+    "help wanted",
+    "💡 Feature Request",
+    "Inactive",
+    "✨ Announcement",
+    "Theme"
+   ],
+   "updatedAt": "2026-09-01T07:09:15Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "already assigned to @meet-student",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/pull/58607",
+    "https://github.com/ant-design/ant-design/issues/56936",
+    "https://github.com/ant-design/ant-design/issues/56936#issuecomment-5490244688"
+   ]
+  },
+  {
+   "number": 56986,
+   "title": "DatePicker, TimePicker: Improve accessibility",
+   "url": "https://github.com/ant-design/ant-design/issues/56986",
+   "labels": [
+    "help wanted",
+    "Inactive",
+    "⌨️ Accessibility"
+   ],
+   "updatedAt": "2026-10-16T00:40:23Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #58204 by @Pareder is already open against this issue",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/pull/58204"
+   ]
+  },
+  {
+   "number": 58404,
+   "title": "[upgrade] migrate class components to FC",
+   "url": "https://github.com/ant-design/ant-design/issues/58404",
+   "labels": [
+    "help wanted",
+    "Inactive"
+   ],
+   "updatedAt": "2026-10-31T00:26:49Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #871 by @ZQDesigned is already open against this issue",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/react-component/menu/pull/871",
+    "https://github.com/react-component/motion/pull/82"
+   ]
+  },
+  {
+   "number": 58972,
+   "title": "[Tracker] 任务清单",
+   "url": "https://github.com/ant-design/ant-design/issues/58972",
+   "labels": [
+    "help wanted",
+    "💡 Feature Request",
+    "Inactive"
+   ],
+   "updatedAt": "2026-10-16T00:40:22Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @LeonxLJX 75 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/ant-design/ant-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ant-design/ant-design/issues/58972",
+    "https://github.com/ant-design/ant-design/issues/58972#issuecomment-5492599661",
+    "https://github.com/ant-design/ant-design/wiki/Development"
+   ]
+  }
+ ]
 }

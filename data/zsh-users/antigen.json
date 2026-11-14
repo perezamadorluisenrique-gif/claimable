@@ -1,0 +1,173 @@
+{
+ "owner": "zsh-users",
+ "repo": "antigen",
+ "language": "Shell",
+ "stars": 8364,
+ "description": "The plugin manager for zsh.",
+ "visitedAt": "2026-11-14T22:28:38.603Z",
+ "issues": [
+  {
+   "number": 260,
+   "title": "Support multiple backends",
+   "url": "https://github.com/zsh-users/antigen/issues/260",
+   "labels": [
+    "Feature",
+    "Help wanted"
+   ],
+   "updatedAt": "2017-04-03T18:43:40Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "no push in 36 days (last: 2026-10-09)",
+   "evidence": [
+    "https://github.com/zsh-users/antigen — pushed_at 2026-10-09T23:01:00Z",
+    "https://github.com/zsh-users/antigen/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/zsh-users/antigen/issues/260"
+   ]
+  },
+  {
+   "number": 302,
+   "title": "Allow secure gpg verified cloning of modules via git signatures",
+   "url": "https://github.com/zsh-users/antigen/issues/302",
+   "labels": [
+    "Enhancement",
+    "Help wanted"
+   ],
+   "updatedAt": "2017-04-03T18:42:55Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "no push in 36 days (last: 2026-10-09)",
+   "evidence": [
+    "https://github.com/zsh-users/antigen — pushed_at 2026-10-09T23:01:00Z",
+    "https://github.com/zsh-users/antigen/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/zsh-users/antigen/issues/302"
+   ]
+  },
+  {
+   "number": 471,
+   "title": "Support debug/verbose mode",
+   "url": "https://github.com/zsh-users/antigen/issues/471",
+   "labels": [
+    "Enhancement",
+    "Help wanted"
+   ],
+   "updatedAt": "2017-06-24T09:52:16Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "no push in 36 days (last: 2026-10-09)",
+   "evidence": [
+    "https://github.com/zsh-users/antigen — pushed_at 2026-10-09T23:01:00Z",
+    "https://github.com/zsh-users/antigen/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/zsh-users/antigen/issues/471"
+   ]
+  },
+  {
+   "number": 518,
+   "title": "Remove cache on upgrade",
+   "url": "https://github.com/zsh-users/antigen/issues/518",
+   "labels": [
+    "Enhancement",
+    "Help wanted"
+   ],
+   "updatedAt": "2018-12-09T02:12:03Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "already assigned to @desyncr",
+   "evidence": [
+    "https://github.com/zsh-users/antigen — pushed_at 2026-10-09T23:01:00Z",
+    "https://github.com/zsh-users/antigen/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/zsh-users/antigen/issues/518"
+   ]
+  },
+  {
+   "number": 538,
+   "title": "Create release schedule for stable",
+   "url": "https://github.com/zsh-users/antigen/issues/538",
+   "labels": [
+    "Documentation",
+    "Help wanted"
+   ],
+   "updatedAt": "2017-06-12T03:53:06Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "PR #658 by @tysun is already open against this issue",
+   "evidence": [
+    "https://github.com/zsh-users/antigen — pushed_at 2026-10-09T23:01:00Z",
+    "https://github.com/zsh-users/antigen/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/zsh-users/antigen/issues/658"
+   ]
+  },
+  {
+   "number": 603,
+   "title": "Kubectl completion broken after `antigen list`",
+   "url": "https://github.com/zsh-users/antigen/issues/603",
+   "labels": [
+    "Bug",
+    "Help wanted"
+   ],
+   "updatedAt": "2021-02-09T22:27:44Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "already assigned to @desyncr",
+   "evidence": [
+    "https://github.com/zsh-users/antigen — pushed_at 2026-10-09T23:01:00Z",
+    "https://github.com/zsh-users/antigen/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/zsh-users/antigen/issues/603"
+   ]
+  },
+  {
+   "number": 620,
+   "title": "Update tests to zsh-users/zsh-docker rather than desyncr/zsh-docker",
+   "url": "https://github.com/zsh-users/antigen/issues/620",
+   "labels": [
+    "Tooling",
+    "Help wanted"
+   ],
+   "updatedAt": "2017-11-22T15:28:47Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "already assigned to @desyncr",
+   "evidence": [
+    "https://github.com/zsh-users/antigen — pushed_at 2026-10-09T23:01:00Z",
+    "https://github.com/zsh-users/antigen/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/zsh-users/antigen/issues/620"
+   ]
+  },
+  {
+   "number": 632,
+   "title": "cache zcompile error",
+   "url": "https://github.com/zsh-users/antigen/issues/632",
+   "labels": [
+    "Bug",
+    "Help wanted"
+   ],
+   "updatedAt": "2023-02-10T21:41:49Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "discard",
+   "reason": "already assigned to @desyncr",
+   "evidence": [
+    "https://github.com/zsh-users/antigen — pushed_at 2026-10-09T23:01:00Z",
+    "https://github.com/zsh-users/antigen/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/zsh-users/antigen/pull/635",
+    "https://github.com/zsh-users/antigen/issues/632"
+   ]
+  },
+  {
+   "number": 648,
+   "title": "Generate `antigen-help` output automatically",
+   "url": "https://github.com/zsh-users/antigen/issues/648",
+   "labels": [
+    "Enhancement",
+    "Help wanted"
+   ],
+   "updatedAt": "2018-01-15T20:49:04Z",
+   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "verdict": "reservations",
+   "reason": "no push in 36 days (last: 2026-10-09)",
+   "evidence": [
+    "https://github.com/zsh-users/antigen — pushed_at 2026-10-09T23:01:00Z",
+    "https://github.com/zsh-users/antigen/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/zsh-users/antigen/issues/648"
+   ]
+  }
+ ]
+}
