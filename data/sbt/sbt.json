@@ -1,0 +1,126 @@
+{
+ "owner": "sbt",
+ "repo": "sbt",
+ "language": "Scala",
+ "stars": 4955,
+ "description": "sbt, the interactive build tool",
+ "visitedAt": "2026-11-14T03:20:07.172Z",
+ "issues": [
+  {
+   "number": 1469,
+   "title": "JUnit XML report contains wrong stacktrace/message when running in forked mode",
+   "url": "https://github.com/sbt/sbt/issues/1469",
+   "labels": [
+    "help wanted",
+    "area/test_framework"
+   ],
+   "updatedAt": "2026-06-27T05:42:07Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "PR #9078 by @9876543210-tc-0123456789 is already open against this issue",
+   "evidence": [
+    "https://github.com/sbt/sbt/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/sbt/sbt/pull/9078"
+   ]
+  },
+  {
+   "number": 1810,
+   "title": "SFTP and SSH resolvers are not correctly used to download dependencies since 0.13.1",
+   "url": "https://github.com/sbt/sbt/issues/1810",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-06-27T05:42:04Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/getting-started-with-github/fork-a-repo) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/sbt/sbt/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/sbt/sbt/issues/1810",
+    "https://docs.github.com/en/github/getting-started-with-github/fork-a-repo",
+    "https://github.com/sbt/sbt/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2255,
+   "title": "Better support for compiler plugins that have dependencies",
+   "url": "https://github.com/sbt/sbt/issues/2255",
+   "labels": [
+    "Enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2024-10-07T16:17:53Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "PR #36 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+4 more)",
+   "evidence": [
+    "https://github.com/sbt/sbt/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/typelevel/kind-projector/pull/36",
+    "https://github.com/VirtusLab/akka-serialization-helper/pull/40",
+    "https://github.com/VirtusLab/akka-serialization-helper/pull/166",
+    "https://github.com/sbt/sbt/issues/2255",
+    "https://docs.github.com/en/github/getting-started-with-github/fork-a-repo",
+    "https://github.com/sbt/sbt/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2906,
+   "title": "sbt's API doc is missing link to source",
+   "url": "https://github.com/sbt/sbt/issues/2906",
+   "labels": [
+    "Enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2026-03-17T02:22:07Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @Crystora 242 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/sbt/sbt/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/sbt/sbt/issues/2906#issuecomment-4071437708",
+    "https://github.com/sbt/sbt/issues/2906",
+    "https://docs.github.com/en/github/getting-started-with-github/fork-a-repo",
+    "https://github.com/sbt/sbt/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 7187,
+   "title": "clean does not seem to work with java projects",
+   "url": "https://github.com/sbt/sbt/issues/7187",
+   "labels": [
+    "area/incremental_compiler",
+    "help wanted"
+   ],
+   "updatedAt": "2026-06-27T05:41:08Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @Crystora 215 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/sbt/sbt/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/sbt/sbt/issues/7187#issuecomment-4232550717",
+    "https://github.com/sbt/sbt/issues/7187",
+    "https://docs.github.com/en/github/getting-started-with-github/fork-a-repo",
+    "https://github.com/sbt/sbt/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 9162,
+   "title": "[2.x] `@cacheLevel` and `@transient` annotation does not work if local val",
+   "url": "https://github.com/sbt/sbt/issues/9162",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-06-27T05:41:12Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @Ella-horizon 198 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/sbt/sbt/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/sbt/sbt/issues/9162#issuecomment-4353195642",
+    "https://github.com/sbt/sbt/issues/9162",
+    "https://docs.github.com/en/github/getting-started-with-github/fork-a-repo",
+    "https://github.com/sbt/sbt/blob/HEAD/CONTRIBUTING.md"
+   ]
+  }
+ ]
+}

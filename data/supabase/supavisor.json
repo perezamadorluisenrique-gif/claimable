@@ -1,0 +1,125 @@
+{
+ "owner": "supabase",
+ "repo": "supavisor",
+ "language": "Elixir",
+ "stars": 2285,
+ "description": "A cloud-native, multi-tenant Postgres connection pooler.",
+ "visitedAt": "2026-11-14T03:20:07.172Z",
+ "issues": [
+  {
+   "number": 11,
+   "title": "Github Action for automatically running pgbench",
+   "url": "https://github.com/supabase/supavisor/issues/11",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2026-07-15T03:32:05Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "2 stale claims, the most recent by @anujbolewar 122 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting",
+   "evidence": [
+    "https://github.com/supabase/supavisor/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/supabase/supavisor/issues/11#issuecomment-4976589585",
+    "https://github.com/supabase/supavisor/issues/11",
+    "https://github.com/supabase/supavisor/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 90,
+   "title": "Subscribe to tenant database write ahead logs",
+   "url": "https://github.com/supabase/supavisor/issues/90",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2023-05-16T19:02:55Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "PR #300 by @jensen is already open against this issue",
+   "evidence": [
+    "https://github.com/supabase/supavisor/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/supabase/supavisor/issues/300",
+    "https://github.com/supabase/supavisor/issues/1172"
+   ]
+  },
+  {
+   "number": 91,
+   "title": "Register a hook",
+   "url": "https://github.com/supabase/supavisor/issues/91",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2023-12-13T14:44:55Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "PR #1142 by @bannoscakes is already open against this issue",
+   "evidence": [
+    "https://github.com/supabase/supavisor/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/supabase/supavisor/issues/1142"
+   ]
+  },
+  {
+   "number": 93,
+   "title": "Add Open Telemetry support",
+   "url": "https://github.com/supabase/supavisor/issues/93",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2026-05-19T00:02:26Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/supabase/supavisor/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/supabase/supavisor/issues/93",
+    "https://github.com/supabase/supavisor/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 206,
+   "title": "Connection Pooler string does not honor options parameter with search_path",
+   "url": "https://github.com/supabase/supavisor/issues/206",
+   "labels": [
+    "bug",
+    "good first issue"
+   ],
+   "updatedAt": "2026-04-28T18:21:37Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "PR #392 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+4 more)",
+   "evidence": [
+    "https://github.com/supabase/supavisor/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dawntide/workout-log/pull/392",
+    "https://github.com/executiveusa/asc3nd-frontend-website-/pull/32",
+    "https://github.com/ngowda759/Rayaramathaynk/pull/377",
+    "https://github.com/supabase/supavisor/issues/206#issuecomment-4338006275",
+    "https://github.com/supabase/supavisor/issues/206",
+    "https://github.com/supabase/supavisor/blob/HEAD/README.md",
+    "https://docs.supabase.com"
+   ]
+  },
+  {
+   "number": 343,
+   "title": "Prepend application_name from client to application_name set by DbHandler only in session mode",
+   "url": "https://github.com/supabase/supavisor/issues/343",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2026-07-13T14:39:17Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "PR #1037 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/supabase/supavisor/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/supabase/supavisor/pull/1037",
+    "https://github.com/supabase/supavisor/issues/343#issuecomment-4338006041",
+    "https://github.com/supabase/supavisor/issues/343",
+    "https://github.com/supabase/supavisor/blob/HEAD/README.md"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,80 @@
+{
+ "owner": "swoosh",
+ "repo": "swoosh",
+ "language": "Elixir",
+ "stars": 1530,
+ "description": "Compose, deliver and test your emails easily in Elixir",
+ "visitedAt": "2026-11-14T03:20:07.172Z",
+ "issues": [
+  {
+   "number": 594,
+   "title": "Switch to base64 transfer encoding when mail contains lines longer than 998 characters",
+   "url": "https://github.com/swoosh/swoosh/issues/594",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2021-05-05T11:09:58Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "open 67 months with no human comment, in a repo pushed to 1 days ago — easy issues do not survive that long here; assume it is harder than its labels say",
+   "evidence": [
+    "https://github.com/swoosh/swoosh/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swoosh/swoosh/issues/594"
+   ]
+  },
+  {
+   "number": 758,
+   "title": "SMTP: Crashes when email address is invalid",
+   "url": "https://github.com/swoosh/swoosh/issues/758",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2023-04-30T05:18:13Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/swoosh/swoosh/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swoosh/swoosh/issues/758"
+   ]
+  },
+  {
+   "number": 847,
+   "title": "Support AmazonSES v2 API in the SES adapter.",
+   "url": "https://github.com/swoosh/swoosh/issues/847",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2024-01-22T00:23:18Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.aws.amazon.com/ses/latest/dg/sending-email-subscription-management.html) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/swoosh/swoosh/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swoosh/swoosh/issues/847",
+    "https://docs.aws.amazon.com/ses/latest/dg/sending-email-subscription-management.html"
+   ]
+  },
+  {
+   "number": 910,
+   "title": "Ensure no more emails than tested are sent in the whole test suite",
+   "url": "https://github.com/swoosh/swoosh/issues/910",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2026-01-02T21:28:24Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "PR #5034 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder",
+   "evidence": [
+    "https://github.com/swoosh/swoosh/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/etalab/transport-site/pull/5034",
+    "https://github.com/swoosh/swoosh/issues/910"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "owner": "tuist",
+ "repo": "tuist",
+ "language": "Elixir",
+ "stars": 5864,
+ "description": "Tuist builds infrastructure for faster, more reliable build and test workflows across developers, CI, and coding agents. Shared cache, tests, and insights that sit alongside your existing CI.",
+ "visitedAt": "2026-11-14T03:20:07.172Z",
+ "issues": [
+  {
+   "number": 5898,
+   "title": "Add macro executables to file groups",
+   "url": "https://github.com/tuist/tuist/issues/5898",
+   "labels": [
+    "type:enhancement",
+    "good first issue",
+    "p3"
+   ],
+   "updatedAt": "2025-09-02T14:49:40Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @YIshihara11201 512 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting",
+   "evidence": [
+    "https://github.com/tuist/tuist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/tuist/tuist/issues/5898#issuecomment-2990074477",
+    "https://github.com/tuist/tuist/issues/5898",
+    "https://github.com/tuist/tuist/blob/HEAD/.github/AGENTS.md",
+    "https://github.com/tuist/tuist/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 6096,
+   "title": "SPM Plugin support for Package.swift",
+   "url": "https://github.com/tuist/tuist/issues/6096",
+   "labels": [
+    "good first issue",
+    "type:need",
+    "p3",
+    "size:M",
+    "stale"
+   ],
+   "updatedAt": "2026-08-11T16:07:54Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "PR #7990 by @YIshihara11201 is already open against this issue",
+   "evidence": [
+    "https://github.com/tuist/tuist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/tuist/tuist/pull/7990"
+   ]
+  },
+  {
+   "number": 7683,
+   "title": "Asset catalog conflicts",
+   "url": "https://github.com/tuist/tuist/issues/7683",
+   "labels": [
+    "type:bug",
+    "good first issue",
+    "domain:generated-projects"
+   ],
+   "updatedAt": "2025-08-28T00:31:54Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @YIshihara11201 444 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting",
+   "evidence": [
+    "https://github.com/tuist/tuist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/tuist/tuist/issues/7683#issuecomment-3227508443",
+    "https://github.com/tuist/tuist/issues/7683",
+    "https://github.com/tuist/tuist/blob/HEAD/.github/AGENTS.md",
+    "https://github.com/tuist/tuist/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 7684,
+   "title": "Strings assets conflicts and compiler errors.",
+   "url": "https://github.com/tuist/tuist/issues/7684",
+   "labels": [
+    "type:bug",
+    "good first issue"
+   ],
+   "updatedAt": "2025-09-18T15:30:13Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/tuist/tuist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/tuist/tuist/issues/7684",
+    "https://github.com/tuist/tuist/blob/HEAD/.github/AGENTS.md",
+    "https://github.com/tuist/tuist/blob/HEAD/CONTRIBUTING.md"
+   ]
+  }
+ ]
+}

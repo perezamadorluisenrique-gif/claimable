@@ -1,0 +1,85 @@
+{
+ "owner": "scala-native",
+ "repo": "scala-native",
+ "language": "Scala",
+ "stars": 4706,
+ "description": "Your favorite language gets closer to bare metal.",
+ "visitedAt": "2026-11-14T03:20:07.172Z",
+ "issues": [
+  {
+   "number": 104,
+   "title": "Provide bindings for libc",
+   "url": "https://github.com/scala-native/scala-native/issues/104",
+   "labels": [
+    "interop",
+    "component:nativelib",
+    "good first issue",
+    "feature"
+   ],
+   "updatedAt": "2023-10-05T18:18:35Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "PR #105 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+4 more)",
+   "evidence": [
+    "https://github.com/scala-native/scala-native/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/scala-native/scala-native/pull/105",
+    "https://github.com/scala-native/scala-native/pull/109",
+    "https://github.com/scala-native/scala-native/pull/1235",
+    "https://github.com/scala-native/scala-native/pull/2591",
+    "https://github.com/scala-native/scala-native/pull/2594",
+    "https://github.com/scala-native/scala-native/issues/104"
+   ]
+  },
+  {
+   "number": 2432,
+   "title": "Move test classes to new directory to match the package",
+   "url": "https://github.com/scala-native/scala-native/issues/2432",
+   "labels": [
+    "good first issue",
+    "component:tests"
+   ],
+   "updatedAt": "2023-02-11T22:33:43Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "PR #2425 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder",
+   "evidence": [
+    "https://github.com/scala-native/scala-native/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/scala-native/scala-native/pull/2425"
+   ]
+  },
+  {
+   "number": 3303,
+   "title": "Make `java.nio.file.Path` compliant with JVM on Windows",
+   "url": "https://github.com/scala-native/scala-native/issues/3303",
+   "labels": [
+    "component:javalib",
+    "good first issue"
+   ],
+   "updatedAt": "2023-06-01T14:54:08Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/scala-native/scala-native/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/scala-native/scala-native/issues/3303"
+   ]
+  },
+  {
+   "number": 4363,
+   "title": "Improve Integer.parseInt based on new Scala.js implementation",
+   "url": "https://github.com/scala-native/scala-native/issues/4363",
+   "labels": [
+    "component:javalib",
+    "good first issue"
+   ],
+   "updatedAt": "2025-07-20T13:06:20Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/scala-native/scala-native/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/scala-native/scala-native/issues/4363"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,100 @@
+{
+ "owner": "pentacent",
+ "repo": "keila",
+ "language": "Elixir",
+ "stars": 2262,
+ "description": "Open Source Newsletter Tool.",
+ "visitedAt": "2026-11-14T03:20:07.172Z",
+ "issues": [
+  {
+   "number": 109,
+   "title": "Overview of who opened the mail/ clicked on links",
+   "url": "https://github.com/pentacent/keila/issues/109",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2026-11-13T13:21:25Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/pentacent/keila/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/pentacent/keila/issues/109",
+    "https://github.com/pentacent/keila/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 114,
+   "title": "Add option to generate embedded form markup without styles",
+   "url": "https://github.com/pentacent/keila/issues/114",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "ready to implement"
+   ],
+   "updatedAt": "2026-07-25T11:22:43Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "PR #549 by @JoeJoeflyn is already open against this issue",
+   "evidence": [
+    "https://github.com/pentacent/keila/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/pentacent/keila/pull/549"
+   ]
+  },
+  {
+   "number": 353,
+   "title": "Account deletion feature",
+   "url": "https://github.com/pentacent/keila/issues/353",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2024-12-02T02:04:05Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "PR #367 by @danilax86 is already open against this issue",
+   "evidence": [
+    "https://github.com/pentacent/keila/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/pentacent/keila/pull/367"
+   ]
+  },
+  {
+   "number": 450,
+   "title": "Add Campaign Analytics API",
+   "url": "https://github.com/pentacent/keila/issues/450",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "ready to implement"
+   ],
+   "updatedAt": "2026-01-05T17:55:55Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/pentacent/keila/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/pentacent/keila/issues/450",
+    "https://github.com/pentacent/keila/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 465,
+   "title": "Full height editor?",
+   "url": "https://github.com/pentacent/keila/issues/465",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "ready to implement"
+   ],
+   "updatedAt": "2026-03-23T20:20:48Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "PR #562 by @Eugeny is already open against this issue",
+   "evidence": [
+    "https://github.com/pentacent/keila/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/pentacent/keila/issues/562"
+   ]
+  }
+ ]
+}

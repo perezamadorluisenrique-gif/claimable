@@ -1,0 +1,9 @@
+{
+ "owner": "elixir-horde",
+ "repo": "horde",
+ "language": "Elixir",
+ "stars": 1508,
+ "description": "Horde is a distributed Supervisor and Registry backed by Postgres",
+ "visitedAt": "2026-11-14T03:20:07.172Z",
+ "issues": []
+}

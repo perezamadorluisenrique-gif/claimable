@@ -1,0 +1,69 @@
+{
+ "owner": "elixir-lsp",
+ "repo": "elixir-ls",
+ "language": "Elixir",
+ "stars": 1781,
+ "description": "A frontend-independent IDE \"smartness\" server for Elixir. Implements the \"Language Server Protocol\" standard and provides debugger support via the \"Debug Adapter Protocol\"",
+ "visitedAt": "2026-11-14T03:20:07.172Z",
+ "issues": [
+  {
+   "number": 161,
+   "title": "Quickfix for importing modules",
+   "url": "https://github.com/elixir-lsp/elixir-ls/issues/161",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2022-05-09T21:53:26Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "PR #155 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/elixir-lsp/elixir-ls/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/elixir-lsp/elixir_sense/pull/155",
+    "https://github.com/elixir-lsp/elixir-ls/pull/722",
+    "https://github.com/elixir-lsp/elixir-ls/issues/161",
+    "https://github.com/elixir-lsp/elixir-ls/blob/HEAD/README.md",
+    "https://github.com/elixir-lsp/elixir-ls/blob/HEAD/DEVELOPMENT.md"
+   ]
+  },
+  {
+   "number": 269,
+   "title": "Stale data lookups in completions",
+   "url": "https://github.com/elixir-lsp/elixir-ls/issues/269",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2024-01-08T23:07:52Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "the project's own setup docs say they are broken: \"currently not supported\"",
+   "evidence": [
+    "https://github.com/elixir-lsp/elixir-ls/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/elixir-lsp/elixir-ls/issues/269",
+    "https://github.com/elixir-lsp/elixir-ls/blob/HEAD/README.md",
+    "https://github.com/elixir-lsp/elixir-ls/blob/HEAD/DEVELOPMENT.md"
+   ]
+  },
+  {
+   "number": 382,
+   "title": "Feature request: Quick Fix for adding function",
+   "url": "https://github.com/elixir-lsp/elixir-ls/issues/382",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2020-11-28T17:35:15Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "the project's own setup docs say they are broken: \"currently not supported\"",
+   "evidence": [
+    "https://github.com/elixir-lsp/elixir-ls/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/elixir-lsp/elixir-ls/issues/382",
+    "https://github.com/elixir-lsp/elixir-ls/blob/HEAD/README.md",
+    "https://github.com/elixir-lsp/elixir-ls/blob/HEAD/DEVELOPMENT.md"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,370 @@
+{
+ "owner": "jgm",
+ "repo": "pandoc",
+ "language": "Haskell",
+ "stars": 46881,
+ "description": "Universal markup converter",
+ "visitedAt": "2026-11-14T03:20:07.172Z",
+ "issues": [
+  {
+   "number": 1865,
+   "title": "writer for AZW3 (Kindle native format)",
+   "url": "https://github.com/jgm/pandoc/issues/1865",
+   "labels": [
+    "new:writer",
+    "good first issue",
+    "format:EPUB"
+   ],
+   "updatedAt": "2022-02-20T19:15:43Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "PR #7991 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/jgm/pandoc/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/jgm/pandoc/pull/7991",
+    "https://github.com/jgm/pandoc/issues/1865",
+    "https://github.com/jgm/pandoc/blob/HEAD/INSTALL.md",
+    "https://github.com/jgm/pandoc/wiki",
+    "https://github.com/jgm/pandoc/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 4330,
+   "title": "LaTeX writer: support for beamer frame overlay specifications",
+   "url": "https://github.com/jgm/pandoc/issues/4330",
+   "labels": [
+    "enhancement",
+    "format:LaTeX",
+    "good first issue",
+    "writer"
+   ],
+   "updatedAt": "2022-02-13T01:52:39Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "open 107 months with no human comment, in a repo pushed to 2 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/jgm/pandoc/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/jgm/pandoc/issues/4330",
+    "https://github.com/jgm/pandoc/blob/HEAD/INSTALL.md",
+    "https://github.com/jgm/pandoc/wiki",
+    "https://github.com/jgm/pandoc/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 4422,
+   "title": "some RST paragraphs are written out like lists",
+   "url": "https://github.com/jgm/pandoc/issues/4422",
+   "labels": [
+    "good first issue",
+    "writer",
+    "format:RST"
+   ],
+   "updatedAt": "2019-09-26T17:49:08Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/jgm/pandoc/wiki) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/jgm/pandoc/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/jgm/pandoc/issues/4422",
+    "https://github.com/jgm/pandoc/blob/HEAD/INSTALL.md",
+    "https://github.com/jgm/pandoc/wiki",
+    "https://github.com/jgm/pandoc/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 4458,
+   "title": "Mediawiki to markdown conversion- colon not handled properly",
+   "url": "https://github.com/jgm/pandoc/issues/4458",
+   "labels": [
+    "good first issue",
+    "reader",
+    "format:Mediawiki"
+   ],
+   "updatedAt": "2019-09-26T17:48:34Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/jgm/pandoc/wiki) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/jgm/pandoc/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/jgm/pandoc/issues/4458",
+    "https://github.com/jgm/pandoc/blob/HEAD/INSTALL.md",
+    "https://github.com/jgm/pandoc/wiki",
+    "https://github.com/jgm/pandoc/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 4475,
+   "title": "Suggestion: MS writer, preserve image name",
+   "url": "https://github.com/jgm/pandoc/issues/4475",
+   "labels": [
+    "good first issue",
+    "writer",
+    "format:MS"
+   ],
+   "updatedAt": "2023-09-16T12:04:58Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/jgm/pandoc/wiki) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/jgm/pandoc/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/jgm/pandoc/issues/4475",
+    "https://github.com/jgm/pandoc/blob/HEAD/INSTALL.md",
+    "https://github.com/jgm/pandoc/wiki",
+    "https://github.com/jgm/pandoc/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 4511,
+   "title": "Admonition blocks not converted back from html to rst.",
+   "url": "https://github.com/jgm/pandoc/issues/4511",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "writer",
+    "format:RST"
+   ],
+   "updatedAt": "2021-05-12T22:17:37Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/jgm/pandoc/wiki) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/jgm/pandoc/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/jgm/pandoc/issues/4511",
+    "https://github.com/jgm/pandoc/blob/HEAD/INSTALL.md",
+    "https://github.com/jgm/pandoc/wiki",
+    "https://github.com/jgm/pandoc/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 4739,
+   "title": "\\pno in citations in LaTeX exports",
+   "url": "https://github.com/jgm/pandoc/issues/4739",
+   "labels": [
+    "format:LaTeX",
+    "good first issue",
+    "writer"
+   ],
+   "updatedAt": "2021-04-11T16:18:37Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/jgm/pandoc/wiki) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/jgm/pandoc/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/jgm/pandoc/issues/4739",
+    "https://github.com/jgm/pandoc/blob/HEAD/INSTALL.md",
+    "https://github.com/jgm/pandoc/wiki",
+    "https://github.com/jgm/pandoc/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 5203,
+   "title": "DokuWiki reader: add support for text conversions",
+   "url": "https://github.com/jgm/pandoc/issues/5203",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "reader",
+    "format:DokuWiki"
+   ],
+   "updatedAt": "2024-09-22T02:37:18Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "PR #5108 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/jgm/pandoc/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/jgm/pandoc/pull/5108",
+    "https://github.com/jgm/pandoc/issues/5203",
+    "https://github.com/jgm/pandoc/blob/HEAD/INSTALL.md",
+    "https://github.com/jgm/pandoc/wiki",
+    "https://github.com/jgm/pandoc/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 5617,
+   "title": "Pandoc's docx reader doesn't seem to be handling Docx file created from office365 online site properly",
+   "url": "https://github.com/jgm/pandoc/issues/5617",
+   "labels": [
+    "format:Docx",
+    "good first issue",
+    "reader"
+   ],
+   "updatedAt": "2019-09-26T17:30:27Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/jgm/pandoc/wiki) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/jgm/pandoc/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/jgm/pandoc/issues/5617",
+    "https://github.com/jgm/pandoc/blob/HEAD/INSTALL.md",
+    "https://github.com/jgm/pandoc/wiki",
+    "https://github.com/jgm/pandoc/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 5663,
+   "title": "latex acronym gls command is not expanded.",
+   "url": "https://github.com/jgm/pandoc/issues/5663",
+   "labels": [
+    "format:LaTeX",
+    "good first issue",
+    "reader"
+   ],
+   "updatedAt": "2019-09-26T17:27:50Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/jgm/pandoc/wiki) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/jgm/pandoc/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/jgm/pandoc/issues/5663",
+    "https://github.com/jgm/pandoc/blob/HEAD/INSTALL.md",
+    "https://github.com/jgm/pandoc/wiki",
+    "https://github.com/jgm/pandoc/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 5802,
+   "title": "tabs not preserved in converting from docx",
+   "url": "https://github.com/jgm/pandoc/issues/5802",
+   "labels": [
+    "format:Docx",
+    "good first issue",
+    "reader"
+   ],
+   "updatedAt": "2022-12-20T12:25:03Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/jgm/pandoc/wiki) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/jgm/pandoc/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/jgm/pandoc/issues/5802",
+    "https://github.com/jgm/pandoc/blob/HEAD/INSTALL.md",
+    "https://github.com/jgm/pandoc/wiki",
+    "https://github.com/jgm/pandoc/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 5914,
+   "title": "--metadata-file with non-markdown contents?",
+   "url": "https://github.com/jgm/pandoc/issues/5914",
+   "labels": [
+    "status:more-discussion-needed",
+    "good first issue",
+    "CLI"
+   ],
+   "updatedAt": "2021-05-05T11:39:59Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "labelled `status:more-discussion-needed` — scope may not be settled yet (+1 more)",
+   "evidence": [
+    "https://github.com/jgm/pandoc/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/jgm/pandoc/issues/5914",
+    "https://github.com/jgm/pandoc/blob/HEAD/INSTALL.md",
+    "https://github.com/jgm/pandoc/wiki",
+    "https://github.com/jgm/pandoc/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 6042,
+   "title": "Multiple references in \\textcite{} produce incorrect citation",
+   "url": "https://github.com/jgm/pandoc/issues/6042",
+   "labels": [
+    "format:LaTeX",
+    "good first issue",
+    "reader"
+   ],
+   "updatedAt": "2021-05-25T16:06:28Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "PR #7325 by @andreamazza89 is already open against this issue",
+   "evidence": [
+    "https://github.com/jgm/pandoc/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/jgm/pandoc/pull/7325"
+   ]
+  },
+  {
+   "number": 6987,
+   "title": "Support using stdin for arguments that take files in cross-platform agnostic way",
+   "url": "https://github.com/jgm/pandoc/issues/6987",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "CLI"
+   ],
+   "updatedAt": "2021-05-05T11:32:19Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/jgm/pandoc/wiki) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/jgm/pandoc/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/jgm/pandoc/issues/6987",
+    "https://github.com/jgm/pandoc/blob/HEAD/INSTALL.md",
+    "https://github.com/jgm/pandoc/wiki",
+    "https://github.com/jgm/pandoc/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 8069,
+   "title": "Markdown to LaTeX: Level 6 Heading",
+   "url": "https://github.com/jgm/pandoc/issues/8069",
+   "labels": [
+    "enhancement",
+    "format:LaTeX",
+    "good first issue",
+    "writer",
+    "templates"
+   ],
+   "updatedAt": "2025-08-15T16:21:51Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "PR #8298 by @dvnrussell is already open against this issue",
+   "evidence": [
+    "https://github.com/jgm/pandoc/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/jgm/pandoc/pull/8298"
+   ]
+  },
+  {
+   "number": 8880,
+   "title": "`RawBlock` and `raw_attributes` does not always respect the FORMAT or `--to` value",
+   "url": "https://github.com/jgm/pandoc/issues/8880",
+   "labels": [
+    "bug",
+    "good first issue"
+   ],
+   "updatedAt": "2025-07-22T14:47:53Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "PR #9110 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/jgm/pandoc/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/jgm/pandoc/pull/9110",
+    "https://github.com/jgm/pandoc/pull/11628",
+    "https://github.com/jgm/pandoc/issues/8880",
+    "https://github.com/jgm/pandoc/blob/HEAD/INSTALL.md",
+    "https://github.com/jgm/pandoc/wiki",
+    "https://github.com/jgm/pandoc/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 9177,
+   "title": "Use plain text writer for texorpdfstring",
+   "url": "https://github.com/jgm/pandoc/issues/9177",
+   "labels": [
+    "enhancement",
+    "format:LaTeX",
+    "good first issue",
+    "writer"
+   ],
+   "updatedAt": "2025-12-06T15:26:11Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/jgm/pandoc/wiki) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/jgm/pandoc/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/jgm/pandoc/issues/9177",
+    "https://github.com/jgm/pandoc/blob/HEAD/INSTALL.md",
+    "https://github.com/jgm/pandoc/wiki",
+    "https://github.com/jgm/pandoc/blob/HEAD/CONTRIBUTING.md"
+   ]
+  }
+ ]
+}

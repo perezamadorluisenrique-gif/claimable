@@ -1,0 +1,399 @@
+{
+ "owner": "scala",
+ "repo": "scala3",
+ "language": "Scala",
+ "stars": 6336,
+ "description": "The Scala 3 compiler, also known as Dotty.",
+ "visitedAt": "2026-11-14T03:20:07.172Z",
+ "issues": [
+  {
+   "number": 1329,
+   "title": "Ycheck consistency between flags",
+   "url": "https://github.com/scala/scala3/issues/1329",
+   "labels": [
+    "itype:enhancement",
+    "help wanted",
+    "backlog"
+   ],
+   "updatedAt": "2022-04-05T14:04:14Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "PR #26371 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+4 more)",
+   "evidence": [
+    "https://github.com/scala/scala3/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/scala/scala3/pull/26371",
+    "https://github.com/scala/scala3/issues/1329",
+    "https://docs.scala-lang.org/sips/process-specification.html",
+    "https://github.com/scala/scala3/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/scala/scala3/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 4534,
+   "title": "NoSuchMethodError calling operator names from non-scala classes",
+   "url": "https://github.com/scala/scala3/issues/4534",
+   "labels": [
+    "itype:enhancement",
+    "help wanted",
+    "stat:needs spec"
+   ],
+   "updatedAt": "2021-06-08T13:36:38Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "labelled `stat:needs spec` — the project is saying not to start",
+   "evidence": [
+    "https://github.com/scala/scala3/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/scala/scala3/issues/4534"
+   ]
+  },
+  {
+   "number": 4650,
+   "title": "Port incremental compilation tests from Zinc",
+   "url": "https://github.com/scala/scala3/issues/4650",
+   "labels": [
+    "help wanted",
+    "area:sbt-bridge",
+    "area:testing"
+   ],
+   "updatedAt": "2018-06-12T15:54:52Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "open 103 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+3 more)",
+   "evidence": [
+    "https://github.com/scala/scala3/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/scala/scala3/issues/4650",
+    "https://docs.scala-lang.org/sips/process-specification.html",
+    "https://github.com/scala/scala3/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/scala/scala3/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 5069,
+   "title": "Implement binding of the values in dotty.tools.repl.ReplDriver.bind",
+   "url": "https://github.com/scala/scala3/issues/5069",
+   "labels": [
+    "itype:enhancement",
+    "help wanted",
+    "area:repl"
+   ],
+   "updatedAt": "2026-01-10T07:12:47Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "PR #4933 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+4 more)",
+   "evidence": [
+    "https://github.com/scala/scala3/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/scala/scala3/pull/4933",
+    "https://github.com/sbt/sbt/pull/9073",
+    "https://github.com/scala/scala3/issues/5069",
+    "https://docs.scala-lang.org/sips/process-specification.html",
+    "https://github.com/scala/scala3/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/scala/scala3/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 9695,
+   "title": "Partial application of bounded type operator fails bounds check",
+   "url": "https://github.com/scala/scala3/issues/9695",
+   "labels": [
+    "itype:bug",
+    "help wanted",
+    "area:typer",
+    "backlog"
+   ],
+   "updatedAt": "2022-04-06T16:12:41Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.scala-lang.org/sips/process-specification.html) — this filter only reads files in the repo, so the real setup cost is unverified (+2 more)",
+   "evidence": [
+    "https://github.com/scala/scala3/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/scala/scala3/issues/9695",
+    "https://docs.scala-lang.org/sips/process-specification.html",
+    "https://github.com/scala/scala3/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/scala/scala3/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 9697,
+   "title": "Rechecking inferred type arguments fails.",
+   "url": "https://github.com/scala/scala3/issues/9697",
+   "labels": [
+    "itype:bug",
+    "help wanted",
+    "area:typer",
+    "backlog"
+   ],
+   "updatedAt": "2022-04-06T16:10:17Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "open 75 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+3 more)",
+   "evidence": [
+    "https://github.com/scala/scala3/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/scala/scala3/issues/9697",
+    "https://docs.scala-lang.org/sips/process-specification.html",
+    "https://github.com/scala/scala3/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/scala/scala3/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 9715,
+   "title": "Improve debugging support by implementing JSR-45",
+   "url": "https://github.com/scala/scala3/issues/9715",
+   "labels": [
+    "itype:enhancement",
+    "help wanted",
+    "compat:scala2",
+    "area:backend"
+   ],
+   "updatedAt": "2021-01-18T10:34:23Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "already assigned to @Kordyjan",
+   "evidence": [
+    "https://github.com/scala/scala3/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/scala/scala3/issues/9715"
+   ]
+  },
+  {
+   "number": 9792,
+   "title": "compiletime ops could interpret non-literal arguments under algebraic laws",
+   "url": "https://github.com/scala/scala3/issues/9792",
+   "labels": [
+    "itype:bug",
+    "help wanted"
+   ],
+   "updatedAt": "2022-10-15T14:19:42Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "already assigned to @mbovel",
+   "evidence": [
+    "https://github.com/scala/scala3/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/scala/scala3/issues/9792"
+   ]
+  },
+  {
+   "number": 10031,
+   "title": "cached derived instance loses refinements",
+   "url": "https://github.com/scala/scala3/issues/10031",
+   "labels": [
+    "itype:bug",
+    "itype:enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2024-05-02T10:37:49Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.scala-lang.org/sips/process-specification.html) — this filter only reads files in the repo, so the real setup cost is unverified (+2 more)",
+   "evidence": [
+    "https://github.com/scala/scala3/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/scala/scala3/issues/10031",
+    "https://docs.scala-lang.org/sips/process-specification.html",
+    "https://github.com/scala/scala3/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/scala/scala3/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 10749,
+   "title": "Warn when a pattern-bound variable shadows a regular variable",
+   "url": "https://github.com/scala/scala3/issues/10749",
+   "labels": [
+    "itype:enhancement",
+    "help wanted",
+    "area:reporting",
+    "area:pattern-matching",
+    "backlog"
+   ],
+   "updatedAt": "2026-01-27T23:26:27Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "already assigned to @som-snytt",
+   "evidence": [
+    "https://github.com/scala/scala3/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/scala/scala3/issues/10749"
+   ]
+  },
+  {
+   "number": 13416,
+   "title": "Match type syntax does not allow writing type patterns for type members directly",
+   "url": "https://github.com/scala/scala3/issues/13416",
+   "labels": [
+    "itype:enhancement",
+    "help wanted",
+    "area:match-types"
+   ],
+   "updatedAt": "2022-10-24T09:04:50Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "PR #137 by @halotukozak is already open against this issue",
+   "evidence": [
+    "https://github.com/scala/scala3/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/scala/improvement-proposals/pull/137"
+   ]
+  },
+  {
+   "number": 13591,
+   "title": "Implicit resolution does not take type path into account",
+   "url": "https://github.com/scala/scala3/issues/13591",
+   "labels": [
+    "itype:enhancement",
+    "help wanted",
+    "area:implicits"
+   ],
+   "updatedAt": "2021-10-06T11:17:12Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.scala-lang.org/sips/process-specification.html) — this filter only reads files in the repo, so the real setup cost is unverified (+2 more)",
+   "evidence": [
+    "https://github.com/scala/scala3/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/scala/scala3/issues/13591",
+    "https://docs.scala-lang.org/sips/process-specification.html",
+    "https://github.com/scala/scala3/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/scala/scala3/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 14262,
+   "title": "Scala 3 ScriptEngine not supporting bindings or attributes",
+   "url": "https://github.com/scala/scala3/issues/14262",
+   "labels": [
+    "itype:enhancement",
+    "help wanted",
+    "area:repl"
+   ],
+   "updatedAt": "2022-01-12T21:06:37Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "PR #17237 by @jpsacha is already open against this issue",
+   "evidence": [
+    "https://github.com/scala/scala3/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/scala/scala3/issues/17237"
+   ]
+  },
+  {
+   "number": 14694,
+   "title": "Compiler error with -new-syntax and -source:3.0-migration",
+   "url": "https://github.com/scala/scala3/issues/14694",
+   "labels": [
+    "itype:bug",
+    "prio:low",
+    "help wanted",
+    "area:rewriting tool",
+    "area:parser",
+    "backlog"
+   ],
+   "updatedAt": "2023-05-15T12:58:12Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.scala-lang.org/sips/process-specification.html) — this filter only reads files in the repo, so the real setup cost is unverified (+2 more)",
+   "evidence": [
+    "https://github.com/scala/scala3/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/scala/scala3/issues/14694",
+    "https://docs.scala-lang.org/sips/process-specification.html",
+    "https://github.com/scala/scala3/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/scala/scala3/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 14710,
+   "title": "Scala.js backend cannot emit static fields",
+   "url": "https://github.com/scala/scala3/issues/14710",
+   "labels": [
+    "itype:enhancement",
+    "help wanted",
+    "area:backend",
+    "exp:advanced",
+    "area:scala.js"
+   ],
+   "updatedAt": "2024-01-15T11:23:25Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "already assigned to @sjrd",
+   "evidence": [
+    "https://github.com/scala/scala3/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/scala/scala3/pull/19400",
+    "https://github.com/scala/scala3/issues/14710"
+   ]
+  },
+  {
+   "number": 18631,
+   "title": "Documentation help needed: `given [T]: CanEqual[T, T]` resolves `CanEqual`s of different types",
+   "url": "https://github.com/scala/scala3/issues/18631",
+   "labels": [
+    "itype:enhancement",
+    "area:documentation",
+    "good first issue"
+   ],
+   "updatedAt": "2024-05-02T19:52:36Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.scala-lang.org/sips/process-specification.html) — this filter only reads files in the repo, so the real setup cost is unverified (+2 more)",
+   "evidence": [
+    "https://github.com/scala/scala3/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/scala/scala3/issues/18631",
+    "https://docs.scala-lang.org/sips/process-specification.html",
+    "https://github.com/scala/scala3/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/scala/scala3/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 18763,
+   "title": "Slow performance in a combination of features",
+   "url": "https://github.com/scala/scala3/issues/18763",
+   "labels": [
+    "itype:enhancement",
+    "help wanted",
+    "area:typer",
+    "itype:performance",
+    "stat:needs minimization",
+    "backlog",
+    "area:infer"
+   ],
+   "updatedAt": "2026-04-27T01:13:51Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "PR #25109 by @Alex1005a is already open against this issue",
+   "evidence": [
+    "https://github.com/scala/scala3/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/scala/scala3/pull/25109"
+   ]
+  },
+  {
+   "number": 19525,
+   "title": "doc tool - support GitHub flavoured markdown table",
+   "url": "https://github.com/scala/scala3/issues/19525",
+   "labels": [
+    "itype:enhancement",
+    "area:doctool",
+    "good first issue"
+   ],
+   "updatedAt": "2024-01-26T00:22:11Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "already assigned to @Florian3k",
+   "evidence": [
+    "https://github.com/scala/scala3/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/scala/scala3/issues/19525"
+   ]
+  },
+  {
+   "number": 21629,
+   "title": "Consider nullable annotations in explicit nulls",
+   "url": "https://github.com/scala/scala3/issues/21629",
+   "labels": [
+    "itype:enhancement",
+    "itype:question",
+    "compat:java",
+    "area:nullability",
+    "good first issue"
+   ],
+   "updatedAt": "2025-06-06T11:06:14Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "already assigned to @HarrisL2",
+   "evidence": [
+    "https://github.com/scala/scala3/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/scala/scala3/issues/21629",
+    "https://github.com/scala/scala3/issues/21629#issuecomment-2472300632"
+   ]
+  }
+ ]
+}

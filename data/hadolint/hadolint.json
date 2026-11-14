@@ -1,0 +1,486 @@
+{
+ "owner": "hadolint",
+ "repo": "hadolint",
+ "language": "Haskell",
+ "stars": 12524,
+ "description": "Dockerfile linter, validate inline bash, written in Haskell",
+ "visitedAt": "2026-11-14T03:20:07.172Z",
+ "issues": [
+  {
+   "number": 80,
+   "title": "RULE SUGGESTION：Don‘t chmod/chown in a single line",
+   "url": "https://github.com/hadolint/hadolint/issues/80",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2021-03-18T12:21:59Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "PR #1240 by @SimonTreavis is already open against this issue",
+   "evidence": [
+    "https://github.com/hadolint/hadolint/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/hadolint/hadolint/issues/1240"
+   ]
+  },
+  {
+   "number": 239,
+   "title": "[DL3026] Display the allowed registries in the error message",
+   "url": "https://github.com/hadolint/hadolint/issues/239",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2018-07-13T15:11:09Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "open 102 months with no human comment, in a repo pushed to 26 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/hadolint/hadolint/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/hadolint/hadolint/issues/239",
+    "https://github.com/hadolint/hadolint/blob/HEAD/README.md",
+    "https://github.com/hadolint/hadolint/wiki/DL1001"
+   ]
+  },
+  {
+   "number": 251,
+   "title": "Empty continuation lines",
+   "url": "https://github.com/hadolint/hadolint/issues/251",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2026-06-22T06:38:43Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "PR #116 by @m-ildefons is already open against this issue",
+   "evidence": [
+    "https://github.com/hadolint/hadolint/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/hadolint/language-docker/pull/116"
+   ]
+  },
+  {
+   "number": 282,
+   "title": "Enforce checksums checks when using curl/wget",
+   "url": "https://github.com/hadolint/hadolint/issues/282",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2021-03-18T12:33:02Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "open 97 months with no human comment, in a repo pushed to 26 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/hadolint/hadolint/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/hadolint/hadolint/issues/282",
+    "https://github.com/hadolint/hadolint/blob/HEAD/README.md",
+    "https://github.com/hadolint/hadolint/wiki/DL1001"
+   ]
+  },
+  {
+   "number": 285,
+   "title": "Show correct line numbers",
+   "url": "https://github.com/hadolint/hadolint/issues/285",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2023-04-01T13:10:47Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "PR #116 by @m-ildefons is already open against this issue",
+   "evidence": [
+    "https://github.com/hadolint/hadolint/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/hadolint/language-docker/pull/116"
+   ]
+  },
+  {
+   "number": 309,
+   "title": "Support for whitelisted domains in a Dockerfile?",
+   "url": "https://github.com/hadolint/hadolint/issues/309",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2021-03-18T12:35:36Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "PR #630 by @nxf5025 is already open against this issue",
+   "evidence": [
+    "https://github.com/hadolint/hadolint/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/hadolint/hadolint/issues/630"
+   ]
+  },
+  {
+   "number": 328,
+   "title": "DL3002 will pass with the default user as root",
+   "url": "https://github.com/hadolint/hadolint/issues/328",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2025-08-29T20:22:03Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "PR #1158 by @304NotModified is already open against this issue",
+   "evidence": [
+    "https://github.com/hadolint/hadolint/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/hadolint/hadolint/pull/1158"
+   ]
+  },
+  {
+   "number": 329,
+   "title": "DL-3008 - The syntax is not recognized when using ENV var",
+   "url": "https://github.com/hadolint/hadolint/issues/329",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2021-03-18T12:37:23Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/hadolint/hadolint/wiki/DL1001) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/hadolint/hadolint/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/hadolint/hadolint/issues/329",
+    "https://github.com/hadolint/hadolint/wiki/DL1001"
+   ]
+  },
+  {
+   "number": 339,
+   "title": "Error when parsing FROM with ARG",
+   "url": "https://github.com/hadolint/hadolint/issues/339",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2026-04-28T23:41:07Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "PR #709 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/hadolint/hadolint/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/grafana/grafana-operator/pull/709",
+    "https://github.com/kata-containers/kata-containers/pull/5783",
+    "https://github.com/hadolint/hadolint/issues/339",
+    "https://github.com/hadolint/hadolint/wiki/DL1001"
+   ]
+  },
+  {
+   "number": 341,
+   "title": "Environment variables values are ignored when executing rules",
+   "url": "https://github.com/hadolint/hadolint/issues/341",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2026-06-22T06:31:54Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/hadolint/hadolint/wiki/DL1001) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/hadolint/hadolint/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/hadolint/hadolint/issues/341",
+    "https://github.com/hadolint/hadolint/blob/HEAD/README.md",
+    "https://github.com/hadolint/hadolint/wiki/DL1001"
+   ]
+  },
+  {
+   "number": 342,
+   "title": "Check for credentials/passwords",
+   "url": "https://github.com/hadolint/hadolint/issues/342",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2021-03-18T12:40:51Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/hadolint/hadolint/wiki/DL1001) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/hadolint/hadolint/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/hadolint/hadolint/issues/342",
+    "https://github.com/hadolint/hadolint/blob/HEAD/README.md",
+    "https://github.com/hadolint/hadolint/wiki/DL1001"
+   ]
+  },
+  {
+   "number": 353,
+   "title": "Enforce to not use LABEL at all",
+   "url": "https://github.com/hadolint/hadolint/issues/353",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2021-03-18T12:39:41Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/hadolint/hadolint/wiki/DL1001) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/hadolint/hadolint/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/hadolint/hadolint/issues/353",
+    "https://github.com/hadolint/hadolint/wiki/DL1001"
+   ]
+  },
+  {
+   "number": 373,
+   "title": "Flag multiple installation steps",
+   "url": "https://github.com/hadolint/hadolint/issues/373",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2021-03-18T12:58:04Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/hadolint/hadolint/wiki/DL1001) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/hadolint/hadolint/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/hadolint/hadolint/issues/373",
+    "https://github.com/hadolint/hadolint/blob/HEAD/README.md",
+    "https://github.com/hadolint/hadolint/wiki/DL1001"
+   ]
+  },
+  {
+   "number": 374,
+   "title": "Supporting Chocolatey as an installation method for windows users?",
+   "url": "https://github.com/hadolint/hadolint/issues/374",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2020-02-25T08:13:04Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/hadolint/hadolint/wiki/DL1001) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/hadolint/hadolint/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/hadolint/hadolint/issues/374",
+    "https://github.com/hadolint/hadolint/blob/HEAD/README.md",
+    "https://github.com/hadolint/hadolint/wiki/DL1001"
+   ]
+  },
+  {
+   "number": 381,
+   "title": "Native support for Azure DevOps Pipelines",
+   "url": "https://github.com/hadolint/hadolint/issues/381",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2020-06-04T12:03:48Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.microsoft.com/en-us/azure/devops/extend/develop/add-build-task?view=azure-devops) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/hadolint/hadolint/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/hadolint/hadolint/issues/381",
+    "https://docs.microsoft.com/en-us/azure/devops/extend/develop/add-build-task?view=azure-devops"
+   ]
+  },
+  {
+   "number": 388,
+   "title": "Print a list of rules defined",
+   "url": "https://github.com/hadolint/hadolint/issues/388",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2021-03-18T12:59:08Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/hadolint/hadolint/wiki/DL1001) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/hadolint/hadolint/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/hadolint/hadolint/issues/388",
+    "https://github.com/hadolint/hadolint/wiki/DL1001"
+   ]
+  },
+  {
+   "number": 396,
+   "title": "Suggest --fail to curl",
+   "url": "https://github.com/hadolint/hadolint/issues/396",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2021-03-18T12:18:19Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "open 82 months with no human comment, in a repo pushed to 26 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/hadolint/hadolint/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/hadolint/hadolint/issues/396",
+    "https://github.com/hadolint/hadolint/wiki/DL1001"
+   ]
+  },
+  {
+   "number": 397,
+   "title": "Suggest --no-network on apk del",
+   "url": "https://github.com/hadolint/hadolint/issues/397",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2021-03-18T12:18:33Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "open 82 months with no human comment, in a repo pushed to 26 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/hadolint/hadolint/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/hadolint/hadolint/issues/397",
+    "https://github.com/hadolint/hadolint/wiki/DL1001"
+   ]
+  },
+  {
+   "number": 398,
+   "title": "Suggest apk add --upgrade when apk upgrade is used",
+   "url": "https://github.com/hadolint/hadolint/issues/398",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2021-03-18T12:18:43Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "PR #845 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/hadolint/hadolint/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/hadolint/hadolint/pull/845",
+    "https://github.com/hadolint/hadolint/issues/398",
+    "https://github.com/hadolint/hadolint/wiki/DL1001"
+   ]
+  },
+  {
+   "number": 401,
+   "title": "Trusted registries don't work correctly for multi-part repo names",
+   "url": "https://github.com/hadolint/hadolint/issues/401",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2026-09-28T10:44:51Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "PR #1279 by @hakarrr is already open against this issue",
+   "evidence": [
+    "https://github.com/hadolint/hadolint/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/hadolint/hadolint/pull/1279"
+   ]
+  },
+  {
+   "number": 407,
+   "title": "Support ARG/ENV for pip install --extra-index-url ",
+   "url": "https://github.com/hadolint/hadolint/issues/407",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2021-03-20T13:05:55Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "open 81 months with no human comment, in a repo pushed to 26 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/hadolint/hadolint/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/hadolint/hadolint/issues/407",
+    "https://github.com/hadolint/hadolint/wiki/DL1001"
+   ]
+  },
+  {
+   "number": 422,
+   "title": "DL3003 Use WORKDIR to switch directory false positive",
+   "url": "https://github.com/hadolint/hadolint/issues/422",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2021-03-18T13:03:16Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "PR #1280 by @hakarrr is already open against this issue",
+   "evidence": [
+    "https://github.com/hadolint/hadolint/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/hadolint/hadolint/pull/1280",
+    "https://github.com/rossoctl/cortex/pull/520"
+   ]
+  },
+  {
+   "number": 451,
+   "title": "Check if an SSH server has been installed or specified as the containers entry point",
+   "url": "https://github.com/hadolint/hadolint/issues/451",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2021-03-18T13:05:41Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "open 77 months with no human comment, in a repo pushed to 26 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/hadolint/hadolint/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/hadolint/hadolint/issues/451",
+    "https://github.com/hadolint/hadolint/blob/HEAD/README.md",
+    "https://github.com/hadolint/hadolint/wiki/DL1001"
+   ]
+  },
+  {
+   "number": 531,
+   "title": "Warn about commented lines which disable following commands",
+   "url": "https://github.com/hadolint/hadolint/issues/531",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2021-03-18T13:05:58Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "open 70 months with no human comment, in a repo pushed to 26 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/hadolint/hadolint/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/hadolint/hadolint/issues/531",
+    "https://github.com/hadolint/hadolint/blob/HEAD/README.md",
+    "https://github.com/hadolint/hadolint/wiki/DL1001"
+   ]
+  },
+  {
+   "number": 557,
+   "title": "Recommend putting multiple LABEL lines on the same line to reduce layers",
+   "url": "https://github.com/hadolint/hadolint/issues/557",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2021-04-25T22:00:06Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "PR #591 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/hadolint/hadolint/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/hadolint/hadolint/pull/591",
+    "https://github.com/KlubJagiellonski/pola-backend/pull/564",
+    "https://github.com/hadolint/hadolint/issues/557",
+    "https://github.com/hadolint/hadolint/blob/HEAD/README.md",
+    "https://github.com/hadolint/hadolint/wiki/DL1001"
+   ]
+  },
+  {
+   "number": 1217,
+   "title": "Install on Windows via Winget support",
+   "url": "https://github.com/hadolint/hadolint/issues/1217",
+   "labels": [
+    "help wanted",
+    "packaging",
+    "platform/windows"
+   ],
+   "updatedAt": "2026-07-22T09:55:07Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/hadolint/hadolint/wiki/DL1001) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/hadolint/hadolint/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/hadolint/hadolint/issues/1217",
+    "https://github.com/hadolint/hadolint/blob/HEAD/README.md",
+    "https://github.com/hadolint/hadolint/wiki/DL1001"
+   ]
+  }
+ ]
+}

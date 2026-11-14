@@ -1,0 +1,29 @@
+{
+ "owner": "bitwalker",
+ "repo": "timex",
+ "language": "Elixir",
+ "stars": 1805,
+ "description": "A complete date/time library for Elixir projects.",
+ "visitedAt": "2026-11-14T03:20:07.172Z",
+ "issues": [
+  {
+   "number": 124,
+   "title": "Relative/Calendar time formatters/parsers",
+   "url": "https://github.com/bitwalker/timex/issues/124",
+   "labels": [
+    "help wanted",
+    "level:intermediate",
+    "feature/enhancement"
+   ],
+   "updatedAt": "2023-05-23T13:47:53Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "already assigned to @bitwalker",
+   "evidence": [
+    "https://github.com/bitwalker/timex/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/bitwalker/timex/issues/124",
+    "https://github.com/bitwalker/timex/issues/124#issuecomment-1559411441"
+   ]
+  }
+ ]
+}

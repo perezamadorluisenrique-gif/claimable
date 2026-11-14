@@ -1,0 +1,303 @@
+{
+ "owner": "scalaz",
+ "repo": "scalaz",
+ "language": "Scala",
+ "stars": 4670,
+ "description": "Principled Functional Programming in Scala",
+ "visitedAt": "2026-11-14T03:20:07.172Z",
+ "issues": [
+  {
+   "number": 1540,
+   "title": "Scalaz 8 package organization",
+   "url": "https://github.com/scalaz/scalaz/issues/1540",
+   "labels": [
+    "scalaz8",
+    "good first issue"
+   ],
+   "updatedAt": "2018-05-26T19:06:57Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "PR #1784 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/scalaz/scalaz/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/scalaz/scalaz/pull/1784",
+    "https://github.com/scalaz/scalaz/pull/1820",
+    "https://github.com/scalaz/scalaz/issues/1540",
+    "https://github.com/scalaz/scalaz/wiki"
+   ]
+  },
+  {
+   "number": 1628,
+   "title": "Remove local type classes instances and explicit type class arguments",
+   "url": "https://github.com/scalaz/scalaz/issues/1628",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2019-02-10T13:22:07Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "PR #1602 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/scalaz/scalaz/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/scalaz/scalaz/pull/1602",
+    "https://github.com/scalaz/scalaz/issues/1628",
+    "https://github.com/scalaz/scalaz/wiki"
+   ]
+  },
+  {
+   "number": 1726,
+   "title": "Void for 7.3.x and 7.2.x",
+   "url": "https://github.com/scalaz/scalaz/issues/1726",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2018-05-22T20:33:45Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @somethingconcon 3098 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/scalaz/scalaz/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/scalaz/scalaz/issues/1726#issuecomment-390823435",
+    "https://github.com/scalaz/scalaz/issues/1726",
+    "https://github.com/scalaz/scalaz/wiki"
+   ]
+  },
+  {
+   "number": 1731,
+   "title": "Scalaz 8 Snapshot Binaries and Documentation",
+   "url": "https://github.com/scalaz/scalaz/issues/1731",
+   "labels": [
+    "scalaz8",
+    "good first issue"
+   ],
+   "updatedAt": "2018-04-23T01:34:48Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "PR #1742 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/scalaz/scalaz/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/scalaz/scalaz/pull/1742",
+    "https://github.com/scalaz/scalaz/issues/1731",
+    "https://github.com/scalaz/scalaz/wiki"
+   ]
+  },
+  {
+   "number": 1808,
+   "title": "Improve performance of EqClass",
+   "url": "https://github.com/scalaz/scalaz/issues/1808",
+   "labels": [
+    "scalaz8",
+    "good first issue"
+   ],
+   "updatedAt": "2019-03-12T10:41:10Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @hamednourhani 2805 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/scalaz/scalaz/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/scalaz/scalaz/issues/1808#issuecomment-471416561",
+    "https://github.com/scalaz/scalaz/issues/1808",
+    "https://github.com/scalaz/scalaz/wiki"
+   ]
+  },
+  {
+   "number": 1826,
+   "title": "Enforce acyclic package dependencies",
+   "url": "https://github.com/scalaz/scalaz/issues/1826",
+   "labels": [
+    "scalaz8",
+    "good first issue"
+   ],
+   "updatedAt": "2018-06-29T13:52:49Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/scalaz/scalaz/wiki) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/scalaz/scalaz/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/scalaz/scalaz/issues/1826",
+    "https://github.com/scalaz/scalaz/wiki"
+   ]
+  },
+  {
+   "number": 1844,
+   "title": "Interactive documentation",
+   "url": "https://github.com/scalaz/scalaz/issues/1844",
+   "labels": [
+    "scalaz8",
+    "good first issue",
+    "documentation"
+   ],
+   "updatedAt": "2018-06-02T16:33:33Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/scalaz/scalaz/wiki) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/scalaz/scalaz/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/scalaz/scalaz/issues/1844",
+    "https://github.com/scalaz/scalaz/wiki"
+   ]
+  },
+  {
+   "number": 1886,
+   "title": "Augment IO and IO.type with helper methods for Disjunction, Maybe",
+   "url": "https://github.com/scalaz/scalaz/issues/1886",
+   "labels": [
+    "scalaz8",
+    "good first issue"
+   ],
+   "updatedAt": "2018-07-23T16:22:04Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "PR #1917 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/scalaz/scalaz/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/scalaz/scalaz/pull/1917",
+    "https://github.com/scalaz/scalaz/issues/1886",
+    "https://github.com/scalaz/scalaz/wiki"
+   ]
+  },
+  {
+   "number": 1915,
+   "title": "Flatten ApplicativeBuilder",
+   "url": "https://github.com/scalaz/scalaz/issues/1915",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2019-06-27T04:08:39Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "PR #1916 by @cryeo is already open against this issue",
+   "evidence": [
+    "https://github.com/scalaz/scalaz/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/scalaz/scalaz/pull/1916",
+    "https://github.com/scalaz/scalaz/pull/1986"
+   ]
+  },
+  {
+   "number": 1937,
+   "title": "Remove double negation elimination.",
+   "url": "https://github.com/scalaz/scalaz/issues/1937",
+   "labels": [
+    "good first issue",
+    "scalaz7"
+   ],
+   "updatedAt": "2019-06-27T04:06:53Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "open 101 months with no human comment, in a repo pushed to 3 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/scalaz/scalaz/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/scalaz/scalaz/issues/1937",
+    "https://github.com/scalaz/scalaz/wiki"
+   ]
+  },
+  {
+   "number": 1940,
+   "title": "Comprehensive instances for ZIO",
+   "url": "https://github.com/scalaz/scalaz/issues/1940",
+   "labels": [
+    "scalaz8",
+    "good first issue"
+   ],
+   "updatedAt": "2018-10-01T08:17:54Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "PR #1998 by @pfgray is already open against this issue",
+   "evidence": [
+    "https://github.com/scalaz/scalaz/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/scalaz/scalaz/pull/1998",
+    "https://github.com/scalaz/scalaz/pull/2032"
+   ]
+  },
+  {
+   "number": 1946,
+   "title": "Semicategory op naming",
+   "url": "https://github.com/scalaz/scalaz/issues/1946",
+   "labels": [
+    "scalaz8",
+    "good first issue"
+   ],
+   "updatedAt": "2019-02-13T19:21:07Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/scalaz/scalaz/wiki) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/scalaz/scalaz/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/scalaz/scalaz/issues/1946",
+    "https://github.com/scalaz/scalaz/wiki"
+   ]
+  },
+  {
+   "number": 1974,
+   "title": "Docs Docs Docs",
+   "url": "https://github.com/scalaz/scalaz/issues/1974",
+   "labels": [
+    "scalaz8",
+    "good first issue",
+    "documentation"
+   ],
+   "updatedAt": "2019-03-10T16:20:22Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/scalaz/scalaz/wiki) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/scalaz/scalaz/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/scalaz/scalaz/issues/1974",
+    "https://github.com/scalaz/scalaz/wiki"
+   ]
+  },
+  {
+   "number": 1980,
+   "title": "Implement Map.filterM",
+   "url": "https://github.com/scalaz/scalaz/issues/1980",
+   "labels": [
+    "good first issue",
+    "scalaz7"
+   ],
+   "updatedAt": "2019-06-27T04:05:43Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/scalaz/scalaz/wiki) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/scalaz/scalaz/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/scalaz/scalaz/issues/1980",
+    "https://github.com/scalaz/scalaz/wiki"
+   ]
+  },
+  {
+   "number": 1983,
+   "title": "applyN / apN / tupleN up to 22?",
+   "url": "https://github.com/scalaz/scalaz/issues/1983",
+   "labels": [
+    "good first issue",
+    "scalaz7"
+   ],
+   "updatedAt": "2018-09-20T19:31:02Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "PR #1986 by @merlinorg is already open against this issue",
+   "evidence": [
+    "https://github.com/scalaz/scalaz/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/scalaz/scalaz/pull/1986"
+   ]
+  },
+  {
+   "number": 2033,
+   "title": "Show[Throwable]",
+   "url": "https://github.com/scalaz/scalaz/issues/2033",
+   "labels": [
+    "good first issue",
+    "scalaz7"
+   ],
+   "updatedAt": "2019-06-27T03:59:20Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/scalaz/scalaz/wiki) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/scalaz/scalaz/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/scalaz/scalaz/issues/2033",
+    "https://github.com/scalaz/scalaz/wiki"
+   ]
+  }
+ ]
+}

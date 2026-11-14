@@ -1,0 +1,9 @@
+{
+ "owner": "xmonad",
+ "repo": "xmonad",
+ "language": "Haskell",
+ "stars": 3611,
+ "description": "The core of xmonad, a small but functional ICCCM-compliant tiling window manager",
+ "visitedAt": "2026-11-14T03:20:07.172Z",
+ "issues": []
+}

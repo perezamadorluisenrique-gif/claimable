@@ -1,0 +1,122 @@
+{
+ "owner": "semaphoreio",
+ "repo": "semaphore",
+ "language": "Elixir",
+ "stars": 1636,
+ "description": "All-in-one delivery platform for AI-driven development.",
+ "visitedAt": "2026-11-14T03:20:07.172Z",
+ "issues": [
+  {
+   "number": 32,
+   "title": "Add Task descriptions in task list",
+   "url": "https://github.com/semaphoreio/semaphore/issues/32",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "qol"
+   ],
+   "updatedAt": "2025-06-09T14:26:44Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "PR #1305 by @pamod-madubashana is already open against this issue",
+   "evidence": [
+    "https://github.com/semaphoreio/semaphore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/semaphoreio/semaphore/issues/1305"
+   ]
+  },
+  {
+   "number": 44,
+   "title": "Add visual indicator that the workflow is rerun",
+   "url": "https://github.com/semaphoreio/semaphore/issues/44",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "qol"
+   ],
+   "updatedAt": "2026-10-27T12:16:03Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "already assigned to @hamir-suspect",
+   "evidence": [
+    "https://github.com/semaphoreio/semaphore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/semaphoreio/semaphore/issues/44"
+   ]
+  },
+  {
+   "number": 363,
+   "title": "Sanitise secrets from logs or debugging",
+   "url": "https://github.com/semaphoreio/semaphore/issues/363",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2025-06-09T14:26:58Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "open 17 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/semaphoreio/semaphore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/semaphoreio/semaphore/issues/363",
+    "https://github.com/semaphoreio/semaphore/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.semaphore.io/CE/getting-started/install-single-machine"
+   ]
+  },
+  {
+   "number": 372,
+   "title": "Add missing `Content-Type` headers in public api",
+   "url": "https://github.com/semaphoreio/semaphore/issues/372",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2025-09-19T14:06:23Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "already assigned to @hamir-suspect, @tarunsinghofficial",
+   "evidence": [
+    "https://github.com/semaphoreio/semaphore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/semaphoreio/semaphore/issues/372",
+    "https://github.com/semaphoreio/semaphore/issues/372#issuecomment-2976776938"
+   ]
+  },
+  {
+   "number": 502,
+   "title": "Automatic Whitespace Trimming for Secret Names",
+   "url": "https://github.com/semaphoreio/semaphore/issues/502",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "qol"
+   ],
+   "updatedAt": "2025-10-07T10:16:52Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "already assigned to @srikanth-s2003",
+   "evidence": [
+    "https://github.com/semaphoreio/semaphore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/semaphoreio/semaphore/issues/502",
+    "https://github.com/semaphoreio/semaphore/issues/502#issuecomment-3368068453"
+   ]
+  },
+  {
+   "number": 503,
+   "title": "Show in the UI who created and last edited the secret ",
+   "url": "https://github.com/semaphoreio/semaphore/issues/503",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "qol"
+   ],
+   "updatedAt": "2025-08-28T11:15:45Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "open 15 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/semaphoreio/semaphore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/semaphoreio/semaphore/issues/503",
+    "https://github.com/semaphoreio/semaphore/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.semaphore.io/CE/getting-started/install-single-machine"
+   ]
+  }
+ ]
+}

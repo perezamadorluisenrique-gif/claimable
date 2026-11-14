@@ -1,0 +1,724 @@
+{
+ "owner": "apache",
+ "repo": "openwhisk",
+ "language": "Scala",
+ "stars": 6805,
+ "description": "Apache OpenWhisk is an open source serverless cloud platform",
+ "visitedAt": "2026-11-14T03:20:07.172Z",
+ "issues": [
+  {
+   "number": 229,
+   "title": "Allow referring to activations by shorter hash ids",
+   "url": "https://github.com/apache/openwhisk/issues/229",
+   "labels": [
+    "enhancement",
+    "API",
+    "good first issue"
+   ],
+   "updatedAt": "2018-06-12T09:18:40Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "PR #5427 by @QWQyyy is already open against this issue",
+   "evidence": [
+    "https://github.com/apache/openwhisk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/apache/openwhisk/issues/5427",
+    "https://github.com/apache/openwhisk/issues/5357",
+    "https://github.com/apache/openwhisk/issues/5429",
+    "https://github.com/apache/openwhisk/issues/4332"
+   ]
+  },
+  {
+   "number": 2008,
+   "title": "Support Default Parameters for Sequences",
+   "url": "https://github.com/apache/openwhisk/issues/2008",
+   "labels": [
+    "help wanted",
+    "controller",
+    "sequences"
+   ],
+   "updatedAt": "2021-02-09T20:21:42Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.docker.com/install) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/apache/openwhisk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/apache/openwhisk/issues/2008",
+    "https://github.com/apache/openwhisk/blob/HEAD/README.md",
+    "https://docs.docker.com/install",
+    "https://github.com/apache/openwhisk/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2013,
+   "title": "swift test has dependence on whisk.system package",
+   "url": "https://github.com/apache/openwhisk/issues/2013",
+   "labels": [
+    "help wanted",
+    "testing",
+    "swift",
+    "good first issue"
+   ],
+   "updatedAt": "2019-12-18T14:21:15Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "open 118 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/apache/openwhisk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/apache/openwhisk/issues/2013",
+    "https://github.com/apache/openwhisk/blob/HEAD/README.md",
+    "https://docs.docker.com/install",
+    "https://github.com/apache/openwhisk/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2262,
+   "title": "documentation for how to debug ",
+   "url": "https://github.com/apache/openwhisk/issues/2262",
+   "labels": [
+    "help wanted",
+    "documentation",
+    "tooling"
+   ],
+   "updatedAt": "2018-07-31T01:27:58Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "PR #4509 by @chetanmeh is already open against this issue",
+   "evidence": [
+    "https://github.com/apache/openwhisk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/apache/openwhisk/issues/4509"
+   ]
+  },
+  {
+   "number": 2359,
+   "title": "prefetch container optimization",
+   "url": "https://github.com/apache/openwhisk/issues/2359",
+   "labels": [
+    "help wanted",
+    "performance"
+   ],
+   "updatedAt": "2019-12-18T15:20:44Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "PR #4075 by @juanestebanj is already open against this issue",
+   "evidence": [
+    "https://github.com/apache/openwhisk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/apache/openwhisk/issues/4075"
+   ]
+  },
+  {
+   "number": 2464,
+   "title": "Update CLI scala tests to conform to best practice naming",
+   "url": "https://github.com/apache/openwhisk/issues/2464",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "testing"
+   ],
+   "updatedAt": "2017-11-29T20:12:37Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "PR #2458 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/apache/openwhisk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/apache/openwhisk/pull/2458",
+    "https://github.com/apache/openwhisk/issues/2464",
+    "https://github.com/apache/openwhisk/blob/HEAD/README.md",
+    "http://docs.scala-lang.org/style/naming-conventions.html",
+    "https://github.com/apache/openwhisk/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2614,
+   "title": "Triggers should activate actions via internal interface",
+   "url": "https://github.com/apache/openwhisk/issues/2614",
+   "labels": [
+    "help wanted",
+    "controller"
+   ],
+   "updatedAt": "2019-02-20T16:47:24Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "open 113 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/apache/openwhisk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/apache/openwhisk/issues/2614",
+    "https://github.com/apache/openwhisk/blob/HEAD/README.md",
+    "https://docs.docker.com/install",
+    "https://github.com/apache/openwhisk/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2881,
+   "title": "NamespaceSpecificThrottleTests is not properly cleaning up temporary subjects",
+   "url": "https://github.com/apache/openwhisk/issues/2881",
+   "labels": [
+    "testing",
+    "heisenbug",
+    "good first issue"
+   ],
+   "updatedAt": "2018-01-05T20:54:06Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "open 110 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/apache/openwhisk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/apache/openwhisk/issues/2881",
+    "https://github.com/apache/openwhisk/blob/HEAD/README.md",
+    "https://docs.docker.com/install",
+    "https://github.com/apache/openwhisk/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2905,
+   "title": "gRPC and protocol buffer support",
+   "url": "https://github.com/apache/openwhisk/issues/2905",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2019-12-18T15:34:09Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.docker.com/install) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/apache/openwhisk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/apache/openwhisk/issues/2905",
+    "https://github.com/apache/openwhisk/blob/HEAD/README.md",
+    "https://docs.docker.com/install",
+    "https://github.com/apache/openwhisk/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2942,
+   "title": "Docs: Add example on how to add dependencies for Java",
+   "url": "https://github.com/apache/openwhisk/issues/2942",
+   "labels": [
+    "help wanted",
+    "documentation",
+    "good first issue"
+   ],
+   "updatedAt": "2019-12-18T15:42:58Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "open 110 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/apache/openwhisk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/apache/openwhisk/issues/2942",
+    "https://github.com/apache/openwhisk/blob/HEAD/README.md",
+    "https://docs.docker.com/install",
+    "https://github.com/apache/openwhisk/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 3088,
+   "title": "add test to enforce rule cannot be created for action used as trigger",
+   "url": "https://github.com/apache/openwhisk/issues/3088",
+   "labels": [
+    "help wanted",
+    "needs tests"
+   ],
+   "updatedAt": "2019-12-18T16:31:04Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "already assigned to @rabbah",
+   "evidence": [
+    "https://github.com/apache/openwhisk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/apache/openwhisk/issues/3088"
+   ]
+  },
+  {
+   "number": 3137,
+   "title": "WskAdminTests test subjects not clean before tests run",
+   "url": "https://github.com/apache/openwhisk/issues/3137",
+   "labels": [
+    "testing",
+    "good first issue"
+   ],
+   "updatedAt": "2017-12-29T23:16:54Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "PR #3474 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/apache/openwhisk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/apache/openwhisk/pull/3474",
+    "https://github.com/apache/openwhisk/issues/3137",
+    "https://github.com/apache/openwhisk/blob/HEAD/README.md",
+    "https://docs.docker.com/install",
+    "https://github.com/apache/openwhisk/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 3168,
+   "title": "Rate limit requests to download CLI, Docker and iOS SDKs",
+   "url": "https://github.com/apache/openwhisk/issues/3168",
+   "labels": [
+    "good first issue",
+    "nginx"
+   ],
+   "updatedAt": "2018-02-25T04:02:54Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.docker.com/install) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/apache/openwhisk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/apache/openwhisk/issues/3168",
+    "https://docs.docker.com/install",
+    "https://github.com/apache/openwhisk/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 3491,
+   "title": "Provide a mechanism for setting __OW_IGNORE_CERTS when deployed without certs",
+   "url": "https://github.com/apache/openwhisk/issues/3491",
+   "labels": [
+    "help wanted",
+    "invoker",
+    "good first issue"
+   ],
+   "updatedAt": "2019-12-20T13:23:13Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "open 105 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/apache/openwhisk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/apache/openwhisk/issues/3491",
+    "https://github.com/apache/openwhisk/blob/HEAD/README.md",
+    "https://docs.docker.com/install",
+    "https://github.com/apache/openwhisk/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 3553,
+   "title": "Update README's Repo structure diagram (e.g., incorrectly lists \"openwhisk-swift\")",
+   "url": "https://github.com/apache/openwhisk/issues/3553",
+   "labels": [
+    "documentation",
+    "good first issue"
+   ],
+   "updatedAt": "2020-03-30T18:03:58Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "already assigned to @mrutkows",
+   "evidence": [
+    "https://github.com/apache/openwhisk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/apache/openwhisk/issues/3553",
+    "https://github.com/apache/openwhisk/issues/3553#issuecomment-606111018"
+   ]
+  },
+  {
+   "number": 3823,
+   "title": "Install wskadmin-next module in other OpenWhisk projects",
+   "url": "https://github.com/apache/openwhisk/issues/3823",
+   "labels": [
+    "help wanted",
+    "tooling"
+   ],
+   "updatedAt": "2019-02-07T00:28:29Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "already assigned to @chetanmeh",
+   "evidence": [
+    "https://github.com/apache/openwhisk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/apache/openwhisk-package-deploy/pull/29",
+    "https://github.com/apache/openwhisk-package-pushnotifications/pull/89",
+    "https://github.com/apache/openwhisk/pull/3824",
+    "https://github.com/apache/openwhisk/pull/3825",
+    "https://github.com/apache/openwhisk/issues/3823"
+   ]
+  },
+  {
+   "number": 3846,
+   "title": "WskRestOperation implements action create with copy but it should not",
+   "url": "https://github.com/apache/openwhisk/issues/3846",
+   "labels": [
+    "help wanted",
+    "testing"
+   ],
+   "updatedAt": "2018-07-06T04:32:34Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.docker.com/install) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/apache/openwhisk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/apache/openwhisk/issues/3846",
+    "https://github.com/apache/openwhisk/blob/HEAD/README.md",
+    "https://docs.docker.com/install",
+    "https://github.com/apache/openwhisk/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 3896,
+   "title": "provide a run-once mode that disables container reuse",
+   "url": "https://github.com/apache/openwhisk/issues/3896",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2019-10-28T07:44:22Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.docker.com/install) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/apache/openwhisk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/apache/openwhisk/issues/3896",
+    "https://github.com/apache/openwhisk/blob/HEAD/README.md",
+    "https://docs.docker.com/install",
+    "https://github.com/apache/openwhisk/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 3920,
+   "title": "do not base64 encode __ow_body for raw web actions",
+   "url": "https://github.com/apache/openwhisk/issues/3920",
+   "labels": [
+    "help wanted",
+    "controller",
+    "good first issue"
+   ],
+   "updatedAt": "2019-05-09T12:49:11Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.docker.com/install) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/apache/openwhisk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/apache/openwhisk/issues/3920",
+    "https://github.com/apache/openwhisk/blob/HEAD/README.md",
+    "https://docs.docker.com/install",
+    "https://github.com/apache/openwhisk/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 3959,
+   "title": "Validate API-level tests against Swagger spec",
+   "url": "https://github.com/apache/openwhisk/issues/3959",
+   "labels": [
+    "help wanted",
+    "testing"
+   ],
+   "updatedAt": "2019-02-07T00:14:27Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "PR #3950 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/apache/openwhisk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/apache/openwhisk/pull/3950",
+    "https://github.com/apache/openwhisk/issues/3959",
+    "https://github.com/apache/openwhisk/blob/HEAD/README.md",
+    "https://docs.docker.com/install",
+    "https://github.com/apache/openwhisk/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 4022,
+   "title": "Status code '405 Method Not Allowed' was returned from ElasticSearchStore",
+   "url": "https://github.com/apache/openwhisk/issues/4022",
+   "labels": [
+    "help wanted",
+    "logging",
+    "controller"
+   ],
+   "updatedAt": "2019-02-07T16:32:11Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.docker.com/install) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/apache/openwhisk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/apache/openwhisk/issues/4022",
+    "https://docs.docker.com/install",
+    "https://github.com/apache/openwhisk/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 4075,
+   "title": "Idea for minimizing cold start time for chains of functions.",
+   "url": "https://github.com/apache/openwhisk/issues/4075",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "controller"
+   ],
+   "updatedAt": "2019-02-07T00:04:09Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.docker.com/install) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/apache/openwhisk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/apache/openwhisk/issues/4075",
+    "https://github.com/apache/openwhisk/blob/HEAD/README.md",
+    "https://docs.docker.com/install",
+    "https://github.com/apache/openwhisk/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 4130,
+   "title": "Inconsistent error when retrieving a package bound to deleted package",
+   "url": "https://github.com/apache/openwhisk/issues/4130",
+   "labels": [
+    "help wanted",
+    "API",
+    "controller",
+    "good first issue"
+   ],
+   "updatedAt": "2019-02-06T23:55:36Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "PR #4122 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/apache/openwhisk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/apache/openwhisk/pull/4122",
+    "https://github.com/apache/openwhisk/issues/4130",
+    "https://docs.docker.com/install",
+    "https://github.com/apache/openwhisk/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 4178,
+   "title": "Controller does not survive VM reboots because logs directory becomes owned by root",
+   "url": "https://github.com/apache/openwhisk/issues/4178",
+   "labels": [
+    "help wanted",
+    "ansible",
+    "controller"
+   ],
+   "updatedAt": "2019-02-06T23:57:18Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.docker.com/install) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/apache/openwhisk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/apache/openwhisk/issues/4178",
+    "https://docs.docker.com/install",
+    "https://github.com/apache/openwhisk/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 4215,
+   "title": "Add test to BasicActionRunnerTests to confirm runtime supports global state",
+   "url": "https://github.com/apache/openwhisk/issues/4215",
+   "labels": [
+    "help wanted",
+    "needs tests",
+    "good first issue"
+   ],
+   "updatedAt": "2020-02-07T03:23:38Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.docker.com/install) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/apache/openwhisk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/apache/openwhisk/issues/4215",
+    "https://github.com/apache/openwhisk/blob/HEAD/README.md",
+    "https://docs.docker.com/install",
+    "https://github.com/apache/openwhisk/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 4298,
+   "title": "Actions do not stop after action timeout when logging heavily",
+   "url": "https://github.com/apache/openwhisk/issues/4298",
+   "labels": [
+    "bug",
+    "invoker",
+    "good first issue"
+   ],
+   "updatedAt": "2019-02-28T09:57:17Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "already assigned to @ruediger-maass",
+   "evidence": [
+    "https://github.com/apache/openwhisk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/apache/openwhisk/pull/4299",
+    "https://github.com/apache/openwhisk/issues/4298"
+   ]
+  },
+  {
+   "number": 4301,
+   "title": "add firecracker container factory implementation ",
+   "url": "https://github.com/apache/openwhisk/issues/4301",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2019-07-12T13:48:17Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.docker.com/install) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/apache/openwhisk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/apache/openwhisk/issues/4301",
+    "https://docs.docker.com/install",
+    "https://github.com/apache/openwhisk/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 4337,
+   "title": "document that npm is required (for api gw package)",
+   "url": "https://github.com/apache/openwhisk/issues/4337",
+   "labels": [
+    "help wanted",
+    "documentation",
+    "good first issue"
+   ],
+   "updatedAt": "2021-01-05T17:50:43Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.docker.com/install) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/apache/openwhisk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/apache/openwhisk/issues/4337",
+    "https://github.com/apache/openwhisk/blob/HEAD/README.md",
+    "https://docs.docker.com/install",
+    "https://github.com/apache/openwhisk/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 4438,
+   "title": "List Rule  needs status field.",
+   "url": "https://github.com/apache/openwhisk/issues/4438",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "API"
+   ],
+   "updatedAt": "2020-10-26T14:25:52Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @nitikagarw 2211 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/apache/openwhisk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/apache/openwhisk/issues/4438#issuecomment-716037877",
+    "https://github.com/apache/openwhisk/issues/4438",
+    "https://github.com/apache/openwhisk/blob/HEAD/README.md",
+    "https://docs.docker.com/install",
+    "https://github.com/apache/openwhisk/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 4443,
+   "title": "Add rust:1.34 runtime support to default deployments",
+   "url": "https://github.com/apache/openwhisk/issues/4443",
+   "labels": [
+    "help wanted",
+    "runtime",
+    "good first issue"
+   ],
+   "updatedAt": "2019-10-02T23:10:05Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "PR #4461 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+3 more)",
+   "evidence": [
+    "https://github.com/apache/openwhisk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/apache/openwhisk/pull/4461",
+    "https://github.com/apache/openwhisk-deploy-kube/pull/533",
+    "https://github.com/apache/openwhisk/pull/4825",
+    "https://github.com/apache/openwhisk/issues/4443",
+    "https://docs.docker.com/install",
+    "https://github.com/apache/openwhisk/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 4455,
+   "title": "Cannot update action kind if runtime is no longer supported",
+   "url": "https://github.com/apache/openwhisk/issues/4455",
+   "labels": [
+    "help wanted",
+    "controller"
+   ],
+   "updatedAt": "2019-04-25T23:35:59Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.docker.com/install) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/apache/openwhisk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/apache/openwhisk/issues/4455",
+    "https://github.com/apache/openwhisk/blob/HEAD/README.md",
+    "https://docs.docker.com/install",
+    "https://github.com/apache/openwhisk/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 4523,
+   "title": "api route management actions assume https ",
+   "url": "https://github.com/apache/openwhisk/issues/4523",
+   "labels": [
+    "bug",
+    "help wanted",
+    "good first issue"
+   ],
+   "updatedAt": "2019-06-26T13:32:53Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "PR #4571 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+3 more)",
+   "evidence": [
+    "https://github.com/apache/openwhisk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/apache/openwhisk/pull/4571",
+    "https://github.com/apache/openwhisk/pull/4990",
+    "https://github.com/apache/openwhisk/issues/4523",
+    "https://github.com/apache/openwhisk/blob/HEAD/README.md",
+    "https://docs.docker.com/install",
+    "https://github.com/apache/openwhisk/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 4550,
+   "title": "restore ability to issue head requests to the controller",
+   "url": "https://github.com/apache/openwhisk/issues/4550",
+   "labels": [
+    "help wanted",
+    "controller",
+    "good first issue"
+   ],
+   "updatedAt": "2019-07-07T14:53:27Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "PR #270 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/apache/openwhisk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/apache/openwhisk-devtools/pull/270",
+    "https://github.com/apache/openwhisk/issues/4550",
+    "https://github.com/apache/openwhisk/blob/HEAD/README.md",
+    "https://docs.docker.com/install",
+    "https://github.com/apache/openwhisk/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 4630,
+   "title": "Build binary test actions from source",
+   "url": "https://github.com/apache/openwhisk/issues/4630",
+   "labels": [
+    "help wanted",
+    "testing",
+    "good first issue",
+    "release"
+   ],
+   "updatedAt": "2019-12-05T15:30:50Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "PR #4763 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/apache/openwhisk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/apache/openwhisk/pull/4763",
+    "https://github.com/apache/openwhisk/issues/4630",
+    "https://github.com/apache/openwhisk/blob/HEAD/README.md",
+    "https://docs.docker.com/install",
+    "https://github.com/apache/openwhisk/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 4798,
+   "title": "\"Too many concurrent requests in flight\" error message is misleading",
+   "url": "https://github.com/apache/openwhisk/issues/4798",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2020-01-16T02:17:07Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "PR #4972 by @rraavi is already open against this issue",
+   "evidence": [
+    "https://github.com/apache/openwhisk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/apache/openwhisk/pull/4972"
+   ]
+  }
+ ]
+}

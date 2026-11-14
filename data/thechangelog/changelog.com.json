@@ -1,0 +1,29 @@
+{
+ "owner": "thechangelog",
+ "repo": "changelog.com",
+ "language": "Elixir",
+ "stars": 2774,
+ "description": "Changelog makes world-class developer pods. This is our open source platform.",
+ "visitedAt": "2026-11-14T03:20:07.172Z",
+ "issues": [
+  {
+   "number": 384,
+   "title": "RSS feed for specific topics",
+   "url": "https://github.com/thechangelog/changelog.com/issues/384",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2022-10-01T22:06:13Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/thechangelog/changelog.com/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/thechangelog/changelog.com/issues/384",
+    "https://github.com/thechangelog/changelog.com/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "owner": "jeremyjh",
+ "repo": "dialyxir",
+ "language": "Elixir",
+ "stars": 1796,
+ "description": "Mix tasks to simplify use of Dialyzer in Elixir projects.",
+ "visitedAt": "2026-11-14T03:20:07.172Z",
+ "issues": [
+  {
+   "number": 179,
+   "title": "Add explanations for warnings with default/missing explanations.",
+   "url": "https://github.com/jeremyjh/dialyxir/issues/179",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2018-07-04T00:50:54Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "PR #189 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/jeremyjh/dialyxir/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/jeremyjh/dialyxir/pull/189",
+    "https://github.com/jeremyjh/dialyxir/issues/179"
+   ]
+  },
+  {
+   "number": 232,
+   "title": "Update PLT when child dependencies change",
+   "url": "https://github.com/jeremyjh/dialyxir/issues/232",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2018-08-27T21:14:35Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/jeremyjh/dialyxir/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/jeremyjh/dialyxir/issues/232"
+   ]
+  },
+  {
+   "number": 245,
+   "title": "typer",
+   "url": "https://github.com/jeremyjh/dialyxir/issues/245",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2019-02-15T18:32:48Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/jeremyjh/dialyxir/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/jeremyjh/dialyxir/issues/245"
+   ]
+  },
+  {
+   "number": 448,
+   "title": "Ignore_warnings file not ignoring warnings after upgrade to OTP 24",
+   "url": "https://github.com/jeremyjh/dialyxir/issues/448",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2023-05-03T16:00:54Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/jeremyjh/dialyxir/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/jeremyjh/dialyxir/issues/448"
+   ]
+  },
+  {
+   "number": 456,
+   "title": "--format ignore_file not working as intended?",
+   "url": "https://github.com/jeremyjh/dialyxir/issues/456",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2022-04-01T23:17:19Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "PR #597 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder",
+   "evidence": [
+    "https://github.com/jeremyjh/dialyxir/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/jeremyjh/dialyxir/pull/597",
+    "https://github.com/jeremyjh/dialyxir/issues/456"
+   ]
+  }
+ ]
+}

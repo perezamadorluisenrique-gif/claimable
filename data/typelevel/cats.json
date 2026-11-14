@@ -1,0 +1,140 @@
+{
+ "owner": "typelevel",
+ "repo": "cats",
+ "language": "Scala",
+ "stars": 5476,
+ "description": "Lightweight, modular, and extensible library for functional programming.",
+ "visitedAt": "2026-11-14T03:20:07.172Z",
+ "issues": [
+  {
+   "number": 1835,
+   "title": "Style scaladoc slightly",
+   "url": "https://github.com/typelevel/cats/issues/1835",
+   "labels": [
+    "help wanted",
+    "documentation",
+    "good first issue"
+   ],
+   "updatedAt": "2020-04-25T00:00:52Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/lightbend/migration-manager/wiki) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/typelevel/cats/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/typelevel/cats/issues/1835",
+    "https://github.com/lightbend/migration-manager/wiki"
+   ]
+  },
+  {
+   "number": 1935,
+   "title": "Add Divisible and Decideable (contravariant Applicative and co.)",
+   "url": "https://github.com/typelevel/cats/issues/1935",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2018-12-19T16:13:45Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "PR #2607 by @stephen-lazaro is already open against this issue",
+   "evidence": [
+    "https://github.com/typelevel/cats/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/typelevel/cats/pull/2607",
+    "https://github.com/typelevel/cats/pull/2034"
+   ]
+  },
+  {
+   "number": 2650,
+   "title": "Improve doc for Func",
+   "url": "https://github.com/typelevel/cats/issues/2650",
+   "labels": [
+    "help wanted",
+    "low-hanging fruit",
+    "documentation",
+    "scope: small",
+    "good first issue"
+   ],
+   "updatedAt": "2023-01-15T18:01:08Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "PR #4378 by @UlisesTorrella is already open against this issue",
+   "evidence": [
+    "https://github.com/typelevel/cats/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/typelevel/cats/pull/4378"
+   ]
+  },
+  {
+   "number": 2936,
+   "title": "Add `attemptOption` to Alternative",
+   "url": "https://github.com/typelevel/cats/issues/2936",
+   "labels": [
+    "help wanted",
+    "low-hanging fruit"
+   ],
+   "updatedAt": "2025-01-22T13:29:52Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "PR #4862 by @MavenRain is already open against this issue",
+   "evidence": [
+    "https://github.com/typelevel/cats/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/typelevel/cats/pull/4862"
+   ]
+  },
+  {
+   "number": 3523,
+   "title": "Add a documentation page on error handling",
+   "url": "https://github.com/typelevel/cats/issues/3523",
+   "labels": [
+    "help wanted",
+    "documentation"
+   ],
+   "updatedAt": "2020-10-18T19:34:48Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @dhinojosa 2267 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/typelevel/cats/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/typelevel/cats/issues/3523#issuecomment-683347252",
+    "https://github.com/typelevel/cats/issues/3523",
+    "https://github.com/lightbend/migration-manager/wiki"
+   ]
+  },
+  {
+   "number": 3751,
+   "title": "Clean out warnings from Dotty",
+   "url": "https://github.com/typelevel/cats/issues/3751",
+   "labels": [
+    "good first issue",
+    "lsug"
+   ],
+   "updatedAt": "2023-10-29T00:15:48Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/lightbend/migration-manager/wiki) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/typelevel/cats/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/typelevel/cats/issues/3751",
+    "https://github.com/lightbend/migration-manager/wiki"
+   ]
+  },
+  {
+   "number": 4147,
+   "title": "typeclass-based collections implementations",
+   "url": "https://github.com/typelevel/cats/issues/4147",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2022-08-22T13:20:20Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "PR #4183 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/typelevel/cats/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/typelevel/cats/pull/4183",
+    "https://github.com/typelevel/cats/pull/3603",
+    "https://github.com/typelevel/cats/issues/4147",
+    "https://github.com/lightbend/migration-manager/wiki"
+   ]
+  }
+ ]
+}

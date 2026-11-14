@@ -1,0 +1,47 @@
+{
+ "owner": "woutdp",
+ "repo": "live_svelte",
+ "language": "Elixir",
+ "stars": 1661,
+ "description": "Svelte inside Phoenix LiveView with seamless end-to-end reactivity",
+ "visitedAt": "2026-11-14T03:20:07.172Z",
+ "issues": [
+  {
+   "number": 35,
+   "title": "Add documentation to HexDocs instead of readme",
+   "url": "https://github.com/woutdp/live_svelte/issues/35",
+   "labels": [
+    "documentation",
+    "good first issue"
+   ],
+   "updatedAt": "2023-08-11T19:39:49Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "PR #153 by @hackemateninja is already open against this issue",
+   "evidence": [
+    "https://github.com/woutdp/live_svelte — pushed_at 2026-10-02T22:44:33Z",
+    "https://github.com/woutdp/live_svelte/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/woutdp/live_svelte/issues/153"
+   ]
+  },
+  {
+   "number": 36,
+   "title": "Improve performance SSR rendering",
+   "url": "https://github.com/woutdp/live_svelte/issues/36",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2025-03-09T15:25:38Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "PR #70 by @vonagam is already open against this issue",
+   "evidence": [
+    "https://github.com/woutdp/live_svelte — pushed_at 2026-10-02T22:44:33Z",
+    "https://github.com/woutdp/live_svelte/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/woutdp/live_svelte/pull/70",
+    "https://github.com/crbelaus/bun/pull/45"
+   ]
+  }
+ ]
+}

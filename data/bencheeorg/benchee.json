@@ -1,0 +1,159 @@
+{
+ "owner": "bencheeorg",
+ "repo": "benchee",
+ "language": "Elixir",
+ "stars": 1522,
+ "description": "Easy and extensible benchmarking in Elixir providing you with lots of statistics!",
+ "visitedAt": "2026-11-14T03:20:07.172Z",
+ "issues": [
+  {
+   "number": 6,
+   "title": "More plugins - what do you want/need?",
+   "url": "https://github.com/bencheeorg/benchee/issues/6",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2019-03-19T20:01:03Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "PR #236 by @hauleth is already open against this issue",
+   "evidence": [
+    "https://github.com/bencheeorg/benchee/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/bencheeorg/benchee/issues/236",
+    "https://github.com/bencheeorg/benchee/issues/469",
+    "https://github.com/bencheeorg/benchee/issues/282"
+   ]
+  },
+  {
+   "number": 9,
+   "title": "Option to benchmark until confidence value is reached",
+   "url": "https://github.com/bencheeorg/benchee/issues/9",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2017-12-09T14:09:49Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "PR #236 by @hauleth is already open against this issue",
+   "evidence": [
+    "https://github.com/bencheeorg/benchee/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/bencheeorg/benchee/issues/236",
+    "https://github.com/bencheeorg/benchee/issues/282"
+   ]
+  },
+  {
+   "number": 28,
+   "title": "Add option for displaying long labels for scaled units",
+   "url": "https://github.com/bencheeorg/benchee/issues/28",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "Hacktoberfest"
+   ],
+   "updatedAt": "2017-09-28T18:58:42Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "PR #26 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/bencheeorg/benchee/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/bencheeorg/benchee/pull/26",
+    "https://github.com/bencheeorg/benchee/pull/29",
+    "https://github.com/bencheeorg/benchee/issues/28",
+    "https://github.com/bencheeorg/benchee/wiki/Parallel-Benchmarking"
+   ]
+  },
+  {
+   "number": 45,
+   "title": "Add configuration options to override Benchee default values",
+   "url": "https://github.com/bencheeorg/benchee/issues/45",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "good first issue",
+    "Hacktoberfest"
+   ],
+   "updatedAt": "2023-12-23T09:35:59Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "PR #56 by @PragTob is already open against this issue",
+   "evidence": [
+    "https://github.com/bencheeorg/benchee/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/bencheeorg/benchee/issues/56",
+    "https://github.com/bencheeorg/benchee/issues/236"
+   ]
+  },
+  {
+   "number": 56,
+   "title": "Provide \"meta\" statistics",
+   "url": "https://github.com/bencheeorg/benchee/issues/56",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "good first issue"
+   ],
+   "updatedAt": "2017-08-22T07:11:19Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @elpikel 3372 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/bencheeorg/benchee/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/bencheeorg/benchee/issues/56#issuecomment-323727100",
+    "https://github.com/bencheeorg/benchee/issues/56",
+    "https://github.com/bencheeorg/benchee/wiki/Parallel-Benchmarking"
+   ]
+  },
+  {
+   "number": 179,
+   "title": "Ability to set a \"reference\" job",
+   "url": "https://github.com/bencheeorg/benchee/issues/179",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2025-05-02T09:03:05Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "PR #281 by @JamesGood626 is already open against this issue",
+   "evidence": [
+    "https://github.com/bencheeorg/benchee/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/bencheeorg/benchee/pull/281"
+   ]
+  },
+  {
+   "number": 197,
+   "title": "More abstract/generic console formatter/table",
+   "url": "https://github.com/bencheeorg/benchee/issues/197",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2018-03-12T21:00:38Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "open 106 months with no human comment, in a repo pushed to 20 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/bencheeorg/benchee/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/bencheeorg/benchee/issues/197",
+    "https://github.com/bencheeorg/benchee/wiki/Parallel-Benchmarking"
+   ]
+  },
+  {
+   "number": 469,
+   "title": "Benchee Logo",
+   "url": "https://github.com/bencheeorg/benchee/issues/469",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2025-05-05T23:00:16Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/bencheeorg/benchee/wiki/Parallel-Benchmarking) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/bencheeorg/benchee/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/bencheeorg/benchee/issues/469",
+    "https://github.com/bencheeorg/benchee/wiki/Parallel-Benchmarking"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,118 @@
+{
+ "owner": "quantum-elixir",
+ "repo": "quantum-core",
+ "language": "Elixir",
+ "stars": 2418,
+ "description": ":watch: Cron-like job scheduler for Elixir",
+ "visitedAt": "2026-11-14T03:20:07.172Z",
+ "issues": [
+  {
+   "number": 241,
+   "title": "Problem: Executor not flexible enough",
+   "url": "https://github.com/quantum-elixir/quantum-core/issues/241",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "advanced",
+    "idea"
+   ],
+   "updatedAt": "2020-02-25T13:08:31Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "PR #352 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/quantum-elixir/quantum-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/quantum-elixir/quantum-core/pull/352",
+    "https://github.com/quantum-elixir/quantum-core/issues/241"
+   ]
+  },
+  {
+   "number": 268,
+   "title": "Problem: Job Scheduling via Cron Notation complicated",
+   "url": "https://github.com/quantum-elixir/quantum-core/issues/268",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "advanced",
+    "idea"
+   ],
+   "updatedAt": "2020-02-25T13:09:11Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @maennchen 3017 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting",
+   "evidence": [
+    "https://github.com/quantum-elixir/quantum-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/quantum-elixir/quantum-core/issues/268#issuecomment-412219638",
+    "https://github.com/quantum-elixir/quantum-core/issues/268"
+   ]
+  },
+  {
+   "number": 458,
+   "title": "Document Telemetry Usage with Phoenix",
+   "url": "https://github.com/quantum-elixir/quantum-core/issues/458",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2025-05-13T21:12:17Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/quantum-elixir/quantum-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/quantum-elixir/quantum-core/issues/458"
+   ]
+  },
+  {
+   "number": 485,
+   "title": "How to setup quantum against libcluster",
+   "url": "https://github.com/quantum-elixir/quantum-core/issues/485",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2022-05-23T19:38:33Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/quantum-elixir/quantum-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/quantum-elixir/quantum-core/issues/485"
+   ]
+  },
+  {
+   "number": 499,
+   "title": "Synchronous job management API",
+   "url": "https://github.com/quantum-elixir/quantum-core/issues/499",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2022-05-23T19:38:01Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/quantum-elixir/quantum-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/quantum-elixir/quantum-core/issues/499"
+   ]
+  },
+  {
+   "number": 605,
+   "title": "multiple apps in libcluster, quantum does not identifies which node to select ",
+   "url": "https://github.com/quantum-elixir/quantum-core/issues/605",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2024-03-13T08:56:33Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/quantum-elixir/quantum-core/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/quantum-elixir/quantum-core/issues/605"
+   ]
+  }
+ ]
+}

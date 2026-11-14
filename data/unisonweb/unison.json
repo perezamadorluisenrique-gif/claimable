@@ -1,0 +1,1033 @@
+{
+ "owner": "unisonweb",
+ "repo": "unison",
+ "language": "Haskell",
+ "stars": 6784,
+ "description": "A friendly programming language from the future",
+ "visitedAt": "2026-11-14T03:20:07.172Z",
+ "issues": [
+  {
+   "number": 466,
+   "title": "Add version info to Hashes",
+   "url": "https://github.com/unisonweb/unison/issues/466",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2023-11-14T21:35:59Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (http://docs.haskellstack.org/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/unisonweb/unison/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/unisonweb/unison/issues/466",
+    "http://docs.haskellstack.org/"
+   ]
+  },
+  {
+   "number": 641,
+   "title": "unhelpful error message when you forget to delay a function using an ability",
+   "url": "https://github.com/unisonweb/unison/issues/641",
+   "labels": [
+    "help wanted",
+    "error-message"
+   ],
+   "updatedAt": "2020-03-02T08:40:03Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (http://docs.haskellstack.org/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/unisonweb/unison/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/unisonweb/unison/issues/641",
+    "http://docs.haskellstack.org/"
+   ]
+  },
+  {
+   "number": 711,
+   "title": "should have a way to delete multiple definitions at once (especially mutually dependent definitions).",
+   "url": "https://github.com/unisonweb/unison/issues/711",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2019-09-17T18:53:44Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "open 88 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/unisonweb/unison/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/unisonweb/unison/issues/711",
+    "http://docs.haskellstack.org/"
+   ]
+  },
+  {
+   "number": 713,
+   "title": "Improve error message suggestions",
+   "url": "https://github.com/unisonweb/unison/issues/713",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2019-10-11T16:37:59Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "PR #5522 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/unisonweb/unison/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/unisonweb/unison/pull/5522",
+    "https://github.com/unisonweb/unison/issues/713",
+    "http://docs.haskellstack.org/"
+   ]
+  },
+  {
+   "number": 733,
+   "title": "The parser can't handle prefix-patterns based on parenthesized symbolyIds.",
+   "url": "https://github.com/unisonweb/unison/issues/733",
+   "labels": [
+    "help wanted",
+    "parser"
+   ],
+   "updatedAt": "2019-10-15T14:47:33Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "open 88 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/unisonweb/unison/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/unisonweb/unison/issues/733",
+    "http://docs.haskellstack.org/"
+   ]
+  },
+  {
+   "number": 764,
+   "title": "Easy pickups: Things to contribute to when there would be a way to contribute to yet",
+   "url": "https://github.com/unisonweb/unison/issues/764",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2021-10-12T15:51:16Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (http://docs.haskellstack.org/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/unisonweb/unison/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/unisonweb/unison/issues/764",
+    "http://docs.haskellstack.org/"
+   ]
+  },
+  {
+   "number": 809,
+   "title": "Be able to define custom aliases",
+   "url": "https://github.com/unisonweb/unison/issues/809",
+   "labels": [
+    "help wanted",
+    "good first issue",
+    "codebase-manager / ucm"
+   ],
+   "updatedAt": "2026-11-13T16:48:14Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "PR #6154 by @aryairani is already open against this issue",
+   "evidence": [
+    "https://github.com/unisonweb/unison/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/unisonweb/unison/issues/6154",
+    "https://github.com/unisonweb/unison/issues/992",
+    "https://github.com/unisonweb/unison/issues/922"
+   ]
+  },
+  {
+   "number": 832,
+   "title": "Revamp README",
+   "url": "https://github.com/unisonweb/unison/issues/832",
+   "labels": [
+    "help wanted",
+    "documentation"
+   ],
+   "updatedAt": "2020-01-28T10:24:26Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (http://docs.haskellstack.org/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/unisonweb/unison/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/unisonweb/unison/issues/832",
+    "http://docs.haskellstack.org/"
+   ]
+  },
+  {
+   "number": 843,
+   "title": "Compute minimum unique hash prefix length for branches",
+   "url": "https://github.com/unisonweb/unison/issues/843",
+   "labels": [
+    "help wanted",
+    "good first issue",
+    "codebase-manager / ucm"
+   ],
+   "updatedAt": "2020-02-10T16:51:13Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (http://docs.haskellstack.org/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/unisonweb/unison/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/unisonweb/unison/issues/843",
+    "http://docs.haskellstack.org/"
+   ]
+  },
+  {
+   "number": 855,
+   "title": "come up with a better name for `reflog`?",
+   "url": "https://github.com/unisonweb/unison/issues/855",
+   "labels": [
+    "help wanted",
+    "discussion"
+   ],
+   "updatedAt": "2019-10-10T20:04:20Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "labelled `discussion` — scope may not be settled yet (+1 more)",
+   "evidence": [
+    "https://github.com/unisonweb/unison/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/unisonweb/unison/issues/855",
+    "http://docs.haskellstack.org/"
+   ]
+  },
+  {
+   "number": 886,
+   "title": "externally updated `_head` isn't detected in `ucm`",
+   "url": "https://github.com/unisonweb/unison/issues/886",
+   "labels": [
+    "bug",
+    "help wanted",
+    "codebase-manager / ucm"
+   ],
+   "updatedAt": "2019-10-23T16:21:37Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "open 86 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/unisonweb/unison/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/unisonweb/unison/issues/886",
+    "http://docs.haskellstack.org/"
+   ]
+  },
+  {
+   "number": 905,
+   "title": "Resolve commands should take any name or hash",
+   "url": "https://github.com/unisonweb/unison/issues/905",
+   "labels": [
+    "help wanted",
+    "good first issue",
+    "dx"
+   ],
+   "updatedAt": "2020-02-28T15:10:52Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "PR #889 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/unisonweb/unison/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/unisonweb/unison/pull/889",
+    "https://github.com/unisonweb/unison/issues/905",
+    "http://docs.haskellstack.org/"
+   ]
+  },
+  {
+   "number": 908,
+   "title": "the `patch` command help doesn't list its arguments or give examples",
+   "url": "https://github.com/unisonweb/unison/issues/908",
+   "labels": [
+    "help wanted",
+    "codebase-manager / ucm",
+    "documentation",
+    "papercut"
+   ],
+   "updatedAt": "2020-01-06T19:48:00Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "PR #909 by @aryairani is already open against this issue",
+   "evidence": [
+    "https://github.com/unisonweb/unison/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/unisonweb/unison/issues/909"
+   ]
+  },
+  {
+   "number": 909,
+   "title": "Update outputs to include patch names, esp if user didn't specify one",
+   "url": "https://github.com/unisonweb/unison/issues/909",
+   "labels": [
+    "help wanted",
+    "codebase-manager / ucm"
+   ],
+   "updatedAt": "2019-10-29T18:09:49Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "PR #957 by @aryairani is already open against this issue",
+   "evidence": [
+    "https://github.com/unisonweb/unison/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/unisonweb/unison/issues/957"
+   ]
+  },
+  {
+   "number": 911,
+   "title": "add `view.verbose`: like `view` but all dependencies are hash-qualified",
+   "url": "https://github.com/unisonweb/unison/issues/911",
+   "labels": [
+    "help wanted",
+    "codebase-manager / ucm",
+    "feature request"
+   ],
+   "updatedAt": "2019-10-29T20:40:10Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "open 86 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/unisonweb/unison/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/unisonweb/unison/issues/911",
+    "http://docs.haskellstack.org/"
+   ]
+  },
+  {
+   "number": 957,
+   "title": "suggested command in Tip about name conflict after `pull` misses necessary namespace prefix",
+   "url": "https://github.com/unisonweb/unison/issues/957",
+   "labels": [
+    "help wanted",
+    "codebase-manager / ucm",
+    "papercut"
+   ],
+   "updatedAt": "2019-11-09T02:59:16Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "PR #1298 by @aryairani is already open against this issue",
+   "evidence": [
+    "https://github.com/unisonweb/unison/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/unisonweb/unison/issues/1298"
+   ]
+  },
+  {
+   "number": 1044,
+   "title": "Can't delete a type or term by its hash alone",
+   "url": "https://github.com/unisonweb/unison/issues/1044",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2020-02-28T15:00:56Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (http://docs.haskellstack.org/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/unisonweb/unison/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/unisonweb/unison/issues/1044",
+    "http://docs.haskellstack.org/"
+   ]
+  },
+  {
+   "number": 1054,
+   "title": "symbolic names don't parse as links in doc literals",
+   "url": "https://github.com/unisonweb/unison/issues/1054",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2020-02-29T22:52:57Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "PR #994 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/unisonweb/unison/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/unisonweb/unison/pull/994",
+    "https://github.com/unisonweb/unison/issues/1054",
+    "http://docs.haskellstack.org/"
+   ]
+  },
+  {
+   "number": 1072,
+   "title": "Reflect a bit on `ls` output",
+   "url": "https://github.com/unisonweb/unison/issues/1072",
+   "labels": [
+    "help wanted",
+    "design needed"
+   ],
+   "updatedAt": "2020-03-02T13:21:29Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "open 84 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/unisonweb/unison/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/unisonweb/unison/issues/1072",
+    "http://docs.haskellstack.org/"
+   ]
+  },
+  {
+   "number": 1111,
+   "title": "make a pass to resolve suppressed warnings and unused LANGUAGE pragma",
+   "url": "https://github.com/unisonweb/unison/issues/1111",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2020-02-28T19:25:37Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "PR #1170 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+3 more)",
+   "evidence": [
+    "https://github.com/unisonweb/unison/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/unisonweb/unison/pull/1170",
+    "https://github.com/unisonweb/unison/pull/1209",
+    "https://github.com/unisonweb/unison/issues/1111",
+    "http://docs.haskellstack.org/"
+   ]
+  },
+  {
+   "number": 1130,
+   "title": "show both names when viewing multiple aliases for the same definition",
+   "url": "https://github.com/unisonweb/unison/issues/1130",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2020-02-28T15:14:52Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "PR #1298 by @aryairani is already open against this issue",
+   "evidence": [
+    "https://github.com/unisonweb/unison/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/unisonweb/unison/issues/1298"
+   ]
+  },
+  {
+   "number": 1141,
+   "title": "eliminate references to `Input` from `Output`",
+   "url": "https://github.com/unisonweb/unison/issues/1141",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2020-01-14T03:31:24Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "PR #1147 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+8 more)",
+   "evidence": [
+    "https://github.com/unisonweb/unison/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/unisonweb/unison/pull/1147",
+    "https://github.com/unisonweb/unison/pull/1148",
+    "https://github.com/unisonweb/unison/pull/1149",
+    "https://github.com/unisonweb/unison/pull/1150",
+    "https://github.com/unisonweb/unison/pull/1154",
+    "https://github.com/unisonweb/unison/pull/1156",
+    "https://github.com/unisonweb/unison/pull/1209",
+    "https://github.com/unisonweb/unison/issues/1141",
+    "http://docs.haskellstack.org/"
+   ]
+  },
+  {
+   "number": 1193,
+   "title": "surprising name selection when working with numbered args",
+   "url": "https://github.com/unisonweb/unison/issues/1193",
+   "labels": [
+    "help wanted",
+    "dx",
+    "papercut"
+   ],
+   "updatedAt": "2020-03-14T17:40:59Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "PR #1298 by @aryairani is already open against this issue",
+   "evidence": [
+    "https://github.com/unisonweb/unison/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/unisonweb/unison/issues/1298",
+    "https://github.com/unisonweb/unison/issues/1724"
+   ]
+  },
+  {
+   "number": 1195,
+   "title": "update `history` command to use new `diff.namespace` output?",
+   "url": "https://github.com/unisonweb/unison/issues/1195",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2020-02-28T14:05:04Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "already assigned to @aryairani",
+   "evidence": [
+    "https://github.com/unisonweb/unison/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/unisonweb/unison/issues/1195"
+   ]
+  },
+  {
+   "number": 1205,
+   "title": "namespace.diff after deleting a [conflicted?] entry from a patch shows \"deleted 0 updates\" but should be 1.",
+   "url": "https://github.com/unisonweb/unison/issues/1205",
+   "labels": [
+    "help wanted",
+    "good first issue",
+    "dx"
+   ],
+   "updatedAt": "2020-02-28T14:33:43Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "open 82 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/unisonweb/unison/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/unisonweb/unison/issues/1205",
+    "http://docs.haskellstack.org/"
+   ]
+  },
+  {
+   "number": 1206,
+   "title": "create new output message for merge resulting in conflicted patch",
+   "url": "https://github.com/unisonweb/unison/issues/1206",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2020-02-28T14:34:06Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "open 82 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/unisonweb/unison/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/unisonweb/unison/issues/1206",
+    "http://docs.haskellstack.org/"
+   ]
+  },
+  {
+   "number": 1207,
+   "title": "unexpected blank lines in diff's name conflicts section",
+   "url": "https://github.com/unisonweb/unison/issues/1207",
+   "labels": [
+    "help wanted",
+    "Hacktoberfest"
+   ],
+   "updatedAt": "2021-10-12T16:06:38Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (http://docs.haskellstack.org/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/unisonweb/unison/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/unisonweb/unison/issues/1207",
+    "http://docs.haskellstack.org/"
+   ]
+  },
+  {
+   "number": 1220,
+   "title": "Improve error messages for terms/types not found when linking/unlinking",
+   "url": "https://github.com/unisonweb/unison/issues/1220",
+   "labels": [
+    "help wanted",
+    "codebase-manager / ucm",
+    "error-message"
+   ],
+   "updatedAt": "2020-02-10T20:10:05Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "open 82 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/unisonweb/unison/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/unisonweb/unison/issues/1220",
+    "http://docs.haskellstack.org/"
+   ]
+  },
+  {
+   "number": 1230,
+   "title": "Give transcript runner an option to generate screen recordings",
+   "url": "https://github.com/unisonweb/unison/issues/1230",
+   "labels": [
+    "help wanted",
+    "transcripts"
+   ],
+   "updatedAt": "2020-02-13T16:33:03Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "open 82 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/unisonweb/unison/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/unisonweb/unison/issues/1230",
+    "http://docs.haskellstack.org/"
+   ]
+  },
+  {
+   "number": 1234,
+   "title": "consider whether numbering is meaningful in ShowDiffAfterDeleteBranch",
+   "url": "https://github.com/unisonweb/unison/issues/1234",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2020-02-28T14:30:07Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "PR #1259 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/unisonweb/unison/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/unisonweb/unison/pull/1259",
+    "https://github.com/unisonweb/unison/issues/1234",
+    "http://docs.haskellstack.org/"
+   ]
+  },
+  {
+   "number": 1239,
+   "title": "missing `find` results?",
+   "url": "https://github.com/unisonweb/unison/issues/1239",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2020-02-28T14:27:36Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "PR #1520 by @aryairani is already open against this issue",
+   "evidence": [
+    "https://github.com/unisonweb/unison/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/unisonweb/unison/issues/1520"
+   ]
+  },
+  {
+   "number": 1269,
+   "title": "ucm support for showing and setting the GitUrl for a given path",
+   "url": "https://github.com/unisonweb/unison/issues/1269",
+   "labels": [
+    "help wanted",
+    "git"
+   ],
+   "updatedAt": "2021-05-07T14:18:20Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "PR #1472 by @aryairani is already open against this issue",
+   "evidence": [
+    "https://github.com/unisonweb/unison/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/unisonweb/unison/issues/1472",
+    "https://github.com/unisonweb/unison/issues/1520"
+   ]
+  },
+  {
+   "number": 1272,
+   "title": "Pattern matching requires full qualification, construction does not",
+   "url": "https://github.com/unisonweb/unison/issues/1272",
+   "labels": [
+    "bug",
+    "help wanted",
+    "dx"
+   ],
+   "updatedAt": "2020-02-28T14:06:45Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "PR #1298 by @aryairani is already open against this issue",
+   "evidence": [
+    "https://github.com/unisonweb/unison/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/unisonweb/unison/issues/1298",
+    "https://github.com/unisonweb/unison/issues/1520"
+   ]
+  },
+  {
+   "number": 1287,
+   "title": "typechecking errors don't wrap",
+   "url": "https://github.com/unisonweb/unison/issues/1287",
+   "labels": [
+    "help wanted",
+    "error-message"
+   ],
+   "updatedAt": "2020-03-01T09:46:53Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "PR #1520 by @aryairani is already open against this issue",
+   "evidence": [
+    "https://github.com/unisonweb/unison/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/unisonweb/unison/issues/1520"
+   ]
+  },
+  {
+   "number": 1297,
+   "title": "wrong type provenance annotation",
+   "url": "https://github.com/unisonweb/unison/issues/1297",
+   "labels": [
+    "bug",
+    "help wanted",
+    "error-message"
+   ],
+   "updatedAt": "2020-03-09T22:07:11Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "PR #1520 by @aryairani is already open against this issue",
+   "evidence": [
+    "https://github.com/unisonweb/unison/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/unisonweb/unison/issues/1520"
+   ]
+  },
+  {
+   "number": 1343,
+   "title": "Add the diff to commit message for auto-created git commits",
+   "url": "https://github.com/unisonweb/unison/issues/1343",
+   "labels": [
+    "help wanted",
+    "good first issue",
+    "git"
+   ],
+   "updatedAt": "2020-04-15T22:47:22Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "PR #1520 by @aryairani is already open against this issue",
+   "evidence": [
+    "https://github.com/unisonweb/unison/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/unisonweb/unison/issues/1520"
+   ]
+  },
+  {
+   "number": 1384,
+   "title": "`view` and `names` of a hash could distinguish between definitions that are unknown vs unnamed",
+   "url": "https://github.com/unisonweb/unison/issues/1384",
+   "labels": [
+    "help wanted",
+    "good first issue",
+    "codebase-manager / ucm",
+    "dx"
+   ],
+   "updatedAt": "2024-06-30T17:26:19Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "PR #1520 by @aryairani is already open against this issue",
+   "evidence": [
+    "https://github.com/unisonweb/unison/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/unisonweb/unison/issues/1520"
+   ]
+  },
+  {
+   "number": 1395,
+   "title": "something weird with `find`?",
+   "url": "https://github.com/unisonweb/unison/issues/1395",
+   "labels": [
+    "bug",
+    "help wanted",
+    "codebase-manager / ucm"
+   ],
+   "updatedAt": "2021-10-13T15:20:47Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "PR #1520 by @aryairani is already open against this issue",
+   "evidence": [
+    "https://github.com/unisonweb/unison/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/unisonweb/unison/issues/1520"
+   ]
+  },
+  {
+   "number": 1438,
+   "title": "Emit a warning when scratch file watching is broken due to lack of inotify watches",
+   "url": "https://github.com/unisonweb/unison/issues/1438",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2020-05-03T03:04:58Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "PR #1520 by @aryairani is already open against this issue",
+   "evidence": [
+    "https://github.com/unisonweb/unison/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/unisonweb/unison/issues/1520"
+   ]
+  },
+  {
+   "number": 1443,
+   "title": "`manageLinks` in `HandleInput` should have a stronger type",
+   "url": "https://github.com/unisonweb/unison/issues/1443",
+   "labels": [
+    "help wanted",
+    "tech debt"
+   ],
+   "updatedAt": "2020-04-20T19:25:42Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "PR #1520 by @aryairani is already open against this issue",
+   "evidence": [
+    "https://github.com/unisonweb/unison/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/unisonweb/unison/issues/1520"
+   ]
+  },
+  {
+   "number": 1479,
+   "title": "in diffs, `type not found` should include some hash",
+   "url": "https://github.com/unisonweb/unison/issues/1479",
+   "labels": [
+    "help wanted",
+    "codebase-manager / ucm",
+    "error-message"
+   ],
+   "updatedAt": "2020-04-28T19:49:17Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "PR #1480 by @aryairani is already open against this issue",
+   "evidence": [
+    "https://github.com/unisonweb/unison/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/unisonweb/unison/issues/1480",
+    "https://github.com/unisonweb/unison/issues/1520"
+   ]
+  },
+  {
+   "number": 1480,
+   "title": "in diffs, there are some stray newlines in the \"Resolved name conflicts\" section",
+   "url": "https://github.com/unisonweb/unison/issues/1480",
+   "labels": [
+    "help wanted",
+    "good first issue",
+    "codebase-manager / ucm",
+    "Hacktoberfest"
+   ],
+   "updatedAt": "2025-06-29T18:17:47Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "PR #1207 by @aryairani is already open against this issue",
+   "evidence": [
+    "https://github.com/unisonweb/unison/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/unisonweb/unison/issues/1207",
+    "https://github.com/unisonweb/unison/issues/1520"
+   ]
+  },
+  {
+   "number": 1550,
+   "title": "Track down weirdly high UCM memory usage",
+   "url": "https://github.com/unisonweb/unison/issues/1550",
+   "labels": [
+    "help wanted",
+    "performance",
+    "memory-usage"
+   ],
+   "updatedAt": "2020-05-14T04:29:39Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "open 79 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/unisonweb/unison/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/unisonweb/unison/issues/1550",
+    "http://docs.haskellstack.org/"
+   ]
+  },
+  {
+   "number": 1658,
+   "title": "switch `Patch` to use `Map` instead of `Relation`",
+   "url": "https://github.com/unisonweb/unison/issues/1658",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2020-08-17T19:34:25Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "open 76 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/unisonweb/unison/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/unisonweb/unison/issues/1658",
+    "http://docs.haskellstack.org/"
+   ]
+  },
+  {
+   "number": 1842,
+   "title": "Add a Lisp-like syntax for Unison",
+   "url": "https://github.com/unisonweb/unison/issues/1842",
+   "labels": [
+    "help wanted",
+    "parser"
+   ],
+   "updatedAt": "2021-03-25T20:29:05Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (http://docs.haskellstack.org/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/unisonweb/unison/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/unisonweb/unison/issues/1842",
+    "http://docs.haskellstack.org/"
+   ]
+  },
+  {
+   "number": 1903,
+   "title": "`pull` from not-a-unison-codebase reports \"Already up to date\" or something unhelpful",
+   "url": "https://github.com/unisonweb/unison/issues/1903",
+   "labels": [
+    "help wanted",
+    "codebase-manager / ucm",
+    "Hacktoberfest"
+   ],
+   "updatedAt": "2021-10-12T15:55:14Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (http://docs.haskellstack.org/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/unisonweb/unison/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/unisonweb/unison/issues/1903",
+    "http://docs.haskellstack.org/"
+   ]
+  },
+  {
+   "number": 1904,
+   "title": "Confusing error message for missing `else` clause in if/then/else statements",
+   "url": "https://github.com/unisonweb/unison/issues/1904",
+   "labels": [
+    "bug",
+    "help wanted",
+    "error-message"
+   ],
+   "updatedAt": "2021-05-04T13:11:45Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "PR #5241 by @stew is already open against this issue",
+   "evidence": [
+    "https://github.com/unisonweb/unison/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/unisonweb/unison/issues/5241"
+   ]
+  },
+  {
+   "number": 2005,
+   "title": "error message for non-fast-forward suggests the wrong command",
+   "url": "https://github.com/unisonweb/unison/issues/2005",
+   "labels": [
+    "help wanted",
+    "good first issue",
+    "codebase-manager / ucm",
+    "error-message"
+   ],
+   "updatedAt": "2021-05-26T09:50:43Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "already assigned to @rashadg1030",
+   "evidence": [
+    "https://github.com/unisonweb/unison/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/unisonweb/unison/issues/2005"
+   ]
+  },
+  {
+   "number": 2089,
+   "title": "Tests that crash should get converted to failures",
+   "url": "https://github.com/unisonweb/unison/issues/2089",
+   "labels": [
+    "help wanted",
+    "error-message"
+   ],
+   "updatedAt": "2021-06-08T13:31:28Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "PR #5418 by @aryairani is already open against this issue",
+   "evidence": [
+    "https://github.com/unisonweb/unison/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/unisonweb/unison/issues/5418"
+   ]
+  },
+  {
+   "number": 2139,
+   "title": "Codebase server: Requesting the `Void` type in the `/find` endpoint hangs",
+   "url": "https://github.com/unisonweb/unison/issues/2139",
+   "labels": [
+    "bug",
+    "help wanted",
+    "codebase-server",
+    "codebase-ui",
+    "to-discuss",
+    "P1",
+    "E4",
+    "R2",
+    "I2",
+    "C2"
+   ],
+   "updatedAt": "2022-07-01T20:25:10Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "already assigned to @runarorama",
+   "evidence": [
+    "https://github.com/unisonweb/unison/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/unisonweb/unison/issues/2139"
+   ]
+  },
+  {
+   "number": 2207,
+   "title": "Transcript for tracking improvements and regressions to parse / type errors",
+   "url": "https://github.com/unisonweb/unison/issues/2207",
+   "labels": [
+    "help wanted",
+    "good first issue",
+    "error-message",
+    "needs-tests"
+   ],
+   "updatedAt": "2021-07-13T01:33:11Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "PR #2191 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/unisonweb/unison/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/unisonweb/unison/pull/2191",
+    "https://github.com/unisonweb/unison/issues/2207",
+    "http://docs.haskellstack.org/"
+   ]
+  },
+  {
+   "number": 2249,
+   "title": "Automatically record UCM session as a transcript",
+   "url": "https://github.com/unisonweb/unison/issues/2249",
+   "labels": [
+    "help wanted",
+    "codebase-manager / ucm",
+    "feature request"
+   ],
+   "updatedAt": "2021-07-19T16:10:01Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "open 65 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/unisonweb/unison/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/unisonweb/unison/issues/2249",
+    "http://docs.haskellstack.org/"
+   ]
+  },
+  {
+   "number": 4200,
+   "title": "Problem rendering unicode (and emojis) in UCM",
+   "url": "https://github.com/unisonweb/unison/issues/4200",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2025-12-16T10:30:01Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (http://docs.haskellstack.org/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/unisonweb/unison/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/unisonweb/unison/issues/4200",
+    "http://docs.haskellstack.org/"
+   ]
+  },
+  {
+   "number": 5004,
+   "title": "Pretty Printer inconsistent with tuple spacing in list items",
+   "url": "https://github.com/unisonweb/unison/issues/5004",
+   "labels": [
+    "help wanted",
+    "pretty-printer"
+   ],
+   "updatedAt": "2024-12-16T21:27:31Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (http://docs.haskellstack.org/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/unisonweb/unison/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/unisonweb/unison/issues/5004",
+    "http://docs.haskellstack.org/"
+   ]
+  },
+  {
+   "number": 5016,
+   "title": "I would like statistics for namespaces in `lib` to not include dependencies",
+   "url": "https://github.com/unisonweb/unison/issues/5016",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2024-12-16T21:24:59Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "PR #6126 by @aryairani is already open against this issue",
+   "evidence": [
+    "https://github.com/unisonweb/unison/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/unisonweb/unison/issues/6126"
+   ]
+  },
+  {
+   "number": 5897,
+   "title": "builds from tarball don't know their version number",
+   "url": "https://github.com/unisonweb/unison/issues/5897",
+   "labels": [
+    "help wanted",
+    "feature: other"
+   ],
+   "updatedAt": "2025-12-13T17:54:24Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "PR #5898 by @aryairani is already open against this issue",
+   "evidence": [
+    "https://github.com/unisonweb/unison/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/unisonweb/unison/issues/5898"
+   ]
+  }
+ ]
+}

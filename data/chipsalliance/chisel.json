@@ -1,0 +1,138 @@
+{
+ "owner": "chipsalliance",
+ "repo": "chisel",
+ "language": "Scala",
+ "stars": 4832,
+ "description": "Chisel: A Modern Hardware Design Language",
+ "visitedAt": "2026-11-14T03:20:07.172Z",
+ "issues": [
+  {
+   "number": 867,
+   "title": "[RFC] More Consistent Notion of \"Infinite Width\" Values",
+   "url": "https://github.com/chipsalliance/chisel/issues/867",
+   "labels": [
+    "feature request",
+    "help wanted",
+    "API Modification",
+    "Request For Comment"
+   ],
+   "updatedAt": "2020-10-27T18:56:23Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "PR #1830 by @KasperHesse is already open against this issue",
+   "evidence": [
+    "https://github.com/chipsalliance/chisel/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/chipsalliance/chisel/issues/1830",
+    "https://github.com/chipsalliance/chisel/issues/1144"
+   ]
+  },
+  {
+   "number": 1465,
+   "title": "Bad error reporting on wrong (subword) assignments",
+   "url": "https://github.com/chipsalliance/chisel/issues/1465",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2021-11-26T07:54:00Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/chipsalliance/chisel/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/chipsalliance/chisel/issues/1465",
+    "https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests",
+    "https://github.com/chipsalliance/chisel/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/chipsalliance/chisel/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 2087,
+   "title": "Better documentation of `:=` vs `<>`",
+   "url": "https://github.com/chipsalliance/chisel/issues/2087",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2021-10-28T18:49:37Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/chipsalliance/chisel/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/chipsalliance/chisel/issues/2087",
+    "https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests",
+    "https://github.com/chipsalliance/chisel/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/chipsalliance/chisel/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 2324,
+   "title": "We have no documentation/training on `Mem`",
+   "url": "https://github.com/chipsalliance/chisel/issues/2324",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2024-02-28T19:12:06Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/chipsalliance/chisel/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/chipsalliance/chisel/issues/2324",
+    "https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests",
+    "https://github.com/chipsalliance/chisel/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/chipsalliance/chisel/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 2435,
+   "title": "Add Bundle.Init (analogous to VecInit / Bundle.Lit)",
+   "url": "https://github.com/chipsalliance/chisel/issues/2435",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2023-02-15T21:05:13Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "PR #3060 by @poddar92 is already open against this issue",
+   "evidence": [
+    "https://github.com/chipsalliance/chisel/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/chipsalliance/chisel/pull/3060"
+   ]
+  },
+  {
+   "number": 2436,
+   "title": "Inconsistency with Decoupled and DecoupledIO",
+   "url": "https://github.com/chipsalliance/chisel/issues/2436",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2022-03-08T02:52:38Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "PR #2463 by @mwachs5 is already open against this issue",
+   "evidence": [
+    "https://github.com/chipsalliance/chisel/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/chipsalliance/chisel/issues/2463"
+   ]
+  },
+  {
+   "number": 2463,
+   "title": "RFC: Deprecate either Decoupled or DecoupledIO?",
+   "url": "https://github.com/chipsalliance/chisel/issues/2463",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2022-08-11T11:38:35Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/chipsalliance/chisel/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/chipsalliance/chisel/issues/2463",
+    "https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests",
+    "https://github.com/chipsalliance/chisel/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/chipsalliance/chisel/blob/HEAD/README.md"
+   ]
+  }
+ ]
+}

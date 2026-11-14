@@ -1,0 +1,9 @@
+{
+ "owner": "crytic",
+ "repo": "echidna",
+ "language": "Haskell",
+ "stars": 3193,
+ "description": "Ethereum smart contract fuzzer",
+ "visitedAt": "2026-11-14T03:20:07.172Z",
+ "issues": []
+}

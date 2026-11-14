@@ -1,0 +1,106 @@
+{
+ "owner": "gatling",
+ "repo": "gatling",
+ "language": "Scala",
+ "stars": 6960,
+ "description": "Modern Load Testing as Code",
+ "visitedAt": "2026-11-14T03:20:07.172Z",
+ "issues": [
+  {
+   "number": 3595,
+   "title": "Recorder: Record WebSocket Upgrade requests as ws.connect",
+   "url": "https://github.com/gatling/gatling/issues/3595",
+   "labels": [
+    "Module - HTTP",
+    "help wanted"
+   ],
+   "updatedAt": "2025-04-01T07:26:47Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "nothing has been merged in 285 days",
+   "evidence": [
+    "https://github.com/gatling/gatling/pulls?q=is%3Apr+is%3Amerged"
+   ]
+  },
+  {
+   "number": 3852,
+   "title": "HTTP: support following 308 redirects for server sent events",
+   "url": "https://github.com/gatling/gatling/issues/3852",
+   "labels": [
+    "Module - HTTP",
+    "help wanted"
+   ],
+   "updatedAt": "2025-04-01T07:26:42Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "nothing has been merged in 285 days",
+   "evidence": [
+    "https://github.com/gatling/gatling/pulls?q=is%3Apr+is%3Amerged"
+   ]
+  },
+  {
+   "number": 4440,
+   "title": "HTTP: Add possibility to consume and check against an undefined number of websocket messages",
+   "url": "https://github.com/gatling/gatling/issues/4440",
+   "labels": [
+    "Module - HTTP",
+    "help wanted"
+   ],
+   "updatedAt": "2025-04-01T07:26:38Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "nothing has been merged in 285 days",
+   "evidence": [
+    "https://github.com/gatling/gatling/pulls?q=is%3Apr+is%3Amerged"
+   ]
+  },
+  {
+   "number": 4460,
+   "title": "HTTP: HTTP/3 support",
+   "url": "https://github.com/gatling/gatling/issues/4460",
+   "labels": [
+    "Module - HTTP",
+    "help wanted"
+   ],
+   "updatedAt": "2025-05-09T20:27:26Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "nothing has been merged in 285 days",
+   "evidence": [
+    "https://github.com/gatling/gatling/pulls?q=is%3Apr+is%3Amerged"
+   ]
+  },
+  {
+   "number": 4469,
+   "title": "HTTP: Built-in support for CORS preflight requests",
+   "url": "https://github.com/gatling/gatling/issues/4469",
+   "labels": [
+    "Module - HTTP",
+    "help wanted"
+   ],
+   "updatedAt": "2025-04-01T07:26:35Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "nothing has been merged in 285 days",
+   "evidence": [
+    "https://github.com/gatling/gatling/pulls?q=is%3Apr+is%3Amerged"
+   ]
+  },
+  {
+   "number": 4544,
+   "title": "Websocket: response time check",
+   "url": "https://github.com/gatling/gatling/issues/4544",
+   "labels": [
+    "Module - HTTP",
+    "help wanted"
+   ],
+   "updatedAt": "2026-02-04T23:10:49Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "nothing has been merged in 285 days",
+   "evidence": [
+    "https://github.com/gatling/gatling/pulls?q=is%3Apr+is%3Amerged"
+   ]
+  }
+ ]
+}

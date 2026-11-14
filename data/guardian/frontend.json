@@ -1,0 +1,48 @@
+{
+ "owner": "guardian",
+ "repo": "frontend",
+ "language": "Scala",
+ "stars": 5898,
+ "description": "The Guardian DotCom.",
+ "visitedAt": "2026-11-14T03:20:07.172Z",
+ "issues": [
+  {
+   "number": 26637,
+   "title": "Update team switches for frontend",
+   "url": "https://github.com/guardian/frontend/issues/26637",
+   "labels": [
+    "Pick me up",
+    "good first issue",
+    "Team Candidate: WebX"
+   ],
+   "updatedAt": "2025-01-03T19:08:09Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/guardian/frontend/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/guardian/frontend/issues/26637",
+    "https://github.com/guardian/frontend/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 27652,
+   "title": "Remove Twitter links from social sharing container in frontend-rendered articles",
+   "url": "https://github.com/guardian/frontend/issues/27652",
+   "labels": [
+    "Pick me up",
+    "good first issue",
+    "Team Candidate: WebX"
+   ],
+   "updatedAt": "2025-06-04T12:50:52Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/guardian/frontend/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/guardian/frontend/issues/27652",
+    "https://github.com/guardian/frontend/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  }
+ ]
+}

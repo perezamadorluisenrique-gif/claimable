@@ -1,0 +1,48 @@
+{
+ "owner": "expert-lsp",
+ "repo": "expert",
+ "language": "Elixir",
+ "stars": 2069,
+ "description": "Official Elixir Language Server Protocol implementation",
+ "visitedAt": "2026-11-14T03:20:07.172Z",
+ "issues": [
+  {
+   "number": 265,
+   "title": "Audit Refactorex features",
+   "url": "https://github.com/expert-lsp/expert/issues/265",
+   "labels": [
+    "good first issue",
+    "help wanted"
+   ],
+   "updatedAt": "2026-10-05T20:31:47Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "reservations",
+   "reason": "PR #898 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder",
+   "evidence": [
+    "https://github.com/expert-lsp/expert/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/expert-lsp/expert/pull/898",
+    "https://github.com/expert-lsp/expert/issues/265",
+    "https://github.com/expert-lsp/expert/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 924,
+   "title": "Reduce Engine size",
+   "url": "https://github.com/expert-lsp/expert/issues/924",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2026-10-09T05:19:23Z",
+   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "verdict": "discard",
+   "reason": "PR #945 by @sophiathedev is already open against this issue",
+   "evidence": [
+    "https://github.com/expert-lsp/expert/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/expert-lsp/expert/pull/945",
+    "https://github.com/expert-lsp/expert/pull/927",
+    "https://github.com/expert-lsp/expert/pull/934"
+   ]
+  }
+ ]
+}
