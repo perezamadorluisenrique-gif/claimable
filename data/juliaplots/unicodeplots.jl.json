@@ -1,0 +1,136 @@
+{
+ "owner": "JuliaPlots",
+ "repo": "UnicodePlots.jl",
+ "language": "Julia",
+ "stars": 1555,
+ "description": "Unicode-based scientific plotting for working in the terminal",
+ "visitedAt": "2026-11-14T18:08:15.201Z",
+ "issues": [
+  {
+   "number": 93,
+   "title": "Boxplot improvements",
+   "url": "https://github.com/JuliaPlots/UnicodePlots.jl/issues/93",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2025-09-16T17:38:34Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "no push in 42 days (last: 2026-10-03)",
+   "evidence": [
+    "https://github.com/JuliaPlots/UnicodePlots.jl — pushed_at 2026-10-03T14:14:46Z",
+    "https://github.com/JuliaPlots/UnicodePlots.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaPlots/UnicodePlots.jl/issues/93"
+   ]
+  },
+  {
+   "number": 94,
+   "title": "Suggestion: Donut chart",
+   "url": "https://github.com/JuliaPlots/UnicodePlots.jl/issues/94",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2025-09-16T17:38:37Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "no push in 42 days (last: 2026-10-03)",
+   "evidence": [
+    "https://github.com/JuliaPlots/UnicodePlots.jl — pushed_at 2026-10-03T14:14:46Z",
+    "https://github.com/JuliaPlots/UnicodePlots.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaPlots/UnicodePlots.jl/issues/94"
+   ]
+  },
+  {
+   "number": 95,
+   "title": "Stacked bar charts",
+   "url": "https://github.com/JuliaPlots/UnicodePlots.jl/issues/95",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2025-09-16T17:38:39Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "no push in 42 days (last: 2026-10-03)",
+   "evidence": [
+    "https://github.com/JuliaPlots/UnicodePlots.jl — pushed_at 2026-10-03T14:14:46Z",
+    "https://github.com/JuliaPlots/UnicodePlots.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaPlots/UnicodePlots.jl/issues/95"
+   ]
+  },
+  {
+   "number": 254,
+   "title": "fill_between feature",
+   "url": "https://github.com/JuliaPlots/UnicodePlots.jl/issues/254",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2025-09-16T17:38:45Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #319 by @jhidding is already open against this issue",
+   "evidence": [
+    "https://github.com/JuliaPlots/UnicodePlots.jl — pushed_at 2026-10-03T14:14:46Z",
+    "https://github.com/JuliaPlots/UnicodePlots.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaPlots/UnicodePlots.jl/issues/319"
+   ]
+  },
+  {
+   "number": 348,
+   "title": "log transformed bins in `histogram`",
+   "url": "https://github.com/JuliaPlots/UnicodePlots.jl/issues/348",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2025-09-16T17:38:13Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "no push in 42 days (last: 2026-10-03)",
+   "evidence": [
+    "https://github.com/JuliaPlots/UnicodePlots.jl — pushed_at 2026-10-03T14:14:46Z",
+    "https://github.com/JuliaPlots/UnicodePlots.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaPlots/UnicodePlots.jl/issues/348"
+   ]
+  },
+  {
+   "number": 381,
+   "title": "Move from `Crayons` to `StyledStrings`",
+   "url": "https://github.com/JuliaPlots/UnicodePlots.jl/issues/381",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "compatibility"
+   ],
+   "updatedAt": "2025-09-16T17:38:00Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #398 by @t-bltg is already open against this issue",
+   "evidence": [
+    "https://github.com/JuliaPlots/UnicodePlots.jl — pushed_at 2026-10-03T14:14:46Z",
+    "https://github.com/JuliaPlots/UnicodePlots.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaPlots/UnicodePlots.jl/pull/398"
+   ]
+  },
+  {
+   "number": 425,
+   "title": "vertical barplot",
+   "url": "https://github.com/JuliaPlots/UnicodePlots.jl/issues/425",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-01-03T08:14:30Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "no push in 42 days (last: 2026-10-03)",
+   "evidence": [
+    "https://github.com/JuliaPlots/UnicodePlots.jl — pushed_at 2026-10-03T14:14:46Z",
+    "https://github.com/JuliaPlots/UnicodePlots.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaPlots/UnicodePlots.jl/issues/425"
+   ]
+  }
+ ]
+}

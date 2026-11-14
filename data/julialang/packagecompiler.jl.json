@@ -1,0 +1,147 @@
+{
+ "owner": "JuliaLang",
+ "repo": "PackageCompiler.jl",
+ "language": "Julia",
+ "stars": 1565,
+ "description": "Compile your Julia Package",
+ "visitedAt": "2026-11-14T18:08:15.201Z",
+ "issues": [
+  {
+   "number": 322,
+   "title": "Testing apps should ideally upload the app somewhere and then download it on another machine which doesn't have Julia",
+   "url": "https://github.com/JuliaLang/PackageCompiler.jl/issues/322",
+   "labels": [
+    "help wanted",
+    "maintenance"
+   ],
+   "updatedAt": "2026-07-31T20:39:07Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #704 by @pptav0 is already open against this issue",
+   "evidence": [
+    "https://github.com/JuliaLang/PackageCompiler.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/PackageCompiler.jl/issues/704"
+   ]
+  },
+  {
+   "number": 714,
+   "title": "Request: Warning for lack of appropriate compiler ",
+   "url": "https://github.com/JuliaLang/PackageCompiler.jl/issues/714",
+   "labels": [
+    "good first issue",
+    "feature request"
+   ],
+   "updatedAt": "2026-07-31T20:39:12Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/JuliaLang/PackageCompiler.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/PackageCompiler.jl/issues/714"
+   ]
+  },
+  {
+   "number": 735,
+   "title": "[FR] Do basic checks before compilation",
+   "url": "https://github.com/JuliaLang/PackageCompiler.jl/issues/735",
+   "labels": [
+    "good first issue",
+    "feature request"
+   ],
+   "updatedAt": "2026-07-31T20:39:13Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/JuliaLang/PackageCompiler.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/PackageCompiler.jl/issues/735"
+   ]
+  },
+  {
+   "number": 842,
+   "title": "Reactivate devdocs",
+   "url": "https://github.com/JuliaLang/PackageCompiler.jl/issues/842",
+   "labels": [
+    "help wanted",
+    "feature request"
+   ],
+   "updatedAt": "2026-07-31T20:39:20Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #990 by @juanromerohb is already open against this issue",
+   "evidence": [
+    "https://github.com/JuliaLang/PackageCompiler.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/PackageCompiler.jl/issues/990"
+   ]
+  },
+  {
+   "number": 867,
+   "title": "Add option to log which statement is being precompiled",
+   "url": "https://github.com/JuliaLang/PackageCompiler.jl/issues/867",
+   "labels": [
+    "good first issue",
+    "feature request",
+    "observability"
+   ],
+   "updatedAt": "2026-07-31T20:39:21Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #714 by @bclyons12 is already open against this issue",
+   "evidence": [
+    "https://github.com/JuliaLang/PackageCompiler.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/PackageCompiler.jl/issues/714"
+   ]
+  },
+  {
+   "number": 923,
+   "title": "Sysimage documentation bug",
+   "url": "https://github.com/JuliaLang/PackageCompiler.jl/issues/923",
+   "labels": [
+    "bug",
+    "good first issue"
+   ],
+   "updatedAt": "2026-08-09T20:34:43Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #1120 by @cakeni is already open against this issue",
+   "evidence": [
+    "https://github.com/JuliaLang/PackageCompiler.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/PackageCompiler.jl/pull/1120"
+   ]
+  },
+  {
+   "number": 1024,
+   "title": "Link to example App.jl file in docs/src/app.md is broken",
+   "url": "https://github.com/JuliaLang/PackageCompiler.jl/issues/1024",
+   "labels": [
+    "bug",
+    "good first issue"
+   ],
+   "updatedAt": "2026-07-31T20:39:26Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #1119 by @PuvaanRaaj is already open against this issue",
+   "evidence": [
+    "https://github.com/JuliaLang/PackageCompiler.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/PackageCompiler.jl/pull/1119"
+   ]
+  },
+  {
+   "number": 1033,
+   "title": "Better error message when uuid is not present in Project.toml",
+   "url": "https://github.com/JuliaLang/PackageCompiler.jl/issues/1033",
+   "labels": [
+    "good first issue",
+    "feature request"
+   ],
+   "updatedAt": "2026-11-11T08:00:29Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #714 by @bclyons12 is already open against this issue",
+   "evidence": [
+    "https://github.com/JuliaLang/PackageCompiler.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/PackageCompiler.jl/issues/714"
+   ]
+  }
+ ]
+}

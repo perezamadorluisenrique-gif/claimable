@@ -1,0 +1,129 @@
+{
+ "owner": "GenieFramework",
+ "repo": "Genie.jl",
+ "language": "Julia",
+ "stars": 2425,
+ "description": "🧞The highly productive Julia web framework",
+ "visitedAt": "2026-11-14T18:08:15.201Z",
+ "issues": [
+  {
+   "number": 135,
+   "title": "Add swagger generation",
+   "url": "https://github.com/GenieFramework/Genie.jl/issues/135",
+   "labels": [
+    "help wanted",
+    "feature request"
+   ],
+   "updatedAt": "2022-02-14T02:32:13Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "already assigned to @essenciary",
+   "evidence": [
+    "https://github.com/GenieFramework/Genie.jl — pushed_at 2026-10-15T08:44:41Z",
+    "https://github.com/GenieFramework/Genie.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/GenieFramework/Genie.jl/issues/135",
+    "https://github.com/GenieFramework/Genie.jl/issues/135#issuecomment-879964003"
+   ]
+  },
+  {
+   "number": 151,
+   "title": "Simple server in multi-threaded julia",
+   "url": "https://github.com/GenieFramework/Genie.jl/issues/151",
+   "labels": [
+    "help wanted",
+    "TODO",
+    "parallelism"
+   ],
+   "updatedAt": "2024-09-07T02:10:52Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "already assigned to @essenciary",
+   "evidence": [
+    "https://github.com/GenieFramework/Genie.jl — pushed_at 2026-10-15T08:44:41Z",
+    "https://github.com/GenieFramework/Genie.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/GenieFramework/Genie.jl/issues/151"
+   ]
+  },
+  {
+   "number": 317,
+   "title": "Documentation for using PackageCompiler with Genie",
+   "url": "https://github.com/GenieFramework/Genie.jl/issues/317",
+   "labels": [
+    "help wanted",
+    "documentation",
+    "IN PROGRESS"
+   ],
+   "updatedAt": "2020-12-23T08:44:18Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #779 by @vyudu is already open against this issue",
+   "evidence": [
+    "https://github.com/GenieFramework/Genie.jl — pushed_at 2026-10-15T08:44:41Z",
+    "https://github.com/GenieFramework/Genie.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/GenieFramework/Genie.jl/issues/779"
+   ]
+  },
+  {
+   "number": 531,
+   "title": "Add GenieDeployGCP",
+   "url": "https://github.com/GenieFramework/Genie.jl/issues/531",
+   "labels": [
+    "help wanted",
+    "feature request",
+    "hosting"
+   ],
+   "updatedAt": "2022-05-27T07:00:58Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "no push in 30 days (last: 2026-10-15)",
+   "evidence": [
+    "https://github.com/GenieFramework/Genie.jl — pushed_at 2026-10-15T08:44:41Z",
+    "https://github.com/GenieFramework/Genie.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/GenieFramework/Genie.jl/issues/531",
+    "https://github.com/GenieFramework/Genie.jl/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 636,
+   "title": "Choose JSON Renderer due to bug in JSON3/StructTypes",
+   "url": "https://github.com/GenieFramework/Genie.jl/issues/636",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "feature request",
+    "non-breaking",
+    "good-first-issue"
+   ],
+   "updatedAt": "2023-09-07T14:03:14Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "already assigned to @essenciary",
+   "evidence": [
+    "https://github.com/GenieFramework/Genie.jl — pushed_at 2026-10-15T08:44:41Z",
+    "https://github.com/GenieFramework/Genie.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/GenieFramework/Genie.jl/issues/636",
+    "https://github.com/GenieFramework/Genie.jl/issues/636#issuecomment-1537347150"
+   ]
+  },
+  {
+   "number": 663,
+   "title": "Add \"base_url\" option, to \"up()\" to lop off referrer route path sent in from proxy servers (e.g. nginx)?",
+   "url": "https://github.com/GenieFramework/Genie.jl/issues/663",
+   "labels": [
+    "help wanted",
+    "feature request",
+    "non-breaking",
+    "good-first-issue"
+   ],
+   "updatedAt": "2023-09-07T13:41:46Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "already assigned to @essenciary",
+   "evidence": [
+    "https://github.com/GenieFramework/Genie.jl — pushed_at 2026-10-15T08:44:41Z",
+    "https://github.com/GenieFramework/Genie.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/GenieFramework/Genie.jl/issues/663"
+   ]
+  }
+ ]
+}

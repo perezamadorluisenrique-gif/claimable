@@ -1,0 +1,88 @@
+{
+ "owner": "ublue-os",
+ "repo": "bazzite",
+ "language": "Shell",
+ "stars": 9310,
+ "description": "Bazzite makes gaming and everyday use smoother and simpler across desktop PCs, handhelds, tablets, and home theater PCs.",
+ "visitedAt": "2026-11-14T18:08:15.201Z",
+ "issues": [
+  {
+   "number": 464,
+   "title": "Use unl0kr for easy mobile disk encryption unlocking",
+   "url": "https://github.com/ublue-os/bazzite/issues/464",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "stale"
+   ],
+   "updatedAt": "2026-11-11T01:40:47Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #3055 by @sixfoldsquealer is already open against this issue",
+   "evidence": [
+    "https://github.com/ublue-os/bazzite/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ublue-os/bazzite/issues/3055",
+    "https://github.com/ublue-os/bazzite/issues/2932"
+   ]
+  },
+  {
+   "number": 1189,
+   "title": "[FEATURE REQUEST] [SUGGESTION] Consider adding all-ways-egpu for managing EGPU",
+   "url": "https://github.com/ublue-os/bazzite/issues/1189",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "stale"
+   ],
+   "updatedAt": "2026-11-11T01:40:41Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #4532 by @Left024 is already open against this issue",
+   "evidence": [
+    "https://github.com/ublue-os/bazzite/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ublue-os/bazzite/issues/4532"
+   ]
+  },
+  {
+   "number": 2256,
+   "title": "Request: Race Wheel support driver (supports many brands)",
+   "url": "https://github.com/ublue-os/bazzite/issues/2256",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "stale"
+   ],
+   "updatedAt": "2026-11-10T01:43:38Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "labelled `stale` — scope may not be settled yet (+1 more)",
+   "evidence": [
+    "https://github.com/ublue-os/bazzite/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ublue-os/bazzite/issues/2256",
+    "https://github.com/ublue-os/bazzite/blob/HEAD/README.md",
+    "https://docs.bazzite.gg/Installing_and_Managing_Software/Waydroid_Setup_Guide/"
+   ]
+  },
+  {
+   "number": 2379,
+   "title": "Improvement for failed updates due to insufficient free space in game mode",
+   "url": "https://github.com/ublue-os/bazzite/issues/2379",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "steam-deck",
+    "stale"
+   ],
+   "updatedAt": "2026-11-10T01:43:29Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "labelled `stale` — scope may not be settled yet (+1 more)",
+   "evidence": [
+    "https://github.com/ublue-os/bazzite/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ublue-os/bazzite/issues/2379",
+    "https://github.com/ublue-os/bazzite/blob/HEAD/README.md",
+    "https://docs.bazzite.gg/Installing_and_Managing_Software/Waydroid_Setup_Guide/"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "owner": "jump-dev",
+ "repo": "JuMP.jl",
+ "language": "Julia",
+ "stars": 2490,
+ "description": "Modeling language for Mathematical Optimization (linear, mixed-integer, conic, semidefinite, nonlinear)",
+ "visitedAt": "2026-11-14T18:08:15.201Z",
+ "issues": [
+  {
+   "number": 2348,
+   "title": "Suggestions for documentation improvements",
+   "url": "https://github.com/jump-dev/JuMP.jl/issues/2348",
+   "labels": [
+    "Type: Documentation",
+    "Status: Help Wanted",
+    "good first issue"
+   ],
+   "updatedAt": "2026-02-02T00:00:21Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "PR #2812 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+21 more)",
+   "evidence": [
+    "https://github.com/jump-dev/JuMP.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/jump-dev/JuMP.jl/pull/2812",
+    "https://github.com/jump-dev/JuMP.jl/pull/3144",
+    "https://github.com/jump-dev/JuMP.jl/pull/3145",
+    "https://github.com/jump-dev/JuMP.jl/pull/3148",
+    "https://github.com/jump-dev/JuMP.jl/pull/3205",
+    "https://github.com/jump-dev/JuMP.jl/pull/3208",
+    "https://github.com/jump-dev/JuMP.jl/pull/3216",
+    "https://github.com/jump-dev/JuMP.jl/pull/3229",
+    "https://github.com/jump-dev/JuMP.jl/pull/3231"
+   ]
+  }
+ ]
+}

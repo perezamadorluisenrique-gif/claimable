@@ -1,0 +1,551 @@
+{
+ "owner": "JuliaGPU",
+ "repo": "CUDA.jl",
+ "language": "Julia",
+ "stars": 1437,
+ "description": "CUDA programming in Julia.",
+ "visitedAt": "2026-11-14T18:08:15.201Z",
+ "issues": [
+  {
+   "number": 110,
+   "title": "[Feature Request] Determinant Function",
+   "url": "https://github.com/JuliaGPU/CUDA.jl/issues/110",
+   "labels": [
+    "good first issue",
+    "arrays",
+    "libraries"
+   ],
+   "updatedAt": "2026-10-19T08:50:04Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/JuliaGPU/CUDA.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaGPU/CUDA.jl/issues/110",
+    "https://github.com/JuliaGPU/CUDA.jl/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 168,
+   "title": "Support for matrix exp",
+   "url": "https://github.com/JuliaGPU/CUDA.jl/issues/168",
+   "labels": [
+    "good first issue",
+    "arrays",
+    "libraries"
+   ],
+   "updatedAt": "2026-10-19T08:49:58Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #215 by @maleadt is already open against this issue",
+   "evidence": [
+    "https://github.com/JuliaGPU/CUDA.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaGPU/CUDA.jl/issues/215",
+    "https://github.com/JuliaGPU/CUDA.jl/issues/3060",
+    "https://github.com/JuliaGPU/CUDA.jl/issues/2539"
+   ]
+  },
+  {
+   "number": 218,
+   "title": "Document kernel indexing for 2D arrays",
+   "url": "https://github.com/JuliaGPU/CUDA.jl/issues/218",
+   "labels": [
+    "documentation",
+    "good first issue",
+    "kernels"
+   ],
+   "updatedAt": "2026-10-19T08:23:33Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #920 by @troyrock is already open against this issue",
+   "evidence": [
+    "https://github.com/JuliaGPU/CUDA.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaGPU/CUDA.jl/issues/920",
+    "https://github.com/JuliaGPU/CUDA.jl/issues/2539"
+   ]
+  },
+  {
+   "number": 228,
+   "title": "Broadcasting and reshaped, transposed, CuArrays",
+   "url": "https://github.com/JuliaGPU/CUDA.jl/issues/228",
+   "labels": [
+    "help wanted",
+    "arrays",
+    "upstream"
+   ],
+   "updatedAt": "2026-10-19T08:49:14Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "PR #1301 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/JuliaGPU/CUDA.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/CliMA/ClimateMachine.jl/pull/1301",
+    "https://github.com/SciML/FluxNeuralOperators.jl/pull/7",
+    "https://github.com/FluxML/MLJFlux.jl/pull/232",
+    "https://github.com/JuliaGPU/CUDA.jl/issues/228",
+    "https://github.com/JuliaGPU/CUDA.jl/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 265,
+   "title": "Add Statistics functions",
+   "url": "https://github.com/JuliaGPU/CUDA.jl/issues/265",
+   "labels": [
+    "help wanted",
+    "good first issue",
+    "arrays"
+   ],
+   "updatedAt": "2026-10-19T08:49:57Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "PR #509 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/JuliaGPU/CUDA.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaGPU/CUDA.jl/pull/509",
+    "https://github.com/JuliaStats/StatsBase.jl/pull/622",
+    "https://github.com/JuliaGPU/CUDA.jl/issues/265",
+    "https://github.com/JuliaGPU/CUDA.jl/issues/265#issuecomment-981811913",
+    "https://github.com/JuliaGPU/CUDA.jl/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 292,
+   "title": "Task switch not allowed from inside staged nor pure functions",
+   "url": "https://github.com/JuliaGPU/CUDA.jl/issues/292",
+   "labels": [
+    "good first issue",
+    "kernels"
+   ],
+   "updatedAt": "2026-10-19T08:49:12Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #215 by @maleadt is already open against this issue",
+   "evidence": [
+    "https://github.com/JuliaGPU/CUDA.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaGPU/CUDA.jl/issues/215"
+   ]
+  },
+  {
+   "number": 848,
+   "title": "CUDNN convolution incorrect for small images",
+   "url": "https://github.com/JuliaGPU/CUDA.jl/issues/848",
+   "labels": [
+    "good first issue",
+    "needs tests",
+    "libraries"
+   ],
+   "updatedAt": "2026-10-19T08:27:29Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "already assigned to @denizyuret",
+   "evidence": [
+    "https://github.com/JuliaGPU/CUDA.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaGPU/CUDA.jl/pull/873",
+    "https://github.com/JuliaGPU/CUDA.jl/issues/848"
+   ]
+  },
+  {
+   "number": 977,
+   "title": "inv or logdet for symmetric matrices",
+   "url": "https://github.com/JuliaGPU/CUDA.jl/issues/977",
+   "labels": [
+    "good first issue",
+    "arrays",
+    "libraries"
+   ],
+   "updatedAt": "2026-10-19T08:49:48Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/JuliaGPU/CUDA.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaGPU/CUDA.jl/issues/977",
+    "https://github.com/JuliaGPU/CUDA.jl/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 991,
+   "title": "missing kernel for Base.unique",
+   "url": "https://github.com/JuliaGPU/CUDA.jl/issues/991",
+   "labels": [
+    "good first issue",
+    "arrays"
+   ],
+   "updatedAt": "2026-10-19T08:49:47Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #848 by @maleadt is already open against this issue",
+   "evidence": [
+    "https://github.com/JuliaGPU/CUDA.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaGPU/GPUArrays.jl/pull/848"
+   ]
+  },
+  {
+   "number": 1047,
+   "title": "Constructing shared memory on the CPU should fail",
+   "url": "https://github.com/JuliaGPU/CUDA.jl/issues/1047",
+   "labels": [
+    "good first issue",
+    "kernels"
+   ],
+   "updatedAt": "2026-10-19T08:49:44Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/JuliaGPU/CUDA.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaGPU/CUDA.jl/issues/1047",
+    "https://github.com/JuliaGPU/CUDA.jl/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 1144,
+   "title": "Color the output of `@device_code_sass`",
+   "url": "https://github.com/JuliaGPU/CUDA.jl/issues/1144",
+   "labels": [
+    "good first issue",
+    "kernels"
+   ],
+   "updatedAt": "2026-10-19T08:49:44Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/JuliaGPU/CUDA.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaGPU/CUDA.jl/issues/1144",
+    "https://github.com/JuliaGPU/CUDA.jl/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 1271,
+   "title": "Warn about unsupported CUSPARSE functionality",
+   "url": "https://github.com/JuliaGPU/CUDA.jl/issues/1271",
+   "labels": [
+    "good first issue",
+    "libraries"
+   ],
+   "updatedAt": "2026-10-19T08:49:41Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/JuliaGPU/CUDA.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaGPU/CUDA.jl/issues/1271",
+    "https://github.com/JuliaGPU/CUDA.jl/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 1418,
+   "title": "Exponential of CuArray",
+   "url": "https://github.com/JuliaGPU/CUDA.jl/issues/1418",
+   "labels": [
+    "good first issue",
+    "arrays",
+    "libraries"
+   ],
+   "updatedAt": "2026-10-19T08:49:35Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/JuliaGPU/CUDA.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaGPU/CUDA.jl/issues/1418",
+    "https://github.com/JuliaGPU/CUDA.jl/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 1424,
+   "title": "Expose `prmt` PTX intrinsic",
+   "url": "https://github.com/JuliaGPU/CUDA.jl/issues/1424",
+   "labels": [
+    "good first issue",
+    "kernels"
+   ],
+   "updatedAt": "2026-10-19T08:49:33Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.nvidia.com/cuda/parallel-thread-execution/index.html#data-movement-and-conversion-instructions-prmt) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/JuliaGPU/CUDA.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaGPU/CUDA.jl/issues/1424",
+    "https://github.com/JuliaGPU/CUDA.jl/blob/HEAD/README.md",
+    "https://docs.nvidia.com/cuda/parallel-thread-execution/index.html#data-movement-and-conversion-instructions-prmt"
+   ]
+  },
+  {
+   "number": 1452,
+   "title": "CUBLAS: error functions",
+   "url": "https://github.com/JuliaGPU/CUDA.jl/issues/1452",
+   "labels": [
+    "good first issue",
+    "libraries"
+   ],
+   "updatedAt": "2026-11-13T04:21:15Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "@BhuvanB404 claimed it 2 days ago",
+   "evidence": [
+    "https://github.com/JuliaGPU/CUDA.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaGPU/CUDA.jl/issues/1452#issuecomment-6843837169"
+   ]
+  },
+  {
+   "number": 1458,
+   "title": "Support general eltypes in matrix factorizations (LU, QR, Cholesky)",
+   "url": "https://github.com/JuliaGPU/CUDA.jl/issues/1458",
+   "labels": [
+    "good first issue",
+    "libraries"
+   ],
+   "updatedAt": "2026-10-19T08:49:31Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "open 56 months with no human comment, in a repo pushed to 1 days ago — easy issues do not survive that long here; assume it is harder than its labels say",
+   "evidence": [
+    "https://github.com/JuliaGPU/CUDA.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaGPU/CUDA.jl/issues/1458",
+    "https://github.com/JuliaGPU/CUDA.jl/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 1570,
+   "title": "Document Mem.pin more explicitly to make it more findable",
+   "url": "https://github.com/JuliaGPU/CUDA.jl/issues/1570",
+   "labels": [
+    "documentation",
+    "good first issue",
+    "runtime"
+   ],
+   "updatedAt": "2026-11-04T22:17:01Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "@sasmith-14 claimed it 10 days ago",
+   "evidence": [
+    "https://github.com/JuliaGPU/CUDA.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaGPU/CUDA.jl/issues/1570#issuecomment-6643529403"
+   ]
+  },
+  {
+   "number": 1607,
+   "title": "Option for deterministic sparse matrix vector multiplication",
+   "url": "https://github.com/JuliaGPU/CUDA.jl/issues/1607",
+   "labels": [
+    "good first issue",
+    "libraries"
+   ],
+   "updatedAt": "2026-10-19T08:49:28Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/JuliaGPU/CUDA.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaGPU/CUDA.jl/issues/1607",
+    "https://github.com/JuliaGPU/CUDA.jl/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 1630,
+   "title": "Support for GPUDirectStorage",
+   "url": "https://github.com/JuliaGPU/CUDA.jl/issues/1630",
+   "labels": [
+    "help wanted",
+    "libraries"
+   ],
+   "updatedAt": "2026-10-19T08:49:27Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.rapids.ai/api/kvikio/stable/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/JuliaGPU/CUDA.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaGPU/CUDA.jl/issues/1630",
+    "https://github.com/JuliaGPU/CUDA.jl/blob/HEAD/README.md",
+    "https://docs.rapids.ai/api/kvikio/stable/"
+   ]
+  },
+  {
+   "number": 1819,
+   "title": "Use NVTX.jl to give streams a name",
+   "url": "https://github.com/JuliaGPU/CUDA.jl/issues/1819",
+   "labels": [
+    "good first issue",
+    "runtime"
+   ],
+   "updatedAt": "2026-10-19T08:49:20Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "PR #6373 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder",
+   "evidence": [
+    "https://github.com/JuliaGPU/CUDA.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaPackaging/Yggdrasil/pull/6373",
+    "https://github.com/JuliaGPU/CUDA.jl/issues/1819",
+    "https://github.com/JuliaGPU/CUDA.jl/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 1997,
+   "title": "CUSPARSE: in-place copy from CuSparseCSC to SparseCSC",
+   "url": "https://github.com/JuliaGPU/CUDA.jl/issues/1997",
+   "labels": [
+    "good first issue",
+    "arrays",
+    "libraries"
+   ],
+   "updatedAt": "2026-10-19T08:15:01Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/JuliaGPU/CUDA.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaGPU/CUDA.jl/issues/1997",
+    "https://github.com/JuliaGPU/CUDA.jl/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 2077,
+   "title": "Schur decomposition ",
+   "url": "https://github.com/JuliaGPU/CUDA.jl/issues/2077",
+   "labels": [
+    "help wanted",
+    "libraries"
+   ],
+   "updatedAt": "2026-10-19T08:49:08Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/JuliaGPU/CUDA.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaGPU/CUDA.jl/issues/2077",
+    "https://github.com/JuliaGPU/CUDA.jl/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 2153,
+   "title": "Add `@non_differentiable` rules for basic random functions",
+   "url": "https://github.com/JuliaGPU/CUDA.jl/issues/2153",
+   "labels": [
+    "good first issue",
+    "extensions"
+   ],
+   "updatedAt": "2026-10-19T08:49:06Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/JuliaGPU/CUDA.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaGPU/CUDA.jl/issues/2153",
+    "https://github.com/JuliaGPU/CUDA.jl/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 2186,
+   "title": "ComplexF32 eigen can return `NaN` unexpectedly ",
+   "url": "https://github.com/JuliaGPU/CUDA.jl/issues/2186",
+   "labels": [
+    "help wanted",
+    "libraries",
+    "upstream"
+   ],
+   "updatedAt": "2026-10-19T08:49:02Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/JuliaGPU/CUDA.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaGPU/CUDA.jl/issues/2186",
+    "https://github.com/JuliaGPU/CUDA.jl/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 2248,
+   "title": "Base.stack is underperforming.",
+   "url": "https://github.com/JuliaGPU/CUDA.jl/issues/2248",
+   "labels": [
+    "good first issue",
+    "arrays",
+    "performance"
+   ],
+   "updatedAt": "2026-10-19T08:29:10Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/JuliaGPU/CUDA.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaGPU/CUDA.jl/issues/2248",
+    "https://github.com/JuliaGPU/CUDA.jl/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 2284,
+   "title": "CUSPARSE: Float16 sparse arrays fail on arithmetic of opposite transpositions",
+   "url": "https://github.com/JuliaGPU/CUDA.jl/issues/2284",
+   "labels": [
+    "help wanted",
+    "arrays",
+    "libraries"
+   ],
+   "updatedAt": "2026-10-19T08:49:01Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "open 33 months with no human comment, in a repo pushed to 1 days ago — easy issues do not survive that long here; assume it is harder than its labels say",
+   "evidence": [
+    "https://github.com/JuliaGPU/CUDA.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaGPU/CUDA.jl/issues/2284",
+    "https://github.com/JuliaGPU/CUDA.jl/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 2384,
+   "title": "Adapt + strictly-typed fields can trigger confusing errors",
+   "url": "https://github.com/JuliaGPU/CUDA.jl/issues/2384",
+   "labels": [
+    "good first issue",
+    "kernels"
+   ],
+   "updatedAt": "2026-10-19T08:49:02Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "open 30 months with no human comment, in a repo pushed to 1 days ago — easy issues do not survive that long here; assume it is harder than its labels say",
+   "evidence": [
+    "https://github.com/JuliaGPU/CUDA.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaGPU/CUDA.jl/issues/2384",
+    "https://github.com/JuliaGPU/CUDA.jl/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 2460,
+   "title": "Wrong source paths in debug info",
+   "url": "https://github.com/JuliaGPU/CUDA.jl/issues/2460",
+   "labels": [
+    "good first issue",
+    "kernels"
+   ],
+   "updatedAt": "2026-10-19T08:48:59Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "open 28 months with no human comment, in a repo pushed to 1 days ago — easy issues do not survive that long here; assume it is harder than its labels say",
+   "evidence": [
+    "https://github.com/JuliaGPU/CUDA.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaGPU/CUDA.jl/issues/2460",
+    "https://github.com/JuliaGPU/CUDA.jl/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 2846,
+   "title": "Support CuDeviceArray construction with non-Int dims",
+   "url": "https://github.com/JuliaGPU/CUDA.jl/issues/2846",
+   "labels": [
+    "good first issue",
+    "kernels"
+   ],
+   "updatedAt": "2026-10-19T08:25:51Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/JuliaGPU/CUDA.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaGPU/CUDA.jl/issues/2846",
+    "https://github.com/JuliaGPU/CUDA.jl/blob/HEAD/README.md"
+   ]
+  }
+ ]
+}

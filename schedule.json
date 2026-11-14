@@ -1086,5 +1086,109 @@
  "fluxml/flux.jl": {
   "nextCheck": "2026-11-14T12:31:58.340Z",
   "lastNewIssue": "2023-04-23T18:54:58Z"
+ },
+ "makieorg/makie.jl": {
+  "nextCheck": "2026-11-21T18:08:15.201Z",
+  "lastNewIssue": "2025-03-26T20:33:13Z"
+ },
+ "jump-dev/jump.jl": {
+  "nextCheck": "2026-11-21T18:08:15.201Z",
+  "lastNewIssue": "2020-10-03T06:04:53Z"
+ },
+ "genieframework/genie.jl": {
+  "nextCheck": "2026-11-21T18:08:15.201Z",
+  "lastNewIssue": "2023-08-02T21:36:12Z"
+ },
+ "juliaplots/plots.jl": {
+  "nextCheck": "2026-11-21T18:08:15.201Z",
+  "lastNewIssue": "2024-09-24T03:02:04Z"
+ },
+ "probcomp/gen.jl": {
+  "nextCheck": "2026-11-21T18:08:15.201Z",
+  "lastNewIssue": "2019-02-24T18:58:43Z"
+ },
+ "fluxml/zygote.jl": {
+  "nextCheck": "2026-11-21T18:08:15.201Z",
+  "lastNewIssue": "2024-10-11T14:15:50Z"
+ },
+ "julialang/packagecompiler.jl": {
+  "nextCheck": "2026-11-21T18:08:15.201Z",
+  "lastNewIssue": "2025-03-02T22:04:04Z"
+ },
+ "juliaplots/unicodeplots.jl": {
+  "nextCheck": "2026-11-21T18:08:15.201Z",
+  "lastNewIssue": "2025-11-29T18:14:29Z"
+ },
+ "juliasymbolics/symbolics.jl": {
+  "nextCheck": "2026-11-21T18:08:15.201Z",
+  "lastNewIssue": "2020-08-21T01:45:07Z"
+ },
+ "juliapy/pycall.jl": {
+  "nextCheck": "2026-11-21T18:08:15.201Z",
+  "lastNewIssue": "2020-09-04T21:45:29Z"
+ },
+ "clima/oceananigans.jl": {
+  "nextCheck": "2026-11-21T18:08:15.201Z",
+  "lastNewIssue": null
+ },
+ "juliagpu/cuda.jl": {
+  "nextCheck": "2026-11-21T18:08:15.201Z",
+  "lastNewIssue": "2025-08-13T14:47:11Z"
+ },
+ "juliapy/pythoncall.jl": {
+  "nextCheck": "2026-11-21T18:08:15.201Z",
+  "lastNewIssue": "2022-03-07T23:00:44Z"
+ },
+ "vscodium/vscodium": {
+  "nextCheck": "2026-11-21T18:08:15.201Z",
+  "lastNewIssue": "2025-03-19T00:01:35Z"
+ },
+ "othmanadi/planning-with-files": {
+  "nextCheck": "2026-11-15T18:08:15.201Z",
+  "lastNewIssue": "2026-11-07T20:40:24Z"
+ },
+ "zsh-users/zsh-syntax-highlighting": {
+  "nextCheck": "2026-11-21T18:08:15.201Z",
+  "lastNewIssue": "2022-11-11T18:07:05Z"
+ },
+ "spaceship-prompt/spaceship-prompt": {
+  "nextCheck": "2026-11-21T18:08:15.201Z",
+  "lastNewIssue": "2022-10-07T15:02:17Z"
+ },
+ "termux/termux-packages": {
+  "nextCheck": "2026-11-21T18:08:15.201Z",
+  "lastNewIssue": "2025-04-29T14:51:10Z"
+ },
+ "winapps-org/winapps": {
+  "nextCheck": "2026-11-21T18:08:15.201Z",
+  "lastNewIssue": "2025-11-19T19:38:30Z"
+ },
+ "bash-it/bash-it": {
+  "nextCheck": "2026-11-21T18:08:15.201Z",
+  "lastNewIssue": "2020-10-31T11:50:54Z"
+ },
+ "itzg/docker-minecraft-server": {
+  "nextCheck": "2026-11-21T18:08:15.201Z",
+  "lastNewIssue": "2026-05-13T04:57:05Z"
+ },
+ "pystardust/ani-cli": {
+  "nextCheck": "2026-11-21T18:08:15.201Z",
+  "lastNewIssue": null
+ },
+ "1n3/sn1per": {
+  "nextCheck": "2026-11-21T18:08:15.201Z",
+  "lastNewIssue": null
+ },
+ "conda-forge/miniforge": {
+  "nextCheck": "2026-11-21T18:08:15.201Z",
+  "lastNewIssue": "2024-08-02T03:10:17Z"
+ },
+ "ublue-os/bazzite": {
+  "nextCheck": "2026-11-21T18:08:15.201Z",
+  "lastNewIssue": "2025-03-13T21:44:56Z"
+ },
+ "testssl/testssl.sh": {
+  "nextCheck": "2026-11-14T19:08:15.201Z",
+  "lastNewIssue": "2024-01-30T13:53:24Z"
  }
 }

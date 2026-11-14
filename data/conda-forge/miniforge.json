@@ -1,0 +1,50 @@
+{
+ "owner": "conda-forge",
+ "repo": "miniforge",
+ "language": "Shell",
+ "stars": 10352,
+ "description": "A conda-forge distribution.",
+ "visitedAt": "2026-11-14T18:08:15.201Z",
+ "issues": [
+  {
+   "number": 599,
+   "title": "Maintenance Help requested on the windows side",
+   "url": "https://github.com/conda-forge/miniforge/issues/599",
+   "labels": [
+    "help wanted",
+    "windows"
+   ],
+   "updatedAt": "2025-10-26T17:28:58Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "PR #903 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/conda-forge/miniforge/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/conda-forge/miniforge/pull/903",
+    "https://github.com/conda-forge/miniforge/issues/599",
+    "https://github.com/conda-forge/miniforge/blob/HEAD/README.md",
+    "https://docs.conda.io/projects/conda/en/latest/user-guide/install/windows.html"
+   ]
+  },
+  {
+   "number": 619,
+   "title": "`mamba activate/deactivate` not work in PowerShell",
+   "url": "https://github.com/conda-forge/miniforge/issues/619",
+   "labels": [
+    "bug",
+    "help wanted",
+    "windows"
+   ],
+   "updatedAt": "2025-08-30T06:02:03Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.conda.io/projects/conda/en/latest/user-guide/install/windows.html) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/conda-forge/miniforge/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/conda-forge/miniforge/issues/619",
+    "https://github.com/conda-forge/miniforge/blob/HEAD/README.md",
+    "https://docs.conda.io/projects/conda/en/latest/user-guide/install/windows.html"
+   ]
+  }
+ ]
+}

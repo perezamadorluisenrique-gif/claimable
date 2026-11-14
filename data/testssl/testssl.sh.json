@@ -1,0 +1,104 @@
+{
+ "owner": "testssl",
+ "repo": "testssl.sh",
+ "language": "Shell",
+ "stars": 9271,
+ "description": "Testing TLS/SSL encryption anywhere on any port ",
+ "visitedAt": "2026-11-14T18:08:15.201Z",
+ "issues": [
+  {
+   "number": 43,
+   "title": "POODLE TLS",
+   "url": "https://github.com/testssl/testssl.sh/issues/43",
+   "labels": [
+    "help wanted",
+    "feature",
+    "important"
+   ],
+   "updatedAt": "2018-03-28T08:15:23Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #3061 by @lapo-luchini is already open against this issue",
+   "evidence": [
+    "https://github.com/testssl/testssl.sh/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/testssl/testssl.sh/issues/3061",
+    "https://github.com/testssl/testssl.sh/issues/2410",
+    "https://github.com/testssl/testssl.sh/issues/1658",
+    "https://github.com/testssl/testssl.sh/issues/2422",
+    "https://github.com/testssl/testssl.sh/issues/1833"
+   ]
+  },
+  {
+   "number": 93,
+   "title": "Insecure Client-Initiated Renegotiation",
+   "url": "https://github.com/testssl/testssl.sh/issues/93",
+   "labels": [
+    "help wanted",
+    "feature"
+   ],
+   "updatedAt": "2020-04-03T07:30:45Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "PR #1070 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder",
+   "evidence": [
+    "https://github.com/testssl/testssl.sh/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/testssl/testssl.sh/pull/1070",
+    "https://github.com/testssl/testssl.sh/issues/93"
+   ]
+  },
+  {
+   "number": 146,
+   "title": "openssl blacklist",
+   "url": "https://github.com/testssl/testssl.sh/issues/146",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2015-07-25T07:21:26Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/testssl/testssl.sh/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/testssl/testssl.sh/issues/146"
+   ]
+  },
+  {
+   "number": 194,
+   "title": "providing fixing documentation and/or links to helpful urls",
+   "url": "https://github.com/testssl/testssl.sh/issues/194",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "feature"
+   ],
+   "updatedAt": "2016-11-09T18:50:52Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @drwetter 4050 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting",
+   "evidence": [
+    "https://github.com/testssl/testssl.sh/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/testssl/testssl.sh/issues/194#issuecomment-147846027",
+    "https://github.com/testssl/testssl.sh/issues/194"
+   ]
+  },
+  {
+   "number": 232,
+   "title": "Option to only show \"not OK\" warnings on screen / HTML",
+   "url": "https://github.com/testssl/testssl.sh/issues/232",
+   "labels": [
+    "help wanted",
+    "UI/output",
+    "feature"
+   ],
+   "updatedAt": "2018-03-28T08:17:14Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/testssl/testssl.sh/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/testssl/testssl.sh/issues/232"
+   ]
+  }
+ ]
+}

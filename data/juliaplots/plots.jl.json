@@ -1,0 +1,949 @@
+{
+ "owner": "JuliaPlots",
+ "repo": "Plots.jl",
+ "language": "Julia",
+ "stars": 1959,
+ "description": "Powerful convenience for Julia visualizations and data analysis",
+ "visitedAt": "2026-11-14T18:08:15.201Z",
+ "issues": [
+  {
+   "number": 47,
+   "title": "Destructive methods",
+   "url": "https://github.com/JuliaPlots/Plots.jl/issues/47",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2020-12-08T09:44:35Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #865 by @mkborregaard is already open against this issue",
+   "evidence": [
+    "https://github.com/JuliaPlots/Plots.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaPlots/Plots.jl/issues/865",
+    "https://github.com/JuliaPlots/Plots.jl/issues/3052",
+    "https://github.com/JuliaPlots/Plots.jl/issues/4413",
+    "https://github.com/JuliaPlots/Plots.jl/issues/4176",
+    "https://github.com/JuliaPlots/Plots.jl/issues/2767",
+    "https://github.com/JuliaPlots/Plots.jl/issues/5517",
+    "https://github.com/JuliaPlots/Plots.jl/issues/2763",
+    "https://github.com/JuliaPlots/Plots.jl/issues/685",
+    "https://github.com/JuliaPlots/Plots.jl/issues/5355"
+   ]
+  },
+  {
+   "number": 83,
+   "title": "Documentation",
+   "url": "https://github.com/JuliaPlots/Plots.jl/issues/83",
+   "labels": [
+    "help wanted",
+    "priority",
+    "good first issue",
+    "documentation"
+   ],
+   "updatedAt": "2021-08-08T15:54:46Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.juliaplots.org/stable/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/JuliaPlots/Plots.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaPlots/Plots.jl/issues/83",
+    "https://docs.juliaplots.org/stable/"
+   ]
+  },
+  {
+   "number": 319,
+   "title": "Recipe ideas",
+   "url": "https://github.com/JuliaPlots/Plots.jl/issues/319",
+   "labels": [
+    "help wanted",
+    "good first issue"
+   ],
+   "updatedAt": "2021-08-11T08:30:54Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "PR #3134 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/JuliaPlots/Plots.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaPlots/Plots.jl/pull/3134",
+    "https://github.com/JuliaPlots/Plots.jl/issues/319",
+    "https://docs.juliaplots.org/stable/"
+   ]
+  },
+  {
+   "number": 645,
+   "title": "Clean up temporary files, avoid leaking file handles",
+   "url": "https://github.com/JuliaPlots/Plots.jl/issues/645",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2017-02-13T08:35:51Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.juliaplots.org/stable/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/JuliaPlots/Plots.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaPlots/Plots.jl/issues/645",
+    "https://docs.juliaplots.org/stable/"
+   ]
+  },
+  {
+   "number": 676,
+   "title": "improvements for plotattr",
+   "url": "https://github.com/JuliaPlots/Plots.jl/issues/676",
+   "labels": [
+    "good first issue",
+    "vizcon"
+   ],
+   "updatedAt": "2020-02-29T11:40:23Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #5648 by @Ininterrompue is already open against this issue",
+   "evidence": [
+    "https://github.com/JuliaPlots/Plots.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaPlots/Plots.jl/issues/5648"
+   ]
+  },
+  {
+   "number": 685,
+   "title": "Dimension too large (PGFPlots)",
+   "url": "https://github.com/JuliaPlots/Plots.jl/issues/685",
+   "labels": [
+    "bug",
+    "help wanted",
+    "PGFPlotsX"
+   ],
+   "updatedAt": "2023-06-11T21:37:27Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #5492 by @Emmanuel-R8 is already open against this issue",
+   "evidence": [
+    "https://github.com/JuliaPlots/Plots.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaPlots/Plots.jl/issues/5492"
+   ]
+  },
+  {
+   "number": 841,
+   "title": "`guide` attributes are kind of undocumented",
+   "url": "https://github.com/JuliaPlots/Plots.jl/issues/841",
+   "labels": [
+    "good first issue",
+    "documentation"
+   ],
+   "updatedAt": "2017-05-18T06:06:27Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #3920 by @dlakelan is already open against this issue",
+   "evidence": [
+    "https://github.com/JuliaPlots/Plots.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaPlots/Plots.jl/issues/3920",
+    "https://github.com/JuliaPlots/Plots.jl/issues/4545"
+   ]
+  },
+  {
+   "number": 847,
+   "title": "Sparsify Data",
+   "url": "https://github.com/JuliaPlots/Plots.jl/issues/847",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2018-02-12T18:22:18Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #5276 by @BeastyBlacksmith is already open against this issue",
+   "evidence": [
+    "https://github.com/JuliaPlots/Plots.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaPlots/Plots.jl/issues/5276"
+   ]
+  },
+  {
+   "number": 938,
+   "title": "Removing Ticks and Grid from Surface Plot",
+   "url": "https://github.com/JuliaPlots/Plots.jl/issues/938",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "PyPlot",
+    "Plotly"
+   ],
+   "updatedAt": "2020-06-22T16:42:28Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "open 115 months with no human comment, in a repo pushed to 1 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/JuliaPlots/Plots.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaPlots/Plots.jl/issues/938",
+    "https://docs.juliaplots.org/stable/"
+   ]
+  },
+  {
+   "number": 972,
+   "title": "Draw closed hollow shapes",
+   "url": "https://github.com/JuliaPlots/Plots.jl/issues/972",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2021-02-19T01:18:21Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #5177 by @hersle is already open against this issue",
+   "evidence": [
+    "https://github.com/JuliaPlots/Plots.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaPlots/Plots.jl/issues/5177",
+    "https://github.com/JuliaPlots/Plots.jl/issues/5002"
+   ]
+  },
+  {
+   "number": 1244,
+   "title": "Polar plots radial axis limits. PGFPlots ",
+   "url": "https://github.com/JuliaPlots/Plots.jl/issues/1244",
+   "labels": [
+    "bug",
+    "help wanted",
+    "PGFPlotsX"
+   ],
+   "updatedAt": "2021-11-11T08:34:04Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.juliaplots.org/stable/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/JuliaPlots/Plots.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaPlots/Plots.jl/issues/1244",
+    "https://docs.juliaplots.org/stable/"
+   ]
+  },
+  {
+   "number": 1706,
+   "title": "Support for `missing` in Plots",
+   "url": "https://github.com/JuliaPlots/Plots.jl/issues/1706",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-01-08T08:40:56Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "PR #2051 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/JuliaPlots/Plots.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaPlots/Plots.jl/pull/2051",
+    "https://github.com/JuliaPlots/Plots.jl/issues/1706",
+    "https://docs.juliaplots.org/stable/"
+   ]
+  },
+  {
+   "number": 1881,
+   "title": "Ticks of contour plots with PyPlot",
+   "url": "https://github.com/JuliaPlots/Plots.jl/issues/1881",
+   "labels": [
+    "good first issue",
+    "PyPlot"
+   ],
+   "updatedAt": "2020-06-23T02:10:43Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.juliaplots.org/stable/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/JuliaPlots/Plots.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaPlots/Plots.jl/issues/1881",
+    "https://docs.juliaplots.org/stable/"
+   ]
+  },
+  {
+   "number": 2707,
+   "title": "Annotations do not pick up the Juno theme font color",
+   "url": "https://github.com/JuliaPlots/Plots.jl/issues/2707",
+   "labels": [
+    "bug",
+    "good first issue"
+   ],
+   "updatedAt": "2023-09-24T21:02:50Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @Jay-sanjay 1147 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/JuliaPlots/Plots.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaPlots/Plots.jl/issues/2707#issuecomment-1732664068",
+    "https://github.com/JuliaPlots/Plots.jl/issues/2707",
+    "https://docs.juliaplots.org/stable/"
+   ]
+  },
+  {
+   "number": 2731,
+   "title": "`ticks=false` doesn't work with certain themes",
+   "url": "https://github.com/JuliaPlots/Plots.jl/issues/2731",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2020-06-10T12:39:18Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.juliaplots.org/stable/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/JuliaPlots/Plots.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaPlots/Plots.jl/issues/2731",
+    "https://docs.juliaplots.org/stable/"
+   ]
+  },
+  {
+   "number": 2767,
+   "title": "[BUG] Nested `plot` calls seem to cause bugs with axis linking",
+   "url": "https://github.com/JuliaPlots/Plots.jl/issues/2767",
+   "labels": [
+    "bug",
+    "good first issue"
+   ],
+   "updatedAt": "2020-07-01T08:53:58Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.juliaplots.org/stable/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/JuliaPlots/Plots.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaPlots/Plots.jl/issues/2767",
+    "https://docs.juliaplots.org/stable/"
+   ]
+  },
+  {
+   "number": 2795,
+   "title": "[BUG] legend entry for empty series on pgfplotsx",
+   "url": "https://github.com/JuliaPlots/Plots.jl/issues/2795",
+   "labels": [
+    "bug",
+    "wontfix",
+    "good first issue",
+    "PGFPlotsX"
+   ],
+   "updatedAt": "2022-07-08T13:49:31Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "labelled `wontfix` — the project is saying not to start",
+   "evidence": [
+    "https://github.com/JuliaPlots/Plots.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaPlots/Plots.jl/issues/2795"
+   ]
+  },
+  {
+   "number": 2823,
+   "title": "[BUG] Pyplot errorbar markers are not centered",
+   "url": "https://github.com/JuliaPlots/Plots.jl/issues/2823",
+   "labels": [
+    "bug",
+    "good first issue",
+    "PyPlot"
+   ],
+   "updatedAt": "2020-06-30T04:07:04Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #2156 by @Krastanov is already open against this issue",
+   "evidence": [
+    "https://github.com/JuliaPlots/Plots.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaPlots/Plots.jl/issues/2156"
+   ]
+  },
+  {
+   "number": 2851,
+   "title": "[FR] Way to modify series labels after plot creation.",
+   "url": "https://github.com/JuliaPlots/Plots.jl/issues/2851",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2023-09-01T06:38:48Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.juliaplots.org/stable/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/JuliaPlots/Plots.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaPlots/Plots.jl/issues/2851",
+    "https://docs.juliaplots.org/stable/"
+   ]
+  },
+  {
+   "number": 2855,
+   "title": "[FR] Make plots threadsafe",
+   "url": "https://github.com/JuliaPlots/Plots.jl/issues/2855",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2022-01-19T15:36:32Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.juliaplots.org/stable/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/JuliaPlots/Plots.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaPlots/Plots.jl/issues/2855",
+    "https://docs.juliaplots.org/stable/"
+   ]
+  },
+  {
+   "number": 2859,
+   "title": "[FR] Series type pixel",
+   "url": "https://github.com/JuliaPlots/Plots.jl/issues/2859",
+   "labels": [
+    "discussion",
+    "good first issue",
+    "extension / feature"
+   ],
+   "updatedAt": "2020-07-29T16:15:02Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "labelled `discussion` — scope may not be settled yet (+1 more)",
+   "evidence": [
+    "https://github.com/JuliaPlots/Plots.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaPlots/Plots.jl/issues/2859",
+    "https://docs.juliaplots.org/stable/"
+   ]
+  },
+  {
+   "number": 2871,
+   "title": "[BUG] pfgplotsx cannot handle ranges of rational numbers",
+   "url": "https://github.com/JuliaPlots/Plots.jl/issues/2871",
+   "labels": [
+    "bug",
+    "wontfix",
+    "good first issue",
+    "PGFPlotsX"
+   ],
+   "updatedAt": "2022-07-08T13:47:28Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "labelled `wontfix` — the project is saying not to start",
+   "evidence": [
+    "https://github.com/JuliaPlots/Plots.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaPlots/Plots.jl/issues/2871"
+   ]
+  },
+  {
+   "number": 3168,
+   "title": "[BUG] PyPlot creates minor ticks in logplot",
+   "url": "https://github.com/JuliaPlots/Plots.jl/issues/3168",
+   "labels": [
+    "bug",
+    "good first issue",
+    "PyPlot"
+   ],
+   "updatedAt": "2020-12-30T17:03:56Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "PR #3183 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/JuliaPlots/Plots.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaPlots/Plots.jl/pull/3183",
+    "https://github.com/JuliaPlots/Plots.jl/issues/3168#issuecomment-752360717",
+    "https://github.com/JuliaPlots/Plots.jl/issues/3168",
+    "https://docs.juliaplots.org/stable/"
+   ]
+  },
+  {
+   "number": 3171,
+   "title": "[BUG] PyPlot minorticks in logscale",
+   "url": "https://github.com/JuliaPlots/Plots.jl/issues/3171",
+   "labels": [
+    "bug",
+    "good first issue",
+    "PyPlot"
+   ],
+   "updatedAt": "2020-11-30T02:56:02Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "PR #3183 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/JuliaPlots/Plots.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaPlots/Plots.jl/pull/3183",
+    "https://github.com/JuliaPlots/Plots.jl/issues/3171",
+    "https://docs.juliaplots.org/stable/"
+   ]
+  },
+  {
+   "number": 3289,
+   "title": "[BUG] GR: surface ignores `clims` and shows wrong colorbar",
+   "url": "https://github.com/JuliaPlots/Plots.jl/issues/3289",
+   "labels": [
+    "bug",
+    "help wanted",
+    "GR"
+   ],
+   "updatedAt": "2023-10-19T06:59:56Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.juliaplots.org/stable/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/JuliaPlots/Plots.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaPlots/Plots.jl/issues/3289",
+    "https://docs.juliaplots.org/stable/"
+   ]
+  },
+  {
+   "number": 3304,
+   "title": "[FR] Change to ticks=:native after zooming or panning in the PyPlot backend",
+   "url": "https://github.com/JuliaPlots/Plots.jl/issues/3304",
+   "labels": [
+    "good first issue",
+    "PyPlot"
+   ],
+   "updatedAt": "2021-09-17T07:41:12Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.juliaplots.org/stable/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/JuliaPlots/Plots.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaPlots/Plots.jl/issues/3304",
+    "https://docs.juliaplots.org/stable/"
+   ]
+  },
+  {
+   "number": 3485,
+   "title": "[BUG] aspect_ratio=:equal not respected when saving to .tex or .tikz",
+   "url": "https://github.com/JuliaPlots/Plots.jl/issues/3485",
+   "labels": [
+    "bug",
+    "good first issue",
+    "PGFPlotsX"
+   ],
+   "updatedAt": "2022-06-07T15:33:42Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "PR #4231 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/JuliaPlots/Plots.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaPlots/Plots.jl/pull/4231",
+    "https://github.com/JuliaPlots/Plots.jl/issues/3485",
+    "https://docs.juliaplots.org/stable/"
+   ]
+  },
+  {
+   "number": 3513,
+   "title": "[FR] Skip writing GR figures to disk",
+   "url": "https://github.com/JuliaPlots/Plots.jl/issues/3513",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "GR",
+    "performance",
+    "Pluto"
+   ],
+   "updatedAt": "2025-12-09T15:17:13Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.juliaplots.org/stable/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/JuliaPlots/Plots.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaPlots/Plots.jl/issues/3513",
+    "https://docs.juliaplots.org/stable/"
+   ]
+  },
+  {
+   "number": 3524,
+   "title": "[BUG] `guidefontvalign` for `pgfplotsx()``not working ",
+   "url": "https://github.com/JuliaPlots/Plots.jl/issues/3524",
+   "labels": [
+    "bug",
+    "good first issue",
+    "PGFPlotsX"
+   ],
+   "updatedAt": "2021-07-04T11:21:18Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "PR #3756 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/JuliaPlots/Plots.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaPlots/Plots.jl/pull/3756",
+    "https://github.com/JuliaPlots/Plots.jl/issues/3524",
+    "https://docs.juliaplots.org/stable/"
+   ]
+  },
+  {
+   "number": 3764,
+   "title": "[BUG] mp4 output won't open in Windows video player or be uploaded to Twitter",
+   "url": "https://github.com/JuliaPlots/Plots.jl/issues/3764",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2021-08-28T08:01:07Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.juliaplots.org/stable/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/JuliaPlots/Plots.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaPlots/Plots.jl/issues/3764",
+    "https://docs.juliaplots.org/stable/"
+   ]
+  },
+  {
+   "number": 3786,
+   "title": "[BUG & FR] legend title position",
+   "url": "https://github.com/JuliaPlots/Plots.jl/issues/3786",
+   "labels": [
+    "bug",
+    "good first issue",
+    "GR"
+   ],
+   "updatedAt": "2022-11-27T11:49:11Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "PR #4555 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/JuliaPlots/Plots.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaPlots/Plots.jl/pull/4555",
+    "https://github.com/JuliaPlots/Plots.jl/issues/3786",
+    "https://docs.juliaplots.org/stable/"
+   ]
+  },
+  {
+   "number": 3832,
+   "title": "[FR] Arrow annotations",
+   "url": "https://github.com/JuliaPlots/Plots.jl/issues/3832",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2022-03-13T22:41:23Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.juliaplots.org/stable/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/JuliaPlots/Plots.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaPlots/Plots.jl/issues/3832",
+    "https://docs.juliaplots.org/stable/"
+   ]
+  },
+  {
+   "number": 4044,
+   "title": "[BUG] Default legends for :dashdot and :dashdotdot are ambiguous",
+   "url": "https://github.com/JuliaPlots/Plots.jl/issues/4044",
+   "labels": [
+    "bug",
+    "help wanted",
+    "PGFPlotsX"
+   ],
+   "updatedAt": "2022-01-17T07:40:01Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "open 59 months with no human comment, in a repo pushed to 1 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/JuliaPlots/Plots.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaPlots/Plots.jl/issues/4044",
+    "https://docs.juliaplots.org/stable/"
+   ]
+  },
+  {
+   "number": 4086,
+   "title": "[FR] Date & DateTime for ohlc",
+   "url": "https://github.com/JuliaPlots/Plots.jl/issues/4086",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2022-02-01T20:05:00Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "open 58 months with no human comment, in a repo pushed to 1 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/JuliaPlots/Plots.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaPlots/Plots.jl/issues/4086",
+    "https://docs.juliaplots.org/stable/"
+   ]
+  },
+  {
+   "number": 4127,
+   "title": "[FR] RTL text is not rendered correctly ",
+   "url": "https://github.com/JuliaPlots/Plots.jl/issues/4127",
+   "labels": [
+    "help wanted",
+    "GR"
+   ],
+   "updatedAt": "2023-08-05T21:03:03Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.juliaplots.org/stable/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/JuliaPlots/Plots.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaPlots/Plots.jl/issues/4127",
+    "https://docs.juliaplots.org/stable/"
+   ]
+  },
+  {
+   "number": 4211,
+   "title": "Compatibility with PlotlyBase v0.8.x",
+   "url": "https://github.com/JuliaPlots/Plots.jl/issues/4211",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2022-05-31T11:32:05Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.juliaplots.org/stable/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/JuliaPlots/Plots.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaPlots/Plots.jl/issues/4211",
+    "https://docs.juliaplots.org/stable/"
+   ]
+  },
+  {
+   "number": 4313,
+   "title": "[FR] Unicode barplot",
+   "url": "https://github.com/JuliaPlots/Plots.jl/issues/4313",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "UnicodePlots"
+   ],
+   "updatedAt": "2022-08-30T07:09:54Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #4509 by @briederer is already open against this issue",
+   "evidence": [
+    "https://github.com/JuliaPlots/Plots.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaPlots/Plots.jl/issues/4509"
+   ]
+  },
+  {
+   "number": 4509,
+   "title": "[BUG] Unicodeplots-Histogram lines in wrong color ",
+   "url": "https://github.com/JuliaPlots/Plots.jl/issues/4509",
+   "labels": [
+    "bug",
+    "help wanted",
+    "UnicodePlots"
+   ],
+   "updatedAt": "2022-11-14T15:20:24Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.juliaplots.org/stable/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/JuliaPlots/Plots.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaPlots/Plots.jl/issues/4509",
+    "https://docs.juliaplots.org/stable/"
+   ]
+  },
+  {
+   "number": 4531,
+   "title": "[FR] Make it easier to have custom labels for levels in contour plot",
+   "url": "https://github.com/JuliaPlots/Plots.jl/issues/4531",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "extension / feature"
+   ],
+   "updatedAt": "2022-11-22T10:21:17Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "open 48 months with no human comment, in a repo pushed to 1 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/JuliaPlots/Plots.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaPlots/Plots.jl/issues/4531",
+    "https://docs.juliaplots.org/stable/"
+   ]
+  },
+  {
+   "number": 4534,
+   "title": "[FR] rework limits when `aspect_ratio=:equal` for pyplot",
+   "url": "https://github.com/JuliaPlots/Plots.jl/issues/4534",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "PyPlot"
+   ],
+   "updatedAt": "2023-11-20T16:08:00Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.juliaplots.org/stable/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/JuliaPlots/Plots.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaPlots/Plots.jl/issues/4534",
+    "https://docs.juliaplots.org/stable/"
+   ]
+  },
+  {
+   "number": 4565,
+   "title": "[RFC] Plots `2.0`",
+   "url": "https://github.com/JuliaPlots/Plots.jl/issues/4565",
+   "labels": [
+    "help wanted",
+    "v2",
+    "BREAKING",
+    "meta"
+   ],
+   "updatedAt": "2025-06-15T15:58:29Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #4904 by @BeastyBlacksmith is already open against this issue",
+   "evidence": [
+    "https://github.com/JuliaPlots/Plots.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaPlots/Plots.jl/pull/4904",
+    "https://github.com/JuliaPlots/PlotUtils.jl/pull/167",
+    "https://github.com/JuliaPlots/Plots.jl/pull/4721",
+    "https://github.com/JuliaPlots/Plots.jl/pull/4866"
+   ]
+  },
+  {
+   "number": 4636,
+   "title": "Specifying position of colorbar with GR backend",
+   "url": "https://github.com/JuliaPlots/Plots.jl/issues/4636",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "GR",
+    "Plotly",
+    "PlotlyJS"
+   ],
+   "updatedAt": "2023-01-25T19:53:34Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.juliaplots.org/stable/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/JuliaPlots/Plots.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaPlots/Plots.jl/issues/4636",
+    "https://docs.juliaplots.org/stable/"
+   ]
+  },
+  {
+   "number": 4766,
+   "title": "aspect_ratio not working expectedly with PGFPlotsX",
+   "url": "https://github.com/JuliaPlots/Plots.jl/issues/4766",
+   "labels": [
+    "bug",
+    "good first issue",
+    "PGFPlotsX"
+   ],
+   "updatedAt": "2023-06-12T06:51:45Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.juliaplots.org/stable/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/JuliaPlots/Plots.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaPlots/Plots.jl/issues/4766",
+    "https://docs.juliaplots.org/stable/"
+   ]
+  },
+  {
+   "number": 4867,
+   "title": "[BUG] Plots in VSCode shows no error when it should show",
+   "url": "https://github.com/JuliaPlots/Plots.jl/issues/4867",
+   "labels": [
+    "good first issue",
+    "GR"
+   ],
+   "updatedAt": "2026-02-03T17:36:53Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.juliaplots.org/stable/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/JuliaPlots/Plots.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaPlots/Plots.jl/issues/4867",
+    "https://docs.juliaplots.org/stable/"
+   ]
+  },
+  {
+   "number": 4890,
+   "title": "[FR] Allow plotting function data in quiver()",
+   "url": "https://github.com/JuliaPlots/Plots.jl/issues/4890",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2026-02-03T17:34:08Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #4979 by @m0rninglightmountain is already open against this issue",
+   "evidence": [
+    "https://github.com/JuliaPlots/Plots.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaPlots/Plots.jl/pull/4979"
+   ]
+  },
+  {
+   "number": 4990,
+   "title": "PGFPlotsX cannot set ylims for certain plots",
+   "url": "https://github.com/JuliaPlots/Plots.jl/issues/4990",
+   "labels": [
+    "good first issue",
+    "PGFPlotsX"
+   ],
+   "updatedAt": "2025-09-20T15:53:42Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "open 26 months with no human comment, in a repo pushed to 1 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/JuliaPlots/Plots.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaPlots/Plots.jl/issues/4990",
+    "https://docs.juliaplots.org/stable/"
+   ]
+  },
+  {
+   "number": 5226,
+   "title": "[FR] Atheme, similar to Mathematica's monochrome theme",
+   "url": "https://github.com/JuliaPlots/Plots.jl/issues/5226",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2026-01-23T15:45:59Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #5249 by @diegozea is already open against this issue",
+   "evidence": [
+    "https://github.com/JuliaPlots/Plots.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaPlots/Plots.jl/issues/5249",
+    "https://github.com/JuliaPlots/Plots.jl/issues/5247",
+    "https://github.com/JuliaPlots/Plots.jl/issues/5242"
+   ]
+  },
+  {
+   "number": 5388,
+   "title": "`groupedbar` fails to add error bars with plotly backend",
+   "url": "https://github.com/JuliaPlots/Plots.jl/issues/5388",
+   "labels": [
+    "bug",
+    "help wanted",
+    "StatsPlots"
+   ],
+   "updatedAt": "2026-02-02T19:12:07Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.juliaplots.org/stable/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/JuliaPlots/Plots.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaPlots/Plots.jl/issues/5388",
+    "https://docs.juliaplots.org/stable/"
+   ]
+  },
+  {
+   "number": 5645,
+   "title": "Table shows unevaluated Markdown ",
+   "url": "https://github.com/JuliaPlots/Plots.jl/issues/5645",
+   "labels": [
+    "help wanted",
+    "documentation"
+   ],
+   "updatedAt": "2026-02-22T11:11:19Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.juliaplots.org/latest/generated/graph_attributes/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/JuliaPlots/Plots.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaPlots/Plots.jl/issues/5645",
+    "https://docs.juliaplots.org/latest/generated/graph_attributes/"
+   ]
+  },
+  {
+   "number": 5686,
+   "title": "Add some developer docs",
+   "url": "https://github.com/JuliaPlots/Plots.jl/issues/5686",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "documentation"
+   ],
+   "updatedAt": "2026-02-22T11:12:22Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "already assigned to @asinghvi17",
+   "evidence": [
+    "https://github.com/JuliaPlots/Plots.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaPlots/Plots.jl/issues/5686"
+   ]
+  }
+ ]
+}

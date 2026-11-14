@@ -1,0 +1,456 @@
+{
+ "owner": "zsh-users",
+ "repo": "zsh-syntax-highlighting",
+ "language": "Shell",
+ "stars": 23088,
+ "description": "Fish shell like syntax highlighting for Zsh.",
+ "visitedAt": "2026-11-14T18:08:15.201Z",
+ "issues": [
+  {
+   "number": 210,
+   "title": "path_prefix: Use short-circuit glob qualifier",
+   "url": "https://github.com/zsh-users/zsh-syntax-highlighting/issues/210",
+   "labels": [
+    "Task",
+    "performance",
+    "good first issue"
+   ],
+   "updatedAt": "2020-03-16T22:43:59Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #997 by @Vamsi-2581 is already open against this issue",
+   "evidence": [
+    "https://github.com/zsh-users/zsh-syntax-highlighting — pushed_at 2026-10-09T17:26:35Z",
+    "https://github.com/zsh-users/zsh-syntax-highlighting/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/zsh-users/zsh-syntax-highlighting/pull/997"
+   ]
+  },
+  {
+   "number": 223,
+   "title": "Highlight function definitions",
+   "url": "https://github.com/zsh-users/zsh-syntax-highlighting/issues/223",
+   "labels": [
+    "Feature",
+    "needs:lookahead",
+    "good first issue"
+   ],
+   "updatedAt": "2020-03-16T22:50:36Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #563 by @phy1729 is already open against this issue",
+   "evidence": [
+    "https://github.com/zsh-users/zsh-syntax-highlighting — pushed_at 2026-10-09T17:26:35Z",
+    "https://github.com/zsh-users/zsh-syntax-highlighting/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/zsh-users/zsh-syntax-highlighting/pull/563"
+   ]
+  },
+  {
+   "number": 236,
+   "title": "docs: Deduplicate ZSH_HIGHLIGHT_STYLES values documentation",
+   "url": "https://github.com/zsh-users/zsh-syntax-highlighting/issues/236",
+   "labels": [
+    "Task",
+    "resolution:if-and-when-needed",
+    "component:docs",
+    "good first issue"
+   ],
+   "updatedAt": "2020-03-16T22:45:22Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #996 by @Vamsi-2581 is already open against this issue",
+   "evidence": [
+    "https://github.com/zsh-users/zsh-syntax-highlighting — pushed_at 2026-10-09T17:26:35Z",
+    "https://github.com/zsh-users/zsh-syntax-highlighting/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/zsh-users/zsh-syntax-highlighting/pull/996"
+   ]
+  },
+  {
+   "number": 237,
+   "title": "Function definitions: highlight first command word",
+   "url": "https://github.com/zsh-users/zsh-syntax-highlighting/issues/237",
+   "labels": [
+    "Feature",
+    "syntax:command-word",
+    "good first issue"
+   ],
+   "updatedAt": "2020-03-16T22:49:22Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #223 by @danielshahaf is already open against this issue",
+   "evidence": [
+    "https://github.com/zsh-users/zsh-syntax-highlighting — pushed_at 2026-10-09T17:26:35Z",
+    "https://github.com/zsh-users/zsh-syntax-highlighting/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/zsh-users/zsh-syntax-highlighting/issues/223"
+   ]
+  },
+  {
+   "number": 296,
+   "title": "Highlight trailing garbage as error",
+   "url": "https://github.com/zsh-users/zsh-syntax-highlighting/issues/296",
+   "labels": [
+    "Improvement",
+    "good first issue"
+   ],
+   "updatedAt": "2020-03-17T00:21:00Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #665 by @danielshahaf is already open against this issue",
+   "evidence": [
+    "https://github.com/zsh-users/zsh-syntax-highlighting — pushed_at 2026-10-09T17:26:35Z",
+    "https://github.com/zsh-users/zsh-syntax-highlighting/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/zsh-users/zsh-syntax-highlighting/issues/665"
+   ]
+  },
+  {
+   "number": 366,
+   "title": "Is optimization via integer-indexed hash possible?",
+   "url": "https://github.com/zsh-users/zsh-syntax-highlighting/issues/366",
+   "labels": [
+    "performance",
+    "good first issue"
+   ],
+   "updatedAt": "2020-03-17T01:22:30Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "no push in 36 days (last: 2026-10-09)",
+   "evidence": [
+    "https://github.com/zsh-users/zsh-syntax-highlighting — pushed_at 2026-10-09T17:26:35Z",
+    "https://github.com/zsh-users/zsh-syntax-highlighting/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/zsh-users/zsh-syntax-highlighting/issues/366"
+   ]
+  },
+  {
+   "number": 406,
+   "title": "Highlight case/esac",
+   "url": "https://github.com/zsh-users/zsh-syntax-highlighting/issues/406",
+   "labels": [
+    "Improvement",
+    "good first issue"
+   ],
+   "updatedAt": "2020-03-17T01:37:32Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #563 by @phy1729 is already open against this issue",
+   "evidence": [
+    "https://github.com/zsh-users/zsh-syntax-highlighting — pushed_at 2026-10-09T17:26:35Z",
+    "https://github.com/zsh-users/zsh-syntax-highlighting/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/zsh-users/zsh-syntax-highlighting/pull/563"
+   ]
+  },
+  {
+   "number": 479,
+   "title": "Audit for null argument elision",
+   "url": "https://github.com/zsh-users/zsh-syntax-highlighting/issues/479",
+   "labels": [
+    "Task",
+    "good first issue"
+   ],
+   "updatedAt": "2020-03-19T06:47:02Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #471 by @danielshahaf is already open against this issue",
+   "evidence": [
+    "https://github.com/zsh-users/zsh-syntax-highlighting — pushed_at 2026-10-09T17:26:35Z",
+    "https://github.com/zsh-users/zsh-syntax-highlighting/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/zsh-users/zsh-syntax-highlighting/pull/471"
+   ]
+  },
+  {
+   "number": 484,
+   "title": "Support `$foo/bar` in command position: parameter expansions with pasted constant strings",
+   "url": "https://github.com/zsh-users/zsh-syntax-highlighting/issues/484",
+   "labels": [
+    "Task",
+    "syntax:command-word",
+    "good first issue"
+   ],
+   "updatedAt": "2024-05-17T13:19:05Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "no push in 36 days (last: 2026-10-09)",
+   "evidence": [
+    "https://github.com/zsh-users/zsh-syntax-highlighting — pushed_at 2026-10-09T17:26:35Z",
+    "https://github.com/zsh-users/zsh-syntax-highlighting/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/zsh-users/zsh-syntax-highlighting/issues/484"
+   ]
+  },
+  {
+   "number": 509,
+   "title": "Highlight unquoted parameter expansions",
+   "url": "https://github.com/zsh-users/zsh-syntax-highlighting/issues/509",
+   "labels": [
+    "Improvement",
+    "good first issue"
+   ],
+   "updatedAt": "2024-08-09T08:41:30Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "no push in 36 days (last: 2026-10-09)",
+   "evidence": [
+    "https://github.com/zsh-users/zsh-syntax-highlighting — pushed_at 2026-10-09T17:26:35Z",
+    "https://github.com/zsh-users/zsh-syntax-highlighting/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/zsh-users/zsh-syntax-highlighting/issues/509"
+   ]
+  },
+  {
+   "number": 569,
+   "title": "Highlight semicolon that doesn't terminate a sublist",
+   "url": "https://github.com/zsh-users/zsh-syntax-highlighting/issues/569",
+   "labels": [
+    "Improvement",
+    "syntax:command-word",
+    "resolution:if-and-when-needed",
+    "good first issue"
+   ],
+   "updatedAt": "2020-03-20T02:57:59Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "no push in 36 days (last: 2026-10-09)",
+   "evidence": [
+    "https://github.com/zsh-users/zsh-syntax-highlighting — pushed_at 2026-10-09T17:26:35Z",
+    "https://github.com/zsh-users/zsh-syntax-highlighting/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/zsh-users/zsh-syntax-highlighting/issues/569"
+   ]
+  },
+  {
+   "number": 595,
+   "title": "PATH_DIRS shouldn't be honoured after `sudo`",
+   "url": "https://github.com/zsh-users/zsh-syntax-highlighting/issues/595",
+   "labels": [
+    "Bug",
+    "syntax:command-word",
+    "good first issue"
+   ],
+   "updatedAt": "2020-03-17T04:40:06Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #987 by @yfwmaniish is already open against this issue",
+   "evidence": [
+    "https://github.com/zsh-users/zsh-syntax-highlighting — pushed_at 2026-10-09T17:26:35Z",
+    "https://github.com/zsh-users/zsh-syntax-highlighting/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/zsh-users/zsh-syntax-highlighting/pull/987"
+   ]
+  },
+  {
+   "number": 613,
+   "title": "Should be noted in the documentation about sourcing when using brew",
+   "url": "https://github.com/zsh-users/zsh-syntax-highlighting/issues/613",
+   "labels": [
+    "Task",
+    "Upstream",
+    "resolution:if-and-when-needed",
+    "component:docs",
+    "good first issue"
+   ],
+   "updatedAt": "2021-06-18T20:23:27Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "no push in 36 days (last: 2026-10-09)",
+   "evidence": [
+    "https://github.com/zsh-users/zsh-syntax-highlighting — pushed_at 2026-10-09T17:26:35Z",
+    "https://github.com/zsh-users/zsh-syntax-highlighting/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/zsh-users/zsh-syntax-highlighting/issues/613"
+   ]
+  },
+  {
+   "number": 645,
+   "title": "Non-existent filename after redirection as error?",
+   "url": "https://github.com/zsh-users/zsh-syntax-highlighting/issues/645",
+   "labels": [
+    "Feature",
+    "Task",
+    "good first issue"
+   ],
+   "updatedAt": "2026-08-26T05:41:01Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "no push in 36 days (last: 2026-10-09) (+1 more)",
+   "evidence": [
+    "https://github.com/zsh-users/zsh-syntax-highlighting — pushed_at 2026-10-09T17:26:35Z",
+    "https://github.com/zsh-users/zsh-syntax-highlighting/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/zsh-users/zsh-syntax-highlighting/issues/645",
+    "https://github.com/zsh-users/zsh-syntax-highlighting/issues/645#issuecomment-5416459425"
+   ]
+  },
+  {
+   "number": 695,
+   "title": "\"unknown-token\" is overloaded",
+   "url": "https://github.com/zsh-users/zsh-syntax-highlighting/issues/695",
+   "labels": [
+    "Feature",
+    "Improvement",
+    "Task",
+    "Idea",
+    "component:tests",
+    "good first issue"
+   ],
+   "updatedAt": "2020-05-22T02:26:00Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #244 by @danielshahaf is already open against this issue",
+   "evidence": [
+    "https://github.com/zsh-users/zsh-syntax-highlighting — pushed_at 2026-10-09T17:26:35Z",
+    "https://github.com/zsh-users/zsh-syntax-highlighting/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/zsh-users/zsh-syntax-highlighting/pull/244",
+    "https://github.com/chrisbra/vim-zsh/pull/43"
+   ]
+  },
+  {
+   "number": 707,
+   "title": "path,single-quoted-string style combination regressed",
+   "url": "https://github.com/zsh-users/zsh-syntax-highlighting/issues/707",
+   "labels": [
+    "Bug",
+    "Upstream",
+    "Regression",
+    "good first issue"
+   ],
+   "updatedAt": "2020-03-19T16:03:31Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "no push in 36 days (last: 2026-10-09)",
+   "evidence": [
+    "https://github.com/zsh-users/zsh-syntax-highlighting — pushed_at 2026-10-09T17:26:35Z",
+    "https://github.com/zsh-users/zsh-syntax-highlighting/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/zsh-users/zsh-syntax-highlighting/issues/707"
+   ]
+  },
+  {
+   "number": 713,
+   "title": "History expansion followed by non-history char",
+   "url": "https://github.com/zsh-users/zsh-syntax-highlighting/issues/713",
+   "labels": [
+    "Improvement",
+    "good first issue"
+   ],
+   "updatedAt": "2020-03-27T01:02:54Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #843 by @danielshahaf is already open against this issue",
+   "evidence": [
+    "https://github.com/zsh-users/zsh-syntax-highlighting — pushed_at 2026-10-09T17:26:35Z",
+    "https://github.com/zsh-users/zsh-syntax-highlighting/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/zsh-users/zsh-syntax-highlighting/issues/843"
+   ]
+  },
+  {
+   "number": 716,
+   "title": "$READNULLCMD / $NULLCMD are red",
+   "url": "https://github.com/zsh-users/zsh-syntax-highlighting/issues/716",
+   "labels": [
+    "Bug",
+    "Task",
+    "syntax:command-word",
+    "good first issue"
+   ],
+   "updatedAt": "2020-03-23T09:18:26Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "no push in 36 days (last: 2026-10-09)",
+   "evidence": [
+    "https://github.com/zsh-users/zsh-syntax-highlighting — pushed_at 2026-10-09T17:26:35Z",
+    "https://github.com/zsh-users/zsh-syntax-highlighting/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/zsh-users/zsh-syntax-highlighting/issues/716"
+   ]
+  },
+  {
+   "number": 753,
+   "title": "INSTALL.md: Document existence of packages in some more OS's",
+   "url": "https://github.com/zsh-users/zsh-syntax-highlighting/issues/753",
+   "labels": [
+    "Task",
+    "component:docs",
+    "good first issue"
+   ],
+   "updatedAt": "2023-12-18T21:31:08Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "no push in 36 days (last: 2026-10-09) (+2 more)",
+   "evidence": [
+    "https://github.com/zsh-users/zsh-syntax-highlighting — pushed_at 2026-10-09T17:26:35Z",
+    "https://github.com/zsh-users/zsh-syntax-highlighting/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/zsh-users/zsh-syntax-highlighting/pull/772",
+    "https://github.com/zsh-users/zsh-syntax-highlighting/issues/753#issuecomment-708350970",
+    "https://github.com/zsh-users/zsh-syntax-highlighting/issues/753"
+   ]
+  },
+  {
+   "number": 854,
+   "title": "Block with assignment with no command",
+   "url": "https://github.com/zsh-users/zsh-syntax-highlighting/issues/854",
+   "labels": [
+    "Bug",
+    "good first issue"
+   ],
+   "updatedAt": "2022-05-17T16:45:53Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "no push in 36 days (last: 2026-10-09)",
+   "evidence": [
+    "https://github.com/zsh-users/zsh-syntax-highlighting — pushed_at 2026-10-09T17:26:35Z",
+    "https://github.com/zsh-users/zsh-syntax-highlighting/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/zsh-users/zsh-syntax-highlighting/issues/854"
+   ]
+  },
+  {
+   "number": 874,
+   "title": "Jobs in command position",
+   "url": "https://github.com/zsh-users/zsh-syntax-highlighting/issues/874",
+   "labels": [
+    "Bug",
+    "syntax:command-word",
+    "good first issue"
+   ],
+   "updatedAt": "2025-03-11T21:38:32Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "no push in 36 days (last: 2026-10-09)",
+   "evidence": [
+    "https://github.com/zsh-users/zsh-syntax-highlighting — pushed_at 2026-10-09T17:26:35Z",
+    "https://github.com/zsh-users/zsh-syntax-highlighting/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/zsh-users/zsh-syntax-highlighting/issues/874"
+   ]
+  },
+  {
+   "number": 880,
+   "title": "SHORT_LOOPS syntax \"while {....} {....}\" not recognized",
+   "url": "https://github.com/zsh-users/zsh-syntax-highlighting/issues/880",
+   "labels": [
+    "Bug",
+    "syntax:command-word",
+    "good first issue"
+   ],
+   "updatedAt": "2025-08-02T17:07:12Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "no push in 36 days (last: 2026-10-09) (+1 more)",
+   "evidence": [
+    "https://github.com/zsh-users/zsh-syntax-highlighting — pushed_at 2026-10-09T17:26:35Z",
+    "https://github.com/zsh-users/zsh-syntax-highlighting/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/zsh-users/zsh-syntax-highlighting/issues/880#issuecomment-3116284040",
+    "https://github.com/zsh-users/zsh-syntax-highlighting/issues/880"
+   ]
+  },
+  {
+   "number": 902,
+   "title": "docs += distro logos?",
+   "url": "https://github.com/zsh-users/zsh-syntax-highlighting/issues/902",
+   "labels": [
+    "Improvement",
+    "Task",
+    "Idea",
+    "component:docs",
+    "good first issue"
+   ],
+   "updatedAt": "2023-05-10T09:28:01Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "no push in 36 days (last: 2026-10-09)",
+   "evidence": [
+    "https://github.com/zsh-users/zsh-syntax-highlighting — pushed_at 2026-10-09T17:26:35Z",
+    "https://github.com/zsh-users/zsh-syntax-highlighting/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/zsh-users/zsh-syntax-highlighting/issues/902"
+   ]
+  }
+ ]
+}

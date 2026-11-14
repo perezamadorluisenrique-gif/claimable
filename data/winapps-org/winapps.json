@@ -1,0 +1,254 @@
+{
+ "owner": "winapps-org",
+ "repo": "winapps",
+ "language": "Shell",
+ "stars": 16148,
+ "description": " Run Windows apps such as Microsoft Office/Adobe in Linux (Ubuntu/Fedora) and GNOME/KDE as if they were a part of the native OS, including Nautilus integration. Hard fork of https://github.com/Fmstrat",
+ "visitedAt": "2026-11-14T18:08:15.201Z",
+ "issues": [
+  {
+   "number": 52,
+   "title": "Support for connecting to GNOME Boxes / update documentation",
+   "url": "https://github.com/winapps-org/winapps/issues/52",
+   "labels": [
+    "help wanted",
+    "priority: low"
+   ],
+   "updatedAt": "2025-06-05T07:39:46Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #334 by @Boyfinn is already open against this issue",
+   "evidence": [
+    "https://github.com/winapps-org/winapps/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/winapps-org/winapps/issues/334",
+    "https://github.com/winapps-org/winapps/issues/65"
+   ]
+  },
+  {
+   "number": 78,
+   "title": "Option to remove access to home directory for apps",
+   "url": "https://github.com/winapps-org/winapps/issues/78",
+   "labels": [
+    "good first issue",
+    "priority: high"
+   ],
+   "updatedAt": "2025-06-05T07:38:10Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "the files this issue points at total 49 KB (largest: winapps 49 KB) — whatever the difficulty label says, this is not a small change (+2 more)",
+   "evidence": [
+    "https://github.com/winapps-org/winapps/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/winapps-org/winapps/blob/HEAD/bin/winapps",
+    "https://github.com/winapps-org/winapps/blob/HEAD/README.md",
+    "https://github.com/FreeRDP/FreeRDP/wiki/Compilation",
+    "https://github.com/winapps-org/winapps/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 99,
+   "title": "Preventing the VM being detected as a VM",
+   "url": "https://github.com/winapps-org/winapps/issues/99",
+   "labels": [
+    "good first issue",
+    "priority: medium"
+   ],
+   "updatedAt": "2025-06-05T07:38:06Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #35 by @upintheairsheep is already open against this issue",
+   "evidence": [
+    "https://github.com/winapps-org/winapps/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/winapps-org/winapps/issues/35"
+   ]
+  },
+  {
+   "number": 249,
+   "title": "new setup.sh behaviour breaks installing/reinstalling from a local custom fork",
+   "url": "https://github.com/winapps-org/winapps/issues/249",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2025-08-31T13:59:57Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/FreeRDP/FreeRDP/wiki/Compilation) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/winapps-org/winapps/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/winapps-org/winapps/issues/249",
+    "https://github.com/winapps-org/winapps/blob/HEAD/README.md",
+    "https://github.com/FreeRDP/FreeRDP/wiki/Compilation",
+    "https://github.com/winapps-org/winapps/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 267,
+   "title": "All windows share one WM_CLASS",
+   "url": "https://github.com/winapps-org/winapps/issues/267",
+   "labels": [
+    "good first issue",
+    "freerdp"
+   ],
+   "updatedAt": "2025-08-31T13:59:57Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #457 by @terurin is already open against this issue",
+   "evidence": [
+    "https://github.com/winapps-org/winapps/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/winapps-org/winapps/issues/457"
+   ]
+  },
+  {
+   "number": 270,
+   "title": "App start fails saying the RDP port is not open",
+   "url": "https://github.com/winapps-org/winapps/issues/270",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2025-08-31T13:59:56Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/FreeRDP/FreeRDP/wiki/Compilation) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/winapps-org/winapps/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/winapps-org/winapps/issues/270",
+    "https://github.com/winapps-org/winapps/blob/HEAD/README.md",
+    "https://github.com/FreeRDP/FreeRDP/wiki/Compilation",
+    "https://github.com/winapps-org/winapps/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 293,
+   "title": "Create video tutorials",
+   "url": "https://github.com/winapps-org/winapps/issues/293",
+   "labels": [
+    "documentation",
+    "good first issue",
+    "help wanted"
+   ],
+   "updatedAt": "2025-06-10T17:42:45Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "already assigned to @AkechiShiro",
+   "evidence": [
+    "https://github.com/winapps-org/winapps/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/winapps-org/winapps/issues/293"
+   ]
+  },
+  {
+   "number": 296,
+   "title": "App detection doesn't work on locals with special characters",
+   "url": "https://github.com/winapps-org/winapps/issues/296",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2025-08-31T13:59:54Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/FreeRDP/FreeRDP/wiki/Compilation) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/winapps-org/winapps/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/winapps-org/winapps/issues/296",
+    "https://github.com/winapps-org/winapps/blob/HEAD/README.md",
+    "https://github.com/FreeRDP/FreeRDP/wiki/Compilation",
+    "https://github.com/winapps-org/winapps/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 396,
+   "title": "Fail to launch apps when rdp certificate is renewed",
+   "url": "https://github.com/winapps-org/winapps/issues/396",
+   "labels": [
+    "good first issue",
+    "freerdp"
+   ],
+   "updatedAt": "2025-09-11T03:56:22Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "already assigned to @freechelmi",
+   "evidence": [
+    "https://github.com/winapps-org/winapps/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/winapps-org/winapps/issues/396"
+   ]
+  },
+  {
+   "number": 457,
+   "title": "Failed to parse detected application contained a Japanese named applcation",
+   "url": "https://github.com/winapps-org/winapps/issues/457",
+   "labels": [
+    "good first issue",
+    "help wanted"
+   ],
+   "updatedAt": "2026-01-07T12:10:11Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/FreeRDP/FreeRDP/wiki/Compilation) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/winapps-org/winapps/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/winapps-org/winapps/issues/457",
+    "https://github.com/winapps-org/winapps/blob/HEAD/README.md",
+    "https://github.com/FreeRDP/FreeRDP/wiki/Compilation",
+    "https://github.com/winapps-org/winapps/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 635,
+   "title": "Official app definition requests",
+   "url": "https://github.com/winapps-org/winapps/issues/635",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2026-05-22T18:07:18Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/FreeRDP/FreeRDP/wiki/Compilation) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/winapps-org/winapps/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/winapps-org/winapps/issues/635",
+    "https://github.com/winapps-org/winapps/blob/HEAD/README.md",
+    "https://github.com/FreeRDP/FreeRDP/wiki/Compilation",
+    "https://github.com/winapps-org/winapps/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 786,
+   "title": "Disable Windows Snapping feature",
+   "url": "https://github.com/winapps-org/winapps/issues/786",
+   "labels": [
+    "good first issue",
+    "windows"
+   ],
+   "updatedAt": "2026-01-18T19:46:51Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/FreeRDP/FreeRDP/wiki/Compilation) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/winapps-org/winapps/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/winapps-org/winapps/issues/786",
+    "https://github.com/winapps-org/winapps/blob/HEAD/README.md",
+    "https://github.com/FreeRDP/FreeRDP/wiki/Compilation",
+    "https://github.com/winapps-org/winapps/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 825,
+   "title": "HiDPI / fractional scaling support per-monitor",
+   "url": "https://github.com/winapps-org/winapps/issues/825",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2026-02-11T14:26:52Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "PR #960 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+3 more)",
+   "evidence": [
+    "https://github.com/winapps-org/winapps/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/winapps-org/winapps/pull/960",
+    "https://github.com/winapps-org/winapps/issues/825#issuecomment-3884779793",
+    "https://github.com/winapps-org/winapps/issues/825",
+    "https://github.com/winapps-org/winapps/blob/HEAD/README.md",
+    "https://github.com/FreeRDP/FreeRDP/wiki/Compilation",
+    "https://github.com/winapps-org/winapps/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  }
+ ]
+}

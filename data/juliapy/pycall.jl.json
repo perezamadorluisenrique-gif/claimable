@@ -1,0 +1,26 @@
+{
+ "owner": "JuliaPy",
+ "repo": "PyCall.jl",
+ "language": "Julia",
+ "stars": 1515,
+ "description": "Package to call Python functions from the Julia language",
+ "visitedAt": "2026-11-14T18:08:15.201Z",
+ "issues": [
+  {
+   "number": 814,
+   "title": "Implicit dependency on NumPy headers not made explicit anywhere",
+   "url": "https://github.com/JuliaPy/PyCall.jl/issues/814",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2020-09-06T01:32:04Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #761 by @tk3369 is already open against this issue",
+   "evidence": [
+    "https://github.com/JuliaPy/PyCall.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaPy/PyCall.jl/issues/761"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,698 @@
+{
+ "owner": "termux",
+ "repo": "termux-packages",
+ "language": "Shell",
+ "stars": 17336,
+ "description": "A package build system for Termux.",
+ "visitedAt": "2026-11-14T18:08:15.201Z",
+ "issues": [
+  {
+   "number": 129,
+   "title": "Can we add Unison and Duplicity?",
+   "url": "https://github.com/termux/termux-packages/issues/129",
+   "labels": [
+    "help wanted",
+    "package request",
+    "ocaml"
+   ],
+   "updatedAt": "2026-01-05T15:34:16Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #25023 by @ahmedaiwy is already open against this issue",
+   "evidence": [
+    "https://github.com/termux/termux-packages/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/termux/termux-packages/issues/25023",
+    "https://github.com/termux/termux-packages/issues/31441",
+    "https://github.com/termux/termux-packages/issues/32633",
+    "https://github.com/termux/termux-packages/issues/33342",
+    "https://github.com/termux/termux-packages/issues/33313",
+    "https://github.com/termux/termux-packages/issues/30380",
+    "https://github.com/termux/termux-packages/issues/27702",
+    "https://github.com/termux/termux-packages/issues/32426",
+    "https://github.com/termux/termux-packages/issues/31156"
+   ]
+  },
+  {
+   "number": 561,
+   "title": "Package request: libc-avr and avr-gcc",
+   "url": "https://github.com/termux/termux-packages/issues/561",
+   "labels": [
+    "help wanted",
+    "package request"
+   ],
+   "updatedAt": "2024-04-14T13:35:16Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #17406 by @hansm629 is already open against this issue",
+   "evidence": [
+    "https://github.com/termux/termux-packages/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/termux/termux-packages/issues/17406",
+    "https://github.com/termux/termux-packages/issues/20797"
+   ]
+  },
+  {
+   "number": 879,
+   "title": "libllvm does not create a native llvm-config",
+   "url": "https://github.com/termux/termux-packages/issues/879",
+   "labels": [
+    "bug report",
+    "help wanted",
+    "inactive"
+   ],
+   "updatedAt": "2025-09-27T04:10:48Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "PR #917 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+3 more)",
+   "evidence": [
+    "https://github.com/termux/termux-packages/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/termux/termux-packages/pull/917",
+    "https://github.com/termux/termux-packages/pull/15687",
+    "https://github.com/termux/termux-packages/issues/879",
+    "https://github.com/termux/termux-packages/blob/HEAD/README.md",
+    "https://github.com/termux/termux-packages/wiki.",
+    "https://github.com/termux/termux-packages/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 892,
+   "title": "Compile PHP with pthreads",
+   "url": "https://github.com/termux/termux-packages/issues/892",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "inactive"
+   ],
+   "updatedAt": "2024-06-04T02:33:03Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #33346 by @termuxbot2 is already open against this issue",
+   "evidence": [
+    "https://github.com/termux/termux-packages/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/termux/termux-packages/issues/33346",
+    "https://github.com/termux/termux-packages/issues/33312",
+    "https://github.com/termux/termux-packages/issues/33342",
+    "https://github.com/termux/termux-packages/issues/33336",
+    "https://github.com/termux/termux-packages/issues/33317",
+    "https://github.com/termux/termux-packages/issues/33316",
+    "https://github.com/termux/termux-packages/issues/33313",
+    "https://github.com/termux/termux-packages/issues/32633",
+    "https://github.com/termux/termux-packages/issues/32636"
+   ]
+  },
+  {
+   "number": 942,
+   "title": "Target does not support core file generation",
+   "url": "https://github.com/termux/termux-packages/issues/942",
+   "labels": [
+    "bug report",
+    "help wanted",
+    "arch-i686",
+    "inactive"
+   ],
+   "updatedAt": "2023-03-09T22:50:05Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #33312 by @termuxbot2 is already open against this issue",
+   "evidence": [
+    "https://github.com/termux/termux-packages/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/termux/termux-packages/issues/33312"
+   ]
+  },
+  {
+   "number": 1083,
+   "title": "\"ne\" package with white shadow",
+   "url": "https://github.com/termux/termux-packages/issues/1083",
+   "labels": [
+    "bug report",
+    "help wanted",
+    "inactive"
+   ],
+   "updatedAt": "2023-03-09T21:50:28Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "open 115 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+2 more)",
+   "evidence": [
+    "https://github.com/termux/termux-packages/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/termux/termux-packages/issues/1083",
+    "https://github.com/termux/termux-packages/blob/HEAD/README.md",
+    "https://github.com/termux/termux-packages/wiki.",
+    "https://github.com/termux/termux-packages/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 1542,
+   "title": "Byobu does not load upon termux reset",
+   "url": "https://github.com/termux/termux-packages/issues/1542",
+   "labels": [
+    "bug report",
+    "help wanted",
+    "inactive"
+   ],
+   "updatedAt": "2026-05-27T03:26:51Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #33344 by @0nix210 is already open against this issue",
+   "evidence": [
+    "https://github.com/termux/termux-packages/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/termux/termux-packages/issues/33344",
+    "https://github.com/termux/termux-packages/issues/22733"
+   ]
+  },
+  {
+   "number": 1605,
+   "title": "Package request: dosemu",
+   "url": "https://github.com/termux/termux-packages/issues/1605",
+   "labels": [
+    "help wanted",
+    "package request",
+    "has build issues"
+   ],
+   "updatedAt": "2025-01-01T17:16:04Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/termux/termux-packages/wiki.) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/termux/termux-packages/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/termux/termux-packages/issues/1605",
+    "https://github.com/termux/termux-packages/blob/HEAD/README.md",
+    "https://github.com/termux/termux-packages/wiki.",
+    "https://github.com/termux/termux-packages/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 1729,
+   "title": "Package request: PowerShell Core",
+   "url": "https://github.com/termux/termux-packages/issues/1729",
+   "labels": [
+    "help wanted",
+    "package request",
+    "dotnet"
+   ],
+   "updatedAt": "2026-04-15T08:41:10Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #20423 by @truboxl is already open against this issue",
+   "evidence": [
+    "https://github.com/termux/termux-packages/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/termux/termux-packages/pull/20423",
+    "https://github.com/termux/termux-packages/pull/31503"
+   ]
+  },
+  {
+   "number": 1750,
+   "title": "Package Request: libv8",
+   "url": "https://github.com/termux/termux-packages/issues/1750",
+   "labels": [
+    "help wanted",
+    "package request"
+   ],
+   "updatedAt": "2024-10-10T19:13:02Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #26876 by @dobisan is already open against this issue",
+   "evidence": [
+    "https://github.com/termux/termux-packages/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/termux/termux-packages/issues/26876",
+    "https://github.com/termux/termux-packages/issues/33354"
+   ]
+  },
+  {
+   "number": 1920,
+   "title": "error in emacs installing elpy",
+   "url": "https://github.com/termux/termux-packages/issues/1920",
+   "labels": [
+    "bug report",
+    "help wanted",
+    "inactive"
+   ],
+   "updatedAt": "2023-03-09T21:50:32Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #33354 by @termuxbot2 is already open against this issue",
+   "evidence": [
+    "https://github.com/termux/termux-packages/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/termux/termux-packages/issues/33354"
+   ]
+  },
+  {
+   "number": 2482,
+   "title": "Package request: arm embedded toolchain",
+   "url": "https://github.com/termux/termux-packages/issues/2482",
+   "labels": [
+    "help wanted",
+    "package request"
+   ],
+   "updatedAt": "2026-07-09T16:00:20Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "PR #30102 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/termux/termux-packages/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/termux/termux-packages/pull/30102",
+    "https://github.com/termux/termux-packages/issues/2482",
+    "https://github.com/termux/termux-packages/blob/HEAD/README.md",
+    "https://github.com/termux/termux-packages/wiki.",
+    "https://github.com/termux/termux-packages/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2622,
+   "title": "Wrong timezone in Go",
+   "url": "https://github.com/termux/termux-packages/issues/2622",
+   "labels": [
+    "bug report",
+    "help wanted",
+    "golang",
+    "upstream issue",
+    "inactive"
+   ],
+   "updatedAt": "2024-02-09T04:40:08Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "PR #362 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/termux/termux-packages/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ayn2op/discordo/pull/362",
+    "https://github.com/termux/termux-packages/issues/2622",
+    "https://github.com/termux/termux-packages/blob/HEAD/README.md",
+    "https://github.com/termux/termux-packages/wiki.",
+    "https://github.com/termux/termux-packages/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2725,
+   "title": "Package request: iceb",
+   "url": "https://github.com/termux/termux-packages/issues/2725",
+   "labels": [
+    "help wanted",
+    "package request"
+   ],
+   "updatedAt": "2024-10-10T19:27:15Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/termux/termux-packages/wiki.) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/termux/termux-packages/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/termux/termux-packages/issues/2725",
+    "https://github.com/termux/termux-packages/blob/HEAD/README.md",
+    "https://github.com/termux/termux-packages/wiki.",
+    "https://github.com/termux/termux-packages/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2788,
+   "title": "Request: mtCedCLI",
+   "url": "https://github.com/termux/termux-packages/issues/2788",
+   "labels": [
+    "help wanted",
+    "package request"
+   ],
+   "updatedAt": "2020-05-06T21:18:00Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #22733 by @DuilioPerez is already open against this issue",
+   "evidence": [
+    "https://github.com/termux/termux-packages/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/termux/termux-packages/issues/22733"
+   ]
+  },
+  {
+   "number": 2821,
+   "title": "Weird behavior after copying in emacs",
+   "url": "https://github.com/termux/termux-packages/issues/2821",
+   "labels": [
+    "bug report",
+    "help wanted",
+    "inactive"
+   ],
+   "updatedAt": "2025-01-02T23:27:04Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/termux/termux-packages/wiki.) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/termux/termux-packages/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/termux/termux-packages/issues/2821",
+    "https://github.com/termux/termux-packages/blob/HEAD/README.md",
+    "https://github.com/termux/termux-packages/wiki.",
+    "https://github.com/termux/termux-packages/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 3268,
+   "title": "Apache2 service won't stop",
+   "url": "https://github.com/termux/termux-packages/issues/3268",
+   "labels": [
+    "bug report",
+    "help wanted",
+    "inactive"
+   ],
+   "updatedAt": "2025-01-02T23:27:00Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "4 paths named in the issue do not exist on `termux-packages`'s default branch — that is unlisted work: var/www/html, etc/apache2/httpd.conf, share/apache2/default-site/htdocs, var/www (+2 more)",
+   "evidence": [
+    "https://github.com/termux/termux-packages/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/termux/termux-packages/issues/3268",
+    "https://github.com/termux/termux-packages/blob/HEAD/README.md",
+    "https://github.com/termux/termux-packages/wiki.",
+    "https://github.com/termux/termux-packages/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 3503,
+   "title": "Package request: rethinkdb",
+   "url": "https://github.com/termux/termux-packages/issues/3503",
+   "labels": [
+    "help wanted",
+    "package request"
+   ],
+   "updatedAt": "2022-11-10T03:21:25Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/termux/termux-packages/wiki.) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/termux/termux-packages/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/termux/termux-packages/issues/3503",
+    "https://github.com/termux/termux-packages/blob/HEAD/README.md",
+    "https://github.com/termux/termux-packages/wiki.",
+    "https://github.com/termux/termux-packages/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 3835,
+   "title": "broken symlinks in texlive-bin",
+   "url": "https://github.com/termux/termux-packages/issues/3835",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "inactive"
+   ],
+   "updatedAt": "2023-03-09T21:49:53Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/termux/termux-packages/wiki.) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/termux/termux-packages/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/termux/termux-packages/issues/3835",
+    "https://github.com/termux/termux-packages/blob/HEAD/README.md",
+    "https://github.com/termux/termux-packages/wiki.",
+    "https://github.com/termux/termux-packages/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 4272,
+   "title": "Apache2 HTTPS problem",
+   "url": "https://github.com/termux/termux-packages/issues/4272",
+   "labels": [
+    "bug report",
+    "help wanted",
+    "inactive"
+   ],
+   "updatedAt": "2024-10-19T01:38:13Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/termux/termux-packages/wiki.) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/termux/termux-packages/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/termux/termux-packages/issues/4272",
+    "https://github.com/termux/termux-packages/blob/HEAD/README.md",
+    "https://github.com/termux/termux-packages/wiki.",
+    "https://github.com/termux/termux-packages/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 4545,
+   "title": "Dialog text entry inconsistent: emacs and gpg on terminal",
+   "url": "https://github.com/termux/termux-packages/issues/4545",
+   "labels": [
+    "bug report",
+    "help wanted",
+    "inactive"
+   ],
+   "updatedAt": "2023-03-09T21:49:55Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/termux/termux-packages/wiki.) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/termux/termux-packages/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/termux/termux-packages/issues/4545",
+    "https://github.com/termux/termux-packages/blob/HEAD/README.md",
+    "https://github.com/termux/termux-packages/wiki.",
+    "https://github.com/termux/termux-packages/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 6145,
+   "title": "Regarding libomp",
+   "url": "https://github.com/termux/termux-packages/issues/6145",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "discussion"
+   ],
+   "updatedAt": "2024-10-12T12:03:43Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "PR #6146 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+5 more)",
+   "evidence": [
+    "https://github.com/termux/termux-packages/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/termux/termux-packages/pull/6146",
+    "https://github.com/termux/termux-packages/pull/19300",
+    "https://github.com/termux/termux-packages/pull/21944",
+    "https://github.com/termux/termux-packages/issues/6145",
+    "https://github.com/termux/termux-packages/blob/HEAD/README.md",
+    "https://github.com/termux/termux-packages/wiki.",
+    "https://github.com/termux/termux-packages/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 10188,
+   "title": "Package request: podman",
+   "url": "https://github.com/termux/termux-packages/issues/10188",
+   "labels": [
+    "help wanted",
+    "package request",
+    "root"
+   ],
+   "updatedAt": "2025-03-21T08:24:37Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #19861 by @tildearrow is already open against this issue",
+   "evidence": [
+    "https://github.com/termux/termux-packages/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/termux/termux-packages/issues/19861"
+   ]
+  },
+  {
+   "number": 10218,
+   "title": "Package request: Racket (DrRacket IDE)",
+   "url": "https://github.com/termux/termux-packages/issues/10218",
+   "labels": [
+    "help wanted",
+    "package request",
+    "x11"
+   ],
+   "updatedAt": "2022-04-19T12:20:37Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "open 95 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+2 more)",
+   "evidence": [
+    "https://github.com/termux/termux-packages/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/termux/termux-packages/issues/10218",
+    "https://github.com/termux/termux-packages/blob/HEAD/README.md",
+    "https://github.com/termux/termux-packages/wiki.",
+    "https://github.com/termux/termux-packages/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 10854,
+   "title": "[TRACKER] Qt6 transition ",
+   "url": "https://github.com/termux/termux-packages/issues/10854",
+   "labels": [
+    "help wanted",
+    "x11",
+    "tracker",
+    "qt6"
+   ],
+   "updatedAt": "2026-03-17T07:31:58Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "PR #19464 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+17 more)",
+   "evidence": [
+    "https://github.com/termux/termux-packages/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/termux/termux-packages/pull/19464",
+    "https://github.com/termux/termux-packages/pull/21945",
+    "https://github.com/termux/termux-packages/pull/21946",
+    "https://github.com/termux/termux-packages/pull/21947",
+    "https://github.com/termux/termux-packages/pull/21948",
+    "https://github.com/termux/termux-packages/pull/21950",
+    "https://github.com/termux/termux-packages/pull/21951",
+    "https://github.com/termux/termux-packages/pull/21952",
+    "https://github.com/termux/termux-packages/pull/21954"
+   ]
+  },
+  {
+   "number": 17674,
+   "title": "[Package]: rust-std-aarch64",
+   "url": "https://github.com/termux/termux-packages/issues/17674",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "inactive",
+    "rust",
+    "musl"
+   ],
+   "updatedAt": "2025-11-19T06:02:58Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "PR #18735 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/termux/termux-packages/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/termux/termux-packages/pull/18735",
+    "https://github.com/termux/termux-packages/issues/17674",
+    "https://github.com/termux/termux-packages/blob/HEAD/README.md",
+    "https://github.com/termux/termux-packages/wiki.",
+    "https://github.com/termux/termux-packages/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 18360,
+   "title": "[Bug]: firefox not working under wayland",
+   "url": "https://github.com/termux/termux-packages/issues/18360",
+   "labels": [
+    "bug report",
+    "enhancement",
+    "help wanted",
+    "inactive"
+   ],
+   "updatedAt": "2024-03-30T05:45:51Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/termux/termux-packages/wiki.) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/termux/termux-packages/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/termux/termux-packages/issues/18360",
+    "https://github.com/termux/termux-packages/blob/HEAD/README.md",
+    "https://github.com/termux/termux-packages/wiki.",
+    "https://github.com/termux/termux-packages/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 19197,
+   "title": "[ENHANCEMENT]: Recommended way to install and run X11 GUI.",
+   "url": "https://github.com/termux/termux-packages/issues/19197",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "packaging",
+    "discussion",
+    "termux-app",
+    "x11",
+    "WIP",
+    "documentation"
+   ],
+   "updatedAt": "2025-12-06T19:05:58Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "labelled `discussion` — scope may not be settled yet (+3 more)",
+   "evidence": [
+    "https://github.com/termux/termux-packages/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/termux/termux-packages/issues/19197",
+    "https://github.com/termux/termux-packages/blob/HEAD/README.md",
+    "https://github.com/termux/termux-packages/wiki.",
+    "https://github.com/termux/termux-packages/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 22503,
+   "title": "[Package]: Zotero 7",
+   "url": "https://github.com/termux/termux-packages/issues/22503",
+   "labels": [
+    "help wanted",
+    "package request"
+   ],
+   "updatedAt": "2025-01-05T05:12:36Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/termux/termux-packages/wiki.) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/termux/termux-packages/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/termux/termux-packages/issues/22503",
+    "https://github.com/termux/termux-packages/blob/HEAD/README.md",
+    "https://github.com/termux/termux-packages/wiki.",
+    "https://github.com/termux/termux-packages/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 23492,
+   "title": "Some packages cannot be built 3: Revenge of the Xiph",
+   "url": "https://github.com/termux/termux-packages/issues/23492",
+   "labels": [
+    "help wanted",
+    "packaging",
+    "information",
+    "WIP",
+    "has build issues",
+    "tracker"
+   ],
+   "updatedAt": "2026-10-20T16:52:09Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #24212 by @TomJo2000 is already open against this issue",
+   "evidence": [
+    "https://github.com/termux/termux-packages/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/termux/termux-packages/pull/24212",
+    "https://github.com/termux/termux-packages/pull/23669",
+    "https://github.com/termux/termux-packages/pull/23699",
+    "https://github.com/termux/termux-packages/pull/22058",
+    "https://github.com/termux/termux-packages/pull/23818",
+    "https://github.com/termux/termux-packages/pull/24217",
+    "https://github.com/termux/termux-packages/pull/24669",
+    "https://github.com/termux/termux-packages/pull/25054",
+    "https://github.com/termux/termux-packages/pull/25130"
+   ]
+  },
+  {
+   "number": 23870,
+   "title": "A request to enable import std in clang 20",
+   "url": "https://github.com/termux/termux-packages/issues/23870",
+   "labels": [
+    "help wanted",
+    "upstream issue",
+    "inactive"
+   ],
+   "updatedAt": "2026-11-14T13:34:39Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #29841 by @otreblan is already open against this issue",
+   "evidence": [
+    "https://github.com/termux/termux-packages/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/termux/termux-packages/pull/29841",
+    "https://github.com/termux/termux-packages/pull/23705"
+   ]
+  },
+  {
+   "number": 24533,
+   "title": "[Bug]: Make dotnet available for ARM",
+   "url": "https://github.com/termux/termux-packages/issues/24533",
+   "labels": [
+    "bug report",
+    "help wanted",
+    "arch-arm",
+    "dotnet",
+    "inactive"
+   ],
+   "updatedAt": "2025-09-27T03:10:48Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/termux/termux-packages/wiki.) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/termux/termux-packages/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/termux/termux-packages/issues/24533",
+    "https://github.com/termux/termux-packages/blob/HEAD/README.md",
+    "https://github.com/termux/termux-packages/wiki.",
+    "https://github.com/termux/termux-packages/blob/HEAD/CONTRIBUTING.md"
+   ]
+  }
+ ]
+}

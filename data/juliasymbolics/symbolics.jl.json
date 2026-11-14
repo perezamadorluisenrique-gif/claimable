@@ -1,0 +1,34 @@
+{
+ "owner": "JuliaSymbolics",
+ "repo": "Symbolics.jl",
+ "language": "Julia",
+ "stars": 1542,
+ "description": "Symbolic programming for the next generation of numerical software",
+ "visitedAt": "2026-11-14T18:08:15.201Z",
+ "issues": [
+  {
+   "number": 13,
+   "title": "substitute and substituter replacing division with inv and adding ^ 1 powers",
+   "url": "https://github.com/JuliaSymbolics/Symbolics.jl/issues/13",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2023-04-18T10:32:37Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #2116 by @ay111 is already open against this issue",
+   "evidence": [
+    "https://github.com/JuliaSymbolics/Symbolics.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaSymbolics/Symbolics.jl/issues/2116",
+    "https://github.com/JuliaSymbolics/Symbolics.jl/issues/2057",
+    "https://github.com/JuliaSymbolics/Symbolics.jl/issues/2128",
+    "https://github.com/JuliaSymbolics/Symbolics.jl/issues/1401",
+    "https://github.com/JuliaSymbolics/Symbolics.jl/issues/2133",
+    "https://github.com/JuliaSymbolics/Symbolics.jl/issues/1609",
+    "https://github.com/JuliaSymbolics/Symbolics.jl/issues/1302",
+    "https://github.com/JuliaSymbolics/Symbolics.jl/issues/1689",
+    "https://github.com/JuliaSymbolics/Symbolics.jl/issues/1690"
+   ]
+  }
+ ]
+}

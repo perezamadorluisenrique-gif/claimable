@@ -1,0 +1,55 @@
+{
+ "owner": "Bash-it",
+ "repo": "bash-it",
+ "language": "Shell",
+ "stars": 15301,
+ "description": "A community Bash framework.",
+ "visitedAt": "2026-11-14T18:08:15.201Z",
+ "issues": [
+  {
+   "number": 1680,
+   "title": "Add documentation for all commands",
+   "url": "https://github.com/Bash-it/bash-it/issues/1680",
+   "labels": [
+    "help wanted",
+    "documentation"
+   ],
+   "updatedAt": "2026-08-14T14:48:30Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "PR #1688 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/Bash-it/bash-it/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/Bash-it/bash-it/pull/1688",
+    "https://github.com/Bash-it/bash-it/pull/2359",
+    "https://github.com/Bash-it/bash-it/issues/1680",
+    "https://github.com/Bash-it/bash-it/blob/HEAD/CLAUDE.md"
+   ]
+  },
+  {
+   "number": 1696,
+   "title": "Help us clean up Bash-it!",
+   "url": "https://github.com/Bash-it/bash-it/issues/1696",
+   "labels": [
+    "clean up",
+    "help wanted"
+   ],
+   "updatedAt": "2026-02-24T08:14:10Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "PR #1734 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+22 more)",
+   "evidence": [
+    "https://github.com/Bash-it/bash-it/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/Bash-it/bash-it/pull/1734",
+    "https://github.com/Bash-it/bash-it/pull/1743",
+    "https://github.com/Bash-it/bash-it/pull/1783",
+    "https://github.com/Bash-it/bash-it/pull/1790",
+    "https://github.com/Bash-it/bash-it/pull/1903",
+    "https://github.com/Bash-it/bash-it/pull/1902",
+    "https://github.com/Bash-it/bash-it/pull/1932",
+    "https://github.com/Bash-it/bash-it/pull/1933",
+    "https://github.com/Bash-it/bash-it/pull/1934"
+   ]
+  }
+ ]
+}

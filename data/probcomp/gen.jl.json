@@ -1,0 +1,46 @@
+{
+ "owner": "probcomp",
+ "repo": "Gen.jl",
+ "language": "Julia",
+ "stars": 1854,
+ "description": "A general-purpose probabilistic programming system with programmable inference",
+ "visitedAt": "2026-11-14T18:08:15.201Z",
+ "issues": [
+  {
+   "number": 79,
+   "title": "Support backpropagation through unfold and recurse",
+   "url": "https://github.com/probcomp/Gen.jl/issues/79",
+   "labels": [
+    "good first issue",
+    "Priority",
+    "Not Yet Implemented",
+    "automatic differentiation"
+   ],
+   "updatedAt": "2020-11-22T00:21:15Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "PR #343 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder",
+   "evidence": [
+    "https://github.com/probcomp/Gen.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/probcomp/Gen.jl/pull/343",
+    "https://github.com/probcomp/Gen.jl/issues/79"
+   ]
+  },
+  {
+   "number": 81,
+   "title": "Discrete single-site map optimize and gibbs sampling",
+   "url": "https://github.com/probcomp/Gen.jl/issues/81",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2019-02-24T19:07:00Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "open 94 months with no human comment, in a repo pushed to 14 days ago — easy issues do not survive that long here; assume it is harder than its labels say",
+   "evidence": [
+    "https://github.com/probcomp/Gen.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/probcomp/Gen.jl/issues/81"
+   ]
+  }
+ ]
+}

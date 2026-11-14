@@ -1,0 +1,386 @@
+{
+ "owner": "spaceship-prompt",
+ "repo": "spaceship-prompt",
+ "language": "Shell",
+ "stars": 20604,
+ "description": "🚀✨ Minimalistic, powerful and extremely customizable Zsh prompt",
+ "visitedAt": "2026-11-14T18:08:15.201Z",
+ "issues": [
+  {
+   "number": 76,
+   "title": "Ｖ Vagrant support",
+   "url": "https://github.com/spaceship-prompt/spaceship-prompt/issues/76",
+   "labels": [
+    "proposal",
+    "good first issue"
+   ],
+   "updatedAt": "2022-10-21T12:10:40Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "labelled `proposal` — scope may not be settled yet (+2 more)",
+   "evidence": [
+    "https://github.com/spaceship-prompt/spaceship-prompt/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/spaceship-prompt/spaceship-prompt/issues/76",
+    "https://github.com/spaceship-prompt/spaceship-prompt/issues/76#issuecomment-365128886",
+    "https://github.com/spaceship-prompt/spaceship-prompt/wiki/Screenshots\">Screenshots",
+    "https://github.com/spaceship-prompt/spaceship-prompt/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 305,
+   "title": "Truncate directories before Mercurial repo",
+   "url": "https://github.com/spaceship-prompt/spaceship-prompt/issues/305",
+   "labels": [
+    "help-wanted",
+    "proposal",
+    "good first issue"
+   ],
+   "updatedAt": "2022-07-06T18:57:21Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "labelled `proposal` — scope may not be settled yet (+1 more)",
+   "evidence": [
+    "https://github.com/spaceship-prompt/spaceship-prompt/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/spaceship-prompt/spaceship-prompt/issues/305",
+    "https://github.com/spaceship-prompt/spaceship-prompt/blob/HEAD/README.md",
+    "https://github.com/spaceship-prompt/spaceship-prompt/wiki/Screenshots\">Screenshots",
+    "https://github.com/spaceship-prompt/spaceship-prompt/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 397,
+   "title": "Different colors for different git status",
+   "url": "https://github.com/spaceship-prompt/spaceship-prompt/issues/397",
+   "labels": [
+    "help-wanted",
+    "proposal",
+    "good first issue"
+   ],
+   "updatedAt": "2018-11-28T06:42:48Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "labelled `proposal` — scope may not be settled yet (+1 more)",
+   "evidence": [
+    "https://github.com/spaceship-prompt/spaceship-prompt/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/spaceship-prompt/spaceship-prompt/issues/397",
+    "https://github.com/spaceship-prompt/spaceship-prompt/blob/HEAD/README.md",
+    "https://github.com/spaceship-prompt/spaceship-prompt/wiki/Screenshots\">Screenshots",
+    "https://github.com/spaceship-prompt/spaceship-prompt/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 458,
+   "title": "Tests: Coverage",
+   "url": "https://github.com/spaceship-prompt/spaceship-prompt/issues/458",
+   "labels": [
+    "help-wanted",
+    "improvement",
+    "good first issue"
+   ],
+   "updatedAt": "2022-09-02T14:46:11Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "already assigned to @max-baz, @denysdovhan, @salmanulfarzy",
+   "evidence": [
+    "https://github.com/spaceship-prompt/spaceship-prompt/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/spaceship-prompt/spaceship-prompt/pull/457",
+    "https://github.com/spaceship-prompt/spaceship-prompt/pull/542",
+    "https://github.com/spaceship-prompt/spaceship-prompt/issues/458",
+    "https://github.com/spaceship-prompt/spaceship-prompt/issues/458#issuecomment-429942352"
+   ]
+  },
+  {
+   "number": 476,
+   "title": "Better Windows / MSYS2 support",
+   "url": "https://github.com/spaceship-prompt/spaceship-prompt/issues/476",
+   "labels": [
+    "help-wanted",
+    "question",
+    "good first issue",
+    "windows"
+   ],
+   "updatedAt": "2019-06-14T12:59:18Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "labelled `question` — scope may not be settled yet (+2 more)",
+   "evidence": [
+    "https://github.com/spaceship-prompt/spaceship-prompt/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/spaceship-prompt/spaceship-prompt/issues/476",
+    "https://github.com/spaceship-prompt/spaceship-prompt/blob/HEAD/README.md",
+    "https://github.com/spaceship-prompt/spaceship-prompt/wiki/Screenshots\">Screenshots",
+    "https://github.com/spaceship-prompt/spaceship-prompt/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 633,
+   "title": "OpenStack domain/project section",
+   "url": "https://github.com/spaceship-prompt/spaceship-prompt/issues/633",
+   "labels": [
+    "help-wanted",
+    "proposal",
+    "good first issue"
+   ],
+   "updatedAt": "2022-09-21T16:23:35Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "labelled `proposal` — scope may not be settled yet (+1 more)",
+   "evidence": [
+    "https://github.com/spaceship-prompt/spaceship-prompt/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/spaceship-prompt/spaceship-prompt/issues/633",
+    "https://github.com/spaceship-prompt/spaceship-prompt/blob/HEAD/README.md",
+    "https://github.com/spaceship-prompt/spaceship-prompt/wiki/Screenshots\">Screenshots",
+    "https://github.com/spaceship-prompt/spaceship-prompt/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 672,
+   "title": "asdf support for detecting node version",
+   "url": "https://github.com/spaceship-prompt/spaceship-prompt/issues/672",
+   "labels": [
+    "proposal",
+    "good first issue"
+   ],
+   "updatedAt": "2025-11-24T05:13:04Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "PR #266 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/spaceship-prompt/spaceship-prompt/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/spaceship-prompt/spaceship-prompt/pull/266",
+    "https://github.com/spaceship-prompt/spaceship-prompt/issues/672",
+    "https://github.com/spaceship-prompt/spaceship-prompt/blob/HEAD/README.md",
+    "https://github.com/spaceship-prompt/spaceship-prompt/wiki/Screenshots\">Screenshots",
+    "https://github.com/spaceship-prompt/spaceship-prompt/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 684,
+   "title": "Feature Request: Add a prompt option to show/hide all symbols",
+   "url": "https://github.com/spaceship-prompt/spaceship-prompt/issues/684",
+   "labels": [
+    "proposal",
+    "good first issue"
+   ],
+   "updatedAt": "2021-06-11T14:20:38Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "labelled `proposal` — scope may not be settled yet (+1 more)",
+   "evidence": [
+    "https://github.com/spaceship-prompt/spaceship-prompt/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/spaceship-prompt/spaceship-prompt/issues/684",
+    "https://github.com/spaceship-prompt/spaceship-prompt/blob/HEAD/README.md",
+    "https://github.com/spaceship-prompt/spaceship-prompt/wiki/Screenshots\">Screenshots",
+    "https://github.com/spaceship-prompt/spaceship-prompt/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 730,
+   "title": "Podman support",
+   "url": "https://github.com/spaceship-prompt/spaceship-prompt/issues/730",
+   "labels": [
+    "proposal",
+    "good first issue"
+   ],
+   "updatedAt": "2022-09-05T15:49:57Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "labelled `proposal` — scope may not be settled yet (+2 more)",
+   "evidence": [
+    "https://github.com/spaceship-prompt/spaceship-prompt/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/spaceship-prompt/spaceship-prompt/issues/730",
+    "https://github.com/spaceship-prompt/spaceship-prompt/wiki/Screenshots\">Screenshots",
+    "https://github.com/spaceship-prompt/spaceship-prompt/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 897,
+   "title": "Dir module: shorten path like fish shell",
+   "url": "https://github.com/spaceship-prompt/spaceship-prompt/issues/897",
+   "labels": [
+    "proposal",
+    "good first issue"
+   ],
+   "updatedAt": "2022-08-29T01:20:43Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #1265 by @knorr3 is already open against this issue",
+   "evidence": [
+    "https://github.com/spaceship-prompt/spaceship-prompt/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/spaceship-prompt/spaceship-prompt/pull/1265"
+   ]
+  },
+  {
+   "number": 1211,
+   "title": "CMake section",
+   "url": "https://github.com/spaceship-prompt/spaceship-prompt/issues/1211",
+   "labels": [
+    "help-wanted",
+    "proposal",
+    "good first issue"
+   ],
+   "updatedAt": "2022-09-21T14:04:07Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #1545 by @fieldghost is already open against this issue",
+   "evidence": [
+    "https://github.com/spaceship-prompt/spaceship-prompt/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/spaceship-prompt/spaceship-prompt/pull/1545"
+   ]
+  },
+  {
+   "number": 1215,
+   "title": "Detect Git State",
+   "url": "https://github.com/spaceship-prompt/spaceship-prompt/issues/1215",
+   "labels": [
+    "help-wanted",
+    "proposal",
+    "good first issue"
+   ],
+   "updatedAt": "2023-07-11T10:39:59Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #1560 by @ridhinva is already open against this issue",
+   "evidence": [
+    "https://github.com/spaceship-prompt/spaceship-prompt/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/spaceship-prompt/spaceship-prompt/pull/1560"
+   ]
+  },
+  {
+   "number": 1216,
+   "title": "Helm section",
+   "url": "https://github.com/spaceship-prompt/spaceship-prompt/issues/1216",
+   "labels": [
+    "help-wanted",
+    "proposal",
+    "good first issue"
+   ],
+   "updatedAt": "2023-08-18T15:59:22Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #1546 by @fieldghost is already open against this issue",
+   "evidence": [
+    "https://github.com/spaceship-prompt/spaceship-prompt/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/spaceship-prompt/spaceship-prompt/pull/1546"
+   ]
+  },
+  {
+   "number": 1219,
+   "title": "Nim section",
+   "url": "https://github.com/spaceship-prompt/spaceship-prompt/issues/1219",
+   "labels": [
+    "help-wanted",
+    "proposal",
+    "good first issue"
+   ],
+   "updatedAt": "2022-10-07T14:13:40Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #1547 by @fieldghost is already open against this issue",
+   "evidence": [
+    "https://github.com/spaceship-prompt/spaceship-prompt/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/spaceship-prompt/spaceship-prompt/pull/1547"
+   ]
+  },
+  {
+   "number": 1222,
+   "title": "Local IP section",
+   "url": "https://github.com/spaceship-prompt/spaceship-prompt/issues/1222",
+   "labels": [
+    "help-wanted",
+    "proposal",
+    "good first issue"
+   ],
+   "updatedAt": "2022-09-21T15:33:44Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #1393 by @martonivan is already open against this issue",
+   "evidence": [
+    "https://github.com/spaceship-prompt/spaceship-prompt/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/spaceship-prompt/spaceship-prompt/pull/1393"
+   ]
+  },
+  {
+   "number": 1225,
+   "title": "Signularity section",
+   "url": "https://github.com/spaceship-prompt/spaceship-prompt/issues/1225",
+   "labels": [
+    "help-wanted",
+    "proposal",
+    "good first issue"
+   ],
+   "updatedAt": "2026-03-02T14:08:13Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "labelled `proposal` — scope may not be settled yet (+2 more)",
+   "evidence": [
+    "https://github.com/spaceship-prompt/spaceship-prompt/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/spaceship-prompt/spaceship-prompt/issues/1225",
+    "https://github.com/spaceship-prompt/spaceship-prompt/issues/1225#issuecomment-3984630821",
+    "https://github.com/spaceship-prompt/spaceship-prompt/blob/HEAD/README.md",
+    "https://github.com/spaceship-prompt/spaceship-prompt/wiki/Screenshots\">Screenshots",
+    "https://github.com/spaceship-prompt/spaceship-prompt/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 1230,
+   "title": "Daml section",
+   "url": "https://github.com/spaceship-prompt/spaceship-prompt/issues/1230",
+   "labels": [
+    "help-wanted",
+    "proposal",
+    "good first issue"
+   ],
+   "updatedAt": "2026-08-11T18:46:04Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #1569 by @Umesh-Dulara is already open against this issue",
+   "evidence": [
+    "https://github.com/spaceship-prompt/spaceship-prompt/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/spaceship-prompt/spaceship-prompt/pull/1569"
+   ]
+  },
+  {
+   "number": 1234,
+   "title": "Caching for spaceship::upsearch",
+   "url": "https://github.com/spaceship-prompt/spaceship-prompt/issues/1234",
+   "labels": [
+    "help-wanted",
+    "proposal",
+    "good first issue"
+   ],
+   "updatedAt": "2026-08-15T00:52:49Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "labelled `proposal` — scope may not be settled yet (+2 more)",
+   "evidence": [
+    "https://github.com/spaceship-prompt/spaceship-prompt/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/spaceship-prompt/spaceship-prompt/issues/1234",
+    "https://github.com/spaceship-prompt/spaceship-prompt/blob/HEAD/README.md",
+    "https://github.com/spaceship-prompt/spaceship-prompt/wiki/Screenshots\">Screenshots",
+    "https://github.com/spaceship-prompt/spaceship-prompt/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 1257,
+   "title": "Improve Fig plugin",
+   "url": "https://github.com/spaceship-prompt/spaceship-prompt/issues/1257",
+   "labels": [
+    "help-wanted",
+    "proposal",
+    "good first issue"
+   ],
+   "updatedAt": "2023-07-13T16:33:21Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "labelled `proposal` — scope may not be settled yet (+2 more)",
+   "evidence": [
+    "https://github.com/spaceship-prompt/spaceship-prompt/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/spaceship-prompt/spaceship-prompt/issues/1257",
+    "https://github.com/spaceship-prompt/spaceship-prompt/issues/1257#issuecomment-1634549868",
+    "https://github.com/spaceship-prompt/spaceship-prompt/blob/HEAD/README.md",
+    "https://github.com/spaceship-prompt/spaceship-prompt/wiki/Screenshots\">Screenshots",
+    "https://github.com/spaceship-prompt/spaceship-prompt/blob/HEAD/CONTRIBUTING.md"
+   ]
+  }
+ ]
+}

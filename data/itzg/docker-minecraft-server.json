@@ -1,0 +1,416 @@
+{
+ "owner": "itzg",
+ "repo": "docker-minecraft-server",
+ "language": "Shell",
+ "stars": 14529,
+ "description": "Docker image that provides a Minecraft Server for Java Edition that automatically installs/upgrades versions, modloaders, modpacks and more at startup",
+ "visitedAt": "2026-11-14T18:08:15.201Z",
+ "issues": [
+  {
+   "number": 1231,
+   "title": "World files only in tmpfs/shared memory",
+   "url": "https://github.com/itzg/docker-minecraft-server/issues/1231",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2023-10-20T23:39:02Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://readthedocs.org/projects/docker-minecraft-server/badge/?version=latest) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/itzg/docker-minecraft-server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/itzg/docker-minecraft-server/issues/1231",
+    "https://github.com/itzg/docker-minecraft-server/blob/HEAD/README.md",
+    "https://readthedocs.org/projects/docker-minecraft-server/badge/?version=latest"
+   ]
+  },
+  {
+   "number": 1307,
+   "title": "Server fails to start if Spiget is down and plugins need to be installed",
+   "url": "https://github.com/itzg/docker-minecraft-server/issues/1307",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2022-01-26T23:32:58Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #1378 by @ElektroVirus is already open against this issue",
+   "evidence": [
+    "https://github.com/itzg/docker-minecraft-server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/itzg/docker-minecraft-server/issues/1378"
+   ]
+  },
+  {
+   "number": 1545,
+   "title": "improve autopause port detection",
+   "url": "https://github.com/itzg/docker-minecraft-server/issues/1545",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "hacktoberfest"
+   ],
+   "updatedAt": "2023-03-12T17:55:06Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://readthedocs.org/projects/docker-minecraft-server/badge/?version=latest) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/itzg/docker-minecraft-server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/itzg/docker-minecraft-server/issues/1545",
+    "https://github.com/itzg/docker-minecraft-server/blob/HEAD/README.md",
+    "https://readthedocs.org/projects/docker-minecraft-server/badge/?version=latest"
+   ]
+  },
+  {
+   "number": 1641,
+   "title": "Add Petal Server",
+   "url": "https://github.com/itzg/docker-minecraft-server/issues/1641",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "hacktoberfest"
+   ],
+   "updatedAt": "2025-06-03T21:38:43Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://readthedocs.org/projects/docker-minecraft-server/badge/?version=latest) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/itzg/docker-minecraft-server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/itzg/docker-minecraft-server/issues/1641",
+    "https://github.com/itzg/docker-minecraft-server/blob/HEAD/README.md",
+    "https://readthedocs.org/projects/docker-minecraft-server/badge/?version=latest"
+   ]
+  },
+  {
+   "number": 1649,
+   "title": "Add option to reset/delete the world on startup",
+   "url": "https://github.com/itzg/docker-minecraft-server/issues/1649",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "hacktoberfest"
+   ],
+   "updatedAt": "2022-10-27T18:07:29Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://readthedocs.org/projects/docker-minecraft-server/badge/?version=latest) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/itzg/docker-minecraft-server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/itzg/docker-minecraft-server/issues/1649",
+    "https://github.com/itzg/docker-minecraft-server/blob/HEAD/README.md",
+    "https://readthedocs.org/projects/docker-minecraft-server/badge/?version=latest"
+   ]
+  },
+  {
+   "number": 1686,
+   "title": "See if spiget download can resolve filename to meaningful name",
+   "url": "https://github.com/itzg/docker-minecraft-server/issues/1686",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "hacktoberfest"
+   ],
+   "updatedAt": "2022-10-18T17:18:09Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://readthedocs.org/projects/docker-minecraft-server/badge/?version=latest) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/itzg/docker-minecraft-server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/itzg/docker-minecraft-server/issues/1686",
+    "https://github.com/itzg/docker-minecraft-server/blob/HEAD/README.md",
+    "https://readthedocs.org/projects/docker-minecraft-server/badge/?version=latest"
+   ]
+  },
+  {
+   "number": 1691,
+   "title": "Don't generate generic pack checksum file when using `FORCE_GENERIC_PACK_UPDATE`",
+   "url": "https://github.com/itzg/docker-minecraft-server/issues/1691",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "hacktoberfest"
+   ],
+   "updatedAt": "2022-08-22T23:33:49Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "open 51 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/itzg/docker-minecraft-server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/itzg/docker-minecraft-server/issues/1691",
+    "https://github.com/itzg/docker-minecraft-server/blob/HEAD/README.md",
+    "https://readthedocs.org/projects/docker-minecraft-server/badge/?version=latest"
+   ]
+  },
+  {
+   "number": 1740,
+   "title": "Gently prevent users from using vanilla tweaks resource packs",
+   "url": "https://github.com/itzg/docker-minecraft-server/issues/1740",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "hacktoberfest"
+   ],
+   "updatedAt": "2022-09-19T20:21:03Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://readthedocs.org/projects/docker-minecraft-server/badge/?version=latest) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/itzg/docker-minecraft-server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/itzg/docker-minecraft-server/issues/1740",
+    "https://github.com/itzg/docker-minecraft-server/blob/HEAD/README.md",
+    "https://readthedocs.org/projects/docker-minecraft-server/badge/?version=latest"
+   ]
+  },
+  {
+   "number": 1918,
+   "title": "auto-restart feature",
+   "url": "https://github.com/itzg/docker-minecraft-server/issues/1918",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2023-02-12T13:54:00Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://readthedocs.org/projects/docker-minecraft-server/badge/?version=latest) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/itzg/docker-minecraft-server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/itzg/docker-minecraft-server/issues/1918",
+    "https://github.com/itzg/docker-minecraft-server/blob/HEAD/README.md",
+    "https://readthedocs.org/projects/docker-minecraft-server/badge/?version=latest"
+   ]
+  },
+  {
+   "number": 2298,
+   "title": "FTBA: provide option to force install",
+   "url": "https://github.com/itzg/docker-minecraft-server/issues/2298",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2023-07-17T17:36:20Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "open 41 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/itzg/docker-minecraft-server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/itzg/docker-minecraft-server/issues/2298",
+    "https://github.com/itzg/docker-minecraft-server/blob/HEAD/README.md",
+    "https://readthedocs.org/projects/docker-minecraft-server/badge/?version=latest"
+   ]
+  },
+  {
+   "number": 2303,
+   "title": "Old Minecraft Forge Versions not working",
+   "url": "https://github.com/itzg/docker-minecraft-server/issues/2303",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2023-07-28T15:16:45Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://readthedocs.org/projects/docker-minecraft-server/badge/?version=latest) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/itzg/docker-minecraft-server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/itzg/docker-minecraft-server/issues/2303",
+    "https://github.com/itzg/docker-minecraft-server/blob/HEAD/README.md",
+    "https://readthedocs.org/projects/docker-minecraft-server/badge/?version=latest"
+   ]
+  },
+  {
+   "number": 2376,
+   "title": "Auto Removal of Server Files",
+   "url": "https://github.com/itzg/docker-minecraft-server/issues/2376",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2023-09-12T12:38:41Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://readthedocs.org/projects/docker-minecraft-server/badge/?version=latest) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/itzg/docker-minecraft-server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/itzg/docker-minecraft-server/issues/2376",
+    "https://github.com/itzg/docker-minecraft-server/blob/HEAD/README.md",
+    "https://readthedocs.org/projects/docker-minecraft-server/badge/?version=latest"
+   ]
+  },
+  {
+   "number": 2944,
+   "title": "For PLUGINS and MODS list support GitHub and Jenkins resolving",
+   "url": "https://github.com/itzg/docker-minecraft-server/issues/2944",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2026-09-18T19:01:29Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://readthedocs.org/projects/docker-minecraft-server/badge/?version=latest) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/itzg/docker-minecraft-server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/itzg/docker-minecraft-server/issues/2944",
+    "https://github.com/itzg/docker-minecraft-server/blob/HEAD/README.md",
+    "https://readthedocs.org/projects/docker-minecraft-server/badge/?version=latest"
+   ]
+  },
+  {
+   "number": 3144,
+   "title": "Support `*.jar.disabled` mods",
+   "url": "https://github.com/itzg/docker-minecraft-server/issues/3144",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "type/curseforge",
+    "type/modrinth"
+   ],
+   "updatedAt": "2026-08-01T14:42:17Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "PR #3281 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/itzg/docker-minecraft-server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/itzg/docker-minecraft-server/pull/3281",
+    "https://github.com/itzg/docker-minecraft-server/issues/3144",
+    "https://github.com/itzg/docker-minecraft-server/blob/HEAD/README.md",
+    "https://readthedocs.org/projects/docker-minecraft-server/badge/?version=latest"
+   ]
+  },
+  {
+   "number": 3796,
+   "title": "Allow server restarts when CF API key is invalid",
+   "url": "https://github.com/itzg/docker-minecraft-server/issues/3796",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2026-01-15T21:33:17Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://readthedocs.org/projects/docker-minecraft-server/badge/?version=latest) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/itzg/docker-minecraft-server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/itzg/docker-minecraft-server/issues/3796",
+    "https://github.com/itzg/docker-minecraft-server/blob/HEAD/README.md",
+    "https://readthedocs.org/projects/docker-minecraft-server/badge/?version=latest"
+   ]
+  },
+  {
+   "number": 3798,
+   "title": "Add support for unsup",
+   "url": "https://github.com/itzg/docker-minecraft-server/issues/3798",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2026-07-08T06:47:33Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://readthedocs.org/projects/docker-minecraft-server/badge/?version=latest) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/itzg/docker-minecraft-server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/itzg/docker-minecraft-server/issues/3798",
+    "https://github.com/itzg/docker-minecraft-server/blob/HEAD/README.md",
+    "https://readthedocs.org/projects/docker-minecraft-server/badge/?version=latest"
+   ]
+  },
+  {
+   "number": 3868,
+   "title": "Unable to install Forge versions on MC <1.6.1",
+   "url": "https://github.com/itzg/docker-minecraft-server/issues/3868",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2026-01-13T13:08:26Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://readthedocs.org/projects/docker-minecraft-server/badge/?version=latest) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/itzg/docker-minecraft-server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/itzg/docker-minecraft-server/issues/3868",
+    "https://github.com/itzg/docker-minecraft-server/blob/HEAD/README.md",
+    "https://readthedocs.org/projects/docker-minecraft-server/badge/?version=latest"
+   ]
+  },
+  {
+   "number": 3869,
+   "title": "Paper based fallbacks",
+   "url": "https://github.com/itzg/docker-minecraft-server/issues/3869",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2026-01-14T21:02:44Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://readthedocs.org/projects/docker-minecraft-server/badge/?version=latest) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/itzg/docker-minecraft-server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/itzg/docker-minecraft-server/issues/3869",
+    "https://github.com/itzg/docker-minecraft-server/blob/HEAD/README.md",
+    "https://readthedocs.org/projects/docker-minecraft-server/badge/?version=latest"
+   ]
+  },
+  {
+   "number": 3922,
+   "title": "Add \"ignore failed upgrades\" option for at least Modrinth",
+   "url": "https://github.com/itzg/docker-minecraft-server/issues/3922",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-04T13:07:13Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://readthedocs.org/projects/docker-minecraft-server/badge/?version=latest) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/itzg/docker-minecraft-server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/itzg/docker-minecraft-server/issues/3922",
+    "https://github.com/itzg/docker-minecraft-server/blob/HEAD/README.md",
+    "https://readthedocs.org/projects/docker-minecraft-server/badge/?version=latest"
+   ]
+  },
+  {
+   "number": 4006,
+   "title": "Support fetching world and other init data from S3",
+   "url": "https://github.com/itzg/docker-minecraft-server/issues/4006",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2026-08-01T14:40:13Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://readthedocs.org/projects/docker-minecraft-server/badge/?version=latest) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/itzg/docker-minecraft-server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/itzg/docker-minecraft-server/issues/4006",
+    "https://github.com/itzg/docker-minecraft-server/blob/HEAD/README.md",
+    "https://readthedocs.org/projects/docker-minecraft-server/badge/?version=latest"
+   ]
+  },
+  {
+   "number": 4058,
+   "title": "Webhooks upon server shutdown or startup",
+   "url": "https://github.com/itzg/docker-minecraft-server/issues/4058",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2026-06-01T22:26:08Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://readthedocs.org/projects/docker-minecraft-server/badge/?version=latest) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/itzg/docker-minecraft-server/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/itzg/docker-minecraft-server/issues/4058",
+    "https://github.com/itzg/docker-minecraft-server/blob/HEAD/README.md",
+    "https://readthedocs.org/projects/docker-minecraft-server/badge/?version=latest"
+   ]
+  }
+ ]
+}

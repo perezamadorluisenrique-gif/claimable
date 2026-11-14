@@ -1,0 +1,69 @@
+{
+ "owner": "VSCodium",
+ "repo": "vscodium",
+ "language": "Shell",
+ "stars": 34042,
+ "description": "binary releases of VS Code without MS branding/telemetry/licensing",
+ "visitedAt": "2026-11-14T18:08:15.201Z",
+ "issues": [
+  {
+   "number": 324,
+   "title": "Notarize",
+   "url": "https://github.com/VSCodium/vscodium/issues/324",
+   "labels": [
+    "help wanted",
+    "discussion"
+   ],
+   "updatedAt": "2023-02-12T11:50:44Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "labelled `discussion` — scope may not be settled yet (+2 more)",
+   "evidence": [
+    "https://github.com/VSCodium/vscodium/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/VSCodium/vscodium/issues/324",
+    "https://github.com/Microsoft/vscode/wiki/How-to-Contribute#build-and-run",
+    "https://github.com/VSCodium/vscodium/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 465,
+   "title": "Rethink (GNU)Linux 32 bits builds",
+   "url": "https://github.com/VSCodium/vscodium/issues/465",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "discussion"
+   ],
+   "updatedAt": "2021-03-02T20:49:02Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "labelled `discussion` — scope may not be settled yet (+2 more)",
+   "evidence": [
+    "https://github.com/VSCodium/vscodium/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/VSCodium/vscodium/issues/465",
+    "https://github.com/Microsoft/vscode/wiki/How-to-Contribute#build-and-run",
+    "https://github.com/VSCodium/vscodium/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2274,
+   "title": "Windows MSI: VSCodium not starting after update (manual re-install or repair necessary)",
+   "url": "https://github.com/VSCodium/vscodium/issues/2274",
+   "labels": [
+    "bug",
+    "help wanted",
+    "stale"
+   ],
+   "updatedAt": "2026-11-03T01:12:31Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "labelled `stale` — scope may not be settled yet (+2 more)",
+   "evidence": [
+    "https://github.com/VSCodium/vscodium/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/VSCodium/vscodium/issues/2274",
+    "https://github.com/Microsoft/vscode/wiki/How-to-Contribute#build-and-run",
+    "https://github.com/VSCodium/vscodium/blob/HEAD/CONTRIBUTING.md"
+   ]
+  }
+ ]
+}

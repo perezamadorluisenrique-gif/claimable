@@ -1,0 +1,265 @@
+{
+ "owner": "FluxML",
+ "repo": "Zygote.jl",
+ "language": "Julia",
+ "stars": 1582,
+ "description": "21st century AD",
+ "visitedAt": "2026-11-14T18:08:15.201Z",
+ "issues": [
+  {
+   "number": 446,
+   "title": "gradient of keyword argument?",
+   "url": "https://github.com/FluxML/Zygote.jl/issues/446",
+   "labels": [
+    "help wanted",
+    "discussion",
+    "performance"
+   ],
+   "updatedAt": "2022-08-20T05:26:56Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #569 by @mcabbott is already open against this issue",
+   "evidence": [
+    "https://github.com/FluxML/Zygote.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaDiff/ChainRules.jl/pull/569"
+   ]
+  },
+  {
+   "number": 603,
+   "title": "Use ChainRules types",
+   "url": "https://github.com/FluxML/Zygote.jl/issues/603",
+   "labels": [
+    "help wanted",
+    "up for grabs",
+    "ChainRules"
+   ],
+   "updatedAt": "2022-12-15T16:02:20Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #521 by @CarloLucibello is already open against this issue",
+   "evidence": [
+    "https://github.com/FluxML/Zygote.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaDiff/ChainRules.jl/pull/521",
+    "https://github.com/FluxML/Zygote.jl/pull/366",
+    "https://github.com/JuliaDiff/ChainRules.jl/pull/187",
+    "https://github.com/JuliaDiff/ChainRules.jl/pull/207",
+    "https://github.com/JuliaDiff/ChainRules.jl/pull/240",
+    "https://github.com/FluxML/Zygote.jl/pull/786",
+    "https://github.com/FluxML/Zygote.jl/pull/848",
+    "https://github.com/FluxML/Zygote.jl/pull/875",
+    "https://github.com/FluxML/Zygote.jl/pull/902"
+   ]
+  },
+  {
+   "number": 1209,
+   "title": "Convert all adjoints to rrules",
+   "url": "https://github.com/FluxML/Zygote.jl/issues/1209",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "up for grabs",
+    "ChainRules"
+   ],
+   "updatedAt": "2022-11-15T08:51:28Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "PR #1273 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/FluxML/Zygote.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FluxML/Zygote.jl/pull/1273",
+    "https://github.com/FluxML/Zygote.jl/issues/1209",
+    "https://github.com/FluxML/Zygote.jl/blob/HEAD/README.md",
+    "https://github.com/FluxML/Zygote.jl/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 1236,
+   "title": "Error with control flow",
+   "url": "https://github.com/FluxML/Zygote.jl/issues/1236",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2022-06-06T22:34:46Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #1261 by @samsartor is already open against this issue",
+   "evidence": [
+    "https://github.com/FluxML/Zygote.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FluxML/Zygote.jl/issues/1261"
+   ]
+  },
+  {
+   "number": 1274,
+   "title": "Add devdocs for important internal functions",
+   "url": "https://github.com/FluxML/Zygote.jl/issues/1274",
+   "labels": [
+    "help wanted",
+    "good first issue",
+    "up for grabs"
+   ],
+   "updatedAt": "2022-07-31T22:42:39Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "the project's own setup docs say they are broken: \"currently not supported\"",
+   "evidence": [
+    "https://github.com/FluxML/Zygote.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FluxML/Zygote.jl/issues/1274",
+    "https://github.com/FluxML/Zygote.jl/blob/HEAD/README.md",
+    "https://github.com/FluxML/Zygote.jl/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 1344,
+   "title": "Specifying type for list comprehension sometimes crashes Julia",
+   "url": "https://github.com/FluxML/Zygote.jl/issues/1344",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2023-06-20T09:36:03Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "6 paths named in the issue do not exist on `Zygote.jl`'s default branch — that is unlisted work: ~/.julia/environments/Zygote, ~/.julia/environments/Zygote/Project.toml, var/folders/hc/fn82kz1j5vl8w7lwd4l079y80000gn/T/jl_SxFs8t, ~/.julia/registries/General.toml, private/var/folders/hc/fn82kz1j5vl8w7lwd4l079y80000gn/T/jl_SxFs8t/Project.toml, private/var/folders/hc/fn82kz1j5vl8w7lwd4l079y80000gn/T/jl_SxFs8t/Manifest.toml (+1 more)",
+   "evidence": [
+    "https://github.com/FluxML/Zygote.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FluxML/Zygote.jl/issues/1344",
+    "https://github.com/FluxML/Zygote.jl/blob/HEAD/README.md",
+    "https://github.com/FluxML/Zygote.jl/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 1411,
+   "title": "Exported methods without docstring",
+   "url": "https://github.com/FluxML/Zygote.jl/issues/1411",
+   "labels": [
+    "help wanted",
+    "good first issue"
+   ],
+   "updatedAt": "2023-04-08T07:53:51Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "discard",
+   "reason": "PR #1464 by @simsurace is already open against this issue",
+   "evidence": [
+    "https://github.com/FluxML/Zygote.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FluxML/Zygote.jl/issues/1464"
+   ]
+  },
+  {
+   "number": 1421,
+   "title": "Error with gradient of function based on Dictionary",
+   "url": "https://github.com/FluxML/Zygote.jl/issues/1421",
+   "labels": [
+    "help wanted",
+    "up for grabs",
+    "dictionary"
+   ],
+   "updatedAt": "2023-05-15T05:12:01Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "the project's own setup docs say they are broken: \"currently not supported\"",
+   "evidence": [
+    "https://github.com/FluxML/Zygote.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FluxML/Zygote.jl/issues/1421",
+    "https://github.com/FluxML/Zygote.jl/blob/HEAD/README.md",
+    "https://github.com/FluxML/Zygote.jl/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 1501,
+   "title": "Strip zygote frames from mutation error stack trace",
+   "url": "https://github.com/FluxML/Zygote.jl/issues/1501",
+   "labels": [
+    "help wanted",
+    "compiler"
+   ],
+   "updatedAt": "2024-02-17T05:16:01Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "the project's own setup docs say they are broken: \"currently not supported\"",
+   "evidence": [
+    "https://github.com/FluxML/Zygote.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FluxML/Zygote.jl/issues/1501",
+    "https://github.com/FluxML/Zygote.jl/blob/HEAD/README.md",
+    "https://github.com/FluxML/Zygote.jl/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 1503,
+   "title": "Few issues in the Zygote Home Page documentation",
+   "url": "https://github.com/FluxML/Zygote.jl/issues/1503",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2024-04-11T14:39:43Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "the project's own setup docs say they are broken: \"currently not supported\"",
+   "evidence": [
+    "https://github.com/FluxML/Zygote.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FluxML/Zygote.jl/issues/1503",
+    "https://github.com/FluxML/Zygote.jl/blob/HEAD/README.md",
+    "https://github.com/FluxML/Zygote.jl/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 1509,
+   "title": "Increasing memory usage in each call of gradient ",
+   "url": "https://github.com/FluxML/Zygote.jl/issues/1509",
+   "labels": [
+    "help wanted",
+    "performance",
+    "compiler"
+   ],
+   "updatedAt": "2025-07-20T17:12:01Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "the project's own setup docs say they are broken: \"currently not supported\"",
+   "evidence": [
+    "https://github.com/FluxML/Zygote.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FluxML/Zygote.jl/issues/1509",
+    "https://github.com/FluxML/Zygote.jl/blob/HEAD/README.md",
+    "https://github.com/FluxML/Zygote.jl/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 1528,
+   "title": "Unable to differentiate a broadcasted constructor with CUDA array inputs",
+   "url": "https://github.com/FluxML/Zygote.jl/issues/1528",
+   "labels": [
+    "help wanted",
+    "CUDA"
+   ],
+   "updatedAt": "2024-10-10T16:44:36Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "the project's own setup docs say they are broken: \"currently not supported\"",
+   "evidence": [
+    "https://github.com/FluxML/Zygote.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FluxML/Zygote.jl/issues/1528",
+    "https://github.com/FluxML/Zygote.jl/blob/HEAD/README.md",
+    "https://github.com/FluxML/Zygote.jl/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 1531,
+   "title": "Zygote.hessian_reverse for BatchNorm broken on julia v1.11",
+   "url": "https://github.com/FluxML/Zygote.jl/issues/1531",
+   "labels": [
+    "bug",
+    "help wanted",
+    "compiler"
+   ],
+   "updatedAt": "2025-10-26T18:20:15Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "the project's own setup docs say they are broken: \"currently not supported\"",
+   "evidence": [
+    "https://github.com/FluxML/Zygote.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FluxML/Zygote.jl/issues/1531",
+    "https://github.com/FluxML/Zygote.jl/blob/HEAD/README.md",
+    "https://github.com/FluxML/Zygote.jl/blob/HEAD/AGENTS.md"
+   ]
+  }
+ ]
+}

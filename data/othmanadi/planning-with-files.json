@@ -1,0 +1,29 @@
+{
+ "owner": "OthmanAdi",
+ "repo": "planning-with-files",
+ "language": "Shell",
+ "stars": 27987,
+ "description": "Persistent file-based planning for AI coding agents and long-running tasks. Crash-proof markdown plans, session recovery after /clear and compaction, per-turn re-injection against context rot, determi",
+ "visitedAt": "2026-11-14T18:08:15.201Z",
+ "issues": [
+  {
+   "number": 371,
+   "title": "evals: contribute pinned Hermes CLI file-only recovery receipts",
+   "url": "https://github.com/OthmanAdi/planning-with-files/issues/371",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-07T20:40:24Z",
+   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/copilot/reference/hooks-configuration) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/OthmanAdi/planning-with-files/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/OthmanAdi/planning-with-files/issues/371",
+    "https://github.com/OthmanAdi/planning-with-files/blob/HEAD/README.md",
+    "https://docs.github.com/en/copilot/reference/hooks-configuration",
+    "https://github.com/OthmanAdi/planning-with-files/blob/HEAD/CONTRIBUTING.md"
+   ]
+  }
+ ]
+}
