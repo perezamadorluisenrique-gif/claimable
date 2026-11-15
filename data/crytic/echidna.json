@@ -4,6 +4,121 @@
  "language": "Haskell",
  "stars": 3193,
  "description": "Ethereum smart contract fuzzer",
- "visitedAt": "2026-11-14T03:20:07.172Z",
- "issues": []
+ "visitedAt": "2026-11-15T10:59:03.445Z",
+ "issues": [
+  {
+   "number": 811,
+   "title": "Create a 1-line installer and upgrader",
+   "url": "https://github.com/crytic/echidna/issues/811",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2023-05-22T13:46:46Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "discard",
+   "reason": "PR #1082 by @bohendo is already open against this issue",
+   "evidence": [
+    "https://github.com/crytic/echidna/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/crytic/echidna/pull/1082"
+   ]
+  },
+  {
+   "number": 940,
+   "title": "`echidna init` subcommand to generate config file",
+   "url": "https://github.com/crytic/echidna/issues/940",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2023-06-19T13:30:47Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "discard",
+   "reason": "PR #1100 by @arcz is already open against this issue",
+   "evidence": [
+    "https://github.com/crytic/echidna/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/crytic/echidna/pull/1100",
+    "https://github.com/crytic/echidna/pull/1426"
+   ]
+  },
+  {
+   "number": 941,
+   "title": "feat: remove different testing modes",
+   "url": "https://github.com/crytic/echidna/issues/941",
+   "labels": [
+    "enhancement",
+    "usability",
+    "good first issue"
+   ],
+   "updatedAt": "2023-05-03T10:11:17Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/crytic/echidna/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/crytic/echidna/issues/941",
+    "https://github.com/crytic/echidna/blob/HEAD/README.md",
+    "https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project",
+    "https://github.com/crytic/echidna/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 1063,
+   "title": "Highlight lcov support in the readme",
+   "url": "https://github.com/crytic/echidna/issues/1063",
+   "labels": [
+    "documentation",
+    "good first issue"
+   ],
+   "updatedAt": "2023-06-20T05:06:44Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @AnmolSirola 1260 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/crytic/echidna/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/crytic/echidna/issues/1063#issuecomment-1575618153",
+    "https://github.com/crytic/echidna/issues/1063",
+    "https://github.com/crytic/echidna/blob/HEAD/README.md",
+    "https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project",
+    "https://github.com/crytic/echidna/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 1164,
+   "title": "Expression-level coverage support",
+   "url": "https://github.com/crytic/echidna/issues/1164",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2025-05-31T23:56:57Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @PhantomOz 945 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/crytic/echidna/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/crytic/echidna/issues/1164#issuecomment-2054089368",
+    "https://github.com/crytic/echidna/issues/1164",
+    "https://github.com/crytic/echidna/blob/HEAD/README.md",
+    "https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project",
+    "https://github.com/crytic/echidna/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 1264,
+   "title": "add call sequence mutation that removes all reverting txs in the sequences",
+   "url": "https://github.com/crytic/echidna/issues/1264",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2024-07-25T14:29:57Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "discard",
+   "reason": "PR #1312 by @samalws-tob is already open against this issue",
+   "evidence": [
+    "https://github.com/crytic/echidna/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/crytic/echidna/pull/1312"
+   ]
+  }
+ ]
 }

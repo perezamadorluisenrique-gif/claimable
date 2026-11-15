@@ -4,6 +4,313 @@
  "language": "Scala",
  "stars": 8870,
  "description": "A fault tolerant, protocol-agnostic RPC system",
- "visitedAt": "2026-11-13T22:40:39.276Z",
- "issues": []
+ "visitedAt": "2026-11-15T10:59:03.445Z",
+ "issues": [
+  {
+   "number": 357,
+   "title": "Don't mess with class loaders... or do it gently",
+   "url": "https://github.com/twitter/finagle/issues/357",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2016-05-29T16:26:41Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "discard",
+   "reason": "no push in 94 days (last: 2026-08-13) — a PR here is unlikely to ever be reviewed",
+   "evidence": [
+    "https://github.com/twitter/finagle — pushed_at 2026-08-13T18:10:51Z",
+    "https://github.com/twitter/finagle/pulls?q=is%3Apr+is%3Amerged"
+   ]
+  },
+  {
+   "number": 360,
+   "title": "Set finagle-redis tests integration tests up to run as integration tests in SBT and Travis CI",
+   "url": "https://github.com/twitter/finagle/issues/360",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2018-08-24T20:58:36Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "discard",
+   "reason": "no push in 94 days (last: 2026-08-13) — a PR here is unlikely to ever be reviewed",
+   "evidence": [
+    "https://github.com/twitter/finagle — pushed_at 2026-08-13T18:10:51Z",
+    "https://github.com/twitter/finagle/pulls?q=is%3Apr+is%3Amerged"
+   ]
+  },
+  {
+   "number": 499,
+   "title": "Receive HTTP file uploads as a stream",
+   "url": "https://github.com/twitter/finagle/issues/499",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2020-04-27T03:18:14Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "discard",
+   "reason": "no push in 94 days (last: 2026-08-13) — a PR here is unlikely to ever be reviewed",
+   "evidence": [
+    "https://github.com/twitter/finagle — pushed_at 2026-08-13T18:10:51Z",
+    "https://github.com/twitter/finagle/pulls?q=is%3Apr+is%3Amerged"
+   ]
+  },
+  {
+   "number": 501,
+   "title": "Support for uploading files in HTTP client",
+   "url": "https://github.com/twitter/finagle/issues/501",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2017-05-10T21:01:32Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "discard",
+   "reason": "no push in 94 days (last: 2026-08-13) — a PR here is unlikely to ever be reviewed",
+   "evidence": [
+    "https://github.com/twitter/finagle — pushed_at 2026-08-13T18:10:51Z",
+    "https://github.com/twitter/finagle/pulls?q=is%3Apr+is%3Amerged"
+   ]
+  },
+  {
+   "number": 526,
+   "title": "Add com.twitter.finagle.zipkin.core.Endpoint.ipv6",
+   "url": "https://github.com/twitter/finagle/issues/526",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2019-08-06T06:47:05Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "discard",
+   "reason": "no push in 94 days (last: 2026-08-13) — a PR here is unlikely to ever be reviewed",
+   "evidence": [
+    "https://github.com/twitter/finagle — pushed_at 2026-08-13T18:10:51Z",
+    "https://github.com/twitter/finagle/pulls?q=is%3Apr+is%3Amerged"
+   ]
+  },
+  {
+   "number": 541,
+   "title": "Let's support non-RPC spans",
+   "url": "https://github.com/twitter/finagle/issues/541",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2019-01-16T17:07:08Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "discard",
+   "reason": "no push in 94 days (last: 2026-08-13) — a PR here is unlikely to ever be reviewed",
+   "evidence": [
+    "https://github.com/twitter/finagle — pushed_at 2026-08-13T18:10:51Z",
+    "https://github.com/twitter/finagle/pulls?q=is%3Apr+is%3Amerged"
+   ]
+  },
+  {
+   "number": 562,
+   "title": "How to set Host header with LoadBalancing",
+   "url": "https://github.com/twitter/finagle/issues/562",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2021-03-29T03:40:05Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "discard",
+   "reason": "no push in 94 days (last: 2026-08-13) — a PR here is unlikely to ever be reviewed",
+   "evidence": [
+    "https://github.com/twitter/finagle — pushed_at 2026-08-13T18:10:51Z",
+    "https://github.com/twitter/finagle/pulls?q=is%3Apr+is%3Amerged"
+   ]
+  },
+  {
+   "number": 564,
+   "title": "Support propagating 128-bit trace identifiers",
+   "url": "https://github.com/twitter/finagle/issues/564",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2017-09-21T13:54:20Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "discard",
+   "reason": "no push in 94 days (last: 2026-08-13) — a PR here is unlikely to ever be reviewed",
+   "evidence": [
+    "https://github.com/twitter/finagle — pushed_at 2026-08-13T18:10:51Z",
+    "https://github.com/twitter/finagle/pulls?q=is%3Apr+is%3Amerged"
+   ]
+  },
+  {
+   "number": 611,
+   "title": "finagle-redis: QUEUED responses fail with ClassCastException",
+   "url": "https://github.com/twitter/finagle/issues/611",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2017-05-19T21:51:10Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "discard",
+   "reason": "no push in 94 days (last: 2026-08-13) — a PR here is unlikely to ever be reviewed",
+   "evidence": [
+    "https://github.com/twitter/finagle — pushed_at 2026-08-13T18:10:51Z",
+    "https://github.com/twitter/finagle/pulls?q=is%3Apr+is%3Amerged"
+   ]
+  },
+  {
+   "number": 653,
+   "title": "Dtab alternate not chosen over higher-precedence failing service ",
+   "url": "https://github.com/twitter/finagle/issues/653",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2017-10-05T21:30:21Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "discard",
+   "reason": "no push in 94 days (last: 2026-08-13) — a PR here is unlikely to ever be reviewed",
+   "evidence": [
+    "https://github.com/twitter/finagle — pushed_at 2026-08-13T18:10:51Z",
+    "https://github.com/twitter/finagle/pulls?q=is%3Apr+is%3Amerged"
+   ]
+  },
+  {
+   "number": 700,
+   "title": "Netty warning when consuming TLS transport Finagle server with HTTP",
+   "url": "https://github.com/twitter/finagle/issues/700",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2020-10-22T21:01:22Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "discard",
+   "reason": "no push in 94 days (last: 2026-08-13) — a PR here is unlikely to ever be reviewed",
+   "evidence": [
+    "https://github.com/twitter/finagle — pushed_at 2026-08-13T18:10:51Z",
+    "https://github.com/twitter/finagle/pulls?q=is%3Apr+is%3Amerged"
+   ]
+  },
+  {
+   "number": 704,
+   "title": "Finagle redis client subscribe command fails in 18.6.0",
+   "url": "https://github.com/twitter/finagle/issues/704",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2021-06-25T14:17:57Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "discard",
+   "reason": "no push in 94 days (last: 2026-08-13) — a PR here is unlikely to ever be reviewed",
+   "evidence": [
+    "https://github.com/twitter/finagle — pushed_at 2026-08-13T18:10:51Z",
+    "https://github.com/twitter/finagle/pulls?q=is%3Apr+is%3Amerged"
+   ]
+  },
+  {
+   "number": 719,
+   "title": "implement \"b3 single\" header format",
+   "url": "https://github.com/twitter/finagle/issues/719",
+   "labels": [
+    "good first issue",
+    "help wanted"
+   ],
+   "updatedAt": "2018-08-30T18:34:59Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "discard",
+   "reason": "no push in 94 days (last: 2026-08-13) — a PR here is unlikely to ever be reviewed",
+   "evidence": [
+    "https://github.com/twitter/finagle — pushed_at 2026-08-13T18:10:51Z",
+    "https://github.com/twitter/finagle/pulls?q=is%3Apr+is%3Amerged"
+   ]
+  },
+  {
+   "number": 756,
+   "title": "Unable to stop HighResTimer",
+   "url": "https://github.com/twitter/finagle/issues/756",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2019-06-10T23:21:17Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "discard",
+   "reason": "no push in 94 days (last: 2026-08-13) — a PR here is unlikely to ever be reviewed",
+   "evidence": [
+    "https://github.com/twitter/finagle — pushed_at 2026-08-13T18:10:51Z",
+    "https://github.com/twitter/finagle/pulls?q=is%3Apr+is%3Amerged"
+   ]
+  },
+  {
+   "number": 758,
+   "title": "Unable to stop CollectClosables thread",
+   "url": "https://github.com/twitter/finagle/issues/758",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2019-09-06T11:01:08Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "discard",
+   "reason": "no push in 94 days (last: 2026-08-13) — a PR here is unlikely to ever be reviewed",
+   "evidence": [
+    "https://github.com/twitter/finagle — pushed_at 2026-08-13T18:10:51Z",
+    "https://github.com/twitter/finagle/pulls?q=is%3Apr+is%3Amerged"
+   ]
+  },
+  {
+   "number": 760,
+   "title": "ExceptionSourceFilter does not properly attribute CancelledRequestExceptions",
+   "url": "https://github.com/twitter/finagle/issues/760",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2019-06-19T22:41:40Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "discard",
+   "reason": "no push in 94 days (last: 2026-08-13) — a PR here is unlikely to ever be reviewed",
+   "evidence": [
+    "https://github.com/twitter/finagle — pushed_at 2026-08-13T18:10:51Z",
+    "https://github.com/twitter/finagle/pulls?q=is%3Apr+is%3Amerged"
+   ]
+  },
+  {
+   "number": 778,
+   "title": "Zipkin spans generated remoteEndpoint.serviceName",
+   "url": "https://github.com/twitter/finagle/issues/778",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2019-08-06T22:10:37Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "discard",
+   "reason": "no push in 94 days (last: 2026-08-13) — a PR here is unlikely to ever be reviewed",
+   "evidence": [
+    "https://github.com/twitter/finagle — pushed_at 2026-08-13T18:10:51Z",
+    "https://github.com/twitter/finagle/pulls?q=is%3Apr+is%3Amerged"
+   ]
+  },
+  {
+   "number": 783,
+   "title": "Wrong order of modules in Http.client.stack",
+   "url": "https://github.com/twitter/finagle/issues/783",
+   "labels": [
+    "help wanted",
+    "waiting"
+   ],
+   "updatedAt": "2019-09-16T17:58:48Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "discard",
+   "reason": "no push in 94 days (last: 2026-08-13) — a PR here is unlikely to ever be reviewed",
+   "evidence": [
+    "https://github.com/twitter/finagle — pushed_at 2026-08-13T18:10:51Z",
+    "https://github.com/twitter/finagle/pulls?q=is%3Apr+is%3Amerged"
+   ]
+  },
+  {
+   "number": 813,
+   "title": "Support for touch, gat and gats commands in the memcached client",
+   "url": "https://github.com/twitter/finagle/issues/813",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2020-02-06T15:50:40Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "discard",
+   "reason": "no push in 94 days (last: 2026-08-13) — a PR here is unlikely to ever be reviewed",
+   "evidence": [
+    "https://github.com/twitter/finagle — pushed_at 2026-08-13T18:10:51Z",
+    "https://github.com/twitter/finagle/pulls?q=is%3Apr+is%3Amerged"
+   ]
+  }
+ ]
 }

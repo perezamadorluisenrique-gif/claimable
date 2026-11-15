@@ -4,7 +4,7 @@
  "language": "TypeScript",
  "stars": 108760,
  "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
- "visitedAt": "2026-11-10T17:47:07.019Z",
+ "visitedAt": "2026-11-15T10:59:03.445Z",
  "issues": [
   {
    "number": 3375,
@@ -39,11 +39,12 @@
     "help wanted",
     "type/bug"
    ],
-   "updatedAt": "2026-11-05T07:27:34Z",
-   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "updatedAt": "2026-11-12T11:16:15Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
    "verdict": "discard",
    "reason": "PR #30088 by @Neal006 is already open against this issue",
    "evidence": [
+    "https://github.com/google-gemini/gemini-cli/pulls?q=is%3Apr+is%3Aclosed",
     "https://github.com/google-gemini/gemini-cli/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/google-gemini/gemini-cli/pull/30088"
    ]
@@ -59,11 +60,12 @@
     "kind/bug",
     "help wanted"
    ],
-   "updatedAt": "2026-11-04T01:38:16Z",
-   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "updatedAt": "2026-11-11T15:12:52Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
    "verdict": "discard",
    "reason": "PR #19638 by @Atharva-Kanherkar is already open against this issue",
    "evidence": [
+    "https://github.com/google-gemini/gemini-cli/pulls?q=is%3Apr+is%3Aclosed",
     "https://github.com/google-gemini/gemini-cli/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/google-gemini/gemini-cli/pull/19638",
     "https://github.com/google-gemini/gemini-cli/pull/24155",
@@ -82,11 +84,12 @@
     "kind/enhancement",
     "help wanted"
    ],
-   "updatedAt": "2026-11-10T09:02:55Z",
-   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "updatedAt": "2026-11-11T17:48:51Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
    "verdict": "discard",
    "reason": "PR #29546 by @Hariharanpugazh is already open against this issue",
    "evidence": [
+    "https://github.com/google-gemini/gemini-cli/pulls?q=is%3Apr+is%3Aclosed",
     "https://github.com/google-gemini/gemini-cli/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/google-gemini/gemini-cli/pull/29546",
     "https://github.com/google-gemini/gemini-cli/pull/29818",
@@ -219,14 +222,16 @@
     "kind/bug",
     "help wanted"
    ],
-   "updatedAt": "2026-11-03T09:31:45Z",
-   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "updatedAt": "2026-11-14T00:01:20Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
    "verdict": "discard",
    "reason": "PR #29947 by @Web4everyone32 is already open against this issue",
    "evidence": [
+    "https://github.com/google-gemini/gemini-cli/pulls?q=is%3Apr+is%3Aclosed",
     "https://github.com/google-gemini/gemini-cli/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/google-gemini/gemini-cli/pull/29947",
-    "https://github.com/google-gemini/gemini-cli/pull/29978"
+    "https://github.com/google-gemini/gemini-cli/pull/29978",
+    "https://github.com/google-gemini/gemini-cli/pull/30292"
    ]
   },
   {

@@ -4,6 +4,105 @@
  "language": "Julia",
  "stars": 4756,
  "description": "Relax! Flux is the ML library that doesn't make you tensor",
- "visitedAt": "2026-11-14T11:31:58.340Z",
- "issues": []
+ "visitedAt": "2026-11-15T10:59:03.445Z",
+ "issues": [
+  {
+   "number": 395,
+   "title": "Add max/mean unpooling operations",
+   "url": "https://github.com/FluxML/Flux.jl/issues/395",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "good first issue"
+   ],
+   "updatedAt": "2024-07-13T00:53:56Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @kraftpunk97 855 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/FluxML/Flux.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FluxML/Flux.jl/issues/395#issuecomment-2226613327",
+    "https://github.com/FluxML/Flux.jl/issues/395",
+    "https://github.com/FluxML/Flux.jl/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 451,
+   "title": "Does Flux support N-dimensional convolutions, where N>3?",
+   "url": "https://github.com/FluxML/Flux.jl/issues/451",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2021-07-03T00:39:50Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @shreyas-kowshik 2838 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/FluxML/Flux.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FluxML/Flux.jl/issues/451#issuecomment-461360529",
+    "https://github.com/FluxML/Flux.jl/issues/451",
+    "https://github.com/FluxML/Flux.jl/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 1431,
+   "title": "PyTorch feature parity",
+   "url": "https://github.com/FluxML/Flux.jl/issues/1431",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-10-21T04:43:59Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "reservations",
+   "reason": "PR #1305 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+4 more)",
+   "evidence": [
+    "https://github.com/FluxML/Flux.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FluxML/Flux.jl/pull/1305",
+    "https://github.com/FluxML/Flux.jl/pull/1454",
+    "https://github.com/FluxML/Flux.jl/pull/1496",
+    "https://github.com/FluxML/Flux.jl/issues/1431",
+    "https://github.com/FluxML/Flux.jl/issues/1431#issuecomment-999501754",
+    "https://github.com/FluxML/Flux.jl/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 2013,
+   "title": "Functional equivalents missing for some layers",
+   "url": "https://github.com/FluxML/Flux.jl/issues/2013",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2026-08-12T08:37:12Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "discard",
+   "reason": "PR #2840 by @CarloLucibello is already open against this issue",
+   "evidence": [
+    "https://github.com/FluxML/Flux.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FluxML/Flux.jl/issues/2840",
+    "https://github.com/FluxML/Flux.jl/issues/2836"
+   ]
+  },
+  {
+   "number": 2237,
+   "title": "Separate nightly CI from posted CI badge",
+   "url": "https://github.com/FluxML/Flux.jl/issues/2237",
+   "labels": [
+    "discussion",
+    "good first issue",
+    "testing"
+   ],
+   "updatedAt": "2026-03-04T16:01:13Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "reservations",
+   "reason": "PR #2254 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/FluxML/Flux.jl/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/FluxML/Flux.jl/pull/2254",
+    "https://github.com/FluxML/Flux.jl/issues/2237",
+    "https://github.com/FluxML/Flux.jl/blob/HEAD/README.md"
+   ]
+  }
+ ]
 }

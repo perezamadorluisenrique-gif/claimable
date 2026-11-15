@@ -4,7 +4,7 @@
  "language": "Shell",
  "stars": 9271,
  "description": "Testing TLS/SSL encryption anywhere on any port ",
- "visitedAt": "2026-11-14T18:08:15.201Z",
+ "visitedAt": "2026-11-15T10:59:03.445Z",
  "issues": [
   {
    "number": 43,
@@ -98,6 +98,339 @@
    "evidence": [
     "https://github.com/testssl/testssl.sh/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/testssl/testssl.sh/issues/232"
+   ]
+  },
+  {
+   "number": 282,
+   "title": "Help for GOST certificates",
+   "url": "https://github.com/testssl/testssl.sh/issues/282",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "question"
+   ],
+   "updatedAt": "2016-02-07T11:27:58Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "reservations",
+   "reason": "labelled `question` — scope may not be settled yet (+1 more)",
+   "evidence": [
+    "https://github.com/testssl/testssl.sh/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/testssl/testssl.sh/issues/282"
+   ]
+  },
+  {
+   "number": 327,
+   "title": "run testssl.sh as Icinga / Nagios Plugin, exit codes",
+   "url": "https://github.com/testssl/testssl.sh/issues/327",
+   "labels": [
+    "duplicate",
+    "help wanted",
+    "feature",
+    "3.3dev"
+   ],
+   "updatedAt": "2022-10-20T14:09:37Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "discard",
+   "reason": "labelled `duplicate` — the project is saying not to start",
+   "evidence": [
+    "https://github.com/testssl/testssl.sh/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/blindtk/personal-site/pull/155",
+    "https://github.com/testssl/testssl.sh/issues/327"
+   ]
+  },
+  {
+   "number": 519,
+   "title": "Speed up sockets",
+   "url": "https://github.com/testssl/testssl.sh/issues/519",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "important",
+    "performance"
+   ],
+   "updatedAt": "2018-03-25T19:23:10Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "reservations",
+   "reason": "PR #536 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/testssl/testssl.sh/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/testssl/testssl.sh/pull/536",
+    "https://github.com/testssl/testssl.sh/pull/571",
+    "https://github.com/testssl/testssl.sh/issues/519"
+   ]
+  },
+  {
+   "number": 614,
+   "title": "RC4 with fixed cipher sets",
+   "url": "https://github.com/testssl/testssl.sh/issues/614",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2018-03-25T19:22:49Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "reservations",
+   "reason": "open 119 months with no human comment, in a repo pushed to 3 days ago — easy issues do not survive that long here; assume it is harder than its labels say",
+   "evidence": [
+    "https://github.com/testssl/testssl.sh/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/testssl/testssl.sh/issues/614"
+   ]
+  },
+  {
+   "number": 667,
+   "title": "Performance analysis: Time spent for each check",
+   "url": "https://github.com/testssl/testssl.sh/issues/667",
+   "labels": [
+    "help wanted",
+    "important",
+    "performance"
+   ],
+   "updatedAt": "2019-11-30T12:02:56Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "discard",
+   "reason": "PR #519 by @drwetter is already open against this issue",
+   "evidence": [
+    "https://github.com/testssl/testssl.sh/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/testssl/testssl.sh/issues/519",
+    "https://github.com/testssl/testssl.sh/issues/581"
+   ]
+  },
+  {
+   "number": 756,
+   "title": "More unit tests --> openssl s_server",
+   "url": "https://github.com/testssl/testssl.sh/issues/756",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "important",
+    "3.3dev",
+    "github_actions",
+    "unit test"
+   ],
+   "updatedAt": "2026-08-15T14:42:27Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "discard",
+   "reason": "PR #3132 by @drwetter is already open against this issue",
+   "evidence": [
+    "https://github.com/testssl/testssl.sh/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/testssl/testssl.sh/pull/3132"
+   ]
+  },
+  {
+   "number": 790,
+   "title": "Manpage, helping hand needed",
+   "url": "https://github.com/testssl/testssl.sh/issues/790",
+   "labels": [
+    "help wanted",
+    "important",
+    "for grabs",
+    "good first issue"
+   ],
+   "updatedAt": "2017-10-23T08:55:26Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "reservations",
+   "reason": "open 114 months with no human comment, in a repo pushed to 3 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/testssl/testssl.sh/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/testssl/testssl.sh/issues/790",
+    "https://github.com/testssl/testssl.sh/blob/HEAD/doc/testssl.1.md"
+   ]
+  },
+  {
+   "number": 878,
+   "title": "Support for testing .onion domains when used in conjunction with `torsocks`",
+   "url": "https://github.com/testssl/testssl.sh/issues/878",
+   "labels": [
+    "help wanted",
+    "feature"
+   ],
+   "updatedAt": "2017-10-27T08:13:26Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/testssl/testssl.sh/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/testssl/testssl.sh/issues/878"
+   ]
+  },
+  {
+   "number": 880,
+   "title": "Diffs",
+   "url": "https://github.com/testssl/testssl.sh/issues/880",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2018-01-23T11:04:12Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/testssl/testssl.sh/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/testssl/testssl.sh/issues/880"
+   ]
+  },
+  {
+   "number": 967,
+   "title": "request for adding EV cert OIDs from browser vendors",
+   "url": "https://github.com/testssl/testssl.sh/issues/967",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "good first issue"
+   ],
+   "updatedAt": "2018-05-11T14:08:09Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/testssl/testssl.sh/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/testssl/testssl.sh/issues/967"
+   ]
+  },
+  {
+   "number": 1073,
+   "title": "Check for MTA STS",
+   "url": "https://github.com/testssl/testssl.sh/issues/1073",
+   "labels": [
+    "help wanted",
+    "feature",
+    "important"
+   ],
+   "updatedAt": "2019-09-30T12:59:50Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "discard",
+   "reason": "PR #1815 by @drwetter is already open against this issue",
+   "evidence": [
+    "https://github.com/testssl/testssl.sh/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/testssl/testssl.sh/pull/1815",
+    "https://github.com/testssl/testssl.sh/pull/1646"
+   ]
+  },
+  {
+   "number": 1254,
+   "title": "More unit tests: STARTTLS protocols",
+   "url": "https://github.com/testssl/testssl.sh/issues/1254",
+   "labels": [
+    "help wanted",
+    "important"
+   ],
+   "updatedAt": "2019-05-03T17:34:21Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/testssl/testssl.sh/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/testssl/testssl.sh/issues/1254"
+   ]
+  },
+  {
+   "number": 1343,
+   "title": "Inconsistencies in run_protocols()",
+   "url": "https://github.com/testssl/testssl.sh/issues/1343",
+   "labels": [
+    "help wanted",
+    "bug:minor"
+   ],
+   "updatedAt": "2019-10-17T12:35:45Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @drwetter 2586 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting",
+   "evidence": [
+    "https://github.com/testssl/testssl.sh/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/testssl/testssl.sh/issues/1343#issuecomment-543153748",
+    "https://github.com/testssl/testssl.sh/issues/1343"
+   ]
+  },
+  {
+   "number": 1641,
+   "title": "[feature] ESNI (Encrypted Server Name Indication)",
+   "url": "https://github.com/testssl/testssl.sh/issues/1641",
+   "labels": [
+    "help wanted",
+    "feature"
+   ],
+   "updatedAt": "2026-05-02T00:54:47Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/testssl/testssl.sh/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/testssl/testssl.sh/issues/1641"
+   ]
+  },
+  {
+   "number": 1832,
+   "title": "[FEATURE] Check whether STARTTLS is enforced before MAIL FROM",
+   "url": "https://github.com/testssl/testssl.sh/issues/1832",
+   "labels": [
+    "help wanted",
+    "feature",
+    "for grabs"
+   ],
+   "updatedAt": "2024-08-07T07:37:15Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "discard",
+   "reason": "PR #1833 by @asmaack is already open against this issue",
+   "evidence": [
+    "https://github.com/testssl/testssl.sh/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/testssl/testssl.sh/issues/1833",
+    "https://github.com/testssl/testssl.sh/issues/1876"
+   ]
+  },
+  {
+   "number": 2091,
+   "title": "[polishing] Add RFCs to documentation ",
+   "url": "https://github.com/testssl/testssl.sh/issues/2091",
+   "labels": [
+    "help wanted",
+    "for grabs",
+    "good first issue",
+    "documentation"
+   ],
+   "updatedAt": "2022-01-31T10:00:26Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "reservations",
+   "reason": "PR #1 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/testssl/testssl.sh/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/aSh-dev-io/testssl.sh/pull/1",
+    "https://github.com/testssl/testssl.sh/issues/2091",
+    "https://github.com/testssl/testssl.sh/blob/HEAD/testssl.sh",
+    "https://github.com/testssl/testssl.sh/blob/HEAD/doc/testssl.1"
+   ]
+  },
+  {
+   "number": 2148,
+   "title": "Output with JUnit XML formatting",
+   "url": "https://github.com/testssl/testssl.sh/issues/2148",
+   "labels": [
+    "help wanted",
+    "feature"
+   ],
+   "updatedAt": "2022-04-12T17:28:51Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/testssl/testssl.sh/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/testssl/testssl.sh/issues/2148"
+   ]
+  },
+  {
+   "number": 2462,
+   "title": "[Feature] HTML report add option to report like on terminal (dark)",
+   "url": "https://github.com/testssl/testssl.sh/issues/2462",
+   "labels": [
+    "feature",
+    "good first issue"
+   ],
+   "updatedAt": "2024-02-13T09:25:08Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/testssl/testssl.sh/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/testssl/testssl.sh/issues/2462"
    ]
   }
  ]

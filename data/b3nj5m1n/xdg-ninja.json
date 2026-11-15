@@ -4,6 +4,46 @@
  "language": "Haskell",
  "stars": 3409,
  "description": "A shell script which checks your $HOME for unwanted files and directories.",
- "visitedAt": "2026-11-14T03:20:07.172Z",
- "issues": []
+ "visitedAt": "2026-11-15T10:59:03.445Z",
+ "issues": [
+  {
+   "number": 14,
+   "title": ".conda and .condarc",
+   "url": "https://github.com/b3nj5m1n/xdg-ninja/issues/14",
+   "labels": [
+    "program addition",
+    "help wanted"
+   ],
+   "updatedAt": "2024-03-20T00:06:15Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "reservations",
+   "reason": "no push in 42 days (last: 2026-10-04) (+2 more)",
+   "evidence": [
+    "https://github.com/b3nj5m1n/xdg-ninja — pushed_at 2026-10-04T11:02:39Z",
+    "https://github.com/b3nj5m1n/xdg-ninja/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/b3nj5m1n/xdg-ninja/pull/256",
+    "https://github.com/b3nj5m1n/xdg-ninja/issues/14",
+    "https://github.com/b3nj5m1n/xdg-ninja/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 225,
+   "title": ".gradle keep comming back",
+   "url": "https://github.com/b3nj5m1n/xdg-ninja/issues/225",
+   "labels": [
+    "bug/suggestion",
+    "help wanted"
+   ],
+   "updatedAt": "2023-03-25T10:03:25Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "reservations",
+   "reason": "no push in 42 days (last: 2026-10-04) (+1 more)",
+   "evidence": [
+    "https://github.com/b3nj5m1n/xdg-ninja — pushed_at 2026-10-04T11:02:39Z",
+    "https://github.com/b3nj5m1n/xdg-ninja/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/b3nj5m1n/xdg-ninja/issues/225",
+    "https://github.com/b3nj5m1n/xdg-ninja/blob/HEAD/README.md"
+   ]
+  }
+ ]
 }

@@ -4,7 +4,7 @@
  "language": "Go",
  "stars": 139828,
  "description": "The Go programming language",
- "visitedAt": "2026-11-11T15:17:00.117Z",
+ "visitedAt": "2026-11-15T10:59:03.445Z",
  "issues": [
   {
    "number": 7175,
@@ -14,8 +14,8 @@
     "help wanted",
     "OS-Windows"
    ],
-   "updatedAt": "2026-10-31T03:43:49Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "updatedAt": "2026-11-12T08:29:39Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
    "evidence": [
@@ -32,6 +32,42 @@
    ],
    "updatedAt": "2026-09-17T03:13:17Z",
    "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/golang/go/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 17014,
+   "title": "cmd/cgo: support clang on Windows",
+   "url": "https://github.com/golang/go/issues/17014",
+   "labels": [
+    "help wanted",
+    "OS-Windows",
+    "NeedsFix",
+    "compiler/runtime",
+    "cgo"
+   ],
+   "updatedAt": "2026-11-13T15:05:32Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/golang/go/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 18588,
+   "title": "net: dns lookup sometimes fails with \"no such host\" when there are too many open files",
+   "url": "https://github.com/golang/go/issues/18588",
+   "labels": [
+    "Unfortunate",
+    "help wanted",
+    "NeedsFix"
+   ],
+   "updatedAt": "2026-11-11T22:47:46Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
    "evidence": [
@@ -64,8 +100,8 @@
     "NeedsFix",
     "cgo"
    ],
-   "updatedAt": "2026-10-16T17:31:22Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "updatedAt": "2026-11-12T01:33:42Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
    "evidence": [
@@ -145,42 +181,6 @@
    ]
   },
   {
-   "number": 29877,
-   "title": "cmd/cgo: _GoString_ is a reserved identifier",
-   "url": "https://github.com/golang/go/issues/29877",
-   "labels": [
-    "help wanted",
-    "NeedsFix",
-    "compiler/runtime",
-    "cgo"
-   ],
-   "updatedAt": "2026-09-10T08:48:06Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
-   "verdict": "discard",
-   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
-   "evidence": [
-    "https://github.com/golang/go/pulls?q=is%3Apr+is%3Aclosed"
-   ]
-  },
-  {
-   "number": 29878,
-   "title": "cmd/cgo: map sized integer types to C equivalents",
-   "url": "https://github.com/golang/go/issues/29878",
-   "labels": [
-    "help wanted",
-    "NeedsFix",
-    "compiler/runtime",
-    "cgo"
-   ],
-   "updatedAt": "2026-09-10T08:48:07Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
-   "verdict": "discard",
-   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
-   "evidence": [
-    "https://github.com/golang/go/pulls?q=is%3Apr+is%3Aclosed"
-   ]
-  },
-  {
    "number": 29982,
    "title": "sizeof: new package with constants for Int, Uint, Uintptr, Int8, Float64, etc",
    "url": "https://github.com/golang/go/issues/29982",
@@ -208,23 +208,6 @@
     "FeatureRequest"
    ],
    "updatedAt": "2026-09-15T08:41:54Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
-   "verdict": "discard",
-   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
-   "evidence": [
-    "https://github.com/golang/go/pulls?q=is%3Apr+is%3Aclosed"
-   ]
-  },
-  {
-   "number": 31378,
-   "title": "runtime: ARM uClinux crash with -buildmode=c-archive",
-   "url": "https://github.com/golang/go/issues/31378",
-   "labels": [
-    "help wanted",
-    "NeedsFix",
-    "cgo"
-   ],
-   "updatedAt": "2026-09-10T08:48:09Z",
    "checkedAt": "2026-11-11T15:17:00.117Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
@@ -268,6 +251,23 @@
    ]
   },
   {
+   "number": 35238,
+   "title": "x/crypto/ssh: add example for KeyboardInteractive",
+   "url": "https://github.com/golang/go/issues/35238",
+   "labels": [
+    "Documentation",
+    "help wanted",
+    "NeedsInvestigation"
+   ],
+   "updatedAt": "2026-11-14T11:56:46Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/golang/go/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
    "number": 35301,
    "title": "cmd/go,testing,doc: better information about debugging test cache failures",
    "url": "https://github.com/golang/go/issues/35301",
@@ -277,25 +277,6 @@
     "GoCommand"
    ],
    "updatedAt": "2026-10-20T22:08:01Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
-   "verdict": "discard",
-   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
-   "evidence": [
-    "https://github.com/golang/go/pulls?q=is%3Apr+is%3Aclosed"
-   ]
-  },
-  {
-   "number": 35315,
-   "title": "cmd/cgo: inject preamble before other include directives",
-   "url": "https://github.com/golang/go/issues/35315",
-   "labels": [
-    "help wanted",
-    "NeedsInvestigation",
-    "FeatureRequest",
-    "compiler/runtime",
-    "cgo"
-   ],
-   "updatedAt": "2026-09-10T08:48:11Z",
    "checkedAt": "2026-11-11T15:17:00.117Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
@@ -364,8 +345,8 @@
     "help wanted",
     "NeedsFix"
    ],
-   "updatedAt": "2026-11-10T08:42:37Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "updatedAt": "2026-11-13T22:18:54Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
    "evidence": [
@@ -610,6 +591,24 @@
    ]
   },
   {
+   "number": 53532,
+   "title": "cmd/go: `go build` fails to read vcs info when .git is owned by a different user",
+   "url": "https://github.com/golang/go/issues/53532",
+   "labels": [
+    "help wanted",
+    "NeedsFix",
+    "GoCommand",
+    "BadErrorMessage"
+   ],
+   "updatedAt": "2026-11-11T15:21:09Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/golang/go/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
    "number": 54498,
    "title": "x/sys/unix: KeyctlString() panics for key types that can legally contain \"no payload at all",
    "url": "https://github.com/golang/go/issues/54498",
@@ -655,23 +654,6 @@
     "cgo"
    ],
    "updatedAt": "2026-09-15T09:24:53Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
-   "verdict": "discard",
-   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
-   "evidence": [
-    "https://github.com/golang/go/pulls?q=is%3Apr+is%3Aclosed"
-   ]
-  },
-  {
-   "number": 57346,
-   "title": "cmd/go: make cache keys for libraries in GOROOT insensitive to `-trimpath`",
-   "url": "https://github.com/golang/go/issues/57346",
-   "labels": [
-    "help wanted",
-    "NeedsInvestigation",
-    "GoCommand"
-   ],
-   "updatedAt": "2026-10-21T23:22:02Z",
    "checkedAt": "2026-11-11T15:17:00.117Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
@@ -1049,8 +1031,8 @@
     "compiler/runtime",
     "cgo"
    ],
-   "updatedAt": "2026-09-10T08:49:31Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "updatedAt": "2026-11-14T16:59:26Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
    "evidence": [
@@ -1341,8 +1323,8 @@
     "compiler/runtime",
     "Implementation"
    ],
-   "updatedAt": "2026-11-11T08:59:09Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "updatedAt": "2026-11-12T09:48:30Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
    "evidence": [
@@ -1548,6 +1530,23 @@
    ]
   },
   {
+   "number": 80564,
+   "title": "x/benchmarks: improve benchmarks at the beginning of the go 1.28 cycle",
+   "url": "https://github.com/golang/go/issues/80564",
+   "labels": [
+    "help wanted",
+    "NeedsInvestigation",
+    "compiler/runtime"
+   ],
+   "updatedAt": "2026-11-12T12:08:31Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/golang/go/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
    "number": 80601,
    "title": "x/vuln: govulncheck -test does not seem to work on internal tests (only external tests)",
    "url": "https://github.com/golang/go/issues/80601",
@@ -1625,8 +1624,8 @@
     "NeedsInvestigation",
     "GoCommand"
    ],
-   "updatedAt": "2026-10-06T18:59:18Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "updatedAt": "2026-11-12T06:35:40Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
    "evidence": [

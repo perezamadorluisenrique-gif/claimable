@@ -4,7 +4,7 @@
  "language": "Go",
  "stars": 60921,
  "description": "\"rsync for cloud storage\" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Azure Blob, Azure Files, Yandex Files",
- "visitedAt": "2026-11-11T15:17:00.117Z",
+ "visitedAt": "2026-11-15T10:59:03.445Z",
  "issues": [
   {
    "number": 18,
@@ -2109,6 +2109,111 @@
    "evidence": [
     "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/rclone/rclone/pull/10247"
+   ]
+  },
+  {
+   "number": 10332,
+   "title": "--name-transform is applied twice when updating an existing file",
+   "url": "https://github.com/rclone/rclone/issues/10332",
+   "labels": [
+    "bug",
+    "good first issue"
+   ],
+   "updatedAt": "2026-11-13T11:35:22Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "discard",
+   "reason": "PR #10333 by @bardrop is already open against this issue",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/pull/10333",
+    "https://github.com/rclone/rclone/pull/10341"
+   ]
+  },
+  {
+   "number": 10334,
+   "title": "lib/transform: a top-level file gets an empty name when its transform fails",
+   "url": "https://github.com/rclone/rclone/issues/10334",
+   "labels": [
+    "bug",
+    "Remote: S3",
+    "good first issue"
+   ],
+   "updatedAt": "2026-11-13T13:01:17Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "discard",
+   "reason": "PR #10336 by @Goldloli is already open against this issue",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/pull/10336"
+   ]
+  },
+  {
+   "number": 10335,
+   "title": "move: --name-transform is ignored when a server-side directory move is used",
+   "url": "https://github.com/rclone/rclone/issues/10335",
+   "labels": [
+    "bug",
+    "good first issue"
+   ],
+   "updatedAt": "2026-11-13T13:13:31Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "discard",
+   "reason": "PR #10346 by @luised00 is already open against this issue",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/pull/10346"
+   ]
+  },
+  {
+   "number": 10338,
+   "title": "copyto/moveto: --name-transform overwrites or deletes the file at the untransformed name",
+   "url": "https://github.com/rclone/rclone/issues/10338",
+   "labels": [
+    "bug",
+    "good first issue"
+   ],
+   "updatedAt": "2026-11-13T14:24:12Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "discard",
+   "reason": "PR #10341 by @Sun-Wukhan is already open against this issue",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/pull/10341"
+   ]
+  },
+  {
+   "number": 10339,
+   "title": "sync: --backup-dir and --suffix apply --name-transform to the backup's name",
+   "url": "https://github.com/rclone/rclone/issues/10339",
+   "labels": [
+    "bug",
+    "good first issue"
+   ],
+   "updatedAt": "2026-11-13T14:32:41Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "discard",
+   "reason": "PR #10340 by @bardrop is already open against this issue",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/pull/10340"
+   ]
+  },
+  {
+   "number": 10342,
+   "title": "chunker: server-side copy onto a case variant of a file deletes the new chunks",
+   "url": "https://github.com/rclone/rclone/issues/10342",
+   "labels": [
+    "bug",
+    "good first issue",
+    "Remote: Chunker"
+   ],
+   "updatedAt": "2026-11-13T15:42:49Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "discard",
+   "reason": "PR #10344 by @tridev-tej is already open against this issue",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/pull/10344"
    ]
   }
  ]

@@ -4,7 +4,7 @@
  "language": "Rust",
  "stars": 66157,
  "description": "A cross-platform, OpenGL terminal emulator.",
- "visitedAt": "2026-11-11T22:03:46.308Z",
+ "visitedAt": "2026-11-15T10:59:03.445Z",
  "issues": [
   {
    "number": 2079,
@@ -363,8 +363,8 @@
     "help wanted",
     "D - easy"
    ],
-   "updatedAt": "2026-10-08T06:07:41Z",
-   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "updatedAt": "2026-11-12T17:09:45Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
    "verdict": "reservations",
    "reason": "only 20% of recently closed PRs were merged — most contributions get rejected or abandoned here (+1 more)",
    "evidence": [
@@ -403,8 +403,8 @@
     "D - easy",
     "P - low"
    ],
-   "updatedAt": "2026-10-14T17:12:47Z",
-   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "updatedAt": "2026-11-15T08:35:36Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
    "verdict": "discard",
    "reason": "PR #1 by @ump45nose is already open against this issue",
    "evidence": [

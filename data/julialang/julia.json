@@ -4,7 +4,7 @@
  "language": "Julia",
  "stars": 49255,
  "description": "The Julia Programming Language",
- "visitedAt": "2026-11-14T11:31:58.340Z",
+ "visitedAt": "2026-11-15T10:59:03.445Z",
  "issues": [
   {
    "number": 130,
@@ -1852,6 +1852,635 @@
    "evidence": [
     "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/JuliaLang/julia/pull/60413"
+   ]
+  },
+  {
+   "number": 47028,
+   "title": "Why do StackFrame comparisons and hash ignore linfo?",
+   "url": "https://github.com/JuliaLang/julia/issues/47028",
+   "labels": [
+    "bug",
+    "help wanted",
+    "equality"
+   ],
+   "updatedAt": "2024-10-04T10:08:36Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "reservations",
+   "reason": "PR #9 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+3 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/AllocCheck.jl/pull/9",
+    "https://github.com/JuliaLang/julia/issues/47028",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 47706,
+   "title": "Improve reinterpret docstring",
+   "url": "https://github.com/JuliaLang/julia/issues/47706",
+   "labels": [
+    "docs",
+    "help wanted"
+   ],
+   "updatedAt": "2026-10-19T16:47:21Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "reservations",
+   "reason": "2 stale claims, the most recent by @akshat-lakhera 27 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/issues/47706#issuecomment-6272371730",
+    "https://github.com/JuliaLang/julia/issues/47706",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 47786,
+   "title": "Dates round/floor/ceil arguments switched",
+   "url": "https://github.com/JuliaLang/julia/issues/47786",
+   "labels": [
+    "help wanted",
+    "good first issue",
+    "dates"
+   ],
+   "updatedAt": "2023-08-17T21:10:48Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @x0samnan 1438 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/issues/47786#issuecomment-1343336554",
+    "https://github.com/JuliaLang/julia/issues/47786",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 48213,
+   "title": "Add metrics for number of tasks",
+   "url": "https://github.com/JuliaLang/julia/issues/48213",
+   "labels": [
+    "help wanted",
+    "multithreading"
+   ],
+   "updatedAt": "2023-12-08T16:44:25Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @Bhavay-2001 1073 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/issues/48213#issuecomment-1847507309",
+    "https://github.com/JuliaLang/julia/issues/48213",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 49068,
+   "title": "run TEMP_CLEANUP during test/runtests.jl between tests",
+   "url": "https://github.com/JuliaLang/julia/issues/49068",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2023-03-24T15:15:12Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "discard",
+   "reason": "PR #64769 by @GeorgiaPreda is already open against this issue",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/pull/64769"
+   ]
+  },
+  {
+   "number": 49440,
+   "title": "Showing strings compactifies too aggressively ",
+   "url": "https://github.com/JuliaLang/julia/issues/49440",
+   "labels": [
+    "good first issue",
+    "strings",
+    "display and printing"
+   ],
+   "updatedAt": "2025-10-23T14:52:51Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.julialang.org/en/v1/devdocs/backtraces/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/issues/49440",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 49890,
+   "title": "Granular `@fastmath` flags",
+   "url": "https://github.com/JuliaLang/julia/issues/49890",
+   "labels": [
+    "help wanted",
+    "good first issue",
+    "feature"
+   ],
+   "updatedAt": "2025-08-17T15:30:52Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "reservations",
+   "reason": "PR #49405 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/pull/49405",
+    "https://github.com/JuliaLang/julia/issues/49890",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 49968,
+   "title": "`@. vec = vec +1` gives unhelpful error",
+   "url": "https://github.com/JuliaLang/julia/issues/49968",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2025-02-26T16:46:00Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "discard",
+   "reason": "PR #61164 by @christiankadiu is already open against this issue",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/pull/61164"
+   ]
+  },
+  {
+   "number": 50940,
+   "title": "generalize our `BigFloat(::Float64)` method to more integer and floatingpoint types.",
+   "url": "https://github.com/JuliaLang/julia/issues/50940",
+   "labels": [
+    "performance",
+    "good first issue",
+    "bignums"
+   ],
+   "updatedAt": "2025-03-20T22:49:04Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "discard",
+   "reason": "PR #52507 by @hycakir is already open against this issue",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/pull/52507",
+    "https://github.com/JuliaLang/julia/pull/49749"
+   ]
+  },
+  {
+   "number": 51335,
+   "title": "Correctly mark all symbols as `public` or not",
+   "url": "https://github.com/JuliaLang/julia/issues/51335",
+   "labels": [
+    "docs",
+    "help wanted"
+   ],
+   "updatedAt": "2024-07-21T19:36:47Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "discard",
+   "reason": "PR #54060 by @matthias314 is already open against this issue",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/pull/54060",
+    "https://github.com/JuliaLang/julia/pull/50105",
+    "https://github.com/JuliaIO/Tar.jl/pull/173",
+    "https://github.com/JuliaIO/Tar.jl/pull/175",
+    "https://github.com/JuliaLang/julia/pull/54191",
+    "https://github.com/JuliaLang/julia/pull/54213",
+    "https://github.com/JuliaLang/julia/pull/55307",
+    "https://github.com/JuliaLang/julia/pull/56196",
+    "https://github.com/JuliaLang/julia/pull/58108"
+   ]
+  },
+  {
+   "number": 51412,
+   "title": "Allow ignoring the native cache within a pkgimage. ",
+   "url": "https://github.com/JuliaLang/julia/issues/51412",
+   "labels": [
+    "help wanted",
+    "priority",
+    "compiler:precompilation",
+    "pkgimage"
+   ],
+   "updatedAt": "2026-08-09T17:25:36Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "reservations",
+   "reason": "PR #52123 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/pull/52123",
+    "https://github.com/JuliaLang/julia/issues/51412",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 51716,
+   "title": "add `Threads.@once`",
+   "url": "https://github.com/JuliaLang/julia/issues/51716",
+   "labels": [
+    "multithreading",
+    "good first issue"
+   ],
+   "updatedAt": "2026-01-12T02:36:49Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @DorkCubed 309 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/issues/51716#issuecomment-3733194233",
+    "https://github.com/JuliaLang/julia/issues/51716",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 52641,
+   "title": "Base.isidentifier(::Symbol) should check normalization",
+   "url": "https://github.com/JuliaLang/julia/issues/52641",
+   "labels": [
+    "bug",
+    "parser",
+    "good first issue",
+    "display and printing"
+   ],
+   "updatedAt": "2026-10-14T05:50:44Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "reservations",
+   "reason": "PR #1 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/GregPlowman/julia/pull/1",
+    "https://github.com/JuliaLang/julia/issues/52641",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 52725,
+   "title": "Missing docstrings for public/exported symbols",
+   "url": "https://github.com/JuliaLang/julia/issues/52725",
+   "labels": [
+    "docs",
+    "help wanted",
+    "good first issue"
+   ],
+   "updatedAt": "2026-11-13T12:58:08Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "discard",
+   "reason": "PR #53559 by @mariam606 is already open against this issue",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/pull/53559",
+    "https://github.com/JuliaLang/julia/pull/52708",
+    "https://github.com/JuliaLang/julia/pull/52733",
+    "https://github.com/JuliaLang/julia/pull/52698",
+    "https://github.com/JuliaLang/julia/pull/52723",
+    "https://github.com/JuliaLang/julia/pull/52761",
+    "https://github.com/JuliaLang/julia/pull/52777",
+    "https://github.com/JuliaLang/julia/pull/52834",
+    "https://github.com/JuliaLang/julia/pull/52825"
+   ]
+  },
+  {
+   "number": 52772,
+   "title": "`@noinline` confuses `@code_typed` reporting wrong return type when return value is unused.",
+   "url": "https://github.com/JuliaLang/julia/issues/52772",
+   "labels": [
+    "good first issue",
+    "observability"
+   ],
+   "updatedAt": "2024-05-13T22:58:26Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.julialang.org/en/v1/devdocs/backtraces/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/issues/52772",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 52949,
+   "title": "Choose target ISA in `@code_llvm` and `@code_native`",
+   "url": "https://github.com/JuliaLang/julia/issues/52949",
+   "labels": [
+    "good first issue",
+    "feature"
+   ],
+   "updatedAt": "2024-01-22T13:28:38Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "discard",
+   "reason": "PR #54589 by @arhik is already open against this issue",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/pull/54589"
+   ]
+  },
+  {
+   "number": 53907,
+   "title": "Displaying array with unsigned indices throws",
+   "url": "https://github.com/JuliaLang/julia/issues/53907",
+   "labels": [
+    "good first issue",
+    "display and printing"
+   ],
+   "updatedAt": "2026-02-25T10:18:27Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "discard",
+   "reason": "PR #59925 by @shreyas-omkar is already open against this issue",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/pull/59925"
+   ]
+  },
+  {
+   "number": 54395,
+   "title": "Encode type-/layout- vs. region-based alias info separately in LLVM IR",
+   "url": "https://github.com/JuliaLang/julia/issues/54395",
+   "labels": [
+    "help wanted",
+    "compiler:codegen",
+    "compiler:llvm"
+   ],
+   "updatedAt": "2024-05-07T22:15:16Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "reservations",
+   "reason": "open 31 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+2 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/issues/54395",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 55468,
+   "title": "`JULIA_NUM_THREADS` ignored when embedding Julia on a Windows system",
+   "url": "https://github.com/JuliaLang/julia/issues/55468",
+   "labels": [
+    "bug",
+    "help wanted",
+    "system:windows"
+   ],
+   "updatedAt": "2024-10-04T10:06:11Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.julialang.org/en/v1/devdocs/backtraces/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/issues/55468",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 56325,
+   "title": "Improving MethodError message for anonymous functions",
+   "url": "https://github.com/JuliaLang/julia/issues/56325",
+   "labels": [
+    "good first issue",
+    "error messages"
+   ],
+   "updatedAt": "2026-11-13T13:05:26Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "discard",
+   "reason": "PR #62163 by @adienes is already open against this issue",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/pull/62163",
+    "https://github.com/JuliaLang/julia/pull/57340"
+   ]
+  },
+  {
+   "number": 56821,
+   "title": "Inconsistencies with available assignment operators",
+   "url": "https://github.com/JuliaLang/julia/issues/56821",
+   "labels": [
+    "help wanted",
+    "design",
+    "duplicate",
+    "feature"
+   ],
+   "updatedAt": "2025-02-13T19:03:51Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "discard",
+   "reason": "PR #40079 by @oxinabox is already open against this issue",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/issues/40079"
+   ]
+  },
+  {
+   "number": 56921,
+   "title": "Use `jldoctest` wherever possible",
+   "url": "https://github.com/JuliaLang/julia/issues/56921",
+   "labels": [
+    "docs",
+    "help wanted",
+    "good first issue"
+   ],
+   "updatedAt": "2025-03-21T12:18:48Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "reservations",
+   "reason": "PR #56866 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+6 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/pull/56866",
+    "https://github.com/JuliaLang/julia/pull/57452",
+    "https://github.com/JuliaLang/julia/pull/57840",
+    "https://github.com/JuliaLang/julia/pull/58594",
+    "https://github.com/JuliaLang/julia/issues/56921#issuecomment-2570751386",
+    "https://github.com/JuliaLang/julia/issues/56921",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 57855,
+   "title": "Document promotion behavior of `div` and `divrem` for `(::Unsigned, ::Signed)`",
+   "url": "https://github.com/JuliaLang/julia/issues/57855",
+   "labels": [
+    "docs",
+    "help wanted"
+   ],
+   "updatedAt": "2025-10-08T11:21:56Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "discard",
+   "reason": "PR #63557 by @Prachi194agrawal is already open against this issue",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/pull/63557"
+   ]
+  },
+  {
+   "number": 57875,
+   "title": "disallow return in finally",
+   "url": "https://github.com/JuliaLang/julia/issues/57875",
+   "labels": [
+    "help wanted",
+    "breaking",
+    "minor change",
+    "needs pkgeval"
+   ],
+   "updatedAt": "2025-05-08T18:31:29Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.julialang.org/en/v1/devdocs/backtraces/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/issues/57875",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 57976,
+   "title": "converting a `Float` to `String` might over allocate the length of the intermediate string vector.",
+   "url": "https://github.com/JuliaLang/julia/issues/57976",
+   "labels": [
+    "performance",
+    "help wanted",
+    "io",
+    "strings"
+   ],
+   "updatedAt": "2026-06-10T12:19:43Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "reservations",
+   "reason": "PR #57977 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/pull/57977",
+    "https://github.com/JuliaLang/julia/issues/57976",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 58295,
+   "title": "unary `+` acts differently for `Array` and `AbstractArray`",
+   "url": "https://github.com/JuliaLang/julia/issues/58295",
+   "labels": [
+    "arrays",
+    "good first issue",
+    "design"
+   ],
+   "updatedAt": "2026-11-07T15:39:15Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "discard",
+   "reason": "PR #64755 by @jigyxxsa is already open against this issue",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/pull/64755",
+    "https://github.com/JuliaLang/julia/pull/61052"
+   ]
+  },
+  {
+   "number": 58617,
+   "title": "Printf for complex numbers",
+   "url": "https://github.com/JuliaLang/julia/issues/58617",
+   "labels": [
+    "help wanted",
+    "complex",
+    "display and printing",
+    "feature"
+   ],
+   "updatedAt": "2025-06-05T23:09:22Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.julialang.org/en/v1/devdocs/backtraces/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/issues/58617",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 58670,
+   "title": "warn on constant redefinition (in package tests)?",
+   "url": "https://github.com/JuliaLang/julia/issues/58670",
+   "labels": [
+    "help wanted",
+    "minor change"
+   ],
+   "updatedAt": "2026-05-20T13:13:41Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.julialang.org/en/v1/devdocs/backtraces/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/issues/58670",
+    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
+    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
+    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 58870,
+   "title": "`EACCES` when checking `islink` for symbolic link on Windows",
+   "url": "https://github.com/JuliaLang/julia/issues/58870",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2026-01-15T02:42:43Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "discard",
+   "reason": "PR #4986 by @11soda11 is already open against this issue",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/libuv/libuv/pull/4986",
+    "https://github.com/JuliaLang/JuliaC.jl/pull/8"
+   ]
+  },
+  {
+   "number": 59114,
+   "title": "\"@inferred requires a call expression\" for do notation",
+   "url": "https://github.com/JuliaLang/julia/issues/59114",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2025-12-19T03:36:10Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "discard",
+   "reason": "PR #59463 by @WilliBee is already open against this issue",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/pull/59463"
+   ]
+  },
+  {
+   "number": 63218,
+   "title": "Core.bitcast to LLVMPtr from Float64 generates invalid inttoptr, aborts compilation",
+   "url": "https://github.com/JuliaLang/julia/issues/63218",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2026-11-13T14:08:00Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "discard",
+   "reason": "@abarnaanbazhagan2727 claimed it 2 days ago",
+   "evidence": [
+    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/issues/63218#issuecomment-6853572880"
    ]
   }
  ]

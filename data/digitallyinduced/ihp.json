@@ -4,6 +4,180 @@
  "language": "Haskell",
  "stars": 5378,
  "description": "🔥 The fastest way to build type safe web apps. IHP is a new batteries-included web framework optimized for longterm productivity and programmer happiness",
- "visitedAt": "2026-11-14T03:20:07.172Z",
- "issues": []
+ "visitedAt": "2026-11-15T10:59:03.445Z",
+ "issues": [
+  {
+   "number": 208,
+   "title": "Alternative capitalization for URLs",
+   "url": "https://github.com/digitallyinduced/ihp/issues/208",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2021-02-18T09:06:25Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/digitallyinduced/ihp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/digitallyinduced/ihp/issues/208",
+    "https://github.com/digitallyinduced/ihp/blob/HEAD/README.md",
+    "https://github.com/digitallyinduced/ihp/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 323,
+   "title": "Show hint for using single ticks in SQL TEXT default value",
+   "url": "https://github.com/digitallyinduced/ihp/issues/323",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "hacktoberfest"
+   ],
+   "updatedAt": "2021-09-13T05:49:37Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @Swastik2000 1889 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting",
+   "evidence": [
+    "https://github.com/digitallyinduced/ihp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/digitallyinduced/ihp/issues/323#issuecomment-917861706",
+    "https://github.com/digitallyinduced/ihp/issues/323",
+    "https://github.com/digitallyinduced/ihp/blob/HEAD/README.md",
+    "https://github.com/digitallyinduced/ihp/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 347,
+   "title": "Docu: \"Using IHP with VIM\"",
+   "url": "https://github.com/digitallyinduced/ihp/issues/347",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "good first issue",
+    "documentation"
+   ],
+   "updatedAt": "2022-12-15T07:43:52Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/digitallyinduced/ihp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/digitallyinduced/ihp/issues/347",
+    "https://github.com/digitallyinduced/ihp/blob/HEAD/README.md",
+    "https://github.com/digitallyinduced/ihp/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 864,
+   "title": "Link a running, working example of example app built in guide",
+   "url": "https://github.com/digitallyinduced/ihp/issues/864",
+   "labels": [
+    "good first issue",
+    "documentation"
+   ],
+   "updatedAt": "2021-07-17T17:44:40Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/digitallyinduced/ihp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/digitallyinduced/ihp/issues/864",
+    "https://github.com/digitallyinduced/ihp/blob/HEAD/README.md",
+    "https://github.com/digitallyinduced/ihp/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 877,
+   "title": "Create Validation function for UNIQUE constraint over multiple fields",
+   "url": "https://github.com/digitallyinduced/ihp/issues/877",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2021-09-13T07:15:49Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "discard",
+   "reason": "already assigned to @Swastik2000",
+   "evidence": [
+    "https://github.com/digitallyinduced/ihp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/digitallyinduced/ihp/issues/877",
+    "https://github.com/digitallyinduced/ihp/issues/877#issuecomment-917861395"
+   ]
+  },
+  {
+   "number": 927,
+   "title": "`Could not deduce (IsString string0)` when using logger (from v0.10.0 onwards)",
+   "url": "https://github.com/digitallyinduced/ihp/issues/927",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2021-06-24T05:20:28Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/digitallyinduced/ihp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/digitallyinduced/ihp/issues/927",
+    "https://github.com/digitallyinduced/ihp/blob/HEAD/README.md",
+    "https://github.com/digitallyinduced/ihp/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 1171,
+   "title": "Refactor Code Generators to be more nice-looking again",
+   "url": "https://github.com/digitallyinduced/ihp/issues/1171",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2021-12-09T14:36:40Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/digitallyinduced/ihp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/digitallyinduced/ihp/issues/1171",
+    "https://github.com/digitallyinduced/ihp/blob/HEAD/README.md",
+    "https://github.com/digitallyinduced/ihp/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 1400,
+   "title": "Schemadesigner: Context menu always opens to the bottom, even if there's no space to show it",
+   "url": "https://github.com/digitallyinduced/ihp/issues/1400",
+   "labels": [
+    "bug",
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2022-10-18T08:36:41Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "reservations",
+   "reason": "open 57 months with no human comment, in a repo pushed to 7 days ago — easy issues do not survive that long here; assume it is harder than its labels say",
+   "evidence": [
+    "https://github.com/digitallyinduced/ihp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/digitallyinduced/ihp/issues/1400",
+    "https://github.com/digitallyinduced/ihp/blob/HEAD/README.md",
+    "https://github.com/digitallyinduced/ihp/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 1758,
+   "title": "`distinctOn` Should Support Multiple Columns",
+   "url": "https://github.com/digitallyinduced/ihp/issues/1758",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2023-07-19T09:03:22Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "reservations",
+   "reason": "open 41 months with no human comment, in a repo pushed to 7 days ago — easy issues do not survive that long here; assume it is harder than its labels say",
+   "evidence": [
+    "https://github.com/digitallyinduced/ihp/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/digitallyinduced/ihp/issues/1758",
+    "https://github.com/digitallyinduced/ihp/blob/HEAD/README.md",
+    "https://github.com/digitallyinduced/ihp/blob/HEAD/CONTRIBUTING.md"
+   ]
+  }
+ ]
 }

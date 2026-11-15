@@ -4,6 +4,568 @@
  "language": "Haskell",
  "stars": 4084,
  "description": "The Haskell Tool Stack",
- "visitedAt": "2026-11-14T03:20:07.172Z",
- "issues": []
+ "visitedAt": "2026-11-15T10:59:03.445Z",
+ "issues": [
+  {
+   "number": 1479,
+   "title": "Add `--all-packages` ",
+   "url": "https://github.com/commercialhaskell/stack/issues/1479",
+   "labels": [
+    "type: enhancement",
+    "help wanted",
+    "component: haddock"
+   ],
+   "updatedAt": "2015-12-08T19:56:43Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "reservations",
+   "reason": "open 133 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/commercialhaskell/stack/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/commercialhaskell/stack/issues/1479",
+    "https://github.com/commercialhaskell/stack/blob/HEAD/CONTRIBUTING.md",
+    "https://readthedocs.org/"
+   ]
+  },
+  {
+   "number": 1765,
+   "title": "Make stack kill executed process when running `stack build --file-watch --exec \"foo\"`",
+   "url": "https://github.com/commercialhaskell/stack/issues/1765",
+   "labels": [
+    "type: enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2019-04-07T04:59:59Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "discard",
+   "reason": "PR #4153 by @ecthiender is already open against this issue",
+   "evidence": [
+    "https://github.com/commercialhaskell/stack/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/commercialhaskell/stack/issues/4153"
+   ]
+  },
+  {
+   "number": 2262,
+   "title": "Allow --pvp-bounds to use multiple stack.yaml configurations",
+   "url": "https://github.com/commercialhaskell/stack/issues/2262",
+   "labels": [
+    "type: enhancement",
+    "help wanted",
+    "component: releases"
+   ],
+   "updatedAt": "2018-12-09T22:54:59Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "discard",
+   "reason": "already assigned to @sjakobi",
+   "evidence": [
+    "https://github.com/commercialhaskell/stack/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/cdepillabout/pretty-simple/pull/1",
+    "https://github.com/commercialhaskell/stack/issues/2262"
+   ]
+  },
+  {
+   "number": 2299,
+   "title": "stack doesn't find a shared object/dynamic library",
+   "url": "https://github.com/commercialhaskell/stack/issues/2299",
+   "labels": [
+    "help wanted",
+    "component: Windows",
+    "further investigation required"
+   ],
+   "updatedAt": "2018-04-06T01:00:23Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "reservations",
+   "reason": "PR #33 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/commercialhaskell/stack/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/wxHaskell/wxHaskell/pull/33",
+    "https://github.com/commercialhaskell/stack/issues/2299",
+    "https://github.com/commercialhaskell/stack/blob/HEAD/CONTRIBUTING.md",
+    "https://readthedocs.org/"
+   ]
+  },
+  {
+   "number": 2345,
+   "title": "Check stack for space leaks",
+   "url": "https://github.com/commercialhaskell/stack/issues/2345",
+   "labels": [
+    "help wanted",
+    "type: performance"
+   ],
+   "updatedAt": "2016-07-19T22:42:44Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://readthedocs.org/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/commercialhaskell/stack/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/commercialhaskell/stack/issues/2345",
+    "https://github.com/commercialhaskell/stack/blob/HEAD/CONTRIBUTING.md",
+    "https://readthedocs.org/"
+   ]
+  },
+  {
+   "number": 2426,
+   "title": "When updating, \"removeDirectoryRecursive: permission denied (Access is denied.)\" Windows 7",
+   "url": "https://github.com/commercialhaskell/stack/issues/2426",
+   "labels": [
+    "type: bug",
+    "help wanted",
+    "awaiting pull request",
+    "component: Windows"
+   ],
+   "updatedAt": "2025-01-25T20:56:49Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://readthedocs.org/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/commercialhaskell/stack/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/commercialhaskell/stack/issues/2426",
+    "https://github.com/commercialhaskell/stack/blob/HEAD/CONTRIBUTING.md",
+    "https://readthedocs.org/"
+   ]
+  },
+  {
+   "number": 2540,
+   "title": "Backpack for Stack",
+   "url": "https://github.com/commercialhaskell/stack/issues/2540",
+   "labels": [
+    "type: enhancement",
+    "help wanted",
+    "component: backpack"
+   ],
+   "updatedAt": "2020-08-16T09:35:58Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "reservations",
+   "reason": "PR #3430 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/commercialhaskell/stack/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/commercialhaskell/stack/pull/3430",
+    "https://github.com/commercialhaskell/stack/issues/2540#issuecomment-434426389",
+    "https://github.com/commercialhaskell/stack/issues/2540",
+    "https://github.com/commercialhaskell/stack/blob/HEAD/CONTRIBUTING.md",
+    "https://readthedocs.org/"
+   ]
+  },
+  {
+   "number": 2605,
+   "title": "haddock-error gets buried under warnings",
+   "url": "https://github.com/commercialhaskell/stack/issues/2605",
+   "labels": [
+    "type: enhancement",
+    "help wanted",
+    "awaiting pull request",
+    "component: output (UI/UX)"
+   ],
+   "updatedAt": "2016-09-26T02:35:58Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://readthedocs.org/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/commercialhaskell/stack/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/commercialhaskell/stack/issues/2605",
+    "https://github.com/commercialhaskell/stack/blob/HEAD/CONTRIBUTING.md",
+    "https://readthedocs.org/"
+   ]
+  },
+  {
+   "number": 2620,
+   "title": "stack haddock ignores the dependencies of test suites and executables",
+   "url": "https://github.com/commercialhaskell/stack/issues/2620",
+   "labels": [
+    "type: enhancement",
+    "help wanted",
+    "component: haddock"
+   ],
+   "updatedAt": "2018-09-24T16:48:26Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://readthedocs.org/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/commercialhaskell/stack/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/commercialhaskell/stack/issues/2620",
+    "https://github.com/commercialhaskell/stack/blob/HEAD/CONTRIBUTING.md",
+    "https://readthedocs.org/"
+   ]
+  },
+  {
+   "number": 2696,
+   "title": "Special case for dependency mismatch on wired-in packages",
+   "url": "https://github.com/commercialhaskell/stack/issues/2696",
+   "labels": [
+    "help wanted",
+    "awaiting pull request",
+    "component: output (UI/UX)"
+   ],
+   "updatedAt": "2016-10-10T04:08:02Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "reservations",
+   "reason": "open 123 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/commercialhaskell/stack/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/commercialhaskell/stack/issues/2696",
+    "https://github.com/commercialhaskell/stack/blob/HEAD/CONTRIBUTING.md",
+    "https://readthedocs.org/"
+   ]
+  },
+  {
+   "number": 2794,
+   "title": "Allow setting local-doc-root in stack.yaml",
+   "url": "https://github.com/commercialhaskell/stack/issues/2794",
+   "labels": [
+    "type: enhancement",
+    "help wanted",
+    "newcomer friendly",
+    "component: haddock"
+   ],
+   "updatedAt": "2018-12-22T13:23:02Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.haskellstack.org/en/stable/yaml_configuration/#local-bin-path) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/commercialhaskell/stack/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/commercialhaskell/stack/issues/2794",
+    "https://github.com/commercialhaskell/stack/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.haskellstack.org/en/stable/yaml_configuration/#local-bin-path"
+   ]
+  },
+  {
+   "number": 2955,
+   "title": "--exec --file-watch combo not working as expected",
+   "url": "https://github.com/commercialhaskell/stack/issues/2955",
+   "labels": [
+    "type: bug",
+    "help wanted",
+    "component: Windows",
+    "further investigation required"
+   ],
+   "updatedAt": "2018-01-31T21:34:17Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "discard",
+   "reason": "PR #4153 by @ecthiender is already open against this issue",
+   "evidence": [
+    "https://github.com/commercialhaskell/stack/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/commercialhaskell/stack/issues/4153"
+   ]
+  },
+  {
+   "number": 3191,
+   "title": "Reinterpret Linux paths as MinGW paths under Windows",
+   "url": "https://github.com/commercialhaskell/stack/issues/3191",
+   "labels": [
+    "type: enhancement",
+    "help wanted",
+    "component: Windows"
+   ],
+   "updatedAt": "2017-06-11T22:07:07Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "discard",
+   "reason": "already assigned to @mgsloan",
+   "evidence": [
+    "https://github.com/commercialhaskell/stack/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/commercialhaskell/stack/issues/3191"
+   ]
+  },
+  {
+   "number": 3197,
+   "title": "Static linking support under Windows",
+   "url": "https://github.com/commercialhaskell/stack/issues/3197",
+   "labels": [
+    "help wanted",
+    "component: Windows"
+   ],
+   "updatedAt": "2019-11-28T09:44:01Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://readthedocs.org/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/commercialhaskell/stack/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/commercialhaskell/stack/issues/3197",
+    "https://github.com/commercialhaskell/stack/blob/HEAD/CONTRIBUTING.md",
+    "https://readthedocs.org/"
+   ]
+  },
+  {
+   "number": 3414,
+   "title": "Default html charset for `stack test --coverage` reports on windows should not be cp437 ",
+   "url": "https://github.com/commercialhaskell/stack/issues/3414",
+   "labels": [
+    "type: bug",
+    "help wanted",
+    "awaiting pull request",
+    "component: Windows"
+   ],
+   "updatedAt": "2017-09-04T18:13:19Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "reservations",
+   "reason": "open 112 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "evidence": [
+    "https://github.com/commercialhaskell/stack/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/commercialhaskell/stack/issues/3414",
+    "https://github.com/commercialhaskell/stack/blob/HEAD/CONTRIBUTING.md",
+    "https://readthedocs.org/"
+   ]
+  },
+  {
+   "number": 3420,
+   "title": "Adding --static flag for building static executables with stack?",
+   "url": "https://github.com/commercialhaskell/stack/issues/3420",
+   "labels": [
+    "type: enhancement",
+    "help wanted",
+    "in progress",
+    "further investigation required"
+   ],
+   "updatedAt": "2021-07-15T08:57:18Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://readthedocs.org/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/commercialhaskell/stack/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/commercialhaskell/stack/issues/3420",
+    "https://github.com/commercialhaskell/stack/blob/HEAD/CONTRIBUTING.md",
+    "https://readthedocs.org/"
+   ]
+  },
+  {
+   "number": 3442,
+   "title": "Windows: Substituted paths are not resolved correctly",
+   "url": "https://github.com/commercialhaskell/stack/issues/3442",
+   "labels": [
+    "help wanted",
+    "component: Windows"
+   ],
+   "updatedAt": "2018-07-23T15:25:07Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://readthedocs.org/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/commercialhaskell/stack/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/commercialhaskell/stack/issues/3442",
+    "https://github.com/commercialhaskell/stack/blob/HEAD/CONTRIBUTING.md",
+    "https://readthedocs.org/"
+   ]
+  },
+  {
+   "number": 3479,
+   "title": "Nix integration should use GC roots",
+   "url": "https://github.com/commercialhaskell/stack/issues/3479",
+   "labels": [
+    "help wanted",
+    "component: nix"
+   ],
+   "updatedAt": "2020-02-04T09:18:10Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://readthedocs.org/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/commercialhaskell/stack/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/commercialhaskell/stack/issues/3479",
+    "https://github.com/commercialhaskell/stack/blob/HEAD/CONTRIBUTING.md",
+    "https://readthedocs.org/"
+   ]
+  },
+  {
+   "number": 3501,
+   "title": "Set $ACLOCAL_PATH in `stack exec` appropriately",
+   "url": "https://github.com/commercialhaskell/stack/issues/3501",
+   "labels": [
+    "type: bug",
+    "help wanted",
+    "component: Windows"
+   ],
+   "updatedAt": "2017-10-20T10:00:53Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://readthedocs.org/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/commercialhaskell/stack/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/commercialhaskell/stack/issues/3501",
+    "https://github.com/commercialhaskell/stack/blob/HEAD/CONTRIBUTING.md",
+    "https://readthedocs.org/"
+   ]
+  },
+  {
+   "number": 3837,
+   "title": "stack build (with docker) failing on macOS",
+   "url": "https://github.com/commercialhaskell/stack/issues/3837",
+   "labels": [
+    "help wanted",
+    "component: docker"
+   ],
+   "updatedAt": "2019-03-27T13:08:54Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.docker.com/docker-for-mac/install/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/commercialhaskell/stack/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/commercialhaskell/stack/issues/3837",
+    "https://docs.docker.com/docker-for-mac/install/",
+    "https://github.com/commercialhaskell/stack/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 3915,
+   "title": "foreign-library source files are not tracked in file-watch",
+   "url": "https://github.com/commercialhaskell/stack/issues/3915",
+   "labels": [
+    "help wanted",
+    "need confirmation"
+   ],
+   "updatedAt": "2023-06-17T18:32:34Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://readthedocs.org/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/commercialhaskell/stack/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/commercialhaskell/stack/issues/3915",
+    "https://github.com/commercialhaskell/stack/blob/HEAD/CONTRIBUTING.md",
+    "https://readthedocs.org/"
+   ]
+  },
+  {
+   "number": 3918,
+   "title": "nonportable-include-path warning on case-insensitive systems",
+   "url": "https://github.com/commercialhaskell/stack/issues/3918",
+   "labels": [
+    "type: bug",
+    "help wanted",
+    "component: Windows",
+    "component: macOS",
+    "component: build"
+   ],
+   "updatedAt": "2022-11-13T00:12:57Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "reservations",
+   "reason": "PR #386 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/commercialhaskell/stack/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/syoyo/tinygltf/pull/386",
+    "https://github.com/commercialhaskell/stack/issues/3918",
+    "https://github.com/commercialhaskell/stack/blob/HEAD/CONTRIBUTING.md",
+    "https://readthedocs.org/"
+   ]
+  },
+  {
+   "number": 4153,
+   "title": "--file-watch and --exec with running server like command does not build again",
+   "url": "https://github.com/commercialhaskell/stack/issues/4153",
+   "labels": [
+    "type: enhancement",
+    "help wanted",
+    "awaiting pull request",
+    "component: build"
+   ],
+   "updatedAt": "2022-10-05T14:19:29Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://readthedocs.org/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/commercialhaskell/stack/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/commercialhaskell/stack/issues/4153",
+    "https://github.com/commercialhaskell/stack/blob/HEAD/CONTRIBUTING.md",
+    "https://readthedocs.org/"
+   ]
+  },
+  {
+   "number": 4305,
+   "title": "The stack shell script generates binary code for x86_64 instead of ppc64le on ppc64le",
+   "url": "https://github.com/commercialhaskell/stack/issues/4305",
+   "labels": [
+    "help wanted",
+    "component: releases"
+   ],
+   "updatedAt": "2018-09-24T22:33:51Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://readthedocs.org/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/commercialhaskell/stack/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/commercialhaskell/stack/issues/4305",
+    "https://github.com/commercialhaskell/stack/blob/HEAD/CONTRIBUTING.md",
+    "https://readthedocs.org/"
+   ]
+  },
+  {
+   "number": 4307,
+   "title": "Pass options to HPC (like --xml-output)",
+   "url": "https://github.com/commercialhaskell/stack/issues/4307",
+   "labels": [
+    "type: enhancement",
+    "help wanted",
+    "component: options parsing",
+    "component: coverage",
+    "component: benchmark",
+    "component: profiling"
+   ],
+   "updatedAt": "2023-12-06T17:23:08Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "discard",
+   "reason": "PR #2672 by @justinchiu is already open against this issue",
+   "evidence": [
+    "https://github.com/commercialhaskell/stack/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/commercialhaskell/stack/issues/2672"
+   ]
+  },
+  {
+   "number": 4357,
+   "title": "Opaque error during stack setup",
+   "url": "https://github.com/commercialhaskell/stack/issues/4357",
+   "labels": [
+    "type: enhancement",
+    "help wanted",
+    "component: linux"
+   ],
+   "updatedAt": "2022-07-20T21:15:24Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://readthedocs.org/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/commercialhaskell/stack/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/commercialhaskell/stack/issues/4357",
+    "https://github.com/commercialhaskell/stack/blob/HEAD/CONTRIBUTING.md",
+    "https://readthedocs.org/"
+   ]
+  },
+  {
+   "number": 4758,
+   "title": "Optionally cache Git object files in Pantry directory",
+   "url": "https://github.com/commercialhaskell/stack/issues/4758",
+   "labels": [
+    "type: enhancement",
+    "help wanted",
+    "type: performance",
+    "newcomer friendly",
+    "type: discuss"
+   ],
+   "updatedAt": "2019-05-14T10:04:26Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://readthedocs.org/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/commercialhaskell/stack/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/commercialhaskell/stack/issues/4758",
+    "https://github.com/commercialhaskell/stack/blob/HEAD/CONTRIBUTING.md",
+    "https://readthedocs.org/"
+   ]
+  },
+  {
+   "number": 5099,
+   "title": "stack myfile.hs  throw error: ghc-pkg: cannot find package ",
+   "url": "https://github.com/commercialhaskell/stack/issues/5099",
+   "labels": [
+    "help wanted",
+    "type: discuss",
+    "further investigation required"
+   ],
+   "updatedAt": "2019-12-07T15:31:22Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://readthedocs.org/) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/commercialhaskell/stack/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/commercialhaskell/stack/issues/5099",
+    "https://github.com/commercialhaskell/stack/blob/HEAD/CONTRIBUTING.md",
+    "https://readthedocs.org/"
+   ]
+  }
+ ]
 }

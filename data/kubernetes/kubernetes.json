@@ -4,7 +4,7 @@
  "language": "Go",
  "stars": 128976,
  "description": "Production-Grade Container Scheduling and Management",
- "visitedAt": "2026-11-11T15:17:00.117Z",
+ "visitedAt": "2026-11-15T10:59:03.445Z",
  "issues": [
   {
    "number": 7961,
@@ -1703,12 +1703,13 @@
     "priority/important-longterm",
     "triage/accepted"
    ],
-   "updatedAt": "2026-10-20T14:32:19Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "updatedAt": "2026-11-13T01:15:20Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
    "verdict": "discard",
-   "reason": "already assigned to @arjunksofficial",
+   "reason": "PR #144101 by @arjunksofficial is already open against this issue",
    "evidence": [
     "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/144101",
     "https://github.com/kubernetes/kubernetes/pull/134303",
     "https://github.com/kubernetes/test-infra/pull/35613",
     "https://github.com/kubernetes/kubernetes/pull/134918",
@@ -1716,8 +1717,7 @@
     "https://github.com/kubernetes/kubernetes/pull/134924",
     "https://github.com/kubernetes/test-infra/pull/35791",
     "https://github.com/kubernetes/kubernetes/pull/134948",
-    "https://github.com/kubernetes/kubernetes/pull/135973",
-    "https://github.com/kubernetes/kubernetes/pull/142888"
+    "https://github.com/kubernetes/kubernetes/pull/135973"
    ]
   },
   {

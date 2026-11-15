@@ -4,7 +4,7 @@
  "language": "Kotlin",
  "stars": 12981,
  "description": "An alternative frontend for YouTube, for Android.",
- "visitedAt": "2026-11-15T02:43:03.155Z",
+ "visitedAt": "2026-11-15T10:59:03.445Z",
  "issues": [
   {
    "number": 4255,
@@ -181,6 +181,23 @@
    "evidence": [
     "https://github.com/libre-tube/LibreTube/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/libre-tube/LibreTube/issues/8314"
+   ]
+  },
+  {
+   "number": 8465,
+   "title": "Please don't open issues about adding settings for very small behavior changes",
+   "url": "https://github.com/libre-tube/LibreTube/issues/8465",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-09-30T09:41:57Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "reservations",
+   "reason": "PR #8525 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder",
+   "evidence": [
+    "https://github.com/libre-tube/LibreTube/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/libre-tube/LibreTube/pull/8525",
+    "https://github.com/libre-tube/LibreTube/issues/8465"
    ]
   }
  ]

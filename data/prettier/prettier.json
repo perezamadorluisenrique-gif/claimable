@@ -4,7 +4,7 @@
  "language": "JavaScript",
  "stars": 52411,
  "description": "Prettier is an opinionated code formatter.",
- "visitedAt": "2026-11-10T17:47:07.019Z",
+ "visitedAt": "2026-11-15T10:59:03.445Z",
  "issues": [
   {
    "number": 265,
@@ -399,24 +399,6 @@
     "https://github.com/prettier/prettier/issues/6142",
     "https://github.com/prettier/prettier/wiki/Issue-Labels",
     "https://github.com/prettier/prettier/blob/HEAD/CONTRIBUTING.md"
-   ]
-  },
-  {
-   "number": 6745,
-   "title": "Markdown support in GraphQL Block Strings",
-   "url": "https://github.com/prettier/prettier/issues/6745",
-   "labels": [
-    "help wanted",
-    "lang:graphql"
-   ],
-   "updatedAt": "2019-10-29T18:25:00Z",
-   "checkedAt": "2026-11-10T17:47:07.019Z",
-   "verdict": "discard",
-   "reason": "PR #20369 by @dagemawinegash is already open against this issue",
-   "evidence": [
-    "https://github.com/prettier/prettier/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/prettier/prettier/pull/20369",
-    "https://github.com/prettier/prettier/pull/12608"
    ]
   },
   {
@@ -833,21 +815,20 @@
    ]
   },
   {
-   "number": 20433,
-   "title": "Unstable comments in `for..of` head",
-   "url": "https://github.com/prettier/prettier/issues/20433",
+   "number": 20513,
+   "title": "[css] space seperated <url-modifier> within url() gets collapsed.",
+   "url": "https://github.com/prettier/prettier/issues/20513",
    "labels": [
     "help wanted",
-    "lang:javascript",
-    "area:idempotency"
+    "lang:css/scss/less"
    ],
-   "updatedAt": "2026-11-03T10:00:12Z",
-   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "updatedAt": "2026-11-14T08:30:48Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
    "verdict": "discard",
-   "reason": "PR #20434 by @lazerg is already open against this issue",
+   "reason": "PR #20514 by @xixi-box is already open against this issue",
    "evidence": [
     "https://github.com/prettier/prettier/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/prettier/prettier/pull/20434"
+    "https://github.com/prettier/prettier/pull/20514"
    ]
   }
  ]

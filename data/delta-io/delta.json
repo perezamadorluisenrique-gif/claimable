@@ -4,7 +4,7 @@
  "language": "Scala",
  "stars": 9074,
  "description": "An open-source storage framework that enables building a Lakehouse architecture with compute engines including Spark, PrestoDB, Flink, Trino, and Hive and APIs",
- "visitedAt": "2026-11-13T22:40:39.276Z",
+ "visitedAt": "2026-11-15T10:59:03.445Z",
  "issues": [
   {
    "number": 1127,
@@ -95,6 +95,115 @@
    "evidence": [
     "https://github.com/delta-io/delta/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/delta-io/delta/pull/6320"
+   ]
+  },
+  {
+   "number": 4927,
+   "title": "[Kernel] Fix Pagination Log Segment Validation for Staged Commit File Renames",
+   "url": "https://github.com/delta-io/delta/issues/4927",
+   "labels": [
+    "bug",
+    "good first issue"
+   ],
+   "updatedAt": "2026-09-01T10:12:58Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "discard",
+   "reason": "PR #5327 by @aleksandarskrbic is already open against this issue",
+   "evidence": [
+    "https://github.com/delta-io/delta/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/delta-io/delta/pull/5327",
+    "https://github.com/delta-io/delta/pull/7455"
+   ]
+  },
+  {
+   "number": 4941,
+   "title": "[Feature Request] Skip creating FilteredColumnarBatch in ActiveAddFilesIterator if there is no active AddFiles in the batch",
+   "url": "https://github.com/delta-io/delta/issues/4941",
+   "labels": [
+    "enhancement",
+    "good first issue"
+   ],
+   "updatedAt": "2026-01-27T10:14:11Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "discard",
+   "reason": "PR #5937 by @abhishek593 is already open against this issue",
+   "evidence": [
+    "https://github.com/delta-io/delta/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/delta-io/delta/pull/5937",
+    "https://github.com/delta-io/delta/pull/4904"
+   ]
+  },
+  {
+   "number": 5092,
+   "title": "[Kernel][Testing] Run more write test suites using the V2 builders",
+   "url": "https://github.com/delta-io/delta/issues/5092",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "kernel"
+   ],
+   "updatedAt": "2026-09-01T10:12:56Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "discard",
+   "reason": "PR #6222 by @moomindani is already open against this issue",
+   "evidence": [
+    "https://github.com/delta-io/delta/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/delta-io/delta/pull/6222"
+   ]
+  },
+  {
+   "number": 5227,
+   "title": "[Feature Request]Fix potential float -> double casting issue and align in expression with comparator \"=\" implementation",
+   "url": "https://github.com/delta-io/delta/issues/5227",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "kernel"
+   ],
+   "updatedAt": "2026-02-07T11:31:28Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "discard",
+   "reason": "PR #5298 by @Zaylinux is already open against this issue",
+   "evidence": [
+    "https://github.com/delta-io/delta/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/delta-io/delta/pull/5298",
+    "https://github.com/delta-io/delta/pull/5186"
+   ]
+  },
+  {
+   "number": 5420,
+   "title": "[Feature Request][Kernel] Make kernel benchmark configurable using command line arguments",
+   "url": "https://github.com/delta-io/delta/issues/5420",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "delta-kernel"
+   ],
+   "updatedAt": "2026-02-07T07:21:44Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "discard",
+   "reason": "PR #5744 by @AnudeepKonaboina is already open against this issue",
+   "evidence": [
+    "https://github.com/delta-io/delta/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/delta-io/delta/pull/5744"
+   ]
+  },
+  {
+   "number": 6247,
+   "title": "fix: Java Kernel data skipping uses case-sensitive column matching",
+   "url": "https://github.com/delta-io/delta/issues/6247",
+   "labels": [
+    "bug",
+    "good first issue"
+   ],
+   "updatedAt": "2026-09-01T10:28:03Z",
+   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "verdict": "discard",
+   "reason": "PR #6918 by @koushik717 is already open against this issue",
+   "evidence": [
+    "https://github.com/delta-io/delta/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/delta-io/delta/pull/6918",
+    "https://github.com/delta-io/delta/pull/7579"
    ]
   }
  ]
