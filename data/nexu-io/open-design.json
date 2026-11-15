@@ -4,7 +4,7 @@
  "language": "TypeScript",
  "stars": 106999,
  "description": "The 1st Collaborative AI Design Agent Workspace. Local-first and open source. Create motion, prototypes, websites, apps, dashboards, presentations, images, and videos with your team and AI agents. Sha",
- "visitedAt": "2026-11-14T22:28:38.603Z",
+ "visitedAt": "2026-11-15T22:52:34.246Z",
  "issues": [
   {
    "number": 473,
@@ -900,8 +900,8 @@
     "type/enhancement",
     "priority:p2"
    ],
-   "updatedAt": "2026-11-11T09:51:15Z",
-   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "updatedAt": "2026-11-15T10:06:06Z",
+   "checkedAt": "2026-11-15T22:52:34.246Z",
    "verdict": "discard",
    "reason": "already assigned to @helloigig",
    "evidence": [
@@ -1400,8 +1400,8 @@
     "bug",
     "help wanted"
    ],
-   "updatedAt": "2026-11-14T06:53:31Z",
-   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "updatedAt": "2026-11-15T04:35:00Z",
+   "checkedAt": "2026-11-15T22:52:34.246Z",
    "verdict": "discard",
    "reason": "PR #7296 by @mixxer is already open against this issue",
    "evidence": [
@@ -2622,16 +2622,14 @@
     "bug",
     "help wanted"
    ],
-   "updatedAt": "2026-11-11T22:43:53Z",
-   "checkedAt": "2026-11-14T22:28:38.603Z",
-   "verdict": "reservations",
-   "reason": "setup instructions live outside the repository (https://docs.anthropic.com/en/docs/claude-code/skills) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "updatedAt": "2026-11-15T20:29:25Z",
+   "checkedAt": "2026-11-15T22:52:34.246Z",
+   "verdict": "discard",
+   "reason": "already assigned to @arjun-bali-ds",
    "evidence": [
     "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/nexu-io/open-design/issues/9422",
-    "https://github.com/nexu-io/open-design/blob/HEAD/CONTRIBUTING.md",
-    "https://github.com/nexu-io/open-design/blob/HEAD/.github/AGENTS.md",
-    "https://docs.anthropic.com/en/docs/claude-code/skills"
+    "https://github.com/nexu-io/open-design/issues/9422#issuecomment-6900733464"
    ]
   },
   {
@@ -2642,14 +2640,14 @@
     "bug",
     "help wanted"
    ],
-   "updatedAt": "2026-11-14T17:10:52Z",
-   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "updatedAt": "2026-11-15T14:32:24Z",
+   "checkedAt": "2026-11-15T22:52:34.246Z",
    "verdict": "discard",
-   "reason": "already assigned to @shadowhelper93",
+   "reason": "PR #9474 by @terry90918 is already open against this issue",
    "evidence": [
     "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/nexu-io/open-design/issues/9452",
-    "https://github.com/nexu-io/open-design/issues/9452#issuecomment-6881174971"
+    "https://github.com/nexu-io/open-design/pull/9474",
+    "https://github.com/nexu-io/open-design/pull/9475"
    ]
   }
  ]

@@ -4,7 +4,7 @@
  "language": "Shell",
  "stars": 27987,
  "description": "Persistent file-based planning for AI coding agents and long-running tasks. Crash-proof markdown plans, session recovery after /clear and compaction, per-turn re-injection against context rot, determi",
- "visitedAt": "2026-11-14T18:08:15.201Z",
+ "visitedAt": "2026-11-15T22:52:34.246Z",
  "issues": [
   {
    "number": 371,
