@@ -4,6 +4,78 @@
  "language": "C",
  "stars": 25330,
  "description": "A maintained, feature-rich and performance oriented, neofetch like system information tool.",
- "visitedAt": "2026-11-12T19:57:47.710Z",
- "issues": []
+ "visitedAt": "2026-11-15T02:43:03.155Z",
+ "issues": [
+  {
+   "number": 1418,
+   "title": "[BUG] fastfetch failed to retrieve command output",
+   "url": "https://github.com/fastfetch-cli/fastfetch/issues/1418",
+   "labels": [
+    "bug",
+    "apple",
+    "help wanted"
+   ],
+   "updatedAt": "2025-11-15T12:31:28Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "discard",
+   "reason": "PR #2634 by @sb123sb123 is already open against this issue",
+   "evidence": [
+    "https://github.com/fastfetch-cli/fastfetch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/fastfetch-cli/fastfetch/pull/2634"
+   ]
+  },
+  {
+   "number": 1529,
+   "title": "[Backlog, Help wanted] request for uploading `/proc/cpuinfo` on different platforms",
+   "url": "https://github.com/fastfetch-cli/fastfetch/issues/1529",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-09-09T14:32:19Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/fastfetch-cli/fastfetch/wiki/Configuration>) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/fastfetch-cli/fastfetch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/fastfetch-cli/fastfetch/issues/1529",
+    "https://github.com/fastfetch-cli/fastfetch/wiki/Configuration>"
+   ]
+  },
+  {
+   "number": 1591,
+   "title": "[Request for ideas] Fastfetch logo design",
+   "url": "https://github.com/fastfetch-cli/fastfetch/issues/1591",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2025-12-22T16:34:31Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/fastfetch-cli/fastfetch/wiki/Configuration>) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/fastfetch-cli/fastfetch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/fastfetch-cli/fastfetch/issues/1591",
+    "https://github.com/fastfetch-cli/fastfetch/wiki/Configuration>"
+   ]
+  },
+  {
+   "number": 2526,
+   "title": "[Help Wanted] Review localized module display names for the upcoming release",
+   "url": "https://github.com/fastfetch-cli/fastfetch/issues/2526",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-08-24T10:55:40Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "reservations",
+   "reason": "PR #2537 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/fastfetch-cli/fastfetch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/fastfetch-cli/fastfetch/pull/2537",
+    "https://github.com/fastfetch-cli/fastfetch/pull/2648",
+    "https://github.com/fastfetch-cli/fastfetch/issues/2526",
+    "https://github.com/fastfetch-cli/fastfetch/wiki/Configuration>"
+   ]
+  }
+ ]
 }

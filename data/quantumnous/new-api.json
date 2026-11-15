@@ -4,6 +4,48 @@
  "language": "Go",
  "stars": 51702,
  "description": "Open-source AI gateway. Self-hosted LLM gateway with OpenAI-, Claude- and Gemini-compatible APIs, model routing, access control, usage tracking and cost accounting.",
- "visitedAt": "2026-11-11T15:17:00.117Z",
- "issues": []
+ "visitedAt": "2026-11-15T02:43:03.155Z",
+ "issues": [
+  {
+   "number": 3022,
+   "title": "Google Vertex: Gemini频繁报错 400 relay error: `edit` functionDeclaration `parameters.edits.lines` schema didn't specify the schema type field.",
+   "url": "https://github.com/QuantumNous/new-api/issues/3022",
+   "labels": [
+    "bug",
+    "good first issue",
+    "stale"
+   ],
+   "updatedAt": "2026-10-08T14:34:45Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "reservations",
+   "reason": "labelled `stale` — scope may not be settled yet (+2 more)",
+   "evidence": [
+    "https://github.com/QuantumNous/new-api/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/QuantumNous/new-api/issues/3022",
+    "https://github.com/QuantumNous/new-api/blob/HEAD/README.md",
+    "https://docs.newapi.ai/en/docs/installation/config-maintenance/environment-variables",
+    "https://github.com/QuantumNous/new-api/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 7892,
+   "title": "关于阿里 moude router wan3.0-video 接入newapi 使用配置报错",
+   "url": "https://github.com/QuantumNous/new-api/issues/7892",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-10-19T08:20:18Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.newapi.ai/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/QuantumNous/new-api/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/QuantumNous/new-api/issues/7892",
+    "https://github.com/QuantumNous/new-api/blob/HEAD/README.md",
+    "https://docs.newapi.ai/",
+    "https://github.com/QuantumNous/new-api/blob/HEAD/AGENTS.md"
+   ]
+  }
+ ]
 }

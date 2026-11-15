@@ -4,7 +4,7 @@
  "language": "Java",
  "stars": 33512,
  "description": "an easy-to-use dynamic service discovery, configuration and service management platform for building AI cloud native applications.",
- "visitedAt": "2026-11-11T06:29:52.958Z",
+ "visitedAt": "2026-11-15T02:43:03.155Z",
  "issues": [
   {
    "number": 2272,
@@ -61,6 +61,24 @@
    "evidence": [
     "https://github.com/alibaba/nacos/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/alibaba/nacos/issues/12954"
+   ]
+  },
+  {
+   "number": 13535,
+   "title": "建议让nacos operator做去重限制",
+   "url": "https://github.com/alibaba/nacos/issues/13535",
+   "labels": [
+    "good first issue",
+    "area/Kubernetes"
+   ],
+   "updatedAt": "2026-09-24T19:02:13Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "discard",
+   "reason": "already assigned to @tysoncung",
+   "evidence": [
+    "https://github.com/alibaba/nacos/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/alibaba/nacos/issues/13535",
+    "https://github.com/alibaba/nacos/issues/13535#issuecomment-5820371735"
    ]
   }
  ]

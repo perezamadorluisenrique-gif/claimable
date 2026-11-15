@@ -4,7 +4,7 @@
  "language": "C++",
  "stars": 50862,
  "description": "ClickHouse® is a real-time analytics database management system",
- "visitedAt": "2026-11-12T03:03:40.195Z",
+ "visitedAt": "2026-11-15T02:43:03.155Z",
  "issues": [
   {
    "number": 2434,
@@ -301,6 +301,698 @@
     "https://github.com/ClickHouse/ClickHouse/issues/41671",
     "https://github.com/ClickHouse/ClickHouse/blob/HEAD/CONTRIBUTING.md",
     "https://github.com/ClickHouse/ClickHouse/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 42149,
+   "title": "Custom name of version column for tables in MaterializedPostgreSQL database",
+   "url": "https://github.com/ClickHouse/ClickHouse/issues/42149",
+   "labels": [
+    "help wanted",
+    "usability",
+    "comp-postgresql",
+    "external"
+   ],
+   "updatedAt": "2026-09-11T16:37:58Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "discard",
+   "reason": "PR #49045 by @kssenii is already open against this issue",
+   "evidence": [
+    "https://github.com/ClickHouse/ClickHouse/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ClickHouse/ClickHouse/issues/49045"
+   ]
+  },
+  {
+   "number": 42400,
+   "title": "Docker image with CLICKHOUSE_GID: DB::Exception: Group 0 is not found in the system",
+   "url": "https://github.com/ClickHouse/ClickHouse/issues/42400",
+   "labels": [
+    "help wanted",
+    "easy task",
+    "st-need-info",
+    "unexpected behaviour",
+    "comp-build-system",
+    "external"
+   ],
+   "updatedAt": "2026-09-11T16:37:48Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "discard",
+   "reason": "PR #130329 by @stupnikov is already open against this issue",
+   "evidence": [
+    "https://github.com/ClickHouse/ClickHouse/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ClickHouse/ClickHouse/pull/130329",
+    "https://github.com/ClickHouse/ClickHouse/pull/71626"
+   ]
+  },
+  {
+   "number": 45507,
+   "title": "Is there a way to see MaterializedPostgreSQL replication of is not working",
+   "url": "https://github.com/ClickHouse/ClickHouse/issues/45507",
+   "labels": [
+    "help wanted",
+    "question",
+    "comp-postgresql",
+    "external"
+   ],
+   "updatedAt": "2026-09-11T16:33:45Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "discard",
+   "reason": "PR #49045 by @kssenii is already open against this issue",
+   "evidence": [
+    "https://github.com/ClickHouse/ClickHouse/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ClickHouse/ClickHouse/issues/49045"
+   ]
+  },
+  {
+   "number": 47782,
+   "title": "MaterializedPostgresql  to RDS returns insufficient_privilege",
+   "url": "https://github.com/ClickHouse/ClickHouse/issues/47782",
+   "labels": [
+    "help wanted",
+    "unexpected behaviour",
+    "comp-postgresql",
+    "external"
+   ],
+   "updatedAt": "2026-09-11T16:31:27Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/ClickHouse/ClickHouse/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ClickHouse/ClickHouse/issues/47782",
+    "https://github.com/ClickHouse/ClickHouse/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/ClickHouse/ClickHouse/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 49045,
+   "title": "Mark MaterializedPostgreSQL as not experimental",
+   "url": "https://github.com/ClickHouse/ClickHouse/issues/49045",
+   "labels": [
+    "help wanted",
+    "unfinished code",
+    "comp-postgresql"
+   ],
+   "updatedAt": "2026-09-04T13:02:38Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "reservations",
+   "reason": "PR #107423 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+6 more)",
+   "evidence": [
+    "https://github.com/ClickHouse/ClickHouse/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ClickHouse/ClickHouse/pull/107423",
+    "https://github.com/ClickHouse/ClickHouse/pull/107425",
+    "https://github.com/ClickHouse/ClickHouse/pull/107426",
+    "https://github.com/ClickHouse/ClickHouse/pull/107427",
+    "https://github.com/ClickHouse/ClickHouse/pull/107428",
+    "https://github.com/ClickHouse/ClickHouse/pull/107431",
+    "https://github.com/ClickHouse/ClickHouse/pull/107433",
+    "https://github.com/ClickHouse/ClickHouse/issues/49045",
+    "https://github.com/ClickHouse/ClickHouse/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 52844,
+   "title": "windowFunnel `strict_increase` behaves incorrectly if there is chain with events with the repeating subchain",
+   "url": "https://github.com/ClickHouse/ClickHouse/issues/52844",
+   "labels": [
+    "bug",
+    "help wanted",
+    "comp-aggregate-functions",
+    "external"
+   ],
+   "updatedAt": "2026-09-11T16:24:00Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "discard",
+   "reason": "PR #112629 by @Minghan2005 is already open against this issue",
+   "evidence": [
+    "https://github.com/ClickHouse/ClickHouse/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ClickHouse/ClickHouse/pull/112629"
+   ]
+  },
+  {
+   "number": 56818,
+   "title": "Allow LowCardinality for UUID field without allow_suspicious_low_cardinality_types=1",
+   "url": "https://github.com/ClickHouse/ClickHouse/issues/56818",
+   "labels": [
+    "help wanted",
+    "usability",
+    "comp-datatype-wrapper",
+    "st-accepted",
+    "external"
+   ],
+   "updatedAt": "2026-09-11T16:19:05Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/ClickHouse/ClickHouse/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ClickHouse/ClickHouse/issues/56818",
+    "https://github.com/ClickHouse/ClickHouse/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/ClickHouse/ClickHouse/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 58662,
+   "title": "Support defaults in Native format ",
+   "url": "https://github.com/ClickHouse/ClickHouse/issues/58662",
+   "labels": [
+    "help wanted",
+    "feature",
+    "comp-formats"
+   ],
+   "updatedAt": "2026-09-04T13:28:21Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "reservations",
+   "reason": "PR #2080 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/ClickHouse/ClickHouse/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ClickHouse/clickhouse-docs/pull/2080",
+    "https://github.com/ClickHouse/ClickHouse/issues/58662#issuecomment-5401898291",
+    "https://github.com/ClickHouse/ClickHouse/issues/58662",
+    "https://github.com/ClickHouse/ClickHouse/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/ClickHouse/ClickHouse/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 58726,
+   "title": "MaterializedPostgreSQL Database with ON CLUSTER",
+   "url": "https://github.com/ClickHouse/ClickHouse/issues/58726",
+   "labels": [
+    "help wanted",
+    "unfinished code",
+    "experimental feature",
+    "comp-postgresql",
+    "external"
+   ],
+   "updatedAt": "2026-11-02T11:40:01Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "discard",
+   "reason": "PR #110493 by @alexey-milovidov is already open against this issue",
+   "evidence": [
+    "https://github.com/ClickHouse/ClickHouse/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ClickHouse/ClickHouse/pull/110493",
+    "https://github.com/ClickHouse/ClickHouse/pull/125963"
+   ]
+  },
+  {
+   "number": 61756,
+   "title": "brew services or lanuchctl  support in the macOS",
+   "url": "https://github.com/ClickHouse/ClickHouse/issues/61756",
+   "labels": [
+    "help wanted",
+    "usability",
+    "comp-build-system",
+    "external"
+   ],
+   "updatedAt": "2026-11-02T11:34:13Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/ClickHouse/ClickHouse/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ClickHouse/ClickHouse/issues/61756",
+    "https://github.com/ClickHouse/ClickHouse/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/ClickHouse/ClickHouse/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 61865,
+   "title": "Query parameter support for engine identifier",
+   "url": "https://github.com/ClickHouse/ClickHouse/issues/61865",
+   "labels": [
+    "help wanted",
+    "unfinished code",
+    "comp-sql-syntax"
+   ],
+   "updatedAt": "2026-09-04T13:31:23Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/ClickHouse/ClickHouse/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ClickHouse/ClickHouse/issues/61865",
+    "https://github.com/ClickHouse/ClickHouse/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/ClickHouse/ClickHouse/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 62535,
+   "title": "using sumMap efficiently",
+   "url": "https://github.com/ClickHouse/ClickHouse/issues/62535",
+   "labels": [
+    "help wanted",
+    "question",
+    "comp-aggregate-functions",
+    "external"
+   ],
+   "updatedAt": "2026-11-02T11:32:17Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "reservations",
+   "reason": "labelled `question` — scope may not be settled yet",
+   "evidence": [
+    "https://github.com/ClickHouse/ClickHouse/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ClickHouse/ClickHouse/issues/62535",
+    "https://github.com/ClickHouse/ClickHouse/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/ClickHouse/ClickHouse/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 62821,
+   "title": "Add ceph object storage",
+   "url": "https://github.com/ClickHouse/ClickHouse/issues/62821",
+   "labels": [
+    "help wanted",
+    "feature",
+    "comp-object-storage",
+    "external"
+   ],
+   "updatedAt": "2026-11-02T11:31:13Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "discard",
+   "reason": "PR #65740 by @canhld94 is already open against this issue",
+   "evidence": [
+    "https://github.com/ClickHouse/ClickHouse/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ClickHouse/ClickHouse/pull/65740",
+    "https://github.com/ClickHouse/ClickHouse/pull/64959"
+   ]
+  },
+  {
+   "number": 67591,
+   "title": "Respect systemd clickhouse-server.service enable/disable status during update to new version",
+   "url": "https://github.com/ClickHouse/ClickHouse/issues/67591",
+   "labels": [
+    "help wanted",
+    "not planned",
+    "usability",
+    "comp-build-system",
+    "external"
+   ],
+   "updatedAt": "2026-09-11T15:53:25Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "discard",
+   "reason": "PR #128068 by @GeorgiaPreda is already open against this issue",
+   "evidence": [
+    "https://github.com/ClickHouse/ClickHouse/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ClickHouse/ClickHouse/pull/128068"
+   ]
+  },
+  {
+   "number": 69388,
+   "title": "MaterializedPostgreSQL  pg_publication_tables have equal name in column pubname for two db in one cluster.",
+   "url": "https://github.com/ClickHouse/ClickHouse/issues/69388",
+   "labels": [
+    "help wanted",
+    "experimental feature",
+    "comp-postgresql",
+    "potential bug",
+    "external"
+   ],
+   "updatedAt": "2026-09-11T15:48:52Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "reservations",
+   "reason": "open 27 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say",
+   "evidence": [
+    "https://github.com/ClickHouse/ClickHouse/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ClickHouse/ClickHouse/issues/69388",
+    "https://github.com/ClickHouse/ClickHouse/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/ClickHouse/ClickHouse/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 69766,
+   "title": "Add support for mongodb+srv. Add support for inserts to MongoDB.",
+   "url": "https://github.com/ClickHouse/ClickHouse/issues/69766",
+   "labels": [
+    "help wanted",
+    "comp-foreign-db",
+    "unfinished code",
+    "external"
+   ],
+   "updatedAt": "2026-09-11T15:48:10Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "reservations",
+   "reason": "PR #77895 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder",
+   "evidence": [
+    "https://github.com/ClickHouse/ClickHouse/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ClickHouse/ClickHouse/pull/77895",
+    "https://github.com/ClickHouse/ClickHouse/issues/69766",
+    "https://github.com/ClickHouse/ClickHouse/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/ClickHouse/ClickHouse/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 73949,
+   "title": "External disk data loss due to Docker entrypoint.sh cruft",
+   "url": "https://github.com/ClickHouse/ClickHouse/issues/73949",
+   "labels": [
+    "help wanted",
+    "docker",
+    "unexpected behaviour",
+    "comp-build-system",
+    "external"
+   ],
+   "updatedAt": "2026-09-11T15:39:38Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "discard",
+   "reason": "PR #119009 by @Adelagric is already open against this issue",
+   "evidence": [
+    "https://github.com/ClickHouse/ClickHouse/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ClickHouse/ClickHouse/pull/119009"
+   ]
+  },
+  {
+   "number": 74208,
+   "title": "Setting `additional_table_filters` should recognize query parameters",
+   "url": "https://github.com/ClickHouse/ClickHouse/issues/74208",
+   "labels": [
+    "help wanted",
+    "feature",
+    "comp-settings",
+    "external"
+   ],
+   "updatedAt": "2026-09-11T15:39:13Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "discard",
+   "reason": "already assigned to @wxybear",
+   "evidence": [
+    "https://github.com/ClickHouse/ClickHouse/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ClickHouse/ClickHouse/pull/77680",
+    "https://github.com/ClickHouse/ClickHouse/issues/74208",
+    "https://github.com/ClickHouse/ClickHouse/issues/74208#issuecomment-2710024025"
+   ]
+  },
+  {
+   "number": 76756,
+   "title": "Support query parameters for ALTER TABLE (and other DDL) statements",
+   "url": "https://github.com/ClickHouse/ClickHouse/issues/76756",
+   "labels": [
+    "help wanted",
+    "feature",
+    "easy task",
+    "comp-sql-syntax",
+    "external"
+   ],
+   "updatedAt": "2026-09-11T15:33:28Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "discard",
+   "reason": "PR #119759 by @GauravM1781 is already open against this issue",
+   "evidence": [
+    "https://github.com/ClickHouse/ClickHouse/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ClickHouse/ClickHouse/pull/119759"
+   ]
+  },
+  {
+   "number": 77740,
+   "title": "Aggregator will have statistics about aggregated keys(min/max/any 100 values)",
+   "url": "https://github.com/ClickHouse/ClickHouse/issues/77740",
+   "labels": [
+    "help wanted",
+    "feature",
+    "performance",
+    "comp-aggregation",
+    "external"
+   ],
+   "updatedAt": "2026-09-11T15:31:11Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/ClickHouse/ClickHouse/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ClickHouse/ClickHouse/issues/77740",
+    "https://github.com/ClickHouse/ClickHouse/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/ClickHouse/ClickHouse/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 77991,
+   "title": "Clickhouse generates logon's with \"null\" user account when TLS is enabled in LDAPS",
+   "url": "https://github.com/ClickHouse/ClickHouse/issues/77991",
+   "labels": [
+    "help wanted",
+    "not planned",
+    "potential bug",
+    "comp-authentication",
+    "external"
+   ],
+   "updatedAt": "2026-09-11T15:30:50Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/ClickHouse/ClickHouse/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ClickHouse/ClickHouse/issues/77991",
+    "https://github.com/ClickHouse/ClickHouse/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/ClickHouse/ClickHouse/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 78149,
+   "title": "[MaterializedPostgreSQL] PG WAL size keep increasing if there's no change",
+   "url": "https://github.com/ClickHouse/ClickHouse/issues/78149",
+   "labels": [
+    "help wanted",
+    "comp-postgresql",
+    "potential bug",
+    "external"
+   ],
+   "updatedAt": "2026-09-11T15:30:32Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "discard",
+   "reason": "PR #127563 by @JoshyDo is already open against this issue",
+   "evidence": [
+    "https://github.com/ClickHouse/ClickHouse/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ClickHouse/ClickHouse/pull/127563"
+   ]
+  },
+  {
+   "number": 80724,
+   "title": "PostgreSQL connection timeout caused MaterializedPostgreSQL to fail.",
+   "url": "https://github.com/ClickHouse/ClickHouse/issues/80724",
+   "labels": [
+    "help wanted",
+    "comp-postgresql",
+    "potential bug",
+    "external"
+   ],
+   "updatedAt": "2026-09-11T15:23:49Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "discard",
+   "reason": "PR #107048 by @SBALAVIGNESH123 is already open against this issue",
+   "evidence": [
+    "https://github.com/ClickHouse/ClickHouse/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ClickHouse/ClickHouse/pull/107048"
+   ]
+  },
+  {
+   "number": 81878,
+   "title": "Request to allow storage policy with MaterializedPostgreSQL",
+   "url": "https://github.com/ClickHouse/ClickHouse/issues/81878",
+   "labels": [
+    "help wanted",
+    "feature",
+    "comp-postgresql",
+    "external"
+   ],
+   "updatedAt": "2026-09-11T15:21:39Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "reservations",
+   "reason": "open 17 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say",
+   "evidence": [
+    "https://github.com/ClickHouse/ClickHouse/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ClickHouse/ClickHouse/issues/81878",
+    "https://github.com/ClickHouse/ClickHouse/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/ClickHouse/ClickHouse/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 83053,
+   "title": "MaterializedPostgreSQL Engine: Initialization aborted.",
+   "url": "https://github.com/ClickHouse/ClickHouse/issues/83053",
+   "labels": [
+    "help wanted",
+    "question",
+    "comp-postgresql",
+    "external"
+   ],
+   "updatedAt": "2026-09-11T15:20:03Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "reservations",
+   "reason": "labelled `question` — scope may not be settled yet",
+   "evidence": [
+    "https://github.com/ClickHouse/ClickHouse/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ClickHouse/ClickHouse/issues/83053",
+    "https://github.com/ClickHouse/ClickHouse/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/ClickHouse/ClickHouse/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 83776,
+   "title": "[MaterializedPostgreSQL] Error: Columns number mismatch",
+   "url": "https://github.com/ClickHouse/ClickHouse/issues/83776",
+   "labels": [
+    "help wanted",
+    "question",
+    "comp-postgresql",
+    "external"
+   ],
+   "updatedAt": "2026-09-11T15:18:26Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "reservations",
+   "reason": "PR #100668 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/ClickHouse/ClickHouse/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ClickHouse/ClickHouse/pull/100668",
+    "https://github.com/ClickHouse/ClickHouse/issues/83776",
+    "https://github.com/ClickHouse/ClickHouse/issues/83776#issuecomment-4104976802",
+    "https://github.com/ClickHouse/ClickHouse/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/ClickHouse/ClickHouse/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 84431,
+   "title": "Problems with MaterializedPostgreSQL to Neon (LakeBase)",
+   "url": "https://github.com/ClickHouse/ClickHouse/issues/84431",
+   "labels": [
+    "help wanted",
+    "unexpected behaviour",
+    "comp-postgresql",
+    "external"
+   ],
+   "updatedAt": "2026-09-11T15:17:28Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "reservations",
+   "reason": "the repository is too large to list in full — 'missing path' results below may be wrong",
+   "evidence": [
+    "https://github.com/ClickHouse/ClickHouse/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ClickHouse/ClickHouse/issues/84431",
+    "https://github.com/ClickHouse/ClickHouse/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/ClickHouse/ClickHouse/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 88864,
+   "title": "LDAP + SSH user account with group mapping from LDAP",
+   "url": "https://github.com/ClickHouse/ClickHouse/issues/88864",
+   "labels": [
+    "help wanted",
+    "not planned",
+    "feature",
+    "comp-authentication",
+    "external"
+   ],
+   "updatedAt": "2026-09-11T14:50:54Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "reservations",
+   "reason": "open 13 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say",
+   "evidence": [
+    "https://github.com/ClickHouse/ClickHouse/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ClickHouse/ClickHouse/issues/88864",
+    "https://github.com/ClickHouse/ClickHouse/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/ClickHouse/ClickHouse/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 89493,
+   "title": "FR: the Backup database engine to work with ON CLUSTER backups",
+   "url": "https://github.com/ClickHouse/ClickHouse/issues/89493",
+   "labels": [
+    "help wanted",
+    "feature",
+    "comp-backup",
+    "external"
+   ],
+   "updatedAt": "2026-09-11T14:39:15Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/ClickHouse/ClickHouse/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ClickHouse/ClickHouse/issues/89493",
+    "https://github.com/ClickHouse/ClickHouse/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/ClickHouse/ClickHouse/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 89773,
+   "title": "Option to associate an LDAP server with the Kerberos realm",
+   "url": "https://github.com/ClickHouse/ClickHouse/issues/89773",
+   "labels": [
+    "help wanted",
+    "feature",
+    "comp-authentication",
+    "external"
+   ],
+   "updatedAt": "2026-09-11T14:38:50Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "reservations",
+   "reason": "open 12 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say",
+   "evidence": [
+    "https://github.com/ClickHouse/ClickHouse/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ClickHouse/ClickHouse/issues/89773",
+    "https://github.com/ClickHouse/ClickHouse/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/ClickHouse/ClickHouse/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 90669,
+   "title": "Protobuf input_format_protobuf_oneof_presence duplicates rows causing LOGICAL_ERROR",
+   "url": "https://github.com/ClickHouse/ClickHouse/issues/90669",
+   "labels": [
+    "help wanted",
+    "comp-formats",
+    "potential bug",
+    "clickgap-analyzed",
+    "culprit-pr-not-found",
+    "external"
+   ],
+   "updatedAt": "2026-09-11T14:37:12Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "discard",
+   "reason": "already assigned to @LeonxLJX",
+   "evidence": [
+    "https://github.com/ClickHouse/ClickHouse/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ClickHouse/ClickHouse/pull/90859",
+    "https://github.com/ClickHouse/ClickHouse/issues/90669",
+    "https://github.com/ClickHouse/ClickHouse/issues/90669#issuecomment-5492413237"
+   ]
+  },
+  {
+   "number": 104305,
+   "title": "Kafka engine — zombie consumer-group sessions after ClickHouse restart block partition assignment",
+   "url": "https://github.com/ClickHouse/ClickHouse/issues/104305",
+   "labels": [
+    "help wanted",
+    "not planned",
+    "comp-message-queues",
+    "potential bug",
+    "external"
+   ],
+   "updatedAt": "2026-09-11T14:21:22Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "discard",
+   "reason": "PR #117684 by @klittlepage is already open against this issue",
+   "evidence": [
+    "https://github.com/ClickHouse/ClickHouse/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ClickHouse/ClickHouse/pull/117684"
+   ]
+  },
+  {
+   "number": 121509,
+   "title": "Reuse checksum-matching detached parts when bootstrapping a fresh replica",
+   "url": "https://github.com/ClickHouse/ClickHouse/issues/121509",
+   "labels": [
+    "help wanted",
+    "feature",
+    "comp-replication",
+    "external"
+   ],
+   "updatedAt": "2026-09-30T08:19:31Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "discard",
+   "reason": "PR #121754 by @patelsmit32123 is already open against this issue",
+   "evidence": [
+    "https://github.com/ClickHouse/ClickHouse/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ClickHouse/ClickHouse/pull/121754"
    ]
   }
  ]

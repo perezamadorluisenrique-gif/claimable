@@ -4,6 +4,94 @@
  "language": "Java",
  "stars": 32457,
  "description": "Conductor is an event driven agentic workflow engine providing durable and highly resilient execution engine for applications and AI Agents",
- "visitedAt": "2026-11-11T06:29:52.958Z",
- "issues": []
+ "visitedAt": "2026-11-15T02:43:03.155Z",
+ "issues": [
+  {
+   "number": 123,
+   "title": "[BUG] flyway.postgresql.transactional.lock didn't find in flyway",
+   "url": "https://github.com/conductor-oss/conductor/issues/123",
+   "labels": [
+    "bug",
+    "help wanted",
+    "question"
+   ],
+   "updatedAt": "2025-03-06T17:17:09Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "discard",
+   "reason": "PR #1805 by @ling-senpeng13 is already open against this issue",
+   "evidence": [
+    "https://github.com/conductor-oss/conductor/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/conductor-oss/conductor/issues/1805",
+    "https://github.com/conductor-oss/conductor/issues/979"
+   ]
+  },
+  {
+   "number": 132,
+   "title": "Output in webhook of workflow are in string format",
+   "url": "https://github.com/conductor-oss/conductor/issues/132",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2025-03-18T16:57:14Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "discard",
+   "reason": "PR #532 by @hexxone is already open against this issue",
+   "evidence": [
+    "https://github.com/conductor-oss/conductor/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/conductor-oss/conductor/issues/532"
+   ]
+  },
+  {
+   "number": 172,
+   "title": "APIs throwing 500 status when 4** is expected",
+   "url": "https://github.com/conductor-oss/conductor/issues/172",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2025-03-18T15:58:31Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "discard",
+   "reason": "PR #849 by @kousikmahadeva is already open against this issue",
+   "evidence": [
+    "https://github.com/conductor-oss/conductor/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/conductor-oss/conductor/pull/849"
+   ]
+  },
+  {
+   "number": 419,
+   "title": "[FEATURE]: JSON JQ Transform Task – Enhanced Error Handling",
+   "url": "https://github.com/conductor-oss/conductor/issues/419",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-07-21T16:18:10Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "discard",
+   "reason": "already assigned to @bradyyie, @jeffbulltech",
+   "evidence": [
+    "https://github.com/conductor-oss/conductor/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/conductor-oss/conductor/issues/419"
+   ]
+  },
+  {
+   "number": 1561,
+   "title": "bug: worker registration overwrites TaskDef.runtimeMetadata, breaking credential injection after restart",
+   "url": "https://github.com/conductor-oss/conductor/issues/1561",
+   "labels": [
+    "bug",
+    "good first issue",
+    "agentspan"
+   ],
+   "updatedAt": "2026-10-10T06:59:10Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "discard",
+   "reason": "PR #1743 by @harshitsharmaaaa is already open against this issue",
+   "evidence": [
+    "https://github.com/conductor-oss/conductor/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/conductor-oss/conductor/pull/1743"
+   ]
+  }
+ ]
 }

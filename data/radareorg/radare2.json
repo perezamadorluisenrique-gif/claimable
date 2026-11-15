@@ -4,7 +4,7 @@
  "language": "C",
  "stars": 25387,
  "description": "UNIX-like reverse engineering framework and command-line toolset",
- "visitedAt": "2026-11-12T19:57:47.710Z",
+ "visitedAt": "2026-11-15T02:43:03.155Z",
  "issues": [
   {
    "number": 3222,
@@ -1009,6 +1009,191 @@
    "evidence": [
     "https://github.com/radareorg/radare2/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/radareorg/radare2/issues/15853",
+    "https://github.com/radareorg/radare2/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 15912,
+   "title": "rasm2 jeq tricore diassembly error",
+   "url": "https://github.com/radareorg/radare2/issues/15912",
+   "labels": [
+    "good first issue",
+    "test-required",
+    "RAsm-Disassembler"
+   ],
+   "updatedAt": "2022-06-05T12:07:25Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "reservations",
+   "reason": "PR #16161 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder",
+   "evidence": [
+    "https://github.com/radareorg/radare2/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/radareorg/radare2/pull/16161",
+    "https://github.com/radareorg/radare2/issues/15912",
+    "https://github.com/radareorg/radare2/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 16000,
+   "title": "Out of the box support for VDEX and CDEX formats",
+   "url": "https://github.com/radareorg/radare2/issues/16000",
+   "labels": [
+    "New File-Format",
+    "good first issue",
+    "hackaton",
+    "Android"
+   ],
+   "updatedAt": "2020-09-02T09:22:18Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/radareorg/radare2/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/radareorg/radare2/issues/16000",
+    "https://github.com/radareorg/radare2/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 16193,
+   "title": "Colorize the `pf` output (especially in `r2 -nn binary` case)",
+   "url": "https://github.com/radareorg/radare2/issues/16193",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "pf",
+    "hackaton",
+    "visual"
+   ],
+   "updatedAt": "2026-10-27T06:09:02Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "reservations",
+   "reason": "PR #27072 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder",
+   "evidence": [
+    "https://github.com/radareorg/radare2/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/radareorg/radare2/pull/27072",
+    "https://github.com/radareorg/radare2/issues/16193",
+    "https://github.com/radareorg/radare2/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 16256,
+   "title": "Visual `p==` mode",
+   "url": "https://github.com/radareorg/radare2/issues/16256",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "hackaton",
+    "visual"
+   ],
+   "updatedAt": "2020-09-02T09:32:24Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/radareorg/radare2/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/radareorg/radare2/issues/16256",
+    "https://github.com/radareorg/radare2/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 16366,
+   "title": "Add stackframesize information in aoj",
+   "url": "https://github.com/radareorg/radare2/issues/16366",
+   "labels": [
+    "good first issue",
+    "RAnal",
+    "RAsm-Disassembler"
+   ],
+   "updatedAt": "2022-01-21T22:13:40Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/radareorg/radare2/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/radareorg/radare2/issues/16366",
+    "https://github.com/radareorg/radare2/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 16806,
+   "title": "Support loading coredumps from the standard locations",
+   "url": "https://github.com/radareorg/radare2/issues/16806",
+   "labels": [
+    "good first issue",
+    "Windows",
+    "RDebug",
+    "MacOS",
+    "Linux OS",
+    "BSD"
+   ],
+   "updatedAt": "2020-11-24T04:39:59Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "discard",
+   "reason": "already assigned to @yossizap",
+   "evidence": [
+    "https://github.com/radareorg/radare2/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/radareorg/radare2/issues/16806"
+   ]
+  },
+  {
+   "number": 17019,
+   "title": "META - Handle antidisassembly tricks",
+   "url": "https://github.com/radareorg/radare2/issues/17019",
+   "labels": [
+    "good first issue",
+    "test-required",
+    "RAsm-Disassembler",
+    "hackaton",
+    "antidisasm",
+    "META"
+   ],
+   "updatedAt": "2026-01-28T12:56:29Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "reservations",
+   "reason": "PR #25327 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder",
+   "evidence": [
+    "https://github.com/radareorg/radare2/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/radareorg/radare2/pull/25327",
+    "https://github.com/radareorg/radare2/issues/17019",
+    "https://github.com/radareorg/radare2/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 17447,
+   "title": "Import testsuite from SoK",
+   "url": "https://github.com/radareorg/radare2/issues/17447",
+   "labels": [
+    "good first issue",
+    "RAnal",
+    "test-required",
+    "r2r",
+    "high-priority"
+   ],
+   "updatedAt": "2020-10-28T07:30:37Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "reservations",
+   "reason": "open 76 months with no human comment, in a repo pushed to 1 days ago — easy issues do not survive that long here; assume it is harder than its labels say",
+   "evidence": [
+    "https://github.com/radareorg/radare2/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/radareorg/radare2/issues/17447",
+    "https://github.com/radareorg/radare2/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 19003,
+   "title": "Unique coloring for similar immediates",
+   "url": "https://github.com/radareorg/radare2/issues/19003",
+   "labels": [
+    "consoleui",
+    "good first issue"
+   ],
+   "updatedAt": "2022-12-23T22:52:30Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @hlee131 1427 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting",
+   "evidence": [
+    "https://github.com/radareorg/radare2/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/radareorg/radare2/issues/19003#issuecomment-1357075815",
+    "https://github.com/radareorg/radare2/issues/19003",
     "https://github.com/radareorg/radare2/blob/HEAD/README.md"
    ]
   }

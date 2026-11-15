@@ -4,6 +4,138 @@
  "language": "PHP",
  "stars": 13057,
  "description": "wallabag is a self hostable application for saving web pages: Save and classify articles. Read them later. Freely.",
- "visitedAt": "2026-11-13T01:07:25.191Z",
- "issues": []
+ "visitedAt": "2026-11-15T02:43:03.155Z",
+ "issues": [
+  {
+   "number": 2058,
+   "title": "Document the Android app w.r.t. to the two existing refreshing methods",
+   "url": "https://github.com/wallabag/wallabag/issues/2058",
+   "labels": [
+    "Documentation",
+    "good first issue"
+   ],
+   "updatedAt": "2017-10-12T07:37:31Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/wallabag/wallabag/wiki/wallabag-ecosystem) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/wallabag/wallabag/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/wallabag/wallabag/issues/2058",
+    "https://github.com/wallabag/wallabag/blob/HEAD/.github/CONTRIBUTING.md",
+    "https://github.com/wallabag/wallabag/wiki/wallabag-ecosystem"
+   ]
+  },
+  {
+   "number": 2710,
+   "title": "/delete/{id} should not return 404 if item missing (e.g., already deleted)",
+   "url": "https://github.com/wallabag/wallabag/issues/2710",
+   "labels": [
+    "feat: api",
+    "good first issue"
+   ],
+   "updatedAt": "2021-12-20T09:01:48Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/wallabag/wallabag/wiki/wallabag-ecosystem) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/wallabag/wallabag/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/wallabag/wallabag/issues/2710",
+    "https://github.com/wallabag/wallabag/blob/HEAD/.github/CONTRIBUTING.md",
+    "https://github.com/wallabag/wallabag/wiki/wallabag-ecosystem"
+   ]
+  },
+  {
+   "number": 2876,
+   "title": "Suggest running the redis worker in the UI for imports",
+   "url": "https://github.com/wallabag/wallabag/issues/2876",
+   "labels": [
+    "Documentation",
+    "UI",
+    "good first issue"
+   ],
+   "updatedAt": "2017-10-12T07:37:32Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/wallabag/wallabag/wiki/wallabag-ecosystem) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/wallabag/wallabag/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/wallabag/wallabag/issues/2876",
+    "https://github.com/wallabag/wallabag/wiki/wallabag-ecosystem",
+    "https://github.com/wallabag/wallabag/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 3434,
+   "title": "Paywall: give the list of available domains",
+   "url": "https://github.com/wallabag/wallabag/issues/3434",
+   "labels": [
+    "Improvement",
+    "good first issue"
+   ],
+   "updatedAt": "2017-12-05T08:26:13Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/wallabag/wallabag/wiki/wallabag-ecosystem) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/wallabag/wallabag/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/wallabag/wallabag/issues/3434",
+    "https://github.com/wallabag/wallabag/blob/HEAD/.github/CONTRIBUTING.md",
+    "https://github.com/wallabag/wallabag/wiki/wallabag-ecosystem"
+   ]
+  },
+  {
+   "number": 4352,
+   "title": "3 links on an article page",
+   "url": "https://github.com/wallabag/wallabag/issues/4352",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2020-05-01T14:55:22Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/wallabag/wallabag/wiki/wallabag-ecosystem) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/wallabag/wallabag/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/wallabag/wallabag/issues/4352",
+    "https://github.com/wallabag/wallabag/wiki/wallabag-ecosystem",
+    "https://github.com/wallabag/wallabag/blob/HEAD/.github/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 4393,
+   "title": "Better format for tables in articles",
+   "url": "https://github.com/wallabag/wallabag/issues/4393",
+   "labels": [
+    "UI",
+    "good first issue"
+   ],
+   "updatedAt": "2020-05-15T16:44:00Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/wallabag/wallabag/wiki/wallabag-ecosystem) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/wallabag/wallabag/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/wallabag/wallabag/issues/4393",
+    "https://github.com/wallabag/wallabag/blob/HEAD/.github/CONTRIBUTING.md",
+    "https://github.com/wallabag/wallabag/wiki/wallabag-ecosystem"
+   ]
+  },
+  {
+   "number": 5689,
+   "title": "Update about page",
+   "url": "https://github.com/wallabag/wallabag/issues/5689",
+   "labels": [
+    "Feature",
+    "good first issue"
+   ],
+   "updatedAt": "2023-07-17T13:12:55Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "discard",
+   "reason": "PR #8775 by @nicosomb is already open against this issue",
+   "evidence": [
+    "https://github.com/wallabag/wallabag/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/wallabag/wallabag/pull/8775"
+   ]
+  }
+ ]
 }

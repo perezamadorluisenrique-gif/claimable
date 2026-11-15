@@ -4,6 +4,40 @@
  "language": "PHP",
  "stars": 12303,
  "description": "🔗 The 𝘥𝘦 𝘧𝘢𝘤𝘵𝘰 standard, self hosted, powerful and customizable, URL shortener in PHP",
- "visitedAt": "2026-11-13T01:07:25.191Z",
- "issues": []
+ "visitedAt": "2026-11-15T02:43:03.155Z",
+ "issues": [
+  {
+   "number": 3781,
+   "title": "Upgrade authentication POST redirects without respecting YOURLS_SITE",
+   "url": "https://github.com/YOURLS/YOURLS/issues/3781",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-05-31T20:56:25Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "discard",
+   "reason": "PR #4212 by @ozh is already open against this issue",
+   "evidence": [
+    "https://github.com/YOURLS/YOURLS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/YOURLS/YOURLS/pull/4212"
+   ]
+  },
+  {
+   "number": 3845,
+   "title": "Discrepancies in last 24 hours hit count",
+   "url": "https://github.com/YOURLS/YOURLS/issues/3845",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-05-31T14:08:31Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "discard",
+   "reason": "PR #4213 by @ozh is already open against this issue",
+   "evidence": [
+    "https://github.com/YOURLS/YOURLS/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/YOURLS/YOURLS/pull/4213"
+   ]
+  }
+ ]
 }

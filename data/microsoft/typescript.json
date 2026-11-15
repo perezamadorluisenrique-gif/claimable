@@ -4,7 +4,7 @@
  "language": "Go",
  "stars": 111871,
  "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
- "visitedAt": "2026-11-11T15:17:00.117Z",
+ "visitedAt": "2026-11-15T02:43:03.155Z",
  "issues": [
   {
    "number": 65433,
@@ -15,13 +15,14 @@
     "Help Wanted",
     "Good First Issue"
    ],
-   "updatedAt": "2026-11-10T19:33:27Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "updatedAt": "2026-11-12T01:12:44Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
    "verdict": "discard",
-   "reason": "@akhil9tiet claimed it yesterday",
+   "reason": "PR #65454 by @falakahuja is already open against this issue",
    "evidence": [
     "https://github.com/microsoft/TypeScript/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/microsoft/TypeScript/issues/65433#issuecomment-6776359636"
+    "https://github.com/microsoft/TypeScript/pull/65454",
+    "https://github.com/microsoft/TypeScript/pull/65461"
    ]
   }
  ]

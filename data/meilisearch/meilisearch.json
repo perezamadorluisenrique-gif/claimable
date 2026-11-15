@@ -4,6 +4,675 @@
  "language": "Rust",
  "stars": 59832,
  "description": "A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications.",
- "visitedAt": "2026-11-11T22:03:46.308Z",
- "issues": []
+ "visitedAt": "2026-11-15T02:43:03.155Z",
+ "issues": [
+  {
+   "number": 1495,
+   "title": "`searchableAttributes` change order of fields in response hits",
+   "url": "https://github.com/meilisearch/meilisearch/issues/1495",
+   "labels": [
+    "contribution accepted",
+    "help wanted",
+    "bug"
+   ],
+   "updatedAt": "2025-08-13T07:51:49Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "reservations",
+   "reason": "PR #924 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+3 more)",
+   "evidence": [
+    "https://github.com/meilisearch/meilisearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/meilisearch/documentation/pull/924",
+    "https://github.com/zubair-io/Maple/pull/2352",
+    "https://github.com/meilisearch/meilisearch/issues/1495",
+    "https://github.com/meilisearch/meilisearch/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.rs/tracing/0.1.40/tracing/index.html#using-the-macros"
+   ]
+  },
+  {
+   "number": 2051,
+   "title": "Dockerfile: don't use `root` as default user",
+   "url": "https://github.com/meilisearch/meilisearch/issues/2051",
+   "labels": [
+    "enhancement",
+    "tooling",
+    "help wanted"
+   ],
+   "updatedAt": "2026-09-24T10:48:06Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "reservations",
+   "reason": "PR #1358 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+5 more)",
+   "evidence": [
+    "https://github.com/meilisearch/meilisearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/meilisearch/documentation/pull/1358",
+    "https://github.com/meilisearch/meilisearch-kubernetes/pull/176",
+    "https://github.com/meilisearch/meilisearch-kubernetes/pull/182",
+    "https://github.com/meilisearch/meilisearch/issues/2051#issuecomment-5812631536",
+    "https://github.com/meilisearch/meilisearch/issues/2051",
+    "https://github.com/meilisearch/meilisearch/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.rs/tracing/0.1.40/tracing/index.html#using-the-macros"
+   ]
+  },
+  {
+   "number": 2229,
+   "title": "Update docker image to expose `meilisearch` as the entry point rather than `tini`",
+   "url": "https://github.com/meilisearch/meilisearch/issues/2229",
+   "labels": [
+    "tooling",
+    "help wanted"
+   ],
+   "updatedAt": "2023-09-11T13:40:28Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "reservations",
+   "reason": "PR #2178 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/meilisearch/meilisearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/meilisearch/meilisearch/pull/2178",
+    "https://github.com/meilisearch/meilisearch/issues/2229",
+    "https://docs.rs/tracing/0.1.40/tracing/index.html#using-the-macros",
+    "https://github.com/meilisearch/meilisearch/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 2364,
+   "title": "Fix the dump import tests on windows",
+   "url": "https://github.com/meilisearch/meilisearch/issues/2364",
+   "labels": [
+    "good first issue",
+    "windows",
+    "contribution accepted",
+    "help wanted",
+    "version upgrade",
+    "maintenance"
+   ],
+   "updatedAt": "2026-02-19T16:30:21Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.rs/tracing/0.1.40/tracing/index.html#using-the-macros) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/meilisearch/meilisearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/meilisearch/meilisearch/issues/2364",
+    "https://github.com/meilisearch/meilisearch/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.rs/tracing/0.1.40/tracing/index.html#using-the-macros"
+   ]
+  },
+  {
+   "number": 2718,
+   "title": "Enable LTO again",
+   "url": "https://github.com/meilisearch/meilisearch/issues/2718",
+   "labels": [
+    "enhancement",
+    "performance",
+    "tech discussion",
+    "help wanted"
+   ],
+   "updatedAt": "2024-12-02T10:08:49Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "discard",
+   "reason": "PR #6208 by @zamazan4ik is already open against this issue",
+   "evidence": [
+    "https://github.com/meilisearch/meilisearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/meilisearch/meilisearch/pull/6208",
+    "https://github.com/meilisearch/meilisearch/pull/2717",
+    "https://github.com/meilisearch/meilisearch/pull/2726"
+   ]
+  },
+  {
+   "number": 2891,
+   "title": "Improve GitHub CI manifest: remove useless `matrix`?",
+   "url": "https://github.com/meilisearch/meilisearch/issues/2891",
+   "labels": [
+    "contribution accepted",
+    "help wanted",
+    "github actions",
+    "maintenance"
+   ],
+   "updatedAt": "2026-11-10T14:44:16Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.rs/tracing/0.1.40/tracing/index.html#using-the-macros) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/meilisearch/meilisearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/meilisearch/meilisearch/issues/2891",
+    "https://github.com/meilisearch/meilisearch/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.rs/tracing/0.1.40/tracing/index.html#using-the-macros"
+   ]
+  },
+  {
+   "number": 2992,
+   "title": "Add tests for the snapshots",
+   "url": "https://github.com/meilisearch/meilisearch/issues/2992",
+   "labels": [
+    "help wanted",
+    "maintenance"
+   ],
+   "updatedAt": "2026-11-10T14:44:21Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @mansiverma897993 257 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/meilisearch/meilisearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/meilisearch/meilisearch/issues/2992#issuecomment-3985742387",
+    "https://github.com/meilisearch/meilisearch/issues/2992",
+    "https://github.com/meilisearch/meilisearch/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.rs/tracing/0.1.40/tracing/index.html#using-the-macros"
+   ]
+  },
+  {
+   "number": 3177,
+   "title": "`latest` tag update: do it only if the GitHub release is considered as the latest one",
+   "url": "https://github.com/meilisearch/meilisearch/issues/3177",
+   "labels": [
+    "contribution accepted",
+    "help wanted",
+    "github actions",
+    "bug",
+    "maintenance"
+   ],
+   "updatedAt": "2026-11-10T14:44:30Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "discard",
+   "reason": "PR #6733 by @curquiza is already open against this issue",
+   "evidence": [
+    "https://github.com/meilisearch/meilisearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/meilisearch/meilisearch/pull/6733"
+   ]
+  },
+  {
+   "number": 3206,
+   "title": "Major lack of documentation in codebase",
+   "url": "https://github.com/meilisearch/meilisearch/issues/3206",
+   "labels": [
+    "good first issue",
+    "documentation",
+    "contribution accepted"
+   ],
+   "updatedAt": "2026-08-25T10:01:52Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.rs/tracing/0.1.40/tracing/index.html#using-the-macros) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/meilisearch/meilisearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/meilisearch/meilisearch/issues/3206",
+    "https://github.com/meilisearch/meilisearch/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.rs/tracing/0.1.40/tracing/index.html#using-the-macros"
+   ]
+  },
+  {
+   "number": 3239,
+   "title": "Find a way to test our CLI",
+   "url": "https://github.com/meilisearch/meilisearch/issues/3239",
+   "labels": [
+    "help wanted",
+    "maintenance"
+   ],
+   "updatedAt": "2026-11-10T14:44:39Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "reservations",
+   "reason": "PR #3237 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/meilisearch/meilisearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/meilisearch/meilisearch/pull/3237",
+    "https://github.com/meilisearch/meilisearch/issues/3239",
+    "https://github.com/meilisearch/meilisearch/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.rs/tracing/0.1.40/tracing/index.html#using-the-macros"
+   ]
+  },
+  {
+   "number": 3273,
+   "title": "Optimize cargo flaky",
+   "url": "https://github.com/meilisearch/meilisearch/issues/3273",
+   "labels": [
+    "help wanted",
+    "maintenance"
+   ],
+   "updatedAt": "2026-11-10T14:44:43Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "reservations",
+   "reason": "PR #3348 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/meilisearch/meilisearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/meilisearch/meilisearch/pull/3348",
+    "https://github.com/meilisearch/meilisearch/issues/3273",
+    "https://github.com/meilisearch/meilisearch/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.rs/tracing/0.1.40/tracing/index.html#using-the-macros"
+   ]
+  },
+  {
+   "number": 3377,
+   "title": "Improve the geosearch",
+   "url": "https://github.com/meilisearch/meilisearch/issues/3377",
+   "labels": [
+    "milli",
+    "performance",
+    "help wanted"
+   ],
+   "updatedAt": "2026-08-18T20:20:00Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "discard",
+   "reason": "PR #3581 by @jkao is already open against this issue",
+   "evidence": [
+    "https://github.com/meilisearch/meilisearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/meilisearch/meilisearch/issues/3581"
+   ]
+  },
+  {
+   "number": 3443,
+   "title": "Contribute to Meilisearch language support!",
+   "url": "https://github.com/meilisearch/meilisearch/issues/3443",
+   "labels": [
+    "good first issue",
+    "tracking issue",
+    "contribution accepted"
+   ],
+   "updatedAt": "2023-03-27T11:31:22Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "reservations",
+   "reason": "open 46 months with no human comment, in a repo pushed to 2 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+2 more)",
+   "evidence": [
+    "https://github.com/meilisearch/meilisearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/meilisearch/meilisearch/issues/3443",
+    "https://github.com/meilisearch/meilisearch/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.rs/tracing/0.1.40/tracing/index.html#using-the-macros"
+   ]
+  },
+  {
+   "number": 3782,
+   "title": "Improve Docker CI speed with cache",
+   "url": "https://github.com/meilisearch/meilisearch/issues/3782",
+   "labels": [
+    "contribution accepted",
+    "help wanted",
+    "github actions",
+    "maintenance"
+   ],
+   "updatedAt": "2026-11-10T14:45:11Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.rs/tracing/0.1.40/tracing/index.html#using-the-macros) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/meilisearch/meilisearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/meilisearch/meilisearch/issues/3782",
+    "https://docs.rs/tracing/0.1.40/tracing/index.html#using-the-macros",
+    "https://github.com/meilisearch/meilisearch/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 4379,
+   "title": "download-latest.sh: return an error when the musl C library is present on the machine",
+   "url": "https://github.com/meilisearch/meilisearch/issues/4379",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "tooling",
+    "contribution accepted"
+   ],
+   "updatedAt": "2024-02-01T11:15:22Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "discard",
+   "reason": "PR #6574 by @Joshuaisikah is already open against this issue",
+   "evidence": [
+    "https://github.com/meilisearch/meilisearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/meilisearch/meilisearch/pull/6574"
+   ]
+  },
+  {
+   "number": 4402,
+   "title": "Meilisearch x Azure: current incompatibilities",
+   "url": "https://github.com/meilisearch/meilisearch/issues/4402",
+   "labels": [
+    "needs more info",
+    "impacts docs",
+    "help wanted",
+    "bug"
+   ],
+   "updatedAt": "2025-10-21T08:27:44Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "discard",
+   "reason": "PR #11678 by @jpaodev is already open against this issue",
+   "evidence": [
+    "https://github.com/meilisearch/meilisearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/LibreChat-AI/LibreChat/pull/11678",
+    "https://github.com/iota-uz/iota-sdk/pull/1000"
+   ]
+  },
+  {
+   "number": 4645,
+   "title": "Change key actions to be bitflags",
+   "url": "https://github.com/meilisearch/meilisearch/issues/4645",
+   "labels": [
+    "good first issue",
+    "maintenance"
+   ],
+   "updatedAt": "2026-02-19T16:30:20Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "reservations",
+   "reason": "PR #4626 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+4 more)",
+   "evidence": [
+    "https://github.com/meilisearch/meilisearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/meilisearch/meilisearch/pull/4626",
+    "https://github.com/meilisearch/meilisearch/pull/4940",
+    "https://github.com/meilisearch/meilisearch/issues/4645#issuecomment-2322852341",
+    "https://github.com/meilisearch/meilisearch/issues/4645",
+    "https://github.com/meilisearch/meilisearch/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.rs/tracing/0.1.40/tracing/index.html#using-the-macros"
+   ]
+  },
+  {
+   "number": 4764,
+   "title": "[investigation] LMDB RAM consumption is not restricted",
+   "url": "https://github.com/meilisearch/meilisearch/issues/4764",
+   "labels": [
+    "good first issue",
+    "CPU/RAM usage",
+    "spike"
+   ],
+   "updatedAt": "2025-12-18T15:37:21Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.rs/tracing/0.1.40/tracing/index.html#using-the-macros) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/meilisearch/meilisearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/meilisearch/meilisearch/issues/4764",
+    "https://github.com/meilisearch/meilisearch/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.rs/tracing/0.1.40/tracing/index.html#using-the-macros"
+   ]
+  },
+  {
+   "number": 4840,
+   "title": "Make the meilisearch integration tests run faster",
+   "url": "https://github.com/meilisearch/meilisearch/issues/4840",
+   "labels": [
+    "good first issue",
+    "help wanted",
+    "maintenance"
+   ],
+   "updatedAt": "2026-02-19T16:30:21Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "reservations",
+   "reason": "PR #4962 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+42 more)",
+   "evidence": [
+    "https://github.com/meilisearch/meilisearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/meilisearch/meilisearch/pull/4962",
+    "https://github.com/meilisearch/meilisearch/pull/4963",
+    "https://github.com/meilisearch/meilisearch/pull/5025",
+    "https://github.com/meilisearch/meilisearch/pull/5026",
+    "https://github.com/meilisearch/meilisearch/pull/5043",
+    "https://github.com/meilisearch/meilisearch/pull/5182",
+    "https://github.com/meilisearch/meilisearch/pull/5210",
+    "https://github.com/meilisearch/meilisearch/pull/5572",
+    "https://github.com/meilisearch/meilisearch/pull/5574"
+   ]
+  },
+  {
+   "number": 5116,
+   "title": "Split the unit-tests from the source code",
+   "url": "https://github.com/meilisearch/meilisearch/issues/5116",
+   "labels": [
+    "good first issue",
+    "maintenance"
+   ],
+   "updatedAt": "2026-02-19T16:30:20Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "discard",
+   "reason": "PR #5949 by @chrisjung01 is already open against this issue",
+   "evidence": [
+    "https://github.com/meilisearch/meilisearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/meilisearch/meilisearch/pull/5949",
+    "https://github.com/meilisearch/meilisearch/pull/6107",
+    "https://github.com/meilisearch/meilisearch/pull/6108",
+    "https://github.com/meilisearch/meilisearch/pull/6685",
+    "https://github.com/meilisearch/meilisearch/pull/5134",
+    "https://github.com/meilisearch/meilisearch/pull/5171",
+    "https://github.com/meilisearch/meilisearch/pull/5174",
+    "https://github.com/meilisearch/meilisearch/pull/5424",
+    "https://github.com/meilisearch/meilisearch/pull/6468"
+   ]
+  },
+  {
+   "number": 5236,
+   "title": "Meilisearch service is unavailable three or four times a day",
+   "url": "https://github.com/meilisearch/meilisearch/issues/5236",
+   "labels": [
+    "windows",
+    "help wanted"
+   ],
+   "updatedAt": "2025-01-28T08:17:51Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.rs/tracing/0.1.40/tracing/index.html#using-the-macros) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/meilisearch/meilisearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/meilisearch/meilisearch/issues/5236",
+    "https://github.com/meilisearch/meilisearch/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.rs/tracing/0.1.40/tracing/index.html#using-the-macros"
+   ]
+  },
+  {
+   "number": 5298,
+   "title": "Phrase search doesn't work when it contains stop_words",
+   "url": "https://github.com/meilisearch/meilisearch/issues/5298",
+   "labels": [
+    "contribution accepted",
+    "help wanted",
+    "bug"
+   ],
+   "updatedAt": "2026-08-18T08:56:12Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "discard",
+   "reason": "PR #5491 by @ManyTheFish is already open against this issue",
+   "evidence": [
+    "https://github.com/meilisearch/meilisearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/meilisearch/meilisearch/pull/5491"
+   ]
+  },
+  {
+   "number": 5508,
+   "title": "Error message for `max_fields_limit_exceeded` is misleading",
+   "url": "https://github.com/meilisearch/meilisearch/issues/5508",
+   "labels": [
+    "good first issue",
+    "impacts docs",
+    "bug"
+   ],
+   "updatedAt": "2026-10-22T22:29:03Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "discard",
+   "reason": "PR #6209 by @Br1an67 is already open against this issue",
+   "evidence": [
+    "https://github.com/meilisearch/meilisearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/meilisearch/meilisearch/pull/6209",
+    "https://github.com/mango766/meilisearch/pull/1"
+   ]
+  },
+  {
+   "number": 5591,
+   "title": "Add more details in the FST building progress",
+   "url": "https://github.com/meilisearch/meilisearch/issues/5591",
+   "labels": [
+    "good first issue",
+    "maintenance"
+   ],
+   "updatedAt": "2026-02-19T16:30:20Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "discard",
+   "reason": "PR #6138 by @valkrypton is already open against this issue",
+   "evidence": [
+    "https://github.com/meilisearch/meilisearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/meilisearch/meilisearch/pull/6138"
+   ]
+  },
+  {
+   "number": 5654,
+   "title": "Missing progress trace in facet post-processing stats",
+   "url": "https://github.com/meilisearch/meilisearch/issues/5654",
+   "labels": [
+    "good first issue",
+    "maintenance"
+   ],
+   "updatedAt": "2026-03-13T06:07:44Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.rs/tracing/0.1.40/tracing/index.html#using-the-macros) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/meilisearch/meilisearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/meilisearch/meilisearch/issues/5654",
+    "https://github.com/meilisearch/meilisearch/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.rs/tracing/0.1.40/tracing/index.html#using-the-macros"
+   ]
+  },
+  {
+   "number": 5669,
+   "title": "update config.toml file to reflect chatCompletion experimental feature",
+   "url": "https://github.com/meilisearch/meilisearch/issues/5669",
+   "labels": [
+    "good first issue",
+    "experimental feature"
+   ],
+   "updatedAt": "2026-09-26T14:54:31Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @theworker02 49 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/meilisearch/meilisearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/meilisearch/meilisearch/issues/5669#issuecomment-5847239323",
+    "https://github.com/meilisearch/meilisearch/issues/5669",
+    "https://github.com/meilisearch/meilisearch/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.rs/tracing/0.1.40/tracing/index.html#using-the-macros"
+   ]
+  },
+  {
+   "number": 5673,
+   "title": "suggest add build target musl ,GLIBC2.35 is niche",
+   "url": "https://github.com/meilisearch/meilisearch/issues/5673",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2026-05-03T18:53:18Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "discard",
+   "reason": "PR #6366 by @ashish4143 is already open against this issue",
+   "evidence": [
+    "https://github.com/meilisearch/meilisearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/meilisearch/meilisearch/pull/6366"
+   ]
+  },
+  {
+   "number": 5684,
+   "title": "Chat completions with gemini",
+   "url": "https://github.com/meilisearch/meilisearch/issues/5684",
+   "labels": [
+    "good first issue",
+    "bug"
+   ],
+   "updatedAt": "2026-06-09T17:50:52Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "reservations",
+   "reason": "PR #5692 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+3 more)",
+   "evidence": [
+    "https://github.com/meilisearch/meilisearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/meilisearch/meilisearch/pull/5692",
+    "https://github.com/meilisearch/meilisearch/pull/5708",
+    "https://github.com/meilisearch/meilisearch/issues/5684",
+    "https://github.com/meilisearch/meilisearch/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.rs/tracing/0.1.40/tracing/index.html#using-the-macros"
+   ]
+  },
+  {
+   "number": 5736,
+   "title": "Add a test to export chat settings in dumps",
+   "url": "https://github.com/meilisearch/meilisearch/issues/5736",
+   "labels": [
+    "good first issue",
+    "maintenance"
+   ],
+   "updatedAt": "2026-02-28T12:54:47Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "discard",
+   "reason": "PR #5865 by @shreeup is already open against this issue",
+   "evidence": [
+    "https://github.com/meilisearch/meilisearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/meilisearch/meilisearch/pull/5865",
+    "https://github.com/meilisearch/meilisearch/pull/6189"
+   ]
+  },
+  {
+   "number": 5748,
+   "title": "Mock server initialisation glitch in tests on windows",
+   "url": "https://github.com/meilisearch/meilisearch/issues/5748",
+   "labels": [
+    "good first issue",
+    "maintenance"
+   ],
+   "updatedAt": "2026-02-19T16:30:21Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @Mr-KRAMA 417 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "evidence": [
+    "https://github.com/meilisearch/meilisearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/meilisearch/meilisearch/issues/5748#issuecomment-3328006407",
+    "https://github.com/meilisearch/meilisearch/issues/5748",
+    "https://github.com/meilisearch/meilisearch/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.rs/tracing/0.1.40/tracing/index.html#using-the-macros"
+   ]
+  },
+  {
+   "number": 6048,
+   "title": "Make sure payloads are effectively deleted on error",
+   "url": "https://github.com/meilisearch/meilisearch/issues/6048",
+   "labels": [
+    "good first issue",
+    "bug",
+    "Internal work",
+    "affects costs"
+   ],
+   "updatedAt": "2026-08-19T17:55:19Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "discard",
+   "reason": "PR #6097 by @Vipul-045 is already open against this issue",
+   "evidence": [
+    "https://github.com/meilisearch/meilisearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/meilisearch/meilisearch/pull/6097",
+    "https://github.com/meilisearch/meilisearch/pull/6000",
+    "https://github.com/Vipul-045/meilisearch/pull/1"
+   ]
+  },
+  {
+   "number": 6049,
+   "title": "Support target index names in the support route",
+   "url": "https://github.com/meilisearch/meilisearch/issues/6049",
+   "labels": [
+    "good first issue",
+    "impacts docs",
+    "impacts integrations",
+    "feature/enhancement",
+    "Retention"
+   ],
+   "updatedAt": "2026-08-14T18:28:56Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "discard",
+   "reason": "PR #6483 by @0xfandom is already open against this issue",
+   "evidence": [
+    "https://github.com/meilisearch/meilisearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/meilisearch/meilisearch/pull/6483"
+   ]
+  },
+  {
+   "number": 6051,
+   "title": "Cannot take snapshots on Windows due to map_size and page_size values",
+   "url": "https://github.com/meilisearch/meilisearch/issues/6051",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2026-10-29T20:18:15Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "discard",
+   "reason": "PR #6060 by @Adnanebds is already open against this issue",
+   "evidence": [
+    "https://github.com/meilisearch/meilisearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/meilisearch/meilisearch/pull/6060",
+    "https://github.com/meilisearch/meilisearch/pull/6581",
+    "https://github.com/meilisearch/meilisearch/pull/6454"
+   ]
+  }
+ ]
 }

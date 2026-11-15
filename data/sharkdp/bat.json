@@ -4,7 +4,7 @@
  "language": "Rust",
  "stars": 61276,
  "description": "A cat(1) clone with wings.",
- "visitedAt": "2026-11-11T22:03:46.308Z",
+ "visitedAt": "2026-11-15T02:43:03.155Z",
  "issues": [
   {
    "number": 304,
@@ -112,6 +112,87 @@
    "evidence": [
     "https://github.com/sharkdp/bat/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/sharkdp/bat/pull/4016"
+   ]
+  },
+  {
+   "number": 2095,
+   "title": "[windows] fzf integration sample from readme does not work",
+   "url": "https://github.com/sharkdp/bat/issues/2095",
+   "labels": [
+    "help wanted",
+    "documentation",
+    "windows"
+   ],
+   "updatedAt": "2022-05-13T02:31:46Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "discard",
+   "reason": "PR #18 by @github-actions[bot] is already open against this issue",
+   "evidence": [
+    "https://github.com/sharkdp/bat/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/jnnycn007/Armbian-build/pull/18",
+    "https://github.com/sharkdp/bat/pull/3742",
+    "https://github.com/sharkdp/bat/pull/3799",
+    "https://github.com/sharkdp/bat/pull/2639",
+    "https://github.com/armbian/build/pull/6965"
+   ]
+  },
+  {
+   "number": 2112,
+   "title": "Update to newer VC version - at least VS 2015",
+   "url": "https://github.com/sharkdp/bat/issues/2112",
+   "labels": [
+    "help wanted",
+    "packaging/tooling",
+    "windows"
+   ],
+   "updatedAt": "2022-03-28T14:29:27Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "reservations",
+   "reason": "the project's own setup docs say they are broken: \"currently not supported\"",
+   "evidence": [
+    "https://github.com/sharkdp/bat/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/sharkdp/bat/issues/2112",
+    "https://github.com/sharkdp/bat/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 2262,
+   "title": "Detect binary file takes too long",
+   "url": "https://github.com/sharkdp/bat/issues/2262",
+   "labels": [
+    "bug",
+    "help wanted",
+    "performance"
+   ],
+   "updatedAt": "2023-03-14T20:25:54Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "discard",
+   "reason": "PR #3763 by @puneetdixit200 is already open against this issue",
+   "evidence": [
+    "https://github.com/sharkdp/bat/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/sharkdp/bat/pull/3763",
+    "https://github.com/sharkdp/bat/pull/3877",
+    "https://github.com/sharkdp/bat/pull/4076"
+   ]
+  },
+  {
+   "number": 3366,
+   "title": "[Performance] Use `tree-sitter` to provide syntax highlighting ?",
+   "url": "https://github.com/sharkdp/bat/issues/3366",
+   "labels": [
+    "feature-request",
+    "help wanted",
+    "syntax-highlighting",
+    "needs-work"
+   ],
+   "updatedAt": "2026-11-13T14:43:27Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "discard",
+   "reason": "PR #3648 by @schuelermine is already open against this issue",
+   "evidence": [
+    "https://github.com/sharkdp/bat/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/sharkdp/bat/issues/3648",
+    "https://github.com/sharkdp/bat/issues/3218"
    ]
   }
  ]

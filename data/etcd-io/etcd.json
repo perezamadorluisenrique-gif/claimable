@@ -4,7 +4,7 @@
  "language": "Go",
  "stars": 52688,
  "description": "Distributed reliable key-value store for the most critical data of a distributed system",
- "visitedAt": "2026-11-11T15:17:00.117Z",
+ "visitedAt": "2026-11-15T02:43:03.155Z",
  "issues": [
   {
    "number": 10246,
@@ -35,10 +35,10 @@
     "stage/tracked",
     "contribfest"
    ],
-   "updatedAt": "2026-11-10T14:23:38Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
-   "verdict": "reservations",
-   "reason": "PR #13651 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+17 more)",
+   "updatedAt": "2026-11-11T18:19:37Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "discard",
+   "reason": "already assigned to @Abhayrkhot",
    "evidence": [
     "https://github.com/etcd-io/etcd/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/etcd-io/etcd/pull/13651",
@@ -63,8 +63,8 @@
     "area/tooling",
     "priority/important-soon"
    ],
-   "updatedAt": "2026-09-07T09:45:14Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "updatedAt": "2026-11-11T19:39:33Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
    "verdict": "discard",
    "reason": "PR #21604 by @akstron is already open against this issue",
    "evidence": [
@@ -272,6 +272,87 @@
    "evidence": [
     "https://github.com/etcd-io/etcd/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/etcd-io/etcd/pull/22677"
+   ]
+  },
+  {
+   "number": 20623,
+   "title": "[robustness tests] Consider adding Keys, Count to Kubernetes traffic generator",
+   "url": "https://github.com/etcd-io/etcd/issues/20623",
+   "labels": [
+    "help wanted",
+    "type/feature",
+    "area/robustness-testing"
+   ],
+   "updatedAt": "2026-07-30T18:20:47Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "discard",
+   "reason": "PR #21209 by @fury0928 is already open against this issue",
+   "evidence": [
+    "https://github.com/etcd-io/etcd/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/etcd-io/etcd/pull/21209"
+   ]
+  },
+  {
+   "number": 20804,
+   "title": "[test] support cluster-api style rolling replacement upgrade",
+   "url": "https://github.com/etcd-io/etcd/issues/20804",
+   "labels": [
+    "area/testing",
+    "help wanted",
+    "type/feature",
+    "stage/tracked"
+   ],
+   "updatedAt": "2026-06-03T08:19:37Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "discard",
+   "reason": "PR #21803 by @akstron is already open against this issue",
+   "evidence": [
+    "https://github.com/etcd-io/etcd/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/etcd-io/etcd/pull/21803",
+    "https://github.com/etcd-io/etcd/pull/20797"
+   ]
+  },
+  {
+   "number": 20932,
+   "title": "Add server information to robustness response information",
+   "url": "https://github.com/etcd-io/etcd/issues/20932",
+   "labels": [
+    "help wanted",
+    "type/feature",
+    "area/robustness-testing"
+   ],
+   "updatedAt": "2026-01-14T19:13:26Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "discard",
+   "reason": "already assigned to @nwnt, @jihogh",
+   "evidence": [
+    "https://github.com/etcd-io/etcd/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/etcd-io/etcd/pull/21016",
+    "https://github.com/etcd-io/etcd/issues/20932",
+    "https://github.com/etcd-io/etcd/issues/20932#issuecomment-3640577013"
+   ]
+  },
+  {
+   "number": 21032,
+   "title": "Find and classify all the exit codes returned by etcdserver",
+   "url": "https://github.com/etcd-io/etcd/issues/21032",
+   "labels": [
+    "help wanted",
+    "type/feature",
+    "area/robustness-testing"
+   ],
+   "updatedAt": "2026-11-12T00:55:37Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "discard",
+   "reason": "PR #21963 by @housengw is already open against this issue",
+   "evidence": [
+    "https://github.com/etcd-io/etcd/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/etcd-io/etcd/pull/21963",
+    "https://github.com/etcd-io/etcd/pull/22584",
+    "https://github.com/etcd-io/etcd/pull/22713",
+    "https://github.com/etcd-io/etcd/pull/22811",
+    "https://github.com/etcd-io/etcd/pull/21062",
+    "https://github.com/Asthenia0412/etcd/pull/1"
    ]
   }
  ]

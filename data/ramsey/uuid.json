@@ -4,6 +4,25 @@
  "language": "PHP",
  "stars": 12632,
  "description": ":snowflake: A PHP library for generating universally unique identifiers (UUIDs).",
- "visitedAt": "2026-11-13T01:07:25.191Z",
- "issues": []
+ "visitedAt": "2026-11-15T02:43:03.155Z",
+ "issues": [
+  {
+   "number": 536,
+   "title": "Uuid v7 generated in wrong order",
+   "url": "https://github.com/ramsey/uuid/issues/536",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-07-06T18:12:16Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (http://docs.oracle.com/javase/6/docs/api/java/util/UUID.html) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/ramsey/uuid/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ramsey/uuid/issues/536",
+    "http://docs.oracle.com/javase/6/docs/api/java/util/UUID.html"
+   ]
+  }
+ ]
 }

@@ -4,7 +4,7 @@
  "language": "Java",
  "stars": 37801,
  "description": "Open Source Identity and Access Management For Modern Applications and Services",
- "visitedAt": "2026-11-11T06:29:52.958Z",
+ "visitedAt": "2026-11-15T02:43:03.155Z",
  "issues": [
   {
    "number": 8744,
@@ -39,8 +39,8 @@
     "good first issue",
     "team/core-shared"
    ],
-   "updatedAt": "2026-07-21T20:00:04Z",
-   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "updatedAt": "2026-11-13T04:11:12Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
    "verdict": "discard",
    "reason": "PR #51071 by @dbunner2 is already open against this issue",
    "evidence": [
@@ -88,28 +88,6 @@
    "evidence": [
     "https://github.com/keycloak/keycloak/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/keycloak/keycloak/issues/10897#issuecomment-6513421448"
-   ]
-  },
-  {
-   "number": 11159,
-   "title": "Set helo/ehlo hostname to configured hostname when sending mail",
-   "url": "https://github.com/keycloak/keycloak/issues/11159",
-   "labels": [
-    "kind/enhancement",
-    "area/core",
-    "help wanted"
-   ],
-   "updatedAt": "2026-10-03T18:57:13Z",
-   "checkedAt": "2026-11-11T06:29:52.958Z",
-   "verdict": "reservations",
-   "reason": "1 stale claim, the most recent by @ybai08 38 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
-   "evidence": [
-    "https://github.com/keycloak/keycloak/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/keycloak/keycloak/issues/11159#issuecomment-5972435597",
-    "https://github.com/keycloak/keycloak/issues/11159",
-    "https://github.com/keycloak/keycloak/blob/HEAD/README.md",
-    "https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue",
-    "https://github.com/keycloak/keycloak/blob/HEAD/CONTRIBUTING.md"
    ]
   },
   {
@@ -410,6 +388,29 @@
    ]
   },
   {
+   "number": 35235,
+   "title": "Managing User Deletion and LDAP Synchronization in Keycloak",
+   "url": "https://github.com/keycloak/keycloak/issues/35235",
+   "labels": [
+    "kind/enhancement",
+    "priority/important",
+    "area/ldap",
+    "help wanted",
+    "team/core-iam",
+    "status/bumped-by-bot"
+   ],
+   "updatedAt": "2026-11-11T08:21:56Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "discard",
+   "reason": "PR #38 by @obochan-rh is already open against this issue",
+   "evidence": [
+    "https://github.com/keycloak/keycloak/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/osac-project/docs/pull/38",
+    "https://github.com/keycloak/keycloak/pull/55026",
+    "https://github.com/keycloak/keycloak/pull/35013"
+   ]
+  },
+  {
    "number": 36116,
    "title": "kc_locale parameter not working as expected in keycloak 25 (keycloak.v3 account theme)",
    "url": "https://github.com/keycloak/keycloak/issues/36116",
@@ -433,25 +434,6 @@
     "https://github.com/keycloak/keycloak/blob/HEAD/README.md",
     "https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue",
     "https://github.com/keycloak/keycloak/blob/HEAD/CONTRIBUTING.md"
-   ]
-  },
-  {
-   "number": 37878,
-   "title": "Keycloak should not offer to let you download mod_auth_mellon adapter configs if not all required values are present",
-   "url": "https://github.com/keycloak/keycloak/issues/37878",
-   "labels": [
-    "area/saml",
-    "kind/enhancement",
-    "help wanted",
-    "team/core-clients"
-   ],
-   "updatedAt": "2026-10-03T18:14:00Z",
-   "checkedAt": "2026-11-11T06:29:52.958Z",
-   "verdict": "discard",
-   "reason": "PR #37879 by @thegushi is already open against this issue",
-   "evidence": [
-    "https://github.com/keycloak/keycloak/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/keycloak/keycloak/issues/37879"
    ]
   },
   {
@@ -860,26 +842,6 @@
    ]
   },
   {
-   "number": 49601,
-   "title": "SAML adapter ignores turnOffChangeSessionIdOnLogin in DeploymentBuilder",
-   "url": "https://github.com/keycloak/keycloak/issues/49601",
-   "labels": [
-    "area/saml",
-    "kind/bug",
-    "priority/important",
-    "help wanted",
-    "team/core-protocols"
-   ],
-   "updatedAt": "2026-11-05T07:43:16Z",
-   "checkedAt": "2026-11-11T06:29:52.958Z",
-   "verdict": "discard",
-   "reason": "PR #49604 by @SchubertS96 is already open against this issue",
-   "evidence": [
-    "https://github.com/keycloak/keycloak/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/keycloak/keycloak/pull/49604"
-   ]
-  },
-  {
    "number": 50458,
    "title": "Organization Feature Disabling breaks Browser Authentication Flow",
    "url": "https://github.com/keycloak/keycloak/issues/50458",
@@ -1216,6 +1178,27 @@
    ]
   },
   {
+   "number": 51365,
+   "title": "DCR: Validate URIs based on application type",
+   "url": "https://github.com/keycloak/keycloak/issues/51365",
+   "labels": [
+    "area/oidc",
+    "kind/enhancement",
+    "help wanted",
+    "status/auto-expire",
+    "priority/normal",
+    "team/core-protocols"
+   ],
+   "updatedAt": "2026-11-11T11:03:24Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "discard",
+   "reason": "PR #50215 by @tnorimat is already open against this issue",
+   "evidence": [
+    "https://github.com/keycloak/keycloak/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/keycloak/keycloak/issues/50215"
+   ]
+  },
+  {
    "number": 51385,
    "title": "Query Performance degradation for user stream is slowed down by distinct query",
    "url": "https://github.com/keycloak/keycloak/issues/51385",
@@ -1440,32 +1423,6 @@
    "evidence": [
     "https://github.com/keycloak/keycloak/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/keycloak/keycloak/issues/52352",
-    "https://github.com/keycloak/keycloak/blob/HEAD/README.md",
-    "https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue",
-    "https://github.com/keycloak/keycloak/blob/HEAD/CONTRIBUTING.md"
-   ]
-  },
-  {
-   "number": 52578,
-   "title": "SecureRedirectUrisEnforcerExecutor enforces PostLogoutRedirectURIs only on CRUD operations",
-   "url": "https://github.com/keycloak/keycloak/issues/52578",
-   "labels": [
-    "area/oidc",
-    "kind/bug",
-    "help wanted",
-    "status/auto-expire",
-    "status/auto-bump",
-    "priority/normal",
-    "team/core-protocols"
-   ],
-   "updatedAt": "2026-10-03T15:59:15Z",
-   "checkedAt": "2026-11-11T06:29:52.958Z",
-   "verdict": "reservations",
-   "reason": "1 stale claim, the most recent by @ybai08 39 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
-   "evidence": [
-    "https://github.com/keycloak/keycloak/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/keycloak/keycloak/issues/52578#issuecomment-5970832610",
-    "https://github.com/keycloak/keycloak/issues/52578",
     "https://github.com/keycloak/keycloak/blob/HEAD/README.md",
     "https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue",
     "https://github.com/keycloak/keycloak/blob/HEAD/CONTRIBUTING.md"
@@ -1929,13 +1886,14 @@
     "team/core-authn",
     "backport/26.8"
    ],
-   "updatedAt": "2026-10-13T07:47:40Z",
-   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "updatedAt": "2026-11-11T12:41:54Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
    "verdict": "discard",
    "reason": "PR #54828 by @Inf1mum is already open against this issue",
    "evidence": [
     "https://github.com/keycloak/keycloak/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/keycloak/keycloak/pull/54828"
+    "https://github.com/keycloak/keycloak/pull/54828",
+    "https://github.com/keycloak/keycloak/pull/55039"
    ]
   },
   {
@@ -1971,10 +1929,10 @@
     "priority/low",
     "status/auto-bump"
    ],
-   "updatedAt": "2026-10-19T13:02:11Z",
-   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "updatedAt": "2026-11-12T18:40:38Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
    "verdict": "reservations",
-   "reason": "1 stale claim, the most recent by @Sagar07Kr 24 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "reason": "1 stale claim, the most recent by @Sagar07Kr 28 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
    "evidence": [
     "https://github.com/keycloak/keycloak/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/keycloak/keycloak/issues/54008#issuecomment-6245692546",
@@ -2390,6 +2348,52 @@
    "evidence": [
     "https://github.com/keycloak/keycloak/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/keycloak/keycloak/pull/54729"
+   ]
+  },
+  {
+   "number": 55023,
+   "title": "persian language is missing font and styling",
+   "url": "https://github.com/keycloak/keycloak/issues/55023",
+   "labels": [
+    "kind/enhancement",
+    "area/translations",
+    "help wanted",
+    "team/community"
+   ],
+   "updatedAt": "2026-11-11T13:11:41Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/keycloak/keycloak/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/keycloak/keycloak/issues/55023",
+    "https://github.com/keycloak/keycloak/blob/HEAD/README.md",
+    "https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue",
+    "https://github.com/keycloak/keycloak/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 55134,
+   "title": "Creating a realm from a representation drops the description of organization groups",
+   "url": "https://github.com/keycloak/keycloak/issues/55134",
+   "labels": [
+    "kind/bug",
+    "help wanted",
+    "team/core-iam",
+    "status/auto-expire",
+    "status/auto-bump",
+    "priority/normal",
+    "area/organizations",
+    "status/labeled-by-bot"
+   ],
+   "updatedAt": "2026-11-13T19:58:25Z",
+   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "verdict": "discard",
+   "reason": "PR #55135 by @Hakaou is already open against this issue",
+   "evidence": [
+    "https://github.com/keycloak/keycloak/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/keycloak/keycloak/pull/55135",
+    "https://github.com/keycloak/keycloak/pull/55176"
    ]
   }
  ]

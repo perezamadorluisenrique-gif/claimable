@@ -132,7 +132,7 @@
   "lastNewIssue": "2025-10-02T14:17:27Z"
  },
  "langgenius/dify": {
-  "nextCheck": "2026-11-11T23:25:58.547Z",
+  "nextCheck": "2026-11-18T02:43:03.155Z",
   "lastNewIssue": "2026-11-05T05:53:44Z"
  },
  "langchain-ai/langchain": {
@@ -204,8 +204,8 @@
   "lastNewIssue": "2026-09-28T14:34:37Z"
  },
  "keycloak/keycloak": {
-  "nextCheck": "2026-11-12T06:29:52.958Z",
-  "lastNewIssue": "2026-11-05T09:01:38Z"
+  "nextCheck": "2026-11-16T02:43:03.155Z",
+  "lastNewIssue": "2026-11-12T23:15:19Z"
  },
  "alibaba/arthas": {
   "nextCheck": "2026-11-18T06:29:52.958Z",
@@ -228,11 +228,11 @@
   "lastNewIssue": "2024-05-21T00:14:06Z"
  },
  "alibaba/nacos": {
-  "nextCheck": "2026-11-11T07:29:52.958Z",
+  "nextCheck": "2026-11-22T02:43:03.155Z",
   "lastNewIssue": "2025-06-19T09:50:42Z"
  },
  "conductor-oss/conductor": {
-  "nextCheck": "2026-11-11T07:29:52.958Z",
+  "nextCheck": "2026-11-22T02:43:03.155Z",
   "lastNewIssue": "2026-08-21T18:35:59Z"
  },
  "floci-io/floci": {
@@ -252,7 +252,7 @@
   "lastNewIssue": "2026-10-15T01:26:04Z"
  },
  "microsoft/typescript": {
-  "nextCheck": "2026-11-12T15:17:00.117Z",
+  "nextCheck": "2026-11-16T02:43:03.155Z",
   "lastNewIssue": "2026-11-10T18:13:20Z"
  },
  "syncthing/syncthing": {
@@ -288,11 +288,11 @@
   "lastNewIssue": "2024-07-18T21:49:38Z"
  },
  "etcd-io/etcd": {
-  "nextCheck": "2026-11-11T16:17:00.117Z",
+  "nextCheck": "2026-11-22T02:43:03.155Z",
   "lastNewIssue": "2025-12-17T19:37:27Z"
  },
  "quantumnous/new-api": {
-  "nextCheck": "2026-11-11T16:17:00.117Z",
+  "nextCheck": "2026-11-18T02:43:03.155Z",
   "lastNewIssue": "2026-10-19T08:20:04Z"
  },
  "ethereum/go-ethereum": {
@@ -324,8 +324,8 @@
   "lastNewIssue": "2026-01-16T09:32:03Z"
  },
  "rtk-ai/rtk": {
-  "nextCheck": "2026-11-12T22:03:46.308Z",
-  "lastNewIssue": "2026-11-11T10:36:18Z"
+  "nextCheck": "2026-11-16T02:43:03.155Z",
+  "lastNewIssue": "2026-11-13T21:11:57Z"
  },
  "dani-garcia/vaultwarden": {
   "nextCheck": "2026-11-18T22:03:46.308Z",
@@ -348,11 +348,11 @@
   "lastNewIssue": "2025-08-13T05:14:56Z"
  },
  "sharkdp/bat": {
-  "nextCheck": "2026-11-11T23:03:46.308Z",
+  "nextCheck": "2026-11-22T02:43:03.155Z",
   "lastNewIssue": "2025-08-03T15:00:18Z"
  },
  "meilisearch/meilisearch": {
-  "nextCheck": "2026-11-11T23:03:46.308Z",
+  "nextCheck": "2026-11-22T02:43:03.155Z",
   "lastNewIssue": "2025-12-12T17:24:54Z"
  },
  "fuellabs/fuel-core": {
@@ -392,7 +392,7 @@
   "lastNewIssue": "2025-04-08T18:52:55Z"
  },
  "clickhouse/clickhouse": {
-  "nextCheck": "2026-11-12T04:03:40.195Z",
+  "nextCheck": "2026-11-22T02:43:03.155Z",
   "lastNewIssue": "2026-09-22T07:25:04Z"
  },
  "x64dbg/x64dbg": {
@@ -400,7 +400,7 @@
   "lastNewIssue": "2024-09-19T23:18:11Z"
  },
  "zen-browser/desktop": {
-  "nextCheck": "2026-11-13T11:19:29.437Z",
+  "nextCheck": "2026-11-16T02:43:03.155Z",
   "lastNewIssue": "2026-11-10T15:28:06Z"
  },
  "lizardbyte/sunshine": {
@@ -464,7 +464,7 @@
   "lastNewIssue": "2025-06-30T17:36:07Z"
  },
  "dotnet/roslyn": {
-  "nextCheck": "2026-11-12T12:19:29.437Z",
+  "nextCheck": "2026-11-16T02:43:03.155Z",
   "lastNewIssue": "2026-11-11T02:20:24Z"
  },
  "bitwarden/server": {
@@ -532,11 +532,11 @@
   "lastNewIssue": "2024-04-12T16:10:45Z"
  },
  "radareorg/radare2": {
-  "nextCheck": "2026-11-12T20:57:47.710Z",
+  "nextCheck": "2026-11-22T02:43:03.155Z",
   "lastNewIssue": "2021-08-19T22:24:29Z"
  },
  "fastfetch-cli/fastfetch": {
-  "nextCheck": "2026-11-12T20:57:47.710Z",
+  "nextCheck": "2026-11-22T02:43:03.155Z",
   "lastNewIssue": "2026-08-17T06:35:04Z"
  },
  "danielmiessler/seclists": {
@@ -580,19 +580,19 @@
   "lastNewIssue": "2018-04-27T09:27:33Z"
  },
  "yiisoft/yii2": {
-  "nextCheck": "2026-11-13T02:07:25.191Z",
+  "nextCheck": "2026-11-22T02:43:03.155Z",
   "lastNewIssue": "2025-10-02T14:21:35Z"
  },
  "wallabag/wallabag": {
-  "nextCheck": "2026-11-13T02:07:25.191Z",
+  "nextCheck": "2026-11-22T02:43:03.155Z",
   "lastNewIssue": "2025-06-25T13:12:28Z"
  },
  "ramsey/uuid": {
-  "nextCheck": "2026-11-13T02:07:25.191Z",
+  "nextCheck": "2026-11-22T02:43:03.155Z",
   "lastNewIssue": "2024-02-07T08:23:34Z"
  },
  "yourls/yourls": {
-  "nextCheck": "2026-11-13T02:07:25.191Z",
+  "nextCheck": "2026-11-22T02:43:03.155Z",
   "lastNewIssue": "2025-01-15T13:39:17Z"
  },
  "slimphp/slim": {
@@ -712,7 +712,7 @@
   "lastNewIssue": "2026-10-12T06:38:32Z"
  },
  "libre-tube/libretube": {
-  "nextCheck": "2026-11-13T09:02:18.780Z",
+  "nextCheck": "2026-11-15T03:43:03.155Z",
   "lastNewIssue": "2026-05-24T20:42:54Z"
  },
  "ankidroid/anki-android": {
@@ -788,11 +788,11 @@
   "lastNewIssue": "2024-03-13T08:20:28Z"
  },
  "predidit/kazumi": {
-  "nextCheck": "2026-11-13T17:28:29.473Z",
+  "nextCheck": "2026-11-15T03:43:03.155Z",
   "lastNewIssue": "2026-08-04T02:48:57Z"
  },
  "ente/ente": {
-  "nextCheck": "2026-11-13T17:28:29.473Z",
+  "nextCheck": "2026-11-15T03:43:03.155Z",
   "lastNewIssue": "2025-07-18T04:27:42Z"
  },
  "imranr98/obtainium": {
