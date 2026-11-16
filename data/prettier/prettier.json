@@ -4,7 +4,7 @@
  "language": "JavaScript",
  "stars": 52411,
  "description": "Prettier is an opinionated code formatter.",
- "visitedAt": "2026-11-15T10:59:03.445Z",
+ "visitedAt": "2026-11-16T11:27:18.358Z",
  "issues": [
   {
    "number": 265,
@@ -805,8 +805,8 @@
     "lang:javascript",
     "area:idempotency"
    ],
-   "updatedAt": "2026-10-18T01:19:46Z",
-   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "updatedAt": "2026-11-16T00:51:06Z",
+   "checkedAt": "2026-11-16T11:27:18.358Z",
    "verdict": "discard",
    "reason": "PR #20320 by @smg99 is already open against this issue",
    "evidence": [

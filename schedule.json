@@ -56,7 +56,7 @@
   "lastNewIssue": null
  },
  "prettier/prettier": {
-  "nextCheck": "2026-11-16T10:59:03.445Z",
+  "nextCheck": "2026-11-17T11:27:18.358Z",
   "lastNewIssue": "2026-11-13T16:40:50Z"
  },
  "openclaw/openclaw": {
@@ -276,7 +276,7 @@
   "lastNewIssue": "2026-03-27T20:55:01Z"
  },
  "rclone/rclone": {
-  "nextCheck": "2026-11-16T10:59:03.445Z",
+  "nextCheck": "2026-11-17T11:27:18.358Z",
   "lastNewIssue": "2026-11-13T15:42:49Z"
  },
  "multica-ai/multica": {
@@ -512,8 +512,8 @@
   "lastNewIssue": "2026-05-14T00:59:26Z"
  },
  "openssl/openssl": {
-  "nextCheck": "2026-11-16T10:59:03.445Z",
-  "lastNewIssue": "2026-11-13T05:10:44Z"
+  "nextCheck": "2026-11-17T11:27:18.358Z",
+  "lastNewIssue": "2026-11-14T03:14:07Z"
  },
  "xiaojieonly/ehviewer_cn_sxj": {
   "nextCheck": "2026-11-19T19:57:47.710Z",
@@ -624,7 +624,7 @@
   "lastNewIssue": "2024-09-20T15:27:03Z"
  },
  "github-linguist/linguist": {
-  "nextCheck": "2026-11-16T10:59:03.445Z",
+  "nextCheck": "2026-11-17T11:27:18.358Z",
   "lastNewIssue": "2026-11-09T17:26:43Z"
  },
  "fluent/fluentd": {
@@ -660,7 +660,7 @@
   "lastNewIssue": "2026-07-15T17:48:37Z"
  },
  "librepods-org/librepods": {
-  "nextCheck": "2026-11-16T08:02:18.780Z",
+  "nextCheck": "2026-11-19T11:27:18.358Z",
   "lastNewIssue": "2026-10-28T11:38:55Z"
  },
  "junkfood02/seal": {
@@ -672,7 +672,7 @@
   "lastNewIssue": "2020-05-20T20:05:31Z"
  },
  "pppscn/smsforwarder": {
-  "nextCheck": "2026-11-16T08:02:18.780Z",
+  "nextCheck": "2026-11-19T11:27:18.358Z",
   "lastNewIssue": "2026-11-01T01:16:36Z"
  },
  "android/nowinandroid": {
@@ -700,7 +700,7 @@
   "lastNewIssue": "2020-05-27T10:38:26Z"
  },
  "thunderbird/thunderbird-android": {
-  "nextCheck": "2026-11-16T08:02:18.780Z",
+  "nextCheck": "2026-11-19T11:27:18.358Z",
   "lastNewIssue": "2026-10-29T10:25:38Z"
  },
  "kotlin/kotlinx.coroutines": {
@@ -716,7 +716,7 @@
   "lastNewIssue": "2026-05-24T20:42:54Z"
  },
  "ankidroid/anki-android": {
-  "nextCheck": "2026-11-16T10:59:03.445Z",
+  "nextCheck": "2026-11-17T11:27:18.358Z",
   "lastNewIssue": "2026-11-13T21:11:28Z"
  },
  "swiftlang/swift": {

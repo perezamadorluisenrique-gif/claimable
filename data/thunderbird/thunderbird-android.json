@@ -4,7 +4,7 @@
  "language": "Kotlin",
  "stars": 14203,
  "description": "Thunderbird for Android – Open Source Email App for Android (fka K-9 Mail)",
- "visitedAt": "2026-11-13T08:02:18.780Z",
+ "visitedAt": "2026-11-16T11:27:18.358Z",
  "issues": [
   {
    "number": 3042,
@@ -186,15 +186,13 @@
    "labels": [
     "good first issue"
    ],
-   "updatedAt": "2026-09-11T09:10:08Z",
-   "checkedAt": "2026-11-13T08:02:18.780Z",
-   "verdict": "reservations",
-   "reason": "setup instructions live outside the repository (https://docs.github.com/en) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "updatedAt": "2026-11-15T06:45:48Z",
+   "checkedAt": "2026-11-16T11:27:18.358Z",
+   "verdict": "discard",
+   "reason": "@prayagideepak-collab claimed it yesterday",
    "evidence": [
     "https://github.com/thunderbird/thunderbird-android/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/thunderbird/thunderbird-android/issues/8796",
-    "https://docs.github.com/en",
-    "https://github.com/thunderbird/thunderbird-android/blob/HEAD/README.md"
+    "https://github.com/thunderbird/thunderbird-android/issues/8796#issuecomment-6890539286"
    ]
   },
   {

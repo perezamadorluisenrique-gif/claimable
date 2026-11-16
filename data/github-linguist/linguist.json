@@ -4,7 +4,7 @@
  "language": "Ruby",
  "stars": 13780,
  "description": "Language Savant. If your repository's language is being reported incorrectly, send us a pull request!",
- "visitedAt": "2026-11-15T10:59:03.445Z",
+ "visitedAt": "2026-11-16T11:27:18.358Z",
  "issues": [
   {
    "number": 3924,
@@ -218,6 +218,25 @@
    "evidence": [
     "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/github-linguist/linguist/issues/6040",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
+   ]
+  },
+  {
+   "number": 6083,
+   "title": "Add language Qlik Script",
+   "url": "https://github.com/github-linguist/linguist/issues/6083",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2022-11-28T18:43:14Z",
+   "checkedAt": "2026-11-16T11:27:18.358Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/6083",
     "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
     "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
    ]
@@ -1887,23 +1906,6 @@
     "https://github.com/github-linguist/linguist/blob/HEAD/lib/linguist/languages.yml",
     "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
     "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
-   ]
-  },
-  {
-   "number": 8317,
-   "title": "Lean is missing a color in `lib/linguist/languages.yml`",
-   "url": "https://github.com/github-linguist/linguist/issues/8317",
-   "labels": [
-    "Add Language",
-    "Good First Issue"
-   ],
-   "updatedAt": "2026-11-10T15:40:23Z",
-   "checkedAt": "2026-11-13T08:02:18.780Z",
-   "verdict": "discard",
-   "reason": "PR #8325 by @deni-ing is already open against this issue",
-   "evidence": [
-    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/github-linguist/linguist/pull/8325"
    ]
   },
   {
