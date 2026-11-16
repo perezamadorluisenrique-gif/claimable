@@ -4,7 +4,7 @@
  "language": "PHP",
  "stars": 31523,
  "description": "The Symfony PHP framework",
- "visitedAt": "2026-11-13T01:07:25.191Z",
+ "visitedAt": "2026-11-16T02:46:09.212Z",
  "issues": [
   {
    "number": 38885,
@@ -74,8 +74,8 @@
     "Help wanted",
     "Missing translations"
    ],
-   "updatedAt": "2026-11-12T15:37:17Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "updatedAt": "2026-11-15T14:21:27Z",
+   "checkedAt": "2026-11-16T02:46:09.212Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -93,7 +93,7 @@
     "Missing translations"
    ],
    "updatedAt": "2026-10-29T13:47:28Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "checkedAt": "2026-11-16T02:46:09.212Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -150,7 +150,7 @@
     "Missing translations"
    ],
    "updatedAt": "2026-10-29T13:45:52Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "checkedAt": "2026-11-16T02:46:09.212Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -186,7 +186,7 @@
     "Missing translations"
    ],
    "updatedAt": "2026-10-29T13:45:59Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "checkedAt": "2026-11-16T02:46:09.212Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -204,7 +204,7 @@
     "Missing translations"
    ],
    "updatedAt": "2026-10-29T13:46:06Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "checkedAt": "2026-11-16T02:46:09.212Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -222,7 +222,7 @@
     "Missing translations"
    ],
    "updatedAt": "2026-10-29T13:46:26Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "checkedAt": "2026-11-16T02:46:09.212Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -240,7 +240,7 @@
     "Missing translations"
    ],
    "updatedAt": "2026-10-29T16:21:13Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "checkedAt": "2026-11-16T02:46:09.212Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -258,7 +258,7 @@
     "Missing translations"
    ],
    "updatedAt": "2026-10-29T13:46:40Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "checkedAt": "2026-11-16T02:46:09.212Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -276,7 +276,7 @@
     "Missing translations"
    ],
    "updatedAt": "2026-11-03T11:55:13Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "checkedAt": "2026-11-16T02:46:09.212Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -294,7 +294,7 @@
     "Missing translations"
    ],
    "updatedAt": "2026-10-29T13:46:57Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "checkedAt": "2026-11-16T02:46:09.212Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -312,7 +312,7 @@
     "Missing translations"
    ],
    "updatedAt": "2026-10-24T11:40:02Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "checkedAt": "2026-11-16T02:46:09.212Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -330,7 +330,7 @@
     "Missing translations"
    ],
    "updatedAt": "2026-10-29T13:47:05Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "checkedAt": "2026-11-16T02:46:09.212Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -348,7 +348,7 @@
     "Missing translations"
    ],
    "updatedAt": "2026-10-29T13:46:47Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "checkedAt": "2026-11-16T02:46:09.212Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -365,13 +365,13 @@
     "Help wanted",
     "Missing translations"
    ],
-   "updatedAt": "2026-11-10T18:06:18Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "updatedAt": "2026-11-13T12:26:39Z",
+   "checkedAt": "2026-11-16T02:46:09.212Z",
    "verdict": "discard",
-   "reason": "@kasevvlad claimed it 2 days ago",
+   "reason": "PR #68151 by @turgunovabb1 is already open against this issue",
    "evidence": [
     "https://github.com/symfony/symfony/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/symfony/symfony/issues/65569#issuecomment-6775211778"
+    "https://github.com/symfony/symfony/pull/68151"
    ]
   },
   {
@@ -384,7 +384,7 @@
     "Missing translations"
    ],
    "updatedAt": "2026-10-29T13:46:09Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "checkedAt": "2026-11-16T02:46:09.212Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -402,7 +402,7 @@
     "Missing translations"
    ],
    "updatedAt": "2026-10-29T13:47:09Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "checkedAt": "2026-11-16T02:46:09.212Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -440,7 +440,7 @@
     "Missing translations"
    ],
    "updatedAt": "2026-10-24T11:40:11Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "checkedAt": "2026-11-16T02:46:09.212Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [

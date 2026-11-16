@@ -204,7 +204,7 @@
   "lastNewIssue": "2026-09-28T14:34:37Z"
  },
  "keycloak/keycloak": {
-  "nextCheck": "2026-11-16T02:43:03.155Z",
+  "nextCheck": "2026-11-17T02:46:09.212Z",
   "lastNewIssue": "2026-11-12T23:15:19Z"
  },
  "alibaba/arthas": {
@@ -252,7 +252,7 @@
   "lastNewIssue": "2026-10-15T01:26:04Z"
  },
  "microsoft/typescript": {
-  "nextCheck": "2026-11-16T02:43:03.155Z",
+  "nextCheck": "2026-11-17T02:46:09.212Z",
   "lastNewIssue": "2026-11-10T18:13:20Z"
  },
  "syncthing/syncthing": {
@@ -324,8 +324,8 @@
   "lastNewIssue": "2026-01-16T09:32:03Z"
  },
  "rtk-ai/rtk": {
-  "nextCheck": "2026-11-16T02:43:03.155Z",
-  "lastNewIssue": "2026-11-13T21:11:57Z"
+  "nextCheck": "2026-11-17T02:46:09.212Z",
+  "lastNewIssue": "2026-11-16T00:57:11Z"
  },
  "dani-garcia/vaultwarden": {
   "nextCheck": "2026-11-18T22:03:46.308Z",
@@ -400,8 +400,8 @@
   "lastNewIssue": "2024-09-19T23:18:11Z"
  },
  "zen-browser/desktop": {
-  "nextCheck": "2026-11-16T02:43:03.155Z",
-  "lastNewIssue": "2026-11-10T15:28:06Z"
+  "nextCheck": "2026-11-17T02:46:09.212Z",
+  "lastNewIssue": "2026-11-14T05:15:18Z"
  },
  "lizardbyte/sunshine": {
   "nextCheck": "2026-11-19T11:19:29.437Z",
@@ -464,7 +464,7 @@
   "lastNewIssue": "2025-06-30T17:36:07Z"
  },
  "dotnet/roslyn": {
-  "nextCheck": "2026-11-16T02:43:03.155Z",
+  "nextCheck": "2026-11-17T02:46:09.212Z",
   "lastNewIssue": "2026-11-11T02:20:24Z"
  },
  "bitwarden/server": {
@@ -544,7 +544,7 @@
   "lastNewIssue": "2026-01-31T17:27:49Z"
  },
  "nextcloud/server": {
-  "nextCheck": "2026-11-16T01:07:25.191Z",
+  "nextCheck": "2026-11-19T02:46:09.212Z",
   "lastNewIssue": "2026-10-23T17:59:48Z"
  },
  "laravel/framework": {
@@ -552,7 +552,7 @@
   "lastNewIssue": "2026-05-24T01:50:54Z"
  },
  "symfony/symfony": {
-  "nextCheck": "2026-11-16T01:07:25.191Z",
+  "nextCheck": "2026-11-19T02:46:09.212Z",
   "lastNewIssue": "2026-10-24T11:40:11Z"
  },
  "monicahq/monica": {

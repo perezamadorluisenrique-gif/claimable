@@ -4,7 +4,7 @@
  "language": "PHP",
  "stars": 37464,
  "description": "☁️ Nextcloud server, a safe home for all your data",
- "visitedAt": "2026-11-13T01:07:25.191Z",
+ "visitedAt": "2026-11-16T02:46:09.212Z",
  "issues": [
   {
    "number": 722,
@@ -732,29 +732,6 @@
    ]
   },
   {
-   "number": 18935,
-   "title": "Pressing escape on the sharing note should cancel and not save",
-   "url": "https://github.com/nextcloud/server/issues/18935",
-   "labels": [
-    "enhancement",
-    "good first issue",
-    "1. to develop",
-    "feature: sharing",
-    "papercut",
-    "needs review"
-   ],
-   "updatedAt": "2025-03-17T21:16:01Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
-   "verdict": "reservations",
-   "reason": "setup instructions live outside the repository (https://docs.nextcloud.com/server/latest/developer_manual/) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
-   "evidence": [
-    "https://github.com/nextcloud/server/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/nextcloud/server/issues/18935",
-    "https://docs.nextcloud.com/server/latest/developer_manual/",
-    "https://github.com/nextcloud/server/blob/HEAD/.github/CONTRIBUTING.md"
-   ]
-  },
-  {
    "number": 18946,
    "title": "Maintenance mode should disable data directory check",
    "url": "https://github.com/nextcloud/server/issues/18946",
@@ -1115,7 +1092,7 @@
     "0. Needs triage",
     "28-feedback",
     "needs review",
-    "hotspot: file transfer performance"
+    "hotspot: file transfers"
    ],
    "updatedAt": "2026-09-14T01:39:48Z",
    "checkedAt": "2026-11-13T01:07:25.191Z",

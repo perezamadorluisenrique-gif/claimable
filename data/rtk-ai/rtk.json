@@ -4,7 +4,7 @@
  "language": "Rust",
  "stars": 86093,
  "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
- "visitedAt": "2026-11-15T02:43:03.155Z",
+ "visitedAt": "2026-11-16T02:46:09.212Z",
  "issues": [
   {
    "number": 361,
@@ -709,6 +709,26 @@
    ]
   },
   {
+   "number": 2216,
+   "title": "RTK is not being configured properly with global initialization for VS Code + Copilot",
+   "url": "https://github.com/rtk-ai/rtk/issues/2216",
+   "labels": [
+    "bug",
+    "help wanted",
+    "priority:high",
+    "area:cli",
+    "area:docs"
+   ],
+   "updatedAt": "2026-09-19T02:03:55Z",
+   "checkedAt": "2026-11-16T02:46:09.212Z",
+   "verdict": "discard",
+   "reason": "PR #2244 by @manos02 is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/issues/2244"
+   ]
+  },
+  {
    "number": 2268,
    "title": "Built-in filters for ssh / dig / lsof / scp (custom TOML filters don't reach the PreToolUse hook)",
    "url": "https://github.com/rtk-ai/rtk/issues/2268",
@@ -726,29 +746,6 @@
     "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
     "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/rtk-ai/rtk/pull/2637"
-   ]
-  },
-  {
-   "number": 2303,
-   "title": "git -C /path <subcommand> not rewritten to rtk git",
-   "url": "https://github.com/rtk-ai/rtk/issues/2303",
-   "labels": [
-    "bug",
-    "help wanted",
-    "resolved-pending-close",
-    "priority:high",
-    "area:cli"
-   ],
-   "updatedAt": "2026-11-08T11:16:03Z",
-   "checkedAt": "2026-11-11T22:03:46.308Z",
-   "verdict": "reservations",
-   "reason": "only 22% of recently closed PRs were merged — most contributions get rejected or abandoned here",
-   "evidence": [
-    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
-    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/rtk-ai/rtk/issues/2303",
-    "https://github.com/rtk-ai/rtk/blob/HEAD/CONTRIBUTING.md",
-    "https://github.com/rtk-ai/rtk/blob/HEAD/README.md"
    ]
   },
   {
@@ -795,50 +792,6 @@
     "https://github.com/rtk-ai/rtk/issues/2385#issuecomment-4682485532",
     "https://github.com/rtk-ai/rtk/blob/HEAD/CONTRIBUTING.md",
     "https://github.com/rtk-ai/rtk/blob/HEAD/README.md"
-   ]
-  },
-  {
-   "number": 2425,
-   "title": "Claude Code hook misses rtk-eligible commands inside compound invocations (pipes, && chains)",
-   "url": "https://github.com/rtk-ai/rtk/issues/2425",
-   "labels": [
-    "enhancement",
-    "help wanted",
-    "area:cli",
-    "priority:medium"
-   ],
-   "updatedAt": "2026-10-27T01:35:45Z",
-   "checkedAt": "2026-11-11T22:03:46.308Z",
-   "verdict": "reservations",
-   "reason": "only 22% of recently closed PRs were merged — most contributions get rejected or abandoned here",
-   "evidence": [
-    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
-    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/rtk-ai/rtk/issues/2425",
-    "https://github.com/rtk-ai/rtk/blob/HEAD/CONTRIBUTING.md",
-    "https://github.com/rtk-ai/rtk/blob/HEAD/README.md"
-   ]
-  },
-  {
-   "number": 2658,
-   "title": "fix(pnpm): propagate exit code from pnpm outdated",
-   "url": "https://github.com/rtk-ai/rtk/issues/2658",
-   "labels": [
-    "bug",
-    "good first issue",
-    "area:cli",
-    "priority:medium"
-   ],
-   "updatedAt": "2026-09-12T22:00:22Z",
-   "checkedAt": "2026-11-15T02:43:03.155Z",
-   "verdict": "discard",
-   "reason": "PR #2659 by @guyoron1 is already open against this issue",
-   "evidence": [
-    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
-    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/rtk-ai/rtk/pull/2659",
-    "https://github.com/rtk-ai/rtk/pull/4865",
-    "https://github.com/rtk-ai/rtk/pull/3275"
    ]
   },
   {
@@ -1520,27 +1473,6 @@
    ]
   },
   {
-   "number": 4025,
-   "title": "gh run view --exit-status: filter skipped on a failed run, so the one case worth compressing is the one passed through raw",
-   "url": "https://github.com/rtk-ai/rtk/issues/4025",
-   "labels": [
-    "bug",
-    "good first issue",
-    "area:cli",
-    "priority:medium"
-   ],
-   "updatedAt": "2026-09-13T13:16:53Z",
-   "checkedAt": "2026-11-11T22:03:46.308Z",
-   "verdict": "discard",
-   "reason": "PR #4027 by @burakeyler is already open against this issue",
-   "evidence": [
-    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
-    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/rtk-ai/rtk/pull/4027",
-    "https://github.com/rtk-ai/rtk/pull/1122"
-   ]
-  },
-  {
    "number": 4056,
    "title": "Name the program in spawn-failure errors for captured commands",
    "url": "https://github.com/rtk-ai/rtk/issues/4056",
@@ -1582,6 +1514,26 @@
     "https://github.com/rtk-ai/rtk/blob/HEAD/CONTRIBUTING.md",
     "https://github.com/rtk-ai/rtk/blob/HEAD/README.md",
     "https://docs.devin.ai/cli/extensibility/hooks/overview"
+   ]
+  },
+  {
+   "number": 4098,
+   "title": "output capped at N results: elided lines are unrecoverable and the hint has no recovery path",
+   "url": "https://github.com/rtk-ai/rtk/issues/4098",
+   "labels": [
+    "bug",
+    "help wanted",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-09-19T02:33:43Z",
+   "checkedAt": "2026-11-16T02:46:09.212Z",
+   "verdict": "discard",
+   "reason": "PR #4107 by @lindicaphxag-tech is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4107",
+    "https://github.com/gatezh/devcontainers/pull/241"
    ]
   },
   {
@@ -2465,28 +2417,6 @@
     "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/rtk-ai/rtk/issues/4743",
     "https://github.com/rtk-ai/rtk/issues/4568"
-   ]
-  },
-  {
-   "number": 4427,
-   "title": "rtk init claims any Claude or Cursor hook command that mentions rtk-rewrite.sh",
-   "url": "https://github.com/rtk-ai/rtk/issues/4427",
-   "labels": [
-    "bug",
-    "help wanted",
-    "area:cli",
-    "priority:medium"
-   ],
-   "updatedAt": "2026-10-30T12:16:32Z",
-   "checkedAt": "2026-11-11T22:03:46.308Z",
-   "verdict": "discard",
-   "reason": "PR #4309 by @tayfuryldz is already open against this issue",
-   "evidence": [
-    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
-    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/rtk-ai/rtk/pull/4309",
-    "https://github.com/rtk-ai/rtk/pull/4679",
-    "https://github.com/rtk-ai/rtk/pull/4854"
    ]
   },
   {
@@ -4107,12 +4037,11 @@
     "area:cli",
     "area:security"
    ],
-   "updatedAt": "2026-11-08T11:11:23Z",
-   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "updatedAt": "2026-11-16T00:13:59Z",
+   "checkedAt": "2026-11-16T02:46:09.212Z",
    "verdict": "discard",
    "reason": "PR #5050 by @Lil-Clanky is already open against this issue",
    "evidence": [
-    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
     "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/rtk-ai/rtk/pull/5050",
     "https://github.com/rtk-ai/rtk/pull/5058",
@@ -4220,6 +4149,69 @@
     "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
     "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/rtk-ai/rtk/pull/5113"
+   ]
+  },
+  {
+   "number": 5119,
+   "title": "`rtk ctest --output-on-failure` hides the assertion when a failing test prints a crash backtrace",
+   "url": "https://github.com/rtk-ai/rtk/issues/5119",
+   "labels": [
+    "bug",
+    "help wanted",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-11-15T03:28:43Z",
+   "checkedAt": "2026-11-16T02:46:09.212Z",
+   "verdict": "discard",
+   "reason": "PR #5120 by @seragAhmed is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/5120"
+   ]
+  },
+  {
+   "number": 5124,
+   "title": "Shadow shell decisions overstate savings: tokens_after leaves stderr out",
+   "url": "https://github.com/rtk-ai/rtk/issues/5124",
+   "labels": [
+    "bug",
+    "good first issue",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-11-16T00:41:25Z",
+   "checkedAt": "2026-11-16T02:46:09.212Z",
+   "verdict": "discard",
+   "reason": "PR #4850 by @TechWizard9999 is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4850",
+    "https://github.com/rtk-ai/rtk/pull/5125"
+   ]
+  },
+  {
+   "number": 5126,
+   "title": "hooks: version floor says `rtk rewrite` came in 0.23.0; it came in 0.25.0",
+   "url": "https://github.com/rtk-ai/rtk/issues/5126",
+   "labels": [
+    "bug",
+    "good first issue",
+    "priority:low",
+    "area:docs"
+   ],
+   "updatedAt": "2026-11-16T00:58:39Z",
+   "checkedAt": "2026-11-16T02:46:09.212Z",
+   "verdict": "reservations",
+   "reason": "PR #3918 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/3918",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/CHANGELOG.md",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/hooks/README.md",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/hooks/pi/rtk.ts",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/README.md"
    ]
   }
  ]

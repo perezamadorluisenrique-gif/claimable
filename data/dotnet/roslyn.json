@@ -4,7 +4,7 @@
  "language": "C#",
  "stars": 20771,
  "description": "The Roslyn .NET compiler provides C# and Visual Basic languages with rich code analysis APIs.",
- "visitedAt": "2026-11-15T02:43:03.155Z",
+ "visitedAt": "2026-11-16T02:46:09.212Z",
  "issues": [
   {
    "number": 410,
@@ -484,13 +484,13 @@
     "Feature - Nullable Reference Types",
     "Regression"
    ],
-   "updatedAt": "2026-10-19T09:34:01Z",
-   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "updatedAt": "2026-11-15T11:20:14Z",
+   "checkedAt": "2026-11-16T02:46:09.212Z",
    "verdict": "discard",
-   "reason": "PR #24235 by @CyrusNajmabadi is already open against this issue",
+   "reason": "PR #86478 by @Aykuttonpc is already open against this issue",
    "evidence": [
     "https://github.com/dotnet/roslyn/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/dotnet/roslyn/issues/24235"
+    "https://github.com/dotnet/roslyn/pull/86478"
    ]
   },
   {

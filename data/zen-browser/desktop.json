@@ -4,7 +4,7 @@
  "language": "C++",
  "stars": 45712,
  "description": "Welcome to a calmer internet",
- "visitedAt": "2026-11-15T02:43:03.155Z",
+ "visitedAt": "2026-11-16T02:46:09.212Z",
  "issues": [
   {
    "number": 8309,
@@ -271,6 +271,26 @@
    "evidence": [
     "https://github.com/zen-browser/desktop/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/zen-browser/desktop/issues/16531"
+   ]
+  },
+  {
+   "number": 16616,
+   "title": "Current page zoom displays in new tab dialouge",
+   "url": "https://github.com/zen-browser/desktop/issues/16616",
+   "labels": [
+    "component: url-bar",
+    "platform: linux",
+    "platform: windows",
+    "good first issue"
+   ],
+   "updatedAt": "2026-11-15T10:06:13Z",
+   "checkedAt": "2026-11-16T02:46:09.212Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.zen-browser.app\">) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/zen-browser/desktop/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/zen-browser/desktop/issues/16616",
+    "https://docs.zen-browser.app\">"
    ]
   }
  ]
