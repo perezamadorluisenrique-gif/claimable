@@ -4,7 +4,7 @@
  "language": "JavaScript",
  "stars": 67789,
  "description": "Simple HTML5 Charts using the <canvas> tag",
- "visitedAt": "2026-11-10T17:47:07.019Z",
+ "visitedAt": "2026-11-17T22:54:58.137Z",
  "issues": [
   {
    "number": 3214,
@@ -32,7 +32,7 @@
     "help wanted"
    ],
    "updatedAt": "2023-01-26T10:23:59Z",
-   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "checkedAt": "2026-11-17T22:54:58.137Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -49,7 +49,7 @@
     "help wanted"
    ],
    "updatedAt": "2024-09-26T18:27:35Z",
-   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "checkedAt": "2026-11-17T22:54:58.137Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -83,7 +83,7 @@
     "help wanted"
    ],
    "updatedAt": "2025-11-09T08:22:55Z",
-   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "checkedAt": "2026-11-17T22:54:58.137Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -100,7 +100,7 @@
     "help wanted"
    ],
    "updatedAt": "2021-07-10T20:11:31Z",
-   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "checkedAt": "2026-11-17T22:54:58.137Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [

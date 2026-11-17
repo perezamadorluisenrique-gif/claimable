@@ -4,7 +4,7 @@
  "language": "TypeScript",
  "stars": 195263,
  "description": "Visual Studio Code",
- "visitedAt": "2026-11-10T17:47:07.019Z",
+ "visitedAt": "2026-11-17T22:54:58.137Z",
  "issues": [
   {
    "number": 164,
@@ -18,8 +18,8 @@
     "workbench-dnd",
     "upstream-issue-linked"
    ],
-   "updatedAt": "2026-09-23T01:53:14Z",
-   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "updatedAt": "2026-11-11T14:34:04Z",
+   "checkedAt": "2026-11-17T22:54:58.137Z",
    "verdict": "discard",
    "reason": "already assigned to @lramos15",
    "evidence": [
@@ -350,26 +350,6 @@
    ]
   },
   {
-   "number": 96104,
-   "title": "Git - \"Stage selected ranges\" clobbers line endings for the entire file without any warning (Windows)",
-   "url": "https://github.com/microsoft/vscode/issues/96104",
-   "labels": [
-    "bug",
-    "help wanted",
-    "git"
-   ],
-   "updatedAt": "2026-06-03T15:23:17Z",
-   "checkedAt": "2026-11-10T17:47:07.019Z",
-   "verdict": "discard",
-   "reason": "PR #328187 by @vivekjm is already open against this issue",
-   "evidence": [
-    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/microsoft/vscode/pull/328187",
-    "https://github.com/nvaccess/nvda/pull/12510",
-    "https://github.com/soasis/text/pull/35"
-   ]
-  },
-  {
    "number": 100225,
    "title": "Data corruptted when pasting large JSON in the terminal (or via sendText)",
    "url": "https://github.com/microsoft/vscode/issues/100225",
@@ -572,24 +552,6 @@
    "evidence": [
     "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/microsoft/vscode/issues/122719"
-   ]
-  },
-  {
-   "number": 125582,
-   "title": "Restored custom editors never load if the extension is uninstalled",
-   "url": "https://github.com/microsoft/vscode/issues/125582",
-   "labels": [
-    "bug",
-    "help wanted",
-    "custom-editors"
-   ],
-   "updatedAt": "2026-06-03T15:24:27Z",
-   "checkedAt": "2026-11-10T17:47:07.019Z",
-   "verdict": "discard",
-   "reason": "PR #328185 by @vivekjm is already open against this issue",
-   "evidence": [
-    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/microsoft/vscode/pull/328185"
    ]
   },
   {
@@ -958,6 +920,24 @@
    ]
   },
   {
+   "number": 169900,
+   "title": "[scss] Display a wrong selector preview when using sibling combinators in SCSS, Less",
+   "url": "https://github.com/microsoft/vscode/issues/169900",
+   "labels": [
+    "bug",
+    "help wanted",
+    "css-less-scss"
+   ],
+   "updatedAt": "2026-11-14T01:11:55Z",
+   "checkedAt": "2026-11-17T22:54:58.137Z",
+   "verdict": "discard",
+   "reason": "PR #546 by @UsmanQT is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode-css-languageservice/pull/546"
+   ]
+  },
+  {
    "number": 170868,
    "title": "Adapt the bash of busybox.",
    "url": "https://github.com/microsoft/vscode/issues/170868",
@@ -1195,6 +1175,25 @@
    ]
   },
   {
+   "number": 191897,
+   "title": "[css] Wrong selector hover when using :has() ",
+   "url": "https://github.com/microsoft/vscode/issues/191897",
+   "labels": [
+    "bug",
+    "help wanted",
+    "css-less-scss"
+   ],
+   "updatedAt": "2026-11-14T01:59:17Z",
+   "checkedAt": "2026-11-17T22:54:58.137Z",
+   "verdict": "discard",
+   "reason": "already assigned to @aeschli",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/issues/191897",
+    "https://github.com/microsoft/vscode/issues/191897#issuecomment-6869807503"
+   ]
+  },
+  {
    "number": 194322,
    "title": "Process Explorer memory usage doesn't add up to Activity Monitor",
    "url": "https://github.com/microsoft/vscode/issues/194322",
@@ -1278,8 +1277,8 @@
     "workbench-dnd",
     "workbench-auxwindow"
    ],
-   "updatedAt": "2026-09-03T12:12:03Z",
-   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "updatedAt": "2026-11-13T12:21:16Z",
+   "checkedAt": "2026-11-17T22:54:58.137Z",
    "verdict": "discard",
    "reason": "PR #296448 by @murataslan1 is already open against this issue",
    "evidence": [
@@ -1303,42 +1302,6 @@
    "evidence": [
     "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/microsoft/vscode/pull/346860"
-   ]
-  },
-  {
-   "number": 209601,
-   "title": "code serve web --server-base-path PWA app does not include base path",
-   "url": "https://github.com/microsoft/vscode/issues/209601",
-   "labels": [
-    "bug",
-    "help wanted",
-    "remote"
-   ],
-   "updatedAt": "2026-08-11T22:35:30Z",
-   "checkedAt": "2026-11-10T17:47:07.019Z",
-   "verdict": "discard",
-   "reason": "PR #330360 by @Boulea7 is already open against this issue",
-   "evidence": [
-    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/microsoft/vscode/pull/330360"
-   ]
-  },
-  {
-   "number": 214625,
-   "title": "SCM Working Set - persist pinned tabs when switching branches",
-   "url": "https://github.com/microsoft/vscode/issues/214625",
-   "labels": [
-    "help wanted",
-    "feature-request",
-    "scm"
-   ],
-   "updatedAt": "2026-06-10T17:11:55Z",
-   "checkedAt": "2026-11-10T17:47:07.019Z",
-   "verdict": "discard",
-   "reason": "PR #337622 by @SrikarshVardhanreddyKolanu is already open against this issue",
-   "evidence": [
-    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/microsoft/vscode/pull/337622"
    ]
   },
   {
@@ -1470,6 +1433,26 @@
     "https://github.com/microsoft/vscode/pull/316725",
     "https://github.com/microsoft/vscode/pull/339603",
     "https://github.com/nanoframework/nf-VSCodeExtension/pull/444"
+   ]
+  },
+  {
+   "number": 234339,
+   "title": "Status bar tooltip - add support for specifying a list of commands",
+   "url": "https://github.com/microsoft/vscode/issues/234339",
+   "labels": [
+    "help wanted",
+    "feature-request",
+    "api",
+    "workbench-status"
+   ],
+   "updatedAt": "2026-11-12T02:21:51Z",
+   "checkedAt": "2026-11-17T22:54:58.137Z",
+   "verdict": "discard",
+   "reason": "PR #347789 by @gjsjohnmurray is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/347789",
+    "https://github.com/microsoft/vscode/pull/238297"
    ]
   },
   {
@@ -1956,6 +1939,27 @@
    ]
   },
   {
+   "number": 272761,
+   "title": "typescript.tsdk not resolved correctly when it starts with the same name as the parent directory",
+   "url": "https://github.com/microsoft/vscode/issues/272761",
+   "labels": [
+    "bug",
+    "help wanted",
+    "typescript"
+   ],
+   "updatedAt": "2026-11-12T11:55:43Z",
+   "checkedAt": "2026-11-17T22:54:58.137Z",
+   "verdict": "discard",
+   "reason": "PR #295060 by @shtse8 is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/295060",
+    "https://github.com/microsoft/vscode/pull/305215",
+    "https://github.com/microsoft/vscode/pull/329962",
+    "https://github.com/mwskwong/mwskwong.com/pull/71"
+   ]
+  },
+  {
    "number": 273757,
    "title": "Git - Use `git mv` when moving and renaming files",
    "url": "https://github.com/microsoft/vscode/issues/273757",
@@ -1975,25 +1979,6 @@
    ]
   },
   {
-   "number": 273934,
-   "title": "[css] support comma less color notations ",
-   "url": "https://github.com/microsoft/vscode/issues/273934",
-   "labels": [
-    "help wanted",
-    "feature-request",
-    "css-less-scss"
-   ],
-   "updatedAt": "2026-10-15T08:30:51Z",
-   "checkedAt": "2026-11-10T17:47:07.019Z",
-   "verdict": "discard",
-   "reason": "already assigned to @aeschli",
-   "evidence": [
-    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/microsoft/vscode/issues/273934",
-    "https://github.com/microsoft/vscode/issues/273934#issuecomment-5919343085"
-   ]
-  },
-  {
    "number": 274545,
    "title": "[npm] package.json dependency autocomplete: autocomplete all versions",
    "url": "https://github.com/microsoft/vscode/issues/274545",
@@ -2009,6 +1994,24 @@
    "evidence": [
     "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/microsoft/vscode/pull/301018"
+   ]
+  },
+  {
+   "number": 275989,
+   "title": "Cloning in VSCode sets absolute worktree path. It breaks git on WSL. How to prevent VSCode from doing this unnecessary behavior?",
+   "url": "https://github.com/microsoft/vscode/issues/275989",
+   "labels": [
+    "bug",
+    "help wanted",
+    "git"
+   ],
+   "updatedAt": "2026-11-12T11:55:29Z",
+   "checkedAt": "2026-11-17T22:54:58.137Z",
+   "verdict": "discard",
+   "reason": "PR #300038 by @tiwari91 is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/vscode/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/vscode/pull/300038"
    ]
   },
   {

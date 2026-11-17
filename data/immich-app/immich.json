@@ -4,7 +4,7 @@
  "language": "TypeScript",
  "stars": 118704,
  "description": "High performance self-hosted photo and video management solution.",
- "visitedAt": "2026-11-10T17:47:07.019Z",
+ "visitedAt": "2026-11-17T22:54:58.137Z",
  "issues": [
   {
    "number": 21855,
@@ -13,8 +13,8 @@
    "labels": [
     "good first issue"
    ],
-   "updatedAt": "2026-11-07T12:23:14Z",
-   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "updatedAt": "2026-11-16T04:24:21Z",
+   "checkedAt": "2026-11-17T22:54:58.137Z",
    "verdict": "reservations",
    "reason": "setup instructions live outside the repository (https://docs.immich.app/developer/setup) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
    "evidence": [
@@ -62,6 +62,25 @@
     "https://github.com/immich-app/immich/pull/28817",
     "https://github.com/immich-app/immich/pull/30123",
     "https://github.com/immich-app/immich/pull/30223"
+   ]
+  },
+  {
+   "number": 33325,
+   "title": "[Web] Star rating in detail panel is applied to the wrong asset / sticks when navigating to the next asset",
+   "url": "https://github.com/immich-app/immich/issues/33325",
+   "labels": [
+    "good first issue",
+    "🖥️web"
+   ],
+   "updatedAt": "2026-11-17T06:08:35Z",
+   "checkedAt": "2026-11-17T22:54:58.137Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.immich.app/developer/setup) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/immich-app/immich/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/immich-app/immich/issues/33325",
+    "https://docs.immich.app/developer/setup",
+    "https://github.com/immich-app/immich/blob/HEAD/CONTRIBUTING.md"
    ]
   }
  ]

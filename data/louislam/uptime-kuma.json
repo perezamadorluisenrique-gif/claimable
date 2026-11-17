@@ -4,7 +4,7 @@
  "language": "JavaScript",
  "stars": 93456,
  "description": "A fancy self-hosted monitoring tool",
- "visitedAt": "2026-11-10T17:47:07.019Z",
+ "visitedAt": "2026-11-17T22:54:58.137Z",
  "issues": [
   {
    "number": 177,
@@ -140,8 +140,8 @@
     "A:notifications",
     "type:new"
    ],
-   "updatedAt": "2026-07-12T02:55:16Z",
-   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "updatedAt": "2026-11-13T11:23:21Z",
+   "checkedAt": "2026-11-17T22:54:58.137Z",
    "verdict": "discard",
    "reason": "PR #5375 by @Hoto-Cocoa is already open against this issue",
    "evidence": [
@@ -354,13 +354,13 @@
     "bug",
     "help wanted"
    ],
-   "updatedAt": "2026-10-17T12:32:48Z",
-   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "updatedAt": "2026-11-13T19:52:57Z",
+   "checkedAt": "2026-11-17T22:54:58.137Z",
    "verdict": "discard",
-   "reason": "PR #7554 by @jmerhar is already open against this issue",
+   "reason": "already assigned to @louislam",
    "evidence": [
     "https://github.com/louislam/uptime-kuma/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/louislam/uptime-kuma/pull/7554"
+    "https://github.com/louislam/uptime-kuma/issues/5357"
    ]
   },
   {
@@ -409,15 +409,13 @@
     "feature-request",
     "help wanted"
    ],
-   "updatedAt": "2026-10-20T19:23:18Z",
-   "checkedAt": "2026-11-10T17:47:07.019Z",
-   "verdict": "reservations",
-   "reason": "setup instructions live outside the repository (https://github.com/louislam/uptime-kuma/wiki/%F0%9F%94%A7-How-to-Install>) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "updatedAt": "2026-11-13T15:50:58Z",
+   "checkedAt": "2026-11-17T22:54:58.137Z",
+   "verdict": "discard",
+   "reason": "@0inp claimed it 5 days ago",
    "evidence": [
     "https://github.com/louislam/uptime-kuma/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/louislam/uptime-kuma/issues/5949",
-    "https://github.com/louislam/uptime-kuma/blob/HEAD/CONTRIBUTING.md",
-    "https://github.com/louislam/uptime-kuma/wiki/%F0%9F%94%A7-How-to-Install>"
+    "https://github.com/louislam/uptime-kuma/issues/5949#issuecomment-6842984952"
    ]
   },
   {

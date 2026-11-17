@@ -4,7 +4,7 @@
  "language": "TypeScript",
  "stars": 135445,
  "description": "Virtual whiteboard for sketching hand-drawn like diagrams",
- "visitedAt": "2026-11-10T17:47:07.019Z",
+ "visitedAt": "2026-11-17T22:54:58.137Z",
  "issues": [
   {
    "number": 345,
@@ -31,15 +31,16 @@
     "enhancement",
     "good first issue"
    ],
-   "updatedAt": "2026-11-10T13:39:21Z",
-   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "updatedAt": "2026-11-13T11:25:00Z",
+   "checkedAt": "2026-11-17T22:54:58.137Z",
    "verdict": "discard",
    "reason": "PR #8652 by @malytskyy is already open against this issue",
    "evidence": [
     "https://github.com/excalidraw/excalidraw/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/excalidraw/excalidraw/pull/8652",
     "https://github.com/Lyo1ya/2026-fwdays-agentic-large-day03-hw/pull/1",
-    "https://github.com/excalidraw/excalidraw/pull/12588"
+    "https://github.com/excalidraw/excalidraw/pull/12588",
+    "https://github.com/excalidraw/excalidraw/pull/12591"
    ]
   },
   {
@@ -108,8 +109,8 @@
     "enhancement",
     "good first issue"
    ],
-   "updatedAt": "2026-11-01T20:05:01Z",
-   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "updatedAt": "2026-11-13T06:42:47Z",
+   "checkedAt": "2026-11-17T22:54:58.137Z",
    "verdict": "discard",
    "reason": "PR #3045 by @kbariotis is already open against this issue",
    "evidence": [

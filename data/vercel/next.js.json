@@ -4,7 +4,7 @@
  "language": "JavaScript",
  "stars": 143452,
  "description": "The React Framework",
- "visitedAt": "2026-11-10T17:47:07.019Z",
+ "visitedAt": "2026-11-17T22:54:58.137Z",
  "issues": [
   {
    "number": 10465,
@@ -176,8 +176,8 @@
    "labels": [
     "good first issue"
    ],
-   "updatedAt": "2026-11-08T05:10:35Z",
-   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "updatedAt": "2026-11-12T00:57:11Z",
+   "checkedAt": "2026-11-17T22:54:58.137Z",
    "verdict": "discard",
    "reason": "PR #53307 by @smcg468 is already open against this issue",
    "evidence": [
@@ -201,8 +201,8 @@
     "good first issue",
     "TypeScript"
    ],
-   "updatedAt": "2026-09-14T13:46:25Z",
-   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "updatedAt": "2026-11-16T16:15:44Z",
+   "checkedAt": "2026-11-17T22:54:58.137Z",
    "verdict": "discard",
    "reason": "PR #85293 by @Golenspade is already open against this issue",
    "evidence": [
@@ -223,8 +223,8 @@
     "good first issue",
     "Linting"
    ],
-   "updatedAt": "2026-11-04T08:05:02Z",
-   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "updatedAt": "2026-11-16T16:15:28Z",
+   "checkedAt": "2026-11-17T22:54:58.137Z",
    "verdict": "discard",
    "reason": "PR #54474 by @nnmax is already open against this issue",
    "evidence": [

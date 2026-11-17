@@ -4,7 +4,7 @@
  "language": "TypeScript",
  "stars": 114746,
  "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
- "visitedAt": "2026-11-10T17:47:07.019Z",
+ "visitedAt": "2026-11-17T22:54:58.137Z",
  "issues": [
   {
    "number": 6435,
@@ -16,8 +16,8 @@
     "frontend",
     "auth"
    ],
-   "updatedAt": "2026-11-10T17:51:25Z",
-   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "updatedAt": "2026-11-15T11:25:35Z",
+   "checkedAt": "2026-11-17T22:54:58.137Z",
    "verdict": "discard",
    "reason": "PR #1 by @23f2004847 is already open against this issue",
    "evidence": [
@@ -45,6 +45,25 @@
     "https://github.com/supabase/supabase/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/supabase/supabase/pull/35160",
     "https://github.com/supabase/supabase/pull/43943"
+   ]
+  },
+  {
+   "number": 53401,
+   "title": "Update Docs: fix Grammar errors, Typos and unclear wording in “Dashboard errors when managing users” KB article (N1ls4A)",
+   "url": "https://github.com/supabase/supabase/issues/53401",
+   "labels": [
+    "documentation",
+    "good first issue",
+    "external-issue"
+   ],
+   "updatedAt": "2026-11-17T13:24:15Z",
+   "checkedAt": "2026-11-17T22:54:58.137Z",
+   "verdict": "discard",
+   "reason": "@Vijay431 claimed it 3 days ago",
+   "evidence": [
+    "https://github.com/supabase/supabase/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/supabase/supabase/issues/53401#issuecomment-6882972011",
+    "https://github.com/supabase/supabase/issues/53401#issuecomment-6893562228"
    ]
   }
  ]

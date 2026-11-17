@@ -4,7 +4,7 @@
  "language": "JavaScript",
  "stars": 65998,
  "description": "A bundler for javascript and friends. Packs many modules into a few bundled assets. Code Splitting allows for loading parts of the application on demand. Through \"loaders\", modules can be CommonJs, AM",
- "visitedAt": "2026-11-10T17:47:07.019Z",
+ "visitedAt": "2026-11-17T22:54:58.137Z",
  "issues": [
   {
    "number": 7753,
@@ -188,8 +188,8 @@
    "labels": [
     "help wanted"
    ],
-   "updatedAt": "2026-09-02T02:19:14Z",
-   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "updatedAt": "2026-11-12T18:33:31Z",
+   "checkedAt": "2026-11-17T22:54:58.137Z",
    "verdict": "discard",
    "reason": "PR #21237 by @hai-x is already open against this issue",
    "evidence": [
