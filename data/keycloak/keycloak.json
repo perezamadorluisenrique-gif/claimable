@@ -4,7 +4,7 @@
  "language": "Java",
  "stars": 37801,
  "description": "Open Source Identity and Access Management For Modern Applications and Services",
- "visitedAt": "2026-11-16T02:46:09.212Z",
+ "visitedAt": "2026-11-17T04:31:55.832Z",
  "issues": [
   {
    "number": 8744,
@@ -236,30 +236,6 @@
     "https://github.com/keycloak/keycloak/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/keycloak/keycloak/issues/30759",
     "https://github.com/keycloak/keycloak/issues/16277"
-   ]
-  },
-  {
-   "number": 30140,
-   "title": "OAuth2.1 Client-Policy prevents update of client",
-   "url": "https://github.com/keycloak/keycloak/issues/30140",
-   "labels": [
-    "area/authentication",
-    "kind/bug",
-    "help wanted",
-    "team/core-clients",
-    "priority/low"
-   ],
-   "updatedAt": "2026-10-04T09:03:26Z",
-   "checkedAt": "2026-11-11T06:29:52.958Z",
-   "verdict": "reservations",
-   "reason": "1 stale claim, the most recent by @RamKarthikeya 38 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
-   "evidence": [
-    "https://github.com/keycloak/keycloak/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/keycloak/keycloak/issues/30140#issuecomment-5978347761",
-    "https://github.com/keycloak/keycloak/issues/30140",
-    "https://github.com/keycloak/keycloak/blob/HEAD/README.md",
-    "https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue",
-    "https://github.com/keycloak/keycloak/blob/HEAD/CONTRIBUTING.md"
    ]
   },
   {
@@ -571,31 +547,6 @@
    ]
   },
   {
-   "number": 42993,
-   "title": "Google SAML IDP initiated login does not work",
-   "url": "https://github.com/keycloak/keycloak/issues/42993",
-   "labels": [
-    "kind/enhancement",
-    "help wanted",
-    "area/identity-brokering",
-    "team/core-iam",
-    "priority/low",
-    "status/auto-expire",
-    "status/auto-bump"
-   ],
-   "updatedAt": "2026-10-04T14:29:25Z",
-   "checkedAt": "2026-11-11T06:29:52.958Z",
-   "verdict": "reservations",
-   "reason": "setup instructions live outside the repository (https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
-   "evidence": [
-    "https://github.com/keycloak/keycloak/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/keycloak/keycloak/issues/42993",
-    "https://github.com/keycloak/keycloak/blob/HEAD/README.md",
-    "https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue",
-    "https://github.com/keycloak/keycloak/blob/HEAD/CONTRIBUTING.md"
-   ]
-  },
-  {
    "number": 43037,
    "title": "Enable self-sovereign system support (RISC-V/OpenPOWER)",
    "url": "https://github.com/keycloak/keycloak/issues/43037",
@@ -620,32 +571,6 @@
    ]
   },
   {
-   "number": 43700,
-   "title": "user list times out when current page has invalid federated users",
-   "url": "https://github.com/keycloak/keycloak/issues/43700",
-   "labels": [
-    "kind/bug",
-    "area/ldap",
-    "help wanted",
-    "team/core-iam",
-    "status/auto-bump",
-    "priority/normal"
-   ],
-   "updatedAt": "2026-10-04T09:03:59Z",
-   "checkedAt": "2026-11-11T06:29:52.958Z",
-   "verdict": "reservations",
-   "reason": "PR #19050 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+3 more)",
-   "evidence": [
-    "https://github.com/keycloak/keycloak/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/keycloak/keycloak/pull/19050",
-    "https://github.com/keycloak/keycloak/issues/43700#issuecomment-5978351805",
-    "https://github.com/keycloak/keycloak/issues/43700",
-    "https://github.com/keycloak/keycloak/blob/HEAD/README.md",
-    "https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue",
-    "https://github.com/keycloak/keycloak/blob/HEAD/CONTRIBUTING.md"
-   ]
-  },
-  {
    "number": 43722,
    "title": "Pod Deletion Policy When Node is Down",
    "url": "https://github.com/keycloak/keycloak/issues/43722",
@@ -664,6 +589,29 @@
    "evidence": [
     "https://github.com/keycloak/keycloak/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/keycloak/keycloak/issues/43722#issuecomment-6412595691"
+   ]
+  },
+  {
+   "number": 45256,
+   "title": "Multiple group mappers not working since version 26",
+   "url": "https://github.com/keycloak/keycloak/issues/45256",
+   "labels": [
+    "kind/bug",
+    "area/ldap",
+    "help wanted",
+    "team/core-iam",
+    "status/auto-bump",
+    "priority/normal",
+    "status/bumped-by-bot"
+   ],
+   "updatedAt": "2026-11-16T15:13:21Z",
+   "checkedAt": "2026-11-17T04:31:55.832Z",
+   "verdict": "discard",
+   "reason": "PR #55230 by @Aschenbath is already open against this issue",
+   "evidence": [
+    "https://github.com/keycloak/keycloak/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/keycloak/keycloak/pull/55230",
+    "https://github.com/camunda/camunda-platform-helm/pull/6133"
    ]
   },
   {
@@ -750,26 +698,6 @@
    "evidence": [
     "https://github.com/keycloak/keycloak/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/keycloak/keycloak/pull/54208"
-   ]
-  },
-  {
-   "number": 48436,
-   "title": "NPE in UsersPartialImport.getModelId when getUserByUsername returns null (26.4.7, still present in 26.6.1 + main)",
-   "url": "https://github.com/keycloak/keycloak/issues/48436",
-   "labels": [
-    "kind/bug",
-    "area/import-export",
-    "help wanted",
-    "team/core-iam",
-    "priority/low"
-   ],
-   "updatedAt": "2026-10-05T06:59:11Z",
-   "checkedAt": "2026-11-11T06:29:52.958Z",
-   "verdict": "discard",
-   "reason": "already assigned to @vramik, @ed-leisman-pyxis",
-   "evidence": [
-    "https://github.com/keycloak/keycloak/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/keycloak/keycloak/issues/48436"
    ]
   },
   {
@@ -1280,8 +1208,8 @@
     "priority/normal",
     "team/core-protocols"
    ],
-   "updatedAt": "2026-10-31T08:46:34Z",
-   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "updatedAt": "2026-11-16T05:09:34Z",
+   "checkedAt": "2026-11-17T04:31:55.832Z",
    "verdict": "discard",
    "reason": "PR #51756 by @sagayatony is already open against this issue",
    "evidence": [
@@ -1313,51 +1241,6 @@
     "https://github.com/keycloak/keycloak/pull/52116",
     "https://github.com/keycloak/keycloak/pull/52117",
     "https://github.com/r-buc/keycloak/pull/1"
-   ]
-  },
-  {
-   "number": 52212,
-   "title": "Infinispan/JGroups metrics should not use the `cluster` label - it silently overwrites the Kubernetes cluster identity",
-   "url": "https://github.com/keycloak/keycloak/issues/52212",
-   "labels": [
-    "kind/enhancement",
-    "area/infinispan",
-    "help wanted",
-    "team/production-readiness",
-    "status/auto-expire",
-    "status/auto-bump",
-    "priority/normal"
-   ],
-   "updatedAt": "2026-10-03T21:58:15Z",
-   "checkedAt": "2026-11-11T06:29:52.958Z",
-   "verdict": "discard",
-   "reason": "PR #53503 by @goutamadwant is already open against this issue",
-   "evidence": [
-    "https://github.com/keycloak/keycloak/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/keycloak/keycloak/pull/53503"
-   ]
-  },
-  {
-   "number": 52215,
-   "title": "Account console: Personal Info save fails with \"The field Username is read only\" for LDAP users with a read-only username",
-   "url": "https://github.com/keycloak/keycloak/issues/52215",
-   "labels": [
-    "kind/bug",
-    "area/account/ui",
-    "help wanted",
-    "team/core-iam",
-    "status/auto-expire",
-    "status/auto-bump",
-    "priority/normal"
-   ],
-   "updatedAt": "2026-10-05T02:59:11Z",
-   "checkedAt": "2026-11-11T06:29:52.958Z",
-   "verdict": "discard",
-   "reason": "PR #53514 by @upramod is already open against this issue",
-   "evidence": [
-    "https://github.com/keycloak/keycloak/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/keycloak/keycloak/pull/53514",
-    "https://github.com/upramod/keycloak/pull/1"
    ]
   },
   {
@@ -1649,28 +1532,6 @@
    "evidence": [
     "https://github.com/keycloak/keycloak/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/keycloak/keycloak/pull/53647"
-   ]
-  },
-  {
-   "number": 53436,
-   "title": "Roles from other clients are missing from \"Effective role scope mappings\" in Client Scope Evaluate",
-   "url": "https://github.com/keycloak/keycloak/issues/53436",
-   "labels": [
-    "area/oidc",
-    "help wanted",
-    "kind/task",
-    "status/auto-expire",
-    "status/auto-bump",
-    "priority/normal",
-    "team/core-protocols"
-   ],
-   "updatedAt": "2026-10-05T13:16:46Z",
-   "checkedAt": "2026-11-11T06:29:52.958Z",
-   "verdict": "discard",
-   "reason": "PR #53481 by @devysf is already open against this issue",
-   "evidence": [
-    "https://github.com/keycloak/keycloak/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/keycloak/keycloak/pull/53481"
    ]
   },
   {
@@ -2122,28 +1983,6 @@
    ]
   },
   {
-   "number": 54361,
-   "title": "Account Console Groups page: the per-row \"Direct membership\" checkbox has no accessible name (axe label, WCAG 1.3.1 / 4.1.2)",
-   "url": "https://github.com/keycloak/keycloak/issues/54361",
-   "labels": [
-    "kind/bug",
-    "area/account/ui",
-    "help wanted",
-    "team/core-iam",
-    "priority/low",
-    "status/auto-expire",
-    "status/auto-bump"
-   ],
-   "updatedAt": "2026-11-06T15:22:24Z",
-   "checkedAt": "2026-11-11T06:29:52.958Z",
-   "verdict": "discard",
-   "reason": "PR #54773 by @atishay-kasliwal is already open against this issue",
-   "evidence": [
-    "https://github.com/keycloak/keycloak/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/keycloak/keycloak/pull/54773"
-   ]
-  },
-  {
    "number": 54396,
    "title": "ContentSecurityPolicyBuilder widens a realm CSP that repeats a directive, and appends sources to 'none'",
    "url": "https://github.com/keycloak/keycloak/issues/54396",
@@ -2214,6 +2053,27 @@
    ]
   },
   {
+   "number": 54516,
+   "title": "AuthZEN: 401 responses omit the WWW-Authenticate header",
+   "url": "https://github.com/keycloak/keycloak/issues/54516",
+   "labels": [
+    "area/authorization-services",
+    "kind/bug",
+    "help wanted",
+    "team/core-iam",
+    "status/auto-bump",
+    "priority/normal"
+   ],
+   "updatedAt": "2026-11-16T14:45:20Z",
+   "checkedAt": "2026-11-17T04:31:55.832Z",
+   "verdict": "discard",
+   "reason": "PR #54517 by @hakdogan is already open against this issue",
+   "evidence": [
+    "https://github.com/keycloak/keycloak/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/keycloak/keycloak/pull/54517"
+   ]
+  },
+  {
    "number": 54532,
    "title": "Group names with invisible Unicode characters (e.g. U+2060 WORD JOINER) are accepted without validation and silently break UMA authorization",
    "url": "https://github.com/keycloak/keycloak/issues/54532",
@@ -2234,6 +2094,31 @@
     "https://github.com/keycloak/keycloak/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/keycloak/keycloak/pull/54719",
     "https://github.com/keycloak/keycloak/pull/54828"
+   ]
+  },
+  {
+   "number": 54542,
+   "title": "AuthZEN: requests with `action.properties` or unknown fields are rejected with 400",
+   "url": "https://github.com/keycloak/keycloak/issues/54542",
+   "labels": [
+    "area/authorization-services",
+    "kind/bug",
+    "help wanted",
+    "team/core-iam",
+    "status/auto-bump",
+    "priority/normal"
+   ],
+   "updatedAt": "2026-11-16T14:46:03Z",
+   "checkedAt": "2026-11-17T04:31:55.832Z",
+   "verdict": "reservations",
+   "reason": "PR #23 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+3 more)",
+   "evidence": [
+    "https://github.com/keycloak/keycloak/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/authzenenforcer/authzen-enforcer/pull/23",
+    "https://github.com/keycloak/keycloak/issues/54542",
+    "https://github.com/keycloak/keycloak/blob/HEAD/README.md",
+    "https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue",
+    "https://github.com/keycloak/keycloak/blob/HEAD/CONTRIBUTING.md"
    ]
   },
   {
@@ -2351,6 +2236,77 @@
    ]
   },
   {
+   "number": 54720,
+   "title": "Creating a group with a name longer than 255 characters returns HTTP 500 instead of 400",
+   "url": "https://github.com/keycloak/keycloak/issues/54720",
+   "labels": [
+    "kind/bug",
+    "area/admin/api",
+    "help wanted",
+    "team/core-iam",
+    "team/core-shared",
+    "status/auto-expire",
+    "status/auto-bump",
+    "priority/normal",
+    "status/labeled-by-bot"
+   ],
+   "updatedAt": "2026-11-16T16:00:19Z",
+   "checkedAt": "2026-11-17T04:31:55.832Z",
+   "verdict": "discard",
+   "reason": "PR #54738 by @2748109647 is already open against this issue",
+   "evidence": [
+    "https://github.com/keycloak/keycloak/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/keycloak/keycloak/pull/54738"
+   ]
+  },
+  {
+   "number": 54721,
+   "title": "Group names can contain control characters (e.g. NUL) - silently stored, breaks PostgreSQL deployments and exact matching",
+   "url": "https://github.com/keycloak/keycloak/issues/54721",
+   "labels": [
+    "kind/bug",
+    "area/admin/api",
+    "help wanted",
+    "team/core-iam",
+    "status/auto-expire",
+    "status/auto-bump",
+    "priority/normal",
+    "status/labeled-by-bot"
+   ],
+   "updatedAt": "2026-11-16T16:03:39Z",
+   "checkedAt": "2026-11-17T04:31:55.832Z",
+   "verdict": "discard",
+   "reason": "PR #54828 by @Inf1mum is already open against this issue",
+   "evidence": [
+    "https://github.com/keycloak/keycloak/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/keycloak/keycloak/pull/54828"
+   ]
+  },
+  {
+   "number": 54848,
+   "title": "AuthZEN: `resource.properties` and `context` share one attribute namespace, and `context` silently overrides resource properties",
+   "url": "https://github.com/keycloak/keycloak/issues/54848",
+   "labels": [
+    "area/authorization-services",
+    "kind/bug",
+    "help wanted",
+    "team/core-iam",
+    "status/auto-bump",
+    "priority/normal"
+   ],
+   "updatedAt": "2026-11-16T14:47:02Z",
+   "checkedAt": "2026-11-17T04:31:55.832Z",
+   "verdict": "reservations",
+   "reason": "PR #1 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "evidence": [
+    "https://github.com/keycloak/keycloak/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/authzenenforcer/authzen-enforcer-examples/pull/1",
+    "https://github.com/keycloak/keycloak/issues/54848",
+    "https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue",
+    "https://github.com/keycloak/keycloak/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
    "number": 55023,
    "title": "persian language is missing font and styling",
    "url": "https://github.com/keycloak/keycloak/issues/55023",
@@ -2370,6 +2326,55 @@
     "https://github.com/keycloak/keycloak/blob/HEAD/README.md",
     "https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue",
     "https://github.com/keycloak/keycloak/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 55076,
+   "title": "[Keycloak 26.8.2] Admin Console login fails with Invalid parameter: redirect_uri on fresh Windows installation",
+   "url": "https://github.com/keycloak/keycloak/issues/55076",
+   "labels": [
+    "kind/bug",
+    "area/admin/ui",
+    "help wanted",
+    "team/core-shared",
+    "status/auto-expire",
+    "status/auto-bump",
+    "priority/normal",
+    "team/core-protocols"
+   ],
+   "updatedAt": "2026-11-16T09:06:30Z",
+   "checkedAt": "2026-11-17T04:31:55.832Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/keycloak/keycloak/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/keycloak/keycloak/issues/55076",
+    "https://github.com/keycloak/keycloak/blob/HEAD/README.md",
+    "https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue",
+    "https://github.com/keycloak/keycloak/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 55093,
+   "title": "Long IDP names do not wrap in Keycloak login buttons",
+   "url": "https://github.com/keycloak/keycloak/issues/55093",
+   "labels": [
+    "kind/bug",
+    "help wanted",
+    "area/login/ui",
+    "status/auto-expire",
+    "status/auto-bump",
+    "priority/normal",
+    "team/core-authn",
+    "backport/26.8"
+   ],
+   "updatedAt": "2026-11-16T08:58:17Z",
+   "checkedAt": "2026-11-17T04:31:55.832Z",
+   "verdict": "discard",
+   "reason": "PR #55095 by @rawagner is already open against this issue",
+   "evidence": [
+    "https://github.com/keycloak/keycloak/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/keycloak/keycloak/pull/55095"
    ]
   },
   {

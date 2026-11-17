@@ -4,7 +4,7 @@
  "language": "C#",
  "stars": 20771,
  "description": "The Roslyn .NET compiler provides C# and Visual Basic languages with rich code analysis APIs.",
- "visitedAt": "2026-11-16T02:46:09.212Z",
+ "visitedAt": "2026-11-17T04:31:55.832Z",
  "issues": [
   {
    "number": 410,
@@ -808,26 +808,6 @@
    "evidence": [
     "https://github.com/dotnet/roslyn/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/dotnet/roslyn/pull/86388"
-   ]
-  },
-  {
-   "number": 63187,
-   "title": "Change signature should suggest importing namespace for a type that's not recognized",
-   "url": "https://github.com/dotnet/roslyn/issues/63187",
-   "labels": [
-    "help wanted",
-    "Area-IDE",
-    "Concept-Continuous Improvement"
-   ],
-   "updatedAt": "2025-11-14T17:05:25Z",
-   "checkedAt": "2026-11-15T02:43:03.155Z",
-   "verdict": "reservations",
-   "reason": "open 52 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
-   "evidence": [
-    "https://github.com/dotnet/roslyn/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/dotnet/roslyn/issues/63187",
-    "https://docs.microsoft.com/en-us/dotnet/csharp/roslyn-sdk/compiler-api-model",
-    "https://github.com/dotnet/roslyn/blob/HEAD/CONTRIBUTING.md"
    ]
   },
   {
@@ -1964,6 +1944,23 @@
    "evidence": [
     "https://github.com/dotnet/roslyn/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/dotnet/roslyn/pull/85993"
+   ]
+  },
+  {
+   "number": 86477,
+   "title": "Add `ReferenceAssemblies.Net.Net110` to Microsoft.CodeAnalysis.Testing",
+   "url": "https://github.com/dotnet/roslyn/issues/86477",
+   "labels": [
+    "help wanted",
+    "Area-SDK and Samples"
+   ],
+   "updatedAt": "2026-11-17T01:53:21Z",
+   "checkedAt": "2026-11-17T04:31:55.832Z",
+   "verdict": "discard",
+   "reason": "PR #86510 by @lyanriu8 is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/roslyn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/roslyn/pull/86510"
    ]
   }
  ]

@@ -4,7 +4,7 @@
  "language": "TypeScript",
  "stars": 106999,
  "description": "The 1st Collaborative AI Design Agent Workspace. Local-first and open source. Create motion, prototypes, websites, apps, dashboards, presentations, images, and videos with your team and AI agents. Sha",
- "visitedAt": "2026-11-15T22:52:34.246Z",
+ "visitedAt": "2026-11-17T04:31:55.832Z",
  "issues": [
   {
    "number": 473,
@@ -1871,13 +1871,14 @@
     "good first issue",
     "help wanted"
    ],
-   "updatedAt": "2026-09-30T07:07:25Z",
-   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "updatedAt": "2026-11-17T02:06:57Z",
+   "checkedAt": "2026-11-17T04:31:55.832Z",
    "verdict": "discard",
    "reason": "PR #8530 by @scs0209 is already open against this issue",
    "evidence": [
     "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/nexu-io/open-design/pull/8530"
+    "https://github.com/nexu-io/open-design/pull/8530",
+    "https://github.com/nexu-io/open-design/pull/9496"
    ]
   },
   {
@@ -1926,13 +1927,14 @@
     "good first issue",
     "help wanted"
    ],
-   "updatedAt": "2026-09-30T12:33:47Z",
-   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "updatedAt": "2026-11-17T02:27:24Z",
+   "checkedAt": "2026-11-17T04:31:55.832Z",
    "verdict": "discard",
    "reason": "PR #8105 by @ergs0204 is already open against this issue",
    "evidence": [
     "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/nexu-io/open-design/pull/8105"
+    "https://github.com/nexu-io/open-design/pull/8105",
+    "https://github.com/nexu-io/open-design/pull/9498"
    ]
   },
   {
@@ -2069,14 +2071,15 @@
     "good first issue",
     "help wanted"
    ],
-   "updatedAt": "2026-11-11T17:05:42Z",
-   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "updatedAt": "2026-11-17T01:43:23Z",
+   "checkedAt": "2026-11-17T04:31:55.832Z",
    "verdict": "discard",
    "reason": "PR #8476 by @TwFlem is already open against this issue",
    "evidence": [
     "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/nexu-io/open-design/pull/8476",
-    "https://github.com/nexu-io/open-design/pull/8529"
+    "https://github.com/nexu-io/open-design/pull/8529",
+    "https://github.com/nexu-io/open-design/pull/9494"
    ]
   },
   {
@@ -2273,23 +2276,6 @@
    ]
   },
   {
-   "number": 8792,
-   "title": "[Bug]: Placeholder previews and a chat UI kit are written into installed design system packages",
-   "url": "https://github.com/nexu-io/open-design/issues/8792",
-   "labels": [
-    "bug",
-    "help wanted"
-   ],
-   "updatedAt": "2026-10-18T22:26:57Z",
-   "checkedAt": "2026-11-14T22:28:38.603Z",
-   "verdict": "discard",
-   "reason": "PR #8796 by @marcodellemarche is already open against this issue",
-   "evidence": [
-    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/nexu-io/open-design/pull/8796"
-   ]
-  },
-  {
    "number": 8822,
    "title": "web sidecar proxy leaks daemon sockets when the browser disconnects early (SSE / aborted fetch / aborted upload)",
    "url": "https://github.com/nexu-io/open-design/issues/8822",
@@ -2352,15 +2338,16 @@
     "good first issue",
     "help wanted"
    ],
-   "updatedAt": "2026-11-12T04:24:26Z",
-   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "updatedAt": "2026-11-17T01:56:57Z",
+   "checkedAt": "2026-11-17T04:31:55.832Z",
    "verdict": "discard",
    "reason": "PR #8893 by @xu91102 is already open against this issue",
    "evidence": [
     "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/nexu-io/open-design/pull/8893",
     "https://github.com/nexu-io/open-design/pull/8972",
-    "https://github.com/nexu-io/open-design/pull/9431"
+    "https://github.com/nexu-io/open-design/pull/9431",
+    "https://github.com/nexu-io/open-design/pull/9495"
    ]
   },
   {
@@ -2372,15 +2359,14 @@
     "good first issue",
     "help wanted"
    ],
-   "updatedAt": "2026-11-13T14:47:26Z",
-   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "updatedAt": "2026-11-17T01:34:56Z",
+   "checkedAt": "2026-11-17T04:31:55.832Z",
    "verdict": "discard",
-   "reason": "PR #8894 by @xu91102 is already open against this issue",
+   "reason": "PR #8914 by @xxiaoxiong is already open against this issue",
    "evidence": [
     "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/nexu-io/open-design/pull/8894",
     "https://github.com/nexu-io/open-design/pull/8914",
-    "https://github.com/nexu-io/open-design/pull/9455"
+    "https://github.com/nexu-io/open-design/pull/9493"
    ]
   },
   {
@@ -2570,8 +2556,8 @@
     "bug",
     "help wanted"
    ],
-   "updatedAt": "2026-11-13T08:38:54Z",
-   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "updatedAt": "2026-11-16T14:08:27Z",
+   "checkedAt": "2026-11-17T04:31:55.832Z",
    "verdict": "discard",
    "reason": "PR #9403 by @dns-18 is already open against this issue",
    "evidence": [
@@ -2588,8 +2574,8 @@
     "bug",
     "help wanted"
    ],
-   "updatedAt": "2026-11-13T16:38:07Z",
-   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "updatedAt": "2026-11-16T22:35:51Z",
+   "checkedAt": "2026-11-17T04:31:55.832Z",
    "verdict": "discard",
    "reason": "PR #9448 by @sachitdotdev is already open against this issue",
    "evidence": [
@@ -2622,14 +2608,13 @@
     "bug",
     "help wanted"
    ],
-   "updatedAt": "2026-11-15T20:29:25Z",
-   "checkedAt": "2026-11-15T22:52:34.246Z",
+   "updatedAt": "2026-11-15T23:28:44Z",
+   "checkedAt": "2026-11-17T04:31:55.832Z",
    "verdict": "discard",
-   "reason": "already assigned to @arjun-bali-ds",
+   "reason": "PR #9479 by @arjun-bali-ds is already open against this issue",
    "evidence": [
     "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/nexu-io/open-design/issues/9422",
-    "https://github.com/nexu-io/open-design/issues/9422#issuecomment-6900733464"
+    "https://github.com/nexu-io/open-design/pull/9479"
    ]
   },
   {
@@ -2648,6 +2633,24 @@
     "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/nexu-io/open-design/pull/9474",
     "https://github.com/nexu-io/open-design/pull/9475"
+   ]
+  },
+  {
+   "number": 9489,
+   "title": "[Bug]: The web app draws an empty file panel when the file-list request fails, so a slow daemon looks like a project with no files",
+   "url": "https://github.com/nexu-io/open-design/issues/9489",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-16T19:12:26Z",
+   "checkedAt": "2026-11-17T04:31:55.832Z",
+   "verdict": "discard",
+   "reason": "PR #9487 by @QzMicro is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/issues/9487"
    ]
   }
  ]

@@ -4,7 +4,7 @@
  "language": "Rust",
  "stars": 86093,
  "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
- "visitedAt": "2026-11-16T02:46:09.212Z",
+ "visitedAt": "2026-11-17T04:31:55.832Z",
  "issues": [
   {
    "number": 361,
@@ -709,26 +709,6 @@
    ]
   },
   {
-   "number": 2216,
-   "title": "RTK is not being configured properly with global initialization for VS Code + Copilot",
-   "url": "https://github.com/rtk-ai/rtk/issues/2216",
-   "labels": [
-    "bug",
-    "help wanted",
-    "priority:high",
-    "area:cli",
-    "area:docs"
-   ],
-   "updatedAt": "2026-09-19T02:03:55Z",
-   "checkedAt": "2026-11-16T02:46:09.212Z",
-   "verdict": "discard",
-   "reason": "PR #2244 by @manos02 is already open against this issue",
-   "evidence": [
-    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/rtk-ai/rtk/issues/2244"
-   ]
-  },
-  {
    "number": 2268,
    "title": "Built-in filters for ssh / dig / lsof / scp (custom TOML filters don't reach the PreToolUse hook)",
    "url": "https://github.com/rtk-ai/rtk/issues/2268",
@@ -758,8 +738,8 @@
     "priority:high",
     "area:cli"
    ],
-   "updatedAt": "2026-11-07T16:09:11Z",
-   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "updatedAt": "2026-11-17T00:32:27Z",
+   "checkedAt": "2026-11-17T04:31:55.832Z",
    "verdict": "discard",
    "reason": "PR #3577 by @hesam-oxe is already open against this issue",
    "evidence": [
@@ -872,8 +852,8 @@
     "priority:low",
     "area:cli"
    ],
-   "updatedAt": "2026-10-31T00:23:44Z",
-   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "updatedAt": "2026-11-17T02:27:25Z",
+   "checkedAt": "2026-11-17T04:31:55.832Z",
    "verdict": "discard",
    "reason": "PR #3713 by @IDjinn is already open against this issue",
    "evidence": [
@@ -1057,6 +1037,26 @@
     "https://github.com/rtk-ai/rtk/issues/3303",
     "https://github.com/rtk-ai/rtk/blob/HEAD/CONTRIBUTING.md",
     "https://github.com/rtk-ai/rtk/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 3386,
+   "title": "[config] filters.ignore_dirs / ignore_files are declared and documented but never read (ls/tree use hardcoded NOISE_DIRS)",
+   "url": "https://github.com/rtk-ai/rtk/issues/3386",
+   "labels": [
+    "bug",
+    "good first issue",
+    "priority:medium",
+    "area:config"
+   ],
+   "updatedAt": "2026-11-16T06:48:51Z",
+   "checkedAt": "2026-11-17T04:31:55.832Z",
+   "verdict": "discard",
+   "reason": "PR #3550 by @sakiko-toyokawa is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/3550"
    ]
   },
   {
@@ -1470,27 +1470,6 @@
     "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/rtk-ai/rtk/pull/4042",
     "https://github.com/rtk-ai/rtk/pull/3941"
-   ]
-  },
-  {
-   "number": 4056,
-   "title": "Name the program in spawn-failure errors for captured commands",
-   "url": "https://github.com/rtk-ai/rtk/issues/4056",
-   "labels": [
-    "bug",
-    "good first issue",
-    "area:cli",
-    "priority:medium"
-   ],
-   "updatedAt": "2026-09-14T13:34:33Z",
-   "checkedAt": "2026-11-11T22:03:46.308Z",
-   "verdict": "discard",
-   "reason": "PR #4057 by @obrienciaran is already open against this issue",
-   "evidence": [
-    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
-    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/rtk-ai/rtk/pull/4057",
-    "https://github.com/rtk-ai/rtk/pull/4234"
    ]
   },
   {
@@ -4212,6 +4191,26 @@
     "https://github.com/rtk-ai/rtk/blob/HEAD/hooks/pi/rtk.ts",
     "https://github.com/rtk-ai/rtk/blob/HEAD/CONTRIBUTING.md",
     "https://github.com/rtk-ai/rtk/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 5132,
+   "title": "Bundled jj filter caps every jj command at 30 lines (diffs and file reads included), and filters.toml cannot override it",
+   "url": "https://github.com/rtk-ai/rtk/issues/5132",
+   "labels": [
+    "bug",
+    "help wanted",
+    "priority:high",
+    "area:config"
+   ],
+   "updatedAt": "2026-11-16T17:57:23Z",
+   "checkedAt": "2026-11-17T04:31:55.832Z",
+   "verdict": "discard",
+   "reason": "PR #5134 by @LeviReisJs is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/5134"
    ]
   }
  ]
