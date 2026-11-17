@@ -56,7 +56,7 @@
   "lastNewIssue": null
  },
  "prettier/prettier": {
-  "nextCheck": "2026-11-17T11:27:18.358Z",
+  "nextCheck": "2026-11-18T14:28:45.984Z",
   "lastNewIssue": "2026-11-13T16:40:50Z"
  },
  "openclaw/openclaw": {
@@ -276,7 +276,7 @@
   "lastNewIssue": "2026-03-27T20:55:01Z"
  },
  "rclone/rclone": {
-  "nextCheck": "2026-11-17T11:27:18.358Z",
+  "nextCheck": "2026-11-18T14:28:45.984Z",
   "lastNewIssue": "2026-11-13T15:42:49Z"
  },
  "multica-ai/multica": {
@@ -512,8 +512,8 @@
   "lastNewIssue": "2026-05-14T00:59:26Z"
  },
  "openssl/openssl": {
-  "nextCheck": "2026-11-17T11:27:18.358Z",
-  "lastNewIssue": "2026-11-14T03:14:07Z"
+  "nextCheck": "2026-11-18T14:28:45.984Z",
+  "lastNewIssue": "2026-11-16T19:41:47Z"
  },
  "xiaojieonly/ehviewer_cn_sxj": {
   "nextCheck": "2026-11-19T19:57:47.710Z",
@@ -624,7 +624,7 @@
   "lastNewIssue": "2024-09-20T15:27:03Z"
  },
  "github-linguist/linguist": {
-  "nextCheck": "2026-11-17T11:27:18.358Z",
+  "nextCheck": "2026-11-20T14:28:45.984Z",
   "lastNewIssue": "2026-11-09T17:26:43Z"
  },
  "fluent/fluentd": {
@@ -716,8 +716,8 @@
   "lastNewIssue": "2026-05-24T20:42:54Z"
  },
  "ankidroid/anki-android": {
-  "nextCheck": "2026-11-17T11:27:18.358Z",
-  "lastNewIssue": "2026-11-13T21:11:28Z"
+  "nextCheck": "2026-11-18T14:28:45.984Z",
+  "lastNewIssue": "2026-11-16T20:57:22Z"
  },
  "swiftlang/swift": {
   "nextCheck": "2026-11-20T16:28:29.473Z",
@@ -1024,7 +1024,7 @@
   "lastNewIssue": "2024-08-15T11:12:56Z"
  },
  "avante-corp/avante.nvim": {
-  "nextCheck": "2026-11-17T11:31:58.340Z",
+  "nextCheck": "2026-11-20T14:28:45.984Z",
   "lastNewIssue": "2026-10-20T14:48:08Z"
  },
  "apache/apisix": {
@@ -1052,7 +1052,7 @@
   "lastNewIssue": "2023-07-08T05:40:47Z"
  },
  "corsixth/corsixth": {
-  "nextCheck": "2026-11-17T11:31:58.340Z",
+  "nextCheck": "2026-11-20T14:28:45.984Z",
   "lastNewIssue": "2026-10-24T22:14:41Z"
  },
  "luals/lua-language-server": {

@@ -4,7 +4,7 @@
  "language": "Go",
  "stars": 60921,
  "description": "\"rsync for cloud storage\" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Azure Blob, Azure Files, Yandex Files",
- "visitedAt": "2026-11-16T11:27:18.358Z",
+ "visitedAt": "2026-11-17T14:28:45.984Z",
  "issues": [
   {
    "number": 18,
@@ -44,8 +44,8 @@
     "integration",
     "fsnotify / events"
    ],
-   "updatedAt": "2026-11-16T03:23:46Z",
-   "checkedAt": "2026-11-16T11:27:18.358Z",
+   "updatedAt": "2026-11-16T12:52:01Z",
+   "checkedAt": "2026-11-17T14:28:45.984Z",
    "verdict": "discard",
    "reason": "PR #8258 by @lawmurray is already open against this issue",
    "evidence": [
@@ -390,27 +390,6 @@
    "evidence": [
     "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/rclone/rclone/issues/2755",
-    "https://github.com/rclone/rclone/blob/HEAD/README.md",
-    "https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git",
-    "https://github.com/rclone/rclone/blob/HEAD/CONTRIBUTING.md"
-   ]
-  },
-  {
-   "number": 2854,
-   "title": "serve permission scheme ",
-   "url": "https://github.com/rclone/rclone/issues/2854",
-   "labels": [
-    "enhancement",
-    "help wanted",
-    "Web GUI"
-   ],
-   "updatedAt": "2024-03-08T11:30:52Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
-   "verdict": "reservations",
-   "reason": "setup instructions live outside the repository (https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git) — this filter only reads files in the repo, so the real setup cost is unverified",
-   "evidence": [
-    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/rclone/rclone/issues/2854",
     "https://github.com/rclone/rclone/blob/HEAD/README.md",
     "https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git",
     "https://github.com/rclone/rclone/blob/HEAD/CONTRIBUTING.md"
@@ -1172,6 +1151,23 @@
    "evidence": [
     "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/rclone/rclone/pull/9655"
+   ]
+  },
+  {
+   "number": 6704,
+   "title": "allow setting filter/include/exclude from the auth-proxy script",
+   "url": "https://github.com/rclone/rclone/issues/6704",
+   "labels": [
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-17T02:23:45Z",
+   "checkedAt": "2026-11-17T14:28:45.984Z",
+   "verdict": "discard",
+   "reason": "PR #10371 by @alex09x is already open against this issue",
+   "evidence": [
+    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rclone/rclone/pull/10371"
    ]
   },
   {

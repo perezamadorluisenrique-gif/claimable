@@ -4,7 +4,7 @@
  "language": "C",
  "stars": 31402,
  "description": "General purpose TLS and crypto library",
- "visitedAt": "2026-11-16T11:27:18.358Z",
+ "visitedAt": "2026-11-17T14:28:45.984Z",
  "issues": [
   {
    "number": 13825,
@@ -403,6 +403,27 @@
    ]
   },
   {
+   "number": 28846,
+   "title": "comp/zstd: zstd_stateful_compress_block ignores nonzero return from ZSTD_flushStream",
+   "url": "https://github.com/openssl/openssl/issues/28846",
+   "labels": [
+    "branch: master",
+    "help wanted",
+    "triaged: bug",
+    "branch: 3.3",
+    "branch: 3.4",
+    "branch: 3.5",
+    "branch: 3.6"
+   ],
+   "updatedAt": "2026-11-16T14:25:09Z",
+   "checkedAt": "2026-11-17T14:28:45.984Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
    "number": 30725,
    "title": "BIO buffer APIs allow negative length → heap corruption, missing input validation (OpenSSL 3.0.2, 3.6.1)",
    "url": "https://github.com/openssl/openssl/issues/30725",
@@ -569,28 +590,6 @@
    ]
   },
   {
-   "number": 32897,
-   "title": "fuzz/provider.c: FuzzerTestOneInput returns 1 for every input of 16 bytes or more, violating libFuzzer's contract",
-   "url": "https://github.com/openssl/openssl/issues/32897",
-   "labels": [
-    "good first issue",
-    "help wanted",
-    "triaged: bug",
-    "triaged: test"
-   ],
-   "updatedAt": "2026-09-24T20:49:57Z",
-   "checkedAt": "2026-11-12T19:57:47.710Z",
-   "verdict": "discard",
-   "reason": "PR #32966 by @akshar27 is already open against this issue",
-   "evidence": [
-    "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Aclosed",
-    "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/openssl/openssl/pull/32966",
-    "https://github.com/ThatRetiredDude/openssl/pull/1",
-    "https://github.com/openssl/openssl/pull/33406"
-   ]
-  },
-  {
    "number": 33012,
    "title": "OpenSSLConfig.cmake gives OPENSSL_INCLUDE_DIR=/include when found through a symlinked lib dir",
    "url": "https://github.com/openssl/openssl/issues/33012",
@@ -606,24 +605,6 @@
     "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Aclosed",
     "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/openssl/openssl/pull/33411"
-   ]
-  },
-  {
-   "number": 33106,
-   "title": "`OSSL_CRMF_ENCRYPTEDKEY_get1_pkey()` frees decrypted private key with plain `OPENSSL_free()` (CWE-226)",
-   "url": "https://github.com/openssl/openssl/issues/33106",
-   "labels": [
-    "help wanted",
-    "triaged: bug"
-   ],
-   "updatedAt": "2026-10-19T08:46:49Z",
-   "checkedAt": "2026-11-12T19:57:47.710Z",
-   "verdict": "discard",
-   "reason": "PR #33274 by @Pankraz76 is already open against this issue",
-   "evidence": [
-    "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Aclosed",
-    "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/openssl/openssl/pull/33274"
    ]
   },
   {
@@ -643,42 +624,6 @@
     "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Aclosed",
     "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/openssl/openssl/pull/33274"
-   ]
-  },
-  {
-   "number": 33152,
-   "title": "ML-KEM: printing a private key leaves the seed and dk in memory",
-   "url": "https://github.com/openssl/openssl/issues/33152",
-   "labels": [
-    "help wanted",
-    "triaged: bug"
-   ],
-   "updatedAt": "2026-10-19T08:51:58Z",
-   "checkedAt": "2026-11-12T19:57:47.710Z",
-   "verdict": "discard",
-   "reason": "PR #33155 by @Udayd20 is already open against this issue",
-   "evidence": [
-    "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Aclosed",
-    "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/openssl/openssl/pull/33155"
-   ]
-  },
-  {
-   "number": 33153,
-   "title": "ML-KEM: import_pct_type=fixed is ignored, and two small error-path bugs",
-   "url": "https://github.com/openssl/openssl/issues/33153",
-   "labels": [
-    "help wanted",
-    "triaged: bug"
-   ],
-   "updatedAt": "2026-10-19T08:53:29Z",
-   "checkedAt": "2026-11-12T19:57:47.710Z",
-   "verdict": "discard",
-   "reason": "PR #33154 by @Udayd20 is already open against this issue",
-   "evidence": [
-    "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Aclosed",
-    "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/openssl/openssl/pull/33154"
    ]
   },
   {
@@ -1586,8 +1531,8 @@
     "help wanted",
     "triaged: feature"
    ],
-   "updatedAt": "2026-11-16T10:17:04Z",
-   "checkedAt": "2026-11-16T11:27:18.358Z",
+   "updatedAt": "2026-11-17T05:19:05Z",
+   "checkedAt": "2026-11-17T14:28:45.984Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
    "evidence": [
@@ -2303,6 +2248,45 @@
    ],
    "updatedAt": "2026-11-16T10:47:33Z",
    "checkedAt": "2026-11-16T11:27:18.358Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 33758,
+   "title": "QUIC: PTO probe sends PING instead of unacknowledged ClientHello",
+   "url": "https://github.com/openssl/openssl/issues/33758",
+   "labels": [
+    "branch: master",
+    "help wanted",
+    "triaged: bug",
+    "branch: 3.5",
+    "branch: 4.0",
+    "branch: 4.1"
+   ],
+   "updatedAt": "2026-11-17T11:46:38Z",
+   "checkedAt": "2026-11-17T14:28:45.984Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 33778,
+   "title": "SSL_get0_peer_scts() returns NULL when the server staples an OCSP response without SCTs",
+   "url": "https://github.com/openssl/openssl/issues/33778",
+   "labels": [
+    "branch: master",
+    "help wanted",
+    "triaged: bug",
+    "branch: 4.0",
+    "branch: 4.1"
+   ],
+   "updatedAt": "2026-11-17T12:08:23Z",
+   "checkedAt": "2026-11-17T14:28:45.984Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
    "evidence": [
