@@ -4,7 +4,7 @@
  "language": "Java",
  "stars": 78551,
  "description": "Free and Open Source, Distributed, RESTful Search Engine",
- "visitedAt": "2026-11-15T10:59:03.445Z",
+ "visitedAt": "2026-11-18T14:03:59.541Z",
  "issues": [
   {
    "number": 4227,
@@ -1901,18 +1901,21 @@
     "Meta",
     "Team:Core/Infra"
    ],
-   "updatedAt": "2026-11-15T00:29:16Z",
-   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "updatedAt": "2026-11-17T16:58:04Z",
+   "checkedAt": "2026-11-18T14:03:59.541Z",
    "verdict": "discard",
    "reason": "PR #164791 by @joshua-adams-1 is already open against this issue",
    "evidence": [
     "https://github.com/elastic/elasticsearch/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/elastic/elasticsearch/pull/164791",
     "https://github.com/elastic/elasticsearch/pull/164867",
-    "https://github.com/elastic/elasticsearch/pull/164872",
-    "https://github.com/elastic/elasticsearch/pull/165090",
     "https://github.com/elastic/elasticsearch/pull/165537",
-    "https://github.com/elastic/elasticsearch/pull/165639"
+    "https://github.com/elastic/elasticsearch/pull/166202",
+    "https://github.com/elastic/elasticsearch/pull/166303",
+    "https://github.com/elastic/elasticsearch/pull/166338",
+    "https://github.com/elastic/elasticsearch/pull/166365",
+    "https://github.com/elastic/elasticsearch/pull/164872",
+    "https://github.com/elastic/elasticsearch/pull/165090"
    ]
   }
  ]

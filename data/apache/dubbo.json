@@ -4,7 +4,7 @@
  "language": "Java",
  "stars": 41578,
  "description": "The java implementation of Apache Dubbo. An RPC and microservice framework.",
- "visitedAt": "2026-11-11T06:29:52.958Z",
+ "visitedAt": "2026-11-18T14:03:59.541Z",
  "issues": [
   {
    "number": 1923,
@@ -1869,13 +1869,14 @@
    "labels": [
     "help wanted"
    ],
-   "updatedAt": "2026-11-10T02:37:42Z",
-   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "updatedAt": "2026-11-12T00:57:10Z",
+   "checkedAt": "2026-11-18T14:03:59.541Z",
    "verdict": "discard",
    "reason": "PR #16418 by @jamespud is already open against this issue",
    "evidence": [
     "https://github.com/apache/dubbo/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/apache/dubbo/pull/16418",
+    "https://github.com/apache/dubbo/pull/16587",
     "https://github.com/apache/dubbo/pull/16585"
    ]
   }

@@ -4,7 +4,7 @@
  "language": "Java",
  "stars": 40559,
  "description": "A libre lightweight streaming front-end for Android.",
- "visitedAt": "2026-11-11T06:29:52.958Z",
+ "visitedAt": "2026-11-18T14:03:59.541Z",
  "issues": [
   {
    "number": 105,
@@ -474,15 +474,13 @@
     "GUI",
     "feed"
    ],
-   "updatedAt": "2026-08-25T05:47:00Z",
-   "checkedAt": "2026-11-11T06:29:52.958Z",
-   "verdict": "reservations",
-   "reason": "labelled `discussion` — scope may not be settled yet (+1 more)",
+   "updatedAt": "2026-11-15T23:58:35Z",
+   "checkedAt": "2026-11-18T14:03:59.541Z",
+   "verdict": "discard",
+   "reason": "PR #14043 by @0dminnimda is already open against this issue",
    "evidence": [
     "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/TeamNewPipe/NewPipe/issues/4952",
-    "https://github.com/TeamNewPipe/NewPipe/wiki/How-to-add-a-new-language-to-NewPipe",
-    "https://github.com/TeamNewPipe/NewPipe/blob/HEAD/.github/CONTRIBUTING.md"
+    "https://github.com/TeamNewPipe/NewPipe/pull/14043"
    ]
   },
   {
@@ -916,25 +914,6 @@
    ]
   },
   {
-   "number": 7865,
-   "title": "NewPipe crashes when used on external screen/vendor specific screen-sharing (Samsung DEX, LG Screen+, WSA)",
-   "url": "https://github.com/TeamNewPipe/NewPipe/issues/7865",
-   "labels": [
-    "bug",
-    "good first issue",
-    "GUI",
-    "device/software specific"
-   ],
-   "updatedAt": "2026-11-10T09:37:31Z",
-   "checkedAt": "2026-11-11T06:29:52.958Z",
-   "verdict": "discard",
-   "reason": "PR #13990 by @TobiGr is already open against this issue",
-   "evidence": [
-    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/TeamNewPipe/NewPipe/pull/13990"
-   ]
-  },
-  {
    "number": 7908,
    "title": "List loading indicator scrolling issues",
    "url": "https://github.com/TeamNewPipe/NewPipe/issues/7908",
@@ -1339,8 +1318,8 @@
     "YouTube",
     "requires extractor change"
    ],
-   "updatedAt": "2026-05-25T03:08:20Z",
-   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "updatedAt": "2026-11-17T13:07:41Z",
+   "checkedAt": "2026-11-18T14:03:59.541Z",
    "verdict": "reservations",
    "reason": "PR #170 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
    "evidence": [
@@ -1423,8 +1402,8 @@
     "comments",
     "rewrite"
    ],
-   "updatedAt": "2026-04-14T10:09:42Z",
-   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "updatedAt": "2026-11-16T01:02:40Z",
+   "checkedAt": "2026-11-18T14:03:59.541Z",
    "verdict": "discard",
    "reason": "PR #11595 by @trudnorx is already open against this issue",
    "evidence": [

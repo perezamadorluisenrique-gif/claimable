@@ -4,7 +4,7 @@
  "language": "Java",
  "stars": 37614,
  "description": "Alibaba Java Diagnostic Tool Arthas/Alibaba Java诊断利器Arthas",
- "visitedAt": "2026-11-11T06:29:52.958Z",
+ "visitedAt": "2026-11-18T14:03:59.541Z",
  "issues": [
   {
    "number": 111,
@@ -38,7 +38,7 @@
     "help wanted"
    ],
    "updatedAt": "2023-12-05T07:50:53Z",
-   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "checkedAt": "2026-11-18T14:03:59.541Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -75,7 +75,7 @@
     "disscuss"
    ],
    "updatedAt": "2024-08-14T06:29:30Z",
-   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "checkedAt": "2026-11-18T14:03:59.541Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -92,7 +92,7 @@
     "help wanted"
    ],
    "updatedAt": "2022-09-23T08:54:21Z",
-   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "checkedAt": "2026-11-18T14:03:59.541Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -109,7 +109,7 @@
     "disscuss"
    ],
    "updatedAt": "2022-11-10T06:31:06Z",
-   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "checkedAt": "2026-11-18T14:03:59.541Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -126,7 +126,7 @@
     "help wanted"
    ],
    "updatedAt": "2022-11-24T08:18:50Z",
-   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "checkedAt": "2026-11-18T14:03:59.541Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -160,7 +160,7 @@
     "disscuss"
    ],
    "updatedAt": "2023-09-25T11:45:46Z",
-   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "checkedAt": "2026-11-18T14:03:59.541Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [

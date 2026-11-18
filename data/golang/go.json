@@ -4,7 +4,7 @@
  "language": "Go",
  "stars": 139828,
  "description": "The Go programming language",
- "visitedAt": "2026-11-15T10:59:03.445Z",
+ "visitedAt": "2026-11-18T14:03:59.541Z",
  "issues": [
   {
    "number": 7175,
@@ -49,8 +49,8 @@
     "compiler/runtime",
     "cgo"
    ],
-   "updatedAt": "2026-11-13T15:05:32Z",
-   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "updatedAt": "2026-11-17T14:34:45Z",
+   "checkedAt": "2026-11-18T14:03:59.541Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
    "evidence": [
@@ -233,6 +233,22 @@
    ]
   },
   {
+   "number": 33567,
+   "title": "cmd/compile: mention shadowing of predeclared identifiers in errors they cause",
+   "url": "https://github.com/golang/go/issues/33567",
+   "labels": [
+    "help wanted",
+    "NeedsFix"
+   ],
+   "updatedAt": "2026-11-16T20:04:50Z",
+   "checkedAt": "2026-11-18T14:03:59.541Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/golang/go/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
    "number": 34229,
    "title": "cmd/go: list -compiled fails to populate CompiledGoFiles when the resulting package cannot be linked",
    "url": "https://github.com/golang/go/issues/34229",
@@ -337,23 +353,6 @@
    ]
   },
   {
-   "number": 36891,
-   "title": "strings/bytes: LastIndexByte is significantly slower than IndexByte",
-   "url": "https://github.com/golang/go/issues/36891",
-   "labels": [
-    "Performance",
-    "help wanted",
-    "NeedsFix"
-   ],
-   "updatedAt": "2026-11-13T22:18:54Z",
-   "checkedAt": "2026-11-15T10:59:03.445Z",
-   "verdict": "discard",
-   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
-   "evidence": [
-    "https://github.com/golang/go/pulls?q=is%3Apr+is%3Aclosed"
-   ]
-  },
-  {
    "number": 37552,
    "title": "cmd/go: a /.. after a ... in an importpath pattern is confusing",
    "url": "https://github.com/golang/go/issues/37552",
@@ -400,61 +399,6 @@
     "cgo"
    ],
    "updatedAt": "2026-09-10T09:47:40Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
-   "verdict": "discard",
-   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
-   "evidence": [
-    "https://github.com/golang/go/pulls?q=is%3Apr+is%3Aclosed"
-   ]
-  },
-  {
-   "number": 40559,
-   "title": "cmd/go: go tool rejects #cgo LDFLAGS: -Wl,-rpath,@executable_path/../Frameworks",
-   "url": "https://github.com/golang/go/issues/40559",
-   "labels": [
-    "help wanted",
-    "OS-Darwin",
-    "NeedsInvestigation",
-    "GoCommand",
-    "cgo"
-   ],
-   "updatedAt": "2026-09-10T08:48:23Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
-   "verdict": "discard",
-   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
-   "evidence": [
-    "https://github.com/golang/go/pulls?q=is%3Apr+is%3Aclosed"
-   ]
-  },
-  {
-   "number": 40820,
-   "title": "cmd/cgo: cgo + static const int results in \"undefined reference\" on linux",
-   "url": "https://github.com/golang/go/issues/40820",
-   "labels": [
-    "help wanted",
-    "NeedsInvestigation",
-    "compiler/runtime",
-    "cgo"
-   ],
-   "updatedAt": "2026-09-10T08:48:25Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
-   "verdict": "discard",
-   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
-   "evidence": [
-    "https://github.com/golang/go/pulls?q=is%3Apr+is%3Aclosed"
-   ]
-  },
-  {
-   "number": 43264,
-   "title": "cmd/link: -buildmode=c-shared not supported on linux/mips64le",
-   "url": "https://github.com/golang/go/issues/43264",
-   "labels": [
-    "help wanted",
-    "NeedsFix",
-    "arch-mips",
-    "cgo"
-   ],
-   "updatedAt": "2026-09-10T08:48:31Z",
    "checkedAt": "2026-11-11T15:17:00.117Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
@@ -1728,8 +1672,8 @@
     "compiler/runtime",
     "FixPending"
    ],
-   "updatedAt": "2026-10-30T15:52:05Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "updatedAt": "2026-11-17T13:57:15Z",
+   "checkedAt": "2026-11-18T14:03:59.541Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
    "evidence": [
@@ -1782,6 +1726,58 @@
    ],
    "updatedAt": "2026-11-03T19:51:38Z",
    "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/golang/go/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 82907,
+   "title": "cmd/asm: add LoongArch CSR access instructions (CSRRD, CSRWR, CSRXCHG)",
+   "url": "https://github.com/golang/go/issues/82907",
+   "labels": [
+    "help wanted",
+    "NeedsInvestigation",
+    "arch-loong64",
+    "compiler/runtime"
+   ],
+   "updatedAt": "2026-11-17T19:24:10Z",
+   "checkedAt": "2026-11-18T14:03:59.541Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/golang/go/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 82927,
+   "title": "os/signal: reset does not restore the default action of SIGTSTP",
+   "url": "https://github.com/golang/go/issues/82927",
+   "labels": [
+    "help wanted",
+    "NeedsInvestigation",
+    "compiler/runtime"
+   ],
+   "updatedAt": "2026-11-17T19:26:46Z",
+   "checkedAt": "2026-11-18T14:03:59.541Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/golang/go/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 82938,
+   "title": "runtime: heap profile reports garbage as in use until the third GC",
+   "url": "https://github.com/golang/go/issues/82938",
+   "labels": [
+    "help wanted",
+    "NeedsInvestigation",
+    "compiler/runtime"
+   ],
+   "updatedAt": "2026-11-17T19:30:46Z",
+   "checkedAt": "2026-11-18T14:03:59.541Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
    "evidence": [

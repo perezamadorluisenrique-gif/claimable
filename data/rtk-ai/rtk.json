@@ -4,7 +4,7 @@
  "language": "Rust",
  "stars": 86093,
  "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
- "visitedAt": "2026-11-17T04:31:55.832Z",
+ "visitedAt": "2026-11-18T14:03:59.541Z",
  "issues": [
   {
    "number": 361,
@@ -842,6 +842,28 @@
    ]
   },
   {
+   "number": 2879,
+   "title": "bug: pnpm lint hook rewrite defaults to ESLint; \"command not found\" (exit 254) misreported as \"possibly out of memory\"",
+   "url": "https://github.com/rtk-ai/rtk/issues/2879",
+   "labels": [
+    "bug",
+    "help wanted",
+    "priority:high",
+    "area:cli"
+   ],
+   "updatedAt": "2026-11-17T21:30:28Z",
+   "checkedAt": "2026-11-18T14:03:59.541Z",
+   "verdict": "discard",
+   "reason": "PR #2878 by @linustalacko is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/issues/2878",
+    "https://github.com/rtk-ai/rtk/issues/3846",
+    "https://github.com/rtk-ai/rtk/issues/4315"
+   ]
+  },
+  {
    "number": 2898,
    "title": "Feature Request: Add support for ZCode (Z.ai Agentic Development Environment)",
    "url": "https://github.com/rtk-ai/rtk/issues/2898",
@@ -1496,26 +1518,6 @@
    ]
   },
   {
-   "number": 4098,
-   "title": "output capped at N results: elided lines are unrecoverable and the hint has no recovery path",
-   "url": "https://github.com/rtk-ai/rtk/issues/4098",
-   "labels": [
-    "bug",
-    "help wanted",
-    "area:cli",
-    "priority:medium"
-   ],
-   "updatedAt": "2026-09-19T02:33:43Z",
-   "checkedAt": "2026-11-16T02:46:09.212Z",
-   "verdict": "discard",
-   "reason": "PR #4107 by @lindicaphxag-tech is already open against this issue",
-   "evidence": [
-    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/rtk-ai/rtk/pull/4107",
-    "https://github.com/gatezh/devcontainers/pull/241"
-   ]
-  },
-  {
    "number": 4099,
    "title": "rewrite: declines env-wrapped (env -u) and sudo-prefixed commands",
    "url": "https://github.com/rtk-ai/rtk/issues/4099",
@@ -1569,8 +1571,8 @@
     "area:cli",
     "platform:windows"
    ],
-   "updatedAt": "2026-11-12T08:53:43Z",
-   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "updatedAt": "2026-11-17T08:27:10Z",
+   "checkedAt": "2026-11-18T14:03:59.541Z",
    "verdict": "discard",
    "reason": "PR #4103 by @KuSh is already open against this issue",
    "evidence": [
@@ -3671,15 +3673,15 @@
     "priority:medium",
     "area:security"
    ],
-   "updatedAt": "2026-11-01T12:28:48Z",
-   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "updatedAt": "2026-11-18T00:34:57Z",
+   "checkedAt": "2026-11-18T14:03:59.541Z",
    "verdict": "discard",
-   "reason": "PR #4679 by @Ehsan-hash is already open against this issue",
+   "reason": "PR #4905 by @TechWizard9999 is already open against this issue",
    "evidence": [
     "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
     "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/rtk-ai/rtk/pull/4679",
-    "https://github.com/rtk-ai/rtk/pull/4905"
+    "https://github.com/rtk-ai/rtk/pull/4905",
+    "https://github.com/rtk-ai/rtk/pull/4679"
    ]
   },
   {

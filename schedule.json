@@ -88,12 +88,12 @@
   "lastNewIssue": "2026-11-14T12:13:07Z"
  },
  "google-gemini/gemini-cli": {
-  "nextCheck": "2026-11-18T10:59:03.445Z",
+  "nextCheck": "2026-11-21T14:03:59.541Z",
   "lastNewIssue": "2026-10-25T23:31:22Z"
  },
  "nexu-io/open-design": {
-  "nextCheck": "2026-11-18T04:31:55.832Z",
-  "lastNewIssue": "2026-11-16T18:50:40Z"
+  "nextCheck": "2026-11-19T14:03:59.541Z",
+  "lastNewIssue": "2026-11-18T08:51:08Z"
  },
  "ant-design/ant-design": {
   "nextCheck": "2026-11-21T22:28:38.603Z",
@@ -180,51 +180,51 @@
   "lastNewIssue": "2026-08-17T04:51:33Z"
  },
  "elastic/elasticsearch": {
-  "nextCheck": "2026-11-18T10:59:03.445Z",
+  "nextCheck": "2026-11-21T14:03:59.541Z",
   "lastNewIssue": "2026-11-05T10:53:29Z"
  },
  "termux/termux-app": {
-  "nextCheck": "2026-11-18T06:29:52.958Z",
+  "nextCheck": "2026-11-25T14:03:59.541Z",
   "lastNewIssue": "2020-12-26T21:05:24Z"
  },
  "dbeaver/dbeaver": {
-  "nextCheck": "2026-11-18T06:29:52.958Z",
+  "nextCheck": "2026-11-25T14:03:59.541Z",
   "lastNewIssue": "2024-11-15T10:16:58Z"
  },
  "jeecgboot/jeecgboot": {
-  "nextCheck": "2026-11-18T06:29:52.958Z",
-  "lastNewIssue": "2026-08-27T08:10:36Z"
+  "nextCheck": "2026-11-19T14:03:59.541Z",
+  "lastNewIssue": "2026-11-15T01:57:05Z"
  },
  "apache/dubbo": {
-  "nextCheck": "2026-11-18T06:29:52.958Z",
+  "nextCheck": "2026-11-25T14:03:59.541Z",
   "lastNewIssue": "2026-08-07T03:05:38Z"
  },
  "teamnewpipe/newpipe": {
-  "nextCheck": "2026-11-18T06:29:52.958Z",
+  "nextCheck": "2026-11-25T14:03:59.541Z",
   "lastNewIssue": "2026-09-28T14:34:37Z"
  },
  "keycloak/keycloak": {
-  "nextCheck": "2026-11-18T04:31:55.832Z",
+  "nextCheck": "2026-11-19T14:03:59.541Z",
   "lastNewIssue": "2026-11-12T23:15:19Z"
  },
  "alibaba/arthas": {
-  "nextCheck": "2026-11-18T06:29:52.958Z",
+  "nextCheck": "2026-11-25T14:03:59.541Z",
   "lastNewIssue": "2025-04-17T09:22:58Z"
  },
  "yuliskov/smarttube": {
-  "nextCheck": "2026-11-18T06:29:52.958Z",
+  "nextCheck": "2026-11-25T14:03:59.541Z",
   "lastNewIssue": "2025-05-18T11:42:15Z"
  },
  "netty/netty": {
-  "nextCheck": "2026-11-18T06:29:52.958Z",
+  "nextCheck": "2026-11-25T14:03:59.541Z",
   "lastNewIssue": "2019-09-18T17:08:40Z"
  },
  "bumptech/glide": {
-  "nextCheck": "2026-11-18T06:29:52.958Z",
+  "nextCheck": "2026-11-25T14:03:59.541Z",
   "lastNewIssue": "2018-02-05T10:00:12Z"
  },
  "seleniumhq/selenium": {
-  "nextCheck": "2026-11-18T06:29:52.958Z",
+  "nextCheck": "2026-11-25T14:03:59.541Z",
   "lastNewIssue": "2024-05-21T00:14:06Z"
  },
  "alibaba/nacos": {
@@ -236,7 +236,7 @@
   "lastNewIssue": "2026-08-21T18:35:59Z"
  },
  "floci-io/floci": {
-  "nextCheck": "2026-11-18T10:59:03.445Z",
+  "nextCheck": "2026-11-21T14:03:59.541Z",
   "lastNewIssue": "2026-10-20T01:53:02Z"
  },
  "ollama/ollama": {
@@ -244,15 +244,15 @@
   "lastNewIssue": "2025-11-04T23:34:27Z"
  },
  "golang/go": {
-  "nextCheck": "2026-11-18T10:59:03.445Z",
-  "lastNewIssue": "2026-10-27T16:32:09Z"
+  "nextCheck": "2026-11-21T14:03:59.541Z",
+  "lastNewIssue": "2026-11-09T12:45:36Z"
  },
  "kubernetes/kubernetes": {
   "nextCheck": "2026-11-22T10:59:03.445Z",
   "lastNewIssue": "2026-10-15T01:26:04Z"
  },
  "microsoft/typescript": {
-  "nextCheck": "2026-11-18T04:31:55.832Z",
+  "nextCheck": "2026-11-21T14:03:59.541Z",
   "lastNewIssue": "2026-11-10T18:13:20Z"
  },
  "syncthing/syncthing": {
@@ -268,7 +268,7 @@
   "lastNewIssue": null
  },
  "moby/moby": {
-  "nextCheck": "2026-11-18T10:59:03.445Z",
+  "nextCheck": "2026-11-21T14:03:59.541Z",
   "lastNewIssue": "2026-10-21T09:10:43Z"
  },
  "prometheus/prometheus": {
@@ -308,7 +308,7 @@
   "lastNewIssue": "2026-07-06T15:02:20Z"
  },
  "tauri-apps/tauri": {
-  "nextCheck": "2026-11-18T10:59:03.445Z",
+  "nextCheck": "2026-11-21T14:03:59.541Z",
   "lastNewIssue": "2026-10-30T04:56:36Z"
  },
  "denoland/deno": {
@@ -324,7 +324,7 @@
   "lastNewIssue": "2026-01-16T09:32:03Z"
  },
  "rtk-ai/rtk": {
-  "nextCheck": "2026-11-18T04:31:55.832Z",
+  "nextCheck": "2026-11-19T14:03:59.541Z",
   "lastNewIssue": "2026-11-16T13:05:00Z"
  },
  "dani-garcia/vaultwarden": {
@@ -400,7 +400,7 @@
   "lastNewIssue": "2024-09-19T23:18:11Z"
  },
  "zen-browser/desktop": {
-  "nextCheck": "2026-11-18T04:31:55.832Z",
+  "nextCheck": "2026-11-19T14:03:59.541Z",
   "lastNewIssue": "2026-11-14T05:15:18Z"
  },
  "lizardbyte/sunshine": {
@@ -464,7 +464,7 @@
   "lastNewIssue": "2025-06-30T17:36:07Z"
  },
  "dotnet/roslyn": {
-  "nextCheck": "2026-11-18T04:31:55.832Z",
+  "nextCheck": "2026-11-19T14:03:59.541Z",
   "lastNewIssue": "2026-11-15T02:27:22Z"
  },
  "bitwarden/server": {

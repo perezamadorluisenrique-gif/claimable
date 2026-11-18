@@ -4,7 +4,7 @@
  "language": "Java",
  "stars": 52386,
  "description": "Free universal database tool and SQL client",
- "visitedAt": "2026-11-11T06:29:52.958Z",
+ "visitedAt": "2026-11-18T14:03:59.541Z",
  "issues": [
   {
    "number": 2192,
@@ -183,16 +183,19 @@
    "url": "https://github.com/dbeaver/dbeaver/issues/21384",
    "labels": [
     "enhancement",
-    "good first issue"
+    "good first issue",
+    "external"
    ],
-   "updatedAt": "2026-11-09T20:31:17Z",
-   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "updatedAt": "2026-11-13T12:52:14Z",
+   "checkedAt": "2026-11-18T14:03:59.541Z",
    "verdict": "discard",
    "reason": "PR #1 by @lukman48 is already open against this issue",
    "evidence": [
     "https://github.com/dbeaver/dbeaver/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/lukman48/dbeaver/pull/1",
-    "https://github.com/dbeaver/dbeaver/pull/42028"
+    "https://github.com/dbeaver/dbeaver/pull/42028",
+    "https://github.com/dbeaver/dbeaver/pull/42826",
+    "https://github.com/dbeaver/dbeaver/pull/42830"
    ]
   },
   {
