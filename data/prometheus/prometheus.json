@@ -4,7 +4,7 @@
  "language": "Go",
  "stars": 67610,
  "description": "The Prometheus monitoring system and time series database.",
- "visitedAt": "2026-11-11T15:17:00.117Z",
+ "visitedAt": "2026-11-18T21:59:17.025Z",
  "issues": [
   {
    "number": 667,
@@ -292,17 +292,13 @@
     "not-as-easy-as-it-looks",
     "priority/P3"
    ],
-   "updatedAt": "2026-02-03T08:43:18Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
-   "verdict": "reservations",
-   "reason": "1 stale claim, the most recent by @csmarchbanks 2224 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "updatedAt": "2026-11-14T14:50:58Z",
+   "checkedAt": "2026-11-18T21:59:17.025Z",
+   "verdict": "discard",
+   "reason": "PR #20453 by @goutham-m7 is already open against this issue",
    "evidence": [
     "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/prometheus/prometheus/issues/7230#issuecomment-706371428",
-    "https://github.com/prometheus/prometheus/issues/7230",
-    "https://github.com/prometheus/prometheus/blob/HEAD/README.md",
-    "https://github.com/prometheus/prometheus/wiki/Label-Names-and-Descriptions",
-    "https://github.com/prometheus/prometheus/blob/HEAD/CONTRIBUTING.md"
+    "https://github.com/prometheus/prometheus/pull/20453"
    ]
   },
   {
@@ -1290,16 +1286,13 @@
     "component/service discovery",
     "priority/P3"
    ],
-   "updatedAt": "2025-01-28T11:37:30Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
-   "verdict": "reservations",
-   "reason": "setup instructions live outside the repository (https://github.com/prometheus/prometheus/wiki/Label-Names-and-Descriptions) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "updatedAt": "2026-11-11T23:45:08Z",
+   "checkedAt": "2026-11-18T21:59:17.025Z",
+   "verdict": "discard",
+   "reason": "PR #20426 by @cvas22 is already open against this issue",
    "evidence": [
     "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/prometheus/prometheus/issues/12896",
-    "https://github.com/prometheus/prometheus/blob/HEAD/README.md",
-    "https://github.com/prometheus/prometheus/wiki/Label-Names-and-Descriptions",
-    "https://github.com/prometheus/prometheus/blob/HEAD/CONTRIBUTING.md"
+    "https://github.com/prometheus/prometheus/pull/20426"
    ]
   },
   {
@@ -1469,10 +1462,10 @@
     "not-as-easy-as-it-looks",
     "kind/optimization"
    ],
-   "updatedAt": "2024-06-25T07:10:52Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "updatedAt": "2026-11-18T15:04:05Z",
+   "checkedAt": "2026-11-18T21:59:17.025Z",
    "verdict": "reservations",
-   "reason": "open 29 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
+   "reason": "setup instructions live outside the repository (https://github.com/prometheus/prometheus/wiki/Label-Names-and-Descriptions) — this filter only reads files in the repo, so the real setup cost is unverified",
    "evidence": [
     "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/prometheus/prometheus/issues/14342",
@@ -1614,13 +1607,14 @@
     "component/tests",
     "area/ci-cd"
    ],
-   "updatedAt": "2026-08-24T12:33:00Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "updatedAt": "2026-11-17T13:16:16Z",
+   "checkedAt": "2026-11-18T21:59:17.025Z",
    "verdict": "discard",
    "reason": "PR #19515 by @pttydou is already open against this issue",
    "evidence": [
     "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/prometheus/prometheus/pull/19515",
+    "https://github.com/prometheus/prometheus/pull/20446",
     "https://github.com/prometheus/prometheus/pull/19548"
    ]
   },

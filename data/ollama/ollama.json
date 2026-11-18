@@ -4,7 +4,7 @@
  "language": "Go",
  "stars": 186553,
  "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
- "visitedAt": "2026-11-11T15:17:00.117Z",
+ "visitedAt": "2026-11-18T21:59:17.025Z",
  "issues": [
   {
    "number": 4072,
@@ -15,8 +15,8 @@
     "good first issue",
     "windows"
    ],
-   "updatedAt": "2026-11-05T15:31:10Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "updatedAt": "2026-11-17T15:26:19Z",
+   "checkedAt": "2026-11-18T21:59:17.025Z",
    "verdict": "discard",
    "reason": "PR #13675 by @biplavbarua is already open against this issue",
    "evidence": [
