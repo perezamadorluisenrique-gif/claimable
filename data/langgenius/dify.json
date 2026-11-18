@@ -4,7 +4,7 @@
  "language": "Python",
  "stars": 160864,
  "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without reb",
- "visitedAt": "2026-11-15T02:43:03.155Z",
+ "visitedAt": "2026-11-18T04:26:13.835Z",
  "issues": [
   {
    "number": 18752,
@@ -21,31 +21,6 @@
    "evidence": [
     "https://github.com/langgenius/dify/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/langgenius/dify-plugin-daemon/pull/851"
-   ]
-  },
-  {
-   "number": 24645,
-   "title": "[Chore/Refactor] remove redundant-cast",
-   "url": "https://github.com/langgenius/dify/issues/24645",
-   "labels": [
-    "good first issue",
-    "🙏 help wanted"
-   ],
-   "updatedAt": "2026-11-03T03:10:54Z",
-   "checkedAt": "2026-11-10T23:25:58.547Z",
-   "verdict": "discard",
-   "reason": "already assigned to @majiayu000",
-   "evidence": [
-    "https://github.com/langgenius/dify/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/langgenius/dify/pull/24646",
-    "https://github.com/langgenius/dify/pull/24807",
-    "https://github.com/langgenius/dify/pull/34461",
-    "https://github.com/langgenius/dify/pull/37124",
-    "https://github.com/langgenius/dify/pull/43270",
-    "https://github.com/langgenius/dify/pull/43342",
-    "https://github.com/langgenius/dify/pull/43347",
-    "https://github.com/langgenius/dify/pull/43485",
-    "https://github.com/langgenius/dify/pull/43501"
    ]
   },
   {
@@ -160,8 +135,8 @@
    "labels": [
     "good first issue"
    ],
-   "updatedAt": "2026-11-11T19:37:51Z",
-   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "updatedAt": "2026-11-17T18:48:12Z",
+   "checkedAt": "2026-11-18T04:26:13.835Z",
    "verdict": "discard",
    "reason": "PR #45587 by @matheussilvano is already open against this issue",
    "evidence": [

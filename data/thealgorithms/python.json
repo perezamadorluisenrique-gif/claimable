@@ -4,7 +4,7 @@
  "language": "Python",
  "stars": 225990,
  "description": "All Algorithms implemented in Python",
- "visitedAt": "2026-11-10T23:25:58.547Z",
+ "visitedAt": "2026-11-18T04:26:13.835Z",
  "issues": [
   {
    "number": 15187,
@@ -15,8 +15,8 @@
     "hacktoberfest",
     "tracking issue"
    ],
-   "updatedAt": "2026-11-07T17:21:22Z",
-   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "updatedAt": "2026-11-17T23:05:41Z",
+   "checkedAt": "2026-11-18T04:26:13.835Z",
    "verdict": "discard",
    "reason": "PR #15511 by @gcomneno is already open against this issue",
    "evidence": [
@@ -26,10 +26,10 @@
     "https://github.com/TheAlgorithms/Python/pull/15561",
     "https://github.com/TheAlgorithms/Python/pull/15575",
     "https://github.com/TheAlgorithms/Python/pull/15603",
+    "https://github.com/TheAlgorithms/Python/pull/15749",
     "https://github.com/TheAlgorithms/Python/pull/15180",
     "https://github.com/TheAlgorithms/Python/pull/15227",
-    "https://github.com/TheAlgorithms/Python/pull/15221",
-    "https://github.com/TheAlgorithms/Python/pull/15297"
+    "https://github.com/TheAlgorithms/Python/pull/15221"
    ]
   }
  ]

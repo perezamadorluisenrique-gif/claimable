@@ -4,7 +4,7 @@
  "language": "Python",
  "stars": 105318,
  "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
- "visitedAt": "2026-11-10T23:25:58.547Z",
+ "visitedAt": "2026-11-18T04:26:13.835Z",
  "issues": [
   {
    "number": 6662,
@@ -153,23 +153,6 @@
    ]
   },
   {
-   "number": 61654,
-   "title": "Allow creation of pseudo devices for testing purposes",
-   "url": "https://github.com/pytorch/pytorch/issues/61654",
-   "labels": [
-    "module: internals",
-    "good first issue",
-    "triaged"
-   ],
-   "updatedAt": "2025-07-09T13:55:56Z",
-   "checkedAt": "2026-11-10T23:25:58.547Z",
-   "verdict": "discard",
-   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
-   "evidence": [
-    "https://github.com/pytorch/pytorch/pulls?q=is%3Apr+is%3Aclosed"
-   ]
-  },
-  {
    "number": 63265,
    "title": "torch.scatter_: support index.size(d) > src.size(d)",
    "url": "https://github.com/pytorch/pytorch/issues/63265",
@@ -256,8 +239,8 @@
     "oncall: distributed infra",
     "ptd-bot-triaged"
    ],
-   "updatedAt": "2026-07-16T17:22:42Z",
-   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "updatedAt": "2026-11-15T18:52:43Z",
+   "checkedAt": "2026-11-18T04:26:13.835Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
    "evidence": [
@@ -315,8 +298,8 @@
     "triaged",
     "module: c10d"
    ],
-   "updatedAt": "2022-12-14T23:50:15Z",
-   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "updatedAt": "2026-11-11T16:43:19Z",
+   "checkedAt": "2026-11-18T04:26:13.835Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
    "evidence": [
@@ -499,8 +482,8 @@
     "oncall: pt2",
     "module: dynamo"
    ],
-   "updatedAt": "2026-10-20T03:18:17Z",
-   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "updatedAt": "2026-11-13T06:43:40Z",
+   "checkedAt": "2026-11-18T04:26:13.835Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
    "evidence": [
@@ -599,8 +582,8 @@
     "oncall: distributed infra",
     "ptd-bot-triaged"
    ],
-   "updatedAt": "2026-10-31T14:14:19Z",
-   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "updatedAt": "2026-11-15T18:53:50Z",
+   "checkedAt": "2026-11-18T04:26:13.835Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
    "evidence": [
@@ -621,8 +604,8 @@
     "oncall: distributed infra",
     "ptd-bot-triaged"
    ],
-   "updatedAt": "2026-07-24T15:10:32Z",
-   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "updatedAt": "2026-11-15T18:51:56Z",
+   "checkedAt": "2026-11-18T04:26:13.835Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
    "evidence": [
@@ -754,8 +737,8 @@
     "bot-triaged",
     "oncall: distributed infra"
    ],
-   "updatedAt": "2026-10-21T16:56:46Z",
-   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "updatedAt": "2026-11-11T16:46:07Z",
+   "checkedAt": "2026-11-18T04:26:13.835Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
    "evidence": [

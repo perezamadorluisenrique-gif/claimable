@@ -4,7 +4,7 @@
  "language": "TypeScript",
  "stars": 93136,
  "description": "🙌 OpenHands: AI-Driven Development",
- "visitedAt": "2026-11-10T23:25:58.547Z",
+ "visitedAt": "2026-11-18T04:26:13.835Z",
  "issues": [
   {
    "number": 15532,
@@ -14,8 +14,8 @@
     "enhancement",
     "good first issue"
    ],
-   "updatedAt": "2026-10-05T00:12:44Z",
-   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "updatedAt": "2026-11-16T16:07:52Z",
+   "checkedAt": "2026-11-18T04:26:13.835Z",
    "verdict": "discard",
    "reason": "PR #16328 by @shotsan is already open against this issue",
    "evidence": [
@@ -36,13 +36,16 @@
     "good first issue",
     "feature-map:mapped"
    ],
-   "updatedAt": "2026-11-08T02:06:14Z",
-   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "updatedAt": "2026-11-14T00:15:07Z",
+   "checkedAt": "2026-11-18T04:26:13.835Z",
    "verdict": "discard",
    "reason": "PR #16364 by @hudsonwa is already open against this issue",
    "evidence": [
     "https://github.com/OpenHands/OpenHands/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/OpenHands/OpenHands/pull/16364"
+    "https://github.com/OpenHands/OpenHands/pull/16364",
+    "https://github.com/OpenHands/OpenHands/pull/19756",
+    "https://github.com/OpenHands/software-agent-sdk/pull/6760",
+    "https://github.com/OpenHands/software-agent-sdk/pull/6869"
    ]
   },
   {
@@ -186,8 +189,8 @@
     "good first issue",
     "feature-map:mapped"
    ],
-   "updatedAt": "2026-10-12T10:54:13Z",
-   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "updatedAt": "2026-11-17T02:12:16Z",
+   "checkedAt": "2026-11-18T04:26:13.835Z",
    "verdict": "discard",
    "reason": "PR #16318 by @rishavnaskar is already open against this issue",
    "evidence": [
@@ -221,13 +224,14 @@
     "enhancement",
     "good first issue"
    ],
-   "updatedAt": "2026-11-10T06:06:28Z",
-   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "updatedAt": "2026-11-16T02:36:17Z",
+   "checkedAt": "2026-11-18T04:26:13.835Z",
    "verdict": "discard",
    "reason": "PR #16240 by @hsms4710-pixel is already open against this issue",
    "evidence": [
     "https://github.com/OpenHands/OpenHands/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/OpenHands/OpenHands/pull/16240"
+    "https://github.com/OpenHands/OpenHands/pull/16240",
+    "https://github.com/OpenHands/OpenHands/pull/19684"
    ]
   },
   {
@@ -404,8 +408,8 @@
     "release-note-required",
     "feature-map:mapped"
    ],
-   "updatedAt": "2026-10-16T15:27:44Z",
-   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "updatedAt": "2026-11-11T15:52:13Z",
+   "checkedAt": "2026-11-18T04:26:13.835Z",
    "verdict": "discard",
    "reason": "PR #16431 by @mmustafasenoglu is already open against this issue",
    "evidence": [

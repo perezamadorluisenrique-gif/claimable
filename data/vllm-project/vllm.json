@@ -4,7 +4,7 @@
  "language": "Python",
  "stars": 96681,
  "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
- "visitedAt": "2026-11-10T23:25:58.547Z",
+ "visitedAt": "2026-11-18T04:26:13.835Z",
  "issues": [
   {
    "number": 16353,
@@ -62,8 +62,8 @@
     "keep-open",
     "stale"
    ],
-   "updatedAt": "2026-09-22T20:30:20Z",
-   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "updatedAt": "2026-11-17T22:47:25Z",
+   "checkedAt": "2026-11-18T04:26:13.835Z",
    "verdict": "discard",
    "reason": "PR #43764 by @CarrotSwordsman is already open against this issue",
    "evidence": [
@@ -72,6 +72,7 @@
     "https://github.com/vllm-project/vllm/pull/48062",
     "https://github.com/vllm-project/vllm/pull/58206",
     "https://github.com/vllm-project/vllm/pull/59075",
+    "https://github.com/vllm-project/vllm/pull/68252",
     "https://github.com/vllm-project/vllm/pull/24222"
    ]
   },
@@ -93,27 +94,6 @@
     "https://github.com/vllm-project/vllm/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/vllm-project/vllm/pull/44963",
     "https://github.com/vllm-project/vllm/pull/25832"
-   ]
-  },
-  {
-   "number": 25094,
-   "title": "[Performance]: Compiled `QuantFP8.forward_native` group quantization (1, 128) slower than CUDA on H100/RTX5090",
-   "url": "https://github.com/vllm-project/vllm/issues/25094",
-   "labels": [
-    "help wanted",
-    "performance",
-    "torch.compile",
-    "keep-open"
-   ],
-   "updatedAt": "2026-09-30T16:09:56Z",
-   "checkedAt": "2026-11-10T23:25:58.547Z",
-   "verdict": "discard",
-   "reason": "PR #59564 by @porridgewithraisins is already open against this issue",
-   "evidence": [
-    "https://github.com/vllm-project/vllm/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/vllm-project/vllm/pull/59564",
-    "https://github.com/vllm-project/vllm/pull/61073",
-    "https://github.com/vllm-project/vllm/pull/24666"
    ]
   },
   {
@@ -174,8 +154,8 @@
     "feature request",
     "batch-invariance"
    ],
-   "updatedAt": "2026-11-04T03:52:29Z",
-   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "updatedAt": "2026-11-14T20:12:03Z",
+   "checkedAt": "2026-11-18T04:26:13.835Z",
    "verdict": "discard",
    "reason": "PR #3 by @Copilot is already open against this issue",
    "evidence": [
@@ -399,14 +379,13 @@
     "good first issue",
     "feature request"
    ],
-   "updatedAt": "2026-11-09T06:40:21Z",
-   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "updatedAt": "2026-11-16T09:20:20Z",
+   "checkedAt": "2026-11-18T04:26:13.835Z",
    "verdict": "discard",
    "reason": "PR #1 by @chf003 is already open against this issue",
    "evidence": [
     "https://github.com/vllm-project/vllm/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/chf003/vllm/pull/1",
-    "https://github.com/vllm-project/vllm/pull/65394",
     "https://github.com/vllm-project/vllm/pull/57538",
     "https://github.com/vllm-project/vllm/pull/66270",
     "https://github.com/vllm-project/vllm/pull/43461",
@@ -424,8 +403,8 @@
     "multi-modality",
     "kimi"
    ],
-   "updatedAt": "2026-11-08T02:33:28Z",
-   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "updatedAt": "2026-11-16T17:20:11Z",
+   "checkedAt": "2026-11-18T04:26:13.835Z",
    "verdict": "discard",
    "reason": "PR #44394 by @harsha20032020 is already open against this issue",
    "evidence": [
@@ -464,8 +443,8 @@
    "labels": [
     "help wanted"
    ],
-   "updatedAt": "2026-11-04T13:00:12Z",
-   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "updatedAt": "2026-11-17T08:05:50Z",
+   "checkedAt": "2026-11-18T04:26:13.835Z",
    "verdict": "discard",
    "reason": "PR #57315 by @LinzeShi is already open against this issue",
    "evidence": [

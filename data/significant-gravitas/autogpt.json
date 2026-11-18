@@ -4,7 +4,7 @@
  "language": "Python",
  "stars": 187983,
  "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
- "visitedAt": "2026-11-10T23:25:58.547Z",
+ "visitedAt": "2026-11-18T04:26:13.835Z",
  "issues": [
   {
    "number": 5191,
@@ -79,10 +79,11 @@
    "url": "https://github.com/Significant-Gravitas/AutoGPT/issues/8889",
    "labels": [
     "good first issue",
-    "fridge"
+    "fridge",
+    "ai-loop"
    ],
-   "updatedAt": "2026-09-15T12:43:37Z",
-   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "updatedAt": "2026-11-12T07:44:42Z",
+   "checkedAt": "2026-11-18T04:26:13.835Z",
    "verdict": "discard",
    "reason": "PR #15000 by @xjsns346 is already open against this issue",
    "evidence": [
@@ -96,10 +97,11 @@
    "url": "https://github.com/Significant-Gravitas/AutoGPT/issues/9193",
    "labels": [
     "good first issue",
-    "platform/blocks"
+    "platform/blocks",
+    "ai-loop"
    ],
-   "updatedAt": "2026-06-08T16:39:27Z",
-   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "updatedAt": "2026-11-12T07:44:44Z",
+   "checkedAt": "2026-11-18T04:26:13.835Z",
    "verdict": "discard",
    "reason": "PR #12586 by @knQzx is already open against this issue",
    "evidence": [
