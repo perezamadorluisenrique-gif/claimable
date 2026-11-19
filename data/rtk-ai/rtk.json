@@ -4,8 +4,31 @@
  "language": "Rust",
  "stars": 86093,
  "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
- "visitedAt": "2026-11-18T14:03:59.541Z",
+ "visitedAt": "2026-11-19T21:39:33.956Z",
  "issues": [
+  {
+   "number": 294,
+   "title": "Hook rewrite: add coverage for uv run, pnpm exec, Python path variants, and more",
+   "url": "https://github.com/rtk-ai/rtk/issues/294",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "effort-medium",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-11-19T20:25:27Z",
+   "checkedAt": "2026-11-19T21:39:33.956Z",
+   "verdict": "discard",
+   "reason": "PR #3021 by @GratefulDave is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/3021",
+    "https://github.com/rtk-ai/rtk/pull/5190",
+    "https://github.com/rtk-ai/rtk/pull/349",
+    "https://github.com/rtk-ai/rtk/pull/956"
+   ]
+  },
   {
    "number": 361,
    "title": "6 hook bugs on master — routing, streaming, extensibility, hook collision (fixed in PR #156)",
@@ -370,6 +393,27 @@
     "https://github.com/rtk-ai/rtk/blob/HEAD/CONTRIBUTING.md",
     "https://github.com/rtk-ai/rtk/blob/HEAD/README.md",
     "https://github.com/rtk-ai/rtk/issues/1345"
+   ]
+  },
+  {
+   "number": 1364,
+   "title": "feat: add `rtk jq` command for compressing large JSON extraction output",
+   "url": "https://github.com/rtk-ai/rtk/issues/1364",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "effort-medium",
+    "priority:low",
+    "area:cli"
+   ],
+   "updatedAt": "2026-11-19T20:24:50Z",
+   "checkedAt": "2026-11-19T21:39:33.956Z",
+   "verdict": "discard",
+   "reason": "PR #5189 by @Senya0ne is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/5189",
+    "https://github.com/kovrichard/portable-agent-layer/pull/188"
    ]
   },
   {
@@ -1091,12 +1135,11 @@
     "priority:high",
     "area:performance"
    ],
-   "updatedAt": "2026-10-02T20:04:23Z",
-   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "updatedAt": "2026-11-18T16:12:56Z",
+   "checkedAt": "2026-11-19T21:39:33.956Z",
    "verdict": "discard",
    "reason": "PR #3397 by @HetCreep is already open against this issue",
    "evidence": [
-    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
     "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/rtk-ai/rtk/issues/3397",
     "https://github.com/rtk-ai/rtk/issues/3399"
@@ -1605,26 +1648,6 @@
    ]
   },
   {
-   "number": 4144,
-   "title": "Recall retention only applies on write: a quiet machine keeps rows past retention_days",
-   "url": "https://github.com/rtk-ai/rtk/issues/4144",
-   "labels": [
-    "bug",
-    "help wanted",
-    "priority:medium",
-    "area:security"
-   ],
-   "updatedAt": "2026-09-20T11:21:56Z",
-   "checkedAt": "2026-11-11T22:03:46.308Z",
-   "verdict": "discard",
-   "reason": "PR #4145 by @dopaemon is already open against this issue",
-   "evidence": [
-    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
-    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/rtk-ai/rtk/pull/4145"
-   ]
-  },
-  {
    "number": 4162,
    "title": "rtk ast-grep: a directory named after a subcommand disables filtering for the whole implicit-run invocation",
    "url": "https://github.com/rtk-ai/rtk/issues/4162",
@@ -1643,26 +1666,6 @@
     "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
     "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/rtk-ai/rtk/pull/4163"
-   ]
-  },
-  {
-   "number": 4183,
-   "title": "git diff/status output can contain text that exists nowhere on disk",
-   "url": "https://github.com/rtk-ai/rtk/issues/4183",
-   "labels": [
-    "bug",
-    "help wanted",
-    "priority:high",
-    "area:cli"
-   ],
-   "updatedAt": "2026-09-21T21:30:32Z",
-   "checkedAt": "2026-11-11T22:03:46.308Z",
-   "verdict": "discard",
-   "reason": "PR #4815 by @alponme is already open against this issue",
-   "evidence": [
-    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
-    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/rtk-ai/rtk/issues/4815"
    ]
   },
   {

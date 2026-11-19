@@ -4,7 +4,7 @@
  "language": "C",
  "stars": 49684,
  "description": "A hierarchical inference engine for frontier MoE models: hot experts on the GPU (CUDA, Vulkan), warm ones in RAM, cold ones streamed from NVMe. Written in C, runs on the hardware you already own.",
- "visitedAt": "2026-11-12T19:57:47.710Z",
+ "visitedAt": "2026-11-19T21:39:33.956Z",
  "issues": [
   {
    "number": 708,

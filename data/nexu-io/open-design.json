@@ -4,7 +4,7 @@
  "language": "TypeScript",
  "stars": 106999,
  "description": "The 1st Collaborative AI Design Agent Workspace. Local-first and open source. Create motion, prototypes, websites, apps, dashboards, presentations, images, and videos with your team and AI agents. Sha",
- "visitedAt": "2026-11-18T14:03:59.541Z",
+ "visitedAt": "2026-11-19T21:39:33.956Z",
  "issues": [
   {
    "number": 473,
@@ -880,8 +880,8 @@
     "type/enhancement",
     "priority:p2"
    ],
-   "updatedAt": "2026-11-18T12:44:34Z",
-   "checkedAt": "2026-11-18T14:03:59.541Z",
+   "updatedAt": "2026-11-19T14:48:36Z",
+   "checkedAt": "2026-11-19T21:39:33.956Z",
    "verdict": "discard",
    "reason": "PR #9548 by @helloigig is already open against this issue",
    "evidence": [
@@ -964,26 +964,6 @@
     "https://github.com/nexu-io/open-design/pull/4791",
     "https://github.com/nexu-io/open-design/pull/6012",
     "https://github.com/nexu-io/open-design/pull/5308"
-   ]
-  },
-  {
-   "number": 4955,
-   "title": "内存占用问题",
-   "url": "https://github.com/nexu-io/open-design/issues/4955",
-   "labels": [
-    "bug",
-    "help wanted"
-   ],
-   "updatedAt": "2026-09-02T03:35:01Z",
-   "checkedAt": "2026-11-10T17:47:07.019Z",
-   "verdict": "reservations",
-   "reason": "setup instructions live outside the repository (https://docs.anthropic.com/en/docs/claude-code/skills) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
-   "evidence": [
-    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/nexu-io/open-design/issues/4955",
-    "https://github.com/nexu-io/open-design/blob/HEAD/CONTRIBUTING.md",
-    "https://github.com/nexu-io/open-design/blob/HEAD/.github/AGENTS.md",
-    "https://docs.anthropic.com/en/docs/claude-code/skills"
    ]
   },
   {
@@ -1433,8 +1413,8 @@
     "bug",
     "help wanted"
    ],
-   "updatedAt": "2026-11-14T06:53:49Z",
-   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "updatedAt": "2026-11-19T09:57:51Z",
+   "checkedAt": "2026-11-19T21:39:33.956Z",
    "verdict": "discard",
    "reason": "PR #7267 by @mixxer is already open against this issue",
    "evidence": [
@@ -1587,26 +1567,6 @@
    ]
   },
   {
-   "number": 7600,
-   "title": "[Bug]: No Design after various attempts",
-   "url": "https://github.com/nexu-io/open-design/issues/7600",
-   "labels": [
-    "bug",
-    "help wanted"
-   ],
-   "updatedAt": "2026-08-31T10:35:01Z",
-   "checkedAt": "2026-11-14T22:28:38.603Z",
-   "verdict": "reservations",
-   "reason": "setup instructions live outside the repository (https://docs.anthropic.com/en/docs/claude-code/skills) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
-   "evidence": [
-    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/nexu-io/open-design/issues/7600",
-    "https://github.com/nexu-io/open-design/blob/HEAD/CONTRIBUTING.md",
-    "https://github.com/nexu-io/open-design/blob/HEAD/.github/AGENTS.md",
-    "https://docs.anthropic.com/en/docs/claude-code/skills"
-   ]
-  },
-  {
    "number": 7604,
    "title": "Deck thumbnail rail always shows slide 1 for reveal.js-based decks (getComputedStyle can't see ancestor-driven hiding)",
    "url": "https://github.com/nexu-io/open-design/issues/7604",
@@ -1621,24 +1581,6 @@
    "evidence": [
     "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/nexu-io/open-design/pull/7606"
-   ]
-  },
-  {
-   "number": 7609,
-   "title": "piAgentDef dogfooding: record agent_cli_version in run diagnostics (+ stale-runtime hint)",
-   "url": "https://github.com/nexu-io/open-design/issues/7609",
-   "labels": [
-    "enhancement",
-    "help wanted",
-    "needs-product-direction"
-   ],
-   "updatedAt": "2026-09-02T16:49:03Z",
-   "checkedAt": "2026-11-14T22:28:38.603Z",
-   "verdict": "discard",
-   "reason": "PR #7610 by @libaojiang is already open against this issue",
-   "evidence": [
-    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/nexu-io/open-design/pull/7610"
    ]
   },
   {
@@ -1676,24 +1618,6 @@
    "evidence": [
     "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/nexu-io/open-design/pull/8473"
-   ]
-  },
-  {
-   "number": 7710,
-   "title": "Splash screen window never becomes visible on Windows after 2026-08-29 cumulative updates (Surface Pro 9, Iris Xe, Electron 41)",
-   "url": "https://github.com/nexu-io/open-design/issues/7710",
-   "labels": [
-    "bug",
-    "help wanted"
-   ],
-   "updatedAt": "2026-09-01T21:47:33Z",
-   "checkedAt": "2026-11-14T22:28:38.603Z",
-   "verdict": "discard",
-   "reason": "already assigned to @T-sanjay-ram",
-   "evidence": [
-    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/nexu-io/open-design/issues/7710",
-    "https://github.com/nexu-io/open-design/issues/7710#issuecomment-5500732011"
    ]
   },
   {
@@ -2652,8 +2576,8 @@
     "help wanted",
     "feature"
    ],
-   "updatedAt": "2026-11-17T21:14:47Z",
-   "checkedAt": "2026-11-18T14:03:59.541Z",
+   "updatedAt": "2026-11-18T21:22:56Z",
+   "checkedAt": "2026-11-19T21:39:33.956Z",
    "verdict": "discard",
    "reason": "PR #9518 by @gi4vr is already open against this issue",
    "evidence": [
@@ -2679,6 +2603,79 @@
     "https://github.com/nexu-io/open-design/blob/HEAD/CONTRIBUTING.md",
     "https://github.com/nexu-io/open-design/blob/HEAD/.github/AGENTS.md",
     "https://docs.anthropic.com/en/docs/claude-code/skills"
+   ]
+  },
+  {
+   "number": 9552,
+   "title": "[Bug]: [Windows] Open Design 0.27.1 desktop window disappears when Claude Code connects via MCP",
+   "url": "https://github.com/nexu-io/open-design/issues/9552",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-19T02:49:55Z",
+   "checkedAt": "2026-11-19T21:39:33.956Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.anthropic.com/en/docs/claude-code/skills) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/issues/9552",
+    "https://github.com/nexu-io/open-design/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/nexu-io/open-design/blob/HEAD/.github/AGENTS.md",
+    "https://docs.anthropic.com/en/docs/claude-code/skills"
+   ]
+  },
+  {
+   "number": 9553,
+   "title": "SKILL.md frontmatter does not follow the Agent Skills spec",
+   "url": "https://github.com/nexu-io/open-design/issues/9553",
+   "labels": [
+    "bug",
+    "good first issue",
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-19T06:27:55Z",
+   "checkedAt": "2026-11-19T21:39:33.956Z",
+   "verdict": "discard",
+   "reason": "PR #9554 by @maheshrijal is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/9554"
+   ]
+  },
+  {
+   "number": 9564,
+   "title": "[Bug]: Library ingest URL fetch has no timeout and buffers unbounded bodies before the 25MB cap (daemon hang / OOM)",
+   "url": "https://github.com/nexu-io/open-design/issues/9564",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-19T12:40:01Z",
+   "checkedAt": "2026-11-19T21:39:33.956Z",
+   "verdict": "discard",
+   "reason": "PR #9565 by @Abhishek764 is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/9565"
+   ]
+  },
+  {
+   "number": 9567,
+   "title": "Add Close Others / Close to the Left / Close to the Right / Close All to project workspace tabs",
+   "url": "https://github.com/nexu-io/open-design/issues/9567",
+   "labels": [
+    "help wanted",
+    "feature",
+    "needs-product-direction"
+   ],
+   "updatedAt": "2026-11-19T17:22:07Z",
+   "checkedAt": "2026-11-19T21:39:33.956Z",
+   "verdict": "discard",
+   "reason": "PR #9568 by @Snellingen is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/9568"
    ]
   }
  ]

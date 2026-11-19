@@ -4,7 +4,7 @@
  "language": "C",
  "stars": 32090,
  "description": "The official NGINX Open Source repository.",
- "visitedAt": "2026-11-12T19:57:47.710Z",
+ "visitedAt": "2026-11-19T21:39:33.956Z",
  "issues": [
   {
    "number": 400,
@@ -14,11 +14,10 @@
     "enhancement",
     "feature",
     "good first issue",
-    "Complexity - hard",
-    "ready-for-review"
+    "Complexity - hard"
    ],
-   "updatedAt": "2026-11-05T22:10:51Z",
-   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "updatedAt": "2026-11-18T23:28:52Z",
+   "checkedAt": "2026-11-19T21:39:33.956Z",
    "verdict": "discard",
    "reason": "PR #517 by @u5surf is already open against this issue",
    "evidence": [
@@ -112,11 +111,10 @@
     "enhancement",
     "feature",
     "good first issue",
-    "refined",
-    "ready-for-review"
+    "refined"
    ],
-   "updatedAt": "2026-11-05T22:15:46Z",
-   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "updatedAt": "2026-11-18T20:23:23Z",
+   "checkedAt": "2026-11-19T21:39:33.956Z",
    "verdict": "discard",
    "reason": "PR #1254 by @ac000 is already open against this issue",
    "evidence": [

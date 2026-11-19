@@ -4,7 +4,7 @@
  "language": "C",
  "stars": 140823,
  "description": "Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows",
- "visitedAt": "2026-11-12T19:57:47.710Z",
+ "visitedAt": "2026-11-19T21:39:33.956Z",
  "issues": [
   {
    "number": 97,
@@ -690,8 +690,8 @@
     "Status-In progress",
     "Product-Color Picker"
    ],
-   "updatedAt": "2026-11-11T10:42:18Z",
-   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "updatedAt": "2026-11-17T13:42:07Z",
+   "checkedAt": "2026-11-19T21:39:33.956Z",
    "verdict": "discard",
    "reason": "PR #51965 by @Dubey404aasutosh is already open against this issue",
    "evidence": [
@@ -1128,18 +1128,17 @@
    "labels": [
     "Idea-Enhancement",
     "Help Wanted",
+    "Status-In progress",
     "Area-User Interface",
     "Product-File Locksmith"
    ],
-   "updatedAt": "2026-11-07T18:40:52Z",
-   "checkedAt": "2026-11-12T19:57:47.710Z",
-   "verdict": "reservations",
-   "reason": "the project requires disclosing AI assistance: \"Label it clearly as AI\" — not optional; skipping it can sink the PR and your standing in the project",
+   "updatedAt": "2026-11-14T18:58:37Z",
+   "checkedAt": "2026-11-19T21:39:33.956Z",
+   "verdict": "discard",
+   "reason": "PR #52146 by @Dubey404aasutosh is already open against this issue",
    "evidence": [
     "https://github.com/microsoft/PowerToys/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/microsoft/PowerToys/issues/21807",
-    "https://github.com/microsoft/PowerToys/blob/HEAD/CONTRIBUTING.md",
-    "https://github.com/microsoft/PowerToys/blob/HEAD/README.md"
+    "https://github.com/microsoft/PowerToys/pull/52146"
    ]
   },
   {
@@ -1873,8 +1872,8 @@
     "Issue-Feature",
     "Product-Command Palette"
    ],
-   "updatedAt": "2025-10-19T20:09:47Z",
-   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "updatedAt": "2026-11-16T20:52:53Z",
+   "checkedAt": "2026-11-19T21:39:33.956Z",
    "verdict": "reservations",
    "reason": "the project requires disclosing AI assistance: \"Label it clearly as AI\" — not optional; skipping it can sink the PR and your standing in the project",
    "evidence": [
