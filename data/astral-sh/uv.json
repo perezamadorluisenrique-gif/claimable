@@ -4,7 +4,7 @@
  "language": "Rust",
  "stars": 91851,
  "description": "An extremely fast Python package and project manager, written in Rust.",
- "visitedAt": "2026-11-11T22:03:46.308Z",
+ "visitedAt": "2026-11-19T03:33:09.404Z",
  "issues": [
   {
    "number": 411,
@@ -264,8 +264,8 @@
     "enhancement",
     "help wanted"
    ],
-   "updatedAt": "2026-11-06T11:29:20Z",
-   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "updatedAt": "2026-11-12T13:50:17Z",
+   "checkedAt": "2026-11-19T03:33:09.404Z",
    "verdict": "discard",
    "reason": "PR #7171 by @eth3lbert is already open against this issue",
    "evidence": [
@@ -981,14 +981,15 @@
    "labels": [
     "help wanted"
    ],
-   "updatedAt": "2026-09-26T14:43:53Z",
-   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "updatedAt": "2026-11-17T12:27:09Z",
+   "checkedAt": "2026-11-19T03:33:09.404Z",
    "verdict": "discard",
    "reason": "PR #19388 by @RyanJamesStewart is already open against this issue",
    "evidence": [
     "https://github.com/astral-sh/uv/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/astral-sh/uv/pull/19388",
     "https://github.com/astral-sh/uv/pull/21495",
+    "https://github.com/astral-sh/uv/pull/23277",
     "https://github.com/astral-sh/uv/pull/15992"
    ]
   },

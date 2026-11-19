@@ -4,7 +4,7 @@
  "language": "TypeScript",
  "stars": 114746,
  "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
- "visitedAt": "2026-11-17T22:54:58.137Z",
+ "visitedAt": "2026-11-19T03:33:09.404Z",
  "issues": [
   {
    "number": 6435,
@@ -56,10 +56,10 @@
     "good first issue",
     "external-issue"
    ],
-   "updatedAt": "2026-11-17T13:24:15Z",
-   "checkedAt": "2026-11-17T22:54:58.137Z",
+   "updatedAt": "2026-11-18T09:30:02Z",
+   "checkedAt": "2026-11-19T03:33:09.404Z",
    "verdict": "discard",
-   "reason": "@Vijay431 claimed it 3 days ago",
+   "reason": "@Vijay431 claimed it 4 days ago",
    "evidence": [
     "https://github.com/supabase/supabase/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/supabase/supabase/issues/53401#issuecomment-6882972011",

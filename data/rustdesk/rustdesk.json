@@ -4,7 +4,7 @@
  "language": "Rust",
  "stars": 128900,
  "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
- "visitedAt": "2026-11-11T22:03:46.308Z",
+ "visitedAt": "2026-11-19T03:33:09.404Z",
  "issues": [
   {
    "number": 40,
@@ -57,8 +57,8 @@
     "bug",
     "help wanted"
    ],
-   "updatedAt": "2026-06-10T08:21:19Z",
-   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "updatedAt": "2026-11-17T20:49:45Z",
+   "checkedAt": "2026-11-19T03:33:09.404Z",
    "verdict": "reservations",
    "reason": "PR #8705 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+4 more)",
    "evidence": [

@@ -4,7 +4,7 @@
  "language": "Rust",
  "stars": 70528,
  "description": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
- "visitedAt": "2026-11-11T22:03:46.308Z",
+ "visitedAt": "2026-11-19T03:33:09.404Z",
  "issues": [
   {
    "number": 246,

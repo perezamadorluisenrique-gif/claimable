@@ -4,7 +4,7 @@
  "language": "C++",
  "stars": 133933,
  "description": "LLM inference in C/C++",
- "visitedAt": "2026-11-12T03:03:40.195Z",
+ "visitedAt": "2026-11-19T03:33:09.404Z",
  "issues": [
   {
    "number": 231,
@@ -505,8 +505,8 @@
     "enhancement",
     "good first issue"
    ],
-   "updatedAt": "2026-06-24T23:47:51Z",
-   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "updatedAt": "2026-11-18T08:20:42Z",
+   "checkedAt": "2026-11-19T03:33:09.404Z",
    "verdict": "discard",
    "reason": "PR #24740 by @aliceyh7 is already open against this issue",
    "evidence": [
@@ -585,8 +585,8 @@
     "enhancement",
     "good first issue"
    ],
-   "updatedAt": "2026-10-30T03:47:58Z",
-   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "updatedAt": "2026-11-15T16:48:47Z",
+   "checkedAt": "2026-11-19T03:33:09.404Z",
    "verdict": "discard",
    "reason": "PR #819 by @loci-dev is already open against this issue",
    "evidence": [

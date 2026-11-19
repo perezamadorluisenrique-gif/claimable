@@ -4,7 +4,7 @@
  "language": "C++",
  "stars": 105362,
  "description": "The new Windows Terminal and the original Windows console host, all in the same place!",
- "visitedAt": "2026-11-12T03:03:40.195Z",
+ "visitedAt": "2026-11-19T03:33:09.404Z",
  "issues": [
   {
    "number": 351,
@@ -72,6 +72,29 @@
    ]
   },
   {
+   "number": 992,
+   "title": "Panes should be resizable with the mouse",
+   "url": "https://github.com/microsoft/terminal/issues/992",
+   "labels": [
+    "Help Wanted",
+    "Area-UserInterface",
+    "Product-Terminal",
+    "Issue-Task",
+    "In-PR",
+    "Priority-2"
+   ],
+   "updatedAt": "2026-11-17T17:40:46Z",
+   "checkedAt": "2026-11-19T03:33:09.404Z",
+   "verdict": "discard",
+   "reason": "PR #20925 by @crutkas is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/pull/20925",
+    "https://github.com/microsoft/terminal/pull/825",
+    "https://github.com/dm17ryk/terminal/pull/1"
+   ]
+  },
+  {
    "number": 1320,
    "title": "Support runtime variables in the custom user title",
    "url": "https://github.com/microsoft/terminal/issues/1320",
@@ -132,8 +155,8 @@
     "In-PR",
     "Priority-2"
    ],
-   "updatedAt": "2026-10-19T15:15:45Z",
-   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "updatedAt": "2026-11-17T22:40:26Z",
+   "checkedAt": "2026-11-19T03:33:09.404Z",
    "verdict": "reservations",
    "reason": "PR #4902 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+3 more)",
    "evidence": [
@@ -240,6 +263,32 @@
    "evidence": [
     "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/microsoft/terminal/pull/20469"
+   ]
+  },
+  {
+   "number": 1860,
+   "title": "Terminal desperately needs a horizontal scrollbar (similar to Command Prompt)",
+   "url": "https://github.com/microsoft/terminal/issues/1860",
+   "labels": [
+    "Issue-Feature",
+    "Resolution-By-Design",
+    "Help Wanted",
+    "Area-Output",
+    "Area-TerminalControl",
+    "Product-Terminal"
+   ],
+   "updatedAt": "2026-11-16T22:24:37Z",
+   "checkedAt": "2026-11-19T03:33:09.404Z",
+   "verdict": "reservations",
+   "reason": "PR #10979 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+3 more)",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/pull/10979",
+    "https://github.com/directvt/vtm/pull/237",
+    "https://github.com/microsoft/terminal/issues/1860",
+    "https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022",
+    "https://github.com/microsoft/terminal/blob/HEAD/README.md",
+    "https://github.com/microsoft/terminal/blob/HEAD/AGENTS.md"
    ]
   },
   {
@@ -448,29 +497,6 @@
    ]
   },
   {
-   "number": 4359,
-   "title": "CreatePseudoConsole doesn't handle sockets correctly",
-   "url": "https://github.com/microsoft/terminal/issues/4359",
-   "labels": [
-    "Help Wanted",
-    "Product-Conpty",
-    "Issue-Bug",
-    "Priority-1",
-    "Area-Quality"
-   ],
-   "updatedAt": "2025-11-01T21:09:18Z",
-   "checkedAt": "2026-11-12T03:03:40.195Z",
-   "verdict": "reservations",
-   "reason": "setup instructions live outside the repository (https://docs.microsoft.com/en-us/windows/console/creating-a-pseudoconsole-session#preparing-the-communication-channels) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
-   "evidence": [
-    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/microsoft/terminal/issues/4359",
-    "https://docs.microsoft.com/en-us/windows/console/creating-a-pseudoconsole-session#preparing-the-communication-channels",
-    "https://github.com/microsoft/terminal/blob/HEAD/README.md",
-    "https://github.com/microsoft/terminal/blob/HEAD/AGENTS.md"
-   ]
-  },
-  {
    "number": 4717,
    "title": "Add title to split window",
    "url": "https://github.com/microsoft/terminal/issues/4717",
@@ -502,8 +528,8 @@
     "Product-Terminal",
     "Priority-2"
    ],
-   "updatedAt": "2026-04-24T13:24:12Z",
-   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "updatedAt": "2026-11-16T22:24:41Z",
+   "checkedAt": "2026-11-19T03:33:09.404Z",
    "verdict": "reservations",
    "reason": "PR #7883 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
    "evidence": [
@@ -720,8 +746,8 @@
     "Product-Terminal",
     "Area-SettingsUI"
    ],
-   "updatedAt": "2026-10-19T14:59:05Z",
-   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "updatedAt": "2026-11-17T01:21:24Z",
+   "checkedAt": "2026-11-19T03:33:09.404Z",
    "verdict": "discard",
    "reason": "PR #10000 by @zadjii-msft is already open against this issue",
    "evidence": [
@@ -999,8 +1025,8 @@
     "In-PR",
     "Area-Windowing"
    ],
-   "updatedAt": "2026-11-09T20:23:05Z",
-   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "updatedAt": "2026-11-17T12:23:21Z",
+   "checkedAt": "2026-11-19T03:33:09.404Z",
    "verdict": "discard",
    "reason": "PR #9992 by @zadjii-msft is already open against this issue",
    "evidence": [
@@ -1386,8 +1412,8 @@
     "Product-Terminal",
     "Area-ShellExtension"
    ],
-   "updatedAt": "2026-10-24T21:13:38Z",
-   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "updatedAt": "2026-11-17T03:56:08Z",
+   "checkedAt": "2026-11-19T03:33:09.404Z",
    "verdict": "discard",
    "reason": "PR #10119 by @JonathanLydall is already open against this issue",
    "evidence": [
@@ -1919,28 +1945,6 @@
     "https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022",
     "https://github.com/microsoft/terminal/blob/HEAD/README.md",
     "https://github.com/microsoft/terminal/blob/HEAD/AGENTS.md"
-   ]
-  },
-  {
-   "number": 19491,
-   "title": "Indicate status of IME by changing cursor color",
-   "url": "https://github.com/microsoft/terminal/issues/19491",
-   "labels": [
-    "Product-Conhost",
-    "Help Wanted",
-    "Area-Input",
-    "Product-Terminal",
-    "Issue-Task",
-    "Needs-Tag-Fix",
-    "Priority-3"
-   ],
-   "updatedAt": "2025-10-31T02:40:15Z",
-   "checkedAt": "2026-11-12T03:03:40.195Z",
-   "verdict": "discard",
-   "reason": "PR #20653 by @hdformat is already open against this issue",
-   "evidence": [
-    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/microsoft/terminal/issues/20653"
    ]
   },
   {

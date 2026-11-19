@@ -4,7 +4,7 @@
  "language": "Rust",
  "stars": 96744,
  "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
- "visitedAt": "2026-11-11T22:03:46.308Z",
+ "visitedAt": "2026-11-19T03:33:09.404Z",
  "issues": [
   {
    "number": 2467,
@@ -84,29 +84,6 @@
     "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/oven-sh/bun/issues/7125#issuecomment-6706308805",
     "https://github.com/oven-sh/bun/issues/7125#issuecomment-1814347004"
-   ]
-  },
-  {
-   "number": 7284,
-   "title": "bun update -E doesn't work but --exact works",
-   "url": "https://github.com/oven-sh/bun/issues/7284",
-   "labels": [
-    "bug",
-    "bun install",
-    "good first issue",
-    "cli"
-   ],
-   "updatedAt": "2026-01-03T19:18:42Z",
-   "checkedAt": "2026-11-11T22:03:46.308Z",
-   "verdict": "reservations",
-   "reason": "only 2% of recently closed PRs were merged — most contributions get rejected or abandoned here (+1 more)",
-   "evidence": [
-    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Aclosed",
-    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/oven-sh/bun/pull/7603",
-    "https://github.com/oven-sh/bun/issues/7284",
-    "https://github.com/oven-sh/bun/blob/HEAD/CONTRIBUTING.md",
-    "https://github.com/oven-sh/bun/blob/HEAD/README.md"
    ]
   },
   {
@@ -196,29 +173,6 @@
     "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Aclosed",
     "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/oven-sh/bun/pull/37128"
-   ]
-  },
-  {
-   "number": 8316,
-   "title": "console.log ignores enumerable:false",
-   "url": "https://github.com/oven-sh/bun/issues/8316",
-   "labels": [
-    "bug",
-    "web-api",
-    "good first issue"
-   ],
-   "updatedAt": "2026-10-14T14:43:09Z",
-   "checkedAt": "2026-11-11T22:03:46.308Z",
-   "verdict": "discard",
-   "reason": "PR #9 by @PermaShip is already open against this issue",
-   "evidence": [
-    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Aclosed",
-    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/PermaShip/bun/pull/9",
-    "https://github.com/oven-sh/bun/pull/38218",
-    "https://github.com/oven-sh/bun/pull/46744",
-    "https://github.com/oven-sh/bun/pull/40319",
-    "https://github.com/oven-sh/bun/pull/47563"
    ]
   },
   {
@@ -492,25 +446,6 @@
    ]
   },
   {
-   "number": 18017,
-   "title": "HMR suffixes component function names with a number",
-   "url": "https://github.com/oven-sh/bun/issues/18017",
-   "labels": [
-    "bug",
-    "good first issue",
-    "bake:dev"
-   ],
-   "updatedAt": "2025-11-25T01:44:01Z",
-   "checkedAt": "2026-11-11T22:03:46.308Z",
-   "verdict": "discard",
-   "reason": "PR #47422 by @robobun is already open against this issue",
-   "evidence": [
-    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Aclosed",
-    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/oven-sh/bun/pull/47422"
-   ]
-  },
-  {
    "number": 18324,
    "title": "Async generator function are not properly identified in console.log",
    "url": "https://github.com/oven-sh/bun/issues/18324",
@@ -565,16 +500,16 @@
     "console",
     "confirmed bug"
    ],
-   "updatedAt": "2026-09-01T07:34:13Z",
-   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "updatedAt": "2026-11-12T09:22:49Z",
+   "checkedAt": "2026-11-19T03:33:09.404Z",
    "verdict": "discard",
-   "reason": "PR #31716 by @robobun is already open against this issue",
+   "reason": "PR #37128 by @dylan-conway is already open against this issue",
    "evidence": [
     "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Aclosed",
     "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/oven-sh/bun/pull/31716",
     "https://github.com/oven-sh/bun/pull/37128",
-    "https://github.com/oven-sh/bun/pull/44950"
+    "https://github.com/oven-sh/bun/pull/48662",
+    "https://github.com/oven-sh/bun/pull/48924"
    ]
   },
   {

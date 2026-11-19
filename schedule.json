@@ -80,11 +80,11 @@
   "lastNewIssue": "2026-09-27T06:15:04Z"
  },
  "immich-app/immich": {
-  "nextCheck": "2026-11-18T22:54:58.137Z",
+  "nextCheck": "2026-11-20T03:33:09.404Z",
   "lastNewIssue": "2026-11-15T21:37:12Z"
  },
  "supabase/supabase": {
-  "nextCheck": "2026-11-18T22:54:58.137Z",
+  "nextCheck": "2026-11-20T03:33:09.404Z",
   "lastNewIssue": "2026-11-14T12:13:07Z"
  },
  "google-gemini/gemini-cli": {
@@ -296,15 +296,15 @@
   "lastNewIssue": "2026-10-19T08:20:04Z"
  },
  "ethereum/go-ethereum": {
-  "nextCheck": "2026-11-18T22:03:46.308Z",
+  "nextCheck": "2026-11-26T03:33:09.404Z",
   "lastNewIssue": "2026-07-14T12:41:58Z"
  },
  "farion1231/cc-switch": {
-  "nextCheck": "2026-11-18T22:03:46.308Z",
+  "nextCheck": "2026-11-26T03:33:09.404Z",
   "lastNewIssue": "2026-06-02T14:42:10Z"
  },
  "rustdesk/rustdesk": {
-  "nextCheck": "2026-11-18T22:03:46.308Z",
+  "nextCheck": "2026-11-26T03:33:09.404Z",
   "lastNewIssue": "2026-07-06T15:02:20Z"
  },
  "tauri-apps/tauri": {
@@ -312,15 +312,15 @@
   "lastNewIssue": "2026-10-30T04:56:36Z"
  },
  "denoland/deno": {
-  "nextCheck": "2026-11-18T22:03:46.308Z",
+  "nextCheck": "2026-11-26T03:33:09.404Z",
   "lastNewIssue": null
  },
  "oven-sh/bun": {
-  "nextCheck": "2026-11-18T22:03:46.308Z",
+  "nextCheck": "2026-11-26T03:33:09.404Z",
   "lastNewIssue": "2025-10-21T09:38:40Z"
  },
  "astral-sh/uv": {
-  "nextCheck": "2026-11-18T22:03:46.308Z",
+  "nextCheck": "2026-11-26T03:33:09.404Z",
   "lastNewIssue": "2026-01-16T09:32:03Z"
  },
  "rtk-ai/rtk": {
@@ -328,15 +328,15 @@
   "lastNewIssue": "2026-11-16T13:05:00Z"
  },
  "dani-garcia/vaultwarden": {
-  "nextCheck": "2026-11-18T22:03:46.308Z",
+  "nextCheck": "2026-11-26T03:33:09.404Z",
   "lastNewIssue": "2018-11-09T15:55:03Z"
  },
  "burntsushi/ripgrep": {
-  "nextCheck": "2026-11-18T22:03:46.308Z",
+  "nextCheck": "2026-11-26T03:33:09.404Z",
   "lastNewIssue": "2025-12-10T20:04:05Z"
  },
  "openinterpreter/openinterpreter": {
-  "nextCheck": "2026-11-18T22:03:46.308Z",
+  "nextCheck": "2026-11-26T03:33:09.404Z",
   "lastNewIssue": null
  },
  "alacritty/alacritty": {
@@ -344,7 +344,7 @@
   "lastNewIssue": "2026-10-13T21:42:52Z"
  },
  "fuellabs/sway": {
-  "nextCheck": "2026-11-18T22:03:46.308Z",
+  "nextCheck": "2026-11-26T03:33:09.404Z",
   "lastNewIssue": "2025-08-13T05:14:56Z"
  },
  "sharkdp/bat": {
@@ -356,39 +356,39 @@
   "lastNewIssue": "2025-12-12T17:24:54Z"
  },
  "fuellabs/fuel-core": {
-  "nextCheck": "2026-11-19T03:03:40.195Z",
+  "nextCheck": "2026-11-26T03:33:09.404Z",
   "lastNewIssue": "2025-12-05T00:57:34Z"
  },
  "ggml-org/llama.cpp": {
-  "nextCheck": "2026-11-19T03:03:40.195Z",
+  "nextCheck": "2026-11-26T03:33:09.404Z",
   "lastNewIssue": "2026-08-15T02:40:06Z"
  },
  "react/react-native": {
-  "nextCheck": "2026-11-19T03:03:40.195Z",
+  "nextCheck": "2026-11-26T03:33:09.404Z",
   "lastNewIssue": "2021-02-10T20:22:30Z"
  },
  "godotengine/godot": {
-  "nextCheck": "2026-11-19T03:03:40.195Z",
+  "nextCheck": "2026-11-26T03:33:09.404Z",
   "lastNewIssue": null
  },
  "microsoft/terminal": {
-  "nextCheck": "2026-11-19T03:03:40.195Z",
+  "nextCheck": "2026-11-26T03:33:09.404Z",
   "lastNewIssue": "2026-08-20T03:46:41Z"
  },
  "tesseract-ocr/tesseract": {
-  "nextCheck": "2026-11-19T03:03:40.195Z",
+  "nextCheck": "2026-11-26T03:33:09.404Z",
   "lastNewIssue": "2020-01-01T11:48:14Z"
  },
  "ocornut/imgui": {
-  "nextCheck": "2026-11-19T03:03:40.195Z",
+  "nextCheck": "2026-11-26T03:33:09.404Z",
   "lastNewIssue": "2026-04-06T10:02:50Z"
  },
  "protocolbuffers/protobuf": {
-  "nextCheck": "2026-11-19T03:03:40.195Z",
-  "lastNewIssue": "2026-09-25T20:33:40Z"
+  "nextCheck": "2026-11-20T03:33:09.404Z",
+  "lastNewIssue": "2026-11-16T15:31:32Z"
  },
  "ggml-org/whisper.cpp": {
-  "nextCheck": "2026-11-19T03:03:40.195Z",
+  "nextCheck": "2026-11-26T03:33:09.404Z",
   "lastNewIssue": "2025-04-08T18:52:55Z"
  },
  "clickhouse/clickhouse": {
@@ -544,7 +544,7 @@
   "lastNewIssue": "2026-01-31T17:27:49Z"
  },
  "nextcloud/server": {
-  "nextCheck": "2026-11-19T02:46:09.212Z",
+  "nextCheck": "2026-11-22T03:33:09.404Z",
   "lastNewIssue": "2026-10-23T17:59:48Z"
  },
  "laravel/framework": {
@@ -552,7 +552,7 @@
   "lastNewIssue": "2026-05-24T01:50:54Z"
  },
  "symfony/symfony": {
-  "nextCheck": "2026-11-19T02:46:09.212Z",
+  "nextCheck": "2026-11-22T03:33:09.404Z",
   "lastNewIssue": "2026-10-24T11:40:11Z"
  },
  "monicahq/monica": {
@@ -1144,7 +1144,7 @@
   "lastNewIssue": "2025-03-19T00:01:35Z"
  },
  "othmanadi/planning-with-files": {
-  "nextCheck": "2026-11-18T22:52:34.246Z",
+  "nextCheck": "2026-11-22T03:33:09.404Z",
   "lastNewIssue": "2026-11-07T20:40:24Z"
  },
  "zsh-users/zsh-syntax-highlighting": {

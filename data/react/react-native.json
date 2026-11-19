@@ -4,7 +4,7 @@
  "language": "C++",
  "stars": 126896,
  "description": "A framework for building native applications using React",
- "visitedAt": "2026-11-12T03:03:40.195Z",
+ "visitedAt": "2026-11-19T03:33:09.404Z",
  "issues": [
   {
    "number": 12220,
@@ -142,8 +142,8 @@
     "Component: SectionList",
     "Accessibility"
    ],
-   "updatedAt": "2026-06-01T10:25:49Z",
-   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "updatedAt": "2026-11-13T12:48:35Z",
+   "checkedAt": "2026-11-19T03:33:09.404Z",
    "verdict": "discard",
    "reason": "PR #58322 by @Ajeethundal is already open against this issue",
    "evidence": [
