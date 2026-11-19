@@ -4,7 +4,7 @@
  "language": "C++",
  "stars": 50268,
  "description": "An open-source user mode debugger for Windows. Optimized for reverse engineering and malware analysis.",
- "visitedAt": "2026-11-12T11:19:29.437Z",
+ "visitedAt": "2026-11-19T13:15:34.665Z",
  "issues": [
   {
    "number": 231,
@@ -289,27 +289,6 @@
    "evidence": [
     "https://github.com/x64dbg/x64dbg/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/x64dbg/x64dbg/issues/1513",
-    "https://github.com/x64dbg/x64dbg/wiki/Compiling-the-whole-project",
-    "https://github.com/x64dbg/x64dbg/blob/HEAD/.github/CONTRIBUTING.md"
-   ]
-  },
-  {
-   "number": 1588,
-   "title": "Info box: show the number too, not only the label",
-   "url": "https://github.com/x64dbg/x64dbg/issues/1588",
-   "labels": [
-    "enhancement",
-    "gui",
-    "good first issue"
-   ],
-   "updatedAt": "2017-10-07T23:38:03Z",
-   "checkedAt": "2026-11-12T11:19:29.437Z",
-   "verdict": "reservations",
-   "reason": "PR #1745 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
-   "evidence": [
-    "https://github.com/x64dbg/x64dbg/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/x64dbg/x64dbg/pull/1745",
-    "https://github.com/x64dbg/x64dbg/issues/1588",
     "https://github.com/x64dbg/x64dbg/wiki/Compiling-the-whole-project",
     "https://github.com/x64dbg/x64dbg/blob/HEAD/.github/CONTRIBUTING.md"
    ]

@@ -4,7 +4,7 @@
  "language": "C#",
  "stars": 38509,
  "description": "ASP.NET Core is a cross-platform .NET framework for building modern cloud-based web applications on Windows, Mac, or Linux.",
- "visitedAt": "2026-11-12T11:19:29.437Z",
+ "visitedAt": "2026-11-19T13:15:34.665Z",
  "issues": [
   {
    "number": 2396,
@@ -603,6 +603,27 @@
    ]
   },
   {
+   "number": 5885,
+   "title": "NotifyOnCompleted does not catch exceptions, may abort the response/connection",
+   "url": "https://github.com/dotnet/aspnetcore/issues/5885",
+   "labels": [
+    "bug",
+    "help wanted",
+    "feature-httpsys",
+    "severity-nice-to-have",
+    "affected-very-few",
+    "area-networking"
+   ],
+   "updatedAt": "2026-11-15T04:24:21Z",
+   "checkedAt": "2026-11-19T13:15:34.665Z",
+   "verdict": "discard",
+   "reason": "PR #70610 by @seragAhmed is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/pull/70610"
+   ]
+  },
+  {
    "number": 5888,
    "title": "Add an AutomaticChallenge option to disable HttpSys from adding auth headers on 401",
    "url": "https://github.com/dotnet/aspnetcore/issues/5888",
@@ -950,31 +971,6 @@
    "evidence": [
     "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/dotnet/aspnetcore/pull/64610"
-   ]
-  },
-  {
-   "number": 12809,
-   "title": "Non-HTTP TLS connection middleware",
-   "url": "https://github.com/dotnet/aspnetcore/issues/12809",
-   "labels": [
-    "help wanted",
-    "enhancement",
-    "🥌 Bedrock",
-    "severity-nice-to-have",
-    "affected-few",
-    "area-networking"
-   ],
-   "updatedAt": "2026-05-01T21:11:01Z",
-   "checkedAt": "2026-11-12T11:19:29.437Z",
-   "verdict": "reservations",
-   "reason": "PR #6035 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
-   "evidence": [
-    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/dotnet/orleans/pull/6035",
-    "https://github.com/dotnet/aspnetcore/issues/12809#issuecomment-540709974",
-    "https://github.com/dotnet/aspnetcore/issues/12809",
-    "https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines",
-    "https://github.com/dotnet/aspnetcore/blob/HEAD/CONTRIBUTING.md"
    ]
   },
   {
@@ -1475,15 +1471,13 @@
     "help wanted",
     "area-networking"
    ],
-   "updatedAt": "2026-05-01T21:14:53Z",
-   "checkedAt": "2026-11-12T11:19:29.437Z",
-   "verdict": "reservations",
-   "reason": "setup instructions live outside the repository (https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "updatedAt": "2026-11-15T04:37:41Z",
+   "checkedAt": "2026-11-19T13:15:34.665Z",
+   "verdict": "discard",
+   "reason": "PR #70611 by @seragAhmed is already open against this issue",
    "evidence": [
     "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/dotnet/aspnetcore/issues/33866",
-    "https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines",
-    "https://github.com/dotnet/aspnetcore/blob/HEAD/CONTRIBUTING.md"
+    "https://github.com/dotnet/aspnetcore/pull/70611"
    ]
   },
   {
@@ -1617,8 +1611,8 @@
     "feature-caching",
     "area-middleware"
    ],
-   "updatedAt": "2026-05-01T21:13:53Z",
-   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "updatedAt": "2026-11-18T13:54:58Z",
+   "checkedAt": "2026-11-19T13:15:34.665Z",
    "verdict": "reservations",
    "reason": "setup instructions live outside the repository (https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines) — this filter only reads files in the repo, so the real setup cost is unverified",
    "evidence": [

@@ -4,7 +4,7 @@
  "language": "C++",
  "stars": 39723,
  "description": "GoogleTest - Google Testing and Mocking Framework",
- "visitedAt": "2026-11-12T11:19:29.437Z",
+ "visitedAt": "2026-11-19T13:15:34.665Z",
  "issues": [
   {
    "number": 813,
@@ -99,7 +99,7 @@
     "help wanted"
    ],
    "updatedAt": "2022-04-25T19:39:24Z",
-   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "checkedAt": "2026-11-19T13:15:34.665Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -134,7 +134,7 @@
     "help wanted"
    ],
    "updatedAt": "2026-07-23T22:54:03Z",
-   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "checkedAt": "2026-11-19T13:15:34.665Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [

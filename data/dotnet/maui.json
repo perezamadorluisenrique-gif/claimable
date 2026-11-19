@@ -4,7 +4,7 @@
  "language": "C#",
  "stars": 23321,
  "description": ".NET MAUI is the .NET Multi-platform App UI, a framework for building native device applications spanning mobile, tablet, and desktop.",
- "visitedAt": "2026-11-12T11:19:29.437Z",
+ "visitedAt": "2026-11-19T13:15:34.665Z",
  "issues": [
   {
    "number": 605,
@@ -59,17 +59,16 @@
     "t/enhancement ☀️",
     "good first issue",
     "proposal/open",
-    "area-controls-dialogalert"
+    "area-controls-dialogalert",
+    "partner/syncfusion"
    ],
-   "updatedAt": "2026-10-28T18:38:07Z",
-   "checkedAt": "2026-11-12T11:19:29.437Z",
-   "verdict": "reservations",
-   "reason": "labelled `proposal/open` — scope may not be settled yet (+1 more)",
+   "updatedAt": "2026-11-18T13:40:14Z",
+   "checkedAt": "2026-11-19T13:15:34.665Z",
+   "verdict": "discard",
+   "reason": "PR #40291 by @devanathan-vaithiyanathan is already open against this issue",
    "evidence": [
     "https://github.com/dotnet/maui/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/dotnet/maui/issues/4981",
-    "https://docs.microsoft.com/dotnet/maui",
-    "https://github.com/dotnet/maui/blob/HEAD/.github/CONTRIBUTING.md"
+    "https://github.com/dotnet/maui/pull/40291"
    ]
   },
   {
