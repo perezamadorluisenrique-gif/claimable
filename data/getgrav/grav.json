@@ -4,7 +4,7 @@
  "language": "PHP",
  "stars": 15720,
  "description": "Modern, Crazy Fast, Ridiculously Easy and Amazingly Powerful Flat-File CMS powered by PHP, Markdown, Twig, and Symfony",
- "visitedAt": "2026-11-13T01:07:25.191Z",
+ "visitedAt": "2026-11-20T03:21:26.834Z",
  "issues": [
   {
    "number": 983,
@@ -16,7 +16,7 @@
     "hacktoberfest"
    ],
    "updatedAt": "2020-05-06T19:01:13Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "checkedAt": "2026-11-20T03:21:26.834Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -33,7 +33,7 @@
     "help wanted"
    ],
    "updatedAt": "2018-04-30T08:28:03Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "checkedAt": "2026-11-20T03:21:26.834Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [

@@ -4,7 +4,7 @@
  "language": "Kotlin",
  "stars": 12214,
  "description": "AnkiDroid: Anki flashcards on Android. Your secret trick to achieve superhuman information retention.",
- "visitedAt": "2026-11-18T21:59:17.025Z",
+ "visitedAt": "2026-11-20T03:21:26.834Z",
  "issues": [
   {
    "number": 6369,
@@ -296,8 +296,8 @@
    "labels": [
     "Good First Issue"
    ],
-   "updatedAt": "2026-11-06T18:18:05Z",
-   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "updatedAt": "2026-11-19T18:13:39Z",
+   "checkedAt": "2026-11-20T03:21:26.834Z",
    "verdict": "reservations",
    "reason": "PR #20515 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+10 more)",
    "evidence": [
@@ -709,15 +709,29 @@
    "labels": [
     "Good First Issue"
    ],
-   "updatedAt": "2026-11-16T20:57:22Z",
-   "checkedAt": "2026-11-17T14:28:45.984Z",
-   "verdict": "reservations",
-   "reason": "setup instructions live outside the repository (https://github.com/ankidroid/Anki-Android/wiki/Development-Guide) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "updatedAt": "2026-11-19T20:31:41Z",
+   "checkedAt": "2026-11-20T03:21:26.834Z",
+   "verdict": "discard",
+   "reason": "PR #23493 by @SHUBHCH05 is already open against this issue",
    "evidence": [
     "https://github.com/ankidroid/Anki-Android/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/ankidroid/Anki-Android/issues/23350",
-    "https://github.com/ankidroid/Anki-Android/wiki/Development-Guide",
-    "https://github.com/ankidroid/Anki-Android/blob/HEAD/CONTRIBUTING.md"
+    "https://github.com/ankidroid/Anki-Android/pull/23493"
+   ]
+  },
+  {
+   "number": 23517,
+   "title": "Hard and Good buttons are slightly shorter now",
+   "url": "https://github.com/ankidroid/Anki-Android/issues/23517",
+   "labels": [
+    "Good First Issue"
+   ],
+   "updatedAt": "2026-11-20T02:16:26Z",
+   "checkedAt": "2026-11-20T03:21:26.834Z",
+   "verdict": "discard",
+   "reason": "@aarianmm claimed it today",
+   "evidence": [
+    "https://github.com/ankidroid/Anki-Android/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/ankidroid/Anki-Android/issues/23517#issuecomment-7028260541"
    ]
   }
  ]

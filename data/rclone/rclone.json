@@ -4,7 +4,7 @@
  "language": "Go",
  "stars": 60921,
  "description": "\"rsync for cloud storage\" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Azure Blob, Azure Files, Yandex Files",
- "visitedAt": "2026-11-18T21:59:17.025Z",
+ "visitedAt": "2026-11-20T03:21:26.834Z",
  "issues": [
   {
    "number": 18,
@@ -2051,27 +2051,6 @@
    ]
   },
   {
-   "number": 10119,
-   "title": "config: data race when concurrent rc calls first load the config",
-   "url": "https://github.com/rclone/rclone/issues/10119",
-   "labels": [
-    "bug",
-    "good first issue",
-    "configuration",
-    "API / Remote Control / RC",
-    "concurrency",
-    "librclone"
-   ],
-   "updatedAt": "2026-10-18T12:13:57Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
-   "verdict": "discard",
-   "reason": "PR #10134 by @mohammednumaan is already open against this issue",
-   "evidence": [
-    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/rclone/rclone/pull/10134"
-   ]
-  },
-  {
    "number": 10195,
    "title": "archive: objects outside archives aren't wrapped, so moving one onto its own name deletes it",
    "url": "https://github.com/rclone/rclone/issues/10195",
@@ -2105,24 +2084,6 @@
    "evidence": [
     "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/rclone/rclone/pull/10247"
-   ]
-  },
-  {
-   "number": 10334,
-   "title": "lib/transform: a top-level file gets an empty name when its transform fails",
-   "url": "https://github.com/rclone/rclone/issues/10334",
-   "labels": [
-    "bug",
-    "Remote: S3",
-    "good first issue"
-   ],
-   "updatedAt": "2026-11-13T13:01:17Z",
-   "checkedAt": "2026-11-15T10:59:03.445Z",
-   "verdict": "discard",
-   "reason": "PR #10336 by @Goldloli is already open against this issue",
-   "evidence": [
-    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/rclone/rclone/pull/10336"
    ]
   },
   {

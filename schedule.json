@@ -56,7 +56,7 @@
   "lastNewIssue": null
  },
  "prettier/prettier": {
-  "nextCheck": "2026-11-19T21:59:17.025Z",
+  "nextCheck": "2026-11-21T03:21:26.834Z",
   "lastNewIssue": "2026-11-13T16:40:50Z"
  },
  "openclaw/openclaw": {
@@ -276,7 +276,7 @@
   "lastNewIssue": "2026-03-27T20:55:01Z"
  },
  "rclone/rclone": {
-  "nextCheck": "2026-11-19T21:59:17.025Z",
+  "nextCheck": "2026-11-21T03:21:26.834Z",
   "lastNewIssue": "2026-11-13T15:42:49Z"
  },
  "multica-ai/multica": {
@@ -512,8 +512,8 @@
   "lastNewIssue": "2026-05-14T00:59:26Z"
  },
  "openssl/openssl": {
-  "nextCheck": "2026-11-19T21:59:17.025Z",
-  "lastNewIssue": "2026-11-16T19:41:47Z"
+  "nextCheck": "2026-11-21T03:21:26.834Z",
+  "lastNewIssue": "2026-11-19T14:56:59Z"
  },
  "xiaojieonly/ehviewer_cn_sxj": {
   "nextCheck": "2026-11-26T21:39:33.956Z",
@@ -540,7 +540,7 @@
   "lastNewIssue": "2026-08-17T06:35:04Z"
  },
  "danielmiessler/seclists": {
-  "nextCheck": "2026-11-20T01:07:25.191Z",
+  "nextCheck": "2026-11-27T03:21:26.834Z",
   "lastNewIssue": "2026-01-31T17:27:49Z"
  },
  "nextcloud/server": {
@@ -548,7 +548,7 @@
   "lastNewIssue": "2026-10-23T17:59:48Z"
  },
  "laravel/framework": {
-  "nextCheck": "2026-11-20T01:07:25.191Z",
+  "nextCheck": "2026-11-27T03:21:26.834Z",
   "lastNewIssue": "2026-05-24T01:50:54Z"
  },
  "symfony/symfony": {
@@ -556,27 +556,27 @@
   "lastNewIssue": "2026-10-24T11:40:11Z"
  },
  "monicahq/monica": {
-  "nextCheck": "2026-11-20T01:07:25.191Z",
+  "nextCheck": "2026-11-27T03:21:26.834Z",
   "lastNewIssue": "2021-12-28T13:01:20Z"
  },
  "phpmailer/phpmailer": {
-  "nextCheck": "2026-11-20T01:07:25.191Z",
+  "nextCheck": "2026-11-27T03:21:26.834Z",
   "lastNewIssue": "2026-09-10T08:33:36Z"
  },
  "matomo-org/matomo": {
-  "nextCheck": "2026-11-20T01:07:25.191Z",
+  "nextCheck": "2026-11-27T03:21:26.834Z",
   "lastNewIssue": "2024-11-22T09:51:52Z"
  },
  "briannesbitt/carbon": {
-  "nextCheck": "2026-11-20T01:07:25.191Z",
+  "nextCheck": "2026-11-27T03:21:26.834Z",
   "lastNewIssue": "2023-08-22T09:48:40Z"
  },
  "freshrss/freshrss": {
-  "nextCheck": "2026-11-20T01:07:25.191Z",
-  "lastNewIssue": "2026-08-24T15:28:23Z"
+  "nextCheck": "2026-11-21T03:21:26.834Z",
+  "lastNewIssue": "2026-11-14T10:27:22Z"
  },
  "getgrav/grav": {
-  "nextCheck": "2026-11-20T01:07:25.191Z",
+  "nextCheck": "2026-11-27T03:21:26.834Z",
   "lastNewIssue": "2018-04-27T09:27:33Z"
  },
  "yiisoft/yii2": {
@@ -716,8 +716,8 @@
   "lastNewIssue": "2026-05-24T20:42:54Z"
  },
  "ankidroid/anki-android": {
-  "nextCheck": "2026-11-19T21:59:17.025Z",
-  "lastNewIssue": "2026-11-16T20:57:22Z"
+  "nextCheck": "2026-11-21T03:21:26.834Z",
+  "lastNewIssue": "2026-11-19T18:24:49Z"
  },
  "swiftlang/swift": {
   "nextCheck": "2026-11-20T16:28:29.473Z",

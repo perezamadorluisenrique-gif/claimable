@@ -4,7 +4,7 @@
  "language": "PHP",
  "stars": 22020,
  "description": "Empowering People Ethically 🚀 — Matomo is hiring! Join us → https://matomo.org/jobs Matomo is the leading open-source alternative to Google Analytics, giving you complete control and built-in privacy",
- "visitedAt": "2026-11-13T01:07:25.191Z",
+ "visitedAt": "2026-11-20T03:21:26.834Z",
  "issues": [
   {
    "number": 2860,
@@ -35,7 +35,7 @@
     "c: Usability"
    ],
    "updatedAt": "2024-09-13T09:12:26Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "checkedAt": "2026-11-20T03:21:26.834Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -103,7 +103,7 @@
     "Help wanted"
    ],
    "updatedAt": "2024-01-03T05:04:06Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "checkedAt": "2026-11-20T03:21:26.834Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -120,7 +120,7 @@
     "Help wanted"
    ],
    "updatedAt": "2024-09-13T09:10:03Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "checkedAt": "2026-11-20T03:21:26.834Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -154,7 +154,7 @@
     "Help wanted"
    ],
    "updatedAt": "2024-09-13T09:09:43Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "checkedAt": "2026-11-20T03:21:26.834Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -173,29 +173,12 @@
     "triaged"
    ],
    "updatedAt": "2024-07-29T20:38:15Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "checkedAt": "2026-11-20T03:21:26.834Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
     "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/matomo-org/matomo/issues/6173"
-   ]
-  },
-  {
-   "number": 7060,
-   "title": "IP::getNonProxyIpFromHeader retrieves final proxy instead of client",
-   "url": "https://github.com/matomo-org/matomo/issues/7060",
-   "labels": [
-    "Bug",
-    "Help wanted"
-   ],
-   "updatedAt": "2025-02-11T08:25:40Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
-   "verdict": "discard",
-   "reason": "PR #25431 by @bupt-Yy-young is already open against this issue",
-   "evidence": [
-    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/matomo-org/matomo/issues/25431"
    ]
   },
   {
@@ -209,7 +192,7 @@
     "c: Design / UI"
    ],
    "updatedAt": "2024-09-13T09:07:14Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "checkedAt": "2026-11-20T03:21:26.834Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -226,7 +209,7 @@
     "Help wanted"
    ],
    "updatedAt": "2024-09-13T09:07:04Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "checkedAt": "2026-11-20T03:21:26.834Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -244,7 +227,7 @@
     "c: Design / UI"
    ],
    "updatedAt": "2024-09-13T09:06:28Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "checkedAt": "2026-11-20T03:21:26.834Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -261,7 +244,7 @@
     "c: Usability"
    ],
    "updatedAt": "2024-09-13T09:05:58Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "checkedAt": "2026-11-20T03:21:26.834Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -278,7 +261,7 @@
     "Help wanted"
    ],
    "updatedAt": "2024-09-13T09:04:47Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "checkedAt": "2026-11-20T03:21:26.834Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -295,7 +278,7 @@
     "c: Usability"
    ],
    "updatedAt": "2024-09-13T09:04:30Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "checkedAt": "2026-11-20T03:21:26.834Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -350,7 +333,7 @@
     "Help wanted"
    ],
    "updatedAt": "2024-09-13T09:03:35Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "checkedAt": "2026-11-20T03:21:26.834Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -422,7 +405,7 @@
     "c: Usability"
    ],
    "updatedAt": "2024-09-13T09:03:12Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "checkedAt": "2026-11-20T03:21:26.834Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -439,7 +422,7 @@
     "Help wanted"
    ],
    "updatedAt": "2024-09-13T09:03:07Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "checkedAt": "2026-11-20T03:21:26.834Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -456,7 +439,7 @@
     "Help wanted"
    ],
    "updatedAt": "2024-09-13T09:03:04Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "checkedAt": "2026-11-20T03:21:26.834Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -473,7 +456,7 @@
     "Help wanted"
    ],
    "updatedAt": "2024-09-13T09:02:49Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "checkedAt": "2026-11-20T03:21:26.834Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -490,7 +473,7 @@
     "Help wanted"
    ],
    "updatedAt": "2024-09-13T09:02:48Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "checkedAt": "2026-11-20T03:21:26.834Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -510,29 +493,12 @@
     "c: Tracking"
    ],
    "updatedAt": "2024-09-13T09:02:45Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "checkedAt": "2026-11-20T03:21:26.834Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
     "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/matomo-org/matomo/issues/10059"
-   ]
-  },
-  {
-   "number": 10116,
-   "title": "Allow disable and configure the 'cdt' ignore mechanisme ",
-   "url": "https://github.com/matomo-org/matomo/issues/10116",
-   "labels": [
-    "Enhancement",
-    "Help wanted"
-   ],
-   "updatedAt": "2024-09-13T09:02:43Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
-   "verdict": "viable",
-   "reason": "no blockers found — but read the thread before you start",
-   "evidence": [
-    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/matomo-org/matomo/issues/10116"
    ]
   },
   {
@@ -545,7 +511,7 @@
     "c: Design / UI"
    ],
    "updatedAt": "2024-09-13T09:02:40Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "checkedAt": "2026-11-20T03:21:26.834Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -563,7 +529,7 @@
     "triaged"
    ],
    "updatedAt": "2025-08-27T04:38:45Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "checkedAt": "2026-11-20T03:21:26.834Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -621,31 +587,12 @@
     "c: Consistent Reports & Analytics UX"
    ],
    "updatedAt": "2024-09-13T10:56:57Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "checkedAt": "2026-11-20T03:21:26.834Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
     "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/matomo-org/matomo/issues/10325"
-   ]
-  },
-  {
-   "number": 10727,
-   "title": "Enhance explanation on how to exclude traffic.",
-   "url": "https://github.com/matomo-org/matomo/issues/10727",
-   "labels": [
-    "Help wanted",
-    "c: Usability",
-    "c: Documentation"
-   ],
-   "updatedAt": "2023-12-10T12:04:33Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
-   "verdict": "reservations",
-   "reason": "PR #12450 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
-   "evidence": [
-    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/matomo-org/matomo/pull/12450",
-    "https://github.com/matomo-org/matomo/issues/10727"
    ]
   },
   {
@@ -693,7 +640,7 @@
     "c: Usability"
    ],
    "updatedAt": "2026-10-01T05:31:39Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "checkedAt": "2026-11-20T03:21:26.834Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -710,7 +657,7 @@
     "Help wanted"
    ],
    "updatedAt": "2022-08-30T09:32:55Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "checkedAt": "2026-11-20T03:21:26.834Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -834,7 +781,7 @@
     "Help wanted"
    ],
    "updatedAt": "2024-09-13T09:00:29Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "checkedAt": "2026-11-20T03:21:26.834Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -895,25 +842,6 @@
    ]
   },
   {
-   "number": 14219,
-   "title": "Enabling SQL profiler on Response should be by setting enable_sql_profiler and not by debug",
-   "url": "https://github.com/matomo-org/matomo/issues/14219",
-   "labels": [
-    "Help wanted",
-    "c: Platform"
-   ],
-   "updatedAt": "2024-09-13T09:00:10Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
-   "verdict": "reservations",
-   "reason": "PR #14288 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
-   "evidence": [
-    "https://github.com/matomo-org/matomo/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/matomo-org/matomo/pull/14288",
-    "https://github.com/matomo-org/developer-documentation/pull/302",
-    "https://github.com/matomo-org/matomo/issues/14219"
-   ]
-  },
-  {
    "number": 14314,
    "title": "Redis cache: Prepend Matomo version number to cache key, and enforce a TTL",
    "url": "https://github.com/matomo-org/matomo/issues/14314",
@@ -960,7 +888,7 @@
     "c: Segments"
    ],
    "updatedAt": "2024-09-13T10:57:39Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "checkedAt": "2026-11-20T03:21:26.834Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -977,7 +905,7 @@
     "Help wanted"
    ],
    "updatedAt": "2024-09-13T08:59:47Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "checkedAt": "2026-11-20T03:21:26.834Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -994,7 +922,7 @@
     "Help wanted"
    ],
    "updatedAt": "2024-01-03T05:07:03Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "checkedAt": "2026-11-20T03:21:26.834Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -1012,7 +940,7 @@
     "c: Documentation"
    ],
    "updatedAt": "2024-01-03T05:07:09Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "checkedAt": "2026-11-20T03:21:26.834Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -1049,7 +977,7 @@
     "Help wanted"
    ],
    "updatedAt": "2024-01-03T05:07:42Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "checkedAt": "2026-11-20T03:21:26.834Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -1104,8 +1032,8 @@
     "Help wanted",
     "c: Custom Dimensions"
    ],
-   "updatedAt": "2024-01-03T05:06:56Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "updatedAt": "2026-11-19T09:29:30Z",
+   "checkedAt": "2026-11-20T03:21:26.834Z",
    "verdict": "discard",
    "reason": "PR #19164 by @utrautmann is already open against this issue",
    "evidence": [
@@ -1122,7 +1050,7 @@
     "c: Usability"
    ],
    "updatedAt": "2024-09-13T08:59:22Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "checkedAt": "2026-11-20T03:21:26.834Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -1141,7 +1069,7 @@
     "triaged"
    ],
    "updatedAt": "2024-11-25T21:08:53Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "checkedAt": "2026-11-20T03:21:26.834Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -1247,7 +1175,7 @@
     "c: New plugin"
    ],
    "updatedAt": "2024-09-13T08:59:00Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "checkedAt": "2026-11-20T03:21:26.834Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -1283,7 +1211,7 @@
     "c: Design / UI"
    ],
    "updatedAt": "2025-11-24T06:02:52Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "checkedAt": "2026-11-20T03:21:26.834Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -1301,7 +1229,7 @@
     "c: Documentation"
    ],
    "updatedAt": "2024-09-13T08:58:54Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "checkedAt": "2026-11-20T03:21:26.834Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -1318,7 +1246,7 @@
     "Help wanted"
    ],
    "updatedAt": "2024-01-03T05:09:21Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "checkedAt": "2026-11-20T03:21:26.834Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -1336,7 +1264,7 @@
     "Stability"
    ],
    "updatedAt": "2025-09-01T17:01:57Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "checkedAt": "2026-11-20T03:21:26.834Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -1374,7 +1302,7 @@
     "Help wanted"
    ],
    "updatedAt": "2024-09-13T08:58:41Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "checkedAt": "2026-11-20T03:21:26.834Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -1429,7 +1357,7 @@
     "Easier debugging"
    ],
    "updatedAt": "2024-09-13T08:58:40Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "checkedAt": "2026-11-20T03:21:26.834Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -1446,7 +1374,7 @@
     "c: Design / UI"
    ],
    "updatedAt": "2026-07-11T09:34:13Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "checkedAt": "2026-11-20T03:21:26.834Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -1499,7 +1427,7 @@
     "Help wanted"
    ],
    "updatedAt": "2025-11-14T07:04:21Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "checkedAt": "2026-11-20T03:21:26.834Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -1519,7 +1447,7 @@
     "c: Email Reports"
    ],
    "updatedAt": "2025-11-24T06:01:59Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "checkedAt": "2026-11-20T03:21:26.834Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -1536,7 +1464,7 @@
     "Help wanted"
    ],
    "updatedAt": "2024-09-13T08:58:30Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "checkedAt": "2026-11-20T03:21:26.834Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -1572,7 +1500,7 @@
     "Help wanted"
    ],
    "updatedAt": "2022-06-20T08:21:52Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "checkedAt": "2026-11-20T03:21:26.834Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -1605,7 +1533,7 @@
     "Help wanted"
    ],
    "updatedAt": "2026-04-14T21:38:57Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "checkedAt": "2026-11-20T03:21:26.834Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -1643,7 +1571,7 @@
     "Help wanted"
    ],
    "updatedAt": "2024-06-17T01:30:05Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "checkedAt": "2026-11-20T03:21:26.834Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [

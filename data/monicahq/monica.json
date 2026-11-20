@@ -4,40 +4,8 @@
  "language": "PHP",
  "stars": 25759,
  "description": "Personal CRM. Remember everything about your friends, family and business relationships.",
- "visitedAt": "2026-11-13T01:07:25.191Z",
+ "visitedAt": "2026-11-20T03:21:26.834Z",
  "issues": [
-  {
-   "number": 154,
-   "title": "Gift Date",
-   "url": "https://github.com/monicahq/monica/issues/154",
-   "labels": [
-    "help wanted",
-    "feature request"
-   ],
-   "updatedAt": "2023-01-16T13:39:03Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
-   "verdict": "discard",
-   "reason": "nothing has been merged in 479 days",
-   "evidence": [
-    "https://github.com/monicahq/monica/pulls?q=is%3Apr+is%3Amerged"
-   ]
-  },
-  {
-   "number": 273,
-   "title": "single entries for food preferences",
-   "url": "https://github.com/monicahq/monica/issues/273",
-   "labels": [
-    "feature request",
-    "good first issue"
-   ],
-   "updatedAt": "2023-06-18T08:09:39Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
-   "verdict": "discard",
-   "reason": "nothing has been merged in 479 days",
-   "evidence": [
-    "https://github.com/monicahq/monica/pulls?q=is%3Apr+is%3Amerged"
-   ]
-  },
   {
    "number": 318,
    "title": "Implement webhooks",
@@ -48,22 +16,6 @@
     "vision"
    ],
    "updatedAt": "2019-11-14T21:08:27Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
-   "verdict": "discard",
-   "reason": "nothing has been merged in 479 days",
-   "evidence": [
-    "https://github.com/monicahq/monica/pulls?q=is%3Apr+is%3Amerged"
-   ]
-  },
-  {
-   "number": 513,
-   "title": "Searchable dropdowns",
-   "url": "https://github.com/monicahq/monica/issues/513",
-   "labels": [
-    "enhancement",
-    "help wanted"
-   ],
-   "updatedAt": "2022-10-11T12:00:59Z",
    "checkedAt": "2026-11-13T01:07:25.191Z",
    "verdict": "discard",
    "reason": "nothing has been merged in 479 days",
@@ -121,23 +73,6 @@
    ]
   },
   {
-   "number": 1158,
-   "title": "Create a command to execute all commands that we need to run before pushing final commit to a PR",
-   "url": "https://github.com/monicahq/monica/issues/1158",
-   "labels": [
-    "help wanted",
-    "feature request",
-    "productivity tools"
-   ],
-   "updatedAt": "2019-11-14T09:57:28Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
-   "verdict": "discard",
-   "reason": "nothing has been merged in 479 days",
-   "evidence": [
-    "https://github.com/monicahq/monica/pulls?q=is%3Apr+is%3Amerged"
-   ]
-  },
-  {
    "number": 1255,
    "title": "Suggest relationships",
    "url": "https://github.com/monicahq/monica/issues/1255",
@@ -146,23 +81,6 @@
     "feature request"
    ],
    "updatedAt": "2024-03-26T07:29:51Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
-   "verdict": "discard",
-   "reason": "nothing has been merged in 479 days",
-   "evidence": [
-    "https://github.com/monicahq/monica/pulls?q=is%3Apr+is%3Amerged"
-   ]
-  },
-  {
-   "number": 1304,
-   "title": "Make SMS link clickable",
-   "url": "https://github.com/monicahq/monica/issues/1304",
-   "labels": [
-    "help wanted",
-    "feature request",
-    "good first issue"
-   ],
-   "updatedAt": "2023-12-17T06:19:55Z",
    "checkedAt": "2026-11-13T01:07:25.191Z",
    "verdict": "discard",
    "reason": "nothing has been merged in 479 days",
@@ -302,22 +220,6 @@
    ]
   },
   {
-   "number": 3161,
-   "title": "'Has someone introduced you' Dropdown Box",
-   "url": "https://github.com/monicahq/monica/issues/3161",
-   "labels": [
-    "bug",
-    "good first issue"
-   ],
-   "updatedAt": "2024-11-05T09:33:12Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
-   "verdict": "discard",
-   "reason": "nothing has been merged in 479 days",
-   "evidence": [
-    "https://github.com/monicahq/monica/pulls?q=is%3Apr+is%3Amerged"
-   ]
-  },
-  {
    "number": 3513,
    "title": "Add Preferred Pronouns",
    "url": "https://github.com/monicahq/monica/issues/3513",
@@ -326,37 +228,6 @@
     "feature request"
    ],
    "updatedAt": "2024-02-01T20:44:00Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
-   "verdict": "discard",
-   "reason": "nothing has been merged in 479 days",
-   "evidence": [
-    "https://github.com/monicahq/monica/pulls?q=is%3Apr+is%3Amerged"
-   ]
-  },
-  {
-   "number": 4730,
-   "title": "stay in touch button is hidden by browser bottom bar in mobile safari",
-   "url": "https://github.com/monicahq/monica/issues/4730",
-   "labels": [
-    "help wanted"
-   ],
-   "updatedAt": "2021-01-02T11:19:17Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
-   "verdict": "discard",
-   "reason": "nothing has been merged in 479 days",
-   "evidence": [
-    "https://github.com/monicahq/monica/pulls?q=is%3Apr+is%3Amerged"
-   ]
-  },
-  {
-   "number": 5809,
-   "title": "Support Docker secrets",
-   "url": "https://github.com/monicahq/monica/issues/5809",
-   "labels": [
-    "help wanted",
-    "docker"
-   ],
-   "updatedAt": "2022-01-04T12:12:20Z",
    "checkedAt": "2026-11-13T01:07:25.191Z",
    "verdict": "discard",
    "reason": "nothing has been merged in 479 days",
