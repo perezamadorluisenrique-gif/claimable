@@ -4,7 +4,7 @@
  "language": "Ruby",
  "stars": 39566,
  "description": "Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬",
- "visitedAt": "2026-11-13T08:02:18.780Z",
+ "visitedAt": "2026-11-20T12:57:28.576Z",
  "issues": [
   {
    "number": 404,
@@ -34,15 +34,16 @@
     "feature-request",
     "🧄 feature/agent-ui"
    ],
-   "updatedAt": "2026-11-06T22:12:28Z",
-   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "updatedAt": "2026-11-20T05:32:54Z",
+   "checkedAt": "2026-11-20T12:57:28.576Z",
    "verdict": "discard",
    "reason": "PR #14097 by @Mrsandeep27 is already open against this issue",
    "evidence": [
     "https://github.com/chatwoot/chatwoot/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/chatwoot/chatwoot/pull/14097",
     "https://github.com/chatwoot/chatwoot/pull/14262",
-    "https://github.com/chatwoot/chatwoot/pull/14247"
+    "https://github.com/chatwoot/chatwoot/pull/14247",
+    "https://github.com/chatwoot/chatwoot/pull/16736"
    ]
   },
   {
@@ -133,16 +134,14 @@
     "🏋️‍♂️ accepting-community-prs",
     "⚙️ self-hosted/config"
    ],
-   "updatedAt": "2026-09-19T16:27:45Z",
-   "checkedAt": "2026-11-13T08:02:18.780Z",
-   "verdict": "reservations",
-   "reason": "2 stale claims, the most recent by @znabhi 124 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting",
+   "updatedAt": "2026-11-19T07:38:06Z",
+   "checkedAt": "2026-11-20T12:57:28.576Z",
+   "verdict": "discard",
+   "reason": "@theabhishekarmagi claimed it yesterday",
    "evidence": [
     "https://github.com/chatwoot/chatwoot/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/chatwoot/chatwoot/issues/6911#issuecomment-4952352177",
-    "https://github.com/chatwoot/chatwoot/issues/6911",
-    "https://github.com/chatwoot/chatwoot/blob/HEAD/README.md",
-    "https://github.com/chatwoot/chatwoot/blob/HEAD/AGENTS.md"
+    "https://github.com/chatwoot/chatwoot/issues/6911#issuecomment-7002884783",
+    "https://github.com/chatwoot/chatwoot/issues/6911#issuecomment-4952352177"
    ]
   },
   {

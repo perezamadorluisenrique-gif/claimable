@@ -4,7 +4,7 @@
  "language": "Kotlin",
  "stars": 21663,
  "description": "集找番、追番、看番的一站式弹幕追番平台，云收藏同步 (Bangumi)，离线缓存，BitTorrent，弹幕云过滤。100% Kotlin/Compose Multiplatform",
- "visitedAt": "2026-11-13T08:02:18.780Z",
+ "visitedAt": "2026-11-20T12:57:28.576Z",
  "issues": [
   {
    "number": 59,
@@ -39,7 +39,7 @@
     "crash"
    ],
    "updatedAt": "2026-09-05T20:52:53Z",
-   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "checkedAt": "2026-11-20T12:57:28.576Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -57,7 +57,7 @@
     "s: media"
    ],
    "updatedAt": "2026-09-05T20:57:26Z",
-   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "checkedAt": "2026-11-20T12:57:28.576Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
