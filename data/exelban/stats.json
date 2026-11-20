@@ -4,7 +4,7 @@
  "language": "Swift",
  "stars": 43290,
  "description": "macOS system monitor in your menu bar",
- "visitedAt": "2026-11-13T16:28:29.473Z",
+ "visitedAt": "2026-11-20T21:09:40.714Z",
  "issues": [
   {
    "number": 3621,
@@ -14,12 +14,12 @@
     "help wanted"
    ],
    "updatedAt": "2026-10-25T10:25:04Z",
-   "checkedAt": "2026-11-13T16:28:29.473Z",
-   "verdict": "viable",
-   "reason": "no blockers found — but read the thread before you start",
+   "checkedAt": "2026-11-20T21:09:40.714Z",
+   "verdict": "discard",
+   "reason": "PR #3759 by @castlen3 is already open against this issue",
    "evidence": [
     "https://github.com/exelban/stats/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/exelban/stats/issues/3621"
+    "https://github.com/exelban/stats/issues/3759"
    ]
   }
  ]

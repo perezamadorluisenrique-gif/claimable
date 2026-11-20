@@ -4,7 +4,7 @@
  "language": "Ruby",
  "stars": 13780,
  "description": "Language Savant. If your repository's language is being reported incorrectly, send us a pull request!",
- "visitedAt": "2026-11-17T14:28:45.984Z",
+ "visitedAt": "2026-11-20T21:09:40.714Z",
  "issues": [
   {
    "number": 3924,
@@ -28,6 +28,23 @@
     "https://github.com/github-linguist/linguist/pull/3973",
     "https://github.com/leanprover/vscode-lean/pull/121",
     "https://github.com/github-linguist/linguist/pull/4546"
+   ]
+  },
+  {
+   "number": 4727,
+   "title": "Handlebars identified as Harbour",
+   "url": "https://github.com/github-linguist/linguist/issues/4727",
+   "labels": [
+    "Misidentified Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2022-11-24T12:00:57Z",
+   "checkedAt": "2026-11-20T21:09:40.714Z",
+   "verdict": "discard",
+   "reason": "PR #7064 by @lildude is already open against this issue",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/pull/7064"
    ]
   },
   {
@@ -1032,25 +1049,6 @@
    "evidence": [
     "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/github-linguist/linguist/issues/6920",
-    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
-    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
-   ]
-  },
-  {
-   "number": 6926,
-   "title": "uBO",
-   "url": "https://github.com/github-linguist/linguist/issues/6926",
-   "labels": [
-    "Add Language",
-    "Good First Issue"
-   ],
-   "updatedAt": "2024-10-01T04:23:17Z",
-   "checkedAt": "2026-11-13T08:02:18.780Z",
-   "verdict": "reservations",
-   "reason": "open 29 months with no human comment, in a repo pushed to 9 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+1 more)",
-   "evidence": [
-    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/github-linguist/linguist/issues/6926",
     "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
     "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
    ]

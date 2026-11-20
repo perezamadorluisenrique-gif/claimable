@@ -4,7 +4,7 @@
  "language": "Swift",
  "stars": 24569,
  "description": "Orchestrate Claude, Codex and Grok in one app. Open-source (MIT), reuses the subscriptions you already pay for.",
- "visitedAt": "2026-11-13T16:28:29.473Z",
+ "visitedAt": "2026-11-20T21:09:40.714Z",
  "issues": [
   {
    "number": 76,
@@ -32,7 +32,7 @@
     "good first issue"
    ],
    "updatedAt": "2026-03-30T19:45:09Z",
-   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "checkedAt": "2026-11-20T21:09:40.714Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [

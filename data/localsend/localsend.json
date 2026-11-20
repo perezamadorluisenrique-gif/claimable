@@ -4,7 +4,7 @@
  "language": "Dart",
  "stars": 98253,
  "description": "An open-source cross-platform alternative to AirDrop",
- "visitedAt": "2026-11-13T16:28:29.473Z",
+ "visitedAt": "2026-11-20T21:09:40.714Z",
  "issues": [
   {
    "number": 60,
@@ -76,7 +76,7 @@
     "windows"
    ],
    "updatedAt": "2023-11-11T23:07:35Z",
-   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "checkedAt": "2026-11-20T21:09:40.714Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -95,7 +95,7 @@
     "linux"
    ],
    "updatedAt": "2024-06-01T16:55:30Z",
-   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "checkedAt": "2026-11-20T21:09:40.714Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -150,7 +150,7 @@
     "packaging"
    ],
    "updatedAt": "2026-10-10T18:51:19Z",
-   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "checkedAt": "2026-11-20T21:09:40.714Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
