@@ -4,7 +4,7 @@
  "language": "TypeScript",
  "stars": 106999,
  "description": "The 1st Collaborative AI Design Agent Workspace. Local-first and open source. Create motion, prototypes, websites, apps, dashboards, presentations, images, and videos with your team and AI agents. Sha",
- "visitedAt": "2026-11-19T21:39:33.956Z",
+ "visitedAt": "2026-11-21T02:20:11.484Z",
  "issues": [
   {
    "number": 473,
@@ -1098,6 +1098,27 @@
    ]
   },
   {
+   "number": 5982,
+   "title": "[Feature]: native .deb packaging target for tools-pack linux build",
+   "url": "https://github.com/nexu-io/open-design/issues/5982",
+   "labels": [
+    "help wanted",
+    "feature",
+    "needs-product-direction"
+   ],
+   "updatedAt": "2026-11-20T03:45:59Z",
+   "checkedAt": "2026-11-21T02:20:11.484Z",
+   "verdict": "discard",
+   "reason": "PR #6010 by @eric-lemesre is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/6010",
+    "https://github.com/nexu-io/open-design/pull/6017",
+    "https://github.com/nexu-io/open-design/pull/7767",
+    "https://github.com/nexu-io/open-design/pull/9051"
+   ]
+  },
+  {
    "number": 6077,
    "title": "Enable model discovery (Fetch models) for the Ollama BYOK provider",
    "url": "https://github.com/nexu-io/open-design/issues/6077",
@@ -1183,24 +1204,6 @@
    "evidence": [
     "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/nexu-io/open-design/pull/7860"
-   ]
-  },
-  {
-   "number": 6387,
-   "title": "Eight bundled design systems have no _official manifest, so their cards link back to the index",
-   "url": "https://github.com/nexu-io/open-design/issues/6387",
-   "labels": [
-    "bug",
-    "help wanted"
-   ],
-   "updatedAt": "2026-09-03T12:23:04Z",
-   "checkedAt": "2026-11-14T22:28:38.603Z",
-   "verdict": "discard",
-   "reason": "PR #6403 by @nmsn is already open against this issue",
-   "evidence": [
-    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/nexu-io/open-design/pull/6403",
-    "https://github.com/nexu-io/open-design/pull/7924"
    ]
   },
   {
@@ -1441,23 +1444,6 @@
    ]
   },
   {
-   "number": 7471,
-   "title": "@open-design/dsh-runtime: git installs are broken — no prepare script, dist never built, sources stripped by files field",
-   "url": "https://github.com/nexu-io/open-design/issues/7471",
-   "labels": [
-    "bug",
-    "help wanted"
-   ],
-   "updatedAt": "2026-09-03T05:22:34Z",
-   "checkedAt": "2026-11-14T22:28:38.603Z",
-   "verdict": "discard",
-   "reason": "PR #7748 by @VedantMadane is already open against this issue",
-   "evidence": [
-    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/nexu-io/open-design/pull/7748"
-   ]
-  },
-  {
    "number": 7524,
    "title": "[Bug]: 2 speaker notes in HTML",
    "url": "https://github.com/nexu-io/open-design/issues/7524",
@@ -1507,25 +1493,6 @@
    "evidence": [
     "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/nexu-io/open-design/pull/7541"
-   ]
-  },
-  {
-   "number": 7546,
-   "title": "Google Gemini BYOK: #1847 URL-normalization fix (#2761) does not cover the OpenCode run path added in #4876 — test passes, every run 404/401s",
-   "url": "https://github.com/nexu-io/open-design/issues/7546",
-   "labels": [
-    "bug",
-    "help wanted"
-   ],
-   "updatedAt": "2026-09-07T02:34:50Z",
-   "checkedAt": "2026-11-14T22:28:38.603Z",
-   "verdict": "discard",
-   "reason": "PR #7550 by @celeste1900 is already open against this issue",
-   "evidence": [
-    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/nexu-io/open-design/pull/7550",
-    "https://github.com/nexu-io/open-design/pull/7552",
-    "https://github.com/nexu-io/open-design/pull/7547"
    ]
   },
   {
@@ -2501,8 +2468,8 @@
     "bug",
     "help wanted"
    ],
-   "updatedAt": "2026-11-15T23:28:44Z",
-   "checkedAt": "2026-11-17T04:31:55.832Z",
+   "updatedAt": "2026-11-20T13:48:53Z",
+   "checkedAt": "2026-11-21T02:20:11.484Z",
    "verdict": "discard",
    "reason": "PR #9479 by @arjun-bali-ds is already open against this issue",
    "evidence": [
@@ -2537,8 +2504,8 @@
     "good first issue",
     "help wanted"
    ],
-   "updatedAt": "2026-11-17T08:52:55Z",
-   "checkedAt": "2026-11-18T14:03:59.541Z",
+   "updatedAt": "2026-11-20T09:49:04Z",
+   "checkedAt": "2026-11-21T02:20:11.484Z",
    "verdict": "discard",
    "reason": "PR #9510 by @xxiaoxiong is already open against this issue",
    "evidence": [
@@ -2554,18 +2521,17 @@
    "labels": [
     "good first issue",
     "help wanted",
-    "feature"
+    "feature",
+    "needs-product-direction"
    ],
-   "updatedAt": "2026-11-17T05:07:42Z",
-   "checkedAt": "2026-11-18T14:03:59.541Z",
-   "verdict": "reservations",
-   "reason": "3 paths named in the issue do not exist on `open-design`'s default branch — that is unlisted work: ~/.config/opencode/opencode.json, providers/opendesign/provider.toml, opencode.json (+2 more)",
+   "updatedAt": "2026-11-20T14:26:48Z",
+   "checkedAt": "2026-11-21T02:20:11.484Z",
+   "verdict": "discard",
+   "reason": "already assigned to @dns-18",
    "evidence": [
     "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/nexu-io/open-design/issues/9502",
-    "https://github.com/nexu-io/open-design/blob/HEAD/CONTRIBUTING.md",
-    "https://github.com/nexu-io/open-design/blob/HEAD/.github/AGENTS.md",
-    "https://docs.anthropic.com/en/docs/claude-code/skills"
+    "https://github.com/nexu-io/open-design/issues/9502#issuecomment-7041776754"
    ]
   },
   {
@@ -2576,8 +2542,8 @@
     "help wanted",
     "feature"
    ],
-   "updatedAt": "2026-11-18T21:22:56Z",
-   "checkedAt": "2026-11-19T21:39:33.956Z",
+   "updatedAt": "2026-11-21T00:20:42Z",
+   "checkedAt": "2026-11-21T02:20:11.484Z",
    "verdict": "discard",
    "reason": "PR #9518 by @gi4vr is already open against this issue",
    "evidence": [
@@ -2676,6 +2642,61 @@
    "evidence": [
     "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/nexu-io/open-design/pull/9568"
+   ]
+  },
+  {
+   "number": 9569,
+   "title": "Hermes MCP install is print-only (\"format unverified\") — format is now authoritatively verified; promote to direct install",
+   "url": "https://github.com/nexu-io/open-design/issues/9569",
+   "labels": [
+    "enhancement",
+    "help wanted",
+    "needs-product-direction"
+   ],
+   "updatedAt": "2026-11-19T23:53:34Z",
+   "checkedAt": "2026-11-21T02:20:11.484Z",
+   "verdict": "discard",
+   "reason": "PR #9570 by @chindris-mihai-alexandru is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/9570"
+   ]
+  },
+  {
+   "number": 9577,
+   "title": "[Bug]: Image models not loading : \"The image model still needs its API key. Fill it in under Settings and it will work.\"",
+   "url": "https://github.com/nexu-io/open-design/issues/9577",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-20T21:13:16Z",
+   "checkedAt": "2026-11-21T02:20:11.484Z",
+   "verdict": "discard",
+   "reason": "already assigned to @xxiaoxiong",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/issues/9577"
+   ]
+  },
+  {
+   "number": 9578,
+   "title": "[Feature]: Canva-compatible editable PPTX export",
+   "url": "https://github.com/nexu-io/open-design/issues/9578",
+   "labels": [
+    "help wanted",
+    "feature"
+   ],
+   "updatedAt": "2026-11-20T09:03:14Z",
+   "checkedAt": "2026-11-21T02:20:11.484Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.anthropic.com/en/docs/claude-code/skills) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/issues/9578",
+    "https://github.com/nexu-io/open-design/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/nexu-io/open-design/blob/HEAD/.github/AGENTS.md",
+    "https://docs.anthropic.com/en/docs/claude-code/skills"
    ]
   }
  ]

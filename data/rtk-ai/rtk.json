@@ -4,7 +4,7 @@
  "language": "Rust",
  "stars": 86093,
  "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
- "visitedAt": "2026-11-19T21:39:33.956Z",
+ "visitedAt": "2026-11-21T02:20:11.484Z",
  "issues": [
   {
    "number": 294,
@@ -312,12 +312,11 @@
     "area:cli",
     "priority:medium"
    ],
-   "updatedAt": "2026-09-27T19:16:37Z",
-   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "updatedAt": "2026-11-21T00:28:35Z",
+   "checkedAt": "2026-11-21T02:20:11.484Z",
    "verdict": "discard",
    "reason": "PR #4541 by @yeahjack is already open against this issue",
    "evidence": [
-    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
     "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/rtk-ai/rtk/pull/4541"
    ]
@@ -1538,6 +1537,46 @@
    ]
   },
   {
+   "number": 4025,
+   "title": "gh run view --exit-status: filter skipped on a failed run, so the one case worth compressing is the one passed through raw",
+   "url": "https://github.com/rtk-ai/rtk/issues/4025",
+   "labels": [
+    "bug",
+    "good first issue",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-09-13T13:16:53Z",
+   "checkedAt": "2026-11-21T02:20:11.484Z",
+   "verdict": "discard",
+   "reason": "PR #4027 by @burakeyler is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4027",
+    "https://github.com/rtk-ai/rtk/pull/1122"
+   ]
+  },
+  {
+   "number": 4056,
+   "title": "Name the program in spawn-failure errors for captured commands",
+   "url": "https://github.com/rtk-ai/rtk/issues/4056",
+   "labels": [
+    "bug",
+    "good first issue",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-09-14T13:34:33Z",
+   "checkedAt": "2026-11-21T02:20:11.484Z",
+   "verdict": "discard",
+   "reason": "PR #4057 by @obrienciaran is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/4057",
+    "https://github.com/rtk-ai/rtk/pull/4234"
+   ]
+  },
+  {
    "number": 4097,
    "title": "Add Devin CLI integration (PreToolUse hook via .devin/hooks.v1.json)",
    "url": "https://github.com/rtk-ai/rtk/issues/4097",
@@ -2267,15 +2306,13 @@
     "priority:medium",
     "platform:macos"
    ],
-   "updatedAt": "2026-09-30T19:25:20Z",
-   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "updatedAt": "2026-11-19T22:02:10Z",
+   "checkedAt": "2026-11-21T02:20:11.484Z",
    "verdict": "discard",
-   "reason": "PR #3346 by @kaushal5146 is already open against this issue",
+   "reason": "PR #5195 by @MarcosRossoni is already open against this issue",
    "evidence": [
-    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
     "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/rtk-ai/rtk/issues/3346",
-    "https://github.com/rtk-ai/rtk/issues/3400"
+    "https://github.com/rtk-ai/rtk/pull/5195"
    ]
   },
   {
@@ -3049,27 +3086,6 @@
    ]
   },
   {
-   "number": 4616,
-   "title": "The telemetry marker is written before a detached send that process exit kills, so a fast command spends the day's ping without sending it",
-   "url": "https://github.com/rtk-ai/rtk/issues/4616",
-   "labels": [
-    "bug",
-    "good first issue",
-    "priority:high",
-    "area:security"
-   ],
-   "updatedAt": "2026-10-17T00:05:48Z",
-   "checkedAt": "2026-11-11T22:03:46.308Z",
-   "verdict": "discard",
-   "reason": "PR #4706 by @gaurav0107 is already open against this issue",
-   "evidence": [
-    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
-    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/rtk-ai/rtk/pull/4706",
-    "https://github.com/rtk-ai/rtk/pull/4308"
-   ]
-  },
-  {
    "number": 4625,
    "title": "OpenCode plugin only reads process.env.PATH, not Path — self-disables on Windows/Bun",
    "url": "https://github.com/rtk-ai/rtk/issues/4625",
@@ -3260,32 +3276,6 @@
     "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/rtk-ai/rtk/pull/4258",
     "https://github.com/rtk-ai/rtk/pull/4810"
-   ]
-  },
-  {
-   "number": 4728,
-   "title": "test: help_passthrough_fuzz_test opens git's HTML manual pages in the browser on Windows",
-   "url": "https://github.com/rtk-ai/rtk/issues/4728",
-   "labels": [
-    "bug",
-    "good first issue",
-    "priority:medium",
-    "platform:windows",
-    "area:testing"
-   ],
-   "updatedAt": "2026-10-21T21:57:21Z",
-   "checkedAt": "2026-11-11T22:03:46.308Z",
-   "verdict": "discard",
-   "reason": "PR #4729 by @umi008 is already open against this issue",
-   "evidence": [
-    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
-    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/rtk-ai/rtk/pull/4729",
-    "https://github.com/rtk-ai/rtk/pull/4730",
-    "https://github.com/rtk-ai/rtk/pull/4732",
-    "https://github.com/rtk-ai/rtk/pull/4731",
-    "https://github.com/rtk-ai/rtk/pull/4733",
-    "https://github.com/rtk-ai/rtk/pull/4784"
    ]
   },
   {
@@ -4105,12 +4095,11 @@
     "priority:high",
     "area:cli"
    ],
-   "updatedAt": "2026-11-11T10:37:53Z",
-   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "updatedAt": "2026-11-20T02:49:34Z",
+   "checkedAt": "2026-11-21T02:20:11.484Z",
    "verdict": "discard",
    "reason": "PR #5071 by @RagedPanda is already open against this issue",
    "evidence": [
-    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
     "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/rtk-ai/rtk/pull/5071"
    ]

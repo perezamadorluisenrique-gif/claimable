@@ -4,7 +4,7 @@
  "language": "Java",
  "stars": 37801,
  "description": "Open Source Identity and Access Management For Modern Applications and Services",
- "visitedAt": "2026-11-19T21:39:33.956Z",
+ "visitedAt": "2026-11-21T02:20:11.484Z",
  "issues": [
   {
    "number": 8744,
@@ -120,8 +120,8 @@
     "help wanted",
     "status/triage"
    ],
-   "updatedAt": "2026-11-19T18:33:30Z",
-   "checkedAt": "2026-11-19T21:39:33.956Z",
+   "updatedAt": "2026-11-20T12:15:51Z",
+   "checkedAt": "2026-11-21T02:20:11.484Z",
    "verdict": "reservations",
    "reason": "setup instructions live outside the repository (https://docs.microsoft.com/en-us/answers/questions/60633/azure-ad-openid-connect-post-logout-redirect-uri-w.html#answer-64473) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
    "evidence": [
@@ -288,6 +288,28 @@
     "https://github.com/keycloak/keycloak/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/keycloak/keycloak/issues/30759",
     "https://github.com/keycloak/keycloak/issues/16277"
+   ]
+  },
+  {
+   "number": 30202,
+   "title": "Documentation for Admin Rest API: Wrong response codes for some API-actions in API-Doc",
+   "url": "https://github.com/keycloak/keycloak/issues/30202",
+   "labels": [
+    "kind/bug",
+    "area/docs",
+    "area/admin/api",
+    "help wanted",
+    "team/core-iam",
+    "status/auto-bump",
+    "priority/normal"
+   ],
+   "updatedAt": "2026-11-20T02:56:24Z",
+   "checkedAt": "2026-11-21T02:20:11.484Z",
+   "verdict": "discard",
+   "reason": "@ksquare0608 claimed it yesterday",
+   "evidence": [
+    "https://github.com/keycloak/keycloak/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/keycloak/keycloak/issues/30202#issuecomment-7028898143"
    ]
   },
   {
@@ -462,6 +484,25 @@
     "https://github.com/keycloak/keycloak/blob/HEAD/README.md",
     "https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue",
     "https://github.com/keycloak/keycloak/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 37876,
+   "title": "Saml adapter XML configs should be formatted",
+   "url": "https://github.com/keycloak/keycloak/issues/37876",
+   "labels": [
+    "area/saml",
+    "kind/enhancement",
+    "help wanted",
+    "team/core-clients"
+   ],
+   "updatedAt": "2026-11-20T06:05:25Z",
+   "checkedAt": "2026-11-21T02:20:11.484Z",
+   "verdict": "discard",
+   "reason": "PR #55394 by @cvas22 is already open against this issue",
+   "evidence": [
+    "https://github.com/keycloak/keycloak/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/keycloak/keycloak/pull/55394"
    ]
   },
   {
@@ -819,29 +860,6 @@
    "evidence": [
     "https://github.com/keycloak/keycloak/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/keycloak/keycloak/issues/49552#issuecomment-6544983633"
-   ]
-  },
-  {
-   "number": 50458,
-   "title": "Organization Feature Disabling breaks Browser Authentication Flow",
-   "url": "https://github.com/keycloak/keycloak/issues/50458",
-   "labels": [
-    "kind/bug",
-    "area/admin/ui",
-    "help wanted",
-    "team/core-shared",
-    "status/auto-expire",
-    "status/auto-bump",
-    "priority/normal",
-    "team/core-authn"
-   ],
-   "updatedAt": "2026-10-06T07:52:08Z",
-   "checkedAt": "2026-11-11T06:29:52.958Z",
-   "verdict": "discard",
-   "reason": "already assigned to @pedroigor, @theohh0",
-   "evidence": [
-    "https://github.com/keycloak/keycloak/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/keycloak/keycloak/issues/50458"
    ]
   },
   {
@@ -1431,29 +1449,6 @@
    "evidence": [
     "https://github.com/keycloak/keycloak/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/keycloak/keycloak/pull/53604"
-   ]
-  },
-  {
-   "number": 53280,
-   "title": "Downscope assertion grant enforcer strips the client's own scope mappings and dedicated mappers",
-   "url": "https://github.com/keycloak/keycloak/issues/53280",
-   "labels": [
-    "area/oidc",
-    "kind/bug",
-    "help wanted",
-    "status/auto-expire",
-    "status/auto-bump",
-    "priority/normal",
-    "team/core-authn",
-    "team/core-protocols"
-   ],
-   "updatedAt": "2026-10-06T08:49:34Z",
-   "checkedAt": "2026-11-11T06:29:52.958Z",
-   "verdict": "discard",
-   "reason": "PR #53285 by @mabartos is already open against this issue",
-   "evidence": [
-    "https://github.com/keycloak/keycloak/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/keycloak/keycloak/pull/53285"
    ]
   },
   {
@@ -2400,8 +2395,8 @@
     "priority/normal",
     "team/core-authn"
    ],
-   "updatedAt": "2026-11-18T17:45:49Z",
-   "checkedAt": "2026-11-19T21:39:33.956Z",
+   "updatedAt": "2026-11-20T10:59:23Z",
+   "checkedAt": "2026-11-21T02:20:11.484Z",
    "verdict": "discard",
    "reason": "PR #55292 by @gdsmith is already open against this issue",
    "evidence": [

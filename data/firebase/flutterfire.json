@@ -4,7 +4,7 @@
  "language": "Dart",
  "stars": 9269,
  "description": "🔥 A collection of Firebase plugins for Flutter apps.",
- "visitedAt": "2026-11-13T22:40:39.276Z",
+ "visitedAt": "2026-11-21T02:20:11.484Z",
  "issues": [
   {
    "number": 9518,
@@ -16,8 +16,8 @@
     "plugin: cloud_firestore",
     "platform: all"
    ],
-   "updatedAt": "2026-08-30T18:42:57Z",
-   "checkedAt": "2026-11-13T22:40:39.276Z",
+   "updatedAt": "2026-11-20T12:51:14Z",
+   "checkedAt": "2026-11-21T02:20:11.484Z",
    "verdict": "discard",
    "reason": "PR #18629 by @enesbugrahankilic is already open against this issue",
    "evidence": [
