@@ -4,7 +4,7 @@
  "language": "Java",
  "stars": 78551,
  "description": "Free and Open Source, Distributed, RESTful Search Engine",
- "visitedAt": "2026-11-18T14:03:59.541Z",
+ "visitedAt": "2026-11-21T18:00:03.889Z",
  "issues": [
   {
    "number": 4227,
@@ -1901,8 +1901,8 @@
     "Meta",
     "Team:Core/Infra"
    ],
-   "updatedAt": "2026-11-17T16:58:04Z",
-   "checkedAt": "2026-11-18T14:03:59.541Z",
+   "updatedAt": "2026-11-20T17:39:28Z",
+   "checkedAt": "2026-11-21T18:00:03.889Z",
    "verdict": "discard",
    "reason": "PR #164791 by @joshua-adams-1 is already open against this issue",
    "evidence": [
@@ -1911,11 +1911,11 @@
     "https://github.com/elastic/elasticsearch/pull/164867",
     "https://github.com/elastic/elasticsearch/pull/165537",
     "https://github.com/elastic/elasticsearch/pull/166202",
-    "https://github.com/elastic/elasticsearch/pull/166303",
     "https://github.com/elastic/elasticsearch/pull/166338",
     "https://github.com/elastic/elasticsearch/pull/166365",
-    "https://github.com/elastic/elasticsearch/pull/164872",
-    "https://github.com/elastic/elasticsearch/pull/165090"
+    "https://github.com/elastic/elasticsearch/pull/166599",
+    "https://github.com/elastic/elasticsearch/pull/166935",
+    "https://github.com/elastic/elasticsearch/pull/164872"
    ]
   }
  ]

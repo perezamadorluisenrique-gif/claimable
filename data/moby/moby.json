@@ -4,7 +4,7 @@
  "language": "Go",
  "stars": 72363,
  "description": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems",
- "visitedAt": "2026-11-18T14:03:59.541Z",
+ "visitedAt": "2026-11-21T18:00:03.889Z",
  "issues": [
   {
    "number": 13533,
@@ -277,8 +277,8 @@
     "kind/epic",
     "help wanted"
    ],
-   "updatedAt": "2026-10-27T20:51:02Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "updatedAt": "2026-11-19T19:15:28Z",
+   "checkedAt": "2026-11-21T18:00:03.889Z",
    "verdict": "discard",
    "reason": "PR #51840 by @deahtstroke is already open against this issue",
    "evidence": [
@@ -633,6 +633,27 @@
    "evidence": [
     "https://github.com/moby/moby/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/moby/moby/pull/54000"
+   ]
+  },
+  {
+   "number": 54244,
+   "title": "integration/security: Tighten AppArmor trace-self and seccomp acct tests",
+   "url": "https://github.com/moby/moby/issues/54244",
+   "labels": [
+    "area/security/apparmor",
+    "area/testing",
+    "area/security/seccomp",
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-20T16:14:47Z",
+   "checkedAt": "2026-11-21T18:00:03.889Z",
+   "verdict": "discard",
+   "reason": "PR #1 by @prascli is already open against this issue",
+   "evidence": [
+    "https://github.com/moby/moby/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prascli/moby/pull/1",
+    "https://github.com/moby/moby/pull/54252",
+    "https://github.com/moby/moby/pull/54229"
    ]
   }
  ]

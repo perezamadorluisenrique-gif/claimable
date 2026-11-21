@@ -4,7 +4,7 @@
  "language": "Lua",
  "stars": 5672,
  "description": "An interactive and powerful Git interface for Neovim, inspired by Magit",
- "visitedAt": "2026-11-14T11:31:58.340Z",
+ "visitedAt": "2026-11-21T18:00:03.889Z",
  "issues": [
   {
    "number": 1134,
@@ -68,7 +68,7 @@
     "good first issue"
    ],
    "updatedAt": "2024-05-07T21:01:59Z",
-   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "checkedAt": "2026-11-21T18:00:03.889Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -86,7 +86,7 @@
     "good first issue"
    ],
    "updatedAt": "2024-11-26T22:28:32Z",
-   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "checkedAt": "2026-11-21T18:00:03.889Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [

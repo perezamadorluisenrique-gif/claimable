@@ -4,7 +4,7 @@
  "language": "Go",
  "stars": 139828,
  "description": "The Go programming language",
- "visitedAt": "2026-11-18T14:03:59.541Z",
+ "visitedAt": "2026-11-21T18:00:03.889Z",
  "issues": [
   {
    "number": 7175,
@@ -146,23 +146,6 @@
    ]
   },
   {
-   "number": 23368,
-   "title": "testing: update documentation to be clear about when parallel subtests run",
-   "url": "https://github.com/golang/go/issues/23368",
-   "labels": [
-    "Documentation",
-    "help wanted",
-    "NeedsFix"
-   ],
-   "updatedAt": "2026-11-08T22:13:12Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
-   "verdict": "discard",
-   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
-   "evidence": [
-    "https://github.com/golang/go/pulls?q=is%3Apr+is%3Aclosed"
-   ]
-  },
-  {
    "number": 26492,
    "title": "cmd/go: build: add -static flag",
    "url": "https://github.com/golang/go/issues/26492",
@@ -209,6 +192,23 @@
    ],
    "updatedAt": "2026-09-15T08:41:54Z",
    "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/golang/go/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 31514,
+   "title": "compress/flate: implement partial flush",
+   "url": "https://github.com/golang/go/issues/31514",
+   "labels": [
+    "help wanted",
+    "NeedsFix",
+    "FeatureRequest"
+   ],
+   "updatedAt": "2026-11-19T12:28:34Z",
+   "checkedAt": "2026-11-21T18:00:03.889Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
    "evidence": [
@@ -425,24 +425,6 @@
    ]
   },
   {
-   "number": 46675,
-   "title": "cmd/cgo: miscalculates C array offset when C struct has __attribute__((__packed__))",
-   "url": "https://github.com/golang/go/issues/46675",
-   "labels": [
-    "help wanted",
-    "NeedsFix",
-    "compiler/runtime",
-    "cgo"
-   ],
-   "updatedAt": "2026-09-10T08:48:38Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
-   "verdict": "discard",
-   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
-   "evidence": [
-    "https://github.com/golang/go/pulls?q=is%3Apr+is%3Aclosed"
-   ]
-  },
-  {
    "number": 48349,
    "title": "cmd/go: fortran modules in go mod cache fail to compile (permission denied)",
    "url": "https://github.com/golang/go/issues/48349",
@@ -606,25 +588,6 @@
    ]
   },
   {
-   "number": 57442,
-   "title": "cmd/cgo: does not compile for iOS simulator arm64",
-   "url": "https://github.com/golang/go/issues/57442",
-   "labels": [
-    "help wanted",
-    "NeedsInvestigation",
-    "FeatureRequest",
-    "compiler/runtime",
-    "cgo"
-   ],
-   "updatedAt": "2026-09-10T08:48:56Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
-   "verdict": "discard",
-   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
-   "evidence": [
-    "https://github.com/golang/go/pulls?q=is%3Apr+is%3Aclosed"
-   ]
-  },
-  {
    "number": 57663,
    "title": "net: “Name Resolution” documentation does not describe default behavior on Windows",
    "url": "https://github.com/golang/go/issues/57663",
@@ -635,24 +598,6 @@
     "NeedsFix"
    ],
    "updatedAt": "2026-09-20T08:53:46Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
-   "verdict": "discard",
-   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
-   "evidence": [
-    "https://github.com/golang/go/pulls?q=is%3Apr+is%3Aclosed"
-   ]
-  },
-  {
-   "number": 59636,
-   "title": "cmd/go: subprocess (linker, cgo command) does not use the value of GOTMPDIR variable",
-   "url": "https://github.com/golang/go/issues/59636",
-   "labels": [
-    "help wanted",
-    "NeedsFix",
-    "GoCommand",
-    "cgo"
-   ],
-   "updatedAt": "2026-09-10T08:49:02Z",
    "checkedAt": "2026-11-11T15:17:00.117Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
@@ -706,24 +651,6 @@
     "Analysis"
    ],
    "updatedAt": "2026-11-03T06:42:36Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
-   "verdict": "discard",
-   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
-   "evidence": [
-    "https://github.com/golang/go/pulls?q=is%3Apr+is%3Aclosed"
-   ]
-  },
-  {
-   "number": 61549,
-   "title": "cmd/go: -compiler=gccgo: -buildmode=c-archive can't produce an archive with statically linked libgo",
-   "url": "https://github.com/golang/go/issues/61549",
-   "labels": [
-    "help wanted",
-    "NeedsInvestigation",
-    "GoCommand",
-    "cgo"
-   ],
-   "updatedAt": "2026-09-10T08:49:09Z",
    "checkedAt": "2026-11-11T15:17:00.117Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
@@ -1601,8 +1528,8 @@
     "help wanted",
     "NeedsDecision"
    ],
-   "updatedAt": "2026-09-29T20:11:48Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "updatedAt": "2026-11-19T22:02:26Z",
+   "checkedAt": "2026-11-21T18:00:03.889Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
    "evidence": [
@@ -1778,6 +1705,72 @@
    ],
    "updatedAt": "2026-11-17T19:30:46Z",
    "checkedAt": "2026-11-18T14:03:59.541Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/golang/go/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 83174,
+   "title": "fmt: scanning a float with a p exponent can round twice",
+   "url": "https://github.com/golang/go/issues/83174",
+   "labels": [
+    "help wanted",
+    "FixPending",
+    "BugReport"
+   ],
+   "updatedAt": "2026-11-20T22:08:02Z",
+   "checkedAt": "2026-11-21T18:00:03.889Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/golang/go/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 83178,
+   "title": "text/template: float32 and complex64 constants are rounded twice",
+   "url": "https://github.com/golang/go/issues/83178",
+   "labels": [
+    "help wanted",
+    "FixPending",
+    "BugReport"
+   ],
+   "updatedAt": "2026-11-20T22:07:34Z",
+   "checkedAt": "2026-11-21T18:00:03.889Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/golang/go/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 83195,
+   "title": "x/text: WHATWG legacy decoder output differs for GBK, Big5, EUC-JP, and ISO-2022-JP",
+   "url": "https://github.com/golang/go/issues/83195",
+   "labels": [
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-21T11:41:56Z",
+   "checkedAt": "2026-11-21T18:00:03.889Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/golang/go/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 83237,
+   "title": "x/text/encoding/simplifiedchinese: HZGB2312 encoder drops \"~{\" after a replaced rune",
+   "url": "https://github.com/golang/go/issues/83237",
+   "labels": [
+    "help wanted",
+    "FixPending",
+    "BugReport"
+   ],
+   "updatedAt": "2026-11-20T21:52:28Z",
+   "checkedAt": "2026-11-21T18:00:03.889Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
    "evidence": [

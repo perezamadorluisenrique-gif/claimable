@@ -4,7 +4,7 @@
  "language": "Lua",
  "stars": 4348,
  "description": "Main game repository for Beyond All Reason.",
- "visitedAt": "2026-11-14T11:31:58.340Z",
+ "visitedAt": "2026-11-21T18:00:03.889Z",
  "issues": [
   {
    "number": 323,
@@ -55,30 +55,13 @@
     "Awaiting BLT Approval"
    ],
    "updatedAt": "2024-10-20T18:45:18Z",
-   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "checkedAt": "2026-11-21T18:00:03.889Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
     "https://github.com/beyond-all-reason/Beyond-All-Reason/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/494"
-   ]
-  },
-  {
-   "number": 516,
-   "title": "End game awards bugged in 1v1",
-   "url": "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/516",
-   "labels": [
-    "Bug",
-    "Good First Issue",
-    "Widget"
-   ],
-   "updatedAt": "2025-03-25T16:42:09Z",
-   "checkedAt": "2026-11-14T11:31:58.340Z",
-   "verdict": "viable",
-   "reason": "no blockers found — but read the thread before you start",
-   "evidence": [
-    "https://github.com/beyond-all-reason/Beyond-All-Reason/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/516"
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/494",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/blob/HEAD/CONTRIBUTING.md"
    ]
   },
   {
@@ -128,12 +111,13 @@
     "Unit Def"
    ],
    "updatedAt": "2025-01-18T11:49:11Z",
-   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "checkedAt": "2026-11-21T18:00:03.889Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
     "https://github.com/beyond-all-reason/Beyond-All-Reason/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/1260"
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/1260",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/blob/HEAD/CONTRIBUTING.md"
    ]
   },
   {
@@ -165,12 +149,13 @@
     "Testing Needed"
    ],
    "updatedAt": "2026-05-13T22:01:54Z",
-   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "checkedAt": "2026-11-21T18:00:03.889Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
     "https://github.com/beyond-all-reason/Beyond-All-Reason/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/1346"
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/1346",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/blob/HEAD/CONTRIBUTING.md"
    ]
   },
   {
@@ -182,12 +167,13 @@
     "Widget"
    ],
    "updatedAt": "2024-11-27T10:41:22Z",
-   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "checkedAt": "2026-11-21T18:00:03.889Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
     "https://github.com/beyond-all-reason/Beyond-All-Reason/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/1670"
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/1670",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/blob/HEAD/CONTRIBUTING.md"
    ]
   },
   {
@@ -199,12 +185,13 @@
     "Good First Issue"
    ],
    "updatedAt": "2025-08-04T20:51:38Z",
-   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "checkedAt": "2026-11-21T18:00:03.889Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
     "https://github.com/beyond-all-reason/Beyond-All-Reason/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/1909"
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/1909",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/blob/HEAD/CONTRIBUTING.md"
    ]
   },
   {
@@ -237,12 +224,13 @@
     "Widget"
    ],
    "updatedAt": "2026-10-27T14:54:42Z",
-   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "checkedAt": "2026-11-21T18:00:03.889Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
     "https://github.com/beyond-all-reason/Beyond-All-Reason/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/2445"
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/2445",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/blob/HEAD/CONTRIBUTING.md"
    ]
   },
   {
@@ -311,14 +299,15 @@
     "Good First Issue",
     "Widget"
    ],
-   "updatedAt": "2024-10-13T02:50:01Z",
-   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "updatedAt": "2026-11-16T19:01:10Z",
+   "checkedAt": "2026-11-21T18:00:03.889Z",
    "verdict": "reservations",
-   "reason": "PR #7096 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "reason": "PR #7096 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder",
    "evidence": [
     "https://github.com/beyond-all-reason/Beyond-All-Reason/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/beyond-all-reason/Beyond-All-Reason/pull/7096",
-    "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/3224"
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/3224",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/blob/HEAD/CONTRIBUTING.md"
    ]
   },
   {
@@ -331,12 +320,13 @@
     "Gadget"
    ],
    "updatedAt": "2024-10-13T14:09:21Z",
-   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "checkedAt": "2026-11-21T18:00:03.889Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
     "https://github.com/beyond-all-reason/Beyond-All-Reason/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/3299"
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/3299",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/blob/HEAD/CONTRIBUTING.md"
    ]
   },
   {
@@ -349,12 +339,13 @@
     "UI"
    ],
    "updatedAt": "2025-03-25T14:52:00Z",
-   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "checkedAt": "2026-11-21T18:00:03.889Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
     "https://github.com/beyond-all-reason/Beyond-All-Reason/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/3339"
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/3339",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/blob/HEAD/CONTRIBUTING.md"
    ]
   },
   {
@@ -367,12 +358,13 @@
     "Widget"
    ],
    "updatedAt": "2025-09-08T07:37:19Z",
-   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "checkedAt": "2026-11-21T18:00:03.889Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
     "https://github.com/beyond-all-reason/Beyond-All-Reason/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/3340"
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/3340",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/blob/HEAD/CONTRIBUTING.md"
    ]
   },
   {
@@ -403,12 +395,13 @@
     "Widget"
    ],
    "updatedAt": "2025-03-26T17:12:05Z",
-   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "checkedAt": "2026-11-21T18:00:03.889Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
     "https://github.com/beyond-all-reason/Beyond-All-Reason/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/3448"
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/3448",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/blob/HEAD/CONTRIBUTING.md"
    ]
   },
   {
@@ -440,12 +433,13 @@
     "Widget"
    ],
    "updatedAt": "2025-09-09T22:44:51Z",
-   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "checkedAt": "2026-11-21T18:00:03.889Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
     "https://github.com/beyond-all-reason/Beyond-All-Reason/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/3509"
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/3509",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/blob/HEAD/CONTRIBUTING.md"
    ]
   },
   {
@@ -477,12 +471,13 @@
     "Unit Def"
    ],
    "updatedAt": "2026-11-02T05:46:51Z",
-   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "checkedAt": "2026-11-21T18:00:03.889Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
     "https://github.com/beyond-all-reason/Beyond-All-Reason/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/3845"
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/3845",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/blob/HEAD/CONTRIBUTING.md"
    ]
   },
   {
@@ -515,12 +510,13 @@
     "Gadget"
    ],
    "updatedAt": "2025-11-25T22:49:28Z",
-   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "checkedAt": "2026-11-21T18:00:03.889Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
     "https://github.com/beyond-all-reason/Beyond-All-Reason/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/4353"
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/4353",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/blob/HEAD/CONTRIBUTING.md"
    ]
   },
   {
@@ -533,12 +529,13 @@
     "Unit Def"
    ],
    "updatedAt": "2025-11-15T06:41:21Z",
-   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "checkedAt": "2026-11-21T18:00:03.889Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
     "https://github.com/beyond-all-reason/Beyond-All-Reason/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/4372"
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/4372",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/blob/HEAD/CONTRIBUTING.md"
    ]
   },
   {
@@ -558,6 +555,24 @@
     "https://github.com/beyond-all-reason/Beyond-All-Reason/pull/8495",
     "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/6704#issuecomment-4069987488",
     "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/6704"
+   ]
+  },
+  {
+   "number": 10141,
+   "title": "Drag line attack causes subs to target the water surface instead of floor allowing for overshoot",
+   "url": "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/10141",
+   "labels": [
+    "Bug",
+    "Good First Issue"
+   ],
+   "updatedAt": "2026-11-17T19:19:57Z",
+   "checkedAt": "2026-11-21T18:00:03.889Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/10141",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/blob/HEAD/CONTRIBUTING.md"
    ]
   }
  ]

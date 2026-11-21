@@ -4,7 +4,7 @@
  "language": "C++",
  "stars": 72162,
  "description": "Protocol Buffers - Google's data interchange format",
- "visitedAt": "2026-11-20T12:57:28.576Z",
+ "visitedAt": "2026-11-21T18:00:03.889Z",
  "issues": [
   {
    "number": 985,
@@ -1067,8 +1067,8 @@
     "help wanted",
     "rust"
    ],
-   "updatedAt": "2026-11-18T08:40:21Z",
-   "checkedAt": "2026-11-19T03:33:09.404Z",
+   "updatedAt": "2026-11-20T17:49:01Z",
+   "checkedAt": "2026-11-21T18:00:03.889Z",
    "verdict": "discard",
    "reason": "PR #31700 by @farisbasha is already open against this issue",
    "evidence": [
