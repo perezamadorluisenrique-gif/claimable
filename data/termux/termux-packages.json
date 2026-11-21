@@ -4,7 +4,7 @@
  "language": "Shell",
  "stars": 17336,
  "description": "A package build system for Termux.",
- "visitedAt": "2026-11-14T18:08:15.201Z",
+ "visitedAt": "2026-11-21T23:21:26.689Z",
  "issues": [
   {
    "number": 129,
@@ -177,25 +177,6 @@
     "https://github.com/termux/termux-packages/blob/HEAD/README.md",
     "https://github.com/termux/termux-packages/wiki.",
     "https://github.com/termux/termux-packages/blob/HEAD/CONTRIBUTING.md"
-   ]
-  },
-  {
-   "number": 1729,
-   "title": "Package request: PowerShell Core",
-   "url": "https://github.com/termux/termux-packages/issues/1729",
-   "labels": [
-    "help wanted",
-    "package request",
-    "dotnet"
-   ],
-   "updatedAt": "2026-04-15T08:41:10Z",
-   "checkedAt": "2026-11-14T18:08:15.201Z",
-   "verdict": "discard",
-   "reason": "PR #20423 by @truboxl is already open against this issue",
-   "evidence": [
-    "https://github.com/termux/termux-packages/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/termux/termux-packages/pull/20423",
-    "https://github.com/termux/termux-packages/pull/31503"
    ]
   },
   {

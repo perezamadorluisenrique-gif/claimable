@@ -4,7 +4,7 @@
  "language": "Julia",
  "stars": 1437,
  "description": "CUDA programming in Julia.",
- "visitedAt": "2026-11-14T18:08:15.201Z",
+ "visitedAt": "2026-11-21T23:21:26.689Z",
  "issues": [
   {
    "number": 110,
@@ -16,7 +16,7 @@
     "libraries"
    ],
    "updatedAt": "2026-10-19T08:50:04Z",
-   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "checkedAt": "2026-11-21T23:21:26.689Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -154,7 +154,7 @@
     "libraries"
    ],
    "updatedAt": "2026-10-19T08:49:48Z",
-   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "checkedAt": "2026-11-21T23:21:26.689Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -189,7 +189,7 @@
     "kernels"
    ],
    "updatedAt": "2026-10-19T08:49:44Z",
-   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "checkedAt": "2026-11-21T23:21:26.689Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -207,7 +207,7 @@
     "kernels"
    ],
    "updatedAt": "2026-10-19T08:49:44Z",
-   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "checkedAt": "2026-11-21T23:21:26.689Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -225,7 +225,7 @@
     "libraries"
    ],
    "updatedAt": "2026-10-19T08:49:41Z",
-   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "checkedAt": "2026-11-21T23:21:26.689Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -244,7 +244,7 @@
     "libraries"
    ],
    "updatedAt": "2026-10-19T08:49:35Z",
-   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "checkedAt": "2026-11-21T23:21:26.689Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -334,7 +334,7 @@
     "libraries"
    ],
    "updatedAt": "2026-10-19T08:49:28Z",
-   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "checkedAt": "2026-11-21T23:21:26.689Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -391,7 +391,7 @@
     "libraries"
    ],
    "updatedAt": "2026-10-19T08:15:01Z",
-   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "checkedAt": "2026-11-21T23:21:26.689Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -409,7 +409,7 @@
     "libraries"
    ],
    "updatedAt": "2026-10-19T08:49:08Z",
-   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "checkedAt": "2026-11-21T23:21:26.689Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -427,7 +427,7 @@
     "extensions"
    ],
    "updatedAt": "2026-10-19T08:49:06Z",
-   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "checkedAt": "2026-11-21T23:21:26.689Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -446,7 +446,7 @@
     "upstream"
    ],
    "updatedAt": "2026-10-19T08:49:02Z",
-   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "checkedAt": "2026-11-21T23:21:26.689Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -465,7 +465,7 @@
     "performance"
    ],
    "updatedAt": "2026-10-19T08:29:10Z",
-   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "checkedAt": "2026-11-21T23:21:26.689Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -538,7 +538,7 @@
     "kernels"
    ],
    "updatedAt": "2026-10-19T08:25:51Z",
-   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "checkedAt": "2026-11-21T23:21:26.689Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [

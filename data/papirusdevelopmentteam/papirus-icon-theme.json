@@ -4,7 +4,7 @@
  "language": "Shell",
  "stars": 8203,
  "description": "Pixel perfect icon theme for Linux",
- "visitedAt": "2026-11-14T22:28:38.603Z",
+ "visitedAt": "2026-11-21T23:21:26.689Z",
  "issues": [
   {
    "number": 305,
@@ -99,8 +99,8 @@
     "icon request",
     "good first issue"
    ],
-   "updatedAt": "2026-11-14T03:01:30Z",
-   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "updatedAt": "2026-11-21T03:01:55Z",
+   "checkedAt": "2026-11-21T23:21:26.689Z",
    "verdict": "discard",
    "reason": "PR #4102 by @Antics419 is already open against this issue",
    "evidence": [
@@ -124,24 +124,6 @@
    "evidence": [
     "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/issues/3254",
-    "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/wiki"
-   ]
-  },
-  {
-   "number": 3343,
-   "title": "[Rework] MuseScore",
-   "url": "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/issues/3343",
-   "labels": [
-    "icon request",
-    "good first issue"
-   ],
-   "updatedAt": "2026-09-12T18:01:10Z",
-   "checkedAt": "2026-11-14T22:28:38.603Z",
-   "verdict": "reservations",
-   "reason": "setup instructions live outside the repository (https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/wiki) — this filter only reads files in the repo, so the real setup cost is unverified",
-   "evidence": [
-    "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/issues/3343",
     "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/wiki"
    ]
   },

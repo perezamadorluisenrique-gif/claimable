@@ -4,7 +4,7 @@
  "language": "Julia",
  "stars": 1082,
  "description": "Python and Julia in harmony.",
- "visitedAt": "2026-11-14T18:08:15.201Z",
+ "visitedAt": "2026-11-21T23:21:26.689Z",
  "issues": [
   {
    "number": 35,
@@ -60,7 +60,7 @@
     "help wanted"
    ],
    "updatedAt": "2023-09-17T09:06:51Z",
-   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "checkedAt": "2026-11-21T23:21:26.689Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [

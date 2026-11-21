@@ -4,7 +4,7 @@
  "language": "Shell",
  "stars": 14529,
  "description": "Docker image that provides a Minecraft Server for Java Edition that automatically installs/upgrades versions, modloaders, modpacks and more at startup",
- "visitedAt": "2026-11-14T18:08:15.201Z",
+ "visitedAt": "2026-11-21T23:21:26.689Z",
  "issues": [
   {
    "number": 1231,
@@ -253,28 +253,6 @@
    "evidence": [
     "https://github.com/itzg/docker-minecraft-server/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/itzg/docker-minecraft-server/issues/2944",
-    "https://github.com/itzg/docker-minecraft-server/blob/HEAD/README.md",
-    "https://readthedocs.org/projects/docker-minecraft-server/badge/?version=latest"
-   ]
-  },
-  {
-   "number": 3144,
-   "title": "Support `*.jar.disabled` mods",
-   "url": "https://github.com/itzg/docker-minecraft-server/issues/3144",
-   "labels": [
-    "enhancement",
-    "help wanted",
-    "type/curseforge",
-    "type/modrinth"
-   ],
-   "updatedAt": "2026-08-01T14:42:17Z",
-   "checkedAt": "2026-11-14T18:08:15.201Z",
-   "verdict": "reservations",
-   "reason": "PR #3281 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
-   "evidence": [
-    "https://github.com/itzg/docker-minecraft-server/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/itzg/docker-minecraft-server/pull/3281",
-    "https://github.com/itzg/docker-minecraft-server/issues/3144",
     "https://github.com/itzg/docker-minecraft-server/blob/HEAD/README.md",
     "https://readthedocs.org/projects/docker-minecraft-server/badge/?version=latest"
    ]

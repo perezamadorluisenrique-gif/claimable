@@ -4,7 +4,7 @@
  "language": "Julia",
  "stars": 1565,
  "description": "Compile your Julia Package",
- "visitedAt": "2026-11-14T18:08:15.201Z",
+ "visitedAt": "2026-11-21T23:21:26.689Z",
  "issues": [
   {
    "number": 322,
@@ -32,7 +32,7 @@
     "feature request"
    ],
    "updatedAt": "2026-07-31T20:39:12Z",
-   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "checkedAt": "2026-11-21T23:21:26.689Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -49,7 +49,7 @@
     "feature request"
    ],
    "updatedAt": "2026-07-31T20:39:13Z",
-   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "checkedAt": "2026-11-21T23:21:26.689Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
