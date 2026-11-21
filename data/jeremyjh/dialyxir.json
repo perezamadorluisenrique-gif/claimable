@@ -4,7 +4,7 @@
  "language": "Elixir",
  "stars": 1796,
  "description": "Mix tasks to simplify use of Dialyzer in Elixir projects.",
- "visitedAt": "2026-11-14T03:20:07.172Z",
+ "visitedAt": "2026-11-21T11:09:42.899Z",
  "issues": [
   {
    "number": 179,
@@ -31,7 +31,7 @@
     "help wanted"
    ],
    "updatedAt": "2018-08-27T21:14:35Z",
-   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "checkedAt": "2026-11-21T11:09:42.899Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -48,7 +48,7 @@
     "help wanted"
    ],
    "updatedAt": "2019-02-15T18:32:48Z",
-   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "checkedAt": "2026-11-21T11:09:42.899Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -64,7 +64,7 @@
     "help wanted"
    ],
    "updatedAt": "2023-05-03T16:00:54Z",
-   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "checkedAt": "2026-11-21T11:09:42.899Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [

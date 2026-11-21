@@ -4,7 +4,7 @@
  "language": "Elixir",
  "stars": 1781,
  "description": "A frontend-independent IDE \"smartness\" server for Elixir. Implements the \"Language Server Protocol\" standard and provides debugger support via the \"Debug Adapter Protocol\"",
- "visitedAt": "2026-11-14T03:20:07.172Z",
+ "visitedAt": "2026-11-21T11:09:42.899Z",
  "issues": [
   {
    "number": 161,

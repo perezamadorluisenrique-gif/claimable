@@ -4,7 +4,7 @@
  "language": "Elixir",
  "stars": 2262,
  "description": "Open Source Newsletter Tool.",
- "visitedAt": "2026-11-14T03:20:07.172Z",
+ "visitedAt": "2026-11-21T11:09:42.899Z",
  "issues": [
   {
    "number": 109,
@@ -15,7 +15,7 @@
     "good first issue"
    ],
    "updatedAt": "2026-11-13T13:21:25Z",
-   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "checkedAt": "2026-11-21T11:09:42.899Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -69,13 +69,12 @@
     "ready to implement"
    ],
    "updatedAt": "2026-01-05T17:55:55Z",
-   "checkedAt": "2026-11-14T03:20:07.172Z",
-   "verdict": "viable",
-   "reason": "no blockers found — but read the thread before you start",
+   "checkedAt": "2026-11-21T11:09:42.899Z",
+   "verdict": "discard",
+   "reason": "PR #602 by @TimRepke is already open against this issue",
    "evidence": [
     "https://github.com/pentacent/keila/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/pentacent/keila/issues/450",
-    "https://github.com/pentacent/keila/blob/HEAD/CONTRIBUTING.md"
+    "https://github.com/pentacent/keila/issues/602"
    ]
   },
   {

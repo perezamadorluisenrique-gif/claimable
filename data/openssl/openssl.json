@@ -4,7 +4,7 @@
  "language": "C",
  "stars": 31402,
  "description": "General purpose TLS and crypto library",
- "visitedAt": "2026-11-20T03:21:26.834Z",
+ "visitedAt": "2026-11-21T11:09:42.899Z",
  "issues": [
   {
    "number": 1592,
@@ -1097,8 +1097,8 @@
     "branch: 4.0",
     "branch: 4.1"
    ],
-   "updatedAt": "2026-11-19T14:00:01Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
+   "updatedAt": "2026-11-21T04:22:06Z",
+   "checkedAt": "2026-11-21T11:09:42.899Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
    "evidence": [
@@ -1252,6 +1252,22 @@
    ],
    "updatedAt": "2026-11-19T16:59:54Z",
    "checkedAt": "2026-11-20T03:21:26.834Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 29162,
+   "title": "[configure] android64-aarch64 target does not properly set `CC`",
+   "url": "https://github.com/openssl/openssl/issues/29162",
+   "labels": [
+    "help wanted",
+    "triaged: bug"
+   ],
+   "updatedAt": "2026-11-20T08:51:17Z",
+   "checkedAt": "2026-11-21T11:09:42.899Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
    "evidence": [
@@ -1623,16 +1639,15 @@
    ]
   },
   {
-   "number": 33495,
-   "title": "x509: -x509toreq -outform DER writes the text dump plus the certificate DER instead of a request",
-   "url": "https://github.com/openssl/openssl/issues/33495",
+   "number": 33395,
+   "title": "RFC 9973 - Using Certificates with an External Pre-Shared Key",
+   "url": "https://github.com/openssl/openssl/issues/33395",
    "labels": [
-    "branch: master",
     "help wanted",
-    "triaged: bug"
+    "triaged: feature"
    ],
-   "updatedAt": "2026-11-16T10:52:35Z",
-   "checkedAt": "2026-11-16T11:27:18.358Z",
+   "updatedAt": "2026-11-20T12:41:41Z",
+   "checkedAt": "2026-11-21T11:09:42.899Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
    "evidence": [
@@ -1671,28 +1686,8 @@
     "help wanted",
     "triaged: feature"
    ],
-   "updatedAt": "2026-11-18T12:38:57Z",
-   "checkedAt": "2026-11-18T21:59:17.025Z",
-   "verdict": "discard",
-   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
-   "evidence": [
-    "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Aclosed"
-   ]
-  },
-  {
-   "number": 33619,
-   "title": "How to find out if a certificate has a hash",
-   "url": "https://github.com/openssl/openssl/issues/33619",
-   "labels": [
-    "branch: master",
-    "help wanted",
-    "triaged: bug",
-    "branch: 3.5",
-    "branch: 4.0",
-    "branch: 4.1"
-   ],
-   "updatedAt": "2026-11-16T09:48:44Z",
-   "checkedAt": "2026-11-16T11:27:18.358Z",
+   "updatedAt": "2026-11-20T17:55:02Z",
+   "checkedAt": "2026-11-21T11:09:42.899Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
    "evidence": [
@@ -1818,8 +1813,8 @@
     "branch: 4.0",
     "branch: 4.1"
    ],
-   "updatedAt": "2026-11-16T10:07:17Z",
-   "checkedAt": "2026-11-16T11:27:18.358Z",
+   "updatedAt": "2026-11-21T08:18:53Z",
+   "checkedAt": "2026-11-21T11:09:42.899Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
    "evidence": [

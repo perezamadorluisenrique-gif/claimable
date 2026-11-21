@@ -4,7 +4,7 @@
  "language": "Go",
  "stars": 51702,
  "description": "Open-source AI gateway. Self-hosted LLM gateway with OpenAI-, Claude- and Gemini-compatible APIs, model routing, access control, usage tracking and cost accounting.",
- "visitedAt": "2026-11-18T04:26:13.835Z",
+ "visitedAt": "2026-11-21T11:09:42.899Z",
  "issues": [
   {
    "number": 3022,

@@ -4,7 +4,7 @@
  "language": "Kotlin",
  "stars": 12214,
  "description": "AnkiDroid: Anki flashcards on Android. Your secret trick to achieve superhuman information retention.",
- "visitedAt": "2026-11-20T03:21:26.834Z",
+ "visitedAt": "2026-11-21T11:09:42.899Z",
  "issues": [
   {
    "number": 6369,
@@ -670,22 +670,6 @@
    ]
   },
   {
-   "number": 23288,
-   "title": "Small widgets hide recovery instructions",
-   "url": "https://github.com/ankidroid/Anki-Android/issues/23288",
-   "labels": [
-    "Help Wanted"
-   ],
-   "updatedAt": "2026-11-14T09:46:41Z",
-   "checkedAt": "2026-11-15T10:59:03.445Z",
-   "verdict": "discard",
-   "reason": "PR #23300 by @criticalAY is already open against this issue",
-   "evidence": [
-    "https://github.com/ankidroid/Anki-Android/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/ankidroid/Anki-Android/pull/23300"
-   ]
-  },
-  {
    "number": 23290,
    "title": "Failed mixed saves leave Learn Ahead out of sync",
    "url": "https://github.com/ankidroid/Anki-Android/issues/23290",
@@ -725,13 +709,13 @@
    "labels": [
     "Good First Issue"
    ],
-   "updatedAt": "2026-11-20T02:16:26Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
+   "updatedAt": "2026-11-20T07:58:57Z",
+   "checkedAt": "2026-11-21T11:09:42.899Z",
    "verdict": "discard",
-   "reason": "@aarianmm claimed it today",
+   "reason": "PR #23566 by @aarianmm is already open against this issue",
    "evidence": [
     "https://github.com/ankidroid/Anki-Android/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/ankidroid/Anki-Android/issues/23517#issuecomment-7028260541"
+    "https://github.com/ankidroid/Anki-Android/pull/23566"
    ]
   }
  ]

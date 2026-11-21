@@ -4,7 +4,7 @@
  "language": "Elixir",
  "stars": 1530,
  "description": "Compose, deliver and test your emails easily in Elixir",
- "visitedAt": "2026-11-14T03:20:07.172Z",
+ "visitedAt": "2026-11-21T11:09:42.899Z",
  "issues": [
   {
    "number": 594,
@@ -31,8 +31,8 @@
     "bug",
     "help wanted"
    ],
-   "updatedAt": "2023-04-30T05:18:13Z",
-   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "updatedAt": "2026-11-20T09:37:09Z",
+   "checkedAt": "2026-11-21T11:09:42.899Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [

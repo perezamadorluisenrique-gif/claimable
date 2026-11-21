@@ -4,7 +4,7 @@
  "language": "Elixir",
  "stars": 5864,
  "description": "Tuist builds infrastructure for faster, more reliable build and test workflows across developers, CI, and coding agents. Shared cache, tests, and insights that sit alongside your existing CI.",
- "visitedAt": "2026-11-14T03:20:07.172Z",
+ "visitedAt": "2026-11-21T11:09:42.899Z",
  "issues": [
   {
    "number": 5898,
@@ -77,10 +77,11 @@
     "good first issue"
    ],
    "updatedAt": "2025-09-18T15:30:13Z",
-   "checkedAt": "2026-11-14T03:20:07.172Z",
-   "verdict": "viable",
-   "reason": "no blockers found — but read the thread before you start",
+   "checkedAt": "2026-11-21T11:09:42.899Z",
+   "verdict": "reservations",
+   "reason": "only 4% of recently closed PRs were merged — most contributions get rejected or abandoned here",
    "evidence": [
+    "https://github.com/tuist/tuist/pulls?q=is%3Apr+is%3Aclosed",
     "https://github.com/tuist/tuist/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/tuist/tuist/issues/7684",
     "https://github.com/tuist/tuist/blob/HEAD/.github/AGENTS.md",

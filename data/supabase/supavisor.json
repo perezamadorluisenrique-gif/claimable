@@ -4,7 +4,7 @@
  "language": "Elixir",
  "stars": 2285,
  "description": "A cloud-native, multi-tenant Postgres connection pooler.",
- "visitedAt": "2026-11-14T03:20:07.172Z",
+ "visitedAt": "2026-11-21T11:09:42.899Z",
  "issues": [
   {
    "number": 11,
@@ -69,7 +69,7 @@
     "help wanted"
    ],
    "updatedAt": "2026-05-19T00:02:26Z",
-   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "checkedAt": "2026-11-21T11:09:42.899Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [

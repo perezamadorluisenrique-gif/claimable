@@ -4,7 +4,7 @@
  "language": "Python",
  "stars": 160864,
  "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without reb",
- "visitedAt": "2026-11-18T04:26:13.835Z",
+ "visitedAt": "2026-11-21T11:09:42.899Z",
  "issues": [
   {
    "number": 18752,
@@ -12,14 +12,17 @@
    "url": "https://github.com/langgenius/dify/issues/18752",
    "labels": [
     "🐞 bug",
-    "good first issue"
+    "good first issue",
+    "outdated",
+    "1.3.0"
    ],
-   "updatedAt": "2026-08-16T13:57:38Z",
-   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "updatedAt": "2026-11-20T04:32:57Z",
+   "checkedAt": "2026-11-21T11:09:42.899Z",
    "verdict": "discard",
-   "reason": "PR #851 by @Cmz9111 is already open against this issue",
+   "reason": "PR #856 by @Zephyr-Song is already open against this issue",
    "evidence": [
     "https://github.com/langgenius/dify/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/langgenius/dify-plugin-daemon/pull/856",
     "https://github.com/langgenius/dify-plugin-daemon/pull/851"
    ]
   },
@@ -28,10 +31,11 @@
    "title": "Search by conversation id",
    "url": "https://github.com/langgenius/dify/issues/26643",
    "labels": [
+    "💪 enhancement",
     "good first issue"
    ],
-   "updatedAt": "2026-06-21T07:50:15Z",
-   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "updatedAt": "2026-11-20T04:23:36Z",
+   "checkedAt": "2026-11-21T11:09:42.899Z",
    "verdict": "discard",
    "reason": "PR #30809 by @jubinsoni is already open against this issue",
    "evidence": [
@@ -45,10 +49,11 @@
    "url": "https://github.com/langgenius/dify/issues/33092",
    "labels": [
     "good first issue",
-    "🙏 help wanted"
+    "🙏 help wanted",
+    "no-issue-activity"
    ],
-   "updatedAt": "2026-11-04T03:10:00Z",
-   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "updatedAt": "2026-11-19T03:38:06Z",
+   "checkedAt": "2026-11-21T11:09:42.899Z",
    "verdict": "discard",
    "reason": "PR #43068 by @errmakov is already open against this issue",
    "evidence": [
@@ -159,17 +164,32 @@
    "labels": [
     "good first issue"
    ],
-   "updatedAt": "2026-11-11T17:08:03Z",
-   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "updatedAt": "2026-11-19T05:49:46Z",
+   "checkedAt": "2026-11-21T11:09:42.899Z",
    "verdict": "discard",
-   "reason": "@GYJ99 claimed it 10 days ago",
+   "reason": "@GYJ99 claimed it 17 days ago",
    "evidence": [
     "https://github.com/langgenius/dify/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/langgenius/dify/pull/45693",
     "https://github.com/langgenius/dify/pull/45730",
-    "https://github.com/langgenius/dify/pull/45859",
     "https://github.com/langgenius/dify/issues/45585#issuecomment-6639289036",
     "https://github.com/langgenius/dify/issues/45585#issuecomment-6682775716"
+   ]
+  },
+  {
+   "number": 46769,
+   "title": "some type err",
+   "url": "https://github.com/langgenius/dify/issues/46769",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2026-11-19T11:59:10Z",
+   "checkedAt": "2026-11-21T11:09:42.899Z",
+   "verdict": "discard",
+   "reason": "PR #46770 by @P-r-e-m-i-u-m is already open against this issue",
+   "evidence": [
+    "https://github.com/langgenius/dify/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/langgenius/dify/pull/46770"
    ]
   }
  ]

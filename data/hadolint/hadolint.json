@@ -4,7 +4,7 @@
  "language": "Haskell",
  "stars": 12524,
  "description": "Dockerfile linter, validate inline bash, written in Haskell",
- "visitedAt": "2026-11-14T03:20:07.172Z",
+ "visitedAt": "2026-11-21T11:09:42.899Z",
  "issues": [
   {
    "number": 80,
@@ -155,11 +155,12 @@
     "enhancement",
     "help wanted"
    ],
-   "updatedAt": "2026-04-28T23:41:07Z",
-   "checkedAt": "2026-11-14T03:20:07.172Z",
+   "updatedAt": "2026-11-15T15:38:56Z",
+   "checkedAt": "2026-11-21T11:09:42.899Z",
    "verdict": "reservations",
-   "reason": "PR #709 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
+   "reason": "no push in 33 days (last: 2026-10-19) (+3 more)",
    "evidence": [
+    "https://github.com/hadolint/hadolint — pushed_at 2026-10-19T12:12:51Z",
     "https://github.com/hadolint/hadolint/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/grafana/grafana-operator/pull/709",
     "https://github.com/kata-containers/kata-containers/pull/5783",
@@ -358,13 +359,16 @@
     "enhancement",
     "help wanted"
    ],
-   "updatedAt": "2026-09-28T10:44:51Z",
-   "checkedAt": "2026-11-14T03:20:07.172Z",
-   "verdict": "discard",
-   "reason": "PR #1279 by @hakarrr is already open against this issue",
+   "updatedAt": "2026-11-15T15:39:00Z",
+   "checkedAt": "2026-11-21T11:09:42.899Z",
+   "verdict": "reservations",
+   "reason": "no push in 33 days (last: 2026-10-19) (+2 more)",
    "evidence": [
+    "https://github.com/hadolint/hadolint — pushed_at 2026-10-19T12:12:51Z",
     "https://github.com/hadolint/hadolint/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/hadolint/hadolint/pull/1279"
+    "https://github.com/hadolint/hadolint/issues/401#issuecomment-4765629136",
+    "https://github.com/hadolint/hadolint/issues/401",
+    "https://github.com/hadolint/hadolint/wiki/DL1001"
    ]
   },
   {
@@ -393,14 +397,16 @@
     "enhancement",
     "help wanted"
    ],
-   "updatedAt": "2021-03-18T13:03:16Z",
-   "checkedAt": "2026-11-14T03:20:07.172Z",
-   "verdict": "discard",
-   "reason": "PR #1280 by @hakarrr is already open against this issue",
+   "updatedAt": "2026-11-15T15:39:05Z",
+   "checkedAt": "2026-11-21T11:09:42.899Z",
+   "verdict": "reservations",
+   "reason": "no push in 33 days (last: 2026-10-19) (+2 more)",
    "evidence": [
+    "https://github.com/hadolint/hadolint — pushed_at 2026-10-19T12:12:51Z",
     "https://github.com/hadolint/hadolint/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/hadolint/hadolint/pull/1280",
-    "https://github.com/rossoctl/cortex/pull/520"
+    "https://github.com/rossoctl/cortex/pull/520",
+    "https://github.com/hadolint/hadolint/issues/422",
+    "https://github.com/hadolint/hadolint/wiki/DL3003"
    ]
   },
   {
