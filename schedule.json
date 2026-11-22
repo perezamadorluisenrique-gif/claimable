@@ -132,7 +132,7 @@
   "lastNewIssue": "2025-10-02T14:17:27Z"
  },
  "langgenius/dify": {
-  "nextCheck": "2026-11-22T11:09:42.899Z",
+  "nextCheck": "2026-11-23T15:22:16.116Z",
   "lastNewIssue": "2026-11-19T11:17:04Z"
  },
  "langchain-ai/langchain": {
@@ -248,8 +248,8 @@
   "lastNewIssue": "2026-11-19T23:31:17Z"
  },
  "kubernetes/kubernetes": {
-  "nextCheck": "2026-11-22T10:59:03.445Z",
-  "lastNewIssue": "2026-10-15T01:26:04Z"
+  "nextCheck": "2026-11-23T15:22:16.116Z",
+  "lastNewIssue": "2026-11-19T07:53:15Z"
  },
  "microsoft/typescript": {
   "nextCheck": "2026-11-24T18:00:03.889Z",
@@ -340,7 +340,7 @@
   "lastNewIssue": null
  },
  "alacritty/alacritty": {
-  "nextCheck": "2026-11-22T10:59:03.445Z",
+  "nextCheck": "2026-11-29T15:22:16.116Z",
   "lastNewIssue": "2026-10-13T21:42:52Z"
  },
  "fuellabs/sway": {
@@ -512,7 +512,7 @@
   "lastNewIssue": "2026-05-14T00:59:26Z"
  },
  "openssl/openssl": {
-  "nextCheck": "2026-11-22T11:09:42.899Z",
+  "nextCheck": "2026-11-23T15:22:16.116Z",
   "lastNewIssue": "2026-11-19T14:56:59Z"
  },
  "xiaojieonly/ehviewer_cn_sxj": {
@@ -660,7 +660,7 @@
   "lastNewIssue": "2026-07-15T17:48:37Z"
  },
  "librepods-org/librepods": {
-  "nextCheck": "2026-11-22T13:15:34.665Z",
+  "nextCheck": "2026-11-25T15:22:16.116Z",
   "lastNewIssue": "2026-10-28T11:38:55Z"
  },
  "junkfood02/seal": {
@@ -700,7 +700,7 @@
   "lastNewIssue": "2020-05-27T10:38:26Z"
  },
  "thunderbird/thunderbird-android": {
-  "nextCheck": "2026-11-22T13:15:34.665Z",
+  "nextCheck": "2026-11-25T15:22:16.116Z",
   "lastNewIssue": "2026-10-29T10:25:38Z"
  },
  "kotlin/kotlinx.coroutines": {
@@ -712,11 +712,11 @@
   "lastNewIssue": "2026-10-12T06:38:32Z"
  },
  "libre-tube/libretube": {
-  "nextCheck": "2026-11-22T10:59:03.445Z",
+  "nextCheck": "2026-11-29T15:22:16.116Z",
   "lastNewIssue": "2026-05-24T20:42:54Z"
  },
  "ankidroid/anki-android": {
-  "nextCheck": "2026-11-22T11:09:42.899Z",
+  "nextCheck": "2026-11-23T15:22:16.116Z",
   "lastNewIssue": "2026-11-19T18:24:49Z"
  },
  "swiftlang/swift": {
@@ -856,11 +856,11 @@
   "lastNewIssue": "2021-04-29T04:14:39Z"
  },
  "delta-io/delta": {
-  "nextCheck": "2026-11-22T10:59:03.445Z",
+  "nextCheck": "2026-11-29T15:22:16.116Z",
   "lastNewIssue": "2026-03-11T00:37:48Z"
  },
  "twitter/finagle": {
-  "nextCheck": "2026-11-22T10:59:03.445Z",
+  "nextCheck": "2026-11-29T15:22:16.116Z",
   "lastNewIssue": "2019-11-07T11:31:22Z"
  },
  "gatling/gatling": {
@@ -972,23 +972,23 @@
   "lastNewIssue": "2025-09-25T16:16:27Z"
  },
  "digitallyinduced/ihp": {
-  "nextCheck": "2026-11-22T10:59:03.445Z",
+  "nextCheck": "2026-11-29T15:22:16.116Z",
   "lastNewIssue": "2023-07-19T09:03:22Z"
  },
  "commercialhaskell/stack": {
-  "nextCheck": "2026-11-22T10:59:03.445Z",
+  "nextCheck": "2026-11-29T15:22:16.116Z",
   "lastNewIssue": "2019-11-25T10:03:13Z"
  },
  "xmonad/xmonad": {
-  "nextCheck": "2026-11-22T10:59:03.445Z",
+  "nextCheck": "2026-11-29T15:22:16.116Z",
   "lastNewIssue": "2022-08-25T15:55:55Z"
  },
  "b3nj5m1n/xdg-ninja": {
-  "nextCheck": "2026-11-22T10:59:03.445Z",
+  "nextCheck": "2026-11-29T15:22:16.116Z",
   "lastNewIssue": "2023-03-12T10:32:37Z"
  },
  "crytic/echidna": {
-  "nextCheck": "2026-11-22T10:59:03.445Z",
+  "nextCheck": "2026-11-29T15:22:16.116Z",
   "lastNewIssue": "2024-05-25T23:03:40Z"
  },
  "agda/agda": {
@@ -1080,11 +1080,11 @@
   "lastNewIssue": "2017-07-17T08:13:22Z"
  },
  "julialang/julia": {
-  "nextCheck": "2026-11-22T10:59:03.445Z",
+  "nextCheck": "2026-11-29T15:22:16.116Z",
   "lastNewIssue": "2026-09-16T09:17:08Z"
  },
  "fluxml/flux.jl": {
-  "nextCheck": "2026-11-22T10:59:03.445Z",
+  "nextCheck": "2026-11-29T15:22:16.116Z",
   "lastNewIssue": "2023-04-23T18:54:58Z"
  },
  "makieorg/makie.jl": {
@@ -1188,7 +1188,7 @@
   "lastNewIssue": "2025-03-13T21:44:56Z"
  },
  "testssl/testssl.sh": {
-  "nextCheck": "2026-11-22T10:59:03.445Z",
+  "nextCheck": "2026-11-29T15:22:16.116Z",
   "lastNewIssue": "2024-01-30T13:53:24Z"
  },
  "zsh-users/antigen": {

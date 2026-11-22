@@ -4,7 +4,7 @@
  "language": "Rust",
  "stars": 66157,
  "description": "A cross-platform, OpenGL terminal emulator.",
- "visitedAt": "2026-11-15T10:59:03.445Z",
+ "visitedAt": "2026-11-22T15:22:16.116Z",
  "issues": [
   {
    "number": 2079,
@@ -363,10 +363,10 @@
     "help wanted",
     "D - easy"
    ],
-   "updatedAt": "2026-11-12T17:09:45Z",
-   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "updatedAt": "2026-11-16T10:09:32Z",
+   "checkedAt": "2026-11-22T15:22:16.116Z",
    "verdict": "reservations",
-   "reason": "only 20% of recently closed PRs were merged — most contributions get rejected or abandoned here (+1 more)",
+   "reason": "only 22% of recently closed PRs were merged — most contributions get rejected or abandoned here (+1 more)",
    "evidence": [
     "https://github.com/alacritty/alacritty/pulls?q=is%3Apr+is%3Aclosed",
     "https://github.com/alacritty/alacritty/pulls?q=is%3Apr+is%3Amerged",
@@ -403,8 +403,8 @@
     "D - easy",
     "P - low"
    ],
-   "updatedAt": "2026-11-15T08:35:36Z",
-   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "updatedAt": "2026-11-15T17:00:26Z",
+   "checkedAt": "2026-11-22T15:22:16.116Z",
    "verdict": "discard",
    "reason": "PR #1 by @ump45nose is already open against this issue",
    "evidence": [

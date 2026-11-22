@@ -4,7 +4,7 @@
  "language": "Kotlin",
  "stars": 14203,
  "description": "Thunderbird for Android – Open Source Email App for Android (fka K-9 Mail)",
- "visitedAt": "2026-11-19T13:15:34.665Z",
+ "visitedAt": "2026-11-22T15:22:16.116Z",
  "issues": [
   {
    "number": 3042,
@@ -14,8 +14,8 @@
     "type: enhancement",
     "good first issue"
    ],
-   "updatedAt": "2026-11-02T15:11:55Z",
-   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "updatedAt": "2026-11-19T18:19:16Z",
+   "checkedAt": "2026-11-22T15:22:16.116Z",
    "verdict": "discard",
    "reason": "PR #11830 by @MGRAFF2006 is already open against this issue",
    "evidence": [

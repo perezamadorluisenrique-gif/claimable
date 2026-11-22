@@ -4,7 +4,7 @@
  "language": "Haskell",
  "stars": 5378,
  "description": "🔥 The fastest way to build type safe web apps. IHP is a new batteries-included web framework optimized for longterm productivity and programmer happiness",
- "visitedAt": "2026-11-15T10:59:03.445Z",
+ "visitedAt": "2026-11-22T15:22:16.116Z",
  "issues": [
   {
    "number": 208,
@@ -15,7 +15,7 @@
     "good first issue"
    ],
    "updatedAt": "2021-02-18T09:06:25Z",
-   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "checkedAt": "2026-11-22T15:22:16.116Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -57,7 +57,7 @@
     "documentation"
    ],
    "updatedAt": "2022-12-15T07:43:52Z",
-   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "checkedAt": "2026-11-22T15:22:16.116Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -76,7 +76,7 @@
     "documentation"
    ],
    "updatedAt": "2021-07-17T17:44:40Z",
-   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "checkedAt": "2026-11-22T15:22:16.116Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -113,7 +113,7 @@
     "good first issue"
    ],
    "updatedAt": "2021-06-24T05:20:28Z",
-   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "checkedAt": "2026-11-22T15:22:16.116Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -131,7 +131,7 @@
     "good first issue"
    ],
    "updatedAt": "2021-12-09T14:36:40Z",
-   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "checkedAt": "2026-11-22T15:22:16.116Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [

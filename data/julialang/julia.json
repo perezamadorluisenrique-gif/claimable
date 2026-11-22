@@ -4,7 +4,7 @@
  "language": "Julia",
  "stars": 49255,
  "description": "The Julia Programming Language",
- "visitedAt": "2026-11-15T10:59:03.445Z",
+ "visitedAt": "2026-11-22T15:22:16.116Z",
  "issues": [
   {
    "number": 130,
@@ -1180,31 +1180,6 @@
    ]
   },
   {
-   "number": 33666,
-   "title": "add help builtins for special characters",
-   "url": "https://github.com/JuliaLang/julia/issues/33666",
-   "labels": [
-    "docs",
-    "help wanted",
-    "good first issue"
-   ],
-   "updatedAt": "2023-10-30T18:43:51Z",
-   "checkedAt": "2026-11-14T11:31:58.340Z",
-   "verdict": "reservations",
-   "reason": "PR #33824 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+5 more)",
-   "evidence": [
-    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/JuliaLang/julia/pull/33824",
-    "https://github.com/JuliaLang/julia/pull/34035",
-    "https://github.com/JuliaLang/julia/pull/39609",
-    "https://github.com/JuliaLang/julia/issues/33666",
-    "https://github.com/JuliaLang/julia/issues/33666#issuecomment-775602860",
-    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
-    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
-    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
-   ]
-  },
-  {
    "number": 33947,
    "title": "wanted: `open(create=true, exclusive=true)` dead or alive",
    "url": "https://github.com/JuliaLang/julia/issues/33947",
@@ -1261,27 +1236,6 @@
     "https://github.com/JuliaLang/julia/pull/34352",
     "https://github.com/JuliaLang/julia/pull/34678",
     "https://github.com/JuliaLang/julia/issues/34368",
-    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
-    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
-    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
-   ]
-  },
-  {
-   "number": 34761,
-   "title": "Better documentation for `methods`",
-   "url": "https://github.com/JuliaLang/julia/issues/34761",
-   "labels": [
-    "docs",
-    "good first issue"
-   ],
-   "updatedAt": "2023-12-25T17:33:41Z",
-   "checkedAt": "2026-11-14T11:31:58.340Z",
-   "verdict": "reservations",
-   "reason": "1 stale claim, the most recent by @11happy 1055 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
-   "evidence": [
-    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/JuliaLang/julia/issues/34761#issuecomment-1869064166",
-    "https://github.com/JuliaLang/julia/issues/34761",
     "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
     "https://docs.julialang.org/en/v1/devdocs/backtraces/",
     "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
@@ -1744,17 +1698,17 @@
     "good first issue",
     "ci"
    ],
-   "updatedAt": "2026-11-13T12:58:33Z",
-   "checkedAt": "2026-11-14T11:31:58.340Z",
+   "updatedAt": "2026-11-21T17:03:20Z",
+   "checkedAt": "2026-11-22T15:22:16.116Z",
    "verdict": "discard",
-   "reason": "@abarnaanbazhagan2727 claimed it yesterday",
+   "reason": "PR #65142 by @4ster-light is already open against this issue",
    "evidence": [
     "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/JuliaLang/julia/pull/65142",
     "https://github.com/JuliaLang/julia/pull/38879",
     "https://github.com/JuliaLang/julia/pull/43606",
     "https://github.com/JuliaLang/julia/pull/43634",
-    "https://github.com/JuliaLang/julia/pull/64786",
-    "https://github.com/JuliaLang/julia/issues/43597#issuecomment-6853648728"
+    "https://github.com/JuliaLang/julia/pull/64786"
    ]
   },
   {
@@ -2104,29 +2058,6 @@
    ]
   },
   {
-   "number": 52641,
-   "title": "Base.isidentifier(::Symbol) should check normalization",
-   "url": "https://github.com/JuliaLang/julia/issues/52641",
-   "labels": [
-    "bug",
-    "parser",
-    "good first issue",
-    "display and printing"
-   ],
-   "updatedAt": "2026-10-14T05:50:44Z",
-   "checkedAt": "2026-11-15T10:59:03.445Z",
-   "verdict": "reservations",
-   "reason": "PR #1 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
-   "evidence": [
-    "https://github.com/JuliaLang/julia/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/GregPlowman/julia/pull/1",
-    "https://github.com/JuliaLang/julia/issues/52641",
-    "https://github.com/JuliaLang/julia/blob/HEAD/README.md",
-    "https://docs.julialang.org/en/v1/devdocs/backtraces/",
-    "https://github.com/JuliaLang/julia/blob/HEAD/CONTRIBUTING.md"
-   ]
-  },
-  {
    "number": 52725,
    "title": "Missing docstrings for public/exported symbols",
    "url": "https://github.com/JuliaLang/julia/issues/52725",
@@ -2135,8 +2066,8 @@
     "help wanted",
     "good first issue"
    ],
-   "updatedAt": "2026-11-13T12:58:08Z",
-   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "updatedAt": "2026-11-21T17:12:08Z",
+   "checkedAt": "2026-11-22T15:22:16.116Z",
    "verdict": "discard",
    "reason": "PR #53559 by @mariam606 is already open against this issue",
    "evidence": [

@@ -4,7 +4,7 @@
  "language": "Kotlin",
  "stars": 12214,
  "description": "AnkiDroid: Anki flashcards on Android. Your secret trick to achieve superhuman information retention.",
- "visitedAt": "2026-11-21T11:09:42.899Z",
+ "visitedAt": "2026-11-22T15:22:16.116Z",
  "issues": [
   {
    "number": 6369,
@@ -700,22 +700,6 @@
    "evidence": [
     "https://github.com/ankidroid/Anki-Android/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/ankidroid/Anki-Android/pull/23493"
-   ]
-  },
-  {
-   "number": 23517,
-   "title": "Hard and Good buttons are slightly shorter now",
-   "url": "https://github.com/ankidroid/Anki-Android/issues/23517",
-   "labels": [
-    "Good First Issue"
-   ],
-   "updatedAt": "2026-11-20T07:58:57Z",
-   "checkedAt": "2026-11-21T11:09:42.899Z",
-   "verdict": "discard",
-   "reason": "PR #23566 by @aarianmm is already open against this issue",
-   "evidence": [
-    "https://github.com/ankidroid/Anki-Android/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/ankidroid/Anki-Android/pull/23566"
    ]
   }
  ]

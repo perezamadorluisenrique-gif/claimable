@@ -4,7 +4,7 @@
  "language": "Go",
  "stars": 128976,
  "description": "Production-Grade Container Scheduling and Management",
- "visitedAt": "2026-11-15T10:59:03.445Z",
+ "visitedAt": "2026-11-22T15:22:16.116Z",
  "issues": [
   {
    "number": 7961,
@@ -53,29 +53,6 @@
     "https://docs.docker.com/engine",
     "https://github.com/kubernetes/kubernetes/blob/HEAD/CONTRIBUTING.md",
     "https://github.com/kubernetes/kubernetes/blob/HEAD/AGENTS.md"
-   ]
-  },
-  {
-   "number": 15494,
-   "title": "Label selector design doc",
-   "url": "https://github.com/kubernetes/kubernetes/issues/15494",
-   "labels": [
-    "priority/backlog",
-    "kind/documentation",
-    "area/api",
-    "help wanted",
-    "sig/architecture",
-    "lifecycle/frozen"
-   ],
-   "updatedAt": "2025-03-29T19:09:36Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
-   "verdict": "discard",
-   "reason": "already assigned to @bgrant0607",
-   "evidence": [
-    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/kubernetes/kubernetes/pull/15350",
-    "https://github.com/openshift/origin/pull/5733",
-    "https://github.com/kubernetes/kubernetes/issues/15494"
    ]
   },
   {
@@ -836,31 +813,6 @@
    "evidence": [
     "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/kubernetes/kubernetes/pull/142862"
-   ]
-  },
-  {
-   "number": 113401,
-   "title": "Should the KCM have a heartbeat (or should the APIServer be more proactive about disruptive extensions) ?",
-   "url": "https://github.com/kubernetes/kubernetes/issues/113401",
-   "labels": [
-    "area/apiserver",
-    "sig/api-machinery",
-    "kind/feature",
-    "help wanted",
-    "lifecycle/stale",
-    "triage/accepted"
-   ],
-   "updatedAt": "2025-03-23T05:44:11Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
-   "verdict": "reservations",
-   "reason": "labelled `lifecycle/stale` — scope may not be settled yet (+2 more)",
-   "evidence": [
-    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/kubernetes/kubernetes/issues/113401",
-    "https://github.com/kubernetes/kubernetes/blob/HEAD/README.md",
-    "https://docs.docker.com/engine",
-    "https://github.com/kubernetes/kubernetes/blob/HEAD/CONTRIBUTING.md",
-    "https://github.com/kubernetes/kubernetes/blob/HEAD/AGENTS.md"
    ]
   },
   {
@@ -1875,19 +1827,15 @@
     "kind/failing-test",
     "triage/accepted"
    ],
-   "updatedAt": "2026-10-15T17:38:02Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
-   "verdict": "reservations",
-   "reason": "PR #185 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+3 more)",
+   "updatedAt": "2026-11-20T13:49:23Z",
+   "checkedAt": "2026-11-22T15:22:16.116Z",
+   "verdict": "discard",
+   "reason": "PR #2680 by @pavankumargp6 is already open against this issue",
    "evidence": [
     "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes-sigs/node-feature-discovery/pull/2680",
     "https://github.com/laclance/OSSOpportunityScout/pull/185",
-    "https://github.com/kubernetes-sigs/node-feature-discovery/pull/2555",
-    "https://github.com/kubernetes/kubernetes/issues/136114",
-    "https://github.com/kubernetes/kubernetes/blob/HEAD/README.md",
-    "https://docs.docker.com/engine",
-    "https://github.com/kubernetes/kubernetes/blob/HEAD/CONTRIBUTING.md",
-    "https://github.com/kubernetes/kubernetes/blob/HEAD/AGENTS.md"
+    "https://github.com/kubernetes-sigs/node-feature-discovery/pull/2555"
    ]
   },
   {
@@ -1999,8 +1947,8 @@
     "triage/accepted",
     "wg/device-management"
    ],
-   "updatedAt": "2026-10-28T19:02:13Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "updatedAt": "2026-11-18T18:59:32Z",
+   "checkedAt": "2026-11-22T15:22:16.116Z",
    "verdict": "discard",
    "reason": "PR #61 by @praveen0raj is already open against this issue",
    "evidence": [
@@ -2034,29 +1982,6 @@
     "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/kubernetes/kubernetes/pull/138248",
     "https://github.com/kubernetes/kubernetes/pull/142850"
-   ]
-  },
-  {
-   "number": 138679,
-   "title": "[Flaking Test] TestEventSeries failing in pull-kubernetes-integration with timed out waiting for Event Series",
-   "url": "https://github.com/kubernetes/kubernetes/issues/138679",
-   "labels": [
-    "kind/flake",
-    "help wanted",
-    "sig/instrumentation",
-    "triage/accepted"
-   ],
-   "updatedAt": "2026-10-28T13:41:08Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
-   "verdict": "discard",
-   "reason": "PR #138782 by @nicknikolakakis is already open against this issue",
-   "evidence": [
-    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/kubernetes/kubernetes/pull/138782",
-    "https://github.com/kubernetes/kubernetes/pull/142466",
-    "https://github.com/kubernetes/kubernetes/pull/136915",
-    "https://github.com/kubernetes/kubernetes/pull/141639",
-    "https://github.com/kubernetes/kubernetes/pull/143156"
    ]
   },
   {
@@ -2175,8 +2100,8 @@
     "priority/important-longterm",
     "triage/accepted"
    ],
-   "updatedAt": "2026-10-24T14:19:30Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "updatedAt": "2026-11-21T15:33:11Z",
+   "checkedAt": "2026-11-22T15:22:16.116Z",
    "verdict": "discard",
    "reason": "already assigned to @sAchin-680",
    "evidence": [
@@ -2264,6 +2189,65 @@
    "evidence": [
     "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/kubernetes/kubernetes/pull/143072"
+   ]
+  },
+  {
+   "number": 144300,
+   "title": "[Flaking Test] LocalStorageCapacityIsolationEviction: clean-exit emptyDir container exits 137, expected 0",
+   "url": "https://github.com/kubernetes/kubernetes/issues/144300",
+   "labels": [
+    "sig/node",
+    "kind/flake",
+    "help wanted",
+    "priority/important-longterm",
+    "triage/accepted"
+   ],
+   "updatedAt": "2026-11-18T17:11:40Z",
+   "checkedAt": "2026-11-22T15:22:16.116Z",
+   "verdict": "discard",
+   "reason": "PR #144305 by @ANAMASGARD is already open against this issue",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/144305"
+   ]
+  },
+  {
+   "number": 144302,
+   "title": "[Flaking Test] PodResources metrics: List() gets connection refused on the kubelet socket",
+   "url": "https://github.com/kubernetes/kubernetes/issues/144302",
+   "labels": [
+    "sig/node",
+    "kind/flake",
+    "help wanted",
+    "priority/important-longterm",
+    "triage/accepted"
+   ],
+   "updatedAt": "2026-11-18T17:07:45Z",
+   "checkedAt": "2026-11-22T15:22:16.116Z",
+   "verdict": "discard",
+   "reason": "PR #144306 by @maheshrijal is already open against this issue",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/144306"
+   ]
+  },
+  {
+   "number": 144333,
+   "title": "retry.OnErrorWithContext / retry.RetryOnConflictWithContext",
+   "url": "https://github.com/kubernetes/kubernetes/issues/144333",
+   "labels": [
+    "sig/api-machinery",
+    "help wanted",
+    "good first issue",
+    "needs-triage"
+   ],
+   "updatedAt": "2026-11-19T08:42:49Z",
+   "checkedAt": "2026-11-22T15:22:16.116Z",
+   "verdict": "discard",
+   "reason": "PR #144334 by @aashish254 is already open against this issue",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/pull/144334"
    ]
   }
  ]

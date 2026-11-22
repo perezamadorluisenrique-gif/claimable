@@ -4,7 +4,7 @@
  "language": "Shell",
  "stars": 9271,
  "description": "Testing TLS/SSL encryption anywhere on any port ",
- "visitedAt": "2026-11-15T10:59:03.445Z",
+ "visitedAt": "2026-11-22T15:22:16.116Z",
  "issues": [
   {
    "number": 43,
@@ -55,7 +55,7 @@
     "help wanted"
    ],
    "updatedAt": "2015-07-25T07:21:26Z",
-   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "checkedAt": "2026-11-22T15:22:16.116Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -92,7 +92,7 @@
     "feature"
    ],
    "updatedAt": "2018-03-28T08:17:14Z",
-   "checkedAt": "2026-11-14T18:08:15.201Z",
+   "checkedAt": "2026-11-22T15:22:16.116Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -244,7 +244,7 @@
     "feature"
    ],
    "updatedAt": "2017-10-27T08:13:26Z",
-   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "checkedAt": "2026-11-22T15:22:16.116Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -261,7 +261,7 @@
     "help wanted"
    ],
    "updatedAt": "2018-01-23T11:04:12Z",
-   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "checkedAt": "2026-11-22T15:22:16.116Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -279,7 +279,7 @@
     "good first issue"
    ],
    "updatedAt": "2018-05-11T14:08:09Z",
-   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "checkedAt": "2026-11-22T15:22:16.116Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -315,7 +315,7 @@
     "important"
    ],
    "updatedAt": "2019-05-03T17:34:21Z",
-   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "checkedAt": "2026-11-22T15:22:16.116Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -350,7 +350,7 @@
     "feature"
    ],
    "updatedAt": "2026-05-02T00:54:47Z",
-   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "checkedAt": "2026-11-22T15:22:16.116Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -408,7 +408,7 @@
     "feature"
    ],
    "updatedAt": "2022-04-12T17:28:51Z",
-   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "checkedAt": "2026-11-22T15:22:16.116Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -425,7 +425,7 @@
     "good first issue"
    ],
    "updatedAt": "2024-02-13T09:25:08Z",
-   "checkedAt": "2026-11-15T10:59:03.445Z",
+   "checkedAt": "2026-11-22T15:22:16.116Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
