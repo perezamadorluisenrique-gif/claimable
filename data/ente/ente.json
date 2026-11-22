@@ -4,7 +4,7 @@
  "language": "Dart",
  "stars": 30038,
  "description": "💚 End-to-end encrypted cloud for everything.",
- "visitedAt": "2026-11-15T17:45:07.501Z",
+ "visitedAt": "2026-11-22T21:48:48.472Z",
  "issues": [
   {
    "number": 4749,
@@ -38,7 +38,7 @@
     "linux"
    ],
    "updatedAt": "2026-11-12T15:26:55Z",
-   "checkedAt": "2026-11-15T17:45:07.501Z",
+   "checkedAt": "2026-11-22T21:48:48.472Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [

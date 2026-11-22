@@ -4,7 +4,7 @@
  "language": "Go",
  "stars": 139828,
  "description": "The Go programming language",
- "visitedAt": "2026-11-21T18:00:03.889Z",
+ "visitedAt": "2026-11-22T21:48:48.472Z",
  "issues": [
   {
    "number": 7175,
@@ -535,6 +535,23 @@
    ]
   },
   {
+   "number": 53914,
+   "title": "go/types: improve documentation on `*types.Named` identity",
+   "url": "https://github.com/golang/go/issues/53914",
+   "labels": [
+    "Documentation",
+    "help wanted",
+    "NeedsFix"
+   ],
+   "updatedAt": "2026-11-21T19:20:55Z",
+   "checkedAt": "2026-11-22T21:48:48.472Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/golang/go/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
    "number": 54498,
    "title": "x/sys/unix: KeyctlString() panics for key types that can legally contain \"no payload at all",
    "url": "https://github.com/golang/go/issues/54498",
@@ -641,6 +658,23 @@
    ]
   },
   {
+   "number": 61029,
+   "title": "text/template: unclear about pipelines as arguments",
+   "url": "https://github.com/golang/go/issues/61029",
+   "labels": [
+    "Documentation",
+    "help wanted",
+    "NeedsInvestigation"
+   ],
+   "updatedAt": "2026-11-21T19:20:56Z",
+   "checkedAt": "2026-11-22T21:48:48.472Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/golang/go/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
    "number": 61157,
    "title": "x/tools/go/analysis/passes/bools: analyzer warning is not descriptive enough",
    "url": "https://github.com/golang/go/issues/61157",
@@ -729,6 +763,24 @@
    ]
   },
   {
+   "number": 63872,
+   "title": "all: more thorough testing of GOAMD64=v1 instruction limits",
+   "url": "https://github.com/golang/go/issues/63872",
+   "labels": [
+    "help wanted",
+    "Builders",
+    "NeedsFix",
+    "compiler/runtime"
+   ],
+   "updatedAt": "2026-11-22T00:36:06Z",
+   "checkedAt": "2026-11-22T21:48:48.472Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/golang/go/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
    "number": 64038,
    "title": "runtime/race: TestRace failures in RaceWaitGroupWrongAdd",
    "url": "https://github.com/golang/go/issues/64038",
@@ -748,25 +800,6 @@
    ]
   },
   {
-   "number": 64400,
-   "title": "cmd/cgo/internal/testtls: `signal arrived during external code execution` on Windows with clang 14.0.6",
-   "url": "https://github.com/golang/go/issues/64400",
-   "labels": [
-    "help wanted",
-    "OS-Windows",
-    "NeedsInvestigation",
-    "compiler/runtime",
-    "cgo"
-   ],
-   "updatedAt": "2026-09-10T08:49:15Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
-   "verdict": "discard",
-   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
-   "evidence": [
-    "https://github.com/golang/go/pulls?q=is%3Apr+is%3Aclosed"
-   ]
-  },
-  {
    "number": 64535,
    "title": "cmd/link: test timeouts",
    "url": "https://github.com/golang/go/issues/64535",
@@ -776,25 +809,6 @@
     "compiler/runtime"
    ],
    "updatedAt": "2026-09-13T19:56:57Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
-   "verdict": "discard",
-   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
-   "evidence": [
-    "https://github.com/golang/go/pulls?q=is%3Apr+is%3Aclosed"
-   ]
-  },
-  {
-   "number": 64656,
-   "title": "cmd/cgo/internal/testcarchive: `TestSignalForwardingGo` failures with SIGABRT instead of the expected SIGSEGV",
-   "url": "https://github.com/golang/go/issues/64656",
-   "labels": [
-    "help wanted",
-    "NeedsInvestigation",
-    "arch-s390x",
-    "compiler/runtime",
-    "cgo"
-   ],
-   "updatedAt": "2026-09-10T08:49:17Z",
    "checkedAt": "2026-11-11T15:17:00.117Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
@@ -1055,26 +1069,6 @@
    ]
   },
   {
-   "number": 73788,
-   "title": "cmd/link: -race doesn't work by default on FreeBSD with cgo",
-   "url": "https://github.com/golang/go/issues/73788",
-   "labels": [
-    "help wanted",
-    "OS-FreeBSD",
-    "NeedsFix",
-    "compiler/runtime",
-    "BugReport",
-    "cgo"
-   ],
-   "updatedAt": "2026-09-10T08:49:44Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
-   "verdict": "discard",
-   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
-   "evidence": [
-    "https://github.com/golang/go/pulls?q=is%3Apr+is%3Aclosed"
-   ]
-  },
-  {
    "number": 73820,
    "title": "all: flaky failures on netbsd/arm",
    "url": "https://github.com/golang/go/issues/73820",
@@ -1085,25 +1079,6 @@
     "arch-arm"
    ],
    "updatedAt": "2026-11-04T14:39:37Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
-   "verdict": "discard",
-   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
-   "evidence": [
-    "https://github.com/golang/go/pulls?q=is%3Apr+is%3Aclosed"
-   ]
-  },
-  {
-   "number": 74116,
-   "title": "runtime: cgocheck fails to correctly identify pinned allocation in self-reference of a linker-allocated object",
-   "url": "https://github.com/golang/go/issues/74116",
-   "labels": [
-    "help wanted",
-    "NeedsInvestigation",
-    "compiler/runtime",
-    "BugReport",
-    "cgo"
-   ],
-   "updatedAt": "2026-09-10T08:49:45Z",
    "checkedAt": "2026-11-11T15:17:00.117Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
@@ -1285,6 +1260,24 @@
    ],
    "updatedAt": "2026-10-08T20:30:33Z",
    "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/golang/go/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 77212,
+   "title": "x/tools/gopls: when editing Go files in GOMODCACHE, offer to clone module and add replace directive",
+   "url": "https://github.com/golang/go/issues/77212",
+   "labels": [
+    "help wanted",
+    "FeatureRequest",
+    "gopls",
+    "Tools"
+   ],
+   "updatedAt": "2026-11-21T19:01:08Z",
+   "checkedAt": "2026-11-22T21:48:48.472Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
    "evidence": [
@@ -1752,8 +1745,8 @@
    "labels": [
     "help wanted"
    ],
-   "updatedAt": "2026-11-21T11:41:56Z",
-   "checkedAt": "2026-11-21T18:00:03.889Z",
+   "updatedAt": "2026-11-21T20:59:21Z",
+   "checkedAt": "2026-11-22T21:48:48.472Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
    "evidence": [

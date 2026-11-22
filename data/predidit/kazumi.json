@@ -4,7 +4,7 @@
  "language": "Dart",
  "stars": 42045,
  "description": "基于自定义规则的番剧采集APP，支持流媒体在线观看，支持弹幕，支持实时超分辨率。",
- "visitedAt": "2026-11-15T17:45:07.501Z",
+ "visitedAt": "2026-11-22T21:48:48.472Z",
  "issues": [
   {
    "number": 712,
@@ -35,7 +35,7 @@
     "help wanted"
    ],
    "updatedAt": "2025-09-18T10:18:34Z",
-   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "checkedAt": "2026-11-22T21:48:48.472Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -107,7 +107,7 @@
     "help wanted"
    ],
    "updatedAt": "2026-08-04T03:20:46Z",
-   "checkedAt": "2026-11-15T17:45:07.501Z",
+   "checkedAt": "2026-11-22T21:48:48.472Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
