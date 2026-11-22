@@ -92,7 +92,7 @@
   "lastNewIssue": "2026-10-25T23:31:22Z"
  },
  "nexu-io/open-design": {
-  "nextCheck": "2026-11-22T02:20:11.484Z",
+  "nextCheck": "2026-11-23T06:54:40.718Z",
   "lastNewIssue": "2026-11-20T08:56:47Z"
  },
  "ant-design/ant-design": {
@@ -192,8 +192,8 @@
   "lastNewIssue": "2024-11-15T10:16:58Z"
  },
  "jeecgboot/jeecgboot": {
-  "nextCheck": "2026-11-22T02:20:11.484Z",
-  "lastNewIssue": "2026-11-15T01:57:05Z"
+  "nextCheck": "2026-11-25T06:54:40.718Z",
+  "lastNewIssue": "2026-11-15T01:58:30Z"
  },
  "apache/dubbo": {
   "nextCheck": "2026-11-25T14:03:59.541Z",
@@ -204,7 +204,7 @@
   "lastNewIssue": "2026-09-28T14:34:37Z"
  },
  "keycloak/keycloak": {
-  "nextCheck": "2026-11-22T02:20:11.484Z",
+  "nextCheck": "2026-11-23T06:54:40.718Z",
   "lastNewIssue": "2026-11-17T17:18:57Z"
  },
  "alibaba/arthas": {
@@ -228,11 +228,11 @@
   "lastNewIssue": "2024-05-21T00:14:06Z"
  },
  "alibaba/nacos": {
-  "nextCheck": "2026-11-22T02:43:03.155Z",
+  "nextCheck": "2026-11-29T06:54:40.718Z",
   "lastNewIssue": "2025-06-19T09:50:42Z"
  },
  "conductor-oss/conductor": {
-  "nextCheck": "2026-11-22T02:43:03.155Z",
+  "nextCheck": "2026-11-29T06:54:40.718Z",
   "lastNewIssue": "2026-08-21T18:35:59Z"
  },
  "floci-io/floci": {
@@ -288,8 +288,8 @@
   "lastNewIssue": "2024-07-18T21:49:38Z"
  },
  "etcd-io/etcd": {
-  "nextCheck": "2026-11-22T02:43:03.155Z",
-  "lastNewIssue": "2025-12-17T19:37:27Z"
+  "nextCheck": "2026-11-25T06:54:40.718Z",
+  "lastNewIssue": "2026-11-10T14:31:17Z"
  },
  "quantumnous/new-api": {
   "nextCheck": "2026-11-28T11:09:42.899Z",
@@ -324,7 +324,7 @@
   "lastNewIssue": "2026-01-16T09:32:03Z"
  },
  "rtk-ai/rtk": {
-  "nextCheck": "2026-11-22T02:20:11.484Z",
+  "nextCheck": "2026-11-23T06:54:40.718Z",
   "lastNewIssue": "2026-11-16T13:05:00Z"
  },
  "dani-garcia/vaultwarden": {
@@ -348,11 +348,11 @@
   "lastNewIssue": "2025-08-13T05:14:56Z"
  },
  "sharkdp/bat": {
-  "nextCheck": "2026-11-22T02:43:03.155Z",
+  "nextCheck": "2026-11-29T06:54:40.718Z",
   "lastNewIssue": "2025-08-03T15:00:18Z"
  },
  "meilisearch/meilisearch": {
-  "nextCheck": "2026-11-22T02:43:03.155Z",
+  "nextCheck": "2026-11-29T06:54:40.718Z",
   "lastNewIssue": "2025-12-12T17:24:54Z"
  },
  "fuellabs/fuel-core": {
@@ -392,7 +392,7 @@
   "lastNewIssue": "2025-04-08T18:52:55Z"
  },
  "clickhouse/clickhouse": {
-  "nextCheck": "2026-11-22T02:43:03.155Z",
+  "nextCheck": "2026-11-29T06:54:40.718Z",
   "lastNewIssue": "2026-09-22T07:25:04Z"
  },
  "x64dbg/x64dbg": {
@@ -400,7 +400,7 @@
   "lastNewIssue": "2024-09-19T23:18:11Z"
  },
  "zen-browser/desktop": {
-  "nextCheck": "2026-11-22T02:20:11.484Z",
+  "nextCheck": "2026-11-25T06:54:40.718Z",
   "lastNewIssue": "2026-11-14T05:15:18Z"
  },
  "lizardbyte/sunshine": {
@@ -464,7 +464,7 @@
   "lastNewIssue": "2025-06-30T17:36:07Z"
  },
  "dotnet/roslyn": {
-  "nextCheck": "2026-11-22T02:20:11.484Z",
+  "nextCheck": "2026-11-25T06:54:40.718Z",
   "lastNewIssue": "2026-11-15T02:27:22Z"
  },
  "bitwarden/server": {
@@ -532,11 +532,11 @@
   "lastNewIssue": "2024-04-12T16:10:45Z"
  },
  "radareorg/radare2": {
-  "nextCheck": "2026-11-22T02:43:03.155Z",
+  "nextCheck": "2026-11-29T06:54:40.718Z",
   "lastNewIssue": "2021-08-19T22:24:29Z"
  },
  "fastfetch-cli/fastfetch": {
-  "nextCheck": "2026-11-22T02:43:03.155Z",
+  "nextCheck": "2026-11-29T06:54:40.718Z",
   "lastNewIssue": "2026-08-17T06:35:04Z"
  },
  "danielmiessler/seclists": {
@@ -544,7 +544,7 @@
   "lastNewIssue": "2026-01-31T17:27:49Z"
  },
  "nextcloud/server": {
-  "nextCheck": "2026-11-22T03:33:09.404Z",
+  "nextCheck": "2026-11-25T06:54:40.718Z",
   "lastNewIssue": "2026-10-23T17:59:48Z"
  },
  "laravel/framework": {
@@ -552,7 +552,7 @@
   "lastNewIssue": "2026-05-24T01:50:54Z"
  },
  "symfony/symfony": {
-  "nextCheck": "2026-11-22T03:33:09.404Z",
+  "nextCheck": "2026-11-25T06:54:40.718Z",
   "lastNewIssue": "2026-10-24T11:40:11Z"
  },
  "monicahq/monica": {
@@ -580,19 +580,19 @@
   "lastNewIssue": "2018-04-27T09:27:33Z"
  },
  "yiisoft/yii2": {
-  "nextCheck": "2026-11-22T02:43:03.155Z",
+  "nextCheck": "2026-11-29T06:54:40.718Z",
   "lastNewIssue": "2025-10-02T14:21:35Z"
  },
  "wallabag/wallabag": {
-  "nextCheck": "2026-11-22T02:43:03.155Z",
+  "nextCheck": "2026-11-29T06:54:40.718Z",
   "lastNewIssue": "2025-06-25T13:12:28Z"
  },
  "ramsey/uuid": {
-  "nextCheck": "2026-11-22T02:43:03.155Z",
+  "nextCheck": "2026-11-29T06:54:40.718Z",
   "lastNewIssue": "2024-02-07T08:23:34Z"
  },
  "yourls/yourls": {
-  "nextCheck": "2026-11-22T02:43:03.155Z",
+  "nextCheck": "2026-11-29T06:54:40.718Z",
   "lastNewIssue": "2025-01-15T13:39:17Z"
  },
  "slimphp/slim": {
@@ -1144,8 +1144,8 @@
   "lastNewIssue": "2025-03-19T00:01:35Z"
  },
  "othmanadi/planning-with-files": {
-  "nextCheck": "2026-11-22T03:33:09.404Z",
-  "lastNewIssue": "2026-11-07T20:40:24Z"
+  "nextCheck": "2026-11-23T06:54:40.718Z",
+  "lastNewIssue": "2026-11-21T08:02:00Z"
  },
  "zsh-users/zsh-syntax-highlighting": {
   "nextCheck": "2026-11-28T23:21:26.689Z",

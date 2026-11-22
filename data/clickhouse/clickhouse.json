@@ -4,29 +4,8 @@
  "language": "C++",
  "stars": 50862,
  "description": "ClickHouse® is a real-time analytics database management system",
- "visitedAt": "2026-11-15T02:43:03.155Z",
+ "visitedAt": "2026-11-22T06:54:40.718Z",
  "issues": [
-  {
-   "number": 2434,
-   "title": "Clickhouse get lost when multiple CH instances are running on the same host",
-   "url": "https://github.com/ClickHouse/ClickHouse/issues/2434",
-   "labels": [
-    "enhancement",
-    "help wanted",
-    "minor",
-    "comp-distributed",
-    "external"
-   ],
-   "updatedAt": "2026-11-02T11:42:19Z",
-   "checkedAt": "2026-11-12T03:03:40.195Z",
-   "verdict": "discard",
-   "reason": "PR #123078 by @clickgapai is already open against this issue",
-   "evidence": [
-    "https://github.com/ClickHouse/ClickHouse/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/ClickHouse/ClickHouse/issues/123078",
-    "https://github.com/ClickHouse/ClickHouse/issues/78213"
-   ]
-  },
   {
    "number": 6743,
    "title": "verbose mode partition commands with wrong partition identifier",
@@ -60,7 +39,7 @@
     "external"
    ],
    "updatedAt": "2026-09-11T20:10:31Z",
-   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "checkedAt": "2026-11-22T06:54:40.718Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -81,7 +60,7 @@
     "comp-ddl"
    ],
    "updatedAt": "2026-09-04T10:07:13Z",
-   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "checkedAt": "2026-11-22T06:54:40.718Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -98,10 +77,10 @@
    "labels": [
     "help wanted",
     "feature",
-    "comp-ci-infrastructure"
+    "comp-dev-tooling"
    ],
-   "updatedAt": "2026-09-04T14:58:05Z",
-   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "updatedAt": "2026-11-19T20:45:14Z",
+   "checkedAt": "2026-11-22T06:54:40.718Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -140,11 +119,11 @@
     "feature",
     "usability",
     "minor",
-    "comp-logging",
+    "comp-protocols",
     "external"
    ],
-   "updatedAt": "2026-09-11T18:04:38Z",
-   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "updatedAt": "2026-11-19T20:46:02Z",
+   "checkedAt": "2026-11-22T06:54:40.718Z",
    "verdict": "discard",
    "reason": "PR #5183 by @citrin is already open against this issue",
    "evidence": [
@@ -163,7 +142,7 @@
     "external"
    ],
    "updatedAt": "2026-09-11T18:02:34Z",
-   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "checkedAt": "2026-11-22T06:54:40.718Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -206,7 +185,7 @@
     "external"
    ],
    "updatedAt": "2026-09-11T17:59:12Z",
-   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "checkedAt": "2026-11-22T06:54:40.718Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -223,11 +202,11 @@
    "labels": [
     "help wanted",
     "unexpected behaviour",
-    "comp-table-functions",
-    "external"
+    "external",
+    "comp-networking"
    ],
-   "updatedAt": "2026-09-11T17:14:00Z",
-   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "updatedAt": "2026-11-19T20:48:11Z",
+   "checkedAt": "2026-11-22T06:54:40.718Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -374,7 +353,7 @@
     "external"
    ],
    "updatedAt": "2026-09-11T16:31:27Z",
-   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "checkedAt": "2026-11-22T06:54:40.718Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -441,7 +420,7 @@
     "external"
    ],
    "updatedAt": "2026-09-11T16:19:05Z",
-   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "checkedAt": "2026-11-22T06:54:40.718Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -460,17 +439,14 @@
     "feature",
     "comp-formats"
    ],
-   "updatedAt": "2026-09-04T13:28:21Z",
-   "checkedAt": "2026-11-15T02:43:03.155Z",
-   "verdict": "reservations",
-   "reason": "PR #2080 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "updatedAt": "2026-11-18T18:41:24Z",
+   "checkedAt": "2026-11-22T06:54:40.718Z",
+   "verdict": "discard",
+   "reason": "PR #132773 by @yakov-olkhovskiy is already open against this issue",
    "evidence": [
     "https://github.com/ClickHouse/ClickHouse/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/ClickHouse/clickhouse-docs/pull/2080",
-    "https://github.com/ClickHouse/ClickHouse/issues/58662#issuecomment-5401898291",
-    "https://github.com/ClickHouse/ClickHouse/issues/58662",
-    "https://github.com/ClickHouse/ClickHouse/blob/HEAD/CONTRIBUTING.md",
-    "https://github.com/ClickHouse/ClickHouse/blob/HEAD/AGENTS.md"
+    "https://github.com/ClickHouse/ClickHouse/pull/132773",
+    "https://github.com/ClickHouse/clickhouse-docs/pull/2080"
    ]
   },
   {
@@ -505,7 +481,7 @@
     "external"
    ],
    "updatedAt": "2026-11-02T11:34:13Z",
-   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "checkedAt": "2026-11-22T06:54:40.718Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -525,7 +501,7 @@
     "comp-sql-syntax"
    ],
    "updatedAt": "2026-09-04T13:31:23Z",
-   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "checkedAt": "2026-11-22T06:54:40.718Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -667,11 +643,11 @@
    "labels": [
     "help wanted",
     "feature",
-    "comp-settings",
+    "comp-query-analyzer",
     "external"
    ],
-   "updatedAt": "2026-09-11T15:39:13Z",
-   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "updatedAt": "2026-11-20T00:41:34Z",
+   "checkedAt": "2026-11-22T06:54:40.718Z",
    "verdict": "discard",
    "reason": "already assigned to @wxybear",
    "evidence": [
@@ -692,8 +668,8 @@
     "comp-sql-syntax",
     "external"
    ],
-   "updatedAt": "2026-09-11T15:33:28Z",
-   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "updatedAt": "2026-11-16T06:16:03Z",
+   "checkedAt": "2026-11-22T06:54:40.718Z",
    "verdict": "discard",
    "reason": "PR #119759 by @GauravM1781 is already open against this issue",
    "evidence": [
@@ -713,7 +689,7 @@
     "external"
    ],
    "updatedAt": "2026-09-11T15:31:11Z",
-   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "checkedAt": "2026-11-22T06:54:40.718Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -735,7 +711,7 @@
     "external"
    ],
    "updatedAt": "2026-09-11T15:30:50Z",
-   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "checkedAt": "2026-11-22T06:54:40.718Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -902,14 +878,12 @@
     "external"
    ],
    "updatedAt": "2026-09-11T14:39:15Z",
-   "checkedAt": "2026-11-15T02:43:03.155Z",
-   "verdict": "viable",
-   "reason": "no blockers found — but read the thread before you start",
+   "checkedAt": "2026-11-22T06:54:40.718Z",
+   "verdict": "discard",
+   "reason": "PR #131812 by @ayush-that is already open against this issue",
    "evidence": [
     "https://github.com/ClickHouse/ClickHouse/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/ClickHouse/ClickHouse/issues/89493",
-    "https://github.com/ClickHouse/ClickHouse/blob/HEAD/CONTRIBUTING.md",
-    "https://github.com/ClickHouse/ClickHouse/blob/HEAD/AGENTS.md"
+    "https://github.com/ClickHouse/ClickHouse/pull/131812"
    ]
   },
   {
@@ -963,12 +937,12 @@
    "labels": [
     "help wanted",
     "not planned",
-    "comp-message-queues",
     "potential bug",
-    "external"
+    "external",
+    "comp-kafka"
    ],
-   "updatedAt": "2026-09-11T14:21:22Z",
-   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "updatedAt": "2026-11-20T04:32:36Z",
+   "checkedAt": "2026-11-22T06:54:40.718Z",
    "verdict": "discard",
    "reason": "PR #117684 by @klittlepage is already open against this issue",
    "evidence": [

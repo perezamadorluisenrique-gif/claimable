@@ -4,7 +4,7 @@
  "language": "Go",
  "stars": 52688,
  "description": "Distributed reliable key-value store for the most critical data of a distributed system",
- "visitedAt": "2026-11-15T02:43:03.155Z",
+ "visitedAt": "2026-11-22T06:54:40.718Z",
  "issues": [
   {
    "number": 10246,
@@ -35,10 +35,10 @@
     "stage/tracked",
     "contribfest"
    ],
-   "updatedAt": "2026-11-11T18:19:37Z",
-   "checkedAt": "2026-11-15T02:43:03.155Z",
-   "verdict": "discard",
-   "reason": "already assigned to @Abhayrkhot",
+   "updatedAt": "2026-11-17T16:37:14Z",
+   "checkedAt": "2026-11-22T06:54:40.718Z",
+   "verdict": "reservations",
+   "reason": "PR #13651 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+17 more)",
    "evidence": [
     "https://github.com/etcd-io/etcd/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/etcd-io/etcd/pull/13651",
@@ -162,8 +162,8 @@
     "type/feature",
     "stage/triaged"
    ],
-   "updatedAt": "2026-05-28T15:28:13Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "updatedAt": "2026-11-18T16:34:30Z",
+   "checkedAt": "2026-11-22T06:54:40.718Z",
    "verdict": "discard",
    "reason": "already assigned to @akstron",
    "evidence": [
@@ -353,6 +353,42 @@
     "https://github.com/etcd-io/etcd/pull/22811",
     "https://github.com/etcd-io/etcd/pull/21062",
     "https://github.com/Asthenia0412/etcd/pull/1"
+   ]
+  },
+  {
+   "number": 22762,
+   "title": "Migrate tests/e2e/etcd_config_test.go to common testing framework",
+   "url": "https://github.com/etcd-io/etcd/issues/22762",
+   "labels": [
+    "area/testing",
+    "good first issue",
+    "No AI"
+   ],
+   "updatedAt": "2026-11-19T19:19:44Z",
+   "checkedAt": "2026-11-22T06:54:40.718Z",
+   "verdict": "discard",
+   "reason": "PR #22879 by @ywt-helloworld is already open against this issue",
+   "evidence": [
+    "https://github.com/etcd-io/etcd/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/etcd-io/etcd/pull/22879"
+   ]
+  },
+  {
+   "number": 22763,
+   "title": "Migrate tests/e2e/ctl_v3_lock_test.go to common testing framework",
+   "url": "https://github.com/etcd-io/etcd/issues/22763",
+   "labels": [
+    "area/testing",
+    "good first issue",
+    "No AI"
+   ],
+   "updatedAt": "2026-11-19T19:11:00Z",
+   "checkedAt": "2026-11-22T06:54:40.718Z",
+   "verdict": "discard",
+   "reason": "PR #22880 by @ywt-helloworld is already open against this issue",
+   "evidence": [
+    "https://github.com/etcd-io/etcd/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/etcd-io/etcd/pull/22880"
    ]
   }
  ]

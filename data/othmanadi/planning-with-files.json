@@ -4,7 +4,7 @@
  "language": "Shell",
  "stars": 27987,
  "description": "Persistent file-based planning for AI coding agents and long-running tasks. Crash-proof markdown plans, session recovery after /clear and compaction, per-turn re-injection against context rot, determi",
- "visitedAt": "2026-11-19T03:33:09.404Z",
+ "visitedAt": "2026-11-22T06:54:40.718Z",
  "issues": [
   {
    "number": 371,
@@ -23,6 +23,102 @@
     "https://github.com/OthmanAdi/planning-with-files/blob/HEAD/README.md",
     "https://docs.github.com/en/copilot/reference/hooks-configuration",
     "https://github.com/OthmanAdi/planning-with-files/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 378,
+   "title": "Plan injection needs Python 3.8+ since v3.12.0, fails silently without it, and the shell chain no longer works as a fallback",
+   "url": "https://github.com/OthmanAdi/planning-with-files/issues/378",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-21T08:40:14Z",
+   "checkedAt": "2026-11-22T06:54:40.718Z",
+   "verdict": "discard",
+   "reason": "PR #386 by @mvanhorn is already open against this issue",
+   "evidence": [
+    "https://github.com/OthmanAdi/planning-with-files/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/OthmanAdi/planning-with-files/pull/386"
+   ]
+  },
+  {
+   "number": 380,
+   "title": "SKILL.md is about 10k tokens: Claude Code keeps the first 5,000 after compaction, and three documented mechanisms no longer exist",
+   "url": "https://github.com/OthmanAdi/planning-with-files/issues/380",
+   "labels": [
+    "documentation",
+    "enhancement",
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-21T08:01:42Z",
+   "checkedAt": "2026-11-22T06:54:40.718Z",
+   "verdict": "reservations",
+   "reason": "the files this issue points at total 45 KB (largest: SKILL.md 41 KB, perf-notes.md 4 KB) — whatever the difficulty label says, this is not a small change (+2 more)",
+   "evidence": [
+    "https://github.com/OthmanAdi/planning-with-files/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/OthmanAdi/planning-with-files/issues/380",
+    "https://github.com/OthmanAdi/planning-with-files/blob/HEAD/skills/planning-with-files/SKILL.md",
+    "https://github.com/OthmanAdi/planning-with-files/blob/HEAD/docs/perf-notes.md",
+    "https://github.com/OthmanAdi/planning-with-files/blob/HEAD/README.md",
+    "https://docs.github.com/en/copilot/reference/hooks-configuration",
+    "https://github.com/OthmanAdi/planning-with-files/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 382,
+   "title": "docs: use the generated plan ID in the quick start",
+   "url": "https://github.com/OthmanAdi/planning-with-files/issues/382",
+   "labels": [
+    "documentation",
+    "help wanted",
+    "good first issue"
+   ],
+   "updatedAt": "2026-11-21T10:14:52Z",
+   "checkedAt": "2026-11-22T06:54:40.718Z",
+   "verdict": "discard",
+   "reason": "PR #387 by @inverteum is already open against this issue",
+   "evidence": [
+    "https://github.com/OthmanAdi/planning-with-files/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/OthmanAdi/planning-with-files/pull/387",
+    "https://github.com/OthmanAdi/planning-with-files/pull/388"
+   ]
+  },
+  {
+   "number": 383,
+   "title": "docs: show the status format shipped with translated plans",
+   "url": "https://github.com/OthmanAdi/planning-with-files/issues/383",
+   "labels": [
+    "documentation",
+    "help wanted",
+    "good first issue"
+   ],
+   "updatedAt": "2026-11-21T10:14:53Z",
+   "checkedAt": "2026-11-22T06:54:40.718Z",
+   "verdict": "discard",
+   "reason": "PR #387 by @inverteum is already open against this issue",
+   "evidence": [
+    "https://github.com/OthmanAdi/planning-with-files/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/OthmanAdi/planning-with-files/pull/387",
+    "https://github.com/OthmanAdi/planning-with-files/pull/388"
+   ]
+  },
+  {
+   "number": 384,
+   "title": "docs: clarify which evaluation steps can be reproduced from a fresh clone",
+   "url": "https://github.com/OthmanAdi/planning-with-files/issues/384",
+   "labels": [
+    "documentation",
+    "help wanted",
+    "good first issue"
+   ],
+   "updatedAt": "2026-11-21T08:02:00Z",
+   "checkedAt": "2026-11-22T06:54:40.718Z",
+   "verdict": "discard",
+   "reason": "PR #385 by @avaldivieso-meraki is already open against this issue",
+   "evidence": [
+    "https://github.com/OthmanAdi/planning-with-files/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/OthmanAdi/planning-with-files/pull/385"
    ]
   }
  ]

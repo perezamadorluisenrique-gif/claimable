@@ -4,7 +4,7 @@
  "language": "PHP",
  "stars": 31523,
  "description": "The Symfony PHP framework",
- "visitedAt": "2026-11-19T03:33:09.404Z",
+ "visitedAt": "2026-11-22T06:54:40.718Z",
  "issues": [
   {
    "number": 38885,
@@ -16,8 +16,8 @@
     "Help wanted",
     "Keep open"
    ],
-   "updatedAt": "2026-10-18T12:11:25Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "updatedAt": "2026-11-21T16:17:23Z",
+   "checkedAt": "2026-11-22T06:54:40.718Z",
    "verdict": "discard",
    "reason": "PR #67192 by @m1rm is already open against this issue",
    "evidence": [
@@ -74,8 +74,8 @@
     "Help wanted",
     "Missing translations"
    ],
-   "updatedAt": "2026-11-18T15:59:27Z",
-   "checkedAt": "2026-11-19T03:33:09.404Z",
+   "updatedAt": "2026-11-21T14:57:29Z",
+   "checkedAt": "2026-11-22T06:54:40.718Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -93,31 +93,12 @@
     "Missing translations"
    ],
    "updatedAt": "2026-10-29T13:47:28Z",
-   "checkedAt": "2026-11-19T03:33:09.404Z",
+   "checkedAt": "2026-11-22T06:54:40.718Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
     "https://github.com/symfony/symfony/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/symfony/symfony/issues/51903"
-   ]
-  },
-  {
-   "number": 53012,
-   "title": "Missing translations for Basque (eu)",
-   "url": "https://github.com/symfony/symfony/issues/53012",
-   "labels": [
-    "Good first issue",
-    "Help wanted",
-    "Missing translations"
-   ],
-   "updatedAt": "2026-10-29T13:46:03Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
-   "verdict": "reservations",
-   "reason": "1 stale claim, the most recent by @aetxebeste 926 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting",
-   "evidence": [
-    "https://github.com/symfony/symfony/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/symfony/symfony/issues/53012#issuecomment-2088166015",
-    "https://github.com/symfony/symfony/issues/53012"
    ]
   },
   {
@@ -150,7 +131,7 @@
     "Missing translations"
    ],
    "updatedAt": "2026-10-29T13:45:52Z",
-   "checkedAt": "2026-11-19T03:33:09.404Z",
+   "checkedAt": "2026-11-22T06:54:40.718Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -186,7 +167,7 @@
     "Missing translations"
    ],
    "updatedAt": "2026-10-29T13:45:59Z",
-   "checkedAt": "2026-11-19T03:33:09.404Z",
+   "checkedAt": "2026-11-22T06:54:40.718Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -204,7 +185,7 @@
     "Missing translations"
    ],
    "updatedAt": "2026-10-29T13:46:06Z",
-   "checkedAt": "2026-11-19T03:33:09.404Z",
+   "checkedAt": "2026-11-22T06:54:40.718Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -222,7 +203,7 @@
     "Missing translations"
    ],
    "updatedAt": "2026-10-29T13:46:26Z",
-   "checkedAt": "2026-11-19T03:33:09.404Z",
+   "checkedAt": "2026-11-22T06:54:40.718Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -240,7 +221,7 @@
     "Missing translations"
    ],
    "updatedAt": "2026-10-29T16:21:13Z",
-   "checkedAt": "2026-11-19T03:33:09.404Z",
+   "checkedAt": "2026-11-22T06:54:40.718Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -258,30 +239,12 @@
     "Missing translations"
    ],
    "updatedAt": "2026-10-29T13:46:40Z",
-   "checkedAt": "2026-11-19T03:33:09.404Z",
+   "checkedAt": "2026-11-22T06:54:40.718Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
     "https://github.com/symfony/symfony/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/symfony/symfony/issues/64496"
-   ]
-  },
-  {
-   "number": 64499,
-   "title": "Missing translations for Hebrew (he)",
-   "url": "https://github.com/symfony/symfony/issues/64499",
-   "labels": [
-    "Good first issue",
-    "Help wanted",
-    "Missing translations"
-   ],
-   "updatedAt": "2026-11-03T11:55:13Z",
-   "checkedAt": "2026-11-19T03:33:09.404Z",
-   "verdict": "viable",
-   "reason": "no blockers found — but read the thread before you start",
-   "evidence": [
-    "https://github.com/symfony/symfony/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/symfony/symfony/issues/64499"
    ]
   },
   {
@@ -294,7 +257,7 @@
     "Missing translations"
    ],
    "updatedAt": "2026-10-29T13:46:57Z",
-   "checkedAt": "2026-11-19T03:33:09.404Z",
+   "checkedAt": "2026-11-22T06:54:40.718Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -312,7 +275,7 @@
     "Missing translations"
    ],
    "updatedAt": "2026-10-24T11:40:02Z",
-   "checkedAt": "2026-11-19T03:33:09.404Z",
+   "checkedAt": "2026-11-22T06:54:40.718Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -330,7 +293,7 @@
     "Missing translations"
    ],
    "updatedAt": "2026-10-29T13:46:47Z",
-   "checkedAt": "2026-11-19T03:33:09.404Z",
+   "checkedAt": "2026-11-22T06:54:40.718Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -348,7 +311,7 @@
     "Missing translations"
    ],
    "updatedAt": "2026-10-29T13:46:09Z",
-   "checkedAt": "2026-11-19T03:33:09.404Z",
+   "checkedAt": "2026-11-22T06:54:40.718Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -366,7 +329,7 @@
     "Missing translations"
    ],
    "updatedAt": "2026-10-29T13:47:09Z",
-   "checkedAt": "2026-11-19T03:33:09.404Z",
+   "checkedAt": "2026-11-22T06:54:40.718Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -404,7 +367,7 @@
     "Missing translations"
    ],
    "updatedAt": "2026-10-24T11:40:11Z",
-   "checkedAt": "2026-11-19T03:33:09.404Z",
+   "checkedAt": "2026-11-22T06:54:40.718Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [

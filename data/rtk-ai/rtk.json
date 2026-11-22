@@ -4,7 +4,7 @@
  "language": "Rust",
  "stars": 86093,
  "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
- "visitedAt": "2026-11-21T02:20:11.484Z",
+ "visitedAt": "2026-11-22T06:54:40.718Z",
  "issues": [
   {
    "number": 294,
@@ -239,12 +239,11 @@
     "area:cli",
     "platform:windows"
    ],
-   "updatedAt": "2026-10-12T23:23:33Z",
-   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "updatedAt": "2026-11-21T12:55:03Z",
+   "checkedAt": "2026-11-22T06:54:40.718Z",
    "verdict": "discard",
    "reason": "PR #2728 by @jlaportebot is already open against this issue",
    "evidence": [
-    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
     "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/rtk-ai/rtk/pull/2728",
     "https://github.com/rtk-ai/rtk/pull/3301",
@@ -3877,12 +3876,11 @@
     "area:cli",
     "priority:medium"
    ],
-   "updatedAt": "2026-11-02T23:27:59Z",
-   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "updatedAt": "2026-11-22T02:46:57Z",
+   "checkedAt": "2026-11-22T06:54:40.718Z",
    "verdict": "discard",
    "reason": "PR #4957 by @CG-5228 is already open against this issue",
    "evidence": [
-    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
     "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/rtk-ai/rtk/pull/4957",
     "https://github.com/rtk-ai/rtk/pull/4666"
@@ -3961,14 +3959,13 @@
     "area:cli",
     "area:testing"
    ],
-   "updatedAt": "2026-11-06T16:45:53Z",
-   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "updatedAt": "2026-11-22T02:46:55Z",
+   "checkedAt": "2026-11-22T06:54:40.718Z",
    "verdict": "discard",
-   "reason": "PR #5031 by @JoaoSilvaIT is already open against this issue",
+   "reason": "PR #5123 by @Staberman is already open against this issue",
    "evidence": [
-    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
     "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/rtk-ai/rtk/pull/5031"
+    "https://github.com/rtk-ai/rtk/pull/5123"
    ]
   },
   {
@@ -4173,18 +4170,14 @@
     "priority:low",
     "area:docs"
    ],
-   "updatedAt": "2026-11-16T00:58:39Z",
-   "checkedAt": "2026-11-16T02:46:09.212Z",
-   "verdict": "reservations",
-   "reason": "PR #3918 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "updatedAt": "2026-11-22T02:46:51Z",
+   "checkedAt": "2026-11-22T06:54:40.718Z",
+   "verdict": "discard",
+   "reason": "PR #5131 by @TechWizard9999 is already open against this issue",
    "evidence": [
     "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/rtk-ai/rtk/pull/3918",
-    "https://github.com/rtk-ai/rtk/blob/HEAD/CHANGELOG.md",
-    "https://github.com/rtk-ai/rtk/blob/HEAD/hooks/README.md",
-    "https://github.com/rtk-ai/rtk/blob/HEAD/hooks/pi/rtk.ts",
-    "https://github.com/rtk-ai/rtk/blob/HEAD/CONTRIBUTING.md",
-    "https://github.com/rtk-ai/rtk/blob/HEAD/README.md"
+    "https://github.com/rtk-ai/rtk/pull/5131",
+    "https://github.com/rtk-ai/rtk/pull/3918"
    ]
   },
   {

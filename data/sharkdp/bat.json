@@ -4,7 +4,7 @@
  "language": "Rust",
  "stars": 61276,
  "description": "A cat(1) clone with wings.",
- "visitedAt": "2026-11-15T02:43:03.155Z",
+ "visitedAt": "2026-11-22T06:54:40.718Z",
  "issues": [
   {
    "number": 304,
@@ -57,24 +57,6 @@
     "https://github.com/sharkdp/bat/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/scottallan/bat-weftra-pilot/pull/1",
     "https://github.com/sharkdp/bat/pull/4074"
-   ]
-  },
-  {
-   "number": 1534,
-   "title": "Rust's async await is not highlighted correctly ",
-   "url": "https://github.com/sharkdp/bat/issues/1534",
-   "labels": [
-    "help wanted",
-    "syntax-request",
-    "syntax-highlighting"
-   ],
-   "updatedAt": "2026-08-20T16:15:43Z",
-   "checkedAt": "2026-11-11T22:03:46.308Z",
-   "verdict": "discard",
-   "reason": "PR #3892 by @JMak-Security is already open against this issue",
-   "evidence": [
-    "https://github.com/sharkdp/bat/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/sharkdp/bat/pull/3892"
    ]
   },
   {

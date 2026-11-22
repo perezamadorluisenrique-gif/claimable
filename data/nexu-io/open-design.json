@@ -4,7 +4,7 @@
  "language": "TypeScript",
  "stars": 106999,
  "description": "The 1st Collaborative AI Design Agent Workspace. Local-first and open source. Create motion, prototypes, websites, apps, dashboards, presentations, images, and videos with your team and AI agents. Sha",
- "visitedAt": "2026-11-21T02:20:11.484Z",
+ "visitedAt": "2026-11-22T06:54:40.718Z",
  "issues": [
   {
    "number": 473,
@@ -880,8 +880,8 @@
     "type/enhancement",
     "priority:p2"
    ],
-   "updatedAt": "2026-11-19T14:48:36Z",
-   "checkedAt": "2026-11-19T21:39:33.956Z",
+   "updatedAt": "2026-11-21T14:22:47Z",
+   "checkedAt": "2026-11-22T06:54:40.718Z",
    "verdict": "discard",
    "reason": "PR #9548 by @helloigig is already open against this issue",
    "evidence": [
@@ -1106,8 +1106,8 @@
     "feature",
     "needs-product-direction"
    ],
-   "updatedAt": "2026-11-20T03:45:59Z",
-   "checkedAt": "2026-11-21T02:20:11.484Z",
+   "updatedAt": "2026-11-21T03:45:21Z",
+   "checkedAt": "2026-11-22T06:54:40.718Z",
    "verdict": "discard",
    "reason": "PR #6010 by @eric-lemesre is already open against this issue",
    "evidence": [
@@ -2468,8 +2468,8 @@
     "bug",
     "help wanted"
    ],
-   "updatedAt": "2026-11-20T13:48:53Z",
-   "checkedAt": "2026-11-21T02:20:11.484Z",
+   "updatedAt": "2026-11-21T13:41:11Z",
+   "checkedAt": "2026-11-22T06:54:40.718Z",
    "verdict": "discard",
    "reason": "PR #9479 by @arjun-bali-ds is already open against this issue",
    "evidence": [
@@ -2524,14 +2524,13 @@
     "feature",
     "needs-product-direction"
    ],
-   "updatedAt": "2026-11-20T14:26:48Z",
-   "checkedAt": "2026-11-21T02:20:11.484Z",
+   "updatedAt": "2026-11-21T07:32:33Z",
+   "checkedAt": "2026-11-22T06:54:40.718Z",
    "verdict": "discard",
-   "reason": "already assigned to @dns-18",
+   "reason": "PR #14203 by @dns-18 is already open against this issue",
    "evidence": [
     "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/nexu-io/open-design/issues/9502",
-    "https://github.com/nexu-io/open-design/issues/9502#issuecomment-7041776754"
+    "https://github.com/anomalyco/models.dev/pull/14203"
    ]
   },
   {
@@ -2542,8 +2541,8 @@
     "help wanted",
     "feature"
    ],
-   "updatedAt": "2026-11-21T00:20:42Z",
-   "checkedAt": "2026-11-21T02:20:11.484Z",
+   "updatedAt": "2026-11-22T00:23:48Z",
+   "checkedAt": "2026-11-22T06:54:40.718Z",
    "verdict": "discard",
    "reason": "PR #9518 by @gi4vr is already open against this issue",
    "evidence": [
