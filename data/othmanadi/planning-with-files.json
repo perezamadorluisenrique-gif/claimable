@@ -4,7 +4,7 @@
  "language": "Shell",
  "stars": 27987,
  "description": "Persistent file-based planning for AI coding agents and long-running tasks. Crash-proof markdown plans, session recovery after /clear and compaction, per-turn re-injection against context rot, determi",
- "visitedAt": "2026-11-22T06:54:40.718Z",
+ "visitedAt": "2026-11-23T12:52:50.484Z",
  "issues": [
   {
    "number": 371,
@@ -66,25 +66,6 @@
    ]
   },
   {
-   "number": 382,
-   "title": "docs: use the generated plan ID in the quick start",
-   "url": "https://github.com/OthmanAdi/planning-with-files/issues/382",
-   "labels": [
-    "documentation",
-    "help wanted",
-    "good first issue"
-   ],
-   "updatedAt": "2026-11-21T10:14:52Z",
-   "checkedAt": "2026-11-22T06:54:40.718Z",
-   "verdict": "discard",
-   "reason": "PR #387 by @inverteum is already open against this issue",
-   "evidence": [
-    "https://github.com/OthmanAdi/planning-with-files/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/OthmanAdi/planning-with-files/pull/387",
-    "https://github.com/OthmanAdi/planning-with-files/pull/388"
-   ]
-  },
-  {
    "number": 383,
    "title": "docs: show the status format shipped with translated plans",
    "url": "https://github.com/OthmanAdi/planning-with-files/issues/383",
@@ -101,24 +82,6 @@
     "https://github.com/OthmanAdi/planning-with-files/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/OthmanAdi/planning-with-files/pull/387",
     "https://github.com/OthmanAdi/planning-with-files/pull/388"
-   ]
-  },
-  {
-   "number": 384,
-   "title": "docs: clarify which evaluation steps can be reproduced from a fresh clone",
-   "url": "https://github.com/OthmanAdi/planning-with-files/issues/384",
-   "labels": [
-    "documentation",
-    "help wanted",
-    "good first issue"
-   ],
-   "updatedAt": "2026-11-21T08:02:00Z",
-   "checkedAt": "2026-11-22T06:54:40.718Z",
-   "verdict": "discard",
-   "reason": "PR #385 by @avaldivieso-meraki is already open against this issue",
-   "evidence": [
-    "https://github.com/OthmanAdi/planning-with-files/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/OthmanAdi/planning-with-files/pull/385"
    ]
   }
  ]

@@ -4,7 +4,7 @@
  "language": "TypeScript",
  "stars": 106999,
  "description": "The 1st Collaborative AI Design Agent Workspace. Local-first and open source. Create motion, prototypes, websites, apps, dashboards, presentations, images, and videos with your team and AI agents. Sha",
- "visitedAt": "2026-11-22T06:54:40.718Z",
+ "visitedAt": "2026-11-23T12:52:50.484Z",
  "issues": [
   {
    "number": 473,
@@ -880,8 +880,8 @@
     "type/enhancement",
     "priority:p2"
    ],
-   "updatedAt": "2026-11-21T14:22:47Z",
-   "checkedAt": "2026-11-22T06:54:40.718Z",
+   "updatedAt": "2026-11-22T14:26:14Z",
+   "checkedAt": "2026-11-23T12:52:50.484Z",
    "verdict": "discard",
    "reason": "PR #9548 by @helloigig is already open against this issue",
    "evidence": [
@@ -1215,8 +1215,8 @@
     "good first issue",
     "help wanted"
    ],
-   "updatedAt": "2026-11-09T11:27:42Z",
-   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "updatedAt": "2026-11-23T12:09:02Z",
+   "checkedAt": "2026-11-23T12:52:50.484Z",
    "verdict": "discard",
    "reason": "PR #6419 by @linghaoSu is already open against this issue",
    "evidence": [
@@ -2558,16 +2558,13 @@
     "bug",
     "help wanted"
    ],
-   "updatedAt": "2026-11-18T09:23:17Z",
-   "checkedAt": "2026-11-18T14:03:59.541Z",
-   "verdict": "reservations",
-   "reason": "setup instructions live outside the repository (https://docs.anthropic.com/en/docs/claude-code/skills) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "updatedAt": "2026-11-23T12:23:35Z",
+   "checkedAt": "2026-11-23T12:52:50.484Z",
+   "verdict": "discard",
+   "reason": "PR #9601 by @sonic74129 is already open against this issue",
    "evidence": [
     "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/nexu-io/open-design/issues/9535",
-    "https://github.com/nexu-io/open-design/blob/HEAD/CONTRIBUTING.md",
-    "https://github.com/nexu-io/open-design/blob/HEAD/.github/AGENTS.md",
-    "https://docs.anthropic.com/en/docs/claude-code/skills"
+    "https://github.com/nexu-io/open-design/pull/9601"
    ]
   },
   {
@@ -2599,8 +2596,8 @@
     "good first issue",
     "help wanted"
    ],
-   "updatedAt": "2026-11-19T06:27:55Z",
-   "checkedAt": "2026-11-19T21:39:33.956Z",
+   "updatedAt": "2026-11-22T07:16:34Z",
+   "checkedAt": "2026-11-23T12:52:50.484Z",
    "verdict": "discard",
    "reason": "PR #9554 by @maheshrijal is already open against this issue",
    "evidence": [
@@ -2616,8 +2613,8 @@
     "bug",
     "help wanted"
    ],
-   "updatedAt": "2026-11-19T12:40:01Z",
-   "checkedAt": "2026-11-19T21:39:33.956Z",
+   "updatedAt": "2026-11-22T11:51:06Z",
+   "checkedAt": "2026-11-23T12:52:50.484Z",
    "verdict": "discard",
    "reason": "PR #9565 by @Abhishek764 is already open against this issue",
    "evidence": [
@@ -2669,8 +2666,8 @@
     "bug",
     "help wanted"
    ],
-   "updatedAt": "2026-11-20T21:13:16Z",
-   "checkedAt": "2026-11-21T02:20:11.484Z",
+   "updatedAt": "2026-11-22T21:16:15Z",
+   "checkedAt": "2026-11-23T12:52:50.484Z",
    "verdict": "discard",
    "reason": "already assigned to @xxiaoxiong",
    "evidence": [

@@ -4,7 +4,7 @@
  "language": "Java",
  "stars": 37801,
  "description": "Open Source Identity and Access Management For Modern Applications and Services",
- "visitedAt": "2026-11-22T06:54:40.718Z",
+ "visitedAt": "2026-11-23T12:52:50.484Z",
  "issues": [
   {
    "number": 8744,
@@ -130,29 +130,6 @@
     "https://github.com/keycloak/keycloak/blob/HEAD/README.md",
     "https://docs.microsoft.com/en-us/answers/questions/60633/azure-ad-openid-connect-post-logout-redirect-uri-w.html#answer-64473",
     "https://github.com/keycloak/keycloak/blob/HEAD/CONTRIBUTING.md"
-   ]
-  },
-  {
-   "number": 15567,
-   "title": "Client credentials hashing (encryption / decryption)",
-   "url": "https://github.com/keycloak/keycloak/issues/15567",
-   "labels": [
-    "priority/important",
-    "area/storage",
-    "help wanted",
-    "team/core-clients",
-    "team/core-shared",
-    "kind/weakness"
-   ],
-   "updatedAt": "2026-10-06T14:28:17Z",
-   "checkedAt": "2026-11-11T06:29:52.958Z",
-   "verdict": "discard",
-   "reason": "PR #54036 by @fatalerror12 is already open against this issue",
-   "evidence": [
-    "https://github.com/keycloak/keycloak/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/keycloak/keycloak/issues/54036",
-    "https://github.com/keycloak/keycloak/issues/39933",
-    "https://github.com/keycloak/keycloak/issues/42516"
    ]
   },
   {
@@ -1780,8 +1757,8 @@
     "priority/normal",
     "team/core-authn"
    ],
-   "updatedAt": "2026-11-19T11:07:01Z",
-   "checkedAt": "2026-11-19T21:39:33.956Z",
+   "updatedAt": "2026-11-23T07:02:36Z",
+   "checkedAt": "2026-11-23T12:52:50.484Z",
    "verdict": "discard",
    "reason": "PR #54167 by @choksi2212 is already open against this issue",
    "evidence": [
@@ -2010,6 +1987,29 @@
    "evidence": [
     "https://github.com/keycloak/keycloak/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/keycloak/keycloak/pull/54492"
+   ]
+  },
+  {
+   "number": 54498,
+   "title": "26.8 upgrade notes: reset password no longer marks email as verified",
+   "url": "https://github.com/keycloak/keycloak/issues/54498",
+   "labels": [
+    "area/authentication",
+    "kind/bug",
+    "help wanted",
+    "status/auto-expire",
+    "status/auto-bump",
+    "priority/normal",
+    "team/core-authn",
+    "status/labeled-by-bot"
+   ],
+   "updatedAt": "2026-11-23T10:08:36Z",
+   "checkedAt": "2026-11-23T12:52:50.484Z",
+   "verdict": "discard",
+   "reason": "@ChethankumarGS claimed it 8 days ago",
+   "evidence": [
+    "https://github.com/keycloak/keycloak/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/keycloak/keycloak/issues/54498#issuecomment-6889840233"
    ]
   },
   {
