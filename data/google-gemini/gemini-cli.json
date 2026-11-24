@@ -4,7 +4,7 @@
  "language": "TypeScript",
  "stars": 108760,
  "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
- "visitedAt": "2026-11-21T18:00:03.889Z",
+ "visitedAt": "2026-11-24T21:15:51.266Z",
  "issues": [
   {
    "number": 3375,
@@ -133,14 +133,15 @@
     "kind/enhancement",
     "help wanted"
    ],
-   "updatedAt": "2026-11-17T09:02:58Z",
-   "checkedAt": "2026-11-18T14:03:59.541Z",
+   "updatedAt": "2026-11-22T19:11:06Z",
+   "checkedAt": "2026-11-24T21:15:51.266Z",
    "verdict": "discard",
    "reason": "PR #28738 by @akash-manna-sky is already open against this issue",
    "evidence": [
     "https://github.com/google-gemini/gemini-cli/pulls?q=is%3Apr+is%3Aclosed",
     "https://github.com/google-gemini/gemini-cli/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/google-gemini/gemini-cli/pull/28738"
+    "https://github.com/google-gemini/gemini-cli/pull/28738",
+    "https://github.com/akash-manna-sky/gemini-cli/pull/1"
    ]
   },
   {
@@ -180,8 +181,8 @@
     "kind/enhancement",
     "help wanted"
    ],
-   "updatedAt": "2026-11-16T05:35:34Z",
-   "checkedAt": "2026-11-18T14:03:59.541Z",
+   "updatedAt": "2026-11-23T09:03:00Z",
+   "checkedAt": "2026-11-24T21:15:51.266Z",
    "verdict": "discard",
    "reason": "PR #27400 by @manohar-munna is already open against this issue",
    "evidence": [
@@ -203,13 +204,15 @@
     "good first issue",
     "effort/small"
    ],
-   "updatedAt": "2026-11-06T01:36:50Z",
-   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "updatedAt": "2026-11-24T12:57:21Z",
+   "checkedAt": "2026-11-24T21:15:51.266Z",
    "verdict": "discard",
-   "reason": "PR #30159 by @xh123637 is already open against this issue",
+   "reason": "@Shashank123-wq-tech claimed it today",
    "evidence": [
+    "https://github.com/google-gemini/gemini-cli/pulls?q=is%3Apr+is%3Aclosed",
     "https://github.com/google-gemini/gemini-cli/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/google-gemini/gemini-cli/pull/30159"
+    "https://github.com/google-gemini/gemini-cli/issues/28445#issuecomment-7132146673",
+    "https://github.com/google-gemini/gemini-cli/issues/28445#issuecomment-5460677696"
    ]
   },
   {

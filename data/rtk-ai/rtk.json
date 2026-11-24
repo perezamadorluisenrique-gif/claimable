@@ -4,7 +4,7 @@
  "language": "Rust",
  "stars": 86093,
  "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
- "visitedAt": "2026-11-23T12:52:50.484Z",
+ "visitedAt": "2026-11-24T21:15:51.266Z",
  "issues": [
   {
    "number": 294,
@@ -916,12 +916,11 @@
     "priority:low",
     "area:cli"
    ],
-   "updatedAt": "2026-11-17T02:27:25Z",
-   "checkedAt": "2026-11-17T04:31:55.832Z",
+   "updatedAt": "2026-11-24T20:10:00Z",
+   "checkedAt": "2026-11-24T21:15:51.266Z",
    "verdict": "discard",
    "reason": "PR #3713 by @IDjinn is already open against this issue",
    "evidence": [
-    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
     "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/rtk-ai/rtk/pull/3713"
    ]
@@ -1288,12 +1287,11 @@
     "area:cli",
     "area:security"
    ],
-   "updatedAt": "2026-10-14T12:57:52Z",
-   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "updatedAt": "2026-11-24T18:57:48Z",
+   "checkedAt": "2026-11-24T21:15:51.266Z",
    "verdict": "discard",
    "reason": "PR #3414 by @RawNuke is already open against this issue",
    "evidence": [
-    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
     "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/rtk-ai/rtk/pull/3414",
     "https://github.com/rtk-ai/rtk/pull/3424",
@@ -1652,12 +1650,11 @@
     "area:cli",
     "platform:windows"
    ],
-   "updatedAt": "2026-11-17T08:27:10Z",
-   "checkedAt": "2026-11-18T14:03:59.541Z",
+   "updatedAt": "2026-11-23T17:23:30Z",
+   "checkedAt": "2026-11-24T21:15:51.266Z",
    "verdict": "discard",
    "reason": "PR #4103 by @KuSh is already open against this issue",
    "evidence": [
-    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
     "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/rtk-ai/rtk/pull/4103",
     "https://github.com/rtk-ai/rtk/pull/4257",
@@ -2686,8 +2683,8 @@
     "area:cli",
     "platform:windows"
    ],
-   "updatedAt": "2026-11-23T10:08:49Z",
-   "checkedAt": "2026-11-23T12:52:50.484Z",
+   "updatedAt": "2026-11-24T17:22:47Z",
+   "checkedAt": "2026-11-24T21:15:51.266Z",
    "verdict": "discard",
    "reason": "PR #4527 by @Hdx123321 is already open against this issue",
    "evidence": [
@@ -4077,14 +4074,18 @@
     "area:cli",
     "priority:medium"
    ],
-   "updatedAt": "2026-11-09T06:54:42Z",
-   "checkedAt": "2026-11-11T22:03:46.308Z",
-   "verdict": "discard",
-   "reason": "PR #769 by @BSD-Yassin is already open against this issue",
+   "updatedAt": "2026-11-24T04:08:19Z",
+   "checkedAt": "2026-11-24T21:15:51.266Z",
+   "verdict": "reservations",
+   "reason": "PR #769 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
    "evidence": [
-    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
     "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/rtk-ai/rtk/pull/769"
+    "https://github.com/rtk-ai/rtk/pull/769",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/src/discover/registry.rs",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/src/filters/ssh.toml",
+    "https://github.com/rtk-ai/rtk/issues/5051",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/rtk-ai/rtk/blob/HEAD/README.md"
    ]
   },
   {

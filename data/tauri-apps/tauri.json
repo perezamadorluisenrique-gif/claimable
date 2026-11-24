@@ -4,7 +4,7 @@
  "language": "Rust",
  "stars": 112671,
  "description": "Build smaller, faster, and more secure desktop and mobile applications with a web frontend.",
- "visitedAt": "2026-11-21T18:00:03.889Z",
+ "visitedAt": "2026-11-24T21:15:51.266Z",
  "issues": [
   {
    "number": 64,
@@ -344,31 +344,6 @@
    "evidence": [
     "https://github.com/tauri-apps/tauri/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/tauri-apps/tao/pull/1404"
-   ]
-  },
-  {
-   "number": 15408,
-   "title": "[bug] WebView2 custom protocol can clone DispatcherMainThreadContext off the main thread",
-   "url": "https://github.com/tauri-apps/tauri/issues/15408",
-   "labels": [
-    "type: bug",
-    "help wanted",
-    "priority: 1 high",
-    "platform: Windows"
-   ],
-   "updatedAt": "2026-11-12T12:53:02Z",
-   "checkedAt": "2026-11-15T10:59:03.445Z",
-   "verdict": "discard",
-   "reason": "PR #15411 by @Legend-Master is already open against this issue",
-   "evidence": [
-    "https://github.com/tauri-apps/tauri/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/tauri-apps/tauri/pull/15411",
-    "https://github.com/UtkarshBhardwaj007/murmur/pull/4",
-    "https://github.com/guoyongchang/worktree-manager/pull/55",
-    "https://github.com/MERURUXD/oc-claw/pull/88",
-    "https://github.com/safing/portmaster/pull/2281",
-    "https://github.com/NeuralNomadsAI/CodeNomad/pull/996",
-    "https://github.com/memrynote/memry/pull/4333"
    ]
   },
   {

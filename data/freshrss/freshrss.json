@@ -4,7 +4,7 @@
  "language": "PHP",
  "stars": 16551,
  "description": "A free, self-hostable news aggregator…",
- "visitedAt": "2026-11-21T11:09:42.899Z",
+ "visitedAt": "2026-11-24T21:15:51.266Z",
  "issues": [
   {
    "number": 947,
@@ -112,7 +112,7 @@
     "Feature Request"
    ],
    "updatedAt": "2022-09-03T09:58:48Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
+   "checkedAt": "2026-11-24T21:15:51.266Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -131,7 +131,7 @@
     "Feature Request"
    ],
    "updatedAt": "2026-08-09T00:39:36Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
+   "checkedAt": "2026-11-24T21:15:51.266Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -188,7 +188,7 @@
     "Feature Request"
    ],
    "updatedAt": "2023-12-12T14:19:23Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
+   "checkedAt": "2026-11-24T21:15:51.266Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -227,7 +227,7 @@
     "Feature Request"
    ],
    "updatedAt": "2026-05-03T12:57:43Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
+   "checkedAt": "2026-11-24T21:15:51.266Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -246,7 +246,7 @@
     "API :handshake:"
    ],
    "updatedAt": "2026-09-22T05:13:00Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
+   "checkedAt": "2026-11-24T21:15:51.266Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -264,7 +264,7 @@
     "Feature Request"
    ],
    "updatedAt": "2022-08-28T19:15:07Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
+   "checkedAt": "2026-11-24T21:15:51.266Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -282,7 +282,7 @@
     "Feature Request"
    ],
    "updatedAt": "2022-08-28T15:27:14Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
+   "checkedAt": "2026-11-24T21:15:51.266Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -338,7 +338,7 @@
     "API :handshake:"
    ],
    "updatedAt": "2022-08-28T15:18:54Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
+   "checkedAt": "2026-11-24T21:15:51.266Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -375,7 +375,7 @@
     "Feature Request"
    ],
    "updatedAt": "2022-08-28T14:07:39Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
+   "checkedAt": "2026-11-24T21:15:51.266Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -395,7 +395,7 @@
     "Feature Request"
    ],
    "updatedAt": "2022-08-28T13:27:31Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
+   "checkedAt": "2026-11-24T21:15:51.266Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -413,7 +413,7 @@
     "Feature Request"
    ],
    "updatedAt": "2022-08-28T12:23:46Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
+   "checkedAt": "2026-11-24T21:15:51.266Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -451,7 +451,7 @@
     "help wanted"
    ],
    "updatedAt": "2024-11-05T19:12:47Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
+   "checkedAt": "2026-11-24T21:15:51.266Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -471,7 +471,7 @@
     "Sharing"
    ],
    "updatedAt": "2025-10-02T11:54:35Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
+   "checkedAt": "2026-11-24T21:15:51.266Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -526,8 +526,8 @@
     "help wanted",
     "Feature Request"
    ],
-   "updatedAt": "2026-09-08T20:47:10Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "updatedAt": "2026-11-23T08:29:02Z",
+   "checkedAt": "2026-11-24T21:15:51.266Z",
    "verdict": "discard",
    "reason": "already assigned to @Inverle",
    "evidence": [
@@ -561,7 +561,7 @@
     "help wanted"
    ],
    "updatedAt": "2023-12-12T14:20:54Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
+   "checkedAt": "2026-11-24T21:15:51.266Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -580,7 +580,7 @@
     "help wanted"
    ],
    "updatedAt": "2024-02-19T02:10:03Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
+   "checkedAt": "2026-11-24T21:15:51.266Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -659,7 +659,7 @@
     "help wanted"
    ],
    "updatedAt": "2024-03-12T19:36:56Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
+   "checkedAt": "2026-11-24T21:15:51.266Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -677,7 +677,7 @@
     "help wanted"
    ],
    "updatedAt": "2024-03-05T12:18:03Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
+   "checkedAt": "2026-11-24T21:15:51.266Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -716,7 +716,7 @@
     "Web Scraping"
    ],
    "updatedAt": "2024-09-22T16:22:37Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
+   "checkedAt": "2026-11-24T21:15:51.266Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -736,7 +736,7 @@
     "Hacktoberfest"
    ],
    "updatedAt": "2026-05-03T12:55:24Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
+   "checkedAt": "2026-11-24T21:15:51.266Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -756,7 +756,7 @@
     "Hacktoberfest"
    ],
    "updatedAt": "2026-05-03T12:55:25Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
+   "checkedAt": "2026-11-24T21:15:51.266Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -776,7 +776,7 @@
     "UX"
    ],
    "updatedAt": "2026-10-20T11:40:38Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
+   "checkedAt": "2026-11-24T21:15:51.266Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -794,7 +794,7 @@
     "Feature Request"
    ],
    "updatedAt": "2025-02-06T13:55:25Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
+   "checkedAt": "2026-11-24T21:15:51.266Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -813,7 +813,7 @@
     "UX"
    ],
    "updatedAt": "2024-10-30T13:59:27Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
+   "checkedAt": "2026-11-24T21:15:51.266Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -832,7 +832,7 @@
     "RSS standard"
    ],
    "updatedAt": "2024-09-20T22:09:47Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
+   "checkedAt": "2026-11-24T21:15:51.266Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -875,7 +875,7 @@
     "help wanted"
    ],
    "updatedAt": "2026-11-09T20:44:37Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
+   "checkedAt": "2026-11-24T21:15:51.266Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -895,7 +895,7 @@
     "Hacktoberfest"
    ],
    "updatedAt": "2025-10-04T13:53:53Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
+   "checkedAt": "2026-11-24T21:15:51.266Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -953,7 +953,7 @@
     "help wanted"
    ],
    "updatedAt": "2024-11-19T18:55:59Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
+   "checkedAt": "2026-11-24T21:15:51.266Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -989,8 +989,8 @@
     "Hacktoberfest",
     "Bug (unconfirmed)"
    ],
-   "updatedAt": "2026-09-08T20:46:34Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "updatedAt": "2026-11-23T08:26:13Z",
+   "checkedAt": "2026-11-24T21:15:51.266Z",
    "verdict": "discard",
    "reason": "PR #9078 by @Elgeryy1 is already open against this issue",
    "evidence": [
@@ -1008,8 +1008,8 @@
     "Security :shield:",
     "help wanted"
    ],
-   "updatedAt": "2026-09-08T20:46:35Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "updatedAt": "2026-11-23T08:26:17Z",
+   "checkedAt": "2026-11-24T21:15:51.266Z",
    "verdict": "discard",
    "reason": "PR #9048 by @Elgeryy1 is already open against this issue",
    "evidence": [
@@ -1027,8 +1027,8 @@
     "Docker 🐋",
     "Feature Request"
    ],
-   "updatedAt": "2026-09-08T20:46:35Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "updatedAt": "2026-11-23T08:26:21Z",
+   "checkedAt": "2026-11-24T21:15:51.266Z",
    "verdict": "discard",
    "reason": "PR #9030 by @Elgeryy1 is already open against this issue",
    "evidence": [
@@ -1046,7 +1046,7 @@
     "Feature Request"
    ],
    "updatedAt": "2025-02-26T08:25:57Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
+   "checkedAt": "2026-11-24T21:15:51.266Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -1082,7 +1082,7 @@
     "Feature Request"
    ],
    "updatedAt": "2025-03-17T10:32:23Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
+   "checkedAt": "2026-11-24T21:15:51.266Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -1239,7 +1239,7 @@
     "RSS standard"
    ],
    "updatedAt": "2025-12-16T14:37:51Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
+   "checkedAt": "2026-11-24T21:15:51.266Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -1258,7 +1258,7 @@
     "help wanted"
    ],
    "updatedAt": "2026-09-25T12:23:19Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
+   "checkedAt": "2026-11-24T21:15:51.266Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -1274,8 +1274,8 @@
     "Good first issue 1️⃣",
     "help wanted"
    ],
-   "updatedAt": "2026-09-08T20:46:37Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "updatedAt": "2026-11-23T08:26:24Z",
+   "checkedAt": "2026-11-24T21:15:51.266Z",
    "verdict": "discard",
    "reason": "PR #9138 by @Elgeryy1 is already open against this issue",
    "evidence": [
@@ -1294,7 +1294,7 @@
     "Feature Request"
    ],
    "updatedAt": "2026-01-30T13:01:41Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
+   "checkedAt": "2026-11-24T21:15:51.266Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -1349,7 +1349,7 @@
     "Feature Request"
    ],
    "updatedAt": "2025-12-20T16:10:39Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
+   "checkedAt": "2026-11-24T21:15:51.266Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -1368,7 +1368,7 @@
     "Feature Request"
    ],
    "updatedAt": "2026-02-01T12:38:10Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
+   "checkedAt": "2026-11-24T21:15:51.266Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -1406,8 +1406,8 @@
     "help wanted",
     "Feature Request"
    ],
-   "updatedAt": "2026-09-08T20:46:38Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "updatedAt": "2026-11-23T08:26:31Z",
+   "checkedAt": "2026-11-24T21:15:51.266Z",
    "verdict": "discard",
    "reason": "PR #9021 by @Elgeryy1 is already open against this issue",
    "evidence": [
@@ -1425,7 +1425,7 @@
     "Bug (unconfirmed)"
    ],
    "updatedAt": "2026-03-07T22:01:54Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
+   "checkedAt": "2026-11-24T21:15:51.266Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -1442,8 +1442,8 @@
     "help wanted",
     "Bug (unconfirmed)"
    ],
-   "updatedAt": "2026-09-08T20:46:40Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
+   "updatedAt": "2026-11-23T08:26:41Z",
+   "checkedAt": "2026-11-24T21:15:51.266Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -1482,7 +1482,7 @@
     "UX"
    ],
    "updatedAt": "2026-07-06T10:20:57Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
+   "checkedAt": "2026-11-24T21:15:51.266Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -1500,7 +1500,7 @@
     "Bug (unconfirmed)"
    ],
    "updatedAt": "2026-04-17T09:33:35Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
+   "checkedAt": "2026-11-24T21:15:51.266Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -1517,8 +1517,8 @@
     "help wanted",
     "Bug (confirmed) 🐞"
    ],
-   "updatedAt": "2026-10-05T19:34:00Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "updatedAt": "2026-11-23T08:26:55Z",
+   "checkedAt": "2026-11-24T21:15:51.266Z",
    "verdict": "reservations",
    "reason": "PR #8833 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
    "evidence": [
@@ -1558,8 +1558,8 @@
     "help wanted",
     "Bug (confirmed) 🐞"
    ],
-   "updatedAt": "2026-09-08T20:46:47Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "updatedAt": "2026-11-23T08:27:12Z",
+   "checkedAt": "2026-11-24T21:15:51.266Z",
    "verdict": "discard",
    "reason": "PR #9239 by @mmustafasenoglu is already open against this issue",
    "evidence": [
@@ -1578,8 +1578,8 @@
     "API :handshake:",
     "Sharing"
    ],
-   "updatedAt": "2026-09-08T20:46:48Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "updatedAt": "2026-11-23T08:27:16Z",
+   "checkedAt": "2026-11-24T21:15:51.266Z",
    "verdict": "discard",
    "reason": "PR #9243 by @Alkarex is already open against this issue",
    "evidence": [

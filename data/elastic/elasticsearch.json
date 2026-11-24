@@ -4,7 +4,7 @@
  "language": "Java",
  "stars": 78551,
  "description": "Free and Open Source, Distributed, RESTful Search Engine",
- "visitedAt": "2026-11-21T18:00:03.889Z",
+ "visitedAt": "2026-11-24T21:15:51.266Z",
  "issues": [
   {
    "number": 4227,
@@ -1890,6 +1890,24 @@
    ]
   },
   {
+   "number": 160433,
+   "title": "[DOCS][Inference API] _update lists service and service_settings as required",
+   "url": "https://github.com/elastic/elasticsearch/issues/160433",
+   "labels": [
+    "good first issue",
+    ":SearchOrg/Inference",
+    "Team:Search - Inference"
+   ],
+   "updatedAt": "2026-11-23T16:30:26Z",
+   "checkedAt": "2026-11-24T21:15:51.266Z",
+   "verdict": "discard",
+   "reason": "PR #7045 by @whitmore12 is already open against this issue",
+   "evidence": [
+    "https://github.com/elastic/elasticsearch/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/elastic/elasticsearch-specification/pull/7045"
+   ]
+  },
+  {
    "number": 164776,
    "title": "Implement mutateInstance inside serialisation tests",
    "url": "https://github.com/elastic/elasticsearch/issues/164776",
@@ -1901,8 +1919,8 @@
     "Meta",
     "Team:Core/Infra"
    ],
-   "updatedAt": "2026-11-20T17:39:28Z",
-   "checkedAt": "2026-11-21T18:00:03.889Z",
+   "updatedAt": "2026-11-24T19:18:52Z",
+   "checkedAt": "2026-11-24T21:15:51.266Z",
    "verdict": "discard",
    "reason": "PR #164791 by @joshua-adams-1 is already open against this issue",
    "evidence": [
@@ -1915,7 +1933,7 @@
     "https://github.com/elastic/elasticsearch/pull/166365",
     "https://github.com/elastic/elasticsearch/pull/166599",
     "https://github.com/elastic/elasticsearch/pull/166935",
-    "https://github.com/elastic/elasticsearch/pull/164872"
+    "https://github.com/elastic/elasticsearch/pull/167050"
    ]
   }
  ]

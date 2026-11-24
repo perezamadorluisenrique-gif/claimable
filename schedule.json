@@ -56,7 +56,7 @@
   "lastNewIssue": null
  },
  "prettier/prettier": {
-  "nextCheck": "2026-11-24T11:09:42.899Z",
+  "nextCheck": "2026-11-27T21:15:51.266Z",
   "lastNewIssue": "2026-11-13T16:40:50Z"
  },
  "openclaw/openclaw": {
@@ -84,16 +84,16 @@
   "lastNewIssue": "2026-11-15T21:37:12Z"
  },
  "supabase/supabase": {
-  "nextCheck": "2026-11-24T18:00:03.889Z",
+  "nextCheck": "2026-11-27T21:15:51.266Z",
   "lastNewIssue": "2026-11-14T12:13:07Z"
  },
  "google-gemini/gemini-cli": {
-  "nextCheck": "2026-11-24T18:00:03.889Z",
+  "nextCheck": "2026-11-27T21:15:51.266Z",
   "lastNewIssue": "2026-10-25T23:31:22Z"
  },
  "nexu-io/open-design": {
-  "nextCheck": "2026-11-24T12:52:50.484Z",
-  "lastNewIssue": "2026-11-20T08:56:47Z"
+  "nextCheck": "2026-11-25T21:15:51.266Z",
+  "lastNewIssue": "2026-11-24T18:33:02Z"
  },
  "ant-design/ant-design": {
   "nextCheck": "2026-11-28T23:21:26.689Z",
@@ -180,7 +180,7 @@
   "lastNewIssue": "2026-08-17T04:51:33Z"
  },
  "elastic/elasticsearch": {
-  "nextCheck": "2026-11-24T18:00:03.889Z",
+  "nextCheck": "2026-11-27T21:15:51.266Z",
   "lastNewIssue": "2026-11-05T10:53:29Z"
  },
  "termux/termux-app": {
@@ -204,8 +204,8 @@
   "lastNewIssue": "2026-09-28T14:34:37Z"
  },
  "keycloak/keycloak": {
-  "nextCheck": "2026-11-24T12:52:50.484Z",
-  "lastNewIssue": "2026-11-17T17:18:57Z"
+  "nextCheck": "2026-11-25T21:15:51.266Z",
+  "lastNewIssue": "2026-11-18T14:50:00Z"
  },
  "alibaba/arthas": {
   "nextCheck": "2026-11-25T14:03:59.541Z",
@@ -252,7 +252,7 @@
   "lastNewIssue": "2026-11-23T18:38:49Z"
  },
  "microsoft/typescript": {
-  "nextCheck": "2026-11-24T18:00:03.889Z",
+  "nextCheck": "2026-11-27T21:15:51.266Z",
   "lastNewIssue": "2026-11-10T18:13:20Z"
  },
  "syncthing/syncthing": {
@@ -276,7 +276,7 @@
   "lastNewIssue": "2026-03-27T20:55:01Z"
  },
  "rclone/rclone": {
-  "nextCheck": "2026-11-24T11:09:42.899Z",
+  "nextCheck": "2026-11-27T21:15:51.266Z",
   "lastNewIssue": "2026-11-13T15:42:49Z"
  },
  "multica-ai/multica": {
@@ -308,7 +308,7 @@
   "lastNewIssue": "2026-07-06T15:02:20Z"
  },
  "tauri-apps/tauri": {
-  "nextCheck": "2026-11-24T18:00:03.889Z",
+  "nextCheck": "2026-11-27T21:15:51.266Z",
   "lastNewIssue": "2026-10-30T04:56:36Z"
  },
  "denoland/deno": {
@@ -324,7 +324,7 @@
   "lastNewIssue": "2026-01-16T09:32:03Z"
  },
  "rtk-ai/rtk": {
-  "nextCheck": "2026-11-24T12:52:50.484Z",
+  "nextCheck": "2026-11-27T21:15:51.266Z",
   "lastNewIssue": "2026-11-16T13:05:00Z"
  },
  "dani-garcia/vaultwarden": {
@@ -572,7 +572,7 @@
   "lastNewIssue": "2023-08-22T09:48:40Z"
  },
  "freshrss/freshrss": {
-  "nextCheck": "2026-11-24T11:09:42.899Z",
+  "nextCheck": "2026-11-27T21:15:51.266Z",
   "lastNewIssue": "2026-11-14T10:27:22Z"
  },
  "getgrav/grav": {
@@ -1144,7 +1144,7 @@
   "lastNewIssue": "2025-03-19T00:01:35Z"
  },
  "othmanadi/planning-with-files": {
-  "nextCheck": "2026-11-24T12:52:50.484Z",
+  "nextCheck": "2026-11-25T21:15:51.266Z",
   "lastNewIssue": "2026-11-21T08:02:00Z"
  },
  "zsh-users/zsh-syntax-highlighting": {
