@@ -4,7 +4,7 @@
  "language": "Dart",
  "stars": 21410,
  "description": "Get Android app updates straight from the source.",
- "visitedAt": "2026-11-17T04:31:55.832Z",
+ "visitedAt": "2026-11-24T10:58:53.462Z",
  "issues": [
   {
    "number": 121,
@@ -79,25 +79,6 @@
    "evidence": [
     "https://github.com/ImranR98/Obtainium/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/ImranR98/Obtainium/issues/686",
-    "https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification#ssh-commit-signature-verification"
-   ]
-  },
-  {
-   "number": 698,
-   "title": "Add a toggle to refresh",
-   "url": "https://github.com/ImranR98/Obtainium/issues/698",
-   "labels": [
-    "enhancement",
-    "good first issue",
-    "UI"
-   ],
-   "updatedAt": "2026-11-13T15:54:47Z",
-   "checkedAt": "2026-11-13T22:40:39.276Z",
-   "verdict": "reservations",
-   "reason": "setup instructions live outside the repository (https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification#ssh-commit-signature-verification) — this filter only reads files in the repo, so the real setup cost is unverified",
-   "evidence": [
-    "https://github.com/ImranR98/Obtainium/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/ImranR98/Obtainium/issues/698",
     "https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification#ssh-commit-signature-verification"
    ]
   },
