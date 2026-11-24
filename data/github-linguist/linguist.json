@@ -4,7 +4,7 @@
  "language": "Ruby",
  "stars": 13780,
  "description": "Language Savant. If your repository's language is being reported incorrectly, send us a pull request!",
- "visitedAt": "2026-11-20T21:09:40.714Z",
+ "visitedAt": "2026-11-24T00:55:21.548Z",
  "issues": [
   {
    "number": 3924,
@@ -28,23 +28,6 @@
     "https://github.com/github-linguist/linguist/pull/3973",
     "https://github.com/leanprover/vscode-lean/pull/121",
     "https://github.com/github-linguist/linguist/pull/4546"
-   ]
-  },
-  {
-   "number": 4727,
-   "title": "Handlebars identified as Harbour",
-   "url": "https://github.com/github-linguist/linguist/issues/4727",
-   "labels": [
-    "Misidentified Language",
-    "Good First Issue"
-   ],
-   "updatedAt": "2022-11-24T12:00:57Z",
-   "checkedAt": "2026-11-20T21:09:40.714Z",
-   "verdict": "discard",
-   "reason": "PR #7064 by @lildude is already open against this issue",
-   "evidence": [
-    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/github-linguist/linguist/pull/7064"
    ]
   },
   {
@@ -1921,6 +1904,25 @@
    "evidence": [
     "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/github-linguist/linguist/pull/8326"
+   ]
+  },
+  {
+   "number": 8353,
+   "title": "Add support for Magma (computational algebra system)",
+   "url": "https://github.com/github-linguist/linguist/issues/8353",
+   "labels": [
+    "Add Language",
+    "Good First Issue"
+   ],
+   "updatedAt": "2026-11-21T14:17:35Z",
+   "checkedAt": "2026-11-24T00:55:21.548Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/github-linguist/linguist/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/github-linguist/linguist/issues/8353",
+    "https://github.com/github-linguist/linguist/blob/HEAD/CONTRIBUTING.md",
+    "https://docs.github.com/github/site-policy/github-terms-of-service#6-contributions-under-repository-license"
    ]
   }
  ]

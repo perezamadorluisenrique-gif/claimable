@@ -4,7 +4,7 @@
  "language": "Go",
  "stars": 72363,
  "description": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems",
- "visitedAt": "2026-11-22T21:48:48.472Z",
+ "visitedAt": "2026-11-24T00:55:21.548Z",
  "issues": [
   {
    "number": 13533,
@@ -38,8 +38,8 @@
     "version/27.0",
     "help wanted"
    ],
-   "updatedAt": "2026-05-20T18:23:58Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "updatedAt": "2026-11-23T05:28:49Z",
+   "checkedAt": "2026-11-24T00:55:21.548Z",
    "verdict": "reservations",
    "reason": "open 28 months with no human comment, in a repo pushed to 0 days ago — easy issues do not survive that long here; assume it is harder than its labels say (+2 more)",
    "evidence": [
@@ -59,8 +59,8 @@
     "kind/bug",
     "help wanted"
    ],
-   "updatedAt": "2026-06-06T02:52:13Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "updatedAt": "2026-11-23T05:33:53Z",
+   "checkedAt": "2026-11-24T00:55:21.548Z",
    "verdict": "discard",
    "reason": "PR #52743 by @lohitkolluri is already open against this issue",
    "evidence": [
@@ -78,8 +78,8 @@
     "area/security/seccomp",
     "help wanted"
    ],
-   "updatedAt": "2026-05-27T15:51:07Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "updatedAt": "2026-11-23T05:34:58Z",
+   "checkedAt": "2026-11-24T00:55:21.548Z",
    "verdict": "discard",
    "reason": "PR #27 by @takumi12311123 is already open against this issue",
    "evidence": [
@@ -547,8 +547,8 @@
     "kind/bug",
     "help wanted"
    ],
-   "updatedAt": "2026-10-03T03:47:33Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "updatedAt": "2026-11-23T05:55:27Z",
+   "checkedAt": "2026-11-24T00:55:21.548Z",
    "verdict": "discard",
    "reason": "PR #53852 by @takumi12311123 is already open against this issue",
    "evidence": [
@@ -567,8 +567,8 @@
     "kind/epic",
     "help wanted"
    ],
-   "updatedAt": "2026-09-01T14:33:29Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "updatedAt": "2026-11-23T05:54:45Z",
+   "checkedAt": "2026-11-24T00:55:21.548Z",
    "verdict": "discard",
    "reason": "PR #53642 by @aron-intframe is already open against this issue",
    "evidence": [
@@ -586,13 +586,18 @@
     "help wanted",
     "version/29.8"
    ],
-   "updatedAt": "2026-10-27T15:46:34Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
-   "verdict": "discard",
-   "reason": "PR #120 by @ChiThang-50Cent is already open against this issue",
+   "updatedAt": "2026-11-23T05:51:50Z",
+   "checkedAt": "2026-11-24T00:55:21.548Z",
+   "verdict": "reservations",
+   "reason": "PR #125 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+3 more)",
    "evidence": [
     "https://github.com/moby/moby/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/moby/go-archive/pull/120"
+    "https://github.com/moby/go-archive/pull/125",
+    "https://github.com/moby/moby/issues/53616#issuecomment-6446523374",
+    "https://github.com/moby/moby/issues/53616",
+    "https://docs.docker.com/engine/release-notes/",
+    "https://github.com/moby/moby/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/moby/moby/blob/HEAD/AGENTS.md"
    ]
   },
   {
@@ -603,13 +608,14 @@
     "area/images",
     "help wanted"
    ],
-   "updatedAt": "2026-10-17T05:56:08Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "updatedAt": "2026-11-23T05:45:40Z",
+   "checkedAt": "2026-11-24T00:55:21.548Z",
    "verdict": "reservations",
-   "reason": "PR #6574 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+3 more)",
+   "reason": "PR #6574 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+4 more)",
    "evidence": [
     "https://github.com/moby/moby/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/docker/cli/pull/6574",
+    "https://github.com/GeiserX/CashPilot/pull/746",
     "https://github.com/moby/moby/issues/53941#issuecomment-6170463671",
     "https://github.com/moby/moby/issues/53941",
     "https://docs.docker.com/engine/release-notes/",

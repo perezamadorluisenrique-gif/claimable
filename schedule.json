@@ -132,7 +132,7 @@
   "lastNewIssue": "2025-10-02T14:17:27Z"
  },
  "langgenius/dify": {
-  "nextCheck": "2026-11-23T15:22:16.116Z",
+  "nextCheck": "2026-11-25T00:55:21.548Z",
   "lastNewIssue": "2026-11-19T11:17:04Z"
  },
  "langchain-ai/langchain": {
@@ -244,12 +244,12 @@
   "lastNewIssue": "2025-11-04T23:34:27Z"
  },
  "golang/go": {
-  "nextCheck": "2026-11-23T21:48:48.472Z",
+  "nextCheck": "2026-11-25T00:55:21.548Z",
   "lastNewIssue": "2026-11-19T23:31:17Z"
  },
  "kubernetes/kubernetes": {
-  "nextCheck": "2026-11-23T15:22:16.116Z",
-  "lastNewIssue": "2026-11-19T07:53:15Z"
+  "nextCheck": "2026-11-25T00:55:21.548Z",
+  "lastNewIssue": "2026-11-23T18:38:49Z"
  },
  "microsoft/typescript": {
   "nextCheck": "2026-11-24T18:00:03.889Z",
@@ -268,7 +268,7 @@
   "lastNewIssue": null
  },
  "moby/moby": {
-  "nextCheck": "2026-11-23T21:48:48.472Z",
+  "nextCheck": "2026-11-25T00:55:21.548Z",
   "lastNewIssue": "2026-11-20T16:14:36Z"
  },
  "prometheus/prometheus": {
@@ -384,7 +384,7 @@
   "lastNewIssue": "2026-04-06T10:02:50Z"
  },
  "protocolbuffers/protobuf": {
-  "nextCheck": "2026-11-23T21:48:48.472Z",
+  "nextCheck": "2026-11-27T00:55:21.548Z",
   "lastNewIssue": "2026-11-16T15:31:32Z"
  },
  "ggml-org/whisper.cpp": {
@@ -512,8 +512,8 @@
   "lastNewIssue": "2026-05-14T00:59:26Z"
  },
  "openssl/openssl": {
-  "nextCheck": "2026-11-23T15:22:16.116Z",
-  "lastNewIssue": "2026-11-19T14:56:59Z"
+  "nextCheck": "2026-11-25T00:55:21.548Z",
+  "lastNewIssue": "2026-11-22T17:45:55Z"
  },
  "xiaojieonly/ehviewer_cn_sxj": {
   "nextCheck": "2026-11-26T21:39:33.956Z",
@@ -624,8 +624,8 @@
   "lastNewIssue": "2024-09-20T15:27:03Z"
  },
  "github-linguist/linguist": {
-  "nextCheck": "2026-11-23T21:09:40.714Z",
-  "lastNewIssue": "2026-11-09T17:26:43Z"
+  "nextCheck": "2026-11-25T00:55:21.548Z",
+  "lastNewIssue": "2026-11-21T14:17:35Z"
  },
  "fluent/fluentd": {
   "nextCheck": "2026-11-27T12:57:28.576Z",
@@ -716,7 +716,7 @@
   "lastNewIssue": "2026-05-24T20:42:54Z"
  },
  "ankidroid/anki-android": {
-  "nextCheck": "2026-11-23T15:22:16.116Z",
+  "nextCheck": "2026-11-25T00:55:21.548Z",
   "lastNewIssue": "2026-11-19T18:24:49Z"
  },
  "swiftlang/swift": {
@@ -808,7 +808,7 @@
   "lastNewIssue": "2022-02-28T18:55:50Z"
  },
  "flame-engine/flame": {
-  "nextCheck": "2026-11-23T12:57:28.576Z",
+  "nextCheck": "2026-11-27T00:55:21.548Z",
   "lastNewIssue": "2026-10-30T13:55:04Z"
  },
  "firebase/flutterfire": {
@@ -1052,7 +1052,7 @@
   "lastNewIssue": "2023-07-08T05:40:47Z"
  },
  "corsixth/corsixth": {
-  "nextCheck": "2026-11-23T21:09:40.714Z",
+  "nextCheck": "2026-12-01T00:55:21.548Z",
   "lastNewIssue": "2026-10-24T22:14:41Z"
  },
  "luals/lua-language-server": {
@@ -1060,7 +1060,7 @@
   "lastNewIssue": "2020-12-05T06:52:10Z"
  },
  "beyond-all-reason/beyond-all-reason": {
-  "nextCheck": "2026-11-23T21:48:48.472Z",
+  "nextCheck": "2026-11-25T00:55:21.548Z",
   "lastNewIssue": "2026-11-17T02:40:37Z"
  },
  "zbirenbaum/copilot.lua": {

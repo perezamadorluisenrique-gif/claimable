@@ -4,7 +4,7 @@
  "language": "Kotlin",
  "stars": 12214,
  "description": "AnkiDroid: Anki flashcards on Android. Your secret trick to achieve superhuman information retention.",
- "visitedAt": "2026-11-22T15:22:16.116Z",
+ "visitedAt": "2026-11-24T00:55:21.548Z",
  "issues": [
   {
    "number": 6369,
@@ -684,22 +684,6 @@
    "evidence": [
     "https://github.com/ankidroid/Anki-Android/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/ankidroid/Anki-Android/issues/23290"
-   ]
-  },
-  {
-   "number": 23350,
-   "title": "Is the dependency for `androidx-lifecycle-process` badly named",
-   "url": "https://github.com/ankidroid/Anki-Android/issues/23350",
-   "labels": [
-    "Good First Issue"
-   ],
-   "updatedAt": "2026-11-19T20:31:41Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
-   "verdict": "discard",
-   "reason": "PR #23493 by @SHUBHCH05 is already open against this issue",
-   "evidence": [
-    "https://github.com/ankidroid/Anki-Android/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/ankidroid/Anki-Android/pull/23493"
    ]
   }
  ]

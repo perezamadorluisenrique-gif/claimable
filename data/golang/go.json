@@ -4,7 +4,7 @@
  "language": "Go",
  "stars": 139828,
  "description": "The Go programming language",
- "visitedAt": "2026-11-22T21:48:48.472Z",
+ "visitedAt": "2026-11-24T00:55:21.548Z",
  "issues": [
   {
    "number": 7175,
@@ -260,23 +260,6 @@
    ],
    "updatedAt": "2026-09-10T08:50:31Z",
    "checkedAt": "2026-11-11T15:17:00.117Z",
-   "verdict": "discard",
-   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
-   "evidence": [
-    "https://github.com/golang/go/pulls?q=is%3Apr+is%3Aclosed"
-   ]
-  },
-  {
-   "number": 35238,
-   "title": "x/crypto/ssh: add example for KeyboardInteractive",
-   "url": "https://github.com/golang/go/issues/35238",
-   "labels": [
-    "Documentation",
-    "help wanted",
-    "NeedsInvestigation"
-   ],
-   "updatedAt": "2026-11-14T11:56:46Z",
-   "checkedAt": "2026-11-15T10:59:03.445Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
    "evidence": [
@@ -772,8 +755,8 @@
     "NeedsFix",
     "compiler/runtime"
    ],
-   "updatedAt": "2026-11-22T00:36:06Z",
-   "checkedAt": "2026-11-22T21:48:48.472Z",
+   "updatedAt": "2026-11-22T22:08:44Z",
+   "checkedAt": "2026-11-24T00:55:21.548Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
    "evidence": [
@@ -1080,6 +1063,25 @@
    ],
    "updatedAt": "2026-11-04T14:39:37Z",
    "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/golang/go/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 74116,
+   "title": "runtime: cgocheck fails to correctly identify pinned allocation in self-reference of a linker-allocated object",
+   "url": "https://github.com/golang/go/issues/74116",
+   "labels": [
+    "help wanted",
+    "NeedsInvestigation",
+    "compiler/runtime",
+    "BugReport",
+    "cgo"
+   ],
+   "updatedAt": "2026-09-10T08:49:45Z",
+   "checkedAt": "2026-11-24T00:55:21.548Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
    "evidence": [
@@ -1696,8 +1698,8 @@
     "NeedsInvestigation",
     "compiler/runtime"
    ],
-   "updatedAt": "2026-11-17T19:30:46Z",
-   "checkedAt": "2026-11-18T14:03:59.541Z",
+   "updatedAt": "2026-11-23T02:08:32Z",
+   "checkedAt": "2026-11-24T00:55:21.548Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
    "evidence": [

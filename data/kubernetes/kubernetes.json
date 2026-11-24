@@ -4,7 +4,7 @@
  "language": "Go",
  "stars": 128976,
  "description": "Production-Grade Container Scheduling and Management",
- "visitedAt": "2026-11-22T15:22:16.116Z",
+ "visitedAt": "2026-11-24T00:55:21.548Z",
  "issues": [
   {
    "number": 7961,
@@ -1160,27 +1160,6 @@
    ]
   },
   {
-   "number": 125191,
-   "title": "The APIServer memory usage is high.",
-   "url": "https://github.com/kubernetes/kubernetes/issues/125191",
-   "labels": [
-    "kind/bug",
-    "sig/scalability",
-    "sig/api-machinery",
-    "help wanted",
-    "triage/accepted"
-   ],
-   "updatedAt": "2025-03-31T14:38:52Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
-   "verdict": "discard",
-   "reason": "already assigned to @hrishikeshdkakkad",
-   "evidence": [
-    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/kubernetes/kubernetes/issues/125191",
-    "https://github.com/kubernetes/kubernetes/issues/125191#issuecomment-2766452962"
-   ]
-  },
-  {
    "number": 125469,
    "title": "Optimize Pod informer memory efficiency used in admission plugins",
    "url": "https://github.com/kubernetes/kubernetes/issues/125469",
@@ -2241,13 +2220,35 @@
     "good first issue",
     "needs-triage"
    ],
-   "updatedAt": "2026-11-19T08:42:49Z",
-   "checkedAt": "2026-11-22T15:22:16.116Z",
+   "updatedAt": "2026-11-22T17:09:23Z",
+   "checkedAt": "2026-11-24T00:55:21.548Z",
    "verdict": "discard",
    "reason": "PR #144334 by @aashish254 is already open against this issue",
    "evidence": [
     "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/kubernetes/kubernetes/pull/144334"
+   ]
+  },
+  {
+   "number": 144431,
+   "title": "DRA Node Allocatable Resources: hugepages e2e cases never run in CI",
+   "url": "https://github.com/kubernetes/kubernetes/issues/144431",
+   "labels": [
+    "area/test",
+    "sig/node",
+    "help wanted",
+    "priority/important-longterm",
+    "kind/failing-test",
+    "triage/accepted",
+    "wg/device-management"
+   ],
+   "updatedAt": "2026-11-23T22:20:55Z",
+   "checkedAt": "2026-11-24T00:55:21.548Z",
+   "verdict": "discard",
+   "reason": "already assigned to @gabrielrbl",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/issues/144431"
    ]
   }
  ]
