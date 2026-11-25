@@ -4,7 +4,7 @@
  "language": "TypeScript",
  "stars": 95817,
  "description": "JavaScript API for Chrome and Firefox",
- "visitedAt": "2026-11-18T04:26:13.835Z",
+ "visitedAt": "2026-11-25T15:39:28.337Z",
  "issues": [
   {
    "number": 2427,
@@ -59,13 +59,14 @@
     "P3",
     "feature"
    ],
-   "updatedAt": "2026-09-16T02:28:23Z",
-   "checkedAt": "2026-11-10T23:25:58.547Z",
-   "verdict": "discard",
-   "reason": "PR #15734 by @jenam977-dot is already open against this issue",
+   "updatedAt": "2026-11-24T19:39:31Z",
+   "checkedAt": "2026-11-25T15:39:28.337Z",
+   "verdict": "reservations",
+   "reason": "1 stale claim, the most recent by @Develop-KIM 140 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting",
    "evidence": [
     "https://github.com/puppeteer/puppeteer/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/puppeteer/puppeteer/pull/15734"
+    "https://github.com/puppeteer/puppeteer/issues/8261#issuecomment-4920686412",
+    "https://github.com/puppeteer/puppeteer/issues/8261"
    ]
   }
  ]

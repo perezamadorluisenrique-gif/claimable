@@ -4,7 +4,7 @@
  "language": "Java",
  "stars": 36174,
  "description": "Browse media content with your own rules on Android TV",
- "visitedAt": "2026-11-18T14:03:59.541Z",
+ "visitedAt": "2026-11-25T15:39:28.337Z",
  "issues": [
   {
    "number": 4603,
@@ -15,7 +15,7 @@
     "help wanted"
    ],
    "updatedAt": "2026-08-26T19:51:16Z",
-   "checkedAt": "2026-11-18T14:03:59.541Z",
+   "checkedAt": "2026-11-25T15:39:28.337Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [

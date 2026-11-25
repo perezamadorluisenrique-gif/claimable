@@ -4,7 +4,7 @@
  "language": "Python",
  "stars": 85219,
  "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of ta",
- "visitedAt": "2026-11-18T04:26:13.835Z",
+ "visitedAt": "2026-11-25T15:39:28.337Z",
  "issues": [
   {
    "number": 1180,
@@ -14,13 +14,12 @@
     "bug",
     "help wanted"
    ],
-   "updatedAt": "2026-10-12T07:00:15Z",
-   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "updatedAt": "2026-11-25T05:42:55Z",
+   "checkedAt": "2026-11-25T15:39:28.337Z",
    "verdict": "discard",
-   "reason": "PR #1743 by @JasonOA888 is already open against this issue",
+   "reason": "PR #4793 by @chensimian is already open against this issue",
    "evidence": [
     "https://github.com/bytedance/deer-flow/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/bytedance/deer-flow/pull/1743",
     "https://github.com/bytedance/deer-flow/pull/4793",
     "https://github.com/bytedance/deer-flow/pull/6631",
     "https://github.com/volcengine/OpenViking/pull/5880",
@@ -148,14 +147,16 @@
    "labels": [
     "help wanted"
    ],
-   "updatedAt": "2026-09-22T14:52:51Z",
-   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "updatedAt": "2026-11-18T12:09:45Z",
+   "checkedAt": "2026-11-25T15:39:28.337Z",
    "verdict": "discard",
    "reason": "already assigned to @LittleChenLiya",
    "evidence": [
     "https://github.com/bytedance/deer-flow/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/bytedance/deer-flow/pull/3249",
     "https://github.com/bytedance/deer-flow/pull/3940",
+    "https://github.com/bytedance/deer-flow/pull/8370",
+    "https://github.com/bytedance/deer-flow/pull/8493",
     "https://github.com/bytedance/deer-flow/issues/3213"
    ]
   },

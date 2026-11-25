@@ -4,7 +4,7 @@
  "language": "C#",
  "stars": 20771,
  "description": "The Roslyn .NET compiler provides C# and Visual Basic languages with rich code analysis APIs.",
- "visitedAt": "2026-11-22T06:54:40.718Z",
+ "visitedAt": "2026-11-25T15:39:28.337Z",
  "issues": [
   {
    "number": 410,
@@ -549,8 +549,8 @@
     "IDE-CodeStyle",
     "Feature - IDE0059"
    ],
-   "updatedAt": "2026-11-22T06:46:14Z",
-   "checkedAt": "2026-11-22T06:54:40.718Z",
+   "updatedAt": "2026-11-24T18:15:04Z",
+   "checkedAt": "2026-11-25T15:39:28.337Z",
    "verdict": "reservations",
    "reason": "setup instructions live outside the repository (https://docs.microsoft.com/en-us/dotnet/csharp/roslyn-sdk/compiler-api-model) — this filter only reads files in the repo, so the real setup cost is unverified",
    "evidence": [
@@ -1267,23 +1267,6 @@
    ]
   },
   {
-   "number": 76222,
-   "title": "IDE0320 not enabled when dotnet_analyzer_diagnostic.severity = error",
-   "url": "https://github.com/dotnet/roslyn/issues/76222",
-   "labels": [
-    "help wanted",
-    "Area-Analyzers"
-   ],
-   "updatedAt": "2026-11-21T23:42:30Z",
-   "checkedAt": "2026-11-22T06:54:40.718Z",
-   "verdict": "discard",
-   "reason": "PR #86568 by @AlexeyGane is already open against this issue",
-   "evidence": [
-    "https://github.com/dotnet/roslyn/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/dotnet/roslyn/pull/86568"
-   ]
-  },
-  {
    "number": 76469,
    "title": "Recommend preprocessing symbols that have already been typed out in the document",
    "url": "https://github.com/dotnet/roslyn/issues/76469",
@@ -1969,6 +1952,23 @@
    "evidence": [
     "https://github.com/dotnet/roslyn/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/dotnet/roslyn/pull/86510"
+   ]
+  },
+  {
+   "number": 86589,
+   "title": "NullReferenceException when binding a cref in the documentation comment of a nested enum declared without body (`enum E;`)",
+   "url": "https://github.com/dotnet/roslyn/issues/86589",
+   "labels": [
+    "help wanted",
+    "Area-Compilers"
+   ],
+   "updatedAt": "2026-11-23T12:53:49Z",
+   "checkedAt": "2026-11-25T15:39:28.337Z",
+   "verdict": "discard",
+   "reason": "already assigned to @jjonescz",
+   "evidence": [
+    "https://github.com/dotnet/roslyn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/roslyn/issues/86589"
    ]
   }
  ]

@@ -4,7 +4,7 @@
  "language": "Go",
  "stars": 52688,
  "description": "Distributed reliable key-value store for the most critical data of a distributed system",
- "visitedAt": "2026-11-22T06:54:40.718Z",
+ "visitedAt": "2026-11-25T15:39:28.337Z",
  "issues": [
   {
    "number": 10246,

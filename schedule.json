@@ -100,35 +100,35 @@
   "lastNewIssue": "2026-08-12T16:38:43Z"
  },
  "opencut-app/opencut": {
-  "nextCheck": "2026-11-25T04:26:13.835Z",
+  "nextCheck": "2026-12-02T15:39:28.337Z",
   "lastNewIssue": "2025-06-23T14:47:55Z"
  },
  "stirling-tools/stirling-pdf": {
-  "nextCheck": "2026-11-25T04:26:13.835Z",
+  "nextCheck": "2026-12-02T15:39:28.337Z",
   "lastNewIssue": "2026-09-09T02:20:40Z"
  },
  "puppeteer/puppeteer": {
-  "nextCheck": "2026-11-25T04:26:13.835Z",
+  "nextCheck": "2026-12-02T15:39:28.337Z",
   "lastNewIssue": "2022-04-21T13:03:06Z"
  },
  "openhands/openhands": {
-  "nextCheck": "2026-11-25T04:26:13.835Z",
+  "nextCheck": "2026-12-02T15:39:28.337Z",
   "lastNewIssue": "2026-08-08T11:40:21Z"
  },
  "egonex-ai/understand-anything": {
-  "nextCheck": "2026-11-25T04:26:13.835Z",
+  "nextCheck": "2026-12-02T15:39:28.337Z",
   "lastNewIssue": "2026-04-09T06:29:45Z"
  },
  "thealgorithms/python": {
-  "nextCheck": "2026-11-25T04:26:13.835Z",
+  "nextCheck": "2026-12-02T15:39:28.337Z",
   "lastNewIssue": "2026-09-04T19:13:21Z"
  },
  "microsoft/markitdown": {
-  "nextCheck": "2026-11-25T04:26:13.835Z",
+  "nextCheck": "2026-12-02T15:39:28.337Z",
   "lastNewIssue": "2026-09-04T19:08:05Z"
  },
  "significant-gravitas/autogpt": {
-  "nextCheck": "2026-11-25T04:26:13.835Z",
+  "nextCheck": "2026-12-02T15:39:28.337Z",
   "lastNewIssue": "2025-10-02T14:17:27Z"
  },
  "langgenius/dify": {
@@ -136,47 +136,47 @@
   "lastNewIssue": "2026-11-19T11:17:04Z"
  },
  "langchain-ai/langchain": {
-  "nextCheck": "2026-11-25T04:26:13.835Z",
+  "nextCheck": "2026-12-02T15:39:28.337Z",
   "lastNewIssue": "2025-07-28T16:34:18Z"
  },
  "comfy-org/comfyui": {
-  "nextCheck": "2026-11-25T04:26:13.835Z",
+  "nextCheck": "2026-12-02T15:39:28.337Z",
   "lastNewIssue": "2025-06-01T04:30:53Z"
  },
  "graphify-labs/graphify": {
-  "nextCheck": "2026-11-25T04:26:13.835Z",
+  "nextCheck": "2026-12-02T15:39:28.337Z",
   "lastNewIssue": "2026-09-18T21:26:32Z"
  },
  "ytdl-org/youtube-dl": {
-  "nextCheck": "2026-11-25T04:26:13.835Z",
+  "nextCheck": "2026-12-02T15:39:28.337Z",
   "lastNewIssue": "2023-12-02T21:39:17Z"
  },
  "sherlock-project/sherlock": {
-  "nextCheck": "2026-11-25T04:26:13.835Z",
+  "nextCheck": "2026-12-02T15:39:28.337Z",
   "lastNewIssue": "2025-09-19T23:57:43Z"
  },
  "pytorch/pytorch": {
-  "nextCheck": "2026-11-25T04:26:13.835Z",
+  "nextCheck": "2026-12-02T15:39:28.337Z",
   "lastNewIssue": "2026-06-27T00:22:46Z"
  },
  "vllm-project/vllm": {
-  "nextCheck": "2026-11-25T04:26:13.835Z",
+  "nextCheck": "2026-12-02T15:39:28.337Z",
   "lastNewIssue": "2026-04-21T19:22:16Z"
  },
  "3b1b/manim": {
-  "nextCheck": "2026-11-25T04:26:13.835Z",
+  "nextCheck": "2026-12-02T15:39:28.337Z",
   "lastNewIssue": "2020-10-01T02:06:04Z"
  },
  "odysseus-dev/odysseus": {
-  "nextCheck": "2026-11-25T04:26:13.835Z",
+  "nextCheck": "2026-12-02T15:39:28.337Z",
   "lastNewIssue": "2026-06-05T14:34:25Z"
  },
  "home-assistant/core": {
-  "nextCheck": "2026-11-25T04:26:13.835Z",
+  "nextCheck": "2026-12-02T15:39:28.337Z",
   "lastNewIssue": "2026-10-08T21:46:16Z"
  },
  "bytedance/deer-flow": {
-  "nextCheck": "2026-11-25T04:26:13.835Z",
+  "nextCheck": "2026-12-02T15:39:28.337Z",
   "lastNewIssue": "2026-08-17T04:51:33Z"
  },
  "elastic/elasticsearch": {
@@ -184,47 +184,47 @@
   "lastNewIssue": "2026-11-05T10:53:29Z"
  },
  "termux/termux-app": {
-  "nextCheck": "2026-11-25T14:03:59.541Z",
+  "nextCheck": "2026-12-02T15:39:28.337Z",
   "lastNewIssue": "2020-12-26T21:05:24Z"
  },
  "dbeaver/dbeaver": {
-  "nextCheck": "2026-11-25T14:03:59.541Z",
+  "nextCheck": "2026-12-02T15:39:28.337Z",
   "lastNewIssue": "2024-11-15T10:16:58Z"
  },
  "jeecgboot/jeecgboot": {
-  "nextCheck": "2026-11-25T06:54:40.718Z",
+  "nextCheck": "2026-11-28T15:39:28.337Z",
   "lastNewIssue": "2026-11-15T01:58:30Z"
  },
  "apache/dubbo": {
-  "nextCheck": "2026-11-25T14:03:59.541Z",
+  "nextCheck": "2026-12-02T15:39:28.337Z",
   "lastNewIssue": "2026-08-07T03:05:38Z"
  },
  "teamnewpipe/newpipe": {
-  "nextCheck": "2026-11-25T14:03:59.541Z",
-  "lastNewIssue": "2026-09-28T14:34:37Z"
+  "nextCheck": "2026-11-26T15:39:28.337Z",
+  "lastNewIssue": "2026-11-22T16:20:11Z"
  },
  "keycloak/keycloak": {
   "nextCheck": "2026-11-25T21:15:51.266Z",
   "lastNewIssue": "2026-11-18T14:50:00Z"
  },
  "alibaba/arthas": {
-  "nextCheck": "2026-11-25T14:03:59.541Z",
+  "nextCheck": "2026-12-02T15:39:28.337Z",
   "lastNewIssue": "2025-04-17T09:22:58Z"
  },
  "yuliskov/smarttube": {
-  "nextCheck": "2026-11-25T14:03:59.541Z",
+  "nextCheck": "2026-12-02T15:39:28.337Z",
   "lastNewIssue": "2025-05-18T11:42:15Z"
  },
  "netty/netty": {
-  "nextCheck": "2026-11-25T14:03:59.541Z",
+  "nextCheck": "2026-12-02T15:39:28.337Z",
   "lastNewIssue": "2019-09-18T17:08:40Z"
  },
  "bumptech/glide": {
-  "nextCheck": "2026-11-25T14:03:59.541Z",
+  "nextCheck": "2026-12-02T15:39:28.337Z",
   "lastNewIssue": "2018-02-05T10:00:12Z"
  },
  "seleniumhq/selenium": {
-  "nextCheck": "2026-11-25T14:03:59.541Z",
+  "nextCheck": "2026-12-02T15:39:28.337Z",
   "lastNewIssue": "2024-05-21T00:14:06Z"
  },
  "alibaba/nacos": {
@@ -288,7 +288,7 @@
   "lastNewIssue": "2024-07-18T21:49:38Z"
  },
  "etcd-io/etcd": {
-  "nextCheck": "2026-11-25T06:54:40.718Z",
+  "nextCheck": "2026-11-28T15:39:28.337Z",
   "lastNewIssue": "2026-11-10T14:31:17Z"
  },
  "quantumnous/new-api": {
@@ -400,7 +400,7 @@
   "lastNewIssue": "2024-09-19T23:18:11Z"
  },
  "zen-browser/desktop": {
-  "nextCheck": "2026-11-25T06:54:40.718Z",
+  "nextCheck": "2026-11-28T15:39:28.337Z",
   "lastNewIssue": "2026-11-14T05:15:18Z"
  },
  "lizardbyte/sunshine": {
@@ -464,8 +464,8 @@
   "lastNewIssue": "2025-06-30T17:36:07Z"
  },
  "dotnet/roslyn": {
-  "nextCheck": "2026-11-25T06:54:40.718Z",
-  "lastNewIssue": "2026-11-15T02:27:22Z"
+  "nextCheck": "2026-11-26T15:39:28.337Z",
+  "lastNewIssue": "2026-11-23T10:24:52Z"
  },
  "bitwarden/server": {
   "nextCheck": "2026-11-26T21:39:33.956Z",
@@ -544,7 +544,7 @@
   "lastNewIssue": "2026-01-31T17:27:49Z"
  },
  "nextcloud/server": {
-  "nextCheck": "2026-11-25T06:54:40.718Z",
+  "nextCheck": "2026-12-02T15:39:28.337Z",
   "lastNewIssue": "2026-10-23T17:59:48Z"
  },
  "laravel/framework": {
@@ -552,7 +552,7 @@
   "lastNewIssue": "2026-05-24T01:50:54Z"
  },
  "symfony/symfony": {
-  "nextCheck": "2026-11-25T06:54:40.718Z",
+  "nextCheck": "2026-12-02T15:39:28.337Z",
   "lastNewIssue": "2026-10-24T11:40:11Z"
  },
  "monicahq/monica": {
@@ -660,7 +660,7 @@
   "lastNewIssue": "2026-07-15T17:48:37Z"
  },
  "librepods-org/librepods": {
-  "nextCheck": "2026-11-25T15:22:16.116Z",
+  "nextCheck": "2026-11-28T15:39:28.337Z",
   "lastNewIssue": "2026-10-28T11:38:55Z"
  },
  "junkfood02/seal": {
@@ -672,7 +672,7 @@
   "lastNewIssue": "2020-05-20T20:05:31Z"
  },
  "pppscn/smsforwarder": {
-  "nextCheck": "2026-11-25T10:58:53.462Z",
+  "nextCheck": "2026-11-26T15:39:28.337Z",
   "lastNewIssue": "2026-11-19T07:32:01Z"
  },
  "android/nowinandroid": {
@@ -700,7 +700,7 @@
   "lastNewIssue": "2020-05-27T10:38:26Z"
  },
  "thunderbird/thunderbird-android": {
-  "nextCheck": "2026-11-25T15:22:16.116Z",
+  "nextCheck": "2026-11-28T15:39:28.337Z",
   "lastNewIssue": "2026-10-29T10:25:38Z"
  },
  "kotlin/kotlinx.coroutines": {

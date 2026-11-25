@@ -4,7 +4,7 @@
  "language": "Java",
  "stars": 40559,
  "description": "A libre lightweight streaming front-end for Android.",
- "visitedAt": "2026-11-18T14:03:59.541Z",
+ "visitedAt": "2026-11-25T15:39:28.337Z",
  "issues": [
   {
    "number": 105,
@@ -737,8 +737,8 @@
     "good first issue",
     "GUI"
    ],
-   "updatedAt": "2026-10-25T13:50:52Z",
-   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "updatedAt": "2026-11-24T23:41:05Z",
+   "checkedAt": "2026-11-25T15:39:28.337Z",
    "verdict": "discard",
    "reason": "PR #13979 by @singulardot is already open against this issue",
    "evidence": [
@@ -1807,6 +1807,25 @@
     "https://github.com/TeamNewPipe/NewPipe/issues/13866",
     "https://github.com/TeamNewPipe/NewPipe/issues/13866#issuecomment-6027944659",
     "https://github.com/TeamNewPipe/NewPipe/issues/13866#issuecomment-6503503561"
+   ]
+  },
+  {
+   "number": 14065,
+   "title": "[Dex mode] Channel name is cut",
+   "url": "https://github.com/TeamNewPipe/NewPipe/issues/14065",
+   "labels": [
+    "bug",
+    "good first issue",
+    "GUI"
+   ],
+   "updatedAt": "2026-11-23T12:15:58Z",
+   "checkedAt": "2026-11-25T15:39:28.337Z",
+   "verdict": "discard",
+   "reason": "already assigned to @Jiang-525-qwq",
+   "evidence": [
+    "https://github.com/TeamNewPipe/NewPipe/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/TeamNewPipe/NewPipe/issues/14065",
+    "https://github.com/TeamNewPipe/NewPipe/issues/14065#issuecomment-7099719481"
    ]
   }
  ]

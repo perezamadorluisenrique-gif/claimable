@@ -4,7 +4,7 @@
  "language": "Python",
  "stars": 96681,
  "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
- "visitedAt": "2026-11-18T04:26:13.835Z",
+ "visitedAt": "2026-11-25T15:39:28.337Z",
  "issues": [
   {
    "number": 16353,
@@ -104,8 +104,8 @@
     "good first issue",
     "RFC"
    ],
-   "updatedAt": "2026-11-07T22:15:49Z",
-   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "updatedAt": "2026-11-20T23:58:08Z",
+   "checkedAt": "2026-11-25T15:39:28.337Z",
    "verdict": "discard",
    "reason": "PR #28582 by @NargiT is already open against this issue",
    "evidence": [
@@ -154,8 +154,8 @@
     "feature request",
     "batch-invariance"
    ],
-   "updatedAt": "2026-11-14T20:12:03Z",
-   "checkedAt": "2026-11-18T04:26:13.835Z",
+   "updatedAt": "2026-11-25T07:36:41Z",
+   "checkedAt": "2026-11-25T15:39:28.337Z",
    "verdict": "discard",
    "reason": "PR #3 by @Copilot is already open against this issue",
    "evidence": [
@@ -202,8 +202,8 @@
     "good first issue",
     "stale"
    ],
-   "updatedAt": "2026-11-10T15:25:07Z",
-   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "updatedAt": "2026-11-19T15:52:19Z",
+   "checkedAt": "2026-11-25T15:39:28.337Z",
    "verdict": "discard",
    "reason": "PR #44813 by @rguiu is already open against this issue",
    "evidence": [
@@ -403,8 +403,8 @@
     "multi-modality",
     "kimi"
    ],
-   "updatedAt": "2026-11-16T17:20:11Z",
-   "checkedAt": "2026-11-18T04:26:13.835Z",
+   "updatedAt": "2026-11-22T07:16:26Z",
+   "checkedAt": "2026-11-25T15:39:28.337Z",
    "verdict": "discard",
    "reason": "PR #44394 by @harsha20032020 is already open against this issue",
    "evidence": [
@@ -443,8 +443,8 @@
    "labels": [
     "help wanted"
    ],
-   "updatedAt": "2026-11-17T08:05:50Z",
-   "checkedAt": "2026-11-18T04:26:13.835Z",
+   "updatedAt": "2026-11-21T06:40:38Z",
+   "checkedAt": "2026-11-25T15:39:28.337Z",
    "verdict": "discard",
    "reason": "PR #57315 by @LinzeShi is already open against this issue",
    "evidence": [

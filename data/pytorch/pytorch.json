@@ -4,7 +4,7 @@
  "language": "Python",
  "stars": 105318,
  "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
- "visitedAt": "2026-11-18T04:26:13.835Z",
+ "visitedAt": "2026-11-25T15:39:28.337Z",
  "issues": [
   {
    "number": 6662,
@@ -520,8 +520,8 @@
     "module: lint",
     "triaged"
    ],
-   "updatedAt": "2026-06-27T21:33:27Z",
-   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "updatedAt": "2026-11-18T11:34:27Z",
+   "checkedAt": "2026-11-25T15:39:28.337Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
    "evidence": [
@@ -582,8 +582,8 @@
     "oncall: distributed infra",
     "ptd-bot-triaged"
    ],
-   "updatedAt": "2026-11-15T18:53:50Z",
-   "checkedAt": "2026-11-18T04:26:13.835Z",
+   "updatedAt": "2026-11-21T22:39:05Z",
+   "checkedAt": "2026-11-25T15:39:28.337Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
    "evidence": [

@@ -4,7 +4,7 @@
  "language": "Java",
  "stars": 41578,
  "description": "The java implementation of Apache Dubbo. An RPC and microservice framework.",
- "visitedAt": "2026-11-18T14:03:59.541Z",
+ "visitedAt": "2026-11-25T15:39:28.337Z",
  "issues": [
   {
    "number": 1923,
@@ -97,27 +97,6 @@
    "evidence": [
     "https://github.com/apache/dubbo/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/apache/dubbo/issues/14566"
-   ]
-  },
-  {
-   "number": 12414,
-   "title": "io.grpc.StatusRuntimeException: DEADLINE_EXCEEDED: deadline exceeded after 0.981473792s. [buffered_nanos=71961167, remote_addr=localhost/127.0.0.1:50051]",
-   "url": "https://github.com/apache/dubbo/issues/12414",
-   "labels": [
-    "type/bug",
-    "help wanted",
-    "good first issue"
-   ],
-   "updatedAt": "2026-09-11T09:26:47Z",
-   "checkedAt": "2026-11-11T06:29:52.958Z",
-   "verdict": "reservations",
-   "reason": "4 stale claims, the most recent by @nishanthfx98 292 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
-   "evidence": [
-    "https://github.com/apache/dubbo/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/apache/dubbo/issues/12414#issuecomment-3788045641",
-    "https://github.com/apache/dubbo/issues/12414",
-    "https://github.com/apache/dubbo/wiki/Mailing-list-subscription-guide",
-    "https://github.com/apache/dubbo/blob/HEAD/CONTRIBUTING.md"
    ]
   },
   {
@@ -276,6 +255,26 @@
     "https://github.com/apache/dubbo/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/apache/dubbo/pull/14210",
     "https://github.com/apache/dubbo/issues/13584",
+    "https://github.com/apache/dubbo/wiki/Mailing-list-subscription-guide",
+    "https://github.com/apache/dubbo/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 13591,
+   "title": "SingleProtocolConnectionManager conccurrent issue",
+   "url": "https://github.com/apache/dubbo/issues/13591",
+   "labels": [
+    "type/bug",
+    "help wanted",
+    "component/sdk"
+   ],
+   "updatedAt": "2024-04-22T15:32:30Z",
+   "checkedAt": "2026-11-25T15:39:28.337Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/apache/dubbo/wiki/Mailing-list-subscription-guide) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/apache/dubbo/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/apache/dubbo/issues/13591",
     "https://github.com/apache/dubbo/wiki/Mailing-list-subscription-guide",
     "https://github.com/apache/dubbo/blob/HEAD/CONTRIBUTING.md"
    ]

@@ -4,7 +4,7 @@
  "language": "TypeScript",
  "stars": 93136,
  "description": "🙌 OpenHands: AI-Driven Development",
- "visitedAt": "2026-11-18T04:26:13.835Z",
+ "visitedAt": "2026-11-25T15:39:28.337Z",
  "issues": [
   {
    "number": 15532,
@@ -114,8 +114,8 @@
    "labels": [
     "good first issue"
    ],
-   "updatedAt": "2026-11-04T04:16:57Z",
-   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "updatedAt": "2026-11-21T10:42:09Z",
+   "checkedAt": "2026-11-25T15:39:28.337Z",
    "verdict": "discard",
    "reason": "PR #16393 by @hudsonwa is already open against this issue",
    "evidence": [
@@ -133,8 +133,8 @@
     "enhancement",
     "good first issue"
    ],
-   "updatedAt": "2026-11-03T15:01:24Z",
-   "checkedAt": "2026-11-10T23:25:58.547Z",
+   "updatedAt": "2026-11-23T01:15:26Z",
+   "checkedAt": "2026-11-25T15:39:28.337Z",
    "verdict": "discard",
    "reason": "PR #16390 by @iroiro147 is already open against this issue",
    "evidence": [
@@ -224,8 +224,8 @@
     "enhancement",
     "good first issue"
    ],
-   "updatedAt": "2026-11-16T02:36:17Z",
-   "checkedAt": "2026-11-18T04:26:13.835Z",
+   "updatedAt": "2026-11-20T04:08:31Z",
+   "checkedAt": "2026-11-25T15:39:28.337Z",
    "verdict": "discard",
    "reason": "PR #16240 by @hsms4710-pixel is already open against this issue",
    "evidence": [
