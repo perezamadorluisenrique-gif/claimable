@@ -4,7 +4,7 @@
  "language": "Go",
  "stars": 128976,
  "description": "Production-Grade Container Scheduling and Management",
- "visitedAt": "2026-11-24T00:55:21.548Z",
+ "visitedAt": "2026-11-25T04:19:06.926Z",
  "issues": [
   {
    "number": 7961,
@@ -1160,6 +1160,27 @@
    ]
   },
   {
+   "number": 125191,
+   "title": "The APIServer memory usage is high.",
+   "url": "https://github.com/kubernetes/kubernetes/issues/125191",
+   "labels": [
+    "kind/bug",
+    "sig/scalability",
+    "sig/api-machinery",
+    "help wanted",
+    "triage/accepted"
+   ],
+   "updatedAt": "2025-03-31T14:38:52Z",
+   "checkedAt": "2026-11-25T04:19:06.926Z",
+   "verdict": "discard",
+   "reason": "already assigned to @hrishikeshdkakkad",
+   "evidence": [
+    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/kubernetes/kubernetes/issues/125191",
+    "https://github.com/kubernetes/kubernetes/issues/125191#issuecomment-2766452962"
+   ]
+  },
+  {
    "number": 125469,
    "title": "Optimize Pod informer memory efficiency used in admission plugins",
    "url": "https://github.com/kubernetes/kubernetes/issues/125469",
@@ -1796,28 +1817,6 @@
    ]
   },
   {
-   "number": 136114,
-   "title": "[Failing Test] [SIG-node] periodic-node-feature-discovery-e2e-test-master.Overall",
-   "url": "https://github.com/kubernetes/kubernetes/issues/136114",
-   "labels": [
-    "priority/important-soon",
-    "sig/node",
-    "help wanted",
-    "kind/failing-test",
-    "triage/accepted"
-   ],
-   "updatedAt": "2026-11-20T13:49:23Z",
-   "checkedAt": "2026-11-22T15:22:16.116Z",
-   "verdict": "discard",
-   "reason": "PR #2680 by @pavankumargp6 is already open against this issue",
-   "evidence": [
-    "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/kubernetes-sigs/node-feature-discovery/pull/2680",
-    "https://github.com/laclance/OSSOpportunityScout/pull/185",
-    "https://github.com/kubernetes-sigs/node-feature-discovery/pull/2555"
-   ]
-  },
-  {
    "number": 136120,
    "title": "Pod-level limits defaults not set when all containers have limits set and pod-level request is set",
    "url": "https://github.com/kubernetes/kubernetes/issues/136120",
@@ -2079,14 +2078,15 @@
     "priority/important-longterm",
     "triage/accepted"
    ],
-   "updatedAt": "2026-11-21T15:33:11Z",
-   "checkedAt": "2026-11-22T15:22:16.116Z",
+   "updatedAt": "2026-11-24T15:30:32Z",
+   "checkedAt": "2026-11-25T04:19:06.926Z",
    "verdict": "discard",
-   "reason": "already assigned to @sAchin-680",
+   "reason": "PR #144442 by @sAchin-680 is already open against this issue",
    "evidence": [
     "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/kubernetes/kubernetes/pull/142802",
-    "https://github.com/kubernetes/kubernetes/issues/141200"
+    "https://github.com/kubernetes/kubernetes/pull/144442",
+    "https://github.com/kubernetes/kubernetes/pull/144443",
+    "https://github.com/kubernetes/kubernetes/pull/142802"
    ]
   },
   {

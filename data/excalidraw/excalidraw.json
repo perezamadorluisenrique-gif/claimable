@@ -4,7 +4,7 @@
  "language": "TypeScript",
  "stars": 135445,
  "description": "Virtual whiteboard for sketching hand-drawn like diagrams",
- "visitedAt": "2026-11-17T22:54:58.137Z",
+ "visitedAt": "2026-11-25T04:19:06.926Z",
  "issues": [
   {
    "number": 345,
@@ -102,23 +102,6 @@
    ]
   },
   {
-   "number": 2910,
-   "title": "Redirect non existing URL to the root",
-   "url": "https://github.com/excalidraw/excalidraw/issues/2910",
-   "labels": [
-    "enhancement",
-    "good first issue"
-   ],
-   "updatedAt": "2026-11-13T06:42:47Z",
-   "checkedAt": "2026-11-17T22:54:58.137Z",
-   "verdict": "discard",
-   "reason": "PR #3045 by @kbariotis is already open against this issue",
-   "evidence": [
-    "https://github.com/excalidraw/excalidraw/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/excalidraw/excalidraw/pull/3045"
-   ]
-  },
-  {
    "number": 3762,
    "title": "Adding option to paste tabular data as a rough table",
    "url": "https://github.com/excalidraw/excalidraw/issues/3762",
@@ -186,15 +169,16 @@
     "enhancement",
     "good first issue"
    ],
-   "updatedAt": "2022-03-03T20:47:21Z",
-   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "updatedAt": "2026-11-22T19:58:16Z",
+   "checkedAt": "2026-11-25T04:19:06.926Z",
    "verdict": "discard",
    "reason": "PR #11391 by @xonaib is already open against this issue",
    "evidence": [
     "https://github.com/excalidraw/excalidraw/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/excalidraw/excalidraw/pull/11391",
     "https://github.com/LennyMalcolm0/excalidraw/pull/424",
-    "https://github.com/excalidraw/excalidraw/pull/12281"
+    "https://github.com/excalidraw/excalidraw/pull/12281",
+    "https://github.com/excalidraw/excalidraw/pull/12711"
    ]
   },
   {
@@ -223,8 +207,8 @@
     "good first issue",
     "UX/UI"
    ],
-   "updatedAt": "2026-10-25T19:00:24Z",
-   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "updatedAt": "2026-11-21T09:16:39Z",
+   "checkedAt": "2026-11-25T04:19:06.926Z",
    "verdict": "discard",
    "reason": "PR #6411 by @0916dhkim is already open against this issue",
    "evidence": [
@@ -483,8 +467,8 @@
    "labels": [
     "good first issue"
    ],
-   "updatedAt": "2026-10-25T07:12:48Z",
-   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "updatedAt": "2026-11-24T10:46:41Z",
+   "checkedAt": "2026-11-25T04:19:06.926Z",
    "verdict": "discard",
    "reason": "PR #10556 by @gusa4grr is already open against this issue",
    "evidence": [
@@ -525,8 +509,8 @@
     "enhancement",
     "good first issue"
    ],
-   "updatedAt": "2026-08-02T14:04:07Z",
-   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "updatedAt": "2026-11-24T21:52:35Z",
+   "checkedAt": "2026-11-25T04:19:06.926Z",
    "verdict": "discard",
    "reason": "PR #9685 by @diljitsgit is already open against this issue",
    "evidence": [
@@ -538,7 +522,8 @@
     "https://github.com/excalidraw/excalidraw/pull/11964",
     "https://github.com/excalidraw/excalidraw/pull/12345",
     "https://github.com/excalidraw/excalidraw/pull/12346",
-    "https://github.com/excalidraw/excalidraw/pull/12503"
+    "https://github.com/excalidraw/excalidraw/pull/12503",
+    "https://github.com/excalidraw/excalidraw/pull/12653"
    ]
   },
   {

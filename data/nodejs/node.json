@@ -4,7 +4,7 @@
  "language": "JavaScript",
  "stars": 123459,
  "description": "Node.js JavaScript runtime ✨🐢🚀✨",
- "visitedAt": "2026-11-17T22:54:58.137Z",
+ "visitedAt": "2026-11-25T04:19:06.926Z",
  "issues": [
   {
    "number": 12606,
@@ -80,8 +80,8 @@
     "loaders",
     "never-stale"
    ],
-   "updatedAt": "2026-10-18T01:27:06Z",
-   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "updatedAt": "2026-11-19T01:11:50Z",
+   "checkedAt": "2026-11-25T04:19:06.926Z",
    "verdict": "discard",
    "reason": "PR #11437 by @nicolo-ribaudo is already open against this issue",
    "evidence": [
@@ -267,8 +267,8 @@
     "v8 engine",
     "never-stale"
    ],
-   "updatedAt": "2026-10-30T10:58:11Z",
-   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "updatedAt": "2026-11-23T11:32:09Z",
+   "checkedAt": "2026-11-25T04:19:06.926Z",
    "verdict": "discard",
    "reason": "PR #66379 by @avivkeller is already open against this issue",
    "evidence": [
@@ -277,6 +277,9 @@
     "https://github.com/nodejs/node/pull/66936",
     "https://github.com/nodejs/node/pull/67017",
     "https://github.com/nodejs/node/pull/67388",
+    "https://github.com/nodejs/node/pull/67392",
+    "https://github.com/nodejs/node/pull/67394",
+    "https://github.com/nodejs/node/pull/67741",
     "https://github.com/nodejs/node/pull/66944"
    ]
   }

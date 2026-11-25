@@ -4,7 +4,7 @@
  "language": "JavaScript",
  "stars": 93456,
  "description": "A fancy self-hosted monitoring tool",
- "visitedAt": "2026-11-17T22:54:58.137Z",
+ "visitedAt": "2026-11-25T04:19:06.926Z",
  "issues": [
   {
    "number": 177,
@@ -158,13 +158,14 @@
     "good first issue",
     "A:dashboard"
    ],
-   "updatedAt": "2026-10-07T06:38:18Z",
-   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "updatedAt": "2026-11-24T16:33:15Z",
+   "checkedAt": "2026-11-25T04:19:06.926Z",
    "verdict": "discard",
    "reason": "PR #2 by @MadhavBhanot is already open against this issue",
    "evidence": [
     "https://github.com/louislam/uptime-kuma/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/MadhavBhanot/uptime-kuma/pull/2"
+    "https://github.com/MadhavBhanot/uptime-kuma/pull/2",
+    "https://github.com/louislam/uptime-kuma/pull/8252"
    ]
   },
   {
@@ -215,16 +216,15 @@
     "A:monitor",
     "type:enhance-existing"
    ],
-   "updatedAt": "2026-04-21T06:19:29Z",
-   "checkedAt": "2026-11-10T17:47:07.019Z",
-   "verdict": "reservations",
-   "reason": "1 stale claim, the most recent by @kaminimangal 204 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
+   "updatedAt": "2026-11-24T04:53:51Z",
+   "checkedAt": "2026-11-25T04:19:06.926Z",
+   "verdict": "discard",
+   "reason": "@avi-i05 claimed it 7 days ago",
    "evidence": [
     "https://github.com/louislam/uptime-kuma/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/louislam/uptime-kuma/issues/4304#issuecomment-4286050032",
-    "https://github.com/louislam/uptime-kuma/issues/4304",
-    "https://github.com/louislam/uptime-kuma/wiki/%F0%9F%94%A7-How-to-Install>",
-    "https://github.com/louislam/uptime-kuma/blob/HEAD/CONTRIBUTING.md"
+    "https://github.com/louislam/uptime-kuma/issues/4304#issuecomment-6977143041",
+    "https://github.com/louislam/uptime-kuma/issues/4304#issuecomment-7122436754",
+    "https://github.com/louislam/uptime-kuma/issues/4304#issuecomment-4286050032"
    ]
   },
   {

@@ -4,7 +4,7 @@
  "language": "TypeScript",
  "stars": 121250,
  "description": "Orca lets you run a fleet of coding agents (e.g. Claude Code, Codex) with your own subscription. Available on desktop, mobile and remote runtime.",
- "visitedAt": "2026-11-17T22:54:58.137Z",
+ "visitedAt": "2026-11-25T04:19:06.926Z",
  "issues": [
   {
    "number": 8476,
@@ -111,13 +111,13 @@
    "labels": [
     "help wanted"
    ],
-   "updatedAt": "2026-09-15T08:08:07Z",
-   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "updatedAt": "2026-11-19T00:48:38Z",
+   "checkedAt": "2026-11-25T04:19:06.926Z",
    "verdict": "discard",
-   "reason": "PR #24262 by @william0553135 is already open against this issue",
+   "reason": "PR #44301 by @amrsorne is already open against this issue",
    "evidence": [
     "https://github.com/stablyai/orca/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/stablyai/orca/issues/24262"
+    "https://github.com/stablyai/orca/pull/44301"
    ]
   },
   {
@@ -151,8 +151,8 @@
     "help wanted",
     "os:Windows"
    ],
-   "updatedAt": "2026-09-28T09:18:01Z",
-   "checkedAt": "2026-11-10T17:47:07.019Z",
+   "updatedAt": "2026-11-18T16:56:05Z",
+   "checkedAt": "2026-11-25T04:19:06.926Z",
    "verdict": "discard",
    "reason": "PR #23603 by @toratsugumi37 is already open against this issue",
    "evidence": [

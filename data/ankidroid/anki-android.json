@@ -4,7 +4,7 @@
  "language": "Kotlin",
  "stars": 12214,
  "description": "AnkiDroid: Anki flashcards on Android. Your secret trick to achieve superhuman information retention.",
- "visitedAt": "2026-11-24T00:55:21.548Z",
+ "visitedAt": "2026-11-25T04:19:06.926Z",
  "issues": [
   {
    "number": 6369,
@@ -611,13 +611,14 @@
    "labels": [
     "Good First Issue"
    ],
-   "updatedAt": "2026-11-10T11:14:28Z",
-   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "updatedAt": "2026-11-24T10:56:22Z",
+   "checkedAt": "2026-11-25T04:19:06.926Z",
    "verdict": "discard",
    "reason": "PR #23249 by @Shreyas-Kumar-S is already open against this issue",
    "evidence": [
     "https://github.com/ankidroid/Anki-Android/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/ankidroid/Anki-Android/pull/23249"
+    "https://github.com/ankidroid/Anki-Android/pull/23249",
+    "https://github.com/ankidroid/Anki-Android/pull/20805"
    ]
   },
   {

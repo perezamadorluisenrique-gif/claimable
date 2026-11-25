@@ -4,7 +4,7 @@
  "language": "Go",
  "stars": 72363,
  "description": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems",
- "visitedAt": "2026-11-24T00:55:21.548Z",
+ "visitedAt": "2026-11-25T04:19:06.926Z",
  "issues": [
   {
    "number": 13533,
@@ -586,18 +586,14 @@
     "help wanted",
     "version/29.8"
    ],
-   "updatedAt": "2026-11-23T05:51:50Z",
-   "checkedAt": "2026-11-24T00:55:21.548Z",
-   "verdict": "reservations",
-   "reason": "PR #125 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+3 more)",
+   "updatedAt": "2026-11-24T16:10:02Z",
+   "checkedAt": "2026-11-25T04:19:06.926Z",
+   "verdict": "discard",
+   "reason": "PR #54283 by @thaJeztah is already open against this issue",
    "evidence": [
     "https://github.com/moby/moby/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/moby/go-archive/pull/125",
-    "https://github.com/moby/moby/issues/53616#issuecomment-6446523374",
-    "https://github.com/moby/moby/issues/53616",
-    "https://docs.docker.com/engine/release-notes/",
-    "https://github.com/moby/moby/blob/HEAD/CONTRIBUTING.md",
-    "https://github.com/moby/moby/blob/HEAD/AGENTS.md"
+    "https://github.com/moby/moby/pull/54283",
+    "https://github.com/moby/go-archive/pull/125"
    ]
   },
   {

@@ -4,7 +4,7 @@
  "language": "Go",
  "stars": 139828,
  "description": "The Go programming language",
- "visitedAt": "2026-11-24T00:55:21.548Z",
+ "visitedAt": "2026-11-25T04:19:06.926Z",
  "issues": [
   {
    "number": 7175,
@@ -32,6 +32,23 @@
    ],
    "updatedAt": "2026-09-17T03:13:17Z",
    "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/golang/go/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 15649,
+   "title": "x/crypto/ssh: No support for Window Dimension Change Message",
+   "url": "https://github.com/golang/go/issues/15649",
+   "labels": [
+    "help wanted",
+    "NeedsFix",
+    "FeatureRequest"
+   ],
+   "updatedAt": "2026-11-24T01:06:49Z",
+   "checkedAt": "2026-11-25T04:19:06.926Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
    "evidence": [
@@ -127,18 +144,33 @@
    ]
   },
   {
-   "number": 22575,
-   "title": "runtime: TestWindowsStackMemoryCgo is flaky",
-   "url": "https://github.com/golang/go/issues/22575",
+   "number": 23065,
+   "title": "cmd/compile: more helpful \"is not a type\" error when variable shadows type",
+   "url": "https://github.com/golang/go/issues/23065",
    "labels": [
     "help wanted",
-    "OS-Windows",
+    "NeedsFix"
+   ],
+   "updatedAt": "2026-11-25T00:25:05Z",
+   "checkedAt": "2026-11-25T04:19:06.926Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/golang/go/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 24355,
+   "title": "cmd/go: build cache does not check #included headers for changes",
+   "url": "https://github.com/golang/go/issues/24355",
+   "labels": [
+    "help wanted",
     "NeedsInvestigation",
-    "compiler/runtime",
+    "GoCommand",
     "cgo"
    ],
-   "updatedAt": "2026-09-10T09:47:38Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "updatedAt": "2026-11-24T08:22:40Z",
+   "checkedAt": "2026-11-25T04:19:06.926Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
    "evidence": [
@@ -240,26 +272,8 @@
     "help wanted",
     "NeedsFix"
    ],
-   "updatedAt": "2026-11-16T20:04:50Z",
-   "checkedAt": "2026-11-18T14:03:59.541Z",
-   "verdict": "discard",
-   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
-   "evidence": [
-    "https://github.com/golang/go/pulls?q=is%3Apr+is%3Aclosed"
-   ]
-  },
-  {
-   "number": 34229,
-   "title": "cmd/go: list -compiled fails to populate CompiledGoFiles when the resulting package cannot be linked",
-   "url": "https://github.com/golang/go/issues/34229",
-   "labels": [
-    "help wanted",
-    "NeedsInvestigation",
-    "GoCommand",
-    "cgo"
-   ],
-   "updatedAt": "2026-09-10T08:50:31Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "updatedAt": "2026-11-25T00:25:04Z",
+   "checkedAt": "2026-11-25T04:19:06.926Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
    "evidence": [
@@ -1070,25 +1084,6 @@
    ]
   },
   {
-   "number": 74116,
-   "title": "runtime: cgocheck fails to correctly identify pinned allocation in self-reference of a linker-allocated object",
-   "url": "https://github.com/golang/go/issues/74116",
-   "labels": [
-    "help wanted",
-    "NeedsInvestigation",
-    "compiler/runtime",
-    "BugReport",
-    "cgo"
-   ],
-   "updatedAt": "2026-09-10T08:49:45Z",
-   "checkedAt": "2026-11-24T00:55:21.548Z",
-   "verdict": "discard",
-   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
-   "evidence": [
-    "https://github.com/golang/go/pulls?q=is%3Apr+is%3Aclosed"
-   ]
-  },
-  {
    "number": 74187,
    "title": "all: umbrella for flakes on openbsd/ppc64",
    "url": "https://github.com/golang/go/issues/74187",
@@ -1134,8 +1129,27 @@
     "Proposal-Accepted",
     "Analysis"
    ],
-   "updatedAt": "2026-10-03T05:11:21Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "updatedAt": "2026-11-24T19:57:37Z",
+   "checkedAt": "2026-11-25T04:19:06.926Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/golang/go/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 74377,
+   "title": "reflect: Value.Seq|Seq2 documentation and unexported value",
+   "url": "https://github.com/golang/go/issues/74377",
+   "labels": [
+    "Suggested",
+    "Documentation",
+    "help wanted",
+    "compiler/runtime",
+    "FixPending"
+   ],
+   "updatedAt": "2026-11-24T06:52:40Z",
+   "checkedAt": "2026-11-25T04:19:06.926Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
    "evidence": [
@@ -1234,25 +1248,6 @@
    ]
   },
   {
-   "number": 76829,
-   "title": "cmd/go: doc: inconsistent handling of build tags, cgo, goexperiment",
-   "url": "https://github.com/golang/go/issues/76829",
-   "labels": [
-    "help wanted",
-    "NeedsInvestigation",
-    "GoCommand",
-    "ToolProposal",
-    "cgo"
-   ],
-   "updatedAt": "2026-09-10T08:49:57Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
-   "verdict": "discard",
-   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
-   "evidence": [
-    "https://github.com/golang/go/pulls?q=is%3Apr+is%3Aclosed"
-   ]
-  },
-  {
    "number": 76901,
    "title": "cmd/internal/fuzztest: TestScript/test_fuzz_deadline failures",
    "url": "https://github.com/golang/go/issues/76901",
@@ -1262,6 +1257,25 @@
    ],
    "updatedAt": "2026-10-08T20:30:33Z",
    "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/golang/go/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 77011,
+   "title": "cmd/compile: increased compilation time for a parser package generated with goyacc",
+   "url": "https://github.com/golang/go/issues/77011",
+   "labels": [
+    "help wanted",
+    "ToolSpeed",
+    "NeedsInvestigation",
+    "compiler/runtime",
+    "BugReport"
+   ],
+   "updatedAt": "2026-11-24T08:19:43Z",
+   "checkedAt": "2026-11-25T04:19:06.926Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
    "evidence": [
@@ -1314,8 +1328,8 @@
     "NeedsFix",
     "compiler/runtime"
    ],
-   "updatedAt": "2026-09-13T16:50:22Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "updatedAt": "2026-11-24T20:35:41Z",
+   "checkedAt": "2026-11-25T04:19:06.926Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
    "evidence": [
@@ -1438,25 +1452,6 @@
     "NeedsInvestigation"
    ],
    "updatedAt": "2026-09-18T13:46:23Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
-   "verdict": "discard",
-   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
-   "evidence": [
-    "https://github.com/golang/go/pulls?q=is%3Apr+is%3Aclosed"
-   ]
-  },
-  {
-   "number": 80862,
-   "title": "cmd/link: \"The command line is too long\" on Windows when the external linker is a .bat or .cmd wrapper",
-   "url": "https://github.com/golang/go/issues/80862",
-   "labels": [
-    "help wanted",
-    "OS-Windows",
-    "NeedsInvestigation",
-    "compiler/runtime",
-    "cgo"
-   ],
-   "updatedAt": "2026-09-10T08:50:11Z",
    "checkedAt": "2026-11-11T15:17:00.117Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",

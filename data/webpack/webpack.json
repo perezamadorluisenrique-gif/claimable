@@ -4,7 +4,7 @@
  "language": "JavaScript",
  "stars": 65998,
  "description": "A bundler for javascript and friends. Packs many modules into a few bundled assets. Code Splitting allows for loading parts of the application on demand. Through \"loaders\", modules can be CommonJs, AM",
- "visitedAt": "2026-11-17T22:54:58.137Z",
+ "visitedAt": "2026-11-25T04:19:06.926Z",
  "issues": [
   {
    "number": 7753,
@@ -168,17 +168,15 @@
     "status: stale",
     "help wanted"
    ],
-   "updatedAt": "2026-09-02T01:06:29Z",
-   "checkedAt": "2026-11-10T17:47:07.019Z",
-   "verdict": "reservations",
-   "reason": "labelled `status: stale` — scope may not be settled yet (+3 more)",
+   "updatedAt": "2026-11-22T10:43:32Z",
+   "checkedAt": "2026-11-25T04:19:06.926Z",
+   "verdict": "discard",
+   "reason": "@rutuja2005byte claimed it 3 days ago",
    "evidence": [
     "https://github.com/webpack/webpack/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/webpack/webpack/issues/18988",
-    "https://github.com/webpack/webpack/issues/18988#issuecomment-5502789099",
-    "https://docs.github.com/en/code-security/dependabot/dependabot-security-updates/about-dependabot-security-updates#about-compatibility-scores",
-    "https://github.com/webpack/webpack/blob/HEAD/CONTRIBUTING.md",
-    "https://github.com/webpack/webpack/blob/HEAD/AGENTS.md"
+    "https://github.com/webpack/webpack/issues/18988#issuecomment-7077976584",
+    "https://github.com/webpack/webpack/issues/18988#issuecomment-5502789099"
    ]
   },
   {
