@@ -132,7 +132,7 @@
   "lastNewIssue": "2025-10-02T14:17:27Z"
  },
  "langgenius/dify": {
-  "nextCheck": "2026-11-26T04:19:06.926Z",
+  "nextCheck": "2026-11-27T09:33:55.196Z",
   "lastNewIssue": "2026-11-19T11:17:04Z"
  },
  "langchain-ai/langchain": {
@@ -244,11 +244,11 @@
   "lastNewIssue": "2025-11-04T23:34:27Z"
  },
  "golang/go": {
-  "nextCheck": "2026-11-26T04:19:06.926Z",
+  "nextCheck": "2026-11-27T09:33:55.196Z",
   "lastNewIssue": "2026-11-19T23:31:17Z"
  },
  "kubernetes/kubernetes": {
-  "nextCheck": "2026-11-26T04:19:06.926Z",
+  "nextCheck": "2026-11-27T09:33:55.196Z",
   "lastNewIssue": "2026-11-23T18:38:49Z"
  },
  "microsoft/typescript": {
@@ -268,7 +268,7 @@
   "lastNewIssue": null
  },
  "moby/moby": {
-  "nextCheck": "2026-11-26T04:19:06.926Z",
+  "nextCheck": "2026-11-27T09:33:55.196Z",
   "lastNewIssue": "2026-11-20T16:14:36Z"
  },
  "prometheus/prometheus": {
@@ -296,15 +296,15 @@
   "lastNewIssue": "2026-10-19T08:20:04Z"
  },
  "ethereum/go-ethereum": {
-  "nextCheck": "2026-11-26T03:33:09.404Z",
+  "nextCheck": "2026-12-03T09:33:55.196Z",
   "lastNewIssue": "2026-07-14T12:41:58Z"
  },
  "farion1231/cc-switch": {
-  "nextCheck": "2026-11-26T03:33:09.404Z",
+  "nextCheck": "2026-12-03T09:33:55.196Z",
   "lastNewIssue": "2026-06-02T14:42:10Z"
  },
  "rustdesk/rustdesk": {
-  "nextCheck": "2026-11-26T03:33:09.404Z",
+  "nextCheck": "2026-12-03T09:33:55.196Z",
   "lastNewIssue": "2026-07-06T15:02:20Z"
  },
  "tauri-apps/tauri": {
@@ -312,15 +312,15 @@
   "lastNewIssue": "2026-10-30T04:56:36Z"
  },
  "denoland/deno": {
-  "nextCheck": "2026-11-26T03:33:09.404Z",
+  "nextCheck": "2026-12-03T09:33:55.196Z",
   "lastNewIssue": null
  },
  "oven-sh/bun": {
-  "nextCheck": "2026-11-26T03:33:09.404Z",
+  "nextCheck": "2026-12-03T09:33:55.196Z",
   "lastNewIssue": "2025-10-21T09:38:40Z"
  },
  "astral-sh/uv": {
-  "nextCheck": "2026-11-26T03:33:09.404Z",
+  "nextCheck": "2026-12-03T09:33:55.196Z",
   "lastNewIssue": "2026-01-16T09:32:03Z"
  },
  "rtk-ai/rtk": {
@@ -328,15 +328,15 @@
   "lastNewIssue": "2026-11-16T13:05:00Z"
  },
  "dani-garcia/vaultwarden": {
-  "nextCheck": "2026-11-26T03:33:09.404Z",
+  "nextCheck": "2026-12-03T09:33:55.196Z",
   "lastNewIssue": "2018-11-09T15:55:03Z"
  },
  "burntsushi/ripgrep": {
-  "nextCheck": "2026-11-26T03:33:09.404Z",
+  "nextCheck": "2026-12-03T09:33:55.196Z",
   "lastNewIssue": "2025-12-10T20:04:05Z"
  },
  "openinterpreter/openinterpreter": {
-  "nextCheck": "2026-11-26T03:33:09.404Z",
+  "nextCheck": "2026-12-03T09:33:55.196Z",
   "lastNewIssue": null
  },
  "alacritty/alacritty": {
@@ -344,7 +344,7 @@
   "lastNewIssue": "2026-10-13T21:42:52Z"
  },
  "fuellabs/sway": {
-  "nextCheck": "2026-11-26T03:33:09.404Z",
+  "nextCheck": "2026-12-03T09:33:55.196Z",
   "lastNewIssue": "2025-08-13T05:14:56Z"
  },
  "sharkdp/bat": {
@@ -356,31 +356,31 @@
   "lastNewIssue": "2025-12-12T17:24:54Z"
  },
  "fuellabs/fuel-core": {
-  "nextCheck": "2026-11-26T03:33:09.404Z",
+  "nextCheck": "2026-12-03T09:33:55.196Z",
   "lastNewIssue": "2025-12-05T00:57:34Z"
  },
  "ggml-org/llama.cpp": {
-  "nextCheck": "2026-11-26T03:33:09.404Z",
+  "nextCheck": "2026-12-03T09:33:55.196Z",
   "lastNewIssue": "2026-08-15T02:40:06Z"
  },
  "react/react-native": {
-  "nextCheck": "2026-11-26T03:33:09.404Z",
+  "nextCheck": "2026-12-03T09:33:55.196Z",
   "lastNewIssue": "2021-02-10T20:22:30Z"
  },
  "godotengine/godot": {
-  "nextCheck": "2026-11-26T03:33:09.404Z",
+  "nextCheck": "2026-12-03T09:33:55.196Z",
   "lastNewIssue": null
  },
  "microsoft/terminal": {
-  "nextCheck": "2026-11-26T03:33:09.404Z",
+  "nextCheck": "2026-12-03T09:33:55.196Z",
   "lastNewIssue": "2026-08-20T03:46:41Z"
  },
  "tesseract-ocr/tesseract": {
-  "nextCheck": "2026-11-26T03:33:09.404Z",
+  "nextCheck": "2026-12-03T09:33:55.196Z",
   "lastNewIssue": "2020-01-01T11:48:14Z"
  },
  "ocornut/imgui": {
-  "nextCheck": "2026-11-26T03:33:09.404Z",
+  "nextCheck": "2026-12-03T09:33:55.196Z",
   "lastNewIssue": "2026-04-06T10:02:50Z"
  },
  "protocolbuffers/protobuf": {
@@ -388,7 +388,7 @@
   "lastNewIssue": "2026-11-16T15:31:32Z"
  },
  "ggml-org/whisper.cpp": {
-  "nextCheck": "2026-11-26T03:33:09.404Z",
+  "nextCheck": "2026-12-03T09:33:55.196Z",
   "lastNewIssue": "2025-04-08T18:52:55Z"
  },
  "clickhouse/clickhouse": {
@@ -512,8 +512,8 @@
   "lastNewIssue": "2026-05-14T00:59:26Z"
  },
  "openssl/openssl": {
-  "nextCheck": "2026-11-26T04:19:06.926Z",
-  "lastNewIssue": "2026-11-22T17:45:55Z"
+  "nextCheck": "2026-11-27T09:33:55.196Z",
+  "lastNewIssue": "2026-11-25T04:02:51Z"
  },
  "xiaojieonly/ehviewer_cn_sxj": {
   "nextCheck": "2026-11-26T21:39:33.956Z",
@@ -624,7 +624,7 @@
   "lastNewIssue": "2024-09-20T15:27:03Z"
  },
  "github-linguist/linguist": {
-  "nextCheck": "2026-11-26T04:19:06.926Z",
+  "nextCheck": "2026-11-27T09:33:55.196Z",
   "lastNewIssue": "2026-11-21T14:17:35Z"
  },
  "fluent/fluentd": {
@@ -716,7 +716,7 @@
   "lastNewIssue": "2026-05-24T20:42:54Z"
  },
  "ankidroid/anki-android": {
-  "nextCheck": "2026-11-26T04:19:06.926Z",
+  "nextCheck": "2026-11-27T09:33:55.196Z",
   "lastNewIssue": "2026-11-19T18:24:49Z"
  },
  "swiftlang/swift": {

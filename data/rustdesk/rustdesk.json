@@ -4,7 +4,7 @@
  "language": "Rust",
  "stars": 128900,
  "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
- "visitedAt": "2026-11-19T03:33:09.404Z",
+ "visitedAt": "2026-11-26T09:33:55.196Z",
  "issues": [
   {
    "number": 40,
@@ -118,8 +118,8 @@
     "enhancement",
     "help wanted"
    ],
-   "updatedAt": "2026-11-04T02:33:34Z",
-   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "updatedAt": "2026-11-20T03:32:10Z",
+   "checkedAt": "2026-11-26T09:33:55.196Z",
    "verdict": "reservations",
    "reason": "setup instructions live outside the repository (https://github.com/servo/servo/wiki/GitHub-workflow) — this filter only reads files in the repo, so the real setup cost is unverified",
    "evidence": [
@@ -137,8 +137,8 @@
     "bug",
     "help wanted"
    ],
-   "updatedAt": "2026-11-06T15:47:19Z",
-   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "updatedAt": "2026-11-23T10:09:15Z",
+   "checkedAt": "2026-11-26T09:33:55.196Z",
    "verdict": "discard",
    "reason": "PR #1 by @plantrungnampl is already open against this issue",
    "evidence": [

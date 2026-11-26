@@ -4,7 +4,7 @@
  "language": "C++",
  "stars": 55071,
  "description": "Port of OpenAI's Whisper model in C/C++",
- "visitedAt": "2026-11-19T03:33:09.404Z",
+ "visitedAt": "2026-11-26T09:33:55.196Z",
  "issues": [
   {
    "number": 64,

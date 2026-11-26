@@ -4,149 +4,19 @@
  "language": "C",
  "stars": 31402,
  "description": "General purpose TLS and crypto library",
- "visitedAt": "2026-11-25T04:19:06.926Z",
+ "visitedAt": "2026-11-26T09:33:55.196Z",
  "issues": [
   {
-   "number": 1592,
-   "title": "Windows build: Control flow guard feature (/guard:cf)",
-   "url": "https://github.com/openssl/openssl/issues/1592",
+   "number": 6385,
+   "title": "Extract alloca-like constructs out of assembly",
+   "url": "https://github.com/openssl/openssl/issues/6385",
    "labels": [
     "branch: master",
     "help wanted",
-    "triaged: feature"
+    "triaged: refactor"
    ],
-   "updatedAt": "2026-11-19T15:57:07Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
-   "verdict": "discard",
-   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
-   "evidence": [
-    "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Aclosed"
-   ]
-  },
-  {
-   "number": 2162,
-   "title": "It's very complicated to set CLOEXEC on sockets created by this API",
-   "url": "https://github.com/openssl/openssl/issues/2162",
-   "labels": [
-    "help wanted",
-    "triaged: feature"
-   ],
-   "updatedAt": "2026-11-19T13:49:06Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
-   "verdict": "discard",
-   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
-   "evidence": [
-    "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Aclosed"
-   ]
-  },
-  {
-   "number": 2211,
-   "title": "Allow \"Invalidity Date\" for all revocation reasons",
-   "url": "https://github.com/openssl/openssl/issues/2211",
-   "labels": [
-    "help wanted",
-    "triaged: feature"
-   ],
-   "updatedAt": "2026-11-19T13:51:18Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
-   "verdict": "discard",
-   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
-   "evidence": [
-    "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Aclosed"
-   ]
-  },
-  {
-   "number": 2274,
-   "title": "Performance measurement with s_time counts user time and not real time",
-   "url": "https://github.com/openssl/openssl/issues/2274",
-   "labels": [
-    "help wanted",
-    "triaged: feature"
-   ],
-   "updatedAt": "2026-11-19T13:59:40Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
-   "verdict": "discard",
-   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
-   "evidence": [
-    "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Aclosed"
-   ]
-  },
-  {
-   "number": 2929,
-   "title": "Add possibility to set cert_verify_callback per SSL",
-   "url": "https://github.com/openssl/openssl/issues/2929",
-   "labels": [
-    "branch: master",
-    "help wanted",
-    "triaged: feature"
-   ],
-   "updatedAt": "2026-11-19T14:07:58Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
-   "verdict": "discard",
-   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
-   "evidence": [
-    "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Aclosed"
-   ]
-  },
-  {
-   "number": 3221,
-   "title": "Provide a CT command line app",
-   "url": "https://github.com/openssl/openssl/issues/3221",
-   "labels": [
-    "branch: master",
-    "help wanted",
-    "triaged: feature"
-   ],
-   "updatedAt": "2026-11-19T14:11:04Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
-   "verdict": "discard",
-   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
-   "evidence": [
-    "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Aclosed"
-   ]
-  },
-  {
-   "number": 3297,
-   "title": "OpenSSL gladly creates invalid SubjectAltName extensions",
-   "url": "https://github.com/openssl/openssl/issues/3297",
-   "labels": [
-    "help wanted",
-    "triaged: feature"
-   ],
-   "updatedAt": "2026-11-19T14:18:53Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
-   "verdict": "discard",
-   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
-   "evidence": [
-    "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Aclosed"
-   ]
-  },
-  {
-   "number": 3435,
-   "title": "DTLS : use_srtp extension - Expose API to set mki value",
-   "url": "https://github.com/openssl/openssl/issues/3435",
-   "labels": [
-    "help wanted",
-    "triaged: feature"
-   ],
-   "updatedAt": "2026-11-19T14:20:00Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
-   "verdict": "discard",
-   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
-   "evidence": [
-    "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Aclosed"
-   ]
-  },
-  {
-   "number": 3508,
-   "title": "crypto/x509/X509_STORE: Ability to add untrusted intermediates to store for path building",
-   "url": "https://github.com/openssl/openssl/issues/3508",
-   "labels": [
-    "help wanted",
-    "triaged: feature"
-   ],
-   "updatedAt": "2026-11-19T14:27:05Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
+   "updatedAt": "2026-11-25T17:13:27Z",
+   "checkedAt": "2026-11-26T09:33:55.196Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
    "evidence": [
@@ -202,146 +72,6 @@
     "triaged: bug"
    ],
    "updatedAt": "2026-11-19T18:45:46Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
-   "verdict": "discard",
-   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
-   "evidence": [
-    "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Aclosed"
-   ]
-  },
-  {
-   "number": 17220,
-   "title": "Wrap around of input text length in AES-GCM",
-   "url": "https://github.com/openssl/openssl/issues/17220",
-   "labels": [
-    "branch: master",
-    "help wanted",
-    "triaged: bug",
-    "branch: 3.5",
-    "branch: 4.0",
-    "branch: 4.1"
-   ],
-   "updatedAt": "2026-11-19T14:48:44Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
-   "verdict": "discard",
-   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
-   "evidence": [
-    "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Aclosed"
-   ]
-  },
-  {
-   "number": 17267,
-   "title": "Missing tests for s_client and s_server",
-   "url": "https://github.com/openssl/openssl/issues/17267",
-   "labels": [
-    "branch: master",
-    "help wanted",
-    "triaged: test"
-   ],
-   "updatedAt": "2026-11-19T14:53:04Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
-   "verdict": "discard",
-   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
-   "evidence": [
-    "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Aclosed"
-   ]
-  },
-  {
-   "number": 17470,
-   "title": "Getting/checking properties of fetched algorithms",
-   "url": "https://github.com/openssl/openssl/issues/17470",
-   "labels": [
-    "branch: master",
-    "help wanted",
-    "triaged: feature"
-   ],
-   "updatedAt": "2026-11-19T14:53:44Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
-   "verdict": "discard",
-   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
-   "evidence": [
-    "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Aclosed"
-   ]
-  },
-  {
-   "number": 17496,
-   "title": "X509_STORE_CTX_set0_trusted_stack() and X509_STORE_CTX_set0_untrusted() is badly named",
-   "url": "https://github.com/openssl/openssl/issues/17496",
-   "labels": [
-    "branch: master",
-    "help wanted",
-    "triaged: feature",
-    "triaged: documentation"
-   ],
-   "updatedAt": "2026-11-19T16:10:21Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
-   "verdict": "discard",
-   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
-   "evidence": [
-    "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Aclosed"
-   ]
-  },
-  {
-   "number": 17548,
-   "title": "Limiting SHA1 usage",
-   "url": "https://github.com/openssl/openssl/issues/17548",
-   "labels": [
-    "branch: master",
-    "help wanted",
-    "triaged: feature"
-   ],
-   "updatedAt": "2026-11-19T16:11:03Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
-   "verdict": "discard",
-   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
-   "evidence": [
-    "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Aclosed"
-   ]
-  },
-  {
-   "number": 17661,
-   "title": "Sunset for SHA-1 OCSP Signing",
-   "url": "https://github.com/openssl/openssl/issues/17661",
-   "labels": [
-    "branch: master",
-    "help wanted",
-    "triaged: feature"
-   ],
-   "updatedAt": "2026-11-19T16:15:17Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
-   "verdict": "discard",
-   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
-   "evidence": [
-    "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Aclosed"
-   ]
-  },
-  {
-   "number": 17789,
-   "title": "Missing documentation for OSSL_ENCODER-$ALG(7)",
-   "url": "https://github.com/openssl/openssl/issues/17789",
-   "labels": [
-    "branch: master",
-    "help wanted",
-    "triaged: documentation"
-   ],
-   "updatedAt": "2026-11-19T16:21:47Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
-   "verdict": "discard",
-   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
-   "evidence": [
-    "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Aclosed"
-   ]
-  },
-  {
-   "number": 17809,
-   "title": "Parsing EC parameters and private key separately not possible with OpenSSL 3.0",
-   "url": "https://github.com/openssl/openssl/issues/17809",
-   "labels": [
-    "branch: master",
-    "help wanted",
-    "triaged: feature"
-   ],
-   "updatedAt": "2026-11-19T16:23:28Z",
    "checkedAt": "2026-11-20T03:21:26.834Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
@@ -867,15 +597,15 @@
    ]
   },
   {
-   "number": 20700,
-   "title": "openssl x509 command does not decode S/MIME capabilites",
-   "url": "https://github.com/openssl/openssl/issues/20700",
+   "number": 20165,
+   "title": "password for public keys in utilities",
+   "url": "https://github.com/openssl/openssl/issues/20165",
    "labels": [
     "help wanted",
     "triaged: feature"
    ],
-   "updatedAt": "2026-11-19T13:14:59Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
+   "updatedAt": "2026-11-25T16:42:55Z",
+   "checkedAt": "2026-11-26T09:33:55.196Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
    "evidence": [
@@ -883,15 +613,15 @@
    ]
   },
   {
-   "number": 20818,
-   "title": "Problem with EVP_SealInit context",
-   "url": "https://github.com/openssl/openssl/issues/20818",
+   "number": 20166,
+   "title": "load public key using strategies in a \"store\"",
+   "url": "https://github.com/openssl/openssl/issues/20166",
    "labels": [
     "help wanted",
     "triaged: feature"
    ],
-   "updatedAt": "2026-11-19T13:50:35Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
+   "updatedAt": "2026-11-25T16:44:09Z",
+   "checkedAt": "2026-11-26T09:33:55.196Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
    "evidence": [
@@ -899,16 +629,50 @@
    ]
   },
   {
-   "number": 20918,
-   "title": "Add/design SSL_writev",
-   "url": "https://github.com/openssl/openssl/issues/20918",
+   "number": 20187,
+   "title": "spurious `X509_PUBKEY_get0()` decode error on `X509_REQ_dup` with null provider",
+   "url": "https://github.com/openssl/openssl/issues/20187",
+   "labels": [
+    "branch: master",
+    "help wanted",
+    "triaged: bug"
+   ],
+   "updatedAt": "2026-11-25T16:49:45Z",
+   "checkedAt": "2026-11-26T09:33:55.196Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 20229,
+   "title": "Document d2i_PKCS7_bio() libctx/propq behaviour (and same for other functions with this behavior)",
+   "url": "https://github.com/openssl/openssl/issues/20229",
+   "labels": [
+    "branch: master",
+    "help wanted",
+    "triaged: documentation"
+   ],
+   "updatedAt": "2026-11-25T16:55:03Z",
+   "checkedAt": "2026-11-26T09:33:55.196Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 20256,
+   "title": "X509: inconsistent treatment of trust anchors on strict chain checking",
+   "url": "https://github.com/openssl/openssl/issues/20256",
    "labels": [
     "branch: master",
     "help wanted",
     "triaged: feature"
    ],
-   "updatedAt": "2026-11-19T13:52:10Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
+   "updatedAt": "2026-11-25T17:02:08Z",
+   "checkedAt": "2026-11-26T09:33:55.196Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
    "evidence": [
@@ -916,19 +680,15 @@
    ]
   },
   {
-   "number": 21065,
-   "title": "bio_enc.c:When resetting BIO, the ctx->cont value was not set, resulting in the next BIO_read failed",
-   "url": "https://github.com/openssl/openssl/issues/21065",
+   "number": 20296,
+   "title": "CMP server: add support for multiple transactions",
+   "url": "https://github.com/openssl/openssl/issues/20296",
    "labels": [
-    "branch: master",
     "help wanted",
-    "triaged: bug",
-    "branch: 3.5",
-    "branch: 4.0",
-    "branch: 4.1"
+    "triaged: feature"
    ],
-   "updatedAt": "2026-11-24T09:02:44Z",
-   "checkedAt": "2026-11-25T04:19:06.926Z",
+   "updatedAt": "2026-11-25T17:02:18Z",
+   "checkedAt": "2026-11-26T09:33:55.196Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
    "evidence": [
@@ -936,19 +696,17 @@
    ]
   },
   {
-   "number": 21283,
-   "title": "Memory leak in d2i_PKCS12_bio() if BIO references directory",
-   "url": "https://github.com/openssl/openssl/issues/21283",
+   "number": 20396,
+   "title": "Document the performance impact of single SSL_CTX per connection",
+   "url": "https://github.com/openssl/openssl/issues/20396",
    "labels": [
     "branch: master",
     "help wanted",
-    "triaged: bug",
-    "branch: 3.5",
-    "branch: 4.0",
-    "branch: 4.1"
+    "triaged: documentation",
+    "triaged: performance"
    ],
-   "updatedAt": "2026-11-19T14:34:39Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
+   "updatedAt": "2026-11-25T17:02:55Z",
+   "checkedAt": "2026-11-26T09:33:55.196Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
    "evidence": [
@@ -1119,6 +877,327 @@
    ]
   },
   {
+   "number": 22070,
+   "title": "Switching between encrypt/decryption on EVP_CIPHER_CTX silently computes wrong results, rather than errors",
+   "url": "https://github.com/openssl/openssl/issues/22070",
+   "labels": [
+    "branch: master",
+    "help wanted",
+    "triaged: feature",
+    "triaged: documentation",
+    "branch: 3.5",
+    "branch: 4.0",
+    "branch: 4.1"
+   ],
+   "updatedAt": "2026-11-25T08:09:26Z",
+   "checkedAt": "2026-11-26T09:33:55.196Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 22388,
+   "title": "Support X25519 and X448 in CMS",
+   "url": "https://github.com/openssl/openssl/issues/22388",
+   "labels": [
+    "branch: master",
+    "help wanted",
+    "triaged: feature"
+   ],
+   "updatedAt": "2026-11-25T09:50:02Z",
+   "checkedAt": "2026-11-26T09:33:55.196Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 22404,
+   "title": "OpenSSL 3.x and EVP_CIPHER_CTX_FLAG_WRAP_ALLOW",
+   "url": "https://github.com/openssl/openssl/issues/22404",
+   "labels": [
+    "branch: master",
+    "help wanted",
+    "triaged: documentation",
+    "branch: 3.5",
+    "branch: 4.0",
+    "branch: 4.1"
+   ],
+   "updatedAt": "2026-11-25T09:51:48Z",
+   "checkedAt": "2026-11-26T09:33:55.196Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 22554,
+   "title": "Creating OpenSSL binaries with Control flow guard enabled fails with multiple test failure",
+   "url": "https://github.com/openssl/openssl/issues/22554",
+   "labels": [
+    "branch: master",
+    "help wanted",
+    "triaged: feature"
+   ],
+   "updatedAt": "2026-11-25T20:18:16Z",
+   "checkedAt": "2026-11-26T09:33:55.196Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 22567,
+   "title": "Init - Update - Final EdDSA signature verification",
+   "url": "https://github.com/openssl/openssl/issues/22567",
+   "labels": [
+    "branch: master",
+    "help wanted",
+    "triaged: feature"
+   ],
+   "updatedAt": "2026-11-25T10:40:19Z",
+   "checkedAt": "2026-11-26T09:33:55.196Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 22705,
+   "title": "X509_ALGOR_copy() is strange",
+   "url": "https://github.com/openssl/openssl/issues/22705",
+   "labels": [
+    "branch: master",
+    "help wanted",
+    "triaged: bug",
+    "branch: 3.5",
+    "branch: 4.0",
+    "branch: 4.1"
+   ],
+   "updatedAt": "2026-11-25T12:50:16Z",
+   "checkedAt": "2026-11-26T09:33:55.196Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 22753,
+   "title": "Windows msys2 + mingw64, openssl 3.1 : warnings in apps/lib/s_socket.c",
+   "url": "https://github.com/openssl/openssl/issues/22753",
+   "labels": [
+    "branch: master",
+    "help wanted",
+    "triaged: bug",
+    "branch: 3.5",
+    "branch: 4.0",
+    "branch: 4.1"
+   ],
+   "updatedAt": "2026-11-25T12:50:24Z",
+   "checkedAt": "2026-11-26T09:33:55.196Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 22829,
+   "title": "Auditing global mutable state in libssl",
+   "url": "https://github.com/openssl/openssl/issues/22829",
+   "labels": [
+    "help wanted",
+    "triaged: feature"
+   ],
+   "updatedAt": "2026-11-25T12:51:49Z",
+   "checkedAt": "2026-11-26T09:33:55.196Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 22830,
+   "title": "Audit symbol namespacing in CI",
+   "url": "https://github.com/openssl/openssl/issues/22830",
+   "labels": [
+    "help wanted",
+    "triaged: feature"
+   ],
+   "updatedAt": "2026-11-25T12:52:34Z",
+   "checkedAt": "2026-11-26T09:33:55.196Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 22983,
+   "title": "Not possible for providers to raise their own errors in `OSSL_provider_init` proper",
+   "url": "https://github.com/openssl/openssl/issues/22983",
+   "labels": [
+    "help wanted",
+    "triaged: bug"
+   ],
+   "updatedAt": "2026-11-25T13:10:16Z",
+   "checkedAt": "2026-11-26T09:33:55.196Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 23065,
+   "title": "Single threaded CRYPTO_secure_malloc implementation is bottleneck in busy servers",
+   "url": "https://github.com/openssl/openssl/issues/23065",
+   "labels": [
+    "branch: master",
+    "help wanted",
+    "triaged: documentation",
+    "triaged: performance",
+    "branch: 3.5",
+    "branch: 4.0",
+    "branch: 4.1"
+   ],
+   "updatedAt": "2026-11-25T13:21:21Z",
+   "checkedAt": "2026-11-26T09:33:55.196Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 23137,
+   "title": "With external engine, getting DHE copy parameter's failure.",
+   "url": "https://github.com/openssl/openssl/issues/23137",
+   "labels": [
+    "help wanted",
+    "triaged: bug",
+    "severity: regression",
+    "branch: 3.5"
+   ],
+   "updatedAt": "2026-11-25T13:23:22Z",
+   "checkedAt": "2026-11-26T09:33:55.196Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 23279,
+   "title": "s_client/s_server: Setting -min/-max_protocol to a DTLS version implicitly sets the connection to negotiate DTLS",
+   "url": "https://github.com/openssl/openssl/issues/23279",
+   "labels": [
+    "branch: master",
+    "help wanted",
+    "triaged: feature"
+   ],
+   "updatedAt": "2026-11-25T13:27:59Z",
+   "checkedAt": "2026-11-26T09:33:55.196Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 23403,
+   "title": "Configure does not appear honor disable inheritance",
+   "url": "https://github.com/openssl/openssl/issues/23403",
+   "labels": [
+    "branch: master",
+    "help wanted",
+    "triaged: bug"
+   ],
+   "updatedAt": "2026-11-25T15:42:47Z",
+   "checkedAt": "2026-11-26T09:33:55.196Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 23528,
+   "title": "Duplicate symbol OPENSSL_ia32cap_P found only on i686",
+   "url": "https://github.com/openssl/openssl/issues/23528",
+   "labels": [
+    "branch: master",
+    "help wanted",
+    "triaged: bug",
+    "branch: 3.2"
+   ],
+   "updatedAt": "2026-11-25T14:02:19Z",
+   "checkedAt": "2026-11-26T09:33:55.196Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 23534,
+   "title": "EVP_CIPHER_CTX_dup/EVP_MD_CTX_dup library versioning",
+   "url": "https://github.com/openssl/openssl/issues/23534",
+   "labels": [
+    "help wanted",
+    "triaged: bug",
+    "branch: 3.5"
+   ],
+   "updatedAt": "2026-11-25T14:10:41Z",
+   "checkedAt": "2026-11-26T09:33:55.196Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 23758,
+   "title": "Add Russian GOST algorithm support to TLSv1.3",
+   "url": "https://github.com/openssl/openssl/issues/23758",
+   "labels": [
+    "help wanted",
+    "triaged: feature"
+   ],
+   "updatedAt": "2026-11-25T14:20:49Z",
+   "checkedAt": "2026-11-26T09:33:55.196Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 23987,
+   "title": "Enhance verify(1) to output the constructed chain certificates, not just the subject names as with `-short_chain`.",
+   "url": "https://github.com/openssl/openssl/issues/23987",
+   "labels": [
+    "branch: master",
+    "help wanted",
+    "triaged: feature"
+   ],
+   "updatedAt": "2026-11-25T14:23:35Z",
+   "checkedAt": "2026-11-26T09:33:55.196Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
    "number": 26467,
    "title": "OpenSSL doesn't validate version field when parsing RSA PRIVATE KEY PEM",
    "url": "https://github.com/openssl/openssl/issues/26467",
@@ -1198,21 +1277,6 @@
    ]
   },
   {
-   "number": 28855,
-   "title": "conn_gets does 1-byte reads, causing syscall flood",
-   "url": "https://github.com/openssl/openssl/issues/28855",
-   "labels": [
-    "help wanted"
-   ],
-   "updatedAt": "2026-11-19T14:33:36Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
-   "verdict": "discard",
-   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
-   "evidence": [
-    "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Aclosed"
-   ]
-  },
-  {
    "number": 28957,
    "title": "Illegal hardware instruction when computing SHA256 on x86_64 (x32 ABI)",
    "url": "https://github.com/openssl/openssl/issues/28957",
@@ -1231,6 +1295,24 @@
    ]
   },
   {
+   "number": 28983,
+   "title": "check_cwm test times out if there is high cpu load",
+   "url": "https://github.com/openssl/openssl/issues/28983",
+   "labels": [
+    "help wanted",
+    "branch: 3.5",
+    "branch: 4.0",
+    "triaged: test"
+   ],
+   "updatedAt": "2026-11-26T08:12:27Z",
+   "checkedAt": "2026-11-26T09:33:55.196Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
    "number": 29162,
    "title": "[configure] android64-aarch64 target does not properly set `CC`",
    "url": "https://github.com/openssl/openssl/issues/29162",
@@ -1240,6 +1322,22 @@
    ],
    "updatedAt": "2026-11-20T08:51:17Z",
    "checkedAt": "2026-11-21T11:09:42.899Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 29382,
+   "title": "ODR violation in test/testutil/basic_output.c and test/bioprinttest.c",
+   "url": "https://github.com/openssl/openssl/issues/29382",
+   "labels": [
+    "help wanted",
+    "triaged: refactor"
+   ],
+   "updatedAt": "2026-11-26T08:16:37Z",
+   "checkedAt": "2026-11-26T09:33:55.196Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
    "evidence": [
@@ -1267,15 +1365,16 @@
    ]
   },
   {
-   "number": 29552,
-   "title": "Option to set custom includedir in the generated Makefile",
-   "url": "https://github.com/openssl/openssl/issues/29552",
+   "number": 29682,
+   "title": "OpenSSL s_server – chainCAfile2 directive??",
+   "url": "https://github.com/openssl/openssl/issues/29682",
    "labels": [
     "help wanted",
-    "triaged: feature"
+    "triaged: feature",
+    "triaged: documentation"
    ],
-   "updatedAt": "2026-11-19T14:49:56Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
+   "updatedAt": "2026-11-25T14:39:08Z",
+   "checkedAt": "2026-11-26T09:33:55.196Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
    "evidence": [
@@ -1296,42 +1395,6 @@
    ],
    "updatedAt": "2026-11-24T14:22:46Z",
    "checkedAt": "2026-11-25T04:19:06.926Z",
-   "verdict": "discard",
-   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
-   "evidence": [
-    "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Aclosed"
-   ]
-  },
-  {
-   "number": 30268,
-   "title": "HMAC_Init should not be used directly in a few places.",
-   "url": "https://github.com/openssl/openssl/issues/30268",
-   "labels": [
-    "branch: master",
-    "help wanted",
-    "triaged: bug",
-    "triaged: feature",
-    "severity: fips change",
-    "branch: 3.5",
-    "branch: 3.6"
-   ],
-   "updatedAt": "2026-11-19T15:31:06Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
-   "verdict": "discard",
-   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
-   "evidence": [
-    "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Aclosed"
-   ]
-  },
-  {
-   "number": 30278,
-   "title": "fuzz/quic-server.c: fuzzer is non-functional due to missing certificate setup",
-   "url": "https://github.com/openssl/openssl/issues/30278",
-   "labels": [
-    "help wanted"
-   ],
-   "updatedAt": "2026-11-19T14:56:43Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
    "evidence": [
@@ -1362,43 +1425,6 @@
     "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/openssl/openssl/pull/31412",
     "https://github.com/openssl/openssl/pull/33029"
-   ]
-  },
-  {
-   "number": 30769,
-   "title": "Private asm functions are exported due to missing .hidden directives",
-   "url": "https://github.com/openssl/openssl/issues/30769",
-   "labels": [
-    "branch: master",
-    "help wanted",
-    "triaged: refactor"
-   ],
-   "updatedAt": "2026-11-19T14:58:36Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
-   "verdict": "discard",
-   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
-   "evidence": [
-    "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Aclosed"
-   ]
-  },
-  {
-   "number": 31066,
-   "title": "ML-DSA signing and verification handle NULL,0 and non-NULL,0 inconsistently for an empty context string",
-   "url": "https://github.com/openssl/openssl/issues/31066",
-   "labels": [
-    "branch: master",
-    "help wanted",
-    "triaged: bug",
-    "branch: 3.5",
-    "branch: 3.6",
-    "branch: 4.0"
-   ],
-   "updatedAt": "2026-11-19T14:42:09Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
-   "verdict": "discard",
-   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
-   "evidence": [
-    "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Aclosed"
    ]
   },
   {
@@ -1478,6 +1504,28 @@
    ]
   },
   {
+   "number": 32947,
+   "title": "PKCS12_newpass under-allocates AES-WRAP-PAD output and causes a heap buffer overflow",
+   "url": "https://github.com/openssl/openssl/issues/32947",
+   "labels": [
+    "branch: master",
+    "help wanted",
+    "triaged: bug",
+    "branch: 3.4",
+    "branch: 3.5",
+    "branch: 3.6",
+    "branch: 4.0",
+    "branch: 4.1"
+   ],
+   "updatedAt": "2026-11-26T08:34:08Z",
+   "checkedAt": "2026-11-26T09:33:55.196Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
    "number": 33110,
    "title": "Decoders and i2d free private key DER buffers without clearing them",
    "url": "https://github.com/openssl/openssl/issues/33110",
@@ -1494,26 +1542,6 @@
     "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Aclosed",
     "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/openssl/openssl/pull/33274"
-   ]
-  },
-  {
-   "number": 33304,
-   "title": "Allocation-error reporting re-enters base initialization and error-state TLS setup",
-   "url": "https://github.com/openssl/openssl/issues/33304",
-   "labels": [
-    "branch: master",
-    "help wanted",
-    "triaged: bug",
-    "branch: 3.6",
-    "branch: 4.0",
-    "branch: 4.1"
-   ],
-   "updatedAt": "2026-11-19T14:10:54Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
-   "verdict": "discard",
-   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
-   "evidence": [
-    "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Aclosed"
    ]
   },
   {
@@ -1564,8 +1592,8 @@
     "help wanted",
     "triaged: feature"
    ],
-   "updatedAt": "2026-11-23T04:21:48Z",
-   "checkedAt": "2026-11-24T00:55:21.548Z",
+   "updatedAt": "2026-11-25T15:33:01Z",
+   "checkedAt": "2026-11-26T09:33:55.196Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
    "evidence": [
@@ -1830,23 +1858,6 @@
    ]
   },
   {
-   "number": 33847,
-   "title": "RSA key generation should reject moduli larger than OPENSSL_RSA_MAX_MODULUS_BITS",
-   "url": "https://github.com/openssl/openssl/issues/33847",
-   "labels": [
-    "branch: master",
-    "help wanted",
-    "triaged: bug"
-   ],
-   "updatedAt": "2026-11-19T14:58:49Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
-   "verdict": "discard",
-   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
-   "evidence": [
-    "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Aclosed"
-   ]
-  },
-  {
    "number": 33853,
    "title": "OSSL_trace_string() overruns its stack buffer when text == 0 and full != 0",
    "url": "https://github.com/openssl/openssl/issues/33853",
@@ -2047,16 +2058,18 @@
    ]
   },
   {
-   "number": 33913,
-   "title": "BIO_eof() stays false after an SSL BIO receives close_notify on OpenSSL 3.5",
-   "url": "https://github.com/openssl/openssl/issues/33913",
+   "number": 33974,
+   "title": "OCSP multi-stapling: missing NULL placeholders for unstapled certificates",
+   "url": "https://github.com/openssl/openssl/issues/33974",
    "labels": [
+    "branch: master",
     "help wanted",
     "triaged: bug",
-    "branch: 3.5"
+    "branch: 4.0",
+    "branch: 4.1"
    ],
-   "updatedAt": "2026-11-23T09:57:16Z",
-   "checkedAt": "2026-11-24T00:55:21.548Z",
+   "updatedAt": "2026-11-25T17:05:47Z",
+   "checkedAt": "2026-11-26T09:33:55.196Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
    "evidence": [

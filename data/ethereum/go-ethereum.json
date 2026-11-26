@@ -4,7 +4,7 @@
  "language": "Go",
  "stars": 51472,
  "description": "Go implementation of the Ethereum protocol",
- "visitedAt": "2026-11-19T03:33:09.404Z",
+ "visitedAt": "2026-11-26T09:33:55.196Z",
  "issues": [
   {
    "number": 16874,
@@ -103,8 +103,8 @@
     "type:feature",
     "help wanted"
    ],
-   "updatedAt": "2026-11-08T16:32:43Z",
-   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "updatedAt": "2026-11-24T02:58:58Z",
+   "checkedAt": "2026-11-26T09:33:55.196Z",
    "verdict": "discard",
    "reason": "PR #33809 by @s1na is already open against this issue",
    "evidence": [

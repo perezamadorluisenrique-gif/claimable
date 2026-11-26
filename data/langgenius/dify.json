@@ -4,7 +4,7 @@
  "language": "Python",
  "stars": 160864,
  "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without reb",
- "visitedAt": "2026-11-25T04:19:06.926Z",
+ "visitedAt": "2026-11-26T09:33:55.196Z",
  "issues": [
   {
    "number": 18752,
@@ -104,13 +104,14 @@
    "labels": [
     "good first issue"
    ],
-   "updatedAt": "2026-11-11T19:37:30Z",
-   "checkedAt": "2026-11-15T02:43:03.155Z",
+   "updatedAt": "2026-11-26T04:53:48Z",
+   "checkedAt": "2026-11-26T09:33:55.196Z",
    "verdict": "discard",
-   "reason": "@GYJ99 claimed it 15 days ago",
+   "reason": "@Vijay431 claimed it today",
    "evidence": [
     "https://github.com/langgenius/dify/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/langgenius/dify/pull/45168",
+    "https://github.com/langgenius/dify/issues/45166#issuecomment-7182997441",
     "https://github.com/langgenius/dify/issues/45166#issuecomment-6525709475"
    ]
   },
@@ -139,8 +140,8 @@
    "labels": [
     "good first issue"
    ],
-   "updatedAt": "2026-11-22T06:43:00Z",
-   "checkedAt": "2026-11-22T15:22:16.116Z",
+   "updatedAt": "2026-11-26T04:53:49Z",
+   "checkedAt": "2026-11-26T09:33:55.196Z",
    "verdict": "discard",
    "reason": "PR #45587 by @matheussilvano is already open against this issue",
    "evidence": [
@@ -153,7 +154,7 @@
     "https://github.com/langgenius/dify/pull/45889",
     "https://github.com/langgenius/dify/pull/45896",
     "https://github.com/langgenius/dify/pull/46009",
-    "https://github.com/langgenius/dify/pull/46113"
+    "https://github.com/langgenius/dify/pull/46125"
    ]
   },
   {
@@ -163,16 +164,17 @@
    "labels": [
     "good first issue"
    ],
-   "updatedAt": "2026-11-19T05:49:46Z",
-   "checkedAt": "2026-11-21T11:09:42.899Z",
+   "updatedAt": "2026-11-26T04:53:51Z",
+   "checkedAt": "2026-11-26T09:33:55.196Z",
    "verdict": "discard",
-   "reason": "@GYJ99 claimed it 17 days ago",
+   "reason": "@Vaibhav2824 claimed it 20 days ago",
    "evidence": [
     "https://github.com/langgenius/dify/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/langgenius/dify/pull/45693",
     "https://github.com/langgenius/dify/pull/45730",
-    "https://github.com/langgenius/dify/issues/45585#issuecomment-6639289036",
-    "https://github.com/langgenius/dify/issues/45585#issuecomment-6682775716"
+    "https://github.com/langgenius/dify/issues/45585#issuecomment-6682775716",
+    "https://github.com/langgenius/dify/issues/45585#issuecomment-7182998209",
+    "https://github.com/langgenius/dify/issues/45585#issuecomment-6639289036"
    ]
   }
  ]

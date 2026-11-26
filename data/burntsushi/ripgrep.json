@@ -4,7 +4,7 @@
  "language": "Rust",
  "stars": 69966,
  "description": "ripgrep recursively searches directories for a regex pattern while respecting your gitignore",
- "visitedAt": "2026-11-19T03:33:09.404Z",
+ "visitedAt": "2026-11-26T09:33:55.196Z",
  "issues": [
   {
    "number": 478,
@@ -93,60 +93,6 @@
     "https://github.com/BurntSushi/ripgrep/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/BurntSushi/ripgrep/pull/3601",
     "https://github.com/dfinity/sdk/pull/2320"
-   ]
-  },
-  {
-   "number": 2930,
-   "title": "add `blink` style support",
-   "url": "https://github.com/BurntSushi/ripgrep/issues/2930",
-   "labels": [
-    "enhancement",
-    "help wanted"
-   ],
-   "updatedAt": "2024-11-11T17:58:25Z",
-   "checkedAt": "2026-11-11T22:03:46.308Z",
-   "verdict": "discard",
-   "reason": "PR #84 by @andrewcarson is already open against this issue",
-   "evidence": [
-    "https://github.com/BurntSushi/ripgrep/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/BurntSushi/termcolor/pull/84",
-    "https://github.com/BurntSushi/ripgrep/pull/3252"
-   ]
-  },
-  {
-   "number": 2962,
-   "title": "Missing support for `[[:space:]]` match group in the ignore crate",
-   "url": "https://github.com/BurntSushi/ripgrep/issues/2962",
-   "labels": [
-    "enhancement",
-    "help wanted"
-   ],
-   "updatedAt": "2025-10-28T23:01:49Z",
-   "checkedAt": "2026-11-11T22:03:46.308Z",
-   "verdict": "discard",
-   "reason": "PR #6036 by @bcspragu is already open against this issue",
-   "evidence": [
-    "https://github.com/BurntSushi/ripgrep/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/jj-vcs/jj/pull/6036",
-    "https://github.com/BurntSushi/ripgrep/pull/3281"
-   ]
-  },
-  {
-   "number": 3243,
-   "title": "Add linkable headings to options in man pages",
-   "url": "https://github.com/BurntSushi/ripgrep/issues/3243",
-   "labels": [
-    "enhancement",
-    "help wanted"
-   ],
-   "updatedAt": "2026-08-28T17:44:16Z",
-   "checkedAt": "2026-11-11T22:03:46.308Z",
-   "verdict": "discard",
-   "reason": "PR #3250 by @kanata9819 is already open against this issue",
-   "evidence": [
-    "https://github.com/BurntSushi/ripgrep/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/BurntSushi/ripgrep/pull/3250",
-    "https://github.com/BurntSushi/ripgrep/pull/3521"
    ]
   }
  ]

@@ -4,7 +4,7 @@
  "language": "Rust",
  "stars": 96744,
  "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
- "visitedAt": "2026-11-19T03:33:09.404Z",
+ "visitedAt": "2026-11-26T09:33:55.196Z",
  "issues": [
   {
    "number": 2467,
@@ -295,32 +295,6 @@
    ]
   },
   {
-   "number": 14020,
-   "title": "`bun build --compile` leads to `.bun-build` workspace clutter",
-   "url": "https://github.com/oven-sh/bun/issues/14020",
-   "labels": [
-    "bug",
-    "bundler",
-    "good first issue"
-   ],
-   "updatedAt": "2026-10-23T21:54:20Z",
-   "checkedAt": "2026-11-11T22:03:46.308Z",
-   "verdict": "discard",
-   "reason": "PR #45967 by @robobun is already open against this issue",
-   "evidence": [
-    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Aclosed",
-    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/oven-sh/bun/pull/45967",
-    "https://github.com/oven-sh/bun/pull/46624",
-    "https://github.com/ket-sh/ket/pull/93",
-    "https://github.com/851-labs/tokenmaxxing/pull/121",
-    "https://github.com/jlawcordova/jlawcordova-atproto/pull/26",
-    "https://github.com/nolnoch/grayboard/pull/198",
-    "https://github.com/nolnoch/grayboard/pull/231",
-    "https://github.com/samzong/Rx/pull/43"
-   ]
-  },
-  {
    "number": 14124,
    "title": "Change of loading counter of installed packages in `bun install`",
    "url": "https://github.com/oven-sh/bun/issues/14124",
@@ -408,21 +382,12 @@
     "enhancement",
     "good first issue"
    ],
-   "updatedAt": "2026-11-07T19:19:13Z",
-   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "updatedAt": "2026-11-25T06:54:41Z",
+   "checkedAt": "2026-11-26T09:33:55.196Z",
    "verdict": "discard",
-   "reason": "PR #13032 by @geminigeek is already open against this issue",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
    "evidence": [
-    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Aclosed",
-    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/payloadcms/payload/pull/13032",
-    "https://github.com/oven-sh/bun/pull/36102",
-    "https://github.com/oven-sh/bun/pull/39360",
-    "https://github.com/oven-sh/bun/pull/40206",
-    "https://github.com/oven-sh/bun/pull/39965",
-    "https://github.com/payloadcms/payload/pull/12622",
-    "https://github.com/app-vitals/shipwright/pull/3017",
-    "https://github.com/Rackbops/rackbops-discord-bot/pull/618"
+    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Aclosed"
    ]
   },
   {
@@ -434,15 +399,12 @@
     "good first issue",
     "cli"
    ],
-   "updatedAt": "2026-10-27T04:45:24Z",
-   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "updatedAt": "2026-11-25T07:13:57Z",
+   "checkedAt": "2026-11-26T09:33:55.196Z",
    "verdict": "discard",
-   "reason": "PR #18979 by @vscncls is already open against this issue",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
    "evidence": [
-    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Aclosed",
-    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/oven-sh/bun/pull/18979",
-    "https://github.com/oven-sh/bun/pull/44152"
+    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Aclosed"
    ]
   },
   {
@@ -566,15 +528,12 @@
     "node:module",
     "confirmed bug"
    ],
-   "updatedAt": "2026-09-01T06:40:19Z",
-   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "updatedAt": "2026-11-26T06:46:15Z",
+   "checkedAt": "2026-11-26T09:33:55.196Z",
    "verdict": "discard",
-   "reason": "PR #37947 by @robobun is already open against this issue",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
    "evidence": [
-    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Aclosed",
-    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/oven-sh/bun/pull/37947",
-    "https://github.com/Queep-It/landing-website/pull/3"
+    "https://github.com/oven-sh/bun/pulls?q=is%3Apr+is%3Aclosed"
    ]
   }
  ]

@@ -4,7 +4,7 @@
  "language": "C++",
  "stars": 105362,
  "description": "The new Windows Terminal and the original Windows console host, all in the same place!",
- "visitedAt": "2026-11-19T03:33:09.404Z",
+ "visitedAt": "2026-11-26T09:33:55.196Z",
  "issues": [
   {
    "number": 351,
@@ -83,8 +83,8 @@
     "In-PR",
     "Priority-2"
    ],
-   "updatedAt": "2026-11-17T17:40:46Z",
-   "checkedAt": "2026-11-19T03:33:09.404Z",
+   "updatedAt": "2026-11-24T01:35:03Z",
+   "checkedAt": "2026-11-26T09:33:55.196Z",
    "verdict": "discard",
    "reason": "PR #20925 by @crutkas is already open against this issue",
    "evidence": [
@@ -137,33 +137,6 @@
     "https://github.com/microsoft/terminal/pull/4746",
     "https://github.com/microsoft/terminal/pull/6635",
     "https://github.com/microsoft/terminal/issues/1334",
-    "https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022",
-    "https://github.com/microsoft/terminal/blob/HEAD/README.md",
-    "https://github.com/microsoft/terminal/blob/HEAD/AGENTS.md"
-   ]
-  },
-  {
-   "number": 1379,
-   "title": "Add support for turning off cursor blink",
-   "url": "https://github.com/microsoft/terminal/issues/1379",
-   "labels": [
-    "Help Wanted",
-    "Area-TerminalControl",
-    "Area-Settings",
-    "Product-Terminal",
-    "Issue-Task",
-    "In-PR",
-    "Priority-2"
-   ],
-   "updatedAt": "2026-11-17T22:40:26Z",
-   "checkedAt": "2026-11-19T03:33:09.404Z",
-   "verdict": "reservations",
-   "reason": "PR #4902 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+3 more)",
-   "evidence": [
-    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/microsoft/terminal/pull/4902",
-    "https://github.com/microsoft/terminal/pull/7379",
-    "https://github.com/microsoft/terminal/issues/1379",
     "https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022",
     "https://github.com/microsoft/terminal/blob/HEAD/README.md",
     "https://github.com/microsoft/terminal/blob/HEAD/AGENTS.md"
@@ -497,6 +470,26 @@
    ]
   },
   {
+   "number": 4359,
+   "title": "CreatePseudoConsole doesn't handle sockets correctly",
+   "url": "https://github.com/microsoft/terminal/issues/4359",
+   "labels": [
+    "Help Wanted",
+    "Product-Conpty",
+    "Issue-Bug",
+    "Priority-1",
+    "Area-Quality"
+   ],
+   "updatedAt": "2025-11-01T21:09:18Z",
+   "checkedAt": "2026-11-26T09:33:55.196Z",
+   "verdict": "discard",
+   "reason": "PR #16779 by @testforstephen is already open against this issue",
+   "evidence": [
+    "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/issues/16779"
+   ]
+  },
+  {
    "number": 4717,
    "title": "Add title to split window",
    "url": "https://github.com/microsoft/terminal/issues/4717",
@@ -701,8 +694,8 @@
     "Product-Terminal",
     "In-PR"
    ],
-   "updatedAt": "2026-07-20T18:57:37Z",
-   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "updatedAt": "2026-11-24T19:37:42Z",
+   "checkedAt": "2026-11-26T09:33:55.196Z",
    "verdict": "discard",
    "reason": "PR #20014 by @carlos-zamora is already open against this issue",
    "evidence": [
@@ -1025,8 +1018,8 @@
     "In-PR",
     "Area-Windowing"
    ],
-   "updatedAt": "2026-11-17T12:23:21Z",
-   "checkedAt": "2026-11-19T03:33:09.404Z",
+   "updatedAt": "2026-11-23T23:13:09Z",
+   "checkedAt": "2026-11-26T09:33:55.196Z",
    "verdict": "discard",
    "reason": "PR #9992 by @zadjii-msft is already open against this issue",
    "evidence": [
@@ -1519,12 +1512,13 @@
     "Priority-2",
     "Area-Commandline"
    ],
-   "updatedAt": "2026-10-09T04:03:28Z",
-   "checkedAt": "2026-11-12T03:03:40.195Z",
+   "updatedAt": "2026-11-24T19:08:50Z",
+   "checkedAt": "2026-11-26T09:33:55.196Z",
    "verdict": "reservations",
-   "reason": "setup instructions live outside the repository (https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "reason": "PR #20939 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+2 more)",
    "evidence": [
     "https://github.com/microsoft/terminal/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/terminal/pull/20939",
     "https://github.com/microsoft/terminal/issues/14861",
     "https://docs.microsoft.com/en-us/cpp/standard-library/stl-containers?view=vs-2022",
     "https://github.com/microsoft/terminal/blob/HEAD/README.md",

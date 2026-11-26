@@ -4,7 +4,7 @@
  "language": "Rust",
  "stars": 153318,
  "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode,DeepSeek Harness and more. Only official website: ccswitch.io",
- "visitedAt": "2026-11-19T03:33:09.404Z",
+ "visitedAt": "2026-11-26T09:33:55.196Z",
  "issues": [
   {
    "number": 3265,
@@ -33,12 +33,11 @@
     "enhancement",
     "good first issue"
    ],
-   "updatedAt": "2026-10-10T01:49:20Z",
-   "checkedAt": "2026-11-19T03:33:09.404Z",
-   "verdict": "reservations",
-   "reason": "only 20% of recently closed PRs were merged — most contributions get rejected or abandoned here",
+   "updatedAt": "2026-11-19T14:00:58Z",
+   "checkedAt": "2026-11-26T09:33:55.196Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
    "evidence": [
-    "https://github.com/farion1231/cc-switch/pulls?q=is%3Apr+is%3Aclosed",
     "https://github.com/farion1231/cc-switch/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/farion1231/cc-switch/issues/3611",
     "https://github.com/farion1231/cc-switch/blob/HEAD/README.md",

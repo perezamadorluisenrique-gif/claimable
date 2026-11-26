@@ -4,7 +4,7 @@
  "language": "Go",
  "stars": 139828,
  "description": "The Go programming language",
- "visitedAt": "2026-11-25T04:19:06.926Z",
+ "visitedAt": "2026-11-26T09:33:55.196Z",
  "issues": [
   {
    "number": 7175,
@@ -196,6 +196,23 @@
    ]
   },
   {
+   "number": 26921,
+   "title": "x/tools/cmd/goimports: lost line between package and import statements in output",
+   "url": "https://github.com/golang/go/issues/26921",
+   "labels": [
+    "help wanted",
+    "NeedsFix",
+    "Tools"
+   ],
+   "updatedAt": "2026-11-25T15:27:10Z",
+   "checkedAt": "2026-11-26T09:33:55.196Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/golang/go/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
    "number": 29982,
    "title": "sizeof: new package with constants for Int, Uint, Uintptr, Int8, Float64, etc",
    "url": "https://github.com/golang/go/issues/29982",
@@ -378,24 +395,6 @@
     "cgo"
    ],
    "updatedAt": "2026-09-23T10:43:41Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
-   "verdict": "discard",
-   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
-   "evidence": [
-    "https://github.com/golang/go/pulls?q=is%3Apr+is%3Aclosed"
-   ]
-  },
-  {
-   "number": 39537,
-   "title": "cmd/cgo: more expansive test coverage",
-   "url": "https://github.com/golang/go/issues/39537",
-   "labels": [
-    "help wanted",
-    "NeedsFix",
-    "compiler/runtime",
-    "cgo"
-   ],
-   "updatedAt": "2026-09-10T09:47:40Z",
    "checkedAt": "2026-11-11T15:17:00.117Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
@@ -1518,8 +1517,8 @@
     "help wanted",
     "NeedsDecision"
    ],
-   "updatedAt": "2026-11-19T22:02:26Z",
-   "checkedAt": "2026-11-21T18:00:03.889Z",
+   "updatedAt": "2026-11-25T10:37:47Z",
+   "checkedAt": "2026-11-26T09:33:55.196Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
    "evidence": [
