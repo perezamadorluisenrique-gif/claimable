@@ -4,7 +4,7 @@
  "language": "TypeScript",
  "stars": 118704,
  "description": "High performance self-hosted photo and video management solution.",
- "visitedAt": "2026-11-22T21:48:48.472Z",
+ "visitedAt": "2026-11-26T00:24:06.217Z",
  "issues": [
   {
    "number": 21855,
@@ -65,6 +65,22 @@
     "https://github.com/immich-app/immich/issues/33325",
     "https://docs.immich.app/developer/setup",
     "https://github.com/immich-app/immich/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 33576,
+   "title": "Locked folder asset deletion inconsistent between App and Web",
+   "url": "https://github.com/immich-app/immich/issues/33576",
+   "labels": [
+    "good first issue"
+   ],
+   "updatedAt": "2026-11-24T06:54:12Z",
+   "checkedAt": "2026-11-26T00:24:06.217Z",
+   "verdict": "discard",
+   "reason": "PR #33653 by @souvik-biswas-dev is already open against this issue",
+   "evidence": [
+    "https://github.com/immich-app/immich/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/immich-app/immich/pull/33653"
    ]
   }
  ]

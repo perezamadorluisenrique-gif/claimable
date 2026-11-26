@@ -4,7 +4,7 @@
  "language": "Go",
  "stars": 67610,
  "description": "The Prometheus monitoring system and time series database.",
- "visitedAt": "2026-11-18T21:59:17.025Z",
+ "visitedAt": "2026-11-26T00:24:06.217Z",
  "issues": [
   {
    "number": 667,
@@ -200,6 +200,28 @@
    ]
   },
   {
+   "number": 5868,
+   "title": "tsdb: [feature request]: detect and stop compacting blocks that result with index file size >64Gi",
+   "url": "https://github.com/prometheus/prometheus/issues/5868",
+   "labels": [
+    "help wanted",
+    "kind/enhancement",
+    "priority/P3",
+    "component/tsdb"
+   ],
+   "updatedAt": "2024-03-13T08:49:12Z",
+   "checkedAt": "2026-11-26T00:24:06.217Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://github.com/prometheus/prometheus/wiki/Label-Names-and-Descriptions) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "evidence": [
+    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/prometheus/prometheus/issues/5868",
+    "https://github.com/prometheus/prometheus/blob/HEAD/README.md",
+    "https://github.com/prometheus/prometheus/wiki/Label-Names-and-Descriptions",
+    "https://github.com/prometheus/prometheus/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
    "number": 6222,
    "title": "Promtool subcommands should consistently support stdin reads",
    "url": "https://github.com/prometheus/prometheus/issues/6222",
@@ -323,29 +345,6 @@
    ]
   },
   {
-   "number": 7784,
-   "title": "Add consul exposed sidecar ports",
-   "url": "https://github.com/prometheus/prometheus/issues/7784",
-   "labels": [
-    "help wanted",
-    "component/service discovery",
-    "priority/P3",
-    "kind/feature"
-   ],
-   "updatedAt": "2026-10-14T18:33:18Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
-   "verdict": "reservations",
-   "reason": "1 stale claim, the most recent by @nightjard 28 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
-   "evidence": [
-    "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/prometheus/prometheus/issues/7784#issuecomment-6175516359",
-    "https://github.com/prometheus/prometheus/issues/7784",
-    "https://github.com/prometheus/prometheus/blob/HEAD/README.md",
-    "https://github.com/prometheus/prometheus/wiki/Label-Names-and-Descriptions",
-    "https://github.com/prometheus/prometheus/blob/HEAD/CONTRIBUTING.md"
-   ]
-  },
-  {
    "number": 7971,
    "title": "Remote Write page in the UI",
    "url": "https://github.com/prometheus/prometheus/issues/7971",
@@ -459,8 +458,8 @@
     "component/rules",
     "kind/feature"
    ],
-   "updatedAt": "2024-08-10T07:54:35Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "updatedAt": "2026-11-23T13:01:45Z",
+   "checkedAt": "2026-11-26T00:24:06.217Z",
    "verdict": "discard",
    "reason": "PR #15555 by @fwippe is already open against this issue",
    "evidence": [
@@ -947,16 +946,13 @@
     "priority/Pmaybe",
     "component/agent"
    ],
-   "updatedAt": "2026-11-05T04:48:34Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
-   "verdict": "reservations",
-   "reason": "setup instructions live outside the repository (https://github.com/prometheus/prometheus/wiki/Label-Names-and-Descriptions) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "updatedAt": "2026-11-20T16:20:03Z",
+   "checkedAt": "2026-11-26T00:24:06.217Z",
+   "verdict": "discard",
+   "reason": "PR #20523 by @AynSiddiqui is already open against this issue",
    "evidence": [
     "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/prometheus/prometheus/issues/11852",
-    "https://github.com/prometheus/prometheus/blob/HEAD/README.md",
-    "https://github.com/prometheus/prometheus/wiki/Label-Names-and-Descriptions",
-    "https://github.com/prometheus/prometheus/blob/HEAD/CONTRIBUTING.md"
+    "https://github.com/prometheus/prometheus/pull/20523"
    ]
   },
   {
@@ -1483,13 +1479,14 @@
     "kind/bug",
     "component/agent"
    ],
-   "updatedAt": "2026-09-21T11:10:35Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "updatedAt": "2026-11-21T18:52:14Z",
+   "checkedAt": "2026-11-26T00:24:06.217Z",
    "verdict": "discard",
    "reason": "PR #16706 by @SandroJijavadze is already open against this issue",
    "evidence": [
     "https://github.com/prometheus/prometheus/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/prometheus/prometheus/pull/16706"
+    "https://github.com/prometheus/prometheus/pull/16706",
+    "https://github.com/prometheus/prometheus/pull/20528"
    ]
   },
   {

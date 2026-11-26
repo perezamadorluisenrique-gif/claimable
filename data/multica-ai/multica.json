@@ -4,7 +4,7 @@
  "language": "Go",
  "stars": 55562,
  "description": "Make humans and AI agents work as one team — open-source and self-hostable.",
- "visitedAt": "2026-11-18T21:59:17.025Z",
+ "visitedAt": "2026-11-26T00:24:06.217Z",
  "issues": [
   {
    "number": 815,
@@ -72,8 +72,8 @@
     "good first issue",
     "question"
    ],
-   "updatedAt": "2026-10-15T06:17:49Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "updatedAt": "2026-11-23T16:48:32Z",
+   "checkedAt": "2026-11-26T00:24:06.217Z",
    "verdict": "discard",
    "reason": "PR #6861 by @kinpoe-ray is already open against this issue",
    "evidence": [

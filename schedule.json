@@ -80,8 +80,8 @@
   "lastNewIssue": "2026-09-27T06:15:04Z"
  },
  "immich-app/immich": {
-  "nextCheck": "2026-11-25T21:48:48.472Z",
-  "lastNewIssue": "2026-11-15T21:37:12Z"
+  "nextCheck": "2026-11-27T00:24:06.217Z",
+  "lastNewIssue": "2026-11-22T22:41:10Z"
  },
  "supabase/supabase": {
   "nextCheck": "2026-11-27T21:15:51.266Z",
@@ -92,8 +92,8 @@
   "lastNewIssue": "2026-10-25T23:31:22Z"
  },
  "nexu-io/open-design": {
-  "nextCheck": "2026-11-25T21:15:51.266Z",
-  "lastNewIssue": "2026-11-24T18:33:02Z"
+  "nextCheck": "2026-11-27T00:24:06.217Z",
+  "lastNewIssue": "2026-11-25T18:21:13Z"
  },
  "ant-design/ant-design": {
   "nextCheck": "2026-11-28T23:21:26.689Z",
@@ -204,7 +204,7 @@
   "lastNewIssue": "2026-11-22T16:20:11Z"
  },
  "keycloak/keycloak": {
-  "nextCheck": "2026-11-25T21:15:51.266Z",
+  "nextCheck": "2026-11-29T00:24:06.217Z",
   "lastNewIssue": "2026-11-18T14:50:00Z"
  },
  "alibaba/arthas": {
@@ -240,7 +240,7 @@
   "lastNewIssue": "2026-10-20T01:53:02Z"
  },
  "ollama/ollama": {
-  "nextCheck": "2026-11-25T21:59:17.025Z",
+  "nextCheck": "2026-12-03T00:24:06.217Z",
   "lastNewIssue": "2025-11-04T23:34:27Z"
  },
  "golang/go": {
@@ -256,15 +256,15 @@
   "lastNewIssue": "2026-11-10T18:13:20Z"
  },
  "syncthing/syncthing": {
-  "nextCheck": "2026-11-25T21:59:17.025Z",
+  "nextCheck": "2026-12-03T00:24:06.217Z",
   "lastNewIssue": "2015-08-27T20:26:27Z"
  },
  "netdata/netdata": {
-  "nextCheck": "2026-11-25T21:59:17.025Z",
+  "nextCheck": "2026-12-03T00:24:06.217Z",
   "lastNewIssue": "2018-10-14T10:14:27Z"
  },
  "caddyserver/caddy": {
-  "nextCheck": "2026-11-25T21:59:17.025Z",
+  "nextCheck": "2026-12-03T00:24:06.217Z",
   "lastNewIssue": null
  },
  "moby/moby": {
@@ -272,7 +272,7 @@
   "lastNewIssue": "2026-11-20T16:14:36Z"
  },
  "prometheus/prometheus": {
-  "nextCheck": "2026-11-25T21:59:17.025Z",
+  "nextCheck": "2026-12-03T00:24:06.217Z",
   "lastNewIssue": "2026-03-27T20:55:01Z"
  },
  "rclone/rclone": {
@@ -280,11 +280,11 @@
   "lastNewIssue": "2026-11-13T15:42:49Z"
  },
  "multica-ai/multica": {
-  "nextCheck": "2026-11-25T21:59:17.025Z",
+  "nextCheck": "2026-12-03T00:24:06.217Z",
   "lastNewIssue": "2026-07-31T06:19:04Z"
  },
  "wagoodman/dive": {
-  "nextCheck": "2026-11-25T21:59:17.025Z",
+  "nextCheck": "2026-12-03T00:24:06.217Z",
   "lastNewIssue": "2024-07-18T21:49:38Z"
  },
  "etcd-io/etcd": {
@@ -1144,7 +1144,7 @@
   "lastNewIssue": "2025-03-19T00:01:35Z"
  },
  "othmanadi/planning-with-files": {
-  "nextCheck": "2026-11-25T21:15:51.266Z",
+  "nextCheck": "2026-11-27T00:24:06.217Z",
   "lastNewIssue": "2026-11-21T08:02:00Z"
  },
  "zsh-users/zsh-syntax-highlighting": {

@@ -4,7 +4,7 @@
  "language": "Java",
  "stars": 37801,
  "description": "Open Source Identity and Access Management For Modern Applications and Services",
- "visitedAt": "2026-11-24T21:15:51.266Z",
+ "visitedAt": "2026-11-26T00:24:06.217Z",
  "issues": [
   {
    "number": 8744,
@@ -857,6 +857,27 @@
     "https://github.com/keycloak/keycloak/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/keycloak/keycloak/pull/52793",
     "https://github.com/keycloak/keycloak/blob/HEAD/services/src/main/java/org/keycloak/protocol/oauth2/cimd/clientpolicy/executor/AbstractClientIdMetadataDocumentExecutor.java",
+    "https://github.com/keycloak/keycloak/blob/HEAD/README.md",
+    "https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue",
+    "https://github.com/keycloak/keycloak/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 50532,
+   "title": "CIMD: Unbounded persistent client creation via path variation",
+   "url": "https://github.com/keycloak/keycloak/issues/50532",
+   "labels": [
+    "help wanted",
+    "priority/normal",
+    "team/core-protocols",
+    "kind/weakness"
+   ],
+   "updatedAt": "2026-10-07T07:03:24Z",
+   "checkedAt": "2026-11-26T00:24:06.217Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/keycloak/keycloak/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/keycloak/keycloak/blob/HEAD/README.md",
     "https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue",
     "https://github.com/keycloak/keycloak/blob/HEAD/CONTRIBUTING.md"
@@ -2173,29 +2194,6 @@
    ]
   },
   {
-   "number": 54721,
-   "title": "Group names can contain control characters (e.g. NUL) - silently stored, breaks PostgreSQL deployments and exact matching",
-   "url": "https://github.com/keycloak/keycloak/issues/54721",
-   "labels": [
-    "kind/bug",
-    "area/admin/api",
-    "help wanted",
-    "team/core-iam",
-    "status/auto-expire",
-    "status/auto-bump",
-    "priority/normal",
-    "status/labeled-by-bot"
-   ],
-   "updatedAt": "2026-11-16T16:03:39Z",
-   "checkedAt": "2026-11-17T04:31:55.832Z",
-   "verdict": "discard",
-   "reason": "PR #54828 by @Inf1mum is already open against this issue",
-   "evidence": [
-    "https://github.com/keycloak/keycloak/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/keycloak/keycloak/pull/54828"
-   ]
-  },
-  {
    "number": 54848,
    "title": "AuthZEN: `resource.properties` and `context` share one attribute namespace, and `context` silently overrides resource properties",
    "url": "https://github.com/keycloak/keycloak/issues/54848",
@@ -2246,11 +2244,11 @@
     "help wanted",
     "area/identity-brokering",
     "team/core-iam",
-    "action/priority-low",
+    "priority/low",
     "status/labeled-by-bot"
    ],
-   "updatedAt": "2026-11-23T14:22:07Z",
-   "checkedAt": "2026-11-24T21:15:51.266Z",
+   "updatedAt": "2026-11-25T07:38:54Z",
+   "checkedAt": "2026-11-26T00:24:06.217Z",
    "verdict": "discard",
    "reason": "already assigned to @tkyjovsk",
    "evidence": [

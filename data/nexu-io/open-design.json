@@ -4,7 +4,7 @@
  "language": "TypeScript",
  "stars": 106999,
  "description": "The 1st Collaborative AI Design Agent Workspace. Local-first and open source. Create motion, prototypes, websites, apps, dashboards, presentations, images, and videos with your team and AI agents. Sha",
- "visitedAt": "2026-11-24T21:15:51.266Z",
+ "visitedAt": "2026-11-26T00:24:06.217Z",
  "issues": [
   {
    "number": 473,
@@ -1080,6 +1080,23 @@
    ]
   },
   {
+   "number": 5822,
+   "title": "[Bug] Slash-command picker clips commands and mislabels MCP shortcuts",
+   "url": "https://github.com/nexu-io/open-design/issues/5822",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-25T12:12:57Z",
+   "checkedAt": "2026-11-26T00:24:06.217Z",
+   "verdict": "discard",
+   "reason": "PR #9624 by @NaufalDzz is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/9624"
+   ]
+  },
+  {
    "number": 5864,
    "title": "Add viewport presets, orientation, and custom dimensions",
    "url": "https://github.com/nexu-io/open-design/issues/5864",
@@ -1477,40 +1494,6 @@
     "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/nexu-io/open-design/pull/7536",
     "https://github.com/nexu-io/open-design/pull/8664"
-   ]
-  },
-  {
-   "number": 7538,
-   "title": "[Bug]: BYOK API mode fails when OpenCode is unavailable",
-   "url": "https://github.com/nexu-io/open-design/issues/7538",
-   "labels": [
-    "bug",
-    "help wanted"
-   ],
-   "updatedAt": "2026-09-09T10:22:19Z",
-   "checkedAt": "2026-11-14T22:28:38.603Z",
-   "verdict": "discard",
-   "reason": "PR #7541 by @Dohyeon2006 is already open against this issue",
-   "evidence": [
-    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/nexu-io/open-design/pull/7541"
-   ]
-  },
-  {
-   "number": 7563,
-   "title": "[Bug]: Update-ready popup cannot proceed when an active task is running or the restart preflight is unknown",
-   "url": "https://github.com/nexu-io/open-design/issues/7563",
-   "labels": [
-    "bug",
-    "help wanted"
-   ],
-   "updatedAt": "2026-09-09T15:22:16Z",
-   "checkedAt": "2026-11-14T22:28:38.603Z",
-   "verdict": "discard",
-   "reason": "PR #7965 by @jaygupta17 is already open against this issue",
-   "evidence": [
-    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/nexu-io/open-design/pull/7965"
    ]
   },
   {
@@ -2328,13 +2311,13 @@
     "help wanted",
     "feature"
    ],
-   "updatedAt": "2026-11-11T03:08:00Z",
-   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "updatedAt": "2026-11-25T07:11:40Z",
+   "checkedAt": "2026-11-26T00:24:06.217Z",
    "verdict": "discard",
-   "reason": "@maxmilian claimed it 4 days ago",
+   "reason": "PR #9622 by @NaufalDzz is already open against this issue",
    "evidence": [
     "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/nexu-io/open-design/issues/9086#issuecomment-6785714316"
+    "https://github.com/nexu-io/open-design/pull/9622"
    ]
   },
   {
@@ -2692,6 +2675,26 @@
     "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/nexu-io/open-design/pull/9615",
     "https://github.com/nexu-io/open-design/pull/9608"
+   ]
+  },
+  {
+   "number": 9627,
+   "title": "[Bug]: OpenDesign on Windows cannot connect to Opencode",
+   "url": "https://github.com/nexu-io/open-design/issues/9627",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-25T18:38:01Z",
+   "checkedAt": "2026-11-26T00:24:06.217Z",
+   "verdict": "reservations",
+   "reason": "setup instructions live outside the repository (https://docs.anthropic.com/en/docs/claude-code/skills) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/issues/9627",
+    "https://github.com/nexu-io/open-design/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/nexu-io/open-design/blob/HEAD/.github/AGENTS.md",
+    "https://docs.anthropic.com/en/docs/claude-code/skills"
    ]
   }
  ]
