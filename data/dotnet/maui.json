@@ -4,7 +4,7 @@
  "language": "C#",
  "stars": 23321,
  "description": ".NET MAUI is the .NET Multi-platform App UI, a framework for building native device applications spanning mobile, tablet, and desktop.",
- "visitedAt": "2026-11-19T13:15:34.665Z",
+ "visitedAt": "2026-11-26T19:39:38.522Z",
  "issues": [
   {
    "number": 605,
@@ -205,28 +205,6 @@
    ]
   },
   {
-   "number": 17210,
-   "title": "Binding IconImageSource on MenuFlyoutItem does not update on runtime.",
-   "url": "https://github.com/dotnet/maui/issues/17210",
-   "labels": [
-    "t/bug",
-    "good first issue",
-    "platform/macos",
-    "platform/windows",
-    "area-controls-menubar",
-    "t/desktop"
-   ],
-   "updatedAt": "2026-10-30T09:44:17Z",
-   "checkedAt": "2026-11-12T11:19:29.437Z",
-   "verdict": "discard",
-   "reason": "PR #555 by @MauiBot is already open against this issue",
-   "evidence": [
-    "https://github.com/dotnet/maui/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/kubaflo/maui/pull/555",
-    "https://github.com/dotnet/maui/pull/40072"
-   ]
-  },
-  {
    "number": 24641,
    "title": "Update API Docs for Windows Life Cycle events",
    "url": "https://github.com/dotnet/maui/issues/24641",
@@ -237,16 +215,15 @@
     "Pri3",
     ":watch: Not Triaged"
    ],
-   "updatedAt": "2026-10-30T19:38:00Z",
-   "checkedAt": "2026-11-12T11:19:29.437Z",
-   "verdict": "reservations",
-   "reason": "1 stale claim, the most recent by @parthsali 810 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "updatedAt": "2026-11-24T05:07:57Z",
+   "checkedAt": "2026-11-26T19:39:38.522Z",
+   "verdict": "discard",
+   "reason": "@AhmedMohamedGaber claimed it 3 days ago",
    "evidence": [
     "https://github.com/dotnet/maui/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/dotnet/maui/issues/24641#issuecomment-2334972956",
-    "https://github.com/dotnet/maui/issues/24641",
-    "https://docs.microsoft.com/dotnet/maui",
-    "https://github.com/dotnet/maui/blob/HEAD/.github/CONTRIBUTING.md"
+    "https://github.com/dotnet/maui/pull/40553",
+    "https://github.com/dotnet/maui/issues/24641#issuecomment-7122653766",
+    "https://github.com/dotnet/maui/issues/24641#issuecomment-2334972956"
    ]
   },
   {

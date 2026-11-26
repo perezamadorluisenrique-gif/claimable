@@ -4,7 +4,7 @@
  "language": "C#",
  "stars": 38509,
  "description": "ASP.NET Core is a cross-platform .NET framework for building modern cloud-based web applications on Windows, Mac, or Linux.",
- "visitedAt": "2026-11-19T13:15:34.665Z",
+ "visitedAt": "2026-11-26T19:39:38.522Z",
  "issues": [
   {
    "number": 2396,
@@ -404,30 +404,6 @@
    "evidence": [
     "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/dotnet/aspnetcore/issues/4710",
-    "https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines",
-    "https://github.com/dotnet/aspnetcore/blob/HEAD/CONTRIBUTING.md"
-   ]
-  },
-  {
-   "number": 4747,
-   "title": "Misleading TaskCanceledException",
-   "url": "https://github.com/dotnet/aspnetcore/issues/4747",
-   "labels": [
-    "bug",
-    "help wanted",
-    "feature-kestrel",
-    "severity-nice-to-have",
-    "affected-very-few",
-    "area-networking"
-   ],
-   "updatedAt": "2026-05-01T21:12:02Z",
-   "checkedAt": "2026-11-12T11:19:29.437Z",
-   "verdict": "reservations",
-   "reason": "PR #233 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
-   "evidence": [
-    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/leehopper/personal-running-coach/pull/233",
-    "https://github.com/dotnet/aspnetcore/issues/4747",
     "https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines",
     "https://github.com/dotnet/aspnetcore/blob/HEAD/CONTRIBUTING.md"
    ]
@@ -1219,13 +1195,14 @@
     "reevaluate",
     "Pillar: Technical Debt"
    ],
-   "updatedAt": "2026-10-26T18:07:03Z",
-   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "updatedAt": "2026-11-25T07:43:33Z",
+   "checkedAt": "2026-11-26T19:39:38.522Z",
    "verdict": "discard",
    "reason": "PR #67013 by @GOVINSAGA is already open against this issue",
    "evidence": [
     "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/dotnet/aspnetcore/pull/67013",
+    "https://github.com/dotnet/aspnetcore/pull/70824",
     "https://github.com/SamProf/MatBlazor/pull/737"
    ]
   },
@@ -1521,6 +1498,26 @@
    ]
   },
   {
+   "number": 34980,
+   "title": ".NET 5: Null body + content-type with no content-length = validation error even with AllowEmptyInputInBodyModelBinding = true",
+   "url": "https://github.com/dotnet/aspnetcore/issues/34980",
+   "labels": [
+    "help wanted",
+    "area-mvc",
+    "feature-model-binding",
+    "feature-minimal-actions",
+    "area-minimal"
+   ],
+   "updatedAt": "2026-11-21T16:48:07Z",
+   "checkedAt": "2026-11-26T19:39:38.522Z",
+   "verdict": "discard",
+   "reason": "@Manish-1kumar claimed it 5 days ago",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/issues/34980#issuecomment-7065933957"
+   ]
+  },
+  {
    "number": 39375,
    "title": "Identity: Message for invalid username does not reflect actual permitted characters.",
    "url": "https://github.com/dotnet/aspnetcore/issues/39375",
@@ -1536,24 +1533,6 @@
    "evidence": [
     "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/dotnet/aspnetcore/pull/62111"
-   ]
-  },
-  {
-   "number": 40415,
-   "title": "JSON \"null\" request body rejected as an empty request body",
-   "url": "https://github.com/dotnet/aspnetcore/issues/40415",
-   "labels": [
-    "help wanted",
-    "enhancement",
-    "area-mvc"
-   ],
-   "updatedAt": "2026-05-01T21:11:20Z",
-   "checkedAt": "2026-11-12T11:19:29.437Z",
-   "verdict": "discard",
-   "reason": "PR #65595 by @kubaflo is already open against this issue",
-   "evidence": [
-    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/dotnet/aspnetcore/pull/65595"
    ]
   },
   {
@@ -1988,13 +1967,14 @@
     "area-blazor",
     "feature-blazor-js-initializers"
    ],
-   "updatedAt": "2026-10-22T13:24:17Z",
-   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "updatedAt": "2026-11-25T11:25:59Z",
+   "checkedAt": "2026-11-26T19:39:38.522Z",
    "verdict": "discard",
    "reason": "PR #65696 by @muharremtekin is already open against this issue",
    "evidence": [
     "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/dotnet/aspnetcore/pull/65696"
+    "https://github.com/dotnet/aspnetcore/pull/65696",
+    "https://github.com/dotnet/aspnetcore/pull/70830"
    ]
   },
   {
@@ -2062,8 +2042,8 @@
     "help wanted",
     "area-identity"
    ],
-   "updatedAt": "2026-10-23T09:51:55Z",
-   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "updatedAt": "2026-11-23T21:04:32Z",
+   "checkedAt": "2026-11-26T19:39:38.522Z",
    "verdict": "discard",
    "reason": "PR #60350 by @shethaadit is already open against this issue",
    "evidence": [
@@ -2121,14 +2101,34 @@
     "good first issue",
     "design-proposal"
    ],
-   "updatedAt": "2026-08-25T22:24:00Z",
-   "checkedAt": "2026-11-12T11:19:29.437Z",
-   "verdict": "discard",
-   "reason": "PR #66679 by @andersabjorn is already open against this issue",
+   "updatedAt": "2026-11-20T14:22:54Z",
+   "checkedAt": "2026-11-26T19:39:38.522Z",
+   "verdict": "reservations",
+   "reason": "labelled `design-proposal` — scope may not be settled yet (+2 more)",
    "evidence": [
     "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/dotnet/aspnetcore/pull/66679",
-    "https://github.com/dotnet/aspnetcore/pull/66921"
+    "https://github.com/dotnet/aspnetcore/issues/61826",
+    "https://github.com/dotnet/aspnetcore/issues/61826#issuecomment-5417657620",
+    "https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines",
+    "https://github.com/dotnet/aspnetcore/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
+   "number": 62328,
+   "title": "Incorrect OpenAPI definition when using FromForm with IEnumerable parameters",
+   "url": "https://github.com/dotnet/aspnetcore/issues/62328",
+   "labels": [
+    "help wanted",
+    "feature-openapi",
+    "area-minimal"
+   ],
+   "updatedAt": "2026-11-23T21:04:23Z",
+   "checkedAt": "2026-11-26T19:39:38.522Z",
+   "verdict": "discard",
+   "reason": "PR #64925 by @sarbas33 is already open against this issue",
+   "evidence": [
+    "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/dotnet/aspnetcore/pull/64925"
    ]
   },
   {
@@ -2158,8 +2158,8 @@
     "feature-openapi",
     "area-minimal"
    ],
-   "updatedAt": "2026-07-03T15:00:30Z",
-   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "updatedAt": "2026-11-23T21:04:42Z",
+   "checkedAt": "2026-11-26T19:39:38.522Z",
    "verdict": "discard",
    "reason": "PR #67894 by @pradeep-ramola is already open against this issue",
    "evidence": [
@@ -2177,13 +2177,12 @@
     "design-proposal",
     "copilot-candidate"
    ],
-   "updatedAt": "2026-06-29T05:28:29Z",
-   "checkedAt": "2026-11-12T11:19:29.437Z",
+   "updatedAt": "2026-11-24T16:25:24Z",
+   "checkedAt": "2026-11-26T19:39:38.522Z",
    "verdict": "discard",
-   "reason": "PR #67452 by @dx3mirror is already open against this issue",
+   "reason": "PR #68790 by @SergioAlmeida29 is already open against this issue",
    "evidence": [
     "https://github.com/dotnet/aspnetcore/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/dotnet/aspnetcore/pull/67452",
     "https://github.com/dotnet/aspnetcore/pull/68790"
    ]
   },

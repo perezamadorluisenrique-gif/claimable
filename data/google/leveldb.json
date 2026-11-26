@@ -4,7 +4,7 @@
  "language": "C++",
  "stars": 39535,
  "description": "LevelDB is a fast key-value storage library written at Google that provides an ordered mapping from string keys to string values.",
- "visitedAt": "2026-11-19T13:15:34.665Z",
+ "visitedAt": "2026-11-26T19:39:38.522Z",
  "issues": [
   {
    "number": 863,

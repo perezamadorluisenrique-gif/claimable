@@ -4,7 +4,7 @@
  "language": "Java",
  "stars": 40559,
  "description": "A libre lightweight streaming front-end for Android.",
- "visitedAt": "2026-11-25T15:39:28.337Z",
+ "visitedAt": "2026-11-26T19:39:38.522Z",
  "issues": [
   {
    "number": 105,
@@ -1761,8 +1761,8 @@
     "player",
     "UX"
    ],
-   "updatedAt": "2026-11-10T14:36:56Z",
-   "checkedAt": "2026-11-11T06:29:52.958Z",
+   "updatedAt": "2026-11-26T14:33:25Z",
+   "checkedAt": "2026-11-26T19:39:38.522Z",
    "verdict": "discard",
    "reason": "already assigned to @sakshichitnis27",
    "evidence": [
