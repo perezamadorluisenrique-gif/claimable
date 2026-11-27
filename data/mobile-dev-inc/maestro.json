@@ -4,7 +4,7 @@
  "language": "Kotlin",
  "stars": 16372,
  "description": "Painless E2E Automation for Mobile and Web",
- "visitedAt": "2026-11-20T12:57:28.576Z",
+ "visitedAt": "2026-11-27T21:59:34.271Z",
  "issues": [
   {
    "number": 1096,
@@ -139,8 +139,8 @@
     "maestro cli",
     "P3"
    ],
-   "updatedAt": "2026-10-15T14:05:54Z",
-   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "updatedAt": "2026-11-27T11:17:37Z",
+   "checkedAt": "2026-11-27T21:59:34.271Z",
    "verdict": "discard",
    "reason": "PR #3322 by @sorinc03 is already open against this issue",
    "evidence": [
@@ -176,13 +176,14 @@
     "good first issue",
     "Maestro"
    ],
-   "updatedAt": "2026-10-15T14:06:33Z",
-   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "updatedAt": "2026-11-27T17:43:18Z",
+   "checkedAt": "2026-11-27T21:59:34.271Z",
    "verdict": "discard",
    "reason": "PR #3026 by @vazidmansuri005 is already open against this issue",
    "evidence": [
     "https://github.com/mobile-dev-inc/Maestro/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/mobile-dev-inc/Maestro/pull/3026"
+    "https://github.com/mobile-dev-inc/Maestro/pull/3026",
+    "https://github.com/mobile-dev-inc/Maestro/pull/3788"
    ]
   }
  ]

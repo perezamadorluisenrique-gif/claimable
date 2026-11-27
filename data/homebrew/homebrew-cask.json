@@ -4,7 +4,7 @@
  "language": "Ruby",
  "stars": 22289,
  "description": "🍻 Default casks (upstream binary packages) for the package manager for everywhere",
- "visitedAt": "2026-11-20T12:57:28.576Z",
+ "visitedAt": "2026-11-27T21:59:34.271Z",
  "issues": [
   {
    "number": 172732,
@@ -14,8 +14,8 @@
     "good first issue",
     "help wanted"
    ],
-   "updatedAt": "2026-11-20T01:13:21Z",
-   "checkedAt": "2026-11-20T12:57:28.576Z",
+   "updatedAt": "2026-11-27T01:14:15Z",
+   "checkedAt": "2026-11-27T21:59:34.271Z",
    "verdict": "reservations",
    "reason": "PR #173030 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+9 more)",
    "evidence": [

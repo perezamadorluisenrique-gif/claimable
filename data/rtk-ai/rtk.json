@@ -4,7 +4,7 @@
  "language": "Rust",
  "stars": 86093,
  "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
- "visitedAt": "2026-11-24T21:15:51.266Z",
+ "visitedAt": "2026-11-27T21:59:34.271Z",
  "issues": [
   {
    "number": 294,
@@ -817,6 +817,28 @@
    ]
   },
   {
+   "number": 2658,
+   "title": "fix(pnpm): propagate exit code from pnpm outdated",
+   "url": "https://github.com/rtk-ai/rtk/issues/2658",
+   "labels": [
+    "bug",
+    "good first issue",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-11-25T00:58:55Z",
+   "checkedAt": "2026-11-27T21:59:34.271Z",
+   "verdict": "discard",
+   "reason": "PR #2659 by @guyoron1 is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/2659",
+    "https://github.com/rtk-ai/rtk/pull/3275",
+    "https://github.com/rtk-ai/rtk/pull/4865",
+    "https://github.com/rtk-ai/rtk/pull/3344"
+   ]
+  },
+  {
    "number": 2803,
    "title": "antigravity ignores rtk popular commands to filter",
    "url": "https://github.com/rtk-ai/rtk/issues/2803",
@@ -884,6 +906,26 @@
    ]
   },
   {
+   "number": 2857,
+   "title": "rtk ls with multiple directory arguments omits per-directory headers",
+   "url": "https://github.com/rtk-ai/rtk/issues/2857",
+   "labels": [
+    "bug",
+    "good first issue",
+    "area:cli",
+    "priority:medium"
+   ],
+   "updatedAt": "2026-11-26T11:11:40Z",
+   "checkedAt": "2026-11-27T21:59:34.271Z",
+   "verdict": "discard",
+   "reason": "PR #2865 by @roian6 is already open against this issue",
+   "evidence": [
+    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/rtk-ai/rtk/pull/2865",
+    "https://github.com/rtk-ai/rtk/pull/1251"
+   ]
+  },
+  {
    "number": 2879,
    "title": "bug: pnpm lint hook rewrite defaults to ESLint; \"command not found\" (exit 254) misreported as \"possibly out of memory\"",
    "url": "https://github.com/rtk-ai/rtk/issues/2879",
@@ -935,14 +977,14 @@
     "priority:high",
     "area:cli"
    ],
-   "updatedAt": "2026-09-26T23:46:39Z",
-   "checkedAt": "2026-11-11T22:03:46.308Z",
+   "updatedAt": "2026-11-25T02:15:26Z",
+   "checkedAt": "2026-11-27T21:59:34.271Z",
    "verdict": "discard",
    "reason": "PR #4253 by @BeeKnown is already open against this issue",
    "evidence": [
-    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
     "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/rtk-ai/rtk/pull/4253"
+    "https://github.com/rtk-ai/rtk/pull/4253",
+    "https://github.com/rtk-ai/rtk/pull/4544"
    ]
   },
   {
@@ -1287,8 +1329,8 @@
     "area:cli",
     "area:security"
    ],
-   "updatedAt": "2026-11-24T18:57:48Z",
-   "checkedAt": "2026-11-24T21:15:51.266Z",
+   "updatedAt": "2026-11-26T14:24:15Z",
+   "checkedAt": "2026-11-27T21:59:34.271Z",
    "verdict": "discard",
    "reason": "PR #3414 by @RawNuke is already open against this issue",
    "evidence": [
@@ -1531,26 +1573,6 @@
     "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/rtk-ai/rtk/pull/4042",
     "https://github.com/rtk-ai/rtk/pull/3941"
-   ]
-  },
-  {
-   "number": 4025,
-   "title": "gh run view --exit-status: filter skipped on a failed run, so the one case worth compressing is the one passed through raw",
-   "url": "https://github.com/rtk-ai/rtk/issues/4025",
-   "labels": [
-    "bug",
-    "good first issue",
-    "area:cli",
-    "priority:medium"
-   ],
-   "updatedAt": "2026-09-13T13:16:53Z",
-   "checkedAt": "2026-11-21T02:20:11.484Z",
-   "verdict": "discard",
-   "reason": "PR #4027 by @burakeyler is already open against this issue",
-   "evidence": [
-    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/rtk-ai/rtk/pull/4027",
-    "https://github.com/rtk-ai/rtk/pull/1122"
    ]
   },
   {
@@ -3661,36 +3683,15 @@
     "priority:medium",
     "area:security"
    ],
-   "updatedAt": "2026-11-18T00:34:57Z",
-   "checkedAt": "2026-11-18T14:03:59.541Z",
+   "updatedAt": "2026-11-26T21:28:53Z",
+   "checkedAt": "2026-11-27T21:59:34.271Z",
    "verdict": "discard",
    "reason": "PR #4905 by @TechWizard9999 is already open against this issue",
    "evidence": [
-    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
     "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/rtk-ai/rtk/pull/4905",
+    "https://github.com/rtk-ai/rtk/pull/5310",
     "https://github.com/rtk-ai/rtk/pull/4679"
-   ]
-  },
-  {
-   "number": 4858,
-   "title": "pnpm install wrapper drops the child's stdout on failure",
-   "url": "https://github.com/rtk-ai/rtk/issues/4858",
-   "labels": [
-    "bug",
-    "good first issue",
-    "area:cli",
-    "priority:medium"
-   ],
-   "updatedAt": "2026-10-30T15:08:20Z",
-   "checkedAt": "2026-11-11T22:03:46.308Z",
-   "verdict": "discard",
-   "reason": "PR #4865 by @ferr079 is already open against this issue",
-   "evidence": [
-    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Aclosed",
-    "https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/rtk-ai/rtk/pull/4865",
-    "https://github.com/rtk-ai/rtk/pull/4891"
    ]
   },
   {

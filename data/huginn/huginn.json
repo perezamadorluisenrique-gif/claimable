@@ -4,7 +4,7 @@
  "language": "Ruby",
  "stars": 50477,
  "description": "Create agents that monitor and act on your behalf.  Your agents are standing by!",
- "visitedAt": "2026-11-20T12:57:28.576Z",
+ "visitedAt": "2026-11-27T21:59:34.271Z",
  "issues": [
   {
    "number": 52,
@@ -923,17 +923,15 @@
     "enhancement",
     "help wanted"
    ],
-   "updatedAt": "2026-10-09T20:21:58Z",
-   "checkedAt": "2026-11-13T08:02:18.780Z",
-   "verdict": "reservations",
-   "reason": "PR #3763 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+3 more)",
+   "updatedAt": "2026-11-26T12:38:42Z",
+   "checkedAt": "2026-11-27T21:59:34.271Z",
+   "verdict": "discard",
+   "reason": "PR #3858 by @joyhsia is already open against this issue",
    "evidence": [
     "https://github.com/huginn/huginn/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/huginn/huginn/pull/3858",
     "https://github.com/huginn/huginn/pull/3763",
-    "https://github.com/huginn/huginn/pull/3781",
-    "https://github.com/huginn/huginn/issues/3748#issuecomment-6088617063",
-    "https://github.com/huginn/huginn/blob/HEAD/CONTRIBUTING.md",
-    "https://github.com/huginn/huginn/wiki/Creating-a-new-agent"
+    "https://github.com/huginn/huginn/pull/3781"
    ]
   }
  ]

@@ -4,7 +4,7 @@
  "language": "Ruby",
  "stars": 42377,
  "description": "🚀 The easiest way to automate building and releasing your iOS and Android apps",
- "visitedAt": "2026-11-20T12:57:28.576Z",
+ "visitedAt": "2026-11-27T21:59:34.271Z",
  "issues": [
   {
    "number": 21968,
@@ -13,8 +13,8 @@
    "labels": [
     "help wanted"
    ],
-   "updatedAt": "2026-08-15T13:48:29Z",
-   "checkedAt": "2026-11-13T08:02:18.780Z",
+   "updatedAt": "2026-11-26T12:12:49Z",
+   "checkedAt": "2026-11-27T21:59:34.271Z",
    "verdict": "discard",
    "reason": "PR #1 by @chrsappiah-cloud is already open against this issue",
    "evidence": [

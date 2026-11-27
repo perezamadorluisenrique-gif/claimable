@@ -4,7 +4,7 @@
  "language": "Swift",
  "stars": 24569,
  "description": "Orchestrate Claude, Codex and Grok in one app. Open-source (MIT), reuses the subscriptions you already pay for.",
- "visitedAt": "2026-11-20T21:09:40.714Z",
+ "visitedAt": "2026-11-27T21:59:34.271Z",
  "issues": [
   {
    "number": 76,
@@ -32,10 +32,11 @@
     "good first issue"
    ],
    "updatedAt": "2026-03-30T19:45:09Z",
-   "checkedAt": "2026-11-20T21:09:40.714Z",
-   "verdict": "viable",
-   "reason": "no blockers found — but read the thread before you start",
+   "checkedAt": "2026-11-27T21:59:34.271Z",
+   "verdict": "reservations",
+   "reason": "only 10% of recently closed PRs were merged — most contributions get rejected or abandoned here",
    "evidence": [
+    "https://github.com/slopus/happy/pulls?q=is%3Apr+is%3Aclosed",
     "https://github.com/slopus/happy/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/slopus/happy/issues/165",
     "https://github.com/slopus/happy/blob/HEAD/docs/CONTRIBUTING.md"

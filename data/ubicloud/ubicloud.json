@@ -4,7 +4,7 @@
  "language": "Ruby",
  "stars": 12404,
  "description": "Open source alternative to AWS. Elastic compute, block storage (non replicated), firewall and load balancer, managed Postgres, K8s, AI inference, and IAM services.",
- "visitedAt": "2026-11-20T12:57:28.576Z",
+ "visitedAt": "2026-11-27T21:59:34.271Z",
  "issues": [
   {
    "number": 1152,

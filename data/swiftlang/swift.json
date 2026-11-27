@@ -4,7 +4,7 @@
  "language": "Swift",
  "stars": 70548,
  "description": "The Swift Programming Language",
- "visitedAt": "2026-11-20T21:09:40.714Z",
+ "visitedAt": "2026-11-27T21:59:34.271Z",
  "issues": [
   {
    "number": 42961,
@@ -56,13 +56,13 @@
     "good first issue",
     "nfc"
    ],
-   "updatedAt": "2026-11-13T21:15:48Z",
-   "checkedAt": "2026-11-20T21:09:40.714Z",
+   "updatedAt": "2026-11-23T19:33:02Z",
+   "checkedAt": "2026-11-27T21:59:34.271Z",
    "verdict": "discard",
-   "reason": "@SkIzazAhmed claimed it 7 days ago",
+   "reason": "PR #94607 by @SkIzazAhmed is already open against this issue",
    "evidence": [
     "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/swiftlang/swift/issues/42963#issuecomment-6865104379"
+    "https://github.com/swiftlang/swift/pull/94607"
    ]
   },
   {
@@ -76,7 +76,7 @@
     "nfc"
    ],
    "updatedAt": "2023-03-10T17:08:27Z",
-   "checkedAt": "2026-11-20T21:09:40.714Z",
+   "checkedAt": "2026-11-27T21:59:34.271Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -96,7 +96,7 @@
     "nfc"
    ],
    "updatedAt": "2023-03-10T17:08:27Z",
-   "checkedAt": "2026-11-20T21:09:40.714Z",
+   "checkedAt": "2026-11-27T21:59:34.271Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -136,7 +136,7 @@
     "good first issue"
    ],
    "updatedAt": "2025-07-02T18:50:18Z",
-   "checkedAt": "2026-11-20T21:09:40.714Z",
+   "checkedAt": "2026-11-27T21:59:34.271Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -200,7 +200,7 @@
     "python"
    ],
    "updatedAt": "2026-01-14T16:43:44Z",
-   "checkedAt": "2026-11-20T21:09:40.714Z",
+   "checkedAt": "2026-11-27T21:59:34.271Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -318,7 +318,7 @@
     "crash"
    ],
    "updatedAt": "2023-04-17T00:29:43Z",
-   "checkedAt": "2026-11-20T21:09:40.714Z",
+   "checkedAt": "2026-11-27T21:59:34.271Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -524,7 +524,7 @@
     "standard library"
    ],
    "updatedAt": "2026-08-01T08:39:37Z",
-   "checkedAt": "2026-11-20T21:09:40.714Z",
+   "checkedAt": "2026-11-27T21:59:34.271Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -568,7 +568,7 @@
     "IDE support"
    ],
    "updatedAt": "2022-11-11T17:52:33Z",
-   "checkedAt": "2026-11-20T21:09:40.714Z",
+   "checkedAt": "2026-11-27T21:59:34.271Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -588,7 +588,7 @@
     "diagnostics quality"
    ],
    "updatedAt": "2025-02-25T03:13:29Z",
-   "checkedAt": "2026-11-20T21:09:40.714Z",
+   "checkedAt": "2026-11-27T21:59:34.271Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -626,7 +626,7 @@
     "good first issue"
    ],
    "updatedAt": "2025-06-16T08:46:54Z",
-   "checkedAt": "2026-11-20T21:09:40.714Z",
+   "checkedAt": "2026-11-27T21:59:34.271Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -667,7 +667,7 @@
     "standard library"
    ],
    "updatedAt": "2023-12-22T07:38:12Z",
-   "checkedAt": "2026-11-20T21:09:40.714Z",
+   "checkedAt": "2026-11-27T21:59:34.271Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -798,27 +798,6 @@
    ]
   },
   {
-   "number": 49699,
-   "title": "[SR-7151] Generalize CaseIterable Synthesis for Availability",
-   "url": "https://github.com/swiftlang/swift/issues/49699",
-   "labels": [
-    "improvement",
-    "compiler",
-    "good first issue",
-    "feature",
-    "derived conformances"
-   ],
-   "updatedAt": "2022-11-07T14:43:09Z",
-   "checkedAt": "2026-11-20T21:09:40.714Z",
-   "verdict": "viable",
-   "reason": "no blockers found — but read the thread before you start",
-   "evidence": [
-    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/swiftlang/swift/issues/49699",
-    "https://github.com/swiftlang/swift/blob/HEAD/CONTRIBUTING.md"
-   ]
-  },
-  {
    "number": 49778,
    "title": "[SR-7230] Improve error message for statement that begins with open brace",
    "url": "https://github.com/swiftlang/swift/issues/49778",
@@ -928,6 +907,27 @@
    ]
   },
   {
+   "number": 51305,
+   "title": "[SR-8797] Misleading compiler errors",
+   "url": "https://github.com/swiftlang/swift/issues/51305",
+   "labels": [
+    "bug",
+    "compiler",
+    "good first issue",
+    "diagnostics quality",
+    "type checker"
+   ],
+   "updatedAt": "2026-11-25T14:02:02Z",
+   "checkedAt": "2026-11-27T21:59:34.271Z",
+   "verdict": "viable",
+   "reason": "no blockers found — but read the thread before you start",
+   "evidence": [
+    "https://github.com/swiftlang/swift/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/swiftlang/swift/issues/51305",
+    "https://github.com/swiftlang/swift/blob/HEAD/CONTRIBUTING.md"
+   ]
+  },
+  {
    "number": 51411,
    "title": "[SR-8905] Gaps in String benchmarking",
    "url": "https://github.com/swiftlang/swift/issues/51411",
@@ -979,7 +979,7 @@
     "Android"
    ],
    "updatedAt": "2025-01-16T11:50:20Z",
-   "checkedAt": "2026-11-20T21:09:40.714Z",
+   "checkedAt": "2026-11-27T21:59:34.271Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -1018,7 +1018,7 @@
     "standard library"
    ],
    "updatedAt": "2025-06-16T08:47:03Z",
-   "checkedAt": "2026-11-20T21:09:40.714Z",
+   "checkedAt": "2026-11-27T21:59:34.271Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -1076,7 +1076,7 @@
     "type checker"
    ],
    "updatedAt": "2025-06-16T08:44:42Z",
-   "checkedAt": "2026-11-20T21:09:40.714Z",
+   "checkedAt": "2026-11-27T21:59:34.271Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -1361,8 +1361,8 @@
     "swift 5.9",
     "optional chaining"
    ],
-   "updatedAt": "2023-09-01T13:36:51Z",
-   "checkedAt": "2026-11-13T16:28:29.473Z",
+   "updatedAt": "2026-11-25T14:02:07Z",
+   "checkedAt": "2026-11-27T21:59:34.271Z",
    "verdict": "discard",
    "reason": "PR #68264 by @Rajveer100 is already open against this issue",
    "evidence": [

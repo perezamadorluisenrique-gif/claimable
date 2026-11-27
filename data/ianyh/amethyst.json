@@ -4,7 +4,7 @@
  "language": "Swift",
  "stars": 16322,
  "description": "Automatic tiling window manager for macOS à la xmonad.",
- "visitedAt": "2026-11-20T21:09:40.714Z",
+ "visitedAt": "2026-11-27T21:59:34.271Z",
  "issues": [
   {
    "number": 302,
@@ -15,7 +15,7 @@
     "help wanted"
    ],
    "updatedAt": "2023-03-14T12:40:15Z",
-   "checkedAt": "2026-11-20T21:09:40.714Z",
+   "checkedAt": "2026-11-27T21:59:34.271Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -51,7 +51,7 @@
     "help wanted"
    ],
    "updatedAt": "2019-05-28T00:36:56Z",
-   "checkedAt": "2026-11-20T21:09:40.714Z",
+   "checkedAt": "2026-11-27T21:59:34.271Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -87,7 +87,7 @@
     "starter issue"
    ],
    "updatedAt": "2024-07-24T08:56:20Z",
-   "checkedAt": "2026-11-20T21:09:40.714Z",
+   "checkedAt": "2026-11-27T21:59:34.271Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -125,7 +125,7 @@
     "starter issue"
    ],
    "updatedAt": "2026-05-21T20:38:00Z",
-   "checkedAt": "2026-11-20T21:09:40.714Z",
+   "checkedAt": "2026-11-27T21:59:34.271Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -143,7 +143,7 @@
     "help wanted"
    ],
    "updatedAt": "2025-03-04T20:40:39Z",
-   "checkedAt": "2026-11-20T21:09:40.714Z",
+   "checkedAt": "2026-11-27T21:59:34.271Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -179,7 +179,7 @@
     "starter issue"
    ],
    "updatedAt": "2026-07-08T12:43:52Z",
-   "checkedAt": "2026-11-20T21:09:40.714Z",
+   "checkedAt": "2026-11-27T21:59:34.271Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -197,7 +197,7 @@
     "help wanted"
    ],
    "updatedAt": "2020-02-09T21:14:29Z",
-   "checkedAt": "2026-11-20T21:09:40.714Z",
+   "checkedAt": "2026-11-27T21:59:34.271Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -216,7 +216,7 @@
     "starter issue"
    ],
    "updatedAt": "2021-07-10T02:45:29Z",
-   "checkedAt": "2026-11-20T21:09:40.714Z",
+   "checkedAt": "2026-11-27T21:59:34.271Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -253,7 +253,7 @@
     "help wanted"
    ],
    "updatedAt": "2024-04-10T12:02:44Z",
-   "checkedAt": "2026-11-20T21:09:40.714Z",
+   "checkedAt": "2026-11-27T21:59:34.271Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -308,7 +308,7 @@
     "help wanted"
    ],
    "updatedAt": "2023-01-10T02:21:40Z",
-   "checkedAt": "2026-11-20T21:09:40.714Z",
+   "checkedAt": "2026-11-27T21:59:34.271Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -326,7 +326,7 @@
     "help wanted"
    ],
    "updatedAt": "2022-04-14T13:50:45Z",
-   "checkedAt": "2026-11-20T21:09:40.714Z",
+   "checkedAt": "2026-11-27T21:59:34.271Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -344,7 +344,7 @@
     "help wanted"
    ],
    "updatedAt": "2026-07-03T09:17:50Z",
-   "checkedAt": "2026-11-20T21:09:40.714Z",
+   "checkedAt": "2026-11-27T21:59:34.271Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -362,7 +362,7 @@
     "help wanted"
    ],
    "updatedAt": "2023-02-09T23:45:39Z",
-   "checkedAt": "2026-11-20T21:09:40.714Z",
+   "checkedAt": "2026-11-27T21:59:34.271Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -380,7 +380,7 @@
     "help wanted"
    ],
    "updatedAt": "2023-01-31T14:26:22Z",
-   "checkedAt": "2026-11-20T21:09:40.714Z",
+   "checkedAt": "2026-11-27T21:59:34.271Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [

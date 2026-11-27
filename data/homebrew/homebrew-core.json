@@ -4,7 +4,7 @@
  "language": "Ruby",
  "stars": 15661,
  "description": "🍻 Default and OSS formulae (built-from-source packages) for the package manager for everywhere",
- "visitedAt": "2026-11-20T12:57:28.576Z",
+ "visitedAt": "2026-11-27T21:59:34.271Z",
  "issues": [
   {
    "number": 139929,
@@ -13,8 +13,8 @@
    "labels": [
     "help wanted"
    ],
-   "updatedAt": "2026-11-20T12:33:27Z",
-   "checkedAt": "2026-11-20T12:57:28.576Z",
+   "updatedAt": "2026-11-27T13:29:26Z",
+   "checkedAt": "2026-11-27T21:59:34.271Z",
    "verdict": "reservations",
    "reason": "PR #141341 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+7 more)",
    "evidence": [

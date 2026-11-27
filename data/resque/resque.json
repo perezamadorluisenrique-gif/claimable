@@ -4,7 +4,7 @@
  "language": "Ruby",
  "stars": 9466,
  "description": "Resque is a Redis-backed Ruby library for creating background jobs, placing them on multiple queues, and processing them later.",
- "visitedAt": "2026-11-20T12:57:28.576Z",
+ "visitedAt": "2026-11-27T21:59:34.271Z",
  "issues": [
   {
    "number": 1719,
@@ -32,7 +32,7 @@
     "help wanted"
    ],
    "updatedAt": "2022-06-04T16:23:24Z",
-   "checkedAt": "2026-11-20T12:57:28.576Z",
+   "checkedAt": "2026-11-27T21:59:34.271Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [

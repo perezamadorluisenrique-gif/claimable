@@ -4,7 +4,7 @@
  "language": "Go",
  "stars": 60921,
  "description": "\"rsync for cloud storage\" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Azure Blob, Azure Files, Yandex Files",
- "visitedAt": "2026-11-24T21:15:51.266Z",
+ "visitedAt": "2026-11-27T21:59:34.271Z",
  "issues": [
   {
    "number": 18,
@@ -246,8 +246,8 @@
     "help wanted",
     "filtering"
    ],
-   "updatedAt": "2026-07-27T17:25:52Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "updatedAt": "2026-11-25T18:31:28Z",
+   "checkedAt": "2026-11-27T21:59:34.271Z",
    "verdict": "discard",
    "reason": "PR #7319 by @utkarshdalal is already open against this issue",
    "evidence": [
@@ -2002,8 +2002,8 @@
     "dependencies",
     "serve s3"
    ],
-   "updatedAt": "2026-11-23T07:29:06Z",
-   "checkedAt": "2026-11-24T21:15:51.266Z",
+   "updatedAt": "2026-11-25T06:19:14Z",
+   "checkedAt": "2026-11-27T21:59:34.271Z",
    "verdict": "discard",
    "reason": "PR #19 by @Spaceghost is already open against this issue",
    "evidence": [
@@ -2071,41 +2071,6 @@
    ]
   },
   {
-   "number": 10246,
-   "title": "ncdu: backing out of a delete with Esc, then pressing Enter, deletes anyway",
-   "url": "https://github.com/rclone/rclone/issues/10246",
-   "labels": [
-    "bug",
-    "good first issue",
-    "terminal"
-   ],
-   "updatedAt": "2026-11-04T02:02:21Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
-   "verdict": "discard",
-   "reason": "PR #10247 by @Vivek1898 is already open against this issue",
-   "evidence": [
-    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/rclone/rclone/pull/10247"
-   ]
-  },
-  {
-   "number": 10335,
-   "title": "move: --name-transform is ignored when a server-side directory move is used",
-   "url": "https://github.com/rclone/rclone/issues/10335",
-   "labels": [
-    "bug",
-    "good first issue"
-   ],
-   "updatedAt": "2026-11-13T13:13:31Z",
-   "checkedAt": "2026-11-15T10:59:03.445Z",
-   "verdict": "discard",
-   "reason": "PR #10346 by @luised00 is already open against this issue",
-   "evidence": [
-    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/rclone/rclone/pull/10346"
-   ]
-  },
-  {
    "number": 10338,
    "title": "copyto/moveto: --name-transform overwrites or deletes the file at the untransformed name",
    "url": "https://github.com/rclone/rclone/issues/10338",
@@ -2120,41 +2085,6 @@
    "evidence": [
     "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/rclone/rclone/pull/10341"
-   ]
-  },
-  {
-   "number": 10339,
-   "title": "sync: --backup-dir and --suffix apply --name-transform to the backup's name",
-   "url": "https://github.com/rclone/rclone/issues/10339",
-   "labels": [
-    "bug",
-    "good first issue"
-   ],
-   "updatedAt": "2026-11-13T14:32:41Z",
-   "checkedAt": "2026-11-15T10:59:03.445Z",
-   "verdict": "discard",
-   "reason": "PR #10340 by @bardrop is already open against this issue",
-   "evidence": [
-    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/rclone/rclone/pull/10340"
-   ]
-  },
-  {
-   "number": 10342,
-   "title": "chunker: server-side copy onto a case variant of a file deletes the new chunks",
-   "url": "https://github.com/rclone/rclone/issues/10342",
-   "labels": [
-    "bug",
-    "good first issue",
-    "Remote: Chunker"
-   ],
-   "updatedAt": "2026-11-13T15:42:49Z",
-   "checkedAt": "2026-11-15T10:59:03.445Z",
-   "verdict": "discard",
-   "reason": "PR #10344 by @tridev-tej is already open against this issue",
-   "evidence": [
-    "https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/rclone/rclone/pull/10344"
    ]
   }
  ]

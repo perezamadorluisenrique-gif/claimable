@@ -4,7 +4,7 @@
  "language": "Swift",
  "stars": 22274,
  "description": "Lightweight clipboard manager for macOS",
- "visitedAt": "2026-11-20T21:09:40.714Z",
+ "visitedAt": "2026-11-27T21:59:34.271Z",
  "issues": [
   {
    "number": 182,
@@ -51,7 +51,7 @@
     "help wanted"
    ],
    "updatedAt": "2024-01-28T18:42:33Z",
-   "checkedAt": "2026-11-20T21:09:40.714Z",
+   "checkedAt": "2026-11-27T21:59:34.271Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -68,7 +68,7 @@
     "help wanted"
    ],
    "updatedAt": "2024-06-25T10:58:54Z",
-   "checkedAt": "2026-11-20T21:09:40.714Z",
+   "checkedAt": "2026-11-27T21:59:34.271Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
