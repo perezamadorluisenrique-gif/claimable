@@ -132,7 +132,7 @@
   "lastNewIssue": "2025-10-02T14:17:27Z"
  },
  "langgenius/dify": {
-  "nextCheck": "2026-11-27T09:33:55.196Z",
+  "nextCheck": "2026-11-30T12:28:44.019Z",
   "lastNewIssue": "2026-11-19T11:17:04Z"
  },
  "langchain-ai/langchain": {
@@ -244,11 +244,11 @@
   "lastNewIssue": "2025-11-04T23:34:27Z"
  },
  "golang/go": {
-  "nextCheck": "2026-11-27T09:33:55.196Z",
+  "nextCheck": "2026-11-30T12:28:44.019Z",
   "lastNewIssue": "2026-11-19T23:31:17Z"
  },
  "kubernetes/kubernetes": {
-  "nextCheck": "2026-11-27T09:33:55.196Z",
+  "nextCheck": "2026-11-28T12:28:44.019Z",
   "lastNewIssue": "2026-11-23T18:38:49Z"
  },
  "microsoft/typescript": {
@@ -268,7 +268,7 @@
   "lastNewIssue": null
  },
  "moby/moby": {
-  "nextCheck": "2026-11-27T09:33:55.196Z",
+  "nextCheck": "2026-11-28T12:28:44.019Z",
   "lastNewIssue": "2026-11-20T16:14:36Z"
  },
  "prometheus/prometheus": {
@@ -512,7 +512,7 @@
   "lastNewIssue": "2026-05-14T00:59:26Z"
  },
  "openssl/openssl": {
-  "nextCheck": "2026-11-27T09:33:55.196Z",
+  "nextCheck": "2026-11-28T12:28:44.019Z",
   "lastNewIssue": "2026-11-25T04:02:51Z"
  },
  "xiaojieonly/ehviewer_cn_sxj": {
@@ -540,7 +540,7 @@
   "lastNewIssue": "2026-08-17T06:35:04Z"
  },
  "danielmiessler/seclists": {
-  "nextCheck": "2026-11-27T03:21:26.834Z",
+  "nextCheck": "2026-12-04T12:28:44.019Z",
   "lastNewIssue": "2026-01-31T17:27:49Z"
  },
  "nextcloud/server": {
@@ -548,7 +548,7 @@
   "lastNewIssue": "2026-10-23T17:59:48Z"
  },
  "laravel/framework": {
-  "nextCheck": "2026-11-27T03:21:26.834Z",
+  "nextCheck": "2026-12-04T12:28:44.019Z",
   "lastNewIssue": "2026-05-24T01:50:54Z"
  },
  "symfony/symfony": {
@@ -556,19 +556,19 @@
   "lastNewIssue": "2026-10-24T11:40:11Z"
  },
  "monicahq/monica": {
-  "nextCheck": "2026-11-27T03:21:26.834Z",
+  "nextCheck": "2026-12-04T12:28:44.019Z",
   "lastNewIssue": "2021-12-28T13:01:20Z"
  },
  "phpmailer/phpmailer": {
-  "nextCheck": "2026-11-27T03:21:26.834Z",
+  "nextCheck": "2026-12-04T12:28:44.019Z",
   "lastNewIssue": "2026-09-10T08:33:36Z"
  },
  "matomo-org/matomo": {
-  "nextCheck": "2026-11-27T03:21:26.834Z",
+  "nextCheck": "2026-12-04T12:28:44.019Z",
   "lastNewIssue": "2024-11-22T09:51:52Z"
  },
  "briannesbitt/carbon": {
-  "nextCheck": "2026-11-27T03:21:26.834Z",
+  "nextCheck": "2026-12-04T12:28:44.019Z",
   "lastNewIssue": "2023-08-22T09:48:40Z"
  },
  "freshrss/freshrss": {
@@ -576,7 +576,7 @@
   "lastNewIssue": "2026-11-14T10:27:22Z"
  },
  "getgrav/grav": {
-  "nextCheck": "2026-11-27T03:21:26.834Z",
+  "nextCheck": "2026-12-04T12:28:44.019Z",
   "lastNewIssue": "2018-04-27T09:27:33Z"
  },
  "yiisoft/yii2": {
@@ -624,7 +624,7 @@
   "lastNewIssue": "2024-09-20T15:27:03Z"
  },
  "github-linguist/linguist": {
-  "nextCheck": "2026-11-27T09:33:55.196Z",
+  "nextCheck": "2026-11-28T12:28:44.019Z",
   "lastNewIssue": "2026-11-21T14:17:35Z"
  },
  "fluent/fluentd": {
@@ -716,7 +716,7 @@
   "lastNewIssue": "2026-05-24T20:42:54Z"
  },
  "ankidroid/anki-android": {
-  "nextCheck": "2026-11-27T09:33:55.196Z",
+  "nextCheck": "2026-11-30T12:28:44.019Z",
   "lastNewIssue": "2026-11-19T18:24:49Z"
  },
  "swiftlang/swift": {

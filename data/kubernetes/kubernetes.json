@@ -4,7 +4,7 @@
  "language": "Go",
  "stars": 128976,
  "description": "Production-Grade Container Scheduling and Management",
- "visitedAt": "2026-11-26T09:33:55.196Z",
+ "visitedAt": "2026-11-27T12:28:44.019Z",
  "issues": [
   {
    "number": 7961,
@@ -706,13 +706,13 @@
     "sig/cli",
     "triage/accepted"
    ],
-   "updatedAt": "2026-02-18T01:36:01Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "updatedAt": "2026-11-27T06:43:22Z",
+   "checkedAt": "2026-11-27T12:28:44.019Z",
    "verdict": "discard",
-   "reason": "already assigned to @haoruan",
+   "reason": "PR #144501 by @souvik-biswas-dev is already open against this issue",
    "evidence": [
     "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/kubernetes/kubernetes/issues/109953"
+    "https://github.com/kubernetes/kubernetes/pull/144501"
    ]
   },
   {
@@ -847,13 +847,15 @@
     "triage/accepted",
     "area/network-policy"
    ],
-   "updatedAt": "2026-07-15T05:24:13Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
+   "updatedAt": "2026-11-27T11:26:10Z",
+   "checkedAt": "2026-11-27T12:28:44.019Z",
    "verdict": "discard",
-   "reason": "PR #138630 by @jiteshkumardj is already open against this issue",
+   "reason": "already assigned to @DaviMatheus, @ashutosh887, @Yash-xoxo, @Anne4188",
    "evidence": [
     "https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/kubernetes/kubernetes/pull/138630"
+    "https://github.com/kubernetes/kubernetes/issues/114369",
+    "https://github.com/kubernetes/kubernetes/issues/114369#issuecomment-3128985539",
+    "https://github.com/kubernetes/kubernetes/issues/114369#issuecomment-3995179705"
    ]
   },
   {

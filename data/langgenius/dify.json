@@ -4,7 +4,7 @@
  "language": "Python",
  "stars": 160864,
  "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without reb",
- "visitedAt": "2026-11-26T09:33:55.196Z",
+ "visitedAt": "2026-11-27T12:28:44.019Z",
  "issues": [
   {
    "number": 18752,
@@ -104,14 +104,15 @@
    "labels": [
     "good first issue"
    ],
-   "updatedAt": "2026-11-26T04:53:48Z",
-   "checkedAt": "2026-11-26T09:33:55.196Z",
+   "updatedAt": "2026-11-26T22:04:46Z",
+   "checkedAt": "2026-11-27T12:28:44.019Z",
    "verdict": "discard",
-   "reason": "@Vijay431 claimed it today",
+   "reason": "@Vijay431 claimed it yesterday",
    "evidence": [
     "https://github.com/langgenius/dify/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/langgenius/dify/pull/45168",
     "https://github.com/langgenius/dify/issues/45166#issuecomment-7182997441",
+    "https://github.com/langgenius/dify/issues/45166#issuecomment-7204338992",
     "https://github.com/langgenius/dify/issues/45166#issuecomment-6525709475"
    ]
   },
@@ -140,8 +141,8 @@
    "labels": [
     "good first issue"
    ],
-   "updatedAt": "2026-11-26T04:53:49Z",
-   "checkedAt": "2026-11-26T09:33:55.196Z",
+   "updatedAt": "2026-11-27T05:45:12Z",
+   "checkedAt": "2026-11-27T12:28:44.019Z",
    "verdict": "discard",
    "reason": "PR #45587 by @matheussilvano is already open against this issue",
    "evidence": [

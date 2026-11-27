@@ -4,7 +4,7 @@
  "language": "Go",
  "stars": 139828,
  "description": "The Go programming language",
- "visitedAt": "2026-11-26T09:33:55.196Z",
+ "visitedAt": "2026-11-27T12:28:44.019Z",
  "issues": [
   {
    "number": 7175,
@@ -830,24 +830,6 @@
    ]
   },
   {
-   "number": 67108,
-   "title": "runtime: fatal error: mcall called on m->g0 stack on Windows",
-   "url": "https://github.com/golang/go/issues/67108",
-   "labels": [
-    "help wanted",
-    "OS-Windows",
-    "NeedsInvestigation",
-    "compiler/runtime"
-   ],
-   "updatedAt": "2026-09-10T14:01:52Z",
-   "checkedAt": "2026-11-11T15:17:00.117Z",
-   "verdict": "discard",
-   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
-   "evidence": [
-    "https://github.com/golang/go/pulls?q=is%3Apr+is%3Aclosed"
-   ]
-  },
-  {
    "number": 67383,
    "title": "runtime: TestUsingVDSO failures",
    "url": "https://github.com/golang/go/issues/67383",
@@ -1452,6 +1434,24 @@
    ],
    "updatedAt": "2026-09-18T13:46:23Z",
    "checkedAt": "2026-11-11T15:17:00.117Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/golang/go/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
+   "number": 80959,
+   "title": "doc: write release notes for Go 1.28",
+   "url": "https://github.com/golang/go/issues/80959",
+   "labels": [
+    "Documentation",
+    "help wanted",
+    "NeedsFix",
+    "release-blocker"
+   ],
+   "updatedAt": "2026-11-26T19:07:30Z",
+   "checkedAt": "2026-11-27T12:28:44.019Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
    "evidence": [

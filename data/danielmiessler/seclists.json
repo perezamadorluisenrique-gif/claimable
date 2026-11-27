@@ -4,7 +4,7 @@
  "language": "PHP",
  "stars": 74673,
  "description": "SecLists is the security tester's companion. It's a collection of multiple types of lists used during security assessments, collected in one place. List types include usernames, passwords, URLs, sensi",
- "visitedAt": "2026-11-20T03:21:26.834Z",
+ "visitedAt": "2026-11-27T12:28:44.019Z",
  "issues": [
   {
    "number": 1028,

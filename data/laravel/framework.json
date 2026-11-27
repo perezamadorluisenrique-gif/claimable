@@ -4,7 +4,7 @@
  "language": "PHP",
  "stars": 34997,
  "description": "Laravel is a web application framework with expressive, elegant syntax.",
- "visitedAt": "2026-11-20T03:21:26.834Z",
+ "visitedAt": "2026-11-27T12:28:44.019Z",
  "issues": [
   {
    "number": 53292,
@@ -31,7 +31,7 @@
     "help wanted"
    ],
    "updatedAt": "2025-05-22T17:10:43Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
+   "checkedAt": "2026-11-27T12:28:44.019Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -47,7 +47,7 @@
     "help wanted"
    ],
    "updatedAt": "2025-05-12T02:19:36Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
+   "checkedAt": "2026-11-27T12:28:44.019Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -80,7 +80,7 @@
     "help wanted"
    ],
    "updatedAt": "2025-12-13T19:14:25Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
+   "checkedAt": "2026-11-27T12:28:44.019Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -95,7 +95,7 @@
     "help wanted"
    ],
    "updatedAt": "2025-04-22T09:39:22Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
+   "checkedAt": "2026-11-27T12:28:44.019Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -111,7 +111,7 @@
     "help wanted"
    ],
    "updatedAt": "2025-07-30T03:53:22Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
+   "checkedAt": "2026-11-27T12:28:44.019Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -127,7 +127,7 @@
     "help wanted"
    ],
    "updatedAt": "2026-10-11T19:58:48Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
+   "checkedAt": "2026-11-27T12:28:44.019Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -144,8 +144,8 @@
    "labels": [
     "help wanted"
    ],
-   "updatedAt": "2026-02-23T07:16:34Z",
-   "checkedAt": "2026-11-13T01:07:25.191Z",
+   "updatedAt": "2026-11-26T13:35:54Z",
+   "checkedAt": "2026-11-27T12:28:44.019Z",
    "verdict": "discard",
    "reason": "PR #58105 by @n9rrrx is already open against this issue",
    "evidence": [
@@ -161,7 +161,7 @@
     "help wanted"
    ],
    "updatedAt": "2026-02-23T07:16:34Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
+   "checkedAt": "2026-11-27T12:28:44.019Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -177,7 +177,7 @@
     "help wanted"
    ],
    "updatedAt": "2026-05-01T21:30:45Z",
-   "checkedAt": "2026-11-20T03:21:26.834Z",
+   "checkedAt": "2026-11-27T12:28:44.019Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
