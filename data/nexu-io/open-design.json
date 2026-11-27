@@ -4,7 +4,7 @@
  "language": "TypeScript",
  "stars": 106999,
  "description": "The 1st Collaborative AI Design Agent Workspace. Local-first and open source. Create motion, prototypes, websites, apps, dashboards, presentations, images, and videos with your team and AI agents. Sha",
- "visitedAt": "2026-11-26T00:24:06.217Z",
+ "visitedAt": "2026-11-27T02:52:56.544Z",
  "issues": [
   {
    "number": 473,
@@ -1008,24 +1008,6 @@
    ]
   },
   {
-   "number": 5402,
-   "title": "feat(codex): honor model-specific reasoning levels for GPT-5.6",
-   "url": "https://github.com/nexu-io/open-design/issues/5402",
-   "labels": [
-    "help wanted",
-    "feature",
-    "needs-product-direction"
-   ],
-   "updatedAt": "2026-09-10T13:06:41Z",
-   "checkedAt": "2026-11-14T22:28:38.603Z",
-   "verdict": "discard",
-   "reason": "PR #7831 by @jaehanbyun is already open against this issue",
-   "evidence": [
-    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/nexu-io/open-design/pull/7831"
-   ]
-  },
-  {
    "number": 5568,
    "title": "Document Docker build resource requirements when GHCR image is not pullable",
    "url": "https://github.com/nexu-io/open-design/issues/5568",
@@ -1497,27 +1479,6 @@
    ]
   },
   {
-   "number": 7599,
-   "title": "Fal-configured image project defaults to unavailable Vela model",
-   "url": "https://github.com/nexu-io/open-design/issues/7599",
-   "labels": [
-    "bug",
-    "help wanted"
-   ],
-   "updatedAt": "2026-09-10T16:50:48Z",
-   "checkedAt": "2026-11-14T22:28:38.603Z",
-   "verdict": "reservations",
-   "reason": "1 stale claim, the most recent by @lefarcen 74 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+2 more)",
-   "evidence": [
-    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/nexu-io/open-design/issues/7599#issuecomment-5503140806",
-    "https://github.com/nexu-io/open-design/issues/7599",
-    "https://github.com/nexu-io/open-design/blob/HEAD/CONTRIBUTING.md",
-    "https://github.com/nexu-io/open-design/blob/HEAD/.github/AGENTS.md",
-    "https://docs.anthropic.com/en/docs/claude-code/skills"
-   ]
-  },
-  {
    "number": 7604,
    "title": "Deck thumbnail rail always shows slide 1 for reveal.js-based decks (getComputedStyle can't see ancestor-driven hiding)",
    "url": "https://github.com/nexu-io/open-design/issues/7604",
@@ -1624,24 +1585,6 @@
    "evidence": [
     "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/nexu-io/open-design/pull/7875"
-   ]
-  },
-  {
-   "number": 7968,
-   "title": "Support opencode2 (OpenCode V2) MCP config: nested mcp.servers + ~/.config/opencode2 path",
-   "url": "https://github.com/nexu-io/open-design/issues/7968",
-   "labels": [
-    "bug",
-    "help wanted"
-   ],
-   "updatedAt": "2026-09-09T19:09:36Z",
-   "checkedAt": "2026-11-14T22:28:38.603Z",
-   "verdict": "discard",
-   "reason": "already assigned to @Bryandero98",
-   "evidence": [
-    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/nexu-io/open-design/issues/7968",
-    "https://github.com/nexu-io/open-design/issues/7968#issuecomment-5607234354"
    ]
   },
   {
@@ -2258,8 +2201,8 @@
     "bug",
     "help wanted"
    ],
-   "updatedAt": "2026-10-25T10:23:14Z",
-   "checkedAt": "2026-11-14T22:28:38.603Z",
+   "updatedAt": "2026-11-26T05:01:51Z",
+   "checkedAt": "2026-11-27T02:52:56.544Z",
    "verdict": "discard",
    "reason": "PR #8992 by @BharanitharanKR is already open against this issue",
    "evidence": [
@@ -2301,6 +2244,23 @@
     "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/nexu-io/open-design/pull/9058",
     "https://github.com/nexu-io/open-design/pull/9462"
+   ]
+  },
+  {
+   "number": 9065,
+   "title": "[Bug]: Hermes ACP sessions never resume — 5 blockers in the session/load path (F1-F5), follow-up to #730",
+   "url": "https://github.com/nexu-io/open-design/issues/9065",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-27T01:38:41Z",
+   "checkedAt": "2026-11-27T02:52:56.544Z",
+   "verdict": "discard",
+   "reason": "PR #9630 by @NaufalDzz is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/9630"
    ]
   },
   {
@@ -2488,8 +2448,8 @@
     "good first issue",
     "help wanted"
    ],
-   "updatedAt": "2026-11-20T09:49:04Z",
-   "checkedAt": "2026-11-21T02:20:11.484Z",
+   "updatedAt": "2026-11-27T01:21:26Z",
+   "checkedAt": "2026-11-27T02:52:56.544Z",
    "verdict": "discard",
    "reason": "PR #9510 by @xxiaoxiong is already open against this issue",
    "evidence": [
@@ -2667,14 +2627,15 @@
     "bug",
     "help wanted"
    ],
-   "updatedAt": "2026-11-24T18:35:24Z",
-   "checkedAt": "2026-11-24T21:15:51.266Z",
+   "updatedAt": "2026-11-26T10:10:41Z",
+   "checkedAt": "2026-11-27T02:52:56.544Z",
    "verdict": "discard",
    "reason": "PR #9615 by @sanketpatel32 is already open against this issue",
    "evidence": [
     "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/nexu-io/open-design/pull/9615",
-    "https://github.com/nexu-io/open-design/pull/9608"
+    "https://github.com/nexu-io/open-design/pull/9608",
+    "https://github.com/nexu-io/open-design/pull/9640"
    ]
   },
   {
@@ -2685,16 +2646,50 @@
     "bug",
     "help wanted"
    ],
-   "updatedAt": "2026-11-25T18:38:01Z",
-   "checkedAt": "2026-11-26T00:24:06.217Z",
-   "verdict": "reservations",
-   "reason": "setup instructions live outside the repository (https://docs.anthropic.com/en/docs/claude-code/skills) — this filter only reads files in the repo, so the real setup cost is unverified (+1 more)",
+   "updatedAt": "2026-11-26T17:32:08Z",
+   "checkedAt": "2026-11-27T02:52:56.544Z",
+   "verdict": "discard",
+   "reason": "PR #9638 by @Vijay431 is already open against this issue",
    "evidence": [
     "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/nexu-io/open-design/issues/9627",
-    "https://github.com/nexu-io/open-design/blob/HEAD/CONTRIBUTING.md",
-    "https://github.com/nexu-io/open-design/blob/HEAD/.github/AGENTS.md",
-    "https://docs.anthropic.com/en/docs/claude-code/skills"
+    "https://github.com/nexu-io/open-design/pull/9638",
+    "https://github.com/nexu-io/open-design/pull/9643"
+   ]
+  },
+  {
+   "number": 9636,
+   "title": "[Bug]: Native folder picker failures are treated as \"user cancelled\" on Windows/macOS, and swallowed in Project Locations on all OSes",
+   "url": "https://github.com/nexu-io/open-design/issues/9636",
+   "labels": [
+    "bug",
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-26T09:05:39Z",
+   "checkedAt": "2026-11-27T02:52:56.544Z",
+   "verdict": "discard",
+   "reason": "PR #9637 by @KrishnaParihar1 is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/9637"
+   ]
+  },
+  {
+   "number": 9639,
+   "title": "Localize OpenCode Zen free-tier rejection guidance in the connection test",
+   "url": "https://github.com/nexu-io/open-design/issues/9639",
+   "labels": [
+    "enhancement",
+    "good first issue",
+    "help wanted"
+   ],
+   "updatedAt": "2026-11-26T14:12:18Z",
+   "checkedAt": "2026-11-27T02:52:56.544Z",
+   "verdict": "discard",
+   "reason": "PR #9638 by @Vijay431 is already open against this issue",
+   "evidence": [
+    "https://github.com/nexu-io/open-design/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/nexu-io/open-design/pull/9638",
+    "https://github.com/nexu-io/open-design/pull/9643"
    ]
   }
  ]

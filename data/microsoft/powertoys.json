@@ -4,7 +4,7 @@
  "language": "C",
  "stars": 140823,
  "description": "Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows",
- "visitedAt": "2026-11-19T21:39:33.956Z",
+ "visitedAt": "2026-11-27T02:52:56.544Z",
  "issues": [
   {
    "number": 97,
@@ -65,8 +65,8 @@
     "Area-Accessibility",
     "PowerToys_Win32"
    ],
-   "updatedAt": "2026-05-02T01:52:03Z",
-   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "updatedAt": "2026-11-23T20:47:03Z",
+   "checkedAt": "2026-11-27T02:52:56.544Z",
    "verdict": "discard",
    "reason": "PR #4464 by @jagjordi is already open against this issue",
    "evidence": [
@@ -371,8 +371,8 @@
     "Help Wanted",
     "Product-Keyboard Manager"
    ],
-   "updatedAt": "2026-10-11T16:49:56Z",
-   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "updatedAt": "2026-11-23T18:11:05Z",
+   "checkedAt": "2026-11-27T02:52:56.544Z",
    "verdict": "discard",
    "reason": "PR #2197 by @arjunbalgovind is already open against this issue",
    "evidence": [
@@ -398,28 +398,6 @@
     "https://github.com/microsoft/PowerToys/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/microsoft/PowerToys/issues/5712#issuecomment-687769975",
     "https://github.com/microsoft/PowerToys/issues/5712",
-    "https://github.com/microsoft/PowerToys/blob/HEAD/CONTRIBUTING.md",
-    "https://github.com/microsoft/PowerToys/blob/HEAD/README.md"
-   ]
-  },
-  {
-   "number": 6151,
-   "title": "[PowerRename] Add settings option to choose a default date field",
-   "url": "https://github.com/microsoft/PowerToys/issues/6151",
-   "labels": [
-    "Idea-Enhancement",
-    "Help Wanted",
-    "Product-PowerRename",
-    "Priority-2",
-    "Cost-Medium"
-   ],
-   "updatedAt": "2025-01-08T05:35:30Z",
-   "checkedAt": "2026-11-12T19:57:47.710Z",
-   "verdict": "reservations",
-   "reason": "the project requires disclosing AI assistance: \"Label it clearly as AI\" — not optional; skipping it can sink the PR and your standing in the project",
-   "evidence": [
-    "https://github.com/microsoft/PowerToys/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/microsoft/PowerToys/issues/6151",
     "https://github.com/microsoft/PowerToys/blob/HEAD/CONTRIBUTING.md",
     "https://github.com/microsoft/PowerToys/blob/HEAD/README.md"
    ]
@@ -472,15 +450,16 @@
     "Help Wanted",
     "Product-PowerRename"
    ],
-   "updatedAt": "2025-04-01T11:37:58Z",
-   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "updatedAt": "2026-11-23T15:17:05Z",
+   "checkedAt": "2026-11-27T02:52:56.544Z",
    "verdict": "reservations",
    "reason": "the project requires disclosing AI assistance: \"Label it clearly as AI\" — not optional; skipping it can sink the PR and your standing in the project",
    "evidence": [
     "https://github.com/microsoft/PowerToys/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/microsoft/PowerToys/issues/6283",
     "https://github.com/microsoft/PowerToys/blob/HEAD/CONTRIBUTING.md",
-    "https://github.com/microsoft/PowerToys/blob/HEAD/README.md"
+    "https://github.com/microsoft/PowerToys/blob/HEAD/README.md",
+    "https://github.com/microsoft/PowerToys/blob/HEAD/AGENTS.md"
    ]
   },
   {
@@ -594,26 +573,6 @@
    ]
   },
   {
-   "number": 9313,
-   "title": "[Bug report tool] Improve the UX ",
-   "url": "https://github.com/microsoft/PowerToys/issues/9313",
-   "labels": [
-    "Help Wanted",
-    "Area-User Interface",
-    "Area-Bug Report Tool",
-    "Product-General"
-   ],
-   "updatedAt": "2026-04-18T15:04:20Z",
-   "checkedAt": "2026-11-12T19:57:47.710Z",
-   "verdict": "discard",
-   "reason": "PR #49435 by @ReginaldTang is already open against this issue",
-   "evidence": [
-    "https://github.com/microsoft/PowerToys/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/microsoft/PowerToys/issues/49435",
-    "https://github.com/microsoft/PowerToys/issues/13026"
-   ]
-  },
-  {
    "number": 9766,
    "title": "Port C++/CX projects to C++/WinRT",
    "url": "https://github.com/microsoft/PowerToys/issues/9766",
@@ -678,25 +637,6 @@
     "https://github.com/microsoft/PowerToys/issues/11225",
     "https://github.com/microsoft/PowerToys/blob/HEAD/CONTRIBUTING.md",
     "https://github.com/microsoft/PowerToys/blob/HEAD/README.md"
-   ]
-  },
-  {
-   "number": 11383,
-   "title": "[ColorPicker] Add keyboard accelerators to the editor",
-   "url": "https://github.com/microsoft/PowerToys/issues/11383",
-   "labels": [
-    "Idea-Enhancement",
-    "Help Wanted",
-    "Status-In progress",
-    "Product-Color Picker"
-   ],
-   "updatedAt": "2026-11-17T13:42:07Z",
-   "checkedAt": "2026-11-19T21:39:33.956Z",
-   "verdict": "discard",
-   "reason": "PR #51965 by @Dubey404aasutosh is already open against this issue",
-   "evidence": [
-    "https://github.com/microsoft/PowerToys/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/microsoft/PowerToys/pull/51965"
    ]
   },
   {
@@ -870,24 +810,24 @@
    ]
   },
   {
-   "number": 15970,
-   "title": "Extend Zone Sticker Beyond Monitor While in Monitor-Mode (No Span Mode)",
-   "url": "https://github.com/microsoft/PowerToys/issues/15970",
+   "number": 15318,
+   "title": "[PowerToys Run] Support windows app synonyms",
+   "url": "https://github.com/microsoft/PowerToys/issues/15318",
    "labels": [
     "Idea-Enhancement",
     "Help Wanted",
-    "Product-FancyZones"
+    "Product-PowerToys Run"
    ],
-   "updatedAt": "2026-01-08T07:46:32Z",
-   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "updatedAt": "2024-10-13T12:38:51Z",
+   "checkedAt": "2026-11-27T02:52:56.544Z",
    "verdict": "reservations",
-   "reason": "1 stale claim, the most recent by @reginald160 309 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "reason": "the project requires disclosing AI assistance: \"Label it clearly as AI\" — not optional; skipping it can sink the PR and your standing in the project",
    "evidence": [
     "https://github.com/microsoft/PowerToys/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/microsoft/PowerToys/issues/15970#issuecomment-3722529786",
-    "https://github.com/microsoft/PowerToys/issues/15970",
+    "https://github.com/microsoft/PowerToys/issues/15318",
     "https://github.com/microsoft/PowerToys/blob/HEAD/CONTRIBUTING.md",
-    "https://github.com/microsoft/PowerToys/blob/HEAD/README.md"
+    "https://github.com/microsoft/PowerToys/blob/HEAD/README.md",
+    "https://github.com/microsoft/PowerToys/blob/HEAD/AGENTS.md"
    ]
   },
   {
@@ -901,16 +841,17 @@
     "Product-Mouse Utilities",
     "Product-Mouse Pointer Crosshairs"
    ],
-   "updatedAt": "2026-10-29T08:19:42Z",
-   "checkedAt": "2026-11-12T19:57:47.710Z",
+   "updatedAt": "2026-11-26T21:49:16Z",
+   "checkedAt": "2026-11-27T02:52:56.544Z",
    "verdict": "reservations",
-   "reason": "1 stale claim, the most recent by @fra-l 28 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "reason": "1 stale claim, the most recent by @fra-l 43 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
    "evidence": [
     "https://github.com/microsoft/PowerToys/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/microsoft/PowerToys/issues/16531#issuecomment-6191848448",
     "https://github.com/microsoft/PowerToys/issues/16531",
     "https://github.com/microsoft/PowerToys/blob/HEAD/CONTRIBUTING.md",
-    "https://github.com/microsoft/PowerToys/blob/HEAD/README.md"
+    "https://github.com/microsoft/PowerToys/blob/HEAD/README.md",
+    "https://github.com/microsoft/PowerToys/blob/HEAD/AGENTS.md"
    ]
   },
   {
@@ -1082,6 +1023,27 @@
    ]
   },
   {
+   "number": 20339,
+   "title": "Quick Accent Other Currency Keys",
+   "url": "https://github.com/microsoft/PowerToys/issues/20339",
+   "labels": [
+    "Idea-Enhancement",
+    "Help Wanted",
+    "Product-Quick Accent"
+   ],
+   "updatedAt": "2024-11-04T16:33:12Z",
+   "checkedAt": "2026-11-27T02:52:56.544Z",
+   "verdict": "reservations",
+   "reason": "the project requires disclosing AI assistance: \"Label it clearly as AI\" — not optional; skipping it can sink the PR and your standing in the project",
+   "evidence": [
+    "https://github.com/microsoft/PowerToys/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/PowerToys/issues/20339",
+    "https://github.com/microsoft/PowerToys/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/microsoft/PowerToys/blob/HEAD/README.md",
+    "https://github.com/microsoft/PowerToys/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
    "number": 21375,
    "title": "Better labeling for Keyboard Manager Remap of NumPad non 0-9 keys",
    "url": "https://github.com/microsoft/PowerToys/issues/21375",
@@ -1249,6 +1211,28 @@
     "https://github.com/microsoft/PowerToys/issues/25063",
     "https://github.com/microsoft/PowerToys/blob/HEAD/CONTRIBUTING.md",
     "https://github.com/microsoft/PowerToys/blob/HEAD/README.md"
+   ]
+  },
+  {
+   "number": 26801,
+   "title": "Please add Ukrainian symbolls to Quick Accent",
+   "url": "https://github.com/microsoft/PowerToys/issues/26801",
+   "labels": [
+    "Idea-Enhancement",
+    "Help Wanted",
+    "Product-Quick Accent"
+   ],
+   "updatedAt": "2024-11-14T12:11:16Z",
+   "checkedAt": "2026-11-27T02:52:56.544Z",
+   "verdict": "reservations",
+   "reason": "2 stale claims, the most recent by @MagnarIUK 904 days ago and no open PR linked to the issue — probably abandoned, but say so in the thread before starting (+1 more)",
+   "evidence": [
+    "https://github.com/microsoft/PowerToys/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/PowerToys/issues/26801#issuecomment-2151429877",
+    "https://github.com/microsoft/PowerToys/issues/26801",
+    "https://github.com/microsoft/PowerToys/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/microsoft/PowerToys/blob/HEAD/README.md",
+    "https://github.com/microsoft/PowerToys/blob/HEAD/AGENTS.md"
    ]
   },
   {
@@ -1550,6 +1534,50 @@
    ]
   },
   {
+   "number": 35621,
+   "title": "Left hand nav - phase two for better discovery",
+   "url": "https://github.com/microsoft/PowerToys/issues/35621",
+   "labels": [
+    "Idea-Enhancement",
+    "Help Wanted",
+    "Product-Settings"
+   ],
+   "updatedAt": "2024-11-02T16:12:06Z",
+   "checkedAt": "2026-11-27T02:52:56.544Z",
+   "verdict": "reservations",
+   "reason": "PR #35559 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "evidence": [
+    "https://github.com/microsoft/PowerToys/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/PowerToys/pull/35559",
+    "https://github.com/microsoft/PowerToys/issues/35621",
+    "https://github.com/microsoft/PowerToys/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/microsoft/PowerToys/blob/HEAD/README.md",
+    "https://github.com/microsoft/PowerToys/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
+   "number": 35627,
+   "title": "[pt run] Add what program was run to logger for audit.  ",
+   "url": "https://github.com/microsoft/PowerToys/issues/35627",
+   "labels": [
+    "Help Wanted",
+    "Product-PowerToys Run",
+    "Cost-Small",
+    "Run-Plugin"
+   ],
+   "updatedAt": "2024-10-29T00:56:18Z",
+   "checkedAt": "2026-11-27T02:52:56.544Z",
+   "verdict": "reservations",
+   "reason": "the project requires disclosing AI assistance: \"Label it clearly as AI\" — not optional; skipping it can sink the PR and your standing in the project",
+   "evidence": [
+    "https://github.com/microsoft/PowerToys/pulls?q=is%3Apr+is%3Amerged",
+    "https://github.com/microsoft/PowerToys/issues/35627",
+    "https://github.com/microsoft/PowerToys/blob/HEAD/CONTRIBUTING.md",
+    "https://github.com/microsoft/PowerToys/blob/HEAD/README.md",
+    "https://github.com/microsoft/PowerToys/blob/HEAD/AGENTS.md"
+   ]
+  },
+  {
    "number": 36491,
    "title": "Quick Accent - Add Vietnamese language support",
    "url": "https://github.com/microsoft/PowerToys/issues/36491",
@@ -1624,36 +1652,14 @@
     "Product-Command Palette",
     "CmdPal-API Helpers"
    ],
-   "updatedAt": "2025-06-10T11:11:17Z",
-   "checkedAt": "2026-11-12T19:57:47.710Z",
-   "verdict": "reservations",
-   "reason": "PR #39927 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
+   "updatedAt": "2026-11-22T02:03:26Z",
+   "checkedAt": "2026-11-27T02:52:56.544Z",
+   "verdict": "discard",
+   "reason": "@shirushit claimed it 5 days ago",
    "evidence": [
     "https://github.com/microsoft/PowerToys/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/microsoft/PowerToys/pull/39927",
-    "https://github.com/microsoft/PowerToys/issues/38326",
-    "https://github.com/microsoft/PowerToys/blob/HEAD/CONTRIBUTING.md",
-    "https://github.com/microsoft/PowerToys/blob/HEAD/README.md"
-   ]
-  },
-  {
-   "number": 38487,
-   "title": "Chinese descriptions for apps in English Systems",
-   "url": "https://github.com/microsoft/PowerToys/issues/38487",
-   "labels": [
-    "Issue-Bug",
-    "Help Wanted",
-    "Priority-2",
-    "Product-Command Palette",
-    "CmdPal - All Apps"
-   ],
-   "updatedAt": "2026-10-06T06:46:41Z",
-   "checkedAt": "2026-11-12T19:57:47.710Z",
-   "verdict": "discard",
-   "reason": "PR #40451 by @Hel1umHE is already open against this issue",
-   "evidence": [
-    "https://github.com/microsoft/PowerToys/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/microsoft/PowerToys/issues/40451"
+    "https://github.com/microsoft/PowerToys/issues/38326#issuecomment-7072642297"
    ]
   },
   {

@@ -80,7 +80,7 @@
   "lastNewIssue": "2026-09-27T06:15:04Z"
  },
  "immich-app/immich": {
-  "nextCheck": "2026-11-27T00:24:06.217Z",
+  "nextCheck": "2026-11-28T02:52:56.544Z",
   "lastNewIssue": "2026-11-22T22:41:10Z"
  },
  "supabase/supabase": {
@@ -92,8 +92,8 @@
   "lastNewIssue": "2026-10-25T23:31:22Z"
  },
  "nexu-io/open-design": {
-  "nextCheck": "2026-11-27T00:24:06.217Z",
-  "lastNewIssue": "2026-11-25T18:21:13Z"
+  "nextCheck": "2026-11-28T02:52:56.544Z",
+  "lastNewIssue": "2026-11-26T09:43:17Z"
  },
  "ant-design/ant-design": {
   "nextCheck": "2026-11-28T23:21:26.689Z",
@@ -384,7 +384,7 @@
   "lastNewIssue": "2026-04-06T10:02:50Z"
  },
  "protocolbuffers/protobuf": {
-  "nextCheck": "2026-11-27T00:55:21.548Z",
+  "nextCheck": "2026-11-30T02:52:56.544Z",
   "lastNewIssue": "2026-11-16T15:31:32Z"
  },
  "ggml-org/whisper.cpp": {
@@ -468,47 +468,47 @@
   "lastNewIssue": "2026-11-23T10:24:52Z"
  },
  "bitwarden/server": {
-  "nextCheck": "2026-11-26T21:39:33.956Z",
+  "nextCheck": "2026-12-04T02:52:56.544Z",
   "lastNewIssue": "2026-03-04T19:37:10Z"
  },
  "lively-community/lively": {
-  "nextCheck": "2026-11-26T21:39:33.956Z",
+  "nextCheck": "2026-12-04T02:52:56.544Z",
   "lastNewIssue": "2023-07-19T03:28:05Z"
  },
  "ppy/osu": {
-  "nextCheck": "2026-11-26T21:39:33.956Z",
+  "nextCheck": "2026-12-04T02:52:56.544Z",
   "lastNewIssue": null
  },
  "genymobile/scrcpy": {
-  "nextCheck": "2026-11-26T21:39:33.956Z",
+  "nextCheck": "2026-12-04T02:52:56.544Z",
   "lastNewIssue": "2020-07-27T10:18:10Z"
  },
  "microsoft/powertoys": {
-  "nextCheck": "2026-11-26T21:39:33.956Z",
+  "nextCheck": "2026-12-04T02:52:56.544Z",
   "lastNewIssue": "2026-07-21T12:32:13Z"
  },
  "obsproject/obs-studio": {
-  "nextCheck": "2026-11-26T21:39:33.956Z",
+  "nextCheck": "2026-12-04T02:52:56.544Z",
   "lastNewIssue": "2026-05-05T22:53:49Z"
  },
  "justvugg/colibri": {
-  "nextCheck": "2026-11-26T21:39:33.956Z",
+  "nextCheck": "2026-12-04T02:52:56.544Z",
   "lastNewIssue": "2026-08-16T10:48:46Z"
  },
  "php/php-src": {
-  "nextCheck": "2026-11-26T21:39:33.956Z",
+  "nextCheck": "2026-12-04T02:52:56.544Z",
   "lastNewIssue": "2026-09-12T10:47:19Z"
  },
  "nothings/stb": {
-  "nextCheck": "2026-11-26T21:39:33.956Z",
+  "nextCheck": "2026-12-04T02:52:56.544Z",
   "lastNewIssue": "2021-11-21T21:33:16Z"
  },
  "valinet/explorerpatcher": {
-  "nextCheck": "2026-11-26T21:39:33.956Z",
+  "nextCheck": "2026-12-04T02:52:56.544Z",
   "lastNewIssue": "2023-10-06T20:03:07Z"
  },
  "nginx/nginx": {
-  "nextCheck": "2026-11-26T21:39:33.956Z",
+  "nextCheck": "2026-12-04T02:52:56.544Z",
   "lastNewIssue": "2026-05-14T00:59:26Z"
  },
  "openssl/openssl": {
@@ -516,19 +516,19 @@
   "lastNewIssue": "2026-11-25T04:02:51Z"
  },
  "xiaojieonly/ehviewer_cn_sxj": {
-  "nextCheck": "2026-11-26T21:39:33.956Z",
+  "nextCheck": "2026-12-04T02:52:56.544Z",
   "lastNewIssue": "2024-02-05T06:28:45Z"
  },
  "meta/zstd": {
-  "nextCheck": "2026-11-26T21:39:33.956Z",
+  "nextCheck": "2026-12-04T02:52:56.544Z",
   "lastNewIssue": "2025-04-17T09:09:19Z"
  },
  "valkey-io/valkey": {
-  "nextCheck": "2026-11-26T21:39:33.956Z",
+  "nextCheck": "2026-12-04T02:52:56.544Z",
   "lastNewIssue": "2026-01-15T20:24:48Z"
  },
  "libuv/libuv": {
-  "nextCheck": "2026-11-26T21:39:33.956Z",
+  "nextCheck": "2026-12-04T02:52:56.544Z",
   "lastNewIssue": "2024-04-12T16:10:45Z"
  },
  "radareorg/radare2": {
@@ -808,7 +808,7 @@
   "lastNewIssue": "2022-02-28T18:55:50Z"
  },
  "flame-engine/flame": {
-  "nextCheck": "2026-11-27T00:55:21.548Z",
+  "nextCheck": "2026-11-30T02:52:56.544Z",
   "lastNewIssue": "2026-10-30T13:55:04Z"
  },
  "firebase/flutterfire": {
@@ -1144,7 +1144,7 @@
   "lastNewIssue": "2025-03-19T00:01:35Z"
  },
  "othmanadi/planning-with-files": {
-  "nextCheck": "2026-11-27T00:24:06.217Z",
+  "nextCheck": "2026-11-28T02:52:56.544Z",
   "lastNewIssue": "2026-11-21T08:02:00Z"
  },
  "zsh-users/zsh-syntax-highlighting": {
