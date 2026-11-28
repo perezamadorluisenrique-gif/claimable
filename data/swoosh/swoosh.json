@@ -4,7 +4,7 @@
  "language": "Elixir",
  "stars": 1530,
  "description": "Compose, deliver and test your emails easily in Elixir",
- "visitedAt": "2026-11-21T11:09:42.899Z",
+ "visitedAt": "2026-11-28T13:03:40.896Z",
  "issues": [
   {
    "number": 594,
@@ -21,23 +21,6 @@
    "evidence": [
     "https://github.com/swoosh/swoosh/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/swoosh/swoosh/issues/594"
-   ]
-  },
-  {
-   "number": 758,
-   "title": "SMTP: Crashes when email address is invalid",
-   "url": "https://github.com/swoosh/swoosh/issues/758",
-   "labels": [
-    "bug",
-    "help wanted"
-   ],
-   "updatedAt": "2026-11-20T09:37:09Z",
-   "checkedAt": "2026-11-21T11:09:42.899Z",
-   "verdict": "viable",
-   "reason": "no blockers found — but read the thread before you start",
-   "evidence": [
-    "https://github.com/swoosh/swoosh/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/swoosh/swoosh/issues/758"
    ]
   },
   {

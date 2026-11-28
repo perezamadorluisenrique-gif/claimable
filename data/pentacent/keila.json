@@ -4,7 +4,7 @@
  "language": "Elixir",
  "stars": 2262,
  "description": "Open Source Newsletter Tool.",
- "visitedAt": "2026-11-21T11:09:42.899Z",
+ "visitedAt": "2026-11-28T13:03:40.896Z",
  "issues": [
   {
    "number": 109,
@@ -15,7 +15,7 @@
     "good first issue"
    ],
    "updatedAt": "2026-11-13T13:21:25Z",
-   "checkedAt": "2026-11-21T11:09:42.899Z",
+   "checkedAt": "2026-11-28T13:03:40.896Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [

@@ -4,7 +4,7 @@
  "language": "Elixir",
  "stars": 5864,
  "description": "Tuist builds infrastructure for faster, more reliable build and test workflows across developers, CI, and coding agents. Shared cache, tests, and insights that sit alongside your existing CI.",
- "visitedAt": "2026-11-21T11:09:42.899Z",
+ "visitedAt": "2026-11-28T13:03:40.896Z",
  "issues": [
   {
    "number": 5898,

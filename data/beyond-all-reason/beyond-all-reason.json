@@ -4,7 +4,7 @@
  "language": "Lua",
  "stars": 4348,
  "description": "Main game repository for Beyond All Reason.",
- "visitedAt": "2026-11-25T04:19:06.926Z",
+ "visitedAt": "2026-11-28T13:03:40.896Z",
  "issues": [
   {
    "number": 323,
@@ -55,12 +55,13 @@
     "Awaiting BLT Approval"
    ],
    "updatedAt": "2024-10-20T18:45:18Z",
-   "checkedAt": "2026-11-25T04:19:06.926Z",
-   "verdict": "viable",
-   "reason": "no blockers found — but read the thread before you start",
+   "checkedAt": "2026-11-28T13:03:40.896Z",
+   "verdict": "reservations",
+   "reason": "the project requires disclosing AI assistance: \"Disclose AI\" — not optional; skipping it can sink the PR and your standing in the project",
    "evidence": [
     "https://github.com/beyond-all-reason/Beyond-All-Reason/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/494",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/blob/HEAD/AGENTS.md",
     "https://github.com/beyond-all-reason/Beyond-All-Reason/blob/HEAD/CONTRIBUTING.md"
    ]
   },
@@ -111,12 +112,13 @@
     "Unit Def"
    ],
    "updatedAt": "2025-01-18T11:49:11Z",
-   "checkedAt": "2026-11-25T04:19:06.926Z",
-   "verdict": "viable",
-   "reason": "no blockers found — but read the thread before you start",
+   "checkedAt": "2026-11-28T13:03:40.896Z",
+   "verdict": "reservations",
+   "reason": "the project requires disclosing AI assistance: \"Disclose AI\" — not optional; skipping it can sink the PR and your standing in the project",
    "evidence": [
     "https://github.com/beyond-all-reason/Beyond-All-Reason/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/1260",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/blob/HEAD/AGENTS.md",
     "https://github.com/beyond-all-reason/Beyond-All-Reason/blob/HEAD/CONTRIBUTING.md"
    ]
   },
@@ -149,12 +151,13 @@
     "Testing Needed"
    ],
    "updatedAt": "2026-05-13T22:01:54Z",
-   "checkedAt": "2026-11-25T04:19:06.926Z",
-   "verdict": "viable",
-   "reason": "no blockers found — but read the thread before you start",
+   "checkedAt": "2026-11-28T13:03:40.896Z",
+   "verdict": "reservations",
+   "reason": "the project requires disclosing AI assistance: \"Disclose AI\" — not optional; skipping it can sink the PR and your standing in the project",
    "evidence": [
     "https://github.com/beyond-all-reason/Beyond-All-Reason/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/1346",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/blob/HEAD/AGENTS.md",
     "https://github.com/beyond-all-reason/Beyond-All-Reason/blob/HEAD/CONTRIBUTING.md"
    ]
   },
@@ -167,12 +170,13 @@
     "Widget"
    ],
    "updatedAt": "2024-11-27T10:41:22Z",
-   "checkedAt": "2026-11-25T04:19:06.926Z",
-   "verdict": "viable",
-   "reason": "no blockers found — but read the thread before you start",
+   "checkedAt": "2026-11-28T13:03:40.896Z",
+   "verdict": "reservations",
+   "reason": "the project requires disclosing AI assistance: \"Disclose AI\" — not optional; skipping it can sink the PR and your standing in the project",
    "evidence": [
     "https://github.com/beyond-all-reason/Beyond-All-Reason/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/1670",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/blob/HEAD/AGENTS.md",
     "https://github.com/beyond-all-reason/Beyond-All-Reason/blob/HEAD/CONTRIBUTING.md"
    ]
   },
@@ -185,12 +189,13 @@
     "Good First Issue"
    ],
    "updatedAt": "2025-08-04T20:51:38Z",
-   "checkedAt": "2026-11-25T04:19:06.926Z",
-   "verdict": "viable",
-   "reason": "no blockers found — but read the thread before you start",
+   "checkedAt": "2026-11-28T13:03:40.896Z",
+   "verdict": "reservations",
+   "reason": "the project requires disclosing AI assistance: \"Disclose AI\" — not optional; skipping it can sink the PR and your standing in the project",
    "evidence": [
     "https://github.com/beyond-all-reason/Beyond-All-Reason/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/1909",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/blob/HEAD/AGENTS.md",
     "https://github.com/beyond-all-reason/Beyond-All-Reason/blob/HEAD/CONTRIBUTING.md"
    ]
   },
@@ -224,12 +229,13 @@
     "Widget"
    ],
    "updatedAt": "2026-10-27T14:54:42Z",
-   "checkedAt": "2026-11-25T04:19:06.926Z",
-   "verdict": "viable",
-   "reason": "no blockers found — but read the thread before you start",
+   "checkedAt": "2026-11-28T13:03:40.896Z",
+   "verdict": "reservations",
+   "reason": "the project requires disclosing AI assistance: \"Disclose AI\" — not optional; skipping it can sink the PR and your standing in the project",
    "evidence": [
     "https://github.com/beyond-all-reason/Beyond-All-Reason/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/2445",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/blob/HEAD/AGENTS.md",
     "https://github.com/beyond-all-reason/Beyond-All-Reason/blob/HEAD/CONTRIBUTING.md"
    ]
   },
@@ -320,12 +326,13 @@
     "Gadget"
    ],
    "updatedAt": "2024-10-13T14:09:21Z",
-   "checkedAt": "2026-11-25T04:19:06.926Z",
-   "verdict": "viable",
-   "reason": "no blockers found — but read the thread before you start",
+   "checkedAt": "2026-11-28T13:03:40.896Z",
+   "verdict": "reservations",
+   "reason": "the project requires disclosing AI assistance: \"Disclose AI\" — not optional; skipping it can sink the PR and your standing in the project",
    "evidence": [
     "https://github.com/beyond-all-reason/Beyond-All-Reason/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/3299",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/blob/HEAD/AGENTS.md",
     "https://github.com/beyond-all-reason/Beyond-All-Reason/blob/HEAD/CONTRIBUTING.md"
    ]
   },
@@ -339,12 +346,13 @@
     "UI"
    ],
    "updatedAt": "2025-03-25T14:52:00Z",
-   "checkedAt": "2026-11-25T04:19:06.926Z",
-   "verdict": "viable",
-   "reason": "no blockers found — but read the thread before you start",
+   "checkedAt": "2026-11-28T13:03:40.896Z",
+   "verdict": "reservations",
+   "reason": "the project requires disclosing AI assistance: \"Disclose AI\" — not optional; skipping it can sink the PR and your standing in the project",
    "evidence": [
     "https://github.com/beyond-all-reason/Beyond-All-Reason/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/3339",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/blob/HEAD/AGENTS.md",
     "https://github.com/beyond-all-reason/Beyond-All-Reason/blob/HEAD/CONTRIBUTING.md"
    ]
   },
@@ -358,12 +366,13 @@
     "Widget"
    ],
    "updatedAt": "2025-09-08T07:37:19Z",
-   "checkedAt": "2026-11-25T04:19:06.926Z",
-   "verdict": "viable",
-   "reason": "no blockers found — but read the thread before you start",
+   "checkedAt": "2026-11-28T13:03:40.896Z",
+   "verdict": "reservations",
+   "reason": "the project requires disclosing AI assistance: \"Disclose AI\" — not optional; skipping it can sink the PR and your standing in the project",
    "evidence": [
     "https://github.com/beyond-all-reason/Beyond-All-Reason/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/3340",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/blob/HEAD/AGENTS.md",
     "https://github.com/beyond-all-reason/Beyond-All-Reason/blob/HEAD/CONTRIBUTING.md"
    ]
   },
@@ -395,12 +404,13 @@
     "Widget"
    ],
    "updatedAt": "2025-03-26T17:12:05Z",
-   "checkedAt": "2026-11-25T04:19:06.926Z",
-   "verdict": "viable",
-   "reason": "no blockers found — but read the thread before you start",
+   "checkedAt": "2026-11-28T13:03:40.896Z",
+   "verdict": "reservations",
+   "reason": "the project requires disclosing AI assistance: \"Disclose AI\" — not optional; skipping it can sink the PR and your standing in the project",
    "evidence": [
     "https://github.com/beyond-all-reason/Beyond-All-Reason/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/3448",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/blob/HEAD/AGENTS.md",
     "https://github.com/beyond-all-reason/Beyond-All-Reason/blob/HEAD/CONTRIBUTING.md"
    ]
   },
@@ -433,12 +443,13 @@
     "Widget"
    ],
    "updatedAt": "2025-09-09T22:44:51Z",
-   "checkedAt": "2026-11-25T04:19:06.926Z",
-   "verdict": "viable",
-   "reason": "no blockers found — but read the thread before you start",
+   "checkedAt": "2026-11-28T13:03:40.896Z",
+   "verdict": "reservations",
+   "reason": "the project requires disclosing AI assistance: \"Disclose AI\" — not optional; skipping it can sink the PR and your standing in the project",
    "evidence": [
     "https://github.com/beyond-all-reason/Beyond-All-Reason/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/3509",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/blob/HEAD/AGENTS.md",
     "https://github.com/beyond-all-reason/Beyond-All-Reason/blob/HEAD/CONTRIBUTING.md"
    ]
   },
@@ -471,12 +482,13 @@
     "Unit Def"
    ],
    "updatedAt": "2026-11-02T05:46:51Z",
-   "checkedAt": "2026-11-25T04:19:06.926Z",
-   "verdict": "viable",
-   "reason": "no blockers found — but read the thread before you start",
+   "checkedAt": "2026-11-28T13:03:40.896Z",
+   "verdict": "reservations",
+   "reason": "the project requires disclosing AI assistance: \"Disclose AI\" — not optional; skipping it can sink the PR and your standing in the project",
    "evidence": [
     "https://github.com/beyond-all-reason/Beyond-All-Reason/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/3845",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/blob/HEAD/AGENTS.md",
     "https://github.com/beyond-all-reason/Beyond-All-Reason/blob/HEAD/CONTRIBUTING.md"
    ]
   },
@@ -510,12 +522,13 @@
     "Gadget"
    ],
    "updatedAt": "2025-11-25T22:49:28Z",
-   "checkedAt": "2026-11-25T04:19:06.926Z",
-   "verdict": "viable",
-   "reason": "no blockers found — but read the thread before you start",
+   "checkedAt": "2026-11-28T13:03:40.896Z",
+   "verdict": "reservations",
+   "reason": "the project requires disclosing AI assistance: \"Disclose AI\" — not optional; skipping it can sink the PR and your standing in the project",
    "evidence": [
     "https://github.com/beyond-all-reason/Beyond-All-Reason/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/4353",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/blob/HEAD/AGENTS.md",
     "https://github.com/beyond-all-reason/Beyond-All-Reason/blob/HEAD/CONTRIBUTING.md"
    ]
   },
@@ -529,12 +542,13 @@
     "Unit Def"
    ],
    "updatedAt": "2025-11-15T06:41:21Z",
-   "checkedAt": "2026-11-25T04:19:06.926Z",
-   "verdict": "viable",
-   "reason": "no blockers found — but read the thread before you start",
+   "checkedAt": "2026-11-28T13:03:40.896Z",
+   "verdict": "reservations",
+   "reason": "the project requires disclosing AI assistance: \"Disclose AI\" — not optional; skipping it can sink the PR and your standing in the project",
    "evidence": [
     "https://github.com/beyond-all-reason/Beyond-All-Reason/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/4372",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/blob/HEAD/AGENTS.md",
     "https://github.com/beyond-all-reason/Beyond-All-Reason/blob/HEAD/CONTRIBUTING.md"
    ]
   },
@@ -566,12 +580,13 @@
     "Good First Issue"
    ],
    "updatedAt": "2026-11-17T19:19:57Z",
-   "checkedAt": "2026-11-25T04:19:06.926Z",
-   "verdict": "viable",
-   "reason": "no blockers found — but read the thread before you start",
+   "checkedAt": "2026-11-28T13:03:40.896Z",
+   "verdict": "reservations",
+   "reason": "the project requires disclosing AI assistance: \"Disclose AI\" — not optional; skipping it can sink the PR and your standing in the project",
    "evidence": [
     "https://github.com/beyond-all-reason/Beyond-All-Reason/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/beyond-all-reason/Beyond-All-Reason/issues/10141",
+    "https://github.com/beyond-all-reason/Beyond-All-Reason/blob/HEAD/AGENTS.md",
     "https://github.com/beyond-all-reason/Beyond-All-Reason/blob/HEAD/CONTRIBUTING.md"
    ]
   }

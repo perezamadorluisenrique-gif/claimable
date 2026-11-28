@@ -4,7 +4,7 @@
  "language": "Scala",
  "stars": 5898,
  "description": "The Guardian DotCom.",
- "visitedAt": "2026-11-21T11:09:42.899Z",
+ "visitedAt": "2026-11-28T13:03:40.896Z",
  "issues": [
   {
    "number": 26637,
@@ -16,7 +16,7 @@
     "Team Candidate: WebX"
    ],
    "updatedAt": "2025-01-03T19:08:09Z",
-   "checkedAt": "2026-11-21T11:09:42.899Z",
+   "checkedAt": "2026-11-28T13:03:40.896Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -35,7 +35,7 @@
     "Team Candidate: WebX"
    ],
    "updatedAt": "2025-06-04T12:50:52Z",
-   "checkedAt": "2026-11-21T11:09:42.899Z",
+   "checkedAt": "2026-11-28T13:03:40.896Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [

@@ -4,7 +4,7 @@
  "language": "C",
  "stars": 31402,
  "description": "General purpose TLS and crypto library",
- "visitedAt": "2026-11-27T12:28:44.019Z",
+ "visitedAt": "2026-11-28T13:03:40.896Z",
  "issues": [
   {
    "number": 6232,
@@ -1034,8 +1034,8 @@
     "help wanted",
     "triaged: feature"
    ],
-   "updatedAt": "2026-11-26T16:38:00Z",
-   "checkedAt": "2026-11-27T12:28:44.019Z",
+   "updatedAt": "2026-11-28T10:58:25Z",
+   "checkedAt": "2026-11-28T13:03:40.896Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
    "evidence": [
@@ -1677,6 +1677,24 @@
    ]
   },
   {
+   "number": 33344,
+   "title": "SSL_poll can block despite a nonempty DTLS listener accept queue",
+   "url": "https://github.com/openssl/openssl/issues/33344",
+   "labels": [
+    "branch: master",
+    "help wanted",
+    "triaged: bug",
+    "branch: 4.1"
+   ],
+   "updatedAt": "2026-11-27T13:58:05Z",
+   "checkedAt": "2026-11-28T13:03:40.896Z",
+   "verdict": "discard",
+   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
+   "evidence": [
+    "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Aclosed"
+   ]
+  },
+  {
    "number": 33395,
    "title": "RFC 9973 - Using Certificates with an External Pre-Shared Key",
    "url": "https://github.com/openssl/openssl/issues/33395",
@@ -1982,22 +2000,6 @@
     "triaged: bug"
    ],
    "updatedAt": "2026-11-23T09:50:29Z",
-   "checkedAt": "2026-11-24T00:55:21.548Z",
-   "verdict": "discard",
-   "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",
-   "evidence": [
-    "https://github.com/openssl/openssl/pulls?q=is%3Apr+is%3Aclosed"
-   ]
-  },
-  {
-   "number": 33861,
-   "title": "EVP_PKEY_CTX_get0_peerkey() still returns the old peer after EVP_PKEY_derive_init() although the derive no longer uses it",
-   "url": "https://github.com/openssl/openssl/issues/33861",
-   "labels": [
-    "help wanted",
-    "triaged: bug"
-   ],
-   "updatedAt": "2026-11-22T18:31:41Z",
    "checkedAt": "2026-11-24T00:55:21.548Z",
    "verdict": "discard",
    "reason": "the last 50 closed PRs were all closed without merging — contributions are not landing here",

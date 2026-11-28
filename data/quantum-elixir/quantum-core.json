@@ -4,7 +4,7 @@
  "language": "Elixir",
  "stars": 2418,
  "description": ":watch: Cron-like job scheduler for Elixir",
- "visitedAt": "2026-11-21T11:09:42.899Z",
+ "visitedAt": "2026-11-28T13:03:40.896Z",
  "issues": [
   {
    "number": 241,
@@ -55,7 +55,7 @@
     "help wanted"
    ],
    "updatedAt": "2025-05-13T21:12:17Z",
-   "checkedAt": "2026-11-21T11:09:42.899Z",
+   "checkedAt": "2026-11-28T13:03:40.896Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -72,7 +72,7 @@
     "help wanted"
    ],
    "updatedAt": "2022-05-23T19:38:33Z",
-   "checkedAt": "2026-11-21T11:09:42.899Z",
+   "checkedAt": "2026-11-28T13:03:40.896Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -89,7 +89,7 @@
     "help wanted"
    ],
    "updatedAt": "2022-05-23T19:38:01Z",
-   "checkedAt": "2026-11-21T11:09:42.899Z",
+   "checkedAt": "2026-11-28T13:03:40.896Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -106,7 +106,7 @@
     "help wanted"
    ],
    "updatedAt": "2024-03-13T08:56:33Z",
-   "checkedAt": "2026-11-21T11:09:42.899Z",
+   "checkedAt": "2026-11-28T13:03:40.896Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
