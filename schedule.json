@@ -80,7 +80,7 @@
   "lastNewIssue": "2026-09-27T06:15:04Z"
  },
  "immich-app/immich": {
-  "nextCheck": "2026-11-28T02:52:56.544Z",
+  "nextCheck": "2026-11-29T03:56:10.914Z",
   "lastNewIssue": "2026-11-22T22:41:10Z"
  },
  "supabase/supabase": {
@@ -92,7 +92,7 @@
   "lastNewIssue": "2026-10-25T23:31:22Z"
  },
  "nexu-io/open-design": {
-  "nextCheck": "2026-11-28T02:52:56.544Z",
+  "nextCheck": "2026-11-29T03:56:10.914Z",
   "lastNewIssue": "2026-11-26T09:43:17Z"
  },
  "ant-design/ant-design": {
@@ -800,11 +800,11 @@
   "lastNewIssue": "2026-10-17T02:33:33Z"
  },
  "notsfsssf/pixez-flutter": {
-  "nextCheck": "2026-11-28T02:20:11.484Z",
+  "nextCheck": "2026-12-05T03:56:10.914Z",
   "lastNewIssue": "2025-12-27T19:05:33Z"
  },
  "felangel/bloc": {
-  "nextCheck": "2026-11-28T02:20:11.484Z",
+  "nextCheck": "2026-12-05T03:56:10.914Z",
   "lastNewIssue": "2022-02-28T18:55:50Z"
  },
  "flame-engine/flame": {
@@ -812,47 +812,47 @@
   "lastNewIssue": "2026-10-30T13:55:04Z"
  },
  "firebase/flutterfire": {
-  "nextCheck": "2026-11-28T02:20:11.484Z",
+  "nextCheck": "2026-12-05T03:56:10.914Z",
   "lastNewIssue": "2022-09-12T09:11:18Z"
  },
  "lollipopkit/flutter_server_box": {
-  "nextCheck": "2026-11-28T02:20:11.484Z",
+  "nextCheck": "2026-12-05T03:56:10.914Z",
   "lastNewIssue": "2026-04-28T03:13:05Z"
  },
  "imanneo/fl_chart": {
-  "nextCheck": "2026-11-28T02:20:11.484Z",
+  "nextCheck": "2026-12-05T03:56:10.914Z",
   "lastNewIssue": "2023-11-06T08:58:55Z"
  },
  "rrousselgit/riverpod": {
-  "nextCheck": "2026-11-28T02:20:11.484Z",
+  "nextCheck": "2026-12-05T03:56:10.914Z",
   "lastNewIssue": "2026-07-28T13:12:17Z"
  },
  "btwld/fvm": {
-  "nextCheck": "2026-11-28T02:20:11.484Z",
+  "nextCheck": "2026-12-05T03:56:10.914Z",
   "lastNewIssue": "2024-07-10T17:48:31Z"
  },
  "saber-notes/saber": {
-  "nextCheck": "2026-11-28T02:20:11.484Z",
+  "nextCheck": "2026-12-05T03:56:10.914Z",
   "lastNewIssue": "2023-05-30T07:53:50Z"
  },
  "bepass-org/oblivion": {
-  "nextCheck": "2026-11-28T02:20:11.484Z",
+  "nextCheck": "2026-12-05T03:56:10.914Z",
   "lastNewIssue": "2024-05-19T15:37:33Z"
  },
  "lichess-org/lila": {
-  "nextCheck": "2026-11-28T02:20:11.484Z",
+  "nextCheck": "2026-12-05T03:56:10.914Z",
   "lastNewIssue": "2025-04-21T22:27:08Z"
  },
  "akka/akka-core": {
-  "nextCheck": "2026-11-28T02:20:11.484Z",
+  "nextCheck": "2026-12-05T03:56:10.914Z",
   "lastNewIssue": "2022-06-20T09:26:58Z"
  },
  "playframework/playframework": {
-  "nextCheck": "2026-11-28T02:20:11.484Z",
+  "nextCheck": "2026-12-05T03:56:10.914Z",
   "lastNewIssue": "2022-09-24T06:02:42Z"
  },
  "gitbucket/gitbucket": {
-  "nextCheck": "2026-11-28T02:20:11.484Z",
+  "nextCheck": "2026-12-05T03:56:10.914Z",
   "lastNewIssue": "2021-04-29T04:14:39Z"
  },
  "delta-io/delta": {
@@ -1144,7 +1144,7 @@
   "lastNewIssue": "2025-03-19T00:01:35Z"
  },
  "othmanadi/planning-with-files": {
-  "nextCheck": "2026-11-28T02:52:56.544Z",
+  "nextCheck": "2026-11-29T03:56:10.914Z",
   "lastNewIssue": "2026-11-21T08:02:00Z"
  },
  "zsh-users/zsh-syntax-highlighting": {

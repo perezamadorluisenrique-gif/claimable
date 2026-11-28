@@ -4,7 +4,7 @@
  "language": "Dart",
  "stars": 12488,
  "description": "A predictable state management library that helps implement the BLoC design pattern",
- "visitedAt": "2026-11-21T02:20:11.484Z",
+ "visitedAt": "2026-11-28T03:56:10.914Z",
  "issues": [
   {
    "number": 1837,
@@ -40,23 +40,6 @@
    "evidence": [
     "https://github.com/felangel/bloc/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/felangel/bloc/pull/4839"
-   ]
-  },
-  {
-   "number": 3248,
-   "title": "docs: clearly document semantics for different transformers off the same bloc",
-   "url": "https://github.com/felangel/bloc/issues/3248",
-   "labels": [
-    "good first issue",
-    "documentation"
-   ],
-   "updatedAt": "2026-05-27T18:29:48Z",
-   "checkedAt": "2026-11-13T22:40:39.276Z",
-   "verdict": "discard",
-   "reason": "PR #4819 by @champ96k is already open against this issue",
-   "evidence": [
-    "https://github.com/felangel/bloc/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/felangel/bloc/pull/4819"
    ]
   }
  ]

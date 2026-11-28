@@ -4,7 +4,7 @@
  "language": "Dart",
  "stars": 7593,
  "description": "FL Chart is a highly customizable Flutter chart library that supports Line Chart, Bar Chart, Pie Chart, Scatter Chart, Radar Chart and Candlestick Chart.",
- "visitedAt": "2026-11-21T02:20:11.484Z",
+ "visitedAt": "2026-11-28T03:56:10.914Z",
  "issues": [
   {
    "number": 494,
@@ -117,47 +117,6 @@
    "evidence": [
     "https://github.com/imaNNeo/fl_chart/pulls?q=is%3Apr+is%3Amerged",
     "https://github.com/imaNNeo/fl_chart/issues/958",
-    "https://docs.flutter.dev/get-started/install",
-    "https://github.com/imaNNeo/fl_chart/blob/HEAD/CONTRIBUTING.md"
-   ]
-  },
-  {
-   "number": 1088,
-   "title": "Dynamic tooltipBgColor in LineChart [Partial idea, i need help with the final part]",
-   "url": "https://github.com/imaNNeo/fl_chart/issues/1088",
-   "labels": [
-    "good first issue",
-    "question",
-    "Line Chart"
-   ],
-   "updatedAt": "2022-08-04T14:05:15Z",
-   "checkedAt": "2026-11-13T22:40:39.276Z",
-   "verdict": "reservations",
-   "reason": "labelled `question` — scope may not be settled yet (+1 more)",
-   "evidence": [
-    "https://github.com/imaNNeo/fl_chart/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/imaNNeo/fl_chart/issues/1088",
-    "https://docs.flutter.dev/get-started/install",
-    "https://github.com/imaNNeo/fl_chart/blob/HEAD/CONTRIBUTING.md"
-   ]
-  },
-  {
-   "number": 1138,
-   "title": "BarChar sample source",
-   "url": "https://github.com/imaNNeo/fl_chart/issues/1138",
-   "labels": [
-    "enhancement",
-    "good first issue",
-    "Bar Chart"
-   ],
-   "updatedAt": "2024-07-25T15:27:11Z",
-   "checkedAt": "2026-11-13T22:40:39.276Z",
-   "verdict": "reservations",
-   "reason": "PR #1172 was already merged but the issue is still open — it may be partly fixed, or reopened for a remainder (+1 more)",
-   "evidence": [
-    "https://github.com/imaNNeo/fl_chart/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/imaNNeo/fl_chart/pull/1172",
-    "https://github.com/imaNNeo/fl_chart/issues/1138",
     "https://docs.flutter.dev/get-started/install",
     "https://github.com/imaNNeo/fl_chart/blob/HEAD/CONTRIBUTING.md"
    ]
@@ -289,15 +248,13 @@
     "good first issue",
     "Line Chart"
    ],
-   "updatedAt": "2023-11-05T13:46:35Z",
-   "checkedAt": "2026-11-13T22:40:39.276Z",
-   "verdict": "reservations",
-   "reason": "setup instructions live outside the repository (https://docs.flutter.dev/get-started/install) — this filter only reads files in the repo, so the real setup cost is unverified",
+   "updatedAt": "2026-11-24T16:57:30Z",
+   "checkedAt": "2026-11-28T03:56:10.914Z",
+   "verdict": "discard",
+   "reason": "PR #2176 by @theworker02 is already open against this issue",
    "evidence": [
     "https://github.com/imaNNeo/fl_chart/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/imaNNeo/fl_chart/issues/1474",
-    "https://docs.flutter.dev/get-started/install",
-    "https://github.com/imaNNeo/fl_chart/blob/HEAD/CONTRIBUTING.md"
+    "https://github.com/imaNNeo/fl_chart/pull/2176"
    ]
   },
   {

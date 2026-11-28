@@ -4,7 +4,7 @@
  "language": "Scala",
  "stars": 12622,
  "description": "The Community Maintained High Velocity Web Framework For Java and Scala.",
- "visitedAt": "2026-11-21T02:20:11.484Z",
+ "visitedAt": "2026-11-28T03:56:10.914Z",
  "issues": [
   {
    "number": 995,
@@ -33,7 +33,7 @@
     "topic:documentation"
    ],
    "updatedAt": "2019-05-09T13:06:25Z",
-   "checkedAt": "2026-11-21T02:20:11.484Z",
+   "checkedAt": "2026-11-28T03:56:10.914Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -50,7 +50,7 @@
     "help wanted"
    ],
    "updatedAt": "2019-05-09T13:06:25Z",
-   "checkedAt": "2026-11-21T02:20:11.484Z",
+   "checkedAt": "2026-11-28T03:56:10.914Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -103,7 +103,7 @@
     "help wanted"
    ],
    "updatedAt": "2019-05-09T13:06:25Z",
-   "checkedAt": "2026-11-21T02:20:11.484Z",
+   "checkedAt": "2026-11-28T03:56:10.914Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -138,7 +138,7 @@
     "topic:documentation"
    ],
    "updatedAt": "2019-05-09T13:06:25Z",
-   "checkedAt": "2026-11-21T02:20:11.484Z",
+   "checkedAt": "2026-11-28T03:56:10.914Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -155,7 +155,7 @@
     "topic:documentation"
    ],
    "updatedAt": "2019-05-09T13:06:25Z",
-   "checkedAt": "2026-11-21T02:20:11.484Z",
+   "checkedAt": "2026-11-28T03:56:10.914Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -172,7 +172,7 @@
     "topic:documentation"
    ],
    "updatedAt": "2019-05-09T13:06:25Z",
-   "checkedAt": "2026-11-21T02:20:11.484Z",
+   "checkedAt": "2026-11-28T03:56:10.914Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -227,7 +227,7 @@
     "topic:documentation"
    ],
    "updatedAt": "2019-05-09T13:06:26Z",
-   "checkedAt": "2026-11-21T02:20:11.484Z",
+   "checkedAt": "2026-11-28T03:56:10.914Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -244,7 +244,7 @@
     "good first issue"
    ],
    "updatedAt": "2019-05-09T13:06:26Z",
-   "checkedAt": "2026-11-21T02:20:11.484Z",
+   "checkedAt": "2026-11-28T03:56:10.914Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -261,7 +261,7 @@
     "topic:documentation"
    ],
    "updatedAt": "2021-02-27T20:12:57Z",
-   "checkedAt": "2026-11-21T02:20:11.484Z",
+   "checkedAt": "2026-11-28T03:56:10.914Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -277,7 +277,7 @@
     "help wanted"
    ],
    "updatedAt": "2023-10-29T16:49:52Z",
-   "checkedAt": "2026-11-21T02:20:11.484Z",
+   "checkedAt": "2026-11-28T03:56:10.914Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -293,7 +293,7 @@
     "help wanted"
    ],
    "updatedAt": "2019-05-09T13:06:26Z",
-   "checkedAt": "2026-11-21T02:20:11.484Z",
+   "checkedAt": "2026-11-28T03:56:10.914Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -345,7 +345,7 @@
     "help wanted"
    ],
    "updatedAt": "2019-05-09T13:06:27Z",
-   "checkedAt": "2026-11-21T02:20:11.484Z",
+   "checkedAt": "2026-11-28T03:56:10.914Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -362,7 +362,7 @@
     "topic:documentation"
    ],
    "updatedAt": "2019-05-09T13:06:27Z",
-   "checkedAt": "2026-11-21T02:20:11.484Z",
+   "checkedAt": "2026-11-28T03:56:10.914Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -394,7 +394,7 @@
     "help wanted"
    ],
    "updatedAt": "2019-05-09T13:06:27Z",
-   "checkedAt": "2026-11-21T02:20:11.484Z",
+   "checkedAt": "2026-11-28T03:56:10.914Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -410,7 +410,7 @@
     "help wanted"
    ],
    "updatedAt": "2019-05-09T13:06:27Z",
-   "checkedAt": "2026-11-21T02:20:11.484Z",
+   "checkedAt": "2026-11-28T03:56:10.914Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -427,7 +427,7 @@
     "help wanted"
    ],
    "updatedAt": "2019-05-09T13:06:28Z",
-   "checkedAt": "2026-11-21T02:20:11.484Z",
+   "checkedAt": "2026-11-28T03:56:10.914Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -497,7 +497,7 @@
     "help wanted"
    ],
    "updatedAt": "2019-05-09T13:06:29Z",
-   "checkedAt": "2026-11-21T02:20:11.484Z",
+   "checkedAt": "2026-11-28T03:56:10.914Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -533,7 +533,7 @@
     "topic:documentation"
    ],
    "updatedAt": "2019-05-09T13:06:29Z",
-   "checkedAt": "2026-11-21T02:20:11.484Z",
+   "checkedAt": "2026-11-28T03:56:10.914Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -550,7 +550,7 @@
     "topic:documentation"
    ],
    "updatedAt": "2019-05-09T13:06:29Z",
-   "checkedAt": "2026-11-21T02:20:11.484Z",
+   "checkedAt": "2026-11-28T03:56:10.914Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -689,7 +689,7 @@
     "help wanted"
    ],
    "updatedAt": "2021-02-11T10:42:49Z",
-   "checkedAt": "2026-11-21T02:20:11.484Z",
+   "checkedAt": "2026-11-28T03:56:10.914Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -760,7 +760,7 @@
     "topic:documentation"
    ],
    "updatedAt": "2022-02-11T12:22:52Z",
-   "checkedAt": "2026-11-21T02:20:11.484Z",
+   "checkedAt": "2026-11-28T03:56:10.914Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -794,7 +794,7 @@
     "topic:documentation"
    ],
    "updatedAt": "2019-05-09T13:06:30Z",
-   "checkedAt": "2026-11-21T02:20:11.484Z",
+   "checkedAt": "2026-11-28T03:56:10.914Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -848,7 +848,7 @@
     "good first issue"
    ],
    "updatedAt": "2022-02-11T12:22:09Z",
-   "checkedAt": "2026-11-21T02:20:11.484Z",
+   "checkedAt": "2026-11-28T03:56:10.914Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -888,7 +888,7 @@
     "topic:documentation"
    ],
    "updatedAt": "2019-05-09T13:06:31Z",
-   "checkedAt": "2026-11-21T02:20:11.484Z",
+   "checkedAt": "2026-11-28T03:56:10.914Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -923,7 +923,7 @@
     "topic:documentation"
    ],
    "updatedAt": "2019-05-09T13:06:32Z",
-   "checkedAt": "2026-11-21T02:20:11.484Z",
+   "checkedAt": "2026-11-28T03:56:10.914Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -991,7 +991,7 @@
     "topic:documentation"
    ],
    "updatedAt": "2022-02-11T12:08:45Z",
-   "checkedAt": "2026-11-21T02:20:11.484Z",
+   "checkedAt": "2026-11-28T03:56:10.914Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -1028,7 +1028,7 @@
     "topic:documentation"
    ],
    "updatedAt": "2023-02-19T13:05:33Z",
-   "checkedAt": "2026-11-21T02:20:11.484Z",
+   "checkedAt": "2026-11-28T03:56:10.914Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -1045,7 +1045,7 @@
     "good first issue"
    ],
    "updatedAt": "2022-02-11T11:56:40Z",
-   "checkedAt": "2026-11-21T02:20:11.484Z",
+   "checkedAt": "2026-11-28T03:56:10.914Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -1112,7 +1112,7 @@
     "topic:documentation"
    ],
    "updatedAt": "2021-02-17T10:14:38Z",
-   "checkedAt": "2026-11-21T02:20:11.484Z",
+   "checkedAt": "2026-11-28T03:56:10.914Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -1129,7 +1129,7 @@
     "help wanted"
    ],
    "updatedAt": "2026-09-18T01:30:21Z",
-   "checkedAt": "2026-11-21T02:20:11.484Z",
+   "checkedAt": "2026-11-28T03:56:10.914Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -1148,7 +1148,7 @@
     "topic:documentation"
    ],
    "updatedAt": "2021-01-17T22:02:21Z",
-   "checkedAt": "2026-11-21T02:20:11.484Z",
+   "checkedAt": "2026-11-28T03:56:10.914Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -1181,7 +1181,7 @@
     "help wanted"
    ],
    "updatedAt": "2022-02-24T20:01:30Z",
-   "checkedAt": "2026-11-21T02:20:11.484Z",
+   "checkedAt": "2026-11-28T03:56:10.914Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -1197,7 +1197,7 @@
     "help wanted"
    ],
    "updatedAt": "2022-03-07T12:37:05Z",
-   "checkedAt": "2026-11-21T02:20:11.484Z",
+   "checkedAt": "2026-11-28T03:56:10.914Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -1230,7 +1230,7 @@
     "help wanted"
    ],
    "updatedAt": "2023-05-05T17:31:26Z",
-   "checkedAt": "2026-11-21T02:20:11.484Z",
+   "checkedAt": "2026-11-28T03:56:10.914Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [
@@ -1247,7 +1247,7 @@
     "help wanted"
    ],
    "updatedAt": "2022-10-12T11:51:04Z",
-   "checkedAt": "2026-11-21T02:20:11.484Z",
+   "checkedAt": "2026-11-28T03:56:10.914Z",
    "verdict": "viable",
    "reason": "no blockers found — but read the thread before you start",
    "evidence": [

@@ -4,7 +4,7 @@
  "language": "Scala",
  "stars": 18964,
  "description": "♞ lichess.org: the forever free, adless and open source chess server ♞",
- "visitedAt": "2026-11-21T02:20:11.484Z",
+ "visitedAt": "2026-11-28T03:56:10.914Z",
  "issues": [
   {
    "number": 12866,
@@ -63,24 +63,6 @@
     "https://github.com/lichess-org/lila/issues/12926",
     "https://github.com/lichess-org/lila/wiki/Lichess-Development-Onboarding",
     "https://github.com/lichess-org/lila/blob/HEAD/CONTRIBUTING.md"
-   ]
-  },
-  {
-   "number": 14116,
-   "title": "\"Practice with computer\" defaults the player to white (and computer to black) in Racing Kings games",
-   "url": "https://github.com/lichess-org/lila/issues/14116",
-   "labels": [
-    "bug",
-    "good first issue",
-    "no scala"
-   ],
-   "updatedAt": "2026-11-02T17:46:45Z",
-   "checkedAt": "2026-11-13T22:40:39.276Z",
-   "verdict": "discard",
-   "reason": "PR #20864 by @danielvirin is already open against this issue",
-   "evidence": [
-    "https://github.com/lichess-org/lila/pulls?q=is%3Apr+is%3Amerged",
-    "https://github.com/lichess-org/lila/pull/20864"
    ]
   },
   {
